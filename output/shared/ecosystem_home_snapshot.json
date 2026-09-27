@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-09-20",
+  "generated_at": "2026-09-26",
   "contributors_tracked": 7632,
   "window_reference": {
-    "anchor_timestamp": "2026-09-20T23:59:59.889150+00:00",
-    "current_window_start": "2026-08-21T23:59:59.889150+00:00",
-    "previous_window_start": "2026-07-22T23:59:59.889150+00:00",
+    "anchor_timestamp": "2026-09-26T23:59:59.417671+00:00",
+    "current_window_start": "2026-08-27T23:59:59.417671+00:00",
+    "previous_window_start": "2026-07-28T23:59:59.417671+00:00",
     "window_days": 30
   },
   "widgets": {
     "active_contributors_30d": {
-      "value": 114,
+      "value": 119,
       "previous_30d": 73,
-      "delta_30d": 41,
+      "delta_30d": 46,
       "window_days": 30,
       "definition": "Contributors with global_last_active in current 30-day window, compared to the previous 30-day window.",
       "latest_activity_date": "2026-09-21"
@@ -21,39 +21,39 @@
       "definition": "Top reviewers by unique PRs reviewed in current 30-day window (comments/reviews only), with previous 30-day comparison.",
       "items": [
         {
-          "uuid": "auto_sebastian_kung",
-          "display_name": "Sebastian Kung",
-          "reviews_30d": 146,
-          "previous_30d": 130,
-          "delta_30d": 16
+          "uuid": "can_mark_erhardt",
+          "display_name": "Mark Erhardt",
+          "reviews_30d": 47,
+          "previous_30d": 27,
+          "delta_30d": 20
         },
         {
-          "uuid": "can_marcofalke",
-          "display_name": "MarcoFalke",
-          "reviews_30d": 83,
-          "previous_30d": 96,
+          "uuid": "can_jon_atack",
+          "display_name": "Jon Atack",
+          "reviews_30d": 18,
+          "previous_30d": 31,
           "delta_30d": -13
         },
         {
-          "uuid": "auto_jean_pablo",
-          "display_name": "Jean Pablo",
-          "reviews_30d": 65,
-          "previous_30d": 39,
-          "delta_30d": 26
+          "uuid": "can_sebastian_falbesoner",
+          "display_name": "Sebastian Falbesoner",
+          "reviews_30d": 6,
+          "previous_30d": 1,
+          "delta_30d": 5
         },
         {
-          "uuid": "can_michael_ford",
-          "display_name": "Michael Ford",
-          "reviews_30d": 57,
-          "previous_30d": 79,
-          "delta_30d": -22
+          "uuid": "can_sjors_provoost",
+          "display_name": "Sjors Provoost",
+          "reviews_30d": 6,
+          "previous_30d": 2,
+          "delta_30d": 4
         },
         {
-          "uuid": "can_hennadii_stepanov",
-          "display_name": "Hennadii Stepanov",
-          "reviews_30d": 52,
-          "previous_30d": 60,
-          "delta_30d": -8
+          "uuid": "auto_ferdinando_m_ametrano",
+          "display_name": "Ferdinando M. Ametrano",
+          "reviews_30d": 6,
+          "previous_30d": 3,
+          "delta_30d": 3
         }
       ],
       "aliases_collapsed": 0
@@ -63,31 +63,31 @@
       "definition": "Most-mentioned BIPs in current 30-day discussion window versus previous 30-day baseline.",
       "items": [
         {
-          "bip_id": "360",
-          "title": "Pay-to-Merkle-Root (P2MR)",
-          "primary_author": "Hunter Beast",
-          "primary_author_uuid": "auto_hunter_beast",
-          "mentions_30d": 45,
-          "previous_30d": 23,
-          "delta_30d": 22
+          "bip_id": "324",
+          "title": "Version 2 P2P Encrypted Transport Protocol",
+          "primary_author": "Dhruv Mehta",
+          "primary_author_uuid": "auto_dhruv_mehta",
+          "mentions_30d": 4,
+          "previous_30d": 1,
+          "delta_30d": 3
         },
         {
-          "bip_id": "54",
-          "title": "Consensus Cleanup",
-          "primary_author": "Antoine Poinsot",
-          "primary_author_uuid": "can_antoine_poinsot",
-          "mentions_30d": 19,
+          "bip_id": "329",
+          "title": "Wallet Labels Export Format",
+          "primary_author": "Craig Raw",
+          "primary_author_uuid": "auto_craig_raw",
+          "mentions_30d": 2,
           "previous_30d": 0,
-          "delta_30d": 19
+          "delta_30d": 2
         },
         {
-          "bip_id": "361",
-          "title": "Post Quantum Migration and Legacy Signature Sunset",
-          "primary_author": "Jameson Lopp",
-          "primary_author_uuid": "can_jameson_lopp",
-          "mentions_30d": 11,
-          "previous_30d": 0,
-          "delta_30d": 11
+          "bip_id": "459",
+          "title": "BIP 459",
+          "primary_author": "Unknown",
+          "primary_author_uuid": null,
+          "mentions_30d": 1,
+          "previous_30d": 1,
+          "delta_30d": 0
         }
       ]
     },
@@ -98,64 +98,64 @@
       "prs": 6
     },
     "research_activity_30d": {
-      "messages_30d": 183,
-      "previous_30d": 198,
-      "delta_30d": -15,
-      "momentum": "steady",
+      "messages_30d": 32,
+      "previous_30d": 60,
+      "delta_30d": -28,
+      "momentum": "cooling",
       "definition": "Combined Delving Bitcoin and mailing list discussion volume in current 30 days versus previous 30 days."
     },
     "discussion_voices_30d": {
-      "value": 53,
-      "previous_30d": 72,
-      "delta_30d": -19,
-      "messages_30d": 183,
-      "messages_previous_30d": 198
+      "value": 19,
+      "previous_30d": 33,
+      "delta_30d": -14,
+      "messages_30d": 32,
+      "messages_previous_30d": 60
     },
     "topic_momentum_30d": {
       "window_days": 30,
       "definition": "Most active research topics in current 30-day discussion window versus previous 30-day baseline.",
       "items": [
         {
-          "topic": "quantum",
-          "label": "Quantum",
-          "mentions_30d": 50,
-          "previous_30d": 30,
-          "delta_30d": 20
+          "topic": "signatures-sighash",
+          "label": "Signatures Sighash",
+          "mentions_30d": 5,
+          "previous_30d": 1,
+          "delta_30d": 4
         },
         {
-          "topic": "consensus-cleanup",
-          "label": "Consensus Cleanup",
-          "mentions_30d": 19,
-          "previous_30d": 0,
-          "delta_30d": 19
-        },
-        {
-          "topic": "wallet-keys",
-          "label": "Wallet Keys",
-          "mentions_30d": 16,
-          "previous_30d": 4,
-          "delta_30d": 12
-        },
-        {
-          "topic": "utxo-sync",
-          "label": "Utxo Sync",
-          "mentions_30d": 14,
-          "previous_30d": 11,
+          "topic": "core-dev",
+          "label": "Core Dev",
+          "mentions_30d": 5,
+          "previous_30d": 2,
           "delta_30d": 3
         },
         {
-          "topic": "bitvm",
-          "label": "Bitvm",
-          "mentions_30d": 10,
-          "previous_30d": 1,
-          "delta_30d": 9
+          "topic": "quantum",
+          "label": "Quantum",
+          "mentions_30d": 4,
+          "previous_30d": 9,
+          "delta_30d": -5
+        },
+        {
+          "topic": "p2p-network",
+          "label": "P2P Network",
+          "mentions_30d": 3,
+          "previous_30d": 0,
+          "delta_30d": 3
+        },
+        {
+          "topic": "taproot",
+          "label": "Taproot",
+          "mentions_30d": 3,
+          "previous_30d": 3,
+          "delta_30d": 0
         }
       ]
     },
     "active_contributors_7d": {
-      "value": 66,
-      "previous_7d": 17,
-      "delta_7d": 49,
+      "value": 22,
+      "previous_7d": 63,
+      "delta_7d": -41,
       "window_days": 7,
       "definition": "Contributors with global_last_active in current 7-day window, compared to the previous 7-day window.",
       "latest_activity_date": "2026-09-21"
@@ -165,39 +165,39 @@
       "definition": "Top reviewers by unique PRs reviewed in current 7-day window (comments/reviews only), with previous 7-day comparison.",
       "items": [
         {
-          "uuid": "auto_sebastian_kung",
-          "display_name": "Sebastian Kung",
-          "reviews_7d": 50,
-          "previous_7d": 44,
-          "delta_7d": 6
+          "uuid": "can_mark_erhardt",
+          "display_name": "Mark Erhardt",
+          "reviews_7d": 19,
+          "previous_7d": 8,
+          "delta_7d": 11
         },
         {
-          "uuid": "can_marcofalke",
-          "display_name": "MarcoFalke",
-          "reviews_7d": 31,
+          "uuid": "can_jon_atack",
+          "display_name": "Jon Atack",
+          "reviews_7d": 12,
+          "previous_7d": 5,
+          "delta_7d": 7
+        },
+        {
+          "uuid": "can_sjors_provoost",
+          "display_name": "Sjors Provoost",
+          "reviews_7d": 5,
           "previous_7d": 0,
-          "delta_7d": 31
+          "delta_7d": 5
         },
         {
-          "uuid": "auto_woltx",
-          "display_name": "woltx",
-          "reviews_7d": 19,
-          "previous_7d": 10,
-          "delta_7d": 9
+          "uuid": "can_ava_chow",
+          "display_name": "Ava Chow",
+          "reviews_7d": 5,
+          "previous_7d": 0,
+          "delta_7d": 5
         },
         {
-          "uuid": "can_michael_ford",
-          "display_name": "Michael Ford",
-          "reviews_7d": 19,
-          "previous_7d": 26,
-          "delta_7d": -7
-        },
-        {
-          "uuid": "auto_will_clark",
-          "display_name": "Will Clark",
-          "reviews_7d": 17,
-          "previous_7d": 15,
-          "delta_7d": 2
+          "uuid": "auto_pythcoiner",
+          "display_name": "pythcoiner",
+          "reviews_7d": 4,
+          "previous_7d": 0,
+          "delta_7d": 4
         }
       ],
       "aliases_collapsed": 0
@@ -207,31 +207,22 @@
       "definition": "Most-mentioned BIPs in current 7-day discussion window versus previous 7-day baseline.",
       "items": [
         {
-          "bip_id": "54",
-          "title": "Consensus Cleanup",
-          "primary_author": "Antoine Poinsot",
-          "primary_author_uuid": "can_antoine_poinsot",
-          "mentions_7d": 19,
+          "bip_id": "324",
+          "title": "Version 2 P2P Encrypted Transport Protocol",
+          "primary_author": "Dhruv Mehta",
+          "primary_author_uuid": "auto_dhruv_mehta",
+          "mentions_7d": 3,
+          "previous_7d": 1,
+          "delta_7d": 2
+        },
+        {
+          "bip_id": "459",
+          "title": "BIP 459",
+          "primary_author": "Unknown",
+          "primary_author_uuid": null,
+          "mentions_7d": 1,
           "previous_7d": 0,
-          "delta_7d": 19
-        },
-        {
-          "bip_id": "360",
-          "title": "Pay-to-Merkle-Root (P2MR)",
-          "primary_author": "Hunter Beast",
-          "primary_author_uuid": "auto_hunter_beast",
-          "mentions_7d": 17,
-          "previous_7d": 11,
-          "delta_7d": 6
-        },
-        {
-          "bip_id": "361",
-          "title": "Post Quantum Migration and Legacy Signature Sunset",
-          "primary_author": "Jameson Lopp",
-          "primary_author_uuid": "can_jameson_lopp",
-          "mentions_7d": 7,
-          "previous_7d": 2,
-          "delta_7d": 5
+          "delta_7d": 1
         }
       ]
     },
@@ -242,57 +233,43 @@
       "prs": 6
     },
     "research_activity_7d": {
-      "messages_7d": 66,
-      "previous_7d": 35,
-      "delta_7d": 31,
-      "momentum": "rising",
+      "messages_7d": 7,
+      "previous_7d": 10,
+      "delta_7d": -3,
+      "momentum": "cooling",
       "definition": "Combined Delving Bitcoin and mailing list discussion volume in current 7 days versus previous 7 days."
     },
     "discussion_voices_7d": {
-      "value": 24,
-      "previous_7d": 18,
-      "delta_7d": 6,
-      "messages_7d": 66,
-      "messages_previous_7d": 35
+      "value": 6,
+      "previous_7d": 8,
+      "delta_7d": -2,
+      "messages_7d": 7,
+      "messages_previous_7d": 10
     },
     "topic_momentum_7d": {
       "window_days": 7,
       "definition": "Most active research topics in current 7-day discussion window versus previous 7-day baseline.",
       "items": [
         {
-          "topic": "consensus-cleanup",
-          "label": "Consensus Cleanup",
-          "mentions_7d": 19,
-          "previous_7d": 0,
-          "delta_7d": 19
-        },
-        {
           "topic": "quantum",
           "label": "Quantum",
-          "mentions_7d": 18,
-          "previous_7d": 11,
-          "delta_7d": 7
-        },
-        {
-          "topic": "wallet-keys",
-          "label": "Wallet Keys",
-          "mentions_7d": 12,
-          "previous_7d": 1,
-          "delta_7d": 11
-        },
-        {
-          "topic": "bitvm",
-          "label": "Bitvm",
-          "mentions_7d": 4,
-          "previous_7d": 3,
-          "delta_7d": 1
+          "mentions_7d": 3,
+          "previous_7d": 0,
+          "delta_7d": 3
         },
         {
           "topic": "p2p-network",
           "label": "P2P Network",
           "mentions_7d": 2,
-          "previous_7d": 0,
-          "delta_7d": 2
+          "previous_7d": 1,
+          "delta_7d": 1
+        },
+        {
+          "topic": "core-dev",
+          "label": "Core Dev",
+          "mentions_7d": 1,
+          "previous_7d": 2,
+          "delta_7d": -1
         }
       ]
     },
@@ -300,29 +277,29 @@
       "definition": "Random selection of top retired contributors by impact score to feature as ecosystem veterans.",
       "items": [
         {
-          "uuid": "can_omar_shibli",
-          "display_name": "Omar Shibli",
-          "impact_score": 23.0
+          "uuid": "can_chris_moore",
+          "display_name": "Chris Moore",
+          "impact_score": 58.0
         },
         {
-          "uuid": "auto_thomas_kerin",
-          "display_name": "Thomas Kerin",
-          "impact_score": 41.0
+          "uuid": "auto_chris_priest",
+          "display_name": "chris priest",
+          "impact_score": 25.0
         },
         {
-          "uuid": "auto_dagur_valberg_johannsson",
-          "display_name": "dagur valberg johannsson",
-          "impact_score": 23.0
+          "uuid": "auto_elliott_jin",
+          "display_name": "elliott jin",
+          "impact_score": 26.0
         },
         {
-          "uuid": "auto_chun_kuan_lee",
-          "display_name": "Chun Kuan Lee",
-          "impact_score": 27.0
+          "uuid": "auto_giuseppe_mazzotta",
+          "display_name": "Giuseppe Mazzotta",
+          "impact_score": 24.0
         },
         {
-          "uuid": "can_shaolin_fry",
-          "display_name": "Shaolin Fry",
-          "impact_score": 42.0
+          "uuid": "can_aaron_voisine",
+          "display_name": "Aaron Voisine",
+          "impact_score": 44.0
         }
       ]
     }
@@ -341,13 +318,13 @@
     ]
   },
   "sources": {
-    "registry_index": "C:\\Users\\Saurabh\\Desktop\\work-windows\\github\\orange-dev-data\\output\\shared\\contributors\\registry_index.json",
+    "registry_index": "C:\\Users\\14087\\saurabh\\dev\\github\\orange-dev-data\\output\\shared\\contributors\\registry_index.json",
     "review_events": [
-      "C:\\Users\\Saurabh\\Desktop\\work-windows\\github\\orange-dev-data\\data\\raw\\github_review_events.parquet",
-      "C:\\Users\\Saurabh\\Desktop\\work-windows\\github\\orange-dev-data\\data\\raw\\bips_review_events.parquet"
+      "C:\\Users\\14087\\saurabh\\dev\\github\\orange-dev-data\\data\\raw\\github_review_events.parquet",
+      "C:\\Users\\14087\\saurabh\\dev\\github\\orange-dev-data\\data\\raw\\bips_review_events.parquet"
     ],
-    "social_combined": "C:\\Users\\Saurabh\\Desktop\\work-windows\\github\\orange-dev-data\\data\\raw\\social_combined.parquet",
-    "social_threads": "C:\\Users\\Saurabh\\Desktop\\work-windows\\github\\orange-dev-data\\data\\enriched\\social_threads.parquet",
-    "bips_ui": "C:\\Users\\Saurabh\\Desktop\\work-windows\\github\\orange-dev-data\\output\\tracker\\bips_ui.json"
+    "social_combined": "C:\\Users\\14087\\saurabh\\dev\\github\\orange-dev-data\\data\\raw\\social_combined.parquet",
+    "social_threads": "C:\\Users\\14087\\saurabh\\dev\\github\\orange-dev-data\\data\\enriched\\social_threads.parquet",
+    "bips_ui": "C:\\Users\\14087\\saurabh\\dev\\github\\orange-dev-data\\output\\tracker\\bips_ui.json"
   }
 }

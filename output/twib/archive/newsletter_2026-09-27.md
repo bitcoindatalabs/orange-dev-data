@@ -1,0 +1,62 @@
+# 📰 This Week in Bitcoin (2026-09-21 to 2026-09-27)
+
+## 📌 The TL;DR
+- Intense focus on quantum resistance strategies, particularly regarding a post-quantum path for BIP 324 and broader proposals for quantum-secure asset migration and verification.
+- Continued development and refinement of BIP 324 (v2 P2P encryption), including specific implementation details like message type ID assignments.
+
+## 🚢 Core Code (Merged This Week)
+The most critical pull requests merged into Bitcoin Core, ordered by community review activity.
+
+*No major merges this week.*
+
+## 🔍 Under Review (Hot PRs)
+The most actively discussed and reviewed open pull requests right now.
+
+*No hot PRs this week.*
+
+## 🗓️ Dev Meeting
+Summary of the core dev IRC meeting on 2026-09-24 with 24 participants.
+
+- Fuzzing Working Group: dergoegge announced his departure from full-time contribution, with his projects and security contact responsibilities transitioning to Brink's Marco (marcofleon) and Eugene (eugenesiegel). dergoegge will open PRs to update security contacts.
+- QML GUI Working Group: johnny9dev reported ongoing work on design, issue resolution, and staging, with no significant updates this week.
+- 32.0 Release Candidate Testing: sedited announced the availability of 32.0rc2 binaries for community testing. The umbrella issue #36315 provides links to the proposed release notes and testing guide. Additional pull requests are being backported for milestone 84.
+
+**Action Items:**
+- Community members are requested to test the 32.0rc2 binaries, using issue #36315 for tracking feedback and referring to the linked release notes and testing guide.
+- dergoegge will open PRs to remove himself as a security contact by the end of the week.
+
+## 🗣️ Research & Governance
+Top active threads across mailing lists and research forums.
+
+### [Re: [bitcoindev] A Post-Quantum Path for BIP 324](https://gnusha.org/pi/bitcoindev/CAO3Pvs_+orjc1mbEVSpOpCApy1SjuGH+yhRfJX2aGB6ZZ0hAyg@mail.gmail.com)
+**Source:** Mailing List | **Started By:** {'username': 'Olaoluwa Osuntokun', 'uuid': 'can_olaoluwa_osuntokun'} | **Messages:** 1
+> Developers are exploring if new, advanced cryptographic methods can make it significantly harder to track users or censor transactions, enhancing privacy and resistance to surveillance.
+
+**Technical Details:** The discussion evaluates the practical privacy benefits of Compact Round-Trip Quantum-Resistant Cryptography (CRQC) against fingerprinting and censorship. Liam questioned if CRQC meaningfully lowers these costs, with Olaoluwa suggesting quantum attacks like Shor's algorithm are unlikely to be cheaper than classical timing analysis for such purposes. This highlights an architectural debate on the incremental privacy value of quantum-resistant schemes for side-channel resistance versus focusing on existing classical attack vectors, requiring further cost-benefit analysis.
+
+### [Re: [bitcoindev] Re: [BIP Proposal] No burn, Quantum Migration
+ Proposal, Quantum Secure Asset Verification & Escrow (QSAVE)](https://gnusha.org/pi/bitcoindev/48b51073-e3d5-4875-a16d-216fb12fa7fcn@googlegroups.com)
+**Source:** Mailing List | **Started By:** {'username': "'James T' via Bitcoin Development Mailing List", 'uuid': 'auto_james_t'} | **Messages:** 1
+> Bitcoin developers are proactively discussing the network's long-term security, exploring how it could adapt to future technological advancements like quantum computing to ensure its continued resilience.
+
+**Technical Details:** The discussion revisits historical concerns regarding the long-term cryptographic security of Bitcoin, specifically the resilience of SHA256 against future quantum computing threats. While quantum computers were initially a distant thought, it was acknowledged that a 'chain rewrite' – implying a significant protocol upgrade or hard fork – might be necessary under certain circumstances to replace compromised cryptographic primitives. This raises architectural questions about the feasibility, coordination, and implications of such a fundamental network transformation to maintain security.
+
+### [Re: [bitcoindev] [BIP Proposal] BIP324 One-Byte Message Type ID Alias Assignment](https://gnusha.org/pi/bitcoindev/arRwjJaraiHdYX8L@erisian.com.au)
+**Source:** Mailing List | **Started By:** {'username': 'Anthony Towns', 'uuid': 'can_anthony_towns'} | **Messages:** 1
+> Developers are discussing a new proposal to refine how Bitcoin nodes communicate, aiming to improve network interactions and efficiency.
+
+**Technical Details:** The current discussion centers on a proposal that dictates specific sending behaviors for nodes that implement it. While the exact nature of what nodes would 'send' and the architectural implications are not detailed in the provided snippet, the conversation indicates a potential change to network protocol or node communication logic. Further context is needed to understand the specific technical arguments, design choices, and implementation requirements of this proposal.
+
+### [[bitcoindev] Bitcoin Core 32.0rc2 release candidate is available](https://gnusha.org/pi/bitcoindev/465fa469-1fdf-45d9-9f8e-309ccc472bf5n@googlegroups.com)
+**Source:** Mailing List | **Started By:** {'username': 'sedited', 'uuid': 'auto_sebastian_kung'} | **Messages:** 1
+> The latest release candidate for Bitcoin Core, v32.0rc2, is now available for community testing. This crucial step helps ensure the next stable version of Bitcoin's foundational software is robust and secure for all users.
+
+**Technical Details:** Bitcoin Core v32.0rc2 binaries have been released and are available for download, alongside the signed source code tag on GitHub. This release candidate is critical for comprehensive community testing to identify and address any remaining bugs or regressions before the final v32.0 stable release. Developers and advanced users are strongly encouraged to test this RC, providing valuable feedback to validate the stability, security, and performance of new features and bug fixes integrated into this version. The primary objective is thorough validation to ensure a high-quality production release.
+
+### [[bitcoindev] Convention for tagged hash tags in BIPs](https://gnusha.org/pi/bitcoindev/dxapm4DOcrDL6_oCYSqBAdFP0fAQA9IHInRzzTuCeWVYD2Xd0ynPsTa8hYEcRFOYQPnvoQK15TtK6oAZBfa-4b5DbIuFemSFGVifxGTLOlc=@protonmail.com)
+**Source:** Mailing List | **Started By:** {'username': "'Fabian' via Bitcoin Development Mailing List", 'uuid': 'can_fabian_jahr'} | **Messages:** 1
+> To enhance clarity and consistency for future Bitcoin upgrades, developers are discussing the optimal naming conventions for new cryptographic features within the protocol.
+
+**Technical Details:** During the review of BIP 459 (DahLIAS), an architectural debate emerged regarding the naming convention for 'tagged hash tags' in cryptography BIPs. The current practice is inconsistent, with some BIPs embedding their numerical identifier while others use descriptive names. This necessitates a community decision on a standardized approach to ensure protocol coherence, prevent identifier collisions, and establish clear guidelines for future cryptographic feature integration.
+
+## 🏆 Contributor Shoutouts

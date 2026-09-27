@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T12:04:46.243614",
+  "generated_at": "2026-09-26T02:08:18.886895",
   "groups": {
     "committers": 1181,
     "reviewers": 5131,
@@ -40,30 +40,25 @@
     "title": "Trending BIP Discussions",
     "value": "BIP 70"
   },
-  "spotlight": {
-    "name": "lucasdbr05",
-    "uuid": "auto_lucasdbr05",
-    "github_login": "lucasdbr05",
-    "description": "First-time core contributor recently merged PR #36194 (kernel: expose block header Merkle root)."
-  },
+  "spotlight": null,
   "onboarding": {
-    "new_coders_90d": 25,
-    "new_coders_7d": 4,
-    "new_discussants_90d": 51,
-    "new_discussants_7d": 3,
+    "new_coders_90d": 0,
+    "new_coders_7d": 0,
+    "new_discussants_90d": 14,
+    "new_discussants_7d": 0,
     "window_days": 90
   },
   "prs": {
-    "total_merged": 16974,
-    "merged_30d": 134,
-    "merged_prev_30d": 145,
-    "merged_7d": 35,
-    "merged_prev_7d": 42
+    "total_merged": 0,
+    "merged_30d": 0,
+    "merged_prev_30d": 0,
+    "merged_7d": 0,
+    "merged_prev_7d": 0
   },
   "commits": {
-    "commits_30d": 34,
-    "commits_prev_30d": 2,
-    "commits_7d": 34,
+    "commits_30d": 0,
+    "commits_prev_30d": 0,
+    "commits_7d": 0,
     "commits_prev_7d": 0
   },
   "bips": {
@@ -75,20 +70,20 @@
       {
         "category": "quantum",
         "label": "Quantum",
-        "count": 108,
-        "share": 17.4
+        "count": 20,
+        "share": 20.2
       },
       {
-        "category": "mining",
-        "label": "Mining",
-        "count": 76,
-        "share": 12.3
+        "category": "taproot",
+        "label": "Taproot",
+        "count": 14,
+        "share": 14.1
       },
       {
-        "category": "utxo-sync",
-        "label": "Utxo Sync",
-        "count": 67,
-        "share": 10.8
+        "category": "core-dev",
+        "label": "Core Dev",
+        "count": 13,
+        "share": 13.1
       }
     ],
     "top_bips": [
