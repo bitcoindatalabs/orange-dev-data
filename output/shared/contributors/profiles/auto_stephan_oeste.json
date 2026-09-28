@@ -1,7 +1,7 @@
 {
   "display_name": "Stephan Oeste",
   "github_login_final": "Emzy",
-  "delving_username_final": "emzy",
+  "delving_username_final": null,
   "uuid": "auto_stephan_oeste",
   "badges": {
     "ecosystem_contributor": true,
@@ -91,7 +91,6 @@
   "activity_status": "Active",
   "is_top_50": false,
   "github_url": "https://github.com/Emzy",
-  "delving_url": "https://delvingbitcoin.org/u/emzy",
   "commit_history": {
     "2019": {
       "Consensus": 2.0

@@ -1,7 +1,7 @@
 {
   "display_name": "Sjors Provoost",
   "github_login_final": "Sjors",
-  "delving_username_final": "sjors",
+  "delving_username_final": null,
   "uuid": "can_sjors_provoost",
   "badges": {
     "is_maintainer": false,
@@ -105,7 +105,6 @@
   "activity_status": "Active",
   "is_top_50": false,
   "github_url": "https://github.com/Sjors",
-  "delving_url": "https://delvingbitcoin.org/u/sjors",
   "commit_history": {
     "2017": {
       "Consensus": 2.0,

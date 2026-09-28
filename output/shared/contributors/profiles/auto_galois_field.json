@@ -1,7 +1,7 @@
 {
   "display_name": "Galois Field",
   "github_login_final": null,
-  "delving_username_final": "galoisfield2718",
+  "delving_username_final": null,
   "uuid": "auto_galois_field",
   "badges": null,
   "roles": null,
@@ -91,7 +91,6 @@
   "github_followers": null,
   "activity_status": "New",
   "is_top_50": false,
-  "delving_url": "https://delvingbitcoin.org/u/galoisfield2718",
   "first_message": {
     "source": "mailing_list",
     "subject": "Re: [bitcoindev] Re: The Cat, BIP draft discussion.",

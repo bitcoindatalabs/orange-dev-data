@@ -1,7 +1,7 @@
 {
   "display_name": "Abubakar Sadiq Ismail",
   "github_login_final": "ismaelsadeeq",
-  "delving_username_final": "ismaelsadeeq",
+  "delving_username_final": null,
   "uuid": "can_abubakar_sadiq_ismail",
   "badges": {
     "ecosystem_contributor": true,
@@ -98,7 +98,6 @@
   "activity_status": "Active",
   "is_top_50": false,
   "github_url": "https://github.com/ismaelsadeeq",
-  "delving_url": "https://delvingbitcoin.org/u/ismaelsadeeq",
   "commit_history": {
     "2023": {
       "Build & CI": 1.4,

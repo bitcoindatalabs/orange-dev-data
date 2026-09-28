@@ -1,7 +1,7 @@
 {
   "display_name": "neonrooks",
   "github_login_final": null,
-  "delving_username_final": "neonrooks",
+  "delving_username_final": null,
   "uuid": "auto_neonrooks",
   "badges": null,
   "roles": null,
@@ -87,7 +87,6 @@
   "github_followers": null,
   "activity_status": "New",
   "is_top_50": false,
-  "delving_url": "https://delvingbitcoin.org/u/neonrooks",
   "first_message": {
     "source": "mailing_list",
     "subject": "Re: [bitcoindev] Hourglass V2 Update",

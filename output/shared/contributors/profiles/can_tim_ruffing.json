@@ -1,7 +1,7 @@
 {
   "display_name": "Tim Ruffing",
   "github_login_final": "real-or-random",
-  "delving_username_final": "real-or-random",
+  "delving_username_final": null,
   "uuid": "can_tim_ruffing",
   "badges": {
     "is_maintainer": false,
@@ -116,7 +116,6 @@
   "activity_status": "Active",
   "is_top_50": false,
   "github_url": "https://github.com/real-or-random",
-  "delving_url": "https://delvingbitcoin.org/u/real-or-random",
   "commit_history": {
     "2017": {
       "Utilities": 1.0

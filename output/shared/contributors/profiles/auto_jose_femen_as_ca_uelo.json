@@ -1,5 +1,5 @@
 {
-  "display_name": "Jose Femenías Cañuelo",
+  "display_name": "auto_jose_femen_as_ca_uelo",
   "github_login_final": null,
   "delving_username_final": null,
   "uuid": "auto_jose_femen_as_ca_uelo",
@@ -66,13 +66,13 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Consensus": 0.667,
-      "Privacy": 0.333
+      "Privacy": 0.333,
+      "Consensus": 0.667
     }
   },
   "expertise_domain_scores": {
-    "Consensus": 0.667,
-    "Privacy": 0.333
+    "Privacy": 0.333,
+    "Consensus": 0.667
   },
   "p2016_posts": 9.0,
   "modern_posts": 0.0,

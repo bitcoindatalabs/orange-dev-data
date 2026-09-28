@@ -1,7 +1,7 @@
 {
-  "display_name": "Calvin Kim",
+  "display_name": "calvin kim",
   "github_login_final": "kcalvinalvin",
-  "delving_username_final": "kcalvinalvin",
+  "delving_username_final": null,
   "uuid": "auto_calvin_kim",
   "badges": {
     "is_maintainer": false,
@@ -96,7 +96,6 @@
   "activity_status": "Rising",
   "is_top_50": false,
   "github_url": "https://github.com/kcalvinalvin",
-  "delving_url": "https://delvingbitcoin.org/u/kcalvinalvin",
   "commit_history": {
     "2020": {
       "Consensus": 1.0,

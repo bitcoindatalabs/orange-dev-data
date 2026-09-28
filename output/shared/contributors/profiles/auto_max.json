@@ -1,5 +1,5 @@
 {
-  "display_name": "Max",
+  "display_name": "max",
   "github_login_final": null,
   "delving_username_final": null,
   "uuid": "auto_max",
@@ -66,13 +66,13 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Consensus": 0.67,
-      "Script": 0.33
+      "Script": 0.33,
+      "Consensus": 0.67
     }
   },
   "expertise_domain_scores": {
-    "Consensus": 0.67,
-    "Script": 0.33
+    "Script": 0.33,
+    "Consensus": 0.67
   },
   "p2016_posts": 1.0,
   "modern_posts": 1.0,

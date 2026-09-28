@@ -1,7 +1,7 @@
 {
-  "display_name": "Matt Morehouse",
+  "display_name": "matt morehouse",
   "github_login_final": null,
-  "delving_username_final": "morehouse",
+  "delving_username_final": null,
   "uuid": "auto_matt_morehouse",
   "badges": null,
   "roles": null,
@@ -66,13 +66,13 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Mempool": 0.564,
-      "L2": 0.436
+      "L2": 0.436,
+      "Mempool": 0.564
     }
   },
   "expertise_domain_scores": {
-    "Mempool": 0.564,
-    "L2": 0.436
+    "L2": 0.436,
+    "Mempool": 0.564
   },
   "p2016_posts": 5.0,
   "modern_posts": 5.0,
@@ -94,7 +94,6 @@
   "github_followers": null,
   "activity_status": "Active",
   "is_top_50": false,
-  "delving_url": "https://delvingbitcoin.org/u/morehouse",
   "first_message": {
     "source": "mailing_list",
     "subject": "Re: [bitcoin-dev] Full Disclosure: CVE-2023-40231 / CVE-2023-40232\n / CVE-2023-40233 / CVE-2023-40234 \"All your mempool are belong to us\"",

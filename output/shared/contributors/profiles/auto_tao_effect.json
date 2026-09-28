@@ -1,5 +1,5 @@
 {
-  "display_name": "Tao Effect",
+  "display_name": "tao effect",
   "github_login_final": null,
   "delving_username_final": null,
   "uuid": "auto_tao_effect",
@@ -66,13 +66,13 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Consensus": 0.686,
-      "L2": 0.314
+      "L2": 0.314,
+      "Consensus": 0.686
     }
   },
   "expertise_domain_scores": {
-    "Consensus": 0.686,
-    "L2": 0.314
+    "L2": 0.314,
+    "Consensus": 0.686
   },
   "p2016_posts": 40.0,
   "modern_posts": 2.0,

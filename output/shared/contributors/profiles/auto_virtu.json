@@ -1,7 +1,7 @@
 {
   "display_name": "virtu",
   "github_login_final": "virtu",
-  "delving_username_final": "virtu",
+  "delving_username_final": null,
   "uuid": "auto_virtu",
   "badges": null,
   "roles": null,
@@ -88,7 +88,6 @@
   "activity_status": "Active",
   "is_top_50": false,
   "github_url": "https://github.com/virtu",
-  "delving_url": "https://delvingbitcoin.org/u/virtu",
   "commit_history": {
     "2023": {
       "Consensus": 0.4,

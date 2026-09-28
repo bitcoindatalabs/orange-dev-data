@@ -1,7 +1,7 @@
 {
   "display_name": "Bruno Garcia",
   "github_login_final": "brunoerg",
-  "delving_username_final": "bruno",
+  "delving_username_final": null,
   "uuid": "can_bruno_garcia",
   "badges": {
     "is_maintainer": false,
@@ -98,7 +98,6 @@
   "activity_status": "Rising",
   "is_top_50": false,
   "github_url": "https://github.com/brunoerg",
-  "delving_url": "https://delvingbitcoin.org/u/bruno",
   "commit_history": {
     "2021": {
       "GUI": 2.0,

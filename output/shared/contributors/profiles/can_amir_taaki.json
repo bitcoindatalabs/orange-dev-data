@@ -90,8 +90,8 @@
   "expertise_domain_scores": {
     "Infrastructure": 0.4286,
     "Ecosystem": 0.1177,
-    "Network": 0.2857,
-    "Script": 0.168
+    "Script": 0.168,
+    "Network": 0.2857
   },
   "p2016_posts": 6.0,
   "modern_posts": 0.0,

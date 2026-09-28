@@ -1,7 +1,7 @@
 {
-  "display_name": "Casey Rodarmor",
+  "display_name": "casey rodarmor",
   "github_login_final": "casey",
-  "delving_username_final": "rodarmor",
+  "delving_username_final": null,
   "uuid": "auto_casey_rodarmor",
   "badges": null,
   "roles": null,
@@ -92,7 +92,6 @@
   "activity_status": "Rising",
   "is_top_50": false,
   "github_url": "https://github.com/casey",
-  "delving_url": "https://delvingbitcoin.org/u/rodarmor",
   "commit_history": {
     "2015": {
       "Build & CI": 1.67,

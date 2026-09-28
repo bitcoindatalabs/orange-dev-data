@@ -1,7 +1,7 @@
 {
   "display_name": "22388o⚡️",
   "github_login_final": "22388o",
-  "delving_username_final": "22388o",
+  "delving_username_final": null,
   "uuid": "auto_22388o",
   "badges": null,
   "roles": null,
@@ -88,7 +88,6 @@
   "activity_status": "Active",
   "is_top_50": false,
   "github_url": "https://github.com/22388o",
-  "delving_url": "https://delvingbitcoin.org/u/22388o",
   "commit_history": {
     "2024": {
       "Build & CI": 1.0,

@@ -1,5 +1,5 @@
 {
-  "display_name": "Ryan Butler",
+  "display_name": "ryan butler",
   "github_login_final": null,
   "delving_username_final": null,
   "uuid": "auto_ryan_butler",
@@ -67,15 +67,15 @@
   ],
   "expertise_by_source": {
     "discussion": {
+      "Ecosystem": 0.292,
       "Mining": 0.236,
-      "Consensus": 0.472,
-      "Ecosystem": 0.292
+      "Consensus": 0.472
     }
   },
   "expertise_domain_scores": {
+    "Ecosystem": 0.292,
     "Mining": 0.236,
-    "Consensus": 0.472,
-    "Ecosystem": 0.292
+    "Consensus": 0.472
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,

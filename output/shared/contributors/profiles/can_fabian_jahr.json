@@ -1,7 +1,7 @@
 {
   "display_name": "Fabian Jahr",
   "github_login_final": "fjahr",
-  "delving_username_final": "fjahr",
+  "delving_username_final": null,
   "uuid": "can_fabian_jahr",
   "badges": {
     "is_maintainer": false,
@@ -109,7 +109,6 @@
   "activity_status": "Active",
   "is_top_50": false,
   "github_url": "https://github.com/fjahr",
-  "delving_url": "https://delvingbitcoin.org/u/fjahr",
   "commit_history": {
     "2019": {
       "Build & CI": 1.0,

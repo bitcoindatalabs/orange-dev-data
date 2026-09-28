@@ -1,7 +1,7 @@
 {
   "display_name": "Juan Galt",
   "github_login_final": "realjuangalt",
-  "delving_username_final": "juangalt",
+  "delving_username_final": null,
   "uuid": "can_juan_galt",
   "badges": null,
   "roles": null,
@@ -92,7 +92,6 @@
   "activity_status": "Active",
   "is_top_50": false,
   "github_url": "https://github.com/realjuangalt",
-  "delving_url": "https://delvingbitcoin.org/u/juangalt",
   "first_message": {
     "source": "mailing_list",
     "subject": "Re: [bitcoindev] Re: Adding New BIP Editors",

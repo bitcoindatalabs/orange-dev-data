@@ -1,7 +1,7 @@
 {
   "display_name": "Suhas Daftuar",
   "github_login_final": "sdaftuar",
-  "delving_username_final": "sdaftuar",
+  "delving_username_final": null,
   "uuid": "can_suhas_daftuar",
   "badges": {
     "is_maintainer": false,
@@ -113,7 +113,6 @@
   "activity_status": "Active",
   "is_top_50": false,
   "github_url": "https://github.com/sdaftuar",
-  "delving_url": "https://delvingbitcoin.org/u/sdaftuar",
   "commit_history": {
     "2014": {
       "Node & RPC": 1.0,

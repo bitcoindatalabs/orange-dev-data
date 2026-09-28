@@ -1,5 +1,5 @@
 {
-  "display_name": "steve",
+  "display_name": "auto_steve",
   "github_login_final": null,
   "delving_username_final": null,
   "uuid": "auto_steve",
@@ -66,13 +66,13 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Mempool": 0.25,
-      "Ecosystem": 0.75
+      "Ecosystem": 0.75,
+      "Mempool": 0.25
     }
   },
   "expertise_domain_scores": {
-    "Mempool": 0.25,
-    "Ecosystem": 0.75
+    "Ecosystem": 0.75,
+    "Mempool": 0.25
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,

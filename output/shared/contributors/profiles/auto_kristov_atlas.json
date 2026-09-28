@@ -1,5 +1,5 @@
 {
-  "display_name": "Kristov Atlas",
+  "display_name": "kristov atlas",
   "github_login_final": "kristovatlas",
   "delving_username_final": null,
   "uuid": "auto_kristov_atlas",
@@ -88,8 +88,8 @@
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.3571,
-    "Script": 0.3571,
-    "Privacy": 0.2857
+    "Privacy": 0.2857,
+    "Script": 0.3571
   },
   "p2016_posts": 3.0,
   "modern_posts": 0.0,

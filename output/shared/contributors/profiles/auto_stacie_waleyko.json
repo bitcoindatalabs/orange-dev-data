@@ -1,7 +1,7 @@
 {
-  "display_name": "Stacie Waleyko",
+  "display_name": "stacie waleyko",
   "github_login_final": "satsie",
-  "delving_username_final": "satsie",
+  "delving_username_final": null,
   "uuid": "auto_stacie_waleyko",
   "badges": {
     "ecosystem_contributor": true,
@@ -91,7 +91,6 @@
   "activity_status": "Retired",
   "is_top_50": false,
   "github_url": "https://github.com/satsie",
-  "delving_url": "https://delvingbitcoin.org/u/satsie",
   "commit_history": {
     "2022": {
       "Build & CI": 10.0,

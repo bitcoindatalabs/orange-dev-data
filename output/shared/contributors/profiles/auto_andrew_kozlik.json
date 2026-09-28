@@ -1,7 +1,7 @@
 {
   "display_name": "Andrew Kozlik",
   "github_login_final": null,
-  "delving_username_final": "andrewkozlik",
+  "delving_username_final": null,
   "uuid": "auto_andrew_kozlik",
   "badges": null,
   "roles": null,
@@ -67,15 +67,15 @@
   ],
   "expertise_by_source": {
     "discussion": {
+      "Ecosystem": 0.143,
       "Consensus": 0.429,
-      "Wallet": 0.429,
-      "Ecosystem": 0.143
+      "Wallet": 0.429
     }
   },
   "expertise_domain_scores": {
+    "Ecosystem": 0.1429,
     "Consensus": 0.4286,
-    "Wallet": 0.4286,
-    "Ecosystem": 0.1429
+    "Wallet": 0.4286
   },
   "p2016_posts": 7.0,
   "modern_posts": 0.0,
@@ -97,7 +97,6 @@
   "github_followers": null,
   "activity_status": "",
   "is_top_50": false,
-  "delving_url": "https://delvingbitcoin.org/u/andrewkozlik",
   "first_message": {
     "source": "mailing_list",
     "subject": "[bitcoin-dev] SLIP-0039: Shamir's Secret-Sharing for Mnemonic Codes",

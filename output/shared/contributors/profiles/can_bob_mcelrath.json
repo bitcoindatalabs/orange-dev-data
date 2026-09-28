@@ -1,7 +1,7 @@
 {
   "display_name": "Bob McElrath",
   "github_login_final": "mcelrath",
-  "delving_username_final": "mcelrath",
+  "delving_username_final": null,
   "uuid": "can_bob_mcelrath",
   "badges": null,
   "roles": null,
@@ -95,7 +95,6 @@
   "activity_status": "Retired",
   "is_top_50": false,
   "github_url": "https://github.com/mcelrath",
-  "delving_url": "https://delvingbitcoin.org/u/mcelrath",
   "commit_history": {
     "2015": {
       "Utilities": 2.0

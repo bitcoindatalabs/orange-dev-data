@@ -1,7 +1,7 @@
 {
-  "display_name": "John",
+  "display_name": "john",
   "github_login_final": null,
-  "delving_username_final": "john",
+  "delving_username_final": null,
   "uuid": "auto_john",
   "badges": null,
   "roles": null,
@@ -91,7 +91,6 @@
   "github_followers": null,
   "activity_status": "Active",
   "is_top_50": false,
-  "delving_url": "https://delvingbitcoin.org/u/john",
   "first_message": {
     "source": "mailing_list",
     "subject": "[bitcoindev] Transaction Validation Optimization",

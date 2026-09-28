@@ -1,7 +1,7 @@
 {
-  "display_name": "matthew black",
+  "display_name": "Matthew Black",
   "github_login_final": null,
-  "delving_username_final": "matthewjablack",
+  "delving_username_final": null,
   "uuid": "auto_matthew_black",
   "badges": {
     "is_maintainer": false,
@@ -79,8 +79,8 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Consensus": 0.33,
-      "L2": 0.67
+      "L2": 0.67,
+      "Consensus": 0.33
     },
     "bips": {
       "Infrastructure": 1.0
@@ -88,8 +88,8 @@
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.7143,
-    "Consensus": 0.0943,
-    "L2": 0.1914
+    "L2": 0.1914,
+    "Consensus": 0.0943
   },
   "p2016_posts": 1.0,
   "modern_posts": 0.0,
@@ -111,7 +111,6 @@
   "github_followers": null,
   "activity_status": "",
   "is_top_50": false,
-  "delving_url": "https://delvingbitcoin.org/u/matthewjablack",
   "bip_list": [
     {
       "number": 197,

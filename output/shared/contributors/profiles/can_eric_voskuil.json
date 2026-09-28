@@ -1,7 +1,7 @@
 {
   "display_name": "Eric Voskuil",
   "github_login_final": "evoskuil",
-  "delving_username_final": "evoskuil",
+  "delving_username_final": null,
   "uuid": "can_eric_voskuil",
   "badges": null,
   "roles": null,
@@ -95,7 +95,6 @@
   "activity_status": "Rising",
   "is_top_50": false,
   "github_url": "https://github.com/evoskuil",
-  "delving_url": "https://delvingbitcoin.org/u/evoskuil",
   "commit_history": {
     "2014": {
       "Utilities": 1.0

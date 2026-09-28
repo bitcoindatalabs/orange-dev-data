@@ -1,5 +1,5 @@
 {
-  "display_name": "Chris Wardell",
+  "display_name": "chris wardell",
   "github_login_final": null,
   "delving_username_final": null,
   "uuid": "auto_chris_wardell",
@@ -68,14 +68,14 @@
   "expertise_by_source": {
     "discussion": {
       "Mining": 0.08,
-      "Consensus": 0.77,
-      "Script": 0.149
+      "Script": 0.149,
+      "Consensus": 0.77
     }
   },
   "expertise_domain_scores": {
     "Mining": 0.0801,
-    "Consensus": 0.7708,
-    "Script": 0.1491
+    "Script": 0.1491,
+    "Consensus": 0.7708
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,

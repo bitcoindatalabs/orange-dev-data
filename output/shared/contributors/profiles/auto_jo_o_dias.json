@@ -1,7 +1,7 @@
 {
-  "display_name": "João Dias",
+  "display_name": "joão dias",
   "github_login_final": "jaonoctus",
-  "delving_username_final": "jaonoctus",
+  "delving_username_final": null,
   "uuid": "auto_jo_o_dias",
   "badges": null,
   "roles": null,
@@ -87,6 +87,5 @@
   "github_followers": 198.0,
   "activity_status": "Active",
   "is_top_50": false,
-  "github_url": "https://github.com/jaonoctus",
-  "delving_url": "https://delvingbitcoin.org/u/jaonoctus"
+  "github_url": "https://github.com/jaonoctus"
 }

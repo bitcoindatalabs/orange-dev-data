@@ -1,7 +1,7 @@
 {
   "display_name": "Pierre Rochard",
   "github_login_final": "PierreRochard",
-  "delving_username_final": "pierrerochard",
+  "delving_username_final": null,
   "uuid": "auto_pierre_rochard",
   "badges": null,
   "roles": null,
@@ -88,7 +88,6 @@
   "activity_status": "Retired",
   "is_top_50": false,
   "github_url": "https://github.com/PierreRochard",
-  "delving_url": "https://delvingbitcoin.org/u/pierrerochard",
   "commit_history": {
     "2017": {
       "Wallet": 4.0

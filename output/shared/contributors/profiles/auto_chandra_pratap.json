@@ -1,7 +1,7 @@
 {
   "display_name": "Chandra Pratap",
   "github_login_final": "Chand-ra",
-  "delving_username_final": "chand-ra",
+  "delving_username_final": null,
   "uuid": "auto_chandra_pratap",
   "badges": null,
   "roles": null,
@@ -88,7 +88,6 @@
   "activity_status": "Active",
   "is_top_50": false,
   "github_url": "https://github.com/Chand-ra",
-  "delving_url": "https://delvingbitcoin.org/u/chand-ra",
   "commit_history": {
     "2025": {
       "Tests": 6.0

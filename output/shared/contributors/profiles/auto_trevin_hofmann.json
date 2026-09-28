@@ -1,5 +1,5 @@
 {
-  "display_name": "Trevin Hofmann",
+  "display_name": "trevin hofmann",
   "github_login_final": "trevinhofmann",
   "delving_username_final": null,
   "uuid": "auto_trevin_hofmann",
@@ -67,15 +67,15 @@
   ],
   "expertise_by_source": {
     "discussion": {
+      "Ecosystem": 0.246,
       "Mining": 0.508,
-      "Consensus": 0.246,
-      "Ecosystem": 0.246
+      "Consensus": 0.246
     }
   },
   "expertise_domain_scores": {
+    "Ecosystem": 0.246,
     "Mining": 0.508,
-    "Consensus": 0.246,
-    "Ecosystem": 0.246
+    "Consensus": 0.246
   },
   "p2016_posts": 3.0,
   "modern_posts": 0.0,

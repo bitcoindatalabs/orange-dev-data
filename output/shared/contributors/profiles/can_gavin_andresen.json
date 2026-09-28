@@ -85,22 +85,22 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Consensus": 0.577,
-      "Ecosystem": 0.423
+      "Ecosystem": 0.423,
+      "Consensus": 0.577
     },
     "bips": {
+      "Consensus": 0.417,
       "Infrastructure": 0.167,
-      "Script": 0.083,
       "Network": 0.333,
-      "Consensus": 0.417
+      "Script": 0.083
     }
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.1193,
-    "Consensus": 0.4627,
     "Ecosystem": 0.1209,
-    "Network": 0.2379,
-    "Script": 0.0593
+    "Script": 0.0593,
+    "Consensus": 0.4627,
+    "Network": 0.2379
   },
   "p2016_posts": 25.0,
   "modern_posts": 0.0,

@@ -1,5 +1,5 @@
 {
-  "display_name": "Nick Pudar",
+  "display_name": "nick pudar",
   "github_login_final": null,
   "delving_username_final": null,
   "uuid": "auto_nick_pudar",
@@ -67,15 +67,15 @@
   ],
   "expertise_by_source": {
     "discussion": {
+      "Ecosystem": 0.194,
       "Mining": 0.403,
-      "Consensus": 0.403,
-      "Ecosystem": 0.194
+      "Consensus": 0.403
     }
   },
   "expertise_domain_scores": {
+    "Ecosystem": 0.194,
     "Mining": 0.403,
-    "Consensus": 0.403,
-    "Ecosystem": 0.194
+    "Consensus": 0.403
   },
   "p2016_posts": 2.0,
   "modern_posts": 0.0,

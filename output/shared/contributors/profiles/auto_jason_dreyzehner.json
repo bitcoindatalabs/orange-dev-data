@@ -1,5 +1,5 @@
 {
-  "display_name": "Jason Dreyzehner",
+  "display_name": "jason dreyzehner",
   "github_login_final": "bitjson",
   "delving_username_final": null,
   "uuid": "auto_jason_dreyzehner",
@@ -66,13 +66,13 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Consensus": 0.75,
-      "Script": 0.25
+      "Script": 0.25,
+      "Consensus": 0.75
     }
   },
   "expertise_domain_scores": {
-    "Consensus": 0.75,
-    "Script": 0.25
+    "Script": 0.25,
+    "Consensus": 0.75
   },
   "p2016_posts": 1.0,
   "modern_posts": 0.0,

@@ -1,7 +1,7 @@
 {
   "display_name": "Ava Chow",
   "github_login_final": "achow101",
-  "delving_username_final": "achow101",
+  "delving_username_final": null,
   "uuid": "can_ava_chow",
   "badges": {
     "is_maintainer": true,
@@ -87,23 +87,23 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Wallet": 0.771,
-      "Ecosystem": 0.229
+      "Ecosystem": 0.229,
+      "Wallet": 0.771
     },
     "bips": {
+      "Consensus": 0.167,
       "Infrastructure": 0.278,
       "Privacy": 0.056,
-      "Script": 0.5,
-      "Consensus": 0.167
+      "Script": 0.5
     }
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.1984,
-    "Consensus": 0.1192,
-    "Wallet": 0.2201,
     "Ecosystem": 0.0654,
+    "Privacy": 0.04,
     "Script": 0.3569,
-    "Privacy": 0.04
+    "Consensus": 0.1192,
+    "Wallet": 0.2201
   },
   "p2016_posts": 128.0,
   "modern_posts": 42.0,
@@ -126,7 +126,6 @@
   "activity_status": "Active",
   "is_top_50": false,
   "github_url": "https://github.com/achow101",
-  "delving_url": "https://delvingbitcoin.org/u/achow101",
   "commit_history": {
     "2016": {
       "Documentation": 3.0,

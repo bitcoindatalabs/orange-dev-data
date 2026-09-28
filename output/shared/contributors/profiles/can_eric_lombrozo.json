@@ -83,16 +83,16 @@
       "Consensus": 0.64
     },
     "bips": {
+      "Consensus": 0.5,
       "Infrastructure": 0.333,
-      "Script": 0.167,
-      "Consensus": 0.5
+      "Script": 0.167
     }
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.2379,
     "Mempool": 0.1029,
-    "Consensus": 0.54,
-    "Script": 0.1193
+    "Script": 0.1193,
+    "Consensus": 0.54
   },
   "p2016_posts": 12.0,
   "modern_posts": 0.0,

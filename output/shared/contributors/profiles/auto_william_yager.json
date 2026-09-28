@@ -1,5 +1,5 @@
 {
-  "display_name": "William Yager",
+  "display_name": "william yager",
   "github_login_final": "wyager",
   "delving_username_final": null,
   "uuid": "auto_william_yager",
@@ -66,13 +66,13 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Wallet": 0.654,
-      "Ecosystem": 0.346
+      "Ecosystem": 0.346,
+      "Wallet": 0.654
     }
   },
   "expertise_domain_scores": {
-    "Wallet": 0.654,
-    "Ecosystem": 0.346
+    "Ecosystem": 0.346,
+    "Wallet": 0.654
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,

@@ -68,14 +68,14 @@
   "expertise_by_source": {
     "discussion": {
       "Mining": 0.246,
-      "Network": 0.377,
-      "Privacy": 0.377
+      "Privacy": 0.377,
+      "Network": 0.377
     }
   },
   "expertise_domain_scores": {
     "Mining": 0.246,
-    "Network": 0.377,
-    "Privacy": 0.377
+    "Privacy": 0.377,
+    "Network": 0.377
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,

@@ -1,7 +1,7 @@
 {
-  "display_name": "Duncan Dean",
+  "display_name": "duncan dean",
   "github_login_final": "dunxen",
-  "delving_username_final": "dunxen",
+  "delving_username_final": null,
   "uuid": "auto_duncan_dean",
   "badges": {
     "ecosystem_contributor": true,
@@ -91,7 +91,6 @@
   "activity_status": "Retired",
   "is_top_50": false,
   "github_url": "https://github.com/dunxen",
-  "delving_url": "https://delvingbitcoin.org/u/dunxen",
   "commit_history": {
     "2020": {
       "Build & CI": 1.0,

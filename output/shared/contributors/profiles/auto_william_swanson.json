@@ -78,16 +78,16 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Wallet": 0.746,
-      "Script": 0.254
+      "Script": 0.254,
+      "Wallet": 0.746
     },
     "bips": {
       "Script": 1.0
     }
   },
   "expertise_domain_scores": {
-    "Wallet": 0.2131,
-    "Script": 0.7869
+    "Script": 0.7869,
+    "Wallet": 0.2131
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,

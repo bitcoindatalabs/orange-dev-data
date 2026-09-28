@@ -1,7 +1,7 @@
 {
-  "display_name": "Matthew Zipkin",
+  "display_name": "matthew zipkin",
   "github_login_final": "pinheadmz",
-  "delving_username_final": "pinheadmz",
+  "delving_username_final": null,
   "uuid": "auto_matthew_zipkin",
   "badges": {
     "ecosystem_contributor": true,
@@ -98,7 +98,6 @@
   "activity_status": "Rising",
   "is_top_50": false,
   "github_url": "https://github.com/pinheadmz",
-  "delving_url": "https://delvingbitcoin.org/u/pinheadmz",
   "commit_history": {
     "2016": {
       "Wallet": 2.0

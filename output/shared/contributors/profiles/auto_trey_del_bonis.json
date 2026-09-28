@@ -1,5 +1,5 @@
 {
-  "display_name": "Trey Del Bonis",
+  "display_name": "trey del bonis",
   "github_login_final": null,
   "delving_username_final": null,
   "uuid": "auto_trey_del_bonis",
@@ -66,13 +66,13 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Consensus": 0.5,
-      "L2": 0.5
+      "L2": 0.5,
+      "Consensus": 0.5
     }
   },
   "expertise_domain_scores": {
-    "Consensus": 0.5,
-    "L2": 0.5
+    "L2": 0.5,
+    "Consensus": 0.5
   },
   "p2016_posts": 5.0,
   "modern_posts": 0.0,

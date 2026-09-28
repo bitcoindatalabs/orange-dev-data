@@ -1,5 +1,5 @@
 {
-  "display_name": "Mr. Lee Chiffre",
+  "display_name": "mr. lee chiffre",
   "github_login_final": null,
   "delving_username_final": null,
   "uuid": "auto_mr_lee_chiffre",
@@ -68,14 +68,14 @@
   "expertise_by_source": {
     "discussion": {
       "L2": 0.202,
-      "Network": 0.135,
-      "Privacy": 0.663
+      "Privacy": 0.663,
+      "Network": 0.135
     }
   },
   "expertise_domain_scores": {
     "L2": 0.202,
-    "Network": 0.135,
-    "Privacy": 0.663
+    "Privacy": 0.663,
+    "Network": 0.135
   },
   "p2016_posts": 7.0,
   "modern_posts": 0.0,

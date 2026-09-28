@@ -1,6 +1,6 @@
 {
-  "display_name": "TimothyShimmin",
-  "github_login_final": "TimothyShimmin",
+  "display_name": "auto_timothyshimmin",
+  "github_login_final": null,
   "delving_username_final": null,
   "uuid": "auto_timothyshimmin",
   "badges": null,
@@ -84,8 +84,7 @@
   "github_bio": null,
   "github_twitter": null,
   "github_blog": null,
-  "github_followers": 3.0,
+  "github_followers": null,
   "activity_status": "Active",
-  "is_top_50": false,
-  "github_url": "https://github.com/TimothyShimmin"
+  "is_top_50": false
 }

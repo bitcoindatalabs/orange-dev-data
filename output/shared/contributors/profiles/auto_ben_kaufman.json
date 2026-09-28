@@ -1,7 +1,7 @@
 {
   "display_name": "ben-kaufman",
   "github_login_final": "ben-kaufman",
-  "delving_username_final": "benk10",
+  "delving_username_final": null,
   "uuid": "auto_ben_kaufman",
   "badges": {
     "ecosystem_contributor": true,
@@ -91,7 +91,6 @@
   "activity_status": "Active",
   "is_top_50": false,
   "github_url": "https://github.com/ben-kaufman",
-  "delving_url": "https://delvingbitcoin.org/u/benk10",
   "commit_history": {
     "2020": {
       "Wallet": 13.0

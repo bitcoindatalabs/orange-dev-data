@@ -1,7 +1,7 @@
 {
   "display_name": "Sean Carlin",
   "github_login_final": null,
-  "delving_username_final": "scarlin90",
+  "delving_username_final": null,
   "uuid": "auto_sean_carlin",
   "badges": null,
   "roles": null,
@@ -66,13 +66,13 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Wallet": 0.8,
-      "Privacy": 0.2
+      "Privacy": 0.2,
+      "Wallet": 0.8
     }
   },
   "expertise_domain_scores": {
-    "Wallet": 0.8,
-    "Privacy": 0.2
+    "Privacy": 0.2,
+    "Wallet": 0.8
   },
   "p2016_posts": 6.0,
   "modern_posts": 6.0,
@@ -94,7 +94,6 @@
   "github_followers": null,
   "activity_status": "New",
   "is_top_50": false,
-  "delving_url": "https://delvingbitcoin.org/u/scarlin90",
   "first_message": {
     "source": "mailing_list",
     "subject": "[bitcoindev] [BIP Draft] Blind Relay: Stateless Encrypted WebSocket\n Coordination for PSBTs",

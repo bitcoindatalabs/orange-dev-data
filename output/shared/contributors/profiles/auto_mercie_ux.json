@@ -1,7 +1,7 @@
 {
   "display_name": "mercie-ux",
   "github_login_final": "mercie-ux",
-  "delving_username_final": "mercie-ux",
+  "delving_username_final": null,
   "uuid": "auto_mercie_ux",
   "badges": null,
   "roles": null,
@@ -88,7 +88,6 @@
   "activity_status": "New",
   "is_top_50": false,
   "github_url": "https://github.com/mercie-ux",
-  "delving_url": "https://delvingbitcoin.org/u/mercie-ux",
   "commit_history": {
     "2026": {
       "Tests": 2.0

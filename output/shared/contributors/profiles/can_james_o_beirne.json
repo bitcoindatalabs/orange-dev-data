@@ -1,7 +1,7 @@
 {
   "display_name": "James O'Beirne",
   "github_login_final": "jamesob",
-  "delving_username_final": "jamesob",
+  "delving_username_final": null,
   "uuid": "can_james_o_beirne",
   "badges": {
     "is_maintainer": false,
@@ -90,8 +90,8 @@
   },
   "expertise_domain_scores": {
     "Mempool": 0.0409,
-    "Consensus": 0.7143,
-    "Script": 0.2449
+    "Script": 0.2449,
+    "Consensus": 0.7143
   },
   "p2016_posts": 48.0,
   "modern_posts": 16.0,
@@ -114,7 +114,6 @@
   "activity_status": "Active",
   "is_top_50": false,
   "github_url": "https://github.com/jamesob",
-  "delving_url": "https://delvingbitcoin.org/u/jamesob",
   "commit_history": {
     "2015": {
       "Build & CI": 0.67,

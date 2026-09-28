@@ -1,7 +1,7 @@
 {
   "display_name": "Jeremy Rubin",
   "github_login_final": "JeremyRubin",
-  "delving_username_final": "jeremyrubin",
+  "delving_username_final": null,
   "uuid": "can_jeremy_rubin",
   "badges": {
     "is_maintainer": false,
@@ -88,8 +88,8 @@
   },
   "expertise_domain_scores": {
     "Mempool": 0.0986,
-    "Consensus": 0.7143,
-    "Script": 0.1871
+    "Script": 0.1871,
+    "Consensus": 0.7143
   },
   "p2016_posts": 318.0,
   "modern_posts": 26.0,
@@ -112,7 +112,6 @@
   "activity_status": "Active",
   "is_top_50": false,
   "github_url": "https://github.com/JeremyRubin",
-  "delving_url": "https://delvingbitcoin.org/u/jeremyrubin",
   "commit_history": {
     "2016": {
       "Build & CI": 1.0,

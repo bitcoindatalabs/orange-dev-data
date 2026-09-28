@@ -1,5 +1,5 @@
 {
-  "display_name": "TokyoBitcoiner",
+  "display_name": "tokyobitcoiner",
   "github_login_final": null,
   "delving_username_final": null,
   "uuid": "auto_tokyobitcoiner",
@@ -66,13 +66,13 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Consensus": 0.33,
-      "Script": 0.67
+      "Script": 0.67,
+      "Consensus": 0.33
     }
   },
   "expertise_domain_scores": {
-    "Consensus": 0.33,
-    "Script": 0.67
+    "Script": 0.67,
+    "Consensus": 0.33
   },
   "p2016_posts": 1.0,
   "modern_posts": 1.0,

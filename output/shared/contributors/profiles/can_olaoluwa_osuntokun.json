@@ -1,7 +1,7 @@
 {
   "display_name": "Olaoluwa Osuntokun",
   "github_login_final": "roasbeef",
-  "delving_username_final": "roasbeef",
+  "delving_username_final": null,
   "uuid": "can_olaoluwa_osuntokun",
   "badges": {
     "is_maintainer": false,
@@ -90,8 +90,8 @@
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.3571,
-    "L2": 0.3571,
     "Ecosystem": 0.0731,
+    "L2": 0.3571,
     "Network": 0.132,
     "Cryptography": 0.0806
   },
@@ -116,7 +116,6 @@
   "activity_status": "Active",
   "is_top_50": false,
   "github_url": "https://github.com/roasbeef",
-  "delving_url": "https://delvingbitcoin.org/u/roasbeef",
   "bip_list": [
     {
       "number": 157,

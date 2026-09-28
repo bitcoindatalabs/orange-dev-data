@@ -5,15 +5,15 @@
     "total_posts": 4792
   },
   "mailing_list": {
-    "0": "f46e6e3f12b64cc33ea806a9d586a8c342f0a976",
-    "latest_date": "2026-09-20T03:29:31",
-    "total_messages": 24675
+    "0": "047bb882baa09b466577749f2fbab869f627d941",
+    "latest_date": "2026-09-23T20:46:29",
+    "total_messages": 24681
   },
   "bips": {
-    "latest_commit": "861e235e93b40e84e86652ef6e80c2f2dbfc1e17",
-    "total_bips": 209,
-    "latest_update": "2026-06-18T20:14:23",
-    "identities_hash": "e8be7b3240bb"
+    "latest_commit": "4f979daf78db8d18f1d90aed2750fb1a51c6eccf",
+    "total_bips": 213,
+    "latest_update": "2026-09-27T12:51:59",
+    "identities_hash": "e41cc640ca24"
   },
   "core": {
     "latest_commit": "011ad6ea3c422100210392686af1bf4022172b37",
@@ -21,9 +21,9 @@
     "latest_update": "2026-06-15T22:21:45.643709"
   },
   "bips_metadata": {
-    "latest_commit": "49ad9c2192d99b1f3ffcc33a60f9688d259c2e86",
-    "total_prs": 2139,
-    "total_events": 34946
+    "latest_commit": "fe7e6d9ec035a8aaadda88d955e282105b569637",
+    "total_prs": 2152,
+    "total_events": 35239
   },
   "github_metadata": {
     "latest_commit": "579886c3a3f3b838a91d9a729ac8b2aa24eb3ec0",
@@ -32,47 +32,47 @@
   },
   "core_repos": {
     "bitcoin/bitcoin": {
-      "latest_commit": "6d8e15dff015d3df8e87de63e650a5aee32ff12f",
-      "total_commits": 63780,
-      "latest_update": "2026-09-21T14:55:34.720997"
+      "latest_commit": "ed7dd7cf4e1561a97edf72eba29a67b14e28c717",
+      "total_commits": 65675,
+      "latest_update": "2026-09-28T01:45:51.914045"
     },
     "bitcoin-core/secp256k1": {
-      "latest_commit": "46db787112beabdb5e17e0dc35680716f1057e7b",
-      "total_commits": 3197,
-      "latest_update": "2026-09-14T14:48:59.456615"
+      "latest_commit": "f14d2992585b4ae3aaf3441b35a93339eb6ce1d9",
+      "total_commits": 3203,
+      "latest_update": "2026-09-28T01:45:53.398589"
     },
     "bitcoin-core/gui": {
-      "latest_commit": "6d8e15dff015d3df8e87de63e650a5aee32ff12f",
-      "total_commits": 63780,
-      "latest_update": "2026-09-21T14:55:59.902667"
+      "latest_commit": "ed7dd7cf4e1561a97edf72eba29a67b14e28c717",
+      "total_commits": 65675,
+      "latest_update": "2026-09-28T01:46:21.515243"
     },
     "bitcoin-core/guix.sigs": {
-      "latest_commit": "d4e6b81ad69288c7d333f5e3ceae47a8ab064aee",
-      "total_commits": 5065,
-      "latest_update": "2026-09-21T14:56:00.399763"
+      "latest_commit": "5a3a8370b052515e43c3bec0d82f808c1478403d",
+      "total_commits": 5071,
+      "latest_update": "2026-09-28T01:46:22.094438"
     },
     "bitcoin-core/qa-assets": {
-      "latest_commit": "3c03dc073105c17575dc9f1b6a8eaba2f716dbb9",
-      "total_commits": 143,
-      "latest_update": "2026-09-21T14:57:19.935166"
+      "latest_commit": "0739b29cfb99e8de42298f550e9cdbf1a7659dcf",
+      "total_commits": 190,
+      "latest_update": "2026-09-28T01:48:23.406799"
     },
     "bitcoin-core/HWI": {
-      "latest_commit": "fa3698d5ff1376295f7332d08b1f7bc43f4676d1",
-      "total_commits": 1631,
-      "latest_update": "2026-09-21T14:57:20.408340"
+      "latest_commit": "e63a0af2bf5c7c60b8cc71d99aba59068e8be0f0",
+      "total_commits": 1739,
+      "latest_update": "2026-09-28T01:48:24.173117"
     }
   },
   "github_metadata_repos": {
     "bitcoin/bitcoin": {
-      "latest_commit": "9149853950c030fd135baa28f475b2ce1910b76e"
+      "latest_commit": "0672a79353d579b71be960ac3cc6a7c859a318fa"
     },
     "bitcoin-core/secp256k1": {
-      "latest_commit": "fb829df82dc7a6683fe37b99bba07c20ede82db2"
+      "latest_commit": "f6a537ad9d649cd93cb4c146e6a374450e0a9e74"
     },
     "bitcoin-core/gui": {
-      "latest_commit": "17675277e73aaab6b37e9718d0d7e3c85a880beb"
+      "latest_commit": "7efe10063b978f645414c546a549dce385adb2a2"
     }
   },
-  "github_metadata_total_prs": 25982,
-  "github_metadata_total_events": 769506
+  "github_metadata_total_prs": 27362,
+  "github_metadata_total_events": 800772
 }

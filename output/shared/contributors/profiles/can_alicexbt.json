@@ -1,7 +1,7 @@
 {
   "display_name": "alicexbt",
   "github_login_final": "1440000bytes",
-  "delving_username_final": "1440000bytes",
+  "delving_username_final": null,
   "uuid": "can_alicexbt",
   "badges": null,
   "roles": null,
@@ -68,14 +68,14 @@
   "expertise_by_source": {
     "discussion": {
       "Mempool": 0.282,
-      "Script": 0.41,
-      "Privacy": 0.308
+      "Privacy": 0.308,
+      "Script": 0.41
     }
   },
   "expertise_domain_scores": {
     "Mempool": 0.282,
-    "Script": 0.41,
-    "Privacy": 0.308
+    "Privacy": 0.308,
+    "Script": 0.41
   },
   "p2016_posts": 174.0,
   "modern_posts": 83.0,
@@ -98,7 +98,6 @@
   "activity_status": "Rising",
   "is_top_50": false,
   "github_url": "https://github.com/1440000bytes",
-  "delving_url": "https://delvingbitcoin.org/u/1440000bytes",
   "commit_history": {
     "2022": {
       "Node & RPC": 4.0

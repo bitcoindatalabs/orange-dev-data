@@ -1,7 +1,7 @@
 {
   "display_name": "Sergio Demian Lerner",
   "github_login_final": "SergioDemianLerner",
-  "delving_username_final": "sergiodemianlerner",
+  "delving_username_final": null,
   "uuid": "can_sergio_demian_lerner",
   "badges": null,
   "roles": null,
@@ -95,7 +95,6 @@
   "activity_status": "Active",
   "is_top_50": false,
   "github_url": "https://github.com/SergioDemianLerner",
-  "delving_url": "https://delvingbitcoin.org/u/sergiodemianlerner",
   "commit_history": {
     "2014": {
       "Build & CI": 0.5,

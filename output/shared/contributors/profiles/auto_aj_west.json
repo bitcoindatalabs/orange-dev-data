@@ -68,14 +68,14 @@
   "expertise_by_source": {
     "discussion": {
       "Mining": 0.333,
-      "Wallet": 0.444,
-      "L2": 0.222
+      "L2": 0.222,
+      "Wallet": 0.444
     }
   },
   "expertise_domain_scores": {
     "Mining": 0.3333,
-    "Wallet": 0.4444,
-    "L2": 0.2222
+    "L2": 0.2222,
+    "Wallet": 0.4444
   },
   "p2016_posts": 5.0,
   "modern_posts": 0.0,

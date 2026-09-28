@@ -1,7 +1,7 @@
 {
   "display_name": "opus lux",
   "github_login_final": null,
-  "delving_username_final": "opus-lux",
+  "delving_username_final": null,
   "uuid": "auto_opus_lux_1",
   "badges": null,
   "roles": null,
@@ -94,7 +94,6 @@
   "github_followers": null,
   "activity_status": "New",
   "is_top_50": false,
-  "delving_url": "https://delvingbitcoin.org/u/opus-lux",
   "first_message": {
     "source": "mailing_list",
     "subject": "[bitcoindev] [BIP] P2WOTS: 64 Slot Winternitz UTXO's (witness version three)",

@@ -1,5 +1,5 @@
 {
-  "display_name": "木ノ下じょな",
+  "display_name": "auto_id_e8365f",
   "github_login_final": null,
   "delving_username_final": null,
   "uuid": "auto_id_e8365f",
@@ -67,17 +67,17 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Wallet": 0.901,
-      "Ecosystem": 0.099
+      "Ecosystem": 0.099,
+      "Wallet": 0.901
     },
     "bips": {
       "Consensus": 1.0
     }
   },
   "expertise_domain_scores": {
+    "Ecosystem": 0.0283,
     "Consensus": 0.7143,
-    "Wallet": 0.2574,
-    "Ecosystem": 0.0283
+    "Wallet": 0.2574
   },
   "p2016_posts": 4.0,
   "modern_posts": 0.0,

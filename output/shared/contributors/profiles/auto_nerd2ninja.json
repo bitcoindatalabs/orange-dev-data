@@ -1,7 +1,7 @@
 {
   "display_name": "nerd2ninja",
   "github_login_final": "nerd2ninja",
-  "delving_username_final": "nerd2ninja",
+  "delving_username_final": null,
   "uuid": "auto_nerd2ninja",
   "badges": null,
   "roles": null,
@@ -87,6 +87,5 @@
   "github_followers": null,
   "activity_status": "Active",
   "is_top_50": false,
-  "github_url": "https://github.com/nerd2ninja",
-  "delving_url": "https://delvingbitcoin.org/u/nerd2ninja"
+  "github_url": "https://github.com/nerd2ninja"
 }

@@ -77,8 +77,8 @@
   },
   "expertise_domain_scores": {
     "Mining": 0.0409,
-    "Wallet": 0.0743,
     "Privacy": 0.7143,
+    "Wallet": 0.0743,
     "Cryptography": 0.1706
   },
   "p2016_posts": 17.0,

@@ -1,6 +1,6 @@
 {
   "display_name": "Kyle Jerviss",
-  "github_login_final": null,
+  "github_login_final": "KJJ",
   "delving_username_final": null,
   "uuid": "auto_kyle_jerviss",
   "badges": null,
@@ -94,6 +94,7 @@
   "github_followers": null,
   "activity_status": "",
   "is_top_50": false,
+  "github_url": "https://github.com/KJJ",
   "first_message": {
     "source": "mailing_list",
     "subject": "Re: [Bitcoin-development] Difficulty adjustment / time issues",

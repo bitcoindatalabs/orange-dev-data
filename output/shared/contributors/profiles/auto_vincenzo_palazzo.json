@@ -1,7 +1,7 @@
 {
-  "display_name": "Vincenzo Palazzo",
+  "display_name": "vincenzo palazzo",
   "github_login_final": "vincenzopalazzo",
-  "delving_username_final": "vincenzopalazzo",
+  "delving_username_final": null,
   "uuid": "auto_vincenzo_palazzo",
   "badges": null,
   "roles": null,
@@ -66,13 +66,13 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "L2": 0.5,
-      "Ecosystem": 0.5
+      "Ecosystem": 0.5,
+      "L2": 0.5
     }
   },
   "expertise_domain_scores": {
-    "L2": 0.5,
-    "Ecosystem": 0.5
+    "Ecosystem": 0.5,
+    "L2": 0.5
   },
   "p2016_posts": 4.0,
   "modern_posts": 0.0,
@@ -95,7 +95,6 @@
   "activity_status": "Active",
   "is_top_50": false,
   "github_url": "https://github.com/vincenzopalazzo",
-  "delving_url": "https://delvingbitcoin.org/u/vincenzopalazzo",
   "first_message": {
     "source": "mailing_list",
     "subject": "Re: [bitcoin-dev] A Bitcoin NFT System",

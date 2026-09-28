@@ -1,5 +1,5 @@
 {
-  "display_name": "David Barnes | Bitcoin Co. Ltd.",
+  "display_name": "david barnes | bitcoin co. ltd.",
   "github_login_final": null,
   "delving_username_final": null,
   "uuid": "auto_david_barnes_bitcoin_co_ltd",
@@ -66,13 +66,13 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Consensus": 0.09,
-      "Ecosystem": 0.91
+      "Ecosystem": 0.91,
+      "Consensus": 0.09
     }
   },
   "expertise_domain_scores": {
-    "Consensus": 0.09,
-    "Ecosystem": 0.91
+    "Ecosystem": 0.91,
+    "Consensus": 0.09
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,

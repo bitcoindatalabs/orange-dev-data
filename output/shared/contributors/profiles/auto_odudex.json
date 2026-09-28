@@ -1,7 +1,7 @@
 {
   "display_name": "odudex",
   "github_login_final": "odudex",
-  "delving_username_final": "odudex",
+  "delving_username_final": null,
   "uuid": "auto_odudex",
   "badges": null,
   "roles": null,
@@ -87,6 +87,5 @@
   "github_followers": null,
   "activity_status": "Active",
   "is_top_50": false,
-  "github_url": "https://github.com/odudex",
-  "delving_url": "https://delvingbitcoin.org/u/odudex"
+  "github_url": "https://github.com/odudex"
 }

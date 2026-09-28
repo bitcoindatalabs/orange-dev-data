@@ -66,13 +66,13 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Consensus": 0.141,
-      "Ecosystem": 0.859
+      "Ecosystem": 0.859,
+      "Consensus": 0.141
     }
   },
   "expertise_domain_scores": {
-    "Consensus": 0.141,
-    "Ecosystem": 0.859
+    "Ecosystem": 0.859,
+    "Consensus": 0.141
   },
   "p2016_posts": 3.0,
   "modern_posts": 0.0,

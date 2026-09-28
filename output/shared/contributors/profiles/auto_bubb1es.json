@@ -1,7 +1,7 @@
 {
-  "display_name": "Bubb1Es",
+  "display_name": "bubb1es",
   "github_login_final": null,
-  "delving_username_final": "bubb1es",
+  "delving_username_final": null,
   "uuid": "auto_bubb1es",
   "badges": {
     "is_maintainer": false,
@@ -111,7 +111,6 @@
   "github_followers": null,
   "activity_status": "New",
   "is_top_50": false,
-  "delving_url": "https://delvingbitcoin.org/u/bubb1es",
   "bip_list": [
     {
       "number": 451,

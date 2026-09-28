@@ -1,5 +1,5 @@
 {
-  "display_name": "Mashuri Clark",
+  "display_name": "mashuri clark",
   "github_login_final": null,
   "delving_username_final": null,
   "uuid": "auto_mashuri_clark",
@@ -67,15 +67,15 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Consensus": 0.604,
+      "Ecosystem": 0.198,
       "L2": 0.198,
-      "Ecosystem": 0.198
+      "Consensus": 0.604
     }
   },
   "expertise_domain_scores": {
-    "Consensus": 0.604,
+    "Ecosystem": 0.198,
     "L2": 0.198,
-    "Ecosystem": 0.198
+    "Consensus": 0.604
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,

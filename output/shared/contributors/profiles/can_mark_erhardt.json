@@ -1,7 +1,7 @@
 {
   "display_name": "Mark Erhardt",
   "github_login_final": "murchandamus",
-  "delving_username_final": "murch",
+  "delving_username_final": null,
   "uuid": "can_mark_erhardt",
   "badges": {
     "is_maintainer": false,
@@ -81,8 +81,8 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Mempool": 0.302,
-      "Ecosystem": 0.698
+      "Ecosystem": 0.698,
+      "Mempool": 0.302
     },
     "bips": {
       "Infrastructure": 1.0
@@ -90,8 +90,8 @@
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.7143,
-    "Mempool": 0.0863,
-    "Ecosystem": 0.1994
+    "Ecosystem": 0.1994,
+    "Mempool": 0.0863
   },
   "p2016_posts": 73.0,
   "modern_posts": 65.0,
@@ -114,7 +114,6 @@
   "activity_status": "Active",
   "is_top_50": false,
   "github_url": "https://github.com/murchandamus",
-  "delving_url": "https://delvingbitcoin.org/u/murch",
   "commit_history": {
     "2015": {
       "Tests": 1.0,

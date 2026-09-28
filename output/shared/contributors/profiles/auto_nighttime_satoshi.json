@@ -1,5 +1,5 @@
 {
-  "display_name": "Nighttime Satoshi",
+  "display_name": "nighttime satoshi",
   "github_login_final": null,
   "delving_username_final": null,
   "uuid": "auto_nighttime_satoshi",
@@ -68,14 +68,14 @@
   "expertise_by_source": {
     "discussion": {
       "Mining": 0.67,
-      "Consensus": 0.22,
-      "Script": 0.11
+      "Script": 0.11,
+      "Consensus": 0.22
     }
   },
   "expertise_domain_scores": {
     "Mining": 0.67,
-    "Consensus": 0.22,
-    "Script": 0.11
+    "Script": 0.11,
+    "Consensus": 0.22
   },
   "p2016_posts": 3.0,
   "modern_posts": 3.0,

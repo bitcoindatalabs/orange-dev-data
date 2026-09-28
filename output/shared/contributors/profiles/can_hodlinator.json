@@ -1,7 +1,7 @@
 {
   "display_name": "hodlinator",
   "github_login_final": "hodlinator",
-  "delving_username_final": "hodlinator",
+  "delving_username_final": null,
   "uuid": "can_hodlinator",
   "badges": null,
   "roles": null,
@@ -67,15 +67,15 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Consensus": 0.168,
+      "Ecosystem": 0.663,
       "L2": 0.168,
-      "Ecosystem": 0.663
+      "Consensus": 0.168
     }
   },
   "expertise_domain_scores": {
-    "Consensus": 0.1682,
+    "Ecosystem": 0.6637,
     "L2": 0.1682,
-    "Ecosystem": 0.6637
+    "Consensus": 0.1682
   },
   "p2016_posts": 2.0,
   "modern_posts": 2.0,
@@ -98,7 +98,6 @@
   "activity_status": "Active",
   "is_top_50": false,
   "github_url": "https://github.com/hodlinator",
-  "delving_url": "https://delvingbitcoin.org/u/hodlinator",
   "commit_history": {
     "2024": {
       "Consensus": 4.17,

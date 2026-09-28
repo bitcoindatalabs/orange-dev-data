@@ -1,7 +1,7 @@
 {
-  "display_name": "Dr. Maxim Orlovsky",
+  "display_name": "dr. maxim orlovsky",
   "github_login_final": "dr-orlovsky",
-  "delving_username_final": "dr-orlovsky",
+  "delving_username_final": null,
   "uuid": "auto_dr_maxim_orlovsky",
   "badges": {
     "is_maintainer": false,
@@ -79,9 +79,9 @@
   ],
   "expertise_by_source": {
     "discussion": {
+      "Ecosystem": 0.265,
       "Consensus": 0.367,
-      "Wallet": 0.367,
-      "Ecosystem": 0.265
+      "Wallet": 0.367
     },
     "bips": {
       "Infrastructure": 1.0
@@ -89,9 +89,9 @@
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.7145,
+    "Ecosystem": 0.0757,
     "Consensus": 0.1049,
-    "Wallet": 0.1049,
-    "Ecosystem": 0.0757
+    "Wallet": 0.1049
   },
   "p2016_posts": 27.0,
   "modern_posts": 3.0,
@@ -114,7 +114,6 @@
   "activity_status": "Active",
   "is_top_50": false,
   "github_url": "https://github.com/dr-orlovsky",
-  "delving_url": "https://delvingbitcoin.org/u/dr-orlovsky",
   "bip_list": [
     {
       "number": 372,

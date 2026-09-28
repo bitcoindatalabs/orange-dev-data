@@ -1,7 +1,7 @@
 {
-  "display_name": "Corey Haddad",
+  "display_name": "corey haddad",
   "github_login_final": null,
-  "delving_username_final": "cubicearth",
+  "delving_username_final": null,
   "uuid": "auto_corey_haddad",
   "badges": null,
   "roles": null,
@@ -66,13 +66,13 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Consensus": 0.627,
-      "Script": 0.373
+      "Script": 0.373,
+      "Consensus": 0.627
     }
   },
   "expertise_domain_scores": {
-    "Consensus": 0.627,
-    "Script": 0.373
+    "Script": 0.373,
+    "Consensus": 0.627
   },
   "p2016_posts": 9.0,
   "modern_posts": 0.0,
@@ -94,7 +94,6 @@
   "github_followers": null,
   "activity_status": "",
   "is_top_50": false,
-  "delving_url": "https://delvingbitcoin.org/u/cubicearth",
   "first_message": {
     "source": "mailing_list",
     "subject": "[bitcoin-dev] Fees and the block-finding process",

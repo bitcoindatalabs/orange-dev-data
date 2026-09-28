@@ -1,7 +1,7 @@
 {
-  "display_name": "Garlo Nicon",
+  "display_name": "garlo nicon",
   "github_login_final": null,
-  "delving_username_final": "garlonicon",
+  "delving_username_final": null,
   "uuid": "auto_garlo_nicon",
   "badges": null,
   "roles": null,
@@ -94,7 +94,6 @@
   "github_followers": null,
   "activity_status": "Rising",
   "is_top_50": false,
-  "delving_url": "https://delvingbitcoin.org/u/garlonicon",
   "first_message": {
     "source": "mailing_list",
     "subject": "[bitcoindev] Re: The Future of Bitcoin Testnet",

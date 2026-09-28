@@ -1,7 +1,7 @@
 {
   "display_name": "Keagan McClelland",
   "github_login_final": "ProofOfKeags",
-  "delving_username_final": "proofofkeags",
+  "delving_username_final": null,
   "uuid": "can_keagan_mcclelland",
   "badges": null,
   "roles": null,
@@ -95,7 +95,6 @@
   "activity_status": "Rising",
   "is_top_50": false,
   "github_url": "https://github.com/ProofOfKeags",
-  "delving_url": "https://delvingbitcoin.org/u/proofofkeags",
   "first_message": {
     "source": "mailing_list",
     "subject": "Re: [bitcoin-dev] [Lightning-dev] On the scalability issues of\n onboarding millions of LN mobile clients",

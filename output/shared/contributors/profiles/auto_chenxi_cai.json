@@ -1,5 +1,5 @@
 {
-  "display_name": "Chenxi Cai",
+  "display_name": "chenxi cai",
   "github_login_final": null,
   "delving_username_final": null,
   "uuid": "auto_chenxi_cai",
@@ -68,14 +68,14 @@
   "expertise_by_source": {
     "discussion": {
       "Mining": 0.333,
-      "Consensus": 0.333,
-      "L2": 0.333
+      "L2": 0.333,
+      "Consensus": 0.333
     }
   },
   "expertise_domain_scores": {
     "Mining": 0.3333,
-    "Consensus": 0.3333,
-    "L2": 0.3333
+    "L2": 0.3333,
+    "Consensus": 0.3333
   },
   "p2016_posts": 3.0,
   "modern_posts": 0.0,

@@ -1,5 +1,5 @@
 {
-  "display_name": "Felix Weis",
+  "display_name": "felix weis",
   "github_login_final": "FelixWeis",
   "delving_username_final": null,
   "uuid": "auto_felix_weis",
@@ -67,15 +67,15 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Consensus": 0.333,
       "L2": 0.333,
-      "Privacy": 0.333
+      "Privacy": 0.333,
+      "Consensus": 0.333
     }
   },
   "expertise_domain_scores": {
-    "Consensus": 0.3333,
     "L2": 0.3333,
-    "Privacy": 0.3333
+    "Privacy": 0.3333,
+    "Consensus": 0.3333
   },
   "p2016_posts": 2.0,
   "modern_posts": 0.0,

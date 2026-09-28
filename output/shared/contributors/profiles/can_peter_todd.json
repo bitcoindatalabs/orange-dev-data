@@ -83,8 +83,8 @@
       "Mempool": 0.577
     },
     "bips": {
-      "Infrastructure": 0.75,
-      "Consensus": 0.25
+      "Consensus": 0.25,
+      "Infrastructure": 0.75
     }
   },
   "expertise_domain_scores": {

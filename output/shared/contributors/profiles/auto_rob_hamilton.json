@@ -1,7 +1,7 @@
 {
   "display_name": "Rob Hamilton",
   "github_login_final": "Rob1Ham",
-  "delving_username_final": "rob1ham",
+  "delving_username_final": null,
   "uuid": "auto_rob_hamilton",
   "badges": null,
   "roles": null,
@@ -87,6 +87,5 @@
   "github_followers": 72.0,
   "activity_status": "Active",
   "is_top_50": false,
-  "github_url": "https://github.com/Rob1Ham",
-  "delving_url": "https://delvingbitcoin.org/u/rob1ham"
+  "github_url": "https://github.com/Rob1Ham"
 }

@@ -1,7 +1,7 @@
 {
-  "display_name": "Johnathan Corgan",
+  "display_name": "johnathan corgan",
   "github_login_final": "jmcorgan",
-  "delving_username_final": "jcorgan",
+  "delving_username_final": null,
   "uuid": "auto_johnathan_corgan",
   "badges": null,
   "roles": null,
@@ -95,7 +95,6 @@
   "activity_status": "Retired",
   "is_top_50": false,
   "github_url": "https://github.com/jmcorgan",
-  "delving_url": "https://delvingbitcoin.org/u/jcorgan",
   "commit_history": {
     "2013": {
       "Utilities": 2.0

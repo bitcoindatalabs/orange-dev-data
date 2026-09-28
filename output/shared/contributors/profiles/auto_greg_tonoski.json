@@ -1,7 +1,7 @@
 {
   "display_name": "Greg Tonoski",
   "github_login_final": "GregTonoski",
-  "delving_username_final": "gregtonoski",
+  "delving_username_final": null,
   "uuid": "auto_greg_tonoski",
   "badges": null,
   "roles": null,
@@ -92,7 +92,6 @@
   "activity_status": "Rising",
   "is_top_50": false,
   "github_url": "https://github.com/GregTonoski",
-  "delving_url": "https://delvingbitcoin.org/u/gregtonoski",
   "first_message": {
     "source": "mailing_list",
     "subject": "[bitcoin-dev] [BUG]: Bitcoin blockspace price discrimination put\n simple transactions at disadvantage",

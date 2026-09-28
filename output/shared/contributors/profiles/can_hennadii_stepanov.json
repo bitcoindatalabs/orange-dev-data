@@ -1,7 +1,7 @@
 {
   "display_name": "Hennadii Stepanov",
   "github_login_final": "hebasto",
-  "delving_username_final": "hebasto",
+  "delving_username_final": null,
   "uuid": "can_hennadii_stepanov",
   "badges": {
     "is_maintainer": true,
@@ -106,7 +106,6 @@
   "activity_status": "Rising",
   "is_top_50": false,
   "github_url": "https://github.com/hebasto",
-  "delving_url": "https://delvingbitcoin.org/u/hebasto",
   "commit_history": {
     "2011": {
       "Merge": 118.0

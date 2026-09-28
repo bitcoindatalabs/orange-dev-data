@@ -1,5 +1,5 @@
 {
-  "display_name": "NxtChg",
+  "display_name": "nxtchg",
   "github_login_final": null,
   "delving_username_final": null,
   "uuid": "auto_nxtchg",
@@ -66,13 +66,13 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Consensus": 0.447,
-      "Ecosystem": 0.553
+      "Ecosystem": 0.553,
+      "Consensus": 0.447
     }
   },
   "expertise_domain_scores": {
-    "Consensus": 0.447,
-    "Ecosystem": 0.553
+    "Ecosystem": 0.553,
+    "Consensus": 0.447
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,

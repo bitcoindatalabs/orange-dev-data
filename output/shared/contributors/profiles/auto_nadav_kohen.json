@@ -1,7 +1,7 @@
 {
-  "display_name": "Nadav Kohen",
+  "display_name": "nadav kohen",
   "github_login_final": "nkohen",
-  "delving_username_final": "nkohen",
+  "delving_username_final": null,
   "uuid": "auto_nadav_kohen",
   "badges": null,
   "roles": null,
@@ -67,15 +67,15 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Consensus": 0.214,
       "L2": 0.446,
-      "Privacy": 0.339
+      "Privacy": 0.339,
+      "Consensus": 0.214
     }
   },
   "expertise_domain_scores": {
-    "Consensus": 0.2142,
     "L2": 0.4464,
-    "Privacy": 0.3393
+    "Privacy": 0.3393,
+    "Consensus": 0.2142
   },
   "p2016_posts": 6.0,
   "modern_posts": 0.0,
@@ -98,7 +98,6 @@
   "activity_status": "Active",
   "is_top_50": false,
   "github_url": "https://github.com/nkohen",
-  "delving_url": "https://delvingbitcoin.org/u/nkohen",
   "first_message": {
     "source": "mailing_list",
     "subject": "Re: [bitcoin-dev] Smart Contracts Unchained",

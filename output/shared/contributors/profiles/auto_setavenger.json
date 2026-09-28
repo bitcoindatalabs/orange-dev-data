@@ -1,7 +1,7 @@
 {
   "display_name": "setavenger",
   "github_login_final": "setavenger",
-  "delving_username_final": "setavenger",
+  "delving_username_final": null,
   "uuid": "auto_setavenger",
   "badges": null,
   "roles": null,
@@ -87,6 +87,5 @@
   "github_followers": null,
   "activity_status": "Active",
   "is_top_50": false,
-  "github_url": "https://github.com/setavenger",
-  "delving_url": "https://delvingbitcoin.org/u/setavenger"
+  "github_url": "https://github.com/setavenger"
 }

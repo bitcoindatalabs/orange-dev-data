@@ -1,7 +1,7 @@
 {
   "display_name": "@RandyMcMillan",
   "github_login_final": "RandyMcMillan",
-  "delving_username_final": "randymcmillan",
+  "delving_username_final": null,
   "uuid": "auto_randymcmillan",
   "badges": null,
   "roles": null,
@@ -88,7 +88,6 @@
   "activity_status": "Rising",
   "is_top_50": false,
   "github_url": "https://github.com/RandyMcMillan",
-  "delving_url": "https://delvingbitcoin.org/u/randymcmillan",
   "commit_history": {
     "2019": {
       "Build & CI": 2.0,

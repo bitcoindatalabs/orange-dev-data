@@ -1,7 +1,7 @@
 {
   "display_name": "Pol Espinasa",
   "github_login_final": "polespinasa",
-  "delving_username_final": "polespinasa",
+  "delving_username_final": null,
   "uuid": "auto_pol_espinasa",
   "badges": {
     "is_maintainer": false,
@@ -112,7 +112,6 @@
   "activity_status": "Active",
   "is_top_50": false,
   "github_url": "https://github.com/polespinasa",
-  "delving_url": "https://delvingbitcoin.org/u/polespinasa",
   "commit_history": {
     "2025": {
       "Consensus": 0.5,

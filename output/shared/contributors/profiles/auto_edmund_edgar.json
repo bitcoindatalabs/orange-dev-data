@@ -66,13 +66,13 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Consensus": 0.667,
-      "Privacy": 0.333
+      "Privacy": 0.333,
+      "Consensus": 0.667
     }
   },
   "expertise_domain_scores": {
-    "Consensus": 0.667,
-    "Privacy": 0.333
+    "Privacy": 0.333,
+    "Consensus": 0.667
   },
   "p2016_posts": 4.0,
   "modern_posts": 0.0,

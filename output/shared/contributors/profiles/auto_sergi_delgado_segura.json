@@ -1,7 +1,7 @@
 {
-  "display_name": "Sergi Delgado Segura",
+  "display_name": "sergi delgado segura",
   "github_login_final": "sr-gi",
-  "delving_username_final": "sr-gi",
+  "delving_username_final": null,
   "uuid": "auto_sergi_delgado_segura",
   "badges": {
     "is_maintainer": false,
@@ -74,13 +74,13 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "L2": 0.5,
-      "Ecosystem": 0.5
+      "Ecosystem": 0.5,
+      "L2": 0.5
     }
   },
   "expertise_domain_scores": {
-    "L2": 0.5,
-    "Ecosystem": 0.5
+    "Ecosystem": 0.5,
+    "L2": 0.5
   },
   "p2016_posts": 2.0,
   "modern_posts": 1.0,
@@ -103,7 +103,6 @@
   "activity_status": "Rising",
   "is_top_50": false,
   "github_url": "https://github.com/sr-gi",
-  "delving_url": "https://delvingbitcoin.org/u/sr-gi",
   "commit_history": {
     "2023": {
       "Node & RPC": 0.67,

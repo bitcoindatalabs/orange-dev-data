@@ -1,7 +1,7 @@
 {
   "display_name": "ArmchairCryptologist",
   "github_login_final": "ArmchairCryptologist",
-  "delving_username_final": "armchaircryptologist",
+  "delving_username_final": null,
   "uuid": "auto_armchaircryptologist",
   "badges": null,
   "roles": null,
@@ -98,7 +98,6 @@
   "activity_status": "Rising",
   "is_top_50": false,
   "github_url": "https://github.com/ArmchairCryptologist",
-  "delving_url": "https://delvingbitcoin.org/u/armchaircryptologist",
   "first_message": {
     "source": "mailing_list",
     "subject": "Re: [bitcoin-dev] A Replacement for RBF and CPFP: Non-Destructive\n\tTXID Dependencies for Fee Sponsoring",

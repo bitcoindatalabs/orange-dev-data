@@ -1,7 +1,7 @@
 {
-  "display_name": "Oghenovo Usiwoma",
+  "display_name": "oghenovo usiwoma",
   "github_login_final": "Eunovo",
-  "delving_username_final": "eunovo",
+  "delving_username_final": null,
   "uuid": "auto_oghenovo_usiwoma",
   "badges": {
     "is_maintainer": false,
@@ -80,16 +80,16 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Wallet": 0.197,
-      "Privacy": 0.803
+      "Privacy": 0.803,
+      "Wallet": 0.197
     },
     "bips": {
       "Privacy": 1.0
     }
   },
   "expertise_domain_scores": {
-    "Wallet": 0.0563,
-    "Privacy": 0.9437
+    "Privacy": 0.9437,
+    "Wallet": 0.0563
   },
   "p2016_posts": 9.0,
   "modern_posts": 5.0,
@@ -112,7 +112,6 @@
   "activity_status": "Active",
   "is_top_50": false,
   "github_url": "https://github.com/Eunovo",
-  "delving_url": "https://delvingbitcoin.org/u/eunovo",
   "commit_history": {
     "2021": {
       "Build & CI": 1.0,

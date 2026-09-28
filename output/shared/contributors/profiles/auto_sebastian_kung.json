@@ -1,7 +1,7 @@
 {
   "display_name": "Sebastian Kung",
   "github_login_final": "TheCharlatan",
-  "delving_username_final": "thecharlatan",
+  "delving_username_final": null,
   "uuid": "auto_sebastian_kung",
   "badges": {
     "is_maintainer": true,
@@ -106,7 +106,6 @@
   "activity_status": "Rising",
   "is_top_50": false,
   "github_url": "https://github.com/TheCharlatan",
-  "delving_url": "https://delvingbitcoin.org/u/thecharlatan",
   "commit_history": {
     "2018": {
       "Build & CI": 6.0,

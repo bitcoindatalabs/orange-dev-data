@@ -1,7 +1,7 @@
 {
   "display_name": "Rene Pickhardt",
   "github_login_final": "renepickhardt",
-  "delving_username_final": "renepickhardt",
+  "delving_username_final": null,
   "uuid": "can_rene_pickhardt",
   "badges": null,
   "roles": null,
@@ -87,6 +87,5 @@
   "github_followers": 493.0,
   "activity_status": "Active",
   "is_top_50": false,
-  "github_url": "https://github.com/renepickhardt",
-  "delving_url": "https://delvingbitcoin.org/u/renepickhardt"
+  "github_url": "https://github.com/renepickhardt"
 }

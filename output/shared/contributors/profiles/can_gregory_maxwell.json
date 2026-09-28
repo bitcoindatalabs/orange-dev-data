@@ -1,7 +1,7 @@
 {
   "display_name": "Gregory Maxwell",
   "github_login_final": "gmaxwell",
-  "delving_username_final": "gmaxwell",
+  "delving_username_final": null,
   "uuid": "can_gregory_maxwell",
   "badges": {
     "is_maintainer": true,
@@ -89,15 +89,15 @@
       "Script": 0.438
     },
     "bips": {
-      "Infrastructure": 0.5,
-      "Consensus": 0.5
+      "Consensus": 0.5,
+      "Infrastructure": 0.5
     }
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.3571,
     "Mining": 0.1606,
-    "Consensus": 0.3571,
-    "Script": 0.1251
+    "Script": 0.1251,
+    "Consensus": 0.3571
   },
   "p2016_posts": 272.0,
   "modern_posts": 60.0,
@@ -120,7 +120,6 @@
   "activity_status": "Active",
   "is_top_50": false,
   "github_url": "https://github.com/gmaxwell",
-  "delving_url": "https://delvingbitcoin.org/u/gmaxwell",
   "commit_history": {
     "2012": {
       "Build & CI": 0.67,

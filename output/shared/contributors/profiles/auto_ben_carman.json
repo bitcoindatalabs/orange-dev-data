@@ -1,7 +1,7 @@
 {
   "display_name": "Ben Carman",
   "github_login_final": "benthecarman",
-  "delving_username_final": "benthecarman",
+  "delving_username_final": null,
   "uuid": "auto_ben_carman",
   "badges": {
     "ecosystem_contributor": true,
@@ -70,15 +70,15 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Consensus": 0.302,
+      "Privacy": 0.302,
       "Script": 0.396,
-      "Privacy": 0.302
+      "Consensus": 0.302
     }
   },
   "expertise_domain_scores": {
-    "Consensus": 0.302,
+    "Privacy": 0.302,
     "Script": 0.396,
-    "Privacy": 0.302
+    "Consensus": 0.302
   },
   "p2016_posts": 4.0,
   "modern_posts": 1.0,
@@ -101,7 +101,6 @@
   "activity_status": "Rising",
   "is_top_50": false,
   "github_url": "https://github.com/benthecarman",
-  "delving_url": "https://delvingbitcoin.org/u/benthecarman",
   "commit_history": {
     "2018": {
       "Documentation": 2.0,

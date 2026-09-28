@@ -1,7 +1,7 @@
 {
   "display_name": "thunderbiscuit",
   "github_login_final": "thunderbiscuit",
-  "delving_username_final": "thunderbiscuit",
+  "delving_username_final": null,
   "uuid": "auto_thunderbiscuit",
   "badges": null,
   "roles": null,
@@ -87,6 +87,5 @@
   "github_followers": null,
   "activity_status": "",
   "is_top_50": false,
-  "github_url": "https://github.com/thunderbiscuit",
-  "delving_url": "https://delvingbitcoin.org/u/thunderbiscuit"
+  "github_url": "https://github.com/thunderbiscuit"
 }

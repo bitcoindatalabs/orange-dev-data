@@ -79,19 +79,19 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Mining": 0.4,
-      "Ecosystem": 0.6
+      "Ecosystem": 0.6,
+      "Mining": 0.4
     },
     "bips": {
-      "Infrastructure": 0.5,
-      "Consensus": 0.5
+      "Consensus": 0.5,
+      "Infrastructure": 0.5
     }
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.3571,
+    "Ecosystem": 0.1714,
     "Mining": 0.1143,
-    "Consensus": 0.3571,
-    "Ecosystem": 0.1714
+    "Consensus": 0.3571
   },
   "p2016_posts": 9.0,
   "modern_posts": 0.0,

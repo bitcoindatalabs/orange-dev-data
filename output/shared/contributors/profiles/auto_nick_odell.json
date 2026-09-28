@@ -1,5 +1,5 @@
 {
-  "display_name": "Nick ODell",
+  "display_name": "nick odell",
   "github_login_final": "nickodell",
   "delving_username_final": null,
   "uuid": "auto_nick_odell",
@@ -68,14 +68,14 @@
   "expertise_by_source": {
     "discussion": {
       "Mining": 0.474,
-      "Consensus": 0.263,
-      "Script": 0.263
+      "Script": 0.263,
+      "Consensus": 0.263
     }
   },
   "expertise_domain_scores": {
     "Mining": 0.474,
-    "Consensus": 0.263,
-    "Script": 0.263
+    "Script": 0.263,
+    "Consensus": 0.263
   },
   "p2016_posts": 14.0,
   "modern_posts": 0.0,

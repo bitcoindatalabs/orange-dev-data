@@ -1,7 +1,7 @@
 {
   "display_name": "Shinobi",
   "github_login_final": "brian_trollz",
-  "delving_username_final": "shinobi",
+  "delving_username_final": null,
   "uuid": "can_shinobi",
   "badges": {
     "is_maintainer": false,
@@ -109,7 +109,6 @@
   "activity_status": "Active",
   "is_top_50": false,
   "github_url": "https://github.com/brian_trollz",
-  "delving_url": "https://delvingbitcoin.org/u/shinobi",
   "bip_list": [
     {
       "number": 343,

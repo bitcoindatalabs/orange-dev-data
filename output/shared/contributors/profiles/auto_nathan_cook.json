@@ -1,5 +1,5 @@
 {
-  "display_name": "Nathan Cook",
+  "display_name": "nathan cook",
   "github_login_final": "topynate",
   "delving_username_final": null,
   "uuid": "auto_nathan_cook",
@@ -68,14 +68,14 @@
   "expertise_by_source": {
     "discussion": {
       "Mining": 0.377,
-      "Consensus": 0.13,
-      "Script": 0.494
+      "Script": 0.494,
+      "Consensus": 0.13
     }
   },
   "expertise_domain_scores": {
     "Mining": 0.3766,
-    "Consensus": 0.1299,
-    "Script": 0.4935
+    "Script": 0.4935,
+    "Consensus": 0.1299
   },
   "p2016_posts": 6.0,
   "modern_posts": 0.0,

@@ -1,7 +1,7 @@
 {
   "display_name": "Steve Lee",
   "github_login_final": "moneyball",
-  "delving_username_final": "moneyball",
+  "delving_username_final": null,
   "uuid": "auto_steve_lee",
   "badges": null,
   "roles": null,
@@ -66,13 +66,13 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Consensus": 0.294,
-      "Ecosystem": 0.706
+      "Ecosystem": 0.706,
+      "Consensus": 0.294
     }
   },
   "expertise_domain_scores": {
-    "Consensus": 0.294,
-    "Ecosystem": 0.706
+    "Ecosystem": 0.706,
+    "Consensus": 0.294
   },
   "p2016_posts": 18.0,
   "modern_posts": 6.0,
@@ -95,7 +95,6 @@
   "activity_status": "Active",
   "is_top_50": false,
   "github_url": "https://github.com/moneyball",
-  "delving_url": "https://delvingbitcoin.org/u/moneyball",
   "commit_history": {
     "2018": {
       "Node & RPC": 2.0

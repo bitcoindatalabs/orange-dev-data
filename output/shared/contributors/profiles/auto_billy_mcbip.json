@@ -1,7 +1,7 @@
 {
   "display_name": "Billy McBip",
   "github_login_final": "billymcbip",
-  "delving_username_final": "billymcbip",
+  "delving_username_final": null,
   "uuid": "auto_billy_mcbip",
   "badges": null,
   "roles": null,
@@ -88,7 +88,6 @@
   "activity_status": "New",
   "is_top_50": false,
   "github_url": "https://github.com/billymcbip",
-  "delving_url": "https://delvingbitcoin.org/u/billymcbip",
   "commit_history": {
     "2025": {
       "Script": 1.0,

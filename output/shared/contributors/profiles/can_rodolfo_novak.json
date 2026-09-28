@@ -78,16 +78,16 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Wallet": 0.5,
-      "Ecosystem": 0.5
+      "Ecosystem": 0.5,
+      "Wallet": 0.5
     },
     "bips": {
       "Wallet": 1.0
     }
   },
   "expertise_domain_scores": {
-    "Wallet": 0.8571,
-    "Ecosystem": 0.1429
+    "Ecosystem": 0.1429,
+    "Wallet": 0.8571
   },
   "p2016_posts": 7.0,
   "modern_posts": 3.0,

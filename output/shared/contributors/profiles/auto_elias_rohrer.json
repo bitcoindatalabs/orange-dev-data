@@ -1,7 +1,7 @@
 {
-  "display_name": "Elias Rohrer",
+  "display_name": "elias rohrer",
   "github_login_final": "tnull",
-  "delving_username_final": "tnull",
+  "delving_username_final": null,
   "uuid": "auto_elias_rohrer",
   "badges": null,
   "roles": null,
@@ -98,7 +98,6 @@
   "activity_status": "Active",
   "is_top_50": false,
   "github_url": "https://github.com/tnull",
-  "delving_url": "https://delvingbitcoin.org/u/tnull",
   "commit_history": {
     "2015": {
       "Consensus": 2.0

@@ -1,7 +1,7 @@
 {
   "display_name": "Hunter Beast",
   "github_login_final": "cryptoquick",
-  "delving_username_final": "cryptoquick",
+  "delving_username_final": null,
   "uuid": "auto_hunter_beast",
   "badges": {
     "is_maintainer": false,
@@ -87,8 +87,8 @@
     }
   },
   "expertise_domain_scores": {
-    "Consensus": 0.7143,
     "Script": 0.0149,
+    "Consensus": 0.7143,
     "Cryptography": 0.2709
   },
   "p2016_posts": 21.0,
@@ -112,7 +112,6 @@
   "activity_status": "Active",
   "is_top_50": false,
   "github_url": "https://github.com/cryptoquick",
-  "delving_url": "https://delvingbitcoin.org/u/cryptoquick",
   "bip_list": [
     {
       "number": 360,

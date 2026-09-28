@@ -85,8 +85,8 @@
       "Consensus": 0.412
     },
     "bips": {
-      "Infrastructure": 0.615,
       "Consensus": 0.308,
+      "Infrastructure": 0.615,
       "Mining": 0.077
     }
   },

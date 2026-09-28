@@ -1,7 +1,7 @@
 {
-  "display_name": "Robin Linus",
+  "display_name": "robin linus",
   "github_login_final": "RobinLinus",
-  "delving_username_final": "robinlinus",
+  "delving_username_final": null,
   "uuid": "auto_robin_linus",
   "badges": null,
   "roles": null,
@@ -95,7 +95,6 @@
   "activity_status": "Active",
   "is_top_50": false,
   "github_url": "https://github.com/RobinLinus",
-  "delving_url": "https://delvingbitcoin.org/u/robinlinus",
   "first_message": {
     "source": "mailing_list",
     "subject": "[bitcoin-dev] Coins: A trustless sidechain protocol",

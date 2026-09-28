@@ -1,7 +1,7 @@
 {
   "display_name": "fiatjaf",
   "github_login_final": "fiatjaf",
-  "delving_username_final": "fiatjaf",
+  "delving_username_final": null,
   "uuid": "auto_fiatjaf",
   "badges": null,
   "roles": null,
@@ -66,13 +66,13 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Wallet": 0.5,
-      "Script": 0.5
+      "Script": 0.5,
+      "Wallet": 0.5
     }
   },
   "expertise_domain_scores": {
-    "Wallet": 0.5,
-    "Script": 0.5
+    "Script": 0.5,
+    "Wallet": 0.5
   },
   "p2016_posts": 2.0,
   "modern_posts": 1.0,
@@ -95,7 +95,6 @@
   "activity_status": "Active",
   "is_top_50": false,
   "github_url": "https://github.com/fiatjaf",
-  "delving_url": "https://delvingbitcoin.org/u/fiatjaf",
   "first_message": {
     "source": "mailing_list",
     "subject": "Re: [bitcoin-dev] New PSBT version proposal",

@@ -1,7 +1,7 @@
 {
   "display_name": "Loki",
   "github_login_final": "moonsettler",
-  "delving_username_final": "moonsettler",
+  "delving_username_final": null,
   "uuid": "can_loki",
   "badges": {
     "is_maintainer": false,
@@ -78,16 +78,16 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Consensus": 0.173,
-      "Script": 0.827
+      "Script": 0.827,
+      "Consensus": 0.173
     },
     "bips": {
       "Consensus": 1.0
     }
   },
   "expertise_domain_scores": {
-    "Consensus": 0.7637,
-    "Script": 0.2363
+    "Script": 0.2363,
+    "Consensus": 0.7637
   },
   "p2016_posts": 29.0,
   "modern_posts": 25.0,
@@ -110,7 +110,6 @@
   "activity_status": "Active",
   "is_top_50": false,
   "github_url": "https://github.com/moonsettler",
-  "delving_url": "https://delvingbitcoin.org/u/moonsettler",
   "bip_list": [
     {
       "number": 442,

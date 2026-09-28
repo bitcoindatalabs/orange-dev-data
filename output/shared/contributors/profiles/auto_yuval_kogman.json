@@ -1,7 +1,7 @@
 {
-  "display_name": "yuval kogman",
+  "display_name": "Yuval Kogman",
   "github_login_final": "nothingmuch",
-  "delving_username_final": "nothingmuch",
+  "delving_username_final": null,
   "uuid": "auto_yuval_kogman",
   "badges": {
     "is_maintainer": false,
@@ -80,8 +80,8 @@
   "expertise_by_source": {
     "discussion": {
       "Mempool": 0.094,
-      "Consensus": 0.094,
-      "Privacy": 0.812
+      "Privacy": 0.812,
+      "Consensus": 0.094
     },
     "bips": {
       "Infrastructure": 1.0
@@ -90,8 +90,8 @@
   "expertise_domain_scores": {
     "Infrastructure": 0.7143,
     "Mempool": 0.0269,
-    "Consensus": 0.0269,
-    "Privacy": 0.232
+    "Privacy": 0.232,
+    "Consensus": 0.0269
   },
   "p2016_posts": 26.0,
   "modern_posts": 12.0,
@@ -114,7 +114,6 @@
   "activity_status": "Rising",
   "is_top_50": false,
   "github_url": "https://github.com/nothingmuch",
-  "delving_url": "https://delvingbitcoin.org/u/nothingmuch",
   "commit_history": {
     "2021": {
       "Consensus": 1.0,

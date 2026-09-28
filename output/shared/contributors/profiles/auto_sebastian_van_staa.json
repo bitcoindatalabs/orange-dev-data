@@ -1,7 +1,7 @@
 {
-  "display_name": "Sebastian van Staa",
+  "display_name": "sebastian van staa",
   "github_login_final": "svanstaa",
-  "delving_username_final": "svanstaa",
+  "delving_username_final": null,
   "uuid": "auto_sebastian_van_staa",
   "badges": {
     "ecosystem_contributor": true,
@@ -91,7 +91,6 @@
   "activity_status": "Active",
   "is_top_50": false,
   "github_url": "https://github.com/svanstaa",
-  "delving_url": "https://delvingbitcoin.org/u/svanstaa",
   "commit_history": {
     "2022": {
       "Build & CI": 2.0

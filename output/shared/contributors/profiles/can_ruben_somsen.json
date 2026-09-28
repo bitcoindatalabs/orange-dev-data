@@ -1,7 +1,7 @@
 {
   "display_name": "Ruben Somsen",
   "github_login_final": "RubenSomsen",
-  "delving_username_final": "rubensomsen",
+  "delving_username_final": null,
   "uuid": "can_ruben_somsen",
   "badges": {
     "is_maintainer": false,
@@ -113,7 +113,6 @@
   "activity_status": "Active",
   "is_top_50": false,
   "github_url": "https://github.com/RubenSomsen",
-  "delving_url": "https://delvingbitcoin.org/u/rubensomsen",
   "bip_list": [
     {
       "number": 352,

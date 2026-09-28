@@ -1,5 +1,5 @@
 {
-  "display_name": "Ademan",
+  "display_name": "ademan",
   "github_login_final": "Ademan",
   "delving_username_final": null,
   "uuid": "auto_ademan",
@@ -66,13 +66,13 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Consensus": 0.333,
-      "Ecosystem": 0.667
+      "Ecosystem": 0.667,
+      "Consensus": 0.333
     }
   },
   "expertise_domain_scores": {
-    "Consensus": 0.333,
-    "Ecosystem": 0.667
+    "Ecosystem": 0.667,
+    "Consensus": 0.333
   },
   "p2016_posts": 4.0,
   "modern_posts": 4.0,

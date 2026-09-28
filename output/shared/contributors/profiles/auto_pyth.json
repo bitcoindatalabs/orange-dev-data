@@ -1,7 +1,7 @@
 {
-  "display_name": "pyth",
+  "display_name": "Pyth",
   "github_login_final": null,
-  "delving_username_final": "pyth",
+  "delving_username_final": null,
   "uuid": "auto_pyth",
   "badges": {
     "is_maintainer": false,
@@ -80,8 +80,8 @@
   "expertise_by_source": {
     "discussion": {
       "Mempool": 0.219,
-      "Wallet": 0.562,
-      "Script": 0.219
+      "Script": 0.219,
+      "Wallet": 0.562
     },
     "bips": {
       "Wallet": 1.0
@@ -89,8 +89,8 @@
   },
   "expertise_domain_scores": {
     "Mempool": 0.0626,
-    "Wallet": 0.8749,
-    "Script": 0.0626
+    "Script": 0.0626,
+    "Wallet": 0.8749
   },
   "p2016_posts": 5.0,
   "modern_posts": 5.0,
@@ -112,7 +112,6 @@
   "github_followers": null,
   "activity_status": "Active",
   "is_top_50": false,
-  "delving_url": "https://delvingbitcoin.org/u/pyth",
   "bip_list": [
     {
       "number": 138,

@@ -1,5 +1,5 @@
 {
-  "display_name": "John C. Vernaleo",
+  "display_name": "john c. vernaleo",
   "github_login_final": null,
   "delving_username_final": null,
   "uuid": "auto_john_c_vernaleo",
@@ -66,13 +66,13 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "L2": 0.403,
-      "Ecosystem": 0.597
+      "Ecosystem": 0.597,
+      "L2": 0.403
     }
   },
   "expertise_domain_scores": {
-    "L2": 0.403,
-    "Ecosystem": 0.597
+    "Ecosystem": 0.597,
+    "L2": 0.403
   },
   "p2016_posts": 3.0,
   "modern_posts": 2.0,

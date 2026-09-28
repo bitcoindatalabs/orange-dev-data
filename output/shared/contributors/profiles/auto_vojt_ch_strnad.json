@@ -1,7 +1,7 @@
 {
-  "display_name": "Vojtěch Strnad",
+  "display_name": "vojtěch strnad",
   "github_login_final": "vostrnad",
-  "delving_username_final": "vostrnad",
+  "delving_username_final": null,
   "uuid": "auto_vojt_ch_strnad",
   "badges": null,
   "roles": null,
@@ -87,6 +87,5 @@
   "github_followers": 34.0,
   "activity_status": "Active",
   "is_top_50": false,
-  "github_url": "https://github.com/vostrnad",
-  "delving_url": "https://delvingbitcoin.org/u/vostrnad"
+  "github_url": "https://github.com/vostrnad"
 }

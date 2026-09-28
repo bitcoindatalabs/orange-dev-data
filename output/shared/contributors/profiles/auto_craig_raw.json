@@ -1,7 +1,7 @@
 {
-  "display_name": "Craig Raw",
+  "display_name": "craig raw",
   "github_login_final": "craigraw",
-  "delving_username_final": "craigraw",
+  "delving_username_final": null,
   "uuid": "auto_craig_raw",
   "badges": {
     "is_maintainer": false,
@@ -79,18 +79,18 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Wallet": 0.825,
-      "Privacy": 0.175
+      "Privacy": 0.175,
+      "Wallet": 0.825
     },
     "bips": {
-      "Script": 0.667,
-      "Wallet": 0.333
+      "Wallet": 0.333,
+      "Script": 0.667
     }
   },
   "expertise_domain_scores": {
-    "Wallet": 0.4736,
+    "Privacy": 0.05,
     "Script": 0.4764,
-    "Privacy": 0.05
+    "Wallet": 0.4736
   },
   "p2016_posts": 23.0,
   "modern_posts": 6.0,
@@ -113,7 +113,6 @@
   "activity_status": "Active",
   "is_top_50": false,
   "github_url": "https://github.com/craigraw",
-  "delving_url": "https://delvingbitcoin.org/u/craigraw",
   "bip_list": [
     {
       "number": 329,

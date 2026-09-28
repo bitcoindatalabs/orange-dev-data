@@ -1,7 +1,7 @@
 {
   "display_name": "William Casarin",
   "github_login_final": "jb55",
-  "delving_username_final": "jb55",
+  "delving_username_final": null,
   "uuid": "auto_william_casarin",
   "badges": {
     "ecosystem_contributor": true,
@@ -70,15 +70,15 @@
   ],
   "expertise_by_source": {
     "discussion": {
+      "L2": 0.245,
       "Consensus": 0.189,
-      "Wallet": 0.566,
-      "L2": 0.245
+      "Wallet": 0.566
     }
   },
   "expertise_domain_scores": {
+    "L2": 0.245,
     "Consensus": 0.189,
-    "Wallet": 0.566,
-    "L2": 0.245
+    "Wallet": 0.566
   },
   "p2016_posts": 12.0,
   "modern_posts": 1.0,
@@ -101,7 +101,6 @@
   "activity_status": "Active",
   "is_top_50": false,
   "github_url": "https://github.com/jb55",
-  "delving_url": "https://delvingbitcoin.org/u/jb55",
   "commit_history": {
     "2018": {
       "Documentation": 2.0,

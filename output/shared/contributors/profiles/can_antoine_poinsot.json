@@ -1,7 +1,7 @@
 {
   "display_name": "Antoine Poinsot",
   "github_login_final": "darosior",
-  "delving_username_final": "antoinep",
+  "delving_username_final": null,
   "uuid": "can_antoine_poinsot",
   "badges": {
     "is_maintainer": false,
@@ -82,18 +82,18 @@
   "expertise_by_source": {
     "discussion": {
       "Mempool": 0.179,
-      "Consensus": 0.462,
-      "Script": 0.359
+      "Script": 0.359,
+      "Consensus": 0.462
     },
     "bips": {
-      "Script": 0.25,
-      "Consensus": 0.75
+      "Consensus": 0.75,
+      "Script": 0.25
     }
   },
   "expertise_domain_scores": {
     "Mempool": 0.0511,
-    "Consensus": 0.6677,
-    "Script": 0.2811
+    "Script": 0.2811,
+    "Consensus": 0.6677
   },
   "p2016_posts": 128.0,
   "modern_posts": 91.0,
@@ -116,7 +116,6 @@
   "activity_status": "Active",
   "is_top_50": false,
   "github_url": "https://github.com/darosior",
-  "delving_url": "https://delvingbitcoin.org/u/antoinep",
   "commit_history": {
     "2019": {
       "Consensus": 2.0,

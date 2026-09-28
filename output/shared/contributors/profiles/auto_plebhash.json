@@ -1,7 +1,7 @@
 {
   "display_name": "plebhash",
   "github_login_final": "plebhash",
-  "delving_username_final": "plebhash",
+  "delving_username_final": null,
   "uuid": "auto_plebhash",
   "badges": null,
   "roles": null,
@@ -87,6 +87,5 @@
   "github_followers": null,
   "activity_status": "Active",
   "is_top_50": false,
-  "github_url": "https://github.com/plebhash",
-  "delving_url": "https://delvingbitcoin.org/u/plebhash"
+  "github_url": "https://github.com/plebhash"
 }

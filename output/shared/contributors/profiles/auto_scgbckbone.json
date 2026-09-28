@@ -1,7 +1,7 @@
 {
   "display_name": "scgbckbone",
   "github_login_final": "scgbckbone",
-  "delving_username_final": "scgbckbone",
+  "delving_username_final": null,
   "uuid": "auto_scgbckbone",
   "badges": {
     "ecosystem_contributor": true,
@@ -91,7 +91,6 @@
   "activity_status": "Active",
   "is_top_50": false,
   "github_url": "https://github.com/scgbckbone",
-  "delving_url": "https://delvingbitcoin.org/u/scgbckbone",
   "commit_history": {
     "2022": {
       "Utilities": 2.0

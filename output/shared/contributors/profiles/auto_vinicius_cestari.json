@@ -1,7 +1,7 @@
 {
-  "display_name": "Vinicius Cestari",
+  "display_name": "vinicius cestari",
   "github_login_final": "ViniciusCestarii",
-  "delving_username_final": "viniciuscestarii",
+  "delving_username_final": null,
   "uuid": "auto_vinicius_cestari",
   "badges": null,
   "roles": null,
@@ -88,7 +88,6 @@
   "activity_status": "New",
   "is_top_50": false,
   "github_url": "https://github.com/ViniciusCestarii",
-  "delving_url": "https://delvingbitcoin.org/u/viniciuscestarii",
   "commit_history": {
     "2026": {
       "Consensus": 2.0,

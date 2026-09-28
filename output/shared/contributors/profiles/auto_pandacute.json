@@ -1,7 +1,7 @@
 {
   "display_name": "pandacute",
   "github_login_final": null,
-  "delving_username_final": "pandacute",
+  "delving_username_final": null,
   "uuid": "auto_pandacute",
   "badges": null,
   "roles": null,
@@ -86,6 +86,5 @@
   "github_blog": null,
   "github_followers": null,
   "activity_status": "",
-  "is_top_50": false,
-  "delving_url": "https://delvingbitcoin.org/u/pandacute"
+  "is_top_50": false
 }

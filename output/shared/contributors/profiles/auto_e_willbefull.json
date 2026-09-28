@@ -1,5 +1,5 @@
 {
-  "display_name": "E willbefull",
+  "display_name": "e willbefull",
   "github_login_final": "ebfull",
   "delving_username_final": null,
   "uuid": "auto_e_willbefull",
@@ -79,9 +79,9 @@
   ],
   "expertise_by_source": {
     "discussion": {
+      "Ecosystem": 0.5,
       "Mining": 0.25,
-      "L2": 0.25,
-      "Ecosystem": 0.5
+      "L2": 0.25
     },
     "bips": {
       "Infrastructure": 0.5,
@@ -90,10 +90,10 @@
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.3571,
+    "Ecosystem": 0.1429,
     "Mining": 0.0714,
-    "Wallet": 0.3571,
     "L2": 0.0714,
-    "Ecosystem": 0.1429
+    "Wallet": 0.3571
   },
   "p2016_posts": 1.0,
   "modern_posts": 0.0,

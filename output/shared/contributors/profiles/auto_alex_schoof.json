@@ -1,5 +1,5 @@
 {
-  "display_name": "Alex Schoof",
+  "display_name": "alex schoof",
   "github_login_final": null,
   "delving_username_final": null,
   "uuid": "auto_alex_schoof",
@@ -67,15 +67,15 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Consensus": 0.2,
+      "Privacy": 0.4,
       "Script": 0.4,
-      "Privacy": 0.4
+      "Consensus": 0.2
     }
   },
   "expertise_domain_scores": {
-    "Consensus": 0.2,
+    "Privacy": 0.4,
     "Script": 0.4,
-    "Privacy": 0.4
+    "Consensus": 0.2
   },
   "p2016_posts": 8.0,
   "modern_posts": 0.0,

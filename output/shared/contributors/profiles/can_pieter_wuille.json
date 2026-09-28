@@ -1,7 +1,7 @@
 {
   "display_name": "Pieter Wuille",
   "github_login_final": "sipa",
-  "delving_username_final": "sipa",
+  "delving_username_final": null,
   "uuid": "can_pieter_wuille",
   "badges": {
     "is_maintainer": true,
@@ -91,20 +91,20 @@
       "Consensus": 0.5
     },
     "bips": {
+      "Consensus": 0.556,
       "Infrastructure": 0.111,
-      "Script": 0.259,
       "Wallet": 0.037,
       "Network": 0.037,
-      "Consensus": 0.556
+      "Script": 0.259
     }
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.0793,
     "Mining": 0.1429,
+    "Script": 0.185,
     "Consensus": 0.54,
     "Wallet": 0.0264,
-    "Network": 0.0264,
-    "Script": 0.185
+    "Network": 0.0264
   },
   "p2016_posts": 180.0,
   "modern_posts": 27.0,
@@ -127,7 +127,6 @@
   "activity_status": "Active",
   "is_top_50": false,
   "github_url": "https://github.com/sipa",
-  "delving_url": "https://delvingbitcoin.org/u/sipa",
   "commit_history": {
     "2011": {
       "Build & CI": 5.0,

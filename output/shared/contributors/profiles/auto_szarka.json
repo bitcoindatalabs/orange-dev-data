@@ -1,7 +1,7 @@
 {
   "display_name": "szarka",
   "github_login_final": "szarka",
-  "delving_username_final": "szarka",
+  "delving_username_final": null,
   "uuid": "auto_szarka",
   "badges": null,
   "roles": null,
@@ -87,6 +87,5 @@
   "github_followers": null,
   "activity_status": "Active",
   "is_top_50": false,
-  "github_url": "https://github.com/szarka",
-  "delving_url": "https://delvingbitcoin.org/u/szarka"
+  "github_url": "https://github.com/szarka"
 }

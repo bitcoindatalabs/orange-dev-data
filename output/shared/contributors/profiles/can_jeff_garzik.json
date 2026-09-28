@@ -89,8 +89,8 @@
       "Consensus": 0.556
     },
     "bips": {
-      "Network": 0.333,
-      "Consensus": 0.667
+      "Consensus": 0.667,
+      "Network": 0.333
     }
   },
   "expertise_domain_scores": {

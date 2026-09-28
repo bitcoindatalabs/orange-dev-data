@@ -1,5 +1,5 @@
 {
-  "display_name": "Ben Westgate",
+  "display_name": "ben westgate",
   "github_login_final": "BenWestgate",
   "delving_username_final": null,
   "uuid": "auto_ben_westgate",
@@ -66,13 +66,13 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Wallet": 0.86,
-      "Ecosystem": 0.14
+      "Ecosystem": 0.14,
+      "Wallet": 0.86
     }
   },
   "expertise_domain_scores": {
-    "Wallet": 0.86,
-    "Ecosystem": 0.14
+    "Ecosystem": 0.14,
+    "Wallet": 0.86
   },
   "p2016_posts": 3.0,
   "modern_posts": 3.0,

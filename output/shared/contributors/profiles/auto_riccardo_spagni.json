@@ -67,14 +67,14 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Mempool": 0.253,
       "Ecosystem": 0.626,
+      "Mempool": 0.253,
       "Privacy": 0.121
     }
   },
   "expertise_domain_scores": {
-    "Mempool": 0.253,
     "Ecosystem": 0.626,
+    "Mempool": 0.253,
     "Privacy": 0.121
   },
   "p2016_posts": 0.0,

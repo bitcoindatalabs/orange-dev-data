@@ -1,7 +1,7 @@
 {
   "display_name": "Kevin Loaec",
   "github_login_final": null,
-  "delving_username_final": "kloaec",
+  "delving_username_final": null,
   "uuid": "auto_kevin_loaec",
   "badges": null,
   "roles": null,
@@ -91,7 +91,6 @@
   "github_followers": null,
   "activity_status": "",
   "is_top_50": false,
-  "delving_url": "https://delvingbitcoin.org/u/kloaec",
   "first_message": {
     "source": "mailing_list",
     "subject": "[bitcoin-dev] Hardware wallets and \"advanced\" Bitcoin features",

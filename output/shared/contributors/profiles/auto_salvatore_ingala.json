@@ -1,5 +1,5 @@
 {
-  "display_name": "Salvatore Ingala",
+  "display_name": "salvatore ingala",
   "github_login_final": "bigspider",
   "delving_username_final": null,
   "uuid": "auto_salvatore_ingala",
@@ -81,18 +81,18 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Wallet": 0.59,
-      "Script": 0.41
+      "Script": 0.41,
+      "Wallet": 0.59
     },
     "bips": {
-      "Script": 0.5,
-      "Consensus": 0.5
+      "Consensus": 0.5,
+      "Script": 0.5
     }
   },
   "expertise_domain_scores": {
+    "Script": 0.4743,
     "Consensus": 0.3571,
-    "Wallet": 0.1686,
-    "Script": 0.4743
+    "Wallet": 0.1686
   },
   "p2016_posts": 26.0,
   "modern_posts": 3.0,

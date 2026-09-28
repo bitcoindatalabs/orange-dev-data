@@ -1,7 +1,7 @@
 {
   "display_name": "Niklas Gögge",
   "github_login_final": "dergoegge",
-  "delving_username_final": "dergoegge",
+  "delving_username_final": null,
   "uuid": "can_niklas_g_gge",
   "badges": {
     "is_maintainer": false,
@@ -102,7 +102,6 @@
   "activity_status": "Rising",
   "is_top_50": false,
   "github_url": "https://github.com/dergoegge",
-  "delving_url": "https://delvingbitcoin.org/u/dergoegge",
   "commit_history": {
     "2020": {
       "Build & CI": 2.0

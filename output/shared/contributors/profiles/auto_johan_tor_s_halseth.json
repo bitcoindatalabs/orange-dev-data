@@ -1,7 +1,7 @@
 {
   "display_name": "Johan Torås Halseth",
   "github_login_final": "halseth",
-  "delving_username_final": "halseth",
+  "delving_username_final": null,
   "uuid": "auto_johan_tor_s_halseth",
   "badges": null,
   "roles": null,
@@ -95,7 +95,6 @@
   "activity_status": "Active",
   "is_top_50": false,
   "github_url": "https://github.com/halseth",
-  "delving_url": "https://delvingbitcoin.org/u/halseth",
   "first_message": {
     "source": "mailing_list",
     "subject": "Re: [bitcoin-dev] BIP 158 Flexibility and Filter Size",

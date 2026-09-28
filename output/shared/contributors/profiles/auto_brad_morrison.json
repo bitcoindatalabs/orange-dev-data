@@ -1,5 +1,5 @@
 {
-  "display_name": "Brad Morrison",
+  "display_name": "brad morrison",
   "github_login_final": null,
   "delving_username_final": null,
   "uuid": "auto_brad_morrison",
@@ -66,13 +66,13 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Mempool": 0.431,
-      "Ecosystem": 0.569
+      "Ecosystem": 0.569,
+      "Mempool": 0.431
     }
   },
   "expertise_domain_scores": {
-    "Mempool": 0.431,
-    "Ecosystem": 0.569
+    "Ecosystem": 0.569,
+    "Mempool": 0.431
   },
   "p2016_posts": 4.0,
   "modern_posts": 4.0,

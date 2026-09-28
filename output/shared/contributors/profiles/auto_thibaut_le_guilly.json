@@ -68,14 +68,14 @@
   "expertise_by_source": {
     "discussion": {
       "L2": 0.626,
-      "Script": 0.253,
-      "Privacy": 0.121
+      "Privacy": 0.121,
+      "Script": 0.253
     }
   },
   "expertise_domain_scores": {
     "L2": 0.626,
-    "Script": 0.253,
-    "Privacy": 0.121
+    "Privacy": 0.121,
+    "Script": 0.253
   },
   "p2016_posts": 3.0,
   "modern_posts": 0.0,

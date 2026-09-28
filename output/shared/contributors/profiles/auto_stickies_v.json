@@ -1,7 +1,7 @@
 {
   "display_name": "stickies-v",
   "github_login_final": "stickies-v",
-  "delving_username_final": "stickies-v",
+  "delving_username_final": null,
   "uuid": "auto_stickies_v",
   "badges": {
     "is_maintainer": false,
@@ -96,7 +96,6 @@
   "activity_status": "Rising",
   "is_top_50": false,
   "github_url": "https://github.com/stickies-v",
-  "delving_url": "https://delvingbitcoin.org/u/stickies-v",
   "commit_history": {
     "2022": {
       "Build & CI": 2.33,

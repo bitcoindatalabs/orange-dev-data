@@ -1,7 +1,7 @@
 {
-  "display_name": "Chris Guida",
+  "display_name": "chris guida",
   "github_login_final": null,
-  "delving_username_final": "cguida",
+  "delving_username_final": null,
   "uuid": "auto_chris_guida",
   "badges": null,
   "roles": null,
@@ -94,7 +94,6 @@
   "github_followers": null,
   "activity_status": "Rising",
   "is_top_50": false,
-  "delving_url": "https://delvingbitcoin.org/u/cguida",
   "first_message": {
     "source": "mailing_list",
     "subject": "Re: [bitcoindev] Relax OP_RETURN standardness restrictions",

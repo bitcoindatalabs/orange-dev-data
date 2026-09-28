@@ -79,19 +79,19 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Consensus": 0.25,
       "Ecosystem": 0.5,
-      "Script": 0.25
+      "Script": 0.25,
+      "Consensus": 0.25
     },
     "bips": {
       "Wallet": 1.0
     }
   },
   "expertise_domain_scores": {
-    "Consensus": 0.0714,
-    "Wallet": 0.7143,
     "Ecosystem": 0.1429,
-    "Script": 0.0714
+    "Script": 0.0714,
+    "Consensus": 0.0714,
+    "Wallet": 0.7143
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,

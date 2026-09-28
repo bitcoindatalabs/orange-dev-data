@@ -1,5 +1,5 @@
 {
-  "display_name": "Joseph Poon",
+  "display_name": "joseph poon",
   "github_login_final": null,
   "delving_username_final": null,
   "uuid": "auto_joseph_poon",
@@ -66,13 +66,13 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Consensus": 0.477,
-      "L2": 0.523
+      "L2": 0.523,
+      "Consensus": 0.477
     }
   },
   "expertise_domain_scores": {
-    "Consensus": 0.477,
-    "L2": 0.523
+    "L2": 0.523,
+    "Consensus": 0.477
   },
   "p2016_posts": 9.0,
   "modern_posts": 0.0,

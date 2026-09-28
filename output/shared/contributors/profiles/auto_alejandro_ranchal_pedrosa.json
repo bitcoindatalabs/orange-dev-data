@@ -1,5 +1,5 @@
 {
-  "display_name": "Alejandro Ranchal Pedrosa",
+  "display_name": "alejandro ranchal pedrosa",
   "github_login_final": null,
   "delving_username_final": null,
   "uuid": "auto_alejandro_ranchal_pedrosa",
@@ -66,13 +66,13 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Script": 0.5,
-      "Privacy": 0.5
+      "Privacy": 0.5,
+      "Script": 0.5
     }
   },
   "expertise_domain_scores": {
-    "Script": 0.5,
-    "Privacy": 0.5
+    "Privacy": 0.5,
+    "Script": 0.5
   },
   "p2016_posts": 4.0,
   "modern_posts": 0.0,

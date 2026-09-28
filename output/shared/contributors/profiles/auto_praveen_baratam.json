@@ -1,5 +1,5 @@
 {
-  "display_name": "Praveen Baratam",
+  "display_name": "praveen baratam",
   "github_login_final": null,
   "delving_username_final": null,
   "uuid": "auto_praveen_baratam",
@@ -67,14 +67,14 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Consensus": 0.4,
       "Script": 0.4,
+      "Consensus": 0.4,
       "Cryptography": 0.2
     }
   },
   "expertise_domain_scores": {
-    "Consensus": 0.4,
     "Script": 0.4,
+    "Consensus": 0.4,
     "Cryptography": 0.2
   },
   "p2016_posts": 6.0,

@@ -1,6 +1,6 @@
 {
-  "display_name": "kjsisco",
-  "github_login_final": "kjsisco",
+  "display_name": "auto_kjsisco",
+  "github_login_final": null,
   "delving_username_final": null,
   "uuid": "auto_kjsisco",
   "badges": null,
@@ -88,10 +88,9 @@
   "github_bio": null,
   "github_twitter": null,
   "github_blog": null,
-  "github_followers": 0.0,
+  "github_followers": null,
   "activity_status": "Active",
   "is_top_50": false,
-  "github_url": "https://github.com/kjsisco",
   "first_message": {
     "source": "mailing_list",
     "subject": "[Bitcoin-development] New to this list",

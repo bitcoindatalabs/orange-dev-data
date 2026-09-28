@@ -1,7 +1,7 @@
 {
   "display_name": "conduition",
   "github_login_final": "conduition",
-  "delving_username_final": "conduition",
+  "delving_username_final": null,
   "uuid": "auto_conduition",
   "badges": null,
   "roles": null,
@@ -95,7 +95,6 @@
   "activity_status": "Active",
   "is_top_50": false,
   "github_url": "https://github.com/conduition",
-  "delving_url": "https://delvingbitcoin.org/u/conduition",
   "first_message": {
     "source": "mailing_list",
     "subject": "Re: [bitcoindev] Trivial QC signatures with clean upgrade path",

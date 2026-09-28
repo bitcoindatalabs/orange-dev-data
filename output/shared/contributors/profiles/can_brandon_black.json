@@ -1,7 +1,7 @@
 {
   "display_name": "Brandon Black",
   "github_login_final": "reardencode",
-  "delving_username_final": "reardencode",
+  "delving_username_final": null,
   "uuid": "can_brandon_black",
   "badges": {
     "is_maintainer": false,
@@ -78,16 +78,16 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Consensus": 0.218,
-      "Script": 0.782
+      "Script": 0.782,
+      "Consensus": 0.218
     },
     "bips": {
       "Consensus": 1.0
     }
   },
   "expertise_domain_scores": {
-    "Consensus": 0.7766,
-    "Script": 0.2234
+    "Script": 0.2234,
+    "Consensus": 0.7766
   },
   "p2016_posts": 38.0,
   "modern_posts": 26.0,
@@ -110,7 +110,6 @@
   "activity_status": "Active",
   "is_top_50": false,
   "github_url": "https://github.com/reardencode",
-  "delving_url": "https://delvingbitcoin.org/u/reardencode",
   "bip_list": [
     {
       "number": 346,

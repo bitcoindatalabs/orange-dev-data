@@ -67,14 +67,14 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Mempool": 0.429,
       "L2": 0.286,
+      "Mempool": 0.429,
       "Script": 0.286
     }
   },
   "expertise_domain_scores": {
-    "Mempool": 0.4286,
     "L2": 0.2857,
+    "Mempool": 0.4286,
     "Script": 0.2857
   },
   "p2016_posts": 3.0,

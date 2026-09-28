@@ -88,8 +88,8 @@
   },
   "expertise_domain_scores": {
     "Mempool": 0.1503,
-    "Wallet": 0.7143,
-    "Privacy": 0.1354
+    "Privacy": 0.1354,
+    "Wallet": 0.7143
   },
   "p2016_posts": 2.0,
   "modern_posts": 0.0,

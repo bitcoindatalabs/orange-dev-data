@@ -1,7 +1,7 @@
 {
   "display_name": "Lisa Neigut",
   "github_login_final": "niftynei",
-  "delving_username_final": "niftynei",
+  "delving_username_final": null,
   "uuid": "can_lisa_neigut",
   "badges": {
     "is_maintainer": false,
@@ -76,14 +76,14 @@
   "expertise_by_source": {
     "discussion": {
       "Mining": 0.287,
-      "Mempool": 0.426,
-      "L2": 0.287
+      "L2": 0.287,
+      "Mempool": 0.426
     }
   },
   "expertise_domain_scores": {
     "Mining": 0.287,
-    "Mempool": 0.426,
-    "L2": 0.287
+    "L2": 0.287,
+    "Mempool": 0.426
   },
   "p2016_posts": 3.0,
   "modern_posts": 0.0,
@@ -106,7 +106,6 @@
   "activity_status": "Active",
   "is_top_50": false,
   "github_url": "https://github.com/niftynei",
-  "delving_url": "https://delvingbitcoin.org/u/niftynei",
   "commit_history": {
     "2021": {
       "Documentation": 2.0

@@ -1,5 +1,5 @@
 {
-  "display_name": "James Lu",
+  "display_name": "james lu",
   "github_login_final": null,
   "delving_username_final": null,
   "uuid": "auto_james_lu",
@@ -68,14 +68,14 @@
   "expertise_by_source": {
     "discussion": {
       "Mining": 0.493,
-      "Consensus": 0.338,
-      "Script": 0.169
+      "Script": 0.169,
+      "Consensus": 0.338
     }
   },
   "expertise_domain_scores": {
     "Mining": 0.493,
-    "Consensus": 0.338,
-    "Script": 0.169
+    "Script": 0.169,
+    "Consensus": 0.338
   },
   "p2016_posts": 7.0,
   "modern_posts": 0.0,

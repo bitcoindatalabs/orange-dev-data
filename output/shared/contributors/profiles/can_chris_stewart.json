@@ -1,7 +1,7 @@
 {
   "display_name": "Chris Stewart",
   "github_login_final": "Christewart",
-  "delving_username_final": "chris_stewart_5",
+  "delving_username_final": null,
   "uuid": "can_chris_stewart",
   "badges": {
     "is_maintainer": false,
@@ -85,8 +85,8 @@
     }
   },
   "expertise_domain_scores": {
-    "Consensus": 0.7143,
-    "L2": 0.2857
+    "L2": 0.2857,
+    "Consensus": 0.7143
   },
   "p2016_posts": 44.0,
   "modern_posts": 12.0,
@@ -109,7 +109,6 @@
   "activity_status": "Active",
   "is_top_50": false,
   "github_url": "https://github.com/Christewart",
-  "delving_url": "https://delvingbitcoin.org/u/chris_stewart_5",
   "commit_history": {
     "2016": {
       "Tests": 8.0

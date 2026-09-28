@@ -1,5 +1,5 @@
 {
-  "display_name": "Dustin Ray",
+  "display_name": "dustin ray",
   "github_login_final": null,
   "delving_username_final": null,
   "uuid": "auto_dustin_ray",
@@ -67,14 +67,14 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "L2": 0.048,
       "Ecosystem": 0.048,
+      "L2": 0.048,
       "Cryptography": 0.904
     }
   },
   "expertise_domain_scores": {
-    "L2": 0.048,
     "Ecosystem": 0.048,
+    "L2": 0.048,
     "Cryptography": 0.904
   },
   "p2016_posts": 9.0,

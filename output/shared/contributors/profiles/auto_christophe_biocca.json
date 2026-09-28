@@ -1,5 +1,5 @@
 {
-  "display_name": "Christophe Biocca",
+  "display_name": "christophe biocca",
   "github_login_final": null,
   "delving_username_final": null,
   "uuid": "auto_christophe_biocca",
@@ -66,13 +66,13 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Mining": 0.581,
-      "Ecosystem": 0.419
+      "Ecosystem": 0.419,
+      "Mining": 0.581
     }
   },
   "expertise_domain_scores": {
-    "Mining": 0.581,
-    "Ecosystem": 0.419
+    "Ecosystem": 0.419,
+    "Mining": 0.581
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,

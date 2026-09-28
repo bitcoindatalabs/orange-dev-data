@@ -1,5 +1,5 @@
 {
-  "display_name": "Kulpreet Singh",
+  "display_name": "kulpreet singh",
   "github_login_final": null,
   "delving_username_final": null,
   "uuid": "auto_kulpreet_singh",
@@ -66,13 +66,13 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "L2": 0.333,
-      "Ecosystem": 0.667
+      "Ecosystem": 0.667,
+      "L2": 0.333
     }
   },
   "expertise_domain_scores": {
-    "L2": 0.333,
-    "Ecosystem": 0.667
+    "Ecosystem": 0.667,
+    "L2": 0.333
   },
   "p2016_posts": 2.0,
   "modern_posts": 0.0,

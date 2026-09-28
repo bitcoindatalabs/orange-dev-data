@@ -1,6 +1,6 @@
 {
   "display_name": "Велеслав",
-  "github_login_final": "veleslavs",
+  "github_login_final": null,
   "delving_username_final": null,
   "uuid": "auto_id_fc7737",
   "badges": null,
@@ -67,8 +67,8 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Consensus": 0.5,
-      "Ecosystem": 0.5
+      "Ecosystem": 0.5,
+      "Consensus": 0.5
     },
     "bips": {
       "Infrastructure": 1.0
@@ -76,8 +76,8 @@
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.7143,
-    "Consensus": 0.1429,
-    "Ecosystem": 0.1429
+    "Ecosystem": 0.1429,
+    "Consensus": 0.1429
   },
   "p2016_posts": 5.0,
   "modern_posts": 0.0,
@@ -96,10 +96,9 @@
   "github_bio": null,
   "github_twitter": null,
   "github_blog": null,
-  "github_followers": 0.0,
+  "github_followers": null,
   "activity_status": "Active",
   "is_top_50": false,
-  "github_url": "https://github.com/veleslavs",
   "bip_list": [
     {
       "number": 136,

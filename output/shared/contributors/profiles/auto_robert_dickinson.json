@@ -1,5 +1,5 @@
 {
-  "display_name": "Robert Dickinson",
+  "display_name": "robert dickinson",
   "github_login_final": null,
   "delving_username_final": null,
   "uuid": "auto_robert_dickinson",
@@ -66,13 +66,13 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Consensus": 0.242,
-      "Ecosystem": 0.758
+      "Ecosystem": 0.758,
+      "Consensus": 0.242
     }
   },
   "expertise_domain_scores": {
-    "Consensus": 0.242,
-    "Ecosystem": 0.758
+    "Ecosystem": 0.758,
+    "Consensus": 0.242
   },
   "p2016_posts": 3.0,
   "modern_posts": 0.0,

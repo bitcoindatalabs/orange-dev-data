@@ -1,7 +1,7 @@
 {
   "display_name": "alex akselrod",
   "github_login_final": "aakselrod",
-  "delving_username_final": "aakselrod",
+  "delving_username_final": null,
   "uuid": "auto_alex_akselrod",
   "badges": {
     "is_maintainer": false,
@@ -79,8 +79,8 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Network": 0.667,
-      "Privacy": 0.333
+      "Privacy": 0.333,
+      "Network": 0.667
     },
     "bips": {
       "Infrastructure": 0.5,
@@ -90,8 +90,8 @@
   "expertise_domain_scores": {
     "Infrastructure": 0.3571,
     "L2": 0.3571,
-    "Network": 0.1906,
-    "Privacy": 0.0951
+    "Privacy": 0.0951,
+    "Network": 0.1906
   },
   "p2016_posts": 2.0,
   "modern_posts": 0.0,
@@ -114,7 +114,6 @@
   "activity_status": "Active",
   "is_top_50": false,
   "github_url": "https://github.com/aakselrod",
-  "delving_url": "https://delvingbitcoin.org/u/aakselrod",
   "bip_list": [
     {
       "number": 157,

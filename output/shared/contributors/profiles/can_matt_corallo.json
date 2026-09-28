@@ -1,7 +1,7 @@
 {
   "display_name": "Matt Corallo",
   "github_login_final": "TheBlueMatt",
-  "delving_username_final": "mattcorallo",
+  "delving_username_final": null,
   "uuid": "can_matt_corallo",
   "badges": {
     "is_maintainer": false,
@@ -83,16 +83,16 @@
       "Consensus": 0.5
     },
     "bips": {
-      "Infrastructure": 0.75,
       "Consensus": 0.125,
+      "Infrastructure": 0.75,
       "L2": 0.125
     }
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.5357,
     "Mining": 0.1429,
-    "Consensus": 0.2321,
-    "L2": 0.0893
+    "L2": 0.0893,
+    "Consensus": 0.2321
   },
   "p2016_posts": 268.0,
   "modern_posts": 80.0,
@@ -115,7 +115,6 @@
   "activity_status": "Active",
   "is_top_50": false,
   "github_url": "https://github.com/TheBlueMatt",
-  "delving_url": "https://delvingbitcoin.org/u/mattcorallo",
   "commit_history": {
     "2011": {
       "Build & CI": 29.17,

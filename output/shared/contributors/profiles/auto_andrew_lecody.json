@@ -1,5 +1,5 @@
 {
-  "display_name": "Andrew LeCody",
+  "display_name": "andrew lecody",
   "github_login_final": "aceat64",
   "delving_username_final": null,
   "uuid": "auto_andrew_lecody",
@@ -66,13 +66,13 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Consensus": 0.908,
-      "Privacy": 0.092
+      "Privacy": 0.092,
+      "Consensus": 0.908
     }
   },
   "expertise_domain_scores": {
-    "Consensus": 0.908,
-    "Privacy": 0.092
+    "Privacy": 0.092,
+    "Consensus": 0.908
   },
   "p2016_posts": 1.0,
   "modern_posts": 0.0,

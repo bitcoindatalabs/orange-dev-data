@@ -79,8 +79,8 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Consensus": 0.593,
-      "Script": 0.407
+      "Script": 0.407,
+      "Consensus": 0.593
     },
     "bips": {
       "Infrastructure": 0.5,
@@ -89,8 +89,8 @@
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.3571,
-    "Consensus": 0.1694,
-    "Script": 0.4734
+    "Script": 0.4734,
+    "Consensus": 0.1694
   },
   "p2016_posts": 83.0,
   "modern_posts": 35.0,

@@ -1,7 +1,7 @@
 {
   "display_name": "cygnet3",
   "github_login_final": "cygnet3",
-  "delving_username_final": "cygnet3",
+  "delving_username_final": null,
   "uuid": "auto_cygnet3",
   "badges": null,
   "roles": null,
@@ -87,6 +87,5 @@
   "github_followers": null,
   "activity_status": "Active",
   "is_top_50": false,
-  "github_url": "https://github.com/cygnet3",
-  "delving_url": "https://delvingbitcoin.org/u/cygnet3"
+  "github_url": "https://github.com/cygnet3"
 }

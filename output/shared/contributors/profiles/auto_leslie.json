@@ -1,7 +1,7 @@
 {
-  "display_name": "LesLie",
+  "display_name": "leslie",
   "github_login_final": null,
-  "delving_username_final": "0300dbdd1b",
+  "delving_username_final": null,
   "uuid": "auto_leslie",
   "badges": null,
   "roles": null,
@@ -86,6 +86,5 @@
   "github_blog": null,
   "github_followers": null,
   "activity_status": "",
-  "is_top_50": false,
-  "delving_url": "https://delvingbitcoin.org/u/0300dbdd1b"
+  "is_top_50": false
 }

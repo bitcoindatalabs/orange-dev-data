@@ -1,7 +1,7 @@
 {
   "display_name": "Ali Sherief",
   "github_login_final": "ZenulAbidin",
-  "delving_username_final": "zenul_abidin",
+  "delving_username_final": null,
   "uuid": "can_ali_sherief",
   "badges": {
     "ecosystem_contributor": true,
@@ -98,7 +98,6 @@
   "activity_status": "Active",
   "is_top_50": false,
   "github_url": "https://github.com/ZenulAbidin",
-  "delving_url": "https://delvingbitcoin.org/u/zenul_abidin",
   "commit_history": {
     "2021": {
       "Wallet": 1.0

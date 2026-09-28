@@ -1,7 +1,7 @@
 {
   "display_name": "Bram Cohen",
   "github_login_final": null,
-  "delving_username_final": "bramcohen",
+  "delving_username_final": null,
   "uuid": "can_bram_cohen",
   "badges": null,
   "roles": null,
@@ -91,7 +91,6 @@
   "github_followers": null,
   "activity_status": "",
   "is_top_50": false,
-  "delving_url": "https://delvingbitcoin.org/u/bramcohen",
   "first_message": {
     "source": "mailing_list",
     "subject": "[bitcoin-dev] How wallets can handle real transaction fees",

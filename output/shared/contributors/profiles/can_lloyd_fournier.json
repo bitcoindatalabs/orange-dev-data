@@ -1,7 +1,7 @@
 {
   "display_name": "Lloyd Fournier",
   "github_login_final": "clarkmoody",
-  "delving_username_final": "llfourn",
+  "delving_username_final": null,
   "uuid": "can_lloyd_fournier",
   "badges": {
     "is_maintainer": false,
@@ -112,7 +112,6 @@
   "activity_status": "Active",
   "is_top_50": false,
   "github_url": "https://github.com/clarkmoody",
-  "delving_url": "https://delvingbitcoin.org/u/llfourn",
   "bip_list": [
     {
       "number": 351,

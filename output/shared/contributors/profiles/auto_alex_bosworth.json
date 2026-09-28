@@ -1,5 +1,5 @@
 {
-  "display_name": "Alex Bosworth",
+  "display_name": "alex bosworth",
   "github_login_final": "alexbosworth",
   "delving_username_final": null,
   "uuid": "auto_alex_bosworth",
@@ -66,13 +66,13 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Wallet": 0.33,
-      "L2": 0.67
+      "L2": 0.67,
+      "Wallet": 0.33
     }
   },
   "expertise_domain_scores": {
-    "Wallet": 0.33,
-    "L2": 0.67
+    "L2": 0.67,
+    "Wallet": 0.33
   },
   "p2016_posts": 1.0,
   "modern_posts": 0.0,

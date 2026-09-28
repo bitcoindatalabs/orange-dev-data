@@ -1,5 +1,5 @@
 {
-  "display_name": "Sergej Kotliar",
+  "display_name": "sergej kotliar",
   "github_login_final": null,
   "delving_username_final": null,
   "uuid": "auto_sergej_kotliar",
@@ -66,13 +66,13 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Mempool": 0.96,
-      "L2": 0.04
+      "L2": 0.04,
+      "Mempool": 0.96
     }
   },
   "expertise_domain_scores": {
-    "Mempool": 0.96,
-    "L2": 0.04
+    "L2": 0.04,
+    "Mempool": 0.96
   },
   "p2016_posts": 11.0,
   "modern_posts": 0.0,

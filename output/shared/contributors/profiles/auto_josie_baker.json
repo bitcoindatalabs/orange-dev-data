@@ -1,7 +1,7 @@
 {
   "display_name": "Josie Baker",
-  "github_login_final": null,
-  "delving_username_final": "josibake",
+  "github_login_final": "Josie",
+  "delving_username_final": null,
   "uuid": "auto_josie_baker",
   "badges": null,
   "roles": null,
@@ -91,7 +91,7 @@
   "github_followers": null,
   "activity_status": "New",
   "is_top_50": false,
-  "delving_url": "https://delvingbitcoin.org/u/josibake",
+  "github_url": "https://github.com/Josie",
   "first_message": {
     "source": "mailing_list",
     "subject": "[bitcoindev] Re: [BIP Draft] P2P UTXO Set Sharing",

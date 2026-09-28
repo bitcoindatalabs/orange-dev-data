@@ -1,7 +1,7 @@
 {
   "display_name": "buffrr",
   "github_login_final": null,
-  "delving_username_final": "buffrr",
+  "delving_username_final": null,
   "uuid": "auto_buffrr",
   "badges": null,
   "roles": null,
@@ -87,7 +87,6 @@
   "github_followers": null,
   "activity_status": "",
   "is_top_50": false,
-  "delving_url": "https://delvingbitcoin.org/u/buffrr",
   "first_message": {
     "source": "mailing_list",
     "subject": "[bitcoindev] Scalable & Permissionless Bitcoin CA",

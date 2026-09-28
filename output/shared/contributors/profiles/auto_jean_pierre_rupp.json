@@ -1,5 +1,5 @@
 {
-  "display_name": "jean-pierre rupp",
+  "display_name": "Jean-Pierre Rupp",
   "github_login_final": "jprupp",
   "delving_username_final": null,
   "uuid": "auto_jean_pierre_rupp",
@@ -78,16 +78,16 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Wallet": 0.701,
-      "Script": 0.299
+      "Script": 0.299,
+      "Wallet": 0.701
     },
     "bips": {
       "Script": 1.0
     }
   },
   "expertise_domain_scores": {
-    "Wallet": 0.2003,
-    "Script": 0.7997
+    "Script": 0.7997,
+    "Wallet": 0.2003
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,

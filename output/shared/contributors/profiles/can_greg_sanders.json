@@ -1,7 +1,7 @@
 {
   "display_name": "Greg Sanders",
   "github_login_final": "instagibbs",
-  "delving_username_final": "instagibbs",
+  "delving_username_final": null,
   "uuid": "can_greg_sanders",
   "badges": {
     "is_maintainer": false,
@@ -82,19 +82,19 @@
   "expertise_by_source": {
     "discussion": {
       "Mempool": 0.56,
-      "Consensus": 0.16,
-      "Script": 0.28
+      "Script": 0.28,
+      "Consensus": 0.16
     },
     "bips": {
-      "Infrastructure": 0.25,
-      "Consensus": 0.75
+      "Consensus": 0.75,
+      "Infrastructure": 0.25
     }
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.1786,
     "Mempool": 0.16,
-    "Consensus": 0.5814,
-    "Script": 0.08
+    "Script": 0.08,
+    "Consensus": 0.5814
   },
   "p2016_posts": 128.0,
   "modern_posts": 18.0,
@@ -117,7 +117,6 @@
   "activity_status": "Active",
   "is_top_50": false,
   "github_url": "https://github.com/instagibbs",
-  "delving_url": "https://delvingbitcoin.org/u/instagibbs",
   "commit_history": {
     "2015": {
       "Build & CI": 0.67,

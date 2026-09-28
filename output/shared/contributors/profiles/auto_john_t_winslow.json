@@ -1,5 +1,5 @@
 {
-  "display_name": "John T. Winslow",
+  "display_name": "john t. winslow",
   "github_login_final": null,
   "delving_username_final": null,
   "uuid": "auto_john_t_winslow",
@@ -68,14 +68,14 @@
   "expertise_by_source": {
     "discussion": {
       "Mempool": 0.205,
-      "Consensus": 0.398,
-      "Script": 0.398
+      "Script": 0.398,
+      "Consensus": 0.398
     }
   },
   "expertise_domain_scores": {
     "Mempool": 0.2048,
-    "Consensus": 0.3976,
-    "Script": 0.3976
+    "Script": 0.3976,
+    "Consensus": 0.3976
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,

@@ -1,5 +1,5 @@
 {
-  "display_name": "Michael Cassano",
+  "display_name": "michael cassano",
   "github_login_final": "mcassano",
   "delving_username_final": null,
   "uuid": "auto_michael_cassano",
@@ -67,15 +67,15 @@
   ],
   "expertise_by_source": {
     "discussion": {
+      "Ecosystem": 0.121,
       "Mining": 0.758,
-      "Mempool": 0.121,
-      "Ecosystem": 0.121
+      "Mempool": 0.121
     }
   },
   "expertise_domain_scores": {
+    "Ecosystem": 0.121,
     "Mining": 0.758,
-    "Mempool": 0.121,
-    "Ecosystem": 0.121
+    "Mempool": 0.121
   },
   "p2016_posts": 3.0,
   "modern_posts": 3.0,

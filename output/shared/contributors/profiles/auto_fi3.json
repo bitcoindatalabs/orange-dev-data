@@ -1,7 +1,7 @@
 {
   "display_name": "Fi3",
   "github_login_final": "Fi3",
-  "delving_username_final": "fi3",
+  "delving_username_final": null,
   "uuid": "auto_fi3",
   "badges": null,
   "roles": null,
@@ -87,6 +87,5 @@
   "github_followers": 0.0,
   "activity_status": "Active",
   "is_top_50": false,
-  "github_url": "https://github.com/Fi3",
-  "delving_url": "https://delvingbitcoin.org/u/fi3"
+  "github_url": "https://github.com/Fi3"
 }

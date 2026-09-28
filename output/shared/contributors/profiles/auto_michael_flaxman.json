@@ -1,5 +1,5 @@
 {
-  "display_name": "Michael Flaxman",
+  "display_name": "michael flaxman",
   "github_login_final": null,
   "delving_username_final": null,
   "uuid": "auto_michael_flaxman",
@@ -66,13 +66,13 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Wallet": 0.83,
-      "Privacy": 0.17
+      "Privacy": 0.17,
+      "Wallet": 0.83
     }
   },
   "expertise_domain_scores": {
-    "Wallet": 0.83,
-    "Privacy": 0.17
+    "Privacy": 0.17,
+    "Wallet": 0.83
   },
   "p2016_posts": 2.0,
   "modern_posts": 0.0,

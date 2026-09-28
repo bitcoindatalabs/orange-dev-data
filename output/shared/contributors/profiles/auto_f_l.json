@@ -1,5 +1,5 @@
 {
-  "display_name": "F L",
+  "display_name": "f l",
   "github_login_final": null,
   "delving_username_final": null,
   "uuid": "auto_f_l",
@@ -66,13 +66,13 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Consensus": 0.67,
-      "Privacy": 0.33
+      "Privacy": 0.33,
+      "Consensus": 0.67
     }
   },
   "expertise_domain_scores": {
-    "Consensus": 0.67,
-    "Privacy": 0.33
+    "Privacy": 0.33,
+    "Consensus": 0.67
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,

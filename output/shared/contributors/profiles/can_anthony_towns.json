@@ -1,7 +1,7 @@
 {
   "display_name": "Anthony Towns",
   "github_login_final": "ajtowns",
-  "delving_username_final": "ajtowns",
+  "delving_username_final": null,
   "uuid": "can_anthony_towns",
   "badges": {
     "is_maintainer": false,
@@ -79,20 +79,20 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Consensus": 0.571,
-      "Script": 0.429
+      "Script": 0.429,
+      "Consensus": 0.571
     },
     "bips": {
+      "Consensus": 0.5,
       "Infrastructure": 0.333,
-      "Network": 0.167,
-      "Consensus": 0.5
+      "Network": 0.167
     }
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.2379,
+    "Script": 0.1226,
     "Consensus": 0.5203,
-    "Network": 0.1193,
-    "Script": 0.1226
+    "Network": 0.1193
   },
   "p2016_posts": 306.0,
   "modern_posts": 77.0,
@@ -115,7 +115,6 @@
   "activity_status": "Active",
   "is_top_50": false,
   "github_url": "https://github.com/ajtowns",
-  "delving_url": "https://delvingbitcoin.org/u/ajtowns",
   "commit_history": {
     "2016": {
       "Build & CI": 1.0,

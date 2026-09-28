@@ -1,7 +1,7 @@
 {
   "display_name": "Russell O'Connor",
   "github_login_final": "roconnor",
-  "delving_username_final": "roconnor-blockstream",
+  "delving_username_final": null,
   "uuid": "can_russell_o_connor",
   "badges": {
     "is_maintainer": false,
@@ -74,13 +74,13 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Consensus": 0.333,
-      "Script": 0.667
+      "Script": 0.667,
+      "Consensus": 0.333
     }
   },
   "expertise_domain_scores": {
-    "Consensus": 0.333,
-    "Script": 0.667
+    "Script": 0.667,
+    "Consensus": 0.333
   },
   "p2016_posts": 226.0,
   "modern_posts": 15.0,
@@ -103,7 +103,6 @@
   "activity_status": "Rising",
   "is_top_50": false,
   "github_url": "https://github.com/roconnor",
-  "delving_url": "https://delvingbitcoin.org/u/roconnor-blockstream",
   "commit_history": {
     "2019": {
       "Utilities": 8.0

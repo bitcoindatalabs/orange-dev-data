@@ -67,15 +67,15 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Wallet": 0.164,
       "L2": 0.209,
-      "Script": 0.627
+      "Script": 0.627,
+      "Wallet": 0.164
     }
   },
   "expertise_domain_scores": {
-    "Wallet": 0.164,
     "L2": 0.209,
-    "Script": 0.627
+    "Script": 0.627,
+    "Wallet": 0.164
   },
   "p2016_posts": 13.0,
   "modern_posts": 4.0,

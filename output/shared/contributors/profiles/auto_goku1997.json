@@ -1,6 +1,6 @@
 {
-  "display_name": "goku1997",
-  "github_login_final": "funbucks",
+  "display_name": "auto_goku1997",
+  "github_login_final": null,
   "delving_username_final": null,
   "uuid": "auto_goku1997",
   "badges": null,
@@ -84,8 +84,7 @@
   "github_bio": null,
   "github_twitter": null,
   "github_blog": null,
-  "github_followers": 1.0,
+  "github_followers": null,
   "activity_status": "Active",
-  "is_top_50": false,
-  "github_url": "https://github.com/funbucks"
+  "is_top_50": false
 }

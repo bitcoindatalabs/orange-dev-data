@@ -1,5 +1,5 @@
 {
-  "display_name": "Samad Sajanlal",
+  "display_name": "samad sajanlal",
   "github_login_final": null,
   "delving_username_final": null,
   "uuid": "auto_samad_sajanlal",
@@ -68,14 +68,14 @@
   "expertise_by_source": {
     "discussion": {
       "Mining": 0.165,
-      "Consensus": 0.671,
-      "Script": 0.165
+      "Script": 0.165,
+      "Consensus": 0.671
     }
   },
   "expertise_domain_scores": {
     "Mining": 0.1648,
-    "Consensus": 0.6703,
-    "Script": 0.1648
+    "Script": 0.1648,
+    "Consensus": 0.6703
   },
   "p2016_posts": 2.0,
   "modern_posts": 0.0,

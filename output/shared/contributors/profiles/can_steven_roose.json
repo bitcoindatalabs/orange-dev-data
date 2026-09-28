@@ -1,7 +1,7 @@
 {
   "display_name": "Steven Roose",
   "github_login_final": "stevenroose",
-  "delving_username_final": "stevenroose",
+  "delving_username_final": null,
   "uuid": "can_steven_roose",
   "badges": {
     "is_maintainer": false,
@@ -82,14 +82,14 @@
       "Script": 1.0
     },
     "bips": {
-      "Infrastructure": 0.25,
-      "Consensus": 0.75
+      "Consensus": 0.75,
+      "Infrastructure": 0.25
     }
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.1786,
-    "Consensus": 0.5357,
-    "Script": 0.2857
+    "Script": 0.2857,
+    "Consensus": 0.5357
   },
   "p2016_posts": 5.0,
   "modern_posts": 4.0,
@@ -112,7 +112,6 @@
   "activity_status": "Active",
   "is_top_50": false,
   "github_url": "https://github.com/stevenroose",
-  "delving_url": "https://delvingbitcoin.org/u/stevenroose",
   "commit_history": {
     "2018": {
       "Tests": 2.0

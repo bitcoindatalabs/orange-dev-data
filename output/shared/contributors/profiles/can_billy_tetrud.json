@@ -66,13 +66,13 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Consensus": 0.485,
-      "Script": 0.515
+      "Script": 0.515,
+      "Consensus": 0.485
     }
   },
   "expertise_domain_scores": {
-    "Consensus": 0.485,
-    "Script": 0.515
+    "Script": 0.515,
+    "Consensus": 0.485
   },
   "p2016_posts": 183.0,
   "modern_posts": 0.0,

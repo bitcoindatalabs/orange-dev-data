@@ -83,8 +83,8 @@
       "Consensus": 0.871
     },
     "bips": {
-      "Infrastructure": 0.333,
-      "Consensus": 0.667
+      "Consensus": 0.667,
+      "Infrastructure": 0.333
     }
   },
   "expertise_domain_scores": {

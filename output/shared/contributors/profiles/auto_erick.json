@@ -1,7 +1,7 @@
 {
-  "display_name": "Erick λ",
-  "github_login_final": "erickcestari",
-  "delving_username_final": "erickcestari",
+  "display_name": "auto_erick",
+  "github_login_final": null,
+  "delving_username_final": null,
   "uuid": "auto_erick",
   "badges": null,
   "roles": null,
@@ -86,7 +86,5 @@
   "github_blog": null,
   "github_followers": null,
   "activity_status": "Active",
-  "is_top_50": false,
-  "github_url": "https://github.com/erickcestari",
-  "delving_url": "https://delvingbitcoin.org/u/erickcestari"
+  "is_top_50": false
 }

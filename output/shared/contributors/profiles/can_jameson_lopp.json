@@ -1,7 +1,7 @@
 {
   "display_name": "Jameson Lopp",
   "github_login_final": "jlopp",
-  "delving_username_final": "statoshi",
+  "delving_username_final": null,
   "uuid": "can_jameson_lopp",
   "badges": {
     "is_maintainer": false,
@@ -112,7 +112,6 @@
   "activity_status": "Active",
   "is_top_50": false,
   "github_url": "https://github.com/jlopp",
-  "delving_url": "https://delvingbitcoin.org/u/statoshi",
   "commit_history": {
     "2014": {
       "Node & RPC": 1.0,

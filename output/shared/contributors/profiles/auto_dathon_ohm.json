@@ -1,7 +1,7 @@
 {
-  "display_name": "dathon ohm",
+  "display_name": "Dathon Ohm",
   "github_login_final": "dathonohm",
-  "delving_username_final": "dathonohm",
+  "delving_username_final": null,
   "uuid": "auto_dathon_ohm",
   "badges": {
     "is_maintainer": false,
@@ -80,8 +80,8 @@
   "expertise_by_source": {
     "discussion": {
       "Mempool": 0.147,
-      "Consensus": 0.706,
-      "Script": 0.147
+      "Script": 0.147,
+      "Consensus": 0.706
     },
     "bips": {
       "Consensus": 1.0
@@ -89,8 +89,8 @@
   },
   "expertise_domain_scores": {
     "Mempool": 0.042,
-    "Consensus": 0.916,
-    "Script": 0.042
+    "Script": 0.042,
+    "Consensus": 0.916
   },
   "p2016_posts": 7.0,
   "modern_posts": 7.0,
@@ -113,7 +113,6 @@
   "activity_status": "New",
   "is_top_50": false,
   "github_url": "https://github.com/dathonohm",
-  "delving_url": "https://delvingbitcoin.org/u/dathonohm",
   "bip_list": [
     {
       "number": 110,

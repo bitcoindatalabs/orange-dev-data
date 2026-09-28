@@ -1,7 +1,7 @@
 {
   "display_name": "Martin Schwarz",
   "github_login_final": null,
-  "delving_username_final": "martinschwarz",
+  "delving_username_final": null,
   "uuid": "auto_martin_schwarz",
   "badges": null,
   "roles": null,
@@ -67,14 +67,14 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Consensus": 0.434,
       "Ecosystem": 0.283,
+      "Consensus": 0.434,
       "Cryptography": 0.283
     }
   },
   "expertise_domain_scores": {
-    "Consensus": 0.434,
     "Ecosystem": 0.283,
+    "Consensus": 0.434,
     "Cryptography": 0.283
   },
   "p2016_posts": 2.0,
@@ -97,7 +97,6 @@
   "github_followers": null,
   "activity_status": "",
   "is_top_50": false,
-  "delving_url": "https://delvingbitcoin.org/u/martinschwarz",
   "first_message": {
     "source": "mailing_list",
     "subject": "Re: [Bitcoin-development] Scaling Bitcoin with Subchains",

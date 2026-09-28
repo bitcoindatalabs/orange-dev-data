@@ -1,7 +1,7 @@
 {
   "display_name": "Rijndael",
   "github_login_final": "rot13maxi",
-  "delving_username_final": "rijndael",
+  "delving_username_final": null,
   "uuid": "can_rijndael",
   "badges": null,
   "roles": null,
@@ -67,15 +67,15 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Consensus": 0.273,
       "Ecosystem": 0.318,
-      "Script": 0.409
+      "Script": 0.409,
+      "Consensus": 0.273
     }
   },
   "expertise_domain_scores": {
-    "Consensus": 0.273,
     "Ecosystem": 0.318,
-    "Script": 0.409
+    "Script": 0.409,
+    "Consensus": 0.273
   },
   "p2016_posts": 19.0,
   "modern_posts": 4.0,
@@ -98,7 +98,6 @@
   "activity_status": "Active",
   "is_top_50": false,
   "github_url": "https://github.com/rot13maxi",
-  "delving_url": "https://delvingbitcoin.org/u/rijndael",
   "first_message": {
     "source": "mailing_list",
     "subject": "Re: [bitcoin-dev] ANYPREVOUT in place of CTV",

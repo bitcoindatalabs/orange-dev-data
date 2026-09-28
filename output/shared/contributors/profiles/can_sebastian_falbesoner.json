@@ -1,7 +1,7 @@
 {
   "display_name": "Sebastian Falbesoner",
   "github_login_final": "theStack",
-  "delving_username_final": "thestack",
+  "delving_username_final": null,
   "uuid": "can_sebastian_falbesoner",
   "badges": {
     "is_maintainer": false,
@@ -82,8 +82,8 @@
   "expertise_by_source": {
     "discussion": {
       "Mempool": 0.071,
-      "Network": 0.131,
-      "Privacy": 0.798
+      "Privacy": 0.798,
+      "Network": 0.131
     },
     "bips": {
       "Infrastructure": 0.5,
@@ -93,8 +93,8 @@
   "expertise_domain_scores": {
     "Infrastructure": 0.3571,
     "Mempool": 0.0203,
-    "Network": 0.0374,
-    "Privacy": 0.5851
+    "Privacy": 0.5851,
+    "Network": 0.0374
   },
   "p2016_posts": 7.0,
   "modern_posts": 6.0,
@@ -117,7 +117,6 @@
   "activity_status": "Active",
   "is_top_50": false,
   "github_url": "https://github.com/theStack",
-  "delving_url": "https://delvingbitcoin.org/u/thestack",
   "commit_history": {
     "2019": {
       "Build & CI": 1.0,

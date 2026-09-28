@@ -1,7 +1,7 @@
 {
   "display_name": "Boris Nagaev",
   "github_login_final": "starius",
-  "delving_username_final": "starius",
+  "delving_username_final": null,
   "uuid": "can_boris_nagaev",
   "badges": null,
   "roles": null,
@@ -95,7 +95,6 @@
   "activity_status": "Rising",
   "is_top_50": false,
   "github_url": "https://github.com/starius",
-  "delving_url": "https://delvingbitcoin.org/u/starius",
   "commit_history": {
     "2025": {
       "Mempool": 2.0

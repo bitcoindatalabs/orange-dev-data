@@ -1,5 +1,5 @@
 {
-  "display_name": "Mustafa Al-Bassam",
+  "display_name": "mustafa al-bassam",
   "github_login_final": "musalbas",
   "delving_username_final": null,
   "uuid": "auto_mustafa_al_bassam",
@@ -66,13 +66,13 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Mining": 0.286,
-      "Ecosystem": 0.714
+      "Ecosystem": 0.714,
+      "Mining": 0.286
     }
   },
   "expertise_domain_scores": {
-    "Mining": 0.286,
-    "Ecosystem": 0.714
+    "Ecosystem": 0.714,
+    "Mining": 0.286
   },
   "p2016_posts": 10.0,
   "modern_posts": 0.0,

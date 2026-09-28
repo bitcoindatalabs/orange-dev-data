@@ -1,7 +1,7 @@
 {
   "display_name": "Mike Casey",
   "github_login_final": null,
-  "delving_username_final": "theblackmarble",
+  "delving_username_final": null,
   "uuid": "auto_mike_casey",
   "badges": null,
   "roles": null,
@@ -91,7 +91,6 @@
   "github_followers": null,
   "activity_status": "New",
   "is_top_50": false,
-  "delving_url": "https://delvingbitcoin.org/u/theblackmarble",
   "first_message": {
     "source": "mailing_list",
     "subject": "[bitcoindev] Hourglass V2 Update",

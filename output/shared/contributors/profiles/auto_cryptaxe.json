@@ -1,5 +1,5 @@
 {
-  "display_name": "cryptaxe",
+  "display_name": "CryptAxe",
   "github_login_final": "CryptAxe",
   "delving_username_final": null,
   "uuid": "auto_cryptaxe",
@@ -79,18 +79,18 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Consensus": 0.261,
       "L2": 0.478,
-      "Script": 0.261
+      "Script": 0.261,
+      "Consensus": 0.261
     },
     "bips": {
       "Consensus": 1.0
     }
   },
   "expertise_domain_scores": {
-    "Consensus": 0.7889,
     "L2": 0.1366,
-    "Script": 0.0746
+    "Script": 0.0746,
+    "Consensus": 0.7889
   },
   "p2016_posts": 25.0,
   "modern_posts": 0.0,

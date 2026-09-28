@@ -1,7 +1,7 @@
 {
-  "display_name": "Steven Zhao",
+  "display_name": "steven zhao",
   "github_login_final": "zpv",
-  "delving_username_final": "zpv",
+  "delving_username_final": null,
   "uuid": "auto_steven_zhao",
   "badges": null,
   "roles": null,
@@ -87,6 +87,5 @@
   "github_followers": 100.0,
   "activity_status": "Active",
   "is_top_50": false,
-  "github_url": "https://github.com/zpv",
-  "delving_url": "https://delvingbitcoin.org/u/zpv"
+  "github_url": "https://github.com/zpv"
 }

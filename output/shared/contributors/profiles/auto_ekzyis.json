@@ -1,7 +1,7 @@
 {
   "display_name": "ekzyis",
   "github_login_final": "ekzyis",
-  "delving_username_final": "ekzyis",
+  "delving_username_final": null,
   "uuid": "auto_ekzyis",
   "badges": {
     "ecosystem_contributor": true,
@@ -91,7 +91,6 @@
   "activity_status": "Active",
   "is_top_50": false,
   "github_url": "https://github.com/ekzyis",
-  "delving_url": "https://delvingbitcoin.org/u/ekzyis",
   "commit_history": {
     "2023": {
       "Node & RPC": 2.0

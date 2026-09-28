@@ -1,5 +1,5 @@
 {
-  "display_name": "Léo Haf",
+  "display_name": "léo haf",
   "github_login_final": "Retropex",
   "delving_username_final": null,
   "uuid": "auto_l_o_haf",
@@ -66,13 +66,13 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Mempool": 0.237,
-      "Ecosystem": 0.763
+      "Ecosystem": 0.763,
+      "Mempool": 0.237
     }
   },
   "expertise_domain_scores": {
-    "Mempool": 0.237,
-    "Ecosystem": 0.763
+    "Ecosystem": 0.763,
+    "Mempool": 0.237
   },
   "p2016_posts": 6.0,
   "modern_posts": 1.0,

@@ -1,5 +1,5 @@
 {
-  "display_name": "Turkey Breast",
+  "display_name": "turkey breast",
   "github_login_final": null,
   "delving_username_final": null,
   "uuid": "auto_turkey_breast",
@@ -66,13 +66,13 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Network": 0.5,
-      "Script": 0.5
+      "Script": 0.5,
+      "Network": 0.5
     }
   },
   "expertise_domain_scores": {
-    "Network": 0.5,
-    "Script": 0.5
+    "Script": 0.5,
+    "Network": 0.5
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,

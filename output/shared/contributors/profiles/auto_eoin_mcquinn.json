@@ -1,5 +1,5 @@
 {
-  "display_name": "Eoin McQuinn",
+  "display_name": "eoin mcquinn",
   "github_login_final": "emc99",
   "delving_username_final": null,
   "uuid": "auto_eoin_mcquinn",
@@ -67,14 +67,14 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Consensus": 0.2,
       "Ecosystem": 0.4,
+      "Consensus": 0.2,
       "Cryptography": 0.4
     }
   },
   "expertise_domain_scores": {
-    "Consensus": 0.2,
     "Ecosystem": 0.4,
+    "Consensus": 0.2,
     "Cryptography": 0.4
   },
   "p2016_posts": 2.0,

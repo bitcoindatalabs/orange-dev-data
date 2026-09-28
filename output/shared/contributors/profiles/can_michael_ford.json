@@ -1,7 +1,7 @@
 {
   "display_name": "Michael Ford",
   "github_login_final": "fanquake",
-  "delving_username_final": "fanquake",
+  "delving_username_final": null,
   "uuid": "can_michael_ford",
   "badges": {
     "is_maintainer": true,
@@ -110,7 +110,6 @@
   "activity_status": "Rising",
   "is_top_50": false,
   "github_url": "https://github.com/fanquake",
-  "delving_url": "https://delvingbitcoin.org/u/fanquake",
   "commit_history": {
     "2012": {
       "Build & CI": 2.67,

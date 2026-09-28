@@ -1,5 +1,5 @@
 {
-  "display_name": "Daniel Hoffman",
+  "display_name": "daniel hoffman",
   "github_login_final": null,
   "delving_username_final": null,
   "uuid": "auto_daniel_hoffman",
@@ -66,13 +66,13 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Wallet": 0.5,
-      "Ecosystem": 0.5
+      "Ecosystem": 0.5,
+      "Wallet": 0.5
     }
   },
   "expertise_domain_scores": {
-    "Wallet": 0.5,
-    "Ecosystem": 0.5
+    "Ecosystem": 0.5,
+    "Wallet": 0.5
   },
   "p2016_posts": 10.0,
   "modern_posts": 0.0,

@@ -1,5 +1,5 @@
 {
-  "display_name": "Benjamin Cordes",
+  "display_name": "benjamin cordes",
   "github_login_final": null,
   "delving_username_final": null,
   "uuid": "auto_benjamin_cordes",
@@ -66,13 +66,13 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Consensus": 0.826,
-      "L2": 0.174
+      "L2": 0.174,
+      "Consensus": 0.826
     }
   },
   "expertise_domain_scores": {
-    "Consensus": 0.826,
-    "L2": 0.174
+    "L2": 0.174,
+    "Consensus": 0.826
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,

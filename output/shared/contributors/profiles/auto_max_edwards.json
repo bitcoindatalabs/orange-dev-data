@@ -1,7 +1,7 @@
 {
   "display_name": "Max Edwards",
   "github_login_final": "m3dwards",
-  "delving_username_final": "m3dwards",
+  "delving_username_final": null,
   "uuid": "auto_max_edwards",
   "badges": {
     "ecosystem_contributor": true,
@@ -91,7 +91,6 @@
   "activity_status": "Active",
   "is_top_50": false,
   "github_url": "https://github.com/m3dwards",
-  "delving_url": "https://delvingbitcoin.org/u/m3dwards",
   "commit_history": {
     "2024": {
       "Build & CI": 31.67,

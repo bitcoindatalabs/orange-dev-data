@@ -1,5 +1,5 @@
 {
-  "display_name": "Washington Sanchez",
+  "display_name": "washington sanchez",
   "github_login_final": null,
   "delving_username_final": null,
   "uuid": "auto_washington_sanchez",
@@ -67,18 +67,18 @@
   ],
   "expertise_by_source": {
     "discussion": {
+      "Ecosystem": 0.086,
       "Mining": 0.086,
-      "Consensus": 0.828,
-      "Ecosystem": 0.086
+      "Consensus": 0.828
     },
     "bips": {
       "Consensus": 1.0
     }
   },
   "expertise_domain_scores": {
+    "Ecosystem": 0.0246,
     "Mining": 0.0246,
-    "Consensus": 0.9509,
-    "Ecosystem": 0.0246
+    "Consensus": 0.9509
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,

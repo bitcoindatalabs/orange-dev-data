@@ -1,7 +1,7 @@
 {
   "display_name": "Melvin Carvalho",
   "github_login_final": "melvincarvalho",
-  "delving_username_final": "melvincarvalho",
+  "delving_username_final": null,
   "uuid": "can_melvin_carvalho",
   "badges": null,
   "roles": null,
@@ -66,13 +66,13 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Mining": 0.571,
-      "Ecosystem": 0.429
+      "Ecosystem": 0.429,
+      "Mining": 0.571
     }
   },
   "expertise_domain_scores": {
-    "Mining": 0.571,
-    "Ecosystem": 0.429
+    "Ecosystem": 0.429,
+    "Mining": 0.571
   },
   "p2016_posts": 24.0,
   "modern_posts": 14.0,
@@ -95,7 +95,6 @@
   "activity_status": "Rising",
   "is_top_50": false,
   "github_url": "https://github.com/melvincarvalho",
-  "delving_url": "https://delvingbitcoin.org/u/melvincarvalho",
   "first_message": {
     "source": "mailing_list",
     "subject": "Re: [Bitcoin-development] Payment Protocol Proposal:\n\tInvoices/Payments/Receipts",

@@ -1,7 +1,7 @@
 {
   "display_name": "Jonathan Underwood",
   "github_login_final": "junderw",
-  "delving_username_final": "junderw",
+  "delving_username_final": null,
   "uuid": "auto_jonathan_underwood",
   "badges": null,
   "roles": null,
@@ -95,7 +95,6 @@
   "activity_status": "Active",
   "is_top_50": false,
   "github_url": "https://github.com/junderw",
-  "delving_url": "https://delvingbitcoin.org/u/junderw",
   "commit_history": {
     "2022": {
       "P2P Network": 0.67,

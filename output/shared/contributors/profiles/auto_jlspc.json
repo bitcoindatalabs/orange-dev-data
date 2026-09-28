@@ -67,14 +67,14 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "L2": 0.292,
       "Ecosystem": 0.319,
+      "L2": 0.292,
       "Script": 0.389
     }
   },
   "expertise_domain_scores": {
-    "L2": 0.292,
     "Ecosystem": 0.319,
+    "L2": 0.292,
     "Script": 0.389
   },
   "p2016_posts": 15.0,

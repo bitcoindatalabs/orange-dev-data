@@ -1,5 +1,5 @@
 {
-  "display_name": "Bitcoin Mechanic",
+  "display_name": "bitcoin mechanic",
   "github_login_final": "BitcoinMechanic",
   "delving_username_final": null,
   "uuid": "auto_bitcoin_mechanic",
@@ -66,13 +66,13 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Consensus": 0.5,
-      "Ecosystem": 0.5
+      "Ecosystem": 0.5,
+      "Consensus": 0.5
     }
   },
   "expertise_domain_scores": {
-    "Consensus": 0.5,
-    "Ecosystem": 0.5
+    "Ecosystem": 0.5,
+    "Consensus": 0.5
   },
   "p2016_posts": 3.0,
   "modern_posts": 2.0,

@@ -1,7 +1,7 @@
 {
-  "display_name": "Ethan Tuttle",
+  "display_name": "ethan tuttle",
   "github_login_final": "EthnTuttle",
-  "delving_username_final": "ethntuttle",
+  "delving_username_final": null,
   "uuid": "auto_ethan_tuttle",
   "badges": null,
   "roles": null,
@@ -87,6 +87,5 @@
   "github_followers": 33.0,
   "activity_status": "Active",
   "is_top_50": false,
-  "github_url": "https://github.com/EthnTuttle",
-  "delving_url": "https://delvingbitcoin.org/u/ethntuttle"
+  "github_url": "https://github.com/EthnTuttle"
 }

@@ -1,7 +1,7 @@
 {
   "display_name": "sanket kanjalkar",
   "github_login_final": "sanket1729",
-  "delving_username_final": "sanket1729",
+  "delving_username_final": null,
   "uuid": "auto_sanket_kanjalkar",
   "badges": {
     "is_maintainer": false,
@@ -107,7 +107,6 @@
   "activity_status": "Rising",
   "is_top_50": false,
   "github_url": "https://github.com/sanket1729",
-  "delving_url": "https://delvingbitcoin.org/u/sanket1729",
   "commit_history": {
     "2018": {
       "Tests": 2.0

@@ -1,7 +1,7 @@
 {
   "display_name": "Victor Kolobov",
   "github_login_final": null,
-  "delving_username_final": "victorkstarkware",
+  "delving_username_final": null,
   "uuid": "auto_victor_kolobov",
   "badges": null,
   "roles": null,
@@ -94,7 +94,6 @@
   "github_followers": null,
   "activity_status": "Active",
   "is_top_50": false,
-  "delving_url": "https://delvingbitcoin.org/u/victorkstarkware",
   "first_message": {
     "source": "mailing_list",
     "subject": "[bitcoindev] OP_CAT Research Fund sponsored by StarkWare",

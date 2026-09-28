@@ -1,5 +1,5 @@
 {
-  "display_name": "Stephen Morse",
+  "display_name": "stephen morse",
   "github_login_final": "scmorse",
   "delving_username_final": null,
   "uuid": "auto_stephen_morse",
@@ -68,14 +68,14 @@
   "expertise_by_source": {
     "discussion": {
       "Mining": 0.279,
-      "Consensus": 0.426,
-      "Script": 0.295
+      "Script": 0.295,
+      "Consensus": 0.426
     }
   },
   "expertise_domain_scores": {
     "Mining": 0.279,
-    "Consensus": 0.426,
-    "Script": 0.295
+    "Script": 0.295,
+    "Consensus": 0.426
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,

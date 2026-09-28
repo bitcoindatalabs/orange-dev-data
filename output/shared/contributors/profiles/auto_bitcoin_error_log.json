@@ -1,7 +1,7 @@
 {
   "display_name": "Bitcoin Error Log",
   "github_login_final": "BitcoinErrorLog",
-  "delving_username_final": "bitcoinerrorlog",
+  "delving_username_final": null,
   "uuid": "auto_bitcoin_error_log",
   "badges": {
     "is_maintainer": false,
@@ -112,7 +112,6 @@
   "activity_status": "Active",
   "is_top_50": false,
   "github_url": "https://github.com/BitcoinErrorLog",
-  "delving_url": "https://delvingbitcoin.org/u/bitcoinerrorlog",
   "bip_list": [
     {
       "number": 177,

@@ -1,7 +1,7 @@
 {
   "display_name": "Nadav Ivgi",
   "github_login_final": "shesek",
-  "delving_username_final": "shesek",
+  "delving_username_final": null,
   "uuid": "auto_nadav_ivgi",
   "badges": {
     "is_maintainer": false,
@@ -75,15 +75,15 @@
   ],
   "expertise_by_source": {
     "discussion": {
+      "Script": 0.636,
       "Consensus": 0.159,
-      "Wallet": 0.205,
-      "Script": 0.636
+      "Wallet": 0.205
     }
   },
   "expertise_domain_scores": {
+    "Script": 0.636,
     "Consensus": 0.159,
-    "Wallet": 0.205,
-    "Script": 0.636
+    "Wallet": 0.205
   },
   "p2016_posts": 26.0,
   "modern_posts": 5.0,
@@ -106,7 +106,6 @@
   "activity_status": "Rising",
   "is_top_50": false,
   "github_url": "https://github.com/shesek",
-  "delving_url": "https://delvingbitcoin.org/u/shesek",
   "commit_history": {
     "2020": {
       "Node & RPC": 4.0

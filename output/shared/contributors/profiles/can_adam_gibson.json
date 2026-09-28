@@ -1,7 +1,7 @@
 {
   "display_name": "Adam Gibson",
   "github_login_final": "AdamISZ",
-  "delving_username_final": "adamisz",
+  "delving_username_final": null,
   "uuid": "can_adam_gibson",
   "badges": null,
   "roles": null,
@@ -66,13 +66,13 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Consensus": 0.452,
-      "Privacy": 0.548
+      "Privacy": 0.548,
+      "Consensus": 0.452
     }
   },
   "expertise_domain_scores": {
-    "Consensus": 0.452,
-    "Privacy": 0.548
+    "Privacy": 0.548,
+    "Consensus": 0.452
   },
   "p2016_posts": 109.0,
   "modern_posts": 65.0,
@@ -95,7 +95,6 @@
   "activity_status": "Rising",
   "is_top_50": false,
   "github_url": "https://github.com/AdamISZ",
-  "delving_url": "https://delvingbitcoin.org/u/adamisz",
   "first_message": {
     "source": "mailing_list",
     "subject": "Re: [Bitcoin-development] replace-by-fee v0.10.0rc4",

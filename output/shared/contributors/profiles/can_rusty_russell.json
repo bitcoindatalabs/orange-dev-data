@@ -1,7 +1,7 @@
 {
   "display_name": "Rusty Russell",
   "github_login_final": "rustyrussell",
-  "delving_username_final": "rustyrussell",
+  "delving_username_final": null,
   "uuid": "can_rusty_russell",
   "badges": {
     "is_maintainer": false,
@@ -79,18 +79,18 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Consensus": 0.538,
-      "Script": 0.462
+      "Script": 0.462,
+      "Consensus": 0.538
     },
     "bips": {
-      "Infrastructure": 0.333,
-      "Consensus": 0.667
+      "Consensus": 0.667,
+      "Infrastructure": 0.333
     }
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.2379,
-    "Consensus": 0.6301,
-    "Script": 0.132
+    "Script": 0.132,
+    "Consensus": 0.6301
   },
   "p2016_posts": 88.0,
   "modern_posts": 13.0,
@@ -113,7 +113,6 @@
   "activity_status": "Active",
   "is_top_50": false,
   "github_url": "https://github.com/rustyrussell",
-  "delving_url": "https://delvingbitcoin.org/u/rustyrussell",
   "commit_history": {
     "2015": {
       "Utilities": 1.0

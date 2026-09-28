@@ -1,7 +1,7 @@
 {
-  "display_name": "thomas suau",
+  "display_name": "Thomas Suau",
   "github_login_final": null,
-  "delving_username_final": "tsua00021",
+  "delving_username_final": null,
   "uuid": "auto_thomas_suau",
   "badges": null,
   "roles": null,
@@ -94,7 +94,6 @@
   "github_followers": null,
   "activity_status": "New",
   "is_top_50": false,
-  "delving_url": "https://delvingbitcoin.org/u/tsua00021",
   "first_message": {
     "source": "mailing_list",
     "subject": "[bitcoindev] Re: [BIP Draft] Blind Relay: Stateless Encrypted\n WebSocket Coordination for PSBTs",

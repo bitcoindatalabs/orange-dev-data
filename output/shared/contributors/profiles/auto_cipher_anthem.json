@@ -66,13 +66,13 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "L2": 0.395,
-      "Ecosystem": 0.605
+      "Ecosystem": 0.605,
+      "L2": 0.395
     }
   },
   "expertise_domain_scores": {
-    "L2": 0.395,
-    "Ecosystem": 0.605
+    "Ecosystem": 0.605,
+    "L2": 0.395
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,

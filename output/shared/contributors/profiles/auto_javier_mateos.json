@@ -67,14 +67,14 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Wallet": 0.3,
       "Ecosystem": 0.24,
+      "Wallet": 0.3,
       "Cryptography": 0.46
     }
   },
   "expertise_domain_scores": {
-    "Wallet": 0.3,
     "Ecosystem": 0.24,
+    "Wallet": 0.3,
     "Cryptography": 0.46
   },
   "p2016_posts": 10.0,

@@ -1,7 +1,7 @@
 {
   "display_name": "Dan Gould",
   "github_login_final": "DanGould",
-  "delving_username_final": "bitgould",
+  "delving_username_final": null,
   "uuid": "auto_dan_gould",
   "badges": {
     "is_maintainer": false,
@@ -79,8 +79,8 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Mining": 0.114,
       "Ecosystem": 0.165,
+      "Mining": 0.114,
       "Privacy": 0.722
     },
     "bips": {
@@ -89,8 +89,8 @@
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.7141,
-    "Mining": 0.0326,
     "Ecosystem": 0.0471,
+    "Mining": 0.0326,
     "Privacy": 0.2062
   },
   "p2016_posts": 8.0,
@@ -114,7 +114,6 @@
   "activity_status": "Active",
   "is_top_50": false,
   "github_url": "https://github.com/DanGould",
-  "delving_url": "https://delvingbitcoin.org/u/bitgould",
   "bip_list": [
     {
       "number": 77,

@@ -1,5 +1,5 @@
 {
-  "display_name": "Josh Doman",
+  "display_name": "josh doman",
   "github_login_final": "joshdoman",
   "delving_username_final": null,
   "uuid": "auto_josh_doman",
@@ -66,13 +66,13 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Consensus": 0.366,
-      "Script": 0.634
+      "Script": 0.634,
+      "Consensus": 0.366
     }
   },
   "expertise_domain_scores": {
-    "Consensus": 0.366,
-    "Script": 0.634
+    "Script": 0.634,
+    "Consensus": 0.366
   },
   "p2016_posts": 11.0,
   "modern_posts": 11.0,

@@ -1,7 +1,7 @@
 {
   "display_name": "David A. Harding",
   "github_login_final": "harding",
-  "delving_username_final": "harding",
+  "delving_username_final": null,
   "uuid": "can_david_a_harding",
   "badges": {
     "is_maintainer": false,
@@ -116,7 +116,6 @@
   "activity_status": "Active",
   "is_top_50": false,
   "github_url": "https://github.com/harding",
-  "delving_url": "https://delvingbitcoin.org/u/harding",
   "commit_history": {
     "2014": {
       "Utilities": 2.0

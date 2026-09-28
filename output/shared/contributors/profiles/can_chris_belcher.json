@@ -79,18 +79,18 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Consensus": 0.24,
-      "Privacy": 0.76
+      "Privacy": 0.76,
+      "Consensus": 0.24
     },
     "bips": {
-      "Infrastructure": 0.5,
-      "Consensus": 0.5
+      "Consensus": 0.5,
+      "Infrastructure": 0.5
     }
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.3571,
-    "Consensus": 0.4257,
-    "Privacy": 0.2171
+    "Privacy": 0.2171,
+    "Consensus": 0.4257
   },
   "p2016_posts": 64.0,
   "modern_posts": 0.0,

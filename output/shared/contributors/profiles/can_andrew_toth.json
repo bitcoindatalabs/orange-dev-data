@@ -1,7 +1,7 @@
 {
   "display_name": "Andrew Toth",
   "github_login_final": "andrewtoth",
-  "delving_username_final": "andrewtoth",
+  "delving_username_final": null,
   "uuid": "can_andrew_toth",
   "badges": {
     "is_maintainer": false,
@@ -80,8 +80,8 @@
   "expertise_by_source": {
     "discussion": {
       "Mempool": 0.163,
-      "Wallet": 0.338,
-      "Privacy": 0.5
+      "Privacy": 0.5,
+      "Wallet": 0.338
     },
     "bips": {
       "Infrastructure": 0.5,
@@ -91,8 +91,8 @@
   "expertise_domain_scores": {
     "Infrastructure": 0.357,
     "Mempool": 0.0466,
-    "Wallet": 0.0965,
-    "Privacy": 0.4999
+    "Privacy": 0.4999,
+    "Wallet": 0.0965
   },
   "p2016_posts": 5.0,
   "modern_posts": 5.0,
@@ -115,7 +115,6 @@
   "activity_status": "Active",
   "is_top_50": false,
   "github_url": "https://github.com/andrewtoth",
-  "delving_url": "https://delvingbitcoin.org/u/andrewtoth",
   "commit_history": {
     "2018": {
       "Tests": 2.0,

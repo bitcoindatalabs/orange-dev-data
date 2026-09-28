@@ -66,13 +66,13 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Mining": 0.4,
-      "Ecosystem": 0.6
+      "Ecosystem": 0.6,
+      "Mining": 0.4
     }
   },
   "expertise_domain_scores": {
-    "Mining": 0.4,
-    "Ecosystem": 0.6
+    "Ecosystem": 0.6,
+    "Mining": 0.4
   },
   "p2016_posts": 2.0,
   "modern_posts": 0.0,

@@ -1,7 +1,7 @@
 {
   "display_name": "Wladimir J. van der Laan",
   "github_login_final": "laanwj",
-  "delving_username_final": "laanwj",
+  "delving_username_final": null,
   "uuid": "can_wladimir_j_van_der_laan",
   "badges": {
     "is_maintainer": true,
@@ -117,7 +117,6 @@
   "activity_status": "Active",
   "is_top_50": false,
   "github_url": "https://github.com/laanwj",
-  "delving_url": "https://delvingbitcoin.org/u/laanwj",
   "commit_history": {
     "2011": {
       "Build & CI": 1.0,

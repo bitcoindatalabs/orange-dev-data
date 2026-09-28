@@ -1,6 +1,6 @@
 {
-  "display_name": "Eunoia1729",
-  "github_login_final": "Eunoia1729",
+  "display_name": "auto_eunoia1729_1",
+  "github_login_final": null,
   "delving_username_final": null,
   "uuid": "auto_eunoia1729_1",
   "badges": null,
@@ -79,13 +79,12 @@
   "is_bip_author": false,
   "global_first_active": "2022-04-09T19:28:22",
   "global_last_active": "2022-04-15T00:09:31",
-  "github_location": "Remote",
+  "github_location": null,
   "github_company": null,
-  "github_bio": "Exploring the unbound world of tech & science",
-  "github_twitter": "EunoiaWithin",
+  "github_bio": null,
+  "github_twitter": null,
   "github_blog": null,
-  "github_followers": 28.0,
+  "github_followers": null,
   "activity_status": "Active",
-  "is_top_50": false,
-  "github_url": "https://github.com/Eunoia1729"
+  "is_top_50": false
 }

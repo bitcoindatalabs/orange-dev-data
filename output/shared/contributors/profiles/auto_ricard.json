@@ -1,7 +1,7 @@
 {
   "display_name": "Ricard",
   "github_login_final": null,
-  "delving_username_final": "ricard",
+  "delving_username_final": null,
   "uuid": "auto_ricard",
   "badges": null,
   "roles": null,
@@ -87,7 +87,6 @@
   "github_followers": null,
   "activity_status": "New",
   "is_top_50": false,
-  "delving_url": "https://delvingbitcoin.org/u/ricard",
   "first_message": {
     "source": "mailing_list",
     "subject": "[bitcoindev] [BIP Proposal] Strict circular economy within the\n Bitcoin network",

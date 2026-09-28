@@ -1,7 +1,7 @@
 {
   "display_name": "Ethan Heilman",
   "github_login_final": "EthanHeilman",
-  "delving_username_final": "ethanheilman",
+  "delving_username_final": null,
   "uuid": "can_ethan_heilman",
   "badges": {
     "is_maintainer": false,
@@ -87,8 +87,8 @@
     }
   },
   "expertise_domain_scores": {
-    "Consensus": 0.7143,
     "Script": 0.1366,
+    "Consensus": 0.7143,
     "Cryptography": 0.1491
   },
   "p2016_posts": 83.0,
@@ -112,7 +112,6 @@
   "activity_status": "Active",
   "is_top_50": false,
   "github_url": "https://github.com/EthanHeilman",
-  "delving_url": "https://delvingbitcoin.org/u/ethanheilman",
   "commit_history": {
     "2015": {
       "Build & CI": 0.67,

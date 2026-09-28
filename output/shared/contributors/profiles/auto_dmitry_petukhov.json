@@ -1,7 +1,7 @@
 {
   "display_name": "dmitry petukhov",
   "github_login_final": "dgpv",
-  "delving_username_final": "dgpv",
+  "delving_username_final": null,
   "uuid": "auto_dmitry_petukhov",
   "badges": {
     "is_maintainer": false,
@@ -109,7 +109,6 @@
   "activity_status": "Retired",
   "is_top_50": false,
   "github_url": "https://github.com/dgpv",
-  "delving_url": "https://delvingbitcoin.org/u/dgpv",
   "commit_history": {
     "2020": {
       "Documentation": 2.0,

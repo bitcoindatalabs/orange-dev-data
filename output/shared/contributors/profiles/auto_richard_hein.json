@@ -1,5 +1,5 @@
 {
-  "display_name": "Richard Hein",
+  "display_name": "richard hein",
   "github_login_final": null,
   "delving_username_final": null,
   "uuid": "auto_richard_hein",
@@ -67,14 +67,14 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Mining": 0.4,
       "Ecosystem": 0.2,
+      "Mining": 0.4,
       "Script": 0.4
     }
   },
   "expertise_domain_scores": {
-    "Mining": 0.4,
     "Ecosystem": 0.2,
+    "Mining": 0.4,
     "Script": 0.4
   },
   "p2016_posts": 2.0,

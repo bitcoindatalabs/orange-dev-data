@@ -1,7 +1,7 @@
 {
   "display_name": "Carl Dong",
   "github_login_final": "dongcarl",
-  "delving_username_final": "dongcarl",
+  "delving_username_final": null,
   "uuid": "can_carl_dong",
   "badges": {
     "is_maintainer": true,
@@ -110,7 +110,6 @@
   "activity_status": "Rising",
   "is_top_50": false,
   "github_url": "https://github.com/dongcarl",
-  "delving_url": "https://delvingbitcoin.org/u/dongcarl",
   "commit_history": {
     "2017": {
       "Documentation": 4.0

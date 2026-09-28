@@ -1,7 +1,7 @@
 {
   "display_name": "vnprc",
   "github_login_final": "vnprc",
-  "delving_username_final": "vnprc",
+  "delving_username_final": null,
   "uuid": "auto_vnprc",
   "badges": null,
   "roles": null,
@@ -87,6 +87,5 @@
   "github_followers": null,
   "activity_status": "",
   "is_top_50": false,
-  "github_url": "https://github.com/vnprc",
-  "delving_url": "https://delvingbitcoin.org/u/vnprc"
+  "github_url": "https://github.com/vnprc"
 }

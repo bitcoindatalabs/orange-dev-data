@@ -71,14 +71,14 @@
   "expertise_by_source": {
     "discussion": {
       "Mempool": 0.338,
-      "Wallet": 0.408,
-      "Privacy": 0.254
+      "Privacy": 0.254,
+      "Wallet": 0.408
     }
   },
   "expertise_domain_scores": {
     "Mempool": 0.338,
-    "Wallet": 0.408,
-    "Privacy": 0.254
+    "Privacy": 0.254,
+    "Wallet": 0.408
   },
   "p2016_posts": 7.0,
   "modern_posts": 2.0,

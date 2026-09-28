@@ -1,7 +1,7 @@
 {
   "display_name": "Nikita Karetnikov",
   "github_login_final": "nkaretnikov",
-  "delving_username_final": "nkaretnikov",
+  "delving_username_final": null,
   "uuid": "auto_nikita_karetnikov",
   "badges": null,
   "roles": null,
@@ -95,7 +95,6 @@
   "activity_status": "New",
   "is_top_50": false,
   "github_url": "https://github.com/nkaretnikov",
-  "delving_url": "https://delvingbitcoin.org/u/nkaretnikov",
   "first_message": {
     "source": "mailing_list",
     "subject": "Re: [bitcoindev] What if we let Quantum Hunters get Bitcoin rewards ?",

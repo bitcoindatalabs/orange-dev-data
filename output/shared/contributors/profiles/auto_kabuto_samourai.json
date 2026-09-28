@@ -1,5 +1,5 @@
 {
-  "display_name": "Kabuto Samourai",
+  "display_name": "kabuto samourai",
   "github_login_final": null,
   "delving_username_final": null,
   "uuid": "auto_kabuto_samourai",
@@ -67,15 +67,15 @@
   ],
   "expertise_by_source": {
     "discussion": {
+      "Privacy": 0.072,
       "Consensus": 0.217,
-      "Wallet": 0.711,
-      "Privacy": 0.072
+      "Wallet": 0.711
     }
   },
   "expertise_domain_scores": {
+    "Privacy": 0.072,
     "Consensus": 0.217,
-    "Wallet": 0.711,
-    "Privacy": 0.072
+    "Wallet": 0.711
   },
   "p2016_posts": 5.0,
   "modern_posts": 0.0,

@@ -1,7 +1,7 @@
 {
   "display_name": "Bastien Teinturier",
   "github_login_final": "t-bast",
-  "delving_username_final": "t-bast",
+  "delving_username_final": null,
   "uuid": "can_bastien_teinturier",
   "badges": {
     "is_maintainer": false,
@@ -79,8 +79,8 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Mempool": 0.563,
       "L2": 0.325,
+      "Mempool": 0.563,
       "Script": 0.113
     },
     "bips": {
@@ -89,8 +89,8 @@
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.7141,
-    "Mempool": 0.1608,
     "L2": 0.0928,
+    "Mempool": 0.1608,
     "Script": 0.0323
   },
   "p2016_posts": 22.0,
@@ -114,7 +114,6 @@
   "activity_status": "Active",
   "is_top_50": false,
   "github_url": "https://github.com/t-bast",
-  "delving_url": "https://delvingbitcoin.org/u/t-bast",
   "commit_history": {
     "2020": {
       "Tests": 2.0

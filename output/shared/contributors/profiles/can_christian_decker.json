@@ -1,7 +1,7 @@
 {
   "display_name": "Christian Decker",
   "github_login_final": "cdecker",
-  "delving_username_final": "cdecker",
+  "delving_username_final": null,
   "uuid": "can_christian_decker",
   "badges": {
     "is_maintainer": false,
@@ -87,8 +87,8 @@
     }
   },
   "expertise_domain_scores": {
-    "Consensus": 0.7143,
     "L2": 0.1491,
+    "Consensus": 0.7143,
     "Cryptography": 0.1366
   },
   "p2016_posts": 58.0,
@@ -112,7 +112,6 @@
   "activity_status": "Active",
   "is_top_50": false,
   "github_url": "https://github.com/cdecker",
-  "delving_url": "https://delvingbitcoin.org/u/cdecker",
   "commit_history": {
     "2014": {
       "Consensus": 2.0

@@ -1,7 +1,7 @@
 {
   "display_name": "Vasil Dimov",
   "github_login_final": "vasild",
-  "delving_username_final": "davidgumberg",
+  "delving_username_final": null,
   "uuid": "can_vasil_dimov",
   "badges": {
     "is_maintainer": false,
@@ -77,14 +77,14 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Mempool": 0.222,
       "Ecosystem": 0.333,
+      "Mempool": 0.222,
       "Network": 0.444
     }
   },
   "expertise_domain_scores": {
-    "Mempool": 0.2222,
     "Ecosystem": 0.3333,
+    "Mempool": 0.2222,
     "Network": 0.4444
   },
   "p2016_posts": 4.0,
@@ -108,7 +108,6 @@
   "activity_status": "Rising",
   "is_top_50": false,
   "github_url": "https://github.com/vasild",
-  "delving_url": "https://delvingbitcoin.org/u/davidgumberg",
   "commit_history": {
     "2018": {
       "Build & CI": 3.0,
