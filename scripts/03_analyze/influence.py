@@ -481,6 +481,27 @@ def extract_network():
         except Exception as e:
             print(f"  Warning: Could not load contributor_commit_history: {e}")
 
+    # Fallback to source of truth (commits_resolved.parquet) if JSON artifact is missing or empty
+    if not commit_history and os.path.exists('data/enriched/commits_resolved.parquet'):
+        try:
+            print("  Deriving commit history directly from data/enriched/commits_resolved.parquet...")
+            df_c = pd.read_parquet('data/enriched/commits_resolved.parquet', columns=['canonical_id', 'year', 'category', 'hash'])
+            df_c = df_c.dropna(subset=['canonical_id', 'year', 'category'])
+            cat_grouped = df_c.groupby(['canonical_id', 'year', 'category'])['hash'].nunique().reset_index()
+            for _, r in cat_grouped.iterrows():
+                _cid = r['canonical_id']
+                _yr = str(int(r['year']))
+                _cat = r['category']
+                _cnt = int(r['hash'])
+                if _cid not in commit_history:
+                    commit_history[_cid] = {}
+                if _yr not in commit_history[_cid]:
+                    commit_history[_cid][_yr] = {}
+                commit_history[_cid][_yr][_cat] = _cnt
+            print(f"  Derived commit history for {len(commit_history)} contributors from commits_resolved.parquet.")
+        except Exception as e:
+            print(f"  Warning: Could not derive commit history from parquet: {e}")
+
     for identity in identities_list:
         cid = identity['uuid']
 

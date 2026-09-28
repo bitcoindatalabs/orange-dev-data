@@ -867,9 +867,9 @@ class MetricGenerators:
              
              # Enrichment
              enrich_data = enrich_map.get(cid, {})
-             login = enrich_data.get('github_login_final')
-             company = enrich_data.get('github_company')
-             location = enrich_data.get('github_location')
+             login = str(enrich_data['github_login_final']) if pd.notna(enrich_data.get('github_login_final')) else None
+             company = str(enrich_data['github_company']) if pd.notna(enrich_data.get('github_company')) else None
+             location = str(enrich_data['github_location']) if pd.notna(enrich_data.get('github_location')) else None
              
              # Metrics
              contribution_pct = (row['total_commits'] / total_project_commits) * 100
@@ -917,8 +917,8 @@ class MetricGenerators:
                  "global_cohort_year": int(pd.to_datetime(enrich_data.get('global_first_active')).year) if pd.notna(enrich_data.get('global_first_active')) else int(row['start_year'])
              })
              
-        with open(Config.FILES["contributors_rich"], "w") as f:
-            json.dump(output_list, f)
+        with open(Config.FILES["contributors_rich"], "w", encoding="utf-8") as f:
+            json.dump(output_list, f, allow_nan=False)
 
         # Also export history_map as a standalone shared enriched file so that
         # ui_artifacts.py (network profiles) can consume it without depending on

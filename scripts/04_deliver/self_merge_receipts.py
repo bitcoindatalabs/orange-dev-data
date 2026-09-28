@@ -47,15 +47,21 @@ def deliver_self_merges():
         cid = row['canonical_id']
         display_name = uuid_to_name.get(cid, cid)
         
+        title_val = row.get('title')
+        title_str = str(title_val) if pd.notna(title_val) else ""
+        
+        url_val = row.get('html_url')
+        url_str = str(url_val) if pd.notna(url_val) else ""
+        
         receipt = {
             "maintainer_id": cid,
             "maintainer_name": display_name,
             "repository": row['repository_name'],
             "pr_number": int(row['pr_number']),
-            "url": row.get('html_url', ""),
-            "title": row.get('title', ""),
+            "url": url_str,
+            "title": title_str,
             "merged_at": row['merged_at'].isoformat() if pd.notna(row['merged_at']) else None,
-            "ack_count": int(row['ack_count']),
+            "ack_count": int(row['ack_count']) if pd.notna(row['ack_count']) else 0,
             "category": row['category']
         }
         receipts.append(receipt)
@@ -67,7 +73,7 @@ def deliver_self_merges():
     
     os.makedirs(os.path.dirname(OUTPUT_JSON), exist_ok=True)
     with open(OUTPUT_JSON, 'w', encoding='utf-8') as f:
-        json.dump(payload, f, indent=2, ensure_ascii=False)
+        json.dump(payload, f, indent=2, ensure_ascii=False, allow_nan=False)
         
     print(f"Saved {len(receipts)} self-merge receipts to {OUTPUT_JSON}")
 
