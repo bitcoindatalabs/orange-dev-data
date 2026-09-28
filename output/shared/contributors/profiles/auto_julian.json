@@ -45,50 +45,47 @@
   "avg_pr_ack_velocity_days": null,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": null,
-  "hybrid_score": 0.0067,
-  "p2016_hybrid_score": 0.0104,
-  "modern_hybrid_score": 0.0346,
+  "hybrid_score": 0.0068,
+  "p2016_hybrid_score": 0.0105,
+  "modern_hybrid_score": 0.035,
   "impact_score": 0.0,
   "p2016_impact_score": 1.0,
   "modern_impact_score": 2.0,
-  "threads_started": 4.0,
-  "replies_sent": 5.0,
+  "threads_started": 1.0,
+  "replies_sent": 1.0,
   "ml_threads": 1.0,
-  "delving_threads": 3.0,
+  "delving_threads": 0.0,
   "ml_responses": 1.0,
-  "delving_responses": 4.0,
+  "delving_responses": 0.0,
   "first_active": "2025-11-07T09:50:55",
-  "last_active": null,
+  "last_active": "2025-11-28T07:09:25",
   "dev_type": "Participant",
   "expertise_domains": [
     "Consensus",
-    "Script",
-    "Cryptography"
+    "Script"
   ],
   "expertise_by_source": {
     "discussion": {
       "Consensus": 0.5,
-      "Cryptography": 0.214,
-      "Script": 0.286
+      "Script": 0.5
     }
   },
   "expertise_domain_scores": {
     "Consensus": 0.5,
-    "Cryptography": 0.214,
-    "Script": 0.286
+    "Script": 0.5
   },
-  "p2016_posts": 9.0,
-  "modern_posts": 9.0,
+  "p2016_posts": 2.0,
+  "modern_posts": 2.0,
   "p2016_ml_posts": 2.0,
-  "p2016_delving_posts": 7.0,
+  "p2016_delving_posts": 0.0,
   "modern_ml_posts": 2.0,
-  "modern_delving_posts": 7.0,
+  "modern_delving_posts": 0.0,
   "is_engineer": false,
   "is_reviewer": false,
   "is_researcher": true,
   "is_bip_author": false,
   "global_first_active": "2025-11-07T09:50:55",
-  "global_last_active": null,
+  "global_last_active": "2025-11-28T07:09:25",
   "github_location": null,
   "github_company": null,
   "github_bio": null,
@@ -105,24 +102,14 @@
     "link": "https://gnusha.org/pi/bitcoindev/19fde638-aa4f-4a02-9aad-ea437c73b3c1n@googlegroups.com"
   },
   "last_message": {
-    "source": "delving",
-    "subject": "Re: Benchmarking Bitcoin Script Evaluation for the Varops Budget (Great Script Restoration)",
-    "date": "2026-02-08",
-    "link": "https://delvingbitcoin.org/t/benchmarking-bitcoin-script-evaluation-for-the-varops-budget-great-script-restoration/2094/17"
+    "source": "mailing_list",
+    "subject": "Re: [bitcoindev] Benchmarking Bitcoin Script Evaluation for the\n Varops Budget (GSR)",
+    "date": "2025-11-28",
+    "link": "https://gnusha.org/pi/bitcoindev/5906e2bb-c215-44b0-bb61-0bb91d55717dn@googlegroups.com"
   },
   "social_history": {
     "2025": {
-      "covenants": 6,
-      "hard-fork-block-size": 6,
-      "script-opcodes": 7,
-      "signatures-sighash": 6,
-      "taproot": 7
-    },
-    "2026": {
-      "covenants": 1,
-      "hard-fork-block-size": 1,
       "script-opcodes": 1,
-      "signatures-sighash": 1,
       "taproot": 1
     }
   }

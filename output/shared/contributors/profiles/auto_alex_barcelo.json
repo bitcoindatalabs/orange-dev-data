@@ -66,13 +66,13 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Cryptography": 0.33,
-      "Mining": 0.67
+      "Mining": 0.67,
+      "Cryptography": 0.33
     }
   },
   "expertise_domain_scores": {
-    "Cryptography": 0.33,
-    "Mining": 0.67
+    "Mining": 0.67,
+    "Cryptography": 0.33
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,

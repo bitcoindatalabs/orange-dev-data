@@ -5,24 +5,24 @@
   "uuid": "auto_thomasbuilds",
   "badges": null,
   "roles": null,
-  "total_commits": 4.0,
-  "authored_commits": 4.0,
-  "tier1_authored_commits": 4.0,
+  "total_commits": 10.0,
+  "authored_commits": 10.0,
+  "tier1_authored_commits": 10.0,
   "tier2_authored_commits": 0.0,
   "merge_commits": 0.0,
   "tier1_merge_commits": 0.0,
   "tier2_merge_commits": 0.0,
   "self_merges": 0.0,
-  "total_additions": 36.0,
-  "total_deletions": 13.0,
+  "total_additions": 156.0,
+  "total_deletions": 51.0,
   "first_core_commit": "2026-04-26T21:55:12+00:00",
-  "last_core_commit": "2026-06-11T11:35:40+00:00",
+  "last_core_commit": "2026-09-09T00:35:40+00:00",
   "first_ecosystem_commit": null,
   "last_ecosystem_commit": null,
   "first_commit": "2026-04-26T21:55:12",
-  "last_commit": "2026-06-11T11:35:40",
-  "p2016_authored_commits": 4.0,
-  "modern_authored_commits": 4.0,
+  "last_commit": "2026-09-09T00:35:40",
+  "p2016_authored_commits": 10.0,
+  "modern_authored_commits": 10.0,
   "co_authored_commits": 0.0,
   "bips_authored": 0.0,
   "p2016_bips_authored": 0.0,
@@ -45,12 +45,12 @@
   "avg_pr_ack_velocity_days": 1.97677414021164,
   "avg_concept_lead_time_days": 0.7940943287037037,
   "review_reciprocity": 0.75,
-  "hybrid_score": 0.2133,
-  "p2016_hybrid_score": 0.2133,
-  "modern_hybrid_score": 0.2133,
-  "impact_score": 12.0,
-  "p2016_impact_score": 12.0,
-  "modern_impact_score": 12.0,
+  "hybrid_score": 0.0865,
+  "p2016_hybrid_score": 0.0865,
+  "modern_hybrid_score": 0.0865,
+  "impact_score": 5.0,
+  "p2016_impact_score": 5.0,
+  "modern_impact_score": 5.0,
   "threads_started": 0.0,
   "replies_sent": 0.0,
   "ml_threads": 0.0,
@@ -59,23 +59,13 @@
   "delving_responses": 0.0,
   "first_active": null,
   "last_active": null,
-  "dev_type": "Builder",
+  "dev_type": "Participant",
   "expertise_domains": [
-    "Infrastructure",
-    "Cryptography",
-    "Consensus"
+    "Infrastructure"
   ],
-  "expertise_by_source": {
-    "code": {
-      "Consensus": 0.125,
-      "Cryptography": 0.25,
-      "Infrastructure": 0.625
-    }
-  },
+  "expertise_by_source": {},
   "expertise_domain_scores": {
-    "Consensus": 0.125,
-    "Cryptography": 0.25,
-    "Infrastructure": 0.625
+    "Infrastructure": 1.0
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,
@@ -83,7 +73,7 @@
   "p2016_delving_posts": 0.0,
   "modern_ml_posts": 0.0,
   "modern_delving_posts": 0.0,
-  "is_engineer": true,
+  "is_engineer": false,
   "is_reviewer": true,
   "is_researcher": false,
   "is_bip_author": false,
@@ -102,8 +92,9 @@
     "2026": {
       "Consensus": 1.0,
       "Cryptography": 2.0,
-      "Tests": 2.0,
-      "Utilities": 3.0
+      "Node & RPC": 3.0,
+      "Tests": 7.0,
+      "Utilities": 7.0
     }
   }
 }

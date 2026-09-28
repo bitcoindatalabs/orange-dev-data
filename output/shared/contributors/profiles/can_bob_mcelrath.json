@@ -45,56 +45,47 @@
   "avg_pr_ack_velocity_days": 1.7416782407407407,
   "avg_concept_lead_time_days": 2.607366898148148,
   "review_reciprocity": 1.25,
-  "hybrid_score": 0.2619,
-  "p2016_hybrid_score": 0.2502,
+  "hybrid_score": 0.1142,
+  "p2016_hybrid_score": 0.1123,
   "modern_hybrid_score": 0.0396,
-  "impact_score": 15.0,
-  "p2016_impact_score": 14.0,
+  "impact_score": 7.0,
+  "p2016_impact_score": 7.0,
   "modern_impact_score": 2.0,
-  "threads_started": 16.0,
-  "replies_sent": 42.0,
+  "threads_started": 4.0,
+  "replies_sent": 23.0,
   "ml_threads": 4.0,
-  "delving_threads": 12.0,
+  "delving_threads": 0.0,
   "ml_responses": 23.0,
-  "delving_responses": 19.0,
+  "delving_responses": 0.0,
   "first_active": "2014-08-10T09:07:19",
-  "last_active": null,
-  "dev_type": "Builder",
+  "last_active": "2021-12-15T12:51:41",
+  "dev_type": "Participant",
   "expertise_domains": [
-    "Infrastructure",
     "Mining",
-    "Mempool"
+    "Consensus"
   ],
   "expertise_by_source": {
-    "code": {
-      "Consensus": 0.056,
-      "Infrastructure": 0.944
-    },
     "discussion": {
-      "Mempool": 0.189,
       "Mining": 0.679,
-      "Network": 0.132
+      "Consensus": 0.321
     }
   },
   "expertise_domain_scores": {
-    "Consensus": 0.0336,
-    "Infrastructure": 0.5664,
-    "Mempool": 0.0756,
-    "Mining": 0.2716,
-    "Network": 0.0528
+    "Mining": 0.679,
+    "Consensus": 0.321
   },
-  "p2016_posts": 47.0,
-  "modern_posts": 31.0,
+  "p2016_posts": 16.0,
+  "modern_posts": 0.0,
   "p2016_ml_posts": 16.0,
-  "p2016_delving_posts": 31.0,
+  "p2016_delving_posts": 0.0,
   "modern_ml_posts": 0.0,
-  "modern_delving_posts": 31.0,
-  "is_engineer": true,
+  "modern_delving_posts": 0.0,
+  "is_engineer": false,
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": false,
   "global_first_active": "2014-08-10T09:07:19",
-  "global_last_active": "2020-10-09T00:59:53",
+  "global_last_active": "2021-12-15T12:51:41",
   "github_location": "Boston, MA",
   "github_company": "Startup/VC Tech Advisor, Independent Contributor",
   "github_bio": "Remaking money and reverse-engineering the universe.",
@@ -125,10 +116,10 @@
     "link": "https://gnusha.org/pi/bitcoindev/20140810140719.GA20493@mcelrath.org"
   },
   "last_message": {
-    "source": "delving",
-    "subject": "Re: Optimistic mining tip (slow block propagation)",
-    "date": "2025-12-03",
-    "link": "https://delvingbitcoin.org/t/optimistic-mining-tip-slow-block-propagation/2139/2"
+    "source": "mailing_list",
+    "subject": "Re: [bitcoin-dev] [Bitcoin Advent Calendar] Decentralized\n Coordination Free Mining Pools",
+    "date": "2021-12-15",
+    "link": "https://gnusha.org/pi/bitcoindev/20211215185140.GB35108@mcelrath.org"
   },
   "social_history": {
     "2014": {
@@ -136,46 +127,28 @@
     },
     "2015": {
       "hard-fork-block-size": 4,
-      "mempool-fees": 1,
+      "other": 6,
       "mining": 4,
-      "other": 9,
-      "spam-filtering": 2
+      "scaling": 3,
+      "utxo-sync": 3
     },
     "2016": {
       "mining": 1,
-      "other": 3,
-      "p2p-network": 2
+      "other": 5
     },
     "2018": {
-      "other": 8,
-      "lightning": 1,
-      "mempool-fees": 1
+      "covenants": 2,
+      "other": 5,
+      "signatures-sighash": 3
     },
     "2020": {
-      "other": 8,
-      "lightning": 1,
-      "multisig-threshold": 1
+      "other": 5,
+      "covenants": 1,
+      "l2-bridges": 3,
+      "signatures-sighash": 1
     },
     "2021": {
       "mining": 3
-    },
-    "2024": {
-      "other": 2,
-      "lightning": 2,
-      "mempool-fees": 6,
-      "mining": 18,
-      "multisig-threshold": 7,
-      "p2p-network": 6,
-      "spam-filtering": 3
-    },
-    "2025": {
-      "other": 5,
-      "hard-fork-block-size": 4,
-      "lightning": 1,
-      "mempool-fees": 2,
-      "mining": 12,
-      "p2p-network": 2,
-      "spam-filtering": 5
     }
   }
 }

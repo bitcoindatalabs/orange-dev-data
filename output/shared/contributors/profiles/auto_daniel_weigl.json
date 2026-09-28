@@ -4,15 +4,15 @@
   "delving_username_final": null,
   "uuid": "auto_daniel_weigl",
   "badges": {
-    "is_bip_author": true,
-    "is_core_committer": false,
     "is_maintainer": false,
-    "is_sponsored": false,
+    "is_core_committer": false,
     "maintainer_status": null,
+    "is_sponsored": false,
+    "sponsor_id": null,
+    "is_bip_author": true,
     "roles": [
       "BIP Author"
-    ],
-    "sponsor_id": null
+    ]
   },
   "roles": [
     "BIP Author"
@@ -57,8 +57,8 @@
   "avg_pr_ack_velocity_days": null,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": null,
-  "hybrid_score": 0.3681,
-  "p2016_hybrid_score": 0.0357,
+  "hybrid_score": 0.3683,
+  "p2016_hybrid_score": 0.0365,
   "modern_hybrid_score": 0.0,
   "impact_score": 20.0,
   "p2016_impact_score": 2.0,
@@ -80,14 +80,14 @@
   "expertise_by_source": {
     "discussion": {
       "Consensus": 0.333,
-      "Script": 0.397,
-      "Wallet": 0.27
+      "Wallet": 0.27,
+      "Script": 0.397
     }
   },
   "expertise_domain_scores": {
     "Consensus": 0.333,
-    "Script": 0.397,
-    "Wallet": 0.27
+    "Wallet": 0.27,
+    "Script": 0.397
   },
   "p2016_posts": 7.0,
   "modern_posts": 0.0,

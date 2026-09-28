@@ -4,15 +4,15 @@
   "delving_username_final": "sdaftuar",
   "uuid": "can_suhas_daftuar",
   "badges": {
-    "is_bip_author": true,
-    "is_core_committer": false,
     "is_maintainer": false,
-    "is_sponsored": false,
+    "is_core_committer": false,
     "maintainer_status": null,
+    "is_sponsored": true,
+    "sponsor_id": null,
+    "is_bip_author": true,
     "roles": [
       "BIP Author"
-    ],
-    "sponsor_id": null
+    ]
   },
   "roles": [
     "BIP Author"
@@ -34,14 +34,14 @@
   "first_commit": "2014-09-12T17:04:49",
   "last_commit": "2026-01-23T15:10:54",
   "p2016_authored_commits": 377.0,
-  "modern_authored_commits": 107.0,
+  "modern_authored_commits": 105.0,
   "co_authored_commits": 46.0,
   "bips_authored": 4.0,
   "p2016_bips_authored": 3.0,
   "modern_bips_authored": 0.0,
   "first_bip_date": "2015-10-16T12:12:14",
   "last_bip_date": "2020-09-03T15:51:17",
-  "avg_review_latency_days": 100.85893798632567,
+  "avg_review_latency_days": 101.54181297149248,
   "reviews_count": 548.0,
   "avg_approval_latency_days": 30.747205401234567,
   "approvals_count": 301.0,
@@ -57,58 +57,48 @@
   "avg_pr_ack_velocity_days": 5.413163457769939,
   "avg_concept_lead_time_days": 9.707705399061032,
   "review_reciprocity": 2.6220095693779903,
-  "hybrid_score": 1.4783,
-  "p2016_hybrid_score": 1.3804,
-  "modern_hybrid_score": 0.4974,
-  "impact_score": 59.0,
-  "p2016_impact_score": 56.0,
-  "modern_impact_score": 26.0,
-  "threads_started": 19.0,
-  "replies_sent": 37.0,
+  "hybrid_score": 1.0869,
+  "p2016_hybrid_score": 0.9983,
+  "modern_hybrid_score": 0.1781,
+  "impact_score": 48.0,
+  "p2016_impact_score": 45.0,
+  "modern_impact_score": 10.0,
+  "threads_started": 8.0,
+  "replies_sent": 16.0,
   "ml_threads": 8.0,
-  "delving_threads": 11.0,
+  "delving_threads": 0.0,
   "ml_responses": 16.0,
-  "delving_responses": 21.0,
+  "delving_responses": 0.0,
   "first_active": "2015-07-30T11:41:55",
-  "last_active": null,
-  "dev_type": "Protocol Designer",
+  "last_active": "2022-11-07T15:21:11",
+  "dev_type": "Reviewer",
   "expertise_domains": [
-    "Infrastructure",
     "Network",
+    "Infrastructure",
     "Mempool"
   ],
   "expertise_by_source": {
+    "discussion": {
+      "Mempool": 0.526,
+      "Network": 0.474
+    },
     "bips": {
       "Infrastructure": 0.5,
       "Network": 0.5
-    },
-    "code": {
-      "Consensus": 0.1,
-      "Infrastructure": 0.553,
-      "Mempool": 0.154,
-      "Network": 0.17,
-      "Wallet": 0.023
-    },
-    "discussion": {
-      "Mempool": 0.738,
-      "Mining": 0.148,
-      "Network": 0.115
     }
   },
   "expertise_domain_scores": {
-    "Consensus": 0.03,
-    "Infrastructure": 0.4158,
-    "Mempool": 0.1938,
-    "Mining": 0.0296,
-    "Network": 0.3239
+    "Infrastructure": 0.3571,
+    "Mempool": 0.1503,
+    "Network": 0.4926
   },
-  "p2016_posts": 52.0,
-  "modern_posts": 32.0,
+  "p2016_posts": 20.0,
+  "modern_posts": 0.0,
   "p2016_ml_posts": 20.0,
-  "p2016_delving_posts": 32.0,
+  "p2016_delving_posts": 0.0,
   "modern_ml_posts": 0.0,
-  "modern_delving_posts": 32.0,
-  "is_engineer": true,
+  "modern_delving_posts": 0.0,
+  "is_engineer": false,
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": true,
@@ -259,30 +249,32 @@
     "link": "https://gnusha.org/pi/bitcoindev/CAFp6fsExyinUm8uUiOY_xEDkYKcq09XZU3uy+YAcCyTEdeE6rA@mail.gmail.com"
   },
   "last_message": {
-    "source": "delving",
-    "subject": "Re: Generalizing RBF under Cluster Mempool",
-    "date": "2025-11-19",
-    "link": "https://delvingbitcoin.org/t/generalizing-rbf-under-cluster-mempool/2115/2"
+    "source": "mailing_list",
+    "subject": "Re: [bitcoin-dev] Removing BIP-125 Rule #5 Pinning with the\n Always-Replaceable Invariant",
+    "date": "2022-11-07",
+    "link": "https://gnusha.org/pi/bitcoindev/CAFp6fsH0BXn51DqpJLWn56ecohCJZ+skVvabGBRmjeK5u08vdg@mail.gmail.com"
   },
   "social_history": {
     "2015": {
-      "other": 2,
-      "p2p-network": 3
+      "other": 1,
+      "p2p-network": 3,
+      "testing-devtools": 1
     },
     "2016": {
-      "other": 2,
+      "bip-process": 1,
+      "other": 1,
       "script-opcodes": 1
     },
     "2017": {
       "mempool-fees": 1,
-      "mining": 1,
-      "other": 4,
+      "other": 3,
       "script-opcodes": 1,
-      "soft-fork-activation": 1
+      "segwit": 2,
+      "testing-devtools": 1
     },
     "2018": {
       "script-opcodes": 1,
-      "other": 1
+      "segwit": 1
     },
     "2019": {
       "other": 3
@@ -300,21 +292,6 @@
     "2022": {
       "mempool-fees": 4,
       "other": 1
-    },
-    "2023": {
-      "mempool-fees": 7
-    },
-    "2024": {
-      "other": 12,
-      "mempool-fees": 24,
-      "mining": 15,
-      "privacy": 9,
-      "script-opcodes": 3,
-      "soft-fork-activation": 3,
-      "transaction-format": 3
-    },
-    "2025": {
-      "mempool-fees": 1
     }
   }
 }

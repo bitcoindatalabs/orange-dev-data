@@ -45,10 +45,10 @@
   "avg_pr_ack_velocity_days": 0.1658449074074074,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": 1.0,
-  "hybrid_score": 0.1117,
-  "p2016_hybrid_score": 0.0381,
-  "modern_hybrid_score": 0.085,
-  "impact_score": 6.0,
+  "hybrid_score": 0.0484,
+  "p2016_hybrid_score": 0.0382,
+  "modern_hybrid_score": 0.0862,
+  "impact_score": 3.0,
   "p2016_impact_score": 2.0,
   "modern_impact_score": 5.0,
   "threads_started": 0.0,
@@ -59,27 +59,23 @@
   "delving_responses": 0.0,
   "first_active": "2024-12-13T11:16:23",
   "last_active": "2024-12-28T10:15:42",
-  "dev_type": "Builder",
+  "dev_type": "Participant",
   "expertise_domains": [
-    "Infrastructure",
     "Mining",
-    "Mempool"
+    "Mempool",
+    "Ecosystem"
   ],
   "expertise_by_source": {
-    "code": {
-      "Infrastructure": 1.0
-    },
     "discussion": {
-      "Ecosystem": 0.121,
+      "Mining": 0.758,
       "Mempool": 0.121,
-      "Mining": 0.758
+      "Ecosystem": 0.121
     }
   },
   "expertise_domain_scores": {
-    "Ecosystem": 0.0484,
-    "Infrastructure": 0.6,
-    "Mempool": 0.0484,
-    "Mining": 0.3032
+    "Mining": 0.758,
+    "Mempool": 0.121,
+    "Ecosystem": 0.121
   },
   "p2016_posts": 3.0,
   "modern_posts": 3.0,
@@ -87,7 +83,7 @@
   "p2016_delving_posts": 0.0,
   "modern_ml_posts": 3.0,
   "modern_delving_posts": 0.0,
-  "is_engineer": true,
+  "is_engineer": false,
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": false,

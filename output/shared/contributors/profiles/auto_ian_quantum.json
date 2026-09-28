@@ -45,9 +45,9 @@
   "avg_pr_ack_velocity_days": null,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": null,
-  "hybrid_score": 0.3609,
-  "p2016_hybrid_score": 0.3666,
-  "modern_hybrid_score": 0.3969,
+  "hybrid_score": 0.3611,
+  "p2016_hybrid_score": 0.3668,
+  "modern_hybrid_score": 0.3977,
   "impact_score": 19.0,
   "p2016_impact_score": 20.0,
   "modern_impact_score": 21.0,
@@ -65,11 +65,11 @@
     "Cryptography"
   ],
   "expertise_by_source": {
-    "bips": {
-      "Consensus": 1.0
-    },
     "discussion": {
       "Cryptography": 1.0
+    },
+    "bips": {
+      "Consensus": 1.0
     }
   },
   "expertise_domain_scores": {

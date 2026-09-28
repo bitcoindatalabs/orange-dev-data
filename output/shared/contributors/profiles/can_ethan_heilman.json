@@ -4,15 +4,15 @@
   "delving_username_final": "ethanheilman",
   "uuid": "can_ethan_heilman",
   "badges": {
-    "is_bip_author": true,
-    "is_core_committer": false,
     "is_maintainer": false,
-    "is_sponsored": false,
+    "is_core_committer": false,
     "maintainer_status": null,
+    "is_sponsored": false,
+    "sponsor_id": null,
+    "is_bip_author": true,
     "roles": [
       "BIP Author"
-    ],
-    "sponsor_id": null
+    ]
   },
   "roles": [
     "BIP Author"
@@ -41,7 +41,7 @@
   "modern_bips_authored": 2.0,
   "first_bip_date": "2023-12-11T17:11:22",
   "last_bip_date": "2026-02-11T14:54:26",
-  "avg_review_latency_days": 1534.0881433256172,
+  "avg_review_latency_days": 1422.5611926200565,
   "reviews_count": 30.0,
   "avg_approval_latency_days": 76.3419201388889,
   "approvals_count": 8.0,
@@ -57,54 +57,47 @@
   "avg_pr_ack_velocity_days": 33.950623638344226,
   "avg_concept_lead_time_days": 45.90123842592593,
   "review_reciprocity": 1.5789473684210527,
-  "hybrid_score": 1.0147,
-  "p2016_hybrid_score": 1.1063,
-  "modern_hybrid_score": 1.1309,
-  "impact_score": 46.0,
-  "p2016_impact_score": 49.0,
-  "modern_impact_score": 49.0,
-  "threads_started": 17.0,
-  "replies_sent": 83.0,
+  "hybrid_score": 0.8269,
+  "p2016_hybrid_score": 0.9266,
+  "modern_hybrid_score": 1.0186,
+  "impact_score": 39.0,
+  "p2016_impact_score": 43.0,
+  "modern_impact_score": 46.0,
+  "threads_started": 13.0,
+  "replies_sent": 74.0,
   "ml_threads": 13.0,
-  "delving_threads": 4.0,
+  "delving_threads": 0.0,
   "ml_responses": 74.0,
-  "delving_responses": 9.0,
+  "delving_responses": 0.0,
   "first_active": "2014-06-03T06:51:45",
   "last_active": "2026-05-05T14:17:23",
-  "dev_type": "Protocol Designer",
+  "dev_type": "Reviewer",
   "expertise_domains": [
     "Consensus",
-    "Infrastructure",
-    "Cryptography"
+    "Cryptography",
+    "Script"
   ],
   "expertise_by_source": {
+    "discussion": {
+      "Script": 0.478,
+      "Cryptography": 0.522
+    },
     "bips": {
       "Consensus": 1.0
-    },
-    "code": {
-      "Infrastructure": 0.769,
-      "Network": 0.231
-    },
-    "discussion": {
-      "Consensus": 0.211,
-      "Cryptography": 0.439,
-      "Script": 0.351
     }
   },
   "expertise_domain_scores": {
-    "Consensus": 0.5421,
-    "Cryptography": 0.0878,
-    "Infrastructure": 0.2307,
-    "Network": 0.0693,
-    "Script": 0.0702
+    "Consensus": 0.7143,
+    "Script": 0.1366,
+    "Cryptography": 0.1491
   },
-  "p2016_posts": 96.0,
-  "modern_posts": 73.0,
+  "p2016_posts": 83.0,
+  "modern_posts": 60.0,
   "p2016_ml_posts": 83.0,
-  "p2016_delving_posts": 13.0,
+  "p2016_delving_posts": 0.0,
   "modern_ml_posts": 60.0,
-  "modern_delving_posts": 13.0,
-  "is_engineer": true,
+  "modern_delving_posts": 0.0,
+  "is_engineer": false,
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": true,
@@ -186,19 +179,20 @@
       "mining": 2
     },
     "2016": {
-      "other": 8
+      "other": 7,
+      "segwit": 1
     },
     "2017": {
       "covenants": 2,
-      "other": 3,
-      "scaling": 1,
+      "other": 4,
       "script-opcodes": 2
     },
     "2019": {
       "bitvm": 3,
       "covenants": 3,
-      "other": 4,
-      "mining": 4
+      "other": 3,
+      "mining": 4,
+      "segwit": 1
     },
     "2021": {
       "covenants": 2,
@@ -213,31 +207,30 @@
       "taproot": 2
     },
     "2024": {
-      "other": 9,
-      "covenants": 14,
+      "covenants": 12,
+      "other": 7,
       "mining": 1,
       "quantum": 7,
-      "script-opcodes": 11,
-      "taproot": 5
+      "script-opcodes": 9,
+      "taproot": 3
     },
     "2025": {
-      "bitvm": 3,
+      "bitvm": 2,
       "covenants": 3,
-      "other": 9,
+      "other": 8,
       "mining": 2,
-      "quantum": 19,
-      "scaling": 4,
-      "taproot": 10
+      "quantum": 10,
+      "segwit": 4,
+      "taproot": 2
     },
     "2026": {
       "bitvm": 1,
-      "covenants": 4,
-      "mining": 2,
-      "other": 7,
-      "quantum": 16,
-      "scaling": 1,
-      "script-opcodes": 3,
-      "taproot": 5
+      "covenants": 3,
+      "mining": 1,
+      "other": 8,
+      "quantum": 14,
+      "script-opcodes": 2,
+      "taproot": 4
     }
   }
 }

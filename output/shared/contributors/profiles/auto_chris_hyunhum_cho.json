@@ -51,35 +51,28 @@
   "impact_score": 3.0,
   "p2016_impact_score": 3.0,
   "modern_impact_score": 3.0,
-  "threads_started": 1.0,
-  "replies_sent": 4.0,
+  "threads_started": 0.0,
+  "replies_sent": 0.0,
   "ml_threads": 0.0,
-  "delving_threads": 1.0,
+  "delving_threads": 0.0,
   "ml_responses": 0.0,
-  "delving_responses": 4.0,
+  "delving_responses": 0.0,
   "first_active": null,
   "last_active": null,
   "dev_type": "Participant",
   "expertise_domains": [
-    "Script",
-    "L2"
+    "Infrastructure"
   ],
-  "expertise_by_source": {
-    "discussion": {
-      "L2": 0.254,
-      "Script": 0.746
-    }
-  },
+  "expertise_by_source": {},
   "expertise_domain_scores": {
-    "L2": 0.254,
-    "Script": 0.746
+    "Infrastructure": 1.0
   },
-  "p2016_posts": 5.0,
-  "modern_posts": 5.0,
+  "p2016_posts": 0.0,
+  "modern_posts": 0.0,
   "p2016_ml_posts": 0.0,
-  "p2016_delving_posts": 5.0,
+  "p2016_delving_posts": 0.0,
   "modern_ml_posts": 0.0,
-  "modern_delving_posts": 5.0,
+  "modern_delving_posts": 0.0,
   "is_engineer": false,
   "is_reviewer": true,
   "is_researcher": false,
@@ -88,33 +81,12 @@
   "global_last_active": null,
   "github_location": "Earth",
   "github_company": null,
-  "github_bio": "Computer Scientist interested in Blockchain and Piano \ud83c\udfb9",
+  "github_bio": "Computer Scientist interested in Blockchain and Piano 🎹",
   "github_twitter": null,
   "github_blog": null,
   "github_followers": 44.0,
   "activity_status": "Active",
   "is_top_50": false,
   "github_url": "https://github.com/ChrisCho-H",
-  "delving_url": "https://delvingbitcoin.org/u/chrischo-h",
-  "first_message": {
-    "source": "delving",
-    "subject": "Bithoven: A Formally Verified, Imperative Smart Contract Language for Bitcoin",
-    "date": "2026-01-06",
-    "link": "https://delvingbitcoin.org/t/bithoven-a-formally-verified-imperative-smart-contract-language-for-bitcoin/2189/1"
-  },
-  "last_message": {
-    "source": "delving",
-    "subject": "Re: Bithoven: A Formally Verified, Imperative Smart Contract Language for Bitcoin",
-    "date": "2026-02-13",
-    "link": "https://delvingbitcoin.org/t/bithoven-a-formally-verified-imperative-smart-contract-language-for-bitcoin/2189/9"
-  },
-  "social_history": {
-    "2026": {
-      "bitvm": 5,
-      "covenants": 5,
-      "script-opcodes": 5,
-      "segwit": 5,
-      "taproot": 5
-    }
-  }
+  "delving_url": "https://delvingbitcoin.org/u/chrischo-h"
 }

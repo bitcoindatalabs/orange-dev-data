@@ -51,44 +51,44 @@
   "impact_score": 1.0,
   "p2016_impact_score": 0.0,
   "modern_impact_score": 0.0,
-  "threads_started": 1.0,
+  "threads_started": 0.0,
   "replies_sent": 4.0,
   "ml_threads": 0.0,
-  "delving_threads": 1.0,
+  "delving_threads": 0.0,
   "ml_responses": 4.0,
   "delving_responses": 0.0,
   "first_active": "2015-06-14T01:55:45",
-  "last_active": null,
+  "last_active": "2021-03-23T04:36:32",
   "dev_type": "Participant",
   "expertise_domains": [
     "Consensus",
-    "Script",
-    "Cryptography"
+    "Cryptography",
+    "Ecosystem"
   ],
   "expertise_by_source": {
     "discussion": {
-      "Consensus": 0.487,
-      "Cryptography": 0.256,
-      "Script": 0.256
+      "Consensus": 0.434,
+      "Ecosystem": 0.283,
+      "Cryptography": 0.283
     }
   },
   "expertise_domain_scores": {
-    "Consensus": 0.4875,
-    "Cryptography": 0.2563,
-    "Script": 0.2563
+    "Consensus": 0.434,
+    "Ecosystem": 0.283,
+    "Cryptography": 0.283
   },
-  "p2016_posts": 3.0,
-  "modern_posts": 1.0,
+  "p2016_posts": 2.0,
+  "modern_posts": 0.0,
   "p2016_ml_posts": 2.0,
-  "p2016_delving_posts": 1.0,
+  "p2016_delving_posts": 0.0,
   "modern_ml_posts": 0.0,
-  "modern_delving_posts": 1.0,
+  "modern_delving_posts": 0.0,
   "is_engineer": false,
   "is_reviewer": false,
   "is_researcher": true,
   "is_bip_author": false,
   "global_first_active": "2015-06-14T01:55:45",
-  "global_last_active": null,
+  "global_last_active": "2021-03-23T04:36:32",
   "github_location": null,
   "github_company": null,
   "github_bio": null,
@@ -105,16 +105,16 @@
     "link": "https://gnusha.org/pi/bitcoindev/557D2571.601@gmail.com"
   },
   "last_message": {
-    "source": "delving",
-    "subject": "Re: Economic-Majority Signaling for OP_CTV Activation",
-    "date": "2024-03-09",
-    "link": "https://delvingbitcoin.org/t/economic-majority-signaling-for-op-ctv-activation/635/5"
+    "source": "mailing_list",
+    "subject": "Re: [bitcoin-dev] PSA: Taproot loss of quantum protections",
+    "date": "2021-03-23",
+    "link": "https://gnusha.org/pi/bitcoindev/CAKhySQy3BZjPpk17DNedbobG4+VTkQQND_m2X6RhfyOrfkAiJA@mail.gmail.com"
   },
   "social_history": {
     "2015": {
       "hard-fork-block-size": 1,
       "scaling": 1,
-      "other": 1
+      "sidechains-drivechain": 1
     },
     "2019": {
       "lightning": 1,
@@ -123,14 +123,7 @@
     },
     "2021": {
       "bitvm": 1,
-      "other": 1,
-      "taproot": 1
-    },
-    "2024": {
-      "covenants": 1,
-      "mempool-fees": 1,
-      "mining": 1,
-      "other": 3,
+      "quantum": 1,
       "taproot": 1
     }
   }

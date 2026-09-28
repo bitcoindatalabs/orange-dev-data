@@ -3,6 +3,11 @@ import json
 import os
 import sys
 
+try:
+    sys.stdout.reconfigure(encoding='utf-8', errors='replace')
+except Exception:
+    pass
+
 # --- Configuration ---
 SELF_MERGES_PARQUET = "data/enriched/self_merges_detailed.parquet"
 IDENTITIES_JSON = "metadata/identities.json"
@@ -24,7 +29,7 @@ def deliver_self_merges():
         return
         
     # Load Master Identities
-    with open(IDENTITIES_JSON, 'r') as f:
+    with open(IDENTITIES_JSON, 'r', encoding='utf-8') as f:
         identities_data = json.load(f)['identities']
         
     uuid_to_name = {ident['uuid']: ident['display_name'] for ident in identities_data}
@@ -61,8 +66,8 @@ def deliver_self_merges():
     }
     
     os.makedirs(os.path.dirname(OUTPUT_JSON), exist_ok=True)
-    with open(OUTPUT_JSON, 'w') as f:
-        json.dump(payload, f, indent=2)
+    with open(OUTPUT_JSON, 'w', encoding='utf-8') as f:
+        json.dump(payload, f, indent=2, ensure_ascii=False)
         
     print(f"Saved {len(receipts)} self-merge receipts to {OUTPUT_JSON}")
 

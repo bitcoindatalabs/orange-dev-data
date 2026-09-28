@@ -29,65 +29,58 @@
   "modern_bips_authored": 0.0,
   "first_bip_date": null,
   "last_bip_date": null,
-  "avg_review_latency_days": 1442.4014771516122,
-  "reviews_count": 44.0,
-  "avg_approval_latency_days": 803.8565223765432,
-  "approvals_count": 12.0,
-  "tier1_reviews_count": 10.0,
+  "avg_review_latency_days": 1412.1738027968038,
+  "reviews_count": 45.0,
+  "avg_approval_latency_days": 886.6312795781893,
+  "approvals_count": 13.0,
+  "tier1_reviews_count": 11.0,
   "tier2_reviews_count": 34.0,
-  "p2016_reviews_count": 44.0,
+  "p2016_reviews_count": 45.0,
   "modern_reviews_count": 5.0,
   "first_review_date": "2017-05-02T10:19:14",
   "last_review_date": "2024-06-03T11:45:21",
   "prs_authored": 8.0,
   "tier1_prs_authored": 1.0,
   "tier2_prs_authored": 7.0,
-  "avg_pr_ack_velocity_days": 21.3684375,
+  "avg_pr_ack_velocity_days": 1.7088310185185185,
   "avg_concept_lead_time_days": null,
-  "review_reciprocity": 5.5,
-  "hybrid_score": 0.2375,
-  "p2016_hybrid_score": 0.239,
+  "review_reciprocity": 5.625,
+  "hybrid_score": 0.1749,
+  "p2016_hybrid_score": 0.1765,
   "modern_hybrid_score": 0.083,
-  "impact_score": 13.0,
-  "p2016_impact_score": 13.0,
+  "impact_score": 10.0,
+  "p2016_impact_score": 10.0,
   "modern_impact_score": 5.0,
-  "threads_started": 7.0,
-  "replies_sent": 17.0,
+  "threads_started": 2.0,
+  "replies_sent": 16.0,
   "ml_threads": 2.0,
-  "delving_threads": 5.0,
+  "delving_threads": 0.0,
   "ml_responses": 16.0,
-  "delving_responses": 1.0,
+  "delving_responses": 0.0,
   "first_active": "2018-11-08T23:17:30",
-  "last_active": null,
-  "dev_type": "Builder",
+  "last_active": "2020-11-26T17:24:32",
+  "dev_type": "Reviewer",
   "expertise_domains": [
-    "Infrastructure",
     "Wallet",
-    "Network"
+    "Cryptography"
   ],
   "expertise_by_source": {
-    "code": {
-      "Infrastructure": 0.667,
-      "Network": 0.333
-    },
     "discussion": {
-      "Privacy": 0.227,
-      "Wallet": 0.773
+      "Wallet": 0.943,
+      "Cryptography": 0.057
     }
   },
   "expertise_domain_scores": {
-    "Infrastructure": 0.4002,
-    "Network": 0.1998,
-    "Privacy": 0.0908,
-    "Wallet": 0.3092
+    "Wallet": 0.943,
+    "Cryptography": 0.057
   },
-  "p2016_posts": 24.0,
-  "modern_posts": 6.0,
+  "p2016_posts": 18.0,
+  "modern_posts": 0.0,
   "p2016_ml_posts": 18.0,
-  "p2016_delving_posts": 6.0,
+  "p2016_delving_posts": 0.0,
   "modern_ml_posts": 0.0,
-  "modern_delving_posts": 6.0,
-  "is_engineer": true,
+  "modern_delving_posts": 0.0,
+  "is_engineer": false,
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": false,
@@ -117,10 +110,10 @@
     "link": "https://gnusha.org/pi/bitcoindev/CAMpN3m+Zo6LG1wCkW7tLZy7VzpF8YpjHQqq7StO78C0P-8y0Ew@mail.gmail.com"
   },
   "last_message": {
-    "source": "delving",
-    "subject": "Re: BIP352 private key formats",
-    "date": "2025-11-12",
-    "link": "https://delvingbitcoin.org/t/bip352-private-key-formats/2080/9"
+    "source": "mailing_list",
+    "subject": "Re: [bitcoin-dev] Against proprietary and PoR fields in PSBT BIP174",
+    "date": "2020-11-26",
+    "link": "https://gnusha.org/pi/bitcoindev/CAMpN3m+BcbKE77jwgXnUN4GevaSS6R4ZEXe9kVrjiB_DNmu3uA@mail.gmail.com"
   },
   "social_history": {
     "2018": {
@@ -136,10 +129,6 @@
     },
     "2020": {
       "wallet-keys": 1
-    },
-    "2025": {
-      "silent-payments": 6,
-      "wallet-keys": 6
     }
   }
 }

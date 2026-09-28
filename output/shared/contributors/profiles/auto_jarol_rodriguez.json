@@ -29,9 +29,9 @@
   "modern_bips_authored": 0.0,
   "first_bip_date": null,
   "last_bip_date": null,
-  "avg_review_latency_days": 1158.0266986623042,
+  "avg_review_latency_days": 1275.9454536273265,
   "reviews_count": 651.0,
-  "avg_approval_latency_days": 1058.7173402725286,
+  "avg_approval_latency_days": 1170.7193297457063,
   "approvals_count": 450.0,
   "tier1_reviews_count": 650.0,
   "tier2_reviews_count": 1.0,
@@ -42,14 +42,14 @@
   "prs_authored": 45.0,
   "tier1_prs_authored": 44.0,
   "tier2_prs_authored": 1.0,
-  "avg_pr_ack_velocity_days": 1.7979616274928776,
-  "avg_concept_lead_time_days": 1.9433896604938274,
+  "avg_pr_ack_velocity_days": 1.264205005787037,
+  "avg_concept_lead_time_days": 0.9345630787037038,
   "review_reciprocity": 14.466666666666667,
-  "hybrid_score": 0.4825,
-  "p2016_hybrid_score": 0.4825,
+  "hybrid_score": 0.2349,
+  "p2016_hybrid_score": 0.2349,
   "modern_hybrid_score": 0.1508,
-  "impact_score": 25.0,
-  "p2016_impact_score": 25.0,
+  "impact_score": 13.0,
+  "p2016_impact_score": 13.0,
   "modern_impact_score": 9.0,
   "threads_started": 0.0,
   "replies_sent": 0.0,
@@ -59,20 +59,13 @@
   "delving_responses": 0.0,
   "first_active": null,
   "last_active": null,
-  "dev_type": "Builder",
+  "dev_type": "Reviewer",
   "expertise_domains": [
-    "Infrastructure",
-    "Consensus"
+    "Infrastructure"
   ],
-  "expertise_by_source": {
-    "code": {
-      "Consensus": 0.028,
-      "Infrastructure": 0.972
-    }
-  },
+  "expertise_by_source": {},
   "expertise_domain_scores": {
-    "Consensus": 0.028,
-    "Infrastructure": 0.972
+    "Infrastructure": 1.0
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,
@@ -80,7 +73,7 @@
   "p2016_delving_posts": 0.0,
   "modern_ml_posts": 0.0,
   "modern_delving_posts": 0.0,
-  "is_engineer": true,
+  "is_engineer": false,
   "is_reviewer": true,
   "is_researcher": false,
   "is_bip_author": false,

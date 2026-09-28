@@ -45,44 +45,37 @@
   "avg_pr_ack_velocity_days": null,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": 1.0,
-  "hybrid_score": 0.0382,
-  "p2016_hybrid_score": 0.0407,
-  "modern_hybrid_score": 0.0542,
+  "hybrid_score": 0.033,
+  "p2016_hybrid_score": 0.033,
+  "modern_hybrid_score": 0.033,
   "impact_score": 2.0,
   "p2016_impact_score": 2.0,
-  "modern_impact_score": 3.0,
-  "threads_started": 5.0,
-  "replies_sent": 28.0,
+  "modern_impact_score": 2.0,
+  "threads_started": 0.0,
+  "replies_sent": 0.0,
   "ml_threads": 0.0,
-  "delving_threads": 5.0,
+  "delving_threads": 0.0,
   "ml_responses": 0.0,
-  "delving_responses": 28.0,
+  "delving_responses": 0.0,
   "first_active": null,
   "last_active": null,
   "dev_type": "Participant",
   "expertise_domains": [
-    "Consensus",
-    "Mining"
+    "Infrastructure"
   ],
-  "expertise_by_source": {
-    "discussion": {
-      "Consensus": 0.517,
-      "Mining": 0.483
-    }
-  },
+  "expertise_by_source": {},
   "expertise_domain_scores": {
-    "Consensus": 0.517,
-    "Mining": 0.483
+    "Infrastructure": 1.0
   },
-  "p2016_posts": 33.0,
-  "modern_posts": 33.0,
+  "p2016_posts": 0.0,
+  "modern_posts": 0.0,
   "p2016_ml_posts": 0.0,
-  "p2016_delving_posts": 33.0,
+  "p2016_delving_posts": 0.0,
   "modern_ml_posts": 0.0,
-  "modern_delving_posts": 33.0,
+  "modern_delving_posts": 0.0,
   "is_engineer": false,
   "is_reviewer": true,
-  "is_researcher": true,
+  "is_researcher": false,
   "is_bip_author": false,
   "global_first_active": "2026-07-27T21:35:47",
   "global_last_active": "2026-09-03T15:34:35",
@@ -95,29 +88,5 @@
   "activity_status": "New",
   "is_top_50": false,
   "github_url": "https://github.com/MrHash",
-  "delving_url": "https://delvingbitcoin.org/u/mrhash",
-  "first_message": {
-    "source": "delving",
-    "subject": "[BIP Draft] Segregated Data: a prunable, script-isolated block region for data carriage",
-    "date": "2026-06-23",
-    "link": "https://delvingbitcoin.org/t/bip-draft-segregated-data-a-prunable-script-isolated-block-region-for-data-carriage/2641/1"
-  },
-  "last_message": {
-    "source": "delving",
-    "subject": "Re: [BIP Draft] Segregated Data: a prunable, script-isolated block region for data carriage",
-    "date": "2026-08-07",
-    "link": "https://delvingbitcoin.org/t/bip-draft-segregated-data-a-prunable-script-isolated-block-region-for-data-carriage/2641/52"
-  },
-  "social_history": {
-    "2026": {
-      "bip-process": 1,
-      "hard-fork-block-size": 31,
-      "mining": 31,
-      "ordinals-inscriptions": 30,
-      "payment-protocol": 2,
-      "script-opcodes": 30,
-      "segwit": 30,
-      "utxo-sync": 31
-    }
-  }
+  "delving_url": "https://delvingbitcoin.org/u/mrhash"
 }

@@ -45,44 +45,37 @@
   "avg_pr_ack_velocity_days": null,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": null,
-  "hybrid_score": 0.0051,
-  "p2016_hybrid_score": 0.0077,
-  "modern_hybrid_score": 0.0212,
+  "hybrid_score": 0.0,
+  "p2016_hybrid_score": 0.0,
+  "modern_hybrid_score": 0.0,
   "impact_score": 0.0,
   "p2016_impact_score": 0.0,
-  "modern_impact_score": 1.0,
-  "threads_started": 33.0,
-  "replies_sent": 29.0,
+  "modern_impact_score": 0.0,
+  "threads_started": 0.0,
+  "replies_sent": 0.0,
   "ml_threads": 0.0,
-  "delving_threads": 33.0,
+  "delving_threads": 0.0,
   "ml_responses": 0.0,
-  "delving_responses": 29.0,
+  "delving_responses": 0.0,
   "first_active": null,
   "last_active": null,
   "dev_type": "Participant",
   "expertise_domains": [
-    "Script",
-    "L2"
+    "Infrastructure"
   ],
-  "expertise_by_source": {
-    "discussion": {
-      "L2": 0.25,
-      "Script": 0.75
-    }
-  },
+  "expertise_by_source": {},
   "expertise_domain_scores": {
-    "L2": 0.25,
-    "Script": 0.75
+    "Infrastructure": 1.0
   },
-  "p2016_posts": 62.0,
-  "modern_posts": 62.0,
+  "p2016_posts": 0.0,
+  "modern_posts": 0.0,
   "p2016_ml_posts": 0.0,
-  "p2016_delving_posts": 62.0,
+  "p2016_delving_posts": 0.0,
   "modern_ml_posts": 0.0,
-  "modern_delving_posts": 62.0,
+  "modern_delving_posts": 0.0,
   "is_engineer": false,
   "is_reviewer": false,
-  "is_researcher": true,
+  "is_researcher": false,
   "is_bip_author": false,
   "global_first_active": null,
   "global_last_active": null,
@@ -92,42 +85,7 @@
   "github_twitter": null,
   "github_blog": null,
   "github_followers": null,
-  "activity_status": "Active",
+  "activity_status": "",
   "is_top_50": false,
-  "delving_url": "https://delvingbitcoin.org/u/josh",
-  "first_message": {
-    "source": "delving",
-    "subject": "MultisigBackup.com: Backup and recover a k-of-n descriptor using only n seeds",
-    "date": "2025-02-06",
-    "link": "https://delvingbitcoin.org/t/multisigbackup-com-backup-and-recover-a-k-of-n-descriptor-using-only-n-seeds/1430/1"
-  },
-  "last_message": {
-    "source": "delving",
-    "subject": "Re: Expiring HTLCs without free relay",
-    "date": "2026-08-11",
-    "link": "https://delvingbitcoin.org/t/expiring-htlcs-without-free-relay/2663/6"
-  },
-  "social_history": {
-    "2025": {
-      "other": 54,
-      "covenants": 16,
-      "lightning": 2,
-      "mempool-fees": 3,
-      "multisig-threshold": 7,
-      "script-opcodes": 7,
-      "security": 1,
-      "taproot": 15
-    },
-    "2026": {
-      "bip-process": 11,
-      "other": 6,
-      "covenants": 15,
-      "lightning": 11,
-      "mempool-fees": 14,
-      "multisig-threshold": 11,
-      "script-opcodes": 16,
-      "security": 15,
-      "taproot": 2
-    }
-  }
+  "delving_url": "https://delvingbitcoin.org/u/josh"
 }

@@ -42,13 +42,13 @@
   "prs_authored": 4.0,
   "tier1_prs_authored": 4.0,
   "tier2_prs_authored": 0.0,
-  "avg_pr_ack_velocity_days": 60.603603395061725,
+  "avg_pr_ack_velocity_days": 10.427780671296297,
   "avg_concept_lead_time_days": 10.596006944444444,
   "review_reciprocity": 0.25,
-  "hybrid_score": 0.1429,
+  "hybrid_score": 0.05,
   "p2016_hybrid_score": 0.05,
   "modern_hybrid_score": 0.0396,
-  "impact_score": 8.0,
+  "impact_score": 3.0,
   "p2016_impact_score": 3.0,
   "modern_impact_score": 2.0,
   "threads_started": 0.0,
@@ -59,15 +59,11 @@
   "delving_responses": 0.0,
   "first_active": null,
   "last_active": null,
-  "dev_type": "Builder",
+  "dev_type": "Participant",
   "expertise_domains": [
     "Infrastructure"
   ],
-  "expertise_by_source": {
-    "code": {
-      "Infrastructure": 1.0
-    }
-  },
+  "expertise_by_source": {},
   "expertise_domain_scores": {
     "Infrastructure": 1.0
   },
@@ -77,7 +73,7 @@
   "p2016_delving_posts": 0.0,
   "modern_ml_posts": 0.0,
   "modern_delving_posts": 0.0,
-  "is_engineer": true,
+  "is_engineer": false,
   "is_reviewer": true,
   "is_researcher": false,
   "is_bip_author": false,
@@ -85,7 +81,7 @@
   "global_last_active": "2017-02-11T20:57:50",
   "github_location": null,
   "github_company": null,
-  "github_bio": "Due to GitHub blocking me (as a \u201csecurity measure\u201d), I cannot access my account. I moved all projects out.",
+  "github_bio": "Due to GitHub blocking me (as a “security measure”), I cannot access my account. I moved all projects out.",
   "github_twitter": null,
   "github_blog": null,
   "github_followers": 26.0,

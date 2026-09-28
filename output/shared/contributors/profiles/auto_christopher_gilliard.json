@@ -4,15 +4,15 @@
   "delving_username_final": null,
   "uuid": "auto_christopher_gilliard",
   "badges": {
-    "is_bip_author": true,
-    "is_core_committer": false,
     "is_maintainer": false,
-    "is_sponsored": false,
+    "is_core_committer": false,
     "maintainer_status": null,
+    "is_sponsored": false,
+    "sponsor_id": null,
+    "is_bip_author": true,
     "roles": [
       "BIP Author"
-    ],
-    "sponsor_id": null
+    ]
   },
   "roles": [
     "BIP Author"
@@ -57,8 +57,8 @@
   "avg_pr_ack_velocity_days": null,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": 0.375,
-  "hybrid_score": 0.4537,
-  "p2016_hybrid_score": 0.4728,
+  "hybrid_score": 0.4538,
+  "p2016_hybrid_score": 0.4732,
   "modern_hybrid_score": 0.058,
   "impact_score": 24.0,
   "p2016_impact_score": 25.0,
@@ -78,12 +78,12 @@
     "L2"
   ],
   "expertise_by_source": {
-    "bips": {
-      "Infrastructure": 1.0
-    },
     "discussion": {
       "L2": 0.19,
       "Script": 0.81
+    },
+    "bips": {
+      "Infrastructure": 1.0
     }
   },
   "expertise_domain_scores": {

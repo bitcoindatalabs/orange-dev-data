@@ -29,9 +29,9 @@
   "modern_bips_authored": 0.0,
   "first_bip_date": null,
   "last_bip_date": null,
-  "avg_review_latency_days": 56.44030255035737,
+  "avg_review_latency_days": 61.171384376961704,
   "reviews_count": 45.0,
-  "avg_approval_latency_days": 69.83233534946237,
+  "avg_approval_latency_days": 77.47929783950617,
   "approvals_count": 30.0,
   "tier1_reviews_count": 43.0,
   "tier2_reviews_count": 2.0,
@@ -45,47 +45,42 @@
   "avg_pr_ack_velocity_days": 21.44724041005291,
   "avg_concept_lead_time_days": 41.04101080246914,
   "review_reciprocity": 2.3684210526315788,
-  "hybrid_score": 0.3313,
-  "p2016_hybrid_score": 0.1983,
+  "hybrid_score": 0.1616,
+  "p2016_hybrid_score": 0.135,
   "modern_hybrid_score": 0.0848,
-  "impact_score": 18.0,
-  "p2016_impact_score": 11.0,
+  "impact_score": 9.0,
+  "p2016_impact_score": 8.0,
   "modern_impact_score": 5.0,
-  "threads_started": 2.0,
+  "threads_started": 1.0,
   "replies_sent": 10.0,
   "ml_threads": 1.0,
-  "delving_threads": 1.0,
+  "delving_threads": 0.0,
   "ml_responses": 10.0,
   "delving_responses": 0.0,
   "first_active": "2013-07-09T10:51:11",
-  "last_active": null,
-  "dev_type": "Builder",
+  "last_active": "2016-05-07T19:40:25",
+  "dev_type": "Reviewer",
   "expertise_domains": [
-    "Infrastructure",
     "Network",
     "Ecosystem"
   ],
   "expertise_by_source": {
-    "code": {
-      "Infrastructure": 1.0
-    },
     "discussion": {
-      "Ecosystem": 0.318,
-      "Network": 0.682
+      "Ecosystem": 0.333,
+      "Network": 0.667
     }
   },
   "expertise_domain_scores": {
-    "Ecosystem": 0.1272,
-    "Infrastructure": 0.6,
-    "Network": 0.2728
+    "Ecosystem": 0.333,
+    "Network": 0.667
   },
-  "p2016_posts": 2.0,
-  "modern_posts": 1.0,
+  "p2016_posts": 1.0,
+  "modern_posts": 0.0,
   "p2016_ml_posts": 1.0,
-  "p2016_delving_posts": 1.0,
+  "p2016_delving_posts": 0.0,
   "modern_ml_posts": 0.0,
-  "modern_delving_posts": 1.0,
-  "is_engineer": true,
+  "modern_delving_posts": 0.0,
+  "is_engineer": false,
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": false,
@@ -123,10 +118,10 @@
     "link": "https://gnusha.org/pi/bitcoindev/51DC316F.6010108@corganlabs.com"
   },
   "last_message": {
-    "source": "delving",
-    "subject": "Re: Solutions for this new centralization INSIDE Bitcoin?",
-    "date": "2025-08-07",
-    "link": "https://delvingbitcoin.org/t/solutions-for-this-new-centralization-inside-bitcoin/1907/3"
+    "source": "mailing_list",
+    "subject": "Re: [bitcoin-dev] Compact Block Relay BIP",
+    "date": "2016-05-07",
+    "link": "https://gnusha.org/pi/bitcoindev/CALOxbZv5GL5br=Z5idR-ACVzkBxS6JP_KgSr3JBuYVLgsej3eA@mail.gmail.com"
   },
   "social_history": {
     "2013": {
@@ -146,9 +141,6 @@
     },
     "2016": {
       "p2p-network": 1
-    },
-    "2025": {
-      "other": 1
     }
   }
 }

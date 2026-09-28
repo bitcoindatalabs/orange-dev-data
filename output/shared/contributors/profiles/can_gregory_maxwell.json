@@ -4,16 +4,16 @@
   "delving_username_final": "gmaxwell",
   "uuid": "can_gregory_maxwell",
   "badges": {
-    "is_bip_author": true,
-    "is_core_committer": true,
     "is_maintainer": true,
-    "is_sponsored": false,
+    "is_core_committer": true,
     "maintainer_status": "emeritus",
+    "is_sponsored": true,
+    "sponsor_id": null,
+    "is_bip_author": true,
     "roles": [
       "Former Core Maintainer",
       "BIP Author"
     ],
-    "sponsor_id": null,
     "maintainer_title": "Former Core Maintainer",
     "maintainer_primary_area": "Consensus / Cryptography",
     "maintainer_appointed": "2012-02-11",
@@ -23,104 +23,94 @@
     "Former Core Maintainer",
     "BIP Author"
   ],
-  "total_commits": 267.0,
-  "authored_commits": 163.0,
-  "tier1_authored_commits": 163.0,
+  "total_commits": 409.0,
+  "authored_commits": 261.0,
+  "tier1_authored_commits": 261.0,
   "tier2_authored_commits": 0.0,
-  "merge_commits": 104.0,
-  "tier1_merge_commits": 104.0,
+  "merge_commits": 148.0,
+  "tier1_merge_commits": 148.0,
   "tier2_merge_commits": 0.0,
-  "self_merges": 9.0,
-  "total_additions": 2615.0,
-  "total_deletions": 1910.0,
+  "self_merges": 17.0,
+  "total_additions": 9002.0,
+  "total_deletions": 4924.0,
   "first_core_commit": "2012-02-05T07:30:43+00:00",
-  "last_core_commit": "2019-02-18T09:47:07+00:00",
+  "last_core_commit": "2021-05-02T20:02:12+00:00",
   "first_ecosystem_commit": null,
   "last_ecosystem_commit": null,
   "first_commit": "2012-02-05T07:30:43",
-  "last_commit": "2019-02-18T09:47:07",
-  "p2016_authored_commits": 72.0,
+  "last_commit": "2021-05-02T20:02:12",
+  "p2016_authored_commits": 97.0,
   "modern_authored_commits": 0.0,
-  "co_authored_commits": 0.0,
+  "co_authored_commits": 1.0,
   "bips_authored": 2.0,
   "p2016_bips_authored": 1.0,
   "modern_bips_authored": 0.0,
   "first_bip_date": "2015-09-23T19:32:51",
   "last_bip_date": "2017-05-07T16:48:08",
-  "avg_review_latency_days": 84.3557640732695,
-  "reviews_count": 1538.0,
-  "avg_approval_latency_days": 52.07545320384652,
-  "approvals_count": 680.0,
-  "tier1_reviews_count": 1469.0,
+  "avg_review_latency_days": 344.3315468103492,
+  "reviews_count": 1822.0,
+  "avg_approval_latency_days": 265.79228042213913,
+  "approvals_count": 827.0,
+  "tier1_reviews_count": 1766.0,
   "tier2_reviews_count": 71.0,
-  "p2016_reviews_count": 900.0,
-  "modern_reviews_count": 41.0,
+  "p2016_reviews_count": 1072.0,
+  "modern_reviews_count": 43.0,
   "first_review_date": "2011-06-23T15:49:16",
-  "last_review_date": "2026-08-12T23:31:23",
-  "prs_authored": 158.0,
-  "tier1_prs_authored": 157.0,
+  "last_review_date": "2026-09-11T23:34:16",
+  "prs_authored": 228.0,
+  "tier1_prs_authored": 227.0,
   "tier2_prs_authored": 1.0,
-  "avg_pr_ack_velocity_days": 4.3671314571150095,
-  "avg_concept_lead_time_days": 14.436305076628354,
-  "review_reciprocity": 9.734177215189874,
-  "hybrid_score": 2.5474,
-  "p2016_hybrid_score": 1.2602,
-  "modern_hybrid_score": 0.563,
-  "impact_score": 78.0,
-  "p2016_impact_score": 53.0,
-  "modern_impact_score": 29.0,
-  "threads_started": 62.0,
-  "replies_sent": 817.0,
+  "avg_pr_ack_velocity_days": 3.930299631930067,
+  "avg_concept_lead_time_days": 11.892227880658437,
+  "review_reciprocity": 7.991228070175438,
+  "hybrid_score": 2.1777,
+  "p2016_hybrid_score": 0.9553,
+  "modern_hybrid_score": 0.5326,
+  "impact_score": 73.0,
+  "p2016_impact_score": 44.0,
+  "modern_impact_score": 27.0,
+  "threads_started": 42.0,
+  "replies_sent": 784.0,
   "ml_threads": 42.0,
-  "delving_threads": 20.0,
+  "delving_threads": 0.0,
   "ml_responses": 784.0,
-  "delving_responses": 33.0,
+  "delving_responses": 0.0,
   "first_active": "2011-06-30T21:07:50",
-  "last_active": null,
-  "dev_type": "Protocol Designer",
+  "last_active": "2025-12-23T13:12:28",
+  "dev_type": "Reviewer",
   "expertise_domains": [
     "Infrastructure",
     "Consensus",
     "Mining"
   ],
   "expertise_by_source": {
-    "bips": {
-      "Consensus": 0.5,
-      "Infrastructure": 0.5
-    },
-    "code": {
-      "Consensus": 0.052,
-      "Infrastructure": 0.738,
-      "Mempool": 0.023,
-      "Network": 0.135,
-      "Script": 0.005,
-      "Wallet": 0.048
-    },
     "discussion": {
-      "Mining": 0.6,
-      "Script": 0.4
+      "Mining": 0.562,
+      "Script": 0.438
+    },
+    "bips": {
+      "Infrastructure": 0.5,
+      "Consensus": 0.5
     }
   },
   "expertise_domain_scores": {
-    "Consensus": 0.2655,
-    "Infrastructure": 0.4713,
-    "Mining": 0.12,
-    "Network": 0.0405,
-    "Script": 0.0815,
-    "Wallet": 0.0144
+    "Infrastructure": 0.3571,
+    "Mining": 0.1606,
+    "Consensus": 0.3571,
+    "Script": 0.1251
   },
-  "p2016_posts": 325.0,
-  "modern_posts": 113.0,
+  "p2016_posts": 272.0,
+  "modern_posts": 60.0,
   "p2016_ml_posts": 272.0,
-  "p2016_delving_posts": 53.0,
+  "p2016_delving_posts": 0.0,
   "modern_ml_posts": 60.0,
-  "modern_delving_posts": 53.0,
-  "is_engineer": true,
+  "modern_delving_posts": 0.0,
+  "is_engineer": false,
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": true,
   "global_first_active": "2011-06-23T15:49:16",
-  "global_last_active": "2026-08-12T23:31:23",
+  "global_last_active": "2026-09-11T23:34:16",
   "github_location": null,
   "github_company": null,
   "github_bio": null,
@@ -150,6 +140,7 @@
       "Utilities": 31.67
     },
     "2014": {
+      "Build & CI": 1.5,
       "Consensus": 2.0,
       "Documentation": 4.0,
       "GUI": 1.0,
@@ -157,17 +148,18 @@
       "Merge": 16.0,
       "Node & RPC": 4.67,
       "P2P Network": 4.67,
-      "Utilities": 19.67
+      "Utilities": 38.17
     },
     "2015": {
-      "Build & CI": 0.5,
+      "Build & CI": 5.0,
       "Consensus": 1.33,
+      "Documentation": 1.0,
       "Mempool": 5.33,
       "Merge": 42.0,
       "Node & RPC": 4.0,
       "P2P Network": 6.5,
       "Tests": 2.5,
-      "Utilities": 21.83,
+      "Utilities": 69.33,
       "Wallet": 6.0
     },
     "2016": {
@@ -179,7 +171,7 @@
       "Node & RPC": 4.8,
       "P2P Network": 29.07,
       "Tests": 6.07,
-      "Utilities": 29.47,
+      "Utilities": 30.47,
       "Wallet": 2.4
     },
     "2017": {
@@ -192,17 +184,29 @@
       "P2P Network": 5.92,
       "Script": 2.0,
       "Tests": 5.4,
-      "Utilities": 6.32,
+      "Utilities": 9.32,
       "Wallet": 11.92
     },
     "2018": {
       "Consensus": 2.0,
+      "Merge": 6.0,
       "P2P Network": 4.0
     },
     "2019": {
+      "Build & CI": 1.0,
       "Consensus": 2.0,
+      "Documentation": 1.0,
+      "Merge": 38.0,
       "P2P Network": 1.0,
-      "Utilities": 1.0
+      "Utilities": 8.0
+    },
+    "2020": {
+      "Build & CI": 2.0,
+      "Utilities": 8.0
+    },
+    "2021": {
+      "Build & CI": 0.5,
+      "Utilities": 1.5
     }
   },
   "bip_list": [
@@ -228,10 +232,10 @@
     "link": "https://gnusha.org/pi/bitcoindev/BANLkTi=ZZK5whvEmCj+aqp5q+XBnXZRY2A@mail.gmail.com"
   },
   "last_message": {
-    "source": "delving",
-    "subject": "Re: Universal opt-in replay protection?",
-    "date": "2026-08-15",
-    "link": "https://delvingbitcoin.org/t/universal-opt-in-replay-protection/2792/9"
+    "source": "mailing_list",
+    "subject": "Re: [bitcoindev] Re: The Cat, BIP draft discussion.",
+    "date": "2025-12-23",
+    "link": "https://gnusha.org/pi/bitcoindev/CAAS2fgSB9tymGr_cddWSRkg36NvQqoAq+7=XkpvkbP_VpuCLJg@mail.gmail.com"
   },
   "social_history": {
     "2011": {
@@ -242,14 +246,13 @@
       "script-opcodes": 3
     },
     "2012": {
-      "other": 70,
+      "other": 73,
       "mempool-fees": 3,
       "mining": 8,
       "p2p-network": 5,
       "script-opcodes": 7,
       "segwit": 1,
-      "spam-filtering": 1,
-      "utxo-sync": 4
+      "wallet-keys": 2
     },
     "2013": {
       "other": 91,
@@ -257,85 +260,74 @@
       "mining": 10,
       "p2p-network": 5,
       "script-opcodes": 2,
-      "spam-filtering": 2,
-      "utxo-sync": 6
+      "wallet-keys": 8
     },
     "2014": {
-      "other": 146,
+      "other": 131,
       "mempool-fees": 7,
       "mining": 12,
       "p2p-network": 10,
       "script-opcodes": 19,
       "segwit": 14,
-      "spam-filtering": 1,
-      "utxo-sync": 3
+      "wallet-keys": 19
     },
     "2015": {
-      "other": 125,
+      "other": 120,
       "mempool-fees": 7,
       "mining": 22,
       "p2p-network": 3,
       "script-opcodes": 23,
       "segwit": 8,
-      "spam-filtering": 5,
-      "utxo-sync": 3
+      "soft-fork-activation": 11,
+      "wallet-keys": 2
     },
     "2016": {
-      "other": 29,
+      "other": 25,
       "mempool-fees": 1,
       "mining": 4,
       "p2p-network": 13,
       "script-opcodes": 3,
       "segwit": 4,
-      "spam-filtering": 1
+      "soft-fork-activation": 1,
+      "wallet-keys": 4
     },
     "2017": {
-      "other": 75,
+      "other": 60,
       "mempool-fees": 8,
       "mining": 13,
       "p2p-network": 3,
       "script-opcodes": 6,
       "segwit": 27,
-      "spam-filtering": 1,
-      "utxo-sync": 5
+      "soft-fork-activation": 20,
+      "wallet-keys": 1
     },
     "2018": {
-      "other": 69,
+      "other": 62,
       "mempool-fees": 7,
       "mining": 15,
       "p2p-network": 15,
       "script-opcodes": 5,
       "segwit": 6,
-      "spam-filtering": 1,
-      "utxo-sync": 1
+      "soft-fork-activation": 2,
+      "wallet-keys": 7
     },
     "2019": {
       "other": 3,
       "p2p-network": 4,
       "script-opcodes": 1,
-      "spam-filtering": 1
+      "wallet-keys": 1
     },
     "2021": {
-      "other": 3,
-      "spam-filtering": 1
+      "other": 4
     },
     "2025": {
-      "other": 103,
-      "mempool-fees": 41,
-      "mining": 30,
-      "p2p-network": 11,
-      "script-opcodes": 15,
-      "segwit": 3,
-      "spam-filtering": 30,
-      "utxo-sync": 24
-    },
-    "2026": {
-      "other": 15,
-      "mempool-fees": 2,
-      "mining": 6,
-      "script-opcodes": 2,
-      "segwit": 1,
-      "utxo-sync": 1
+      "other": 52,
+      "mempool-fees": 15,
+      "mining": 7,
+      "p2p-network": 1,
+      "script-opcodes": 11,
+      "segwit": 2,
+      "soft-fork-activation": 8
     }
   }
 }

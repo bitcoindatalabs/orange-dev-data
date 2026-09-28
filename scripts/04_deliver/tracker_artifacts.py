@@ -401,8 +401,9 @@ class MetricGenerators:
             stars = int(social_counts.get('star', 0))
             forks = int(social_counts.get('fork', 0))
             
-        # Enforce T-1 boundary for generated_at string
-        generated_at_t1 = (datetime.now() - timedelta(days=1)).strftime("%Y-%m-%d")
+        # Enforce weekly boundary for generated_at string
+        from scripts.utils.twib_data import get_week_close_timestamp
+        week_end_date_str = get_week_close_timestamp().strftime("%Y-%m-%d")
         data = {
             "unique_contributors": int(unique_contributors),
             "core_contributors": int(core_contributors),
@@ -416,9 +417,9 @@ class MetricGenerators:
             "total_stars": stars,
             "total_forks": forks,
             "total_watchers": watchers,
-            "generated_at": generated_at_t1
+            "generated_at": week_end_date_str
         }
-        
+
         with open(Config.FILES["vital_signs"], "w") as f:
             json.dump(data, f)
 
@@ -951,7 +952,7 @@ class MetricGenerators:
         maintainer_commits['date'] = maintainer_commits['date_utc']
         maintainer_commits = maintainer_commits.set_index('date').sort_index()
         
-        periods = pd.date_range(start=commits['date_utc'].min(), end=commits['date_utc'].max(), freq='M')
+        periods = pd.date_range(start=commits['date_utc'].min(), end=commits['date_utc'].max(), freq='ME')
         
         for p in periods:
             # Rolling 12-month window
@@ -1017,7 +1018,7 @@ class MetricGenerators:
         
         start_date = pd.Timestamp('2009-01-01', tz='UTC')
         now_date = pd.Timestamp.now(tz='UTC')
-        dates = pd.date_range(start=start_date, end=now_date, freq='M')
+        dates = pd.date_range(start=start_date, end=now_date, freq='ME')
         
         if len(dates) > 0:
             stars = [int(total_stars * ((i / len(dates)) ** 1.5)) for i in range(len(dates))]
@@ -1557,9 +1558,9 @@ class MetricGenerators:
                     lookup[name.lower()] = name
 
         def canonicalize(name, email):
-            if email and email.lower() in lookup: return lookup[email.lower()]
-            if name and name.lower() in lookup: return lookup[name.lower()]
-            return name
+            if email and isinstance(email, str) and email.lower() in lookup: return lookup[email.lower()]
+            if name and isinstance(name, str) and name.lower() in lookup: return lookup[name.lower()]
+            return name if (name and isinstance(name, str)) else None
 
         df = df[df['reviewer_name'].notna() | df['reviewer_email'].notna()]
         df['canonical_name'] = df.apply(lambda row: canonicalize(row['reviewer_name'], row['reviewer_email']), axis=1)

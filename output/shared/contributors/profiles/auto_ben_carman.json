@@ -8,37 +8,37 @@
     "tier2_commits": 99
   },
   "roles": null,
-  "total_commits": 116.0,
-  "authored_commits": 116.0,
-  "tier1_authored_commits": 17.0,
+  "total_commits": 118.0,
+  "authored_commits": 118.0,
+  "tier1_authored_commits": 19.0,
   "tier2_authored_commits": 99.0,
   "merge_commits": 0.0,
   "tier1_merge_commits": 0.0,
   "tier2_merge_commits": 0.0,
   "self_merges": 0.0,
-  "total_additions": 3232.0,
-  "total_deletions": 70.0,
+  "total_additions": 3282.0,
+  "total_deletions": 101.0,
   "first_core_commit": "2018-12-28T11:19:25+00:00",
-  "last_core_commit": "2025-06-04T21:55:10+00:00",
+  "last_core_commit": "2026-08-19T17:47:02+00:00",
   "first_ecosystem_commit": "2021-08-13T14:43:33+00:00",
   "last_ecosystem_commit": "2026-09-19T19:01:05+00:00",
   "first_commit": "2018-12-28T11:19:25",
-  "last_commit": "2025-06-04T21:55:10",
-  "p2016_authored_commits": 116.0,
-  "modern_authored_commits": 52.0,
+  "last_commit": "2026-08-19T17:47:02",
+  "p2016_authored_commits": 118.0,
+  "modern_authored_commits": 54.0,
   "co_authored_commits": 2.0,
   "bips_authored": 0.0,
   "p2016_bips_authored": 0.0,
   "modern_bips_authored": 0.0,
   "first_bip_date": null,
   "last_bip_date": null,
-  "avg_review_latency_days": 526.6332750722769,
-  "reviews_count": 132.0,
-  "avg_approval_latency_days": 382.65892039609054,
-  "approvals_count": 94.0,
-  "tier1_reviews_count": 106.0,
+  "avg_review_latency_days": 581.7055807705027,
+  "reviews_count": 134.0,
+  "avg_approval_latency_days": 411.16717769296014,
+  "approvals_count": 95.0,
+  "tier1_reviews_count": 108.0,
   "tier2_reviews_count": 26.0,
-  "p2016_reviews_count": 132.0,
+  "p2016_reviews_count": 134.0,
   "modern_reviews_count": 13.0,
   "first_review_date": "2018-12-16T15:51:12",
   "last_review_date": "2025-11-22T12:58:39",
@@ -47,55 +47,51 @@
   "tier2_prs_authored": 5.0,
   "avg_pr_ack_velocity_days": 9.93197337962963,
   "avg_concept_lead_time_days": 16.390671296296297,
-  "review_reciprocity": 3.3846153846153846,
-  "hybrid_score": 0.4726,
-  "p2016_hybrid_score": 0.4813,
-  "modern_hybrid_score": 0.3921,
-  "impact_score": 25.0,
-  "p2016_impact_score": 25.0,
-  "modern_impact_score": 21.0,
-  "threads_started": 4.0,
-  "replies_sent": 4.0,
+  "review_reciprocity": 3.4358974358974357,
+  "hybrid_score": 0.1956,
+  "p2016_hybrid_score": 0.2044,
+  "modern_hybrid_score": 0.1617,
+  "impact_score": 11.0,
+  "p2016_impact_score": 12.0,
+  "modern_impact_score": 9.0,
+  "threads_started": 1.0,
+  "replies_sent": 3.0,
   "ml_threads": 1.0,
-  "delving_threads": 3.0,
+  "delving_threads": 0.0,
   "ml_responses": 3.0,
-  "delving_responses": 1.0,
+  "delving_responses": 0.0,
   "first_active": "2021-06-28T05:55:30",
-  "last_active": null,
-  "dev_type": "Builder",
+  "last_active": "2024-05-08T19:31:18",
+  "dev_type": "Reviewer",
   "expertise_domains": [
-    "Infrastructure",
     "Script",
-    "Consensus"
+    "Consensus",
+    "Privacy"
   ],
   "expertise_by_source": {
-    "code": {
-      "Infrastructure": 0.967,
-      "Wallet": 0.033
-    },
     "discussion": {
-      "Consensus": 0.372,
-      "Script": 0.628
+      "Consensus": 0.302,
+      "Script": 0.396,
+      "Privacy": 0.302
     }
   },
   "expertise_domain_scores": {
-    "Consensus": 0.1488,
-    "Infrastructure": 0.5802,
-    "Script": 0.2512,
-    "Wallet": 0.0198
+    "Consensus": 0.302,
+    "Script": 0.396,
+    "Privacy": 0.302
   },
-  "p2016_posts": 8.0,
-  "modern_posts": 5.0,
+  "p2016_posts": 4.0,
+  "modern_posts": 1.0,
   "p2016_ml_posts": 4.0,
-  "p2016_delving_posts": 4.0,
+  "p2016_delving_posts": 0.0,
   "modern_ml_posts": 1.0,
-  "modern_delving_posts": 4.0,
-  "is_engineer": true,
+  "modern_delving_posts": 0.0,
+  "is_engineer": false,
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": false,
   "global_first_active": "2018-12-16T15:51:12",
-  "global_last_active": "2025-11-22T12:58:39",
+  "global_last_active": "2026-08-19T17:47:02",
   "github_location": "Austin, TX",
   "github_company": "@spiralxyz",
   "github_bio": "Bitcoin dev\r\n",
@@ -138,7 +134,9 @@
       "Wallet": 2.0
     },
     "2026": {
-      "Build & CI": 18.0
+      "Build & CI": 18.0,
+      "Tests": 2.0,
+      "Wallet": 2.0
     }
   },
   "first_message": {
@@ -148,10 +146,10 @@
     "link": "https://gnusha.org/pi/bitcoindev/SJ0PR10MB4719291762199CECE5798AF1A1039@SJ0PR10MB4719.namprd10.prod.outlook.com"
   },
   "last_message": {
-    "source": "delving",
-    "subject": "Re: LN Summit 2024 Notes & Summary/Commentary",
-    "date": "2024-10-17",
-    "link": "https://delvingbitcoin.org/t/ln-summit-2024-notes-summary-commentary/1198/5"
+    "source": "mailing_list",
+    "subject": "Re: [bitcoindev] Signing a Bitcoin Transaction with Lamport\n Signatures (no changes needed)",
+    "date": "2024-05-08",
+    "link": "https://gnusha.org/pi/bitcoindev/b50b6b09-4d13-46ab-9776-f6b8a02aa2e0n@googlegroups.com"
   },
   "social_history": {
     "2021": {
@@ -168,13 +166,11 @@
       "other": 2
     },
     "2024": {
-      "consensus-cleanup": 1,
-      "covenants": 3,
-      "lightning": 1,
-      "other": 7,
-      "script-opcodes": 3,
+      "covenants": 1,
+      "quantum": 1,
+      "script-opcodes": 1,
       "signatures-sighash": 1,
-      "taproot": 3
+      "taproot": 1
     }
   }
 }

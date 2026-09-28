@@ -45,11 +45,11 @@
   "avg_pr_ack_velocity_days": 0.0021643518518518518,
   "avg_concept_lead_time_days": 0.0021643518518518518,
   "review_reciprocity": 2.0,
-  "hybrid_score": 0.1576,
-  "p2016_hybrid_score": 0.1576,
+  "hybrid_score": 0.0452,
+  "p2016_hybrid_score": 0.0452,
   "modern_hybrid_score": 0.0146,
-  "impact_score": 9.0,
-  "p2016_impact_score": 9.0,
+  "impact_score": 3.0,
+  "p2016_impact_score": 3.0,
   "modern_impact_score": 1.0,
   "threads_started": 0.0,
   "replies_sent": 0.0,
@@ -59,20 +59,13 @@
   "delving_responses": 0.0,
   "first_active": null,
   "last_active": null,
-  "dev_type": "Builder",
+  "dev_type": "Participant",
   "expertise_domains": [
-    "Mempool",
     "Infrastructure"
   ],
-  "expertise_by_source": {
-    "code": {
-      "Infrastructure": 0.389,
-      "Mempool": 0.611
-    }
-  },
+  "expertise_by_source": {},
   "expertise_domain_scores": {
-    "Infrastructure": 0.389,
-    "Mempool": 0.611
+    "Infrastructure": 1.0
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,
@@ -80,7 +73,7 @@
   "p2016_delving_posts": 0.0,
   "modern_ml_posts": 0.0,
   "modern_delving_posts": 0.0,
-  "is_engineer": true,
+  "is_engineer": false,
   "is_reviewer": true,
   "is_researcher": false,
   "is_bip_author": false,

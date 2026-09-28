@@ -4,15 +4,15 @@
   "delving_username_final": null,
   "uuid": "auto_ian_smith",
   "badges": {
-    "is_bip_author": true,
-    "is_core_committer": false,
     "is_maintainer": false,
-    "is_sponsored": false,
+    "is_core_committer": false,
     "maintainer_status": null,
+    "is_sponsored": false,
+    "sponsor_id": null,
+    "is_bip_author": true,
     "roles": [
       "BIP Author"
-    ],
-    "sponsor_id": null
+    ]
   },
   "roles": [
     "BIP Author"

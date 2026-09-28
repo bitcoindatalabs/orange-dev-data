@@ -8,25 +8,25 @@
     "tier2_commits": 3
   },
   "roles": null,
-  "total_commits": 4.0,
-  "authored_commits": 4.0,
-  "tier1_authored_commits": 1.0,
+  "total_commits": 10.0,
+  "authored_commits": 10.0,
+  "tier1_authored_commits": 7.0,
   "tier2_authored_commits": 3.0,
   "merge_commits": 0.0,
   "tier1_merge_commits": 0.0,
   "tier2_merge_commits": 0.0,
   "self_merges": 0.0,
-  "total_additions": 626.0,
-  "total_deletions": 157.0,
+  "total_additions": 913.0,
+  "total_deletions": 202.0,
   "first_core_commit": "2023-03-10T13:37:22+00:00",
-  "last_core_commit": "2023-03-10T13:37:22+00:00",
+  "last_core_commit": "2026-09-16T07:44:36+00:00",
   "first_ecosystem_commit": "2026-03-28T22:15:35+00:00",
   "last_ecosystem_commit": "2026-04-11T22:18:36+00:00",
   "first_commit": "2023-03-10T13:37:22",
-  "last_commit": "2023-03-10T13:37:22",
-  "p2016_authored_commits": 4.0,
-  "modern_authored_commits": 3.0,
-  "co_authored_commits": 0.0,
+  "last_commit": "2026-09-16T07:44:36",
+  "p2016_authored_commits": 10.0,
+  "modern_authored_commits": 9.0,
+  "co_authored_commits": 2.0,
   "bips_authored": 0.0,
   "p2016_bips_authored": 0.0,
   "modern_bips_authored": 0.0,
@@ -42,55 +42,46 @@
   "modern_reviews_count": 12.0,
   "first_review_date": "2022-08-30T16:50:57",
   "last_review_date": "2026-07-02T09:31:11",
-  "prs_authored": 5.0,
-  "tier1_prs_authored": 5.0,
+  "prs_authored": 6.0,
+  "tier1_prs_authored": 6.0,
   "tier2_prs_authored": 0.0,
   "avg_pr_ack_velocity_days": 15.186782407407408,
   "avg_concept_lead_time_days": 27.923686342592593,
-  "review_reciprocity": 3.6,
-  "hybrid_score": 0.2141,
-  "p2016_hybrid_score": 0.2141,
-  "modern_hybrid_score": 0.2023,
-  "impact_score": 12.0,
-  "p2016_impact_score": 12.0,
-  "modern_impact_score": 11.0,
-  "threads_started": 1.0,
+  "review_reciprocity": 3.0,
+  "hybrid_score": 0.1115,
+  "p2016_hybrid_score": 0.1115,
+  "modern_hybrid_score": 0.1,
+  "impact_score": 6.0,
+  "p2016_impact_score": 6.0,
+  "modern_impact_score": 6.0,
+  "threads_started": 0.0,
   "replies_sent": 0.0,
   "ml_threads": 0.0,
-  "delving_threads": 1.0,
+  "delving_threads": 0.0,
   "ml_responses": 0.0,
   "delving_responses": 0.0,
   "first_active": null,
   "last_active": null,
-  "dev_type": "Builder",
+  "dev_type": "Reviewer",
   "expertise_domains": [
-    "Infrastructure",
-    "Consensus"
+    "Infrastructure"
   ],
-  "expertise_by_source": {
-    "code": {
-      "Infrastructure": 1.0
-    },
-    "discussion": {
-      "Consensus": 1.0
-    }
-  },
+  "expertise_by_source": {},
   "expertise_domain_scores": {
-    "Consensus": 0.4,
-    "Infrastructure": 0.6
+    "Infrastructure": 1.0
   },
-  "p2016_posts": 1.0,
-  "modern_posts": 1.0,
+  "p2016_posts": 0.0,
+  "modern_posts": 0.0,
   "p2016_ml_posts": 0.0,
-  "p2016_delving_posts": 1.0,
+  "p2016_delving_posts": 0.0,
   "modern_ml_posts": 0.0,
-  "modern_delving_posts": 1.0,
-  "is_engineer": true,
+  "modern_delving_posts": 0.0,
+  "is_engineer": false,
   "is_reviewer": true,
   "is_researcher": false,
   "is_bip_author": false,
   "global_first_active": "2022-08-30T16:50:57",
-  "global_last_active": "2026-07-02T09:31:11",
+  "global_last_active": "2026-09-16T07:44:36",
   "github_location": null,
   "github_company": null,
   "github_bio": null,
@@ -106,28 +97,11 @@
       "Node & RPC": 2.0
     },
     "2026": {
-      "Tests": 3.0
-    }
-  },
-  "first_message": {
-    "source": "delving",
-    "subject": "Re: Consensus Cleanup: demo of slow blocks on Signet",
-    "date": "2026-04-06",
-    "link": "https://delvingbitcoin.org/t/consensus-cleanup-demo-of-slow-blocks-on-signet/2367/9"
-  },
-  "last_message": {
-    "source": "delving",
-    "subject": "Re: Consensus Cleanup: demo of slow blocks on Signet",
-    "date": "2026-04-06",
-    "link": "https://delvingbitcoin.org/t/consensus-cleanup-demo-of-slow-blocks-on-signet/2367/9"
-  },
-  "social_history": {
-    "2026": {
-      "consensus-cleanup": 1,
-      "core-dev": 1,
-      "mempool-fees": 1,
-      "testing-devtools": 1,
-      "utxo-sync": 1
+      "Consensus": 2.67,
+      "Documentation": 2.67,
+      "Node & RPC": 1.67,
+      "Tests": 7.33,
+      "Utilities": 0.67
     }
   }
 }

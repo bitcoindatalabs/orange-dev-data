@@ -4,15 +4,15 @@
   "delving_username_final": null,
   "uuid": "auto_jean_pierre_rupp",
   "badges": {
-    "is_bip_author": true,
-    "is_core_committer": false,
     "is_maintainer": false,
-    "is_sponsored": false,
+    "is_core_committer": false,
     "maintainer_status": null,
+    "is_sponsored": false,
+    "sponsor_id": null,
+    "is_bip_author": true,
     "roles": [
       "BIP Author"
-    ],
-    "sponsor_id": null
+    ]
   },
   "roles": [
     "BIP Author"
@@ -57,7 +57,7 @@
   "avg_pr_ack_velocity_days": 0.023368055555555555,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": 1.0,
-  "hybrid_score": 0.4132,
+  "hybrid_score": 0.4133,
   "p2016_hybrid_score": 0.05,
   "modern_hybrid_score": 0.025,
   "impact_score": 22.0,
@@ -77,17 +77,17 @@
     "Wallet"
   ],
   "expertise_by_source": {
+    "discussion": {
+      "Wallet": 0.701,
+      "Script": 0.299
+    },
     "bips": {
       "Script": 1.0
-    },
-    "discussion": {
-      "Script": 0.299,
-      "Wallet": 0.701
     }
   },
   "expertise_domain_scores": {
-    "Script": 0.7997,
-    "Wallet": 0.2003
+    "Wallet": 0.2003,
+    "Script": 0.7997
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,

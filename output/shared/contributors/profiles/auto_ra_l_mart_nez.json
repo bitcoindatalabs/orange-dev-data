@@ -1,5 +1,5 @@
 {
-  "display_name": "Ra\u00fal Mart\u00ednez",
+  "display_name": "Raúl Martínez",
   "github_login_final": null,
   "delving_username_final": null,
   "uuid": "auto_ra_l_mart_nez",
@@ -45,7 +45,7 @@
   "avg_pr_ack_velocity_days": null,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": null,
-  "hybrid_score": 0.038,
+  "hybrid_score": 0.0383,
   "p2016_hybrid_score": 0.0,
   "modern_hybrid_score": 0.0,
   "impact_score": 2.0,
@@ -66,13 +66,13 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Ecosystem": 0.4,
-      "Mining": 0.6
+      "Mining": 0.6,
+      "Ecosystem": 0.4
     }
   },
   "expertise_domain_scores": {
-    "Ecosystem": 0.4,
-    "Mining": 0.6
+    "Mining": 0.6,
+    "Ecosystem": 0.4
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,

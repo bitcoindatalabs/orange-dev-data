@@ -45,12 +45,12 @@
   "avg_pr_ack_velocity_days": 28.212067901234565,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": 0.08333333333333333,
-  "hybrid_score": 0.1679,
-  "p2016_hybrid_score": 0.1679,
-  "modern_hybrid_score": 0.1679,
-  "impact_score": 10.0,
-  "p2016_impact_score": 10.0,
-  "modern_impact_score": 10.0,
+  "hybrid_score": 0.075,
+  "p2016_hybrid_score": 0.075,
+  "modern_hybrid_score": 0.075,
+  "impact_score": 4.0,
+  "p2016_impact_score": 4.0,
+  "modern_impact_score": 4.0,
   "threads_started": 0.0,
   "replies_sent": 0.0,
   "ml_threads": 0.0,
@@ -59,15 +59,11 @@
   "delving_responses": 0.0,
   "first_active": null,
   "last_active": null,
-  "dev_type": "Builder",
+  "dev_type": "Participant",
   "expertise_domains": [
     "Infrastructure"
   ],
-  "expertise_by_source": {
-    "code": {
-      "Infrastructure": 1.0
-    }
-  },
+  "expertise_by_source": {},
   "expertise_domain_scores": {
     "Infrastructure": 1.0
   },
@@ -77,7 +73,7 @@
   "p2016_delving_posts": 0.0,
   "modern_ml_posts": 0.0,
   "modern_delving_posts": 0.0,
-  "is_engineer": true,
+  "is_engineer": false,
   "is_reviewer": true,
   "is_researcher": false,
   "is_bip_author": false,
@@ -85,7 +81,7 @@
   "global_last_active": "2025-06-03T08:10:49",
   "github_location": null,
   "github_company": "@findme",
-  "github_bio": "Code architect across parallel Git universes\u2014hunting bugs, collecting commits.",
+  "github_bio": "Code architect across parallel Git universes—hunting bugs, collecting commits.",
   "github_twitter": null,
   "github_blog": "Germany",
   "github_followers": 0.0,

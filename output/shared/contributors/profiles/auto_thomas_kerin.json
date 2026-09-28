@@ -4,36 +4,36 @@
   "delving_username_final": null,
   "uuid": "auto_thomas_kerin",
   "badges": {
-    "is_bip_author": true,
-    "is_core_committer": false,
     "is_maintainer": false,
-    "is_sponsored": false,
+    "is_core_committer": false,
     "maintainer_status": null,
+    "is_sponsored": false,
+    "sponsor_id": null,
+    "is_bip_author": true,
     "roles": [
       "BIP Author"
-    ],
-    "sponsor_id": null
+    ]
   },
   "roles": [
     "BIP Author"
   ],
-  "total_commits": 4.0,
-  "authored_commits": 4.0,
-  "tier1_authored_commits": 4.0,
+  "total_commits": 6.0,
+  "authored_commits": 6.0,
+  "tier1_authored_commits": 6.0,
   "tier2_authored_commits": 0.0,
   "merge_commits": 0.0,
   "tier1_merge_commits": 0.0,
   "tier2_merge_commits": 0.0,
   "self_merges": 0.0,
-  "total_additions": 182.0,
-  "total_deletions": 17.0,
-  "first_core_commit": "2015-10-19T09:28:24+00:00",
+  "total_additions": 228.0,
+  "total_deletions": 23.0,
+  "first_core_commit": "2015-07-14T00:55:45+00:00",
   "last_core_commit": "2018-07-18T14:57:11+00:00",
   "first_ecosystem_commit": null,
   "last_ecosystem_commit": null,
-  "first_commit": "2015-10-19T09:28:24",
+  "first_commit": "2015-07-14T00:55:45",
   "last_commit": "2018-07-18T14:57:11",
-  "p2016_authored_commits": 3.0,
+  "p2016_authored_commits": 4.0,
   "modern_authored_commits": 0.0,
   "co_authored_commits": 0.0,
   "bips_authored": 2.0,
@@ -41,28 +41,28 @@
   "modern_bips_authored": 0.0,
   "first_bip_date": "2015-02-12T15:02:56",
   "last_bip_date": "2015-08-11T18:06:41",
-  "avg_review_latency_days": 686.8561622117401,
-  "reviews_count": 54.0,
-  "avg_approval_latency_days": 372.2445299796748,
-  "approvals_count": 32.0,
-  "tier1_reviews_count": 24.0,
-  "tier2_reviews_count": 30.0,
-  "p2016_reviews_count": 39.0,
+  "avg_review_latency_days": 639.0201823110862,
+  "reviews_count": 63.0,
+  "avg_approval_latency_days": 369.74755590496153,
+  "approvals_count": 34.0,
+  "tier1_reviews_count": 32.0,
+  "tier2_reviews_count": 31.0,
+  "p2016_reviews_count": 44.0,
   "modern_reviews_count": 0.0,
-  "first_review_date": "2015-06-14T18:45:12",
+  "first_review_date": "2015-03-11T20:04:12",
   "last_review_date": "2021-11-08T17:33:24",
-  "prs_authored": 14.0,
-  "tier1_prs_authored": 3.0,
+  "prs_authored": 16.0,
+  "tier1_prs_authored": 5.0,
   "tier2_prs_authored": 11.0,
-  "avg_pr_ack_velocity_days": 0.4502546296296296,
+  "avg_pr_ack_velocity_days": 4.405763888888889,
   "avg_concept_lead_time_days": 0.6678009259259259,
-  "review_reciprocity": 3.857142857142857,
-  "hybrid_score": 0.8862,
-  "p2016_hybrid_score": 0.2825,
-  "modern_hybrid_score": 0.075,
-  "impact_score": 41.0,
-  "p2016_impact_score": 16.0,
-  "modern_impact_score": 4.0,
+  "review_reciprocity": 3.9375,
+  "hybrid_score": 0.7536,
+  "p2016_hybrid_score": 0.1671,
+  "modern_hybrid_score": 0.0792,
+  "impact_score": 36.0,
+  "p2016_impact_score": 10.0,
+  "modern_impact_score": 5.0,
   "threads_started": 5.0,
   "replies_sent": 20.0,
   "ml_threads": 5.0,
@@ -71,33 +71,26 @@
   "delving_responses": 0.0,
   "first_active": "2014-03-27T08:12:07",
   "last_active": "2019-05-26T14:34:55",
-  "dev_type": "Protocol Designer",
+  "dev_type": "Reviewer",
   "expertise_domains": [
     "Script",
     "Consensus",
-    "Infrastructure"
+    "Wallet"
   ],
   "expertise_by_source": {
-    "bips": {
-      "Consensus": 0.5,
-      "Script": 0.5
-    },
-    "code": {
-      "Infrastructure": 0.6,
-      "Network": 0.2,
-      "Script": 0.2
-    },
     "discussion": {
-      "Script": 0.389,
-      "Wallet": 0.611
+      "Wallet": 0.611,
+      "Script": 0.389
+    },
+    "bips": {
+      "Script": 0.5,
+      "Consensus": 0.5
     }
   },
   "expertise_domain_scores": {
-    "Consensus": 0.25,
-    "Infrastructure": 0.18,
-    "Network": 0.06,
-    "Script": 0.3878,
-    "Wallet": 0.1222
+    "Consensus": 0.3571,
+    "Wallet": 0.1746,
+    "Script": 0.4683
   },
   "p2016_posts": 7.0,
   "modern_posts": 0.0,
@@ -105,7 +98,7 @@
   "p2016_delving_posts": 0.0,
   "modern_ml_posts": 0.0,
   "modern_delving_posts": 0.0,
-  "is_engineer": true,
+  "is_engineer": false,
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": true,
@@ -117,12 +110,13 @@
   "github_twitter": null,
   "github_blog": null,
   "github_followers": 188.0,
-  "activity_status": "Active",
+  "activity_status": "Retired",
   "is_top_50": false,
   "github_url": "https://github.com/afk11",
   "commit_history": {
     "2015": {
-      "Documentation": 2.0
+      "Documentation": 2.0,
+      "Utilities": 1.0
     },
     "2016": {
       "P2P Network": 2.0,
@@ -131,7 +125,8 @@
     },
     "2018": {
       "Script": 1.0,
-      "Tests": 1.0
+      "Tests": 1.0,
+      "Utilities": 1.0
     }
   },
   "bip_list": [

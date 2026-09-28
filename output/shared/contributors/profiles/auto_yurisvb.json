@@ -24,11 +24,11 @@
   "p2016_authored_commits": 0.0,
   "modern_authored_commits": 0.0,
   "co_authored_commits": 0.0,
-  "bips_authored": 0.0,
-  "p2016_bips_authored": 0.0,
-  "modern_bips_authored": 0.0,
-  "first_bip_date": null,
-  "last_bip_date": null,
+  "bips_authored": 1.0,
+  "p2016_bips_authored": 1.0,
+  "modern_bips_authored": 1.0,
+  "first_bip_date": "2026-05-20T14:51:22",
+  "last_bip_date": "2026-05-20T14:51:22",
   "avg_review_latency_days": null,
   "reviews_count": 0.0,
   "avg_approval_latency_days": null,
@@ -45,50 +45,54 @@
   "avg_pr_ack_velocity_days": null,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": null,
-  "hybrid_score": 0.019,
-  "p2016_hybrid_score": 0.0326,
-  "modern_hybrid_score": 0.1263,
-  "impact_score": 1.0,
-  "p2016_impact_score": 2.0,
-  "modern_impact_score": 7.0,
-  "threads_started": 5.0,
-  "replies_sent": 14.0,
+  "hybrid_score": 0.3693,
+  "p2016_hybrid_score": 0.3833,
+  "modern_hybrid_score": 0.4834,
+  "impact_score": 20.0,
+  "p2016_impact_score": 21.0,
+  "modern_impact_score": 25.0,
+  "threads_started": 4.0,
+  "replies_sent": 13.0,
   "ml_threads": 4.0,
-  "delving_threads": 1.0,
+  "delving_threads": 0.0,
   "ml_responses": 13.0,
-  "delving_responses": 1.0,
+  "delving_responses": 0.0,
   "first_active": "2023-05-02T03:31:19",
-  "last_active": null,
+  "last_active": "2024-01-05T12:22:44",
   "dev_type": "Participant",
   "expertise_domains": [
+    "Privacy",
     "Cryptography",
-    "Wallet",
-    "Script"
+    "Wallet"
   ],
   "expertise_by_source": {
     "discussion": {
-      "Cryptography": 0.583,
-      "Script": 0.167,
-      "Wallet": 0.25
+      "Mining": 0.143,
+      "Wallet": 0.26,
+      "Cryptography": 0.597
+    },
+    "bips": {
+      "Privacy": 1.0
     }
   },
   "expertise_domain_scores": {
-    "Cryptography": 0.583,
-    "Script": 0.167,
-    "Wallet": 0.25
+    "Mining": 0.0409,
+    "Wallet": 0.0743,
+    "Privacy": 0.7143,
+    "Cryptography": 0.1706
   },
-  "p2016_posts": 19.0,
-  "modern_posts": 15.0,
+  "p2016_posts": 17.0,
+  "modern_posts": 13.0,
   "p2016_ml_posts": 17.0,
-  "p2016_delving_posts": 2.0,
+  "p2016_delving_posts": 0.0,
   "modern_ml_posts": 13.0,
-  "modern_delving_posts": 2.0,
+  "modern_delving_posts": 0.0,
   "is_engineer": false,
   "is_reviewer": false,
   "is_researcher": true,
-  "is_bip_author": false,
+  "is_bip_author": true,
   "global_first_active": "2023-05-02T03:31:19",
-  "global_last_active": null,
+  "global_last_active": "2026-05-20T14:51:22",
   "github_location": null,
   "github_company": null,
   "github_bio": null,
@@ -97,6 +101,15 @@
   "github_followers": null,
   "activity_status": "Active",
   "is_top_50": false,
+  "bip_list": [
+    {
+      "number": 450,
+      "title": "Formosa—Seed encoding by themed mnemonic stories",
+      "status": "Draft",
+      "theme": "Privacy",
+      "link": "https://github.com/bitcoin/bips/blob/master/bip-0450.mediawiki"
+    }
+  ],
   "first_message": {
     "source": "mailing_list",
     "subject": "[bitcoin-dev] Formosa --- proposed improvement upon BIP39",
@@ -104,10 +117,10 @@
     "link": "https://gnusha.org/pi/bitcoindev/jQqInjh7VTC5byefTzENidJjigvRqf5Y7UvbrWjKPJykvhdlLETeglGE3zoAiVAxUyAXU8uWHsHEjJ0MHqqPTy4prgaIhgMyIrD9c6ZUuE0=@pm.me"
   },
   "last_message": {
-    "source": "delving",
-    "subject": "Re: A design bar for coercion-resistant custody, and where duressfeatures land against it",
-    "date": "2026-08-26",
-    "link": "https://delvingbitcoin.org/t/a-design-bar-for-coercion-resistant-custody-and-where-duressfeatures-land-against-it/2832/3"
+    "source": "mailing_list",
+    "subject": "Re: [bitcoin-dev] Lamport scheme (not signature) to economize on L1",
+    "date": "2024-01-05",
+    "link": "https://gnusha.org/pi/bitcoindev/ek_yawNCaDmqpsW5IjJXdxR8w1UOnydBnT3XIi_WtIjPXdN7Ag_gdDV4bDQ66--rwPmdgtE_ZiU2ahS_tAaGJkDwt25Yd12o_OulAwOubDI=@pm.me"
   },
   "social_history": {
     "2023": {
@@ -123,9 +136,6 @@
     "2024": {
       "mempool-fees": 1,
       "quantum": 3
-    },
-    "2026": {
-      "vaults": 2
     }
   }
 }

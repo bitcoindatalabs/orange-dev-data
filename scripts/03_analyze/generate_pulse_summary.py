@@ -37,7 +37,9 @@ def generate_pulse_summary():
 
     df = pd.read_parquet(SOCIAL_THREADS_INPUT)
     df['date'] = pd.to_datetime(df['date'])
-    t1_end = (datetime.now() - pd.Timedelta(days=1)).replace(hour=23, minute=59, second=59)
+    from scripts.utils.twib_data import get_week_close_timestamp
+    _anchor = get_week_close_timestamp()
+    t1_end = _anchor.tz_localize(None) if _anchor.tzinfo else _anchor
     df = df[df['date'] <= t1_end]
 
     w90 = _compute_window(df, 90)

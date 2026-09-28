@@ -48,12 +48,12 @@
   "avg_pr_ack_velocity_days": 0.4908384773662551,
   "avg_concept_lead_time_days": 0.025,
   "review_reciprocity": 0.2222222222222222,
-  "hybrid_score": 0.329,
-  "p2016_hybrid_score": 0.329,
-  "modern_hybrid_score": 0.2968,
-  "impact_score": 18.0,
-  "p2016_impact_score": 18.0,
-  "modern_impact_score": 16.0,
+  "hybrid_score": 0.0727,
+  "p2016_hybrid_score": 0.0727,
+  "modern_hybrid_score": 0.0615,
+  "impact_score": 4.0,
+  "p2016_impact_score": 4.0,
+  "modern_impact_score": 4.0,
   "threads_started": 0.0,
   "replies_sent": 0.0,
   "ml_threads": 0.0,
@@ -62,20 +62,13 @@
   "delving_responses": 0.0,
   "first_active": null,
   "last_active": null,
-  "dev_type": "Builder",
+  "dev_type": "Participant",
   "expertise_domains": [
-    "Infrastructure",
-    "Wallet"
+    "Infrastructure"
   ],
-  "expertise_by_source": {
-    "code": {
-      "Infrastructure": 0.988,
-      "Wallet": 0.012
-    }
-  },
+  "expertise_by_source": {},
   "expertise_domain_scores": {
-    "Infrastructure": 0.988,
-    "Wallet": 0.012
+    "Infrastructure": 1.0
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,
@@ -83,7 +76,7 @@
   "p2016_delving_posts": 0.0,
   "modern_ml_posts": 0.0,
   "modern_delving_posts": 0.0,
-  "is_engineer": true,
+  "is_engineer": false,
   "is_reviewer": true,
   "is_researcher": false,
   "is_bip_author": false,

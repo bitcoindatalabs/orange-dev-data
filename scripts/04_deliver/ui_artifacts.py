@@ -6,6 +6,11 @@ import numpy as np
 import shutil
 from datetime import datetime
 
+try:
+    sys.stdout.reconfigure(encoding='utf-8', errors='replace')
+except Exception:
+    pass
+
 # Ensure project root is on the path so `scripts.utils` is importable
 # regardless of the working directory the script is invoked from.
 _SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -29,7 +34,7 @@ SOCIAL_HISTORY_PATH    = "data/enriched/contributor_social_history.json"
 def load_maintainers():
     if not os.path.exists(MAINTAINERS_FILE):
         return {}
-    with open(MAINTAINERS_FILE) as f:
+    with open(MAINTAINERS_FILE, 'r', encoding='utf-8') as f:
         data = json.load(f)
         
     from scripts.utils.identity import IdentityResolver
@@ -56,7 +61,7 @@ def load_maintainers():
 def load_identity_email_presence(identity_path='metadata/identities.json'):
     if not os.path.exists(identity_path):
         return {}
-    with open(identity_path) as f:
+    with open(identity_path, 'r', encoding='utf-8') as f:
         data = json.load(f)
 
     email_presence = {}
@@ -172,7 +177,7 @@ def deliver():
 
     commit_history: dict = {}
     if os.path.exists(COMMIT_HISTORY_PATH):
-        with open(COMMIT_HISTORY_PATH) as f:
+        with open(COMMIT_HISTORY_PATH, 'r', encoding='utf-8') as f:
             commit_history = json.load(f)
         print(f"  commit_history loaded for {len(commit_history)} contributors")
     else:
@@ -180,7 +185,7 @@ def deliver():
 
     contributor_bips: dict = {}
     if os.path.exists(CONTRIBUTOR_BIPS_PATH):
-        with open(CONTRIBUTOR_BIPS_PATH) as f:
+        with open(CONTRIBUTOR_BIPS_PATH, 'r', encoding='utf-8') as f:
             contributor_bips = json.load(f)
         print(f"  contributor_bips loaded for {len(contributor_bips)} contributors")
     else:
@@ -188,7 +193,7 @@ def deliver():
 
     bookmarks: dict = {}
     if os.path.exists(BOOKMARKS_PATH):
-        with open(BOOKMARKS_PATH) as f:
+        with open(BOOKMARKS_PATH, 'r', encoding='utf-8') as f:
             bookmarks = json.load(f)
         print(f"  message_bookmarks loaded for {len(bookmarks)} contributors")
     else:
@@ -196,7 +201,7 @@ def deliver():
 
     social_history: dict = {}
     if os.path.exists(SOCIAL_HISTORY_PATH):
-        with open(SOCIAL_HISTORY_PATH) as f:
+        with open(SOCIAL_HISTORY_PATH, 'r', encoding='utf-8') as f:
             social_history = json.load(f)
         print(f"  social_history loaded for {len(social_history)} contributors")
     else:
@@ -263,8 +268,8 @@ def deliver():
                 else:
                     rec[dict_col] = {k: v for k, v in val.items() if v is not None}
         
-        with open(profile_path, 'w') as f:
-            json.dump(rec, f, indent=2)
+        with open(profile_path, 'w', encoding='utf-8') as f:
+            json.dump(rec, f, indent=2, ensure_ascii=False)
             
         if 'uuid' in rec:
             id_to_filename[rec['uuid']] = filename
@@ -278,7 +283,7 @@ def deliver():
     EXPERTISE_DOMAINS_PATH = 'metadata/expertise_domains.json'
     expertise_domains_def = []
     if os.path.exists(EXPERTISE_DOMAINS_PATH):
-        with open(EXPERTISE_DOMAINS_PATH) as _f:
+        with open(EXPERTISE_DOMAINS_PATH, 'r', encoding='utf-8') as _f:
             expertise_domains_def = json.load(_f).get('domains', [])
 
     # 2. Prepare Registry (Compact for Table)
@@ -329,8 +334,9 @@ def deliver():
         registry_list.append(entry)
     
     os.makedirs(OUTPUT_DIR, exist_ok=True)
-    generated_at = datetime.now().isoformat()
-    with open(REGISTRY_FILE, 'w') as f:
+    from scripts.utils.twib_data import get_week_close_timestamp
+    generated_at = get_week_close_timestamp().strftime("%Y-%m-%d")
+    with open(REGISTRY_FILE, 'w', encoding='utf-8') as f:
         json.dump({
             "metadata": {
                 "count": len(registry_list),
@@ -339,7 +345,7 @@ def deliver():
                 "domains": expertise_domains_def,
             },
             "contributors": registry_list
-        }, f, indent=2)
+        }, f, indent=2, ensure_ascii=False)
 
     # --- Write Parquet + slim metadata JSON for fast directory loading ---
     # Nested dict/list fields cannot be stored natively in flat Parquet columns,
@@ -368,7 +374,7 @@ def deliver():
 
     # Tiny metadata JSON — domains, freshness, and parquet schema hints for JS
     metadata_path = os.path.join(OUTPUT_DIR, 'registry_metadata.json')
-    with open(metadata_path, 'w') as f:
+    with open(metadata_path, 'w', encoding='utf-8') as f:
         json.dump({
             "metadata": {
                 "count": len(registry_list),
@@ -378,7 +384,7 @@ def deliver():
                 "parquet_columns": list(df_parquet.columns),
                 "parquet_nested_cols": sorted(NESTED_JSON_COLS),
             }
-        }, f)
+        }, f, ensure_ascii=False)
     print(f"  registry_metadata.json written ({os.path.getsize(metadata_path)} bytes)")
 
     # Final save confirmation

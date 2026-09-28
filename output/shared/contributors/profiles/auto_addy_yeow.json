@@ -45,10 +45,10 @@
   "avg_pr_ack_velocity_days": 4.86292824074074,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": 1.6666666666666667,
-  "hybrid_score": 0.1847,
+  "hybrid_score": 0.092,
   "p2016_hybrid_score": 0.033,
   "modern_hybrid_score": 0.033,
-  "impact_score": 10.0,
+  "impact_score": 5.0,
   "p2016_impact_score": 2.0,
   "modern_impact_score": 2.0,
   "threads_started": 2.0,
@@ -59,25 +59,20 @@
   "delving_responses": 0.0,
   "first_active": "2013-05-06T02:56:37",
   "last_active": "2014-07-30T17:53:29",
-  "dev_type": "Builder",
+  "dev_type": "Participant",
   "expertise_domains": [
-    "Consensus",
     "Network",
     "Mining"
   ],
   "expertise_by_source": {
-    "code": {
-      "Consensus": 1.0
-    },
     "discussion": {
       "Mining": 0.4,
       "Network": 0.6
     }
   },
   "expertise_domain_scores": {
-    "Consensus": 0.6,
-    "Mining": 0.16,
-    "Network": 0.24
+    "Mining": 0.4,
+    "Network": 0.6
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,
@@ -85,7 +80,7 @@
   "p2016_delving_posts": 0.0,
   "modern_ml_posts": 0.0,
   "modern_delving_posts": 0.0,
-  "is_engineer": true,
+  "is_engineer": false,
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": false,

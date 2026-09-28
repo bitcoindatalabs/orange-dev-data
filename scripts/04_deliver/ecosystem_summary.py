@@ -2,6 +2,7 @@ import json
 import os
 import sys
 from datetime import datetime, timedelta, timezone
+import pandas as pd
 
 try:
     sys.stdout.reconfigure(encoding='utf-8', errors='replace')
@@ -62,9 +63,11 @@ def generate_ecosystem_summary():
     
     active_uuids = set()
     focus_counts = {}
-    # Enforce T-1 boundary for all time windows to prevent partial day data
-    now = datetime.now() - timedelta(days=1)
-    cutoff_90 = now - timedelta(days=90)
+    # Enforce weekly boundary anchor to most recent Sunday at 23:59:59 UTC
+    from scripts.utils.twib_data import get_week_close_timestamp
+    anchor = get_week_close_timestamp()
+    now = anchor
+    cutoff_90 = now - pd.Timedelta(days=90)
     # Focus labels to skip — unmapped, generic, or social-topic labels that pollute the chart
     _SKIP_FOCUS = {'None', 'none', 'code', 'other', 'Other', ''}
     
@@ -140,7 +143,6 @@ def generate_ecosystem_summary():
     active_bips = 0
 
     try:
-        import pandas as pd
         pr_source_path = PR_METADATA_INPUT if os.path.exists(PR_METADATA_INPUT) else ENRICHED_PRS_INPUT
         if os.path.exists(pr_source_path):
             pr_df = pd.read_parquet(pr_source_path)
@@ -154,11 +156,11 @@ def generate_ecosystem_summary():
             # Overall PRs
             total_prs_merged = len(pr_df_merged)
 
-            cutoff_30 = pd.Timestamp(cutoff_90 + timedelta(days=60), tz='UTC')
-            cutoff_60 = pd.Timestamp(cutoff_90 + timedelta(days=30), tz='UTC')
-            cutoff_7 = pd.Timestamp(now - timedelta(days=7), tz='UTC')
-            cutoff_14 = pd.Timestamp(now - timedelta(days=14), tz='UTC')
-            cutoff_90_ts = pd.Timestamp(cutoff_90, tz='UTC')
+            cutoff_30 = cutoff_90 + pd.Timedelta(days=60)
+            cutoff_60 = cutoff_90 + pd.Timedelta(days=30)
+            cutoff_7 = now - pd.Timedelta(days=7)
+            cutoff_14 = now - pd.Timedelta(days=14)
+            cutoff_90_ts = cutoff_90
 
             prs_merged_30d = int((pr_df_merged['merged_at'] >= cutoff_30).sum())
             prs_merged_prev_30d = int(((pr_df_merged['merged_at'] >= cutoff_60) & (pr_df_merged['merged_at'] < cutoff_30)).sum())
@@ -176,14 +178,13 @@ def generate_ecosystem_summary():
     commits_30d = 0
     commits_prev_30d = 0
     try:
-        import pandas as pd
         if os.path.exists(COMMITS_INPUT):
             df_commits = pd.read_parquet(COMMITS_INPUT, columns=['date_utc'])
             df_commits['date_utc'] = pd.to_datetime(df_commits['date_utc'], utc=True)
-            cutoff_30_ts = pd.Timestamp(cutoff_90 + timedelta(days=60), tz='UTC')
-            cutoff_60_ts = pd.Timestamp(cutoff_90 + timedelta(days=30), tz='UTC')
-            cutoff_7_ts = pd.Timestamp(now - timedelta(days=7), tz='UTC')
-            cutoff_14_ts = pd.Timestamp(now - timedelta(days=14), tz='UTC')
+            cutoff_30_ts = cutoff_30
+            cutoff_60_ts = cutoff_60
+            cutoff_7_ts = cutoff_7
+            cutoff_14_ts = cutoff_14
 
             commits_30d = int((df_commits['date_utc'] >= cutoff_30_ts).sum())
             commits_prev_30d = int(((df_commits['date_utc'] >= cutoff_60_ts) & (df_commits['date_utc'] < cutoff_30_ts)).sum())
@@ -203,8 +204,6 @@ def generate_ecosystem_summary():
 
     spotlight_data = None
     try:
-        import pandas as pd
-        
         # Load identities lookup map
         github_to_identity = {}
         if os.path.exists(IDENTITIES_INPUT):
@@ -220,8 +219,8 @@ def generate_ecosystem_summary():
 
         # Primary source for spotlight: real-time PR metadata
         if 'first_prs' in locals() and not first_prs.empty and not pr_df_merged.empty:
-            cutoff_30_ts = pd.Timestamp(cutoff_90 + timedelta(days=60), tz='UTC')
-            cutoff_90_ts = pd.Timestamp(cutoff_90, tz='UTC')
+            cutoff_30_ts = cutoff_30
+            cutoff_90_ts = cutoff_90
             
             # Check 30d window first, fallback to 90d, then latest first-time author
             newbies = first_prs[first_prs['first_merged_at'] >= cutoff_30_ts].sort_values('first_merged_at', ascending=False)
@@ -251,14 +250,14 @@ def generate_ecosystem_summary():
         elif os.path.exists(CONTRIBUTORS_UNIFIED_INPUT):
             _df_u = pd.read_parquet(CONTRIBUTORS_UNIFIED_INPUT, columns=['first_commit', 'first_core_commit', 'tier1_authored_commits', 'display_name', 'github_login_final', 'uuid'])
             _fc = pd.to_datetime(_df_u['first_commit'], errors='coerce', utc=True)
-            _cutoff_ts = pd.Timestamp(cutoff_90, tz='UTC')
-            _cutoff_7_ts = pd.Timestamp(now - timedelta(days=7), tz='UTC')
+            _cutoff_ts = cutoff_90
+            _cutoff_7_ts = cutoff_7
             if new_coders_90d == 0:
                 new_coders_90d = int((_fc >= _cutoff_ts).sum())
                 new_coders_7d = int((_fc >= _cutoff_7_ts).sum())
             
             _fc_core = pd.to_datetime(_df_u['first_core_commit'], errors='coerce', utc=True)
-            _cutoff_30 = pd.Timestamp(cutoff_90 + timedelta(days=60), tz='UTC')
+            _cutoff_30 = cutoff_30
             newbies_30 = _df_u[_fc_core >= _cutoff_30].copy()
             if newbies_30.empty:
                 newbies_30 = _df_u[_fc_core.notna()].sort_values('first_core_commit', ascending=False).head(1)
@@ -278,12 +277,11 @@ def generate_ecosystem_summary():
     # Active Discussion Topics + new discussants — both derived from social_threads.parquet
     top_topics = []
     try:
-        import pandas as pd
         if os.path.exists(SOCIAL_THREADS_INPUT):
             df_threads = pd.read_parquet(SOCIAL_THREADS_INPUT, columns=['date', 'category', 'canonical_id'])
             df_threads['date'] = pd.to_datetime(df_threads['date'])
-            cutoff_ts_naive = pd.Timestamp(cutoff_90)
-            cutoff_7_ts_naive = pd.Timestamp(now - timedelta(days=7))
+            cutoff_ts_naive = pd.Timestamp(cutoff_90).tz_localize(None) if pd.Timestamp(cutoff_90).tzinfo else pd.Timestamp(cutoff_90)
+            cutoff_7_ts_naive = pd.Timestamp(now - timedelta(days=7)).tz_localize(None) if pd.Timestamp(now).tzinfo else pd.Timestamp(now - timedelta(days=7))
 
             # New discussion voices: canonical IDs whose first message ever is within window
             first_msg = df_threads.groupby('canonical_id')['date'].min()
@@ -306,7 +304,7 @@ def generate_ecosystem_summary():
         print(f"  Warning: Could not compute discussion data: {e}")
 
     summary = {
-        "generated_at": now.isoformat(),
+        "generated_at": anchor.strftime('%Y-%m-%d'),
         "groups": groups,
         "venn_4": venn_4,
         "venn_summary": venn_summary,

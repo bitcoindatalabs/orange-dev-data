@@ -4,15 +4,15 @@
   "delving_username_final": null,
   "uuid": "can_paul_sztorc",
   "badges": {
-    "is_bip_author": true,
-    "is_core_committer": false,
     "is_maintainer": false,
-    "is_sponsored": false,
+    "is_core_committer": false,
     "maintainer_status": null,
+    "is_sponsored": false,
+    "sponsor_id": null,
+    "is_bip_author": true,
     "roles": [
       "BIP Author"
-    ],
-    "sponsor_id": null
+    ]
   },
   "roles": [
     "BIP Author"
@@ -41,7 +41,7 @@
   "modern_bips_authored": 0.0,
   "first_bip_date": "2018-02-03T20:36:40",
   "last_bip_date": "2018-02-10T13:01:25",
-  "avg_review_latency_days": 1342.4333208689459,
+  "avg_review_latency_days": 1281.9125355489418,
   "reviews_count": 4.0,
   "avg_approval_latency_days": null,
   "approvals_count": 0.0,
@@ -57,9 +57,9 @@
   "avg_pr_ack_velocity_days": 284.11974537037037,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": 0.4444444444444444,
-  "hybrid_score": 0.7146,
-  "p2016_hybrid_score": 0.7694,
-  "modern_hybrid_score": 0.1071,
+  "hybrid_score": 0.7158,
+  "p2016_hybrid_score": 0.7724,
+  "modern_hybrid_score": 0.1075,
   "impact_score": 35.0,
   "p2016_impact_score": 37.0,
   "modern_impact_score": 6.0,
@@ -78,20 +78,20 @@
     "Mining"
   ],
   "expertise_by_source": {
+    "discussion": {
+      "Mining": 0.171,
+      "L2": 0.671,
+      "Ecosystem": 0.157
+    },
     "bips": {
       "Consensus": 1.0
-    },
-    "discussion": {
-      "Ecosystem": 0.157,
-      "L2": 0.671,
-      "Mining": 0.171
     }
   },
   "expertise_domain_scores": {
+    "Mining": 0.0489,
     "Consensus": 0.7145,
-    "Ecosystem": 0.0449,
     "L2": 0.1918,
-    "Mining": 0.0489
+    "Ecosystem": 0.0449
   },
   "p2016_posts": 70.0,
   "modern_posts": 2.0,

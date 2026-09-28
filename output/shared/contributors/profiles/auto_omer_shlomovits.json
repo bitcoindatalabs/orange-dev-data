@@ -67,14 +67,14 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Consensus": 0.57,
       "Mempool": 0.14,
+      "Consensus": 0.57,
       "Wallet": 0.29
     }
   },
   "expertise_domain_scores": {
-    "Consensus": 0.57,
     "Mempool": 0.14,
+    "Consensus": 0.57,
     "Wallet": 0.29
   },
   "p2016_posts": 2.0,

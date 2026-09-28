@@ -32,7 +32,7 @@
   "modern_bips_authored": 0.0,
   "first_bip_date": null,
   "last_bip_date": null,
-  "avg_review_latency_days": 453.85570265830347,
+  "avg_review_latency_days": 449.9711158130787,
   "reviews_count": 13.0,
   "avg_approval_latency_days": null,
   "approvals_count": 0.0,
@@ -48,12 +48,12 @@
   "avg_pr_ack_velocity_days": 0.47248263888888886,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": 3.25,
-  "hybrid_score": 0.2349,
-  "p2016_hybrid_score": 0.2467,
-  "modern_hybrid_score": 0.2298,
-  "impact_score": 13.0,
-  "p2016_impact_score": 14.0,
-  "modern_impact_score": 13.0,
+  "hybrid_score": 0.1232,
+  "p2016_hybrid_score": 0.1358,
+  "modern_hybrid_score": 0.1229,
+  "impact_score": 7.0,
+  "p2016_impact_score": 8.0,
+  "modern_impact_score": 7.0,
   "threads_started": 4.0,
   "replies_sent": 3.0,
   "ml_threads": 4.0,
@@ -62,28 +62,23 @@
   "delving_responses": 0.0,
   "first_active": "2018-11-08T04:37:50",
   "last_active": "2026-06-16T05:46:33",
-  "dev_type": "Builder",
+  "dev_type": "Reviewer",
   "expertise_domains": [
     "Wallet",
-    "Script",
-    "Mempool"
+    "Mempool",
+    "Privacy"
   ],
   "expertise_by_source": {
-    "code": {
-      "Script": 0.333,
-      "Wallet": 0.667
-    },
     "discussion": {
       "Mempool": 0.338,
-      "Privacy": 0.254,
-      "Wallet": 0.408
+      "Wallet": 0.408,
+      "Privacy": 0.254
     }
   },
   "expertise_domain_scores": {
-    "Mempool": 0.1352,
-    "Privacy": 0.1016,
-    "Script": 0.1998,
-    "Wallet": 0.5634
+    "Mempool": 0.338,
+    "Wallet": 0.408,
+    "Privacy": 0.254
   },
   "p2016_posts": 7.0,
   "modern_posts": 2.0,
@@ -91,7 +86,7 @@
   "p2016_delving_posts": 0.0,
   "modern_ml_posts": 2.0,
   "modern_delving_posts": 0.0,
-  "is_engineer": true,
+  "is_engineer": false,
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": false,
@@ -103,7 +98,7 @@
   "github_twitter": null,
   "github_blog": null,
   "github_followers": 368.0,
-  "activity_status": "Rising",
+  "activity_status": "Active",
   "is_top_50": false,
   "github_url": "https://github.com/SomberNight",
   "commit_history": {

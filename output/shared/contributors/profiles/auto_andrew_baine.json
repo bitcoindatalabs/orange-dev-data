@@ -66,13 +66,13 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Mempool": 0.5,
-      "Mining": 0.5
+      "Mining": 0.5,
+      "Mempool": 0.5
     }
   },
   "expertise_domain_scores": {
-    "Mempool": 0.5,
-    "Mining": 0.5
+    "Mining": 0.5,
+    "Mempool": 0.5
   },
   "p2016_posts": 2.0,
   "modern_posts": 0.0,

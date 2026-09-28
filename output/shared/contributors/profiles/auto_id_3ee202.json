@@ -1,5 +1,5 @@
 {
-  "display_name": "\u304a\u306e\u304b\u3061\u304a",
+  "display_name": "おのかちお",
   "github_login_final": null,
   "delving_username_final": null,
   "uuid": "auto_id_3ee202",
@@ -66,13 +66,13 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Ecosystem": 0.67,
-      "Wallet": 0.33
+      "Wallet": 0.33,
+      "Ecosystem": 0.67
     }
   },
   "expertise_domain_scores": {
-    "Ecosystem": 0.67,
-    "Wallet": 0.33
+    "Wallet": 0.33,
+    "Ecosystem": 0.67
   },
   "p2016_posts": 1.0,
   "modern_posts": 0.0,

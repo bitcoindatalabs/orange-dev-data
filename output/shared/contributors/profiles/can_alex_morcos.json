@@ -4,15 +4,15 @@
   "delving_username_final": null,
   "uuid": "can_alex_morcos",
   "badges": {
-    "is_bip_author": true,
-    "is_core_committer": false,
     "is_maintainer": false,
-    "is_sponsored": false,
+    "is_core_committer": false,
     "maintainer_status": null,
+    "is_sponsored": false,
+    "sponsor_id": null,
+    "is_bip_author": true,
     "roles": [
       "BIP Author"
-    ],
-    "sponsor_id": null
+    ]
   },
   "roles": [
     "BIP Author"
@@ -41,9 +41,9 @@
   "modern_bips_authored": 0.0,
   "first_bip_date": "2016-02-25T12:29:01",
   "last_bip_date": "2016-02-25T12:29:01",
-  "avg_review_latency_days": 56.14088839846202,
+  "avg_review_latency_days": 57.88613672141572,
   "reviews_count": 332.0,
-  "avg_approval_latency_days": 22.531020034772766,
+  "avg_approval_latency_days": 23.815792724297573,
   "approvals_count": 193.0,
   "tier1_reviews_count": 324.0,
   "tier2_reviews_count": 8.0,
@@ -57,11 +57,11 @@
   "avg_pr_ack_velocity_days": 7.71497756254061,
   "avg_concept_lead_time_days": 20.93245827950043,
   "review_reciprocity": 2.634920634920635,
-  "hybrid_score": 0.9749,
-  "p2016_hybrid_score": 0.9414,
+  "hybrid_score": 0.6271,
+  "p2016_hybrid_score": 0.6083,
   "modern_hybrid_score": 0.15,
-  "impact_score": 44.0,
-  "p2016_impact_score": 43.0,
+  "impact_score": 31.0,
+  "p2016_impact_score": 31.0,
   "modern_impact_score": 9.0,
   "threads_started": 7.0,
   "replies_sent": 40.0,
@@ -71,35 +71,25 @@
   "delving_responses": 0.0,
   "first_active": "2014-02-12T18:39:11",
   "last_active": "2022-01-13T13:25:48",
-  "dev_type": "Protocol Designer",
+  "dev_type": "Reviewer",
   "expertise_domains": [
     "Infrastructure",
     "Mempool",
     "Mining"
   ],
   "expertise_by_source": {
+    "discussion": {
+      "Mining": 0.417,
+      "Mempool": 0.583
+    },
     "bips": {
       "Infrastructure": 1.0
-    },
-    "code": {
-      "Consensus": 0.113,
-      "Infrastructure": 0.472,
-      "Mempool": 0.236,
-      "Network": 0.022,
-      "Script": 0.001,
-      "Wallet": 0.156
-    },
-    "discussion": {
-      "Mempool": 0.583,
-      "Mining": 0.417
     }
   },
   "expertise_domain_scores": {
-    "Consensus": 0.0339,
-    "Infrastructure": 0.6416,
-    "Mempool": 0.1874,
-    "Mining": 0.0834,
-    "Wallet": 0.0468
+    "Infrastructure": 0.7143,
+    "Mining": 0.1191,
+    "Mempool": 0.1666
   },
   "p2016_posts": 15.0,
   "modern_posts": 0.0,
@@ -107,7 +97,7 @@
   "p2016_delving_posts": 0.0,
   "modern_ml_posts": 0.0,
   "modern_delving_posts": 0.0,
-  "is_engineer": true,
+  "is_engineer": false,
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": true,

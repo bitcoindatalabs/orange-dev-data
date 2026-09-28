@@ -29,7 +29,7 @@
   "modern_bips_authored": 0.0,
   "first_bip_date": null,
   "last_bip_date": null,
-  "avg_review_latency_days": 2159.4990101410935,
+  "avg_review_latency_days": 1829.9075407407406,
   "reviews_count": 9.0,
   "avg_approval_latency_days": null,
   "approvals_count": 0.0,
@@ -45,19 +45,19 @@
   "avg_pr_ack_velocity_days": 0.09181712962962962,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": 3.0,
-  "hybrid_score": 0.2364,
-  "p2016_hybrid_score": 0.3347,
+  "hybrid_score": 0.2449,
+  "p2016_hybrid_score": 0.3505,
   "modern_hybrid_score": 0.4381,
-  "impact_score": 13.0,
-  "p2016_impact_score": 18.0,
+  "impact_score": 14.0,
+  "p2016_impact_score": 19.0,
   "modern_impact_score": 23.0,
-  "threads_started": 32.0,
-  "replies_sent": 131.0,
+  "threads_started": 5.0,
+  "replies_sent": 101.0,
   "ml_threads": 5.0,
-  "delving_threads": 27.0,
+  "delving_threads": 0.0,
   "ml_responses": 101.0,
-  "delving_responses": 30.0,
-  "first_active": null,
+  "delving_responses": 0.0,
+  "first_active": "2024-12-16T23:31:27",
   "last_active": "2026-09-18T21:07:18",
   "dev_type": "Participant",
   "expertise_domains": [
@@ -66,20 +66,20 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Consensus": 0.239,
-      "Cryptography": 0.761
+      "Consensus": 0.113,
+      "Cryptography": 0.887
     }
   },
   "expertise_domain_scores": {
-    "Consensus": 0.239,
-    "Cryptography": 0.761
+    "Consensus": 0.113,
+    "Cryptography": 0.887
   },
-  "p2016_posts": 163.0,
-  "modern_posts": 163.0,
+  "p2016_posts": 106.0,
+  "modern_posts": 106.0,
   "p2016_ml_posts": 106.0,
-  "p2016_delving_posts": 57.0,
+  "p2016_delving_posts": 0.0,
   "modern_ml_posts": 106.0,
-  "modern_delving_posts": 57.0,
+  "modern_delving_posts": 0.0,
   "is_engineer": false,
   "is_reviewer": true,
   "is_researcher": true,
@@ -97,10 +97,10 @@
   "github_url": "https://github.com/conduition",
   "delving_url": "https://delvingbitcoin.org/u/conduition",
   "first_message": {
-    "source": "delving",
-    "subject": "Off Chain DLC Ticketing Systems",
-    "date": "2023-11-22",
-    "link": "https://delvingbitcoin.org/t/off-chain-dlc-ticketing-systems/214/1"
+    "source": "mailing_list",
+    "subject": "Re: [bitcoindev] Trivial QC signatures with clean upgrade path",
+    "date": "2024-12-16",
+    "link": "https://gnusha.org/pi/bitcoindev/0f6e4dd0-30c2-489a-8f90-a9507dbeb5a7n@googlegroups.com"
   },
   "last_message": {
     "source": "mailing_list",
@@ -109,36 +109,29 @@
     "link": "https://gnusha.org/pi/bitcoindev/tGemKORoxpaqKlU6SZ9gYoMAj3VVzWB7gDGr49qxd4gq1IACbTdUhJmf7T3gbrUmREluNMVVal12sftAeaRiJIAWKOH_1caL_Fit2gdVouo=@proton.me"
   },
   "social_history": {
-    "2023": {
-      "other": 6,
-      "mempool-fees": 1
-    },
     "2024": {
-      "other": 5,
-      "privacy": 2,
-      "quantum": 2,
-      "wallet-keys": 1
+      "other": 4,
+      "privacy": 1,
+      "quantum": 1
     },
     "2025": {
       "bitvm": 1,
-      "other": 18,
-      "mempool-fees": 1,
-      "quantum": 33,
-      "segwit": 1,
+      "covenants": 7,
+      "other": 13,
+      "quantum": 29,
       "signatures-sighash": 1,
-      "taproot": 4,
+      "taproot": 1,
       "wallet-keys": 1
     },
     "2026": {
-      "other": 108,
-      "bitvm": 19,
-      "mempool-fees": 19,
-      "privacy": 17,
-      "quantum": 83,
-      "segwit": 18,
-      "signatures-sighash": 22,
-      "taproot": 42,
-      "wallet-keys": 25
+      "other": 32,
+      "bitvm": 8,
+      "covenants": 2,
+      "privacy": 9,
+      "quantum": 41,
+      "signatures-sighash": 6,
+      "taproot": 10,
+      "wallet-keys": 10
     }
   }
 }

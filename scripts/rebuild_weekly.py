@@ -25,6 +25,21 @@ def load_env():
 
 def run(command, cwd=None):
     """Execute a system command and check for errors"""
+    if command.startswith("cp "):
+        parts = command.split()
+        if len(parts) == 3:
+            import shutil
+            src = os.path.join(cwd or ".", parts[1])
+            dst = os.path.join(cwd or ".", parts[2])
+            os.makedirs(os.path.dirname(dst), exist_ok=True)
+            if os.path.exists(src):
+                shutil.copy(src, dst)
+                print(f"✅ Copied {src} -> {dst}")
+                return True
+            else:
+                print(f"⚠️ Source file not found: {src}")
+                return False
+
     if command.startswith("python3 "):
         command = command.replace("python3 ", f'"{sys.executable}" ', 1)
         

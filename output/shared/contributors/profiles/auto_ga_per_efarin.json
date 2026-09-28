@@ -1,5 +1,5 @@
 {
-  "display_name": "Ga\u0161per \u010cefarin",
+  "display_name": "Gašper Čefarin",
   "github_login_final": "GChuf",
   "delving_username_final": null,
   "uuid": "auto_ga_per_efarin",
@@ -29,7 +29,7 @@
   "modern_bips_authored": 0.0,
   "first_bip_date": null,
   "last_bip_date": null,
-  "avg_review_latency_days": 108.9705476641414,
+  "avg_review_latency_days": 156.81407381687242,
   "reviews_count": 18.0,
   "avg_approval_latency_days": 19.508984375,
   "approvals_count": 8.0,
@@ -45,11 +45,11 @@
   "avg_pr_ack_velocity_days": 0.5998157793209876,
   "avg_concept_lead_time_days": 0.04022156084656085,
   "review_reciprocity": 0.72,
-  "hybrid_score": 0.2724,
-  "p2016_hybrid_score": 0.2724,
+  "hybrid_score": 0.1244,
+  "p2016_hybrid_score": 0.1244,
   "modern_hybrid_score": 0.0939,
-  "impact_score": 15.0,
-  "p2016_impact_score": 15.0,
+  "impact_score": 7.0,
+  "p2016_impact_score": 7.0,
   "modern_impact_score": 5.0,
   "threads_started": 0.0,
   "replies_sent": 0.0,
@@ -59,15 +59,11 @@
   "delving_responses": 0.0,
   "first_active": null,
   "last_active": null,
-  "dev_type": "Builder",
+  "dev_type": "Reviewer",
   "expertise_domains": [
     "Infrastructure"
   ],
-  "expertise_by_source": {
-    "code": {
-      "Infrastructure": 1.0
-    }
-  },
+  "expertise_by_source": {},
   "expertise_domain_scores": {
     "Infrastructure": 1.0
   },
@@ -77,7 +73,7 @@
   "p2016_delving_posts": 0.0,
   "modern_ml_posts": 0.0,
   "modern_delving_posts": 0.0,
-  "is_engineer": true,
+  "is_engineer": false,
   "is_reviewer": true,
   "is_researcher": false,
   "is_bip_author": false,

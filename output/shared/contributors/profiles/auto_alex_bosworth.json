@@ -45,8 +45,8 @@
   "avg_pr_ack_velocity_days": 24.715659722222224,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": 0.0,
-  "hybrid_score": 0.032,
-  "p2016_hybrid_score": 0.0365,
+  "hybrid_score": 0.0321,
+  "p2016_hybrid_score": 0.0368,
   "modern_hybrid_score": 0.025,
   "impact_score": 2.0,
   "p2016_impact_score": 2.0,
@@ -66,13 +66,13 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "L2": 0.67,
-      "Wallet": 0.33
+      "Wallet": 0.33,
+      "L2": 0.67
     }
   },
   "expertise_domain_scores": {
-    "L2": 0.67,
-    "Wallet": 0.33
+    "Wallet": 0.33,
+    "L2": 0.67
   },
   "p2016_posts": 1.0,
   "modern_posts": 0.0,
@@ -88,7 +88,7 @@
   "global_last_active": "2018-09-03T22:24:01",
   "github_location": null,
   "github_company": null,
-  "github_bio": "DE23\u00a0E73B\u00a0FA8A\u00a00AD5\u00a0587D\u00a0\u00a02FCD\u00a0E80D\u00a02F3F\u00a0311F\u00a0D87E",
+  "github_bio": "DE23 E73B FA8A 0AD5 587D  2FCD E80D 2F3F 311F D87E",
   "github_twitter": "alexbosworth",
   "github_blog": "https://twitter.com/alexbosworth",
   "github_followers": 660.0,

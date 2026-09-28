@@ -1,5 +1,5 @@
 {
-  "display_name": "Martin L\u00edzner",
+  "display_name": "Martin Lízner",
   "github_login_final": null,
   "delving_username_final": null,
   "uuid": "auto_martin_l_zner",
@@ -67,14 +67,14 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Consensus": 0.25,
       "Mempool": 0.5,
+      "Consensus": 0.25,
       "Network": 0.25
     }
   },
   "expertise_domain_scores": {
-    "Consensus": 0.25,
     "Mempool": 0.5,
+    "Consensus": 0.25,
     "Network": 0.25
   },
   "p2016_posts": 1.0,

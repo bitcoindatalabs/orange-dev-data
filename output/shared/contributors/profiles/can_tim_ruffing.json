@@ -4,114 +4,109 @@
   "delving_username_final": "real-or-random",
   "uuid": "can_tim_ruffing",
   "badges": {
-    "is_bip_author": true,
-    "is_core_committer": false,
     "is_maintainer": false,
-    "is_sponsored": false,
+    "is_core_committer": false,
     "maintainer_status": null,
+    "is_sponsored": false,
+    "sponsor_id": null,
+    "is_bip_author": true,
     "roles": [
       "BIP Author"
     ],
-    "sponsor_id": null,
     "ecosystem_contributor": true,
     "tier2_commits": 1
   },
   "roles": [
     "BIP Author"
   ],
-  "total_commits": 12.0,
-  "authored_commits": 12.0,
-  "tier1_authored_commits": 11.0,
+  "total_commits": 370.0,
+  "authored_commits": 370.0,
+  "tier1_authored_commits": 369.0,
   "tier2_authored_commits": 1.0,
   "merge_commits": 0.0,
   "tier1_merge_commits": 0.0,
   "tier2_merge_commits": 0.0,
   "self_merges": 0.0,
-  "total_additions": 157.0,
-  "total_deletions": 207.0,
-  "first_core_commit": "2018-05-14T12:54:23+00:00",
-  "last_core_commit": "2025-10-27T10:30:49+00:00",
+  "total_additions": 16689.0,
+  "total_deletions": 5347.0,
+  "first_core_commit": "2017-07-31T07:44:51+00:00",
+  "last_core_commit": "2026-09-07T08:32:32+00:00",
   "first_ecosystem_commit": "2021-05-26T16:29:40+00:00",
   "last_ecosystem_commit": "2021-05-26T16:29:40+00:00",
-  "first_commit": "2018-05-14T12:54:23",
-  "last_commit": "2025-10-27T10:30:49",
-  "p2016_authored_commits": 12.0,
-  "modern_authored_commits": 3.0,
-  "co_authored_commits": 0.0,
+  "first_commit": "2017-07-31T07:44:51",
+  "last_commit": "2026-09-07T08:32:32",
+  "p2016_authored_commits": 370.0,
+  "modern_authored_commits": 74.0,
+  "co_authored_commits": 31.0,
   "bips_authored": 3.0,
   "p2016_bips_authored": 3.0,
   "modern_bips_authored": 0.0,
   "first_bip_date": "2018-07-05T20:45:34",
   "last_bip_date": "2022-10-07T13:59:24",
-  "avg_review_latency_days": 1279.4842306575642,
-  "reviews_count": 110.0,
-  "avg_approval_latency_days": 958.8053503898635,
-  "approvals_count": 63.0,
-  "tier1_reviews_count": 58.0,
+  "avg_review_latency_days": 1287.6077242543688,
+  "reviews_count": 867.0,
+  "avg_approval_latency_days": 1186.8210796313085,
+  "approvals_count": 575.0,
+  "tier1_reviews_count": 835.0,
   "tier2_reviews_count": 52.0,
-  "p2016_reviews_count": 110.0,
-  "modern_reviews_count": 57.0,
+  "p2016_reviews_count": 867.0,
+  "modern_reviews_count": 347.0,
   "first_review_date": "2018-08-05T00:31:52",
-  "last_review_date": "2026-09-10T14:35:23",
-  "prs_authored": 18.0,
-  "tier1_prs_authored": 9.0,
+  "last_review_date": "2026-09-25T20:30:10",
+  "prs_authored": 210.0,
+  "tier1_prs_authored": 201.0,
   "tier2_prs_authored": 9.0,
-  "avg_pr_ack_velocity_days": 1.6427713477366257,
-  "avg_concept_lead_time_days": 0.7549614197530864,
-  "review_reciprocity": 6.111111111111111,
-  "hybrid_score": 1.3396,
-  "p2016_hybrid_score": 1.3865,
-  "modern_hybrid_score": 0.6737,
-  "impact_score": 55.0,
-  "p2016_impact_score": 56.0,
-  "modern_impact_score": 33.0,
-  "threads_started": 11.0,
-  "replies_sent": 64.0,
+  "avg_pr_ack_velocity_days": 9.506470269097223,
+  "avg_concept_lead_time_days": 32.87669367283951,
+  "review_reciprocity": 4.128571428571429,
+  "hybrid_score": 1.0346,
+  "p2016_hybrid_score": 1.0833,
+  "modern_hybrid_score": 0.4152,
+  "impact_score": 46.0,
+  "p2016_impact_score": 48.0,
+  "modern_impact_score": 22.0,
+  "threads_started": 6.0,
+  "replies_sent": 57.0,
   "ml_threads": 6.0,
-  "delving_threads": 5.0,
+  "delving_threads": 0.0,
   "ml_responses": 57.0,
-  "delving_responses": 7.0,
+  "delving_responses": 0.0,
   "first_active": "2014-08-06T17:22:31",
-  "last_active": null,
-  "dev_type": "Protocol Designer",
+  "last_active": "2026-01-14T02:27:40",
+  "dev_type": "Reviewer",
   "expertise_domains": [
     "Infrastructure",
     "Network",
     "Cryptography"
   ],
   "expertise_by_source": {
+    "discussion": {
+      "Consensus": 0.444,
+      "Cryptography": 0.556
+    },
     "bips": {
       "Infrastructure": 0.667,
       "Network": 0.333
-    },
-    "code": {
-      "Infrastructure": 0.978,
-      "Network": 0.008,
-      "Wallet": 0.014
-    },
-    "discussion": {
-      "Cryptography": 0.522,
-      "Privacy": 0.478
     }
   },
   "expertise_domain_scores": {
-    "Cryptography": 0.1044,
-    "Infrastructure": 0.6269,
-    "Network": 0.1689,
-    "Privacy": 0.0956
+    "Infrastructure": 0.4764,
+    "Consensus": 0.1269,
+    "Network": 0.2379,
+    "Cryptography": 0.1589
   },
-  "p2016_posts": 71.0,
-  "modern_posts": 28.0,
+  "p2016_posts": 59.0,
+  "modern_posts": 16.0,
   "p2016_ml_posts": 59.0,
-  "p2016_delving_posts": 12.0,
+  "p2016_delving_posts": 0.0,
   "modern_ml_posts": 16.0,
-  "modern_delving_posts": 12.0,
-  "is_engineer": true,
+  "modern_delving_posts": 0.0,
+  "is_engineer": false,
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": true,
   "global_first_active": "2014-08-06T17:22:31",
-  "global_last_active": "2026-09-10T14:35:23",
+  "global_last_active": "2026-09-25T20:30:10",
   "github_location": "Germany",
   "github_company": null,
   "github_bio": "full-stack cryptographer",
@@ -123,6 +118,9 @@
   "github_url": "https://github.com/real-or-random",
   "delving_url": "https://delvingbitcoin.org/u/real-or-random",
   "commit_history": {
+    "2017": {
+      "Utilities": 1.0
+    },
     "2018": {
       "GUI": 2.67,
       "Node & RPC": 0.67,
@@ -130,19 +128,48 @@
       "Wallet": 4.0
     },
     "2019": {
-      "Utilities": 4.0
+      "Build & CI": 6.0,
+      "Documentation": 2.0,
+      "Utilities": 35.0
+    },
+    "2020": {
+      "Build & CI": 3.33,
+      "Documentation": 0.33,
+      "Utilities": 26.33
     },
     "2021": {
-      "Documentation": 2.0,
+      "Build & CI": 19.33,
+      "Documentation": 6.33,
+      "Utilities": 46.33,
       "Wallet": 1.0
     },
+    "2022": {
+      "Build & CI": 12.0,
+      "Documentation": 4.5,
+      "Utilities": 55.5
+    },
     "2023": {
-      "Documentation": 2.0,
+      "Build & CI": 25.33,
+      "Documentation": 17.83,
       "P2P Network": 3.0,
-      "Tests": 1.0
+      "Tests": 1.0,
+      "Utilities": 38.83
+    },
+    "2024": {
+      "Build & CI": 8.5,
+      "Documentation": 4.0,
+      "Utilities": 12.5
     },
     "2025": {
-      "Tests": 2.0
+      "Build & CI": 4.5,
+      "Documentation": 4.5,
+      "Tests": 2.0,
+      "Utilities": 9.0
+    },
+    "2026": {
+      "Build & CI": 2.0,
+      "Documentation": 4.0,
+      "Utilities": 16.0
     }
   },
   "bip_list": [
@@ -175,10 +202,10 @@
     "link": "https://gnusha.org/pi/bitcoindev/8137823.B0x87S28xY@calzone"
   },
   "last_message": {
-    "source": "delving",
-    "subject": "Re: Introducing UltrafastSecp256k1: A Multi-Architecture Exploration of Secp256k1 Optimizations",
-    "date": "2026-02-27",
-    "link": "https://delvingbitcoin.org/t/introducing-ultrafastsecp256k1-a-multi-architecture-exploration-of-secp256k1-optimizations/2280/3"
+    "source": "mailing_list",
+    "subject": "Re: [bitcoindev] Follow-up regarding Motion to Activate BIP 3",
+    "date": "2026-01-14",
+    "link": "https://gnusha.org/pi/bitcoindev/f5124eeb53d80964161151ad6e75f1903b094e5b.camel@real-or-random.org"
   },
   "social_history": {
     "2014": {
@@ -188,10 +215,12 @@
       "other": 1
     },
     "2016": {
-      "other": 2
+      "other": 1,
+      "mining": 1
     },
     "2017": {
-      "other": 11,
+      "mining": 1,
+      "other": 10,
       "privacy": 2
     },
     "2018": {
@@ -220,23 +249,20 @@
     },
     "2024": {
       "bip-process": 3,
-      "other": 11,
-      "multisig-threshold": 7,
-      "privacy": 3,
-      "security": 4,
-      "wallet-keys": 7
+      "multisig-threshold": 2,
+      "other": 1
     },
     "2025": {
       "bip-process": 1,
+      "mining": 1,
       "other": 5,
       "quantum": 3,
-      "security": 1,
       "taproot": 2,
       "wallet-keys": 1
     },
     "2026": {
       "bip-process": 1,
-      "other": 4
+      "other": 1
     }
   }
 }

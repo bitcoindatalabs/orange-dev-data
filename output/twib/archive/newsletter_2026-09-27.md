@@ -277,7 +277,7 @@ Top active threads across mailing lists and research forums.
 
 ### [Re: [bitcoindev] Re: [BIP Proposal] No burn, Quantum Migration
  Proposal, Quantum Secure Asset Verification & Escrow (QSAVE)](https://gnusha.org/pi/bitcoindev/48b51073-e3d5-4875-a16d-216fb12fa7fcn@googlegroups.com)
-**Source:** Mailing List | **Started By:** {'username': "'James T' via Bitcoin Development Mailing List", 'uuid': 'auto_james_t'} | **Messages:** 1
+**Source:** Mailing List | **Started By:** {'username': 'James T', 'uuid': 'auto_james_t'} | **Messages:** 1
 > Bitcoin's long-term security is a key focus, with developers proactively discussing how to ensure the network remains robust against future technological advancements like quantum computing. This ongoing dialogue reinforces Bitcoin's commitment to enduring value and security for all users.
 
 **Technical Details:** The mailing list is revisiting historical discussions concerning the long-term security of SHA256 against future quantum computing threats. While early acknowledgments suggested a potential 'chain rewrite' under extreme circumstances, the current debate likely centers on the practicality and implications of such a drastic measure. Developers are evaluating whether less disruptive protocol upgrades can achieve quantum resistance, or if the threat to SHA256 warrants considering fundamental architectural changes to the blockchain's structure.
@@ -289,13 +289,13 @@ Top active threads across mailing lists and research forums.
 **Technical Details:** Anthony Towns is summarizing a proposal where nodes implementing it would transmit specific information. The provided context does not detail what data would be sent, its purpose, or the technical arguments surrounding its implementation, making a full architectural assessment or explanation of required changes impossible at this time.
 
 ### [[bitcoindev] Bitcoin Core 32.0rc2 release candidate is available](https://gnusha.org/pi/bitcoindev/465fa469-1fdf-45d9-9f8e-309ccc472bf5n@googlegroups.com)
-**Source:** Mailing List | **Started By:** {'username': 'sedited', 'uuid': 'auto_sebastian_kung'} | **Messages:** 1
+**Source:** Mailing List | **Started By:** {'username': 'Sebastian Kung', 'uuid': 'auto_sebastian_kung'} | **Messages:** 1
 > The latest release candidate for Bitcoin Core, v32.0rc2, is now available for community testing. This crucial step helps ensure the next stable version of Bitcoin's foundational software is robust and secure for all users.
 
 **Technical Details:** Bitcoin Core v32.0rc2 binaries have been released and are available for download, alongside the signed source code tag on GitHub. This release candidate is critical for comprehensive community testing to identify and address any remaining bugs or regressions before the final v32.0 stable release. Developers and advanced users are strongly encouraged to test this RC, providing valuable feedback to validate the stability, security, and performance of new features and bug fixes integrated into this version. The primary objective is thorough validation to ensure a high-quality production release.
 
 ### [[bitcoindev] Convention for tagged hash tags in BIPs](https://gnusha.org/pi/bitcoindev/dxapm4DOcrDL6_oCYSqBAdFP0fAQA9IHInRzzTuCeWVYD2Xd0ynPsTa8hYEcRFOYQPnvoQK15TtK6oAZBfa-4b5DbIuFemSFGVifxGTLOlc=@protonmail.com)
-**Source:** Mailing List | **Started By:** {'username': "'Fabian' via Bitcoin Development Mailing List", 'uuid': 'can_fabian_jahr'} | **Messages:** 1
+**Source:** Mailing List | **Started By:** {'username': 'Fabian Jahr', 'uuid': 'can_fabian_jahr'} | **Messages:** 1
 > To enhance clarity and consistency for future Bitcoin upgrades, developers are discussing the optimal naming conventions for new cryptographic features within the protocol.
 
 **Technical Details:** During the review of BIP 459 (DahLIAS), an architectural debate emerged regarding the naming convention for 'tagged hash tags' in cryptography BIPs. The current practice is inconsistent, with some BIPs embedding their numerical identifier while others use descriptive names. This necessitates a community decision on a standardized approach to ensure protocol coherence, prevent identifier collisions, and establish clear guidelines for future cryptographic feature integration.

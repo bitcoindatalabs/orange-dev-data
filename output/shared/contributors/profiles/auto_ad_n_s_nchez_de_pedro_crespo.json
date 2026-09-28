@@ -1,5 +1,5 @@
 {
-  "display_name": "Ad\u00e1n S\u00e1nchez de Pedro Crespo",
+  "display_name": "Adán Sánchez de Pedro Crespo",
   "github_login_final": null,
   "delving_username_final": null,
   "uuid": "auto_ad_n_s_nchez_de_pedro_crespo",
@@ -46,7 +46,7 @@
   "avg_concept_lead_time_days": null,
   "review_reciprocity": null,
   "hybrid_score": 0.0102,
-  "p2016_hybrid_score": 0.0169,
+  "p2016_hybrid_score": 0.017,
   "modern_hybrid_score": 0.0,
   "impact_score": 1.0,
   "p2016_impact_score": 1.0,
@@ -67,14 +67,14 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Consensus": 0.274,
       "Mining": 0.274,
+      "Consensus": 0.274,
       "Script": 0.452
     }
   },
   "expertise_domain_scores": {
-    "Consensus": 0.274,
     "Mining": 0.274,
+    "Consensus": 0.274,
     "Script": 0.452
   },
   "p2016_posts": 6.0,

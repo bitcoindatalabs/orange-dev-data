@@ -45,8 +45,8 @@
   "avg_pr_ack_velocity_days": null,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": 0.0,
-  "hybrid_score": 0.0402,
-  "p2016_hybrid_score": 0.0341,
+  "hybrid_score": 0.0403,
+  "p2016_hybrid_score": 0.0342,
   "modern_hybrid_score": 0.025,
   "impact_score": 2.0,
   "p2016_impact_score": 2.0,
@@ -67,14 +67,14 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Ecosystem": 0.389,
       "Mempool": 0.278,
+      "Ecosystem": 0.389,
       "Script": 0.333
     }
   },
   "expertise_domain_scores": {
-    "Ecosystem": 0.389,
     "Mempool": 0.278,
+    "Ecosystem": 0.389,
     "Script": 0.333
   },
   "p2016_posts": 5.0,

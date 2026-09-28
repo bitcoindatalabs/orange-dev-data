@@ -34,7 +34,7 @@ def main():
             for _, row in df_prs.iterrows():
                 login = row.get('author')
                 labels = row.get('labels')
-                if not login or not labels: continue
+                if not login or not labels or not isinstance(labels, str): continue
                 
                 # Use resolve_github for logins
                 uuid = resolver.resolve_github(login)

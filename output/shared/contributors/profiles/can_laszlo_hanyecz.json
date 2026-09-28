@@ -4,15 +4,15 @@
   "delving_username_final": null,
   "uuid": "can_laszlo_hanyecz",
   "badges": {
-    "is_bip_author": false,
-    "is_core_committer": true,
     "is_maintainer": true,
-    "is_sponsored": false,
+    "is_core_committer": true,
     "maintainer_status": "emeritus",
+    "is_sponsored": false,
+    "sponsor_id": null,
+    "is_bip_author": false,
     "roles": [
       "Former Build Maintainer (OSX)"
     ],
-    "sponsor_id": null,
     "maintainer_title": "Former Build Maintainer (OSX)",
     "maintainer_primary_area": "Build System / OSX",
     "maintainer_appointed": "2010-08-04",
@@ -61,10 +61,10 @@
   "avg_pr_ack_velocity_days": null,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": null,
-  "hybrid_score": 1.0874,
+  "hybrid_score": 1.0242,
   "p2016_hybrid_score": 0.0077,
   "modern_hybrid_score": 0.0,
-  "impact_score": 48.0,
+  "impact_score": 46.0,
   "p2016_impact_score": 0.0,
   "modern_impact_score": 0.0,
   "threads_started": 0.0,
@@ -75,25 +75,20 @@
   "delving_responses": 0.0,
   "first_active": "2014-04-02T10:13:29",
   "last_active": "2018-06-18T13:49:09",
-  "dev_type": "Builder",
+  "dev_type": "Participant",
   "expertise_domains": [
-    "Infrastructure",
     "Mining",
     "Network"
   ],
   "expertise_by_source": {
-    "code": {
-      "Infrastructure": 1.0
-    },
     "discussion": {
       "Mining": 0.576,
       "Network": 0.424
     }
   },
   "expertise_domain_scores": {
-    "Infrastructure": 0.6,
-    "Mining": 0.2304,
-    "Network": 0.1696
+    "Mining": 0.576,
+    "Network": 0.424
   },
   "p2016_posts": 1.0,
   "modern_posts": 0.0,
@@ -101,7 +96,7 @@
   "p2016_delving_posts": 0.0,
   "modern_ml_posts": 0.0,
   "modern_delving_posts": 0.0,
-  "is_engineer": true,
+  "is_engineer": false,
   "is_reviewer": false,
   "is_researcher": true,
   "is_bip_author": false,

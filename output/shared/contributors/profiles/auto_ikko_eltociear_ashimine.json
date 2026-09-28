@@ -39,17 +39,17 @@
   "modern_reviews_count": 0.0,
   "first_review_date": null,
   "last_review_date": null,
-  "prs_authored": 3.0,
-  "tier1_prs_authored": 3.0,
+  "prs_authored": 4.0,
+  "tier1_prs_authored": 4.0,
   "tier2_prs_authored": 0.0,
   "avg_pr_ack_velocity_days": 3.378726851851852,
   "avg_concept_lead_time_days": 8.942152777777778,
   "review_reciprocity": 0.0,
-  "hybrid_score": 0.0961,
-  "p2016_hybrid_score": 0.0961,
-  "modern_hybrid_score": 0.033,
-  "impact_score": 6.0,
-  "p2016_impact_score": 6.0,
+  "hybrid_score": 0.0396,
+  "p2016_hybrid_score": 0.0396,
+  "modern_hybrid_score": 0.0396,
+  "impact_score": 2.0,
+  "p2016_impact_score": 2.0,
   "modern_impact_score": 2.0,
   "threads_started": 0.0,
   "replies_sent": 0.0,
@@ -59,23 +59,13 @@
   "delving_responses": 0.0,
   "first_active": null,
   "last_active": null,
-  "dev_type": "Builder",
+  "dev_type": "Participant",
   "expertise_domains": [
-    "Infrastructure",
-    "Network",
-    "Wallet"
+    "Infrastructure"
   ],
-  "expertise_by_source": {
-    "code": {
-      "Infrastructure": 0.667,
-      "Network": 0.167,
-      "Wallet": 0.167
-    }
-  },
+  "expertise_by_source": {},
   "expertise_domain_scores": {
-    "Infrastructure": 0.6663,
-    "Network": 0.1668,
-    "Wallet": 0.1668
+    "Infrastructure": 1.0
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,
@@ -83,7 +73,7 @@
   "p2016_delving_posts": 0.0,
   "modern_ml_posts": 0.0,
   "modern_delving_posts": 0.0,
-  "is_engineer": true,
+  "is_engineer": false,
   "is_reviewer": true,
   "is_researcher": false,
   "is_bip_author": false,
@@ -91,7 +81,7 @@
   "global_last_active": "2021-01-05T10:53:15",
   "github_location": "Tokyo, Japan",
   "github_company": null,
-  "github_bio": "AI-driven developer @ Tokyo.\r\nLoves \ud83c\udfb8/\ud83d\udc08/\ud83c\udf5b/\ud83c\udfdd/\u26f0",
+  "github_bio": "AI-driven developer @ Tokyo.\r\nLoves 🎸/🐈/🍛/🏝/⛰",
   "github_twitter": null,
   "github_blog": null,
   "github_followers": 1561.0,

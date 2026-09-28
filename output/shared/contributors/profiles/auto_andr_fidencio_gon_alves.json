@@ -1,18 +1,18 @@
 {
-  "display_name": "andr\u00e9 fidencio gon\u00e7alves",
+  "display_name": "andré fidencio gonçalves",
   "github_login_final": null,
   "delving_username_final": null,
   "uuid": "auto_andr_fidencio_gon_alves",
   "badges": {
-    "is_bip_author": true,
-    "is_core_committer": false,
     "is_maintainer": false,
-    "is_sponsored": false,
+    "is_core_committer": false,
     "maintainer_status": null,
+    "is_sponsored": false,
+    "sponsor_id": null,
+    "is_bip_author": true,
     "roles": [
       "BIP Author"
-    ],
-    "sponsor_id": null
+    ]
   },
   "roles": [
     "BIP Author"
@@ -106,7 +106,7 @@
   "bip_list": [
     {
       "number": 450,
-      "title": "Formosa\u2014Seed encoding by themed mnemonic stories",
+      "title": "Formosa—Seed encoding by themed mnemonic stories",
       "status": "Draft",
       "theme": "Privacy",
       "link": "https://github.com/bitcoin/bips/blob/master/bip-0450.mediawiki"

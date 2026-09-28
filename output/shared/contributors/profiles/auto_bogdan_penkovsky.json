@@ -4,15 +4,15 @@
   "delving_username_final": null,
   "uuid": "auto_bogdan_penkovsky",
   "badges": {
-    "is_bip_author": true,
-    "is_core_committer": false,
     "is_maintainer": false,
-    "is_sponsored": false,
+    "is_core_committer": false,
     "maintainer_status": null,
+    "is_sponsored": false,
+    "sponsor_id": null,
+    "is_bip_author": true,
     "roles": [
       "BIP Author"
-    ],
-    "sponsor_id": null
+    ]
   },
   "roles": [
     "BIP Author"
@@ -77,16 +77,16 @@
     "Mining"
   ],
   "expertise_by_source": {
-    "bips": {
-      "Consensus": 1.0
-    },
     "discussion": {
       "Mining": 1.0
+    },
+    "bips": {
+      "Consensus": 1.0
     }
   },
   "expertise_domain_scores": {
-    "Consensus": 0.7143,
-    "Mining": 0.2857
+    "Mining": 0.2857,
+    "Consensus": 0.7143
   },
   "p2016_posts": 1.0,
   "modern_posts": 0.0,

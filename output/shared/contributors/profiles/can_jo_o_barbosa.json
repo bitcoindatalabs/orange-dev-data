@@ -1,13 +1,20 @@
 {
-  "display_name": "Jo\u00e3o Barbosa",
+  "display_name": "João Barbosa",
   "github_login_final": "promag",
   "delving_username_final": null,
   "uuid": "can_jo_o_barbosa",
   "badges": {
+    "is_maintainer": false,
+    "is_core_committer": false,
+    "maintainer_status": null,
+    "is_sponsored": true,
+    "sponsor_id": null,
+    "is_bip_author": false,
+    "roles": [],
     "ecosystem_contributor": true,
     "tier2_commits": 1
   },
-  "roles": null,
+  "roles": [],
   "total_commits": 340.0,
   "authored_commits": 340.0,
   "tier1_authored_commits": 339.0,
@@ -32,9 +39,9 @@
   "modern_bips_authored": 0.0,
   "first_bip_date": null,
   "last_bip_date": null,
-  "avg_review_latency_days": 253.88417728261433,
+  "avg_review_latency_days": 308.019648216865,
   "reviews_count": 2464.0,
-  "avg_approval_latency_days": 269.9503527002547,
+  "avg_approval_latency_days": 330.9305424122767,
   "approvals_count": 1712.0,
   "tier1_reviews_count": 2459.0,
   "tier2_reviews_count": 5.0,
@@ -48,12 +55,12 @@
   "avg_pr_ack_velocity_days": 5.981990966796875,
   "avg_concept_lead_time_days": 6.371839414040906,
   "review_reciprocity": 7.724137931034483,
-  "hybrid_score": 0.6603,
-  "p2016_hybrid_score": 0.6599,
-  "modern_hybrid_score": 0.2483,
-  "impact_score": 33.0,
-  "p2016_impact_score": 33.0,
-  "modern_impact_score": 14.0,
+  "hybrid_score": 0.2839,
+  "p2016_hybrid_score": 0.2839,
+  "modern_hybrid_score": 0.1849,
+  "impact_score": 16.0,
+  "p2016_impact_score": 16.0,
+  "modern_impact_score": 11.0,
   "threads_started": 0.0,
   "replies_sent": 0.0,
   "ml_threads": 0.0,
@@ -62,27 +69,13 @@
   "delving_responses": 0.0,
   "first_active": null,
   "last_active": null,
-  "dev_type": "Builder",
+  "dev_type": "Reviewer",
   "expertise_domains": [
-    "Infrastructure",
-    "Wallet",
-    "Consensus"
+    "Infrastructure"
   ],
-  "expertise_by_source": {
-    "code": {
-      "Consensus": 0.02,
-      "Infrastructure": 0.696,
-      "Mempool": 0.0,
-      "Network": 0.013,
-      "Script": 0.006,
-      "Wallet": 0.264
-    }
-  },
+  "expertise_by_source": {},
   "expertise_domain_scores": {
-    "Consensus": 0.02,
-    "Infrastructure": 0.6967,
-    "Network": 0.013,
-    "Wallet": 0.2643
+    "Infrastructure": 1.0
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,
@@ -90,7 +83,7 @@
   "p2016_delving_posts": 0.0,
   "modern_ml_posts": 0.0,
   "modern_delving_posts": 0.0,
-  "is_engineer": true,
+  "is_engineer": false,
   "is_reviewer": true,
   "is_researcher": false,
   "is_bip_author": false,
@@ -102,7 +95,7 @@
   "github_twitter": "promag",
   "github_blog": null,
   "github_followers": 452.0,
-  "activity_status": "Active",
+  "activity_status": "Rising",
   "is_top_50": false,
   "github_url": "https://github.com/promag",
   "commit_history": {

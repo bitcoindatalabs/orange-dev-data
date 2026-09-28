@@ -1,5 +1,5 @@
 {
-  "display_name": "Vojt\u011bch Strnad",
+  "display_name": "Vojtěch Strnad",
   "github_login_final": null,
   "delving_username_final": null,
   "uuid": "auto_vojt_ch_strnad_1",
@@ -45,9 +45,9 @@
   "avg_pr_ack_velocity_days": null,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": null,
-  "hybrid_score": 0.0088,
-  "p2016_hybrid_score": 0.0134,
-  "modern_hybrid_score": 0.0379,
+  "hybrid_score": 0.0087,
+  "p2016_hybrid_score": 0.0133,
+  "modern_hybrid_score": 0.0381,
   "impact_score": 1.0,
   "p2016_impact_score": 1.0,
   "modern_impact_score": 2.0,
@@ -66,13 +66,13 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Ecosystem": 0.66,
-      "Mempool": 0.34
+      "Mempool": 0.34,
+      "Ecosystem": 0.66
     }
   },
   "expertise_domain_scores": {
-    "Ecosystem": 0.66,
-    "Mempool": 0.34
+    "Mempool": 0.34,
+    "Ecosystem": 0.66
   },
   "p2016_posts": 2.0,
   "modern_posts": 2.0,

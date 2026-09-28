@@ -4,71 +4,71 @@
   "delving_username_final": "craigraw",
   "uuid": "auto_craig_raw",
   "badges": {
-    "is_bip_author": true,
-    "is_core_committer": false,
     "is_maintainer": false,
-    "is_sponsored": false,
+    "is_core_committer": false,
     "maintainer_status": null,
+    "is_sponsored": false,
+    "sponsor_id": null,
+    "is_bip_author": true,
     "roles": [
       "BIP Author"
-    ],
-    "sponsor_id": null
+    ]
   },
   "roles": [
     "BIP Author"
   ],
-  "total_commits": 0.0,
-  "authored_commits": 0.0,
-  "tier1_authored_commits": 0.0,
+  "total_commits": 1.0,
+  "authored_commits": 1.0,
+  "tier1_authored_commits": 1.0,
   "tier2_authored_commits": 0.0,
   "merge_commits": 0.0,
-  "tier1_merge_commits": null,
-  "tier2_merge_commits": null,
+  "tier1_merge_commits": 0.0,
+  "tier2_merge_commits": 0.0,
   "self_merges": 0.0,
-  "total_additions": null,
-  "total_deletions": null,
-  "first_core_commit": null,
-  "last_core_commit": null,
+  "total_additions": 1.0,
+  "total_deletions": 1.0,
+  "first_core_commit": "2026-09-07T14:13:28+00:00",
+  "last_core_commit": "2026-09-07T14:13:28+00:00",
   "first_ecosystem_commit": null,
   "last_ecosystem_commit": null,
-  "first_commit": null,
-  "last_commit": null,
-  "p2016_authored_commits": 0.0,
-  "modern_authored_commits": 0.0,
+  "first_commit": "2026-09-07T14:13:28",
+  "last_commit": "2026-09-07T14:13:28",
+  "p2016_authored_commits": 1.0,
+  "modern_authored_commits": 1.0,
   "co_authored_commits": 0.0,
   "bips_authored": 3.0,
   "p2016_bips_authored": 3.0,
   "modern_bips_authored": 2.0,
   "first_bip_date": "2023-01-16T17:40:46",
   "last_bip_date": "2026-04-07T10:31:42",
-  "avg_review_latency_days": 1426.8481390224358,
-  "reviews_count": 21.0,
+  "avg_review_latency_days": 1298.1610981638419,
+  "reviews_count": 22.0,
   "avg_approval_latency_days": 148.73193055555555,
   "approvals_count": 4.0,
-  "tier1_reviews_count": 7.0,
+  "tier1_reviews_count": 8.0,
   "tier2_reviews_count": 14.0,
-  "p2016_reviews_count": 21.0,
-  "modern_reviews_count": 11.0,
+  "p2016_reviews_count": 22.0,
+  "modern_reviews_count": 12.0,
   "first_review_date": "2020-12-19T07:12:35",
   "last_review_date": "2026-07-29T08:16:13",
   "prs_authored": 7.0,
   "tier1_prs_authored": 1.0,
   "tier2_prs_authored": 6.0,
-  "avg_pr_ack_velocity_days": 30.01628086419753,
+  "avg_pr_ack_velocity_days": 44.91820601851852,
   "avg_concept_lead_time_days": 89.69445601851852,
-  "review_reciprocity": 3.0,
-  "hybrid_score": 0.8606,
-  "p2016_hybrid_score": 0.8883,
-  "modern_hybrid_score": 0.7676,
+  "review_reciprocity": 3.142857142857143,
+  "hybrid_score": 0.8626,
+  "p2016_hybrid_score": 0.8909,
+  "modern_hybrid_score": 0.7711,
   "impact_score": 40.0,
   "p2016_impact_score": 41.0,
   "modern_impact_score": 37.0,
-  "threads_started": 6.0,
-  "replies_sent": 25.0,
+  "threads_started": 3.0,
+  "replies_sent": 20.0,
   "ml_threads": 3.0,
-  "delving_threads": 3.0,
+  "delving_threads": 0.0,
   "ml_responses": 20.0,
-  "delving_responses": 5.0,
+  "delving_responses": 0.0,
   "first_active": "2021-01-16T00:15:27",
   "last_active": "2026-09-14T05:06:47",
   "dev_type": "Reviewer",
@@ -78,26 +78,26 @@
     "Privacy"
   ],
   "expertise_by_source": {
+    "discussion": {
+      "Wallet": 0.825,
+      "Privacy": 0.175
+    },
     "bips": {
       "Script": 0.667,
       "Wallet": 0.333
-    },
-    "discussion": {
-      "Privacy": 0.525,
-      "Wallet": 0.475
     }
   },
   "expertise_domain_scores": {
-    "Privacy": 0.15,
+    "Wallet": 0.4736,
     "Script": 0.4764,
-    "Wallet": 0.3736
+    "Privacy": 0.05
   },
-  "p2016_posts": 31.0,
-  "modern_posts": 14.0,
+  "p2016_posts": 23.0,
+  "modern_posts": 6.0,
   "p2016_ml_posts": 23.0,
-  "p2016_delving_posts": 8.0,
+  "p2016_delving_posts": 0.0,
   "modern_ml_posts": 6.0,
-  "modern_delving_posts": 8.0,
+  "modern_delving_posts": 0.0,
   "is_engineer": false,
   "is_reviewer": true,
   "is_researcher": true,
@@ -151,10 +151,11 @@
   },
   "social_history": {
     "2021": {
-      "other": 2,
+      "mining": 1,
       "multisig-threshold": 4,
       "privacy": 1,
       "taproot": 1,
+      "other": 1,
       "wallet-keys": 6
     },
     "2022": {
@@ -162,19 +163,15 @@
       "wallet-keys": 6
     },
     "2025": {
-      "silent-payments": 5,
-      "other": 1,
+      "silent-payments": 3,
+      "soft-fork-activation": 1,
       "taproot": 1,
-      "wallet-keys": 5
+      "wallet-keys": 3
     },
     "2026": {
       "multisig-threshold": 2,
-      "nostr": 6,
-      "privacy": 7,
-      "sidechains-drivechain": 6,
-      "silent-payments": 7,
-      "taproot": 6,
-      "tokens-runes": 6,
+      "privacy": 1,
+      "silent-payments": 1,
       "wallet-keys": 3
     }
   }

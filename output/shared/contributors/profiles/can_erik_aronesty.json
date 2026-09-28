@@ -29,7 +29,7 @@
   "modern_bips_authored": 0.0,
   "first_bip_date": null,
   "last_bip_date": null,
-  "avg_review_latency_days": 304.3991208526234,
+  "avg_review_latency_days": 296.5447282407407,
   "reviews_count": 14.0,
   "avg_approval_latency_days": 21.60844521604938,
   "approvals_count": 3.0,
@@ -66,13 +66,13 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Consensus": 0.364,
-      "Mining": 0.636
+      "Mining": 0.636,
+      "Consensus": 0.364
     }
   },
   "expertise_domain_scores": {
-    "Consensus": 0.364,
-    "Mining": 0.636
+    "Mining": 0.636,
+    "Consensus": 0.364
   },
   "p2016_posts": 282.0,
   "modern_posts": 52.0,

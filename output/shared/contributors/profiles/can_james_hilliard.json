@@ -4,15 +4,15 @@
   "delving_username_final": null,
   "uuid": "can_james_hilliard",
   "badges": {
-    "is_bip_author": true,
-    "is_core_committer": false,
     "is_maintainer": false,
-    "is_sponsored": false,
+    "is_core_committer": false,
     "maintainer_status": null,
+    "is_sponsored": false,
+    "sponsor_id": null,
+    "is_bip_author": true,
     "roles": [
       "BIP Author"
-    ],
-    "sponsor_id": null
+    ]
   },
   "roles": [
     "BIP Author"
@@ -41,7 +41,7 @@
   "modern_bips_authored": 0.0,
   "first_bip_date": "2017-05-22T16:26:00",
   "last_bip_date": "2017-05-22T16:26:00",
-  "avg_review_latency_days": 216.21750707304528,
+  "avg_review_latency_days": 215.76915547415547,
   "reviews_count": 33.0,
   "avg_approval_latency_days": 16.0171148989899,
   "approvals_count": 11.0,
@@ -57,11 +57,11 @@
   "avg_pr_ack_velocity_days": 5.484348544973544,
   "avg_concept_lead_time_days": 0.10553819444444446,
   "review_reciprocity": 1.65,
-  "hybrid_score": 0.6856,
-  "p2016_hybrid_score": 0.7235,
+  "hybrid_score": 0.5477,
+  "p2016_hybrid_score": 0.5866,
   "modern_hybrid_score": 0.0865,
-  "impact_score": 34.0,
-  "p2016_impact_score": 35.0,
+  "impact_score": 28.0,
+  "p2016_impact_score": 30.0,
   "modern_impact_score": 5.0,
   "threads_started": 4.0,
   "replies_sent": 43.0,
@@ -71,28 +71,23 @@
   "delving_responses": 0.0,
   "first_active": "2015-08-31T20:16:31",
   "last_active": "2021-06-28T06:28:13",
-  "dev_type": "Protocol Designer",
+  "dev_type": "Reviewer",
   "expertise_domains": [
     "Consensus",
-    "Infrastructure",
     "Mining"
   ],
   "expertise_by_source": {
+    "discussion": {
+      "Mining": 0.315,
+      "Consensus": 0.685
+    },
     "bips": {
       "Consensus": 1.0
-    },
-    "code": {
-      "Infrastructure": 1.0
-    },
-    "discussion": {
-      "Consensus": 0.685,
-      "Mining": 0.315
     }
   },
   "expertise_domain_scores": {
-    "Consensus": 0.637,
-    "Infrastructure": 0.3,
-    "Mining": 0.063
+    "Mining": 0.09,
+    "Consensus": 0.91
   },
   "p2016_posts": 44.0,
   "modern_posts": 0.0,
@@ -100,7 +95,7 @@
   "p2016_delving_posts": 0.0,
   "modern_ml_posts": 0.0,
   "modern_delving_posts": 0.0,
-  "is_engineer": true,
+  "is_engineer": false,
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": true,

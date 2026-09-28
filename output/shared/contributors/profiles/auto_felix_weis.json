@@ -29,13 +29,13 @@
   "modern_bips_authored": 0.0,
   "first_bip_date": null,
   "last_bip_date": null,
-  "avg_review_latency_days": 583.0716865079365,
-  "reviews_count": 9.0,
-  "avg_approval_latency_days": 914.0449922839507,
-  "approvals_count": 2.0,
-  "tier1_reviews_count": 5.0,
+  "avg_review_latency_days": 560.9753708964646,
+  "reviews_count": 11.0,
+  "avg_approval_latency_days": 1046.3220177469136,
+  "approvals_count": 3.0,
+  "tier1_reviews_count": 7.0,
   "tier2_reviews_count": 4.0,
-  "p2016_reviews_count": 9.0,
+  "p2016_reviews_count": 11.0,
   "modern_reviews_count": 0.0,
   "first_review_date": "2016-01-07T14:31:17",
   "last_review_date": "2021-01-14T06:48:03",
@@ -44,12 +44,12 @@
   "tier2_prs_authored": 0.0,
   "avg_pr_ack_velocity_days": 0.29116898148148146,
   "avg_concept_lead_time_days": 0.43633680555555554,
-  "review_reciprocity": 3.0,
-  "hybrid_score": 0.1878,
-  "p2016_hybrid_score": 0.1922,
+  "review_reciprocity": 3.6666666666666665,
+  "hybrid_score": 0.1006,
+  "p2016_hybrid_score": 0.1051,
   "modern_hybrid_score": 0.033,
-  "impact_score": 11.0,
-  "p2016_impact_score": 11.0,
+  "impact_score": 6.0,
+  "p2016_impact_score": 6.0,
   "modern_impact_score": 2.0,
   "threads_started": 1.0,
   "replies_sent": 1.0,
@@ -59,16 +59,13 @@
   "delving_responses": 0.0,
   "first_active": "2016-01-06T09:18:56",
   "last_active": "2017-10-01T06:22:30",
-  "dev_type": "Builder",
+  "dev_type": "Reviewer",
   "expertise_domains": [
-    "Infrastructure",
     "L2",
-    "Consensus"
+    "Consensus",
+    "Privacy"
   ],
   "expertise_by_source": {
-    "code": {
-      "Infrastructure": 1.0
-    },
     "discussion": {
       "Consensus": 0.333,
       "L2": 0.333,
@@ -76,10 +73,9 @@
     }
   },
   "expertise_domain_scores": {
-    "Consensus": 0.1333,
-    "Infrastructure": 0.6002,
-    "L2": 0.1333,
-    "Privacy": 0.1333
+    "Consensus": 0.3333,
+    "L2": 0.3333,
+    "Privacy": 0.3333
   },
   "p2016_posts": 2.0,
   "modern_posts": 0.0,
@@ -87,7 +83,7 @@
   "p2016_delving_posts": 0.0,
   "modern_ml_posts": 0.0,
   "modern_delving_posts": 0.0,
-  "is_engineer": true,
+  "is_engineer": false,
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": false,

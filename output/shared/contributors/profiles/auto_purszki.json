@@ -51,35 +51,28 @@
   "impact_score": 0.0,
   "p2016_impact_score": 0.0,
   "modern_impact_score": 0.0,
-  "threads_started": 3.0,
-  "replies_sent": 3.0,
+  "threads_started": 0.0,
+  "replies_sent": 0.0,
   "ml_threads": 0.0,
-  "delving_threads": 3.0,
+  "delving_threads": 0.0,
   "ml_responses": 0.0,
-  "delving_responses": 3.0,
+  "delving_responses": 0.0,
   "first_active": null,
   "last_active": null,
   "dev_type": "Participant",
   "expertise_domains": [
-    "Network",
-    "Privacy"
+    "Infrastructure"
   ],
-  "expertise_by_source": {
-    "discussion": {
-      "Network": 0.67,
-      "Privacy": 0.33
-    }
-  },
+  "expertise_by_source": {},
   "expertise_domain_scores": {
-    "Network": 0.67,
-    "Privacy": 0.33
+    "Infrastructure": 1.0
   },
-  "p2016_posts": 6.0,
-  "modern_posts": 6.0,
+  "p2016_posts": 0.0,
+  "modern_posts": 0.0,
   "p2016_ml_posts": 0.0,
-  "p2016_delving_posts": 6.0,
+  "p2016_delving_posts": 0.0,
   "modern_ml_posts": 0.0,
-  "modern_delving_posts": 6.0,
+  "modern_delving_posts": 0.0,
   "is_engineer": false,
   "is_reviewer": false,
   "is_researcher": false,
@@ -94,23 +87,5 @@
   "github_followers": null,
   "activity_status": "",
   "is_top_50": false,
-  "delving_url": "https://delvingbitcoin.org/u/purszki",
-  "first_message": {
-    "source": "delving",
-    "subject": "Binary Fuse filters as an alternative to BIP 158 GCS",
-    "date": "2026-04-19",
-    "link": "https://delvingbitcoin.org/t/binary-fuse-filters-as-an-alternative-to-bip-158-gcs/2428/1"
-  },
-  "last_message": {
-    "source": "delving",
-    "subject": "Re: Binary Fuse filters as an alternative to BIP 158 GCS",
-    "date": "2026-05-25",
-    "link": "https://delvingbitcoin.org/t/binary-fuse-filters-as-an-alternative-to-bip-158-gcs/2428/9"
-  },
-  "social_history": {
-    "2026": {
-      "p2p-network": 6,
-      "privacy": 6
-    }
-  }
+  "delving_url": "https://delvingbitcoin.org/u/purszki"
 }

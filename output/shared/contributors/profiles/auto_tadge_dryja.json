@@ -45,20 +45,20 @@
   "avg_pr_ack_velocity_days": null,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": null,
-  "hybrid_score": 0.0293,
-  "p2016_hybrid_score": 0.053,
-  "modern_hybrid_score": 0.1148,
+  "hybrid_score": 0.03,
+  "p2016_hybrid_score": 0.0546,
+  "modern_hybrid_score": 0.1242,
   "impact_score": 2.0,
   "p2016_impact_score": 3.0,
   "modern_impact_score": 7.0,
-  "threads_started": 6.0,
+  "threads_started": 4.0,
   "replies_sent": 8.0,
   "ml_threads": 4.0,
-  "delving_threads": 2.0,
+  "delving_threads": 0.0,
   "ml_responses": 8.0,
   "delving_responses": 0.0,
   "first_active": "2016-09-21T17:45:55",
-  "last_active": null,
+  "last_active": "2025-11-02T12:47:37",
   "dev_type": "Participant",
   "expertise_domains": [
     "Cryptography",
@@ -67,28 +67,28 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Consensus": 0.244,
-      "Cryptography": 0.463,
-      "Privacy": 0.293
+      "Consensus": 0.235,
+      "Privacy": 0.294,
+      "Cryptography": 0.471
     }
   },
   "expertise_domain_scores": {
-    "Consensus": 0.244,
-    "Cryptography": 0.463,
-    "Privacy": 0.293
+    "Consensus": 0.235,
+    "Privacy": 0.294,
+    "Cryptography": 0.471
   },
-  "p2016_posts": 14.0,
-  "modern_posts": 7.0,
+  "p2016_posts": 12.0,
+  "modern_posts": 5.0,
   "p2016_ml_posts": 12.0,
-  "p2016_delving_posts": 2.0,
+  "p2016_delving_posts": 0.0,
   "modern_ml_posts": 5.0,
-  "modern_delving_posts": 2.0,
+  "modern_delving_posts": 0.0,
   "is_engineer": false,
   "is_reviewer": false,
   "is_researcher": true,
   "is_bip_author": false,
   "global_first_active": "2016-09-21T17:45:55",
-  "global_last_active": null,
+  "global_last_active": "2025-11-02T12:47:37",
   "github_location": null,
   "github_company": null,
   "github_bio": null,
@@ -106,41 +106,35 @@
     "link": "https://gnusha.org/pi/bitcoindev/CAKEeUhjisp8qdXDNz3C+pB1MUTfvmHZPmsE-f0DVTxnph6NmMQ@mail.gmail.com"
   },
   "last_message": {
-    "source": "delving",
-    "subject": "New Utreexo releases",
-    "date": "2026-04-03",
-    "link": "https://delvingbitcoin.org/t/new-utreexo-releases/2371/1"
+    "source": "mailing_list",
+    "subject": "Re: [bitcoindev] OP_CIV - Post-Quantum Signature Aggregation",
+    "date": "2025-11-02",
+    "link": "https://gnusha.org/pi/bitcoindev/CAKEeUhhagHCBCd+dgddq8xG4285u_2Li0vKLxvVsdQkGH3gL-w@mail.gmail.com"
   },
   "social_history": {
     "2016": {
       "data-structures": 1,
+      "lightning": 1,
       "other": 2,
-      "script-opcodes": 1,
       "soft-fork-activation": 1
     },
     "2017": {
-      "mempool-fees": 1,
+      "other": 2,
       "p2p-network": 2,
       "privacy": 2,
-      "other": 3
+      "taproot": 2
     },
     "2023": {
       "privacy": 1,
       "scaling": 1
     },
     "2024": {
-      "other": 3,
-      "mempool-fees": 1,
-      "script-opcodes": 1,
+      "other": 1,
       "soft-fork-activation": 1
     },
     "2025": {
       "quantum": 4,
       "scaling": 1
-    },
-    "2026": {
-      "data-structures": 1,
-      "other": 1
     }
   }
 }

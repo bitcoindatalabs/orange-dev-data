@@ -45,7 +45,7 @@
   "avg_pr_ack_velocity_days": null,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": null,
-  "hybrid_score": 0.0065,
+  "hybrid_score": 0.0066,
   "p2016_hybrid_score": 0.0099,
   "modern_hybrid_score": 0.0271,
   "impact_score": 0.0,
@@ -66,13 +66,13 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Cryptography": 0.5,
-      "Mempool": 0.5
+      "Mempool": 0.5,
+      "Cryptography": 0.5
     }
   },
   "expertise_domain_scores": {
-    "Cryptography": 0.5,
-    "Mempool": 0.5
+    "Mempool": 0.5,
+    "Cryptography": 0.5
   },
   "p2016_posts": 3.0,
   "modern_posts": 3.0,

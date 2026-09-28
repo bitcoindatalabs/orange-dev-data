@@ -45,9 +45,9 @@
   "avg_pr_ack_velocity_days": null,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": null,
-  "hybrid_score": 0.3566,
-  "p2016_hybrid_score": 0.3601,
-  "modern_hybrid_score": 0.3789,
+  "hybrid_score": 0.3567,
+  "p2016_hybrid_score": 0.3602,
+  "modern_hybrid_score": 0.3799,
   "impact_score": 19.0,
   "p2016_impact_score": 19.0,
   "modern_impact_score": 20.0,
@@ -65,16 +65,16 @@
     "Wallet"
   ],
   "expertise_by_source": {
-    "bips": {
-      "Script": 1.0
-    },
     "discussion": {
       "Wallet": 1.0
+    },
+    "bips": {
+      "Script": 1.0
     }
   },
   "expertise_domain_scores": {
-    "Script": 0.7143,
-    "Wallet": 0.2857
+    "Wallet": 0.2857,
+    "Script": 0.7143
   },
   "p2016_posts": 2.0,
   "modern_posts": 2.0,

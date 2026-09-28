@@ -1,5 +1,5 @@
 {
-  "display_name": "Ond\u0159ej Vejpustek",
+  "display_name": "Ondřej Vejpustek",
   "github_login_final": null,
   "delving_username_final": null,
   "uuid": "auto_ond_ej_vejpustek",
@@ -45,8 +45,8 @@
   "avg_pr_ack_velocity_days": null,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": null,
-  "hybrid_score": 0.0125,
-  "p2016_hybrid_score": 0.0208,
+  "hybrid_score": 0.0126,
+  "p2016_hybrid_score": 0.0211,
   "modern_hybrid_score": 0.0,
   "impact_score": 1.0,
   "p2016_impact_score": 1.0,
@@ -67,14 +67,14 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Consensus": 0.17,
       "Mining": 0.75,
+      "Consensus": 0.17,
       "Wallet": 0.08
     }
   },
   "expertise_domain_scores": {
-    "Consensus": 0.17,
     "Mining": 0.75,
+    "Consensus": 0.17,
     "Wallet": 0.08
   },
   "p2016_posts": 5.0,

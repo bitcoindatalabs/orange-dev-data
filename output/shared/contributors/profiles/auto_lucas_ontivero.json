@@ -48,11 +48,11 @@
   "avg_pr_ack_velocity_days": 0.4067824074074074,
   "avg_concept_lead_time_days": 0.7687962962962963,
   "review_reciprocity": 3.25,
-  "hybrid_score": 0.2251,
-  "p2016_hybrid_score": 0.228,
+  "hybrid_score": 0.1129,
+  "p2016_hybrid_score": 0.116,
   "modern_hybrid_score": 0.0396,
-  "impact_score": 13.0,
-  "p2016_impact_score": 13.0,
+  "impact_score": 7.0,
+  "p2016_impact_score": 7.0,
   "modern_impact_score": 2.0,
   "threads_started": 0.0,
   "replies_sent": 7.0,
@@ -62,18 +62,13 @@
   "delving_responses": 0.0,
   "first_active": "2017-03-29T23:50:54",
   "last_active": "2023-09-08T10:07:11",
-  "dev_type": "Builder",
+  "dev_type": "Reviewer",
   "expertise_domains": [
-    "Network",
     "Privacy",
-    "Wallet"
+    "Consensus",
+    "Ecosystem"
   ],
   "expertise_by_source": {
-    "code": {
-      "Infrastructure": 0.167,
-      "Network": 0.5,
-      "Wallet": 0.333
-    },
     "discussion": {
       "Consensus": 0.274,
       "Ecosystem": 0.178,
@@ -81,12 +76,9 @@
     }
   },
   "expertise_domain_scores": {
-    "Consensus": 0.1096,
-    "Ecosystem": 0.0712,
-    "Infrastructure": 0.1002,
-    "Network": 0.3,
-    "Privacy": 0.2192,
-    "Wallet": 0.1998
+    "Consensus": 0.274,
+    "Ecosystem": 0.178,
+    "Privacy": 0.548
   },
   "p2016_posts": 7.0,
   "modern_posts": 0.0,
@@ -94,13 +86,13 @@
   "p2016_delving_posts": 0.0,
   "modern_ml_posts": 0.0,
   "modern_delving_posts": 0.0,
-  "is_engineer": true,
+  "is_engineer": false,
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": false,
   "global_first_active": "2015-07-15T04:26:33",
   "global_last_active": "2023-09-08T10:07:11",
-  "github_location": "C\u00f3rdoba, Argentina",
+  "github_location": "Córdoba, Argentina",
   "github_company": null,
   "github_bio": null,
   "github_twitter": "lontivero",

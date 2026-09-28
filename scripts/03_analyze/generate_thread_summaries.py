@@ -75,8 +75,10 @@ def run_thread_summarizer():
     df = pd.read_parquet(SOCIAL_THREADS_INPUT)
     df['date'] = pd.to_datetime(df['date'])
     
-    # Enforce T-1 boundary
-    t1_end = (datetime.now() - pd.Timedelta(days=1)).replace(hour=23, minute=59, second=59)
+    # Enforce weekly boundary
+    from scripts.utils.twib_data import get_week_close_timestamp
+    _anchor = get_week_close_timestamp()
+    t1_end = _anchor.tz_localize(None) if _anchor.tzinfo else _anchor
     df = df[df['date'] <= t1_end]
 
     # Find threads with activity in the last 30 days

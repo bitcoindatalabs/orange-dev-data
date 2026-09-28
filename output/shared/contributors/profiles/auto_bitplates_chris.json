@@ -1,5 +1,5 @@
 {
-  "display_name": "BitPLATES\u00ae (Chris)",
+  "display_name": "BitPLATES® (Chris)",
   "github_login_final": null,
   "delving_username_final": null,
   "uuid": "auto_bitplates_chris",
@@ -45,8 +45,8 @@
   "avg_pr_ack_velocity_days": null,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": null,
-  "hybrid_score": 0.0216,
-  "p2016_hybrid_score": 0.0337,
+  "hybrid_score": 0.0217,
+  "p2016_hybrid_score": 0.0338,
   "modern_hybrid_score": 0.0,
   "impact_score": 1.0,
   "p2016_impact_score": 2.0,
@@ -67,15 +67,15 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Cryptography": 0.17,
       "Mempool": 0.08,
-      "Wallet": 0.75
+      "Wallet": 0.75,
+      "Cryptography": 0.17
     }
   },
   "expertise_domain_scores": {
-    "Cryptography": 0.17,
     "Mempool": 0.08,
-    "Wallet": 0.75
+    "Wallet": 0.75,
+    "Cryptography": 0.17
   },
   "p2016_posts": 5.0,
   "modern_posts": 0.0,

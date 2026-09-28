@@ -45,7 +45,7 @@
   "avg_pr_ack_velocity_days": null,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": null,
-  "hybrid_score": 0.015,
+  "hybrid_score": 0.0151,
   "p2016_hybrid_score": 0.01,
   "modern_hybrid_score": 0.0,
   "impact_score": 1.0,
@@ -68,14 +68,14 @@
   "expertise_by_source": {
     "discussion": {
       "Consensus": 0.333,
-      "Ecosystem": 0.333,
-      "Wallet": 0.333
+      "Wallet": 0.333,
+      "Ecosystem": 0.333
     }
   },
   "expertise_domain_scores": {
     "Consensus": 0.3333,
-    "Ecosystem": 0.3333,
-    "Wallet": 0.3333
+    "Wallet": 0.3333,
+    "Ecosystem": 0.3333
   },
   "p2016_posts": 4.0,
   "modern_posts": 0.0,

@@ -1,5 +1,5 @@
 {
-  "display_name": "Jakob R\u00f6nnb\u00e4ck",
+  "display_name": "Jakob Rönnbäck",
   "github_login_final": null,
   "delving_username_final": null,
   "uuid": "auto_jakob_r_nnb_ck",
@@ -66,13 +66,13 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Consensus": 0.89,
-      "Mining": 0.11
+      "Mining": 0.11,
+      "Consensus": 0.89
     }
   },
   "expertise_domain_scores": {
-    "Consensus": 0.89,
-    "Mining": 0.11
+    "Mining": 0.11,
+    "Consensus": 0.89
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,

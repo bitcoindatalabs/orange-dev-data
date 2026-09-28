@@ -3,6 +3,11 @@ import json
 import os
 import sys
 
+try:
+    sys.stdout.reconfigure(encoding='utf-8', errors='replace')
+except Exception:
+    pass
+
 sys.path.append(os.getcwd())
 from scripts.utils.identity import resolver
 
@@ -30,7 +35,7 @@ class SponsorLookup:
         if not os.path.exists(SPONSORS_FILE):
             print(f"Warning: {SPONSORS_FILE} not found. Using fallback heuristics.")
             return cls._instance
-        with open(SPONSORS_FILE, "r") as f:
+        with open(SPONSORS_FILE, "r", encoding='utf-8') as f:
             data = json.load(f)
         for s in data.get("sponsors", []):
             cls._sponsors[s["id"]] = s
@@ -229,7 +234,7 @@ class MaintainerLookup:
         if not os.path.exists(path):
             print("Warning: maintainers.json not found.")
             return
-        with open(path, "r") as f:
+        with open(path, "r", encoding='utf-8') as f:
             data = json.load(f)
         for m in data.get("maintainers", []):
             for email in m.get("emails", []):
@@ -287,7 +292,7 @@ def resolve_commits():
     # Load profile metadata for company enrichment
     gh_profiles = {}
     if os.path.exists(GITHUB_PROFILES_FILE):
-        with open(GITHUB_PROFILES_FILE) as f:
+        with open(GITHUB_PROFILES_FILE, "r", encoding='utf-8') as f:
             gh_data = json.load(f)
             for profile in gh_data.get("profiles", {}).values():
                 if profile.get("login"):
@@ -324,7 +329,7 @@ def resolve_commits():
     identities_path = "metadata/identities.json"
     id_to_company = {}
     if os.path.exists(identities_path):
-        with open(identities_path, "r") as f:
+        with open(identities_path, "r", encoding='utf-8') as f:
             identities_data = json.load(f).get("identities", [])
             for identity in identities_data:
                 login = identity.get("platforms", {}).get("github")

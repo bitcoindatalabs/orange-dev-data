@@ -1,39 +1,39 @@
 {
-  "generated_at": "2026-09-26T21:45:01.002752",
+  "generated_at": "2026-09-27",
   "groups": {
-    "committers": 1181,
-    "reviewers": 5131,
-    "research": 1697,
-    "standards": 158,
-    "total_active": 6494,
-    "total_registry": 7632
+    "committers": 1216,
+    "reviewers": 5138,
+    "research": 1368,
+    "standards": 163,
+    "total_active": 6202,
+    "total_registry": 7615
   },
   "venn_4": {
-    "0001": 13,
-    "0010": 1212,
-    "0011": 24,
-    "0100": 3875,
+    "0001": 12,
+    "0010": 927,
+    "0011": 27,
+    "0100": 3866,
     "0101": 6,
-    "0110": 145,
-    "0111": 38,
-    "1000": 103,
+    "0110": 112,
+    "0111": 36,
+    "1000": 86,
     "1001": 1,
-    "1010": 9,
+    "1010": 10,
     "1011": 1,
-    "1100": 797,
+    "1100": 861,
     "1101": 2,
-    "1110": 195,
-    "1111": 73
+    "1110": 177,
+    "1111": 78
   },
   "venn_summary": {
-    "code_only": 103,
-    "review_only": 3875,
-    "research_only": 1212,
-    "standards_only": 13,
-    "all_four": 73,
-    "code_review": 797,
-    "review_research": 145,
-    "research_standards": 24
+    "code_only": 86,
+    "review_only": 3866,
+    "research_only": 927,
+    "standards_only": 12,
+    "all_four": 78,
+    "code_review": 861,
+    "review_research": 112,
+    "research_standards": 27
   },
   "rd_focus": {},
   "hotspot": {
@@ -55,16 +55,16 @@
   },
   "prs": {
     "total_merged": 17008,
-    "merged_30d": 141,
-    "merged_prev_30d": 149,
+    "merged_30d": 139,
+    "merged_prev_30d": 142,
     "merged_7d": 35,
     "merged_prev_7d": 34
   },
   "commits": {
-    "commits_30d": 676,
-    "commits_prev_30d": 1150,
-    "commits_7d": 109,
-    "commits_prev_7d": 167
+    "commits_30d": 647,
+    "commits_prev_30d": 1140,
+    "commits_7d": 103,
+    "commits_prev_7d": 161
   },
   "bips": {
     "total": 213,
@@ -76,19 +76,19 @@
         "category": "quantum",
         "label": "Quantum",
         "count": 20,
-        "share": 20.4
+        "share": 20.8
       },
       {
         "category": "taproot",
         "label": "Taproot",
         "count": 14,
-        "share": 14.3
+        "share": 14.6
       },
       {
-        "category": "core-dev",
-        "label": "Core Dev",
+        "category": "bip-process",
+        "label": "Bip Process",
         "count": 13,
-        "share": 13.3
+        "share": 13.5
       }
     ],
     "top_bips": [

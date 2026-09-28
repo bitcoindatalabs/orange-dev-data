@@ -4,6 +4,11 @@ import os
 import numpy as np
 import sys
 
+try:
+    sys.stdout.reconfigure(encoding='utf-8', errors='replace')
+except Exception:
+    pass
+
 sys.path.append(os.getcwd())
 import scripts.utils.identity 
 from scripts.utils.identity import resolver
@@ -20,7 +25,7 @@ OUTPUT_PARQUET = "data/enriched/contributors_unified.parquet"
 
 def unify():
     print("Loading Master UUID Identities...")
-    with open(IDENTITIES_JSON, 'r') as f:
+    with open(IDENTITIES_JSON, 'r', encoding='utf-8') as f:
         identities_data = json.load(f)['identities']
     
     def github_final(g):
@@ -131,7 +136,13 @@ def unify():
             df_core_reviews = pd.read_parquet(REVIEWS_PARQUET)
             df_coauth = df_core_reviews[df_core_reviews['review_type'] == 'Co-authored-by'].copy()
             if not df_coauth.empty:
-                df_coauth['canonical_id'] = df_coauth.apply(lambda r: resolver.resolve_git(r.get('reviewer_name'), r.get('reviewer_email')), axis=1)
+                df_coauth['canonical_id'] = df_coauth.apply(
+                    lambda r: resolver.resolve_git(
+                        r.get('reviewer_name') if isinstance(r.get('reviewer_name'), str) else None,
+                        r.get('reviewer_email') if isinstance(r.get('reviewer_email'), str) else None
+                    ),
+                    axis=1
+                )
                 coauth_counts = df_coauth.groupby('canonical_id').size().rename('co_authored_commits').reset_index()
                 commit_stats = commit_stats.merge(coauth_counts, on='canonical_id', how='left')
                 commit_stats['co_authored_commits'] = commit_stats['co_authored_commits'].fillna(0)
@@ -148,7 +159,7 @@ def unify():
     # 2. Discover from Social
     df_soc = pd.DataFrame(columns=['canonical_id'])
     if os.path.exists(SOCIAL_STATS_JSON):
-        with open(SOCIAL_STATS_JSON, 'r') as f:
+        with open(SOCIAL_STATS_JSON, 'r', encoding='utf-8') as f:
             soc_data = json.load(f).get('contributors', [])
         df_soc = pd.DataFrame(soc_data)
         if 'id' in df_soc.columns:
@@ -184,7 +195,7 @@ def unify():
     print("Aggregating badges.json metadata...")
     badges_data = {}
     if os.path.exists(BADGES_JSON):
-        with open(BADGES_JSON, 'r') as f:
+        with open(BADGES_JSON, 'r', encoding='utf-8') as f:
             badges_data = json.load(f)
             
     badges_rows = []
@@ -309,7 +320,7 @@ def unify():
     GITHUB_PROFILES_FILE = "metadata/github_profiles.json"
     if os.path.exists(GITHUB_PROFILES_FILE):
         print("Enriching with GitHub profile data (location, company, bio, twitter)...")
-        with open(GITHUB_PROFILES_FILE) as f:
+        with open(GITHUB_PROFILES_FILE, 'r', encoding='utf-8') as f:
             gh_prof_data = json.load(f)
         # Keyed by numeric GitHub ID, each value has a 'login' field
         gh_login_map = {
@@ -342,7 +353,7 @@ def unify():
     SOCIAL_PROFILES_FILE = "metadata/social_profiles.json"
     if os.path.exists(SOCIAL_PROFILES_FILE):
         print("Applying manual social profile overrides (Twitter/Blog)...")
-        with open(SOCIAL_PROFILES_FILE, 'r') as f:
+        with open(SOCIAL_PROFILES_FILE, 'r', encoding='utf-8') as f:
             manual_social = json.load(f).get('social_profiles', [])
             
         twitter_overrides = {}

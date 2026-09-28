@@ -45,8 +45,8 @@
   "avg_pr_ack_velocity_days": null,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": null,
-  "hybrid_score": 0.0097,
-  "p2016_hybrid_score": 0.0165,
+  "hybrid_score": 0.0099,
+  "p2016_hybrid_score": 0.0169,
   "modern_hybrid_score": 0.0,
   "impact_score": 1.0,
   "p2016_impact_score": 1.0,
@@ -67,15 +67,15 @@
   ],
   "expertise_by_source": {
     "discussion": {
+      "Mining": 0.403,
       "Consensus": 0.403,
-      "Ecosystem": 0.194,
-      "Mining": 0.403
+      "Ecosystem": 0.194
     }
   },
   "expertise_domain_scores": {
+    "Mining": 0.403,
     "Consensus": 0.403,
-    "Ecosystem": 0.194,
-    "Mining": 0.403
+    "Ecosystem": 0.194
   },
   "p2016_posts": 2.0,
   "modern_posts": 0.0,

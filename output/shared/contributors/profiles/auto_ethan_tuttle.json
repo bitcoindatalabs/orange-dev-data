@@ -51,35 +51,28 @@
   "impact_score": 2.0,
   "p2016_impact_score": 2.0,
   "modern_impact_score": 2.0,
-  "threads_started": 9.0,
-  "replies_sent": 10.0,
+  "threads_started": 0.0,
+  "replies_sent": 0.0,
   "ml_threads": 0.0,
-  "delving_threads": 9.0,
+  "delving_threads": 0.0,
   "ml_responses": 0.0,
-  "delving_responses": 10.0,
+  "delving_responses": 0.0,
   "first_active": null,
   "last_active": null,
   "dev_type": "Participant",
   "expertise_domains": [
-    "L2",
-    "Mining"
+    "Infrastructure"
   ],
-  "expertise_by_source": {
-    "discussion": {
-      "L2": 0.525,
-      "Mining": 0.475
-    }
-  },
+  "expertise_by_source": {},
   "expertise_domain_scores": {
-    "L2": 0.525,
-    "Mining": 0.475
+    "Infrastructure": 1.0
   },
-  "p2016_posts": 19.0,
-  "modern_posts": 16.0,
+  "p2016_posts": 0.0,
+  "modern_posts": 0.0,
   "p2016_ml_posts": 0.0,
-  "p2016_delving_posts": 19.0,
+  "p2016_delving_posts": 0.0,
   "modern_ml_posts": 0.0,
-  "modern_delving_posts": 16.0,
+  "modern_delving_posts": 0.0,
   "is_engineer": false,
   "is_reviewer": true,
   "is_researcher": false,
@@ -95,38 +88,5 @@
   "activity_status": "Active",
   "is_top_50": false,
   "github_url": "https://github.com/EthnTuttle",
-  "delving_url": "https://delvingbitcoin.org/u/ethntuttle",
-  "first_message": {
-    "source": "delving",
-    "subject": "Re: Thoughts on scaling and consensus changes (2023)",
-    "date": "2023-08-22",
-    "link": "https://delvingbitcoin.org/t/thoughts-on-scaling-and-consensus-changes-2023/32/2"
-  },
-  "last_message": {
-    "source": "delving",
-    "subject": "Re: Block-wide Signature Aggregation via SNARKs",
-    "date": "2026-09-16",
-    "link": "https://delvingbitcoin.org/t/block-wide-signature-aggregation-via-snarks/2875/9"
-  },
-  "social_history": {
-    "2023": {
-      "bip-process": 1,
-      "ecash": 3,
-      "mining": 1,
-      "privacy": 1,
-      "other": 1,
-      "spam-filtering": 2
-    },
-    "2024": {
-      "ecash": 11,
-      "lightning": 11,
-      "mining": 11
-    },
-    "2026": {
-      "bitvm": 1,
-      "mining": 1,
-      "quantum": 1,
-      "other": 1
-    }
-  }
+  "delving_url": "https://delvingbitcoin.org/u/ethntuttle"
 }

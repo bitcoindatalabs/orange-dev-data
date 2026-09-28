@@ -4,113 +4,102 @@
   "delving_username_final": "fjahr",
   "uuid": "can_fabian_jahr",
   "badges": {
-    "is_bip_author": true,
-    "is_core_committer": false,
     "is_maintainer": false,
-    "is_sponsored": false,
+    "is_core_committer": false,
     "maintainer_status": null,
+    "is_sponsored": true,
+    "sponsor_id": null,
+    "is_bip_author": true,
     "roles": [
       "BIP Author"
-    ],
-    "sponsor_id": null
+    ]
   },
   "roles": [
     "BIP Author"
   ],
-  "total_commits": 290.0,
-  "authored_commits": 290.0,
-  "tier1_authored_commits": 290.0,
+  "total_commits": 308.0,
+  "authored_commits": 308.0,
+  "tier1_authored_commits": 308.0,
   "tier2_authored_commits": 0.0,
   "merge_commits": 0.0,
   "tier1_merge_commits": 0.0,
   "tier2_merge_commits": 0.0,
   "self_merges": 0.0,
-  "total_additions": 9414.0,
-  "total_deletions": 3641.0,
+  "total_additions": 9747.0,
+  "total_deletions": 3828.0,
   "first_core_commit": "2019-07-24T11:18:40+00:00",
-  "last_core_commit": "2026-06-10T20:40:45+00:00",
+  "last_core_commit": "2026-09-24T21:20:33+00:00",
   "first_ecosystem_commit": null,
   "last_ecosystem_commit": null,
   "first_commit": "2019-07-24T11:18:40",
-  "last_commit": "2026-06-10T20:40:45",
-  "p2016_authored_commits": 290.0,
-  "modern_authored_commits": 168.0,
-  "co_authored_commits": 16.0,
-  "bips_authored": 1.0,
-  "p2016_bips_authored": 1.0,
-  "modern_bips_authored": 1.0,
+  "last_commit": "2026-09-24T21:20:33",
+  "p2016_authored_commits": 308.0,
+  "modern_authored_commits": 186.0,
+  "co_authored_commits": 18.0,
+  "bips_authored": 2.0,
+  "p2016_bips_authored": 2.0,
+  "modern_bips_authored": 2.0,
   "first_bip_date": "2024-05-27T16:23:06",
-  "last_bip_date": "2024-05-27T16:23:06",
-  "avg_review_latency_days": 176.85742119531443,
-  "reviews_count": 576.0,
-  "avg_approval_latency_days": 109.06465561701673,
-  "approvals_count": 498.0,
-  "tier1_reviews_count": 564.0,
+  "last_bip_date": "2026-05-08T03:49:03",
+  "avg_review_latency_days": 362.4264162265878,
+  "reviews_count": 596.0,
+  "avg_approval_latency_days": 141.30131723985892,
+  "approvals_count": 505.0,
+  "tier1_reviews_count": 584.0,
   "tier2_reviews_count": 12.0,
-  "p2016_reviews_count": 576.0,
-  "modern_reviews_count": 292.0,
+  "p2016_reviews_count": 596.0,
+  "modern_reviews_count": 312.0,
   "first_review_date": "2019-07-06T19:58:29",
-  "last_review_date": "2026-09-18T20:32:28",
-  "prs_authored": 175.0,
-  "tier1_prs_authored": 164.0,
+  "last_review_date": "2026-09-27T21:54:11",
+  "prs_authored": 182.0,
+  "tier1_prs_authored": 171.0,
   "tier2_prs_authored": 11.0,
-  "avg_pr_ack_velocity_days": 11.838197128287709,
-  "avg_concept_lead_time_days": 26.00541638088706,
-  "review_reciprocity": 3.2914285714285714,
-  "hybrid_score": 0.9814,
-  "p2016_hybrid_score": 1.0036,
-  "modern_hybrid_score": 1.067,
-  "impact_score": 45.0,
-  "p2016_impact_score": 45.0,
-  "modern_impact_score": 47.0,
-  "threads_started": 19.0,
-  "replies_sent": 28.0,
-  "ml_threads": 5.0,
-  "delving_threads": 14.0,
+  "avg_pr_ack_velocity_days": 11.780036803890221,
+  "avg_concept_lead_time_days": 25.750777297877143,
+  "review_reciprocity": 3.2747252747252746,
+  "hybrid_score": 0.8228,
+  "p2016_hybrid_score": 0.847,
+  "modern_hybrid_score": 0.9579,
+  "impact_score": 39.0,
+  "p2016_impact_score": 40.0,
+  "modern_impact_score": 44.0,
+  "threads_started": 6.0,
+  "replies_sent": 23.0,
+  "ml_threads": 6.0,
+  "delving_threads": 0.0,
   "ml_responses": 23.0,
-  "delving_responses": 5.0,
+  "delving_responses": 0.0,
   "first_active": "2023-01-14T14:34:38",
-  "last_active": null,
-  "dev_type": "Protocol Designer",
+  "last_active": "2026-09-22T04:07:05",
+  "dev_type": "Reviewer",
   "expertise_domains": [
     "Infrastructure",
-    "Consensus",
-    "Wallet"
+    "Consensus"
   ],
   "expertise_by_source": {
-    "bips": {
-      "Infrastructure": 1.0
-    },
-    "code": {
-      "Consensus": 0.073,
-      "Cryptography": 0.013,
-      "Infrastructure": 0.836,
-      "Mempool": 0.0,
-      "Network": 0.016,
-      "Script": 0.007,
-      "Wallet": 0.054
-    },
     "discussion": {
       "Consensus": 1.0
+    },
+    "bips": {
+      "Infrastructure": 1.0
     }
   },
   "expertise_domain_scores": {
-    "Consensus": 0.222,
-    "Infrastructure": 0.751,
-    "Wallet": 0.0162
+    "Infrastructure": 0.7143,
+    "Consensus": 0.2857
   },
-  "p2016_posts": 47.0,
-  "modern_posts": 44.0,
-  "p2016_ml_posts": 28.0,
-  "p2016_delving_posts": 19.0,
-  "modern_ml_posts": 25.0,
-  "modern_delving_posts": 19.0,
-  "is_engineer": true,
+  "p2016_posts": 29.0,
+  "modern_posts": 26.0,
+  "p2016_ml_posts": 29.0,
+  "p2016_delving_posts": 0.0,
+  "modern_ml_posts": 26.0,
+  "modern_delving_posts": 0.0,
+  "is_engineer": false,
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": true,
   "global_first_active": "2019-07-06T19:58:29",
-  "global_last_active": "2026-09-18T20:32:28",
+  "global_last_active": "2026-09-27T21:54:11",
   "github_location": "Berlin",
   "github_company": "Freelancer",
   "github_bio": "B45A B6D2 0861 AC21 D276  B826 F13D 1E9D 8907 98CD",
@@ -173,7 +162,7 @@
       "Build & CI": 3.67,
       "Consensus": 23.33,
       "Cryptography": 0.67,
-      "Documentation": 12.33,
+      "Documentation": 13.33,
       "GUI": 0.73,
       "Node & RPC": 26.73,
       "P2P Network": 1.0,
@@ -193,10 +182,10 @@
     "2026": {
       "Build & CI": 4.67,
       "Documentation": 7.0,
-      "Node & RPC": 20.33,
+      "Node & RPC": 21.33,
       "P2P Network": 3.67,
-      "Tests": 40.33,
-      "Utilities": 18.0
+      "Tests": 41.33,
+      "Utilities": 21.0
     }
   },
   "bip_list": [
@@ -206,6 +195,13 @@
       "status": "Deployed",
       "theme": "Other",
       "link": "https://github.com/bitcoin/bips/blob/master/bip-0094.mediawiki"
+    },
+    {
+      "number": 95,
+      "title": "Testnet 5",
+      "status": "Draft",
+      "theme": "Other",
+      "link": "https://github.com/bitcoin/bips/blob/master/bip-0095.mediawiki"
     }
   ],
   "first_message": {
@@ -215,43 +211,30 @@
     "link": "https://gnusha.org/pi/bitcoindev/MP0sjW-onVrtLWZxABUP2ywxGEXWAqm-UEZbHVG4nTt9fkdiz9qrCW7mXj1Rwhug_U0aQIeRPGnlYO15ZWH4SKHiv2w-Or-fHbtrR8vJjAo=@protonmail.com"
   },
   "last_message": {
-    "source": "delving",
-    "subject": "Re: PQC output type discussion",
-    "date": "2026-09-17",
-    "link": "https://delvingbitcoin.org/t/pqc-output-type-discussion/2749/34"
+    "source": "mailing_list",
+    "subject": "[bitcoindev] Convention for tagged hash tags in BIPs",
+    "date": "2026-09-22",
+    "link": "https://gnusha.org/pi/bitcoindev/dxapm4DOcrDL6_oCYSqBAdFP0fAQA9IHInRzzTuCeWVYD2Xd0ynPsTa8hYEcRFOYQPnvoQK15TtK6oAZBfa-4b5DbIuFemSFGVifxGTLOlc=@protonmail.com"
   },
   "social_history": {
     "2023": {
       "other": 5,
-      "mempool-fees": 1,
+      "soft-fork-activation": 1,
       "utxo-sync": 2
     },
     "2024": {
-      "other": 5,
-      "core-dev": 4,
-      "mempool-fees": 1,
+      "other": 2,
+      "soft-fork-activation": 2,
       "testing-devtools": 4
     },
-    "2025": {
-      "core-dev": 1,
-      "other": 16,
-      "mempool-fees": 2,
-      "privacy": 1,
-      "quantum": 2,
-      "scaling": 1,
-      "taproot": 1,
-      "utxo-sync": 1
-    },
     "2026": {
-      "other": 25,
-      "core-dev": 1,
-      "mempool-fees": 5,
-      "privacy": 6,
-      "quantum": 5,
-      "scaling": 9,
-      "taproot": 13,
-      "testing-devtools": 6,
-      "utxo-sync": 13
+      "other": 6,
+      "p2p-network": 3,
+      "scaling": 4,
+      "signatures-sighash": 3,
+      "taproot": 7,
+      "testing-devtools": 1,
+      "utxo-sync": 8
     }
   }
 }

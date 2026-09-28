@@ -4,6 +4,11 @@ import os
 import time
 from pathlib import Path
 
+try:
+    sys.stdout.reconfigure(encoding='utf-8', errors='replace')
+except Exception:
+    pass
+
 # Add project root to path to allow importing utils
 root_dir = Path(__file__).resolve().parents[2]
 if str(root_dir) not in sys.path:
@@ -33,19 +38,19 @@ def main():
     # 2. Load Static Badges
     badges_map = {}
     if os.path.exists(BADGES_PATH):
-        with open(BADGES_PATH, 'r') as f:
+        with open(BADGES_PATH, 'r', encoding='utf-8') as f:
             badges_map = json.load(f)
 
     # 3. Load Fresh Builds (Discovery Data)
     discovered_people = []
     if os.path.exists(RICH_CONTRIBUTORS_PATH):
-        with open(RICH_CONTRIBUTORS_PATH, 'r') as f:
+        with open(RICH_CONTRIBUTORS_PATH, 'r', encoding='utf-8') as f:
             discovered_people = json.load(f)
             
     # 3b. Load Social Discovery (Researchers/Reviewers)
     social_people = []
     if os.path.exists(SOCIAL_STATS_PATH):
-        with open(SOCIAL_STATS_PATH, 'r') as f:
+        with open(SOCIAL_STATS_PATH, 'r', encoding='utf-8') as f:
             social_people = json.load(f).get('contributors', [])
 
 
@@ -181,8 +186,8 @@ def main():
     registry["total_tracked"] = len(registry["contributors"])
 
     os.makedirs(os.path.dirname(REGISTRY_PATH), exist_ok=True)
-    with open(REGISTRY_PATH, 'w') as f:
-        json.dump(registry, f, indent=2)
+    with open(REGISTRY_PATH, 'w', encoding='utf-8') as f:
+        json.dump(registry, f, indent=2, ensure_ascii=False)
 
     print(f"✨ Registry Sync Complete! Tracked {registry['total_tracked']} unique contributors.")
 

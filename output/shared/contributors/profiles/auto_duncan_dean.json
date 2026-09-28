@@ -48,39 +48,35 @@
   "avg_pr_ack_velocity_days": 0.6441435185185185,
   "avg_concept_lead_time_days": 1.3423495370370369,
   "review_reciprocity": 17.0,
-  "hybrid_score": 0.3192,
-  "p2016_hybrid_score": 0.3192,
-  "modern_hybrid_score": 0.073,
-  "impact_score": 17.0,
-  "p2016_impact_score": 17.0,
-  "modern_impact_score": 4.0,
-  "threads_started": 1.0,
+  "hybrid_score": 0.1435,
+  "p2016_hybrid_score": 0.1435,
+  "modern_hybrid_score": 0.033,
+  "impact_score": 8.0,
+  "p2016_impact_score": 8.0,
+  "modern_impact_score": 2.0,
+  "threads_started": 0.0,
   "replies_sent": 0.0,
   "ml_threads": 0.0,
-  "delving_threads": 1.0,
+  "delving_threads": 0.0,
   "ml_responses": 0.0,
   "delving_responses": 0.0,
   "first_active": null,
   "last_active": null,
-  "dev_type": "Builder",
+  "dev_type": "Reviewer",
   "expertise_domains": [
     "Infrastructure"
   ],
-  "expertise_by_source": {
-    "code": {
-      "Infrastructure": 1.0
-    }
-  },
+  "expertise_by_source": {},
   "expertise_domain_scores": {
     "Infrastructure": 1.0
   },
-  "p2016_posts": 1.0,
-  "modern_posts": 1.0,
+  "p2016_posts": 0.0,
+  "modern_posts": 0.0,
   "p2016_ml_posts": 0.0,
-  "p2016_delving_posts": 1.0,
+  "p2016_delving_posts": 0.0,
   "modern_ml_posts": 0.0,
-  "modern_delving_posts": 1.0,
-  "is_engineer": true,
+  "modern_delving_posts": 0.0,
+  "is_engineer": false,
   "is_reviewer": true,
   "is_researcher": false,
   "is_bip_author": false,
@@ -111,23 +107,6 @@
     },
     "2023": {
       "Build & CI": 1.0
-    }
-  },
-  "first_message": {
-    "source": "delving",
-    "subject": "Re: TCP hole punching for Bitcoin nodes behind home NATs?",
-    "date": "2026-05-11",
-    "link": "https://delvingbitcoin.org/t/tcp-hole-punching-for-bitcoin-nodes-behind-home-nats/2497/5"
-  },
-  "last_message": {
-    "source": "delving",
-    "subject": "Re: TCP hole punching for Bitcoin nodes behind home NATs?",
-    "date": "2026-05-11",
-    "link": "https://delvingbitcoin.org/t/tcp-hole-punching-for-bitcoin-nodes-behind-home-nats/2497/5"
-  },
-  "social_history": {
-    "2026": {
-      "core-dev": 1
     }
   }
 }

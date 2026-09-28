@@ -125,11 +125,12 @@ class IdentityResolver:
         return self._mint_stateless_uuid(handle)
         
     def resolve_git(self, name, email=None):
-        if email:
-            lookup = f"email:{email.lower()}"
+        clean_email = email.strip() if (email and isinstance(email, str)) else None
+        if clean_email:
+            lookup = f"email:{clean_email.lower()}"
             if lookup in self._uuid_map:
                 return self._uuid_map[lookup]
-            noreply_login = self._extract_noreply_login(email)
+            noreply_login = self._extract_noreply_login(clean_email)
             if noreply_login:
                 github_lookup = f"github:{noreply_login.lower()}"
                 if github_lookup in self._uuid_map:
@@ -138,8 +139,8 @@ class IdentityResolver:
                 if name_lookup in self._uuid_map:
                     return self._uuid_map[name_lookup]
 
-        if name:
-            clean_name = name
+        clean_name = name.strip() if (name and isinstance(name, str)) else None
+        if clean_name:
             if " via " in clean_name:
                 clean_name = clean_name.split(" via ")[0]
             clean_name = re.sub(r'\[.*?\]', '', clean_name)
@@ -156,6 +157,7 @@ class IdentityResolver:
                     if email_lookup in self._uuid_map:
                         return self._uuid_map[email_lookup]
 
-        return self._mint_stateless_uuid(email if email else name)
+        fallback_id = clean_email if clean_email else (clean_name if clean_name else "unknown")
+        return self._mint_stateless_uuid(fallback_id)
 
 resolver = IdentityResolver()

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28T02:45:29.852489+00:00",
+  "generated_at": "2026-09-28T03:23:04.195039+00:00",
   "self_merges": [
     {
       "maintainer_id": "can_michael_ford",
@@ -18839,7 +18839,7 @@
       "repository": "bitcoin/bitcoin",
       "pr_number": 7815,
       "url": "https://github.com/bitcoin/bitcoin/pull/7815",
-      "title": "Break circular dependency main \u2194 txdb",
+      "title": "Break circular dependency main ↔ txdb",
       "merged_at": "2016-05-06T08:03:20+00:00",
       "ack_count": 4,
       "category": "Administrative Merge"
@@ -22975,7 +22975,7 @@
       "repository": "bitcoin/bitcoin",
       "pr_number": 4102,
       "url": "https://github.com/bitcoin/bitcoin/pull/4102",
-      "title": "rpc: Use netmasks instead of wildcards for IP address matching \u2026 ",
+      "title": "rpc: Use netmasks instead of wildcards for IP address matching … ",
       "merged_at": "2014-05-09T15:26:52+00:00",
       "ack_count": 2,
       "category": "Light Review"
@@ -26319,7 +26319,7 @@
       "repository": "bitcoin/bitcoin",
       "pr_number": 1444,
       "url": "https://github.com/bitcoin/bitcoin/pull/1444",
-      "title": "Cross-platform \u201cOpen debug logfile\u201d",
+      "title": "Cross-platform “Open debug logfile”",
       "merged_at": "2012-06-13T06:56:14+00:00",
       "ack_count": 1,
       "category": "Light Review"

@@ -4,15 +4,15 @@
   "delving_username_final": "rubensomsen",
   "uuid": "can_ruben_somsen",
   "badges": {
-    "is_bip_author": true,
-    "is_core_committer": false,
     "is_maintainer": false,
-    "is_sponsored": false,
+    "is_core_committer": false,
     "maintainer_status": null,
+    "is_sponsored": false,
+    "sponsor_id": null,
+    "is_bip_author": true,
     "roles": [
       "BIP Author"
-    ],
-    "sponsor_id": null
+    ]
   },
   "roles": [
     "BIP Author"
@@ -57,44 +57,47 @@
   "avg_pr_ack_velocity_days": null,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": null,
-  "hybrid_score": 0.7794,
-  "p2016_hybrid_score": 0.8762,
-  "modern_hybrid_score": 0.9686,
-  "impact_score": 37.0,
-  "p2016_impact_score": 41.0,
-  "modern_impact_score": 44.0,
-  "threads_started": 25.0,
-  "replies_sent": 80.0,
+  "hybrid_score": 0.7539,
+  "p2016_hybrid_score": 0.8344,
+  "modern_hybrid_score": 0.8274,
+  "impact_score": 36.0,
+  "p2016_impact_score": 39.0,
+  "modern_impact_score": 39.0,
+  "threads_started": 12.0,
+  "replies_sent": 76.0,
   "ml_threads": 12.0,
-  "delving_threads": 13.0,
+  "delving_threads": 0.0,
   "ml_responses": 76.0,
-  "delving_responses": 4.0,
+  "delving_responses": 0.0,
   "first_active": "2018-09-01T12:26:54",
-  "last_active": null,
+  "last_active": "2026-01-13T18:06:48",
   "dev_type": "Reviewer",
   "expertise_domains": [
     "Privacy",
-    "Infrastructure"
+    "Infrastructure",
+    "L2"
   ],
   "expertise_by_source": {
+    "discussion": {
+      "L2": 0.63,
+      "Privacy": 0.37
+    },
     "bips": {
       "Infrastructure": 0.5,
       "Privacy": 0.5
-    },
-    "discussion": {
-      "Privacy": 1.0
     }
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.3571,
-    "Privacy": 0.6429
+    "L2": 0.18,
+    "Privacy": 0.4629
   },
-  "p2016_posts": 105.0,
-  "modern_posts": 22.0,
+  "p2016_posts": 88.0,
+  "modern_posts": 9.0,
   "p2016_ml_posts": 88.0,
-  "p2016_delving_posts": 17.0,
+  "p2016_delving_posts": 0.0,
   "modern_ml_posts": 9.0,
-  "modern_delving_posts": 13.0,
+  "modern_delving_posts": 0.0,
   "is_engineer": false,
   "is_reviewer": true,
   "is_researcher": true,
@@ -134,10 +137,10 @@
     "link": "https://gnusha.org/pi/bitcoindev/CAPv7TjbnsqHwW=Oj7n_WJFR4vp1ND78NgV0=Ftj5doNuKOxLCg@mail.gmail.com"
   },
   "last_message": {
-    "source": "delving",
-    "subject": "Re: Fountain Codes: a way to reduce blockchain storage costs",
-    "date": "2026-06-26",
-    "link": "https://delvingbitcoin.org/t/fountain-codes-a-way-to-reduce-blockchain-storage-costs/2624/11"
+    "source": "mailing_list",
+    "subject": "Re: [bitcoindev] Follow-up regarding Motion to Activate BIP 3",
+    "date": "2026-01-13",
+    "link": "https://gnusha.org/pi/bitcoindev/CAPv7TjZjhG4UiG6U1-ktSAFYjwQ4zwyCAws5QqCzz1=tGujN1w@mail.gmail.com"
   },
   "social_history": {
     "2018": {
@@ -150,48 +153,39 @@
       "other": 14,
       "l2-bridges": 4,
       "mining": 3,
-      "utxo-sync": 2
+      "sidechains-drivechain": 2
     },
     "2020": {
       "atomic-swaps": 12,
       "bitvm": 3,
-      "other": 17,
+      "other": 14,
       "l2-bridges": 6,
       "mining": 3,
       "privacy": 7,
+      "sidechains-drivechain": 3,
       "taproot": 2
     },
     "2021": {
-      "other": 16,
+      "other": 15,
       "mining": 3,
-      "taproot": 2,
-      "utxo-sync": 1
+      "sidechains-drivechain": 2,
+      "taproot": 2
     },
     "2022": {
-      "other": 28,
+      "other": 25,
       "mining": 1,
       "privacy": 5,
       "taproot": 5
     },
     "2023": {
       "bitvm": 1,
-      "other": 4,
-      "privacy": 1
-    },
-    "2024": {
-      "other": 5,
-      "l2-bridges": 1,
-      "taproot": 2
+      "sidechains-drivechain": 2
     },
     "2025": {
-      "other": 7,
-      "utxo-sync": 12
+      "other": 12
     },
     "2026": {
-      "other": 14,
-      "mining": 1,
-      "privacy": 2,
-      "taproot": 3
+      "other": 1
     }
   }
 }

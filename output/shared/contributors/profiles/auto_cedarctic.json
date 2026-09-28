@@ -51,32 +51,28 @@
   "impact_score": 0.0,
   "p2016_impact_score": 0.0,
   "modern_impact_score": 0.0,
-  "threads_started": 2.0,
-  "replies_sent": 3.0,
+  "threads_started": 0.0,
+  "replies_sent": 0.0,
   "ml_threads": 0.0,
-  "delving_threads": 2.0,
+  "delving_threads": 0.0,
   "ml_responses": 0.0,
-  "delving_responses": 3.0,
+  "delving_responses": 0.0,
   "first_active": null,
   "last_active": null,
   "dev_type": "Participant",
   "expertise_domains": [
-    "Network"
+    "Infrastructure"
   ],
-  "expertise_by_source": {
-    "discussion": {
-      "Network": 1.0
-    }
-  },
+  "expertise_by_source": {},
   "expertise_domain_scores": {
-    "Network": 1.0
+    "Infrastructure": 1.0
   },
-  "p2016_posts": 5.0,
-  "modern_posts": 5.0,
+  "p2016_posts": 0.0,
+  "modern_posts": 0.0,
   "p2016_ml_posts": 0.0,
-  "p2016_delving_posts": 5.0,
+  "p2016_delving_posts": 0.0,
   "modern_ml_posts": 0.0,
-  "modern_delving_posts": 5.0,
+  "modern_delving_posts": 0.0,
   "is_engineer": false,
   "is_reviewer": false,
   "is_researcher": false,
@@ -91,26 +87,5 @@
   "github_followers": null,
   "activity_status": "",
   "is_top_50": false,
-  "delving_url": "https://delvingbitcoin.org/u/cedarctic",
-  "first_message": {
-    "source": "delving",
-    "subject": "Eclipsing Bitcoin Nodes with BGP Interception Attacks",
-    "date": "2025-09-04",
-    "link": "https://delvingbitcoin.org/t/eclipsing-bitcoin-nodes-with-bgp-interception-attacks/1965/1"
-  },
-  "last_message": {
-    "source": "delving",
-    "subject": "Re: TCP hole punching for Bitcoin nodes behind home NATs?",
-    "date": "2026-05-12",
-    "link": "https://delvingbitcoin.org/t/tcp-hole-punching-for-bitcoin-nodes-behind-home-nats/2497/8"
-  },
-  "social_history": {
-    "2025": {
-      "p2p-network": 4,
-      "security": 4
-    },
-    "2026": {
-      "core-dev": 1
-    }
-  }
+  "delving_url": "https://delvingbitcoin.org/u/cedarctic"
 }

@@ -51,32 +51,28 @@
   "impact_score": 0.0,
   "p2016_impact_score": 0.0,
   "modern_impact_score": 0.0,
-  "threads_started": 1.0,
+  "threads_started": 0.0,
   "replies_sent": 0.0,
   "ml_threads": 0.0,
-  "delving_threads": 1.0,
+  "delving_threads": 0.0,
   "ml_responses": 0.0,
   "delving_responses": 0.0,
   "first_active": null,
   "last_active": null,
   "dev_type": "Participant",
   "expertise_domains": [
-    "Cryptography"
+    "Infrastructure"
   ],
-  "expertise_by_source": {
-    "discussion": {
-      "Cryptography": 1.0
-    }
-  },
+  "expertise_by_source": {},
   "expertise_domain_scores": {
-    "Cryptography": 1.0
+    "Infrastructure": 1.0
   },
-  "p2016_posts": 1.0,
-  "modern_posts": 1.0,
+  "p2016_posts": 0.0,
+  "modern_posts": 0.0,
   "p2016_ml_posts": 0.0,
-  "p2016_delving_posts": 1.0,
+  "p2016_delving_posts": 0.0,
   "modern_ml_posts": 0.0,
-  "modern_delving_posts": 1.0,
+  "modern_delving_posts": 0.0,
   "is_engineer": false,
   "is_reviewer": false,
   "is_researcher": false,
@@ -91,22 +87,5 @@
   "github_followers": null,
   "activity_status": "",
   "is_top_50": false,
-  "delving_url": "https://delvingbitcoin.org/u/hal_03",
-  "first_message": {
-    "source": "delving",
-    "subject": "What does \"post-quantum\" actually mean for a Bitcoin L2 when settlement still happens on a non-PQ L1?",
-    "date": "2026-07-14",
-    "link": "https://delvingbitcoin.org/t/what-does-post-quantum-actually-mean-for-a-bitcoin-l2-when-settlement-still-happens-on-a-non-pq-l1/2715/1"
-  },
-  "last_message": {
-    "source": "delving",
-    "subject": "What does \"post-quantum\" actually mean for a Bitcoin L2 when settlement still happens on a non-PQ L1?",
-    "date": "2026-07-14",
-    "link": "https://delvingbitcoin.org/t/what-does-post-quantum-actually-mean-for-a-bitcoin-l2-when-settlement-still-happens-on-a-non-pq-l1/2715/1"
-  },
-  "social_history": {
-    "2026": {
-      "quantum": 1
-    }
-  }
+  "delving_url": "https://delvingbitcoin.org/u/hal_03"
 }

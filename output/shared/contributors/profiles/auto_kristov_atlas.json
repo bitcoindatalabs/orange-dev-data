@@ -4,15 +4,15 @@
   "delving_username_final": null,
   "uuid": "auto_kristov_atlas",
   "badges": {
-    "is_bip_author": true,
-    "is_core_committer": false,
     "is_maintainer": false,
-    "is_sponsored": false,
+    "is_core_committer": false,
     "maintainer_status": null,
+    "is_sponsored": false,
+    "sponsor_id": null,
+    "is_bip_author": true,
     "roles": [
       "BIP Author"
-    ],
-    "sponsor_id": null
+    ]
   },
   "roles": [
     "BIP Author"
@@ -41,9 +41,9 @@
   "modern_bips_authored": 0.0,
   "first_bip_date": "2015-06-12T16:31:23",
   "last_bip_date": "2016-06-22T18:43:56",
-  "avg_review_latency_days": 1073.3647280092594,
+  "avg_review_latency_days": 884.0392597552909,
   "reviews_count": 16.0,
-  "avg_approval_latency_days": 1158.543691520468,
+  "avg_approval_latency_days": 1066.5079418276973,
   "approvals_count": 10.0,
   "tier1_reviews_count": 4.0,
   "tier2_reviews_count": 12.0,
@@ -57,8 +57,8 @@
   "avg_pr_ack_velocity_days": null,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": 5.333333333333333,
-  "hybrid_score": 0.6933,
-  "p2016_hybrid_score": 0.4677,
+  "hybrid_score": 0.6936,
+  "p2016_hybrid_score": 0.468,
   "modern_hybrid_score": 0.033,
   "impact_score": 34.0,
   "p2016_impact_score": 24.0,
@@ -78,18 +78,18 @@
     "Privacy"
   ],
   "expertise_by_source": {
+    "discussion": {
+      "Privacy": 1.0
+    },
     "bips": {
       "Infrastructure": 0.5,
       "Script": 0.5
-    },
-    "discussion": {
-      "Privacy": 1.0
     }
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.3571,
-    "Privacy": 0.2857,
-    "Script": 0.3571
+    "Script": 0.3571,
+    "Privacy": 0.2857
   },
   "p2016_posts": 3.0,
   "modern_posts": 0.0,

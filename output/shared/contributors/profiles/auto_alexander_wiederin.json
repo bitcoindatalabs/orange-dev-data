@@ -5,24 +5,24 @@
   "uuid": "auto_alexander_wiederin",
   "badges": null,
   "roles": null,
-  "total_commits": 4.0,
-  "authored_commits": 4.0,
-  "tier1_authored_commits": 4.0,
+  "total_commits": 5.0,
+  "authored_commits": 5.0,
+  "tier1_authored_commits": 5.0,
   "tier2_authored_commits": 0.0,
   "merge_commits": 0.0,
   "tier1_merge_commits": 0.0,
   "tier2_merge_commits": 0.0,
   "self_merges": 0.0,
-  "total_additions": 12.0,
-  "total_deletions": 8.0,
+  "total_additions": 16.0,
+  "total_deletions": 16.0,
   "first_core_commit": "2026-04-01T17:33:59+00:00",
-  "last_core_commit": "2026-04-20T14:51:56+00:00",
+  "last_core_commit": "2026-08-21T07:34:05+00:00",
   "first_ecosystem_commit": null,
   "last_ecosystem_commit": null,
   "first_commit": "2026-04-01T17:33:59",
-  "last_commit": "2026-04-20T14:51:56",
-  "p2016_authored_commits": 4.0,
-  "modern_authored_commits": 4.0,
+  "last_commit": "2026-08-21T07:34:05",
+  "p2016_authored_commits": 5.0,
+  "modern_authored_commits": 5.0,
   "co_authored_commits": 0.0,
   "bips_authored": 0.0,
   "p2016_bips_authored": 0.0,
@@ -45,12 +45,12 @@
   "avg_pr_ack_velocity_days": 0.2553935185185185,
   "avg_concept_lead_time_days": 0.4717708333333333,
   "review_reciprocity": 4.333333333333333,
-  "hybrid_score": 0.2495,
-  "p2016_hybrid_score": 0.2495,
-  "modern_hybrid_score": 0.2482,
-  "impact_score": 14.0,
-  "p2016_impact_score": 14.0,
-  "modern_impact_score": 14.0,
+  "hybrid_score": 0.1227,
+  "p2016_hybrid_score": 0.1227,
+  "modern_hybrid_score": 0.1214,
+  "impact_score": 7.0,
+  "p2016_impact_score": 7.0,
+  "modern_impact_score": 7.0,
   "threads_started": 0.0,
   "replies_sent": 0.0,
   "ml_threads": 0.0,
@@ -59,17 +59,13 @@
   "delving_responses": 0.0,
   "first_active": null,
   "last_active": null,
-  "dev_type": "Builder",
+  "dev_type": "Reviewer",
   "expertise_domains": [
-    "Consensus"
+    "Infrastructure"
   ],
-  "expertise_by_source": {
-    "code": {
-      "Consensus": 1.0
-    }
-  },
+  "expertise_by_source": {},
   "expertise_domain_scores": {
-    "Consensus": 1.0
+    "Infrastructure": 1.0
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,
@@ -77,7 +73,7 @@
   "p2016_delving_posts": 0.0,
   "modern_ml_posts": 0.0,
   "modern_delving_posts": 0.0,
-  "is_engineer": true,
+  "is_engineer": false,
   "is_reviewer": true,
   "is_researcher": false,
   "is_bip_author": false,
@@ -94,7 +90,8 @@
   "github_url": "https://github.com/alexanderwiederin",
   "commit_history": {
     "2026": {
-      "Consensus": 8.0
+      "Consensus": 8.0,
+      "Tests": 2.0
     }
   }
 }

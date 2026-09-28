@@ -45,47 +45,42 @@
   "avg_pr_ack_velocity_days": 0.38570023148148147,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": 0.0,
-  "hybrid_score": 0.155,
-  "p2016_hybrid_score": 0.086,
-  "modern_hybrid_score": 0.2204,
-  "impact_score": 9.0,
+  "hybrid_score": 0.0626,
+  "p2016_hybrid_score": 0.087,
+  "modern_hybrid_score": 0.231,
+  "impact_score": 4.0,
   "p2016_impact_score": 5.0,
-  "modern_impact_score": 12.0,
+  "modern_impact_score": 13.0,
   "threads_started": 0.0,
-  "replies_sent": 19.0,
+  "replies_sent": 18.0,
   "ml_threads": 0.0,
   "delving_threads": 0.0,
   "ml_responses": 18.0,
-  "delving_responses": 1.0,
-  "first_active": null,
+  "delving_responses": 0.0,
+  "first_active": "2026-02-12T09:13:57",
   "last_active": "2026-08-22T12:46:44",
-  "dev_type": "Builder",
+  "dev_type": "Participant",
   "expertise_domains": [
-    "Infrastructure",
     "Cryptography",
     "Consensus"
   ],
   "expertise_by_source": {
-    "code": {
-      "Infrastructure": 1.0
-    },
     "discussion": {
       "Consensus": 0.25,
       "Cryptography": 0.75
     }
   },
   "expertise_domain_scores": {
-    "Consensus": 0.1,
-    "Cryptography": 0.3,
-    "Infrastructure": 0.6
+    "Consensus": 0.25,
+    "Cryptography": 0.75
   },
-  "p2016_posts": 19.0,
-  "modern_posts": 19.0,
+  "p2016_posts": 18.0,
+  "modern_posts": 18.0,
   "p2016_ml_posts": 18.0,
-  "p2016_delving_posts": 1.0,
+  "p2016_delving_posts": 0.0,
   "modern_ml_posts": 18.0,
-  "modern_delving_posts": 1.0,
-  "is_engineer": true,
+  "modern_delving_posts": 0.0,
+  "is_engineer": false,
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": false,
@@ -108,10 +103,10 @@
     }
   },
   "first_message": {
-    "source": "delving",
-    "subject": "Re: Gossip Observer: New project to monitor the Lightning P2P network",
-    "date": "2025-12-16",
-    "link": "https://delvingbitcoin.org/t/gossip-observer-new-project-to-monitor-the-lightning-p2p-network/2105/20"
+    "source": "mailing_list",
+    "subject": "Re: [bitcoindev] Algorithm Agility for Bitcoin to maintain security\n in the face of quantum and classic breaks in the signature algorithms",
+    "date": "2026-02-12",
+    "link": "https://gnusha.org/pi/bitcoindev/9d991f8a-6eaf-4701-9226-9a35abc89b35n@googlegroups.com"
   },
   "last_message": {
     "source": "mailing_list",
@@ -120,10 +115,6 @@
     "link": "https://gnusha.org/pi/bitcoindev/CAHPaHkr5r4+hodZv6F2S1yCq_UcHSr2iCrkYLgZ_vryNgwbRPA@mail.gmail.com"
   },
   "social_history": {
-    "2025": {
-      "lightning": 1,
-      "other": 1
-    },
     "2026": {
       "bitvm": 2,
       "lightning": 1,

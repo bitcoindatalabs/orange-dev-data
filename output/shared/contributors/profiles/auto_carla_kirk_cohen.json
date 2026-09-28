@@ -51,38 +51,28 @@
   "impact_score": 0.0,
   "p2016_impact_score": 0.0,
   "modern_impact_score": 0.0,
-  "threads_started": 10.0,
-  "replies_sent": 4.0,
+  "threads_started": 0.0,
+  "replies_sent": 0.0,
   "ml_threads": 0.0,
-  "delving_threads": 10.0,
+  "delving_threads": 0.0,
   "ml_responses": 0.0,
-  "delving_responses": 4.0,
+  "delving_responses": 0.0,
   "first_active": null,
   "last_active": null,
   "dev_type": "Participant",
   "expertise_domains": [
-    "L2",
-    "Privacy",
-    "Mempool"
+    "Infrastructure"
   ],
-  "expertise_by_source": {
-    "discussion": {
-      "L2": 0.686,
-      "Mempool": 0.105,
-      "Privacy": 0.209
-    }
-  },
+  "expertise_by_source": {},
   "expertise_domain_scores": {
-    "L2": 0.686,
-    "Mempool": 0.105,
-    "Privacy": 0.209
+    "Infrastructure": 1.0
   },
-  "p2016_posts": 14.0,
-  "modern_posts": 14.0,
+  "p2016_posts": 0.0,
+  "modern_posts": 0.0,
   "p2016_ml_posts": 0.0,
-  "p2016_delving_posts": 14.0,
+  "p2016_delving_posts": 0.0,
   "modern_ml_posts": 0.0,
-  "modern_delving_posts": 14.0,
+  "modern_delving_posts": 0.0,
   "is_engineer": false,
   "is_reviewer": false,
   "is_researcher": false,
@@ -97,33 +87,5 @@
   "github_followers": null,
   "activity_status": "",
   "is_top_50": false,
-  "delving_url": "https://delvingbitcoin.org/u/carla",
-  "first_message": {
-    "source": "delving",
-    "subject": "Upgrading Existing Lightning Channels",
-    "date": "2024-05-17",
-    "link": "https://delvingbitcoin.org/t/upgrading-existing-lightning-channels/881/1"
-  },
-  "last_message": {
-    "source": "delving",
-    "subject": "Re: Onion Message Jamming in the Lightning Network",
-    "date": "2026-04-27",
-    "link": "https://delvingbitcoin.org/t/onion-message-jamming-in-the-lightning-network/2414/14"
-  },
-  "social_history": {
-    "2024": {
-      "lightning": 4,
-      "mempool-fees": 2
-    },
-    "2025": {
-      "lightning": 7,
-      "privacy": 5
-    },
-    "2026": {
-      "ecash": 3,
-      "lightning": 3,
-      "privacy": 3,
-      "taproot": 3
-    }
-  }
+  "delving_url": "https://delvingbitcoin.org/u/carla"
 }

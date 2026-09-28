@@ -4,15 +4,15 @@
   "delving_username_final": "dongcarl",
   "uuid": "can_carl_dong",
   "badges": {
-    "is_bip_author": false,
-    "is_core_committer": false,
     "is_maintainer": true,
-    "is_sponsored": false,
+    "is_core_committer": false,
     "maintainer_status": "emeritus",
+    "is_sponsored": false,
+    "sponsor_id": null,
+    "is_bip_author": false,
     "roles": [
       "Former Build System Maintainer"
     ],
-    "sponsor_id": null,
     "maintainer_title": "Former Build System Maintainer",
     "maintainer_primary_area": "Build System / Guix",
     "maintainer_appointed": "2018-09-04",
@@ -63,52 +63,39 @@
   "avg_pr_ack_velocity_days": 6.7681894465488215,
   "avg_concept_lead_time_days": 9.136084150326797,
   "review_reciprocity": 1.7887323943661972,
-  "hybrid_score": 1.6156,
-  "p2016_hybrid_score": 0.6189,
-  "modern_hybrid_score": 0.3042,
-  "impact_score": 62.0,
-  "p2016_impact_score": 31.0,
-  "modern_impact_score": 17.0,
-  "threads_started": 1.0,
+  "hybrid_score": 1.215,
+  "p2016_hybrid_score": 0.2183,
+  "modern_hybrid_score": 0.1562,
+  "impact_score": 52.0,
+  "p2016_impact_score": 12.0,
+  "modern_impact_score": 9.0,
+  "threads_started": 0.0,
   "replies_sent": 1.0,
   "ml_threads": 0.0,
-  "delving_threads": 1.0,
+  "delving_threads": 0.0,
   "ml_responses": 1.0,
   "delving_responses": 0.0,
   "first_active": "2019-11-18T10:44:00",
-  "last_active": null,
-  "dev_type": "Builder",
+  "last_active": "2019-11-18T10:44:00",
+  "dev_type": "Reviewer",
   "expertise_domains": [
-    "Infrastructure",
-    "Network",
-    "Consensus"
+    "Network"
   ],
   "expertise_by_source": {
-    "code": {
-      "Consensus": 0.154,
-      "Infrastructure": 0.796,
-      "Mempool": 0.017,
-      "Network": 0.028,
-      "Script": 0.003,
-      "Wallet": 0.002
-    },
     "discussion": {
       "Network": 1.0
     }
   },
   "expertise_domain_scores": {
-    "Consensus": 0.0924,
-    "Infrastructure": 0.4776,
-    "Mempool": 0.0102,
-    "Network": 0.4168
+    "Network": 1.0
   },
-  "p2016_posts": 2.0,
-  "modern_posts": 1.0,
+  "p2016_posts": 1.0,
+  "modern_posts": 0.0,
   "p2016_ml_posts": 1.0,
-  "p2016_delving_posts": 1.0,
+  "p2016_delving_posts": 0.0,
   "modern_ml_posts": 0.0,
-  "modern_delving_posts": 1.0,
-  "is_engineer": true,
+  "modern_delving_posts": 0.0,
+  "is_engineer": false,
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": false,
@@ -120,7 +107,7 @@
   "github_twitter": "carl_dong",
   "github_blog": "carldong.io",
   "github_followers": 365.0,
-  "activity_status": "Active",
+  "activity_status": "Rising",
   "is_top_50": false,
   "github_url": "https://github.com/dongcarl",
   "delving_url": "https://delvingbitcoin.org/u/dongcarl",
@@ -185,17 +172,14 @@
     "link": "https://gnusha.org/pi/bitcoindev/D16E0A83-67C2-4727-9FA0-410C43099CD0@carldong.me"
   },
   "last_message": {
-    "source": "delving",
-    "subject": "Re: TCP hole punching for Bitcoin nodes behind home NATs?",
-    "date": "2026-05-12",
-    "link": "https://delvingbitcoin.org/t/tcp-hole-punching-for-bitcoin-nodes-behind-home-nats/2497/12"
+    "source": "mailing_list",
+    "subject": "Re: [bitcoin-dev] v3 onion services",
+    "date": "2019-11-18",
+    "link": "https://gnusha.org/pi/bitcoindev/D16E0A83-67C2-4727-9FA0-410C43099CD0@carldong.me"
   },
   "social_history": {
     "2019": {
       "p2p-network": 1
-    },
-    "2026": {
-      "core-dev": 1
     }
   }
 }

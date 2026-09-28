@@ -4,15 +4,15 @@
   "delving_username_final": null,
   "uuid": "auto_oliver_gugger",
   "badges": {
-    "is_bip_author": true,
-    "is_core_committer": false,
     "is_maintainer": false,
-    "is_sponsored": false,
+    "is_core_committer": false,
     "maintainer_status": null,
+    "is_sponsored": false,
+    "sponsor_id": null,
+    "is_bip_author": true,
     "roles": [
       "BIP Author"
     ],
-    "sponsor_id": null,
     "ecosystem_contributor": true,
     "tier2_commits": 191
   },
@@ -56,15 +56,15 @@
   "prs_authored": 13.0,
   "tier1_prs_authored": 3.0,
   "tier2_prs_authored": 10.0,
-  "avg_pr_ack_velocity_days": 1.3801686507936508,
+  "avg_pr_ack_velocity_days": 1.5926176697530865,
   "avg_concept_lead_time_days": 2.2808101851851856,
   "review_reciprocity": 1.7692307692307692,
-  "hybrid_score": 0.7845,
-  "p2016_hybrid_score": 0.7896,
-  "modern_hybrid_score": 0.4341,
-  "impact_score": 38.0,
-  "p2016_impact_score": 38.0,
-  "modern_impact_score": 23.0,
+  "hybrid_score": 0.4842,
+  "p2016_hybrid_score": 0.4899,
+  "modern_hybrid_score": 0.1544,
+  "impact_score": 25.0,
+  "p2016_impact_score": 25.0,
+  "modern_impact_score": 9.0,
   "threads_started": 1.0,
   "replies_sent": 1.0,
   "ml_threads": 1.0,
@@ -73,25 +73,22 @@
   "delving_responses": 0.0,
   "first_active": "2026-04-20T02:22:10",
   "last_active": "2026-04-21T04:16:04",
-  "dev_type": "Protocol Designer",
+  "dev_type": "Reviewer",
   "expertise_domains": [
     "Infrastructure",
     "Wallet"
   ],
   "expertise_by_source": {
-    "bips": {
-      "Infrastructure": 1.0
-    },
-    "code": {
-      "Infrastructure": 1.0
-    },
     "discussion": {
       "Wallet": 1.0
+    },
+    "bips": {
+      "Infrastructure": 1.0
     }
   },
   "expertise_domain_scores": {
-    "Infrastructure": 0.8,
-    "Wallet": 0.2
+    "Infrastructure": 0.7143,
+    "Wallet": 0.2857
   },
   "p2016_posts": 2.0,
   "modern_posts": 2.0,
@@ -99,7 +96,7 @@
   "p2016_delving_posts": 0.0,
   "modern_ml_posts": 2.0,
   "modern_delving_posts": 0.0,
-  "is_engineer": true,
+  "is_engineer": false,
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": true,
@@ -107,7 +104,7 @@
   "global_last_active": "2026-08-26T07:22:36",
   "github_location": "Remote",
   "github_company": null,
-  "github_bio": "Struck by lightning \u26a1",
+  "github_bio": "Struck by lightning ⚡",
   "github_twitter": null,
   "github_blog": "https://keybase.io/guggero",
   "github_followers": 445.0,

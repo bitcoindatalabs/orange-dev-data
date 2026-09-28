@@ -4,15 +4,15 @@
   "delving_username_final": null,
   "uuid": "auto_matias_alejo_garcia",
   "badges": {
-    "is_bip_author": true,
-    "is_core_committer": false,
     "is_maintainer": false,
-    "is_sponsored": false,
+    "is_core_committer": false,
     "maintainer_status": null,
+    "is_sponsored": false,
+    "sponsor_id": null,
+    "is_bip_author": true,
     "roles": [
       "BIP Author"
-    ],
-    "sponsor_id": null
+    ]
   },
   "roles": [
     "BIP Author"
@@ -41,7 +41,7 @@
   "modern_bips_authored": 0.0,
   "first_bip_date": "2014-04-28T14:04:16",
   "last_bip_date": "2014-04-28T14:04:16",
-  "avg_review_latency_days": 1075.205162037037,
+  "avg_review_latency_days": 952.3645601851852,
   "reviews_count": 5.0,
   "avg_approval_latency_days": 1280.2339409722224,
   "approvals_count": 1.0,
@@ -57,8 +57,8 @@
   "avg_pr_ack_velocity_days": null,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": 1.6666666666666667,
-  "hybrid_score": 0.4419,
-  "p2016_hybrid_score": 0.0648,
+  "hybrid_score": 0.4421,
+  "p2016_hybrid_score": 0.065,
   "modern_hybrid_score": 0.033,
   "impact_score": 23.0,
   "p2016_impact_score": 4.0,
@@ -76,10 +76,10 @@
     "Wallet"
   ],
   "expertise_by_source": {
-    "bips": {
+    "discussion": {
       "Wallet": 1.0
     },
-    "discussion": {
+    "bips": {
       "Wallet": 1.0
     }
   },

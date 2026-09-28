@@ -29,7 +29,7 @@
   "modern_bips_authored": 0.0,
   "first_bip_date": null,
   "last_bip_date": null,
-  "avg_review_latency_days": 1202.7132631172838,
+  "avg_review_latency_days": 1256.6379970043574,
   "reviews_count": 6.0,
   "avg_approval_latency_days": null,
   "approvals_count": 0.0,
@@ -45,10 +45,10 @@
   "avg_pr_ack_velocity_days": 38.70610725308642,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": 1.2,
-  "hybrid_score": 0.2009,
+  "hybrid_score": 0.0887,
   "p2016_hybrid_score": 0.0615,
   "modern_hybrid_score": 0.0615,
-  "impact_score": 11.0,
+  "impact_score": 5.0,
   "p2016_impact_score": 4.0,
   "modern_impact_score": 4.0,
   "threads_started": 0.0,
@@ -59,27 +59,20 @@
   "delving_responses": 0.0,
   "first_active": "2014-05-13T12:48:19",
   "last_active": "2015-02-12T15:40:48",
-  "dev_type": "Builder",
+  "dev_type": "Participant",
   "expertise_domains": [
-    "Network",
-    "Infrastructure",
-    "Mempool"
+    "Mempool",
+    "Mining"
   ],
   "expertise_by_source": {
-    "code": {
-      "Infrastructure": 0.5,
-      "Network": 0.5
-    },
     "discussion": {
-      "Mempool": 0.66,
-      "Mining": 0.34
+      "Mining": 0.34,
+      "Mempool": 0.66
     }
   },
   "expertise_domain_scores": {
-    "Infrastructure": 0.3,
-    "Mempool": 0.264,
-    "Mining": 0.136,
-    "Network": 0.3
+    "Mining": 0.34,
+    "Mempool": 0.66
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,
@@ -87,7 +80,7 @@
   "p2016_delving_posts": 0.0,
   "modern_ml_posts": 0.0,
   "modern_delving_posts": 0.0,
-  "is_engineer": true,
+  "is_engineer": false,
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": false,

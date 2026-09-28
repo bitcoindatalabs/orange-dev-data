@@ -4,15 +4,15 @@
   "delving_username_final": null,
   "uuid": "auto_gleb_naumenko",
   "badges": {
-    "is_bip_author": true,
-    "is_core_committer": false,
     "is_maintainer": false,
-    "is_sponsored": false,
+    "is_core_committer": false,
     "maintainer_status": null,
+    "is_sponsored": true,
+    "sponsor_id": null,
+    "is_bip_author": true,
     "roles": [
       "BIP Author"
-    ],
-    "sponsor_id": null
+    ]
   },
   "roles": [
     "BIP Author"
@@ -43,12 +43,12 @@
   "last_bip_date": "2019-09-25T06:11:03",
   "avg_review_latency_days": 187.71359365331918,
   "reviews_count": 312.0,
-  "avg_approval_latency_days": 110.65005456745713,
+  "avg_approval_latency_days": 110.65005456745715,
   "approvals_count": 266.0,
   "tier1_reviews_count": 302.0,
   "tier2_reviews_count": 10.0,
   "p2016_reviews_count": 312.0,
-  "modern_reviews_count": 49.0,
+  "modern_reviews_count": 47.0,
   "first_review_date": "2018-10-26T23:32:13",
   "last_review_date": "2024-11-27T08:34:48",
   "prs_authored": 29.0,
@@ -57,12 +57,12 @@
   "avg_pr_ack_velocity_days": 27.0624751984127,
   "avg_concept_lead_time_days": 42.84460099902534,
   "review_reciprocity": 10.758620689655173,
-  "hybrid_score": 0.8294,
-  "p2016_hybrid_score": 0.8396,
-  "modern_hybrid_score": 0.2432,
-  "impact_score": 39.0,
-  "p2016_impact_score": 40.0,
-  "modern_impact_score": 14.0,
+  "hybrid_score": 0.5732,
+  "p2016_hybrid_score": 0.5837,
+  "modern_hybrid_score": 0.1491,
+  "impact_score": 29.0,
+  "p2016_impact_score": 30.0,
+  "modern_impact_score": 9.0,
   "threads_started": 2.0,
   "replies_sent": 7.0,
   "ml_threads": 2.0,
@@ -71,30 +71,25 @@
   "delving_responses": 0.0,
   "first_active": "2018-04-02T17:18:07",
   "last_active": "2023-02-02T02:40:04",
-  "dev_type": "Protocol Designer",
+  "dev_type": "Reviewer",
   "expertise_domains": [
     "Infrastructure",
     "Network",
     "L2"
   ],
   "expertise_by_source": {
-    "bips": {
-      "Infrastructure": 1.0
-    },
-    "code": {
-      "Consensus": 0.012,
-      "Infrastructure": 0.5,
-      "Network": 0.488
-    },
     "discussion": {
       "L2": 0.256,
       "Network": 0.744
+    },
+    "bips": {
+      "Infrastructure": 1.0
     }
   },
   "expertise_domain_scores": {
-    "Infrastructure": 0.65,
-    "L2": 0.0512,
-    "Network": 0.2952
+    "Infrastructure": 0.7143,
+    "L2": 0.0731,
+    "Network": 0.2126
   },
   "p2016_posts": 9.0,
   "modern_posts": 0.0,
@@ -102,7 +97,7 @@
   "p2016_delving_posts": 0.0,
   "modern_ml_posts": 0.0,
   "modern_delving_posts": 0.0,
-  "is_engineer": true,
+  "is_engineer": false,
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": true,

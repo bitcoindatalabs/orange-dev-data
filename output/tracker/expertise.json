@@ -3,17 +3,17 @@
     {
       "canonical_id": "can_pieter_wuille",
       "bips_authored": 27,
-      "commits_authored": 6073
+      "commits_authored": 6651
     },
     {
       "canonical_id": "can_ava_chow",
       "bips_authored": 18,
-      "commits_authored": 4789
+      "commits_authored": 5012
     },
     {
       "canonical_id": "can_luke_dashjr",
       "bips_authored": 13,
-      "commits_authored": 1422
+      "commits_authored": 1434
     },
     {
       "canonical_id": "can_gavin_andresen",
@@ -23,12 +23,12 @@
     {
       "canonical_id": "can_matt_corallo",
       "bips_authored": 8,
-      "commits_authored": 1788
+      "commits_authored": 1792
     },
     {
       "canonical_id": "auto_karl_johan_alm",
       "bips_authored": 7,
-      "commits_authored": 452
+      "commits_authored": 456
     },
     {
       "canonical_id": "can_drak",
@@ -36,9 +36,14 @@
       "commits_authored": 112
     },
     {
+      "canonical_id": "can_anthony_towns",
+      "bips_authored": 6,
+      "commits_authored": 1268
+    },
+    {
       "canonical_id": "can_eric_lombrozo",
       "bips_authored": 6,
-      "commits_authored": 98
+      "commits_authored": 103
     },
     {
       "canonical_id": "can_johnson_lau",
@@ -53,17 +58,12 @@
     {
       "canonical_id": "can_jonas_schnelli",
       "bips_authored": 5,
-      "commits_authored": 1430
-    },
-    {
-      "canonical_id": "can_anthony_towns",
-      "bips_authored": 5,
-      "commits_authored": 1224
+      "commits_authored": 1431
     },
     {
       "canonical_id": "can_amir_taaki",
       "bips_authored": 5,
-      "commits_authored": 4
+      "commits_authored": 6
     },
     {
       "canonical_id": "can_suhas_daftuar",
@@ -73,17 +73,22 @@
     {
       "canonical_id": "can_greg_sanders",
       "bips_authored": 4,
-      "commits_authored": 938
+      "commits_authored": 982
     },
     {
       "canonical_id": "can_antoine_poinsot",
       "bips_authored": 4,
-      "commits_authored": 690
+      "commits_authored": 692
     },
     {
       "canonical_id": "can_peter_todd",
       "bips_authored": 4,
       "commits_authored": 264
+    },
+    {
+      "canonical_id": "can_jonas_nick",
+      "bips_authored": 4,
+      "commits_authored": 224
     },
     {
       "canonical_id": "can_jeremy_rubin",
@@ -94,11 +99,6 @@
       "canonical_id": "can_pavol_rusnak",
       "bips_authored": 4,
       "commits_authored": 71
-    },
-    {
-      "canonical_id": "can_mike_hearn",
-      "bips_authored": 4,
-      "commits_authored": 50
     }
   ],
   "gatekeepers": [
@@ -112,19 +112,11 @@
     },
     {
       "canonical_id": "can_gregory_maxwell",
-      "social_post_count": 879
-    },
-    {
-      "canonical_id": "can_pieter_wuille",
-      "social_post_count": 747
+      "social_post_count": 826
     },
     {
       "canonical_id": "can_luke_dashjr",
       "social_post_count": 704
-    },
-    {
-      "canonical_id": "can_anthony_towns",
-      "social_post_count": 672
     },
     {
       "canonical_id": "can_zmnscpxj",
@@ -135,20 +127,20 @@
       "social_post_count": 545
     },
     {
+      "canonical_id": "can_pieter_wuille",
+      "social_post_count": 525
+    },
+    {
       "canonical_id": "auto_unknown",
       "social_post_count": 501
     },
     {
       "canonical_id": "can_matt_corallo",
-      "social_post_count": 495
+      "social_post_count": 453
     },
     {
       "canonical_id": "auto_utf_8_b_sm9yz2ugvgltw7nu",
       "social_post_count": 438
-    },
-    {
-      "canonical_id": "can_antoine_riard",
-      "social_post_count": 425
     },
     {
       "canonical_id": "can_gavin_andresen",
@@ -156,23 +148,23 @@
     },
     {
       "canonical_id": "can_wladimir_j_van_der_laan",
-      "social_post_count": 392
+      "social_post_count": 391
     },
     {
-      "canonical_id": "can_eric_voskuil",
-      "social_post_count": 365
+      "canonical_id": "can_antoine_riard",
+      "social_post_count": 359
+    },
+    {
+      "canonical_id": "can_anthony_towns",
+      "social_post_count": 334
     },
     {
       "canonical_id": "can_jeremy_rubin",
-      "social_post_count": 365
+      "social_post_count": 333
     },
     {
-      "canonical_id": "can_greg_sanders",
-      "social_post_count": 311
-    },
-    {
-      "canonical_id": "can_alicexbt",
-      "social_post_count": 306
+      "canonical_id": "can_eric_voskuil",
+      "social_post_count": 326
     },
     {
       "canonical_id": "can_mark_friedenbach",
@@ -181,97 +173,61 @@
     {
       "canonical_id": "can_erik_aronesty",
       "social_post_count": 282
+    },
+    {
+      "canonical_id": "can_russell_o_connor",
+      "social_post_count": 226
+    },
+    {
+      "canonical_id": "can_tier_nolan",
+      "social_post_count": 218
     }
   ],
   "expert_profiles": [
     {
-      "uuid": "can_pieter_wuille",
-      "tags": [
-        "Refactoring",
-        "P2P",
-        "Tests",
-        "Utils/log/libs",
-        "Wallet"
-      ],
+      "uuid": "can_jorge_tim_n",
+      "tags": [],
       "is_architect": true,
-      "is_gatekeeper": true
+      "is_gatekeeper": false
     },
     {
-      "uuid": "auto_gleb_naumenko",
-      "tags": [
-        "P2P",
-        "Needs rebase",
-        "Review club",
-        "Resource usage",
-        "CI failed"
-      ],
-      "is_architect": true,
-      "is_gatekeeper": true
-    },
-    {
-      "uuid": "can_suhas_daftuar",
+      "uuid": "can_james_o_beirne",
       "tags": [
         "Tests",
-        "P2P",
         "Validation",
-        "Mempool",
-        "Mining"
-      ],
-      "is_architect": true,
-      "is_gatekeeper": true
-    },
-    {
-      "uuid": "can_jeff_garzik",
-      "tags": [
         "Refactoring",
-        "Feature",
-        "Bug",
-        "Tests",
-        "P2P"
-      ],
-      "is_architect": true,
-      "is_gatekeeper": true
-    },
-    {
-      "uuid": "auto_nicolas_dorier",
-      "tags": [
-        "Wallet",
-        "RPC/REST/ZMQ",
-        "Refactoring",
-        "Windows",
-        "Build system"
-      ],
-      "is_architect": true,
-      "is_gatekeeper": true
-    },
-    {
-      "uuid": "can_christian_decker",
-      "tags": [
-        "New BIP",
-        "RPC/REST/ZMQ",
-        "Utils/log/libs",
-        "P2P"
-      ],
-      "is_architect": true,
-      "is_gatekeeper": true
-    },
-    {
-      "uuid": "can_gavin_andresen",
-      "tags": [
-        "Refactoring",
-        "Tests",
-        "Feature",
-        "Bug",
+        "Docs",
         "UTXO Db and Indexes"
       ],
       "is_architect": true,
       "is_gatekeeper": true
     },
     {
-      "uuid": "can_amir_taaki",
+      "uuid": "can_billy_tetrud",
+      "tags": [],
+      "is_architect": false,
+      "is_gatekeeper": true
+    },
+    {
+      "uuid": "auto_thomas_kerin",
       "tags": [
-        "Feature",
-        "Refactoring"
+        "Proposed BIP modification",
+        "Utils/log/libs",
+        "RPC/REST/ZMQ",
+        "Up for grabs",
+        "Pending acceptance"
+      ],
+      "is_architect": true,
+      "is_gatekeeper": true
+    },
+    {
+      "uuid": "can_ethan_heilman",
+      "tags": [
+        "P2P",
+        "Tests",
+        "Utils/log/libs",
+        "Windows",
+        "Build system"
       ],
       "is_architect": true,
       "is_gatekeeper": true
@@ -289,188 +245,31 @@
       "is_gatekeeper": true
     },
     {
-      "uuid": "can_alan_reiner",
-      "tags": [],
+      "uuid": "can_eric_voskuil",
+      "tags": [
+        "Proposed BIP modification"
+      ],
       "is_architect": false,
       "is_gatekeeper": true
     },
     {
-      "uuid": "can_jonas_nick",
+      "uuid": "can_matt_corallo",
       "tags": [
-        "Docs",
-        "RPC/REST/ZMQ",
-        "Proposed BIP modification"
-      ],
-      "is_architect": true,
-      "is_gatekeeper": true
-    },
-    {
-      "uuid": "can_thomas_zander",
-      "tags": [
-        "GUI",
-        "New BIP"
-      ],
-      "is_architect": true,
-      "is_gatekeeper": true
-    },
-    {
-      "uuid": "auto_oghenovo_usiwoma",
-      "tags": [
-        "Tests",
-        "Wallet",
-        "Needs rebase",
-        "CI failed",
-        "Proposed BIP modification"
-      ],
-      "is_architect": true,
-      "is_gatekeeper": true
-    },
-    {
-      "uuid": "can_fabian_jahr",
-      "tags": [
-        "Tests",
-        "RPC/REST/ZMQ",
-        "Wallet",
-        "Docs",
-        "UTXO Db and Indexes"
-      ],
-      "is_architect": true,
-      "is_gatekeeper": true
-    },
-    {
-      "uuid": "can_jonas_schnelli",
-      "tags": [
-        "GUI",
-        "Wallet",
-        "RPC/REST/ZMQ",
+        "P2P",
         "Refactoring",
-        "P2P"
-      ],
-      "is_architect": true,
-      "is_gatekeeper": true
-    },
-    {
-      "uuid": "can_erik_aronesty",
-      "tags": [
-        "Consensus"
-      ],
-      "is_architect": false,
-      "is_gatekeeper": true
-    },
-    {
-      "uuid": "can_tom_harding",
-      "tags": [
-        "Wallet",
-        "P2P",
-        "Tests",
-        "Bug",
-        "Refactoring"
-      ],
-      "is_architect": true,
-      "is_gatekeeper": true
-    },
-    {
-      "uuid": "can_matt_whitlock",
-      "tags": [
-        "Scripts and tools",
-        "P2P",
-        "Build system",
-        "CI failed"
-      ],
-      "is_architect": false,
-      "is_gatekeeper": true
-    },
-    {
-      "uuid": "can_andreas_schildbach",
-      "tags": [
-        "P2P",
-        "Docs",
-        "Tests"
-      ],
-      "is_architect": false,
-      "is_gatekeeper": true
-    },
-    {
-      "uuid": "can_greg_sanders",
-      "tags": [
-        "Tests",
-        "Wallet",
-        "RPC/REST/ZMQ",
-        "Docs",
-        "TX fees and policy"
-      ],
-      "is_architect": true,
-      "is_gatekeeper": true
-    },
-    {
-      "uuid": "auto_unknown",
-      "tags": [],
-      "is_architect": false,
-      "is_gatekeeper": true
-    },
-    {
-      "uuid": "can_adam_gibson",
-      "tags": [
-        "Proposed BIP modification",
-        "Pending acceptance"
-      ],
-      "is_architect": false,
-      "is_gatekeeper": true
-    },
-    {
-      "uuid": "can_aymeric_vitte",
-      "tags": [],
-      "is_architect": false,
-      "is_gatekeeper": true
-    },
-    {
-      "uuid": "can_zmnscpxj",
-      "tags": [],
-      "is_architect": false,
-      "is_gatekeeper": true
-    },
-    {
-      "uuid": "can_david_a_harding",
-      "tags": [
-        "Docs",
-        "Utils/log/libs",
-        "New BIP"
-      ],
-      "is_architect": true,
-      "is_gatekeeper": true
-    },
-    {
-      "uuid": "can_andrew_toth",
-      "tags": [
         "Validation",
-        "RPC/REST/ZMQ",
-        "UTXO Db and Indexes",
-        "Docs",
-        "P2P"
-      ],
-      "is_architect": true,
-      "is_gatekeeper": true
-    },
-    {
-      "uuid": "can_eric_lombrozo",
-      "tags": [
-        "New BIP",
-        "Refactoring",
-        "Proposed BIP modification",
-        "Consensus",
-        "Tests"
-      ],
-      "is_architect": true,
-      "is_gatekeeper": true
-    },
-    {
-      "uuid": "can_sebastian_falbesoner",
-      "tags": [
-        "Tests",
-        "Refactoring",
-        "Docs",
         "Wallet",
         "RPC/REST/ZMQ"
+      ],
+      "is_architect": true,
+      "is_gatekeeper": true
+    },
+    {
+      "uuid": "can_chris_belcher",
+      "tags": [
+        "New BIP",
+        "RPC/REST/ZMQ",
+        "PR Author action required"
       ],
       "is_architect": true,
       "is_gatekeeper": true
@@ -488,12 +287,25 @@
       "is_gatekeeper": true
     },
     {
-      "uuid": "can_loki",
+      "uuid": "can_tim_ruffing",
       "tags": [
-        "New BIP",
-        "BIP update by author"
+        "tweak/refactor",
+        "assurance",
+        "ci",
+        "build",
+        "meta/development"
       ],
-      "is_architect": false,
+      "is_architect": true,
+      "is_gatekeeper": true
+    },
+    {
+      "uuid": "can_david_a_harding",
+      "tags": [
+        "Docs",
+        "Utils/log/libs",
+        "New BIP"
+      ],
+      "is_architect": true,
       "is_gatekeeper": true
     },
     {
@@ -509,113 +321,47 @@
       "is_gatekeeper": true
     },
     {
-      "uuid": "auto_conduition",
+      "uuid": "can_mark_friedenbach",
       "tags": [
-        "Proposed BIP modification"
-      ],
-      "is_architect": false,
-      "is_gatekeeper": true
-    },
-    {
-      "uuid": "can_alex_morcos",
-      "tags": [
-        "Wallet",
-        "TX fees and policy",
+        "Refactoring",
         "Mempool",
-        "Docs",
-        "UTXO Db and Indexes"
+        "Validation",
+        "Mining",
+        "Consensus"
       ],
       "is_architect": true,
       "is_gatekeeper": true
     },
     {
-      "uuid": "auto_andrew_poelstra",
+      "uuid": "auto_nicolas_dorier",
       "tags": [
-        "Tests",
         "Wallet",
-        "Proposed BIP modification",
-        "Build system",
-        "CI failed"
-      ],
-      "is_architect": true,
-      "is_gatekeeper": true
-    },
-    {
-      "uuid": "auto_jimmy_song",
-      "tags": [
-        "Tests",
-        "Wallet",
-        "Refactoring",
-        "New BIP",
-        "Proposed BIP modification"
-      ],
-      "is_architect": true,
-      "is_gatekeeper": true
-    },
-    {
-      "uuid": "can_chris_belcher",
-      "tags": [
-        "New BIP",
         "RPC/REST/ZMQ",
-        "PR Author action required"
+        "Refactoring",
+        "Windows",
+        "Build system"
       ],
       "is_architect": true,
       "is_gatekeeper": true
     },
     {
-      "uuid": "can_antoine_riard",
+      "uuid": "can_peter_todd",
       "tags": [
-        "Wallet",
+        "TX fees and policy",
         "P2P",
-        "Needs rebase",
-        "Refactoring",
-        "Docs"
-      ],
-      "is_architect": false,
-      "is_gatekeeper": true
-    },
-    {
-      "uuid": "can_justus_ranvier",
-      "tags": [
-        "New BIP",
-        "Proposed BIP modification"
-      ],
-      "is_architect": false,
-      "is_gatekeeper": true
-    },
-    {
-      "uuid": "can_rusty_russell",
-      "tags": [
-        "Docs",
-        "Refactoring",
-        "RPC/REST/ZMQ",
-        "New BIP",
-        "Proposed BIP modification"
+        "Validation",
+        "Wallet",
+        "RPC/REST/ZMQ"
       ],
       "is_architect": true,
       "is_gatekeeper": true
     },
     {
-      "uuid": "can_adam_back",
-      "tags": [],
-      "is_architect": false,
-      "is_gatekeeper": true
-    },
-    {
-      "uuid": "can_wladimir_j_van_der_laan",
+      "uuid": "can_jim_posen",
       "tags": [
-        "Docs",
-        "Tests",
-        "Build system",
-        "RPC/REST/ZMQ",
-        "P2P"
-      ],
-      "is_architect": true,
-      "is_gatekeeper": true
-    },
-    {
-      "uuid": "can_michael_folkson",
-      "tags": [
+        "UTXO Db and Indexes",
+        "Refactoring",
+        "P2P",
         "Docs",
         "Tests"
       ],
@@ -635,142 +381,13 @@
       "is_gatekeeper": true
     },
     {
-      "uuid": "can_jim_posen",
-      "tags": [
-        "UTXO Db and Indexes",
-        "Refactoring",
-        "P2P",
-        "Docs",
-        "Tests"
-      ],
-      "is_architect": true,
-      "is_gatekeeper": true
-    },
-    {
-      "uuid": "auto_zmnscpxj_jxpcsnmz",
-      "tags": [],
-      "is_architect": false,
-      "is_gatekeeper": true
-    },
-    {
-      "uuid": "can_billy_tetrud",
-      "tags": [],
-      "is_architect": false,
-      "is_gatekeeper": true
-    },
-    {
-      "uuid": "can_jeremy_rubin",
+      "uuid": "auto_jimmy_song",
       "tags": [
         "Tests",
-        "Refactoring",
-        "Validation",
-        "Mempool",
-        "Needs rebase"
-      ],
-      "is_architect": true,
-      "is_gatekeeper": true
-    },
-    {
-      "uuid": "can_alicexbt",
-      "tags": [
-        "CI failed",
-        "TX fees and policy",
-        "New BIP"
-      ],
-      "is_architect": false,
-      "is_gatekeeper": true
-    },
-    {
-      "uuid": "can_sjors_provoost",
-      "tags": [
         "Wallet",
-        "Docs",
-        "Tests",
-        "RPC/REST/ZMQ",
-        "Build system"
-      ],
-      "is_architect": false,
-      "is_gatekeeper": true
-    },
-    {
-      "uuid": "can_ava_chow",
-      "tags": [
-        "Wallet",
-        "RPC/REST/ZMQ",
-        "Tests",
-        "Build system",
-        "GUI"
-      ],
-      "is_architect": true,
-      "is_gatekeeper": true
-    },
-    {
-      "uuid": "can_tier_nolan",
-      "tags": [],
-      "is_architect": false,
-      "is_gatekeeper": true
-    },
-    {
-      "uuid": "can_tamas_blummer",
-      "tags": [
-        "Wallet"
-      ],
-      "is_architect": false,
-      "is_gatekeeper": true
-    },
-    {
-      "uuid": "can_mike_hearn",
-      "tags": [
-        "P2P",
-        "TX fees and policy",
-        "Refactoring"
-      ],
-      "is_architect": true,
-      "is_gatekeeper": true
-    },
-    {
-      "uuid": "can_anthony_towns",
-      "tags": [
         "Refactoring",
-        "P2P",
-        "Tests",
-        "RPC/REST/ZMQ",
-        "Needs rebase"
-      ],
-      "is_architect": true,
-      "is_gatekeeper": true
-    },
-    {
-      "uuid": "can_bryan_bishop",
-      "tags": [
-        "Proposed BIP modification",
-        "Wallet",
-        "RPC/REST/ZMQ",
-        "Bug fix"
-      ],
-      "is_architect": false,
-      "is_gatekeeper": true
-    },
-    {
-      "uuid": "can_odinn",
-      "tags": [],
-      "is_architect": false,
-      "is_gatekeeper": true
-    },
-    {
-      "uuid": "can_jorge_tim_n",
-      "tags": [],
-      "is_architect": true,
-      "is_gatekeeper": false
-    },
-    {
-      "uuid": "can_ethan_heilman",
-      "tags": [
-        "P2P",
-        "Tests",
-        "Utils/log/libs",
-        "Windows",
-        "Build system"
+        "New BIP",
+        "Proposed BIP modification"
       ],
       "is_architect": true,
       "is_gatekeeper": true
@@ -788,61 +405,134 @@
       "is_gatekeeper": true
     },
     {
-      "uuid": "can_pavol_rusnak",
+      "uuid": "can_natanael",
+      "tags": [],
+      "is_architect": false,
+      "is_gatekeeper": true
+    },
+    {
+      "uuid": "can_adam_gibson",
       "tags": [
-        "Scripts and tools",
+        "Proposed BIP modification",
+        "Pending acceptance"
+      ],
+      "is_architect": false,
+      "is_gatekeeper": true
+    },
+    {
+      "uuid": "can_anthony_towns",
+      "tags": [
         "Refactoring",
-        "Docs",
         "P2P",
+        "Tests",
+        "RPC/REST/ZMQ",
         "Needs rebase"
       ],
       "is_architect": true,
       "is_gatekeeper": true
     },
     {
-      "uuid": "can_james_o_beirne",
+      "uuid": "can_antoine_riard",
       "tags": [
-        "Tests",
-        "Validation",
-        "Refactoring",
-        "Docs",
-        "UTXO Db and Indexes"
-      ],
-      "is_architect": true,
-      "is_gatekeeper": true
-    },
-    {
-      "uuid": "auto_oliver_gugger",
-      "tags": [
-        "Proposed BIP modification",
-        "BIP Update by Owner",
-        "Tests",
-        "Bug fix",
-        "Build system"
-      ],
-      "is_architect": true,
-      "is_gatekeeper": true
-    },
-    {
-      "uuid": "can_mark_erhardt",
-      "tags": [
-        "Metadata Update",
         "Wallet",
-        "Proposed BIP modification",
+        "P2P",
+        "Needs rebase",
+        "Refactoring",
+        "Docs"
+      ],
+      "is_architect": false,
+      "is_gatekeeper": true
+    },
+    {
+      "uuid": "can_aymeric_vitte",
+      "tags": [],
+      "is_architect": false,
+      "is_gatekeeper": true
+    },
+    {
+      "uuid": "can_suhas_daftuar",
+      "tags": [
         "Tests",
-        "CI failed"
+        "P2P",
+        "Validation",
+        "Mempool",
+        "Mining"
       ],
       "is_architect": true,
       "is_gatekeeper": true
     },
     {
-      "uuid": "can_gloria_zhao",
+      "uuid": "can_jonas_schnelli",
       "tags": [
-        "Docs",
-        "Tests",
-        "Validation",
+        "GUI",
+        "Wallet",
+        "RPC/REST/ZMQ",
         "Refactoring",
-        "Mempool"
+        "P2P"
+      ],
+      "is_architect": true,
+      "is_gatekeeper": true
+    },
+    {
+      "uuid": "auto_conduition",
+      "tags": [
+        "Proposed BIP modification"
+      ],
+      "is_architect": false,
+      "is_gatekeeper": true
+    },
+    {
+      "uuid": "auto_oghenovo_usiwoma",
+      "tags": [
+        "Tests",
+        "Wallet",
+        "Needs rebase",
+        "CI failed",
+        "Proposed BIP modification"
+      ],
+      "is_architect": true,
+      "is_gatekeeper": true
+    },
+    {
+      "uuid": "can_greg_sanders",
+      "tags": [
+        "Tests",
+        "Wallet",
+        "RPC/REST/ZMQ",
+        "Docs",
+        "TX fees and policy"
+      ],
+      "is_architect": true,
+      "is_gatekeeper": true
+    },
+    {
+      "uuid": "can_erik_aronesty",
+      "tags": [
+        "Consensus"
+      ],
+      "is_architect": false,
+      "is_gatekeeper": true
+    },
+    {
+      "uuid": "auto_woltx",
+      "tags": [
+        "Needs rebase",
+        "Wallet",
+        "RPC/REST/ZMQ",
+        "Refactoring",
+        "Tests"
+      ],
+      "is_architect": true,
+      "is_gatekeeper": true
+    },
+    {
+      "uuid": "can_gavin_andresen",
+      "tags": [
+        "Refactoring",
+        "Tests",
+        "Feature",
+        "Bug",
+        "UTXO Db and Indexes"
       ],
       "is_architect": true,
       "is_gatekeeper": true
@@ -860,38 +550,60 @@
       "is_gatekeeper": true
     },
     {
-      "uuid": "can_shaolin_fry",
+      "uuid": "auto_unknown",
+      "tags": [],
+      "is_architect": false,
+      "is_gatekeeper": true
+    },
+    {
+      "uuid": "can_thomas_zander",
       "tags": [
-        "New BIP",
-        "Consensus"
+        "GUI",
+        "New BIP"
       ],
       "is_architect": true,
       "is_gatekeeper": true
     },
     {
-      "uuid": "auto_salvatore_ingala",
+      "uuid": "can_bryan_bishop",
       "tags": [
         "Proposed BIP modification",
-        "New BIP",
-        "Bug fix",
-        "Consensus",
-        "Needs rebase"
+        "Wallet",
+        "RPC/REST/ZMQ",
+        "Bug fix"
       ],
-      "is_architect": true,
+      "is_architect": false,
       "is_gatekeeper": true
     },
     {
-      "uuid": "can_eric_voskuil",
+      "uuid": "can_justus_ranvier",
       "tags": [
+        "New BIP",
         "Proposed BIP modification"
       ],
       "is_architect": false,
       "is_gatekeeper": true
     },
     {
-      "uuid": "auto_utf_8_b_sm9yz2ugvgltw7nu",
-      "tags": [],
-      "is_architect": false,
+      "uuid": "can_mike_hearn",
+      "tags": [
+        "P2P",
+        "TX fees and policy",
+        "Refactoring"
+      ],
+      "is_architect": true,
+      "is_gatekeeper": true
+    },
+    {
+      "uuid": "can_eric_lombrozo",
+      "tags": [
+        "New BIP",
+        "Refactoring",
+        "Proposed BIP modification",
+        "Consensus",
+        "Tests"
+      ],
+      "is_architect": true,
       "is_gatekeeper": true
     },
     {
@@ -902,54 +614,6 @@
         "RPC/REST/ZMQ",
         "New BIP",
         "Scripts and tools"
-      ],
-      "is_architect": true,
-      "is_gatekeeper": true
-    },
-    {
-      "uuid": "can_mark_friedenbach",
-      "tags": [
-        "Refactoring",
-        "Mempool",
-        "Validation",
-        "Mining",
-        "Consensus"
-      ],
-      "is_architect": true,
-      "is_gatekeeper": true
-    },
-    {
-      "uuid": "can_matt_corallo",
-      "tags": [
-        "P2P",
-        "Refactoring",
-        "Validation",
-        "Wallet",
-        "RPC/REST/ZMQ"
-      ],
-      "is_architect": true,
-      "is_gatekeeper": true
-    },
-    {
-      "uuid": "can_russell_o_connor",
-      "tags": [
-        "Refactoring",
-        "Tests",
-        "Validation",
-        "Docs",
-        "Consensus"
-      ],
-      "is_architect": false,
-      "is_gatekeeper": true
-    },
-    {
-      "uuid": "can_drak",
-      "tags": [
-        "Proposed BIP modification",
-        "Docs",
-        "Build system",
-        "Mempool",
-        "TX fees and policy"
       ],
       "is_architect": true,
       "is_gatekeeper": true
@@ -967,41 +631,357 @@
       "is_gatekeeper": true
     },
     {
-      "uuid": "can_tim_ruffing",
+      "uuid": "can_matt_whitlock",
+      "tags": [
+        "Scripts and tools",
+        "P2P",
+        "Build system",
+        "CI failed"
+      ],
+      "is_architect": false,
+      "is_gatekeeper": true
+    },
+    {
+      "uuid": "can_rusty_russell",
+      "tags": [
+        "Docs",
+        "Refactoring",
+        "RPC/REST/ZMQ",
+        "feature",
+        "New BIP"
+      ],
+      "is_architect": true,
+      "is_gatekeeper": true
+    },
+    {
+      "uuid": "can_tom_harding",
+      "tags": [
+        "Wallet",
+        "P2P",
+        "Tests",
+        "Bug",
+        "Refactoring"
+      ],
+      "is_architect": true,
+      "is_gatekeeper": true
+    },
+    {
+      "uuid": "auto_craig_raw",
+      "tags": [
+        "New BIP",
+        "Docs",
+        "RPC/REST/ZMQ",
+        "BIP Update by Owner"
+      ],
+      "is_architect": true,
+      "is_gatekeeper": true
+    },
+    {
+      "uuid": "can_jonas_nick",
+      "tags": [
+        "tweak/refactor",
+        "release",
+        "assurance",
+        "user-documentation",
+        "meta/development"
+      ],
+      "is_architect": true,
+      "is_gatekeeper": true
+    },
+    {
+      "uuid": "can_fabian_jahr",
+      "tags": [
+        "Tests",
+        "RPC/REST/ZMQ",
+        "Wallet",
+        "Docs",
+        "UTXO Db and Indexes"
+      ],
+      "is_architect": true,
+      "is_gatekeeper": true
+    },
+    {
+      "uuid": "can_russell_o_connor",
+      "tags": [
+        "assurance",
+        "tweak/refactor",
+        "Refactoring",
+        "Tests",
+        "Validation"
+      ],
+      "is_architect": false,
+      "is_gatekeeper": true
+    },
+    {
+      "uuid": "auto_utf_8_b_sm9yz2ugvgltw7nu",
+      "tags": [],
+      "is_architect": false,
+      "is_gatekeeper": true
+    },
+    {
+      "uuid": "can_drak",
       "tags": [
         "Proposed BIP modification",
         "Docs",
-        "Wallet",
-        "GUI",
-        "Windows"
+        "Build system",
+        "Mempool",
+        "TX fees and policy"
       ],
       "is_architect": true,
       "is_gatekeeper": true
     },
     {
-      "uuid": "auto_thomas_kerin",
+      "uuid": "can_andreas_schildbach",
+      "tags": [
+        "P2P",
+        "Docs",
+        "Tests"
+      ],
+      "is_architect": false,
+      "is_gatekeeper": true
+    },
+    {
+      "uuid": "can_shaolin_fry",
+      "tags": [
+        "New BIP",
+        "Consensus"
+      ],
+      "is_architect": true,
+      "is_gatekeeper": true
+    },
+    {
+      "uuid": "can_sebastian_falbesoner",
+      "tags": [
+        "Tests",
+        "Refactoring",
+        "tweak/refactor",
+        "Docs",
+        "Wallet"
+      ],
+      "is_architect": true,
+      "is_gatekeeper": true
+    },
+    {
+      "uuid": "can_ava_chow",
+      "tags": [
+        "Wallet",
+        "RPC/REST/ZMQ",
+        "Tests",
+        "Build system",
+        "GUI"
+      ],
+      "is_architect": true,
+      "is_gatekeeper": true
+    },
+    {
+      "uuid": "auto_salvatore_ingala",
       "tags": [
         "Proposed BIP modification",
-        "Utils/log/libs",
-        "RPC/REST/ZMQ",
-        "Up for grabs",
-        "Pending acceptance"
+        "New BIP",
+        "Bug fix",
+        "Consensus",
+        "Needs rebase"
       ],
       "is_architect": true,
       "is_gatekeeper": true
     },
     {
-      "uuid": "can_peter_todd",
+      "uuid": "can_aaron_voisine",
+      "tags": [],
+      "is_architect": true,
+      "is_gatekeeper": true
+    },
+    {
+      "uuid": "can_tamas_blummer",
       "tags": [
-        "TX fees and policy",
+        "Wallet"
+      ],
+      "is_architect": false,
+      "is_gatekeeper": true
+    },
+    {
+      "uuid": "can_pavol_rusnak",
+      "tags": [
+        "Scripts and tools",
+        "Refactoring",
+        "Docs",
         "P2P",
+        "Needs rebase"
+      ],
+      "is_architect": true,
+      "is_gatekeeper": true
+    },
+    {
+      "uuid": "can_christian_decker",
+      "tags": [
+        "New BIP",
+        "RPC/REST/ZMQ",
+        "Utils/log/libs",
+        "P2P"
+      ],
+      "is_architect": true,
+      "is_gatekeeper": true
+    },
+    {
+      "uuid": "can_andrew_toth",
+      "tags": [
         "Validation",
+        "RPC/REST/ZMQ",
+        "UTXO Db and Indexes",
+        "P2P",
+        "Docs"
+      ],
+      "is_architect": true,
+      "is_gatekeeper": true
+    },
+    {
+      "uuid": "can_tier_nolan",
+      "tags": [],
+      "is_architect": false,
+      "is_gatekeeper": true
+    },
+    {
+      "uuid": "can_wladimir_j_van_der_laan",
+      "tags": [
+        "Docs",
+        "Tests",
+        "Build system",
+        "RPC/REST/ZMQ",
+        "P2P"
+      ],
+      "is_architect": true,
+      "is_gatekeeper": true
+    },
+    {
+      "uuid": "can_alan_reiner",
+      "tags": [],
+      "is_architect": false,
+      "is_gatekeeper": true
+    },
+    {
+      "uuid": "can_odinn",
+      "tags": [],
+      "is_architect": false,
+      "is_gatekeeper": true
+    },
+    {
+      "uuid": "can_amir_taaki",
+      "tags": [
+        "Feature",
+        "Refactoring"
+      ],
+      "is_architect": true,
+      "is_gatekeeper": true
+    },
+    {
+      "uuid": "can_alicexbt",
+      "tags": [
+        "CI failed",
+        "TX fees and policy",
+        "New BIP"
+      ],
+      "is_architect": false,
+      "is_gatekeeper": true
+    },
+    {
+      "uuid": "can_michael_folkson",
+      "tags": [
+        "Docs",
+        "Tests"
+      ],
+      "is_architect": true,
+      "is_gatekeeper": true
+    },
+    {
+      "uuid": "auto_andrew_poelstra",
+      "tags": [
+        "Tests",
         "Wallet",
-        "RPC/REST/ZMQ"
+        "Proposed BIP modification",
+        "Build system",
+        "CI failed"
+      ],
+      "is_architect": true,
+      "is_gatekeeper": true
+    },
+    {
+      "uuid": "can_adam_back",
+      "tags": [],
+      "is_architect": false,
+      "is_gatekeeper": true
+    },
+    {
+      "uuid": "can_zmnscpxj",
+      "tags": [],
+      "is_architect": false,
+      "is_gatekeeper": true
+    },
+    {
+      "uuid": "can_melvin_carvalho",
+      "tags": [],
+      "is_architect": false,
+      "is_gatekeeper": true
+    },
+    {
+      "uuid": "can_jeff_garzik",
+      "tags": [
+        "Refactoring",
+        "Feature",
+        "Bug",
+        "Tests",
+        "P2P"
+      ],
+      "is_architect": true,
+      "is_gatekeeper": true
+    },
+    {
+      "uuid": "can_pieter_wuille",
+      "tags": [
+        "Refactoring",
+        "P2P",
+        "Tests",
+        "Utils/log/libs",
+        "Wallet"
+      ],
+      "is_architect": true,
+      "is_gatekeeper": true
+    },
+    {
+      "uuid": "can_jeremy_rubin",
+      "tags": [
+        "Tests",
+        "Refactoring",
+        "Validation",
+        "Mempool",
+        "Needs rebase"
+      ],
+      "is_architect": true,
+      "is_gatekeeper": true
+    },
+    {
+      "uuid": "can_gloria_zhao",
+      "tags": [
+        "Docs",
+        "Tests",
+        "Validation",
+        "Refactoring",
+        "Mempool"
+      ],
+      "is_architect": true,
+      "is_gatekeeper": true
+    },
+    {
+      "uuid": "can_alex_morcos",
+      "tags": [
+        "Wallet",
+        "TX fees and policy",
+        "Mempool",
+        "Docs",
+        "UTXO Db and Indexes"
       ],
       "is_architect": true,
       "is_gatekeeper": true
     }
   ],
-  "last_updated": "2026-09-21T10:27:03.827409"
+  "last_updated": "2026-09-27T22:16:48.876147"
 }

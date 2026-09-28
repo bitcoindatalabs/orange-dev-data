@@ -1,5 +1,5 @@
 {
-  "display_name": "Joachim Str\u00f6mbergson",
+  "display_name": "Joachim Strömbergson",
   "github_login_final": null,
   "delving_username_final": null,
   "uuid": "auto_joachim_str_mbergson",
@@ -45,8 +45,8 @@
   "avg_pr_ack_velocity_days": null,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": null,
-  "hybrid_score": 0.0257,
-  "p2016_hybrid_score": 0.0413,
+  "hybrid_score": 0.0259,
+  "p2016_hybrid_score": 0.0417,
   "modern_hybrid_score": 0.0,
   "impact_score": 2.0,
   "p2016_impact_score": 2.0,
@@ -66,13 +66,13 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Ecosystem": 0.27,
-      "L2": 0.73
+      "L2": 0.73,
+      "Ecosystem": 0.27
     }
   },
   "expertise_domain_scores": {
-    "Ecosystem": 0.27,
-    "L2": 0.73
+    "L2": 0.73,
+    "Ecosystem": 0.27
   },
   "p2016_posts": 10.0,
   "modern_posts": 0.0,

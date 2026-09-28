@@ -51,32 +51,28 @@
   "impact_score": 1.0,
   "p2016_impact_score": 1.0,
   "modern_impact_score": 1.0,
-  "threads_started": 1.0,
-  "replies_sent": 2.0,
+  "threads_started": 0.0,
+  "replies_sent": 0.0,
   "ml_threads": 0.0,
-  "delving_threads": 1.0,
+  "delving_threads": 0.0,
   "ml_responses": 0.0,
-  "delving_responses": 2.0,
+  "delving_responses": 0.0,
   "first_active": null,
   "last_active": null,
   "dev_type": "Participant",
   "expertise_domains": [
-    "Mempool"
+    "Infrastructure"
   ],
-  "expertise_by_source": {
-    "discussion": {
-      "Mempool": 1.0
-    }
-  },
+  "expertise_by_source": {},
   "expertise_domain_scores": {
-    "Mempool": 1.0
+    "Infrastructure": 1.0
   },
-  "p2016_posts": 3.0,
-  "modern_posts": 3.0,
+  "p2016_posts": 0.0,
+  "modern_posts": 0.0,
   "p2016_ml_posts": 0.0,
-  "p2016_delving_posts": 3.0,
+  "p2016_delving_posts": 0.0,
   "modern_ml_posts": 0.0,
-  "modern_delving_posts": 3.0,
+  "modern_delving_posts": 0.0,
   "is_engineer": false,
   "is_reviewer": true,
   "is_researcher": false,
@@ -92,23 +88,5 @@
   "activity_status": "Active",
   "is_top_50": false,
   "github_url": "https://github.com/szarka",
-  "delving_url": "https://delvingbitcoin.org/u/szarka",
-  "first_message": {
-    "source": "delving",
-    "subject": "vExtraTxnForCompact Considered Useful",
-    "date": "2025-05-21",
-    "link": "https://delvingbitcoin.org/t/vextratxnforcompact-considered-useful/1716/1"
-  },
-  "last_message": {
-    "source": "delving",
-    "subject": "Re: vExtraTxnForCompact Considered Useful",
-    "date": "2025-05-22",
-    "link": "https://delvingbitcoin.org/t/vextratxnforcompact-considered-useful/1716/5"
-  },
-  "social_history": {
-    "2025": {
-      "mempool-fees": 3,
-      "spam-filtering": 3
-    }
-  }
+  "delving_url": "https://delvingbitcoin.org/u/szarka"
 }

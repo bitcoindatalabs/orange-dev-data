@@ -45,7 +45,7 @@
   "avg_pr_ack_velocity_days": null,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": 1.0,
-  "hybrid_score": 0.0404,
+  "hybrid_score": 0.0405,
   "p2016_hybrid_score": 0.0453,
   "modern_hybrid_score": 0.0146,
   "impact_score": 2.0,
@@ -68,14 +68,14 @@
   "expertise_by_source": {
     "discussion": {
       "Consensus": 0.5,
-      "Script": 0.25,
-      "Wallet": 0.25
+      "Wallet": 0.25,
+      "Script": 0.25
     }
   },
   "expertise_domain_scores": {
     "Consensus": 0.5,
-    "Script": 0.25,
-    "Wallet": 0.25
+    "Wallet": 0.25,
+    "Script": 0.25
   },
   "p2016_posts": 1.0,
   "modern_posts": 0.0,
@@ -89,7 +89,7 @@
   "is_bip_author": false,
   "global_first_active": "2019-04-19T06:53:51",
   "global_last_active": "2019-05-14T20:23:17",
-  "github_location": "\ud83c\udde8\ud83c\udded && \ud83c\uddee\ud83c\uddf9",
+  "github_location": "🇨🇭 && 🇮🇹",
   "github_company": "@sig9sec @unicrowio",
   "github_bio": "Not an NPC",
   "github_twitter": null,

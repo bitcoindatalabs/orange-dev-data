@@ -45,47 +45,37 @@
   "avg_pr_ack_velocity_days": null,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": null,
-  "hybrid_score": 0.1028,
-  "p2016_hybrid_score": 0.1053,
-  "modern_hybrid_score": 0.1188,
+  "hybrid_score": 0.0977,
+  "p2016_hybrid_score": 0.0977,
+  "modern_hybrid_score": 0.0977,
   "impact_score": 6.0,
   "p2016_impact_score": 6.0,
-  "modern_impact_score": 7.0,
-  "threads_started": 8.0,
-  "replies_sent": 4.0,
+  "modern_impact_score": 6.0,
+  "threads_started": 0.0,
+  "replies_sent": 0.0,
   "ml_threads": 0.0,
-  "delving_threads": 8.0,
+  "delving_threads": 0.0,
   "ml_responses": 0.0,
-  "delving_responses": 4.0,
+  "delving_responses": 0.0,
   "first_active": null,
   "last_active": null,
   "dev_type": "Reviewer",
   "expertise_domains": [
-    "Mining",
-    "Consensus",
-    "Mempool"
+    "Infrastructure"
   ],
-  "expertise_by_source": {
-    "discussion": {
-      "Consensus": 0.222,
-      "Mempool": 0.198,
-      "Mining": 0.58
-    }
-  },
+  "expertise_by_source": {},
   "expertise_domain_scores": {
-    "Consensus": 0.222,
-    "Mempool": 0.198,
-    "Mining": 0.58
+    "Infrastructure": 1.0
   },
-  "p2016_posts": 12.0,
-  "modern_posts": 12.0,
+  "p2016_posts": 0.0,
+  "modern_posts": 0.0,
   "p2016_ml_posts": 0.0,
-  "p2016_delving_posts": 12.0,
+  "p2016_delving_posts": 0.0,
   "modern_ml_posts": 0.0,
-  "modern_delving_posts": 12.0,
+  "modern_delving_posts": 0.0,
   "is_engineer": false,
   "is_reviewer": true,
-  "is_researcher": true,
+  "is_researcher": false,
   "is_bip_author": false,
   "global_first_active": "2024-06-16T17:20:56",
   "global_last_active": "2026-05-27T14:55:05",
@@ -98,34 +88,5 @@
   "activity_status": "Active",
   "is_top_50": false,
   "github_url": "https://github.com/plebhash",
-  "delving_url": "https://delvingbitcoin.org/u/plebhash",
-  "first_message": {
-    "source": "delving",
-    "subject": "Re: Ecash TIDES using Cashu and Stratum v2",
-    "date": "2024-05-16",
-    "link": "https://delvingbitcoin.org/t/ecash-tides-using-cashu-and-stratum-v2/870/9"
-  },
-  "last_message": {
-    "source": "delving",
-    "subject": "Re: Scaling Noncustodial Mining Payouts with CTV",
-    "date": "2025-06-13",
-    "link": "https://delvingbitcoin.org/t/scaling-noncustodial-mining-payouts-with-ctv/1753/17"
-  },
-  "social_history": {
-    "2024": {
-      "consensus-cleanup": 9,
-      "ecash": 1,
-      "lightning": 1,
-      "mempool-fees": 8,
-      "mining": 10,
-      "script-opcodes": 1,
-      "security": 1,
-      "other": 2
-    },
-    "2025": {
-      "covenants": 2,
-      "lightning": 2,
-      "mining": 2
-    }
-  }
+  "delving_url": "https://delvingbitcoin.org/u/plebhash"
 }

@@ -1,18 +1,18 @@
 {
-  "display_name": "jan \u010dapek",
+  "display_name": "jan čapek",
   "github_login_final": "janbraiins",
   "delving_username_final": null,
   "uuid": "auto_jan_apek",
   "badges": {
-    "is_bip_author": true,
-    "is_core_committer": false,
     "is_maintainer": false,
-    "is_sponsored": false,
+    "is_core_committer": false,
     "maintainer_status": null,
+    "is_sponsored": false,
+    "sponsor_id": null,
+    "is_bip_author": true,
     "roles": [
       "BIP Author"
-    ],
-    "sponsor_id": null
+    ]
   },
   "roles": [
     "BIP Author"
@@ -57,11 +57,11 @@
   "avg_pr_ack_velocity_days": 5.007986111111111,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": 1.5,
-  "hybrid_score": 0.4782,
-  "p2016_hybrid_score": 0.4826,
+  "hybrid_score": 0.4148,
+  "p2016_hybrid_score": 0.4193,
   "modern_hybrid_score": 0.0396,
-  "impact_score": 25.0,
-  "p2016_impact_score": 25.0,
+  "impact_score": 22.0,
+  "p2016_impact_score": 22.0,
   "modern_impact_score": 2.0,
   "threads_started": 1.0,
   "replies_sent": 2.0,
@@ -71,27 +71,22 @@
   "delving_responses": 0.0,
   "first_active": "2017-04-07T17:48:11",
   "last_active": "2018-05-17T11:49:43",
-  "dev_type": "Protocol Designer",
+  "dev_type": "Participant",
   "expertise_domains": [
     "Network",
-    "Infrastructure",
     "Mining"
   ],
   "expertise_by_source": {
-    "bips": {
-      "Network": 1.0
-    },
-    "code": {
-      "Infrastructure": 1.0
-    },
     "discussion": {
       "Mining": 1.0
+    },
+    "bips": {
+      "Network": 1.0
     }
   },
   "expertise_domain_scores": {
-    "Infrastructure": 0.3,
-    "Mining": 0.2,
-    "Network": 0.5
+    "Mining": 0.2857,
+    "Network": 0.7143
   },
   "p2016_posts": 3.0,
   "modern_posts": 0.0,
@@ -99,7 +94,7 @@
   "p2016_delving_posts": 0.0,
   "modern_ml_posts": 0.0,
   "modern_delving_posts": 0.0,
-  "is_engineer": true,
+  "is_engineer": false,
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": true,

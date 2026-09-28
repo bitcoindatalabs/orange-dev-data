@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-09-26",
-  "contributors_tracked": 7632,
+  "generated_at": "2026-09-27",
+  "contributors_tracked": 7615,
   "window_reference": {
-    "anchor_timestamp": "2026-09-27T23:59:59.936343+00:00",
-    "current_window_start": "2026-08-28T23:59:59.936343+00:00",
-    "previous_window_start": "2026-07-29T23:59:59.936343+00:00",
+    "anchor_timestamp": "2026-09-27T23:59:59+00:00",
+    "current_window_start": "2026-08-28T23:59:59+00:00",
+    "previous_window_start": "2026-07-29T23:59:59+00:00",
     "window_days": 30
   },
   "widgets": {
     "active_contributors_30d": {
-      "value": 115,
-      "previous_30d": 71,
-      "delta_30d": 44,
+      "value": 145,
+      "previous_30d": 73,
+      "delta_30d": 72,
       "window_days": 30,
       "definition": "Contributors with global_last_active in current 30-day window, compared to the previous 30-day window.",
-      "latest_activity_date": "2026-09-21"
+      "latest_activity_date": "2026-09-27"
     },
     "top_reviewers_30d": {
       "window_days": 30,
@@ -153,12 +153,12 @@
       ]
     },
     "active_contributors_7d": {
-      "value": 16,
-      "previous_7d": 66,
-      "delta_7d": -50,
+      "value": 84,
+      "previous_7d": 34,
+      "delta_7d": 50,
       "window_days": 7,
       "definition": "Contributors with global_last_active in current 7-day window, compared to the previous 7-day window.",
-      "latest_activity_date": "2026-09-21"
+      "latest_activity_date": "2026-09-27"
     },
     "top_reviewers_7d": {
       "window_days": 7,
@@ -277,29 +277,24 @@
       "definition": "Random selection of top retired contributors by impact score to feature as ecosystem veterans.",
       "items": [
         {
-          "uuid": "can_jim_posen",
-          "display_name": "Jim Posen",
-          "impact_score": 41.0
+          "uuid": "can_johnson_lau",
+          "display_name": "Johnson Lau",
+          "impact_score": 57.0
         },
         {
-          "uuid": "can_gavin_andresen",
-          "display_name": "Gavin Andresen",
-          "impact_score": 87.0
+          "uuid": "can_amir_taaki",
+          "display_name": "Amir Taaki",
+          "impact_score": 50.0
         },
         {
-          "uuid": "auto_peter_coinkite_inc",
-          "display_name": "Peter (Coinkite Inc)",
-          "impact_score": 28.0
+          "uuid": "can_aaron_voisine",
+          "display_name": "Aaron Voisine",
+          "impact_score": 43.0
         },
         {
-          "uuid": "auto_pavel_jan_k",
-          "display_name": "Pavel Jan\u00edk",
-          "impact_score": 29.0
-        },
-        {
-          "uuid": "can_omar_shibli",
-          "display_name": "Omar Shibli",
-          "impact_score": 23.0
+          "uuid": "auto_jean_pierre_rupp",
+          "display_name": "jean-pierre rupp",
+          "impact_score": 22.0
         }
       ]
     }

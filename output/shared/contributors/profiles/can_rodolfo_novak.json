@@ -4,15 +4,15 @@
   "delving_username_final": null,
   "uuid": "can_rodolfo_novak",
   "badges": {
-    "is_bip_author": true,
-    "is_core_committer": false,
     "is_maintainer": false,
-    "is_sponsored": false,
+    "is_core_committer": false,
     "maintainer_status": null,
+    "is_sponsored": false,
+    "sponsor_id": null,
+    "is_bip_author": true,
     "roles": [
       "BIP Author"
-    ],
-    "sponsor_id": null
+    ]
   },
   "roles": [
     "BIP Author"
@@ -41,7 +41,7 @@
   "modern_bips_authored": 0.0,
   "first_bip_date": "2021-04-05T01:46:06",
   "last_bip_date": "2021-04-05T01:46:06",
-  "avg_review_latency_days": 988.7466497878086,
+  "avg_review_latency_days": 950.4770680555556,
   "reviews_count": 13.0,
   "avg_approval_latency_days": 1565.5298116582492,
   "approvals_count": 6.0,
@@ -57,9 +57,9 @@
   "avg_pr_ack_velocity_days": null,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": null,
-  "hybrid_score": 0.4637,
-  "p2016_hybrid_score": 0.4742,
-  "modern_hybrid_score": 0.1373,
+  "hybrid_score": 0.4638,
+  "p2016_hybrid_score": 0.4744,
+  "modern_hybrid_score": 0.1386,
   "impact_score": 24.0,
   "p2016_impact_score": 25.0,
   "modern_impact_score": 8.0,
@@ -77,17 +77,17 @@
     "Ecosystem"
   ],
   "expertise_by_source": {
+    "discussion": {
+      "Wallet": 0.5,
+      "Ecosystem": 0.5
+    },
     "bips": {
       "Wallet": 1.0
-    },
-    "discussion": {
-      "Ecosystem": 0.5,
-      "Wallet": 0.5
     }
   },
   "expertise_domain_scores": {
-    "Ecosystem": 0.1429,
-    "Wallet": 0.8571
+    "Wallet": 0.8571,
+    "Ecosystem": 0.1429
   },
   "p2016_posts": 7.0,
   "modern_posts": 3.0,

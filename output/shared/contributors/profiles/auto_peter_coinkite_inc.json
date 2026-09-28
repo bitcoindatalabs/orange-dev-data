@@ -45,14 +45,14 @@
   "prs_authored": 2.0,
   "tier1_prs_authored": 0.0,
   "tier2_prs_authored": 2.0,
-  "avg_pr_ack_velocity_days": 0.8408796296296296,
+  "avg_pr_ack_velocity_days": null,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": 3.5,
-  "hybrid_score": 0.55,
-  "p2016_hybrid_score": 0.5771,
+  "hybrid_score": 0.4705,
+  "p2016_hybrid_score": 0.4984,
   "modern_hybrid_score": 0.025,
-  "impact_score": 28.0,
-  "p2016_impact_score": 29.0,
+  "impact_score": 25.0,
+  "p2016_impact_score": 26.0,
   "modern_impact_score": 1.0,
   "threads_started": 1.0,
   "replies_sent": 19.0,
@@ -62,26 +62,23 @@
   "delving_responses": 0.0,
   "first_active": "2015-02-06T13:06:07",
   "last_active": "2022-08-04T13:36:06",
-  "dev_type": "Protocol Designer",
+  "dev_type": "Participant",
   "expertise_domains": [
     "Wallet",
     "Consensus"
   ],
   "expertise_by_source": {
-    "bips": {
-      "Wallet": 1.0
-    },
-    "code": {
-      "Wallet": 1.0
-    },
     "discussion": {
       "Consensus": 0.058,
       "Wallet": 0.942
+    },
+    "bips": {
+      "Wallet": 1.0
     }
   },
   "expertise_domain_scores": {
-    "Consensus": 0.0116,
-    "Wallet": 0.9884
+    "Consensus": 0.0166,
+    "Wallet": 0.9834
   },
   "p2016_posts": 19.0,
   "modern_posts": 0.0,
@@ -89,7 +86,7 @@
   "p2016_delving_posts": 0.0,
   "modern_ml_posts": 0.0,
   "modern_delving_posts": 0.0,
-  "is_engineer": true,
+  "is_engineer": false,
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": true,
@@ -101,7 +98,7 @@
   "github_twitter": null,
   "github_blog": "coinkite.com",
   "github_followers": 102.0,
-  "activity_status": "Retired",
+  "activity_status": "Active",
   "is_top_50": false,
   "github_url": "https://github.com/doc-hex",
   "commit_history": {

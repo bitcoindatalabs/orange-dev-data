@@ -1,18 +1,18 @@
 {
-  "display_name": "\u0412\u0435\u043b\u0435\u0441\u043b\u0430\u0432",
+  "display_name": "Велеслав",
   "github_login_final": null,
   "delving_username_final": null,
   "uuid": "auto_id_fc7737_1",
   "badges": {
-    "is_bip_author": true,
-    "is_core_committer": false,
     "is_maintainer": false,
-    "is_sponsored": false,
+    "is_core_committer": false,
     "maintainer_status": null,
+    "is_sponsored": false,
+    "sponsor_id": null,
+    "is_bip_author": true,
     "roles": [
       "BIP Author"
-    ],
-    "sponsor_id": null
+    ]
   },
   "roles": [
     "BIP Author"

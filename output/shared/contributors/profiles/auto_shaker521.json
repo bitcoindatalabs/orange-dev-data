@@ -66,13 +66,13 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Ecosystem": 0.879,
-      "Mempool": 0.121
+      "Mempool": 0.121,
+      "Ecosystem": 0.879
     }
   },
   "expertise_domain_scores": {
-    "Ecosystem": 0.879,
-    "Mempool": 0.121
+    "Mempool": 0.121,
+    "Ecosystem": 0.879
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,

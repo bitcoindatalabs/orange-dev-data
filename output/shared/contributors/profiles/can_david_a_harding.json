@@ -4,15 +4,15 @@
   "delving_username_final": "harding",
   "uuid": "can_david_a_harding",
   "badges": {
-    "is_bip_author": true,
-    "is_core_committer": false,
     "is_maintainer": false,
-    "is_sponsored": false,
+    "is_core_committer": false,
     "maintainer_status": null,
+    "is_sponsored": false,
+    "sponsor_id": null,
+    "is_bip_author": true,
     "roles": [
       "BIP Author"
     ],
-    "sponsor_id": null,
     "ecosystem_contributor": true,
     "tier2_commits": 1
   },
@@ -43,9 +43,9 @@
   "modern_bips_authored": 0.0,
   "first_bip_date": "2015-12-04T19:24:33",
   "last_bip_date": "2015-12-04T19:24:33",
-  "avg_review_latency_days": 794.3201922123015,
+  "avg_review_latency_days": 813.3896419134346,
   "reviews_count": 87.0,
-  "avg_approval_latency_days": 878.760192824074,
+  "avg_approval_latency_days": 887.8570694444444,
   "approvals_count": 33.0,
   "tier1_reviews_count": 53.0,
   "tier2_reviews_count": 34.0,
@@ -56,57 +56,52 @@
   "prs_authored": 24.0,
   "tier1_prs_authored": 18.0,
   "tier2_prs_authored": 6.0,
-  "avg_pr_ack_velocity_days": 8.296097709551658,
+  "avg_pr_ack_velocity_days": 0.5503285751028807,
   "avg_concept_lead_time_days": 0.613275462962963,
   "review_reciprocity": 3.625,
-  "hybrid_score": 0.9476,
-  "p2016_hybrid_score": 0.7139,
-  "modern_hybrid_score": 0.4266,
-  "impact_score": 43.0,
-  "p2016_impact_score": 35.0,
-  "modern_impact_score": 23.0,
-  "threads_started": 50.0,
-  "replies_sent": 194.0,
+  "hybrid_score": 0.7445,
+  "p2016_hybrid_score": 0.5139,
+  "modern_hybrid_score": 0.4489,
+  "impact_score": 36.0,
+  "p2016_impact_score": 27.0,
+  "modern_impact_score": 24.0,
+  "threads_started": 6.0,
+  "replies_sent": 153.0,
   "ml_threads": 6.0,
-  "delving_threads": 44.0,
+  "delving_threads": 0.0,
   "ml_responses": 153.0,
-  "delving_responses": 41.0,
+  "delving_responses": 0.0,
   "first_active": "2014-05-21T15:25:02",
   "last_active": "2025-11-19T00:25:27",
-  "dev_type": "Protocol Designer",
+  "dev_type": "Reviewer",
   "expertise_domains": [
     "Infrastructure",
     "Mempool",
-    "Mining"
+    "Consensus"
   ],
   "expertise_by_source": {
+    "discussion": {
+      "Mining": 0.206,
+      "Mempool": 0.559,
+      "Consensus": 0.235
+    },
     "bips": {
       "Infrastructure": 1.0
-    },
-    "code": {
-      "Infrastructure": 0.857,
-      "Wallet": 0.143
-    },
-    "discussion": {
-      "L2": 0.235,
-      "Mempool": 0.471,
-      "Mining": 0.294
     }
   },
   "expertise_domain_scores": {
-    "Infrastructure": 0.7571,
-    "L2": 0.047,
-    "Mempool": 0.0942,
-    "Mining": 0.0588,
-    "Wallet": 0.0429
+    "Infrastructure": 0.7143,
+    "Mining": 0.0589,
+    "Mempool": 0.1597,
+    "Consensus": 0.0671
   },
-  "p2016_posts": 236.0,
-  "modern_posts": 119.0,
+  "p2016_posts": 151.0,
+  "modern_posts": 34.0,
   "p2016_ml_posts": 151.0,
-  "p2016_delving_posts": 85.0,
+  "p2016_delving_posts": 0.0,
   "modern_ml_posts": 34.0,
-  "modern_delving_posts": 85.0,
-  "is_engineer": true,
+  "modern_delving_posts": 0.0,
+  "is_engineer": false,
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": true,
@@ -228,36 +223,35 @@
       "soft-fork-activation": 5
     },
     "2023": {
-      "covenants": 5,
-      "other": 35,
+      "covenants": 2,
       "lightning": 3,
       "mempool-fees": 11,
       "mining": 4,
+      "other": 30,
       "script-opcodes": 3,
       "security": 5,
       "taproot": 5
     },
     "2024": {
-      "other": 101,
-      "covenants": 14,
-      "lightning": 19,
-      "mempool-fees": 36,
-      "mining": 28,
-      "script-opcodes": 19,
-      "security": 16,
-      "soft-fork-activation": 11,
-      "taproot": 11
+      "other": 12,
+      "covenants": 1,
+      "lightning": 1,
+      "mempool-fees": 9,
+      "mining": 2,
+      "script-opcodes": 2,
+      "security": 5,
+      "soft-fork-activation": 1,
+      "taproot": 2
     },
     "2025": {
-      "other": 36,
-      "covenants": 6,
-      "lightning": 13,
-      "mempool-fees": 7,
-      "mining": 10,
-      "script-opcodes": 4,
-      "security": 6,
-      "soft-fork-activation": 6,
-      "taproot": 3
+      "other": 9,
+      "covenants": 1,
+      "lightning": 1,
+      "mining": 1,
+      "script-opcodes": 1,
+      "security": 3,
+      "soft-fork-activation": 4,
+      "taproot": 1
     }
   }
 }

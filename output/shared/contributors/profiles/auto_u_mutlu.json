@@ -66,13 +66,13 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Ecosystem": 0.33,
-      "Wallet": 0.67
+      "Wallet": 0.67,
+      "Ecosystem": 0.33
     }
   },
   "expertise_domain_scores": {
-    "Ecosystem": 0.33,
-    "Wallet": 0.67
+    "Wallet": 0.67,
+    "Ecosystem": 0.33
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,

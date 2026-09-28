@@ -1,5 +1,5 @@
 {
-  "display_name": "\u0410\u0440\u0442\u0451\u043c \u041b\u0438\u0442\u0432\u0438\u043d\u043e\u0432\u0438\u0447",
+  "display_name": "Артём Литвинович",
   "github_login_final": null,
   "delving_username_final": null,
   "uuid": "auto_id_3e5f53",
@@ -45,8 +45,8 @@
   "avg_pr_ack_velocity_days": null,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": null,
-  "hybrid_score": 0.0175,
-  "p2016_hybrid_score": 0.0317,
+  "hybrid_score": 0.0177,
+  "p2016_hybrid_score": 0.0319,
   "modern_hybrid_score": 0.0,
   "impact_score": 1.0,
   "p2016_impact_score": 2.0,
@@ -66,13 +66,13 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Consensus": 0.5,
-      "Mining": 0.5
+      "Mining": 0.5,
+      "Consensus": 0.5
     }
   },
   "expertise_domain_scores": {
-    "Consensus": 0.5,
-    "Mining": 0.5
+    "Mining": 0.5,
+    "Consensus": 0.5
   },
   "p2016_posts": 4.0,
   "modern_posts": 0.0,

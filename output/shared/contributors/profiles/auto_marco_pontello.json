@@ -4,15 +4,15 @@
   "delving_username_final": null,
   "uuid": "auto_marco_pontello",
   "badges": {
-    "is_bip_author": true,
-    "is_core_committer": false,
     "is_maintainer": false,
-    "is_sponsored": false,
+    "is_core_committer": false,
     "maintainer_status": null,
+    "is_sponsored": false,
+    "sponsor_id": null,
+    "is_bip_author": true,
     "roles": [
       "BIP Author"
-    ],
-    "sponsor_id": null
+    ]
   },
   "roles": [
     "BIP Author"
@@ -41,9 +41,9 @@
   "modern_bips_authored": 0.0,
   "first_bip_date": "2015-09-19T12:24:35",
   "last_bip_date": "2015-09-19T12:24:35",
-  "avg_review_latency_days": 1366.0993339646463,
+  "avg_review_latency_days": 881.8074560185185,
   "reviews_count": 4.0,
-  "avg_approval_latency_days": 0.08599537037037037,
+  "avg_approval_latency_days": 72.84564236111112,
   "approvals_count": 1.0,
   "tier1_reviews_count": 1.0,
   "tier2_reviews_count": 3.0,
@@ -57,7 +57,7 @@
   "avg_pr_ack_velocity_days": null,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": 2.0,
-  "hybrid_score": 0.4366,
+  "hybrid_score": 0.4368,
   "p2016_hybrid_score": 0.0723,
   "modern_hybrid_score": 0.025,
   "impact_score": 23.0,
@@ -78,18 +78,18 @@
     "Mining"
   ],
   "expertise_by_source": {
+    "discussion": {
+      "Mining": 0.5,
+      "Consensus": 0.5
+    },
     "bips": {
       "Infrastructure": 1.0
-    },
-    "discussion": {
-      "Consensus": 0.5,
-      "Mining": 0.5
     }
   },
   "expertise_domain_scores": {
-    "Consensus": 0.1429,
     "Infrastructure": 0.7143,
-    "Mining": 0.1429
+    "Mining": 0.1429,
+    "Consensus": 0.1429
   },
   "p2016_posts": 2.0,
   "modern_posts": 0.0,

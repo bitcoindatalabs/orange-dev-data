@@ -45,50 +45,44 @@
   "avg_pr_ack_velocity_days": null,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": null,
-  "hybrid_score": 0.0126,
-  "p2016_hybrid_score": 0.0205,
-  "modern_hybrid_score": 0.0212,
+  "hybrid_score": 0.0119,
+  "p2016_hybrid_score": 0.0192,
+  "modern_hybrid_score": 0.021,
   "impact_score": 1.0,
   "p2016_impact_score": 1.0,
   "modern_impact_score": 1.0,
-  "threads_started": 8.0,
-  "replies_sent": 7.0,
+  "threads_started": 1.0,
+  "replies_sent": 5.0,
   "ml_threads": 1.0,
-  "delving_threads": 7.0,
+  "delving_threads": 0.0,
   "ml_responses": 5.0,
-  "delving_responses": 2.0,
+  "delving_responses": 0.0,
   "first_active": "2023-08-15T21:02:38",
-  "last_active": null,
+  "last_active": "2024-01-02T10:24:06",
   "dev_type": "Participant",
   "expertise_domains": [
-    "L2",
-    "Mining",
-    "Consensus"
+    "L2"
   ],
   "expertise_by_source": {
     "discussion": {
-      "Consensus": 0.211,
-      "L2": 0.579,
-      "Mining": 0.211
+      "L2": 1.0
     }
   },
   "expertise_domain_scores": {
-    "Consensus": 0.2108,
-    "L2": 0.5784,
-    "Mining": 0.2108
+    "L2": 1.0
   },
-  "p2016_posts": 15.0,
-  "modern_posts": 10.0,
+  "p2016_posts": 6.0,
+  "modern_posts": 3.0,
   "p2016_ml_posts": 6.0,
-  "p2016_delving_posts": 9.0,
+  "p2016_delving_posts": 0.0,
   "modern_ml_posts": 3.0,
-  "modern_delving_posts": 7.0,
+  "modern_delving_posts": 0.0,
   "is_engineer": false,
   "is_reviewer": false,
   "is_researcher": true,
   "is_bip_author": false,
   "global_first_active": "2023-08-15T21:02:38",
-  "global_last_active": null,
+  "global_last_active": "2024-01-02T10:24:06",
   "github_location": null,
   "github_company": null,
   "github_bio": null,
@@ -105,27 +99,23 @@
     "link": "https://gnusha.org/pi/bitcoindev/E4A37B75-349D-4CD8-B8E2-9686EFDA9EEA@breen.xyz"
   },
   "last_message": {
-    "source": "delving",
-    "subject": "Re: Drivechain with and without BIP 300/301",
-    "date": "2024-06-10",
-    "link": "https://delvingbitcoin.org/t/drivechain-with-and-without-bip-300-301/958/2"
+    "source": "mailing_list",
+    "subject": "Re: [bitcoin-dev] Swift Activation - CTV",
+    "date": "2024-01-02",
+    "link": "https://gnusha.org/pi/bitcoindev/5E185ABF-9F36-427D-B30D-D1E26D198469@breen.xyz"
   },
   "social_history": {
     "2023": {
       "bitvm": 2,
-      "other": 5,
       "hard-fork-block-size": 1,
-      "sidechains-drivechain": 5
+      "ordinals-inscriptions": 1,
+      "other": 1,
+      "sidechains-drivechain": 3,
+      "tokens-runes": 1
     },
     "2024": {
-      "other": 6,
-      "data-structures": 2,
-      "hard-fork-block-size": 1,
-      "l2-bridges": 2,
-      "mining": 4,
-      "sidechains-drivechain": 1,
-      "soft-fork-activation": 3,
-      "taproot": 3
+      "soft-fork-activation": 1,
+      "testing-devtools": 1
     }
   }
 }

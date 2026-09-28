@@ -23,15 +23,30 @@ def get_category_from_labels(labels):
     else:
         return '🔄 Misc / Other'
 
-def get_weekly_activity(root_dir, days_back=7):
-    # Dynamically anchor the end_date to the most recent Sunday at 23:59:59 UTC
+def get_week_close_timestamp():
+    """
+    Dynamically anchor to the most recent Sunday at 23:59:59 UTC.
+    Whether run on Sunday evening (CST/CDT or UTC) or Monday morning,
+    this consistently anchors to the end of the completed week.
+    """
     now = pd.Timestamp.now(tz='UTC')
-    # dayofweek: Monday=0, Sunday=6. 
+    # dayofweek: Monday=0, Sunday=6.
     # If today is Sunday (6), subtract 0 days. If Monday (0), subtract 1 day.
     days_since_sunday = (now.dayofweek + 1) % 7
     most_recent_sunday = now - timedelta(days=days_since_sunday)
-    end_date = pd.Timestamp(year=most_recent_sunday.year, month=most_recent_sunday.month, day=most_recent_sunday.day, hour=23, minute=59, second=59, tz='UTC')
-    
+    return pd.Timestamp(
+        year=most_recent_sunday.year,
+        month=most_recent_sunday.month,
+        day=most_recent_sunday.day,
+        hour=23,
+        minute=59,
+        second=59,
+        tz='UTC'
+    )
+
+def get_weekly_activity(root_dir, days_back=7):
+    # Dynamically anchor the end_date to the most recent Sunday at 23:59:59 UTC
+    end_date = get_week_close_timestamp()
     start_date = end_date - timedelta(days=days_back) + timedelta(seconds=1)
     
     # Pre-load PR data

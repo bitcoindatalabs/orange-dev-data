@@ -4,15 +4,15 @@
   "delving_username_final": null,
   "uuid": "auto_robert_spigler",
   "badges": {
-    "is_bip_author": true,
-    "is_core_committer": false,
     "is_maintainer": false,
-    "is_sponsored": false,
+    "is_core_committer": false,
     "maintainer_status": null,
+    "is_sponsored": false,
+    "sponsor_id": null,
+    "is_bip_author": true,
     "roles": [
       "BIP Author"
-    ],
-    "sponsor_id": null
+    ]
   },
   "roles": [
     "BIP Author"
@@ -41,9 +41,9 @@
   "modern_bips_authored": 0.0,
   "first_bip_date": "2021-03-11T02:11:51",
   "last_bip_date": "2021-03-11T02:11:51",
-  "avg_review_latency_days": 1085.183514255806,
+  "avg_review_latency_days": 1169.353052649828,
   "reviews_count": 114.0,
-  "avg_approval_latency_days": 1032.318505530817,
+  "avg_approval_latency_days": 1127.6388516809595,
   "approvals_count": 62.0,
   "tier1_reviews_count": 102.0,
   "tier2_reviews_count": 12.0,
@@ -57,11 +57,11 @@
   "avg_pr_ack_velocity_days": 14.64950810185185,
   "avg_concept_lead_time_days": 4.179293981481481,
   "review_reciprocity": 14.25,
-  "hybrid_score": 0.5967,
-  "p2016_hybrid_score": 0.6035,
+  "hybrid_score": 0.5334,
+  "p2016_hybrid_score": 0.5403,
   "modern_hybrid_score": 0.058,
-  "impact_score": 30.0,
-  "p2016_impact_score": 30.0,
+  "impact_score": 27.0,
+  "p2016_impact_score": 28.0,
   "modern_impact_score": 3.0,
   "threads_started": 2.0,
   "replies_sent": 9.0,
@@ -71,28 +71,23 @@
   "delving_responses": 0.0,
   "first_active": "2020-08-23T17:07:38",
   "last_active": "2021-04-20T17:44:45",
-  "dev_type": "Protocol Designer",
+  "dev_type": "Reviewer",
   "expertise_domains": [
     "Wallet",
-    "Infrastructure",
     "Consensus"
   ],
   "expertise_by_source": {
-    "bips": {
-      "Wallet": 1.0
-    },
-    "code": {
-      "Infrastructure": 1.0
-    },
     "discussion": {
       "Consensus": 0.233,
       "Wallet": 0.767
+    },
+    "bips": {
+      "Wallet": 1.0
     }
   },
   "expertise_domain_scores": {
-    "Consensus": 0.0466,
-    "Infrastructure": 0.3,
-    "Wallet": 0.6534
+    "Consensus": 0.0666,
+    "Wallet": 0.9334
   },
   "p2016_posts": 11.0,
   "modern_posts": 0.0,
@@ -100,7 +95,7 @@
   "p2016_delving_posts": 0.0,
   "modern_ml_posts": 0.0,
   "modern_delving_posts": 0.0,
-  "is_engineer": true,
+  "is_engineer": false,
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": true,

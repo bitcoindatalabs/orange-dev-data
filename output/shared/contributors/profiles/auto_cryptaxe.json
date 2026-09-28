@@ -4,15 +4,15 @@
   "delving_username_final": null,
   "uuid": "auto_cryptaxe",
   "badges": {
-    "is_bip_author": true,
-    "is_core_committer": false,
     "is_maintainer": false,
-    "is_sponsored": false,
+    "is_core_committer": false,
     "maintainer_status": null,
+    "is_sponsored": false,
+    "sponsor_id": null,
+    "is_bip_author": true,
     "roles": [
       "BIP Author"
-    ],
-    "sponsor_id": null
+    ]
   },
   "roles": [
     "BIP Author"
@@ -57,11 +57,11 @@
   "avg_pr_ack_velocity_days": 3.7797384259259252,
   "avg_concept_lead_time_days": 9.431030092592591,
   "review_reciprocity": 0.42857142857142855,
-  "hybrid_score": 0.785,
-  "p2016_hybrid_score": 0.8033,
+  "hybrid_score": 0.6594,
+  "p2016_hybrid_score": 0.6788,
   "modern_hybrid_score": 0.0615,
-  "impact_score": 38.0,
-  "p2016_impact_score": 38.0,
+  "impact_score": 33.0,
+  "p2016_impact_score": 33.0,
   "modern_impact_score": 4.0,
   "threads_started": 0.0,
   "replies_sent": 25.0,
@@ -71,32 +71,26 @@
   "delving_responses": 0.0,
   "first_active": "2017-05-24T12:32:22",
   "last_active": "2018-09-25T19:00:03",
-  "dev_type": "Protocol Designer",
+  "dev_type": "Participant",
   "expertise_domains": [
     "Consensus",
-    "Infrastructure",
-    "Mempool"
+    "L2",
+    "Script"
   ],
   "expertise_by_source": {
-    "bips": {
-      "Consensus": 1.0
-    },
-    "code": {
-      "Infrastructure": 0.667,
-      "Mempool": 0.333
-    },
     "discussion": {
       "Consensus": 0.261,
       "L2": 0.478,
       "Script": 0.261
+    },
+    "bips": {
+      "Consensus": 1.0
     }
   },
   "expertise_domain_scores": {
-    "Consensus": 0.5522,
-    "Infrastructure": 0.2001,
-    "L2": 0.0956,
-    "Mempool": 0.0999,
-    "Script": 0.0522
+    "Consensus": 0.7889,
+    "L2": 0.1366,
+    "Script": 0.0746
   },
   "p2016_posts": 25.0,
   "modern_posts": 0.0,
@@ -104,7 +98,7 @@
   "p2016_delving_posts": 0.0,
   "modern_ml_posts": 0.0,
   "modern_delving_posts": 0.0,
-  "is_engineer": true,
+  "is_engineer": false,
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": true,

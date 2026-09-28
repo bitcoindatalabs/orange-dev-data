@@ -1,5 +1,5 @@
 {
-  "display_name": "L\u00e9o Haf",
+  "display_name": "Léo Haf",
   "github_login_final": "Retropex",
   "delving_username_final": null,
   "uuid": "auto_l_o_haf",
@@ -29,7 +29,7 @@
   "modern_bips_authored": 0.0,
   "first_bip_date": null,
   "last_bip_date": null,
-  "avg_review_latency_days": 389.4798207502374,
+  "avg_review_latency_days": 379.2728511743451,
   "reviews_count": 12.0,
   "avg_approval_latency_days": 28.390277777777776,
   "approvals_count": 4.0,
@@ -45,9 +45,9 @@
   "avg_pr_ack_velocity_days": 0.10973765432098764,
   "avg_concept_lead_time_days": 0.020370370370370372,
   "review_reciprocity": 2.0,
-  "hybrid_score": 0.1151,
-  "p2016_hybrid_score": 0.1255,
-  "modern_hybrid_score": 0.1223,
+  "hybrid_score": 0.115,
+  "p2016_hybrid_score": 0.1253,
+  "modern_hybrid_score": 0.1221,
   "impact_score": 7.0,
   "p2016_impact_score": 7.0,
   "modern_impact_score": 7.0,
@@ -66,13 +66,13 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Ecosystem": 0.763,
-      "Mempool": 0.237
+      "Mempool": 0.237,
+      "Ecosystem": 0.763
     }
   },
   "expertise_domain_scores": {
-    "Ecosystem": 0.763,
-    "Mempool": 0.237
+    "Mempool": 0.237,
+    "Ecosystem": 0.763
   },
   "p2016_posts": 6.0,
   "modern_posts": 1.0,

@@ -45,7 +45,7 @@
   "avg_pr_ack_velocity_days": null,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": null,
-  "hybrid_score": 0.0079,
+  "hybrid_score": 0.008,
   "p2016_hybrid_score": 0.0122,
   "modern_hybrid_score": 0.0,
   "impact_score": 0.0,
@@ -66,13 +66,13 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Cryptography": 0.4,
-      "Ecosystem": 0.6
+      "Ecosystem": 0.6,
+      "Cryptography": 0.4
     }
   },
   "expertise_domain_scores": {
-    "Cryptography": 0.4,
-    "Ecosystem": 0.6
+    "Ecosystem": 0.6,
+    "Cryptography": 0.4
   },
   "p2016_posts": 4.0,
   "modern_posts": 0.0,

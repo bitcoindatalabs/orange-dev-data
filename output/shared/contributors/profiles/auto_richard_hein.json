@@ -45,7 +45,7 @@
   "avg_pr_ack_velocity_days": null,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": null,
-  "hybrid_score": 0.0051,
+  "hybrid_score": 0.0052,
   "p2016_hybrid_score": 0.0077,
   "modern_hybrid_score": 0.0,
   "impact_score": 0.0,
@@ -67,14 +67,14 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Ecosystem": 0.2,
       "Mining": 0.4,
+      "Ecosystem": 0.2,
       "Script": 0.4
     }
   },
   "expertise_domain_scores": {
-    "Ecosystem": 0.2,
     "Mining": 0.4,
+    "Ecosystem": 0.2,
     "Script": 0.4
   },
   "p2016_posts": 2.0,

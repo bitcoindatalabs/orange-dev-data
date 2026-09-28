@@ -29,67 +29,57 @@
   "modern_bips_authored": 0.0,
   "first_bip_date": null,
   "last_bip_date": null,
-  "avg_review_latency_days": 1757.1072377816301,
-  "reviews_count": 190.0,
-  "avg_approval_latency_days": 1010.4152332878398,
-  "approvals_count": 101.0,
-  "tier1_reviews_count": 180.0,
+  "avg_review_latency_days": 1773.36436655158,
+  "reviews_count": 192.0,
+  "avg_approval_latency_days": 1116.6128188798555,
+  "approvals_count": 103.0,
+  "tier1_reviews_count": 182.0,
   "tier2_reviews_count": 10.0,
-  "p2016_reviews_count": 190.0,
-  "modern_reviews_count": 48.0,
+  "p2016_reviews_count": 192.0,
+  "modern_reviews_count": 45.0,
   "first_review_date": "2019-10-27T22:43:56",
   "last_review_date": "2026-08-25T13:03:11",
   "prs_authored": 70.0,
   "tier1_prs_authored": 63.0,
   "tier2_prs_authored": 7.0,
-  "avg_pr_ack_velocity_days": 4.723602292768959,
-  "avg_concept_lead_time_days": 8.605741567460317,
-  "review_reciprocity": 2.7142857142857144,
-  "hybrid_score": 0.1955,
-  "p2016_hybrid_score": 0.1955,
-  "modern_hybrid_score": 0.1598,
+  "avg_pr_ack_velocity_days": 4.525427414021164,
+  "avg_concept_lead_time_days": 7.545547288359788,
+  "review_reciprocity": 2.742857142857143,
+  "hybrid_score": 0.1958,
+  "p2016_hybrid_score": 0.1958,
+  "modern_hybrid_score": 0.1585,
   "impact_score": 11.0,
   "p2016_impact_score": 11.0,
   "modern_impact_score": 9.0,
-  "threads_started": 3.0,
+  "threads_started": 0.0,
   "replies_sent": 0.0,
   "ml_threads": 0.0,
-  "delving_threads": 3.0,
+  "delving_threads": 0.0,
   "ml_responses": 0.0,
   "delving_responses": 0.0,
   "first_active": null,
   "last_active": null,
   "dev_type": "Reviewer",
   "expertise_domains": [
-    "Consensus",
-    "Mempool",
-    "Privacy"
+    "Infrastructure"
   ],
-  "expertise_by_source": {
-    "discussion": {
-      "Consensus": 0.508,
-      "Mempool": 0.246,
-      "Privacy": 0.246
-    }
-  },
+  "expertise_by_source": {},
   "expertise_domain_scores": {
-    "Consensus": 0.508,
-    "Mempool": 0.246,
-    "Privacy": 0.246
+    "Infrastructure": 1.0
   },
-  "p2016_posts": 3.0,
-  "modern_posts": 3.0,
+  "p2016_posts": 0.0,
+  "modern_posts": 0.0,
   "p2016_ml_posts": 0.0,
-  "p2016_delving_posts": 3.0,
+  "p2016_delving_posts": 0.0,
   "modern_ml_posts": 0.0,
-  "modern_delving_posts": 3.0,
+  "modern_delving_posts": 0.0,
   "is_engineer": false,
   "is_reviewer": true,
   "is_researcher": false,
   "is_bip_author": false,
   "global_first_active": "2019-10-27T22:43:56",
   "global_last_active": "2026-08-25T13:03:11",
-  "github_location": "\u20bf:8333",
+  "github_location": "₿:8333",
   "github_company": "@bitcoincore-dev ",
   "github_bio": "Operations Specialist @usnavy\r\n\r\nE616FA7221A1613E5B99206297966C06 BB06757B\r\n",
   "github_twitter": "RandyMcMillan",
@@ -124,31 +114,6 @@
     },
     "2024": {
       "GUI": 2.0
-    }
-  },
-  "first_message": {
-    "source": "delving",
-    "subject": "Re: Unspendable keys in descriptors",
-    "date": "2023-12-19",
-    "link": "https://delvingbitcoin.org/t/unspendable-keys-in-descriptors/304/17"
-  },
-  "last_message": {
-    "source": "delving",
-    "subject": "Re: Response to Pieter Wuille's StackExchange Answer Re: Nuking the Opreturn Filter",
-    "date": "2025-10-08",
-    "link": "https://delvingbitcoin.org/t/response-to-pieter-wuilles-stackexchange-answer-re-nuking-the-opreturn-filter/1991/12"
-  },
-  "social_history": {
-    "2023": {
-      "silent-payments": 2,
-      "taproot": 2,
-      "wallet-keys": 2
-    },
-    "2025": {
-      "mempool-fees": 1,
-      "mining": 1,
-      "nostr": 1,
-      "utxo-sync": 1
     }
   }
 }

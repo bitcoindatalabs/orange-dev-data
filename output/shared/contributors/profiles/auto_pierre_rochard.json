@@ -45,49 +45,35 @@
   "avg_pr_ack_velocity_days": 7.493207947530865,
   "avg_concept_lead_time_days": 0.6517361111111111,
   "review_reciprocity": 3.125,
-  "hybrid_score": 0.2926,
-  "p2016_hybrid_score": 0.2914,
+  "hybrid_score": 0.1227,
+  "p2016_hybrid_score": 0.1214,
   "modern_hybrid_score": 0.058,
-  "impact_score": 16.0,
-  "p2016_impact_score": 16.0,
+  "impact_score": 7.0,
+  "p2016_impact_score": 7.0,
   "modern_impact_score": 3.0,
-  "threads_started": 1.0,
+  "threads_started": 0.0,
   "replies_sent": 0.0,
   "ml_threads": 0.0,
-  "delving_threads": 1.0,
+  "delving_threads": 0.0,
   "ml_responses": 0.0,
   "delving_responses": 0.0,
   "first_active": null,
   "last_active": null,
-  "dev_type": "Builder",
+  "dev_type": "Reviewer",
   "expertise_domains": [
-    "Wallet",
-    "Consensus",
     "Infrastructure"
   ],
-  "expertise_by_source": {
-    "code": {
-      "Infrastructure": 0.278,
-      "Wallet": 0.722
-    },
-    "discussion": {
-      "Consensus": 0.75,
-      "Script": 0.25
-    }
-  },
+  "expertise_by_source": {},
   "expertise_domain_scores": {
-    "Consensus": 0.3,
-    "Infrastructure": 0.1668,
-    "Script": 0.1,
-    "Wallet": 0.4332
+    "Infrastructure": 1.0
   },
-  "p2016_posts": 1.0,
-  "modern_posts": 1.0,
+  "p2016_posts": 0.0,
+  "modern_posts": 0.0,
   "p2016_ml_posts": 0.0,
-  "p2016_delving_posts": 1.0,
+  "p2016_delving_posts": 0.0,
   "modern_ml_posts": 0.0,
-  "modern_delving_posts": 1.0,
-  "is_engineer": true,
+  "modern_delving_posts": 0.0,
+  "is_engineer": false,
   "is_reviewer": true,
   "is_researcher": false,
   "is_bip_author": false,
@@ -116,25 +102,6 @@
       "Build & CI": 1.0,
       "Tests": 1.0,
       "Wallet": 2.0
-    }
-  },
-  "first_message": {
-    "source": "delving",
-    "subject": "Mutual exclusiveness of op_codes",
-    "date": "2024-05-21",
-    "link": "https://delvingbitcoin.org/t/mutual-exclusiveness-of-op-codes/890/1"
-  },
-  "last_message": {
-    "source": "delving",
-    "subject": "Mutual exclusiveness of op_codes",
-    "date": "2024-05-21",
-    "link": "https://delvingbitcoin.org/t/mutual-exclusiveness-of-op-codes/890/1"
-  },
-  "social_history": {
-    "2024": {
-      "script-opcodes": 1,
-      "soft-fork-activation": 1,
-      "taproot": 1
     }
   }
 }

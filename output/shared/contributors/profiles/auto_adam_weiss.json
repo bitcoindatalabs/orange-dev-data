@@ -45,10 +45,10 @@
   "avg_pr_ack_velocity_days": 1.6857465277777777,
   "avg_concept_lead_time_days": 0.26796296296296296,
   "review_reciprocity": 1.1818181818181819,
-  "hybrid_score": 0.284,
+  "hybrid_score": 0.1207,
   "p2016_hybrid_score": 0.0675,
   "modern_hybrid_score": 0.0675,
-  "impact_score": 16.0,
+  "impact_score": 7.0,
   "p2016_impact_score": 4.0,
   "modern_impact_score": 4.0,
   "threads_started": 0.0,
@@ -59,22 +59,17 @@
   "delving_responses": 0.0,
   "first_active": "2015-02-03T13:25:19",
   "last_active": "2015-06-20T13:43:31",
-  "dev_type": "Builder",
+  "dev_type": "Reviewer",
   "expertise_domains": [
-    "Infrastructure",
     "Wallet"
   ],
   "expertise_by_source": {
-    "code": {
-      "Infrastructure": 1.0
-    },
     "discussion": {
       "Wallet": 1.0
     }
   },
   "expertise_domain_scores": {
-    "Infrastructure": 0.6,
-    "Wallet": 0.4
+    "Wallet": 1.0
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,
@@ -82,7 +77,7 @@
   "p2016_delving_posts": 0.0,
   "modern_ml_posts": 0.0,
   "modern_delving_posts": 0.0,
-  "is_engineer": true,
+  "is_engineer": false,
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": false,

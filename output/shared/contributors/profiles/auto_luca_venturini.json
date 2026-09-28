@@ -45,11 +45,11 @@
   "avg_pr_ack_velocity_days": 10.625856481481481,
   "avg_concept_lead_time_days": 23.5946875,
   "review_reciprocity": 0.6666666666666666,
-  "hybrid_score": 0.1959,
-  "p2016_hybrid_score": 0.1561,
+  "hybrid_score": 0.0836,
+  "p2016_hybrid_score": 0.0928,
   "modern_hybrid_score": 0.05,
-  "impact_score": 11.0,
-  "p2016_impact_score": 9.0,
+  "impact_score": 5.0,
+  "p2016_impact_score": 5.0,
   "modern_impact_score": 3.0,
   "threads_started": 1.0,
   "replies_sent": 2.0,
@@ -59,25 +59,20 @@
   "delving_responses": 0.0,
   "first_active": "2017-09-06T10:44:47",
   "last_active": "2017-09-06T14:25:16",
-  "dev_type": "Builder",
+  "dev_type": "Participant",
   "expertise_domains": [
-    "Infrastructure",
     "Ecosystem",
     "Consensus"
   ],
   "expertise_by_source": {
-    "code": {
-      "Infrastructure": 1.0
-    },
     "discussion": {
       "Consensus": 0.326,
       "Ecosystem": 0.674
     }
   },
   "expertise_domain_scores": {
-    "Consensus": 0.1304,
-    "Ecosystem": 0.2696,
-    "Infrastructure": 0.6
+    "Consensus": 0.326,
+    "Ecosystem": 0.674
   },
   "p2016_posts": 3.0,
   "modern_posts": 0.0,
@@ -85,7 +80,7 @@
   "p2016_delving_posts": 0.0,
   "modern_ml_posts": 0.0,
   "modern_delving_posts": 0.0,
-  "is_engineer": true,
+  "is_engineer": false,
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": false,

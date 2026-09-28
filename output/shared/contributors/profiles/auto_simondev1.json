@@ -29,7 +29,7 @@
   "modern_bips_authored": 0.0,
   "first_bip_date": null,
   "last_bip_date": null,
-  "avg_review_latency_days": 2980.639677579365,
+  "avg_review_latency_days": 2433.5079989711935,
   "reviews_count": 1.0,
   "avg_approval_latency_days": null,
   "approvals_count": 0.0,
@@ -45,8 +45,8 @@
   "avg_pr_ack_velocity_days": null,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": 1.0,
-  "hybrid_score": 0.0431,
-  "p2016_hybrid_score": 0.0552,
+  "hybrid_score": 0.0432,
+  "p2016_hybrid_score": 0.0553,
   "modern_hybrid_score": 0.0146,
   "impact_score": 3.0,
   "p2016_impact_score": 3.0,
@@ -67,15 +67,15 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Consensus": 0.753,
+      "Mining": 0.124,
       "Mempool": 0.124,
-      "Mining": 0.124
+      "Consensus": 0.753
     }
   },
   "expertise_domain_scores": {
-    "Consensus": 0.7522,
+    "Mining": 0.1239,
     "Mempool": 0.1239,
-    "Mining": 0.1239
+    "Consensus": 0.7522
   },
   "p2016_posts": 3.0,
   "modern_posts": 0.0,

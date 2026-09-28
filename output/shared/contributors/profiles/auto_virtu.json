@@ -45,54 +45,37 @@
   "avg_pr_ack_velocity_days": 1.482505787037037,
   "avg_concept_lead_time_days": 0.29470679012345674,
   "review_reciprocity": 3.0,
-  "hybrid_score": 0.2508,
-  "p2016_hybrid_score": 0.2534,
-  "modern_hybrid_score": 0.2588,
-  "impact_score": 14.0,
-  "p2016_impact_score": 14.0,
-  "modern_impact_score": 14.0,
-  "threads_started": 4.0,
-  "replies_sent": 4.0,
+  "hybrid_score": 0.0977,
+  "p2016_hybrid_score": 0.0977,
+  "modern_hybrid_score": 0.0896,
+  "impact_score": 6.0,
+  "p2016_impact_score": 6.0,
+  "modern_impact_score": 5.0,
+  "threads_started": 0.0,
+  "replies_sent": 0.0,
   "ml_threads": 0.0,
-  "delving_threads": 4.0,
+  "delving_threads": 0.0,
   "ml_responses": 0.0,
-  "delving_responses": 4.0,
+  "delving_responses": 0.0,
   "first_active": null,
   "last_active": null,
-  "dev_type": "Builder",
+  "dev_type": "Reviewer",
   "expertise_domains": [
-    "Infrastructure",
-    "Network",
-    "Mempool"
+    "Infrastructure"
   ],
-  "expertise_by_source": {
-    "code": {
-      "Consensus": 0.117,
-      "Infrastructure": 0.85,
-      "Mempool": 0.033
-    },
-    "discussion": {
-      "Mempool": 0.226,
-      "Mining": 0.258,
-      "Network": 0.516
-    }
-  },
+  "expertise_by_source": {},
   "expertise_domain_scores": {
-    "Consensus": 0.0702,
-    "Infrastructure": 0.51,
-    "Mempool": 0.1102,
-    "Mining": 0.1032,
-    "Network": 0.2064
+    "Infrastructure": 1.0
   },
-  "p2016_posts": 8.0,
-  "modern_posts": 8.0,
+  "p2016_posts": 0.0,
+  "modern_posts": 0.0,
   "p2016_ml_posts": 0.0,
-  "p2016_delving_posts": 8.0,
+  "p2016_delving_posts": 0.0,
   "modern_ml_posts": 0.0,
-  "modern_delving_posts": 8.0,
-  "is_engineer": true,
+  "modern_delving_posts": 0.0,
+  "is_engineer": false,
   "is_reviewer": true,
-  "is_researcher": true,
+  "is_researcher": false,
   "is_bip_author": false,
   "global_first_active": "2022-12-12T09:52:55",
   "global_last_active": "2025-03-21T14:44:43",
@@ -118,29 +101,6 @@
       "Consensus": 1.0,
       "Documentation": 4.0,
       "Utilities": 3.0
-    }
-  },
-  "first_message": {
-    "source": "delving",
-    "subject": "DNS seed node filtering",
-    "date": "2024-02-14",
-    "link": "https://delvingbitcoin.org/t/dns-seed-node-filtering/570/1"
-  },
-  "last_message": {
-    "source": "delving",
-    "subject": "Bitcoin node P2P traffic analysis",
-    "date": "2025-03-03",
-    "link": "https://delvingbitcoin.org/t/bitcoin-node-p2p-traffic-analysis/1490/1"
-  },
-  "social_history": {
-    "2024": {
-      "mempool-fees": 6,
-      "mining": 6,
-      "p2p-network": 7
-    },
-    "2025": {
-      "mining": 1,
-      "utxo-sync": 1
     }
   }
 }

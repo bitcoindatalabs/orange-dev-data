@@ -14,6 +14,8 @@ except Exception:
     pass
 
 ROOT_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
+if ROOT_DIR not in sys.path:
+    sys.path.insert(0, ROOT_DIR)
 
 # --- Configuration ---
 SOCIAL_THREADS_INPUT = os.path.join(ROOT_DIR, "data", "enriched", "social_threads.parquet")
@@ -317,9 +319,11 @@ def generate_discussions_pulse():
     df = pd.read_parquet(SOCIAL_THREADS_INPUT)
     df['date'] = pd.to_datetime(df['date'])
     
-    # Enforce T-1 boundary to prevent partial day data
-    t1_end = (datetime.now() - pd.Timedelta(days=1)).replace(hour=23, minute=59, second=59)
-    df = df[df['date'] <= t1_end]
+    # Enforce weekly boundary to prevent partial day data
+    from scripts.utils.twib_data import get_week_close_timestamp
+    week_close_anchor = get_week_close_timestamp()
+    week_close_naive = week_close_anchor.tz_localize(None) if week_close_anchor.tzinfo else week_close_anchor
+    df = df[df['date'] <= week_close_naive]
 
     w90 = _compute_window(df, 90)
     w30 = _compute_window(df, 30)
@@ -389,10 +393,9 @@ def generate_discussions_pulse():
     if w7:
         w7.pop('_cat_shares', None)
 
-    # Use T-1 for generated_at to clearly signify the complete data boundary
-    generated_at_t1 = (datetime.now() - pd.Timedelta(days=1)).strftime('%Y-%m-%d')
+    # Use weekly boundary for generated_at to clearly signify the complete data boundary
     output = {
-        "generated_at": generated_at_t1,
+        "generated_at": week_close_anchor.strftime('%Y-%m-%d'),
         "meeting_summaries": meeting_summaries,
         "windows": {
             "7d": w7 or {},

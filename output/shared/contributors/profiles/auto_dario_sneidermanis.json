@@ -45,11 +45,11 @@
   "avg_pr_ack_velocity_days": 0.017326388888888888,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": 1.5,
-  "hybrid_score": 0.1403,
-  "p2016_hybrid_score": 0.1538,
+  "hybrid_score": 0.0773,
+  "p2016_hybrid_score": 0.0914,
   "modern_hybrid_score": 0.025,
-  "impact_score": 8.0,
-  "p2016_impact_score": 9.0,
+  "impact_score": 5.0,
+  "p2016_impact_score": 5.0,
   "modern_impact_score": 1.0,
   "threads_started": 2.0,
   "replies_sent": 6.0,
@@ -59,23 +59,20 @@
   "delving_responses": 0.0,
   "first_active": "2015-06-20T21:11:49",
   "last_active": "2022-10-21T16:13:41",
-  "dev_type": "Builder",
+  "dev_type": "Participant",
   "expertise_domains": [
     "Mempool",
     "Cryptography"
   ],
   "expertise_by_source": {
-    "code": {
-      "Mempool": 1.0
-    },
     "discussion": {
-      "Cryptography": 0.123,
-      "Mempool": 0.877
+      "Mempool": 0.877,
+      "Cryptography": 0.123
     }
   },
   "expertise_domain_scores": {
-    "Cryptography": 0.0492,
-    "Mempool": 0.9508
+    "Mempool": 0.877,
+    "Cryptography": 0.123
   },
   "p2016_posts": 6.0,
   "modern_posts": 0.0,
@@ -83,7 +80,7 @@
   "p2016_delving_posts": 0.0,
   "modern_ml_posts": 0.0,
   "modern_delving_posts": 0.0,
-  "is_engineer": true,
+  "is_engineer": false,
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": false,

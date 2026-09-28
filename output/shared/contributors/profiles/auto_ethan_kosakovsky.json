@@ -4,15 +4,15 @@
   "delving_username_final": null,
   "uuid": "auto_ethan_kosakovsky",
   "badges": {
-    "is_bip_author": true,
-    "is_core_committer": false,
     "is_maintainer": false,
-    "is_sponsored": false,
+    "is_core_committer": false,
     "maintainer_status": null,
+    "is_sponsored": false,
+    "sponsor_id": null,
+    "is_bip_author": true,
     "roles": [
       "BIP Author"
-    ],
-    "sponsor_id": null
+    ]
   },
   "roles": [
     "BIP Author"
@@ -58,7 +58,7 @@
   "avg_concept_lead_time_days": null,
   "review_reciprocity": 3.3333333333333335,
   "hybrid_score": 0.4511,
-  "p2016_hybrid_score": 0.4578,
+  "p2016_hybrid_score": 0.4579,
   "modern_hybrid_score": 0.033,
   "impact_score": 24.0,
   "p2016_impact_score": 24.0,
@@ -78,19 +78,19 @@
     "Consensus"
   ],
   "expertise_by_source": {
+    "discussion": {
+      "Mining": 0.064,
+      "Consensus": 0.128,
+      "Wallet": 0.809
+    },
     "bips": {
       "Infrastructure": 1.0
-    },
-    "discussion": {
-      "Consensus": 0.128,
-      "Mining": 0.064,
-      "Wallet": 0.809
     }
   },
   "expertise_domain_scores": {
-    "Consensus": 0.0366,
     "Infrastructure": 0.7141,
     "Mining": 0.0183,
+    "Consensus": 0.0366,
     "Wallet": 0.2311
   },
   "p2016_posts": 7.0,

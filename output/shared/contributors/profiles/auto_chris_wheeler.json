@@ -29,7 +29,7 @@
   "modern_bips_authored": 0.0,
   "first_bip_date": null,
   "last_bip_date": null,
-  "avg_review_latency_days": 182.15152777777774,
+  "avg_review_latency_days": 182.15152777777777,
   "reviews_count": 3.0,
   "avg_approval_latency_days": 0.08078703703703705,
   "approvals_count": 1.0,
@@ -45,11 +45,11 @@
   "avg_pr_ack_velocity_days": 0.32806134259259256,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": 0.75,
-  "hybrid_score": 0.1276,
-  "p2016_hybrid_score": 0.1276,
+  "hybrid_score": 0.0646,
+  "p2016_hybrid_score": 0.0646,
   "modern_hybrid_score": 0.0396,
-  "impact_score": 7.0,
-  "p2016_impact_score": 7.0,
+  "impact_score": 4.0,
+  "p2016_impact_score": 4.0,
   "modern_impact_score": 2.0,
   "threads_started": 0.0,
   "replies_sent": 0.0,
@@ -59,25 +59,13 @@
   "delving_responses": 0.0,
   "first_active": null,
   "last_active": null,
-  "dev_type": "Builder",
+  "dev_type": "Participant",
   "expertise_domains": [
-    "Infrastructure",
-    "Mempool",
-    "Network"
+    "Infrastructure"
   ],
-  "expertise_by_source": {
-    "code": {
-      "Infrastructure": 0.5,
-      "Mempool": 0.167,
-      "Network": 0.167,
-      "Wallet": 0.167
-    }
-  },
+  "expertise_by_source": {},
   "expertise_domain_scores": {
-    "Infrastructure": 0.4995,
-    "Mempool": 0.1668,
-    "Network": 0.1668,
-    "Wallet": 0.1668
+    "Infrastructure": 1.0
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,
@@ -85,7 +73,7 @@
   "p2016_delving_posts": 0.0,
   "modern_ml_posts": 0.0,
   "modern_delving_posts": 0.0,
-  "is_engineer": true,
+  "is_engineer": false,
   "is_reviewer": true,
   "is_researcher": false,
   "is_bip_author": false,

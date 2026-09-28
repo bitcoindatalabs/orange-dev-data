@@ -45,38 +45,34 @@
   "avg_pr_ack_velocity_days": null,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": null,
-  "hybrid_score": 0.0081,
-  "p2016_hybrid_score": 0.0131,
-  "modern_hybrid_score": 0.0418,
+  "hybrid_score": 0.0082,
+  "p2016_hybrid_score": 0.0133,
+  "modern_hybrid_score": 0.0426,
   "impact_score": 0.0,
   "p2016_impact_score": 1.0,
-  "modern_impact_score": 2.0,
-  "threads_started": 6.0,
-  "replies_sent": 9.0,
+  "modern_impact_score": 3.0,
+  "threads_started": 2.0,
+  "replies_sent": 3.0,
   "ml_threads": 2.0,
-  "delving_threads": 4.0,
+  "delving_threads": 0.0,
   "ml_responses": 3.0,
-  "delving_responses": 6.0,
+  "delving_responses": 0.0,
   "first_active": "2025-09-19T21:25:19",
   "last_active": "2026-04-19T13:18:09",
   "dev_type": "Participant",
   "expertise_domains": [
-    "Cryptography"
+    "Infrastructure"
   ],
-  "expertise_by_source": {
-    "discussion": {
-      "Cryptography": 1.0
-    }
-  },
+  "expertise_by_source": {},
   "expertise_domain_scores": {
-    "Cryptography": 1.0
+    "Infrastructure": 1.0
   },
-  "p2016_posts": 15.0,
-  "modern_posts": 15.0,
+  "p2016_posts": 5.0,
+  "modern_posts": 5.0,
   "p2016_ml_posts": 5.0,
-  "p2016_delving_posts": 10.0,
+  "p2016_delving_posts": 0.0,
   "modern_ml_posts": 5.0,
-  "modern_delving_posts": 10.0,
+  "modern_delving_posts": 0.0,
   "is_engineer": false,
   "is_reviewer": false,
   "is_researcher": true,
@@ -109,14 +105,7 @@
       "other": 1
     },
     "2026": {
-      "covenants": 1,
-      "mempool-fees": 5,
-      "other": 5,
-      "scaling": 5,
-      "signatures-sighash": 8,
-      "silent-payments": 3,
-      "taproot": 3,
-      "utxo-sync": 8
+      "other": 4
     }
   }
 }

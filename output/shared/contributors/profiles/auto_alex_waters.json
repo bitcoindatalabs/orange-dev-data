@@ -42,13 +42,13 @@
   "prs_authored": 5.0,
   "tier1_prs_authored": 5.0,
   "tier2_prs_authored": 0.0,
-  "avg_pr_ack_velocity_days": 174.82375000000002,
+  "avg_pr_ack_velocity_days": 174.66775694444445,
   "avg_concept_lead_time_days": 0.03965277777777778,
   "review_reciprocity": 5.2,
-  "hybrid_score": 0.2303,
+  "hybrid_score": 0.1376,
   "p2016_hybrid_score": 0.0452,
   "modern_hybrid_score": 0.0452,
-  "impact_score": 13.0,
+  "impact_score": 8.0,
   "p2016_impact_score": 3.0,
   "modern_impact_score": 3.0,
   "threads_started": 3.0,
@@ -59,22 +59,17 @@
   "delving_responses": 0.0,
   "first_active": "2011-09-06T19:32:27",
   "last_active": "2011-10-20T00:02:17",
-  "dev_type": "Builder",
+  "dev_type": "Reviewer",
   "expertise_domains": [
-    "Infrastructure",
     "Ecosystem"
   ],
   "expertise_by_source": {
-    "code": {
-      "Infrastructure": 1.0
-    },
     "discussion": {
       "Ecosystem": 1.0
     }
   },
   "expertise_domain_scores": {
-    "Ecosystem": 0.4,
-    "Infrastructure": 0.6
+    "Ecosystem": 1.0
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,
@@ -82,7 +77,7 @@
   "p2016_delving_posts": 0.0,
   "modern_ml_posts": 0.0,
   "modern_delving_posts": 0.0,
-  "is_engineer": true,
+  "is_engineer": false,
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": false,
@@ -90,7 +85,7 @@
   "global_last_active": "2014-03-28T22:15:40",
   "github_location": "New York",
   "github_company": "Weekend dirty hacked projects",
-  "github_bio": "\u00af\\_(\u30c4)_/\u00af",
+  "github_bio": "¯\\_(ツ)_/¯",
   "github_twitter": null,
   "github_blog": "http://Waters.nyc",
   "github_followers": 76.0,

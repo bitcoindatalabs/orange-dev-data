@@ -29,7 +29,7 @@
   "modern_bips_authored": 0.0,
   "first_bip_date": null,
   "last_bip_date": null,
-  "avg_review_latency_days": 2436.6486398979105,
+  "avg_review_latency_days": 2108.083515070922,
   "reviews_count": 12.0,
   "avg_approval_latency_days": 1955.1980497685186,
   "approvals_count": 2.0,
@@ -45,49 +45,39 @@
   "avg_pr_ack_velocity_days": 1.1209995039682539,
   "avg_concept_lead_time_days": 1.7558564814814817,
   "review_reciprocity": 0.6666666666666666,
-  "hybrid_score": 0.327,
-  "p2016_hybrid_score": 0.1338,
-  "modern_hybrid_score": 0.1807,
-  "impact_score": 18.0,
+  "hybrid_score": 0.1289,
+  "p2016_hybrid_score": 0.1341,
+  "modern_hybrid_score": 0.183,
+  "impact_score": 7.0,
   "p2016_impact_score": 8.0,
   "modern_impact_score": 10.0,
-  "threads_started": 5.0,
+  "threads_started": 3.0,
   "replies_sent": 8.0,
   "ml_threads": 3.0,
-  "delving_threads": 2.0,
+  "delving_threads": 0.0,
   "ml_responses": 8.0,
   "delving_responses": 0.0,
   "first_active": "2013-12-03T23:16:18",
   "last_active": "2025-10-15T15:04:26",
-  "dev_type": "Builder",
+  "dev_type": "Reviewer",
   "expertise_domains": [
-    "Infrastructure",
-    "Ecosystem",
-    "Privacy"
+    "Ecosystem"
   ],
   "expertise_by_source": {
-    "code": {
-      "Infrastructure": 0.933,
-      "Mempool": 0.067
-    },
     "discussion": {
-      "Ecosystem": 0.85,
-      "Privacy": 0.15
+      "Ecosystem": 1.0
     }
   },
   "expertise_domain_scores": {
-    "Ecosystem": 0.34,
-    "Infrastructure": 0.5598,
-    "Mempool": 0.0402,
-    "Privacy": 0.06
+    "Ecosystem": 1.0
   },
-  "p2016_posts": 12.0,
-  "modern_posts": 5.0,
+  "p2016_posts": 10.0,
+  "modern_posts": 3.0,
   "p2016_ml_posts": 10.0,
-  "p2016_delving_posts": 2.0,
+  "p2016_delving_posts": 0.0,
   "modern_ml_posts": 3.0,
-  "modern_delving_posts": 2.0,
-  "is_engineer": true,
+  "modern_delving_posts": 0.0,
+  "is_engineer": false,
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": false,
@@ -95,7 +85,7 @@
   "global_last_active": "2026-07-22T06:03:40",
   "github_location": "The Blue Planet",
   "github_company": null,
-  "github_bio": "\ud83d\ude3bA N A R C H O \u30fc \u30cd \u30b3 \u30d0 \u30b9 \ud83d\ude3b",
+  "github_bio": "😻A N A R C H O ー ネ コ バ ス 😻",
   "github_twitter": null,
   "github_blog": "https://rodarmor.com",
   "github_followers": 3651.0,
@@ -136,10 +126,6 @@
     "2023": {
       "bip-process": 2,
       "ordinals-inscriptions": 3
-    },
-    "2024": {
-      "mempool-fees": 2,
-      "privacy": 2
     },
     "2025": {
       "bip-process": 1,

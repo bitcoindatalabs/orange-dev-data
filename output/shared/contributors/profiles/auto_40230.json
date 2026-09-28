@@ -51,38 +51,28 @@
   "impact_score": 0.0,
   "p2016_impact_score": 0.0,
   "modern_impact_score": 0.0,
-  "threads_started": 3.0,
-  "replies_sent": 1.0,
+  "threads_started": 0.0,
+  "replies_sent": 0.0,
   "ml_threads": 0.0,
-  "delving_threads": 3.0,
+  "delving_threads": 0.0,
   "ml_responses": 0.0,
-  "delving_responses": 1.0,
+  "delving_responses": 0.0,
   "first_active": null,
   "last_active": null,
   "dev_type": "Participant",
   "expertise_domains": [
-    "Consensus",
-    "L2",
-    "Mempool"
+    "Infrastructure"
   ],
-  "expertise_by_source": {
-    "discussion": {
-      "Consensus": 0.5,
-      "L2": 0.25,
-      "Mempool": 0.25
-    }
-  },
+  "expertise_by_source": {},
   "expertise_domain_scores": {
-    "Consensus": 0.5,
-    "L2": 0.25,
-    "Mempool": 0.25
+    "Infrastructure": 1.0
   },
-  "p2016_posts": 4.0,
-  "modern_posts": 4.0,
+  "p2016_posts": 0.0,
+  "modern_posts": 0.0,
   "p2016_ml_posts": 0.0,
-  "p2016_delving_posts": 4.0,
+  "p2016_delving_posts": 0.0,
   "modern_ml_posts": 0.0,
-  "modern_delving_posts": 4.0,
+  "modern_delving_posts": 0.0,
   "is_engineer": false,
   "is_reviewer": false,
   "is_researcher": false,
@@ -97,26 +87,5 @@
   "github_followers": null,
   "activity_status": "",
   "is_top_50": false,
-  "delving_url": "https://delvingbitcoin.org/u/fabohax",
-  "first_message": {
-    "source": "delving",
-    "subject": "zkPoH: Zero-Knowledge Proof-of-Hodl",
-    "date": "2026-07-09",
-    "link": "https://delvingbitcoin.org/t/zkpoh-zero-knowledge-proof-of-hodl/2699/1"
-  },
-  "last_message": {
-    "source": "delving",
-    "subject": "Re: Reducing Bitcoin Full Node Storage Without Consensus Changes",
-    "date": "2026-08-12",
-    "link": "https://delvingbitcoin.org/t/reducing-bitcoin-full-node-storage-without-consensus-changes/2790/4"
-  },
-  "social_history": {
-    "2026": {
-      "bip-process": 1,
-      "bitvm": 3,
-      "core-dev": 1,
-      "mempool-fees": 3,
-      "taproot": 3
-    }
-  }
+  "delving_url": "https://delvingbitcoin.org/u/fabohax"
 }

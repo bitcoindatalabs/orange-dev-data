@@ -1,5 +1,5 @@
 {
-  "display_name": "\u0412\u0435\u043b\u0435\u0441\u043b\u0430\u0432",
+  "display_name": "Велеслав",
   "github_login_final": "veleslavs",
   "delving_username_final": null,
   "uuid": "auto_id_fc7737",
@@ -45,8 +45,8 @@
   "avg_pr_ack_velocity_days": null,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": 1.0,
-  "hybrid_score": 0.4091,
-  "p2016_hybrid_score": 0.4146,
+  "hybrid_score": 0.4088,
+  "p2016_hybrid_score": 0.414,
   "modern_hybrid_score": 0.025,
   "impact_score": 22.0,
   "p2016_impact_score": 22.0,
@@ -66,18 +66,18 @@
     "Consensus"
   ],
   "expertise_by_source": {
-    "bips": {
-      "Infrastructure": 1.0
-    },
     "discussion": {
       "Consensus": 0.5,
       "Ecosystem": 0.5
+    },
+    "bips": {
+      "Infrastructure": 1.0
     }
   },
   "expertise_domain_scores": {
+    "Infrastructure": 0.7143,
     "Consensus": 0.1429,
-    "Ecosystem": 0.1429,
-    "Infrastructure": 0.7143
+    "Ecosystem": 0.1429
   },
   "p2016_posts": 5.0,
   "modern_posts": 0.0,

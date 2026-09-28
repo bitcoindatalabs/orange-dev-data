@@ -4,15 +4,15 @@
   "delving_username_final": "moonsettler",
   "uuid": "can_loki",
   "badges": {
-    "is_bip_author": true,
-    "is_core_committer": false,
     "is_maintainer": false,
-    "is_sponsored": false,
+    "is_core_committer": false,
     "maintainer_status": null,
+    "is_sponsored": false,
+    "sponsor_id": null,
+    "is_bip_author": true,
     "roles": [
       "BIP Author"
-    ],
-    "sponsor_id": null
+    ]
   },
   "roles": [
     "BIP Author"
@@ -41,9 +41,9 @@
   "modern_bips_authored": 1.0,
   "first_bip_date": "2026-03-03T13:38:26",
   "last_bip_date": "2026-03-03T13:38:26",
-  "avg_review_latency_days": 2215.599331321649,
+  "avg_review_latency_days": 1818.2491584312677,
   "reviews_count": 19.0,
-  "avg_approval_latency_days": 452.46621317340066,
+  "avg_approval_latency_days": 430.0511998456789,
   "approvals_count": 11.0,
   "tier1_reviews_count": 10.0,
   "tier2_reviews_count": 9.0,
@@ -57,53 +57,50 @@
   "avg_pr_ack_velocity_days": null,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": 9.5,
-  "hybrid_score": 0.4973,
-  "p2016_hybrid_score": 0.5232,
-  "modern_hybrid_score": 0.6433,
+  "hybrid_score": 0.4983,
+  "p2016_hybrid_score": 0.5253,
+  "modern_hybrid_score": 0.6647,
   "impact_score": 26.0,
   "p2016_impact_score": 27.0,
-  "modern_impact_score": 32.0,
-  "threads_started": 38.0,
-  "replies_sent": 90.0,
+  "modern_impact_score": 33.0,
+  "threads_started": 4.0,
+  "replies_sent": 25.0,
   "ml_threads": 4.0,
-  "delving_threads": 34.0,
+  "delving_threads": 0.0,
   "ml_responses": 25.0,
-  "delving_responses": 65.0,
+  "delving_responses": 0.0,
   "first_active": "2023-06-11T04:19:18",
-  "last_active": null,
+  "last_active": "2026-04-02T03:49:53",
   "dev_type": "Reviewer",
   "expertise_domains": [
     "Consensus",
-    "Script",
-    "Mining"
+    "Script"
   ],
   "expertise_by_source": {
+    "discussion": {
+      "Consensus": 0.173,
+      "Script": 0.827
+    },
     "bips": {
       "Consensus": 1.0
-    },
-    "discussion": {
-      "Consensus": 0.302,
-      "Mining": 0.14,
-      "Script": 0.558
     }
   },
   "expertise_domain_scores": {
-    "Consensus": 0.8006,
-    "Mining": 0.04,
-    "Script": 0.1594
+    "Consensus": 0.7637,
+    "Script": 0.2363
   },
-  "p2016_posts": 128.0,
-  "modern_posts": 124.0,
+  "p2016_posts": 29.0,
+  "modern_posts": 25.0,
   "p2016_ml_posts": 29.0,
-  "p2016_delving_posts": 99.0,
+  "p2016_delving_posts": 0.0,
   "modern_ml_posts": 25.0,
-  "modern_delving_posts": 99.0,
+  "modern_delving_posts": 0.0,
   "is_engineer": false,
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": true,
   "global_first_active": "2023-06-11T04:19:18",
-  "global_last_active": "2026-03-24T19:51:28",
+  "global_last_active": "2026-04-02T03:49:53",
   "github_location": null,
   "github_company": null,
   "github_bio": null,
@@ -130,50 +127,38 @@
     "link": "https://gnusha.org/pi/bitcoindev/mZy1LRBcpmxS4m217WThcZnHLH1gq8hrDaSfgqIfwxEqcodVPvcOKWHamj-6obEFXTVVAraN_ACPCDejaH_VY8wBF6cYGwwiKZyC0UGv238=@protonmail.com"
   },
   "last_message": {
-    "source": "delving",
-    "subject": "Re: Universal opt-in replay protection?",
-    "date": "2026-09-12",
-    "link": "https://delvingbitcoin.org/t/universal-opt-in-replay-protection/2792/14"
+    "source": "mailing_list",
+    "subject": "Re: [bitcoindev] Algorithm Agility for Bitcoin to maintain security\n in the face of quantum and classic breaks in the signature algorithms",
+    "date": "2026-04-02",
+    "link": "https://gnusha.org/pi/bitcoindev/iOcCeyNQe4dgGq-PR5L4-rQR5CCNNno8GbY5wz2wv3rTJDeA4OxUv_8ukGngIBbrjrubbDi-_Q6D4xu5b7QOr-4GXma6vbxW3cLuOeBrXNM=@protonmail.com"
   },
   "social_history": {
     "2023": {
-      "covenants": 8,
-      "other": 11,
-      "mining": 1,
-      "quantum": 6,
-      "script-opcodes": 6,
-      "spam-filtering": 1,
-      "taproot": 7
+      "covenants": 1,
+      "other": 2,
+      "multisig-threshold": 3,
+      "taproot": 1,
+      "testing-devtools": 1
     },
     "2024": {
-      "other": 80,
-      "covenants": 34,
-      "lightning": 15,
-      "mempool-fees": 16,
-      "mining": 19,
-      "quantum": 7,
-      "script-opcodes": 13,
-      "spam-filtering": 12,
-      "taproot": 22
+      "covenants": 5,
+      "mempool-fees": 1,
+      "script-opcodes": 1,
+      "taproot": 3,
+      "other": 1
     },
     "2025": {
-      "other": 45,
-      "covenants": 30,
-      "lightning": 9,
-      "mempool-fees": 8,
-      "mining": 6,
-      "quantum": 4,
-      "script-opcodes": 8,
-      "spam-filtering": 6,
-      "taproot": 11
+      "covenants": 11,
+      "other": 4,
+      "mempool-fees": 1,
+      "script-opcodes": 3,
+      "soft-fork-activation": 3,
+      "taproot": 1,
+      "testing-devtools": 3,
+      "utxo-sync": 3
     },
     "2026": {
-      "covenants": 7,
-      "mining": 6,
-      "quantum": 2,
-      "script-opcodes": 1,
-      "other": 13,
-      "taproot": 7
+      "other": 2
     }
   }
 }

@@ -66,13 +66,13 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Consensus": 0.571,
-      "Mining": 0.429
+      "Mining": 0.429,
+      "Consensus": 0.571
     }
   },
   "expertise_domain_scores": {
-    "Consensus": 0.571,
-    "Mining": 0.429
+    "Mining": 0.429,
+    "Consensus": 0.571
   },
   "p2016_posts": 4.0,
   "modern_posts": 0.0,

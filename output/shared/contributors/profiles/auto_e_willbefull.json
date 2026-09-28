@@ -4,15 +4,15 @@
   "delving_username_final": null,
   "uuid": "auto_e_willbefull",
   "badges": {
-    "is_bip_author": true,
-    "is_core_committer": false,
     "is_maintainer": false,
-    "is_sponsored": false,
+    "is_core_committer": false,
     "maintainer_status": null,
+    "is_sponsored": false,
+    "sponsor_id": null,
+    "is_bip_author": true,
     "roles": [
       "BIP Author"
-    ],
-    "sponsor_id": null
+    ]
   },
   "roles": [
     "BIP Author"
@@ -57,7 +57,7 @@
   "avg_pr_ack_velocity_days": 0.07188657407407407,
   "avg_concept_lead_time_days": 0.07188657407407407,
   "review_reciprocity": 2.5,
-  "hybrid_score": 0.6355,
+  "hybrid_score": 0.6356,
   "p2016_hybrid_score": 0.4306,
   "modern_hybrid_score": 0.0396,
   "impact_score": 32.0,
@@ -78,22 +78,22 @@
     "Ecosystem"
   ],
   "expertise_by_source": {
+    "discussion": {
+      "Mining": 0.25,
+      "L2": 0.25,
+      "Ecosystem": 0.5
+    },
     "bips": {
       "Infrastructure": 0.5,
       "Wallet": 0.5
-    },
-    "discussion": {
-      "Ecosystem": 0.5,
-      "L2": 0.25,
-      "Mining": 0.25
     }
   },
   "expertise_domain_scores": {
-    "Ecosystem": 0.1429,
     "Infrastructure": 0.3571,
-    "L2": 0.0714,
     "Mining": 0.0714,
-    "Wallet": 0.3571
+    "Wallet": 0.3571,
+    "L2": 0.0714,
+    "Ecosystem": 0.1429
   },
   "p2016_posts": 1.0,
   "modern_posts": 0.0,
