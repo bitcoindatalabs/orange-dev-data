@@ -274,7 +274,7 @@ def main():
     run("git -C data/sources/guix.sigs pull origin main", cwd=root_dir)
     run("git -C data/sources/qa-assets pull origin main", cwd=root_dir)
     run("git -C data/sources/HWI pull origin master", cwd=root_dir)
-    run("git -C data/sources/opensats pull origin main", cwd=root_dir)
+    run("git -C data/sources/opensats pull origin master", cwd=root_dir)
     run("git -C data/sources/brink pull origin master", cwd=root_dir)
 
     # PHASE 1: Extraction (Source -> Raw)
