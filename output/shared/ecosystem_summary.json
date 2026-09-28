@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-26T02:08:18.886895",
+  "generated_at": "2026-09-26T21:45:01.002752",
   "groups": {
     "committers": 1181,
     "reviewers": 5131,
@@ -40,30 +40,35 @@
     "title": "Trending BIP Discussions",
     "value": "BIP 70"
   },
-  "spotlight": null,
+  "spotlight": {
+    "name": "8144225309",
+    "uuid": "auto_8144225309",
+    "github_login": "8144225309",
+    "description": "First-time core contributor recently merged PR #34371 (wallet: allow importprunedfunds for spending transactions)."
+  },
   "onboarding": {
-    "new_coders_90d": 0,
-    "new_coders_7d": 0,
-    "new_discussants_90d": 14,
+    "new_coders_90d": 30,
+    "new_coders_7d": 5,
+    "new_discussants_90d": 13,
     "new_discussants_7d": 0,
     "window_days": 90
   },
   "prs": {
-    "total_merged": 0,
-    "merged_30d": 0,
-    "merged_prev_30d": 0,
-    "merged_7d": 0,
-    "merged_prev_7d": 0
+    "total_merged": 17008,
+    "merged_30d": 141,
+    "merged_prev_30d": 149,
+    "merged_7d": 35,
+    "merged_prev_7d": 34
   },
   "commits": {
-    "commits_30d": 0,
-    "commits_prev_30d": 0,
-    "commits_7d": 0,
-    "commits_prev_7d": 0
+    "commits_30d": 676,
+    "commits_prev_30d": 1150,
+    "commits_7d": 109,
+    "commits_prev_7d": 167
   },
   "bips": {
-    "total": 209,
-    "active_recently": 100
+    "total": 213,
+    "active_recently": 97
   },
   "discussion_pulse": {
     "topics": [
@@ -71,19 +76,19 @@
         "category": "quantum",
         "label": "Quantum",
         "count": 20,
-        "share": 20.2
+        "share": 20.4
       },
       {
         "category": "taproot",
         "label": "Taproot",
         "count": 14,
-        "share": 14.1
+        "share": 14.3
       },
       {
         "category": "core-dev",
         "label": "Core Dev",
         "count": 13,
-        "share": 13.1
+        "share": 13.3
       }
     ],
     "top_bips": [
@@ -102,7 +107,7 @@
       {
         "bip_id": "39",
         "title": "Mnemonic code for generating deterministic keys",
-        "mentions": 225,
+        "mentions": 219,
         "theme": "Wallet & Keys"
       }
     ],
