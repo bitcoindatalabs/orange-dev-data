@@ -27,6 +27,40 @@ for k, v in os.environ.items():
     if k.startswith("GEMINI_API_KEY") and v.strip():
         api_keys.append(v.strip())
 
+def clean_narrative_fluff(text: str) -> str:
+    """Strip generic corporate filler and meta-commentary from narrative summaries."""
+    if not text:
+        return ""
+    import re
+    banned_substrings = [
+        "effort is critical",
+        "effort is crucial",
+        "work is vital",
+        "essential for maintaining",
+        "crucial for maintaining",
+        "convened to discuss",
+        "development team convened",
+        "strategic consolidation",
+        "fostering collaboration",
+        "cadence and integrating",
+    ]
+    paragraphs = text.split("\n\n")
+    cleaned_paras = []
+    for para in paragraphs:
+        sentences = re.split(r'(?<=[.!?])\s+', para.strip())
+        good_sentences = []
+        for s in sentences:
+            s_clean = s.strip()
+            if not s_clean:
+                continue
+            if any(b.lower() in s_clean.lower() for b in banned_substrings):
+                continue
+            good_sentences.append(s_clean)
+        if good_sentences:
+            cleaned_paras.append(" ".join(good_sentences))
+    return "\n\n".join(cleaned_paras)
+
+
 def generate_meeting_summary():
     if not HAS_GENAI or not api_keys:
         print("Warning: Gemini API not configured. Skipping meeting summary.")
@@ -64,7 +98,7 @@ def generate_meeting_summary():
         today_str = datetime.now().strftime("%Y-%m-%d")
         existing = existing_dict.get(date)
         if date == today_str:
-            needs_update = not (existing and existing.get('_text_hash') == text_hash and existing.get('linkedin_context'))
+            needs_update = not (existing and existing.get('_text_hash') == text_hash and existing.get('card_topics') and existing.get('spotlight_debate'))
         else:
             needs_update = not (existing and existing.get('_text_hash') == text_hash)
 
@@ -75,15 +109,26 @@ def generate_meeting_summary():
         print(f"Processing meeting for {date}...")
         changed = True
         
-        # Count participants
-        counts = {}
+        # Count total attendees vs substantive discussion participants
+        greetings = {'hi', 'hello', 'hey', 'here', 'yo', 'gm', 'greetings', 'o/', '\\o', '👋', 'morning', 'afternoon'}
+        attendees = set()
+        discussion_counts = {}
         for m in messages:
             sender = m.get('sender', '').strip()
-            if sender and sender not in bots:
-                counts[sender] = counts.get(sender, 0) + 1
+            if not sender or sender in bots:
+                continue
+            attendees.add(sender)
+            payload = m.get('payload', '').strip().lower()
+            clean_payload = payload.strip('.!?:; ')
+            # Exclude simple roll-call greetings from discussion participation
+            if clean_payload in greetings or clean_payload.startswith('hi ') or clean_payload.startswith('hello '):
+                continue
+            discussion_counts[sender] = discussion_counts.get(sender, 0) + 1
                 
-        participant_count = len(counts)
-        top_nicks = sorted(counts.keys(), key=lambda k: counts[k], reverse=True)[:5]
+        participant_count = len(attendees)
+        # Senders who actively contributed messages to the technical discussion
+        active_discussion_nicks = sorted(discussion_counts.keys(), key=lambda k: discussion_counts[k], reverse=True)
+        top_nicks = active_discussion_nicks[:6]
         
         # Construct log_text dynamically for LLM consumption
         raw_text_lines = []
@@ -98,41 +143,55 @@ def generate_meeting_summary():
         if len(log_text) > 30000:
             log_text = log_text[-30000:]
             
-        prompt = f"""You are a senior Bitcoin Core developer summarizing an IRC meeting log for technical Bitcoiners and developers.
+        prompt = f"""You are a senior Bitcoin Core engineer writing an executive technical debrief of an IRC engineering sync for Bitcoin Core developers and technical Bitcoiners.
 The meeting took place on {date}.
 
 IRC Log Transcript:
 {log_text}
 
-Extract and generate two distinct layers of summary:
+Generate a 3-layer technical debrief with ZERO corporate fluff.
 
-LAYER 1 (For the website meeting archive card & visual screenshot):
-1. topics_discussed: An array of 3-6 substantive, factual bullet point strings covering every distinct discussion topic from the meeting.
-   - Do NOT just write generic topic titles (e.g. avoid empty headers like "Fuzzing Working Group update").
-   - Follow the format: "[Topic / Working Group]: [Substantive record of what was discussed, who was involved, and what technical outcomes/status were shared]".
-   - Retain all developer names, contributor handoffs, milestone numbers, and PR numbers.
-   - Zero corporate fluff, no passive filler words, but high technical information density.
-2. decisions_made: Technical decisions reached during the meeting (empty array if none).
-3. action_items: Concrete next steps or testing calls with PR/issue numbers (empty array if none).
-4. mentioned_prs: Array of integers for PR or issue numbers explicitly discussed (no bot spam).
+LAYER 1: WEBSITE ARCHIVE RECORD (For meetings.html — Technical archive)
+1. topics_discussed: 4–6 substantive, factual technical summaries covering every distinct topic/WG update.
+   - Format: "[Topic / WG]: [Factual record of status, contributors involved, technical specifics]".
+   - Retain developer handles, PR numbers, milestone numbers. Zero fluff. No raw HTTP URLs.
+2. decisions_made: Technical decisions / lead transitions (empty array if none).
+3. action_items: Concrete next steps, testing calls, or review requests (empty array if none).
+4. mentioned_prs: Integer array of PR/issue numbers explicitly discussed.
 
-LAYER 2 (For Social Broadcasts — X & LinkedIn):
-5. x_priority_takeaway: A single, super-precise engineering takeaway or call to action (under 70 characters, active voice, zero fluff). E.g. "v32.0rc2 binaries are ready for community testing (#36315)."
-6. x_bullet_points: 2-3 concise bullet points (under 45 characters each) covering the secondary technical updates.
-7. linkedin_context: Exactly 2 single-sentence takeaways separated by a blank line (\n\n). Maximum 35 words total.
-   - Sentence 1: Primary release or protocol takeaway explaining why active testing/review is needed right now.
-   - Sentence 2: Secondary Working Group or architectural takeaway (e.g. fuzzing leadership transition).
-   - Strict style: Zero corporate speak, zero platitudes (no 'vital for security', 'crucial milestone', etc.). Short, punchy, direct facts.
+LAYER 2: EXECUTIVE SOCIAL CARD (For meeting-card.html — High-density visual card)
+5. card_topics: Exactly 5 to 6 substantive bullet points (120–180 chars each) covering all active updates.
+   - Format: "[Topic / WG]: [Crisp factual update naming developers, tools, branches, and PRs]".
+   - Skip empty "no update" reports. Include real debates and progress. Zero raw URLs.
+6. spotlight_debate: A 1–2 sentence highlight (under 180 chars) on the most significant technical debate or proposal from the sync.
+   - Format: "[Topic / Debate]: [What was proposed and what technical concerns or tradeoffs were raised]".
+7. referenced_artifacts: Key milestones, git branches, platforms, or tools discussed. Array of objects:
+   [{{"label": "Milestone #84", "icon": "flag"}}, {{"label": "Branch: qt6", "icon": "code-branch"}}, {{"label": "mutanthub.space", "icon": "globe"}}, {{"label": "Fuzzamoto Bot", "icon": "robot"}}]
+
+LAYER 3: NARRATIVE SOCIAL BRIEFING (For LinkedIn & Nostr long-form posts)
+8. narrative_summary: A 150–200 word technical engineering briefing across exactly 3 paragraphs (separated by blank lines \\n\\n).
+   - STRICT ZERO FLUFF RULES: Write like a Bitcoin Optech or Linux kernel newsletter editor. NO PR/HR language.
+     * BANNED: "convened", "crucial for maintaining development velocity", "collaborative effort", "strategic consolidation", "pivotal", "pleased to announce", "critical for maintaining the release cadence", "velocity", "cadence".
+     * NO META-COMMENTARY: NEVER comment on why something is important, vital, or critical. State ONLY raw technical facts: what PRs need review, what code was merged or proposed, who spoke, what decisions were made, and what tradeoffs were debated.
+     * Sentence 1 must state the technical focus immediately (e.g. "Bitcoin Core 32.0 release preparation centered on resolving outstanding backports for milestone #84, with dzxzg requesting developer review.").
+   - Paragraph 1 (Release Milestone): Immediate release status for 32.0, backport issues on milestone #84, and specific testing needed.
+   - Paragraph 2 (Tooling & Architecture): Status across GUI (pseudoramdom overhaul, qt6 branch, bitcoincore.app binaries), mutation testing (mutanthub.space launched by brunoerg), and fuzzing (eugenesiegel PR bot proposal).
+   - Paragraph 3 (Decisions & Debates): Leadership change in Benchmarking WG (andrewtoth stepping down as lead) and the debate over willcl-ark's proposal for automated AI reviews (ralph bot), noting signal-to-noise concerns raised by andrewtoth and abubakarsadiq.
+9. x_priority_takeaway: Single engineering takeaway or call to action under 70 chars (e.g. "Help needed on Bitcoin Core 32.0 milestone items (#84).")
+10. x_bullet_points: 2-3 concise bullets under 45 chars each.
 
 Output strictly valid JSON matching this schema:
 {{
     "topics_discussed": ["..."],
-    "decisions_made": [],
+    "decisions_made": ["..."],
     "action_items": ["..."],
-    "mentioned_prs": [1234],
+    "mentioned_prs": [84],
+    "card_topics": ["..."],
+    "spotlight_debate": "...",
+    "referenced_artifacts": [{{"label": "...", "icon": "..."}}],
+    "narrative_summary": "...",
     "x_priority_takeaway": "...",
-    "x_bullet_points": ["...", "..."],
-    "linkedin_context": "..."
+    "x_bullet_points": ["..."]
 }}
 Do NOT use markdown wrappers. Output only JSON.
 """
@@ -147,7 +206,7 @@ Do NOT use markdown wrappers. Output only JSON.
                     url = f"https://generativelanguage.googleapis.com/v1beta/models/{TARGET_MODEL}:generateContent?key={current_key}"
                     payload = json.dumps({
                         "contents": [{"parts": [{"text": prompt}]}],
-                        "generationConfig": {"temperature": 0.2}
+                        "generationConfig": {"temperature": 0.1}
                     }).encode('utf-8')
                     
                     req = urllib.request.Request(url, data=payload, headers={'Content-Type': 'application/json'})
@@ -163,18 +222,28 @@ Do NOT use markdown wrappers. Output only JSON.
                         
                         parsed = json.loads(text.strip())
                         
+                        narrative = clean_narrative_fluff(parsed.get("narrative_summary", ""))
+                        card_topics = parsed.get("card_topics", [])
+                        if not card_topics:
+                            card_topics = [t[:115] + "..." if len(t) > 118 else t for t in parsed.get("topics_discussed", [])[:3]]
+
                         summary_obj = {
                             "date": date,
                             "url": meeting.get("url", ""),
                             "participant_count": participant_count,
                             "key_participants": top_nicks,
+                            "active_participants": active_discussion_nicks,
                             "topics_discussed": parsed.get("topics_discussed", []),
                             "decisions_made": parsed.get("decisions_made", []),
                             "action_items": parsed.get("action_items", []),
                             "mentioned_prs": parsed.get("mentioned_prs", []),
+                            "card_topics": card_topics,
+                            "spotlight_debate": parsed.get("spotlight_debate", ""),
+                            "referenced_artifacts": parsed.get("referenced_artifacts", []),
+                            "narrative_summary": narrative,
                             "x_priority_takeaway": parsed.get("x_priority_takeaway", ""),
                             "x_bullet_points": parsed.get("x_bullet_points", []),
-                            "linkedin_context": parsed.get("linkedin_context", ""),
+                            "linkedin_context": narrative or parsed.get("linkedin_context", ""),
                             "_text_hash": text_hash
                         }
                         

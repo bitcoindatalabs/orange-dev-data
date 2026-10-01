@@ -1,5 +1,96 @@
 [
   {
+    "date": "2026-10-01",
+    "url": "https://achow101.com/ircmeetings/2026/bitcoin-core-dev.2026-10-01_16_00.log.json",
+    "participant_count": 24,
+    "key_participants": [
+      "abubakarsadiq",
+      "brunoerg",
+      "willcl-ark",
+      "johnny9dev",
+      "eugenesiegel",
+      "dzxzg"
+    ],
+    "active_participants": [
+      "abubakarsadiq",
+      "brunoerg",
+      "willcl-ark",
+      "johnny9dev",
+      "eugenesiegel",
+      "dzxzg",
+      "andrewtoth_",
+      "marcofleon",
+      "instagibbs",
+      "l0rinc",
+      "stickies-v",
+      "yancy"
+    ],
+    "topics_discussed": [
+      "Fuzzing WG Update: eugenesiegel and marcofleon reported no updates this week, with marcofleon indicating a possible update next week.",
+      "Benchmarking WG Update: l0rinc had no update but plans to present next week. andrewtoth_ requested removal as a lead, stating continued active review of speedup PRs and benchmarking, but no regular updates. abubakarsadiq suggested archiving the WG if l0rinc also has no update.",
+      "QML GUI WG Update: johnny9dev reported pseudoramdom completed a comprehensive UX overhaul, nearing a release-ready design. Feedback is being sought, with the current work available in the qt6 branch. Pre-built binaries will be available on bitcoincore.app.",
+      "QA WG Update: brunoerg launched mutanthub.space, a collaborative mutation testing platform designed to centralize mutant submission, reproduction, and evaluation. This platform will replace bitcoincore.space and secp256k1.space. Mutants can be submitted by clicking lines in source code or via bulk import, with approval required. Killed mutants are defined as those detected by existing tests at the mutant's creation commit point.",
+      "Bitcoin Core 32.0 Milestone: dzxzg requested assistance with remaining items on milestone #84.",
+      "Automated Review Proposals: eugenesiegel proposed a bot/label system for requesting fuzzamoto builds on PRs, noting the 'ir' scenario covers most P2P code. willcl-ark proposed a limited trial of automated AI reviews (via 'ralph' bot) on PRs, initially for external contributors, citing testing on git.fish.foo/bitcoin/bitcoin. Concerns were raised by andrewtoth_ and abubakarsadiq regarding LLM output potentially being noise and requiring distillation by experienced contributors."
+    ],
+    "decisions_made": [
+      "andrewtoth_ stepped down as a lead for the Benchmarking WG."
+    ],
+    "action_items": [
+      "l0rinc to prepare a presentation for the Benchmarking WG next week.",
+      "johnny9dev to gather more feedback on the QML GUI UX overhaul.",
+      "willcl-ark to provide more details/links to bot code/prompts for the AI review bot.",
+      "Developers to review and assist with remaining items on Bitcoin Core 32.0 milestone #84."
+    ],
+    "mentioned_prs": [
+      84
+    ],
+    "card_topics": [
+      "QML GUI: pseudoramdom completed UX overhaul, nearing release design. Code in qt6 branch, binaries on bitcoincore.app. (johnny9dev)",
+      "QA WG: brunoerg launched mutanthub.space for collaborative mutation testing, centralizing mutant management. Replaces bitcoincore.space.",
+      "Milestone 32.0: dzxzg requested developer assistance on remaining items for Bitcoin Core milestone #84.",
+      "Fuzzing Bot: eugenesiegel proposed a bot/label for requesting fuzzamoto builds on PRs, covering P2P scenarios.",
+      "AI Review Bot: willcl-ark proposed trial of automated AI reviews (ralph bot) on PRs, with opt-in or external contributor focus.",
+      "Benchmarking WG: andrewtoth_ stepped down as lead, will continue reviewing speedup PRs. l0rinc to present next week."
+    ],
+    "spotlight_debate": "AI Review Bot: willcl-ark proposed automated AI reviews on PRs. Concerns were raised by andrewtoth_ and abubakarsadiq about LLM output being noise and needing human distillation.",
+    "referenced_artifacts": [
+      {
+        "label": "Milestone #84",
+        "icon": "flag"
+      },
+      {
+        "label": "Branch: qt6",
+        "icon": "code-branch"
+      },
+      {
+        "label": "mutanthub.space",
+        "icon": "globe"
+      },
+      {
+        "label": "Fuzzamoto Bot",
+        "icon": "robot"
+      },
+      {
+        "label": "ralph bot",
+        "icon": "robot"
+      },
+      {
+        "label": "bitcoincore.app",
+        "icon": "globe"
+      }
+    ],
+    "narrative_summary": "The Bitcoin Core engineering sync addressed the status of milestone #84 for Bitcoin Core 32.0, with dzxzg requesting developer assistance to clear remaining items. No specific backport issues were detailed, but the call for hands-on review indicates a focus on finalizing the release. This effort is critical for maintaining the release cadence and integrating pending changes.\n\nTooling and architectural updates included significant progress on the QML GUI, where pseudoramdom completed a comprehensive UX overhaul, with the work available in the qt6 branch and pre-built binaries expected on bitcoincore.app. In QA, brunoerg launched mutanthub.space, a new collaborative platform for mutation testing, centralizing mutant submission and evaluation, and replacing previous dedicated sites. For fuzzing, eugenesiegel proposed a bot to automate fuzzamoto builds on PRs, particularly for P2P code.\n\nKey decisions included andrewtoth_ stepping down as a lead for the Benchmarking WG, though he will continue contributing to speedup PRs. A notable debate centered on willcl-ark's proposal for a limited trial of automated AI reviews using a 'ralph' bot on PRs. andrewtoth_ and abubakarsadiq raised concerns about the potential for LLM-generated reviews to introduce noise and the necessity for experienced contributors to distill such output, highlighting a focus on review quality over automation volume.",
+    "x_priority_takeaway": "Help needed on Bitcoin Core 32.0 milestone items (#84).",
+    "x_bullet_points": [
+      "QML GUI UX overhaul complete.",
+      "mutanthub.space launched for QA.",
+      "AI review bot trial debated."
+    ],
+    "linkedin_context": "The Bitcoin Core engineering sync addressed the status of milestone #84 for Bitcoin Core 32.0, with dzxzg requesting developer assistance to clear remaining items. No specific backport issues were detailed, but the call for hands-on review indicates a focus on finalizing the release. This effort is critical for maintaining the release cadence and integrating pending changes.\n\nTooling and architectural updates included significant progress on the QML GUI, where pseudoramdom completed a comprehensive UX overhaul, with the work available in the qt6 branch and pre-built binaries expected on bitcoincore.app. In QA, brunoerg launched mutanthub.space, a new collaborative platform for mutation testing, centralizing mutant submission and evaluation, and replacing previous dedicated sites. For fuzzing, eugenesiegel proposed a bot to automate fuzzamoto builds on PRs, particularly for P2P code.\n\nKey decisions included andrewtoth_ stepping down as a lead for the Benchmarking WG, though he will continue contributing to speedup PRs. A notable debate centered on willcl-ark's proposal for a limited trial of automated AI reviews using a 'ralph' bot on PRs. andrewtoth_ and abubakarsadiq raised concerns about the potential for LLM-generated reviews to introduce noise and the necessity for experienced contributors to distill such output, highlighting a focus on review quality over automation volume.",
+    "_text_hash": "75f6d6af85eefd8294088db02d7a95e5"
+  },
+  {
     "date": "2026-09-24",
     "url": "https://achow101.com/ircmeetings/2026/bitcoin-core-dev.2026-09-24_16_00.log.json",
     "participant_count": 24,
