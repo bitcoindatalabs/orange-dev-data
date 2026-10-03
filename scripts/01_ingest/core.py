@@ -293,6 +293,8 @@ def parse_messages(process, repo_name):
     return messages
 
 def categorize_file(path):
+    # Normalize Windows backslashes to forward slashes for cross-platform regex matching
+    path = path.replace("\\", "/")
     for category, regexes in CATEGORY_RULES.items():
         for pattern in regexes:
             if re.search(pattern, path, re.IGNORECASE):
@@ -508,7 +510,7 @@ def scan_repository(repo_path, repo_name):
         
         for file in files:
             full_path = os.path.join(root, file)
-            rel_path = os.path.relpath(full_path, repo_path)
+            rel_path = os.path.relpath(full_path, repo_path).replace("\\", "/")
             
             # Categorize
             cat = categorize_file(rel_path)
@@ -548,9 +550,16 @@ def scan_repository(repo_path, repo_name):
     # Save Artifact
     meta_path = f"data/enriched/{repo_name.replace('/', '_')}_metadata.json"
     os.makedirs("data/enriched", exist_ok=True)
-    with open(meta_path, "w") as f:
+    with open(meta_path, "w", encoding="utf-8") as f:
         json.dump(stats, f, indent=2)
     print(f"[{repo_name}] Saved Metadata to {meta_path}")
+
+    # Primary Bitcoin Core repository also publishes the canonical core_metadata.json
+    if repo_name == "bitcoin/bitcoin":
+        canonical_meta_path = "data/enriched/core_metadata.json"
+        with open(canonical_meta_path, "w", encoding="utf-8") as f:
+            json.dump(stats, f, indent=2)
+        print(f"[{repo_name}] Saved Canonical Core Metadata to {canonical_meta_path}")
 
 if __name__ == "__main__":
     main()

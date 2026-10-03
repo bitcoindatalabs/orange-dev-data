@@ -58,6 +58,20 @@ class Config:
         "contributors_rich": f"{OUTPUT_DIR}/contributors_rich.json"
     }
 
+    @classmethod
+    def get_core_metadata_path(cls):
+        """
+        Resolves the canonical static metadata scan for Bitcoin Core.
+        Prefers core_metadata.json, falling back to bitcoin_bitcoin_metadata.json.
+        """
+        canonical = os.path.join(cls.DATA_DIR, "core_metadata.json")
+        if os.path.exists(canonical):
+            return canonical
+        fallback = os.path.join(cls.DATA_DIR, "bitcoin_bitcoin_metadata.json")
+        if os.path.exists(fallback):
+            return fallback
+        return canonical
+
 # --- Maintainer Lookup ---
 class MaintainerLookup:
     """
@@ -356,12 +370,12 @@ class MetricGenerators:
         
         # 3. Current Codebase Size (True Static LOC)
         # We prefer the actual scan data over historical net churn
-        meta_path = "data/enriched/core_metadata.json"
+        meta_path = Config.get_core_metadata_path()
         net_lines = 0
         
         if os.path.exists(meta_path):
              try:
-                 with open(meta_path, "r") as f:
+                 with open(meta_path, "r", encoding="utf-8") as f:
                      meta_scan = json.load(f)
                      # Sum ONLY Logic Code
                      for cat_data in meta_scan.values():
@@ -369,8 +383,8 @@ class MetricGenerators:
                              lang = CodeClassifier.get_lang_name(ext)
                              if CodeClassifier.is_logic_code(lang):
                                  net_lines += stats.get("loc", 0)
-             except: 
-                 pass
+             except Exception as e:
+                 print(f"Warning reading {meta_path}: {e}")
         
         # Fallback to Churn if Metadata missing
         if net_lines == 0:
@@ -435,11 +449,13 @@ class MetricGenerators:
         # We assume 'commits' has one row per (hash, category) where applicable.
         
         # Load Static Metadata (Files, LOC)
-        meta_path = os.path.join(Config.DATA_DIR, "core_metadata.json")
+        meta_path = Config.get_core_metadata_path()
         static_meta = {}
         if os.path.exists(meta_path):
-             with open(meta_path, "r") as f:
+             with open(meta_path, "r", encoding="utf-8") as f:
                  static_meta = json.load(f)
+        else:
+             print(f"CRITICAL WARNING: Core metadata not found at {meta_path}!")
         
         # --- 1. Category Rich Stats ---
         # Commits Total
@@ -505,14 +521,20 @@ class MetricGenerators:
         # 1. Work Distribution (Commits by Category)
         work_data = [{"name": d["name"], "value": d["commits_total"]} for d in rich_data if d["commits_total"] > 0]
         work_data.sort(key=lambda x: x["value"], reverse=True)
-        with open(Config.FILES["snapshot_work"], "w") as f:
-            json.dump({"data": work_data}, f)
+        if not work_data:
+            print("WARNING: work_data is empty! Skipping overwrite of snapshot_work.")
+        else:
+            with open(Config.FILES["snapshot_work"], "w", encoding="utf-8") as f:
+                json.dump({"data": work_data}, f)
             
         # 2. Code Volume (Net Lines by Category)
         vol_data = [{"name": d["name"], "value": d["loc"]} for d in rich_data if d["loc"] > 0]
         vol_data.sort(key=lambda x: x["value"], reverse=True)
-        with open(Config.FILES["snapshot_volume"], "w") as f:
-            json.dump({"data": vol_data}, f)
+        if not vol_data:
+            print("ERROR: vol_data is empty! Refusing to overwrite stats_code_volume.json with empty data.")
+        else:
+            with open(Config.FILES["snapshot_volume"], "w", encoding="utf-8") as f:
+                json.dump({"data": vol_data}, f)
             
         # 3. Tech Stack (Global Languages)
         # Aggregate static language stats from all categories
@@ -543,8 +565,11 @@ class MetricGenerators:
             other_names = ", ".join([f"{r['name']} ({fmt_loc(r['value'])})" for r in remaining])
             stack_out.append({"name": "Other", "value": other_val, "details": other_names})
             
-        with open(Config.FILES["snapshot_stack"], "w") as f:
-            json.dump({"data": stack_out, "metadata": {"top_languages": top_5_names}}, f)
+        if not stack_out:
+            print("ERROR: stack_out is empty! Refusing to overwrite stats_tech_stack.json with empty data.")
+        else:
+            with open(Config.FILES["snapshot_stack"], "w", encoding="utf-8") as f:
+                json.dump({"data": stack_out, "metadata": {"top_languages": top_5_names}}, f)
 
     @staticmethod
     def generate_category_evolution(commits):
@@ -1144,12 +1169,12 @@ class MetricGenerators:
         print("Generating Codebase Stats...")
 
         # --- 1. Snapshots (from Metadata) ---
-        meta_path = os.path.join(Config.DATA_DIR, "core_metadata.json")
+        meta_path = Config.get_core_metadata_path()
         if not os.path.exists(meta_path):
-             print("Missing metadata for snapshots.")
+             print(f"Missing metadata for snapshots at {meta_path}.")
              return
 
-        with open(meta_path, "r") as f:
+        with open(meta_path, "r", encoding="utf-8") as f:
              meta = json.load(f)
 
         # Aggregations
@@ -1263,11 +1288,11 @@ class MetricGenerators:
         # series: one per lang
         
         # SCALING LOGIC: Normalize to match Static Scan Total (Shared Logic, could be refactored)
-        meta_path = os.path.join(Config.DATA_DIR, "core_metadata.json")
+        meta_path = Config.get_core_metadata_path()
         target_loc = 0
         if os.path.exists(meta_path):
              try:
-                 with open(meta_path, "r") as f:
+                 with open(meta_path, "r", encoding="utf-8") as f:
                      meta = json.load(f)
                      for c in meta.values():
                          for ext, stats in c.get("languages", {}).items():
@@ -1405,11 +1430,11 @@ class MetricGenerators:
                 history.append(snapshot)
 
         # SCALING LOGIC: Normalize to match Static Scan Total
-        meta_path = os.path.join(Config.DATA_DIR, "core_metadata.json")
+        meta_path = Config.get_core_metadata_path()
         target_loc = 0
         if os.path.exists(meta_path):
              try:
-                 with open(meta_path, "r") as f:
+                 with open(meta_path, "r", encoding="utf-8") as f:
                      meta = json.load(f)
                      for c in meta.values():
                          for ext, stats in c.get("languages", {}).items():
