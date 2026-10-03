@@ -310,6 +310,23 @@ def main():
     tldr_summary = twib_cache.get("tldr_summary", "")
     tldr_cleaned = [line.lstrip('*- \t') for line in tldr_summary.split('\n') if line.lstrip('*- \t')]
 
+    # Look up previous week's stats for Week-over-Week benchmarking
+    previous_stats = None
+    try:
+        import glob
+        twib_data_dir = os.path.join(root_dir, "output", "twib", "data")
+        prev_files = sorted(glob.glob(os.path.join(twib_data_dir, "newsletter_*.json")))
+        for p_f in reversed(prev_files):
+            with open(p_f, "r", encoding="utf-8") as f:
+                p_data = json.load(f)
+                if p_data.get('end_date', '') <= weekly_data['start_date'] and p_data.get('stats'):
+                    previous_stats = p_data['stats']
+                    break
+    except Exception:
+        pass
+
+    social_hook = twib_cache.get("social_hook", {})
+
     # Build the JSON data structure
     newsletter_data = {
         "start_date": weekly_data['start_date'],
@@ -320,6 +337,8 @@ def main():
             "total_threads": weekly_data['total_threads'],
             "new_contributors": len(weekly_data['new_contributors'])
         },
+        "previous_stats": previous_stats,
+        "social_hook": social_hook,
         "tldr": tldr_cleaned,
         "meeting": twib_meeting,
         "categories": { "merged": [], "hot": [] },

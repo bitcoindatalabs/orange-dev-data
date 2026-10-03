@@ -144,8 +144,29 @@ def main():
         cache["tldr_summary"] = tldr_summary
         with open(cache_path, "w") as f: json.dump(cache, f, indent=2)
 
-    else:
-        print("No new items to summarize for TL;DR. Cache is fully warmed.")
+    # 3. Executive Social Hook for high-impact social media cards and debriefs
+    print("Generating executive social hook (privacy, safety, protocol velocity)...")
+    social_hook_prompt = f"""You are a senior Bitcoin Core protocol engineer.
+Summarize this week's technical breakthroughs for an executive social post.
+Lead with the core technical domain and significance (e.g. privacy, security, safety, scalability), not generic phrases like "wallet got some work".
+
+Weekly Context:
+{tldr_input}
+
+Respond strictly in valid JSON with no markdown formatting:
+{{
+  "headline": "Protocol velocity across privacy & wallet tooling:",
+  "bullets": [
+    "Silent Payments (BIP 352) advances",
+    "New maxfeerate safety guard merged"
+  ]
+}}
+"""
+    social_hook = _call_gemini(api_keys, social_hook_prompt, is_json=True)
+    if social_hook and isinstance(social_hook, dict) and "headline" in social_hook:
+        cache["social_hook"] = social_hook
+        with open(cache_path, "w") as f: json.dump(cache, f, indent=2)
+        print("Generated executive social hook successfully.")
 
 if __name__ == "__main__":
     main()
