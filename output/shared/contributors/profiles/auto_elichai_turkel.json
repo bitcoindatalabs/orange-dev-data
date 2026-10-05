@@ -23,12 +23,12 @@
   "self_merges": 0.0,
   "total_additions": 1625.0,
   "total_deletions": 452.0,
-  "first_core_commit": "2014-08-21T03:20:39+00:00",
-  "last_core_commit": "2022-10-27T10:02:11+00:00",
+  "first_core_commit": "2014-08-21T03:20:53+00:00",
+  "last_core_commit": "2022-10-27T10:03:18+00:00",
   "first_ecosystem_commit": null,
   "last_ecosystem_commit": null,
-  "first_commit": "2014-08-21T03:20:39",
-  "last_commit": "2022-10-27T10:02:11",
+  "first_commit": "2014-08-21T03:20:53",
+  "last_commit": "2022-10-27T10:03:18",
   "p2016_authored_commits": 52.0,
   "modern_authored_commits": 0.0,
   "co_authored_commits": 3.0,
@@ -37,27 +37,27 @@
   "modern_bips_authored": 0.0,
   "first_bip_date": null,
   "last_bip_date": null,
-  "avg_review_latency_days": 864.374210648148,
+  "avg_review_latency_days": 868.023975558172,
   "reviews_count": 187.0,
   "avg_approval_latency_days": 757.7790173543426,
   "approvals_count": 82.0,
   "tier1_reviews_count": 187.0,
   "tier2_reviews_count": 0.0,
   "p2016_reviews_count": 187.0,
-  "modern_reviews_count": 1.0,
+  "modern_reviews_count": 2.0,
   "first_review_date": "2019-03-11T21:09:01",
-  "last_review_date": "2024-04-18T15:55:38",
+  "last_review_date": "2026-10-04T08:09:12",
   "prs_authored": 46.0,
   "tier1_prs_authored": 46.0,
   "tier2_prs_authored": 0.0,
   "avg_pr_ack_velocity_days": 5.980343215811966,
   "avg_concept_lead_time_days": 2.575696548821549,
   "review_reciprocity": 4.065217391304348,
-  "hybrid_score": 0.2019,
-  "p2016_hybrid_score": 0.2083,
-  "modern_hybrid_score": 0.1161,
-  "impact_score": 11.0,
-  "p2016_impact_score": 12.0,
+  "hybrid_score": 0.432,
+  "p2016_hybrid_score": 0.437,
+  "modern_hybrid_score": 0.1175,
+  "impact_score": 23.0,
+  "p2016_impact_score": 23.0,
   "modern_impact_score": 7.0,
   "threads_started": 2.0,
   "replies_sent": 1.0,
@@ -65,10 +65,11 @@
   "delving_threads": 0.0,
   "ml_responses": 1.0,
   "delving_responses": 0.0,
-  "first_active": "2019-06-16T21:06:21",
-  "last_active": "2019-08-09T09:58:58",
-  "dev_type": "Reviewer",
+  "first_active": null,
+  "last_active": null,
+  "dev_type": "Builder",
   "expertise_domains": [
+    "Infrastructure",
     "Consensus",
     "Mining"
   ],
@@ -76,11 +77,21 @@
     "discussion": {
       "Mining": 0.5,
       "Consensus": 0.5
+    },
+    "code": {
+      "Wallet": 0.009,
+      "Infrastructure": 0.934,
+      "Consensus": 0.019,
+      "Script": 0.019,
+      "Cryptography": 0.019
     }
   },
   "expertise_domain_scores": {
-    "Mining": 0.5,
-    "Consensus": 0.5
+    "Mining": 0.2,
+    "Infrastructure": 0.5604,
+    "Consensus": 0.2114,
+    "Script": 0.0114,
+    "Cryptography": 0.0114
   },
   "p2016_posts": 3.0,
   "modern_posts": 0.0,
@@ -88,43 +99,43 @@
   "p2016_delving_posts": 0.0,
   "modern_ml_posts": 0.0,
   "modern_delving_posts": 0.0,
-  "is_engineer": false,
+  "is_engineer": true,
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": false,
-  "global_first_active": "2014-08-21T03:20:39",
-  "global_last_active": "2024-04-18T15:55:38",
+  "global_first_active": "2014-08-21T03:20:53",
+  "global_last_active": "2026-10-04T08:09:12",
   "github_location": "Israel",
   "github_company": null,
   "github_bio": null,
   "github_twitter": null,
   "github_blog": null,
   "github_followers": 247.0,
-  "activity_status": "Retired",
+  "activity_status": "Active",
   "is_top_50": false,
   "github_url": "https://github.com/elichai",
   "commit_history": {
     "2014": {
-      "Documentation": 2.0
+      "Documentation": 1.0
     },
     "2019": {
-      "Tests": 7.0,
-      "Utilities": 12.0,
-      "Wallet": 1.0
+      "Tests": 3.5,
+      "Utilities": 10.0,
+      "Wallet": 0.5
     },
     "2020": {
       "Build & CI": 1.5,
-      "Consensus": 2.0,
-      "Documentation": 3.0,
-      "Script": 2.0,
-      "Tests": 6.0,
-      "Utilities": 27.5
+      "Consensus": 1.0,
+      "Documentation": 2.0,
+      "Script": 1.0,
+      "Tests": 3.0,
+      "Utilities": 26.5
     },
     "2021": {
       "Utilities": 2.0
     },
     "2022": {
-      "Cryptography": 2.0
+      "Cryptography": 1.0
     }
   },
   "first_message": {

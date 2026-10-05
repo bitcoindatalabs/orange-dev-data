@@ -15,12 +15,12 @@
   "self_merges": 0.0,
   "total_additions": 3.0,
   "total_deletions": 3.0,
-  "first_core_commit": "2022-02-17T06:58:20+00:00",
-  "last_core_commit": "2022-02-17T06:58:20+00:00",
+  "first_core_commit": "2022-02-17T06:59:32+00:00",
+  "last_core_commit": "2022-02-17T06:59:32+00:00",
   "first_ecosystem_commit": null,
   "last_ecosystem_commit": null,
-  "first_commit": "2022-02-17T06:58:20",
-  "last_commit": "2022-02-17T06:58:20",
+  "first_commit": "2022-02-17T06:59:32",
+  "last_commit": "2022-02-17T06:59:32",
   "p2016_authored_commits": 1.0,
   "modern_authored_commits": 0.0,
   "co_authored_commits": 0.0,
@@ -45,11 +45,11 @@
   "avg_pr_ack_velocity_days": 0.14930555555555555,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": 0.0,
-  "hybrid_score": 0.0146,
-  "p2016_hybrid_score": 0.0146,
+  "hybrid_score": 0.0543,
+  "p2016_hybrid_score": 0.0543,
   "modern_hybrid_score": 0.0146,
-  "impact_score": 1.0,
-  "p2016_impact_score": 1.0,
+  "impact_score": 3.0,
+  "p2016_impact_score": 3.0,
   "modern_impact_score": 1.0,
   "threads_started": 0.0,
   "replies_sent": 0.0,
@@ -59,13 +59,20 @@
   "delving_responses": 0.0,
   "first_active": null,
   "last_active": null,
-  "dev_type": "Participant",
+  "dev_type": "Builder",
   "expertise_domains": [
-    "Infrastructure"
+    "Infrastructure",
+    "Cryptography"
   ],
-  "expertise_by_source": {},
+  "expertise_by_source": {
+    "code": {
+      "Infrastructure": 0.667,
+      "Cryptography": 0.333
+    }
+  },
   "expertise_domain_scores": {
-    "Infrastructure": 1.0
+    "Infrastructure": 0.667,
+    "Cryptography": 0.333
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,
@@ -73,12 +80,12 @@
   "p2016_delving_posts": 0.0,
   "modern_ml_posts": 0.0,
   "modern_delving_posts": 0.0,
-  "is_engineer": false,
+  "is_engineer": true,
   "is_reviewer": true,
   "is_researcher": false,
   "is_bip_author": false,
-  "global_first_active": "2022-02-17T06:58:20",
-  "global_last_active": "2022-02-17T06:58:20",
+  "global_first_active": "2022-02-17T06:59:32",
+  "global_last_active": "2022-02-17T06:59:32",
   "github_location": "Seoul, Republic of Korea",
   "github_company": "@naver",
   "github_bio": "Put your dream and hope into your code",
@@ -90,9 +97,9 @@
   "github_url": "https://github.com/acktsap",
   "commit_history": {
     "2022": {
-      "Cryptography": 0.67,
-      "Node & RPC": 0.67,
-      "Tests": 0.67
+      "Cryptography": 0.33,
+      "Node & RPC": 0.33,
+      "Tests": 0.33
     }
   }
 }

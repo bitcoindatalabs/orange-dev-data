@@ -15,12 +15,12 @@
   "self_merges": 0.0,
   "total_additions": 937.0,
   "total_deletions": 767.0,
-  "first_core_commit": "2020-11-19T15:39:56+00:00",
-  "last_core_commit": "2026-06-04T09:04:40+00:00",
+  "first_core_commit": "2011-04-12T21:35:08+00:00",
+  "last_core_commit": "2026-06-04T09:04:52+00:00",
   "first_ecosystem_commit": null,
   "last_ecosystem_commit": null,
-  "first_commit": "2020-11-19T15:39:56",
-  "last_commit": "2026-06-04T09:04:40",
+  "first_commit": "2011-04-12T21:35:08",
+  "last_commit": "2026-06-04T09:04:52",
   "p2016_authored_commits": 29.0,
   "modern_authored_commits": 4.0,
   "co_authored_commits": 0.0,
@@ -45,12 +45,12 @@
   "avg_pr_ack_velocity_days": 9.301018015297906,
   "avg_concept_lead_time_days": 4.989197984749455,
   "review_reciprocity": 3.1481481481481484,
-  "hybrid_score": 0.1659,
-  "p2016_hybrid_score": 0.1659,
-  "modern_hybrid_score": 0.1052,
-  "impact_score": 9.0,
-  "p2016_impact_score": 9.0,
-  "modern_impact_score": 6.0,
+  "hybrid_score": 0.3622,
+  "p2016_hybrid_score": 0.3602,
+  "modern_hybrid_score": 0.1981,
+  "impact_score": 20.0,
+  "p2016_impact_score": 19.0,
+  "modern_impact_score": 11.0,
   "threads_started": 0.0,
   "replies_sent": 0.0,
   "ml_threads": 0.0,
@@ -59,13 +59,23 @@
   "delving_responses": 0.0,
   "first_active": null,
   "last_active": null,
-  "dev_type": "Reviewer",
+  "dev_type": "Builder",
   "expertise_domains": [
-    "Infrastructure"
+    "Infrastructure",
+    "Wallet",
+    "Script"
   ],
-  "expertise_by_source": {},
+  "expertise_by_source": {
+    "code": {
+      "Wallet": 0.056,
+      "Infrastructure": 0.931,
+      "Script": 0.013
+    }
+  },
   "expertise_domain_scores": {
-    "Infrastructure": 1.0
+    "Infrastructure": 0.931,
+    "Wallet": 0.056,
+    "Script": 0.013
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,
@@ -73,51 +83,53 @@
   "p2016_delving_posts": 0.0,
   "modern_ml_posts": 0.0,
   "modern_delving_posts": 0.0,
-  "is_engineer": false,
+  "is_engineer": true,
   "is_reviewer": true,
   "is_researcher": false,
   "is_bip_author": false,
-  "global_first_active": "2020-10-29T02:03:43",
-  "global_last_active": "2026-06-04T09:04:40",
+  "global_first_active": "2011-04-12T21:35:08",
+  "global_last_active": "2026-06-04T09:04:52",
   "github_location": "ATX",
   "github_company": "@wayaai ",
   "github_bio": "CTO @ Bird Buddy",
   "github_twitter": "waya_ai",
   "github_blog": "https://www.linkedin.com/in/michael-dietz-40518365/",
   "github_followers": 97.0,
-  "activity_status": "Active",
+  "activity_status": "Rising",
   "is_top_50": false,
   "github_url": "https://github.com/mjdietzx",
   "commit_history": {
+    "2011": {
+      "GUI": 1.0
+    },
     "2020": {
-      "GUI": 2.0,
-      "Tests": 6.0
+      "Tests": 3.0
     },
     "2021": {
-      "Documentation": 10.33,
-      "Node & RPC": 2.4,
-      "Script": 0.73,
-      "Tests": 17.4,
-      "Utilities": 2.4,
-      "Wallet": 2.73
+      "Documentation": 5.17,
+      "Node & RPC": 1.2,
+      "Script": 0.37,
+      "Tests": 8.7,
+      "Utilities": 1.2,
+      "Wallet": 1.37
     },
     "2022": {
-      "Node & RPC": 1.17,
-      "Tests": 1.17,
-      "Utilities": 3.17,
-      "Wallet": 0.5
+      "Node & RPC": 0.58,
+      "Tests": 0.58,
+      "Utilities": 1.58,
+      "Wallet": 0.25
     },
     "2024": {
-      "Documentation": 1.0,
-      "Node & RPC": 2.0,
-      "Tests": 1.0
+      "Documentation": 0.5,
+      "Node & RPC": 1.0,
+      "Tests": 0.5
     },
     "2025": {
-      "Documentation": 1.0,
-      "Tests": 1.0
+      "Documentation": 0.5,
+      "Tests": 0.5
     },
     "2026": {
-      "Tests": 2.0
+      "Tests": 1.0
     }
   }
 }

@@ -1,5 +1,5 @@
 {
-  "display_name": "Sanjay K",
+  "display_name": "sanjay k",
   "github_login_final": "sanjaykdragon",
   "delving_username_final": null,
   "uuid": "auto_sanjay_k",
@@ -15,12 +15,12 @@
   "self_merges": 0.0,
   "total_additions": 19.0,
   "total_deletions": 7.0,
-  "first_core_commit": "2020-01-20T19:24:27+00:00",
-  "last_core_commit": "2020-01-20T19:24:27+00:00",
+  "first_core_commit": "2020-01-20T19:25:25+00:00",
+  "last_core_commit": "2020-01-20T19:25:25+00:00",
   "first_ecosystem_commit": null,
   "last_ecosystem_commit": null,
-  "first_commit": "2020-01-20T19:24:27",
-  "last_commit": "2020-01-20T19:24:27",
+  "first_commit": "2020-01-20T19:25:25",
+  "last_commit": "2020-01-20T19:25:25",
   "p2016_authored_commits": 1.0,
   "modern_authored_commits": 0.0,
   "co_authored_commits": 0.0,
@@ -45,11 +45,11 @@
   "avg_pr_ack_velocity_days": 6.35068287037037,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": 2.4,
-  "hybrid_score": 0.0989,
-  "p2016_hybrid_score": 0.0989,
+  "hybrid_score": 0.1389,
+  "p2016_hybrid_score": 0.1389,
   "modern_hybrid_score": 0.0452,
-  "impact_score": 6.0,
-  "p2016_impact_score": 6.0,
+  "impact_score": 8.0,
+  "p2016_impact_score": 8.0,
   "modern_impact_score": 3.0,
   "threads_started": 0.0,
   "replies_sent": 0.0,
@@ -59,11 +59,15 @@
   "delving_responses": 0.0,
   "first_active": null,
   "last_active": null,
-  "dev_type": "Reviewer",
+  "dev_type": "Builder",
   "expertise_domains": [
     "Infrastructure"
   ],
-  "expertise_by_source": {},
+  "expertise_by_source": {
+    "code": {
+      "Infrastructure": 1.0
+    }
+  },
   "expertise_domain_scores": {
     "Infrastructure": 1.0
   },
@@ -73,7 +77,7 @@
   "p2016_delving_posts": 0.0,
   "modern_ml_posts": 0.0,
   "modern_delving_posts": 0.0,
-  "is_engineer": false,
+  "is_engineer": true,
   "is_reviewer": true,
   "is_researcher": false,
   "is_bip_author": false,
@@ -90,8 +94,8 @@
   "github_url": "https://github.com/sanjaykdragon",
   "commit_history": {
     "2020": {
-      "Documentation": 1.0,
-      "Utilities": 1.0
+      "Documentation": 0.5,
+      "Utilities": 0.5
     }
   }
 }

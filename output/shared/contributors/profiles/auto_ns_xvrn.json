@@ -15,12 +15,12 @@
   "self_merges": 0.0,
   "total_additions": 173.0,
   "total_deletions": 212.0,
-  "first_core_commit": "2023-10-11T18:06:26+00:00",
-  "last_core_commit": "2023-10-29T09:11:24+00:00",
+  "first_core_commit": "2023-10-11T18:08:34+00:00",
+  "last_core_commit": "2023-10-29T09:15:08+00:00",
   "first_ecosystem_commit": null,
   "last_ecosystem_commit": null,
-  "first_commit": "2023-10-11T18:06:26",
-  "last_commit": "2023-10-29T09:11:24",
+  "first_commit": "2023-10-11T18:08:34",
+  "last_commit": "2023-10-29T09:15:08",
   "p2016_authored_commits": 2.0,
   "modern_authored_commits": 1.0,
   "co_authored_commits": 0.0,
@@ -45,37 +45,41 @@
   "avg_pr_ack_velocity_days": 2.2083043981481483,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": 3.25,
-  "hybrid_score": 0.1068,
-  "p2016_hybrid_score": 0.1112,
-  "modern_hybrid_score": 0.1336,
-  "impact_score": 6.0,
-  "p2016_impact_score": 6.0,
-  "modern_impact_score": 8.0,
+  "hybrid_score": 0.1701,
+  "p2016_hybrid_score": 0.1745,
+  "modern_hybrid_score": 0.1966,
+  "impact_score": 10.0,
+  "p2016_impact_score": 10.0,
+  "modern_impact_score": 11.0,
   "threads_started": 0.0,
   "replies_sent": 3.0,
   "ml_threads": 0.0,
   "delving_threads": 0.0,
   "ml_responses": 3.0,
   "delving_responses": 0.0,
-  "first_active": "2024-04-17T18:58:00",
-  "last_active": "2025-05-03T00:14:45",
-  "dev_type": "Reviewer",
+  "first_active": null,
+  "last_active": null,
+  "dev_type": "Builder",
   "expertise_domains": [
+    "Infrastructure",
     "Mempool",
-    "L2",
-    "Script"
+    "L2"
   ],
   "expertise_by_source": {
     "discussion": {
-      "L2": 0.286,
       "Mempool": 0.429,
-      "Script": 0.286
+      "Script": 0.286,
+      "L2": 0.286
+    },
+    "code": {
+      "Infrastructure": 1.0
     }
   },
   "expertise_domain_scores": {
-    "L2": 0.2857,
-    "Mempool": 0.4286,
-    "Script": 0.2857
+    "Infrastructure": 0.5998,
+    "Mempool": 0.1715,
+    "Script": 0.1144,
+    "L2": 0.1144
   },
   "p2016_posts": 3.0,
   "modern_posts": 3.0,
@@ -83,7 +87,7 @@
   "p2016_delving_posts": 0.0,
   "modern_ml_posts": 3.0,
   "modern_delving_posts": 0.0,
-  "is_engineer": false,
+  "is_engineer": true,
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": false,
@@ -100,7 +104,7 @@
   "github_url": "https://github.com/nsvrn",
   "commit_history": {
     "2023": {
-      "Tests": 4.0
+      "Tests": 2.0
     }
   },
   "first_message": {

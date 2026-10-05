@@ -1,7 +1,7 @@
 {
-  "display_name": "Dathon Ohm",
+  "display_name": "dathon ohm",
   "github_login_final": "dathonohm",
-  "delving_username_final": null,
+  "delving_username_final": "dathonohm",
   "uuid": "auto_dathon_ohm",
   "badges": {
     "is_maintainer": false,
@@ -57,47 +57,44 @@
   "avg_pr_ack_velocity_days": 0.15231481481481482,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": 1.0,
-  "hybrid_score": 0.4712,
-  "p2016_hybrid_score": 0.4992,
-  "modern_hybrid_score": 0.6833,
+  "hybrid_score": 0.4708,
+  "p2016_hybrid_score": 0.4982,
+  "modern_hybrid_score": 0.6755,
   "impact_score": 25.0,
   "p2016_impact_score": 26.0,
-  "modern_impact_score": 34.0,
-  "threads_started": 1.0,
-  "replies_sent": 6.0,
+  "modern_impact_score": 33.0,
+  "threads_started": 3.0,
+  "replies_sent": 10.0,
   "ml_threads": 1.0,
-  "delving_threads": 0.0,
+  "delving_threads": 2.0,
   "ml_responses": 6.0,
-  "delving_responses": 0.0,
-  "first_active": "2025-10-25T15:43:11",
-  "last_active": "2025-11-09T14:07:08",
+  "delving_responses": 4.0,
+  "first_active": null,
+  "last_active": "2026-07-04T03:27:34.915000",
   "dev_type": "Participant",
   "expertise_domains": [
     "Consensus",
-    "Mempool",
-    "Script"
+    "Mempool"
   ],
   "expertise_by_source": {
     "discussion": {
-      "Mempool": 0.147,
-      "Script": 0.147,
-      "Consensus": 0.706
+      "Consensus": 0.537,
+      "Mempool": 0.463
     },
     "bips": {
       "Consensus": 1.0
     }
   },
   "expertise_domain_scores": {
-    "Mempool": 0.042,
-    "Script": 0.042,
-    "Consensus": 0.916
+    "Consensus": 0.8677,
+    "Mempool": 0.1323
   },
-  "p2016_posts": 7.0,
-  "modern_posts": 7.0,
+  "p2016_posts": 13.0,
+  "modern_posts": 13.0,
   "p2016_ml_posts": 7.0,
-  "p2016_delving_posts": 0.0,
+  "p2016_delving_posts": 6.0,
   "modern_ml_posts": 7.0,
-  "modern_delving_posts": 0.0,
+  "modern_delving_posts": 6.0,
   "is_engineer": false,
   "is_reviewer": true,
   "is_researcher": true,
@@ -113,6 +110,7 @@
   "activity_status": "New",
   "is_top_50": false,
   "github_url": "https://github.com/dathonohm",
+  "delving_url": "https://delvingbitcoin.org/u/dathonohm",
   "bip_list": [
     {
       "number": 110,
@@ -129,10 +127,10 @@
     "link": "https://gnusha.org/pi/bitcoindev/AWiF9dIo9yjUF9RAs_NLwYdGK11BF8C8oEArR6Cys-rbcZ8_qs3RoJURqK3CqwCCWM_zwGFn5n3RECW_j5hGS01ntGzPLptqcOyOejunYsU=@proton.me"
   },
   "last_message": {
-    "source": "mailing_list",
-    "subject": "Re: [bitcoindev] [BIP Proposal] Reduced Data Temporary Softfork",
-    "date": "2025-11-09",
-    "link": "https://gnusha.org/pi/bitcoindev/4LP7J-1Vq3jwrB8i7nBZPo7KBwS0Dc-RfmBxAT5JNqM3vG45RS3SxLYhws88ezXAMCT17blNOQSQRnuxLXquQci12-9uiPPqte4XOqoE8OY=@proton.me"
+    "source": "delving",
+    "subject": "Re: BIP-110 update: v0.4.1 release and implementation submitted to Bitcoin Core",
+    "date": "2026-07-04",
+    "link": "https://delvingbitcoin.org/t/bip-110-update-v0-4-1-release-and-implementation-submitted-to-bitcoin-core/2360/18"
   },
   "social_history": {
     "2025": {
@@ -143,7 +141,12 @@
       "soft-fork-activation": 7,
       "spam-filtering": 1,
       "taproot": 1,
-      "transaction-format": 1
+      "other": 1
+    },
+    "2026": {
+      "soft-fork-activation": 6,
+      "spam-filtering": 6,
+      "utxo-sync": 6
     }
   }
 }

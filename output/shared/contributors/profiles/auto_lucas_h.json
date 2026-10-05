@@ -15,12 +15,12 @@
   "self_merges": 0.0,
   "total_additions": 286.0,
   "total_deletions": 183.0,
-  "first_core_commit": "2018-06-07T14:20:00+00:00",
-  "last_core_commit": "2019-09-18T13:53:36+00:00",
+  "first_core_commit": "2018-06-07T14:21:43+00:00",
+  "last_core_commit": "2019-09-18T14:02:37+00:00",
   "first_ecosystem_commit": null,
   "last_ecosystem_commit": null,
-  "first_commit": "2018-06-07T14:20:00",
-  "last_commit": "2019-09-18T13:53:36",
+  "first_commit": "2018-06-07T14:21:43",
+  "last_commit": "2019-09-18T14:02:37",
   "p2016_authored_commits": 10.0,
   "modern_authored_commits": 0.0,
   "co_authored_commits": 0.0,
@@ -45,11 +45,11 @@
   "avg_pr_ack_velocity_days": 63.69233651620371,
   "avg_concept_lead_time_days": 99.25902777777779,
   "review_reciprocity": 0.5,
-  "hybrid_score": 0.094,
-  "p2016_hybrid_score": 0.0985,
+  "hybrid_score": 0.2323,
+  "p2016_hybrid_score": 0.2368,
   "modern_hybrid_score": 0.0646,
-  "impact_score": 5.0,
-  "p2016_impact_score": 6.0,
+  "impact_score": 13.0,
+  "p2016_impact_score": 13.0,
   "modern_impact_score": 4.0,
   "threads_started": 1.0,
   "replies_sent": 2.0,
@@ -57,19 +57,33 @@
   "delving_threads": 0.0,
   "ml_responses": 2.0,
   "delving_responses": 0.0,
-  "first_active": "2019-10-18T17:01:54",
-  "last_active": "2019-10-20T16:33:24",
-  "dev_type": "Participant",
+  "first_active": null,
+  "last_active": null,
+  "dev_type": "Builder",
   "expertise_domains": [
-    "Mining"
+    "Mining",
+    "Infrastructure",
+    "Consensus"
   ],
   "expertise_by_source": {
     "discussion": {
       "Mining": 1.0
+    },
+    "code": {
+      "Wallet": 0.025,
+      "Infrastructure": 0.625,
+      "Consensus": 0.225,
+      "Script": 0.1,
+      "Network": 0.025
     }
   },
   "expertise_domain_scores": {
-    "Mining": 1.0
+    "Mining": 0.4,
+    "Infrastructure": 0.375,
+    "Wallet": 0.015,
+    "Consensus": 0.135,
+    "Script": 0.06,
+    "Network": 0.015
   },
   "p2016_posts": 3.0,
   "modern_posts": 0.0,
@@ -77,12 +91,12 @@
   "p2016_delving_posts": 0.0,
   "modern_ml_posts": 0.0,
   "modern_delving_posts": 0.0,
-  "is_engineer": false,
+  "is_engineer": true,
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": false,
   "global_first_active": "2018-05-31T02:24:58",
-  "global_last_active": "2019-10-20T16:33:24",
+  "global_last_active": "2019-09-18T14:02:37",
   "github_location": null,
   "github_company": null,
   "github_bio": null,
@@ -94,18 +108,18 @@
   "github_url": "https://github.com/lucash-dev",
   "commit_history": {
     "2018": {
-      "Consensus": 2.0,
-      "Script": 1.0,
-      "Tests": 9.0
+      "Consensus": 1.0,
+      "Script": 0.5,
+      "Tests": 4.5
     },
     "2019": {
-      "Consensus": 2.5,
-      "Node & RPC": 0.5,
-      "P2P Network": 0.5,
-      "Script": 1.0,
-      "Tests": 2.5,
-      "Utilities": 0.5,
-      "Wallet": 0.5
+      "Consensus": 1.25,
+      "Node & RPC": 0.25,
+      "P2P Network": 0.25,
+      "Script": 0.5,
+      "Tests": 1.25,
+      "Utilities": 0.25,
+      "Wallet": 0.25
     }
   },
   "first_message": {

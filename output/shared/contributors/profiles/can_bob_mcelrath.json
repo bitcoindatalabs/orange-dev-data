@@ -1,7 +1,7 @@
 {
   "display_name": "Bob McElrath",
   "github_login_final": "mcelrath",
-  "delving_username_final": null,
+  "delving_username_final": "mcelrath",
   "uuid": "can_bob_mcelrath",
   "badges": null,
   "roles": null,
@@ -15,12 +15,12 @@
   "self_merges": 0.0,
   "total_additions": 270.0,
   "total_deletions": 140.0,
-  "first_core_commit": "2015-10-29T12:39:51+00:00",
-  "last_core_commit": "2017-02-21T16:50:54+00:00",
+  "first_core_commit": "2015-10-29T12:40:07+00:00",
+  "last_core_commit": "2017-02-21T16:51:41+00:00",
   "first_ecosystem_commit": null,
   "last_ecosystem_commit": null,
-  "first_commit": "2015-10-29T12:39:51",
-  "last_commit": "2017-02-21T16:50:54",
+  "first_commit": "2015-10-29T12:40:07",
+  "last_commit": "2017-02-21T16:51:41",
   "p2016_authored_commits": 5.0,
   "modern_authored_commits": 0.0,
   "co_authored_commits": 0.0,
@@ -45,67 +45,77 @@
   "avg_pr_ack_velocity_days": 1.7416782407407407,
   "avg_concept_lead_time_days": 2.607366898148148,
   "review_reciprocity": 1.25,
-  "hybrid_score": 0.1142,
-  "p2016_hybrid_score": 0.1123,
+  "hybrid_score": 0.226,
+  "p2016_hybrid_score": 0.2151,
   "modern_hybrid_score": 0.0396,
-  "impact_score": 7.0,
-  "p2016_impact_score": 7.0,
+  "impact_score": 13.0,
+  "p2016_impact_score": 12.0,
   "modern_impact_score": 2.0,
-  "threads_started": 4.0,
-  "replies_sent": 23.0,
+  "threads_started": 16.0,
+  "replies_sent": 42.0,
   "ml_threads": 4.0,
-  "delving_threads": 0.0,
+  "delving_threads": 12.0,
   "ml_responses": 23.0,
-  "delving_responses": 0.0,
-  "first_active": "2014-08-10T09:07:19",
-  "last_active": "2021-12-15T12:51:41",
-  "dev_type": "Participant",
+  "delving_responses": 19.0,
+  "first_active": null,
+  "last_active": "2025-12-03T12:49:27.107000",
+  "dev_type": "Builder",
   "expertise_domains": [
+    "Infrastructure",
     "Mining",
-    "Consensus"
+    "Mempool"
   ],
   "expertise_by_source": {
     "discussion": {
       "Mining": 0.679,
-      "Consensus": 0.321
+      "Mempool": 0.189,
+      "Network": 0.132
+    },
+    "code": {
+      "Infrastructure": 0.945,
+      "Consensus": 0.055
     }
   },
   "expertise_domain_scores": {
-    "Mining": 0.679,
-    "Consensus": 0.321
+    "Mining": 0.2716,
+    "Infrastructure": 0.567,
+    "Consensus": 0.033,
+    "Mempool": 0.0756,
+    "Network": 0.0528
   },
-  "p2016_posts": 16.0,
-  "modern_posts": 0.0,
+  "p2016_posts": 47.0,
+  "modern_posts": 31.0,
   "p2016_ml_posts": 16.0,
-  "p2016_delving_posts": 0.0,
+  "p2016_delving_posts": 31.0,
   "modern_ml_posts": 0.0,
-  "modern_delving_posts": 0.0,
-  "is_engineer": false,
+  "modern_delving_posts": 31.0,
+  "is_engineer": true,
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": false,
-  "global_first_active": "2014-08-10T09:07:19",
-  "global_last_active": "2021-12-15T12:51:41",
+  "global_first_active": "2015-10-29T12:40:07",
+  "global_last_active": "2025-12-03T12:49:27.107000",
   "github_location": "Boston, MA",
   "github_company": "Startup/VC Tech Advisor, Independent Contributor",
   "github_bio": "Remaking money and reverse-engineering the universe.",
   "github_twitter": null,
   "github_blog": "http://bob.mcelrath.org/resume/",
   "github_followers": 80.0,
-  "activity_status": "Retired",
+  "activity_status": "Active",
   "is_top_50": false,
   "github_url": "https://github.com/mcelrath",
+  "delving_url": "https://delvingbitcoin.org/u/mcelrath",
   "commit_history": {
     "2015": {
-      "Utilities": 2.0
+      "Utilities": 1.0
     },
     "2016": {
-      "Consensus": 0.67,
-      "Tests": 0.67,
-      "Utilities": 0.67
+      "Consensus": 0.33,
+      "Tests": 0.33,
+      "Utilities": 0.33
     },
     "2017": {
-      "Utilities": 8.0
+      "Utilities": 4.0
     }
   },
   "first_message": {
@@ -115,10 +125,10 @@
     "link": "https://gnusha.org/pi/bitcoindev/20140810140719.GA20493@mcelrath.org"
   },
   "last_message": {
-    "source": "mailing_list",
-    "subject": "Re: [bitcoin-dev] [Bitcoin Advent Calendar] Decentralized\n Coordination Free Mining Pools",
-    "date": "2021-12-15",
-    "link": "https://gnusha.org/pi/bitcoindev/20211215185140.GB35108@mcelrath.org"
+    "source": "delving",
+    "subject": "Re: Optimistic mining tip (slow block propagation)",
+    "date": "2025-12-03",
+    "link": "https://delvingbitcoin.org/t/optimistic-mining-tip-slow-block-propagation/2139/2"
   },
   "social_history": {
     "2014": {
@@ -126,28 +136,46 @@
     },
     "2015": {
       "hard-fork-block-size": 4,
-      "other": 6,
+      "mempool-fees": 1,
       "mining": 4,
-      "scaling": 3,
-      "utxo-sync": 3
+      "other": 9,
+      "spam-filtering": 2
     },
     "2016": {
       "mining": 1,
-      "other": 5
+      "other": 3,
+      "p2p-network": 2
     },
     "2018": {
-      "covenants": 2,
-      "other": 5,
-      "signatures-sighash": 3
+      "other": 8,
+      "lightning": 1,
+      "mempool-fees": 1
     },
     "2020": {
-      "other": 5,
-      "covenants": 1,
-      "l2-bridges": 3,
-      "signatures-sighash": 1
+      "other": 8,
+      "lightning": 1,
+      "multisig-threshold": 1
     },
     "2021": {
       "mining": 3
+    },
+    "2024": {
+      "other": 2,
+      "lightning": 2,
+      "mempool-fees": 6,
+      "mining": 18,
+      "multisig-threshold": 7,
+      "p2p-network": 6,
+      "spam-filtering": 3
+    },
+    "2025": {
+      "other": 5,
+      "hard-fork-block-size": 4,
+      "lightning": 1,
+      "mempool-fees": 2,
+      "mining": 12,
+      "p2p-network": 2,
+      "spam-filtering": 5
     }
   }
 }

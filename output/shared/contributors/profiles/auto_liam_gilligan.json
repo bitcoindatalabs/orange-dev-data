@@ -1,5 +1,5 @@
 {
-  "display_name": "liam gilligan",
+  "display_name": "Liam Gilligan",
   "github_login_final": "liamgilligan",
   "delving_username_final": null,
   "uuid": "auto_liam_gilligan",
@@ -57,9 +57,9 @@
   "avg_pr_ack_velocity_days": null,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": 0.5,
-  "hybrid_score": 0.3963,
-  "p2016_hybrid_score": 0.4001,
-  "modern_hybrid_score": 0.4226,
+  "hybrid_score": 0.3962,
+  "p2016_hybrid_score": 0.3999,
+  "modern_hybrid_score": 0.4207,
   "impact_score": 21.0,
   "p2016_impact_score": 21.0,
   "modern_impact_score": 22.0,
@@ -69,8 +69,8 @@
   "delving_threads": 0.0,
   "ml_responses": 2.0,
   "delving_responses": 0.0,
-  "first_active": "2026-07-28T10:01:34",
-  "last_active": "2026-09-17T18:23:13",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Participant",
   "expertise_domains": [
     "Infrastructure",
@@ -79,8 +79,8 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Network": 0.326,
-      "Cryptography": 0.674
+      "Cryptography": 0.674,
+      "Network": 0.326
     },
     "bips": {
       "Infrastructure": 1.0
@@ -88,8 +88,8 @@
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.7143,
-    "Network": 0.0931,
-    "Cryptography": 0.1926
+    "Cryptography": 0.1926,
+    "Network": 0.0931
   },
   "p2016_posts": 3.0,
   "modern_posts": 3.0,
@@ -102,7 +102,7 @@
   "is_researcher": true,
   "is_bip_author": true,
   "global_first_active": "2026-07-28T09:42:22",
-  "global_last_active": "2026-09-17T18:23:13",
+  "global_last_active": "2026-08-18T21:43:26",
   "github_location": null,
   "github_company": null,
   "github_bio": null,

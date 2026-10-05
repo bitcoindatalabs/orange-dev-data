@@ -16,11 +16,11 @@
   "total_additions": 270.0,
   "total_deletions": 191.0,
   "first_core_commit": "2012-04-19T11:33:04+00:00",
-  "last_core_commit": "2021-04-19T07:01:43+00:00",
+  "last_core_commit": "2021-04-19T07:03:25+00:00",
   "first_ecosystem_commit": null,
   "last_ecosystem_commit": null,
   "first_commit": "2012-04-19T11:33:04",
-  "last_commit": "2021-04-19T07:01:43",
+  "last_commit": "2021-04-19T07:03:25",
   "p2016_authored_commits": 7.0,
   "modern_authored_commits": 0.0,
   "co_authored_commits": 0.0,
@@ -45,11 +45,11 @@
   "avg_pr_ack_velocity_days": 12.91871130952381,
   "avg_concept_lead_time_days": 12.027255787037037,
   "review_reciprocity": 1.5892857142857142,
-  "hybrid_score": 0.2194,
-  "p2016_hybrid_score": 0.2149,
+  "hybrid_score": 0.4278,
+  "p2016_hybrid_score": 0.3416,
   "modern_hybrid_score": 0.1627,
-  "impact_score": 12.0,
-  "p2016_impact_score": 12.0,
+  "impact_score": 23.0,
+  "p2016_impact_score": 19.0,
   "modern_impact_score": 9.0,
   "threads_started": 0.0,
   "replies_sent": 4.0,
@@ -57,22 +57,29 @@
   "delving_threads": 0.0,
   "ml_responses": 4.0,
   "delving_responses": 0.0,
-  "first_active": "2017-06-02T07:29:19",
-  "last_active": "2021-05-09T06:30:53",
-  "dev_type": "Reviewer",
+  "first_active": null,
+  "last_active": null,
+  "dev_type": "Builder",
   "expertise_domains": [
+    "Infrastructure",
     "Consensus",
     "Mempool"
   ],
   "expertise_by_source": {
     "discussion": {
-      "Mempool": 0.5,
-      "Consensus": 0.5
+      "Consensus": 0.5,
+      "Mempool": 0.5
+    },
+    "code": {
+      "Infrastructure": 0.838,
+      "Network": 0.162
     }
   },
   "expertise_domain_scores": {
-    "Mempool": 0.5,
-    "Consensus": 0.5
+    "Infrastructure": 0.5028,
+    "Consensus": 0.2,
+    "Mempool": 0.2,
+    "Network": 0.0972
   },
   "p2016_posts": 4.0,
   "modern_posts": 0.0,
@@ -80,7 +87,7 @@
   "p2016_delving_posts": 0.0,
   "modern_ml_posts": 0.0,
   "modern_delving_posts": 0.0,
-  "is_engineer": false,
+  "is_engineer": true,
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": false,
@@ -97,25 +104,25 @@
   "github_url": "https://github.com/rebroad",
   "commit_history": {
     "2012": {
-      "Build & CI": 1.0,
-      "Node & RPC": 5.67,
-      "P2P Network": 6.67,
-      "Utilities": 12.67
+      "Build & CI": 0.5,
+      "Node & RPC": 2.83,
+      "P2P Network": 3.33,
+      "Utilities": 6.33
     },
     "2014": {
-      "GUI": 2.0,
-      "Node & RPC": 1.33,
-      "P2P Network": 1.33,
-      "Utilities": 25.33
+      "GUI": 1.0,
+      "Node & RPC": 0.67,
+      "P2P Network": 0.67,
+      "Utilities": 12.67
     },
     "2016": {
-      "GUI": 3.67,
-      "Node & RPC": 0.67,
-      "P2P Network": 1.67,
-      "Utilities": 8.0
+      "GUI": 1.83,
+      "Node & RPC": 0.33,
+      "P2P Network": 0.83,
+      "Utilities": 4.0
     },
     "2021": {
-      "P2P Network": 2.0
+      "P2P Network": 1.0
     }
   },
   "first_message": {

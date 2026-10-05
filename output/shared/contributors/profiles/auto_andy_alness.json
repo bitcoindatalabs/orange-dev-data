@@ -1,5 +1,5 @@
 {
-  "display_name": "andy alness",
+  "display_name": "Andy Alness",
   "github_login_final": "aalness",
   "delving_username_final": null,
   "uuid": "auto_andy_alness",
@@ -15,12 +15,12 @@
   "self_merges": 0.0,
   "total_additions": 13.0,
   "total_deletions": 2.0,
-  "first_core_commit": "2014-10-07T06:38:40+00:00",
-  "last_core_commit": "2014-10-07T06:38:40+00:00",
+  "first_core_commit": "2014-10-07T06:51:41+00:00",
+  "last_core_commit": "2014-10-07T06:51:41+00:00",
   "first_ecosystem_commit": null,
   "last_ecosystem_commit": null,
-  "first_commit": "2014-10-07T06:38:40",
-  "last_commit": "2014-10-07T06:38:40",
+  "first_commit": "2014-10-07T06:51:41",
+  "last_commit": "2014-10-07T06:51:41",
   "p2016_authored_commits": 0.0,
   "modern_authored_commits": 0.0,
   "co_authored_commits": 0.0,
@@ -45,10 +45,10 @@
   "avg_pr_ack_velocity_days": 27.557123842592596,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": 1.7142857142857142,
-  "hybrid_score": 0.1112,
+  "hybrid_score": 0.1512,
   "p2016_hybrid_score": 0.0615,
   "modern_hybrid_score": 0.0542,
-  "impact_score": 6.0,
+  "impact_score": 9.0,
   "p2016_impact_score": 4.0,
   "modern_impact_score": 3.0,
   "threads_started": 1.0,
@@ -57,22 +57,27 @@
   "delving_threads": 0.0,
   "ml_responses": 4.0,
   "delving_responses": 0.0,
-  "first_active": "2014-05-11T20:05:20",
-  "last_active": "2014-06-24T14:34:03",
-  "dev_type": "Reviewer",
+  "first_active": null,
+  "last_active": null,
+  "dev_type": "Builder",
   "expertise_domains": [
+    "Script",
     "Ecosystem",
     "Mempool"
   ],
   "expertise_by_source": {
     "discussion": {
-      "Ecosystem": 0.859,
-      "Mempool": 0.141
+      "Mempool": 0.141,
+      "Ecosystem": 0.859
+    },
+    "code": {
+      "Script": 1.0
     }
   },
   "expertise_domain_scores": {
-    "Ecosystem": 0.859,
-    "Mempool": 0.141
+    "Mempool": 0.0564,
+    "Script": 0.6,
+    "Ecosystem": 0.3436
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,
@@ -80,7 +85,7 @@
   "p2016_delving_posts": 0.0,
   "modern_ml_posts": 0.0,
   "modern_delving_posts": 0.0,
-  "is_engineer": false,
+  "is_engineer": true,
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": false,
@@ -97,7 +102,7 @@
   "github_url": "https://github.com/aalness",
   "commit_history": {
     "2014": {
-      "Script": 2.0
+      "Script": 1.0
     }
   },
   "first_message": {

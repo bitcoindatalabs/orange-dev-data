@@ -1,7 +1,7 @@
 {
   "display_name": "Jonas Nick",
   "github_login_final": "jonasnick",
-  "delving_username_final": null,
+  "delving_username_final": "jonasnick",
   "uuid": "can_jonas_nick",
   "badges": {
     "is_maintainer": false,
@@ -59,31 +59,35 @@
   "avg_pr_ack_velocity_days": 8.94121495627572,
   "avg_concept_lead_time_days": 11.727422839506172,
   "review_reciprocity": 3.4285714285714284,
-  "hybrid_score": 1.1067,
-  "p2016_hybrid_score": 1.1578,
-  "modern_hybrid_score": 0.418,
-  "impact_score": 49.0,
-  "p2016_impact_score": 50.0,
-  "modern_impact_score": 22.0,
-  "threads_started": 7.0,
-  "replies_sent": 48.0,
+  "hybrid_score": 1.408,
+  "p2016_hybrid_score": 1.4571,
+  "modern_hybrid_score": 0.6499,
+  "impact_score": 57.0,
+  "p2016_impact_score": 58.0,
+  "modern_impact_score": 32.0,
+  "threads_started": 18.0,
+  "replies_sent": 51.0,
   "ml_threads": 7.0,
-  "delving_threads": 0.0,
+  "delving_threads": 11.0,
   "ml_responses": 48.0,
-  "delving_responses": 0.0,
-  "first_active": "2015-06-14T12:45:48",
-  "last_active": "2026-08-10T03:08:39",
-  "dev_type": "Reviewer",
+  "delving_responses": 3.0,
+  "first_active": null,
+  "last_active": "2026-09-15T09:30:29.539000",
+  "dev_type": "Protocol Designer",
   "expertise_domains": [
-    "Consensus",
     "Infrastructure",
-    "Wallet"
+    "Consensus",
+    "Cryptography"
   ],
   "expertise_by_source": {
     "discussion": {
-      "Consensus": 0.255,
-      "Wallet": 0.529,
-      "Cryptography": 0.216
+      "Consensus": 0.245,
+      "Wallet": 0.358,
+      "Cryptography": 0.396
+    },
+    "code": {
+      "Wallet": 0.016,
+      "Infrastructure": 0.984
     },
     "bips": {
       "Consensus": 0.5,
@@ -91,23 +95,23 @@
     }
   },
   "expertise_domain_scores": {
-    "Infrastructure": 0.3571,
-    "Consensus": 0.43,
-    "Wallet": 0.1511,
-    "Cryptography": 0.0617
+    "Infrastructure": 0.5453,
+    "Wallet": 0.0764,
+    "Consensus": 0.2991,
+    "Cryptography": 0.0792
   },
-  "p2016_posts": 54.0,
-  "modern_posts": 26.0,
+  "p2016_posts": 68.0,
+  "modern_posts": 40.0,
   "p2016_ml_posts": 54.0,
-  "p2016_delving_posts": 0.0,
+  "p2016_delving_posts": 14.0,
   "modern_ml_posts": 26.0,
-  "modern_delving_posts": 0.0,
-  "is_engineer": false,
+  "modern_delving_posts": 14.0,
+  "is_engineer": true,
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": true,
   "global_first_active": "2015-03-11T23:42:40",
-  "global_last_active": "2026-08-10T03:08:39",
+  "global_last_active": "2026-09-15T09:30:29.539000",
   "github_location": null,
   "github_company": null,
   "github_bio": "GPG 36C7 1A37 C9D9 88BD E825  08D9 B1A7 0E4F 8DCD 0366",
@@ -117,14 +121,15 @@
   "activity_status": "Active",
   "is_top_50": false,
   "github_url": "https://github.com/jonasnick",
+  "delving_url": "https://delvingbitcoin.org/u/jonasnick",
   "commit_history": {
     "2016": {
-      "Node & RPC": 2.0,
-      "Tests": 1.0,
-      "Utilities": 2.0
+      "Node & RPC": 1.0,
+      "Tests": 0.5,
+      "Utilities": 1.5
     },
     "2017": {
-      "Node & RPC": 2.0,
+      "Node & RPC": 1.0,
       "Utilities": 5.0
     },
     "2018": {
@@ -208,10 +213,10 @@
     "link": "https://gnusha.org/pi/bitcoindev/557DBDCC.5040106@student.ethz.ch"
   },
   "last_message": {
-    "source": "mailing_list",
-    "subject": "Re: [bitcoindev] Motion to remove Luke Dashjr from BIP Editors",
-    "date": "2026-08-10",
-    "link": "https://gnusha.org/pi/bitcoindev/cb930bf6-985c-47f1-bf99-0bc9ebd650b9@gmail.com"
+    "source": "delving",
+    "subject": "Re: Block-wide Signature Aggregation via SNARKs",
+    "date": "2026-09-15",
+    "link": "https://delvingbitcoin.org/t/block-wide-signature-aggregation-via-snarks/2875/8"
   },
   "social_history": {
     "2015": {
@@ -225,18 +230,19 @@
     },
     "2019": {
       "other": 3,
-      "privacy": 1
+      "script-opcodes": 1
     },
     "2020": {
       "mining": 1,
-      "privacy": 2,
+      "other": 2,
       "signatures-sighash": 3,
       "taproot": 3
     },
     "2022": {
       "covenants": 1,
-      "other": 4,
+      "other": 3,
       "multisig-threshold": 8,
+      "script-opcodes": 1,
       "signatures-sighash": 4,
       "taproot": 4
     },
@@ -247,20 +253,26 @@
       "taproot": 2
     },
     "2024": {
-      "other": 4,
+      "other": 5,
       "covenants": 1,
-      "multisig-threshold": 2,
-      "privacy": 1
+      "multisig-threshold": 2
     },
     "2025": {
-      "other": 8,
-      "covenants": 2,
+      "other": 7,
+      "covenants": 5,
+      "mining": 1,
       "multisig-threshold": 2,
-      "quantum": 8
+      "quantum": 11,
+      "script-opcodes": 5,
+      "taproot": 3
     },
     "2026": {
-      "other": 3,
-      "quantum": 1
+      "other": 5,
+      "covenants": 4,
+      "mining": 1,
+      "quantum": 11,
+      "script-opcodes": 4,
+      "taproot": 4
     }
   }
 }

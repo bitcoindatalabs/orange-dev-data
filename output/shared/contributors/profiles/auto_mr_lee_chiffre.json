@@ -1,5 +1,5 @@
 {
-  "display_name": "mr. lee chiffre",
+  "display_name": "Mr. Lee Chiffre",
   "github_login_final": null,
   "delving_username_final": null,
   "uuid": "auto_mr_lee_chiffre",
@@ -45,8 +45,8 @@
   "avg_pr_ack_velocity_days": null,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": null,
-  "hybrid_score": 0.0213,
-  "p2016_hybrid_score": 0.0378,
+  "hybrid_score": 0.0211,
+  "p2016_hybrid_score": 0.0374,
   "modern_hybrid_score": 0.0,
   "impact_score": 1.0,
   "p2016_impact_score": 2.0,
@@ -57,8 +57,8 @@
   "delving_threads": 0.0,
   "ml_responses": 4.0,
   "delving_responses": 0.0,
-  "first_active": "2019-11-16T22:33:31",
-  "last_active": "2020-10-03T00:21:17",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Participant",
   "expertise_domains": [
     "Privacy",
@@ -67,14 +67,14 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "L2": 0.202,
       "Privacy": 0.663,
+      "L2": 0.202,
       "Network": 0.135
     }
   },
   "expertise_domain_scores": {
-    "L2": 0.202,
     "Privacy": 0.663,
+    "L2": 0.202,
     "Network": 0.135
   },
   "p2016_posts": 7.0,
@@ -87,8 +87,8 @@
   "is_reviewer": false,
   "is_researcher": true,
   "is_bip_author": false,
-  "global_first_active": "2019-11-16T22:33:31",
-  "global_last_active": "2020-10-03T00:21:17",
+  "global_first_active": null,
+  "global_last_active": null,
   "github_location": null,
   "github_company": null,
   "github_bio": null,

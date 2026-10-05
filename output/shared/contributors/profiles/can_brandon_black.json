@@ -1,7 +1,7 @@
 {
   "display_name": "Brandon Black",
   "github_login_final": "reardencode",
-  "delving_username_final": null,
+  "delving_username_final": "reardencode",
   "uuid": "can_brandon_black",
   "badges": {
     "is_maintainer": false,
@@ -57,20 +57,20 @@
   "avg_pr_ack_velocity_days": 73.69123346560846,
   "avg_concept_lead_time_days": 0.7398755787037037,
   "review_reciprocity": 2.1,
-  "hybrid_score": 0.9792,
-  "p2016_hybrid_score": 1.0119,
-  "modern_hybrid_score": 1.0206,
+  "hybrid_score": 0.9781,
+  "p2016_hybrid_score": 1.0096,
+  "modern_hybrid_score": 1.004,
   "impact_score": 44.0,
-  "p2016_impact_score": 46.0,
-  "modern_impact_score": 46.0,
-  "threads_started": 6.0,
-  "replies_sent": 32.0,
+  "p2016_impact_score": 45.0,
+  "modern_impact_score": 45.0,
+  "threads_started": 32.0,
+  "replies_sent": 53.0,
   "ml_threads": 6.0,
-  "delving_threads": 0.0,
+  "delving_threads": 26.0,
   "ml_responses": 32.0,
-  "delving_responses": 0.0,
-  "first_active": "2018-09-06T15:32:44",
-  "last_active": "2026-03-12T13:00:15",
+  "delving_responses": 21.0,
+  "first_active": null,
+  "last_active": "2026-08-11T17:14:24.609000",
   "dev_type": "Reviewer",
   "expertise_domains": [
     "Consensus",
@@ -78,29 +78,29 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Script": 0.782,
-      "Consensus": 0.218
+      "Consensus": 0.216,
+      "Script": 0.784
     },
     "bips": {
       "Consensus": 1.0
     }
   },
   "expertise_domain_scores": {
-    "Script": 0.2234,
-    "Consensus": 0.7766
+    "Consensus": 0.776,
+    "Script": 0.224
   },
-  "p2016_posts": 38.0,
-  "modern_posts": 26.0,
+  "p2016_posts": 85.0,
+  "modern_posts": 63.0,
   "p2016_ml_posts": 38.0,
-  "p2016_delving_posts": 0.0,
+  "p2016_delving_posts": 47.0,
   "modern_ml_posts": 26.0,
-  "modern_delving_posts": 0.0,
+  "modern_delving_posts": 37.0,
   "is_engineer": false,
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": true,
-  "global_first_active": "2018-09-06T15:32:44",
-  "global_last_active": "2026-03-12T13:00:15",
+  "global_first_active": "2022-04-01T22:30:08",
+  "global_last_active": "2026-08-11T17:14:24.609000",
   "github_location": "Seattle",
   "github_company": null,
   "github_bio": "Freedom fighter, stoic, software engineer, thinker. I regret to admit that NodeJS is awesome. Study Bitcoin.",
@@ -110,6 +110,7 @@
   "activity_status": "Active",
   "is_top_50": false,
   "github_url": "https://github.com/reardencode",
+  "delving_url": "https://delvingbitcoin.org/u/reardencode",
   "bip_list": [
     {
       "number": 346,
@@ -147,10 +148,10 @@
     "link": "https://gnusha.org/pi/bitcoindev/20180906203244.GQ62902@hank.reardencode.com"
   },
   "last_message": {
-    "source": "mailing_list",
-    "subject": "Re: [bitcoindev] [4/4] New Opcodes for Tapscript v2",
-    "date": "2026-03-12",
-    "link": "https://gnusha.org/pi/bitcoindev/abL_L1IFf1-uZaGX@console"
+    "source": "delving",
+    "subject": "Re: Reducing Bitcoin Full Node Storage Without Consensus Changes",
+    "date": "2026-08-11",
+    "link": "https://delvingbitcoin.org/t/reducing-bitcoin-full-node-storage-without-consensus-changes/2790/2"
   },
   "social_history": {
     "2018": {
@@ -167,32 +168,38 @@
       "taproot": 1
     },
     "2023": {
-      "covenants": 5,
+      "covenants": 19,
       "mining": 1,
-      "script-opcodes": 2,
+      "script-opcodes": 12,
+      "signatures-sighash": 4,
       "other": 4,
-      "taproot": 2
+      "taproot": 6
     },
     "2024": {
-      "bip-process": 1,
-      "bitvm": 1,
-      "covenants": 8,
-      "other": 3,
-      "script-opcodes": 7,
-      "taproot": 5
+      "bip-process": 7,
+      "other": 28,
+      "covenants": 21,
+      "hard-fork-block-size": 6,
+      "mining": 11,
+      "script-opcodes": 13,
+      "signatures-sighash": 5,
+      "soft-fork-activation": 8,
+      "taproot": 18
     },
     "2025": {
       "bip-process": 1,
-      "bitvm": 1,
-      "covenants": 3,
-      "other": 7,
-      "quantum": 1,
-      "script-opcodes": 3,
-      "taproot": 2
+      "other": 37,
+      "covenants": 10,
+      "hard-fork-block-size": 2,
+      "mining": 1,
+      "script-opcodes": 5,
+      "soft-fork-activation": 2,
+      "taproot": 9
     },
     "2026": {
-      "other": 3,
-      "quantum": 1,
+      "bip-process": 1,
+      "other": 9,
+      "covenants": 2,
       "taproot": 1
     }
   }

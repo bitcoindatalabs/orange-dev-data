@@ -1,7 +1,7 @@
 {
   "display_name": "Sergio Demian Lerner",
   "github_login_final": "SergioDemianLerner",
-  "delving_username_final": null,
+  "delving_username_final": "sergiodemianlerner",
   "uuid": "can_sergio_demian_lerner",
   "badges": null,
   "roles": null,
@@ -16,11 +16,11 @@
   "total_additions": 517.0,
   "total_deletions": 55.0,
   "first_core_commit": "2014-10-02T07:47:53+00:00",
-  "last_core_commit": "2014-10-02T13:27:54+00:00",
+  "last_core_commit": "2014-10-02T13:28:46+00:00",
   "first_ecosystem_commit": null,
   "last_ecosystem_commit": null,
   "first_commit": "2014-10-02T07:47:53",
-  "last_commit": "2014-10-02T13:27:54",
+  "last_commit": "2014-10-02T13:28:46",
   "p2016_authored_commits": 0.0,
   "modern_authored_commits": 0.0,
   "co_authored_commits": 0.0,
@@ -45,47 +45,53 @@
   "avg_pr_ack_velocity_days": 14.572341820987655,
   "avg_concept_lead_time_days": 13.623611111111112,
   "review_reciprocity": 6.5,
-  "hybrid_score": 0.2379,
-  "p2016_hybrid_score": 0.2416,
-  "modern_hybrid_score": 0.0919,
-  "impact_score": 13.0,
+  "hybrid_score": 0.3168,
+  "p2016_hybrid_score": 0.2388,
+  "modern_hybrid_score": 0.0892,
+  "impact_score": 17.0,
   "p2016_impact_score": 13.0,
   "modern_impact_score": 5.0,
-  "threads_started": 18.0,
+  "threads_started": 19.0,
   "replies_sent": 73.0,
   "ml_threads": 18.0,
-  "delving_threads": 0.0,
+  "delving_threads": 1.0,
   "ml_responses": 73.0,
   "delving_responses": 0.0,
-  "first_active": "2015-08-06T12:16:56",
-  "last_active": "2026-06-04T22:52:02",
-  "dev_type": "Reviewer",
+  "first_active": null,
+  "last_active": null,
+  "dev_type": "Builder",
   "expertise_domains": [
     "Consensus",
+    "Infrastructure",
     "Mining"
   ],
   "expertise_by_source": {
     "discussion": {
       "Mining": 0.283,
       "Consensus": 0.717
+    },
+    "code": {
+      "Infrastructure": 0.694,
+      "Consensus": 0.306
     }
   },
   "expertise_domain_scores": {
-    "Mining": 0.283,
-    "Consensus": 0.717
+    "Mining": 0.1132,
+    "Infrastructure": 0.4164,
+    "Consensus": 0.4704
   },
-  "p2016_posts": 78.0,
-  "modern_posts": 6.0,
+  "p2016_posts": 79.0,
+  "modern_posts": 7.0,
   "p2016_ml_posts": 78.0,
-  "p2016_delving_posts": 0.0,
+  "p2016_delving_posts": 1.0,
   "modern_ml_posts": 6.0,
-  "modern_delving_posts": 0.0,
-  "is_engineer": false,
+  "modern_delving_posts": 1.0,
+  "is_engineer": true,
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": false,
   "global_first_active": "2012-05-21T12:20:04",
-  "global_last_active": "2026-06-04T22:52:02",
+  "global_last_active": "2025-04-30T03:36:02",
   "github_location": "8CAC20548B2B7B850B0BEA957C7A2BD5DFA9B490",
   "github_company": "IOV Labs",
   "github_bio": "Cryptocurrency Security Maestro.\r\nDesigner of the @rsksmart Bitcoin sidechain.",
@@ -95,12 +101,13 @@
   "activity_status": "Active",
   "is_top_50": false,
   "github_url": "https://github.com/SergioDemianLerner",
+  "delving_url": "https://delvingbitcoin.org/u/sergiodemianlerner",
   "commit_history": {
     "2014": {
-      "Build & CI": 0.5,
-      "Consensus": 1.83,
-      "Tests": 1.83,
-      "Utilities": 1.83
+      "Build & CI": 0.25,
+      "Consensus": 0.92,
+      "Tests": 0.92,
+      "Utilities": 0.92
     }
   },
   "first_message": {
@@ -164,7 +171,7 @@
       "other": 1
     },
     "2025": {
-      "other": 4
+      "other": 6
     },
     "2026": {
       "other": 4

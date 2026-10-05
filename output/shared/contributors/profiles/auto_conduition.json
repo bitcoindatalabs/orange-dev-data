@@ -1,7 +1,7 @@
 {
   "display_name": "conduition",
   "github_login_final": "conduition",
-  "delving_username_final": null,
+  "delving_username_final": "conduition",
   "uuid": "auto_conduition",
   "badges": null,
   "roles": null,
@@ -45,20 +45,20 @@
   "avg_pr_ack_velocity_days": 0.09181712962962962,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": 3.0,
-  "hybrid_score": 0.2449,
-  "p2016_hybrid_score": 0.3505,
+  "hybrid_score": 0.2392,
+  "p2016_hybrid_score": 0.3391,
   "modern_hybrid_score": 0.4381,
-  "impact_score": 14.0,
-  "p2016_impact_score": 19.0,
+  "impact_score": 13.0,
+  "p2016_impact_score": 18.0,
   "modern_impact_score": 23.0,
-  "threads_started": 5.0,
-  "replies_sent": 101.0,
+  "threads_started": 33.0,
+  "replies_sent": 133.0,
   "ml_threads": 5.0,
-  "delving_threads": 0.0,
-  "ml_responses": 101.0,
-  "delving_responses": 0.0,
-  "first_active": "2024-12-16T23:31:27",
-  "last_active": "2026-09-18T21:07:18",
+  "delving_threads": 28.0,
+  "ml_responses": 102.0,
+  "delving_responses": 31.0,
+  "first_active": "2023-11-22T01:40:54.064000",
+  "last_active": null,
   "dev_type": "Participant",
   "expertise_domains": [
     "Cryptography",
@@ -66,26 +66,26 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Consensus": 0.113,
-      "Cryptography": 0.887
+      "Consensus": 0.239,
+      "Cryptography": 0.761
     }
   },
   "expertise_domain_scores": {
-    "Consensus": 0.113,
-    "Cryptography": 0.887
+    "Consensus": 0.239,
+    "Cryptography": 0.761
   },
-  "p2016_posts": 106.0,
-  "modern_posts": 106.0,
-  "p2016_ml_posts": 106.0,
-  "p2016_delving_posts": 0.0,
-  "modern_ml_posts": 106.0,
-  "modern_delving_posts": 0.0,
+  "p2016_posts": 166.0,
+  "modern_posts": 166.0,
+  "p2016_ml_posts": 107.0,
+  "p2016_delving_posts": 59.0,
+  "modern_ml_posts": 107.0,
+  "modern_delving_posts": 59.0,
   "is_engineer": false,
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": false,
   "global_first_active": "2023-10-27T01:02:48",
-  "global_last_active": "2026-09-18T21:07:18",
+  "global_last_active": "2026-08-24T00:46:31",
   "github_location": null,
   "github_company": null,
   "github_bio": "Pseudonymous freelance cypherpunk",
@@ -95,42 +95,50 @@
   "activity_status": "Active",
   "is_top_50": false,
   "github_url": "https://github.com/conduition",
+  "delving_url": "https://delvingbitcoin.org/u/conduition",
   "first_message": {
-    "source": "mailing_list",
-    "subject": "Re: [bitcoindev] Trivial QC signatures with clean upgrade path",
-    "date": "2024-12-16",
-    "link": "https://gnusha.org/pi/bitcoindev/0f6e4dd0-30c2-489a-8f90-a9507dbeb5a7n@googlegroups.com"
+    "source": "delving",
+    "subject": "Off Chain DLC Ticketing Systems",
+    "date": "2023-11-22",
+    "link": "https://delvingbitcoin.org/t/off-chain-dlc-ticketing-systems/214/1"
   },
   "last_message": {
     "source": "mailing_list",
-    "subject": "Re: [bitcoindev] Re: SHRINCS: an efficient hash-based signature\n scheme for Bitcoin (first draft)",
-    "date": "2026-09-18",
-    "link": "https://gnusha.org/pi/bitcoindev/tGemKORoxpaqKlU6SZ9gYoMAj3VVzWB7gDGr49qxd4gq1IACbTdUhJmf7T3gbrUmREluNMVVal12sftAeaRiJIAWKOH_1caL_Fit2gdVouo=@proton.me"
+    "subject": "=?UTF-8?Q?Re=3A_=5Bbitcoindev=5D_DropKick_=E2=9A=BD=EF=B8=8F_=2D_A_minimal_commit=2F?=\n\t=?UTF-8?Q?reveal_PQ_rescue_protocol?=",
+    "date": "2026-10-03",
+    "link": "https://gnusha.org/pi/bitcoindev/MCeBFwbQNl9QpVD5DW7A-tEd3qvg-vnlJ7CrBcZvrCmjtjGleFxGrcQ49oK2rG9vVqGHe4aLhcEuBGseNrj4tym_sl7jWN1JlDc7SKzciTQ=@proton.me"
   },
   "social_history": {
+    "2023": {
+      "other": 6,
+      "mempool-fees": 1
+    },
     "2024": {
-      "other": 4,
-      "privacy": 1,
-      "quantum": 1
+      "other": 5,
+      "privacy": 2,
+      "quantum": 2,
+      "wallet-keys": 1
     },
     "2025": {
       "bitvm": 1,
-      "covenants": 7,
-      "other": 13,
-      "quantum": 29,
+      "other": 18,
+      "mempool-fees": 1,
+      "quantum": 33,
+      "segwit": 1,
       "signatures-sighash": 1,
-      "taproot": 1,
+      "taproot": 4,
       "wallet-keys": 1
     },
     "2026": {
-      "other": 32,
-      "bitvm": 8,
-      "covenants": 2,
-      "privacy": 9,
-      "quantum": 41,
-      "signatures-sighash": 6,
-      "taproot": 10,
-      "wallet-keys": 10
+      "other": 117,
+      "bitvm": 19,
+      "mempool-fees": 21,
+      "privacy": 19,
+      "quantum": 85,
+      "segwit": 20,
+      "signatures-sighash": 22,
+      "taproot": 44,
+      "wallet-keys": 25
     }
   }
 }

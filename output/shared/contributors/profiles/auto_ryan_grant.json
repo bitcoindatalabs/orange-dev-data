@@ -45,9 +45,9 @@
   "avg_pr_ack_velocity_days": null,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": null,
-  "hybrid_score": 0.0416,
-  "p2016_hybrid_score": 0.071,
-  "modern_hybrid_score": 0.021,
+  "hybrid_score": 0.04,
+  "p2016_hybrid_score": 0.0695,
+  "modern_hybrid_score": 0.0212,
   "impact_score": 2.0,
   "p2016_impact_score": 4.0,
   "modern_impact_score": 1.0,
@@ -57,8 +57,8 @@
   "delving_threads": 0.0,
   "ml_responses": 36.0,
   "delving_responses": 0.0,
-  "first_active": "2015-10-07T00:07:48",
-  "last_active": "2023-11-05T15:00:07",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Participant",
   "expertise_domains": [
     "Consensus",
@@ -66,13 +66,13 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Script": 0.286,
-      "Consensus": 0.714
+      "Consensus": 0.714,
+      "Script": 0.286
     }
   },
   "expertise_domain_scores": {
-    "Script": 0.286,
-    "Consensus": 0.714
+    "Consensus": 0.714,
+    "Script": 0.286
   },
   "p2016_posts": 39.0,
   "modern_posts": 2.0,
@@ -84,8 +84,8 @@
   "is_reviewer": false,
   "is_researcher": true,
   "is_bip_author": false,
-  "global_first_active": "2015-10-07T00:07:48",
-  "global_last_active": "2023-11-05T15:00:07",
+  "global_first_active": null,
+  "global_last_active": null,
   "github_location": null,
   "github_company": null,
   "github_bio": null,

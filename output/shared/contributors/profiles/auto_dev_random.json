@@ -1,5 +1,5 @@
 {
-  "display_name": "dev random",
+  "display_name": "Dev Random",
   "github_login_final": "devrandom",
   "delving_username_final": null,
   "uuid": "auto_dev_random",
@@ -45,39 +45,44 @@
   "avg_pr_ack_velocity_days": 7.32900462962963,
   "avg_concept_lead_time_days": 16.281296296296297,
   "review_reciprocity": 6.0,
-  "hybrid_score": 0.1302,
-  "p2016_hybrid_score": 0.0989,
+  "hybrid_score": 0.2818,
+  "p2016_hybrid_score": 0.1497,
   "modern_hybrid_score": 0.033,
-  "impact_score": 8.0,
-  "p2016_impact_score": 6.0,
+  "impact_score": 16.0,
+  "p2016_impact_score": 9.0,
   "modern_impact_score": 2.0,
-  "threads_started": 1.0,
-  "replies_sent": 19.0,
-  "ml_threads": 1.0,
+  "threads_started": 2.0,
+  "replies_sent": 31.0,
+  "ml_threads": 2.0,
   "delving_threads": 0.0,
-  "ml_responses": 19.0,
+  "ml_responses": 31.0,
   "delving_responses": 0.0,
-  "first_active": "2014-01-15T22:29:47",
-  "last_active": "2015-06-16T10:52:45",
-  "dev_type": "Reviewer",
+  "first_active": null,
+  "last_active": null,
+  "dev_type": "Builder",
   "expertise_domains": [
+    "Infrastructure",
     "Wallet"
   ],
   "expertise_by_source": {
     "discussion": {
       "Wallet": 1.0
+    },
+    "code": {
+      "Infrastructure": 1.0
     }
   },
   "expertise_domain_scores": {
-    "Wallet": 1.0
+    "Infrastructure": 0.6,
+    "Wallet": 0.4
   },
-  "p2016_posts": 0.0,
+  "p2016_posts": 13.0,
   "modern_posts": 0.0,
-  "p2016_ml_posts": 0.0,
+  "p2016_ml_posts": 13.0,
   "p2016_delving_posts": 0.0,
   "modern_ml_posts": 0.0,
   "modern_delving_posts": 0.0,
-  "is_engineer": false,
+  "is_engineer": true,
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": false,
@@ -94,7 +99,7 @@
   "github_url": "https://github.com/devrandom",
   "commit_history": {
     "2011": {
-      "Utilities": 16.0
+      "Utilities": 8.0
     }
   },
   "first_message": {
@@ -105,18 +110,17 @@
   },
   "last_message": {
     "source": "mailing_list",
-    "subject": "Re: [Bitcoin-development] The Bitcoin Node Market",
-    "date": "2015-06-16",
-    "link": "https://gnusha.org/pi/bitcoindev/5580464D.6020904@niftybox.net"
+    "subject": "Re: [bitcoin-dev] On a new community process to specify covenants",
+    "date": "2022-09-17",
+    "link": "https://gnusha.org/pi/bitcoindev/CAB0O3SVh6xgaUjG_8UyR_3FyG8mcvh7K6ydBkJBTmZXe+rU6Ew@mail.gmail.com"
   },
   "social_history": {
     "2014": {
       "multisig-threshold": 2,
-      "other": 5,
+      "other": 7,
       "p2p-network": 1,
       "payment-protocol": 1,
       "script-opcodes": 1,
-      "signatures-sighash": 2,
       "wallet-keys": 3
     },
     "2015": {
@@ -126,6 +130,26 @@
       "payment-protocol": 3,
       "script-opcodes": 2,
       "wallet-keys": 2
+    },
+    "2017": {
+      "other": 4,
+      "mining": 1
+    },
+    "2018": {
+      "multisig-threshold": 1,
+      "other": 1
+    },
+    "2019": {
+      "other": 1
+    },
+    "2021": {
+      "mining": 1,
+      "other": 2
+    },
+    "2022": {
+      "covenants": 2,
+      "other": 1,
+      "p2p-network": 1
     }
   }
 }

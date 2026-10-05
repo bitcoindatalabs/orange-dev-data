@@ -1,7 +1,7 @@
 {
   "display_name": "Eric Voskuil",
   "github_login_final": "evoskuil",
-  "delving_username_final": null,
+  "delving_username_final": "evoskuil",
   "uuid": "can_eric_voskuil",
   "badges": null,
   "roles": null,
@@ -45,42 +45,47 @@
   "avg_pr_ack_velocity_days": null,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": 1.9166666666666667,
-  "hybrid_score": 0.4357,
+  "hybrid_score": 0.4935,
   "p2016_hybrid_score": 0.4615,
-  "modern_hybrid_score": 0.4143,
-  "impact_score": 23.0,
+  "modern_hybrid_score": 0.4102,
+  "impact_score": 26.0,
   "p2016_impact_score": 24.0,
   "modern_impact_score": 22.0,
-  "threads_started": 10.0,
-  "replies_sent": 357.0,
+  "threads_started": 18.0,
+  "replies_sent": 388.0,
   "ml_threads": 10.0,
-  "delving_threads": 0.0,
+  "delving_threads": 8.0,
   "ml_responses": 357.0,
-  "delving_responses": 0.0,
-  "first_active": "2015-02-02T12:05:57",
-  "last_active": "2026-05-24T19:45:20",
-  "dev_type": "Reviewer",
+  "delving_responses": 31.0,
+  "first_active": null,
+  "last_active": null,
+  "dev_type": "Builder",
   "expertise_domains": [
+    "Infrastructure",
     "Mining",
     "Network"
   ],
   "expertise_by_source": {
     "discussion": {
-      "Mining": 0.545,
-      "Network": 0.455
+      "Mining": 0.542,
+      "Network": 0.458
+    },
+    "code": {
+      "Infrastructure": 1.0
     }
   },
   "expertise_domain_scores": {
-    "Mining": 0.545,
-    "Network": 0.455
+    "Mining": 0.2168,
+    "Infrastructure": 0.6,
+    "Network": 0.1832
   },
-  "p2016_posts": 299.0,
-  "modern_posts": 48.0,
+  "p2016_posts": 338.0,
+  "modern_posts": 87.0,
   "p2016_ml_posts": 299.0,
-  "p2016_delving_posts": 0.0,
+  "p2016_delving_posts": 39.0,
   "modern_ml_posts": 48.0,
-  "modern_delving_posts": 0.0,
-  "is_engineer": false,
+  "modern_delving_posts": 39.0,
+  "is_engineer": true,
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": false,
@@ -95,6 +100,7 @@
   "activity_status": "Rising",
   "is_top_50": false,
   "github_url": "https://github.com/evoskuil",
+  "delving_url": "https://delvingbitcoin.org/u/evoskuil",
   "commit_history": {
     "2014": {
       "Utilities": 1.0
@@ -117,24 +123,27 @@
   },
   "social_history": {
     "2015": {
-      "other": 49,
+      "other": 71,
       "mining": 3,
-      "payment-protocol": 24
+      "script-opcodes": 1,
+      "utxo-sync": 1
     },
     "2016": {
       "consensus-cleanup": 13,
-      "other": 18,
+      "other": 17,
       "mining": 12,
       "p2p-network": 19,
       "soft-fork-activation": 1,
-      "taproot": 1
+      "taproot": 1,
+      "utxo-sync": 1
     },
     "2017": {
-      "other": 37,
+      "other": 35,
       "mining": 16,
       "p2p-network": 14,
       "soft-fork-activation": 8,
-      "taproot": 1
+      "taproot": 1,
+      "utxo-sync": 2
     },
     "2018": {
       "other": 13,
@@ -143,8 +152,7 @@
       "soft-fork-activation": 2
     },
     "2019": {
-      "covenants": 18,
-      "other": 7,
+      "other": 25,
       "mining": 5,
       "p2p-network": 4,
       "soft-fork-activation": 1,
@@ -156,36 +164,44 @@
       "p2p-network": 1
     },
     "2021": {
-      "other": 17,
+      "other": 16,
       "mining": 11,
       "soft-fork-activation": 19,
-      "taproot": 12
+      "taproot": 12,
+      "utxo-sync": 1
     },
     "2022": {
-      "covenants": 5,
-      "other": 32,
+      "other": 34,
       "mining": 1,
       "p2p-network": 3,
+      "script-opcodes": 3,
       "soft-fork-activation": 3
     },
     "2023": {
       "other": 6
     },
     "2024": {
-      "consensus-cleanup": 12,
-      "other": 4
+      "other": 35,
+      "consensus-cleanup": 27,
+      "mining": 16,
+      "p2p-network": 23,
+      "script-opcodes": 31,
+      "utxo-sync": 31
     },
     "2025": {
       "consensus-cleanup": 10,
-      "other": 9,
+      "other": 4,
       "mining": 2,
-      "soft-fork-activation": 1
+      "script-opcodes": 1,
+      "soft-fork-activation": 1,
+      "utxo-sync": 4
     },
     "2026": {
       "consensus-cleanup": 1,
       "mining": 2,
-      "other": 16,
-      "p2p-network": 2
+      "other": 4,
+      "p2p-network": 2,
+      "utxo-sync": 12
     }
   }
 }

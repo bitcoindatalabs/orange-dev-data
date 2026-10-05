@@ -57,11 +57,11 @@
   "avg_pr_ack_velocity_days": null,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": 4.125,
-  "hybrid_score": 0.9236,
-  "p2016_hybrid_score": 0.152,
+  "hybrid_score": 0.9631,
+  "p2016_hybrid_score": 0.1913,
   "modern_hybrid_score": 0.058,
-  "impact_score": 43.0,
-  "p2016_impact_score": 9.0,
+  "impact_score": 44.0,
+  "p2016_impact_score": 11.0,
   "modern_impact_score": 3.0,
   "threads_started": 2.0,
   "replies_sent": 74.0,
@@ -69,12 +69,12 @@
   "delving_threads": 0.0,
   "ml_responses": 74.0,
   "delving_responses": 0.0,
-  "first_active": "2014-04-25T16:58:07",
-  "last_active": "2017-01-06T01:07:34",
-  "dev_type": "Reviewer",
+  "first_active": null,
+  "last_active": null,
+  "dev_type": "Protocol Designer",
   "expertise_domains": [
-    "Wallet",
     "Infrastructure",
+    "Wallet",
     "Network"
   ],
   "expertise_by_source": {
@@ -82,17 +82,20 @@
       "Consensus": 0.6,
       "Wallet": 0.4
     },
+    "code": {
+      "Infrastructure": 1.0
+    },
     "bips": {
       "Infrastructure": 0.333,
-      "Wallet": 0.333,
-      "Network": 0.333
+      "Network": 0.333,
+      "Wallet": 0.333
     }
   },
   "expertise_domain_scores": {
-    "Infrastructure": 0.238,
-    "Consensus": 0.1716,
-    "Wallet": 0.3524,
-    "Network": 0.238
+    "Infrastructure": 0.4667,
+    "Wallet": 0.2466,
+    "Consensus": 0.1201,
+    "Network": 0.1666
   },
   "p2016_posts": 12.0,
   "modern_posts": 0.0,
@@ -100,7 +103,7 @@
   "p2016_delving_posts": 0.0,
   "modern_ml_posts": 0.0,
   "modern_delving_posts": 0.0,
-  "is_engineer": false,
+  "is_engineer": true,
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": true,

@@ -1,7 +1,7 @@
 {
   "display_name": "matt morehouse",
   "github_login_final": null,
-  "delving_username_final": null,
+  "delving_username_final": "morehouse",
   "uuid": "auto_matt_morehouse",
   "badges": null,
   "roles": null,
@@ -45,47 +45,47 @@
   "avg_pr_ack_velocity_days": null,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": null,
-  "hybrid_score": 0.0114,
-  "p2016_hybrid_score": 0.0192,
-  "modern_hybrid_score": 0.0699,
+  "hybrid_score": 0.0112,
+  "p2016_hybrid_score": 0.0188,
+  "modern_hybrid_score": 0.0655,
   "impact_score": 1.0,
   "p2016_impact_score": 1.0,
   "modern_impact_score": 4.0,
-  "threads_started": 0.0,
-  "replies_sent": 5.0,
+  "threads_started": 22.0,
+  "replies_sent": 24.0,
   "ml_threads": 0.0,
-  "delving_threads": 0.0,
+  "delving_threads": 22.0,
   "ml_responses": 5.0,
-  "delving_responses": 0.0,
-  "first_active": "2023-10-16T17:10:06",
-  "last_active": "2023-11-02T12:07:39",
+  "delving_responses": 19.0,
+  "first_active": null,
+  "last_active": "2026-09-24T22:42:17.407000",
   "dev_type": "Participant",
   "expertise_domains": [
-    "Mempool",
-    "L2"
+    "L2",
+    "Mempool"
   ],
   "expertise_by_source": {
     "discussion": {
-      "L2": 0.436,
-      "Mempool": 0.564
+      "Mempool": 0.448,
+      "L2": 0.552
     }
   },
   "expertise_domain_scores": {
-    "L2": 0.436,
-    "Mempool": 0.564
+    "Mempool": 0.448,
+    "L2": 0.552
   },
-  "p2016_posts": 5.0,
-  "modern_posts": 5.0,
+  "p2016_posts": 46.0,
+  "modern_posts": 46.0,
   "p2016_ml_posts": 5.0,
-  "p2016_delving_posts": 0.0,
+  "p2016_delving_posts": 41.0,
   "modern_ml_posts": 5.0,
-  "modern_delving_posts": 0.0,
+  "modern_delving_posts": 41.0,
   "is_engineer": false,
   "is_reviewer": false,
   "is_researcher": true,
   "is_bip_author": false,
-  "global_first_active": "2023-10-16T17:10:06",
-  "global_last_active": "2023-11-02T12:07:39",
+  "global_first_active": null,
+  "global_last_active": "2026-09-24T22:42:17.407000",
   "github_location": null,
   "github_company": null,
   "github_bio": null,
@@ -94,6 +94,7 @@
   "github_followers": null,
   "activity_status": "Active",
   "is_top_50": false,
+  "delving_url": "https://delvingbitcoin.org/u/morehouse",
   "first_message": {
     "source": "mailing_list",
     "subject": "Re: [bitcoin-dev] Full Disclosure: CVE-2023-40231 / CVE-2023-40232\n / CVE-2023-40233 / CVE-2023-40234 \"All your mempool are belong to us\"",
@@ -101,18 +102,39 @@
     "link": "https://gnusha.org/pi/bitcoindev/CAGyamEUHHBGVBys7kQCNZ95Zd6jqiq+VJW0gTgV_gGeGBFBJoA@mail.gmail.com"
   },
   "last_message": {
-    "source": "mailing_list",
-    "subject": "Re: [bitcoin-dev] OP_Expire and Coinbase-Like Behavior: Making\n HTLCs Safer by Letting Transactions Expire Safely",
-    "date": "2023-11-02",
-    "link": "https://gnusha.org/pi/bitcoindev/CAGyamEXYJN0qGKzWPsN8-T1URqmeTbUH7JJjwuFKMHByCwEG3A@mail.gmail.com"
+    "source": "delving",
+    "subject": "Disclosure: DoS vulnerabilities fixed in Eclair v0.14.0",
+    "date": "2026-09-24",
+    "link": "https://delvingbitcoin.org/t/disclosure-dos-vulnerabilities-fixed-in-eclair-v0-14-0/2914/1"
   },
   "social_history": {
     "2023": {
-      "covenants": 1,
-      "lightning": 3,
-      "mempool-fees": 4,
-      "script-opcodes": 1,
-      "security": 4
+      "other": 2,
+      "lightning": 7,
+      "mempool-fees": 8,
+      "security": 8
+    },
+    "2024": {
+      "lightning": 11,
+      "mempool-fees": 9,
+      "payment-protocol": 2,
+      "security": 2,
+      "taproot": 3
+    },
+    "2025": {
+      "lightning": 16,
+      "mempool-fees": 8,
+      "mining": 2,
+      "payment-protocol": 3,
+      "security": 14,
+      "other": 6
+    },
+    "2026": {
+      "ecash": 2,
+      "lightning": 2,
+      "privacy": 2,
+      "security": 1,
+      "taproot": 2
     }
   }
 }

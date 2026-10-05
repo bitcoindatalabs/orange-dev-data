@@ -1,5 +1,5 @@
 {
-  "display_name": "Luke Kenneth Casson Leighton",
+  "display_name": "luke kenneth casson leighton",
   "github_login_final": null,
   "delving_username_final": null,
   "uuid": "auto_luke_kenneth_casson_leighton",
@@ -45,9 +45,9 @@
   "avg_pr_ack_velocity_days": null,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": null,
-  "hybrid_score": 0.0197,
-  "p2016_hybrid_score": 0.032,
-  "modern_hybrid_score": 0.1381,
+  "hybrid_score": 0.0196,
+  "p2016_hybrid_score": 0.0318,
+  "modern_hybrid_score": 0.1378,
   "impact_score": 1.0,
   "p2016_impact_score": 2.0,
   "modern_impact_score": 8.0,
@@ -57,8 +57,8 @@
   "delving_threads": 0.0,
   "ml_responses": 11.0,
   "delving_responses": 0.0,
-  "first_active": "2021-01-25T12:00:35",
-  "last_active": "2023-11-08T00:47:15",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Participant",
   "expertise_domains": [
     "Mempool",
@@ -66,13 +66,13 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Mempool": 0.5,
-      "Consensus": 0.5
+      "Consensus": 0.5,
+      "Mempool": 0.5
     }
   },
   "expertise_domain_scores": {
-    "Mempool": 0.5,
-    "Consensus": 0.5
+    "Consensus": 0.5,
+    "Mempool": 0.5
   },
   "p2016_posts": 12.0,
   "modern_posts": 3.0,
@@ -84,8 +84,8 @@
   "is_reviewer": false,
   "is_researcher": true,
   "is_bip_author": false,
-  "global_first_active": "2021-01-25T12:00:35",
-  "global_last_active": "2023-11-08T00:47:15",
+  "global_first_active": null,
+  "global_last_active": null,
   "github_location": null,
   "github_company": null,
   "github_bio": null,

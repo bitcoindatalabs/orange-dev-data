@@ -2,14 +2,31 @@
   "start_date": "2026-09-21",
   "end_date": "2026-09-27",
   "stats": {
-    "total_merged": 38,
-    "total_reviews": 617,
-    "total_threads": 6,
+    "total_merged": 35,
+    "subsystem_merged": {
+      "bitcoin-core/secp256k1": 3
+    },
+    "total_reviews": 510,
+    "total_threads": 21,
     "new_contributors": 5
   },
+  "previous_stats": {
+    "total_merged": 34,
+    "subsystem_merged": {},
+    "total_reviews": 517,
+    "total_threads": 18,
+    "new_contributors": 4
+  },
+  "social_hook": {
+    "headline": "Protocol velocity across privacy & wallet tooling:",
+    "bullets": [
+      "Silent Payments (BIP 352) advances",
+      "New maxfeerate safety guard merged"
+    ]
+  },
   "tldr": [
-    "The wallet module received significant enhancements, most notably the integration of Silent Payments (BIP352) for improved transaction privacy, alongside new options like `maxfeerate` for finer control over transaction construction.",
-    "Critical discussions around Post-Quantum Cryptography (PQC) for BIP324 indicate a proactive focus on Bitcoin's long-term security, while internal infrastructure improvements like the new block template manager enhance core stability and extensibility."
+    "L1 Privacy Protocol Integration**: The implementation of Silent Payments (BIP352) marks a significant step in integrating new privacy-enhancing protocols directly into the wallet, alongside continued development and discussion on private broadcast and more advanced L1 privacy schemes.",
+    "Core Infrastructure Refactoring and Reliability**: Significant internal architectural work, notably the introduction of a block template manager for mining and ongoing modularization efforts like exposing transaction version in the kernel, demonstrates a commitment to improving core reliability and preparing for future protocol evolution."
   ],
   "meeting": {
     "date": "2026-09-24",
@@ -52,6 +69,7 @@
         "prs": [
           {
             "number": 35675,
+            "repo": "bitcoin/bitcoin",
             "title": "mining: add block template manager",
             "author": {
               "username": "ismaelsadeeq",
@@ -59,11 +77,12 @@
             },
             "summary": "This PR introduces a new block template manager, a core component that streamlines the process of generating and managing block templates for miners. This improvement can enhance mining pool efficiency and robustness.",
             "technical_summary": "This PR integrates a new `BlockTemplateManager` class into the mining subsystem. Its primary role is to abstract and centralize the logic for creating, updating, and caching block templates, decoupling it from direct RPC calls. This manager will likely optimize template generation by reusing common data structures and efficiently incorporating new transactions or block height changes, providing a more robust and performant foundation for mining operations and future extensions.",
-            "importance": 53,
-            "review_count": 53
+            "importance": 48,
+            "review_count": 48
           },
           {
             "number": 36283,
+            "repo": "bitcoin/bitcoin",
             "title": "kernel: expose transaction version",
             "author": {
               "username": "nervana21",
@@ -71,11 +90,12 @@
             },
             "summary": "This PR exposes the transaction version field directly within the Bitcoin Kernel, making this fundamental data point more readily accessible to internal components. This facilitates cleaner code and future development by providing direct access to transaction versioning.",
             "technical_summary": "The change modifies the core transaction data structures or interfaces within the Bitcoin Kernel, likely by adding a new public member or a getter method (e.g., `GetVersion()`) to `CTransaction` or `CTransactionRef`. This allows kernel-level components to directly query the transaction's version without needing to access the raw serialized data or rely on higher-level parsing, promoting better encapsulation and modularity within the kernel architecture.",
-            "importance": 11,
-            "review_count": 11
+            "importance": 10,
+            "review_count": 10
           },
           {
             "number": 36278,
+            "repo": "bitcoin/bitcoin",
             "title": "Update minisketch subtree to latest master",
             "author": {
               "username": "fanquake",
@@ -83,8 +103,8 @@
             },
             "summary": "This PR updates the `minisketch` library to its latest version, bringing in improvements and bug fixes from the upstream project. This ensures Bitcoin Core benefits from the most recent advancements in compact set reconciliation, which is crucial for features like AssumeUTXO.",
             "technical_summary": "The PR involves pulling the latest commits from the upstream `minisketch` repository into Bitcoin Core's vendored subtree. This update incorporates any performance enhancements, bug fixes, or new features developed in `minisketch`, which is utilized for efficient set reconciliation, particularly in the context of the AssumeUTXO project for faster initial block download.",
-            "importance": 2,
-            "review_count": 2
+            "importance": 1,
+            "review_count": 1
           }
         ]
       },
@@ -93,6 +113,7 @@
         "prs": [
           {
             "number": 35923,
+            "repo": "bitcoin/bitcoin",
             "title": "mempool: count unbroadcast txids in memory usage",
             "author": {
               "username": "l0rinc",
@@ -100,8 +121,8 @@
             },
             "summary": "This PR improves the accuracy of mempool memory usage reporting by including the memory consumed by transaction IDs that have not yet been broadcast. This provides a more complete picture of the mempool's resource consumption.",
             "technical_summary": "The mempool's internal data structures track transaction IDs for various purposes, including those awaiting broadcast in `m_unbroadcast_txids`. This PR modifies the memory accounting mechanisms within the `CTxMemPool` class to explicitly sum the memory footprint of these 'unbroadcast' transaction IDs. This involves iterating over the relevant data structures and adding their estimated size to the total reported mempool memory usage, providing a more precise metric for resource management.",
-            "importance": 8,
-            "review_count": 8
+            "importance": 7,
+            "review_count": 7
           }
         ]
       },
@@ -110,6 +131,7 @@
         "prs": [
           {
             "number": 35301,
+            "repo": "bitcoin/bitcoin",
             "title": "Silent Payments: Implement bip352 (take 2)",
             "author": {
               "username": "Eunovo",
@@ -117,11 +139,12 @@
             },
             "summary": "This PR advances the implementation of BIP352, the specification for Silent Payments, within Bitcoin Core. This is a crucial step towards integrating this privacy-enhancing technology, allowing users to leverage its benefits.",
             "technical_summary": "This PR focuses on the core cryptographic and address derivation logic defined in BIP352, which underpins Silent Payments. It likely involves implementing the necessary key derivation functions, shared secret computations, and output script generation rules as specified by BIP352, ensuring compliance with the standard. This 'take 2' suggests refinements or more complete coverage of the BIP's requirements, laying the groundwork for both sending and receiving Silent Payments.",
-            "importance": 55,
-            "review_count": 55
+            "importance": 51,
+            "review_count": 51
           },
           {
             "number": 35696,
+            "repo": "bitcoin/bitcoin",
             "title": "i2p: update leaseset encryption types",
             "author": {
               "username": "jpk68",
@@ -129,11 +152,12 @@
             },
             "summary": "This PR updates the supported leaseset encryption types for I2P connections, enhancing the security and compatibility of Bitcoin Core's I2P networking. This ensures that I2P communication remains robust and aligned with the latest I2P network standards.",
             "technical_summary": "I2P uses 'leasesets' to describe the routing information and capabilities of a destination, including supported encryption algorithms. This change involves updating the internal I2P client library or Bitcoin Core's I2P integration code to recognize and utilize newer or more secure encryption types for leasesets. This might involve modifying constants, enum values, or parsing logic related to I2P's `LeaseSet2` specification, ensuring that Bitcoin Core can establish and maintain secure, private connections over the I2P network.",
-            "importance": 25,
-            "review_count": 25
+            "importance": 24,
+            "review_count": 24
           },
           {
             "number": 36312,
+            "repo": "bitcoin/bitcoin",
             "title": "net: don't discourage private broadcast peers",
             "author": {
               "username": "andrewtoth",
@@ -146,6 +170,7 @@
           },
           {
             "number": 36309,
+            "repo": "bitcoin/bitcoin",
             "title": "private broadcast: clarify claims, mark as experimental",
             "author": {
               "username": "instagibbs",
@@ -153,8 +178,8 @@
             },
             "summary": "This PR clarifies the claims and explicitly marks the 'private broadcast' feature as experimental. This helps users understand the current development status and potential limitations of this new transaction relay mechanism.",
             "technical_summary": "The changes involve updating internal documentation, comments, and potentially configuration flags or help text related to the 'private broadcast' feature. It ensures that the feature's experimental nature and any associated caveats are clearly communicated to developers and users, reflecting its ongoing development and potential for future changes or removal. This is primarily a documentation and feature status management update for a network-level capability.",
-            "importance": 17,
-            "review_count": 17
+            "importance": 16,
+            "review_count": 16
           }
         ]
       },
@@ -163,6 +188,7 @@
         "prs": [
           {
             "number": 29278,
+            "repo": "bitcoin/bitcoin",
             "title": "Wallet:  Add `maxfeerate` wallet startup option",
             "author": {
               "username": "ismaelsadeeq",
@@ -170,11 +196,12 @@
             },
             "summary": "This PR introduces the `maxfeerate` wallet startup configuration option to Bitcoin Core. This acts as a safety limit to prevent the wallet from accidentally creating and signing transactions with excessively high fee rates.",
             "technical_summary": "The implementation adds the `-maxfeerate` startup parameter, mapping it to a configurable limit in the wallet settings. During the transaction creation workflow in `CWallet::CreateTransaction`, the computed transaction fee rate is validated against this maximum threshold. If the fee rate exceeds the configured `maxfeerate`, transaction creation fails safely, preventing potential coin-loss due to extreme fee overpayment.",
-            "importance": 79,
-            "review_count": 79
+            "importance": 71,
+            "review_count": 71
           },
           {
             "number": 27052,
+            "repo": "bitcoin/bitcoin",
             "title": "test: rpc: add last block announcement time to getpeerinfo result",
             "author": {
               "username": "LarryRuane",
@@ -182,11 +209,12 @@
             },
             "summary": "This PR enhances the `getpeerinfo` RPC by adding the last block announcement time for each peer. This provides users with more detailed information about their connected peers' block relay activity, aiding in network monitoring and debugging.",
             "technical_summary": "The PR modifies the `getpeerinfo` RPC handler to retrieve and include the `nLastBlockTime` (or a similar timestamp) from each connected peer's `CNode` object in the RPC response. This involves accessing peer-specific state within the networking layer and serializing this timestamp into the JSON output of the `getpeerinfo` call. A corresponding test is added to verify the presence and correctness of this new field in the RPC result.",
-            "importance": 44,
-            "review_count": 44
+            "importance": 41,
+            "review_count": 41
           },
           {
             "number": 35813,
+            "repo": "bitcoin/bitcoin",
             "title": "wallet, rpc: Add listrawtransactions RPC",
             "author": {
               "username": "pablomartin4btc",
@@ -194,23 +222,25 @@
             },
             "summary": "This new feature introduces a powerful RPC command, `listrawtransactions`, enabling users and developers to retrieve detailed, low-level transaction data directly from their wallet. This provides greater transparency and flexibility for advanced wallet management and analysis.",
             "technical_summary": "The `listrawtransactions` RPC iterates through the wallet's stored transactions, retrieving and exposing their raw transaction data (hex) along with associated metadata. The implementation likely includes optional parameters for filtering by address, block hash, or pagination to manage the output. This command offers more granular access to raw transaction bytes and details that were previously less accessible via other RPCs, facilitating advanced tooling and debugging for wallet users.",
-            "importance": 37,
-            "review_count": 37
+            "importance": 34,
+            "review_count": 34
           },
           {
             "number": 35440,
+            "repo": "bitcoin/bitcoin",
             "title": "wallet: check descriptor cache xpub length before decoding",
             "author": {
               "username": "alhudz",
-              "uuid": "auto_alhudz"
+              "uuid": "auto_alhuda_khan"
             },
             "summary": "This PR enhances wallet descriptor cache handling by validating the length of extended public keys (xpubs) before attempting to decode them. This prevents potential crashes or errors from malformed or truncated data, improving wallet robustness.",
             "technical_summary": "The `DescriptorCache` could previously attempt to decode malformed or truncated extended public keys without prior length validation, potentially leading to errors or crashes during deserialization. This commit adds a check for `xpub_str.size()` before invoking `CBitcoinExtPubKey::Decode()`. By ensuring the input string is of an expected minimum length, the wallet becomes more resilient against invalid data in its descriptor cache.",
-            "importance": 31,
-            "review_count": 31
+            "importance": 28,
+            "review_count": 28
           },
           {
             "number": 35752,
+            "repo": "bitcoin/bitcoin",
             "title": "wallet: make encryption state updates atomic",
             "author": {
               "username": "l0rinc",
@@ -218,11 +248,12 @@
             },
             "summary": "This PR ensures that updates to the wallet's encryption state are atomic operations, preventing data corruption or inconsistent states during unexpected shutdowns. This significantly enhances the robustness and security of encrypted wallets.",
             "technical_summary": "The wallet's encryption state management is modified to guarantee atomicity for state transitions (e.g., encrypting, decrypting, changing passphrase). This typically involves writing updates to a temporary file or using database transactions, and only committing the change once all operations are successful. This ensures that the wallet's encryption status is always in a valid, consistent state even if the application crashes mid-update, protecting against data integrity issues related to encryption. The change improves resilience against crashes.",
-            "importance": 23,
-            "review_count": 23
+            "importance": 19,
+            "review_count": 19
           },
           {
             "number": 34371,
+            "repo": "bitcoin/bitcoin",
             "title": "wallet: allow importprunedfunds for spending transactions",
             "author": {
               "username": "8144225309",
@@ -230,11 +261,12 @@
             },
             "summary": "This PR enhances the `importprunedfunds` RPC to support importing spending transactions. This allows users to recover and track funds more flexibly, even for transactions that have already been spent and confirmed.",
             "technical_summary": "It modifies the `importprunedfunds` RPC handler to correctly process and import transactions where the imported outputs are already spent within the transaction itself or by subsequent transactions in the chain. This involves ensuring the wallet can properly reconstruct the full transaction history and state for such scenarios, improving recovery capabilities.",
-            "importance": 14,
-            "review_count": 14
+            "importance": 13,
+            "review_count": 13
           },
           {
             "number": 36322,
+            "repo": "bitcoin/bitcoin",
             "title": "init: fee estimates can lag behind the chain after restart",
             "author": {
               "username": "l0rinc",
@@ -242,11 +274,12 @@
             },
             "summary": "This PR fixes a bug where fee estimates could become outdated and lag behind the actual blockchain state immediately after a node restart. This ensures that users receive accurate and timely fee recommendations, improving the reliability of transaction confirmations.",
             "technical_summary": "Upon restart, the fee estimation logic might not immediately have enough recent block data or might incorrectly re-initialize its state, leading to stale estimates. This fix likely involves ensuring that the fee estimator correctly re-syncs its internal data structures with the current blockchain tip and recent block history upon startup. This could involve re-processing a sufficient number of recent blocks to rebuild a robust fee estimation model, or ensuring that cached data is properly invalidated and re-populated, preventing the estimator from relying on old or insufficient data.",
-            "importance": 12,
-            "review_count": 12
+            "importance": 11,
+            "review_count": 11
           },
           {
             "number": 35948,
+            "repo": "bitcoin/bitcoin",
             "title": "init: correct first-run disk space estimate",
             "author": {
               "username": "l0rinc",
@@ -254,11 +287,12 @@
             },
             "summary": "This PR corrects the estimated disk space required for Bitcoin Core on its first run. This provides users with more accurate information upfront, improving the initial setup experience and preventing potential confusion.",
             "technical_summary": "During the initial synchronization process, Bitcoin Core provides an estimate of the disk space needed to store the blockchain. This PR addresses an inaccuracy in that calculation, likely due to outdated assumptions about block sizes, UTXO set growth, or database overhead. The fix involves revising the constants or algorithms used in the `init` module to compute this estimate, ensuring it more closely reflects current blockchain data characteristics and anticipated future growth, thus offering a more reliable user prompt.",
-            "importance": 11,
-            "review_count": 11
+            "importance": 10,
+            "review_count": 10
           },
           {
             "number": 36261,
+            "repo": "bitcoin/bitcoin",
             "title": "test: cover PSBT unknown field merging",
             "author": {
               "username": "Bicaru20",
@@ -266,11 +300,12 @@
             },
             "summary": "This PR adds new tests to ensure that Partially Signed Bitcoin Transactions (PSBTs) correctly handle and merge unknown fields. This improves the robustness and forward compatibility of PSBTs, allowing for future extensions without breaking existing implementations.",
             "technical_summary": "This PR introduces specific test cases within the PSBT test suite to verify the behavior of `CMergePSBT` when encountering unknown fields in different PSBT parts (e.g., global, input, output). It ensures that unknown fields are preserved and correctly propagated during the merging process, adhering to the PSBT specification for extensibility and future-proofing.",
-            "importance": 9,
-            "review_count": 9
+            "importance": 8,
+            "review_count": 8
           },
           {
             "number": 35984,
+            "repo": "bitcoin/bitcoin",
             "title": "sign: skip signing SIGHASH_SINGLE inputs with no corresponding output",
             "author": {
               "username": "furszy",
@@ -278,11 +313,12 @@
             },
             "summary": "This PR improves transaction signing logic by skipping inputs that use `SIGHASH_SINGLE` but lack a corresponding output. This prevents the creation of invalid transactions and enhances the reliability of the wallet's signing process.",
             "technical_summary": "The `SIGHASH_SINGLE` flag commits to only the input being signed and the output at the same index. If a transaction input specifies `SIGHASH_SINGLE` but there is no output at the corresponding index, the resulting signature is invalid. This change modifies the signing algorithm within the wallet to detect this specific condition before attempting to sign. By checking `tx.vout.size() <= input_index` for `SIGHASH_SINGLE` inputs, the signing process can proactively avoid generating invalid signatures, improving robustness and user experience.",
-            "importance": 7,
-            "review_count": 7
+            "importance": 6,
+            "review_count": 6
           },
           {
             "number": 36284,
+            "repo": "bitcoin/bitcoin",
             "title": "wallet: don't double discard output groups with avoidpartialspends",
             "author": {
               "username": "fjahr",
@@ -290,8 +326,8 @@
             },
             "summary": "This PR fixes a bug in the wallet's coin selection logic that could cause certain UTXO groups to be discarded twice when using the `avoidpartialspends` option. This ensures more efficient and correct coin selection, improving the reliability of transaction creation.",
             "technical_summary": "The bug occurred within the `SelectCoins` function when `avoidpartialspends` was enabled, leading to an output group being added to the `discarded_groups` list multiple times. This PR modifies the coin selection algorithm to ensure that an output group is only added to the `discarded_groups` once, preventing redundant processing and potential inefficiencies or incorrect behavior in subsequent coin selection iterations, thus optimizing UTXO management.",
-            "importance": 7,
-            "review_count": 7
+            "importance": 6,
+            "review_count": 6
           }
         ]
       },
@@ -300,6 +336,7 @@
         "prs": [
           {
             "number": 34717,
+            "repo": "bitcoin/bitcoin",
             "title": "p2p: remove m_getaddr_sent",
             "author": {
               "username": "naiyoma",
@@ -307,11 +344,12 @@
             },
             "summary": "This PR streamlines Bitcoin Core's peer discovery logic by removing an unnecessary state variable. It simplifies the P2P code without impacting network functionality or stability.",
             "technical_summary": "The `m_getaddr_sent` boolean member was removed from `CNodeState`. This flag, intended to track if a GETADDR message had been sent to a peer, became redundant after the introduction of `fSentGetAddr`, which serves the same purpose more robustly. Removing it reduces state complexity within the P2P connection management and contributes to cleaner code.",
-            "importance": 40,
-            "review_count": 40
+            "importance": 39,
+            "review_count": 39
           },
           {
             "number": 31888,
+            "repo": "bitcoin/bitcoin",
             "title": "contrib: Support re-writing linearize-data dumps",
             "author": {
               "username": "midnightmagic",
@@ -319,11 +357,12 @@
             },
             "summary": "This PR enhances the `linearize-data` tool in `contrib`, allowing it to modify existing block chain data dumps. This is useful for development and testing scenarios where custom block data manipulation is needed.",
             "technical_summary": "The `linearize-data` utility, which outputs a single linear blockchain file, is extended with functionality to read an existing `linearize.dat` file and apply re-writing or filtering operations. This enables developers to easily create modified blockchain datasets for specific test cases without re-downloading or re-processing the entire chain from raw blocks.",
-            "importance": 19,
-            "review_count": 19
+            "importance": 17,
+            "review_count": 17
           },
           {
             "number": 35619,
+            "repo": "bitcoin/bitcoin",
             "title": "test:  ExtendedPrivateKey follow-ups",
             "author": {
               "username": "rkrux",
@@ -331,23 +370,12 @@
             },
             "summary": "This PR adds further tests related to `ExtendedPrivateKey` functionality. It helps ensure the robustness and correctness of key management within Bitcoin Core.",
             "technical_summary": "This PR introduces additional test cases for the `ExtendedPrivateKey` class, likely covering edge cases or specific behaviors not previously tested. It aims to improve the test coverage and reliability of hierarchical deterministic key derivation and management, ensuring the integrity of private key operations.",
-            "importance": 16,
-            "review_count": 16
-          },
-          {
-            "number": 36316,
-            "title": "ci: use POSIX threads for Nix Windows builds",
-            "author": {
-              "username": "willcl-ark",
-              "uuid": "auto_will_clark"
-            },
-            "summary": "This PR updates the Continuous Integration (CI) configuration for Bitcoin Core to use POSIX threads when building on Windows using Nix. This improves the reliability and consistency of Windows builds within the CI system.",
-            "technical_summary": "The change involves modifying the Nix build configuration for Windows targets. Specifically, it configures the build system to link against and utilize POSIX-compliant threading libraries (e.g., pthreads-w32) instead of native Windows threading APIs. This ensures a more consistent threading model across different build environments and resolves potential compatibility issues or build failures specific to the Nix-on-Windows CI setup.",
-            "importance": 13,
-            "review_count": 13
+            "importance": 15,
+            "review_count": 15
           },
           {
             "number": 35809,
+            "repo": "bitcoin/bitcoin",
             "title": "contrib: add deterministic fuzz coverage mode",
             "author": {
               "username": "HowHsu",
@@ -355,23 +383,25 @@
             },
             "summary": "This PR introduces a deterministic fuzzing coverage mode to our `contrib` tools. This allows developers to reliably reproduce specific fuzzing inputs that achieve high code coverage, significantly aiding in debugging and improving the effectiveness of our testing efforts.",
             "technical_summary": "Fuzzing typically involves random input generation, making it challenging to reproduce specific coverage paths. This PR adds a mode to the fuzzing harness that, given a seed or specific input, will deterministically generate the same sequence of inputs, allowing for reproducible coverage analysis. This is achieved by controlling the random number generator used by the fuzzer and potentially integrating with coverage tools to map specific inputs to code paths, making it easier to identify and fix bugs found by the fuzzer.",
-            "importance": 13,
-            "review_count": 13
-          },
-          {
-            "number": 36135,
-            "title": "fuzz: test HTTPRequest state machine in http_request",
-            "author": {
-              "username": "frankomosh",
-              "uuid": "auto_frankomosh"
-            },
-            "summary": "This PR adds a new fuzzing test specifically targeting the HTTPRequest state machine within `http_request.cpp`. This helps uncover edge cases and potential vulnerabilities in how Bitcoin Core handles HTTP requests, improving the overall robustness of its network communication.",
-            "technical_summary": "The `http_request` module handles incoming HTTP requests for services like RPC. Its state machine manages the parsing and processing of HTTP headers and bodies. This fuzzing target will feed malformed or unexpected sequences of bytes to the HTTPRequest parser, simulating various network conditions and adversarial inputs. The fuzzer will then monitor for crashes, assertions, or other undefined behaviors, ensuring the state machine correctly transitions and handles all possible input permutations without compromising stability.",
             "importance": 12,
             "review_count": 12
           },
           {
+            "number": 36316,
+            "repo": "bitcoin/bitcoin",
+            "title": "ci: use POSIX threads for Nix Windows builds",
+            "author": {
+              "username": "willcl-ark",
+              "uuid": "auto_william_madden"
+            },
+            "summary": "This PR updates the Continuous Integration (CI) configuration for Bitcoin Core to use POSIX threads when building on Windows using Nix. This improves the reliability and consistency of Windows builds within the CI system.",
+            "technical_summary": "The change involves modifying the Nix build configuration for Windows targets. Specifically, it configures the build system to link against and utilize POSIX-compliant threading libraries (e.g., pthreads-w32) instead of native Windows threading APIs. This ensures a more consistent threading model across different build environments and resolves potential compatibility issues or build failures specific to the Nix-on-Windows CI setup.",
+            "importance": 11,
+            "review_count": 11
+          },
+          {
             "number": 1840,
+            "repo": "bitcoin-core/secp256k1",
             "title": "ci: Simplify module configuration and extend test coverage",
             "author": {
               "username": "mllwchrry",
@@ -379,23 +409,38 @@
             },
             "summary": "",
             "technical_summary": "",
-            "importance": 12,
-            "review_count": 12
-          },
-          {
-            "number": 35177,
-            "title": "test: use MiniWallet for getblockstats test data generation",
-            "author": {
-              "username": "AgusR7",
-              "uuid": "auto_agusr7"
-            },
-            "summary": "This change updates the `getblockstats` test suite to use the `MiniWallet` utility for test data generation. This improves test reliability, maintainability, and aligns testing practices with modern Bitcoin Core standards.",
-            "technical_summary": "The test harness for the `getblockstats` RPC command is refactored to replace manual transaction and block construction logic with the `MiniWallet` testing utility. This streamlines test setup, reduces boilerplate code, and enhances the overall readability and maintainability of the relevant test cases within the suite.",
             "importance": 11,
             "review_count": 11
           },
           {
+            "number": 36135,
+            "repo": "bitcoin/bitcoin",
+            "title": "fuzz: test HTTPRequest state machine in http_request",
+            "author": {
+              "username": "frankomosh",
+              "uuid": "auto_frankomosh"
+            },
+            "summary": "This PR adds a new fuzzing test specifically targeting the HTTPRequest state machine within `http_request.cpp`. This helps uncover edge cases and potential vulnerabilities in how Bitcoin Core handles HTTP requests, improving the overall robustness of its network communication.",
+            "technical_summary": "The `http_request` module handles incoming HTTP requests for services like RPC. Its state machine manages the parsing and processing of HTTP headers and bodies. This fuzzing target will feed malformed or unexpected sequences of bytes to the HTTPRequest parser, simulating various network conditions and adversarial inputs. The fuzzer will then monitor for crashes, assertions, or other undefined behaviors, ensuring the state machine correctly transitions and handles all possible input permutations without compromising stability.",
+            "importance": 10,
+            "review_count": 10
+          },
+          {
+            "number": 35177,
+            "repo": "bitcoin/bitcoin",
+            "title": "test: use MiniWallet for getblockstats test data generation",
+            "author": {
+              "username": "AgusR7",
+              "uuid": "auto_agustinrivera"
+            },
+            "summary": "This change updates the `getblockstats` test suite to use the `MiniWallet` utility for test data generation. This improves test reliability, maintainability, and aligns testing practices with modern Bitcoin Core standards.",
+            "technical_summary": "The test harness for the `getblockstats` RPC command is refactored to replace manual transaction and block construction logic with the `MiniWallet` testing utility. This streamlines test setup, reduces boilerplate code, and enhances the overall readability and maintainability of the relevant test cases within the suite.",
+            "importance": 10,
+            "review_count": 10
+          },
+          {
             "number": 36324,
+            "repo": "bitcoin/bitcoin",
             "title": "test: Fixup MAX_BODY_SIZE http throttling test",
             "author": {
               "username": "maflcko",
@@ -403,11 +448,12 @@
             },
             "summary": "This PR improves an existing test for HTTP request throttling in Bitcoin Core. It ensures the test accurately verifies how the software handles large HTTP requests, preventing potential denial-of-service vectors.",
             "technical_summary": "The PR adjusts the `MAX_BODY_SIZE` parameter within a specific HTTP throttling test, likely correcting an edge case or race condition in the test setup. This ensures the test reliably triggers and verifies the intended throttling behavior for oversized HTTP request bodies, thereby improving test coverage and reliability of the HTTP server's DoS protection.",
-            "importance": 8,
-            "review_count": 8
+            "importance": 7,
+            "review_count": 7
           },
           {
             "number": 35887,
+            "repo": "bitcoin/bitcoin",
             "title": "ipc: use std::optional for checkSpawned(), add tests and rename arg -ipcfd to -ipcchild",
             "author": {
               "username": "ViniciusCestarii",
@@ -415,11 +461,12 @@
             },
             "summary": "This PR refactors the Inter-Process Communication (IPC) mechanism by adopting `std::optional` for better error handling and clarity, adds new tests, and renames a command-line argument for improved consistency. These changes enhance the reliability and maintainability of Bitcoin Core's IPC features.",
             "technical_summary": "The PR modernizes the `checkSpawned()` function within the IPC module by replacing raw pointers or sentinel values with `std::optional<int>`, improving type safety and explicit handling of the absence of a value. It also introduces dedicated unit tests for the IPC functionality and renames the command-line argument `-ipcfd` to `-ipcchild` for better semantic clarity, affecting how child processes are spawned and managed.",
-            "importance": 8,
-            "review_count": 8
+            "importance": 7,
+            "review_count": 7
           },
           {
             "number": 35890,
+            "repo": "bitcoin/bitcoin",
             "title": "doc: use overwrite (>) instead of append (>>) for one-shot PSBT files in offline-signing-tutorial.md",
             "author": {
               "username": "GuTS805",
@@ -427,11 +474,12 @@
             },
             "summary": "This PR updates the offline signing tutorial documentation to correctly use the overwrite operator (>) instead of the append operator (>>) when creating one-shot PSBT files. This ensures users follow the correct procedure and avoid unintended file concatenations.",
             "technical_summary": "The change is purely textual within the `offline-signing-tutorial.md` markdown file, correcting a shell command example from `command >> file.psbt` to `command > file.psbt`. This ensures that each execution of the command creates a fresh PSBT file, preventing the accidental appending of new PSBT data to an existing file, which would result in an invalid or malformed PSBT.",
-            "importance": 6,
-            "review_count": 6
+            "importance": 5,
+            "review_count": 5
           },
           {
             "number": 35893,
+            "repo": "bitcoin/bitcoin",
             "title": "test: cover submitpackage other-wtxid for same-txid-diff-witness",
             "author": {
               "username": "mercie-ux",
@@ -439,11 +487,12 @@
             },
             "summary": "This PR adds a new test case to cover a specific edge scenario in the `submitpackage` RPC related to transactions with the same transaction ID but different witness data. This improves the robustness of package relay by ensuring correct handling of such complex and potentially malformed inputs.",
             "technical_summary": "The test specifically targets the `submitpackage` RPC, which is designed for package relay. It introduces a scenario where a package might contain transactions that, despite having identical transaction IDs, differ in their witness data. While this shouldn't occur with valid SegWit transactions, the test ensures the `submitpackage` logic correctly identifies and rejects or handles such malformed inputs, preventing unexpected behavior or potential vulnerabilities in the package relay mechanism.",
-            "importance": 6,
-            "review_count": 6
+            "importance": 5,
+            "review_count": 5
           },
           {
             "number": 36335,
+            "repo": "bitcoin/bitcoin",
             "title": "Remove my key from SECURITY.md",
             "author": {
               "username": "dergoegge",
@@ -451,11 +500,12 @@
             },
             "summary": "This PR removes a developer's PGP key from the `SECURITY.md` file. This is a routine update to maintain the accuracy of our security contact information, ensuring only active and relevant keys are listed.",
             "technical_summary": "The `SECURITY.md` file lists PGP keys of developers who can be contacted securely for reporting vulnerabilities. This change involves a direct modification to this markdown file, removing a specific PGP key block. This action is typically performed when a developer is no longer actively involved in the project's security response team or has rotated their key, ensuring that the published security contact information remains current and trustworthy.",
-            "importance": 5,
-            "review_count": 5
+            "importance": 4,
+            "review_count": 4
           },
           {
             "number": 36155,
+            "repo": "bitcoin/bitcoin",
             "title": "doc: remove json quoting from gettxoutsetinfo and getblockstats cli examples",
             "author": {
               "username": "csjones",
@@ -463,11 +513,12 @@
             },
             "summary": "This PR corrects the command-line examples in the documentation for `gettxoutsetinfo` and `getblockstats` by removing unnecessary JSON quoting. This makes the examples clearer and easier for users to execute directly.",
             "technical_summary": "The change is purely textual within the documentation files, specifically modifying `bitcoin-cli` examples for `gettxoutsetinfo` and `getblockstats`. It removes redundant JSON string quoting around parameters that are already correctly interpreted by `bitcoin-cli` or the RPC server, simplifying the command syntax presented to users and aligning it with common `bitcoin-cli` usage patterns.",
-            "importance": 5,
-            "review_count": 5
+            "importance": 4,
+            "review_count": 4
           },
           {
             "number": 36310,
+            "repo": "bitcoin/bitcoin",
             "title": "rpc: clarify that `getaddrmaninfo` counts unique addresses",
             "author": {
               "username": "0xB10C",
@@ -475,23 +526,12 @@
             },
             "summary": "This PR clarifies the documentation for the `getaddrmaninfo` RPC, explicitly stating that it reports the count of unique addresses. This improves the usability and understanding of network information for users and developers.",
             "technical_summary": "The change involves updating the RPC help text or internal comments for the `getaddrmaninfo` RPC. It ensures that users are aware that the reported address count represents distinct entries in the address manager, preventing potential misinterpretations of the network's known addresses and improving RPC clarity.",
-            "importance": 5,
-            "review_count": 5
-          },
-          {
-            "number": 1934,
-            "title": "Clear secret-dependent variables in `_ecmult_const_xonly`",
-            "author": {
-              "username": "theStack",
-              "uuid": "can_sebastian_falbesoner"
-            },
-            "summary": "This PR fixes a bug in the `CBigNum::SetHex` function that could lead to undefined behavior by incorrectly storing a temporary pointer. This ensures the stability and correctness of large number operations within the codebase.",
-            "technical_summary": "The `CBigNum::SetHex` method is responsible for parsing hexadecimal strings into `CBigNum` objects. The bug involved storing a pointer to a temporary object created during the parsing process, which would become invalid once the temporary object went out of scope. The fix likely involves either copying the data pointed to by the temporary pointer or ensuring that the data is allocated with a lifetime matching the `CBigNum` object itself, preventing use-after-free scenarios and ensuring data integrity for arbitrary precision arithmetic.",
             "importance": 4,
             "review_count": 4
           },
           {
             "number": 36302,
+            "repo": "bitcoin/bitcoin",
             "title": "ci: simplify macOS codesign check",
             "author": {
               "username": "fanquake",
@@ -499,11 +539,12 @@
             },
             "summary": "This PR streamlines the code signing verification process for macOS builds in the continuous integration system. It makes the development and release pipeline more efficient and reliable.",
             "technical_summary": "This change refactors the CI script responsible for checking macOS code signatures, likely by consolidating steps, removing redundancies, or using more efficient commands. The goal is to reduce CI execution time and potential points of failure related to macOS build verification, improving the overall CI pipeline's stability.",
-            "importance": 4,
-            "review_count": 4
+            "importance": 3,
+            "review_count": 3
           },
           {
             "number": 36298,
+            "repo": "bitcoin/bitcoin",
             "title": "Update crc32c subtree to latest master",
             "author": {
               "username": "fanquake",
@@ -511,18 +552,37 @@
             },
             "summary": "This PR updates the `crc32c` library to its latest version, incorporating any upstream improvements or bug fixes. This ensures Bitcoin Core uses the most current and optimized checksum calculation, contributing to data integrity.",
             "technical_summary": "The change involves updating the vendored `crc32c` library by pulling the latest commits from its upstream repository. This update ensures that Bitcoin Core benefits from any performance optimizations or bug fixes in the CRC32C checksum implementation, which is used for various data integrity checks within the codebase, enhancing overall system reliability.",
-            "importance": 3,
-            "review_count": 3
+            "importance": 2,
+            "review_count": 2
           },
           {
             "number": 1942,
+            "repo": "bitcoin-core/secp256k1",
             "title": "unit_test: fix help text claiming unknown args are ignored",
             "author": {
               "username": "Anshikakalpana",
               "uuid": "auto_anshikakalpana"
             },
-            "summary": "This PR resolves a build system issue by fixing a double inclusion of `txdb.h` in the `bitcoin-qt.pro` project file. This ensures cleaner compilation and prevents potential build errors for the GUI client.",
-            "technical_summary": "The change modifies the `bitcoin-qt.pro` file, which is used by the Qt build system, to remove a redundant inclusion of the `txdb.h` header. This prevents potential 'multiple definition' errors or warnings during compilation, streamlining the build process for the Bitcoin Core GUI and improving build system robustness.",
+            "summary": "",
+            "technical_summary": "",
+            "importance": 1,
+            "review_count": 1
+          }
+        ]
+      },
+      {
+        "name": "\u2699\ufe0f Consensus & Cryptography",
+        "prs": [
+          {
+            "number": 1934,
+            "repo": "bitcoin-core/secp256k1",
+            "title": "Clear secret-dependent variables in `_ecmult_const_xonly`",
+            "author": {
+              "username": "theStack",
+              "uuid": "can_sebastian_falbesoner"
+            },
+            "summary": "",
+            "technical_summary": "",
             "importance": 1,
             "review_count": 1
           }
@@ -531,29 +591,48 @@
     ],
     "hot": [
       {
+        "name": "Strategic Initiatives",
+        "prs": [
+          {
+            "number": 35646,
+            "repo": "bitcoin/bitcoin",
+            "title": "RFC: Separate out runtime errors from BlockValidationState using `util::Expected`",
+            "author": {
+              "username": "yuvicc",
+              "uuid": "auto_i_am_yuvi"
+            },
+            "event_count": 13,
+            "summary": "This RFC proposes a significant architectural improvement to Bitcoin Core's block validation logic by separating runtime errors from the `BlockValidationState` using the `util::Expected` pattern. This aims to make error handling more explicit, robust, and easier to reason about, ultimately leading to more reliable block processing.",
+            "technical_summary": "This Request For Comments (RFC) outlines a proposal to refactor the error reporting mechanism within the `BlockValidationState` using `util::Expected<T, Error>`. The current `BlockValidationState` aggregates various error types, leading to implicit error states. By introducing `util::Expected`, this change aims to explicitly return either a successful result `T` or a dedicated `Error` object, thereby clearly distinguishing between validation failure types and enabling more precise and type-safe error propagation throughout the block validation pipeline. This fundamental change improves code clarity, maintainability, and diagnostic capabilities."
+          }
+        ]
+      },
+      {
         "name": "Network & Privacy",
         "prs": [
           {
-            "number": 36312,
-            "title": "net: don't discourage private broadcast peers",
-            "author": {
-              "username": "andrewtoth",
-              "uuid": "can_andrew_toth"
-            },
-            "event_count": 17,
-            "summary": "This PR adjusts Bitcoin Core's network policy to no longer implicitly discourage peers participating in private transaction broadcasts. This helps ensure that nodes using this experimental feature can connect and relay transactions effectively without unintended penalties.",
-            "technical_summary": "Previously, peers involved in private broadcast mechanisms might have been subject to certain network discouragement logic, potentially affecting their connectivity or relay performance. This PR modifies the network's peer management logic to remove this implicit discouragement, treating private broadcast peers more neutrally within the peer-to-peer network topology. The change specifically targets the peer scoring or connection management algorithms to prevent unintended negative feedback loops."
-          },
-          {
             "number": 36309,
+            "repo": "bitcoin/bitcoin",
             "title": "private broadcast: clarify claims, mark as experimental",
             "author": {
               "username": "instagibbs",
               "uuid": "can_greg_sanders"
             },
-            "event_count": 17,
+            "event_count": 16,
             "summary": "This PR clarifies the claims and explicitly marks the 'private broadcast' feature as experimental. This helps users understand the current development status and potential limitations of this new transaction relay mechanism.",
             "technical_summary": "The changes involve updating internal documentation, comments, and potentially configuration flags or help text related to the 'private broadcast' feature. It ensures that the feature's experimental nature and any associated caveats are clearly communicated to developers and users, reflecting its ongoing development and potential for future changes or removal. This is primarily a documentation and feature status management update for a network-level capability."
+          },
+          {
+            "number": 36312,
+            "repo": "bitcoin/bitcoin",
+            "title": "net: don't discourage private broadcast peers",
+            "author": {
+              "username": "andrewtoth",
+              "uuid": "can_andrew_toth"
+            },
+            "event_count": 16,
+            "summary": "This PR adjusts Bitcoin Core's network policy to no longer implicitly discourage peers participating in private transaction broadcasts. This helps ensure that nodes using this experimental feature can connect and relay transactions effectively without unintended penalties.",
+            "technical_summary": "Previously, peers involved in private broadcast mechanisms might have been subject to certain network discouragement logic, potentially affecting their connectivity or relay performance. This PR modifies the network's peer management logic to remove this implicit discouragement, treating private broadcast peers more neutrally within the peer-to-peer network topology. The change specifically targets the peer scoring or connection management algorithms to prevent unintended negative feedback loops."
           }
         ]
       },
@@ -562,6 +641,7 @@
         "prs": [
           {
             "number": 36235,
+            "repo": "bitcoin/bitcoin",
             "title": "ci: fail iwyu job on compiler errors instead of silently logging them",
             "author": {
               "username": "David-Uka",
@@ -572,18 +652,8 @@
             "technical_summary": "Previously, the IWYU CI job would log compiler errors but continue to pass, potentially masking underlying build problems. This change modifies the CI script to detect and propagate compiler errors as job failures. By integrating error-checking mechanisms into the IWYU script execution, the CI pipeline will now correctly report build-related issues, enforcing stricter code quality checks and preventing silent regressions."
           },
           {
-            "number": 36316,
-            "title": "ci: use POSIX threads for Nix Windows builds",
-            "author": {
-              "username": "willcl-ark",
-              "uuid": "auto_will_clark"
-            },
-            "event_count": 13,
-            "summary": "This PR updates the Continuous Integration (CI) configuration for Bitcoin Core to use POSIX threads when building on Windows using Nix. This improves the reliability and consistency of Windows builds within the CI system.",
-            "technical_summary": "The change involves modifying the Nix build configuration for Windows targets. Specifically, it configures the build system to link against and utilize POSIX-compliant threading libraries (e.g., pthreads-w32) instead of native Windows threading APIs. This ensures a more consistent threading model across different build environments and resolves potential compatibility issues or build failures specific to the Nix-on-Windows CI setup."
-          },
-          {
             "number": 35686,
+            "repo": "bitcoin/bitcoin",
             "title": "lint: have git-subtree-check check for backportability",
             "author": {
               "username": "Sjors",
@@ -599,75 +669,75 @@
   },
   "discussions": [
     {
-      "source": "Mailing List",
-      "subject": "Re: [bitcoindev] A Post-Quantum Path for BIP 324",
+      "source": "Delving",
+      "subject": "Bounds on chain length with BIP-54 timewarp fixes",
       "author": {
-        "username": "Olaoluwa Osuntokun",
-        "uuid": "can_olaoluwa_osuntokun"
+        "username": "Pieter Wuille",
+        "uuid": "can_pieter_wuille"
       },
-      "link": "https://gnusha.org/pi/bitcoindev/CAO3Pvs_+orjc1mbEVSpOpCApy1SjuGH+yhRfJX2aGB6ZZ0hAyg@mail.gmail.com",
-      "message_count": 1,
-      "summary": "Developers are exploring if new, advanced cryptographic methods can make it significantly harder to track users or censor transactions, enhancing privacy and resistance to surveillance.",
-      "technical_summary": "The discussion evaluates the practical privacy benefits of Compact Round-Trip Quantum-Resistant Cryptography (CRQC) against fingerprinting and censorship. Liam questioned if CRQC meaningfully lowers these costs, with Olaoluwa suggesting quantum attacks like Shor's algorithm are unlikely to be cheaper than classical timing analysis for such purposes. This highlights an architectural debate on the incremental privacy value of quantum-resistant schemes for side-channel resistance versus focusing on existing classical attack vectors, requiring further cost-benefit analysis."
+      "link": "https://delvingbitcoin.org/t/bounds-on-chain-length-with-bip-54-timewarp-fixes/2899/20",
+      "message_count": 9,
+      "summary": "Core developers are enhancing Bitcoin's difficulty adjustment rules to prevent 'timewarp' attacks, ensuring the network's timing and mining difficulty remain fair and predictable. This work aims to safeguard the integrity of block timestamps, benefiting all users.",
+      "technical_summary": "The discussion is refining BIP-54's timewarp fix rules, focusing on establishing robust bounds for block header timestamps and their interaction with difficulty. Zawy proposes using multiple boundaries (e.g., 2 of 3 parameters like work, time, and block count) to create hard limits on the third, reducing statistical tails and improving predictability. Pieter Wuille is formalizing this analysis by defining key ratios: P (periods by block count), T (periods by time), and D (total summed difficulty). This mathematical framework is crucial for precisely understanding the interdependencies between these metrics, which is essential for designing effective timewarp prevention mechanisms and establishing secure timestamp validation rules."
     },
     {
-      "source": "Mailing List",
-      "subject": "Re: [bitcoindev] Re: [BIP Proposal] No burn, Quantum Migration\n Proposal, Quantum Secure Asset Verification & Escrow (QSAVE)",
+      "source": "Delving",
+      "subject": "Standardizing an exposure classification for existing outputs (pre-BIP)",
       "author": {
-        "username": "James T",
-        "uuid": "auto_james_t"
+        "username": "Duncan0k",
+        "uuid": "auto_duncan0k"
       },
-      "link": "https://gnusha.org/pi/bitcoindev/48b51073-e3d5-4875-a16d-216fb12fa7fcn@googlegroups.com",
-      "message_count": 1,
-      "summary": "Bitcoin's long-term security is a key focus, with developers proactively discussing how to ensure the network remains robust against future technological advancements like quantum computing. This ongoing dialogue reinforces Bitcoin's commitment to enduring value and security for all users.",
-      "technical_summary": "The mailing list is revisiting historical discussions concerning the long-term security of SHA256 against future quantum computing threats. While early acknowledgments suggested a potential 'chain rewrite' under extreme circumstances, the current debate likely centers on the practicality and implications of such a drastic measure. Developers are evaluating whether less disruptive protocol upgrades can achieve quantum resistance, or if the threat to SHA256 warrants considering fundamental architectural changes to the blockchain's structure."
+      "link": "https://delvingbitcoin.org/t/standardizing-an-exposure-classification-for-existing-outputs-pre-bip/2866/12",
+      "message_count": 3,
+      "summary": "Developers are working on a foundational document to enable future Bitcoin upgrades that will enhance privacy and security, making transactions more efficient and robust.",
+      "technical_summary": "The original context identified a missing foundational prerequisite for future protocol improvements like BIP 360 and BIP 361. To address this architectural gap, an informational BIP is under development, with Murch recommending the BIPs repository for publication. Version 0.6.0 of this document has been released, incorporating significant refinement based on feedback for tighter prose and a more comprehensive account of address reuse, reducing its length from 4,700 to 3,000 words. The next steps involve community feedback and formal submission for publication."
     },
     {
-      "source": "Mailing List",
-      "subject": "Re: [bitcoindev] [BIP Proposal] BIP324 One-Byte Message Type ID Alias Assignment",
+      "source": "Delving",
+      "subject": "Shielded Bitcoin: Private Transfers on the Bitcoin L1",
       "author": {
-        "username": "Anthony Towns",
-        "uuid": "can_anthony_towns"
+        "username": "misha komarov",
+        "uuid": "auto_misha_komarov"
       },
-      "link": "https://gnusha.org/pi/bitcoindev/arRwjJaraiHdYX8L@erisian.com.au",
-      "message_count": 1,
-      "summary": "A new proposal is being discussed to enhance how Bitcoin nodes interact, aiming to improve network communication or efficiency for all users.",
-      "technical_summary": "Anthony Towns is summarizing a proposal where nodes implementing it would transmit specific information. The provided context does not detail what data would be sent, its purpose, or the technical arguments surrounding its implementation, making a full architectural assessment or explanation of required changes impossible at this time."
+      "link": "https://delvingbitcoin.org/t/shielded-bitcoin-private-transfers-on-the-bitcoin-l1/2912/1",
+      "message_count": 3,
+      "summary": "The 'Shielded Bitcoin' proposal aims to bring private transactions directly to Bitcoin's base layer. A key benefit is that users can recover their entire private transaction history and funds using just a standard seed phrase, ensuring robust self-custody.",
+      "technical_summary": "The 'Shielded Bitcoin' proposal, focusing on private L1 transfers without soft forks or external operators, is clarifying its wallet recovery architecture. It's confirmed that a standard seed phrase is sufficient to recover the full wallet state and control funds because all encrypted transaction notes are stored directly on the Bitcoin L1. This on-chain storage leverages existing fields like witness data, OP_RETURN, or Taproot annexes, ensuring self-custody and simplifying recovery without reliance on off-chain data or third parties. The ongoing work details these specific on-chain data structures and their integration for seamless recovery."
     },
     {
-      "source": "Mailing List",
-      "subject": "[bitcoindev] Bitcoin Core 32.0rc2 release candidate is available",
+      "source": "Delving",
+      "subject": "Implicit Deletions and Improvements in Utreexo IBD",
       "author": {
-        "username": "Sebastian Kung",
-        "uuid": "auto_sebastian_kung"
+        "username": "davidson",
+        "uuid": "auto_davidson"
       },
-      "link": "https://gnusha.org/pi/bitcoindev/465fa469-1fdf-45d9-9f8e-309ccc472bf5n@googlegroups.com",
-      "message_count": 1,
-      "summary": "The latest release candidate for Bitcoin Core, v32.0rc2, is now available for community testing. This crucial step helps ensure the next stable version of Bitcoin's foundational software is robust and secure for all users.",
-      "technical_summary": "Bitcoin Core v32.0rc2 binaries have been released and are available for download, alongside the signed source code tag on GitHub. This release candidate is critical for comprehensive community testing to identify and address any remaining bugs or regressions before the final v32.0 stable release. Developers and advanced users are strongly encouraged to test this RC, providing valuable feedback to validate the stability, security, and performance of new features and bug fixes integrated into this version. The primary objective is thorough validation to ensure a high-quality production release."
+      "link": "https://delvingbitcoin.org/t/implicit-deletions-and-improvements-in-utreexo-ibd/2881/2",
+      "message_count": 2,
+      "summary": "Utreexo is being discussed as a way to significantly reduce the data footprint required for Bitcoin nodes, making it easier and cheaper for more people to run a full node. This enhances the network's decentralization and overall security by lowering resource barriers.",
+      "technical_summary": "Utreexo, a dynamic accumulator, proposes to represent the entire UTXO set using a forest of perfect Merkle trees, drastically reducing the storage footprint to just a couple of hashes. This architectural shift aims to lower resource requirements for full nodes, potentially improving initial block download times and enabling more efficient light client validation. The ongoing technical discussion centers on the feasibility of integrating such a complex data structure into Bitcoin Core, evaluating its performance impact, and ensuring its security guarantees while minimizing changes to the existing UTXO commitment scheme."
     },
     {
-      "source": "Mailing List",
-      "subject": "[bitcoindev] Convention for tagged hash tags in BIPs",
+      "source": "Delving",
+      "subject": "Softfork before GTA VI?",
       "author": {
-        "username": "Fabian Jahr",
-        "uuid": "can_fabian_jahr"
+        "username": "cmp_ancp",
+        "uuid": "auto_cmp_ancp"
       },
-      "link": "https://gnusha.org/pi/bitcoindev/dxapm4DOcrDL6_oCYSqBAdFP0fAQA9IHInRzzTuCeWVYD2Xd0ynPsTa8hYEcRFOYQPnvoQK15TtK6oAZBfa-4b5DbIuFemSFGVifxGTLOlc=@protonmail.com",
-      "message_count": 1,
-      "summary": "To enhance clarity and consistency for future Bitcoin upgrades, developers are discussing the optimal naming conventions for new cryptographic features within the protocol.",
-      "technical_summary": "During the review of BIP 459 (DahLIAS), an architectural debate emerged regarding the naming convention for 'tagged hash tags' in cryptography BIPs. The current practice is inconsistent, with some BIPs embedding their numerical identifier while others use descriptive names. This necessitates a community decision on a standardized approach to ensure protocol coherence, prevent identifier collisions, and establish clear guidelines for future cryptographic feature integration."
+      "link": "https://delvingbitcoin.org/t/softfork-before-gta-vi/2913/1",
+      "message_count": 2,
+      "summary": "The community is reflecting on the pace of Bitcoin development, particularly regarding advanced features like covenants that could enable new use cases and enhance security for users.",
+      "technical_summary": "A developer has opened a discussion expressing concern over the perceived loss of momentum in pushing new softforks for Bitcoin, specifically referencing the \"covenants\" topic that previously garnered significant community interest. The core technical issue revolves around the stalled progress on introducing new opcode functionality or script enhancements via softforks, which are crucial for enabling more complex smart contracts and advanced UTXO control. The thread seeks to understand the reasons behind this slowdown and potentially reignite architectural debate and development efforts for future protocol upgrades."
     }
   ],
   "shoutouts": {
     "new_contributors": [
       {
-        "username": "AgusR7",
-        "uuid": "auto_agusr7"
+        "username": "8144225309",
+        "uuid": "auto_8144225309"
       },
       {
-        "username": "Anshikakalpana",
-        "uuid": "auto_anshikakalpana"
+        "username": "AgusR7",
+        "uuid": "auto_agustinrivera"
       },
       {
         "username": "Bicaru20",
@@ -675,7 +745,7 @@
       },
       {
         "username": "alhudz",
-        "uuid": "auto_alhudz"
+        "uuid": "auto_alhuda_khan"
       },
       {
         "username": "mercie-ux",
@@ -706,15 +776,15 @@
       },
       {
         "user": {
-          "username": "0xB10C",
-          "uuid": "can_0xb10c"
+          "username": "8144225309",
+          "uuid": "auto_8144225309"
         },
         "count": 1
       },
       {
         "user": {
-          "username": "Bicaru20",
-          "uuid": "auto_bicaru20"
+          "username": "0xB10C",
+          "uuid": "can_0xb10c"
         },
         "count": 1
       }
@@ -725,7 +795,7 @@
           "username": "maflcko",
           "uuid": "can_marcofalke"
         },
-        "count": 46
+        "count": 47
       },
       {
         "user": {
@@ -750,8 +820,8 @@
       },
       {
         "user": {
-          "username": "hebasto",
-          "uuid": "can_hennadii_stepanov"
+          "username": "ryanofsky",
+          "uuid": "can_russell_yanofsky"
         },
         "count": 21
       }
@@ -783,7 +853,7 @@
       },
       {
         "username": "AgusR7",
-        "uuid": "auto_agusr7"
+        "uuid": "auto_agustinrivera"
       },
       {
         "username": "ajtowns",
@@ -791,7 +861,7 @@
       },
       {
         "username": "alhudz",
-        "uuid": "auto_alhudz"
+        "uuid": "auto_alhuda_khan"
       },
       {
         "username": "AndreaDiazCorreia",
@@ -836,10 +906,6 @@
       {
         "username": "carloantinarella",
         "uuid": "auto_carloantinarella"
-      },
-      {
-        "username": "Copilot",
-        "uuid": "auto_copilot"
       },
       {
         "username": "crooksmadison69-cmd",
@@ -979,7 +1045,7 @@
       },
       {
         "username": "marcofleon",
-        "uuid": "auto_crackercracked"
+        "uuid": "can_marcofalke"
       },
       {
         "username": "mercie-ux",
@@ -1103,7 +1169,7 @@
       },
       {
         "username": "willcl-ark",
-        "uuid": "auto_will_clark"
+        "uuid": "auto_william_madden"
       },
       {
         "username": "winterrdog",
@@ -1115,7 +1181,7 @@
       },
       {
         "username": "Yudis-bit",
-        "uuid": "auto_yudis_bit"
+        "uuid": "auto_yudistira_putra"
       },
       {
         "username": "yuvicc",

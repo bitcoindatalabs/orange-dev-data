@@ -15,12 +15,12 @@
   "self_merges": 0.0,
   "total_additions": 3.0,
   "total_deletions": 2.0,
-  "first_core_commit": "2011-08-01T14:34:59+00:00",
-  "last_core_commit": "2011-08-01T14:34:59+00:00",
+  "first_core_commit": "2011-08-04T18:40:45+00:00",
+  "last_core_commit": "2011-08-04T18:40:45+00:00",
   "first_ecosystem_commit": null,
   "last_ecosystem_commit": null,
-  "first_commit": "2011-08-01T14:34:59",
-  "last_commit": "2011-08-01T14:34:59",
+  "first_commit": "2011-08-04T18:40:45",
+  "last_commit": "2011-08-04T18:40:45",
   "p2016_authored_commits": 0.0,
   "modern_authored_commits": 0.0,
   "co_authored_commits": 0.0,
@@ -45,10 +45,10 @@
   "avg_pr_ack_velocity_days": 0.01712962962962963,
   "avg_concept_lead_time_days": 0.22873842592592591,
   "review_reciprocity": 0.0,
-  "hybrid_score": 0.0215,
+  "hybrid_score": 0.0615,
   "p2016_hybrid_score": 0.0146,
   "modern_hybrid_score": 0.0146,
-  "impact_score": 1.0,
+  "impact_score": 4.0,
   "p2016_impact_score": 1.0,
   "modern_impact_score": 1.0,
   "threads_started": 0.0,
@@ -57,14 +57,17 @@
   "delving_threads": 0.0,
   "ml_responses": 1.0,
   "delving_responses": 0.0,
-  "first_active": "2011-08-03T07:15:07",
-  "last_active": "2011-08-03T07:15:07",
-  "dev_type": "Participant",
+  "first_active": null,
+  "last_active": null,
+  "dev_type": "Builder",
   "expertise_domains": [
     "Network"
   ],
   "expertise_by_source": {
     "discussion": {
+      "Network": 1.0
+    },
+    "code": {
       "Network": 1.0
     }
   },
@@ -77,12 +80,12 @@
   "p2016_delving_posts": 0.0,
   "modern_ml_posts": 0.0,
   "modern_delving_posts": 0.0,
-  "is_engineer": false,
+  "is_engineer": true,
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": false,
-  "global_first_active": "2011-08-01T14:34:59",
-  "global_last_active": "2011-08-03T07:15:07",
+  "global_first_active": "2011-08-04T18:40:45",
+  "global_last_active": "2011-08-04T18:40:45",
   "github_location": "Bavaria, Germany",
   "github_company": null,
   "github_bio": null,
@@ -94,7 +97,7 @@
   "github_url": "https://github.com/jhenninger",
   "commit_history": {
     "2011": {
-      "P2P Network": 2.0
+      "P2P Network": 1.0
     }
   },
   "first_message": {

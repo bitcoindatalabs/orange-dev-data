@@ -15,12 +15,12 @@
   "self_merges": 0.0,
   "total_additions": 156.0,
   "total_deletions": 51.0,
-  "first_core_commit": "2026-04-26T21:55:12+00:00",
-  "last_core_commit": "2026-09-09T00:35:40+00:00",
+  "first_core_commit": "2026-04-26T21:55:20+00:00",
+  "last_core_commit": "2026-09-09T00:36:00+00:00",
   "first_ecosystem_commit": null,
   "last_ecosystem_commit": null,
-  "first_commit": "2026-04-26T21:55:12",
-  "last_commit": "2026-09-09T00:35:40",
+  "first_commit": "2026-04-26T21:55:20",
+  "last_commit": "2026-09-09T00:36:00",
   "p2016_authored_commits": 10.0,
   "modern_authored_commits": 10.0,
   "co_authored_commits": 0.0,
@@ -45,12 +45,12 @@
   "avg_pr_ack_velocity_days": 1.97677414021164,
   "avg_concept_lead_time_days": 0.7940943287037037,
   "review_reciprocity": 0.75,
-  "hybrid_score": 0.0865,
-  "p2016_hybrid_score": 0.0865,
-  "modern_hybrid_score": 0.0865,
-  "impact_score": 5.0,
-  "p2016_impact_score": 5.0,
-  "modern_impact_score": 5.0,
+  "hybrid_score": 0.2249,
+  "p2016_hybrid_score": 0.2249,
+  "modern_hybrid_score": 0.2249,
+  "impact_score": 13.0,
+  "p2016_impact_score": 13.0,
+  "modern_impact_score": 13.0,
   "threads_started": 0.0,
   "replies_sent": 0.0,
   "ml_threads": 0.0,
@@ -59,13 +59,23 @@
   "delving_responses": 0.0,
   "first_active": null,
   "last_active": null,
-  "dev_type": "Participant",
+  "dev_type": "Builder",
   "expertise_domains": [
-    "Infrastructure"
+    "Infrastructure",
+    "Cryptography",
+    "Consensus"
   ],
-  "expertise_by_source": {},
+  "expertise_by_source": {
+    "code": {
+      "Infrastructure": 0.85,
+      "Consensus": 0.05,
+      "Cryptography": 0.1
+    }
+  },
   "expertise_domain_scores": {
-    "Infrastructure": 1.0
+    "Infrastructure": 0.85,
+    "Consensus": 0.05,
+    "Cryptography": 0.1
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,
@@ -73,11 +83,11 @@
   "p2016_delving_posts": 0.0,
   "modern_ml_posts": 0.0,
   "modern_delving_posts": 0.0,
-  "is_engineer": false,
+  "is_engineer": true,
   "is_reviewer": true,
   "is_researcher": false,
   "is_bip_author": false,
-  "global_first_active": "2026-04-26T21:55:12",
+  "global_first_active": "2026-04-26T21:55:20",
   "global_last_active": "2026-09-19T17:53:22",
   "github_location": null,
   "github_company": null,
@@ -90,11 +100,11 @@
   "github_url": "https://github.com/thomasbuilds",
   "commit_history": {
     "2026": {
-      "Consensus": 1.0,
-      "Cryptography": 2.0,
-      "Node & RPC": 3.0,
-      "Tests": 7.0,
-      "Utilities": 7.0
+      "Consensus": 0.5,
+      "Cryptography": 1.0,
+      "Node & RPC": 1.5,
+      "Tests": 3.5,
+      "Utilities": 3.5
     }
   }
 }

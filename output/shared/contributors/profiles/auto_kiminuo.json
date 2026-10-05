@@ -18,12 +18,12 @@
   "self_merges": 0.0,
   "total_additions": 1580.0,
   "total_deletions": 1287.0,
-  "first_core_commit": "2020-06-03T14:01:29+00:00",
-  "last_core_commit": "2023-07-19T20:28:24+00:00",
+  "first_core_commit": "2020-06-03T14:20:59+00:00",
+  "last_core_commit": "2023-07-19T20:43:26+00:00",
   "first_ecosystem_commit": "2021-05-25T19:01:52+00:00",
   "last_ecosystem_commit": "2024-01-30T18:29:31+00:00",
-  "first_commit": "2020-06-03T14:01:29",
-  "last_commit": "2023-07-19T20:28:24",
+  "first_commit": "2020-06-03T14:20:59",
+  "last_commit": "2023-07-19T20:43:26",
   "p2016_authored_commits": 53.0,
   "modern_authored_commits": 2.0,
   "co_authored_commits": 6.0,
@@ -48,34 +48,44 @@
   "avg_pr_ack_velocity_days": 5.00940517526455,
   "avg_concept_lead_time_days": 2.930066550925926,
   "review_reciprocity": 2.0625,
-  "hybrid_score": 0.1661,
-  "p2016_hybrid_score": 0.1696,
-  "modern_hybrid_score": 0.1022,
-  "impact_score": 9.0,
-  "p2016_impact_score": 10.0,
-  "modern_impact_score": 6.0,
+  "hybrid_score": 0.3963,
+  "p2016_hybrid_score": 0.3997,
+  "modern_hybrid_score": 0.2145,
+  "impact_score": 21.0,
+  "p2016_impact_score": 21.0,
+  "modern_impact_score": 12.0,
   "threads_started": 0.0,
   "replies_sent": 1.0,
   "ml_threads": 0.0,
   "delving_threads": 0.0,
   "ml_responses": 1.0,
   "delving_responses": 0.0,
-  "first_active": "2023-09-08T09:36:16",
-  "last_active": "2023-09-08T09:36:16",
-  "dev_type": "Reviewer",
+  "first_active": null,
+  "last_active": null,
+  "dev_type": "Builder",
   "expertise_domains": [
+    "Infrastructure",
     "Ecosystem",
     "Consensus"
   ],
   "expertise_by_source": {
     "discussion": {
-      "Ecosystem": 0.67,
-      "Consensus": 0.33
+      "Consensus": 0.33,
+      "Ecosystem": 0.67
+    },
+    "code": {
+      "Wallet": 0.171,
+      "Infrastructure": 0.795,
+      "Consensus": 0.026,
+      "Network": 0.005,
+      "Mempool": 0.002
     }
   },
   "expertise_domain_scores": {
-    "Ecosystem": 0.67,
-    "Consensus": 0.33
+    "Infrastructure": 0.4773,
+    "Wallet": 0.1027,
+    "Consensus": 0.1477,
+    "Ecosystem": 0.2682
   },
   "p2016_posts": 1.0,
   "modern_posts": 0.0,
@@ -83,12 +93,12 @@
   "p2016_delving_posts": 0.0,
   "modern_ml_posts": 0.0,
   "modern_delving_posts": 0.0,
-  "is_engineer": false,
+  "is_engineer": true,
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": false,
   "global_first_active": "2020-03-13T14:22:48",
-  "global_last_active": "2023-09-08T09:36:16",
+  "global_last_active": "2023-07-19T20:43:26",
   "github_location": null,
   "github_company": null,
   "github_bio": null,
@@ -100,34 +110,34 @@
   "github_url": "https://github.com/fyquah",
   "commit_history": {
     "2020": {
-      "Build & CI": 0.67,
-      "Tests": 0.67,
-      "Utilities": 0.67
+      "Build & CI": 0.33,
+      "Tests": 0.33,
+      "Utilities": 0.33
     },
     "2021": {
-      "Build & CI": 0.67,
-      "Consensus": 2.75,
-      "Documentation": 2.0,
-      "GUI": 2.75,
-      "Mempool": 0.25,
-      "Node & RPC": 4.58,
-      "P2P Network": 0.25,
-      "Tests": 32.75,
-      "Utilities": 21.25,
-      "Wallet": 5.75
+      "Build & CI": 0.33,
+      "Consensus": 1.38,
+      "Documentation": 1.0,
+      "GUI": 1.38,
+      "Mempool": 0.12,
+      "Node & RPC": 2.29,
+      "P2P Network": 0.12,
+      "Tests": 16.38,
+      "Utilities": 10.62,
+      "Wallet": 3.38
     },
     "2022": {
-      "Build & CI": 0.5,
-      "Documentation": 1.17,
-      "GUI": 0.33,
-      "Node & RPC": 7.0,
-      "P2P Network": 0.33,
-      "Tests": 5.83,
-      "Utilities": 1.5,
-      "Wallet": 1.33
+      "Build & CI": 0.25,
+      "Documentation": 0.58,
+      "GUI": 0.17,
+      "Node & RPC": 3.5,
+      "P2P Network": 0.17,
+      "Tests": 2.92,
+      "Utilities": 0.75,
+      "Wallet": 0.67
     },
     "2023": {
-      "Tests": 2.0,
+      "Tests": 1.0,
       "Wallet": 2.0
     },
     "2024": {

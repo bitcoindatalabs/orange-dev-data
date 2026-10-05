@@ -1,5 +1,5 @@
 {
-  "display_name": "filip gospodinov",
+  "display_name": "Filip Gospodinov",
   "github_login_final": "toxeus",
   "delving_username_final": null,
   "uuid": "auto_filip_gospodinov",
@@ -18,12 +18,12 @@
   "self_merges": 0.0,
   "total_additions": 41.0,
   "total_deletions": 33.0,
-  "first_core_commit": "2020-03-02T16:10:32+00:00",
-  "last_core_commit": "2020-03-02T16:10:32+00:00",
+  "first_core_commit": "2020-03-02T16:11:47+00:00",
+  "last_core_commit": "2020-03-02T16:11:47+00:00",
   "first_ecosystem_commit": "2024-01-17T19:02:28+00:00",
   "last_ecosystem_commit": "2024-01-17T19:02:28+00:00",
-  "first_commit": "2020-03-02T16:10:32",
-  "last_commit": "2020-03-02T16:10:32",
+  "first_commit": "2020-03-02T16:11:47",
+  "last_commit": "2020-03-02T16:11:47",
   "p2016_authored_commits": 2.0,
   "modern_authored_commits": 1.0,
   "co_authored_commits": 0.0,
@@ -48,12 +48,12 @@
   "avg_pr_ack_velocity_days": 0.20675925925925925,
   "avg_concept_lead_time_days": 0.20675925925925925,
   "review_reciprocity": 1.0,
-  "hybrid_score": 0.033,
-  "p2016_hybrid_score": 0.033,
-  "modern_hybrid_score": 0.0146,
-  "impact_score": 2.0,
-  "p2016_impact_score": 2.0,
-  "modern_impact_score": 1.0,
+  "hybrid_score": 0.0964,
+  "p2016_hybrid_score": 0.0964,
+  "modern_hybrid_score": 0.0546,
+  "impact_score": 6.0,
+  "p2016_impact_score": 6.0,
+  "modern_impact_score": 3.0,
   "threads_started": 0.0,
   "replies_sent": 0.0,
   "ml_threads": 0.0,
@@ -62,13 +62,20 @@
   "delving_responses": 0.0,
   "first_active": null,
   "last_active": null,
-  "dev_type": "Participant",
+  "dev_type": "Builder",
   "expertise_domains": [
-    "Infrastructure"
+    "Infrastructure",
+    "Wallet"
   ],
-  "expertise_by_source": {},
+  "expertise_by_source": {
+    "code": {
+      "Wallet": 0.5,
+      "Infrastructure": 0.5
+    }
+  },
   "expertise_domain_scores": {
-    "Infrastructure": 1.0
+    "Infrastructure": 0.5,
+    "Wallet": 0.5
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,
@@ -76,12 +83,12 @@
   "p2016_delving_posts": 0.0,
   "modern_ml_posts": 0.0,
   "modern_delving_posts": 0.0,
-  "is_engineer": false,
+  "is_engineer": true,
   "is_reviewer": true,
   "is_researcher": false,
   "is_bip_author": false,
   "global_first_active": "2016-03-09T18:07:27",
-  "global_last_active": "2020-03-02T16:10:32",
+  "global_last_active": "2020-03-02T16:11:47",
   "github_location": "Europe",
   "github_company": null,
   "github_bio": null,
@@ -93,7 +100,7 @@
   "github_url": "https://github.com/toxeus",
   "commit_history": {
     "2020": {
-      "Utilities": 2.0
+      "Utilities": 1.0
     },
     "2024": {
       "Wallet": 1.0

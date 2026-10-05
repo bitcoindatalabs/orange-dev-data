@@ -63,10 +63,10 @@
   "avg_pr_ack_velocity_days": 4.617418228696176,
   "avg_concept_lead_time_days": 22.69142967372134,
   "review_reciprocity": 7.2756410256410255,
-  "hybrid_score": 2.3061,
+  "hybrid_score": 2.6661,
   "p2016_hybrid_score": 0.5277,
   "modern_hybrid_score": 0.158,
-  "impact_score": 75.0,
+  "impact_score": 80.0,
   "p2016_impact_score": 27.0,
   "modern_impact_score": 9.0,
   "threads_started": 73.0,
@@ -75,18 +75,25 @@
   "delving_threads": 0.0,
   "ml_responses": 472.0,
   "delving_responses": 0.0,
-  "first_active": "2011-06-11T21:23:58",
-  "last_active": "2015-12-20T21:39:52",
-  "dev_type": "Reviewer",
+  "first_active": null,
+  "last_active": null,
+  "dev_type": "Protocol Designer",
   "expertise_domains": [
     "Consensus",
-    "Network",
-    "Mining"
+    "Infrastructure",
+    "Network"
   ],
   "expertise_by_source": {
     "discussion": {
       "Mining": 0.444,
       "Consensus": 0.556
+    },
+    "code": {
+      "Wallet": 0.001,
+      "Infrastructure": 0.93,
+      "Consensus": 0.002,
+      "Network": 0.065,
+      "Mempool": 0.002
     },
     "bips": {
       "Consensus": 0.667,
@@ -94,9 +101,10 @@
     }
   },
   "expertise_domain_scores": {
-    "Mining": 0.1269,
-    "Consensus": 0.6353,
-    "Network": 0.2379
+    "Mining": 0.0888,
+    "Infrastructure": 0.279,
+    "Consensus": 0.4453,
+    "Network": 0.186
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,
@@ -104,7 +112,7 @@
   "p2016_delving_posts": 0.0,
   "modern_ml_posts": 0.0,
   "modern_delving_posts": 0.0,
-  "is_engineer": false,
+  "is_engineer": true,
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": true,
@@ -121,54 +129,54 @@
   "github_url": "https://github.com/jgarzik",
   "commit_history": {
     "2011": {
-      "Build & CI": 7.0,
-      "Documentation": 12.0,
-      "Merge": 170.0,
-      "Node & RPC": 2.0,
-      "P2P Network": 2.0,
-      "Utilities": 53.0
+      "Build & CI": 3.5,
+      "Documentation": 6.0,
+      "Merge": 85.0,
+      "Node & RPC": 1.0,
+      "P2P Network": 1.0,
+      "Utilities": 26.5
     },
     "2012": {
-      "Build & CI": 9.5,
-      "Documentation": 6.0,
-      "GUI": 1.5,
-      "Merge": 196.0,
-      "Node & RPC": 12.83,
-      "P2P Network": 17.33,
-      "Tests": 3.0,
-      "Utilities": 155.83
+      "Build & CI": 4.75,
+      "Documentation": 3.0,
+      "GUI": 0.75,
+      "Merge": 98.0,
+      "Node & RPC": 6.42,
+      "P2P Network": 8.67,
+      "Tests": 1.5,
+      "Utilities": 77.92
     },
     "2013": {
-      "Build & CI": 6.5,
-      "Consensus": 1.0,
-      "Documentation": 1.0,
-      "GUI": 0.67,
-      "Merge": 114.0,
-      "Node & RPC": 11.5,
-      "P2P Network": 8.0,
-      "Tests": 6.17,
-      "Utilities": 41.17
-    },
-    "2014": {
-      "Build & CI": 6.67,
-      "Documentation": 7.0,
-      "GUI": 3.0,
-      "Mempool": 1.0,
-      "Merge": 50.0,
-      "Node & RPC": 6.0,
-      "P2P Network": 3.0,
-      "Tests": 9.67,
-      "Utilities": 51.67
-    },
-    "2015": {
-      "Build & CI": 3.5,
+      "Build & CI": 3.25,
+      "Consensus": 0.5,
       "Documentation": 0.5,
       "GUI": 0.33,
-      "Merge": 24.0,
-      "Node & RPC": 0.83,
-      "Tests": 3.0,
-      "Utilities": 13.5,
-      "Wallet": 0.33
+      "Merge": 57.0,
+      "Node & RPC": 5.75,
+      "P2P Network": 4.0,
+      "Tests": 3.08,
+      "Utilities": 20.58
+    },
+    "2014": {
+      "Build & CI": 3.33,
+      "Documentation": 3.5,
+      "GUI": 1.5,
+      "Mempool": 0.5,
+      "Merge": 25.0,
+      "Node & RPC": 3.0,
+      "P2P Network": 1.5,
+      "Tests": 4.83,
+      "Utilities": 25.83
+    },
+    "2015": {
+      "Build & CI": 1.75,
+      "Documentation": 0.25,
+      "GUI": 0.17,
+      "Merge": 12.0,
+      "Node & RPC": 0.42,
+      "Tests": 1.5,
+      "Utilities": 6.75,
+      "Wallet": 0.17
     }
   },
   "bip_list": [

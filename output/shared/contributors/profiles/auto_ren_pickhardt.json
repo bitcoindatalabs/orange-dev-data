@@ -1,5 +1,5 @@
 {
-  "display_name": "René Pickhardt",
+  "display_name": "rené pickhardt",
   "github_login_final": null,
   "delving_username_final": null,
   "uuid": "auto_ren_pickhardt",
@@ -46,7 +46,7 @@
   "avg_concept_lead_time_days": null,
   "review_reciprocity": null,
   "hybrid_score": 0.0081,
-  "p2016_hybrid_score": 0.0139,
+  "p2016_hybrid_score": 0.0138,
   "modern_hybrid_score": 0.0,
   "impact_score": 0.0,
   "p2016_impact_score": 1.0,
@@ -57,8 +57,8 @@
   "delving_threads": 0.0,
   "ml_responses": 2.0,
   "delving_responses": 0.0,
-  "first_active": "2021-05-15T17:14:13",
-  "last_active": "2022-01-11T18:47:41",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Participant",
   "expertise_domains": [
     "Mining"
@@ -81,8 +81,8 @@
   "is_reviewer": false,
   "is_researcher": true,
   "is_bip_author": false,
-  "global_first_active": "2021-05-15T17:14:13",
-  "global_last_active": "2022-01-11T18:47:41",
+  "global_first_active": null,
+  "global_last_active": null,
   "github_location": null,
   "github_company": null,
   "github_bio": null,

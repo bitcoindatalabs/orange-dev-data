@@ -1,7 +1,7 @@
 {
   "display_name": "garlo nicon",
   "github_login_final": null,
-  "delving_username_final": null,
+  "delving_username_final": "garlonicon",
   "uuid": "auto_garlo_nicon",
   "badges": null,
   "roles": null,
@@ -45,47 +45,47 @@
   "avg_pr_ack_velocity_days": null,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": null,
-  "hybrid_score": 0.0416,
-  "p2016_hybrid_score": 0.0683,
-  "modern_hybrid_score": 0.239,
+  "hybrid_score": 0.041,
+  "p2016_hybrid_score": 0.0669,
+  "modern_hybrid_score": 0.2288,
   "impact_score": 2.0,
   "p2016_impact_score": 4.0,
   "modern_impact_score": 13.0,
-  "threads_started": 0.0,
-  "replies_sent": 30.0,
+  "threads_started": 22.0,
+  "replies_sent": 52.0,
   "ml_threads": 0.0,
-  "delving_threads": 0.0,
+  "delving_threads": 22.0,
   "ml_responses": 30.0,
-  "delving_responses": 0.0,
-  "first_active": "2024-04-08T14:11:53",
-  "last_active": "2026-06-02T11:22:54",
+  "delving_responses": 22.0,
+  "first_active": null,
+  "last_active": "2026-09-27T10:35:58.045000",
   "dev_type": "Participant",
   "expertise_domains": [
-    "Consensus",
-    "Cryptography"
+    "Mining",
+    "Mempool"
   ],
   "expertise_by_source": {
     "discussion": {
-      "Consensus": 0.545,
-      "Cryptography": 0.455
+      "Mining": 0.571,
+      "Mempool": 0.429
     }
   },
   "expertise_domain_scores": {
-    "Consensus": 0.545,
-    "Cryptography": 0.455
+    "Mining": 0.571,
+    "Mempool": 0.429
   },
-  "p2016_posts": 30.0,
-  "modern_posts": 30.0,
+  "p2016_posts": 74.0,
+  "modern_posts": 74.0,
   "p2016_ml_posts": 30.0,
-  "p2016_delving_posts": 0.0,
+  "p2016_delving_posts": 44.0,
   "modern_ml_posts": 30.0,
-  "modern_delving_posts": 0.0,
+  "modern_delving_posts": 44.0,
   "is_engineer": false,
   "is_reviewer": false,
   "is_researcher": true,
   "is_bip_author": false,
-  "global_first_active": "2024-04-08T14:11:53",
-  "global_last_active": "2026-06-02T11:22:54",
+  "global_first_active": null,
+  "global_last_active": "2026-09-27T10:35:58.045000",
   "github_location": null,
   "github_company": null,
   "github_bio": null,
@@ -94,6 +94,7 @@
   "github_followers": null,
   "activity_status": "Rising",
   "is_top_50": false,
+  "delving_url": "https://delvingbitcoin.org/u/garlonicon",
   "first_message": {
     "source": "mailing_list",
     "subject": "[bitcoindev] Re: The Future of Bitcoin Testnet",
@@ -101,38 +102,43 @@
     "link": "https://gnusha.org/pi/bitcoindev/6733b634-e6da-4bb3-a3b6-bffa41395e9cn@googlegroups.com"
   },
   "last_message": {
-    "source": "mailing_list",
-    "subject": "Re: [bitcoindev] [BIP Draft] Testnet 5",
-    "date": "2026-06-02",
-    "link": "https://gnusha.org/pi/bitcoindev/CAN7kyNiH_8hnBmxBR8rPc+wYwbKPRy51yif3jRXofHbFFKsSgQ@mail.gmail.com"
+    "source": "delving",
+    "subject": "Re: Softfork before GTA VI?",
+    "date": "2026-09-27",
+    "link": "https://delvingbitcoin.org/t/softfork-before-gta-vi/2913/2"
   },
   "social_history": {
     "2024": {
-      "covenants": 1,
-      "mempool-fees": 2,
-      "mining": 3,
+      "covenants": 3,
+      "other": 12,
+      "mempool-fees": 4,
+      "mining": 9,
       "quantum": 1,
-      "script-opcodes": 2,
-      "other": 1,
+      "script-opcodes": 3,
       "spam-filtering": 1,
-      "taproot": 2,
-      "testing-devtools": 7
+      "taproot": 3,
+      "testing-devtools": 9
     },
     "2025": {
-      "other": 8,
-      "mempool-fees": 1,
-      "mining": 1,
-      "spam-filtering": 2,
-      "taproot": 3,
-      "testing-devtools": 7
+      "other": 41,
+      "covenants": 3,
+      "mempool-fees": 7,
+      "mining": 13,
+      "quantum": 4,
+      "script-opcodes": 13,
+      "spam-filtering": 17,
+      "taproot": 6,
+      "testing-devtools": 11
     },
     "2026": {
-      "covenants": 1,
-      "quantum": 4,
-      "script-opcodes": 1,
-      "other": 1,
-      "taproot": 1,
-      "testing-devtools": 1
+      "other": 21,
+      "covenants": 5,
+      "mempool-fees": 2,
+      "mining": 5,
+      "quantum": 7,
+      "script-opcodes": 3,
+      "taproot": 4,
+      "testing-devtools": 5
     }
   }
 }

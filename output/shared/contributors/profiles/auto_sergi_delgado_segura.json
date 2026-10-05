@@ -1,7 +1,7 @@
 {
-  "display_name": "sergi delgado segura",
+  "display_name": "Sergi Delgado Segura",
   "github_login_final": "sr-gi",
-  "delving_username_final": null,
+  "delving_username_final": "sr-gi",
   "uuid": "auto_sergi_delgado_segura",
   "badges": {
     "is_maintainer": false,
@@ -23,12 +23,12 @@
   "self_merges": 0.0,
   "total_additions": 864.0,
   "total_deletions": 379.0,
-  "first_core_commit": "2023-11-08T11:15:41+00:00",
-  "last_core_commit": "2025-10-27T16:17:37+00:00",
+  "first_core_commit": "2023-11-08T11:31:59+00:00",
+  "last_core_commit": "2025-10-27T16:17:53+00:00",
   "first_ecosystem_commit": null,
   "last_ecosystem_commit": null,
-  "first_commit": "2023-11-08T11:15:41",
-  "last_commit": "2025-10-27T16:17:37",
+  "first_commit": "2023-11-08T11:31:59",
+  "last_commit": "2025-10-27T16:17:53",
   "p2016_authored_commits": 28.0,
   "modern_authored_commits": 23.0,
   "co_authored_commits": 0.0,
@@ -53,42 +53,52 @@
   "avg_pr_ack_velocity_days": 22.527798295454545,
   "avg_concept_lead_time_days": 54.226325676638176,
   "review_reciprocity": 1.8214285714285714,
-  "hybrid_score": 0.16,
-  "p2016_hybrid_score": 0.1663,
-  "modern_hybrid_score": 0.2035,
-  "impact_score": 9.0,
-  "p2016_impact_score": 9.0,
-  "modern_impact_score": 11.0,
-  "threads_started": 1.0,
-  "replies_sent": 1.0,
+  "hybrid_score": 0.3542,
+  "p2016_hybrid_score": 0.3604,
+  "modern_hybrid_score": 0.396,
+  "impact_score": 19.0,
+  "p2016_impact_score": 19.0,
+  "modern_impact_score": 21.0,
+  "threads_started": 7.0,
+  "replies_sent": 2.0,
   "ml_threads": 1.0,
-  "delving_threads": 0.0,
+  "delving_threads": 6.0,
   "ml_responses": 1.0,
-  "delving_responses": 0.0,
-  "first_active": "2023-09-13T16:15:36",
-  "last_active": "2024-04-11T09:22:15",
-  "dev_type": "Reviewer",
+  "delving_responses": 1.0,
+  "first_active": null,
+  "last_active": "2025-02-05T20:48:13.842000",
+  "dev_type": "Builder",
   "expertise_domains": [
-    "Ecosystem",
-    "L2"
+    "Network",
+    "Infrastructure",
+    "Ecosystem"
   ],
   "expertise_by_source": {
     "discussion": {
-      "Ecosystem": 0.5,
-      "L2": 0.5
+      "Ecosystem": 0.11,
+      "L2": 0.11,
+      "Network": 0.78
+    },
+    "code": {
+      "Infrastructure": 0.738,
+      "Consensus": 0.036,
+      "Network": 0.226
     }
   },
   "expertise_domain_scores": {
-    "Ecosystem": 0.5,
-    "L2": 0.5
+    "Infrastructure": 0.4428,
+    "Consensus": 0.0216,
+    "Ecosystem": 0.044,
+    "L2": 0.044,
+    "Network": 0.4476
   },
-  "p2016_posts": 2.0,
-  "modern_posts": 1.0,
+  "p2016_posts": 9.0,
+  "modern_posts": 8.0,
   "p2016_ml_posts": 2.0,
-  "p2016_delving_posts": 0.0,
+  "p2016_delving_posts": 7.0,
   "modern_ml_posts": 1.0,
-  "modern_delving_posts": 0.0,
-  "is_engineer": false,
+  "modern_delving_posts": 7.0,
+  "is_engineer": true,
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": false,
@@ -103,23 +113,24 @@
   "activity_status": "Rising",
   "is_top_50": false,
   "github_url": "https://github.com/sr-gi",
+  "delving_url": "https://delvingbitcoin.org/u/sr-gi",
   "commit_history": {
     "2023": {
-      "Node & RPC": 0.67,
-      "P2P Network": 3.67,
-      "Tests": 3.67
+      "Node & RPC": 0.33,
+      "P2P Network": 1.83,
+      "Tests": 1.83
     },
     "2024": {
-      "Build & CI": 2.0,
-      "Node & RPC": 6.0,
-      "P2P Network": 9.0,
-      "Tests": 13.0
+      "Build & CI": 1.0,
+      "Node & RPC": 3.0,
+      "P2P Network": 4.5,
+      "Tests": 6.5
     },
     "2025": {
-      "Consensus": 2.0,
-      "Documentation": 2.0,
-      "Node & RPC": 4.0,
-      "Tests": 10.0
+      "Consensus": 1.0,
+      "Documentation": 1.0,
+      "Node & RPC": 2.0,
+      "Tests": 5.0
     }
   },
   "first_message": {
@@ -129,17 +140,21 @@
     "link": "https://gnusha.org/pi/bitcoindev/CAEYHFxUR+BJxc5mSTuZzJ9cKXUP4-uW6qTJL3ja=vDyxXD3oDw@mail.gmail.com"
   },
   "last_message": {
-    "source": "mailing_list",
-    "subject": "Re: [bitcoindev] Re: Adding New BIP Editors",
-    "date": "2024-04-11",
-    "link": "https://gnusha.org/pi/bitcoindev/CAEYHFxV_8_Jw61tysL_cV_xiXBcRyA3e=CGHGuSCgm+-4WxT9w@mail.gmail.com"
+    "source": "delving",
+    "subject": "Erlay: Define fanout rate based on the transaction reception method",
+    "date": "2025-02-05",
+    "link": "https://delvingbitcoin.org/t/erlay-define-fanout-rate-based-on-the-transaction-reception-method/1422/1"
   },
   "social_history": {
     "2023": {
       "lightning": 1
     },
     "2024": {
-      "bip-process": 1
+      "bip-process": 1,
+      "p2p-network": 1
+    },
+    "2025": {
+      "p2p-network": 6
     }
   }
 }

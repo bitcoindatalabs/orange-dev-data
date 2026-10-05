@@ -1,5 +1,5 @@
 {
-  "display_name": "Brandon Dahler",
+  "display_name": "brandon dahler",
   "github_login_final": "brandondahler",
   "delving_username_final": null,
   "uuid": "auto_brandon_dahler",
@@ -15,12 +15,12 @@
   "self_merges": 0.0,
   "total_additions": 2086.0,
   "total_deletions": 1668.0,
-  "first_core_commit": "2013-11-09T17:43:28+00:00",
-  "last_core_commit": "2014-04-01T06:40:01+00:00",
+  "first_core_commit": "2013-11-09T17:47:00+00:00",
+  "last_core_commit": "2014-04-01T06:40:36+00:00",
   "first_ecosystem_commit": null,
   "last_ecosystem_commit": null,
-  "first_commit": "2013-11-09T17:43:28",
-  "last_commit": "2014-04-01T06:40:01",
+  "first_commit": "2013-11-09T17:47:00",
+  "last_commit": "2014-04-01T06:40:36",
   "p2016_authored_commits": 0.0,
   "modern_authored_commits": 0.0,
   "co_authored_commits": 0.0,
@@ -45,10 +45,10 @@
   "avg_pr_ack_velocity_days": 37.71083622685185,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": 1.6666666666666667,
-  "hybrid_score": 0.0952,
+  "hybrid_score": 0.1876,
   "p2016_hybrid_score": 0.058,
   "modern_hybrid_score": 0.05,
-  "impact_score": 6.0,
+  "impact_score": 11.0,
   "p2016_impact_score": 3.0,
   "modern_impact_score": 3.0,
   "threads_started": 0.0,
@@ -59,13 +59,25 @@
   "delving_responses": 0.0,
   "first_active": null,
   "last_active": null,
-  "dev_type": "Reviewer",
+  "dev_type": "Builder",
   "expertise_domains": [
-    "Infrastructure"
+    "Infrastructure",
+    "Consensus",
+    "Mempool"
   ],
-  "expertise_by_source": {},
+  "expertise_by_source": {
+    "code": {
+      "Infrastructure": 0.909,
+      "Consensus": 0.03,
+      "Network": 0.03,
+      "Mempool": 0.03
+    }
+  },
   "expertise_domain_scores": {
-    "Infrastructure": 1.0
+    "Infrastructure": 0.9099,
+    "Consensus": 0.03,
+    "Mempool": 0.03,
+    "Network": 0.03
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,
@@ -73,11 +85,11 @@
   "p2016_delving_posts": 0.0,
   "modern_ml_posts": 0.0,
   "modern_delving_posts": 0.0,
-  "is_engineer": false,
+  "is_engineer": true,
   "is_reviewer": true,
   "is_researcher": false,
   "is_bip_author": false,
-  "global_first_active": "2013-11-09T17:43:28",
+  "global_first_active": "2013-11-09T17:47:00",
   "global_last_active": "2016-09-07T02:46:22",
   "github_location": "Raleigh, NC",
   "github_company": "Amazon Web Services",
@@ -90,19 +102,19 @@
   "github_url": "https://github.com/brandondahler",
   "commit_history": {
     "2013": {
-      "Build & CI": 1.25,
-      "Consensus": 0.25,
-      "Documentation": 1.0,
-      "GUI": 0.25,
-      "Mempool": 0.25,
-      "Node & RPC": 0.25,
-      "P2P Network": 0.25,
-      "Tests": 0.25,
-      "Utilities": 2.25
+      "Build & CI": 0.62,
+      "Consensus": 0.12,
+      "Documentation": 0.5,
+      "GUI": 0.12,
+      "Mempool": 0.12,
+      "Node & RPC": 0.12,
+      "P2P Network": 0.12,
+      "Tests": 0.12,
+      "Utilities": 1.12
     },
     "2014": {
-      "GUI": 1.0,
-      "Utilities": 1.0
+      "GUI": 0.5,
+      "Utilities": 0.5
     }
   }
 }

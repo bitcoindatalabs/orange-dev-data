@@ -1,5 +1,5 @@
 {
-  "display_name": "salvatore ingala",
+  "display_name": "Salvatore Ingala",
   "github_login_final": "bigspider",
   "delving_username_final": null,
   "uuid": "auto_salvatore_ingala",
@@ -29,12 +29,12 @@
   "self_merges": 0.0,
   "total_additions": 334.0,
   "total_deletions": 249.0,
-  "first_core_commit": "2025-07-01T18:56:37+00:00",
-  "last_core_commit": "2025-07-01T18:56:37+00:00",
+  "first_core_commit": "2025-07-01T18:56:57+00:00",
+  "last_core_commit": "2025-07-01T18:56:57+00:00",
   "first_ecosystem_commit": "2022-06-15T16:50:26+00:00",
   "last_ecosystem_commit": "2026-07-31T02:40:29+00:00",
-  "first_commit": "2025-07-01T18:56:37",
-  "last_commit": "2025-07-01T18:56:37",
+  "first_commit": "2025-07-01T18:56:57",
+  "last_commit": "2025-07-01T18:56:57",
   "p2016_authored_commits": 20.0,
   "modern_authored_commits": 5.0,
   "co_authored_commits": 1.0,
@@ -50,7 +50,7 @@
   "tier1_reviews_count": 7.0,
   "tier2_reviews_count": 21.0,
   "p2016_reviews_count": 28.0,
-  "modern_reviews_count": 24.0,
+  "modern_reviews_count": 23.0,
   "first_review_date": "2021-04-12T15:39:10",
   "last_review_date": "2026-08-18T09:08:59",
   "prs_authored": 12.0,
@@ -59,30 +59,34 @@
   "avg_pr_ack_velocity_days": 16.163119212962965,
   "avg_concept_lead_time_days": 0.06405092592592593,
   "review_reciprocity": 2.3333333333333335,
-  "hybrid_score": 0.7225,
-  "p2016_hybrid_score": 0.7514,
-  "modern_hybrid_score": 0.5079,
-  "impact_score": 35.0,
-  "p2016_impact_score": 36.0,
-  "modern_impact_score": 26.0,
+  "hybrid_score": 0.897,
+  "p2016_hybrid_score": 0.9246,
+  "modern_hybrid_score": 0.6104,
+  "impact_score": 42.0,
+  "p2016_impact_score": 43.0,
+  "modern_impact_score": 31.0,
   "threads_started": 5.0,
   "replies_sent": 21.0,
   "ml_threads": 5.0,
   "delving_threads": 0.0,
   "ml_responses": 21.0,
   "delving_responses": 0.0,
-  "first_active": "2020-06-08T04:28:28",
-  "last_active": "2025-01-17T07:02:50",
-  "dev_type": "Reviewer",
+  "first_active": null,
+  "last_active": null,
+  "dev_type": "Protocol Designer",
   "expertise_domains": [
+    "Wallet",
     "Script",
-    "Consensus",
-    "Wallet"
+    "Consensus"
   ],
   "expertise_by_source": {
     "discussion": {
-      "Script": 0.41,
-      "Wallet": 0.59
+      "Wallet": 0.59,
+      "Script": 0.41
+    },
+    "code": {
+      "Wallet": 0.95,
+      "Infrastructure": 0.05
     },
     "bips": {
       "Consensus": 0.5,
@@ -90,9 +94,10 @@
     }
   },
   "expertise_domain_scores": {
-    "Script": 0.4743,
-    "Consensus": 0.3571,
-    "Wallet": 0.1686
+    "Infrastructure": 0.015,
+    "Wallet": 0.403,
+    "Consensus": 0.25,
+    "Script": 0.332
   },
   "p2016_posts": 26.0,
   "modern_posts": 3.0,
@@ -100,11 +105,11 @@
   "p2016_delving_posts": 0.0,
   "modern_ml_posts": 3.0,
   "modern_delving_posts": 0.0,
-  "is_engineer": false,
+  "is_engineer": true,
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": true,
-  "global_first_active": "2020-06-08T04:28:28",
+  "global_first_active": "2021-04-12T15:39:10",
   "global_last_active": "2026-08-18T09:08:59",
   "github_location": null,
   "github_company": null,
@@ -123,7 +128,7 @@
       "Wallet": 2.0
     },
     "2025": {
-      "Documentation": 2.0
+      "Documentation": 1.0
     },
     "2026": {
       "Wallet": 2.0

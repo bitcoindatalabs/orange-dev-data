@@ -1,7 +1,7 @@
 {
-  "display_name": "ján sáreník",
+  "display_name": "Ján Sáreník",
   "github_login_final": "jsarenik",
-  "delving_username_final": null,
+  "delving_username_final": "jsarenik",
   "uuid": "auto_j_n_s_ren_k",
   "badges": null,
   "roles": null,
@@ -45,37 +45,44 @@
   "avg_pr_ack_velocity_days": 0.4134259259259259,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": 7.333333333333333,
-  "hybrid_score": 0.1154,
-  "p2016_hybrid_score": 0.1154,
-  "modern_hybrid_score": 0.0939,
+  "hybrid_score": 0.1205,
+  "p2016_hybrid_score": 0.123,
+  "modern_hybrid_score": 0.115,
   "impact_score": 7.0,
   "p2016_impact_score": 7.0,
-  "modern_impact_score": 5.0,
-  "threads_started": 0.0,
-  "replies_sent": 0.0,
+  "modern_impact_score": 7.0,
+  "threads_started": 13.0,
+  "replies_sent": 9.0,
   "ml_threads": 0.0,
-  "delving_threads": 0.0,
+  "delving_threads": 13.0,
   "ml_responses": 0.0,
-  "delving_responses": 0.0,
-  "first_active": null,
-  "last_active": null,
+  "delving_responses": 9.0,
+  "first_active": "2025-02-06T16:08:22.286000",
+  "last_active": "2026-06-23T05:48:48.265000",
   "dev_type": "Reviewer",
   "expertise_domains": [
-    "Infrastructure"
+    "Mempool",
+    "Mining"
   ],
-  "expertise_by_source": {},
-  "expertise_domain_scores": {
-    "Infrastructure": 1.0
+  "expertise_by_source": {
+    "discussion": {
+      "Mining": 0.429,
+      "Mempool": 0.571
+    }
   },
-  "p2016_posts": 0.0,
-  "modern_posts": 0.0,
+  "expertise_domain_scores": {
+    "Mining": 0.429,
+    "Mempool": 0.571
+  },
+  "p2016_posts": 22.0,
+  "modern_posts": 22.0,
   "p2016_ml_posts": 0.0,
-  "p2016_delving_posts": 0.0,
+  "p2016_delving_posts": 22.0,
   "modern_ml_posts": 0.0,
-  "modern_delving_posts": 0.0,
+  "modern_delving_posts": 22.0,
   "is_engineer": false,
   "is_reviewer": true,
-  "is_researcher": false,
+  "is_researcher": true,
   "is_bip_author": false,
   "global_first_active": "2020-09-29T13:33:15",
   "global_last_active": "2026-08-21T07:44:02",
@@ -87,5 +94,38 @@
   "github_followers": 117.0,
   "activity_status": "Active",
   "is_top_50": false,
-  "github_url": "https://github.com/jsarenik"
+  "github_url": "https://github.com/jsarenik",
+  "delving_url": "https://delvingbitcoin.org/u/jsarenik",
+  "first_message": {
+    "source": "delving",
+    "subject": "Signet faucet using TRUC and RBF",
+    "date": "2025-02-06",
+    "link": "https://delvingbitcoin.org/t/signet-faucet-using-truc-and-rbf/1426/1"
+  },
+  "last_message": {
+    "source": "delving",
+    "subject": "Re: Regular signet reorgs",
+    "date": "2026-06-23",
+    "link": "https://delvingbitcoin.org/t/regular-signet-reorgs/2549/6"
+  },
+  "social_history": {
+    "2025": {
+      "other": 12,
+      "lightning": 2,
+      "mempool-fees": 4,
+      "mining": 5,
+      "multisig-threshold": 2,
+      "ordinals-inscriptions": 2,
+      "testing-devtools": 5,
+      "utxo-sync": 3
+    },
+    "2026": {
+      "covenants": 2,
+      "mempool-fees": 2,
+      "mining": 1,
+      "other": 4,
+      "testing-devtools": 2,
+      "utxo-sync": 1
+    }
+  }
 }

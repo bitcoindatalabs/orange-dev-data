@@ -1,7 +1,7 @@
 {
   "display_name": "Russell O'Connor",
   "github_login_final": "roconnor",
-  "delving_username_final": null,
+  "delving_username_final": "roconnor-blockstream",
   "uuid": "can_russell_o_connor",
   "badges": {
     "is_maintainer": false,
@@ -53,46 +53,52 @@
   "avg_pr_ack_velocity_days": 4.078164457070707,
   "avg_concept_lead_time_days": 12.787504340277778,
   "review_reciprocity": 1.2195121951219512,
-  "hybrid_score": 0.358,
-  "p2016_hybrid_score": 0.492,
-  "modern_hybrid_score": 0.3053,
-  "impact_score": 19.0,
-  "p2016_impact_score": 26.0,
-  "modern_impact_score": 17.0,
-  "threads_started": 15.0,
-  "replies_sent": 216.0,
+  "hybrid_score": 0.5864,
+  "p2016_hybrid_score": 0.7154,
+  "modern_hybrid_score": 0.4584,
+  "impact_score": 30.0,
+  "p2016_impact_score": 35.0,
+  "modern_impact_score": 24.0,
+  "threads_started": 22.0,
+  "replies_sent": 218.0,
   "ml_threads": 15.0,
-  "delving_threads": 0.0,
+  "delving_threads": 7.0,
   "ml_responses": 216.0,
-  "delving_responses": 0.0,
-  "first_active": "2011-12-29T00:55:03",
-  "last_active": "2025-12-15T10:31:49",
-  "dev_type": "Reviewer",
+  "delving_responses": 2.0,
+  "first_active": null,
+  "last_active": null,
+  "dev_type": "Builder",
   "expertise_domains": [
+    "Infrastructure",
     "Script",
     "Consensus"
   ],
   "expertise_by_source": {
     "discussion": {
-      "Script": 0.667,
-      "Consensus": 0.333
+      "Consensus": 0.31,
+      "Script": 0.69
+    },
+    "code": {
+      "Infrastructure": 0.975,
+      "Script": 0.025
     }
   },
   "expertise_domain_scores": {
-    "Script": 0.667,
-    "Consensus": 0.333
+    "Infrastructure": 0.585,
+    "Consensus": 0.124,
+    "Script": 0.291
   },
-  "p2016_posts": 226.0,
-  "modern_posts": 15.0,
+  "p2016_posts": 235.0,
+  "modern_posts": 24.0,
   "p2016_ml_posts": 226.0,
-  "p2016_delving_posts": 0.0,
+  "p2016_delving_posts": 9.0,
   "modern_ml_posts": 15.0,
-  "modern_delving_posts": 0.0,
-  "is_engineer": false,
+  "modern_delving_posts": 9.0,
+  "is_engineer": true,
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": false,
-  "global_first_active": "2011-12-29T00:55:03",
+  "global_first_active": "2017-08-26T16:10:45",
   "global_last_active": "2026-09-10T16:59:21",
   "github_location": null,
   "github_company": null,
@@ -100,9 +106,10 @@
   "github_twitter": null,
   "github_blog": null,
   "github_followers": null,
-  "activity_status": "Rising",
+  "activity_status": "Active",
   "is_top_50": false,
   "github_url": "https://github.com/roconnor",
+  "delving_url": "https://delvingbitcoin.org/u/roconnor-blockstream",
   "commit_history": {
     "2019": {
       "Utilities": 8.0
@@ -112,8 +119,8 @@
     },
     "2021": {
       "Build & CI": 0.5,
-      "Script": 1.0,
-      "Tests": 1.0,
+      "Script": 0.5,
+      "Tests": 0.5,
       "Utilities": 20.5
     },
     "2022": {
@@ -121,9 +128,9 @@
       "Utilities": 5.5
     },
     "2023": {
-      "Script": 1.67,
-      "Tests": 5.67,
-      "Utilities": 10.67
+      "Script": 0.83,
+      "Tests": 2.83,
+      "Utilities": 10.33
     },
     "2024": {
       "Utilities": 1.0
@@ -222,12 +229,18 @@
       "script-opcodes": 3,
       "taproot": 5
     },
-    "2025": {
-      "other": 10,
+    "2024": {
+      "other": 4,
       "mempool-fees": 4,
       "script-opcodes": 4,
+      "soft-fork-activation": 2
+    },
+    "2025": {
+      "other": 11,
+      "mempool-fees": 6,
+      "script-opcodes": 9,
       "soft-fork-activation": 4,
-      "taproot": 2
+      "taproot": 3
     }
   }
 }

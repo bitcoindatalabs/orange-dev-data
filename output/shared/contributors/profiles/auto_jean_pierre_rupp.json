@@ -1,5 +1,5 @@
 {
-  "display_name": "Jean-Pierre Rupp",
+  "display_name": "jean-pierre rupp",
   "github_login_final": "jprupp",
   "delving_username_final": null,
   "uuid": "auto_jean_pierre_rupp",
@@ -69,8 +69,8 @@
   "delving_threads": 0.0,
   "ml_responses": 11.0,
   "delving_responses": 0.0,
-  "first_active": "2012-03-19T02:28:55",
-  "last_active": "2015-10-05T14:36:05",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Participant",
   "expertise_domains": [
     "Script",
@@ -78,16 +78,16 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Script": 0.299,
-      "Wallet": 0.701
+      "Wallet": 0.701,
+      "Script": 0.299
     },
     "bips": {
       "Script": 1.0
     }
   },
   "expertise_domain_scores": {
-    "Script": 0.7997,
-    "Wallet": 0.2003
+    "Wallet": 0.2003,
+    "Script": 0.7997
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,
@@ -99,7 +99,7 @@
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": true,
-  "global_first_active": "2012-03-19T02:28:55",
+  "global_first_active": "2015-02-12T15:02:56",
   "global_last_active": "2021-11-08T19:28:49",
   "github_location": null,
   "github_company": null,

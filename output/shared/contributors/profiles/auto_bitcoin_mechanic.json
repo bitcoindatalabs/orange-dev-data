@@ -1,5 +1,5 @@
 {
-  "display_name": "bitcoin mechanic",
+  "display_name": "Bitcoin Mechanic",
   "github_login_final": "BitcoinMechanic",
   "delving_username_final": null,
   "uuid": "auto_bitcoin_mechanic",
@@ -45,8 +45,8 @@
   "avg_pr_ack_velocity_days": null,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": 3.3333333333333335,
-  "hybrid_score": 0.1008,
-  "p2016_hybrid_score": 0.1061,
+  "hybrid_score": 0.1007,
+  "p2016_hybrid_score": 0.106,
   "modern_hybrid_score": 0.1366,
   "impact_score": 6.0,
   "p2016_impact_score": 6.0,
@@ -57,8 +57,8 @@
   "delving_threads": 0.0,
   "ml_responses": 2.0,
   "delving_responses": 0.0,
-  "first_active": "2021-04-09T21:40:29",
-  "last_active": "2025-12-11T14:54:21",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Reviewer",
   "expertise_domains": [
     "Ecosystem",
@@ -66,13 +66,13 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Ecosystem": 0.5,
-      "Consensus": 0.5
+      "Consensus": 0.5,
+      "Ecosystem": 0.5
     }
   },
   "expertise_domain_scores": {
-    "Ecosystem": 0.5,
-    "Consensus": 0.5
+    "Consensus": 0.5,
+    "Ecosystem": 0.5
   },
   "p2016_posts": 3.0,
   "modern_posts": 2.0,
@@ -84,7 +84,7 @@
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": false,
-  "global_first_active": "2021-04-09T21:40:29",
+  "global_first_active": "2023-07-31T00:43:49",
   "global_last_active": "2026-02-06T17:15:16",
   "github_location": null,
   "github_company": null,

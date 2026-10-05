@@ -15,12 +15,12 @@
   "self_merges": 0.0,
   "total_additions": 44.0,
   "total_deletions": 4.0,
-  "first_core_commit": "2025-05-20T19:02:54+00:00",
-  "last_core_commit": "2026-09-21T11:56:43+00:00",
+  "first_core_commit": "2025-05-20T19:02:44+00:00",
+  "last_core_commit": "2026-09-21T11:57:33+00:00",
   "first_ecosystem_commit": null,
   "last_ecosystem_commit": null,
-  "first_commit": "2025-05-20T19:02:54",
-  "last_commit": "2026-09-21T11:56:43",
+  "first_commit": "2025-05-20T19:02:44",
+  "last_commit": "2026-09-21T11:57:33",
   "p2016_authored_commits": 5.0,
   "modern_authored_commits": 5.0,
   "co_authored_commits": 2.0,
@@ -29,7 +29,7 @@
   "modern_bips_authored": 0.0,
   "first_bip_date": null,
   "last_bip_date": null,
-  "avg_review_latency_days": 151.57894270338713,
+  "avg_review_latency_days": 232.8495667989418,
   "reviews_count": 50.0,
   "avg_approval_latency_days": 105.23318196849446,
   "approvals_count": 49.0,
@@ -38,41 +38,48 @@
   "p2016_reviews_count": 50.0,
   "modern_reviews_count": 50.0,
   "first_review_date": "2025-07-16T23:05:27",
-  "last_review_date": "2026-09-25T14:53:59",
+  "last_review_date": "2026-09-30T17:20:22",
   "prs_authored": 15.0,
   "tier1_prs_authored": 13.0,
   "tier2_prs_authored": 2.0,
   "avg_pr_ack_velocity_days": 4.7929484953703705,
   "avg_concept_lead_time_days": 10.329055555555556,
   "review_reciprocity": 3.3333333333333335,
-  "hybrid_score": 0.1547,
-  "p2016_hybrid_score": 0.1591,
-  "modern_hybrid_score": 0.1937,
-  "impact_score": 9.0,
-  "p2016_impact_score": 9.0,
-  "modern_impact_score": 11.0,
+  "hybrid_score": 0.2577,
+  "p2016_hybrid_score": 0.2618,
+  "modern_hybrid_score": 0.286,
+  "impact_score": 14.0,
+  "p2016_impact_score": 15.0,
+  "modern_impact_score": 16.0,
   "threads_started": 1.0,
   "replies_sent": 1.0,
   "ml_threads": 1.0,
   "delving_threads": 0.0,
   "ml_responses": 1.0,
   "delving_responses": 0.0,
-  "first_active": "2026-08-18T03:00:01",
-  "last_active": "2026-08-21T15:29:23",
-  "dev_type": "Reviewer",
+  "first_active": null,
+  "last_active": null,
+  "dev_type": "Builder",
   "expertise_domains": [
+    "Infrastructure",
     "Mempool",
     "Wallet"
   ],
   "expertise_by_source": {
     "discussion": {
-      "Mempool": 0.667,
-      "Wallet": 0.333
+      "Wallet": 0.333,
+      "Mempool": 0.667
+    },
+    "code": {
+      "Infrastructure": 0.9,
+      "Consensus": 0.1
     }
   },
   "expertise_domain_scores": {
-    "Mempool": 0.667,
-    "Wallet": 0.333
+    "Infrastructure": 0.54,
+    "Wallet": 0.1332,
+    "Consensus": 0.06,
+    "Mempool": 0.2668
   },
   "p2016_posts": 2.0,
   "modern_posts": 2.0,
@@ -80,12 +87,12 @@
   "p2016_delving_posts": 0.0,
   "modern_ml_posts": 2.0,
   "modern_delving_posts": 0.0,
-  "is_engineer": false,
+  "is_engineer": true,
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": false,
-  "global_first_active": "2025-05-20T19:02:54",
-  "global_last_active": "2026-09-25T14:53:59",
+  "global_first_active": "2025-05-20T19:02:44",
+  "global_last_active": "2026-09-30T17:20:22",
   "github_location": "Earth",
   "github_company": null,
   "github_bio": "Bitcoin. Rust.\r\nGPG: 4B2D601F1E63068E",
@@ -97,13 +104,14 @@
   "github_url": "https://github.com/nervana21",
   "commit_history": {
     "2025": {
-      "Documentation": 2.0,
-      "Node & RPC": 2.0
+      "Documentation": 1.0,
+      "Node & RPC": 1.0
     },
     "2026": {
-      "Node & RPC": 2.0,
+      "Consensus": 0.5,
+      "Node & RPC": 1.0,
       "Tests": 1.0,
-      "Utilities": 1.0
+      "Utilities": 0.5
     }
   },
   "first_message": {

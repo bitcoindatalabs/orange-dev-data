@@ -1,5 +1,5 @@
 {
-  "display_name": "david barnes | bitcoin co. ltd.",
+  "display_name": "David Barnes | Bitcoin Co. Ltd.",
   "github_login_final": null,
   "delving_username_final": null,
   "uuid": "auto_david_barnes_bitcoin_co_ltd",
@@ -57,8 +57,8 @@
   "delving_threads": 0.0,
   "ml_responses": 4.0,
   "delving_responses": 0.0,
-  "first_active": "2015-07-16T21:26:01",
-  "last_active": "2015-07-17T10:47:24",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Participant",
   "expertise_domains": [
     "Ecosystem",
@@ -66,13 +66,13 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Ecosystem": 0.91,
-      "Consensus": 0.09
+      "Consensus": 0.09,
+      "Ecosystem": 0.91
     }
   },
   "expertise_domain_scores": {
-    "Ecosystem": 0.91,
-    "Consensus": 0.09
+    "Consensus": 0.09,
+    "Ecosystem": 0.91
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,
@@ -84,8 +84,8 @@
   "is_reviewer": false,
   "is_researcher": true,
   "is_bip_author": false,
-  "global_first_active": "2015-07-16T21:26:01",
-  "global_last_active": "2015-07-17T10:47:24",
+  "global_first_active": null,
+  "global_last_active": null,
   "github_location": null,
   "github_company": null,
   "github_bio": null,

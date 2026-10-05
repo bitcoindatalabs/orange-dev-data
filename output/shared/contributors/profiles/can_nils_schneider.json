@@ -63,10 +63,10 @@
   "avg_pr_ack_velocity_days": 4.912746362433863,
   "avg_concept_lead_time_days": 2.551835317460317,
   "review_reciprocity": 1.4375,
-  "hybrid_score": 1.4974,
+  "hybrid_score": 1.7143,
   "p2016_hybrid_score": 0.0977,
   "modern_hybrid_score": 0.0792,
-  "impact_score": 59.0,
+  "impact_score": 64.0,
   "p2016_impact_score": 6.0,
   "modern_impact_score": 5.0,
   "threads_started": 1.0,
@@ -75,24 +75,30 @@
   "delving_threads": 0.0,
   "ml_responses": 7.0,
   "delving_responses": 0.0,
-  "first_active": "2011-09-02T17:05:18",
-  "last_active": "2012-07-09T12:33:46",
-  "dev_type": "Reviewer",
+  "first_active": null,
+  "last_active": null,
+  "dev_type": "Protocol Designer",
   "expertise_domains": [
     "Infrastructure",
-    "Ecosystem"
+    "Ecosystem",
+    "Network"
   ],
   "expertise_by_source": {
     "discussion": {
       "Ecosystem": 1.0
+    },
+    "code": {
+      "Infrastructure": 0.956,
+      "Network": 0.044
     },
     "bips": {
       "Infrastructure": 1.0
     }
   },
   "expertise_domain_scores": {
-    "Infrastructure": 0.7143,
-    "Ecosystem": 0.2857
+    "Infrastructure": 0.7868,
+    "Ecosystem": 0.2,
+    "Network": 0.0132
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,
@@ -100,7 +106,7 @@
   "p2016_delving_posts": 0.0,
   "modern_ml_posts": 0.0,
   "modern_delving_posts": 0.0,
-  "is_engineer": false,
+  "is_engineer": true,
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": true,
@@ -117,23 +123,23 @@
   "github_url": "https://github.com/tcatm",
   "commit_history": {
     "2011": {
-      "Build & CI": 0.5,
-      "Documentation": 2.5,
-      "GUI": 16.0,
-      "Merge": 8.0,
-      "Node & RPC": 2.0,
-      "P2P Network": 3.0,
-      "Tests": 0.5,
-      "Utilities": 35.5
+      "Build & CI": 0.25,
+      "Documentation": 1.25,
+      "GUI": 8.0,
+      "Merge": 4.0,
+      "Node & RPC": 1.0,
+      "P2P Network": 1.5,
+      "Tests": 0.25,
+      "Utilities": 17.75
     },
     "2012": {
-      "Documentation": 2.0,
-      "GUI": 4.0,
-      "Merge": 8.0
+      "Documentation": 1.0,
+      "GUI": 2.0,
+      "Merge": 4.0
     },
     "2013": {
-      "GUI": 1.0,
-      "Node & RPC": 1.0
+      "GUI": 0.5,
+      "Node & RPC": 0.5
     }
   },
   "bip_list": [

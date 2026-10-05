@@ -1,7 +1,7 @@
 {
   "display_name": "Rene Pickhardt",
   "github_login_final": "renepickhardt",
-  "delving_username_final": null,
+  "delving_username_final": "renepickhardt",
   "uuid": "can_rene_pickhardt",
   "badges": null,
   "roles": null,
@@ -45,40 +45,47 @@
   "avg_pr_ack_velocity_days": 0.5218287037037037,
   "avg_concept_lead_time_days": 0.5218287037037037,
   "review_reciprocity": 0.6666666666666666,
-  "hybrid_score": 0.0542,
-  "p2016_hybrid_score": 0.0542,
-  "modern_hybrid_score": 0.033,
-  "impact_score": 3.0,
-  "p2016_impact_score": 3.0,
-  "modern_impact_score": 2.0,
-  "threads_started": 0.0,
-  "replies_sent": 0.0,
+  "hybrid_score": 0.0646,
+  "p2016_hybrid_score": 0.0713,
+  "modern_hybrid_score": 0.0806,
+  "impact_score": 4.0,
+  "p2016_impact_score": 4.0,
+  "modern_impact_score": 5.0,
+  "threads_started": 13.0,
+  "replies_sent": 5.0,
   "ml_threads": 0.0,
-  "delving_threads": 0.0,
+  "delving_threads": 13.0,
   "ml_responses": 0.0,
-  "delving_responses": 0.0,
-  "first_active": null,
-  "last_active": null,
+  "delving_responses": 5.0,
+  "first_active": "2023-01-10T12:23:21.800000",
+  "last_active": "2026-01-16T00:49:30.878000",
   "dev_type": "Participant",
   "expertise_domains": [
-    "Infrastructure"
+    "L2",
+    "Privacy"
   ],
-  "expertise_by_source": {},
-  "expertise_domain_scores": {
-    "Infrastructure": 1.0
+  "expertise_by_source": {
+    "discussion": {
+      "Privacy": 0.1,
+      "L2": 0.9
+    }
   },
-  "p2016_posts": 0.0,
-  "modern_posts": 0.0,
+  "expertise_domain_scores": {
+    "Privacy": 0.1,
+    "L2": 0.9
+  },
+  "p2016_posts": 18.0,
+  "modern_posts": 16.0,
   "p2016_ml_posts": 0.0,
-  "p2016_delving_posts": 0.0,
+  "p2016_delving_posts": 18.0,
   "modern_ml_posts": 0.0,
-  "modern_delving_posts": 0.0,
+  "modern_delving_posts": 16.0,
   "is_engineer": false,
   "is_reviewer": true,
-  "is_researcher": false,
+  "is_researcher": true,
   "is_bip_author": false,
   "global_first_active": "2021-03-29T08:36:23",
-  "global_last_active": "2022-04-01T13:32:58",
+  "global_last_active": "2026-01-16T00:49:30.878000",
   "github_location": null,
   "github_company": null,
   "github_bio": "Self-employed Data Science Consultant (ML & NLP & Analytics), hacker, open (source, education, access, data,...) activist, bitcoin & lightning network admirer",
@@ -87,5 +94,39 @@
   "github_followers": 493.0,
   "activity_status": "Active",
   "is_top_50": false,
-  "github_url": "https://github.com/renepickhardt"
+  "github_url": "https://github.com/renepickhardt",
+  "delving_url": "https://delvingbitcoin.org/u/renepickhardt",
+  "first_message": {
+    "source": "delving",
+    "subject": "Re: Lightning Fees - inbound vs outbound",
+    "date": "2023-01-10",
+    "link": "https://delvingbitcoin.org/t/lightning-fees-inbound-vs-outbound/29/2"
+  },
+  "last_message": {
+    "source": "delving",
+    "subject": "A Mathematical Theory of Payment Channel Networks",
+    "date": "2026-01-16",
+    "link": "https://delvingbitcoin.org/t/a-mathematical-theory-of-payment-channel-networks/2204/1"
+  },
+  "social_history": {
+    "2023": {
+      "lightning": 2
+    },
+    "2024": {
+      "l2-bridges": 1,
+      "lightning": 7,
+      "mempool-fees": 2,
+      "mining": 1
+    },
+    "2025": {
+      "l2-bridges": 1,
+      "lightning": 6,
+      "mining": 1,
+      "privacy": 4
+    },
+    "2026": {
+      "l2-bridges": 1,
+      "lightning": 2
+    }
+  }
 }

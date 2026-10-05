@@ -1,7 +1,7 @@
 {
-  "display_name": "Victor Kolobov",
+  "display_name": "victor kolobov",
   "github_login_final": null,
-  "delving_username_final": null,
+  "delving_username_final": "victorkstarkware",
   "uuid": "auto_victor_kolobov",
   "badges": null,
   "roles": null,
@@ -45,20 +45,20 @@
   "avg_pr_ack_velocity_days": null,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": null,
-  "hybrid_score": 0.0102,
-  "p2016_hybrid_score": 0.0167,
-  "modern_hybrid_score": 0.0553,
+  "hybrid_score": 0.0099,
+  "p2016_hybrid_score": 0.0161,
+  "modern_hybrid_score": 0.0516,
   "impact_score": 1.0,
   "p2016_impact_score": 1.0,
   "modern_impact_score": 3.0,
-  "threads_started": 2.0,
-  "replies_sent": 0.0,
+  "threads_started": 4.0,
+  "replies_sent": 3.0,
   "ml_threads": 2.0,
-  "delving_threads": 0.0,
+  "delving_threads": 2.0,
   "ml_responses": 0.0,
-  "delving_responses": 0.0,
-  "first_active": "2024-08-29T08:18:28",
-  "last_active": "2025-05-04T07:10:55",
+  "delving_responses": 3.0,
+  "first_active": null,
+  "last_active": "2025-05-04T12:08:34.491000",
   "dev_type": "Participant",
   "expertise_domains": [
     "L2",
@@ -66,26 +66,26 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "L2": 0.667,
-      "Script": 0.333
+      "Script": 0.477,
+      "L2": 0.523
     }
   },
   "expertise_domain_scores": {
-    "L2": 0.667,
-    "Script": 0.333
+    "Script": 0.477,
+    "L2": 0.523
   },
-  "p2016_posts": 2.0,
-  "modern_posts": 2.0,
+  "p2016_posts": 7.0,
+  "modern_posts": 7.0,
   "p2016_ml_posts": 2.0,
-  "p2016_delving_posts": 0.0,
+  "p2016_delving_posts": 5.0,
   "modern_ml_posts": 2.0,
-  "modern_delving_posts": 0.0,
+  "modern_delving_posts": 5.0,
   "is_engineer": false,
   "is_reviewer": false,
   "is_researcher": true,
   "is_bip_author": false,
-  "global_first_active": "2024-08-29T08:18:28",
-  "global_last_active": "2025-05-04T07:10:55",
+  "global_first_active": null,
+  "global_last_active": "2025-05-04T12:08:34.491000",
   "github_location": null,
   "github_company": null,
   "github_bio": null,
@@ -94,6 +94,7 @@
   "github_followers": null,
   "activity_status": "Active",
   "is_top_50": false,
+  "delving_url": "https://delvingbitcoin.org/u/victorkstarkware",
   "first_message": {
     "source": "mailing_list",
     "subject": "[bitcoindev] OP_CAT Research Fund sponsored by StarkWare",
@@ -101,22 +102,23 @@
     "link": "https://gnusha.org/pi/bitcoindev/04b61777-7f9a-4714-b3f2-422f99e54f87n@googlegroups.com"
   },
   "last_message": {
-    "source": "mailing_list",
-    "subject": "[bitcoindev] ColliderVM protocol for computation and L2 bridges",
+    "source": "delving",
+    "subject": "ColliderVM protocol for computation and L2 bridges",
     "date": "2025-05-04",
-    "link": "https://gnusha.org/pi/bitcoindev/CAF0T6Xhf=Qb+B-3nBtR1Oiyk3gOO=o-8jdT0cJ6fRH=2azQvAg@mail.gmail.com"
+    "link": "https://delvingbitcoin.org/t/collidervm-protocol-for-computation-and-l2-bridges/1662/1"
   },
   "social_history": {
     "2024": {
-      "bitvm": 1,
-      "covenants": 1,
+      "bitvm": 2,
+      "covenants": 2,
       "script-opcodes": 1,
       "soft-fork-activation": 1,
       "spam-filtering": 1
     },
     "2025": {
-      "bitvm": 1,
-      "l2-bridges": 1
+      "bitvm": 5,
+      "covenants": 3,
+      "l2-bridges": 2
     }
   }
 }

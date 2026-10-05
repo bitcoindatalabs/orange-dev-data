@@ -1,7 +1,7 @@
 {
   "display_name": "Jean Pablo",
   "github_login_final": "jeanpablojp",
-  "delving_username_final": null,
+  "delving_username_final": "jeanpablojp",
   "uuid": "auto_jean_pablo",
   "badges": {
     "ecosystem_contributor": true,
@@ -18,12 +18,12 @@
   "self_merges": 0.0,
   "total_additions": 1050.0,
   "total_deletions": 142.0,
-  "first_core_commit": "2026-08-04T11:28:38+00:00",
-  "last_core_commit": "2026-09-07T13:12:18+00:00",
+  "first_core_commit": "2026-08-04T11:29:02+00:00",
+  "last_core_commit": "2026-09-07T13:12:24+00:00",
   "first_ecosystem_commit": "2026-09-04T01:44:23+00:00",
   "last_ecosystem_commit": "2026-09-04T01:44:23+00:00",
-  "first_commit": "2026-08-04T11:28:38",
-  "last_commit": "2026-09-07T13:12:18",
+  "first_commit": "2026-08-04T11:29:02",
+  "last_commit": "2026-09-07T13:12:24",
   "p2016_authored_commits": 9.0,
   "modern_authored_commits": 9.0,
   "co_authored_commits": 2.0,
@@ -48,43 +48,53 @@
   "avg_pr_ack_velocity_days": 12.76458912037037,
   "avg_concept_lead_time_days": 5.2366319444444445,
   "review_reciprocity": 8.0,
-  "hybrid_score": 0.1672,
-  "p2016_hybrid_score": 0.1672,
-  "modern_hybrid_score": 0.1672,
-  "impact_score": 10.0,
-  "p2016_impact_score": 10.0,
-  "modern_impact_score": 10.0,
-  "threads_started": 1.0,
-  "replies_sent": 0.0,
+  "hybrid_score": 0.3,
+  "p2016_hybrid_score": 0.3,
+  "modern_hybrid_score": 0.3,
+  "impact_score": 16.0,
+  "p2016_impact_score": 16.0,
+  "modern_impact_score": 16.0,
+  "threads_started": 5.0,
+  "replies_sent": 1.0,
   "ml_threads": 1.0,
-  "delving_threads": 0.0,
+  "delving_threads": 4.0,
   "ml_responses": 0.0,
-  "delving_responses": 0.0,
-  "first_active": "2026-08-06T08:51:55",
-  "last_active": "2026-08-06T08:51:55",
-  "dev_type": "Reviewer",
+  "delving_responses": 1.0,
+  "first_active": "2026-07-28T21:29:41.575000",
+  "last_active": null,
+  "dev_type": "Builder",
   "expertise_domains": [
-    "Wallet"
+    "Wallet",
+    "Cryptography",
+    "Infrastructure"
   ],
   "expertise_by_source": {
     "discussion": {
-      "Wallet": 1.0
+      "Consensus": 0.38,
+      "Cryptography": 0.62
+    },
+    "code": {
+      "Wallet": 0.667,
+      "Infrastructure": 0.333
     }
   },
   "expertise_domain_scores": {
-    "Wallet": 1.0
+    "Infrastructure": 0.1998,
+    "Wallet": 0.4002,
+    "Consensus": 0.152,
+    "Cryptography": 0.248
   },
-  "p2016_posts": 1.0,
-  "modern_posts": 1.0,
+  "p2016_posts": 6.0,
+  "modern_posts": 6.0,
   "p2016_ml_posts": 1.0,
-  "p2016_delving_posts": 0.0,
+  "p2016_delving_posts": 5.0,
   "modern_ml_posts": 1.0,
-  "modern_delving_posts": 0.0,
-  "is_engineer": false,
+  "modern_delving_posts": 5.0,
+  "is_engineer": true,
   "is_reviewer": true,
   "is_researcher": false,
   "is_bip_author": false,
-  "global_first_active": "2026-08-03T23:45:59",
+  "global_first_active": "2026-07-28T21:29:41.575000",
   "global_last_active": "2026-09-14T13:53:19",
   "github_location": null,
   "github_company": null,
@@ -95,17 +105,18 @@
   "activity_status": "New",
   "is_top_50": false,
   "github_url": "https://github.com/jeanpablojp",
+  "delving_url": "https://delvingbitcoin.org/u/jeanpablojp",
   "commit_history": {
     "2026": {
-      "Tests": 4.0,
-      "Wallet": 10.0
+      "Tests": 3.0,
+      "Wallet": 6.0
     }
   },
   "first_message": {
-    "source": "mailing_list",
-    "subject": "[bitcoindev] [BIP Proposal] rawtr() Output Script Descriptors",
-    "date": "2026-08-06",
-    "link": "https://gnusha.org/pi/bitcoindev/DD9687EA-368C-482F-91B6-C5E2E230830C@hotmail.com"
+    "source": "delving",
+    "subject": "BIP 360 (P2MR) implemented in Bitcoin Core on regtest: vector results, measurements, spec feedback",
+    "date": "2026-07-28",
+    "link": "https://delvingbitcoin.org/t/bip-360-p2mr-implemented-in-bitcoin-core-on-regtest-vector-results-measurements-spec-feedback/2751/1"
   },
   "last_message": {
     "source": "mailing_list",
@@ -115,7 +126,15 @@
   },
   "social_history": {
     "2026": {
-      "wallet-keys": 1
+      "mempool-fees": 3,
+      "multisig-threshold": 1,
+      "privacy": 1,
+      "quantum": 5,
+      "scaling": 1,
+      "segwit": 1,
+      "taproot": 3,
+      "testing-devtools": 3,
+      "other": 2
     }
   }
 }

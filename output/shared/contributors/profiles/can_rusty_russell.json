@@ -1,7 +1,7 @@
 {
   "display_name": "Rusty Russell",
   "github_login_final": "rustyrussell",
-  "delving_username_final": null,
+  "delving_username_final": "rustyrussell",
   "uuid": "can_rusty_russell",
   "badges": {
     "is_maintainer": false,
@@ -57,30 +57,34 @@
   "avg_pr_ack_velocity_days": 44.17961805555556,
   "avg_concept_lead_time_days": 2.5776234567901235,
   "review_reciprocity": 1.7692307692307692,
-  "hybrid_score": 0.9838,
-  "p2016_hybrid_score": 0.893,
-  "modern_hybrid_score": 0.7662,
-  "impact_score": 45.0,
-  "p2016_impact_score": 41.0,
+  "hybrid_score": 1.0937,
+  "p2016_hybrid_score": 0.9908,
+  "modern_hybrid_score": 0.7615,
+  "impact_score": 48.0,
+  "p2016_impact_score": 45.0,
   "modern_impact_score": 37.0,
-  "threads_started": 20.0,
-  "replies_sent": 120.0,
+  "threads_started": 28.0,
+  "replies_sent": 145.0,
   "ml_threads": 20.0,
-  "delving_threads": 0.0,
+  "delving_threads": 8.0,
   "ml_responses": 120.0,
-  "delving_responses": 0.0,
-  "first_active": "2014-06-03T07:45:23",
-  "last_active": "2026-03-12T16:01:00",
-  "dev_type": "Reviewer",
+  "delving_responses": 25.0,
+  "first_active": null,
+  "last_active": null,
+  "dev_type": "Protocol Designer",
   "expertise_domains": [
-    "Consensus",
     "Infrastructure",
+    "Consensus",
     "Script"
   ],
   "expertise_by_source": {
     "discussion": {
-      "Script": 0.462,
-      "Consensus": 0.538
+      "Consensus": 0.222,
+      "Mempool": 0.361,
+      "Script": 0.417
+    },
+    "code": {
+      "Infrastructure": 1.0
     },
     "bips": {
       "Consensus": 0.667,
@@ -88,21 +92,22 @@
     }
   },
   "expertise_domain_scores": {
-    "Infrastructure": 0.2379,
-    "Script": 0.132,
-    "Consensus": 0.6301
+    "Infrastructure": 0.4665,
+    "Consensus": 0.3779,
+    "Mempool": 0.0722,
+    "Script": 0.0834
   },
-  "p2016_posts": 88.0,
-  "modern_posts": 13.0,
+  "p2016_posts": 121.0,
+  "modern_posts": 46.0,
   "p2016_ml_posts": 88.0,
-  "p2016_delving_posts": 0.0,
+  "p2016_delving_posts": 33.0,
   "modern_ml_posts": 13.0,
-  "modern_delving_posts": 0.0,
-  "is_engineer": false,
+  "modern_delving_posts": 33.0,
+  "is_engineer": true,
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": true,
-  "global_first_active": "2014-06-03T07:45:23",
+  "global_first_active": "2015-03-25T11:21:09",
   "global_last_active": "2026-03-28T23:02:59",
   "github_location": null,
   "github_company": "Blockstream",
@@ -113,13 +118,14 @@
   "activity_status": "Active",
   "is_top_50": false,
   "github_url": "https://github.com/rustyrussell",
+  "delving_url": "https://delvingbitcoin.org/u/rustyrussell",
   "commit_history": {
     "2015": {
       "Utilities": 1.0
     },
     "2016": {
-      "Node & RPC": 1.0,
-      "Utilities": 3.0
+      "Node & RPC": 0.5,
+      "Utilities": 1.5
     },
     "2017": {
       "Utilities": 2.0
@@ -178,31 +184,35 @@
       "soft-fork-activation": 15
     },
     "2016": {
-      "other": 14,
+      "lightning": 1,
       "mempool-fees": 1,
+      "other": 13,
       "script-opcodes": 3,
       "segwit": 2,
       "signatures-sighash": 2
     },
     "2017": {
       "covenants": 1,
-      "other": 3,
+      "lightning": 1,
+      "other": 2,
       "segwit": 3,
       "soft-fork-activation": 3
     },
     "2018": {
       "covenants": 1,
-      "other": 8,
+      "lightning": 6,
       "mempool-fees": 4,
+      "other": 2,
       "script-opcodes": 12,
       "segwit": 2,
       "signatures-sighash": 13
     },
     "2019": {
       "covenants": 2,
-      "other": 4,
+      "lightning": 2,
       "mempool-fees": 7,
       "mining": 1,
+      "other": 2,
       "signatures-sighash": 2
     },
     "2020": {
@@ -222,20 +232,33 @@
     },
     "2023": {
       "covenants": 5,
-      "other": 5,
+      "lightning": 1,
       "mempool-fees": 1,
       "mining": 4,
+      "other": 7,
       "script-opcodes": 5,
       "soft-fork-activation": 1
     },
+    "2024": {
+      "other": 9,
+      "covenants": 4,
+      "lightning": 4,
+      "mempool-fees": 17,
+      "mining": 17,
+      "script-opcodes": 2
+    },
     "2025": {
       "covenants": 1,
+      "lightning": 7,
+      "other": 9,
       "script-opcodes": 4,
-      "segwit": 2,
-      "other": 2
+      "segwit": 2
     },
     "2026": {
-      "other": 1
+      "covenants": 1,
+      "other": 3,
+      "script-opcodes": 1,
+      "signatures-sighash": 1
     }
   }
 }

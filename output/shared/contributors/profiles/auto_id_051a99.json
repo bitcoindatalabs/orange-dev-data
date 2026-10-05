@@ -45,11 +45,11 @@
   "avg_pr_ack_velocity_days": null,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": null,
-  "hybrid_score": 0.0264,
-  "p2016_hybrid_score": 0.0425,
-  "modern_hybrid_score": 0.0334,
+  "hybrid_score": 0.0262,
+  "p2016_hybrid_score": 0.0421,
+  "modern_hybrid_score": 0.0328,
   "impact_score": 2.0,
-  "p2016_impact_score": 3.0,
+  "p2016_impact_score": 2.0,
   "modern_impact_score": 2.0,
   "threads_started": 17.0,
   "replies_sent": 4.0,
@@ -57,8 +57,8 @@
   "delving_threads": 0.0,
   "ml_responses": 4.0,
   "delving_responses": 0.0,
-  "first_active": "2022-07-26T10:44:55",
-  "last_active": "2023-11-07T06:24:39",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Participant",
   "expertise_domains": [
     "Mining",
@@ -66,13 +66,13 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Ecosystem": 0.364,
-      "Mining": 0.636
+      "Mining": 0.636,
+      "Ecosystem": 0.364
     }
   },
   "expertise_domain_scores": {
-    "Ecosystem": 0.364,
-    "Mining": 0.636
+    "Mining": 0.636,
+    "Ecosystem": 0.364
   },
   "p2016_posts": 21.0,
   "modern_posts": 3.0,
@@ -84,8 +84,8 @@
   "is_reviewer": false,
   "is_researcher": true,
   "is_bip_author": false,
-  "global_first_active": "2022-07-26T10:44:55",
-  "global_last_active": "2023-11-07T06:24:39",
+  "global_first_active": null,
+  "global_last_active": null,
   "github_location": null,
   "github_company": null,
   "github_bio": null,

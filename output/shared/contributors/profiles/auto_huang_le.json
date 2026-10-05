@@ -15,12 +15,12 @@
   "self_merges": 0.0,
   "total_additions": 73.0,
   "total_deletions": 21.0,
-  "first_core_commit": "2014-05-20T10:38:22+00:00",
-  "last_core_commit": "2014-07-04T06:38:25+00:00",
+  "first_core_commit": "2014-05-20T10:38:37+00:00",
+  "last_core_commit": "2014-07-04T06:40:12+00:00",
   "first_ecosystem_commit": null,
   "last_ecosystem_commit": null,
-  "first_commit": "2014-05-20T10:38:22",
-  "last_commit": "2014-07-04T06:38:25",
+  "first_commit": "2014-05-20T10:38:37",
+  "last_commit": "2014-07-04T06:40:12",
   "p2016_authored_commits": 0.0,
   "modern_authored_commits": 0.0,
   "co_authored_commits": 0.0,
@@ -45,10 +45,10 @@
   "avg_pr_ack_velocity_days": 0.2069166666666667,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": 0.0,
-  "hybrid_score": 0.0646,
+  "hybrid_score": 0.1575,
   "p2016_hybrid_score": 0.0646,
   "modern_hybrid_score": 0.0646,
-  "impact_score": 4.0,
+  "impact_score": 9.0,
   "p2016_impact_score": 4.0,
   "modern_impact_score": 4.0,
   "threads_started": 0.0,
@@ -59,13 +59,20 @@
   "delving_responses": 0.0,
   "first_active": null,
   "last_active": null,
-  "dev_type": "Participant",
+  "dev_type": "Builder",
   "expertise_domains": [
-    "Infrastructure"
+    "Infrastructure",
+    "Network"
   ],
-  "expertise_by_source": {},
+  "expertise_by_source": {
+    "code": {
+      "Infrastructure": 0.625,
+      "Network": 0.375
+    }
+  },
   "expertise_domain_scores": {
-    "Infrastructure": 1.0
+    "Infrastructure": 0.625,
+    "Network": 0.375
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,
@@ -73,12 +80,12 @@
   "p2016_delving_posts": 0.0,
   "modern_ml_posts": 0.0,
   "modern_delving_posts": 0.0,
-  "is_engineer": false,
+  "is_engineer": true,
   "is_reviewer": true,
   "is_researcher": false,
   "is_bip_author": false,
-  "global_first_active": "2014-05-20T10:38:22",
-  "global_last_active": "2014-07-04T06:38:25",
+  "global_first_active": "2014-05-20T10:38:37",
+  "global_last_active": "2014-07-04T06:40:12",
   "github_location": "Shanghai",
   "github_company": "13LimdzPQQykBXWaEYfSmfWXJbw6gL9iih",
   "github_bio": null,
@@ -90,10 +97,10 @@
   "github_url": "https://github.com/4tar",
   "commit_history": {
     "2014": {
-      "Build & CI": 1.0,
-      "Node & RPC": 2.0,
-      "P2P Network": 3.0,
-      "Utilities": 2.0
+      "Build & CI": 0.5,
+      "Node & RPC": 1.0,
+      "P2P Network": 1.5,
+      "Utilities": 1.0
     }
   }
 }

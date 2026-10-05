@@ -1,38 +1,38 @@
 {
-  "generated_at": "2026-09-27",
+  "generated_at": "2026-10-04",
   "groups": {
-    "committers": 1216,
-    "reviewers": 5138,
-    "research": 1368,
+    "committers": 1272,
+    "reviewers": 5268,
+    "research": 1689,
     "standards": 163,
-    "total_active": 6202,
-    "total_registry": 7615
+    "total_active": 6631,
+    "total_registry": 7790
   },
   "venn_4": {
     "0001": 12,
-    "0010": 927,
+    "0010": 1185,
     "0011": 27,
-    "0100": 3866,
+    "0100": 3949,
     "0101": 6,
-    "0110": 112,
+    "0110": 144,
     "0111": 36,
-    "1000": 86,
+    "1000": 125,
     "1001": 1,
-    "1010": 10,
+    "1010": 12,
     "1011": 1,
-    "1100": 861,
+    "1100": 847,
     "1101": 2,
-    "1110": 177,
+    "1110": 206,
     "1111": 78
   },
   "venn_summary": {
-    "code_only": 86,
-    "review_only": 3866,
-    "research_only": 927,
+    "code_only": 125,
+    "review_only": 3949,
+    "research_only": 1185,
     "standards_only": 12,
     "all_four": 78,
-    "code_review": 861,
-    "review_research": 112,
+    "code_review": 847,
+    "review_research": 144,
     "research_standards": 27
   },
   "rd_focus": {},
@@ -41,54 +41,55 @@
     "value": "BIP 70"
   },
   "spotlight": {
-    "name": "8144225309",
-    "uuid": "auto_8144225309",
-    "github_login": "8144225309",
-    "description": "First-time core contributor recently merged PR #34371 (wallet: allow importprunedfunds for spending transactions)."
+    "name": "FlashWayne",
+    "uuid": "auto_flashwayne",
+    "github_login": "FlashWayne",
+    "description": "First-time core contributor recently merged PR #36375 (wallet: accept uppercase addresses without amount in sendall)."
   },
   "onboarding": {
-    "new_coders_90d": 30,
-    "new_coders_7d": 5,
-    "new_discussants_90d": 13,
-    "new_discussants_7d": 0,
+    "new_coders_90d": 32,
+    "new_coders_30d": 15,
+    "new_coders_7d": 2,
+    "new_discussants_90d": 44,
+    "new_discussants_7d": 3,
     "window_days": 90
   },
   "prs": {
-    "total_merged": 17008,
-    "merged_30d": 139,
-    "merged_prev_30d": 142,
-    "merged_7d": 35,
-    "merged_prev_7d": 34
+    "total_merged": 17032,
+    "merged_30d": 142,
+    "merged_prev_30d": 138,
+    "merged_7d": 24,
+    "merged_prev_7d": 35
   },
   "commits": {
-    "commits_30d": 647,
-    "commits_prev_30d": 1140,
-    "commits_7d": 103,
-    "commits_prev_7d": 161
+    "commits_30d": 318,
+    "commits_prev_30d": 435,
+    "commits_7d": 54,
+    "commits_prev_7d": 63
   },
   "bips": {
     "total": 213,
-    "active_recently": 97
+    "active_recently": 100
   },
   "discussion_pulse": {
     "topics": [
       {
         "category": "quantum",
         "label": "Quantum",
-        "count": 20,
-        "share": 20.8
+        "count": 117,
+        "share": 21.1
+      },
+      {
+        "category": "mining",
+        "label": "Mining",
+        "count": 66,
+        "share": 11.9
       },
       {
         "category": "taproot",
         "label": "Taproot",
-        "count": 14,
-        "share": 14.6
-      },
-      {
-        "category": "bip-process",
-        "label": "Bip Process",
-        "count": 13,
-        "share": 13.5
+        "count": 56,
+        "share": 10.1
       }
     ],
     "top_bips": [
@@ -107,7 +108,7 @@
       {
         "bip_id": "39",
         "title": "Mnemonic code for generating deterministic keys",
-        "mentions": 219,
+        "mentions": 225,
         "theme": "Wallet & Keys"
       }
     ],

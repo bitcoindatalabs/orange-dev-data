@@ -1,5 +1,5 @@
 {
-  "display_name": "Francis GASCHET",
+  "display_name": "francis gaschet",
   "github_login_final": null,
   "delving_username_final": null,
   "uuid": "auto_francis_gaschet",
@@ -45,10 +45,10 @@
   "avg_pr_ack_velocity_days": null,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": null,
-  "hybrid_score": 0.0097,
+  "hybrid_score": 0.0496,
   "p2016_hybrid_score": 0.0,
   "modern_hybrid_score": 0.0,
-  "impact_score": 1.0,
+  "impact_score": 3.0,
   "p2016_impact_score": 0.0,
   "modern_impact_score": 0.0,
   "threads_started": 2.0,
@@ -57,13 +57,17 @@
   "delving_threads": 0.0,
   "ml_responses": 1.0,
   "delving_responses": 0.0,
-  "first_active": "2014-11-03T03:16:23",
-  "last_active": "2014-11-09T09:22:21",
-  "dev_type": "Participant",
+  "first_active": null,
+  "last_active": null,
+  "dev_type": "Builder",
   "expertise_domains": [
     "Infrastructure"
   ],
-  "expertise_by_source": {},
+  "expertise_by_source": {
+    "code": {
+      "Infrastructure": 1.0
+    }
+  },
   "expertise_domain_scores": {
     "Infrastructure": 1.0
   },
@@ -73,12 +77,12 @@
   "p2016_delving_posts": 0.0,
   "modern_ml_posts": 0.0,
   "modern_delving_posts": 0.0,
-  "is_engineer": false,
+  "is_engineer": true,
   "is_reviewer": false,
   "is_researcher": true,
   "is_bip_author": false,
-  "global_first_active": "2014-11-03T03:16:23",
-  "global_last_active": "2014-11-09T09:22:21",
+  "global_first_active": "2014-11-03T10:14:57",
+  "global_last_active": "2014-11-03T10:14:57",
   "github_location": null,
   "github_company": null,
   "github_bio": null,
@@ -89,7 +93,7 @@
   "is_top_50": false,
   "commit_history": {
     "2014": {
-      "Build & CI": 2.0
+      "Build & CI": 1.0
     }
   },
   "first_message": {

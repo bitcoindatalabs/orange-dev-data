@@ -1,5 +1,5 @@
 {
-  "display_name": "indospace.io",
+  "display_name": "Indospace.io",
   "github_login_final": "knoxcard",
   "delving_username_final": null,
   "uuid": "auto_indospace_io",
@@ -15,12 +15,12 @@
   "self_merges": 0.0,
   "total_additions": 2.0,
   "total_deletions": 2.0,
-  "first_core_commit": "2018-04-05T07:43:22+00:00",
-  "last_core_commit": "2018-04-05T07:43:22+00:00",
+  "first_core_commit": "2018-04-05T07:55:06+00:00",
+  "last_core_commit": "2018-04-05T07:55:06+00:00",
   "first_ecosystem_commit": null,
   "last_ecosystem_commit": null,
-  "first_commit": "2018-04-05T07:43:22",
-  "last_commit": "2018-04-05T07:43:22",
+  "first_commit": "2018-04-05T07:55:06",
+  "last_commit": "2018-04-05T07:55:06",
   "p2016_authored_commits": 1.0,
   "modern_authored_commits": 0.0,
   "co_authored_commits": 0.0,
@@ -45,11 +45,11 @@
   "avg_pr_ack_velocity_days": 0.23747685185185186,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": 1.0,
-  "hybrid_score": 0.033,
-  "p2016_hybrid_score": 0.033,
+  "hybrid_score": 0.073,
+  "p2016_hybrid_score": 0.073,
   "modern_hybrid_score": 0.0146,
-  "impact_score": 2.0,
-  "p2016_impact_score": 2.0,
+  "impact_score": 4.0,
+  "p2016_impact_score": 4.0,
   "modern_impact_score": 1.0,
   "threads_started": 0.0,
   "replies_sent": 0.0,
@@ -59,11 +59,15 @@
   "delving_responses": 0.0,
   "first_active": null,
   "last_active": null,
-  "dev_type": "Participant",
+  "dev_type": "Builder",
   "expertise_domains": [
     "Infrastructure"
   ],
-  "expertise_by_source": {},
+  "expertise_by_source": {
+    "code": {
+      "Infrastructure": 1.0
+    }
+  },
   "expertise_domain_scores": {
     "Infrastructure": 1.0
   },
@@ -73,12 +77,12 @@
   "p2016_delving_posts": 0.0,
   "modern_ml_posts": 0.0,
   "modern_delving_posts": 0.0,
-  "is_engineer": false,
+  "is_engineer": true,
   "is_reviewer": true,
   "is_researcher": false,
   "is_bip_author": false,
   "global_first_active": "2017-10-14T08:34:27",
-  "global_last_active": "2018-04-05T07:43:22",
+  "global_last_active": "2018-04-05T07:55:06",
   "github_location": "Los Angeles, CA",
   "github_company": "Indospace.io",
   "github_bio": "Indospace.io - Crypto/Cannnabis menu delivery/pickup ordering platform for cannabis dispensaries in the US and Canada.",
@@ -90,7 +94,7 @@
   "github_url": "https://github.com/knoxcard",
   "commit_history": {
     "2018": {
-      "Documentation": 2.0
+      "Documentation": 1.0
     }
   }
 }

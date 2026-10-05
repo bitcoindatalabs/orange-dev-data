@@ -59,25 +59,25 @@
   "avg_pr_ack_velocity_days": 3.4317141203703705,
   "avg_concept_lead_time_days": 3.930528067129629,
   "review_reciprocity": 1.68,
-  "hybrid_score": 0.5009,
-  "p2016_hybrid_score": 0.504,
-  "modern_hybrid_score": 0.1052,
-  "impact_score": 26.0,
-  "p2016_impact_score": 26.0,
-  "modern_impact_score": 6.0,
+  "hybrid_score": 0.7352,
+  "p2016_hybrid_score": 0.7383,
+  "modern_hybrid_score": 0.1981,
+  "impact_score": 36.0,
+  "p2016_impact_score": 36.0,
+  "modern_impact_score": 11.0,
   "threads_started": 0.0,
   "replies_sent": 3.0,
   "ml_threads": 0.0,
   "delving_threads": 0.0,
   "ml_responses": 3.0,
   "delving_responses": 0.0,
-  "first_active": "2020-02-28T11:42:15",
-  "last_active": "2020-03-21T15:29:26",
-  "dev_type": "Reviewer",
+  "first_active": null,
+  "last_active": null,
+  "dev_type": "Protocol Designer",
   "expertise_domains": [
     "Wallet",
-    "Mining",
-    "Consensus"
+    "Infrastructure",
+    "Mining"
   ],
   "expertise_by_source": {
     "discussion": {
@@ -85,14 +85,23 @@
       "Consensus": 0.284,
       "Wallet": 0.284
     },
+    "code": {
+      "Wallet": 0.628,
+      "Infrastructure": 0.29,
+      "Consensus": 0.002,
+      "Script": 0.008,
+      "Network": 0.072
+    },
     "bips": {
       "Wallet": 1.0
     }
   },
   "expertise_domain_scores": {
-    "Mining": 0.1234,
-    "Consensus": 0.0811,
-    "Wallet": 0.7954
+    "Mining": 0.0864,
+    "Infrastructure": 0.087,
+    "Wallet": 0.7452,
+    "Consensus": 0.0574,
+    "Network": 0.0216
   },
   "p2016_posts": 3.0,
   "modern_posts": 0.0,
@@ -100,7 +109,7 @@
   "p2016_delving_posts": 0.0,
   "modern_ml_posts": 0.0,
   "modern_delving_posts": 0.0,
-  "is_engineer": false,
+  "is_engineer": true,
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": true,
@@ -117,16 +126,16 @@
   "github_url": "https://github.com/benma",
   "commit_history": {
     "2017": {
-      "Consensus": 0.22,
-      "Database": 0.62,
-      "Documentation": 2.0,
-      "GUI": 3.29,
-      "Node & RPC": 11.29,
-      "P2P Network": 8.22,
-      "Script": 0.89,
-      "Tests": 1.22,
-      "Utilities": 4.62,
-      "Wallet": 3.62
+      "Consensus": 0.11,
+      "Database": 0.31,
+      "Documentation": 1.0,
+      "GUI": 1.64,
+      "Node & RPC": 5.64,
+      "P2P Network": 4.11,
+      "Script": 0.44,
+      "Tests": 0.61,
+      "Utilities": 2.31,
+      "Wallet": 1.81
     },
     "2019": {
       "Documentation": 1.0,

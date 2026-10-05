@@ -1,5 +1,5 @@
 {
-  "display_name": "Peter (Coinkite Inc)",
+  "display_name": "peter (coinkite inc)",
   "github_login_final": "doc-hex",
   "delving_username_final": null,
   "uuid": "auto_peter_coinkite_inc",
@@ -48,11 +48,11 @@
   "avg_pr_ack_velocity_days": null,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": 3.5,
-  "hybrid_score": 0.4705,
-  "p2016_hybrid_score": 0.4984,
+  "hybrid_score": 0.5501,
+  "p2016_hybrid_score": 0.5771,
   "modern_hybrid_score": 0.025,
-  "impact_score": 25.0,
-  "p2016_impact_score": 26.0,
+  "impact_score": 28.0,
+  "p2016_impact_score": 29.0,
   "modern_impact_score": 1.0,
   "threads_started": 1.0,
   "replies_sent": 19.0,
@@ -60,9 +60,9 @@
   "delving_threads": 0.0,
   "ml_responses": 19.0,
   "delving_responses": 0.0,
-  "first_active": "2015-02-06T13:06:07",
-  "last_active": "2022-08-04T13:36:06",
-  "dev_type": "Participant",
+  "first_active": null,
+  "last_active": null,
+  "dev_type": "Protocol Designer",
   "expertise_domains": [
     "Wallet",
     "Consensus"
@@ -72,13 +72,16 @@
       "Consensus": 0.058,
       "Wallet": 0.942
     },
+    "code": {
+      "Wallet": 1.0
+    },
     "bips": {
       "Wallet": 1.0
     }
   },
   "expertise_domain_scores": {
-    "Consensus": 0.0166,
-    "Wallet": 0.9834
+    "Wallet": 0.9884,
+    "Consensus": 0.0116
   },
   "p2016_posts": 19.0,
   "modern_posts": 0.0,
@@ -86,19 +89,19 @@
   "p2016_delving_posts": 0.0,
   "modern_ml_posts": 0.0,
   "modern_delving_posts": 0.0,
-  "is_engineer": false,
+  "is_engineer": true,
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": true,
-  "global_first_active": "2015-02-06T13:06:07",
-  "global_last_active": "2022-08-04T13:36:06",
+  "global_first_active": "2019-04-30T23:19:55",
+  "global_last_active": "2022-07-13T15:13:03",
   "github_location": "Toronto, Ontario, Canada",
   "github_company": "Coinkite Inc.",
   "github_bio": null,
   "github_twitter": null,
   "github_blog": "coinkite.com",
   "github_followers": 102.0,
-  "activity_status": "Active",
+  "activity_status": "Retired",
   "is_top_50": false,
   "github_url": "https://github.com/doc-hex",
   "commit_history": {

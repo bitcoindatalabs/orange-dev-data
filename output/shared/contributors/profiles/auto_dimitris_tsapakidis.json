@@ -15,12 +15,12 @@
   "self_merges": 0.0,
   "total_additions": 65.0,
   "total_deletions": 65.0,
-  "first_core_commit": "2017-06-22T18:36:16+00:00",
-  "last_core_commit": "2022-10-10T07:32:24+00:00",
+  "first_core_commit": "2017-06-22T18:47:16+00:00",
+  "last_core_commit": "2022-10-10T07:34:37+00:00",
   "first_ecosystem_commit": null,
   "last_ecosystem_commit": null,
-  "first_commit": "2017-06-22T18:36:16",
-  "last_commit": "2022-10-10T07:32:24",
+  "first_commit": "2017-06-22T18:47:16",
+  "last_commit": "2022-10-10T07:34:37",
   "p2016_authored_commits": 3.0,
   "modern_authored_commits": 0.0,
   "co_authored_commits": 0.0,
@@ -45,11 +45,11 @@
   "avg_pr_ack_velocity_days": 0.21344328703703702,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": 0.0,
-  "hybrid_score": 0.0452,
-  "p2016_hybrid_score": 0.0452,
+  "hybrid_score": 0.1252,
+  "p2016_hybrid_score": 0.1252,
   "modern_hybrid_score": 0.0452,
-  "impact_score": 3.0,
-  "p2016_impact_score": 3.0,
+  "impact_score": 7.0,
+  "p2016_impact_score": 7.0,
   "modern_impact_score": 3.0,
   "threads_started": 0.0,
   "replies_sent": 0.0,
@@ -59,13 +59,27 @@
   "delving_responses": 0.0,
   "first_active": null,
   "last_active": null,
-  "dev_type": "Participant",
+  "dev_type": "Builder",
   "expertise_domains": [
-    "Infrastructure"
+    "Infrastructure",
+    "Wallet",
+    "Consensus"
   ],
-  "expertise_by_source": {},
+  "expertise_by_source": {
+    "code": {
+      "Wallet": 0.367,
+      "Infrastructure": 0.533,
+      "Consensus": 0.033,
+      "Mempool": 0.033,
+      "Cryptography": 0.033
+    }
+  },
   "expertise_domain_scores": {
-    "Infrastructure": 1.0
+    "Infrastructure": 0.5335,
+    "Wallet": 0.3674,
+    "Consensus": 0.033,
+    "Mempool": 0.033,
+    "Cryptography": 0.033
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,
@@ -73,12 +87,12 @@
   "p2016_delving_posts": 0.0,
   "modern_ml_posts": 0.0,
   "modern_delving_posts": 0.0,
-  "is_engineer": false,
+  "is_engineer": true,
   "is_reviewer": true,
   "is_researcher": false,
   "is_bip_author": false,
-  "global_first_active": "2017-06-22T18:36:16",
-  "global_last_active": "2022-10-10T07:32:24",
+  "global_first_active": "2017-06-22T18:47:16",
+  "global_last_active": "2022-10-10T07:34:37",
   "github_location": null,
   "github_company": null,
   "github_bio": null,
@@ -90,19 +104,19 @@
   "github_url": "https://github.com/dimitris-t",
   "commit_history": {
     "2017": {
-      "Consensus": 0.2,
-      "Cryptography": 0.2,
-      "Database": 0.2,
-      "Documentation": 0.2,
-      "GUI": 0.2,
-      "Mempool": 0.2,
-      "Node & RPC": 0.2,
-      "Tests": 0.2,
-      "Utilities": 1.2,
-      "Wallet": 0.2
+      "Consensus": 0.1,
+      "Cryptography": 0.1,
+      "Database": 0.1,
+      "Documentation": 0.1,
+      "GUI": 0.1,
+      "Mempool": 0.1,
+      "Node & RPC": 0.1,
+      "Tests": 0.1,
+      "Utilities": 1.1,
+      "Wallet": 0.1
     },
     "2022": {
-      "Wallet": 2.0
+      "Wallet": 1.0
     }
   }
 }

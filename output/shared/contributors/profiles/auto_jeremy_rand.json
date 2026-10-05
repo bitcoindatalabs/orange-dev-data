@@ -15,12 +15,12 @@
   "self_merges": 0.0,
   "total_additions": 36.0,
   "total_deletions": 38.0,
-  "first_core_commit": "2016-04-05T14:21:14+00:00",
-  "last_core_commit": "2024-12-02T14:09:54+00:00",
+  "first_core_commit": "2016-04-05T14:21:40+00:00",
+  "last_core_commit": "2024-12-02T14:10:00+00:00",
   "first_ecosystem_commit": null,
   "last_ecosystem_commit": null,
-  "first_commit": "2016-04-05T14:21:14",
-  "last_commit": "2024-12-02T14:09:54",
+  "first_commit": "2016-04-05T14:21:40",
+  "last_commit": "2024-12-02T14:10:00",
   "p2016_authored_commits": 14.0,
   "modern_authored_commits": 3.0,
   "co_authored_commits": 0.0,
@@ -45,12 +45,12 @@
   "avg_pr_ack_velocity_days": 1.5828979700854702,
   "avg_concept_lead_time_days": 0.9500520833333334,
   "review_reciprocity": 0.35714285714285715,
-  "hybrid_score": 0.0925,
-  "p2016_hybrid_score": 0.0925,
-  "modern_hybrid_score": 0.075,
-  "impact_score": 5.0,
-  "p2016_impact_score": 5.0,
-  "modern_impact_score": 4.0,
+  "hybrid_score": 0.2488,
+  "p2016_hybrid_score": 0.2488,
+  "modern_hybrid_score": 0.155,
+  "impact_score": 14.0,
+  "p2016_impact_score": 14.0,
+  "modern_impact_score": 9.0,
   "threads_started": 0.0,
   "replies_sent": 0.0,
   "ml_threads": 0.0,
@@ -59,11 +59,15 @@
   "delving_responses": 0.0,
   "first_active": null,
   "last_active": null,
-  "dev_type": "Participant",
+  "dev_type": "Builder",
   "expertise_domains": [
     "Infrastructure"
   ],
-  "expertise_by_source": {},
+  "expertise_by_source": {
+    "code": {
+      "Infrastructure": 1.0
+    }
+  },
   "expertise_domain_scores": {
     "Infrastructure": 1.0
   },
@@ -73,41 +77,41 @@
   "p2016_delving_posts": 0.0,
   "modern_ml_posts": 0.0,
   "modern_delving_posts": 0.0,
-  "is_engineer": false,
+  "is_engineer": true,
   "is_reviewer": true,
   "is_researcher": false,
   "is_bip_author": false,
-  "global_first_active": "2016-04-05T14:21:14",
-  "global_last_active": "2024-12-02T14:09:54",
+  "global_first_active": "2016-04-05T14:21:40",
+  "global_last_active": "2024-12-02T14:10:00",
   "github_location": null,
   "github_company": null,
   "github_bio": null,
   "github_twitter": null,
   "github_blog": "https://ynqrnzvuotdgvqj2g73f5tyj4rcvwutdemu23jgadawihbkc3lxkbwid.onion/",
   "github_followers": 105.0,
-  "activity_status": "Active",
+  "activity_status": "Rising",
   "is_top_50": false,
   "github_url": "https://github.com/JeremyRand",
   "commit_history": {
     "2016": {
-      "Build & CI": 4.0,
-      "Documentation": 4.0
+      "Build & CI": 2.0,
+      "Documentation": 2.0
     },
     "2018": {
-      "Build & CI": 2.0
+      "Build & CI": 1.0
     },
     "2019": {
-      "Documentation": 4.0
+      "Documentation": 2.0
     },
     "2021": {
-      "Documentation": 1.0,
-      "Tests": 1.0
+      "Documentation": 0.5,
+      "Tests": 0.5
     },
     "2022": {
-      "Documentation": 6.0
+      "Documentation": 3.0
     },
     "2024": {
-      "Documentation": 6.0
+      "Documentation": 3.0
     }
   }
 }

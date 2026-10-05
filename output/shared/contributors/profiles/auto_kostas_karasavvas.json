@@ -1,5 +1,5 @@
 {
-  "display_name": "Kostas Karasavvas",
+  "display_name": "kostas karasavvas",
   "github_login_final": null,
   "delving_username_final": null,
   "uuid": "auto_kostas_karasavvas",
@@ -45,9 +45,9 @@
   "avg_pr_ack_velocity_days": null,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": null,
-  "hybrid_score": 0.0154,
-  "p2016_hybrid_score": 0.0255,
-  "modern_hybrid_score": 0.021,
+  "hybrid_score": 0.0157,
+  "p2016_hybrid_score": 0.0259,
+  "modern_hybrid_score": 0.0212,
   "impact_score": 1.0,
   "p2016_impact_score": 2.0,
   "modern_impact_score": 1.0,
@@ -57,8 +57,8 @@
   "delving_threads": 0.0,
   "ml_responses": 10.0,
   "delving_responses": 0.0,
-  "first_active": "2019-05-27T02:26:21",
-  "last_active": "2023-11-22T05:27:03",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Participant",
   "expertise_domains": [
     "Script",
@@ -67,15 +67,15 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Ecosystem": 0.288,
+      "Consensus": 0.329,
       "Script": 0.384,
-      "Consensus": 0.329
+      "Ecosystem": 0.288
     }
   },
   "expertise_domain_scores": {
-    "Ecosystem": 0.2877,
+    "Consensus": 0.3287,
     "Script": 0.3836,
-    "Consensus": 0.3287
+    "Ecosystem": 0.2877
   },
   "p2016_posts": 10.0,
   "modern_posts": 2.0,
@@ -87,8 +87,8 @@
   "is_reviewer": false,
   "is_researcher": true,
   "is_bip_author": false,
-  "global_first_active": "2019-05-27T02:26:21",
-  "global_last_active": "2023-11-22T05:27:03",
+  "global_first_active": null,
+  "global_last_active": null,
   "github_location": null,
   "github_company": null,
   "github_bio": null,

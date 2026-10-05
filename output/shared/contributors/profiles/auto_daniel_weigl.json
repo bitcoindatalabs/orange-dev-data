@@ -1,5 +1,5 @@
 {
-  "display_name": "Daniel Weigl",
+  "display_name": "daniel weigl",
   "github_login_final": null,
   "delving_username_final": null,
   "uuid": "auto_daniel_weigl",
@@ -57,8 +57,8 @@
   "avg_pr_ack_velocity_days": null,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": null,
-  "hybrid_score": 0.3683,
-  "p2016_hybrid_score": 0.0365,
+  "hybrid_score": 0.3681,
+  "p2016_hybrid_score": 0.0357,
   "modern_hybrid_score": 0.0,
   "impact_score": 20.0,
   "p2016_impact_score": 2.0,
@@ -69,8 +69,8 @@
   "delving_threads": 0.0,
   "ml_responses": 5.0,
   "delving_responses": 0.0,
-  "first_active": "2016-05-13T08:16:20",
-  "last_active": "2016-09-23T04:35:22",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Participant",
   "expertise_domains": [
     "Script",
@@ -79,15 +79,15 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Script": 0.397,
       "Consensus": 0.333,
-      "Wallet": 0.27
+      "Wallet": 0.27,
+      "Script": 0.397
     }
   },
   "expertise_domain_scores": {
-    "Script": 0.397,
+    "Wallet": 0.27,
     "Consensus": 0.333,
-    "Wallet": 0.27
+    "Script": 0.397
   },
   "p2016_posts": 7.0,
   "modern_posts": 0.0,
@@ -99,8 +99,8 @@
   "is_reviewer": false,
   "is_researcher": true,
   "is_bip_author": true,
-  "global_first_active": "2016-05-13T08:16:20",
-  "global_last_active": "2016-09-23T04:35:22",
+  "global_first_active": null,
+  "global_last_active": null,
   "github_location": null,
   "github_company": null,
   "github_bio": null,

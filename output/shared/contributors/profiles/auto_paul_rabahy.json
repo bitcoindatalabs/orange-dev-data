@@ -15,12 +15,12 @@
   "self_merges": 0.0,
   "total_additions": 129.0,
   "total_deletions": 35.0,
-  "first_core_commit": "2015-06-09T12:20:57+00:00",
-  "last_core_commit": "2016-01-28T10:28:39+00:00",
+  "first_core_commit": "2015-06-09T12:21:21+00:00",
+  "last_core_commit": "2016-01-28T10:28:54+00:00",
   "first_ecosystem_commit": null,
   "last_ecosystem_commit": null,
-  "first_commit": "2015-06-09T12:20:57",
-  "last_commit": "2016-01-28T10:28:39",
+  "first_commit": "2015-06-09T12:21:21",
+  "last_commit": "2016-01-28T10:28:54",
   "p2016_authored_commits": 1.0,
   "modern_authored_commits": 0.0,
   "co_authored_commits": 0.0,
@@ -45,11 +45,11 @@
   "avg_pr_ack_velocity_days": 0.6841049382716049,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": 2.0,
-  "hybrid_score": 0.1059,
-  "p2016_hybrid_score": 0.0772,
+  "hybrid_score": 0.1858,
+  "p2016_hybrid_score": 0.1172,
   "modern_hybrid_score": 0.0452,
-  "impact_score": 6.0,
-  "p2016_impact_score": 5.0,
+  "impact_score": 11.0,
+  "p2016_impact_score": 7.0,
   "modern_impact_score": 3.0,
   "threads_started": 0.0,
   "replies_sent": 3.0,
@@ -57,19 +57,24 @@
   "delving_threads": 0.0,
   "ml_responses": 3.0,
   "delving_responses": 0.0,
-  "first_active": "2013-12-12T11:28:32",
-  "last_active": "2014-08-23T15:36:19",
-  "dev_type": "Reviewer",
+  "first_active": null,
+  "last_active": null,
+  "dev_type": "Builder",
   "expertise_domains": [
+    "Infrastructure",
     "Privacy"
   ],
   "expertise_by_source": {
     "discussion": {
       "Privacy": 1.0
+    },
+    "code": {
+      "Infrastructure": 1.0
     }
   },
   "expertise_domain_scores": {
-    "Privacy": 1.0
+    "Privacy": 0.4,
+    "Infrastructure": 0.6
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,
@@ -77,7 +82,7 @@
   "p2016_delving_posts": 0.0,
   "modern_ml_posts": 0.0,
   "modern_delving_posts": 0.0,
-  "is_engineer": false,
+  "is_engineer": true,
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": false,
@@ -94,10 +99,10 @@
   "github_url": "https://github.com/PRabahy",
   "commit_history": {
     "2015": {
-      "Utilities": 4.0
+      "Utilities": 2.0
     },
     "2016": {
-      "Documentation": 2.0
+      "Documentation": 1.0
     }
   },
   "first_message": {

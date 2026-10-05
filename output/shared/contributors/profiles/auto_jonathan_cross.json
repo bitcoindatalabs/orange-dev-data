@@ -18,12 +18,12 @@
   "self_merges": 0.0,
   "total_additions": 38.0,
   "total_deletions": 44.0,
-  "first_core_commit": "2015-11-10T15:39:10+00:00",
-  "last_core_commit": "2016-02-29T08:52:27+00:00",
+  "first_core_commit": "2015-11-10T15:39:20+00:00",
+  "last_core_commit": "2016-02-29T08:52:45+00:00",
   "first_ecosystem_commit": "2018-11-05T22:50:37+00:00",
   "last_ecosystem_commit": "2018-11-05T22:50:37+00:00",
-  "first_commit": "2015-11-10T15:39:10",
-  "last_commit": "2016-02-29T08:52:27",
+  "first_commit": "2015-11-10T15:39:20",
+  "last_commit": "2016-02-29T08:52:45",
   "p2016_authored_commits": 2.0,
   "modern_authored_commits": 0.0,
   "co_authored_commits": 0.0,
@@ -48,11 +48,11 @@
   "avg_pr_ack_velocity_days": 0.44687114197530864,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": 1.9444444444444444,
-  "hybrid_score": 0.1373,
-  "p2016_hybrid_score": 0.1365,
+  "hybrid_score": 0.2173,
+  "p2016_hybrid_score": 0.1999,
   "modern_hybrid_score": 0.0925,
-  "impact_score": 8.0,
-  "p2016_impact_score": 8.0,
+  "impact_score": 12.0,
+  "p2016_impact_score": 11.0,
   "modern_impact_score": 5.0,
   "threads_started": 0.0,
   "replies_sent": 0.0,
@@ -62,13 +62,20 @@
   "delving_responses": 0.0,
   "first_active": null,
   "last_active": null,
-  "dev_type": "Reviewer",
+  "dev_type": "Builder",
   "expertise_domains": [
-    "Infrastructure"
+    "Infrastructure",
+    "Wallet"
   ],
-  "expertise_by_source": {},
+  "expertise_by_source": {
+    "code": {
+      "Wallet": 0.333,
+      "Infrastructure": 0.667
+    }
+  },
   "expertise_domain_scores": {
-    "Infrastructure": 1.0
+    "Infrastructure": 0.667,
+    "Wallet": 0.333
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,
@@ -76,7 +83,7 @@
   "p2016_delving_posts": 0.0,
   "modern_ml_posts": 0.0,
   "modern_delving_posts": 0.0,
-  "is_engineer": false,
+  "is_engineer": true,
   "is_reviewer": true,
   "is_researcher": false,
   "is_bip_author": false,
@@ -93,10 +100,10 @@
   "github_url": "https://github.com/jonathancross",
   "commit_history": {
     "2015": {
-      "GUI": 2.0
+      "GUI": 1.0
     },
     "2016": {
-      "Documentation": 2.0
+      "Documentation": 1.0
     },
     "2018": {
       "Wallet": 1.0

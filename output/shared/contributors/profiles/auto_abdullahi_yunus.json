@@ -1,7 +1,7 @@
 {
   "display_name": "Abdullahi Yunus",
   "github_login_final": "Abdulkbk",
-  "delving_username_final": null,
+  "delving_username_final": "abdulkbk",
   "uuid": "auto_abdullahi_yunus",
   "badges": null,
   "roles": null,
@@ -51,34 +51,41 @@
   "impact_score": 4.0,
   "p2016_impact_score": 4.0,
   "modern_impact_score": 4.0,
-  "threads_started": 0.0,
+  "threads_started": 1.0,
   "replies_sent": 0.0,
   "ml_threads": 0.0,
-  "delving_threads": 0.0,
+  "delving_threads": 1.0,
   "ml_responses": 0.0,
   "delving_responses": 0.0,
-  "first_active": null,
-  "last_active": null,
+  "first_active": "2026-04-17T11:37:45.042000",
+  "last_active": "2026-04-17T11:37:45.042000",
   "dev_type": "Participant",
   "expertise_domains": [
-    "Infrastructure"
+    "L2",
+    "Consensus"
   ],
-  "expertise_by_source": {},
-  "expertise_domain_scores": {
-    "Infrastructure": 1.0
+  "expertise_by_source": {
+    "discussion": {
+      "Consensus": 0.25,
+      "L2": 0.75
+    }
   },
-  "p2016_posts": 0.0,
-  "modern_posts": 0.0,
+  "expertise_domain_scores": {
+    "Consensus": 0.25,
+    "L2": 0.75
+  },
+  "p2016_posts": 1.0,
+  "modern_posts": 1.0,
   "p2016_ml_posts": 0.0,
-  "p2016_delving_posts": 0.0,
+  "p2016_delving_posts": 1.0,
   "modern_ml_posts": 0.0,
-  "modern_delving_posts": 0.0,
+  "modern_delving_posts": 1.0,
   "is_engineer": false,
   "is_reviewer": true,
   "is_researcher": false,
   "is_bip_author": false,
   "global_first_active": "2024-11-10T19:17:19",
-  "global_last_active": "2024-11-11T22:20:35",
+  "global_last_active": "2026-04-17T11:37:45.042000",
   "github_location": "Kaduna, Nigeria.",
   "github_company": "@Bitcoin",
   "github_bio": "open-source software engineer | bitcoin and lightning developer",
@@ -87,5 +94,26 @@
   "github_followers": 56.0,
   "activity_status": "Active",
   "is_top_50": false,
-  "github_url": "https://github.com/Abdulkbk"
+  "github_url": "https://github.com/Abdulkbk",
+  "delving_url": "https://delvingbitcoin.org/u/abdulkbk",
+  "first_message": {
+    "source": "delving",
+    "subject": "Re: Onion Message Jamming in the Lightning Network",
+    "date": "2026-04-17",
+    "link": "https://delvingbitcoin.org/t/onion-message-jamming-in-the-lightning-network/2414/7"
+  },
+  "last_message": {
+    "source": "delving",
+    "subject": "Re: Onion Message Jamming in the Lightning Network",
+    "date": "2026-04-17",
+    "link": "https://delvingbitcoin.org/t/onion-message-jamming-in-the-lightning-network/2414/7"
+  },
+  "social_history": {
+    "2026": {
+      "ecash": 1,
+      "lightning": 1,
+      "privacy": 1,
+      "taproot": 1
+    }
+  }
 }

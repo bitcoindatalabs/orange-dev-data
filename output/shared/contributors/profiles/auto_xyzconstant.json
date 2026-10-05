@@ -1,7 +1,7 @@
 {
   "display_name": "xyzconstant",
   "github_login_final": "xyzconstant",
-  "delving_username_final": null,
+  "delving_username_final": "xyzconstant",
   "uuid": "auto_xyzconstant",
   "badges": {
     "ecosystem_contributor": true,
@@ -18,12 +18,12 @@
   "self_merges": 0.0,
   "total_additions": 370.0,
   "total_deletions": 1.0,
-  "first_core_commit": "2026-06-02T10:36:28+00:00",
-  "last_core_commit": "2026-09-09T08:42:18+00:00",
+  "first_core_commit": "2026-06-02T10:36:42+00:00",
+  "last_core_commit": "2026-09-09T08:42:24+00:00",
   "first_ecosystem_commit": "2026-04-17T14:18:45+00:00",
   "last_ecosystem_commit": "2026-04-20T02:56:06+00:00",
-  "first_commit": "2026-06-02T10:36:28",
-  "last_commit": "2026-09-09T08:42:18",
+  "first_commit": "2026-06-02T10:36:42",
+  "last_commit": "2026-09-09T08:42:24",
   "p2016_authored_commits": 5.0,
   "modern_authored_commits": 5.0,
   "co_authored_commits": 0.0,
@@ -32,56 +32,65 @@
   "modern_bips_authored": 0.0,
   "first_bip_date": null,
   "last_bip_date": null,
-  "avg_review_latency_days": 122.01424479166666,
-  "reviews_count": 10.0,
-  "avg_approval_latency_days": 54.79589634773662,
-  "approvals_count": 8.0,
-  "tier1_reviews_count": 10.0,
+  "avg_review_latency_days": 133.1342211328976,
+  "reviews_count": 11.0,
+  "avg_approval_latency_days": 80.42169097222222,
+  "approvals_count": 9.0,
+  "tier1_reviews_count": 11.0,
   "tier2_reviews_count": 0.0,
-  "p2016_reviews_count": 10.0,
-  "modern_reviews_count": 10.0,
+  "p2016_reviews_count": 11.0,
+  "modern_reviews_count": 11.0,
   "first_review_date": "2026-04-09T12:41:34",
-  "last_review_date": "2026-09-24T13:10:40",
+  "last_review_date": "2026-09-28T16:51:46",
   "prs_authored": 3.0,
   "tier1_prs_authored": 3.0,
   "tier2_prs_authored": 0.0,
   "avg_pr_ack_velocity_days": 15.588709490740742,
   "avg_concept_lead_time_days": null,
-  "review_reciprocity": 3.3333333333333335,
-  "hybrid_score": 0.0911,
-  "p2016_hybrid_score": 0.0911,
-  "modern_hybrid_score": 0.0911,
-  "impact_score": 5.0,
-  "p2016_impact_score": 5.0,
-  "modern_impact_score": 5.0,
-  "threads_started": 0.0,
+  "review_reciprocity": 3.6666666666666665,
+  "hybrid_score": 0.1973,
+  "p2016_hybrid_score": 0.1973,
+  "modern_hybrid_score": 0.1973,
+  "impact_score": 11.0,
+  "p2016_impact_score": 11.0,
+  "modern_impact_score": 11.0,
+  "threads_started": 4.0,
   "replies_sent": 0.0,
   "ml_threads": 0.0,
-  "delving_threads": 0.0,
+  "delving_threads": 4.0,
   "ml_responses": 0.0,
   "delving_responses": 0.0,
-  "first_active": null,
-  "last_active": null,
-  "dev_type": "Reviewer",
+  "first_active": "2026-04-08T14:42:38.031000",
+  "last_active": "2026-04-09T09:49:03.670000",
+  "dev_type": "Builder",
   "expertise_domains": [
-    "Infrastructure"
+    "Infrastructure",
+    "Consensus"
   ],
-  "expertise_by_source": {},
-  "expertise_domain_scores": {
-    "Infrastructure": 1.0
+  "expertise_by_source": {
+    "discussion": {
+      "Consensus": 1.0
+    },
+    "code": {
+      "Infrastructure": 1.0
+    }
   },
-  "p2016_posts": 0.0,
-  "modern_posts": 0.0,
+  "expertise_domain_scores": {
+    "Infrastructure": 0.6,
+    "Consensus": 0.4
+  },
+  "p2016_posts": 4.0,
+  "modern_posts": 4.0,
   "p2016_ml_posts": 0.0,
-  "p2016_delving_posts": 0.0,
+  "p2016_delving_posts": 4.0,
   "modern_ml_posts": 0.0,
-  "modern_delving_posts": 0.0,
-  "is_engineer": false,
+  "modern_delving_posts": 4.0,
+  "is_engineer": true,
   "is_reviewer": true,
   "is_researcher": false,
   "is_bip_author": false,
-  "global_first_active": "2026-04-09T12:41:34",
-  "global_last_active": "2026-09-24T13:10:40",
+  "global_first_active": "2026-04-08T14:42:38.031000",
+  "global_last_active": "2026-09-28T16:51:46",
   "github_location": null,
   "github_company": null,
   "github_bio": null,
@@ -91,10 +100,32 @@
   "activity_status": "New",
   "is_top_50": false,
   "github_url": "https://github.com/xyzconstant",
+  "delving_url": "https://delvingbitcoin.org/u/xyzconstant",
   "commit_history": {
     "2026": {
-      "Build & CI": 5.0,
-      "Tests": 2.0
+      "Build & CI": 4.0,
+      "Tests": 1.0
+    }
+  },
+  "first_message": {
+    "source": "delving",
+    "subject": "Re: Consensus Cleanup: demo of slow blocks on Signet",
+    "date": "2026-04-08",
+    "link": "https://delvingbitcoin.org/t/consensus-cleanup-demo-of-slow-blocks-on-signet/2367/17"
+  },
+  "last_message": {
+    "source": "delving",
+    "subject": "Re: Consensus Cleanup: demo of slow blocks on Signet",
+    "date": "2026-04-09",
+    "link": "https://delvingbitcoin.org/t/consensus-cleanup-demo-of-slow-blocks-on-signet/2367/37"
+  },
+  "social_history": {
+    "2026": {
+      "consensus-cleanup": 4,
+      "core-dev": 4,
+      "mempool-fees": 4,
+      "testing-devtools": 4,
+      "utxo-sync": 4
     }
   }
 }

@@ -16,11 +16,11 @@
   "total_additions": 496.0,
   "total_deletions": 126.0,
   "first_core_commit": "2012-05-17T17:35:02+00:00",
-  "last_core_commit": "2016-07-11T09:02:41+00:00",
+  "last_core_commit": "2016-07-11T09:03:18+00:00",
   "first_ecosystem_commit": null,
   "last_ecosystem_commit": null,
   "first_commit": "2012-05-17T17:35:02",
-  "last_commit": "2016-07-11T09:02:41",
+  "last_commit": "2016-07-11T09:03:18",
   "p2016_authored_commits": 1.0,
   "modern_authored_commits": 0.0,
   "co_authored_commits": 0.0,
@@ -45,11 +45,11 @@
   "avg_pr_ack_velocity_days": 1.1673466435185185,
   "avg_concept_lead_time_days": 0.9271932870370371,
   "review_reciprocity": 0.2222222222222222,
-  "hybrid_score": 0.0727,
-  "p2016_hybrid_score": 0.0675,
+  "hybrid_score": 0.2055,
+  "p2016_hybrid_score": 0.1075,
   "modern_hybrid_score": 0.0615,
-  "impact_score": 4.0,
-  "p2016_impact_score": 4.0,
+  "impact_score": 12.0,
+  "p2016_impact_score": 6.0,
   "modern_impact_score": 4.0,
   "threads_started": 0.0,
   "replies_sent": 0.0,
@@ -59,11 +59,15 @@
   "delving_responses": 0.0,
   "first_active": null,
   "last_active": null,
-  "dev_type": "Participant",
+  "dev_type": "Builder",
   "expertise_domains": [
     "Infrastructure"
   ],
-  "expertise_by_source": {},
+  "expertise_by_source": {
+    "code": {
+      "Infrastructure": 1.0
+    }
+  },
   "expertise_domain_scores": {
     "Infrastructure": 1.0
   },
@@ -73,12 +77,12 @@
   "p2016_delving_posts": 0.0,
   "modern_ml_posts": 0.0,
   "modern_delving_posts": 0.0,
-  "is_engineer": false,
+  "is_engineer": true,
   "is_reviewer": true,
   "is_researcher": false,
   "is_bip_author": false,
   "global_first_active": "2012-05-17T17:35:02",
-  "global_last_active": "2016-07-11T09:02:41",
+  "global_last_active": "2016-07-11T09:03:18",
   "github_location": "Luzern; Switzerland",
   "github_company": "z12 GmbH",
   "github_bio": null,
@@ -90,16 +94,16 @@
   "github_url": "https://github.com/roques",
   "commit_history": {
     "2012": {
-      "Documentation": 2.0,
-      "Tests": 2.0,
-      "Utilities": 6.0
+      "Documentation": 1.0,
+      "Tests": 1.0,
+      "Utilities": 3.0
     },
     "2014": {
-      "Tests": 2.0,
-      "Utilities": 4.0
+      "Tests": 1.0,
+      "Utilities": 2.0
     },
     "2016": {
-      "Utilities": 2.0
+      "Utilities": 1.0
     }
   }
 }

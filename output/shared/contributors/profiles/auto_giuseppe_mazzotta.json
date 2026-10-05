@@ -15,12 +15,12 @@
   "self_merges": 0.0,
   "total_additions": 5667.0,
   "total_deletions": 1008.0,
-  "first_core_commit": "2013-06-18T13:23:58+00:00",
-  "last_core_commit": "2015-03-16T11:22:52+00:00",
+  "first_core_commit": "2013-06-18T13:23:59+00:00",
+  "last_core_commit": "2015-03-16T11:23:25+00:00",
   "first_ecosystem_commit": null,
   "last_ecosystem_commit": null,
-  "first_commit": "2013-06-18T13:23:58",
-  "last_commit": "2015-03-16T11:22:52",
+  "first_commit": "2013-06-18T13:23:59",
+  "last_commit": "2015-03-16T11:23:25",
   "p2016_authored_commits": 0.0,
   "modern_authored_commits": 0.0,
   "co_authored_commits": 0.0,
@@ -45,10 +45,10 @@
   "avg_pr_ack_velocity_days": 9.137275205761316,
   "avg_concept_lead_time_days": 67.7949537037037,
   "review_reciprocity": 0.5375,
-  "hybrid_score": 0.1668,
+  "hybrid_score": 0.4143,
   "p2016_hybrid_score": 0.1339,
   "modern_hybrid_score": 0.1339,
-  "impact_score": 10.0,
+  "impact_score": 22.0,
   "p2016_impact_score": 8.0,
   "modern_impact_score": 8.0,
   "threads_started": 0.0,
@@ -57,19 +57,28 @@
   "delving_threads": 0.0,
   "ml_responses": 1.0,
   "delving_responses": 0.0,
-  "first_active": "2015-01-28T10:19:55",
-  "last_active": "2015-01-28T10:19:55",
-  "dev_type": "Reviewer",
+  "first_active": null,
+  "last_active": null,
+  "dev_type": "Builder",
   "expertise_domains": [
-    "Ecosystem"
+    "Infrastructure",
+    "Ecosystem",
+    "Network"
   ],
   "expertise_by_source": {
     "discussion": {
       "Ecosystem": 1.0
+    },
+    "code": {
+      "Infrastructure": 0.985,
+      "Consensus": 0.005,
+      "Network": 0.007,
+      "Mempool": 0.003
     }
   },
   "expertise_domain_scores": {
-    "Ecosystem": 1.0
+    "Infrastructure": 0.591,
+    "Ecosystem": 0.4
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,
@@ -77,7 +86,7 @@
   "p2016_delving_posts": 0.0,
   "modern_ml_posts": 0.0,
   "modern_delving_posts": 0.0,
-  "is_engineer": false,
+  "is_engineer": true,
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": false,
@@ -94,25 +103,25 @@
   "github_url": "https://github.com/cozz",
   "commit_history": {
     "2013": {
-      "Build & CI": 0.67,
-      "GUI": 2.67,
-      "Utilities": 6.67
+      "Build & CI": 0.33,
+      "GUI": 1.33,
+      "Utilities": 3.33
     },
     "2014": {
-      "Build & CI": 2.0,
-      "Documentation": 2.0,
-      "GUI": 68.5,
-      "Mempool": 0.5,
-      "Node & RPC": 6.5,
-      "P2P Network": 1.0,
-      "Utilities": 47.5
+      "Build & CI": 1.0,
+      "Documentation": 1.0,
+      "GUI": 34.25,
+      "Mempool": 0.25,
+      "Node & RPC": 3.25,
+      "P2P Network": 0.5,
+      "Utilities": 23.75
     },
     "2015": {
-      "Consensus": 0.67,
-      "GUI": 2.67,
-      "Node & RPC": 0.67,
-      "Tests": 0.67,
-      "Utilities": 1.33
+      "Consensus": 0.33,
+      "GUI": 1.33,
+      "Node & RPC": 0.33,
+      "Tests": 0.33,
+      "Utilities": 0.67
     }
   },
   "first_message": {

@@ -1,5 +1,5 @@
 {
-  "display_name": "alex bosworth",
+  "display_name": "Alex Bosworth",
   "github_login_final": "alexbosworth",
   "delving_username_final": null,
   "uuid": "auto_alex_bosworth",
@@ -45,8 +45,8 @@
   "avg_pr_ack_velocity_days": 24.715659722222224,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": 0.0,
-  "hybrid_score": 0.0321,
-  "p2016_hybrid_score": 0.0368,
+  "hybrid_score": 0.032,
+  "p2016_hybrid_score": 0.0365,
   "modern_hybrid_score": 0.025,
   "impact_score": 2.0,
   "p2016_impact_score": 2.0,
@@ -57,8 +57,8 @@
   "delving_threads": 0.0,
   "ml_responses": 0.0,
   "delving_responses": 0.0,
-  "first_active": "2018-09-03T22:24:01",
-  "last_active": "2018-09-03T22:24:01",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Participant",
   "expertise_domains": [
     "L2",
@@ -66,13 +66,13 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "L2": 0.67,
-      "Wallet": 0.33
+      "Wallet": 0.33,
+      "L2": 0.67
     }
   },
   "expertise_domain_scores": {
-    "L2": 0.67,
-    "Wallet": 0.33
+    "Wallet": 0.33,
+    "L2": 0.67
   },
   "p2016_posts": 1.0,
   "modern_posts": 0.0,
@@ -84,8 +84,8 @@
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": false,
-  "global_first_active": "2018-09-03T22:24:01",
-  "global_last_active": "2018-09-03T22:24:01",
+  "global_first_active": null,
+  "global_last_active": null,
   "github_location": null,
   "github_company": null,
   "github_bio": "DE23 E73B FA8A 0AD5 587D  2FCD E80D 2F3F 311F D87E",

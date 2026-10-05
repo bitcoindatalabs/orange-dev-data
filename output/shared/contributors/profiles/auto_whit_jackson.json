@@ -1,5 +1,5 @@
 {
-  "display_name": "Whit Jackson",
+  "display_name": "whit jackson",
   "github_login_final": "whitj00",
   "delving_username_final": null,
   "uuid": "auto_whit_jackson",
@@ -15,12 +15,12 @@
   "self_merges": 0.0,
   "total_additions": 17.0,
   "total_deletions": 10.0,
-  "first_core_commit": "2014-06-25T05:06:57+00:00",
-  "last_core_commit": "2014-10-01T11:21:24+00:00",
+  "first_core_commit": "2014-06-25T05:07:15+00:00",
+  "last_core_commit": "2014-10-01T11:21:48+00:00",
   "first_ecosystem_commit": null,
   "last_ecosystem_commit": null,
-  "first_commit": "2014-06-25T05:06:57",
-  "last_commit": "2014-10-01T11:21:24",
+  "first_commit": "2014-06-25T05:07:15",
+  "last_commit": "2014-10-01T11:21:48",
   "p2016_authored_commits": 0.0,
   "modern_authored_commits": 0.0,
   "co_authored_commits": 0.0,
@@ -45,10 +45,10 @@
   "avg_pr_ack_velocity_days": 0.2486496913580247,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": 0.0,
-  "hybrid_score": 0.0865,
+  "hybrid_score": 0.1899,
   "p2016_hybrid_score": 0.0865,
   "modern_hybrid_score": 0.0865,
-  "impact_score": 5.0,
+  "impact_score": 11.0,
   "p2016_impact_score": 5.0,
   "modern_impact_score": 5.0,
   "threads_started": 1.0,
@@ -57,19 +57,24 @@
   "delving_threads": 0.0,
   "ml_responses": 0.0,
   "delving_responses": 0.0,
-  "first_active": "2015-10-02T14:03:05",
-  "last_active": "2015-10-02T14:03:05",
-  "dev_type": "Participant",
+  "first_active": null,
+  "last_active": null,
+  "dev_type": "Builder",
   "expertise_domains": [
+    "Infrastructure",
     "Consensus"
   ],
   "expertise_by_source": {
     "discussion": {
       "Consensus": 1.0
+    },
+    "code": {
+      "Infrastructure": 1.0
     }
   },
   "expertise_domain_scores": {
-    "Consensus": 1.0
+    "Infrastructure": 0.6,
+    "Consensus": 0.4
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,
@@ -77,12 +82,12 @@
   "p2016_delving_posts": 0.0,
   "modern_ml_posts": 0.0,
   "modern_delving_posts": 0.0,
-  "is_engineer": false,
+  "is_engineer": true,
   "is_reviewer": true,
   "is_researcher": false,
   "is_bip_author": false,
-  "global_first_active": "2014-06-25T05:06:57",
-  "global_last_active": "2015-10-02T14:03:05",
+  "global_first_active": "2014-06-25T05:07:15",
+  "global_last_active": "2014-10-01T11:21:48",
   "github_location": "Los Angeles, CA",
   "github_company": null,
   "github_bio": null,
@@ -94,9 +99,9 @@
   "github_url": "https://github.com/whitj00",
   "commit_history": {
     "2014": {
-      "Documentation": 4.0,
-      "GUI": 4.0,
-      "Utilities": 2.0
+      "Documentation": 2.0,
+      "GUI": 2.0,
+      "Utilities": 1.0
     }
   },
   "first_message": {

@@ -16,11 +16,11 @@
   "total_additions": 525.0,
   "total_deletions": 91.0,
   "first_core_commit": "2014-02-03T20:07:15+00:00",
-  "last_core_commit": "2017-02-22T11:18:29+00:00",
+  "last_core_commit": "2017-02-22T11:19:05+00:00",
   "first_ecosystem_commit": null,
   "last_ecosystem_commit": null,
   "first_commit": "2014-02-03T20:07:15",
-  "last_commit": "2017-02-22T11:18:29",
+  "last_commit": "2017-02-22T11:19:05",
   "p2016_authored_commits": 1.0,
   "modern_authored_commits": 0.0,
   "co_authored_commits": 0.0,
@@ -45,11 +45,11 @@
   "avg_pr_ack_velocity_days": 2.041639660493827,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": 0.2,
-  "hybrid_score": 0.1129,
-  "p2016_hybrid_score": 0.0723,
+  "hybrid_score": 0.2161,
+  "p2016_hybrid_score": 0.112,
   "modern_hybrid_score": 0.0646,
-  "impact_score": 7.0,
-  "p2016_impact_score": 4.0,
+  "impact_score": 12.0,
+  "p2016_impact_score": 6.0,
   "modern_impact_score": 4.0,
   "threads_started": 5.0,
   "replies_sent": 28.0,
@@ -57,10 +57,11 @@
   "delving_threads": 0.0,
   "ml_responses": 28.0,
   "delving_responses": 0.0,
-  "first_active": "2014-03-19T12:27:08",
-  "last_active": "2020-01-15T19:21:52",
-  "dev_type": "Participant",
+  "first_active": null,
+  "last_active": null,
+  "dev_type": "Builder",
   "expertise_domains": [
+    "Infrastructure",
     "Consensus",
     "Mining"
   ],
@@ -68,11 +69,20 @@
     "discussion": {
       "Mining": 0.208,
       "Consensus": 0.792
+    },
+    "code": {
+      "Infrastructure": 0.8,
+      "Consensus": 0.1,
+      "Network": 0.034,
+      "Mempool": 0.066
     }
   },
   "expertise_domain_scores": {
-    "Mining": 0.208,
-    "Consensus": 0.792
+    "Mining": 0.0832,
+    "Infrastructure": 0.48,
+    "Consensus": 0.3768,
+    "Mempool": 0.0396,
+    "Network": 0.0204
   },
   "p2016_posts": 3.0,
   "modern_posts": 0.0,
@@ -80,12 +90,12 @@
   "p2016_delving_posts": 0.0,
   "modern_ml_posts": 0.0,
   "modern_delving_posts": 0.0,
-  "is_engineer": false,
+  "is_engineer": true,
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": false,
   "global_first_active": "2014-02-03T20:07:15",
-  "global_last_active": "2020-01-15T19:21:52",
+  "global_last_active": "2017-02-22T11:19:05",
   "github_location": "USA",
   "github_company": "frostwire.com",
   "github_bio": "rust, java, c/c++, python, php, bash\r\nNielsen, LimeWire, FrostWire, MyBloop, Acotel, Temboo, Punsr, Bitcoin, OpenBazaar, DiarioBitcoin, MentisDB",
@@ -97,17 +107,17 @@
   "github_url": "https://github.com/gubatron",
   "commit_history": {
     "2014": {
-      "Consensus": 0.33,
-      "Documentation": 2.33,
-      "GUI": 4.33,
-      "Node & RPC": 0.33,
-      "P2P Network": 0.33,
-      "Utilities": 0.33
+      "Consensus": 0.17,
+      "Documentation": 1.17,
+      "GUI": 2.17,
+      "Node & RPC": 0.17,
+      "P2P Network": 0.17,
+      "Utilities": 0.17
     },
     "2017": {
-      "Consensus": 0.67,
-      "Mempool": 0.67,
-      "Node & RPC": 0.67
+      "Consensus": 0.33,
+      "Mempool": 0.33,
+      "Node & RPC": 0.33
     }
   },
   "first_message": {

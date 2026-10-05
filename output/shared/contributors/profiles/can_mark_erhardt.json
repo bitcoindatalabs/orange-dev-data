@@ -1,7 +1,7 @@
 {
   "display_name": "Mark Erhardt",
   "github_login_final": "murchandamus",
-  "delving_username_final": null,
+  "delving_username_final": "murch",
   "uuid": "can_mark_erhardt",
   "badges": {
     "is_maintainer": false,
@@ -29,12 +29,12 @@
   "self_merges": 0.0,
   "total_additions": 550528.0,
   "total_deletions": 1148.0,
-  "first_core_commit": "2015-12-08T09:22:34+00:00",
-  "last_core_commit": "2026-06-03T21:06:42+00:00",
+  "first_core_commit": "2015-12-08T09:23:05+00:00",
+  "last_core_commit": "2026-06-03T21:06:56+00:00",
   "first_ecosystem_commit": "2025-07-23T15:29:46+00:00",
   "last_ecosystem_commit": "2026-08-03T17:32:45+00:00",
-  "first_commit": "2015-12-08T09:22:34",
-  "last_commit": "2026-06-03T21:06:42",
+  "first_commit": "2015-12-08T09:23:05",
+  "last_commit": "2026-06-03T21:06:56",
   "p2016_authored_commits": 75.0,
   "modern_authored_commits": 52.0,
   "co_authored_commits": 34.0,
@@ -59,51 +59,59 @@
   "avg_pr_ack_velocity_days": 42.59497779029029,
   "avg_concept_lead_time_days": 49.894305555555555,
   "review_reciprocity": 10.152777777777779,
-  "hybrid_score": 0.7447,
-  "p2016_hybrid_score": 0.8665,
-  "modern_hybrid_score": 0.9336,
-  "impact_score": 36.0,
-  "p2016_impact_score": 41.0,
-  "modern_impact_score": 43.0,
-  "threads_started": 8.0,
-  "replies_sent": 65.0,
+  "hybrid_score": 0.9949,
+  "p2016_hybrid_score": 1.1104,
+  "modern_hybrid_score": 1.1763,
+  "impact_score": 45.0,
+  "p2016_impact_score": 49.0,
+  "modern_impact_score": 51.0,
+  "threads_started": 27.0,
+  "replies_sent": 105.0,
   "ml_threads": 8.0,
-  "delving_threads": 0.0,
+  "delving_threads": 19.0,
   "ml_responses": 65.0,
-  "delving_responses": 0.0,
-  "first_active": "2016-09-21T07:58:25",
-  "last_active": "2026-09-15T17:39:40",
-  "dev_type": "Reviewer",
+  "delving_responses": 40.0,
+  "first_active": null,
+  "last_active": "2026-09-17T18:31:50.856000",
+  "dev_type": "Protocol Designer",
   "expertise_domains": [
     "Infrastructure",
-    "Ecosystem",
+    "Wallet",
     "Mempool"
   ],
   "expertise_by_source": {
     "discussion": {
-      "Ecosystem": 0.698,
-      "Mempool": 0.302
+      "Mining": 0.314,
+      "Mempool": 0.343,
+      "Ecosystem": 0.343
+    },
+    "code": {
+      "Wallet": 0.307,
+      "Infrastructure": 0.649,
+      "Mempool": 0.044
     },
     "bips": {
       "Infrastructure": 1.0
     }
   },
   "expertise_domain_scores": {
-    "Infrastructure": 0.7143,
-    "Ecosystem": 0.1994,
-    "Mempool": 0.0863
+    "Mining": 0.0628,
+    "Infrastructure": 0.6947,
+    "Wallet": 0.0921,
+    "Mempool": 0.0818,
+    "Ecosystem": 0.0686
   },
-  "p2016_posts": 73.0,
-  "modern_posts": 65.0,
+  "p2016_posts": 132.0,
+  "modern_posts": 124.0,
   "p2016_ml_posts": 73.0,
-  "p2016_delving_posts": 0.0,
+  "p2016_delving_posts": 59.0,
   "modern_ml_posts": 65.0,
-  "modern_delving_posts": 0.0,
-  "is_engineer": false,
+  "modern_delving_posts": 59.0,
+  "is_engineer": true,
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": true,
-  "global_first_active": "2015-12-08T09:22:34",
+  "global_first_active": "2015-12-08T09:23:05",
   "global_last_active": "2026-09-25T18:56:55",
   "github_location": null,
   "github_company": null,
@@ -114,43 +122,44 @@
   "activity_status": "Active",
   "is_top_50": false,
   "github_url": "https://github.com/murchandamus",
+  "delving_url": "https://delvingbitcoin.org/u/murch",
   "commit_history": {
     "2015": {
-      "Tests": 1.0,
-      "Wallet": 5.0
+      "Tests": 0.5,
+      "Wallet": 2.5
     },
     "2016": {
-      "Wallet": 2.0
+      "Wallet": 1.0
     },
     "2017": {
-      "Mempool": 2.0
+      "Mempool": 1.0
     },
     "2019": {
-      "Mempool": 2.0
+      "Mempool": 1.0
     },
     "2022": {
-      "Documentation": 0.5,
-      "Mempool": 2.0,
-      "Node & RPC": 0.5,
-      "Tests": 1.5,
-      "Wallet": 9.5
+      "Documentation": 0.25,
+      "Mempool": 1.0,
+      "Node & RPC": 0.25,
+      "Tests": 0.75,
+      "Wallet": 4.75
     },
     "2023": {
-      "Mempool": 1.0,
-      "Node & RPC": 6.0,
-      "Tests": 13.0,
-      "Wallet": 4.0
+      "Mempool": 0.5,
+      "Node & RPC": 3.0,
+      "Tests": 6.5,
+      "Wallet": 2.0
     },
     "2024": {
-      "Tests": 17.0,
-      "Wallet": 19.0
+      "Tests": 8.5,
+      "Wallet": 9.5
     },
     "2025": {
-      "Tests": 23.0
+      "Tests": 14.0
     },
     "2026": {
-      "Tests": 30.0,
-      "Wallet": 9.0
+      "Tests": 17.5,
+      "Wallet": 4.5
     }
   },
   "bip_list": [
@@ -169,15 +178,15 @@
     "link": "https://gnusha.org/pi/bitcoindev/358752cc-48f6-eef8-ae9a-e17a0651ed52@murch.one"
   },
   "last_message": {
-    "source": "mailing_list",
-    "subject": "Re: [bitcoindev] Re: SHRINCS: an efficient hash-based signature\n scheme for Bitcoin (first draft)",
-    "date": "2026-09-15",
-    "link": "https://gnusha.org/pi/bitcoindev/70cc8e00-e4fd-46de-b9b4-27bc39bfcbe8@murch.one"
+    "source": "delving",
+    "subject": "Re: Standardizing an exposure classification for existing outputs (pre-BIP)",
+    "date": "2026-09-17",
+    "link": "https://delvingbitcoin.org/t/standardizing-an-exposure-classification-for-existing-outputs-pre-bip/2866/9"
   },
   "social_history": {
     "2016": {
-      "core-dev": 1,
-      "other": 5
+      "other": 5,
+      "taproot": 1
     },
     "2021": {
       "mempool-fees": 1,
@@ -189,34 +198,43 @@
       "other": 1
     },
     "2023": {
-      "mining": 1,
-      "other": 1
+      "mempool-fees": 5,
+      "mining": 2,
+      "other": 5,
+      "script-opcodes": 1,
+      "taproot": 4
     },
     "2024": {
       "bip-process": 8,
-      "core-dev": 1,
-      "other": 4,
-      "mempool-fees": 4,
-      "soft-fork-activation": 1
+      "other": 47,
+      "hard-fork-block-size": 10,
+      "mempool-fees": 17,
+      "mining": 14,
+      "script-opcodes": 4,
+      "taproot": 3,
+      "testing-devtools": 10
     },
     "2025": {
       "bip-process": 10,
-      "consensus-cleanup": 1,
-      "other": 16,
-      "mempool-fees": 2,
-      "mining": 1,
-      "quantum": 1,
-      "soft-fork-activation": 5
+      "other": 22,
+      "hard-fork-block-size": 1,
+      "mempool-fees": 5,
+      "mining": 3,
+      "quantum": 2,
+      "script-opcodes": 1,
+      "taproot": 3,
+      "testing-devtools": 2
     },
     "2026": {
       "bip-process": 10,
-      "consensus-cleanup": 3,
-      "core-dev": 2,
-      "other": 11,
-      "mempool-fees": 4,
-      "mining": 3,
-      "quantum": 4,
-      "soft-fork-activation": 4
+      "other": 65,
+      "hard-fork-block-size": 10,
+      "mempool-fees": 8,
+      "mining": 16,
+      "quantum": 13,
+      "script-opcodes": 16,
+      "taproot": 6,
+      "testing-devtools": 3
     }
   }
 }

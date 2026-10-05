@@ -28,11 +28,11 @@
   "total_additions": 794.0,
   "total_deletions": 418.0,
   "first_core_commit": "2012-09-28T05:48:27+00:00",
-  "last_core_commit": "2024-01-16T19:57:14+00:00",
+  "last_core_commit": "2024-01-16T20:03:17+00:00",
   "first_ecosystem_commit": null,
   "last_ecosystem_commit": null,
   "first_commit": "2012-09-28T05:48:27",
-  "last_commit": "2024-01-16T19:57:14",
+  "last_commit": "2024-01-16T20:03:17",
   "p2016_authored_commits": 6.0,
   "modern_authored_commits": 2.0,
   "co_authored_commits": 0.0,
@@ -48,7 +48,7 @@
   "tier1_reviews_count": 59.0,
   "tier2_reviews_count": 22.0,
   "p2016_reviews_count": 39.0,
-  "modern_reviews_count": 4.0,
+  "modern_reviews_count": 3.0,
   "first_review_date": "2013-07-22T21:16:34",
   "last_review_date": "2026-01-20T23:03:59",
   "prs_authored": 36.0,
@@ -57,37 +57,46 @@
   "avg_pr_ack_velocity_days": 13.544579475308643,
   "avg_concept_lead_time_days": 27.952148148148147,
   "review_reciprocity": 2.25,
-  "hybrid_score": 1.4987,
-  "p2016_hybrid_score": 1.0381,
-  "modern_hybrid_score": 0.1598,
-  "impact_score": 59.0,
-  "p2016_impact_score": 46.0,
-  "modern_impact_score": 9.0,
+  "hybrid_score": 1.6743,
+  "p2016_hybrid_score": 1.1545,
+  "modern_hybrid_score": 0.2352,
+  "impact_score": 63.0,
+  "p2016_impact_score": 50.0,
+  "modern_impact_score": 13.0,
   "threads_started": 14.0,
   "replies_sent": 272.0,
   "ml_threads": 14.0,
   "delving_threads": 0.0,
   "ml_responses": 272.0,
   "delving_responses": 0.0,
-  "first_active": "2012-06-17T20:27:39",
-  "last_active": "2024-04-30T17:20:16",
-  "dev_type": "Reviewer",
+  "first_active": null,
+  "last_active": null,
+  "dev_type": "Protocol Designer",
   "expertise_domains": [
     "Consensus",
+    "Infrastructure",
     "Script"
   ],
   "expertise_by_source": {
     "discussion": {
-      "Script": 0.476,
-      "Consensus": 0.524
+      "Consensus": 0.524,
+      "Script": 0.476
+    },
+    "code": {
+      "Infrastructure": 0.694,
+      "Consensus": 0.099,
+      "Script": 0.142,
+      "Mempool": 0.065
     },
     "bips": {
       "Consensus": 1.0
     }
   },
   "expertise_domain_scores": {
-    "Script": 0.136,
-    "Consensus": 0.864
+    "Infrastructure": 0.2082,
+    "Consensus": 0.6345,
+    "Mempool": 0.0195,
+    "Script": 0.1378
   },
   "p2016_posts": 68.0,
   "modern_posts": 2.0,
@@ -95,11 +104,11 @@
   "p2016_delving_posts": 0.0,
   "modern_ml_posts": 2.0,
   "modern_delving_posts": 0.0,
-  "is_engineer": false,
+  "is_engineer": true,
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": true,
-  "global_first_active": "2012-06-17T20:27:39",
+  "global_first_active": "2012-09-28T05:48:27",
   "global_last_active": "2026-01-20T23:03:59",
   "github_location": "San José, CA",
   "github_company": null,
@@ -112,46 +121,46 @@
   "github_url": "https://github.com/maaku",
   "commit_history": {
     "2012": {
-      "Utilities": 2.0
-    },
-    "2013": {
-      "Documentation": 2.0
-    },
-    "2014": {
-      "Build & CI": 0.29,
-      "Consensus": 0.29,
-      "GUI": 1.29,
-      "Mempool": 0.29,
-      "Node & RPC": 0.29,
-      "Tests": 0.29,
-      "Utilities": 7.29
-    },
-    "2015": {
-      "Consensus": 1.67,
-      "Mempool": 1.67,
-      "Script": 2.0,
-      "Tests": 4.0,
-      "Utilities": 2.67
-    },
-    "2016": {
-      "Mempool": 0.67,
-      "Script": 0.67,
-      "Tests": 0.67
-    },
-    "2017": {
-      "Script": 2.0,
-      "Tests": 1.0,
       "Utilities": 1.0
     },
-    "2018": {
+    "2013": {
+      "Documentation": 1.0
+    },
+    "2014": {
+      "Build & CI": 0.14,
+      "Consensus": 0.14,
+      "GUI": 0.64,
+      "Mempool": 0.14,
+      "Node & RPC": 0.14,
+      "Tests": 0.14,
+      "Utilities": 3.64
+    },
+    "2015": {
+      "Consensus": 0.83,
+      "Mempool": 0.83,
       "Script": 1.0,
-      "Tests": 1.0
+      "Tests": 2.0,
+      "Utilities": 1.33
+    },
+    "2016": {
+      "Mempool": 0.33,
+      "Script": 0.33,
+      "Tests": 0.33
+    },
+    "2017": {
+      "Script": 1.0,
+      "Tests": 0.5,
+      "Utilities": 0.5
+    },
+    "2018": {
+      "Script": 0.5,
+      "Tests": 0.5
     },
     "2024": {
-      "Build & CI": 1.0,
-      "Consensus": 2.0,
-      "Tests": 1.0,
-      "Utilities": 2.0
+      "Build & CI": 0.5,
+      "Consensus": 1.0,
+      "Tests": 0.5,
+      "Utilities": 1.0
     }
   },
   "bip_list": [

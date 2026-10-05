@@ -1,15 +1,18 @@
 {
   "headline": {
-    "bus_factor": 5,
-    "window": "1_year",
-    "period": "2026",
+    "bus_factor": 7,
+    "window": "trailing_12_months",
+    "period": "2025-10-04 to 2026-10-04",
     "top_contributors": [
+      "MarcoFalke",
+      "Hennadii Stepanov",
       "fanquake",
-      "maflcko",
-      "achow101",
-      "TheCharlatan",
-      "hebasto"
-    ]
+      "L\u0151rinc",
+      "Ava Chow",
+      "Sjors Provoost",
+      "Hodlinator"
+    ],
+    "basis": "authored (non-merge) bitcoin/bitcoin commits"
   },
   "historical": {
     "xAxis": [
@@ -30,47 +33,47 @@
       "2023",
       "2024",
       "2025",
-      "2026"
+      "Last 12 mo"
     ],
     "bus_factor": [
       1,
       1,
       2,
       3,
-      3,
-      2,
-      3,
-      3,
       4,
       4,
-      4,
-      4,
-      4,
-      4,
-      4,
-      5,
-      5,
-      5
+      6,
+      6,
+      6,
+      8,
+      8,
+      6,
+      6,
+      7,
+      7,
+      8,
+      8,
+      7
     ],
     "total_contributors": [
       2,
       5,
-      83,
-      56,
-      86,
-      154,
-      138,
-      149,
+      80,
+      58,
+      79,
+      152,
+      122,
+      135,
+      155,
+      190,
       160,
-      198,
-      184,
-      187,
-      187,
-      162,
-      131,
-      133,
-      141,
-      122
+      160,
+      161,
+      138,
+      91,
+      101,
+      128,
+      151
     ]
   }
 }

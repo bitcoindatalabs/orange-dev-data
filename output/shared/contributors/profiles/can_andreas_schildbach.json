@@ -15,12 +15,12 @@
   "self_merges": 0.0,
   "total_additions": 18.0,
   "total_deletions": 27.0,
-  "first_core_commit": "2014-03-12T19:12:08+00:00",
-  "last_core_commit": "2017-10-19T13:01:30+00:00",
+  "first_core_commit": "2014-03-12T19:12:09+00:00",
+  "last_core_commit": "2017-10-19T13:02:25+00:00",
   "first_ecosystem_commit": null,
   "last_ecosystem_commit": null,
-  "first_commit": "2014-03-12T19:12:08",
-  "last_commit": "2017-10-19T13:01:30",
+  "first_commit": "2014-03-12T19:12:09",
+  "last_commit": "2017-10-19T13:02:25",
   "p2016_authored_commits": 2.0,
   "modern_authored_commits": 0.0,
   "co_authored_commits": 0.0,
@@ -45,11 +45,11 @@
   "avg_pr_ack_velocity_days": 3.2759852430555556,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": 3.210526315789474,
-  "hybrid_score": 0.3519,
-  "p2016_hybrid_score": 0.2568,
-  "modern_hybrid_score": 0.1337,
-  "impact_score": 19.0,
-  "p2016_impact_score": 14.0,
+  "hybrid_score": 0.4769,
+  "p2016_hybrid_score": 0.3171,
+  "modern_hybrid_score": 0.1316,
+  "impact_score": 25.0,
+  "p2016_impact_score": 17.0,
   "modern_impact_score": 8.0,
   "threads_started": 12.0,
   "replies_sent": 187.0,
@@ -57,22 +57,29 @@
   "delving_threads": 0.0,
   "ml_responses": 187.0,
   "delving_responses": 0.0,
-  "first_active": "2011-09-23T14:42:08",
-  "last_active": "2025-03-14T04:12:57",
-  "dev_type": "Reviewer",
+  "first_active": null,
+  "last_active": null,
+  "dev_type": "Builder",
   "expertise_domains": [
+    "Infrastructure",
     "Ecosystem",
-    "Wallet"
+    "Consensus"
   ],
   "expertise_by_source": {
     "discussion": {
-      "Ecosystem": 0.76,
-      "Wallet": 0.24
+      "Wallet": 0.24,
+      "Ecosystem": 0.76
+    },
+    "code": {
+      "Infrastructure": 0.625,
+      "Consensus": 0.375
     }
   },
   "expertise_domain_scores": {
-    "Ecosystem": 0.76,
-    "Wallet": 0.24
+    "Infrastructure": 0.375,
+    "Wallet": 0.096,
+    "Consensus": 0.225,
+    "Ecosystem": 0.304
   },
   "p2016_posts": 44.0,
   "modern_posts": 2.0,
@@ -80,11 +87,11 @@
   "p2016_delving_posts": 0.0,
   "modern_ml_posts": 2.0,
   "modern_delving_posts": 0.0,
-  "is_engineer": false,
+  "is_engineer": true,
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": false,
-  "global_first_active": "2011-09-23T14:42:08",
+  "global_first_active": "2012-10-30T13:28:55",
   "global_last_active": "2026-08-13T09:38:44",
   "github_location": null,
   "github_company": null,
@@ -97,13 +104,13 @@
   "github_url": "https://github.com/schildbach",
   "commit_history": {
     "2014": {
-      "Consensus": 4.0,
-      "Tests": 4.0,
-      "Utilities": 4.0
+      "Consensus": 2.0,
+      "Tests": 2.0,
+      "Utilities": 2.0
     },
     "2017": {
-      "Consensus": 2.0,
-      "Tests": 2.0
+      "Consensus": 1.0,
+      "Tests": 1.0
     }
   },
   "first_message": {

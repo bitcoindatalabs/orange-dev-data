@@ -1,7 +1,7 @@
 {
   "display_name": "Jeremy Rubin",
   "github_login_final": "JeremyRubin",
-  "delving_username_final": null,
+  "delving_username_final": "jeremyrubin",
   "uuid": "can_jeremy_rubin",
   "badges": {
     "is_maintainer": false,
@@ -27,12 +27,12 @@
   "self_merges": 0.0,
   "total_additions": 2681.0,
   "total_deletions": 603.0,
-  "first_core_commit": "2016-08-17T10:32:17+00:00",
-  "last_core_commit": "2022-10-13T13:40:20+00:00",
+  "first_core_commit": "2016-08-17T10:33:17+00:00",
+  "last_core_commit": "2022-10-13T13:41:11+00:00",
   "first_ecosystem_commit": null,
   "last_ecosystem_commit": null,
-  "first_commit": "2016-08-17T10:32:17",
-  "last_commit": "2022-10-13T13:40:20",
+  "first_commit": "2016-08-17T10:33:17",
+  "last_commit": "2022-10-13T13:41:11",
   "p2016_authored_commits": 60.0,
   "modern_authored_commits": 0.0,
   "co_authored_commits": 0.0,
@@ -57,52 +57,62 @@
   "avg_pr_ack_velocity_days": 38.09567084241104,
   "avg_concept_lead_time_days": 18.57474652777778,
   "review_reciprocity": 2.9,
-  "hybrid_score": 1.2759,
-  "p2016_hybrid_score": 1.3729,
-  "modern_hybrid_score": 1.1457,
-  "impact_score": 53.0,
-  "p2016_impact_score": 56.0,
-  "modern_impact_score": 50.0,
-  "threads_started": 94.0,
-  "replies_sent": 239.0,
+  "hybrid_score": 1.5092,
+  "p2016_hybrid_score": 1.6101,
+  "modern_hybrid_score": 1.1147,
+  "impact_score": 60.0,
+  "p2016_impact_score": 62.0,
+  "modern_impact_score": 49.0,
+  "threads_started": 116.0,
+  "replies_sent": 249.0,
   "ml_threads": 94.0,
-  "delving_threads": 0.0,
+  "delving_threads": 22.0,
   "ml_responses": 239.0,
-  "delving_responses": 0.0,
-  "first_active": "2014-07-16T12:56:54",
-  "last_active": "2026-06-16T14:59:33",
-  "dev_type": "Reviewer",
+  "delving_responses": 10.0,
+  "first_active": null,
+  "last_active": null,
+  "dev_type": "Protocol Designer",
   "expertise_domains": [
     "Consensus",
     "Script",
-    "Mempool"
+    "Infrastructure"
   ],
   "expertise_by_source": {
     "discussion": {
-      "Mempool": 0.345,
-      "Script": 0.655
+      "Script": 1.0
+    },
+    "code": {
+      "Wallet": 0.113,
+      "Infrastructure": 0.679,
+      "Consensus": 0.042,
+      "Script": 0.046,
+      "Network": 0.058,
+      "Mempool": 0.062
     },
     "bips": {
       "Consensus": 1.0
     }
   },
   "expertise_domain_scores": {
-    "Mempool": 0.0986,
-    "Script": 0.1871,
-    "Consensus": 0.7143
+    "Infrastructure": 0.2037,
+    "Wallet": 0.0339,
+    "Consensus": 0.5126,
+    "Mempool": 0.0186,
+    "Script": 0.2138,
+    "Network": 0.0174
   },
-  "p2016_posts": 318.0,
-  "modern_posts": 26.0,
+  "p2016_posts": 350.0,
+  "modern_posts": 58.0,
   "p2016_ml_posts": 318.0,
-  "p2016_delving_posts": 0.0,
+  "p2016_delving_posts": 32.0,
   "modern_ml_posts": 26.0,
-  "modern_delving_posts": 0.0,
-  "is_engineer": false,
+  "modern_delving_posts": 32.0,
+  "is_engineer": true,
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": true,
-  "global_first_active": "2014-07-16T12:56:54",
-  "global_last_active": "2026-06-16T14:59:33",
+  "global_first_active": "2015-09-25T12:18:51",
+  "global_last_active": "2026-05-31T23:46:45",
   "github_location": "behind u",
   "github_company": null,
   "github_bio": null,
@@ -112,57 +122,58 @@
   "activity_status": "Active",
   "is_top_50": false,
   "github_url": "https://github.com/JeremyRubin",
+  "delving_url": "https://delvingbitcoin.org/u/jeremyrubin",
   "commit_history": {
     "2016": {
-      "Build & CI": 1.0,
-      "Node & RPC": 1.0,
-      "P2P Network": 2.5,
-      "Script": 0.5,
-      "Tests": 5.5,
-      "Utilities": 5.0,
-      "Wallet": 0.5
+      "Build & CI": 0.5,
+      "Node & RPC": 0.5,
+      "P2P Network": 1.25,
+      "Script": 0.25,
+      "Tests": 2.75,
+      "Utilities": 2.5,
+      "Wallet": 0.25
     },
     "2017": {
-      "Build & CI": 3.0,
-      "Consensus": 3.0,
-      "P2P Network": 4.0,
-      "Script": 1.0,
-      "Tests": 10.0,
-      "Utilities": 23.0
+      "Build & CI": 1.5,
+      "Consensus": 1.5,
+      "P2P Network": 2.0,
+      "Script": 0.5,
+      "Tests": 5.0,
+      "Utilities": 11.5
     },
     "2018": {
-      "Build & CI": 1.0,
-      "Node & RPC": 1.0,
-      "Tests": 3.0,
-      "Wallet": 1.0
+      "Build & CI": 0.5,
+      "Node & RPC": 0.5,
+      "Tests": 1.5,
+      "Wallet": 0.5
     },
     "2019": {
-      "Build & CI": 1.0,
-      "Documentation": 2.0,
-      "Node & RPC": 1.0,
-      "Tests": 7.0,
-      "Utilities": 3.0,
-      "Wallet": 12.0
+      "Build & CI": 0.5,
+      "Documentation": 1.0,
+      "Node & RPC": 0.5,
+      "Tests": 3.5,
+      "Utilities": 1.5,
+      "Wallet": 6.0
     },
     "2020": {
-      "Build & CI": 1.0,
-      "Consensus": 1.0,
-      "Mempool": 6.5,
-      "Node & RPC": 0.5,
-      "P2P Network": 0.5,
-      "Script": 3.0,
-      "Tests": 1.0,
-      "Utilities": 4.5
+      "Build & CI": 0.5,
+      "Consensus": 0.5,
+      "Mempool": 3.25,
+      "Node & RPC": 0.25,
+      "P2P Network": 0.25,
+      "Script": 1.5,
+      "Tests": 0.5,
+      "Utilities": 2.25
     },
     "2021": {
-      "Utilities": 2.0
+      "Utilities": 1.0
     },
     "2022": {
-      "Consensus": 1.0,
-      "Mempool": 1.0,
-      "Script": 1.0,
-      "Tests": 3.0,
-      "Utilities": 2.0
+      "Consensus": 0.5,
+      "Mempool": 0.5,
+      "Script": 0.5,
+      "Tests": 1.5,
+      "Utilities": 1.0
     }
   },
   "bip_list": [
@@ -271,20 +282,26 @@
       "taproot": 12
     },
     "2024": {
-      "other": 4,
-      "covenants": 3,
-      "lightning": 1
+      "other": 20,
+      "covenants": 15,
+      "lightning": 1,
+      "mempool-fees": 3,
+      "mining": 2,
+      "script-opcodes": 3,
+      "soft-fork-activation": 8
     },
     "2025": {
-      "other": 1,
-      "covenants": 1,
-      "mempool-fees": 2,
-      "script-opcodes": 6,
-      "soft-fork-activation": 2,
-      "taproot": 2
+      "other": 14,
+      "covenants": 15,
+      "lightning": 1,
+      "mempool-fees": 4,
+      "mining": 3,
+      "script-opcodes": 15,
+      "soft-fork-activation": 3,
+      "taproot": 4
     },
     "2026": {
-      "other": 16,
+      "other": 20,
       "mining": 3,
       "script-opcodes": 1,
       "soft-fork-activation": 2,

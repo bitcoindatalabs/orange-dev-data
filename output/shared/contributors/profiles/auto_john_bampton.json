@@ -1,5 +1,5 @@
 {
-  "display_name": "John Bampton",
+  "display_name": "john bampton",
   "github_login_final": "jbampton",
   "delving_username_final": null,
   "uuid": "auto_john_bampton",
@@ -15,12 +15,12 @@
   "self_merges": 0.0,
   "total_additions": 417.0,
   "total_deletions": 414.0,
-  "first_core_commit": "2018-05-11T00:59:36+00:00",
-  "last_core_commit": "2025-04-02T01:49:21+00:00",
+  "first_core_commit": "2018-05-11T01:03:15+00:00",
+  "last_core_commit": "2025-04-02T01:49:29+00:00",
   "first_ecosystem_commit": null,
   "last_ecosystem_commit": null,
-  "first_commit": "2018-05-11T00:59:36",
-  "last_commit": "2025-04-02T01:49:21",
+  "first_commit": "2018-05-11T01:03:15",
+  "last_commit": "2025-04-02T01:49:29",
   "p2016_authored_commits": 4.0,
   "modern_authored_commits": 1.0,
   "co_authored_commits": 0.0,
@@ -45,12 +45,12 @@
   "avg_pr_ack_velocity_days": 25.47267361111111,
   "avg_concept_lead_time_days": 86.04967592592592,
   "review_reciprocity": 0.0,
-  "hybrid_score": 0.0772,
-  "p2016_hybrid_score": 0.0772,
-  "modern_hybrid_score": 0.0772,
-  "impact_score": 5.0,
-  "p2016_impact_score": 5.0,
-  "modern_impact_score": 5.0,
+  "hybrid_score": 0.1701,
+  "p2016_hybrid_score": 0.1701,
+  "modern_hybrid_score": 0.1172,
+  "impact_score": 10.0,
+  "p2016_impact_score": 10.0,
+  "modern_impact_score": 7.0,
   "threads_started": 0.0,
   "replies_sent": 0.0,
   "ml_threads": 0.0,
@@ -59,11 +59,15 @@
   "delving_responses": 0.0,
   "first_active": null,
   "last_active": null,
-  "dev_type": "Participant",
+  "dev_type": "Builder",
   "expertise_domains": [
     "Infrastructure"
   ],
-  "expertise_by_source": {},
+  "expertise_by_source": {
+    "code": {
+      "Infrastructure": 1.0
+    }
+  },
   "expertise_domain_scores": {
     "Infrastructure": 1.0
   },
@@ -73,12 +77,12 @@
   "p2016_delving_posts": 0.0,
   "modern_ml_posts": 0.0,
   "modern_delving_posts": 0.0,
-  "is_engineer": false,
+  "is_engineer": true,
   "is_reviewer": true,
   "is_researcher": false,
   "is_bip_author": false,
-  "global_first_active": "2018-05-11T00:59:36",
-  "global_last_active": "2025-04-02T01:49:21",
+  "global_first_active": "2018-05-11T01:03:15",
+  "global_last_active": "2025-04-02T01:49:29",
   "github_location": "Brisbane, Australia",
   "github_company": "@john-bampton @NextCommunity",
   "github_bio": "@apache Committer on CloudStack, OpenOffice and Sedona. Contributor @mruby ",
@@ -90,14 +94,14 @@
   "github_url": "https://github.com/jbampton",
   "commit_history": {
     "2018": {
-      "Tests": 1.0,
-      "Utilities": 1.0
+      "Tests": 0.5,
+      "Utilities": 0.5
     },
     "2019": {
-      "Tests": 4.0
+      "Tests": 2.0
     },
     "2025": {
-      "Tests": 2.0
+      "Tests": 1.0
     }
   }
 }

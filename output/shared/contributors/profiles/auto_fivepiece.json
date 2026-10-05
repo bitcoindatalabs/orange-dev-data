@@ -18,12 +18,12 @@
   "self_merges": 0.0,
   "total_additions": 143.0,
   "total_deletions": 20.0,
-  "first_core_commit": "2018-02-08T08:40:42+00:00",
-  "last_core_commit": "2018-04-26T12:39:34+00:00",
+  "first_core_commit": "2018-02-08T08:57:21+00:00",
+  "last_core_commit": "2018-04-26T12:51:44+00:00",
   "first_ecosystem_commit": "2019-01-02T16:10:28+00:00",
   "last_ecosystem_commit": "2019-01-03T19:01:26+00:00",
-  "first_commit": "2018-02-08T08:40:42",
-  "last_commit": "2018-04-26T12:39:34",
+  "first_commit": "2018-02-08T08:57:21",
+  "last_commit": "2018-04-26T12:51:44",
   "p2016_authored_commits": 7.0,
   "modern_authored_commits": 0.0,
   "co_authored_commits": 0.0,
@@ -48,11 +48,11 @@
   "avg_pr_ack_velocity_days": 2.1683506944444444,
   "avg_concept_lead_time_days": 3.342013888888889,
   "review_reciprocity": 1.1666666666666667,
-  "hybrid_score": 0.0865,
-  "p2016_hybrid_score": 0.0865,
+  "hybrid_score": 0.2065,
+  "p2016_hybrid_score": 0.2065,
   "modern_hybrid_score": 0.05,
-  "impact_score": 5.0,
-  "p2016_impact_score": 5.0,
+  "impact_score": 12.0,
+  "p2016_impact_score": 12.0,
   "modern_impact_score": 3.0,
   "threads_started": 0.0,
   "replies_sent": 0.0,
@@ -62,13 +62,20 @@
   "delving_responses": 0.0,
   "first_active": null,
   "last_active": null,
-  "dev_type": "Participant",
+  "dev_type": "Builder",
   "expertise_domains": [
-    "Infrastructure"
+    "Infrastructure",
+    "Wallet"
   ],
-  "expertise_by_source": {},
+  "expertise_by_source": {
+    "code": {
+      "Wallet": 0.5,
+      "Infrastructure": 0.5
+    }
+  },
   "expertise_domain_scores": {
-    "Infrastructure": 1.0
+    "Infrastructure": 0.5,
+    "Wallet": 0.5
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,
@@ -76,7 +83,7 @@
   "p2016_delving_posts": 0.0,
   "modern_ml_posts": 0.0,
   "modern_delving_posts": 0.0,
-  "is_engineer": false,
+  "is_engineer": true,
   "is_reviewer": true,
   "is_researcher": false,
   "is_bip_author": false,
@@ -93,10 +100,10 @@
   "github_url": "https://github.com/fivepiece",
   "commit_history": {
     "2018": {
-      "Documentation": 2.0,
-      "Node & RPC": 3.0,
-      "Tests": 2.0,
-      "Wallet": 1.0
+      "Documentation": 1.0,
+      "Node & RPC": 1.5,
+      "Tests": 1.0,
+      "Wallet": 0.5
     },
     "2019": {
       "Wallet": 3.0

@@ -15,12 +15,12 @@
   "self_merges": 0.0,
   "total_additions": 248.0,
   "total_deletions": 248.0,
-  "first_core_commit": "2014-03-10T08:34:44+00:00",
-  "last_core_commit": "2014-11-17T10:22:01+00:00",
+  "first_core_commit": "2014-03-10T08:35:02+00:00",
+  "last_core_commit": "2014-11-17T10:25:22+00:00",
   "first_ecosystem_commit": null,
   "last_ecosystem_commit": null,
-  "first_commit": "2014-03-10T08:34:44",
-  "last_commit": "2014-11-17T10:22:01",
+  "first_commit": "2014-03-10T08:35:02",
+  "last_commit": "2014-11-17T10:25:22",
   "p2016_authored_commits": 0.0,
   "modern_authored_commits": 0.0,
   "co_authored_commits": 0.0,
@@ -45,22 +45,23 @@
   "avg_pr_ack_velocity_days": 0.9909548611111111,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": 6.1,
-  "hybrid_score": 0.3111,
-  "p2016_hybrid_score": 0.3434,
-  "modern_hybrid_score": 0.4255,
-  "impact_score": 17.0,
+  "hybrid_score": 0.3734,
+  "p2016_hybrid_score": 0.341,
+  "modern_hybrid_score": 0.4089,
+  "impact_score": 20.0,
   "p2016_impact_score": 19.0,
-  "modern_impact_score": 23.0,
+  "modern_impact_score": 22.0,
   "threads_started": 24.0,
   "replies_sent": 94.0,
   "ml_threads": 24.0,
   "delving_threads": 0.0,
   "ml_responses": 94.0,
   "delving_responses": 0.0,
-  "first_active": "2014-08-19T10:44:55",
-  "last_active": "2026-08-10T15:51:29",
-  "dev_type": "Reviewer",
+  "first_active": null,
+  "last_active": null,
+  "dev_type": "Builder",
   "expertise_domains": [
+    "Infrastructure",
     "Consensus",
     "Mining"
   ],
@@ -68,11 +69,15 @@
     "discussion": {
       "Mining": 0.409,
       "Consensus": 0.591
+    },
+    "code": {
+      "Infrastructure": 1.0
     }
   },
   "expertise_domain_scores": {
-    "Mining": 0.409,
-    "Consensus": 0.591
+    "Mining": 0.1636,
+    "Infrastructure": 0.6,
+    "Consensus": 0.2364
   },
   "p2016_posts": 76.0,
   "modern_posts": 10.0,
@@ -80,7 +85,7 @@
   "p2016_delving_posts": 0.0,
   "modern_ml_posts": 10.0,
   "modern_delving_posts": 0.0,
-  "is_engineer": false,
+  "is_engineer": true,
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": false,
@@ -97,7 +102,7 @@
   "github_url": "https://github.com/kanzure",
   "commit_history": {
     "2014": {
-      "Utilities": 4.0
+      "Utilities": 2.0
     }
   },
   "first_message": {

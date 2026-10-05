@@ -15,12 +15,12 @@
   "self_merges": 0.0,
   "total_additions": 181.0,
   "total_deletions": 75.0,
-  "first_core_commit": "2011-05-08T21:10:33+00:00",
-  "last_core_commit": "2015-07-02T18:09:07+00:00",
+  "first_core_commit": "2011-05-09T16:37:31+00:00",
+  "last_core_commit": "2015-07-02T18:09:39+00:00",
   "first_ecosystem_commit": null,
   "last_ecosystem_commit": null,
-  "first_commit": "2011-05-08T21:10:33",
-  "last_commit": "2015-07-02T18:09:07",
+  "first_commit": "2011-05-09T16:37:31",
+  "last_commit": "2015-07-02T18:09:39",
   "p2016_authored_commits": 0.0,
   "modern_authored_commits": 0.0,
   "co_authored_commits": 0.0,
@@ -45,10 +45,10 @@
   "avg_pr_ack_velocity_days": 0.6187731481481482,
   "avg_concept_lead_time_days": 1.2638425925925925,
   "review_reciprocity": 0.4444444444444444,
-  "hybrid_score": 0.0897,
+  "hybrid_score": 0.2165,
   "p2016_hybrid_score": 0.0615,
   "modern_hybrid_score": 0.0615,
-  "impact_score": 5.0,
+  "impact_score": 12.0,
   "p2016_impact_score": 4.0,
   "modern_impact_score": 4.0,
   "threads_started": 2.0,
@@ -57,13 +57,17 @@
   "delving_threads": 0.0,
   "ml_responses": 0.0,
   "delving_responses": 0.0,
-  "first_active": "2011-09-04T21:21:24",
-  "last_active": "2012-08-21T21:25:20",
-  "dev_type": "Participant",
+  "first_active": null,
+  "last_active": null,
+  "dev_type": "Builder",
   "expertise_domains": [
     "Infrastructure"
   ],
-  "expertise_by_source": {},
+  "expertise_by_source": {
+    "code": {
+      "Infrastructure": 1.0
+    }
+  },
   "expertise_domain_scores": {
     "Infrastructure": 1.0
   },
@@ -73,12 +77,12 @@
   "p2016_delving_posts": 0.0,
   "modern_ml_posts": 0.0,
   "modern_delving_posts": 0.0,
-  "is_engineer": false,
+  "is_engineer": true,
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": false,
-  "global_first_active": "2011-05-08T21:10:33",
-  "global_last_active": "2015-07-02T18:09:07",
+  "global_first_active": "2011-05-09T16:37:31",
+  "global_last_active": "2015-07-02T18:09:39",
   "github_location": "USA",
   "github_company": null,
   "github_bio": null,
@@ -90,17 +94,17 @@
   "github_url": "https://github.com/forrestv",
   "commit_history": {
     "2011": {
-      "Utilities": 4.0
+      "Utilities": 2.0
     },
     "2012": {
-      "Utilities": 4.0
+      "Utilities": 2.0
     },
     "2013": {
-      "Tests": 1.0,
-      "Utilities": 5.0
+      "Tests": 0.5,
+      "Utilities": 2.5
     },
     "2015": {
-      "Utilities": 2.0
+      "Utilities": 1.0
     }
   },
   "first_message": {

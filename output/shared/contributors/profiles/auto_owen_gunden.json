@@ -1,5 +1,5 @@
 {
-  "display_name": "owen gunden",
+  "display_name": "Owen Gunden",
   "github_login_final": null,
   "delving_username_final": null,
   "uuid": "auto_owen_gunden",
@@ -45,8 +45,8 @@
   "avg_pr_ack_velocity_days": null,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": null,
-  "hybrid_score": 0.0257,
-  "p2016_hybrid_score": 0.0206,
+  "hybrid_score": 0.0254,
+  "p2016_hybrid_score": 0.0203,
   "modern_hybrid_score": 0.0,
   "impact_score": 2.0,
   "p2016_impact_score": 1.0,
@@ -57,8 +57,8 @@
   "delving_threads": 0.0,
   "ml_responses": 9.0,
   "delving_responses": 0.0,
-  "first_active": "2015-05-10T12:36:32",
-  "last_active": "2021-10-20T14:49:19",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Participant",
   "expertise_domains": [
     "Consensus",
@@ -66,13 +66,13 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Ecosystem": 0.294,
-      "Consensus": 0.706
+      "Consensus": 0.706,
+      "Ecosystem": 0.294
     }
   },
   "expertise_domain_scores": {
-    "Ecosystem": 0.294,
-    "Consensus": 0.706
+    "Consensus": 0.706,
+    "Ecosystem": 0.294
   },
   "p2016_posts": 3.0,
   "modern_posts": 0.0,
@@ -84,8 +84,8 @@
   "is_reviewer": false,
   "is_researcher": true,
   "is_bip_author": false,
-  "global_first_active": "2015-05-10T12:36:32",
-  "global_last_active": "2021-10-20T14:49:19",
+  "global_first_active": null,
+  "global_last_active": null,
   "github_location": null,
   "github_company": null,
   "github_bio": null,

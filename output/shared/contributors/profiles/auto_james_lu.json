@@ -1,5 +1,5 @@
 {
-  "display_name": "james lu",
+  "display_name": "James Lu",
   "github_login_final": null,
   "delving_username_final": null,
   "uuid": "auto_james_lu",
@@ -45,8 +45,8 @@
   "avg_pr_ack_velocity_days": null,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": null,
-  "hybrid_score": 0.0208,
-  "p2016_hybrid_score": 0.0332,
+  "hybrid_score": 0.0207,
+  "p2016_hybrid_score": 0.033,
   "modern_hybrid_score": 0.0,
   "impact_score": 1.0,
   "p2016_impact_score": 2.0,
@@ -57,8 +57,8 @@
   "delving_threads": 0.0,
   "ml_responses": 3.0,
   "delving_responses": 0.0,
-  "first_active": "2021-05-22T20:00:19",
-  "last_active": "2022-01-26T22:20:40",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Participant",
   "expertise_domains": [
     "Mining",
@@ -68,14 +68,14 @@
   "expertise_by_source": {
     "discussion": {
       "Mining": 0.493,
-      "Script": 0.169,
-      "Consensus": 0.338
+      "Consensus": 0.338,
+      "Script": 0.169
     }
   },
   "expertise_domain_scores": {
     "Mining": 0.493,
-    "Script": 0.169,
-    "Consensus": 0.338
+    "Consensus": 0.338,
+    "Script": 0.169
   },
   "p2016_posts": 7.0,
   "modern_posts": 0.0,
@@ -87,8 +87,8 @@
   "is_reviewer": false,
   "is_researcher": true,
   "is_bip_author": false,
-  "global_first_active": "2021-05-22T20:00:19",
-  "global_last_active": "2022-01-26T22:20:40",
+  "global_first_active": null,
+  "global_last_active": null,
   "github_location": null,
   "github_company": null,
   "github_bio": null,

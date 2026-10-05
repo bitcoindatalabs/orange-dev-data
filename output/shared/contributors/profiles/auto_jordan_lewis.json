@@ -15,12 +15,12 @@
   "self_merges": 0.0,
   "total_additions": 49.0,
   "total_deletions": 30.0,
-  "first_core_commit": "2011-05-14T19:29:54+00:00",
-  "last_core_commit": "2011-05-16T03:45:35+00:00",
+  "first_core_commit": "2011-06-14T09:05:58+00:00",
+  "last_core_commit": "2011-06-14T09:05:58+00:00",
   "first_ecosystem_commit": null,
   "last_ecosystem_commit": null,
-  "first_commit": "2011-05-14T19:29:54",
-  "last_commit": "2011-05-16T03:45:35",
+  "first_commit": "2011-06-14T09:05:58",
+  "last_commit": "2011-06-14T09:05:58",
   "p2016_authored_commits": 0.0,
   "modern_authored_commits": 0.0,
   "co_authored_commits": 0.0,
@@ -45,10 +45,10 @@
   "avg_pr_ack_velocity_days": 0.03240162037037037,
   "avg_concept_lead_time_days": 0.8357060185185186,
   "review_reciprocity": 0.0,
-  "hybrid_score": 0.025,
+  "hybrid_score": 0.1517,
   "p2016_hybrid_score": 0.025,
   "modern_hybrid_score": 0.025,
-  "impact_score": 1.0,
+  "impact_score": 9.0,
   "p2016_impact_score": 1.0,
   "modern_impact_score": 1.0,
   "threads_started": 0.0,
@@ -59,13 +59,20 @@
   "delving_responses": 0.0,
   "first_active": null,
   "last_active": null,
-  "dev_type": "Participant",
+  "dev_type": "Builder",
   "expertise_domains": [
-    "Infrastructure"
+    "Infrastructure",
+    "Network"
   ],
-  "expertise_by_source": {},
+  "expertise_by_source": {
+    "code": {
+      "Infrastructure": 0.771,
+      "Network": 0.229
+    }
+  },
   "expertise_domain_scores": {
-    "Infrastructure": 1.0
+    "Infrastructure": 0.771,
+    "Network": 0.229
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,
@@ -73,12 +80,12 @@
   "p2016_delving_posts": 0.0,
   "modern_ml_posts": 0.0,
   "modern_delving_posts": 0.0,
-  "is_engineer": false,
+  "is_engineer": true,
   "is_reviewer": true,
   "is_researcher": false,
   "is_bip_author": false,
-  "global_first_active": "2011-05-14T19:29:54",
-  "global_last_active": "2011-05-16T03:45:35",
+  "global_first_active": "2011-06-14T09:05:58",
+  "global_last_active": "2011-06-14T09:05:58",
   "github_location": "Brooklyn, NY",
   "github_company": "@cockroachdb ",
   "github_bio": "VP Engineering @ Cockroach Labs\r\n\r\nhttps://twitch.tv/large__data__bank",
@@ -90,9 +97,9 @@
   "github_url": "https://github.com/jordanlewis",
   "commit_history": {
     "2011": {
-      "Node & RPC": 4.67,
-      "P2P Network": 3.67,
-      "Utilities": 7.67
+      "Node & RPC": 2.33,
+      "P2P Network": 1.83,
+      "Utilities": 3.83
     }
   }
 }

@@ -45,20 +45,20 @@
   "avg_pr_ack_velocity_days": null,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": null,
-  "hybrid_score": 0.0158,
-  "p2016_hybrid_score": 0.0257,
-  "modern_hybrid_score": 0.0434,
+  "hybrid_score": 0.0156,
+  "p2016_hybrid_score": 0.0253,
+  "modern_hybrid_score": 0.0418,
   "impact_score": 1.0,
   "p2016_impact_score": 2.0,
-  "modern_impact_score": 3.0,
+  "modern_impact_score": 2.0,
   "threads_started": 2.0,
   "replies_sent": 11.0,
   "ml_threads": 2.0,
   "delving_threads": 0.0,
   "ml_responses": 11.0,
   "delving_responses": 0.0,
-  "first_active": "2018-11-06T10:16:41",
-  "last_active": "2024-10-14T04:00:14",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Participant",
   "expertise_domains": [
     "Script",
@@ -67,15 +67,15 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "L2": 0.209,
+      "Wallet": 0.164,
       "Script": 0.627,
-      "Wallet": 0.164
+      "L2": 0.209
     }
   },
   "expertise_domain_scores": {
-    "L2": 0.209,
+    "Wallet": 0.164,
     "Script": 0.627,
-    "Wallet": 0.164
+    "L2": 0.209
   },
   "p2016_posts": 13.0,
   "modern_posts": 4.0,
@@ -87,8 +87,8 @@
   "is_reviewer": false,
   "is_researcher": true,
   "is_bip_author": false,
-  "global_first_active": "2018-11-06T10:16:41",
-  "global_last_active": "2024-10-14T04:00:14",
+  "global_first_active": null,
+  "global_last_active": null,
   "github_location": null,
   "github_company": null,
   "github_bio": null,

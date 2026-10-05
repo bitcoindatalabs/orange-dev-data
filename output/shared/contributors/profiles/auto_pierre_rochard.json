@@ -1,7 +1,7 @@
 {
   "display_name": "Pierre Rochard",
   "github_login_final": "PierreRochard",
-  "delving_username_final": null,
+  "delving_username_final": "pierrerochard",
   "uuid": "auto_pierre_rochard",
   "badges": null,
   "roles": null,
@@ -15,12 +15,12 @@
   "self_merges": 0.0,
   "total_additions": 316.0,
   "total_deletions": 67.0,
-  "first_core_commit": "2017-09-27T12:23:15+00:00",
-  "last_core_commit": "2019-01-31T17:01:30+00:00",
+  "first_core_commit": "2017-09-27T12:27:56+00:00",
+  "last_core_commit": "2019-01-31T17:05:48+00:00",
   "first_ecosystem_commit": null,
   "last_ecosystem_commit": null,
-  "first_commit": "2017-09-27T12:23:15",
-  "last_commit": "2019-01-31T17:01:30",
+  "first_commit": "2017-09-27T12:27:56",
+  "last_commit": "2019-01-31T17:05:48",
   "p2016_authored_commits": 9.0,
   "modern_authored_commits": 0.0,
   "co_authored_commits": 0.0,
@@ -45,40 +45,54 @@
   "avg_pr_ack_velocity_days": 7.493207947530865,
   "avg_concept_lead_time_days": 0.6517361111111111,
   "review_reciprocity": 3.125,
-  "hybrid_score": 0.1227,
-  "p2016_hybrid_score": 0.1214,
+  "hybrid_score": 0.2555,
+  "p2016_hybrid_score": 0.2543,
   "modern_hybrid_score": 0.058,
-  "impact_score": 7.0,
-  "p2016_impact_score": 7.0,
+  "impact_score": 14.0,
+  "p2016_impact_score": 14.0,
   "modern_impact_score": 3.0,
-  "threads_started": 0.0,
+  "threads_started": 1.0,
   "replies_sent": 0.0,
   "ml_threads": 0.0,
-  "delving_threads": 0.0,
+  "delving_threads": 1.0,
   "ml_responses": 0.0,
   "delving_responses": 0.0,
-  "first_active": null,
-  "last_active": null,
-  "dev_type": "Reviewer",
+  "first_active": "2024-05-21T03:35:59.869000",
+  "last_active": "2024-05-21T03:35:59.869000",
+  "dev_type": "Builder",
   "expertise_domains": [
+    "Wallet",
+    "Consensus",
     "Infrastructure"
   ],
-  "expertise_by_source": {},
-  "expertise_domain_scores": {
-    "Infrastructure": 1.0
+  "expertise_by_source": {
+    "discussion": {
+      "Consensus": 0.75,
+      "Script": 0.25
+    },
+    "code": {
+      "Wallet": 0.722,
+      "Infrastructure": 0.278
+    }
   },
-  "p2016_posts": 0.0,
-  "modern_posts": 0.0,
+  "expertise_domain_scores": {
+    "Infrastructure": 0.1668,
+    "Wallet": 0.4332,
+    "Consensus": 0.3,
+    "Script": 0.1
+  },
+  "p2016_posts": 1.0,
+  "modern_posts": 1.0,
   "p2016_ml_posts": 0.0,
-  "p2016_delving_posts": 0.0,
+  "p2016_delving_posts": 1.0,
   "modern_ml_posts": 0.0,
-  "modern_delving_posts": 0.0,
-  "is_engineer": false,
+  "modern_delving_posts": 1.0,
+  "is_engineer": true,
   "is_reviewer": true,
   "is_researcher": false,
   "is_bip_author": false,
   "global_first_active": "2015-12-21T20:47:49",
-  "global_last_active": "2020-08-27T02:54:23",
+  "global_last_active": "2024-05-21T03:35:59.869000",
   "github_location": "Earth",
   "github_company": "Bitcoin",
   "github_bio": null,
@@ -88,19 +102,39 @@
   "activity_status": "Retired",
   "is_top_50": false,
   "github_url": "https://github.com/PierreRochard",
+  "delving_url": "https://delvingbitcoin.org/u/pierrerochard",
   "commit_history": {
     "2017": {
-      "Wallet": 4.0
+      "Wallet": 2.0
     },
     "2018": {
-      "Build & CI": 1.0,
-      "Tests": 2.0,
-      "Wallet": 7.0
+      "Build & CI": 0.5,
+      "Tests": 1.0,
+      "Wallet": 3.5
     },
     "2019": {
-      "Build & CI": 1.0,
-      "Tests": 1.0,
-      "Wallet": 2.0
+      "Build & CI": 0.5,
+      "Tests": 0.5,
+      "Wallet": 1.0
+    }
+  },
+  "first_message": {
+    "source": "delving",
+    "subject": "Mutual exclusiveness of op_codes",
+    "date": "2024-05-21",
+    "link": "https://delvingbitcoin.org/t/mutual-exclusiveness-of-op-codes/890/1"
+  },
+  "last_message": {
+    "source": "delving",
+    "subject": "Mutual exclusiveness of op_codes",
+    "date": "2024-05-21",
+    "link": "https://delvingbitcoin.org/t/mutual-exclusiveness-of-op-codes/890/1"
+  },
+  "social_history": {
+    "2024": {
+      "script-opcodes": 1,
+      "soft-fork-activation": 1,
+      "taproot": 1
     }
   }
 }

@@ -1,5 +1,5 @@
 {
-  "display_name": "Flavien Charlon",
+  "display_name": "flavien charlon",
   "github_login_final": "Flavien",
   "delving_username_final": null,
   "uuid": "auto_flavien_charlon",
@@ -15,12 +15,12 @@
   "self_merges": 0.0,
   "total_additions": 5.0,
   "total_deletions": 5.0,
-  "first_core_commit": "2015-02-03T12:12:40+00:00",
-  "last_core_commit": "2015-02-03T12:12:40+00:00",
+  "first_core_commit": "2015-02-03T12:12:53+00:00",
+  "last_core_commit": "2015-02-03T12:12:53+00:00",
   "first_ecosystem_commit": null,
   "last_ecosystem_commit": null,
-  "first_commit": "2015-02-03T12:12:40",
-  "last_commit": "2015-02-03T12:12:40",
+  "first_commit": "2015-02-03T12:12:53",
+  "last_commit": "2015-02-03T12:12:53",
   "p2016_authored_commits": 0.0,
   "modern_authored_commits": 0.0,
   "co_authored_commits": 0.0,
@@ -45,10 +45,10 @@
   "avg_pr_ack_velocity_days": 17.912858796296295,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": 2.0,
-  "hybrid_score": 0.075,
+  "hybrid_score": 0.1381,
   "p2016_hybrid_score": 0.0146,
   "modern_hybrid_score": 0.0146,
-  "impact_score": 4.0,
+  "impact_score": 8.0,
   "p2016_impact_score": 1.0,
   "modern_impact_score": 1.0,
   "threads_started": 4.0,
@@ -57,25 +57,30 @@
   "delving_threads": 0.0,
   "ml_responses": 13.0,
   "delving_responses": 0.0,
-  "first_active": "2014-04-06T15:59:34",
-  "last_active": "2014-11-28T05:45:19",
-  "dev_type": "Participant",
+  "first_active": null,
+  "last_active": null,
+  "dev_type": "Builder",
   "expertise_domains": [
     "Script",
-    "Ecosystem",
-    "Consensus"
+    "Infrastructure",
+    "Ecosystem"
   ],
   "expertise_by_source": {
     "discussion": {
-      "Ecosystem": 0.432,
+      "Consensus": 0.136,
       "Script": 0.432,
-      "Consensus": 0.136
+      "Ecosystem": 0.432
+    },
+    "code": {
+      "Infrastructure": 0.5,
+      "Script": 0.5
     }
   },
   "expertise_domain_scores": {
-    "Ecosystem": 0.432,
-    "Script": 0.432,
-    "Consensus": 0.136
+    "Infrastructure": 0.3,
+    "Consensus": 0.0544,
+    "Script": 0.4728,
+    "Ecosystem": 0.1728
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,
@@ -83,12 +88,12 @@
   "p2016_delving_posts": 0.0,
   "modern_ml_posts": 0.0,
   "modern_delving_posts": 0.0,
-  "is_engineer": false,
+  "is_engineer": true,
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": false,
-  "global_first_active": "2014-04-06T15:59:34",
-  "global_last_active": "2015-02-03T12:12:40",
+  "global_first_active": "2014-11-12T17:38:39",
+  "global_last_active": "2015-02-03T12:12:53",
   "github_location": "Dublin, Ireland",
   "github_company": "Toast",
   "github_bio": null,
@@ -100,8 +105,8 @@
   "github_url": "https://github.com/Flavien",
   "commit_history": {
     "2015": {
-      "Script": 2.0,
-      "Tests": 2.0
+      "Script": 1.0,
+      "Tests": 1.0
     }
   },
   "first_message": {

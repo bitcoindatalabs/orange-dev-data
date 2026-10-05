@@ -15,12 +15,12 @@
   "self_merges": 0.0,
   "total_additions": 193.0,
   "total_deletions": 4.0,
-  "first_core_commit": "2011-12-09T18:19:27+00:00",
-  "last_core_commit": "2014-07-15T07:04:12+00:00",
+  "first_core_commit": "2011-12-19T20:23:00+00:00",
+  "last_core_commit": "2014-07-15T07:04:40+00:00",
   "first_ecosystem_commit": null,
   "last_ecosystem_commit": null,
-  "first_commit": "2011-12-09T18:19:27",
-  "last_commit": "2014-07-15T07:04:12",
+  "first_commit": "2011-12-19T20:23:00",
+  "last_commit": "2014-07-15T07:04:40",
   "p2016_authored_commits": 0.0,
   "modern_authored_commits": 0.0,
   "co_authored_commits": 0.0,
@@ -45,10 +45,10 @@
   "avg_pr_ack_velocity_days": 0.22895833333333332,
   "avg_concept_lead_time_days": 0.018657407407407407,
   "review_reciprocity": 1.0,
-  "hybrid_score": 0.1425,
-  "p2016_hybrid_score": 0.0833,
+  "hybrid_score": 0.2621,
+  "p2016_hybrid_score": 0.083,
   "modern_hybrid_score": 0.058,
-  "impact_score": 8.0,
+  "impact_score": 15.0,
   "p2016_impact_score": 5.0,
   "modern_impact_score": 3.0,
   "threads_started": 8.0,
@@ -57,19 +57,24 @@
   "delving_threads": 0.0,
   "ml_responses": 12.0,
   "delving_responses": 0.0,
-  "first_active": "2013-03-11T14:27:51",
-  "last_active": "2021-12-18T07:25:08",
-  "dev_type": "Participant",
+  "first_active": null,
+  "last_active": null,
+  "dev_type": "Builder",
   "expertise_domains": [
+    "Infrastructure",
     "Mining"
   ],
   "expertise_by_source": {
     "discussion": {
       "Mining": 1.0
+    },
+    "code": {
+      "Infrastructure": 1.0
     }
   },
   "expertise_domain_scores": {
-    "Mining": 1.0
+    "Mining": 0.4,
+    "Infrastructure": 0.6
   },
   "p2016_posts": 5.0,
   "modern_posts": 0.0,
@@ -77,12 +82,12 @@
   "p2016_delving_posts": 0.0,
   "modern_ml_posts": 0.0,
   "modern_delving_posts": 0.0,
-  "is_engineer": false,
+  "is_engineer": true,
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": false,
   "global_first_active": "2011-11-13T14:39:13",
-  "global_last_active": "2021-12-18T07:25:08",
+  "global_last_active": "2016-09-12T05:15:56",
   "github_location": "Copenhagen",
   "github_company": null,
   "github_bio": "I've been writing code since I was 12. Love Haskell and Bitcoin.",
@@ -94,19 +99,19 @@
   "github_url": "https://github.com/runeksvendsen",
   "commit_history": {
     "2011": {
-      "GUI": 1.0,
-      "Node & RPC": 1.0
+      "GUI": 0.5,
+      "Node & RPC": 0.5
     },
     "2012": {
-      "GUI": 2.0,
-      "Utilities": 4.0
-    },
-    "2013": {
+      "GUI": 1.0,
       "Utilities": 2.0
     },
+    "2013": {
+      "Utilities": 1.0
+    },
     "2014": {
-      "Documentation": 2.0,
-      "Node & RPC": 2.0
+      "Documentation": 1.0,
+      "Node & RPC": 1.0
     }
   },
   "first_message": {

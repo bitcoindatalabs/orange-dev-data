@@ -15,11 +15,11 @@
   "self_merges": 0.0,
   "total_additions": 440.0,
   "total_deletions": 199.0,
-  "first_core_commit": "2022-11-17T14:30:27+00:00",
+  "first_core_commit": "2011-12-05T15:53:00+00:00",
   "last_core_commit": "2025-12-09T17:43:49+00:00",
   "first_ecosystem_commit": null,
   "last_ecosystem_commit": null,
-  "first_commit": "2022-11-17T14:30:27",
+  "first_commit": "2011-12-05T15:53:00",
   "last_commit": "2025-12-09T17:43:49",
   "p2016_authored_commits": 28.0,
   "modern_authored_commits": 7.0,
@@ -36,7 +36,7 @@
   "tier1_reviews_count": 66.0,
   "tier2_reviews_count": 2.0,
   "p2016_reviews_count": 68.0,
-  "modern_reviews_count": 11.0,
+  "modern_reviews_count": 10.0,
   "first_review_date": "2022-11-01T17:04:58",
   "last_review_date": "2026-08-06T12:59:36",
   "prs_authored": 28.0,
@@ -45,12 +45,12 @@
   "avg_pr_ack_velocity_days": 3.3190410052910053,
   "avg_concept_lead_time_days": 1.1347916666666666,
   "review_reciprocity": 2.4285714285714284,
-  "hybrid_score": 0.1594,
-  "p2016_hybrid_score": 0.1594,
-  "modern_hybrid_score": 0.1175,
-  "impact_score": 9.0,
-  "p2016_impact_score": 9.0,
-  "modern_impact_score": 7.0,
+  "hybrid_score": 0.3537,
+  "p2016_hybrid_score": 0.3451,
+  "modern_hybrid_score": 0.2995,
+  "impact_score": 19.0,
+  "p2016_impact_score": 19.0,
+  "modern_impact_score": 16.0,
   "threads_started": 0.0,
   "replies_sent": 0.0,
   "ml_threads": 0.0,
@@ -59,13 +59,20 @@
   "delving_responses": 0.0,
   "first_active": null,
   "last_active": null,
-  "dev_type": "Reviewer",
+  "dev_type": "Builder",
   "expertise_domains": [
-    "Infrastructure"
+    "Infrastructure",
+    "Wallet"
   ],
-  "expertise_by_source": {},
+  "expertise_by_source": {
+    "code": {
+      "Wallet": 0.083,
+      "Infrastructure": 0.917
+    }
+  },
   "expertise_domain_scores": {
-    "Infrastructure": 1.0
+    "Infrastructure": 0.917,
+    "Wallet": 0.083
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,
@@ -73,11 +80,11 @@
   "p2016_delving_posts": 0.0,
   "modern_ml_posts": 0.0,
   "modern_delving_posts": 0.0,
-  "is_engineer": false,
+  "is_engineer": true,
   "is_reviewer": true,
   "is_researcher": false,
   "is_bip_author": false,
-  "global_first_active": "2022-11-01T17:04:58",
+  "global_first_active": "2011-12-05T15:53:00",
   "global_last_active": "2026-08-06T12:59:36",
   "github_location": null,
   "github_company": null,
@@ -85,24 +92,28 @@
   "github_twitter": null,
   "github_blog": null,
   "github_followers": 15.0,
-  "activity_status": "Active",
+  "activity_status": "Rising",
   "is_top_50": false,
   "github_url": "https://github.com/john-moffett",
   "commit_history": {
+    "2011": {
+      "GUI": 3.5,
+      "Tests": 0.5
+    },
     "2022": {
-      "GUI": 4.0
+      "GUI": 1.0
     },
     "2023": {
-      "Documentation": 6.0,
-      "GUI": 12.67,
-      "Tests": 6.0,
-      "Utilities": 8.67,
-      "Wallet": 4.67
+      "Documentation": 3.0,
+      "GUI": 3.83,
+      "Tests": 2.5,
+      "Utilities": 4.33,
+      "Wallet": 2.33
     },
     "2025": {
-      "GUI": 2.0,
-      "Node & RPC": 2.0,
-      "Tests": 2.0,
+      "GUI": 1.0,
+      "Node & RPC": 1.0,
+      "Tests": 1.0,
       "Utilities": 4.0
     }
   }

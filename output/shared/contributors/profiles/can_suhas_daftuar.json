@@ -1,7 +1,7 @@
 {
   "display_name": "Suhas Daftuar",
   "github_login_final": "sdaftuar",
-  "delving_username_final": null,
+  "delving_username_final": "sdaftuar",
   "uuid": "can_suhas_daftuar",
   "badges": {
     "is_maintainer": false,
@@ -27,14 +27,14 @@
   "self_merges": 0.0,
   "total_additions": 25123.0,
   "total_deletions": 8712.0,
-  "first_core_commit": "2014-09-12T17:04:49+00:00",
-  "last_core_commit": "2026-01-23T15:10:54+00:00",
+  "first_core_commit": "2014-09-12T17:05:09+00:00",
+  "last_core_commit": "2026-01-23T15:10:59+00:00",
   "first_ecosystem_commit": null,
   "last_ecosystem_commit": null,
-  "first_commit": "2014-09-12T17:04:49",
-  "last_commit": "2026-01-23T15:10:54",
+  "first_commit": "2014-09-12T17:05:09",
+  "last_commit": "2026-01-23T15:10:59",
   "p2016_authored_commits": 377.0,
-  "modern_authored_commits": 105.0,
+  "modern_authored_commits": 90.0,
   "co_authored_commits": 46.0,
   "bips_authored": 4.0,
   "p2016_bips_authored": 3.0,
@@ -48,7 +48,7 @@
   "tier1_reviews_count": 535.0,
   "tier2_reviews_count": 13.0,
   "p2016_reviews_count": 489.0,
-  "modern_reviews_count": 34.0,
+  "modern_reviews_count": 33.0,
   "first_review_date": "2015-02-02T21:23:23",
   "last_review_date": "2025-12-02T13:49:48",
   "prs_authored": 209.0,
@@ -57,30 +57,38 @@
   "avg_pr_ack_velocity_days": 5.413163457769939,
   "avg_concept_lead_time_days": 9.707705399061032,
   "review_reciprocity": 2.6220095693779903,
-  "hybrid_score": 1.0869,
-  "p2016_hybrid_score": 0.9983,
-  "modern_hybrid_score": 0.1781,
-  "impact_score": 48.0,
-  "p2016_impact_score": 45.0,
-  "modern_impact_score": 10.0,
-  "threads_started": 8.0,
-  "replies_sent": 16.0,
+  "hybrid_score": 1.4383,
+  "p2016_hybrid_score": 1.3404,
+  "modern_hybrid_score": 0.4574,
+  "impact_score": 58.0,
+  "p2016_impact_score": 55.0,
+  "modern_impact_score": 24.0,
+  "threads_started": 19.0,
+  "replies_sent": 37.0,
   "ml_threads": 8.0,
-  "delving_threads": 0.0,
+  "delving_threads": 11.0,
   "ml_responses": 16.0,
-  "delving_responses": 0.0,
-  "first_active": "2015-07-30T11:41:55",
-  "last_active": "2022-11-07T15:21:11",
-  "dev_type": "Reviewer",
+  "delving_responses": 21.0,
+  "first_active": null,
+  "last_active": "2025-11-19T15:29:46.556000",
+  "dev_type": "Protocol Designer",
   "expertise_domains": [
-    "Network",
     "Infrastructure",
+    "Network",
     "Mempool"
   ],
   "expertise_by_source": {
     "discussion": {
-      "Mempool": 0.526,
-      "Network": 0.474
+      "Mining": 0.148,
+      "Mempool": 0.738,
+      "Network": 0.115
+    },
+    "code": {
+      "Wallet": 0.023,
+      "Infrastructure": 0.553,
+      "Consensus": 0.1,
+      "Network": 0.17,
+      "Mempool": 0.154
     },
     "bips": {
       "Infrastructure": 0.5,
@@ -88,22 +96,24 @@
     }
   },
   "expertise_domain_scores": {
-    "Infrastructure": 0.3571,
-    "Mempool": 0.1503,
-    "Network": 0.4926
+    "Mining": 0.0296,
+    "Infrastructure": 0.4158,
+    "Consensus": 0.03,
+    "Mempool": 0.1938,
+    "Network": 0.3239
   },
-  "p2016_posts": 20.0,
-  "modern_posts": 0.0,
+  "p2016_posts": 52.0,
+  "modern_posts": 32.0,
   "p2016_ml_posts": 20.0,
-  "p2016_delving_posts": 0.0,
+  "p2016_delving_posts": 32.0,
   "modern_ml_posts": 0.0,
-  "modern_delving_posts": 0.0,
-  "is_engineer": false,
+  "modern_delving_posts": 32.0,
+  "is_engineer": true,
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": true,
-  "global_first_active": "2014-09-12T17:04:49",
-  "global_last_active": "2026-01-23T15:10:54",
+  "global_first_active": "2014-09-12T17:05:09",
+  "global_last_active": "2026-01-23T15:10:59",
   "github_location": null,
   "github_company": null,
   "github_bio": null,
@@ -113,102 +123,103 @@
   "activity_status": "Active",
   "is_top_50": false,
   "github_url": "https://github.com/sdaftuar",
+  "delving_url": "https://delvingbitcoin.org/u/sdaftuar",
   "commit_history": {
     "2014": {
-      "Node & RPC": 1.0,
-      "Utilities": 7.0
+      "Node & RPC": 0.5,
+      "Utilities": 3.5
     },
     "2015": {
-      "Consensus": 0.67,
-      "Mempool": 8.17,
-      "Node & RPC": 1.5,
-      "P2P Network": 0.67,
-      "Tests": 7.17,
-      "Utilities": 90.83,
-      "Wallet": 1.0
+      "Consensus": 0.33,
+      "Mempool": 4.08,
+      "Node & RPC": 0.75,
+      "P2P Network": 0.33,
+      "Tests": 3.58,
+      "Utilities": 45.42,
+      "Wallet": 0.5
     },
     "2016": {
-      "Build & CI": 0.5,
-      "Consensus": 2.4,
-      "Documentation": 2.0,
-      "Mempool": 10.9,
-      "Node & RPC": 14.73,
-      "P2P Network": 3.0,
-      "Tests": 13.0,
-      "Utilities": 110.57,
-      "Wallet": 2.9
+      "Build & CI": 0.25,
+      "Consensus": 1.2,
+      "Documentation": 1.0,
+      "Mempool": 5.45,
+      "Node & RPC": 7.37,
+      "P2P Network": 1.5,
+      "Tests": 6.5,
+      "Utilities": 55.28,
+      "Wallet": 1.45
     },
     "2017": {
-      "Consensus": 11.07,
-      "Documentation": 2.0,
-      "GUI": 0.5,
-      "Mempool": 8.0,
-      "Node & RPC": 4.23,
-      "P2P Network": 24.57,
-      "Tests": 39.07,
-      "Utilities": 20.57,
-      "Wallet": 10.0
-    },
-    "2018": {
-      "Consensus": 12.0,
-      "Mempool": 11.0,
-      "Node & RPC": 1.0,
-      "Tests": 26.0,
-      "Utilities": 1.0,
+      "Consensus": 5.53,
+      "Documentation": 1.0,
+      "GUI": 0.25,
+      "Mempool": 4.0,
+      "Node & RPC": 2.12,
+      "P2P Network": 12.28,
+      "Tests": 19.53,
+      "Utilities": 10.28,
       "Wallet": 5.0
     },
+    "2018": {
+      "Consensus": 6.0,
+      "Mempool": 5.5,
+      "Node & RPC": 0.5,
+      "Tests": 13.0,
+      "Utilities": 0.5,
+      "Wallet": 2.5
+    },
     "2019": {
-      "Consensus": 10.67,
-      "Documentation": 0.67,
-      "Node & RPC": 0.67,
-      "P2P Network": 37.67,
-      "Tests": 14.33
+      "Consensus": 5.33,
+      "Documentation": 0.33,
+      "Node & RPC": 0.33,
+      "P2P Network": 18.83,
+      "Tests": 7.17
     },
     "2020": {
-      "Consensus": 1.67,
-      "Mempool": 2.67,
-      "Node & RPC": 1.33,
-      "P2P Network": 50.0,
-      "Tests": 3.33,
-      "Utilities": 1.0
+      "Consensus": 0.83,
+      "Mempool": 1.33,
+      "Node & RPC": 0.67,
+      "P2P Network": 25.0,
+      "Tests": 1.67,
+      "Utilities": 0.5
     },
     "2021": {
-      "P2P Network": 2.0
+      "P2P Network": 1.0
     },
     "2022": {
-      "Build & CI": 1.4,
-      "Consensus": 3.8,
-      "Node & RPC": 0.9,
-      "P2P Network": 29.3,
-      "Tests": 19.3,
-      "Utilities": 3.3
+      "Build & CI": 0.7,
+      "Consensus": 1.9,
+      "Node & RPC": 0.45,
+      "P2P Network": 14.65,
+      "Tests": 9.65,
+      "Utilities": 1.65
     },
     "2023": {
-      "Consensus": 15.0,
-      "Node & RPC": 4.0,
-      "P2P Network": 3.0,
-      "Tests": 6.0
+      "Consensus": 7.5,
+      "Node & RPC": 2.0,
+      "P2P Network": 1.5,
+      "Tests": 3.0
     },
     "2024": {
-      "Consensus": 13.0,
-      "Mempool": 16.0,
-      "Tests": 11.0
+      "Consensus": 6.5,
+      "Mempool": 8.0,
+      "Tests": 5.5
     },
     "2025": {
-      "Build & CI": 0.4,
-      "Consensus": 18.07,
-      "Documentation": 8.67,
-      "Mempool": 79.07,
-      "Node & RPC": 23.07,
-      "P2P Network": 0.67,
-      "Tests": 46.07,
-      "Utilities": 2.0,
-      "Wallet": 2.0
+      "Build & CI": 0.2,
+      "Consensus": 9.03,
+      "Documentation": 4.33,
+      "Mempool": 39.53,
+      "Node & RPC": 11.53,
+      "P2P Network": 0.33,
+      "Tests": 23.03,
+      "Utilities": 1.0,
+      "Wallet": 1.0
     },
     "2026": {
-      "Consensus": 1.0,
-      "Mempool": 1.0,
-      "Utilities": 2.0
+      "Consensus": 0.5,
+      "Mempool": 0.5,
+      "Utilities": 1.0
     }
   },
   "bip_list": [
@@ -248,32 +259,30 @@
     "link": "https://gnusha.org/pi/bitcoindev/CAFp6fsExyinUm8uUiOY_xEDkYKcq09XZU3uy+YAcCyTEdeE6rA@mail.gmail.com"
   },
   "last_message": {
-    "source": "mailing_list",
-    "subject": "Re: [bitcoin-dev] Removing BIP-125 Rule #5 Pinning with the\n Always-Replaceable Invariant",
-    "date": "2022-11-07",
-    "link": "https://gnusha.org/pi/bitcoindev/CAFp6fsH0BXn51DqpJLWn56ecohCJZ+skVvabGBRmjeK5u08vdg@mail.gmail.com"
+    "source": "delving",
+    "subject": "Re: Generalizing RBF under Cluster Mempool",
+    "date": "2025-11-19",
+    "link": "https://delvingbitcoin.org/t/generalizing-rbf-under-cluster-mempool/2115/2"
   },
   "social_history": {
     "2015": {
-      "other": 1,
-      "p2p-network": 3,
-      "testing-devtools": 1
+      "other": 2,
+      "p2p-network": 3
     },
     "2016": {
-      "bip-process": 1,
-      "other": 1,
+      "other": 2,
       "script-opcodes": 1
     },
     "2017": {
       "mempool-fees": 1,
-      "other": 3,
+      "mining": 1,
+      "other": 4,
       "script-opcodes": 1,
-      "segwit": 2,
-      "testing-devtools": 1
+      "soft-fork-activation": 1
     },
     "2018": {
       "script-opcodes": 1,
-      "segwit": 1
+      "other": 1
     },
     "2019": {
       "other": 3
@@ -291,6 +300,21 @@
     "2022": {
       "mempool-fees": 4,
       "other": 1
+    },
+    "2023": {
+      "mempool-fees": 7
+    },
+    "2024": {
+      "other": 12,
+      "mempool-fees": 24,
+      "mining": 15,
+      "privacy": 9,
+      "script-opcodes": 3,
+      "soft-fork-activation": 3,
+      "transaction-format": 3
+    },
+    "2025": {
+      "mempool-fees": 1
     }
   }
 }

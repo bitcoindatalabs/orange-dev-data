@@ -1,7 +1,7 @@
 {
   "display_name": "Niklas Gögge",
   "github_login_final": "dergoegge",
-  "delving_username_final": null,
+  "delving_username_final": "dergoegge",
   "uuid": "can_niklas_g_gge",
   "badges": {
     "is_maintainer": false,
@@ -25,14 +25,14 @@
   "self_merges": 0.0,
   "total_additions": 3118.0,
   "total_deletions": 1382.0,
-  "first_core_commit": "2020-11-25T08:48:20+00:00",
-  "last_core_commit": "2026-09-25T16:07:42+00:00",
+  "first_core_commit": "2020-11-25T08:49:19+00:00",
+  "last_core_commit": "2026-09-25T16:07:48+00:00",
   "first_ecosystem_commit": "2022-04-22T08:11:10+00:00",
   "last_ecosystem_commit": "2023-05-05T15:00:24+00:00",
-  "first_commit": "2020-11-25T08:48:20",
-  "last_commit": "2026-09-25T16:07:42",
+  "first_commit": "2020-11-25T08:49:19",
+  "last_commit": "2026-09-25T16:07:48",
   "p2016_authored_commits": 140.0,
-  "modern_authored_commits": 50.0,
+  "modern_authored_commits": 44.0,
   "co_authored_commits": 18.0,
   "bips_authored": 0.0,
   "p2016_bips_authored": 0.0,
@@ -46,7 +46,7 @@
   "tier1_reviews_count": 540.0,
   "tier2_reviews_count": 2.0,
   "p2016_reviews_count": 542.0,
-  "modern_reviews_count": 340.0,
+  "modern_reviews_count": 337.0,
   "first_review_date": "2020-08-19T19:49:12",
   "last_review_date": "2026-09-24T09:04:38",
   "prs_authored": 87.0,
@@ -55,106 +55,120 @@
   "avg_pr_ack_velocity_days": 7.231030718218219,
   "avg_concept_lead_time_days": 10.672739854215918,
   "review_reciprocity": 6.2298850574712645,
-  "hybrid_score": 0.2408,
-  "p2016_hybrid_score": 0.2473,
-  "modern_hybrid_score": 0.2827,
-  "impact_score": 13.0,
-  "p2016_impact_score": 14.0,
-  "modern_impact_score": 16.0,
-  "threads_started": 3.0,
-  "replies_sent": 1.0,
+  "hybrid_score": 0.5259,
+  "p2016_hybrid_score": 0.5321,
+  "modern_hybrid_score": 0.5371,
+  "impact_score": 27.0,
+  "p2016_impact_score": 27.0,
+  "modern_impact_score": 28.0,
+  "threads_started": 5.0,
+  "replies_sent": 2.0,
   "ml_threads": 3.0,
-  "delving_threads": 0.0,
+  "delving_threads": 2.0,
   "ml_responses": 1.0,
-  "delving_responses": 0.0,
-  "first_active": "2024-04-04T04:09:32",
-  "last_active": "2026-05-05T08:17:45",
-  "dev_type": "Reviewer",
+  "delving_responses": 1.0,
+  "first_active": "2023-12-21T16:39:35.378000",
+  "last_active": null,
+  "dev_type": "Builder",
   "expertise_domains": [
-    "Ecosystem"
+    "Ecosystem",
+    "Infrastructure",
+    "Network"
   ],
   "expertise_by_source": {
     "discussion": {
       "Ecosystem": 1.0
+    },
+    "code": {
+      "Wallet": 0.003,
+      "Infrastructure": 0.532,
+      "Consensus": 0.059,
+      "Script": 0.001,
+      "Network": 0.401,
+      "Mempool": 0.003
     }
   },
   "expertise_domain_scores": {
-    "Ecosystem": 1.0
+    "Infrastructure": 0.3194,
+    "Consensus": 0.0354,
+    "Ecosystem": 0.4002,
+    "Network": 0.2407
   },
-  "p2016_posts": 4.0,
-  "modern_posts": 4.0,
+  "p2016_posts": 7.0,
+  "modern_posts": 7.0,
   "p2016_ml_posts": 4.0,
-  "p2016_delving_posts": 0.0,
+  "p2016_delving_posts": 3.0,
   "modern_ml_posts": 4.0,
-  "modern_delving_posts": 0.0,
-  "is_engineer": false,
+  "modern_delving_posts": 3.0,
+  "is_engineer": true,
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": false,
   "global_first_active": "2020-08-19T19:49:12",
-  "global_last_active": "2026-09-25T16:07:42",
+  "global_last_active": "2026-09-25T16:07:48",
   "github_location": null,
   "github_company": null,
   "github_bio": null,
   "github_twitter": "dergoegge",
   "github_blog": "dergoegge.de",
   "github_followers": 263.0,
-  "activity_status": "Rising",
+  "activity_status": "Active",
   "is_top_50": false,
   "github_url": "https://github.com/dergoegge",
+  "delving_url": "https://delvingbitcoin.org/u/dergoegge",
   "commit_history": {
     "2020": {
-      "Build & CI": 2.0
+      "Build & CI": 1.0
     },
     "2021": {
-      "P2P Network": 2.0,
-      "Tests": 8.0
+      "P2P Network": 1.0,
+      "Tests": 4.0
     },
     "2022": {
-      "Build & CI": 2.5,
-      "Node & RPC": 0.5,
-      "P2P Network": 36.5,
-      "Tests": 18.5,
-      "Utilities": 5.0
+      "Build & CI": 1.75,
+      "Node & RPC": 0.25,
+      "P2P Network": 18.25,
+      "Tests": 9.25,
+      "Utilities": 2.5
     },
     "2023": {
-      "Build & CI": 3.83,
-      "Consensus": 4.62,
-      "Documentation": 2.0,
-      "GUI": 0.29,
-      "Mempool": 0.95,
-      "Node & RPC": 6.79,
-      "P2P Network": 61.83,
-      "Tests": 33.12,
-      "Utilities": 9.95,
-      "Wallet": 0.62
+      "Build & CI": 1.92,
+      "Consensus": 2.31,
+      "Documentation": 1.0,
+      "GUI": 0.14,
+      "Mempool": 0.48,
+      "Node & RPC": 3.39,
+      "P2P Network": 30.92,
+      "Tests": 18.56,
+      "Utilities": 4.98,
+      "Wallet": 0.31
     },
     "2024": {
-      "Build & CI": 2.5,
-      "Consensus": 11.9,
-      "Documentation": 2.29,
-      "GUI": 0.95,
-      "Node & RPC": 5.35,
-      "P2P Network": 12.07,
-      "Script": 0.29,
-      "Tests": 22.19,
-      "Utilities": 4.19,
-      "Wallet": 0.29
+      "Build & CI": 1.25,
+      "Consensus": 5.95,
+      "Documentation": 1.14,
+      "GUI": 0.48,
+      "Node & RPC": 2.68,
+      "P2P Network": 6.03,
+      "Script": 0.14,
+      "Tests": 11.09,
+      "Utilities": 2.09,
+      "Wallet": 0.14
     },
     "2025": {
-      "Documentation": 4.0,
-      "Tests": 5.0,
-      "Utilities": 1.0
+      "Documentation": 2.0,
+      "Tests": 2.5,
+      "Utilities": 0.5
     },
     "2026": {
       "Documentation": 2.0
     }
   },
   "first_message": {
-    "source": "mailing_list",
-    "subject": "Re: [bitcoindev] Time for an update to BIP2?",
-    "date": "2024-04-04",
-    "link": "https://gnusha.org/pi/bitcoindev/10ffcb51-9389-4127-800c-0b8f16ba0a10n@googlegroups.com"
+    "source": "delving",
+    "subject": "Denial-of-service bugs in LND's channel update gossip handling",
+    "date": "2023-12-21",
+    "link": "https://delvingbitcoin.org/t/denial-of-service-bugs-in-lnds-channel-update-gossip-handling/314/1"
   },
   "last_message": {
     "source": "mailing_list",
@@ -163,9 +177,14 @@
     "link": "https://gnusha.org/pi/bitcoindev/dd3a05f3-19a5-42ab-9680-2bd897df8d4en@googlegroups.com"
   },
   "social_history": {
+    "2023": {
+      "other": 1
+    },
     "2024": {
       "bip-process": 1,
-      "security": 2
+      "script-opcodes": 2,
+      "security": 4,
+      "testing-devtools": 2
     },
     "2026": {
       "security": 1

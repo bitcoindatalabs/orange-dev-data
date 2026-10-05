@@ -1,7 +1,7 @@
 {
   "display_name": "Steven Roose",
   "github_login_final": "stevenroose",
-  "delving_username_final": null,
+  "delving_username_final": "stevenroose",
   "uuid": "can_steven_roose",
   "badges": {
     "is_maintainer": false,
@@ -27,12 +27,12 @@
   "self_merges": 0.0,
   "total_additions": 36.0,
   "total_deletions": 22.0,
-  "first_core_commit": "2018-12-13T13:58:57+00:00",
-  "last_core_commit": "2020-03-16T12:19:16+00:00",
+  "first_core_commit": "2018-12-13T14:05:41+00:00",
+  "last_core_commit": "2020-03-16T12:19:50+00:00",
   "first_ecosystem_commit": null,
   "last_ecosystem_commit": null,
-  "first_commit": "2018-12-13T13:58:57",
-  "last_commit": "2020-03-16T12:19:16",
+  "first_commit": "2018-12-13T14:05:41",
+  "last_commit": "2020-03-16T12:19:50",
   "p2016_authored_commits": 8.0,
   "modern_authored_commits": 0.0,
   "co_authored_commits": 0.0,
@@ -57,29 +57,35 @@
   "avg_pr_ack_velocity_days": 8.443659722222222,
   "avg_concept_lead_time_days": 55.268850308641966,
   "review_reciprocity": 1.8235294117647058,
-  "hybrid_score": 0.9571,
-  "p2016_hybrid_score": 0.9639,
-  "modern_hybrid_score": 0.7153,
-  "impact_score": 44.0,
-  "p2016_impact_score": 44.0,
+  "hybrid_score": 1.0837,
+  "p2016_hybrid_score": 1.0903,
+  "modern_hybrid_score": 0.7118,
+  "impact_score": 48.0,
+  "p2016_impact_score": 48.0,
   "modern_impact_score": 35.0,
-  "threads_started": 2.0,
-  "replies_sent": 3.0,
+  "threads_started": 20.0,
+  "replies_sent": 33.0,
   "ml_threads": 2.0,
-  "delving_threads": 0.0,
+  "delving_threads": 18.0,
   "ml_responses": 3.0,
-  "delving_responses": 0.0,
-  "first_active": "2019-01-29T16:03:04",
-  "last_active": "2025-06-17T06:22:10",
-  "dev_type": "Reviewer",
+  "delving_responses": 30.0,
+  "first_active": null,
+  "last_active": "2026-02-25T16:14:01.884000",
+  "dev_type": "Protocol Designer",
   "expertise_domains": [
     "Consensus",
-    "Script",
-    "Infrastructure"
+    "Infrastructure",
+    "Script"
   ],
   "expertise_by_source": {
     "discussion": {
-      "Script": 1.0
+      "Consensus": 0.261,
+      "Script": 0.739
+    },
+    "code": {
+      "Wallet": 0.125,
+      "Infrastructure": 0.75,
+      "Consensus": 0.125
     },
     "bips": {
       "Consensus": 0.75,
@@ -87,17 +93,18 @@
     }
   },
   "expertise_domain_scores": {
-    "Infrastructure": 0.1786,
-    "Script": 0.2857,
-    "Consensus": 0.5357
+    "Infrastructure": 0.35,
+    "Wallet": 0.0375,
+    "Consensus": 0.4647,
+    "Script": 0.1478
   },
-  "p2016_posts": 5.0,
-  "modern_posts": 4.0,
+  "p2016_posts": 53.0,
+  "modern_posts": 42.0,
   "p2016_ml_posts": 5.0,
-  "p2016_delving_posts": 0.0,
-  "modern_ml_posts": 4.0,
-  "modern_delving_posts": 0.0,
-  "is_engineer": false,
+  "p2016_delving_posts": 48.0,
+  "modern_ml_posts": 3.0,
+  "modern_delving_posts": 39.0,
+  "is_engineer": true,
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": true,
@@ -112,18 +119,19 @@
   "activity_status": "Active",
   "is_top_50": false,
   "github_url": "https://github.com/stevenroose",
+  "delving_url": "https://delvingbitcoin.org/u/stevenroose",
   "commit_history": {
     "2018": {
-      "Tests": 2.0
+      "Tests": 1.0
     },
     "2019": {
-      "Consensus": 2.0,
-      "Tests": 6.0,
-      "Utilities": 2.0,
-      "Wallet": 2.0
+      "Consensus": 1.0,
+      "Tests": 3.0,
+      "Utilities": 1.0,
+      "Wallet": 1.0
     },
     "2020": {
-      "Node & RPC": 2.0
+      "Node & RPC": 1.0
     }
   },
   "bip_list": [
@@ -163,21 +171,41 @@
     "link": "https://gnusha.org/pi/bitcoindev/CAChG=YV2em+6c9P4DEUB1=+ZSEA6S0j9HDuWoKBeRVMmtzaMNg@mail.gmail.com"
   },
   "last_message": {
-    "source": "mailing_list",
-    "subject": "Re: [bitcoindev] CTV + CSFS: a letter",
-    "date": "2025-06-17",
-    "link": "https://gnusha.org/pi/bitcoindev/035f8b9c-9711-4edb-9d01-bef4a96320e1@roose.io"
+    "source": "delving",
+    "subject": "Re: JIT fees with TXHASH: comparing options for sponsorring and stacking",
+    "date": "2026-02-25",
+    "link": "https://delvingbitcoin.org/t/jit-fees-with-txhash-comparing-options-for-sponsorring-and-stacking/1760/3"
   },
   "social_history": {
     "2019": {
       "other": 1
     },
     "2023": {
-      "covenants": 3,
-      "script-opcodes": 3
+      "covenants": 17,
+      "mempool-fees": 2,
+      "other": 12,
+      "script-opcodes": 10,
+      "segwit": 2,
+      "taproot": 7
+    },
+    "2024": {
+      "other": 3,
+      "mempool-fees": 1,
+      "taproot": 1
     },
     "2025": {
-      "covenants": 1
+      "bitvm": 9,
+      "covenants": 13,
+      "other": 28,
+      "lightning": 18,
+      "mempool-fees": 5,
+      "script-opcodes": 4,
+      "segwit": 9,
+      "taproot": 14,
+      "testing-devtools": 11
+    },
+    "2026": {
+      "mempool-fees": 1
     }
   }
 }

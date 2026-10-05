@@ -45,24 +45,35 @@
   "avg_pr_ack_velocity_days": null,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": null,
-  "hybrid_score": 0.0,
-  "p2016_hybrid_score": null,
-  "modern_hybrid_score": null,
-  "impact_score": null,
-  "p2016_impact_score": null,
-  "modern_impact_score": null,
-  "threads_started": 0.0,
-  "replies_sent": 0.0,
-  "ml_threads": 0.0,
+  "hybrid_score": 0.0381,
+  "p2016_hybrid_score": 0.0,
+  "modern_hybrid_score": 0.0,
+  "impact_score": 2.0,
+  "p2016_impact_score": 0.0,
+  "modern_impact_score": 0.0,
+  "threads_started": 4.0,
+  "replies_sent": 7.0,
+  "ml_threads": 4.0,
   "delving_threads": 0.0,
-  "ml_responses": 0.0,
+  "ml_responses": 7.0,
   "delving_responses": 0.0,
   "first_active": null,
   "last_active": null,
-  "dev_type": null,
-  "expertise_domains": [],
-  "expertise_by_source": {},
-  "expertise_domain_scores": {},
+  "dev_type": "Participant",
+  "expertise_domains": [
+    "Mining",
+    "Ecosystem"
+  ],
+  "expertise_by_source": {
+    "discussion": {
+      "Mining": 0.6,
+      "Ecosystem": 0.4
+    }
+  },
+  "expertise_domain_scores": {
+    "Mining": 0.6,
+    "Ecosystem": 0.4
+  },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,
   "p2016_ml_posts": 0.0,
@@ -71,7 +82,7 @@
   "modern_delving_posts": 0.0,
   "is_engineer": false,
   "is_reviewer": false,
-  "is_researcher": false,
+  "is_researcher": true,
   "is_bip_author": false,
   "global_first_active": null,
   "global_last_active": null,
@@ -82,5 +93,24 @@
   "github_blog": null,
   "github_followers": null,
   "activity_status": "",
-  "is_top_50": false
+  "is_top_50": false,
+  "first_message": {
+    "source": "mailing_list",
+    "subject": "[Bitcoin-development] About the small number of bitcoin nodes",
+    "date": "2014-05-18",
+    "link": "https://gnusha.org/pi/bitcoindev/CA+8=xu+GPykmKdAjxLdRA3QoCPR8azervT9uO-GVraNowAb49g@mail.gmail.com"
+  },
+  "last_message": {
+    "source": "mailing_list",
+    "subject": "Re: [Bitcoin-development] Proposal: Encrypt bitcoin messages",
+    "date": "2014-08-19",
+    "link": "https://gnusha.org/pi/bitcoindev/CA+8=xu+KWSF6XYgH-_t87na6M6UOD0CM1su8sizxn5a4b0_Xrw@mail.gmail.com"
+  },
+  "social_history": {
+    "2014": {
+      "mining": 3,
+      "other": 6,
+      "payment-protocol": 2
+    }
+  }
 }

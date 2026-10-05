@@ -4,35 +4,22 @@
     "project_name": "Multiprocess",
     "description": "Decouples Bitcoin Core into separate process binaries (gui, node, wallet) communicating over IPC for enhanced security and process isolation.",
     "category": "Architecture & IPC",
-    "champion": "Ryan Ofsky",
+    "champion": "Russell Yanofsky",
+    "champion_login": "ryanofsky",
     "bip": null,
     "title": "Multiprocess tracking issue",
     "url": "https://github.com/bitcoin/bitcoin/issues/28722",
     "created_at": "2023-10-24T18:22:37Z",
-    "updated_at": "2026-09-14T09:22:08Z",
-    "total_tasks": 235,
-    "completed_tasks": 204,
-    "completion_percentage": 87,
+    "updated_at": "2026-09-16T20:13:38Z",
+    "total_tasks": 273,
+    "completed_tasks": 226,
+    "completion_percentage": 83,
     "tasks": [
       {
         "text": "#34978",
         "is_completed": false,
         "linked_prs": [
           34978
-        ]
-      },
-      {
-        "text": "#35084",
-        "is_completed": false,
-        "linked_prs": [
-          35084
-        ]
-      },
-      {
-        "text": "#35118",
-        "is_completed": true,
-        "linked_prs": [
-          35118
         ]
       },
       {
@@ -50,17 +37,17 @@
         ]
       },
       {
-        "text": "#35715",
-        "is_completed": true,
+        "text": "#36060",
+        "is_completed": false,
         "linked_prs": [
-          35715
+          36060
         ]
       },
       {
-        "text": "#35720",
-        "is_completed": true,
+        "text": "#36252",
+        "is_completed": false,
         "linked_prs": [
-          35720
+          36252
         ]
       },
       {
@@ -69,24 +56,38 @@
         "linked_prs": []
       },
       {
+        "text": "#35037",
+        "is_completed": false,
+        "linked_prs": [
+          35037
+        ]
+      },
+      {
+        "text": "#35887",
+        "is_completed": false,
+        "linked_prs": [
+          35887
+        ]
+      },
+      {
+        "text": "#35916",
+        "is_completed": false,
+        "linked_prs": [
+          35916
+        ]
+      },
+      {
+        "text": "#35932",
+        "is_completed": false,
+        "linked_prs": [
+          35932
+        ]
+      },
+      {
         "text": "#33922",
         "is_completed": false,
         "linked_prs": [
           33922
-        ]
-      },
-      {
-        "text": "#34020",
-        "is_completed": true,
-        "linked_prs": [
-          34020
-        ]
-      },
-      {
-        "text": "#34672",
-        "is_completed": false,
-        "linked_prs": [
-          34672
         ]
       },
       {
@@ -97,24 +98,17 @@
         ]
       },
       {
-        "text": "#33421",
+        "text": "#35300",
         "is_completed": false,
         "linked_prs": [
-          33421
+          35300
         ]
       },
       {
-        "text": "#34672",
+        "text": "#35581",
         "is_completed": false,
         "linked_prs": [
-          34672
-        ]
-      },
-      {
-        "text": "#35037",
-        "is_completed": false,
-        "linked_prs": [
-          35037
+          35581
         ]
       },
       {
@@ -129,6 +123,48 @@
         "is_completed": false,
         "linked_prs": [
           35671
+        ]
+      },
+      {
+        "text": "#35675",
+        "is_completed": false,
+        "linked_prs": [
+          35675
+        ]
+      },
+      {
+        "text": "#36047",
+        "is_completed": false,
+        "linked_prs": [
+          36047
+        ]
+      },
+      {
+        "text": "#36097",
+        "is_completed": false,
+        "linked_prs": [
+          36097
+        ]
+      },
+      {
+        "text": "#36132",
+        "is_completed": false,
+        "linked_prs": [
+          36132
+        ]
+      },
+      {
+        "text": "#36156",
+        "is_completed": false,
+        "linked_prs": [
+          36156
+        ]
+      },
+      {
+        "text": "#36192",
+        "is_completed": false,
+        "linked_prs": [
+          36192
         ]
       },
       {
@@ -167,24 +203,31 @@
         ]
       },
       {
-        "text": "#32898",
+        "text": "#36022",
         "is_completed": false,
         "linked_prs": [
-          32898
+          36022
         ]
       },
       {
-        "text": "#33747",
+        "text": "#36105",
         "is_completed": false,
         "linked_prs": [
-          33747
+          36105
         ]
       },
       {
-        "text": "#34906",
+        "text": "#36106",
         "is_completed": false,
         "linked_prs": [
-          34906
+          36106
+        ]
+      },
+      {
+        "text": "#36190",
+        "is_completed": false,
+        "linked_prs": [
+          36190
         ]
       },
       {
@@ -230,10 +273,10 @@
         ]
       },
       {
-        "text": "#34732",
-        "is_completed": true,
+        "text": "#34262",
+        "is_completed": false,
         "linked_prs": [
-          34732
+          34262
         ]
       },
       {
@@ -258,17 +301,38 @@
         ]
       },
       {
-        "text": "#35361",
-        "is_completed": true,
+        "text": "#35596",
+        "is_completed": false,
         "linked_prs": [
-          35361
+          35596
         ]
       },
       {
-        "text": "#35491",
-        "is_completed": true,
+        "text": "#35785",
+        "is_completed": false,
         "linked_prs": [
-          35491
+          35785
+        ]
+      },
+      {
+        "text": "#35845",
+        "is_completed": false,
+        "linked_prs": [
+          35845
+        ]
+      },
+      {
+        "text": "#36058",
+        "is_completed": false,
+        "linked_prs": [
+          36058
+        ]
+      },
+      {
+        "text": "#36138",
+        "is_completed": false,
+        "linked_prs": [
+          36138
         ]
       },
       {
@@ -492,17 +556,17 @@
         ]
       },
       {
-        "text": "~#22217~ <!-- merged 2021-08-22 -->",
-        "is_completed": true,
-        "linked_prs": [
-          22217
-        ]
-      },
-      {
         "text": "~#19101~ <!-- merged 2021-08-19 -->",
         "is_completed": true,
         "linked_prs": [
           19101
+        ]
+      },
+      {
+        "text": "~#22217~ <!-- merged 2021-08-22 -->",
+        "is_completed": true,
+        "linked_prs": [
+          22217
         ]
       },
       {
@@ -604,20 +668,6 @@
         ]
       },
       {
-        "text": "~#31196~ <!-- merged 2024-12-18 -->",
-        "is_completed": true,
-        "linked_prs": [
-          31196
-        ]
-      },
-      {
-        "text": "~#31197~ <!-- merged 2024-12-17 -->",
-        "is_completed": true,
-        "linked_prs": [
-          31197
-        ]
-      },
-      {
         "text": "~#30940~ <!-- merged 2024-09-27 -->",
         "is_completed": true,
         "linked_prs": [
@@ -667,6 +717,13 @@
         ]
       },
       {
+        "text": "~#31197~ <!-- merged 2024-12-17 -->",
+        "is_completed": true,
+        "linked_prs": [
+          31197
+        ]
+      },
+      {
         "text": "~#31196~ <!-- merged 2024-12-18 -->",
         "is_completed": true,
         "linked_prs": [
@@ -674,17 +731,17 @@
         ]
       },
       {
-        "text": "~#31740~ <!-- merged 2025-01-29 -->",
-        "is_completed": true,
-        "linked_prs": [
-          31740
-        ]
-      },
-      {
         "text": "~#31151~ <!-- closed 2025-01-27 -->",
         "is_completed": true,
         "linked_prs": [
           31151
+        ]
+      },
+      {
+        "text": "~#31740~ <!-- merged 2025-01-29 -->",
+        "is_completed": true,
+        "linked_prs": [
+          31740
         ]
       },
       {
@@ -716,20 +773,6 @@
         ]
       },
       {
-        "text": "~#31945~ <!-- merged 2025-02-25 -->",
-        "is_completed": true,
-        "linked_prs": [
-          31945
-        ]
-      },
-      {
-        "text": "~#31283~ <!-- merged 2025-03-12 -->",
-        "is_completed": true,
-        "linked_prs": [
-          31283
-        ]
-      },
-      {
         "text": "~#31827~ <!-- closed 2025-02-21 -->",
         "is_completed": true,
         "linked_prs": [
@@ -737,10 +780,24 @@
         ]
       },
       {
+        "text": "~#31945~ <!-- merged 2025-02-25 -->",
+        "is_completed": true,
+        "linked_prs": [
+          31945
+        ]
+      },
+      {
         "text": "~#31564~ <!-- closed 2025-03-04 -->",
         "is_completed": true,
         "linked_prs": [
           31564
+        ]
+      },
+      {
+        "text": "~#31283~ <!-- merged 2025-03-12 -->",
+        "is_completed": true,
+        "linked_prs": [
+          31283
         ]
       },
       {
@@ -821,17 +878,17 @@
         ]
       },
       {
-        "text": "~#31981~ <!-- merged 2025-06-19 -->",
-        "is_completed": true,
-        "linked_prs": [
-          31981
-        ]
-      },
-      {
         "text": "~#32760~ <!-- merged 2025-06-16 -->",
         "is_completed": true,
         "linked_prs": [
           32760
+        ]
+      },
+      {
+        "text": "~#31981~ <!-- merged 2025-06-19 -->",
+        "is_completed": true,
+        "linked_prs": [
+          31981
         ]
       },
       {
@@ -842,17 +899,17 @@
         ]
       },
       {
+        "text": "~#32898~ <!-- closed 2025-07-08 -->",
+        "is_completed": true,
+        "linked_prs": [
+          32898
+        ]
+      },
+      {
         "text": "~#31679~ <!-- merged 2025-08-07 -->",
         "is_completed": true,
         "linked_prs": [
           31679
-        ]
-      },
-      {
-        "text": "~#31802~ <!-- merged 2025-08-20 -->",
-        "is_completed": true,
-        "linked_prs": [
-          31802
         ]
       },
       {
@@ -867,6 +924,13 @@
         "is_completed": true,
         "linked_prs": [
           33190
+        ]
+      },
+      {
+        "text": "~#31802~ <!-- merged 2025-08-20 -->",
+        "is_completed": true,
+        "linked_prs": [
+          31802
         ]
       },
       {
@@ -940,17 +1004,17 @@
         ]
       },
       {
-        "text": "~#33308~ <!-- merged 2025-09-08 -->",
-        "is_completed": true,
-        "linked_prs": [
-          33308
-        ]
-      },
-      {
         "text": "~#33279~ <!-- closed 2025-09-08 -->",
         "is_completed": true,
         "linked_prs": [
           33279
+        ]
+      },
+      {
+        "text": "~#33308~ <!-- merged 2025-09-08 -->",
+        "is_completed": true,
+        "linked_prs": [
+          33308
         ]
       },
       {
@@ -961,17 +1025,17 @@
         ]
       },
       {
-        "text": "~#33312~ <!-- merged 2025-09-08 -->",
-        "is_completed": true,
-        "linked_prs": [
-          33312
-        ]
-      },
-      {
         "text": "~#33256~ <!-- closed 2025-09-08 -->",
         "is_completed": true,
         "linked_prs": [
           33256
+        ]
+      },
+      {
+        "text": "~#33312~ <!-- merged 2025-09-08 -->",
+        "is_completed": true,
+        "linked_prs": [
+          33312
         ]
       },
       {
@@ -1000,6 +1064,20 @@
         "is_completed": true,
         "linked_prs": [
           33380
+        ]
+      },
+      {
+        "text": "~#33420~ <!-- merged 2025-09-18 -->",
+        "is_completed": true,
+        "linked_prs": [
+          33420
+        ]
+      },
+      {
+        "text": "~#33417~ <!-- closed 2025-09-18 -->",
+        "is_completed": true,
+        "linked_prs": [
+          33417
         ]
       },
       {
@@ -1045,20 +1123,6 @@
         ]
       },
       {
-        "text": "~#33417~ <!-- closed 2025-09-18 -->",
-        "is_completed": true,
-        "linked_prs": [
-          33417
-        ]
-      },
-      {
-        "text": "~#33420~ <!-- merged 2025-09-18 -->",
-        "is_completed": true,
-        "linked_prs": [
-          33420
-        ]
-      },
-      {
         "text": "~#31618~ <!-- closed 2025-10-06 -->",
         "is_completed": true,
         "linked_prs": [
@@ -1073,10 +1137,10 @@
         ]
       },
       {
-        "text": "~#33519~ <!-- merged 2025-10-16 -->",
+        "text": "~#32275~ <!-- closed 2025-10-13 -->",
         "is_completed": true,
         "linked_prs": [
-          33519
+          32275
         ]
       },
       {
@@ -1087,17 +1151,17 @@
         ]
       },
       {
+        "text": "~#33519~ <!-- merged 2025-10-16 -->",
+        "is_completed": true,
+        "linked_prs": [
+          33519
+        ]
+      },
+      {
         "text": "~#33647~ <!-- closed 2025-10-20 -->",
         "is_completed": true,
         "linked_prs": [
           33647
-        ]
-      },
-      {
-        "text": "~#32275~ <!-- closed 2025-10-13 -->",
-        "is_completed": true,
-        "linked_prs": [
-          32275
         ]
       },
       {
@@ -1150,17 +1214,17 @@
         ]
       },
       {
-        "text": "~#33676~ <!-- merged 2025-11-10 -->",
-        "is_completed": true,
-        "linked_prs": [
-          33676
-        ]
-      },
-      {
         "text": "~#33575~ <!-- closed 2025-11-10 -->",
         "is_completed": true,
         "linked_prs": [
           33575
+        ]
+      },
+      {
+        "text": "~#33676~ <!-- merged 2025-11-10 -->",
+        "is_completed": true,
+        "linked_prs": [
+          33676
         ]
       },
       {
@@ -1311,6 +1375,13 @@
         ]
       },
       {
+        "text": "~#33965~ <!-- merged 2026-02-12 -->",
+        "is_completed": true,
+        "linked_prs": [
+          33965
+        ]
+      },
+      {
         "text": "~#34568~ <!-- merged 2026-02-20 -->",
         "is_completed": true,
         "linked_prs": [
@@ -1322,13 +1393,6 @@
         "is_completed": true,
         "linked_prs": [
           34284
-        ]
-      },
-      {
-        "text": "~#33965~ <!-- merged 2026-02-12 -->",
-        "is_completed": true,
-        "linked_prs": [
-          33965
         ]
       },
       {
@@ -1353,17 +1417,17 @@
         ]
       },
       {
-        "text": "~#34422~ <!-- merged 2026-03-03 -->",
-        "is_completed": true,
-        "linked_prs": [
-          34422
-        ]
-      },
-      {
         "text": "~#33923~ <!-- closed 2026-03-03 -->",
         "is_completed": true,
         "linked_prs": [
           33923
+        ]
+      },
+      {
+        "text": "~#34422~ <!-- merged 2026-03-03 -->",
+        "is_completed": true,
+        "linked_prs": [
+          34422
         ]
       },
       {
@@ -1423,10 +1487,17 @@
         ]
       },
       {
-        "text": "~#34825~ <!-- merged 2026-03-16 -->",
+        "text": "~#34825~ <!-- merged 2026-03-17 -->",
         "is_completed": true,
         "linked_prs": [
           34825
+        ]
+      },
+      {
+        "text": "~#34845~ <!-- closed 2026-03-17 -->",
+        "is_completed": true,
+        "linked_prs": [
+          34845
         ]
       },
       {
@@ -1437,24 +1508,10 @@
         ]
       },
       {
-        "text": "~#34845~ <!-- closed 2026-03-19 -->",
-        "is_completed": true,
-        "linked_prs": [
-          34845
-        ]
-      },
-      {
         "text": "~#33795~ <!-- closed 2026-03-21 -->",
         "is_completed": true,
         "linked_prs": [
           33795
-        ]
-      },
-      {
-        "text": "~#34727~ <!-- merged 2026-03-24 -->",
-        "is_completed": true,
-        "linked_prs": [
-          34727
         ]
       },
       {
@@ -1465,14 +1522,21 @@
         ]
       },
       {
-        "text": "~#33402~ <!-- closed 2026-03-27 -->",
+        "text": "~#34727~ <!-- merged 2026-03-24 -->",
+        "is_completed": true,
+        "linked_prs": [
+          34727
+        ]
+      },
+      {
+        "text": "~#33402~ <!-- closed 2026-03-28 -->",
         "is_completed": true,
         "linked_prs": [
           33402
         ]
       },
       {
-        "text": "~#34804~ <!-- closed 2026-03-30 -->",
+        "text": "~#34804~ <!-- merged 2026-03-30 -->",
         "is_completed": true,
         "linked_prs": [
           34804
@@ -1493,17 +1557,10 @@
         ]
       },
       {
-        "text": "~#34952~ <!-- closed 2026-03-31 -->",
+        "text": "~#34952~ <!-- merged 2026-04-01 -->",
         "is_completed": true,
         "linked_prs": [
           34952
-        ]
-      },
-      {
-        "text": "~#34777~ <!-- closed 2026-04-01 -->",
-        "is_completed": true,
-        "linked_prs": [
-          34777
         ]
       },
       {
@@ -1514,7 +1571,14 @@
         ]
       },
       {
-        "text": "~#34975~ <!-- closed 2026-04-03 -->",
+        "text": "~#34777~ <!-- closed 2026-04-01 -->",
+        "is_completed": true,
+        "linked_prs": [
+          34777
+        ]
+      },
+      {
+        "text": "~#34975~ <!-- closed 2026-04-04 -->",
         "is_completed": true,
         "linked_prs": [
           34975
@@ -1528,17 +1592,17 @@
         ]
       },
       {
-        "text": "~#33385~ <!-- merged 2026-04-07 -->",
-        "is_completed": true,
-        "linked_prs": [
-          33385
-        ]
-      },
-      {
         "text": "~#35010~ <!-- closed 2026-04-07 -->",
         "is_completed": true,
         "linked_prs": [
           35010
+        ]
+      },
+      {
+        "text": "~#33385~ <!-- merged 2026-04-07 -->",
+        "is_completed": true,
+        "linked_prs": [
+          33385
         ]
       },
       {
@@ -1549,13 +1613,6 @@
         ]
       },
       {
-        "text": "~#35014~ <!-- merged 2026-04-07 -->",
-        "is_completed": true,
-        "linked_prs": [
-          35014
-        ]
-      },
-      {
         "text": "~#34723~ <!-- closed 2026-04-07 -->",
         "is_completed": true,
         "linked_prs": [
@@ -1563,7 +1620,14 @@
         ]
       },
       {
-        "text": "~#35028~ <!-- closed 2026-04-08 -->",
+        "text": "~#35014~ <!-- merged 2026-04-07 -->",
+        "is_completed": true,
+        "linked_prs": [
+          35014
+        ]
+      },
+      {
+        "text": "~#35028~ <!-- merged 2026-04-08 -->",
         "is_completed": true,
         "linked_prs": [
           35028
@@ -1577,6 +1641,13 @@
         ]
       },
       {
+        "text": "~#34906~ <!-- closed 2026-05-05 -->",
+        "is_completed": true,
+        "linked_prs": [
+          34906
+        ]
+      },
+      {
         "text": "~#34860~ <!-- merged 2026-05-17 -->",
         "is_completed": true,
         "linked_prs": [
@@ -1584,10 +1655,38 @@
         ]
       },
       {
+        "text": "~#35126~ <!-- closed 2026-05-17 -->",
+        "is_completed": true,
+        "linked_prs": [
+          35126
+        ]
+      },
+      {
+        "text": "~#35365~ <!-- closed 2026-05-23 -->",
+        "is_completed": true,
+        "linked_prs": [
+          35365
+        ]
+      },
+      {
+        "text": "~#35015~ <!-- merged 2026-05-26 -->",
+        "is_completed": true,
+        "linked_prs": [
+          35015
+        ]
+      },
+      {
         "text": "~#33966~ <!-- merged 2026-05-26 -->",
         "is_completed": true,
         "linked_prs": [
           33966
+        ]
+      },
+      {
+        "text": "~#35392~ <!-- closed 2026-05-27 -->",
+        "is_completed": true,
+        "linked_prs": [
+          35392
         ]
       },
       {
@@ -1633,6 +1732,13 @@
         ]
       },
       {
+        "text": "~#34732~ <!-- closed 2026-06-12 -->",
+        "is_completed": true,
+        "linked_prs": [
+          34732
+        ]
+      },
+      {
         "text": "~#35523~ <!-- merged 2026-06-13 -->",
         "is_completed": true,
         "linked_prs": [
@@ -1647,10 +1753,171 @@
         ]
       },
       {
+        "text": "~#33421~ <!-- closed 2026-06-22 -->",
+        "is_completed": true,
+        "linked_prs": [
+          33421
+        ]
+      },
+      {
         "text": "~#35403~ <!-- merged 2026-06-23 -->",
         "is_completed": true,
         "linked_prs": [
           35403
+        ]
+      },
+      {
+        "text": "~#35118~ <!-- merged 2026-07-02 -->",
+        "is_completed": true,
+        "linked_prs": [
+          35118
+        ]
+      },
+      {
+        "text": "~#35661~ <!-- merged 2026-07-07 -->",
+        "is_completed": true,
+        "linked_prs": [
+          35661
+        ]
+      },
+      {
+        "text": "~#35491~ <!-- closed 2026-07-07 -->",
+        "is_completed": true,
+        "linked_prs": [
+          35491
+        ]
+      },
+      {
+        "text": "~#34020~ <!-- merged 2026-07-07 -->",
+        "is_completed": true,
+        "linked_prs": [
+          34020
+        ]
+      },
+      {
+        "text": "~#35684~ <!-- merged 2026-07-10 -->",
+        "is_completed": true,
+        "linked_prs": [
+          35684
+        ]
+      },
+      {
+        "text": "~#33747~ <!-- closed 2026-07-10 -->",
+        "is_completed": true,
+        "linked_prs": [
+          33747
+        ]
+      },
+      {
+        "text": "~#35708~ <!-- merged 2026-07-13 -->",
+        "is_completed": true,
+        "linked_prs": [
+          35708
+        ]
+      },
+      {
+        "text": "~#35715~ <!-- merged 2026-07-13 -->",
+        "is_completed": true,
+        "linked_prs": [
+          35715
+        ]
+      },
+      {
+        "text": "~#35720~ <!-- merged 2026-07-14 -->",
+        "is_completed": true,
+        "linked_prs": [
+          35720
+        ]
+      },
+      {
+        "text": "~#35712~ <!-- closed 2026-07-18 -->",
+        "is_completed": true,
+        "linked_prs": [
+          35712
+        ]
+      },
+      {
+        "text": "~#34672~ <!-- merged 2026-07-22 -->",
+        "is_completed": true,
+        "linked_prs": [
+          34672
+        ]
+      },
+      {
+        "text": "~#35789~ <!-- closed 2026-07-24 -->",
+        "is_completed": true,
+        "linked_prs": [
+          35789
+        ]
+      },
+      {
+        "text": "~#35084~ <!-- merged 2026-07-29 -->",
+        "is_completed": true,
+        "linked_prs": [
+          35084
+        ]
+      },
+      {
+        "text": "~#35823~ <!-- closed 2026-08-01 -->",
+        "is_completed": true,
+        "linked_prs": [
+          35823
+        ]
+      },
+      {
+        "text": "~#36037~ <!-- closed 2026-08-22 -->",
+        "is_completed": true,
+        "linked_prs": [
+          36037
+        ]
+      },
+      {
+        "text": "~#36085~ <!-- closed 2026-08-26 -->",
+        "is_completed": true,
+        "linked_prs": [
+          36085
+        ]
+      },
+      {
+        "text": "~https://github.com/google/oss-fuzz/pull/16071~ <!-- merged 2026-08-31 -->",
+        "is_completed": true,
+        "linked_prs": [
+          16071
+        ]
+      },
+      {
+        "text": "~#36112~ <!-- merged 2026-09-01 -->",
+        "is_completed": true,
+        "linked_prs": [
+          36112
+        ]
+      },
+      {
+        "text": "~#35796~ <!-- merged 2026-09-09 -->",
+        "is_completed": true,
+        "linked_prs": [
+          35796
+        ]
+      },
+      {
+        "text": "~#35468~ <!-- merged 2026-09-09 -->",
+        "is_completed": true,
+        "linked_prs": [
+          35468
+        ]
+      },
+      {
+        "text": "~#35361~ <!-- closed 2026-09-14 -->",
+        "is_completed": true,
+        "linked_prs": [
+          35361
+        ]
+      },
+      {
+        "text": "~#36093~ <!-- merged 2026-09-14 -->",
+        "is_completed": true,
+        "linked_prs": [
+          36093
         ]
       }
     ]
@@ -1660,7 +1927,8 @@
     "project_name": "SENDTEMPLATE",
     "description": "P2P protocol extension allowing nodes to announce and request block templates directly to accelerate block propagation across the network.",
     "category": "P2P & Relaying",
-    "champion": "BIP Drafting WG",
+    "champion": "Anthony Towns",
+    "champion_login": "ajtowns",
     "bip": null,
     "title": "Template Sharing Tracking Issue",
     "url": "https://github.com/bitcoin/bitcoin/issues/33691",
@@ -1742,7 +2010,8 @@
     "project_name": "Bitcoin Kernel Library",
     "description": "Extracting consensus validation logic into a standalone libbitcoinkernel C++ library with zero external state dependencies.",
     "category": "Consensus Kernel",
-    "champion": "Carl Dong / Thechuan",
+    "champion": "Sebastian Kung",
+    "champion_login": "sedited",
     "bip": null,
     "title": "Bitcoin Kernel Library Project Tracking",
     "url": "https://github.com/bitcoin/bitcoin/issues/27587",
@@ -1758,7 +2027,8 @@
     "project_name": "Erlay",
     "description": "Bandwidth-efficient transaction relay protocol (BIP330) that reduces node P2P bandwidth usage by up to 40% using set-reconciliation.",
     "category": "P2P & Networking",
-    "champion": "Gleb Naumenko / Pieter Wuille",
+    "champion": "Sergi Delgado Segura",
+    "champion_login": "sr-gi",
     "bip": "BIP 330",
     "title": "Erlay Project Tracking",
     "url": "https://github.com/bitcoin/bitcoin/issues/30249",
@@ -1882,7 +2152,8 @@
     "project_name": "Mining Interface",
     "description": "Clean abstraction layer for block template creation and Stratum v2 mining pool communication decoupled from node internal state.",
     "category": "Mining & Stratum",
-    "champion": "Bitcoin Core Mining WG",
+    "champion": "Sjors Provoost",
+    "champion_login": "Sjors",
     "bip": null,
     "title": "Mining interface tracking issue",
     "url": "https://github.com/bitcoin/bitcoin/issues/33777",
@@ -1986,7 +2257,8 @@
     "project_name": "MuSig2",
     "description": "Implementation of Schnorr multi-signatures (BIP327) enabling 2-of-2 and n-of-n multisig key aggregation natively in the wallet.",
     "category": "Cryptography & Wallet",
-    "champion": "Jonas Nick / Tim Ruffing",
+    "champion": "Ava Chow",
+    "champion_login": "achow101",
     "bip": "BIP 327",
     "title": "MuSig2 Tracking Issue",
     "url": "https://github.com/bitcoin/bitcoin/issues/31246",
@@ -2093,7 +2365,8 @@
     "project_name": "Cluster Mempool",
     "description": "Redesign of Bitcoin Core's mempool into independent transaction clusters to optimize block template construction and Fee-Estimation / RBF.",
     "category": "Mempool & Consensus",
-    "champion": "Suzi Peled / Pieter Wuille",
+    "champion": "Pieter Wuille",
+    "champion_login": "sipa",
     "bip": null,
     "title": "Cluster mempool tracking issue",
     "url": "https://github.com/bitcoin/bitcoin/issues/30289",

@@ -15,12 +15,12 @@
   "self_merges": 0.0,
   "total_additions": 27.0,
   "total_deletions": 26.0,
-  "first_core_commit": "2023-06-21T10:16:28+00:00",
-  "last_core_commit": "2023-06-27T11:49:29+00:00",
+  "first_core_commit": "2023-06-21T10:23:04+00:00",
+  "last_core_commit": "2023-06-27T11:55:03+00:00",
   "first_ecosystem_commit": null,
   "last_ecosystem_commit": null,
-  "first_commit": "2023-06-21T10:16:28",
-  "last_commit": "2023-06-27T11:49:29",
+  "first_commit": "2023-06-21T10:23:04",
+  "last_commit": "2023-06-27T11:55:03",
   "p2016_authored_commits": 2.0,
   "modern_authored_commits": 0.0,
   "co_authored_commits": 0.0,
@@ -45,12 +45,12 @@
   "avg_pr_ack_velocity_days": 32.967887731481476,
   "avg_concept_lead_time_days": 81.54070601851852,
   "review_reciprocity": 0.09090909090909091,
-  "hybrid_score": 0.0727,
-  "p2016_hybrid_score": 0.0727,
-  "modern_hybrid_score": 0.0675,
-  "impact_score": 4.0,
-  "p2016_impact_score": 4.0,
-  "modern_impact_score": 4.0,
+  "hybrid_score": 0.1361,
+  "p2016_hybrid_score": 0.1361,
+  "modern_hybrid_score": 0.1309,
+  "impact_score": 8.0,
+  "p2016_impact_score": 8.0,
+  "modern_impact_score": 8.0,
   "threads_started": 0.0,
   "replies_sent": 0.0,
   "ml_threads": 0.0,
@@ -59,13 +59,20 @@
   "delving_responses": 0.0,
   "first_active": null,
   "last_active": null,
-  "dev_type": "Participant",
+  "dev_type": "Builder",
   "expertise_domains": [
-    "Infrastructure"
+    "Infrastructure",
+    "Wallet"
   ],
-  "expertise_by_source": {},
+  "expertise_by_source": {
+    "code": {
+      "Wallet": 0.125,
+      "Infrastructure": 0.875
+    }
+  },
   "expertise_domain_scores": {
-    "Infrastructure": 1.0
+    "Infrastructure": 0.875,
+    "Wallet": 0.125
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,
@@ -73,12 +80,12 @@
   "p2016_delving_posts": 0.0,
   "modern_ml_posts": 0.0,
   "modern_delving_posts": 0.0,
-  "is_engineer": false,
+  "is_engineer": true,
   "is_reviewer": true,
   "is_researcher": false,
   "is_bip_author": false,
   "global_first_active": "2023-06-04T19:27:23",
-  "global_last_active": "2023-06-27T11:49:29",
+  "global_last_active": "2023-06-27T11:55:03",
   "github_location": null,
   "github_company": null,
   "github_bio": null,
@@ -90,10 +97,10 @@
   "github_url": "https://github.com/Brotcrunsher",
   "commit_history": {
     "2023": {
-      "Node & RPC": 0.5,
-      "Tests": 0.5,
-      "Utilities": 2.5,
-      "Wallet": 0.5
+      "Node & RPC": 0.25,
+      "Tests": 0.25,
+      "Utilities": 1.25,
+      "Wallet": 0.25
     }
   }
 }

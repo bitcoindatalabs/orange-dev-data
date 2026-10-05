@@ -1,5 +1,5 @@
 {
-  "display_name": "Max Kaplan",
+  "display_name": "max kaplan",
   "github_login_final": "kaplanmaxe",
   "delving_username_final": null,
   "uuid": "auto_max_kaplan",
@@ -15,12 +15,12 @@
   "self_merges": 0.0,
   "total_additions": 9.0,
   "total_deletions": 1.0,
-  "first_core_commit": "2018-06-08T14:53:49+00:00",
-  "last_core_commit": "2018-06-08T14:53:49+00:00",
+  "first_core_commit": "2018-06-08T14:55:03+00:00",
+  "last_core_commit": "2018-06-08T14:55:03+00:00",
   "first_ecosystem_commit": null,
   "last_ecosystem_commit": null,
-  "first_commit": "2018-06-08T14:53:49",
-  "last_commit": "2018-06-08T14:53:49",
+  "first_commit": "2018-06-08T14:55:03",
+  "last_commit": "2018-06-08T14:55:03",
   "p2016_authored_commits": 1.0,
   "modern_authored_commits": 0.0,
   "co_authored_commits": 0.0,
@@ -45,11 +45,11 @@
   "avg_pr_ack_velocity_days": 4.842106481481482,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": 0.0,
-  "hybrid_score": 0.0146,
-  "p2016_hybrid_score": 0.0146,
+  "hybrid_score": 0.0546,
+  "p2016_hybrid_score": 0.0546,
   "modern_hybrid_score": 0.0146,
-  "impact_score": 1.0,
-  "p2016_impact_score": 1.0,
+  "impact_score": 3.0,
+  "p2016_impact_score": 3.0,
   "modern_impact_score": 1.0,
   "threads_started": 0.0,
   "replies_sent": 0.0,
@@ -59,11 +59,15 @@
   "delving_responses": 0.0,
   "first_active": null,
   "last_active": null,
-  "dev_type": "Participant",
+  "dev_type": "Builder",
   "expertise_domains": [
     "Infrastructure"
   ],
-  "expertise_by_source": {},
+  "expertise_by_source": {
+    "code": {
+      "Infrastructure": 1.0
+    }
+  },
   "expertise_domain_scores": {
     "Infrastructure": 1.0
   },
@@ -73,12 +77,12 @@
   "p2016_delving_posts": 0.0,
   "modern_ml_posts": 0.0,
   "modern_delving_posts": 0.0,
-  "is_engineer": false,
+  "is_engineer": true,
   "is_reviewer": true,
   "is_researcher": false,
   "is_bip_author": false,
-  "global_first_active": "2018-06-08T14:53:49",
-  "global_last_active": "2018-06-08T14:53:49",
+  "global_first_active": "2018-06-08T14:55:03",
+  "global_last_active": "2018-06-08T14:55:03",
   "github_location": null,
   "github_company": null,
   "github_bio": "Building cool stuff, former @krakenfx",
@@ -90,7 +94,7 @@
   "github_url": "https://github.com/kaplanmaxe",
   "commit_history": {
     "2018": {
-      "Utilities": 2.0
+      "Utilities": 1.0
     }
   }
 }

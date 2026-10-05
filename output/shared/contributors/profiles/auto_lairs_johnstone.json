@@ -1,5 +1,5 @@
 {
-  "display_name": "lairs johnstone",
+  "display_name": "Lairs Johnstone",
   "github_login_final": "hkjn",
   "delving_username_final": null,
   "uuid": "auto_lairs_johnstone",
@@ -15,12 +15,12 @@
   "self_merges": 0.0,
   "total_additions": 36.0,
   "total_deletions": 19.0,
-  "first_core_commit": "2017-12-06T11:04:32+00:00",
-  "last_core_commit": "2018-04-18T09:13:07+00:00",
+  "first_core_commit": "2017-12-06T11:05:33+00:00",
+  "last_core_commit": "2018-04-18T09:29:23+00:00",
   "first_ecosystem_commit": null,
   "last_ecosystem_commit": null,
-  "first_commit": "2017-12-06T11:04:32",
-  "last_commit": "2018-04-18T09:13:07",
+  "first_commit": "2017-12-06T11:05:33",
+  "last_commit": "2018-04-18T09:29:23",
   "p2016_authored_commits": 5.0,
   "modern_authored_commits": 0.0,
   "co_authored_commits": 0.0,
@@ -45,11 +45,11 @@
   "avg_pr_ack_velocity_days": 0.8905833333333334,
   "avg_concept_lead_time_days": 1.1225231481481481,
   "review_reciprocity": 2.6,
-  "hybrid_score": 0.1011,
-  "p2016_hybrid_score": 0.1011,
+  "hybrid_score": 0.2045,
+  "p2016_hybrid_score": 0.2045,
   "modern_hybrid_score": 0.0452,
-  "impact_score": 6.0,
-  "p2016_impact_score": 6.0,
+  "impact_score": 12.0,
+  "p2016_impact_score": 12.0,
   "modern_impact_score": 3.0,
   "threads_started": 0.0,
   "replies_sent": 0.0,
@@ -59,11 +59,15 @@
   "delving_responses": 0.0,
   "first_active": null,
   "last_active": null,
-  "dev_type": "Reviewer",
+  "dev_type": "Builder",
   "expertise_domains": [
     "Infrastructure"
   ],
-  "expertise_by_source": {},
+  "expertise_by_source": {
+    "code": {
+      "Infrastructure": 1.0
+    }
+  },
   "expertise_domain_scores": {
     "Infrastructure": 1.0
   },
@@ -73,11 +77,11 @@
   "p2016_delving_posts": 0.0,
   "modern_ml_posts": 0.0,
   "modern_delving_posts": 0.0,
-  "is_engineer": false,
+  "is_engineer": true,
   "is_reviewer": true,
   "is_researcher": false,
   "is_bip_author": false,
-  "global_first_active": "2017-12-06T11:04:32",
+  "global_first_active": "2017-12-06T11:05:33",
   "global_last_active": "2018-07-16T08:07:50",
   "github_location": null,
   "github_company": null,
@@ -90,12 +94,12 @@
   "github_url": "https://github.com/hkjn",
   "commit_history": {
     "2017": {
-      "Build & CI": 3.0,
-      "Documentation": 2.0,
-      "Utilities": 1.0
+      "Build & CI": 1.5,
+      "Documentation": 1.0,
+      "Utilities": 0.5
     },
     "2018": {
-      "Build & CI": 4.0
+      "Build & CI": 2.0
     }
   }
 }

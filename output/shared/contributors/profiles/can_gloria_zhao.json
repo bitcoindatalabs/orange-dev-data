@@ -1,7 +1,7 @@
 {
   "display_name": "Gloria Zhao",
   "github_login_final": "glozow",
-  "delving_username_final": null,
+  "delving_username_final": "glozow",
   "uuid": "can_gloria_zhao",
   "badges": {
     "is_maintainer": true,
@@ -35,14 +35,14 @@
   "self_merges": 5.0,
   "total_additions": 26544.0,
   "total_deletions": 7325.0,
-  "first_core_commit": "2020-03-05T18:40:02+00:00",
-  "last_core_commit": "2026-03-09T10:11:08+00:00",
+  "first_core_commit": "2020-03-05T18:41:05+00:00",
+  "last_core_commit": "2026-03-09T10:11:14+00:00",
   "first_ecosystem_commit": "2022-03-10T14:48:20+00:00",
   "last_ecosystem_commit": "2025-12-09T19:07:50+00:00",
-  "first_commit": "2020-03-05T18:40:02",
-  "last_commit": "2026-03-09T10:11:08",
+  "first_commit": "2020-03-05T18:41:05",
+  "last_commit": "2026-03-09T10:11:14",
   "p2016_authored_commits": 612.0,
-  "modern_authored_commits": 303.0,
+  "modern_authored_commits": 297.0,
   "co_authored_commits": 24.0,
   "bips_authored": 2.0,
   "p2016_bips_authored": 2.0,
@@ -56,7 +56,7 @@
   "tier1_reviews_count": 701.0,
   "tier2_reviews_count": 9.0,
   "p2016_reviews_count": 710.0,
-  "modern_reviews_count": 380.0,
+  "modern_reviews_count": 377.0,
   "first_review_date": "2020-04-24T19:47:08",
   "last_review_date": "2026-01-14T01:15:33",
   "prs_authored": 159.0,
@@ -65,30 +65,36 @@
   "avg_pr_ack_velocity_days": 8.204880243764173,
   "avg_concept_lead_time_days": 14.515481999269005,
   "review_reciprocity": 4.465408805031447,
-  "hybrid_score": 1.8398,
-  "p2016_hybrid_score": 0.874,
-  "modern_hybrid_score": 0.6465,
-  "impact_score": 67.0,
-  "p2016_impact_score": 41.0,
-  "modern_impact_score": 32.0,
-  "threads_started": 12.0,
-  "replies_sent": 25.0,
+  "hybrid_score": 2.2309,
+  "p2016_hybrid_score": 1.2635,
+  "modern_hybrid_score": 1.0177,
+  "impact_score": 74.0,
+  "p2016_impact_score": 53.0,
+  "modern_impact_score": 46.0,
+  "threads_started": 29.0,
+  "replies_sent": 31.0,
   "ml_threads": 12.0,
-  "delving_threads": 0.0,
+  "delving_threads": 17.0,
   "ml_responses": 25.0,
-  "delving_responses": 0.0,
-  "first_active": "2021-04-26T18:06:34",
-  "last_active": "2025-10-14T13:55:33",
-  "dev_type": "Reviewer",
+  "delving_responses": 6.0,
+  "first_active": null,
+  "last_active": "2025-10-14T18:53:00.532000",
+  "dev_type": "Protocol Designer",
   "expertise_domains": [
-    "Privacy",
     "Infrastructure",
+    "Privacy",
     "Mempool"
   ],
   "expertise_by_source": {
     "discussion": {
-      "Mining": 0.086,
-      "Mempool": 0.914
+      "Mempool": 1.0
+    },
+    "code": {
+      "Wallet": 0.019,
+      "Infrastructure": 0.703,
+      "Consensus": 0.132,
+      "Network": 0.07,
+      "Mempool": 0.077
     },
     "bips": {
       "Infrastructure": 0.5,
@@ -96,23 +102,24 @@
     }
   },
   "expertise_domain_scores": {
-    "Infrastructure": 0.3571,
-    "Mining": 0.0246,
-    "Mempool": 0.2611,
-    "Privacy": 0.3571
+    "Privacy": 0.2499,
+    "Infrastructure": 0.4608,
+    "Consensus": 0.0396,
+    "Mempool": 0.223,
+    "Network": 0.021
   },
-  "p2016_posts": 37.0,
-  "modern_posts": 11.0,
+  "p2016_posts": 60.0,
+  "modern_posts": 34.0,
   "p2016_ml_posts": 37.0,
-  "p2016_delving_posts": 0.0,
+  "p2016_delving_posts": 23.0,
   "modern_ml_posts": 11.0,
-  "modern_delving_posts": 0.0,
-  "is_engineer": false,
+  "modern_delving_posts": 23.0,
+  "is_engineer": true,
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": true,
-  "global_first_active": "2020-03-05T18:40:02",
-  "global_last_active": "2026-03-09T10:11:08",
+  "global_first_active": "2020-03-05T18:41:05",
+  "global_last_active": "2026-03-09T10:11:14",
   "github_location": null,
   "github_company": null,
   "github_bio": null,
@@ -122,81 +129,82 @@
   "activity_status": "Active",
   "is_top_50": false,
   "github_url": "https://github.com/glozow",
+  "delving_url": "https://delvingbitcoin.org/u/glozow",
   "commit_history": {
     "2020": {
-      "Consensus": 0.67,
-      "Documentation": 2.0,
-      "Mempool": 1.67,
-      "Node & RPC": 5.33,
-      "P2P Network": 5.0,
-      "Tests": 38.33,
-      "Utilities": 1.0,
-      "Wallet": 2.0
-    },
-    "2021": {
-      "Build & CI": 2.67,
-      "Consensus": 76.9,
-      "Documentation": 9.0,
-      "Mempool": 49.4,
-      "Node & RPC": 13.4,
-      "P2P Network": 3.4,
-      "Tests": 74.57,
-      "Utilities": 4.67,
-      "Wallet": 6.0
-    },
-    "2022": {
-      "Build & CI": 12.0,
-      "Consensus": 19.33,
-      "Documentation": 10.33,
-      "GUI": 0.67,
-      "Mempool": 12.0,
-      "Merge": 54.0,
-      "Node & RPC": 4.67,
-      "Tests": 36.67,
-      "Utilities": 2.67,
-      "Wallet": 8.67
-    },
-    "2023": {
-      "Build & CI": 31.5,
-      "Consensus": 37.33,
-      "Documentation": 5.33,
-      "Mempool": 15.17,
-      "Merge": 82.0,
-      "Node & RPC": 28.33,
-      "P2P Network": 5.5,
-      "Tests": 73.67,
-      "Utilities": 7.17,
+      "Consensus": 0.33,
+      "Documentation": 1.0,
+      "Mempool": 0.83,
+      "Node & RPC": 2.67,
+      "P2P Network": 2.5,
+      "Tests": 19.17,
+      "Utilities": 0.5,
       "Wallet": 1.0
     },
+    "2021": {
+      "Build & CI": 1.33,
+      "Consensus": 38.45,
+      "Documentation": 4.5,
+      "Mempool": 24.7,
+      "Node & RPC": 6.7,
+      "P2P Network": 1.7,
+      "Tests": 37.28,
+      "Utilities": 2.33,
+      "Wallet": 3.0
+    },
+    "2022": {
+      "Build & CI": 11.5,
+      "Consensus": 9.67,
+      "Documentation": 5.17,
+      "GUI": 0.33,
+      "Mempool": 6.0,
+      "Merge": 27.0,
+      "Node & RPC": 2.33,
+      "Tests": 18.33,
+      "Utilities": 1.33,
+      "Wallet": 4.33
+    },
+    "2023": {
+      "Build & CI": 28.25,
+      "Consensus": 18.67,
+      "Documentation": 2.67,
+      "Mempool": 7.58,
+      "Merge": 41.0,
+      "Node & RPC": 14.17,
+      "P2P Network": 2.75,
+      "Tests": 36.83,
+      "Utilities": 3.58,
+      "Wallet": 0.5
+    },
     "2024": {
-      "Build & CI": 39.83,
-      "Consensus": 14.83,
-      "Documentation": 17.83,
-      "Mempool": 11.83,
-      "Merge": 184.0,
-      "Node & RPC": 31.67,
-      "P2P Network": 65.83,
-      "Tests": 65.5,
-      "Utilities": 14.67
+      "Build & CI": 37.92,
+      "Consensus": 7.42,
+      "Documentation": 8.92,
+      "Mempool": 5.92,
+      "Merge": 92.0,
+      "Node & RPC": 15.83,
+      "P2P Network": 32.92,
+      "Tests": 32.75,
+      "Utilities": 7.33
     },
     "2025": {
-      "Build & CI": 37.4,
-      "Consensus": 12.5,
-      "Documentation": 15.5,
-      "Mempool": 4.5,
-      "Merge": 236.0,
-      "Node & RPC": 46.4,
-      "P2P Network": 5.4,
-      "Tests": 95.9,
-      "Utilities": 19.4,
-      "Wallet": 2.0
+      "Build & CI": 36.2,
+      "Consensus": 6.25,
+      "Documentation": 7.75,
+      "Mempool": 2.25,
+      "Merge": 118.0,
+      "Node & RPC": 23.2,
+      "P2P Network": 2.7,
+      "Tests": 47.95,
+      "Utilities": 9.7,
+      "Wallet": 1.0
     },
     "2026": {
-      "Merge": 20.0,
-      "Node & RPC": 2.0,
-      "Tests": 1.0,
-      "Utilities": 2.0,
-      "Wallet": 3.0
+      "Merge": 10.0,
+      "Node & RPC": 1.0,
+      "Tests": 0.5,
+      "Utilities": 1.0,
+      "Wallet": 1.5
     }
   },
   "bip_list": [
@@ -222,35 +230,44 @@
     "link": "https://gnusha.org/pi/bitcoindev/CAFXO6=J-3kF4nOqrHLRzN2t+=iCrCDTJh9nD3tY45ihZOAZ8ug@mail.gmail.com"
   },
   "last_message": {
-    "source": "mailing_list",
-    "subject": "[bitcoindev] Bitcoin Core v29.2 Released",
+    "source": "delving",
+    "subject": "Bitcoin Core v29.2 Released",
     "date": "2025-10-14",
-    "link": "https://gnusha.org/pi/bitcoindev/14ad52ca-915a-4cdd-94b1-cf9afce0a4a5n@googlegroups.com"
+    "link": "https://delvingbitcoin.org/t/bitcoin-core-v29-2-released/2061/1"
   },
   "social_history": {
     "2021": {
       "mempool-fees": 10,
       "mining": 1,
-      "p2p-network": 1
+      "other": 1
     },
     "2022": {
       "mempool-fees": 15,
       "mining": 2,
-      "other": 1,
-      "p2p-network": 1,
+      "other": 2,
       "spam-filtering": 1
     },
     "2023": {
-      "mempool-fees": 1
+      "mempool-fees": 2
     },
     "2024": {
-      "bip-process": 1,
+      "other": 2,
       "core-dev": 3,
-      "mempool-fees": 1,
-      "taproot": 1
+      "lightning": 4,
+      "mempool-fees": 10,
+      "mining": 1,
+      "script-opcodes": 1,
+      "taproot": 4
     },
     "2025": {
-      "core-dev": 5
+      "core-dev": 12,
+      "other": 3,
+      "mempool-fees": 5,
+      "mining": 4,
+      "script-opcodes": 4,
+      "segwit": 4,
+      "spam-filtering": 5,
+      "taproot": 1
     }
   }
 }

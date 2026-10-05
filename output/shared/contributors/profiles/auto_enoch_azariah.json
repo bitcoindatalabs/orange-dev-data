@@ -15,12 +15,12 @@
   "self_merges": 0.0,
   "total_additions": 300.0,
   "total_deletions": 42.0,
-  "first_core_commit": "2025-05-13T20:30:25+00:00",
-  "last_core_commit": "2026-07-02T19:04:47+00:00",
+  "first_core_commit": "2025-05-13T20:30:58+00:00",
+  "last_core_commit": "2026-07-02T19:04:59+00:00",
   "first_ecosystem_commit": null,
   "last_ecosystem_commit": null,
-  "first_commit": "2025-05-13T20:30:25",
-  "last_commit": "2026-07-02T19:04:47",
+  "first_commit": "2025-05-13T20:30:58",
+  "last_commit": "2026-07-02T19:04:59",
   "p2016_authored_commits": 8.0,
   "modern_authored_commits": 8.0,
   "co_authored_commits": 2.0,
@@ -39,18 +39,18 @@
   "modern_reviews_count": 53.0,
   "first_review_date": "2025-04-05T22:08:19",
   "last_review_date": "2026-09-22T10:54:18",
-  "prs_authored": 11.0,
-  "tier1_prs_authored": 11.0,
+  "prs_authored": 12.0,
+  "tier1_prs_authored": 12.0,
   "tier2_prs_authored": 0.0,
-  "avg_pr_ack_velocity_days": 6.908088831018519,
-  "avg_concept_lead_time_days": 7.615304783950617,
-  "review_reciprocity": 4.818181818181818,
-  "hybrid_score": 0.1474,
-  "p2016_hybrid_score": 0.1474,
-  "modern_hybrid_score": 0.1474,
-  "impact_score": 8.0,
-  "p2016_impact_score": 8.0,
-  "modern_impact_score": 8.0,
+  "avg_pr_ack_velocity_days": 6.168159722222223,
+  "avg_concept_lead_time_days": 12.871448206018519,
+  "review_reciprocity": 4.416666666666667,
+  "hybrid_score": 0.2745,
+  "p2016_hybrid_score": 0.2745,
+  "modern_hybrid_score": 0.2745,
+  "impact_score": 15.0,
+  "p2016_impact_score": 15.0,
+  "modern_impact_score": 15.0,
   "threads_started": 0.0,
   "replies_sent": 0.0,
   "ml_threads": 0.0,
@@ -59,11 +59,15 @@
   "delving_responses": 0.0,
   "first_active": null,
   "last_active": null,
-  "dev_type": "Reviewer",
+  "dev_type": "Builder",
   "expertise_domains": [
     "Infrastructure"
   ],
-  "expertise_by_source": {},
+  "expertise_by_source": {
+    "code": {
+      "Infrastructure": 1.0
+    }
+  },
   "expertise_domain_scores": {
     "Infrastructure": 1.0
   },
@@ -73,7 +77,7 @@
   "p2016_delving_posts": 0.0,
   "modern_ml_posts": 0.0,
   "modern_delving_posts": 0.0,
-  "is_engineer": false,
+  "is_engineer": true,
   "is_reviewer": true,
   "is_researcher": false,
   "is_bip_author": false,
@@ -90,11 +94,11 @@
   "github_url": "https://github.com/enirox001",
   "commit_history": {
     "2025": {
-      "Tests": 4.0
+      "Tests": 2.0
     },
     "2026": {
-      "Build & CI": 3.0,
-      "Tests": 9.0
+      "Build & CI": 1.5,
+      "Tests": 4.5
     }
   }
 }

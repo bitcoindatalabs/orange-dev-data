@@ -1,7 +1,7 @@
 {
-  "display_name": "vojtěch strnad",
+  "display_name": "Vojtěch Strnad",
   "github_login_final": "vostrnad",
-  "delving_username_final": null,
+  "delving_username_final": "vostrnad",
   "uuid": "auto_vojt_ch_strnad",
   "badges": null,
   "roles": null,
@@ -51,28 +51,35 @@
   "impact_score": 8.0,
   "p2016_impact_score": 8.0,
   "modern_impact_score": 8.0,
-  "threads_started": 0.0,
-  "replies_sent": 0.0,
+  "threads_started": 5.0,
+  "replies_sent": 4.0,
   "ml_threads": 0.0,
-  "delving_threads": 0.0,
+  "delving_threads": 5.0,
   "ml_responses": 0.0,
-  "delving_responses": 0.0,
-  "first_active": null,
-  "last_active": null,
+  "delving_responses": 4.0,
+  "first_active": "2024-03-12T04:08:49.428000",
+  "last_active": "2025-05-30T07:38:02.854000",
   "dev_type": "Reviewer",
   "expertise_domains": [
-    "Infrastructure"
+    "Script",
+    "Mining"
   ],
-  "expertise_by_source": {},
-  "expertise_domain_scores": {
-    "Infrastructure": 1.0
+  "expertise_by_source": {
+    "discussion": {
+      "Mining": 0.325,
+      "Script": 0.675
+    }
   },
-  "p2016_posts": 0.0,
-  "modern_posts": 0.0,
+  "expertise_domain_scores": {
+    "Mining": 0.325,
+    "Script": 0.675
+  },
+  "p2016_posts": 9.0,
+  "modern_posts": 9.0,
   "p2016_ml_posts": 0.0,
-  "p2016_delving_posts": 0.0,
+  "p2016_delving_posts": 9.0,
   "modern_ml_posts": 0.0,
-  "modern_delving_posts": 0.0,
+  "modern_delving_posts": 9.0,
   "is_engineer": false,
   "is_reviewer": true,
   "is_researcher": false,
@@ -87,5 +94,35 @@
   "github_followers": 34.0,
   "activity_status": "Active",
   "is_top_50": false,
-  "github_url": "https://github.com/vostrnad"
+  "github_url": "https://github.com/vostrnad",
+  "delving_url": "https://delvingbitcoin.org/u/vostrnad",
+  "first_message": {
+    "source": "delving",
+    "subject": "Re: Can block validation benefit from CUDA?",
+    "date": "2024-03-12",
+    "link": "https://delvingbitcoin.org/t/can-block-validation-benefit-from-cuda/224/5"
+  },
+  "last_message": {
+    "source": "delving",
+    "subject": "Re: Non-confiscatory Transaction Weight Limit",
+    "date": "2025-05-30",
+    "link": "https://delvingbitcoin.org/t/non-confiscatory-transaction-weight-limit/1732/5"
+  },
+  "social_history": {
+    "2024": {
+      "covenants": 4,
+      "script-opcodes": 2,
+      "other": 6,
+      "soft-fork-activation": 2
+    },
+    "2025": {
+      "bitvm": 2,
+      "hard-fork-block-size": 2,
+      "lightning": 2,
+      "mempool-fees": 2,
+      "mining": 3,
+      "script-opcodes": 1,
+      "other": 3
+    }
+  }
 }

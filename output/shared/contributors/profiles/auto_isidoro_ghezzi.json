@@ -1,5 +1,5 @@
 {
-  "display_name": "isidoro ghezzi",
+  "display_name": "Isidoro Ghezzi",
   "github_login_final": "isghe",
   "delving_username_final": null,
   "uuid": "auto_isidoro_ghezzi",
@@ -15,12 +15,12 @@
   "self_merges": 0.0,
   "total_additions": 21.0,
   "total_deletions": 12.0,
-  "first_core_commit": "2014-04-01T16:10:18+00:00",
-  "last_core_commit": "2018-10-24T15:14:01+00:00",
+  "first_core_commit": "2014-04-01T16:11:49+00:00",
+  "last_core_commit": "2018-10-24T15:19:02+00:00",
   "first_ecosystem_commit": null,
   "last_ecosystem_commit": null,
-  "first_commit": "2014-04-01T16:10:18",
-  "last_commit": "2018-10-24T15:14:01",
+  "first_commit": "2014-04-01T16:11:49",
+  "last_commit": "2018-10-24T15:19:02",
   "p2016_authored_commits": 2.0,
   "modern_authored_commits": 0.0,
   "co_authored_commits": 0.0,
@@ -45,11 +45,11 @@
   "avg_pr_ack_velocity_days": 0.16396296296296295,
   "avg_concept_lead_time_days": 0.047239583333333335,
   "review_reciprocity": 0.4166666666666667,
-  "hybrid_score": 0.0896,
-  "p2016_hybrid_score": 0.0865,
+  "hybrid_score": 0.1696,
+  "p2016_hybrid_score": 0.1499,
   "modern_hybrid_score": 0.0702,
-  "impact_score": 5.0,
-  "p2016_impact_score": 5.0,
+  "impact_score": 10.0,
+  "p2016_impact_score": 9.0,
   "modern_impact_score": 4.0,
   "threads_started": 0.0,
   "replies_sent": 0.0,
@@ -59,11 +59,15 @@
   "delving_responses": 0.0,
   "first_active": null,
   "last_active": null,
-  "dev_type": "Participant",
+  "dev_type": "Builder",
   "expertise_domains": [
     "Infrastructure"
   ],
-  "expertise_by_source": {},
+  "expertise_by_source": {
+    "code": {
+      "Infrastructure": 1.0
+    }
+  },
   "expertise_domain_scores": {
     "Infrastructure": 1.0
   },
@@ -73,11 +77,11 @@
   "p2016_delving_posts": 0.0,
   "modern_ml_posts": 0.0,
   "modern_delving_posts": 0.0,
-  "is_engineer": false,
+  "is_engineer": true,
   "is_reviewer": true,
   "is_researcher": false,
   "is_bip_author": false,
-  "global_first_active": "2014-04-01T16:10:18",
+  "global_first_active": "2014-04-01T16:11:49",
   "global_last_active": "2018-12-06T23:54:49",
   "github_location": "Lissone MB - Italy",
   "github_company": null,
@@ -90,10 +94,10 @@
   "github_url": "https://github.com/isghe",
   "commit_history": {
     "2014": {
-      "Utilities": 2.0
+      "Utilities": 1.0
     },
     "2018": {
-      "Tests": 4.0
+      "Tests": 2.0
     }
   }
 }

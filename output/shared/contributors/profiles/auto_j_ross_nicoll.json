@@ -15,12 +15,12 @@
   "self_merges": 0.0,
   "total_additions": 172.0,
   "total_deletions": 62.0,
-  "first_core_commit": "2014-07-09T06:47:09+00:00",
-  "last_core_commit": "2015-10-22T16:01:24+00:00",
+  "first_core_commit": "2014-07-09T06:47:23+00:00",
+  "last_core_commit": "2015-10-22T16:02:33+00:00",
   "first_ecosystem_commit": null,
   "last_ecosystem_commit": null,
-  "first_commit": "2014-07-09T06:47:09",
-  "last_commit": "2015-10-22T16:01:24",
+  "first_commit": "2014-07-09T06:47:23",
+  "last_commit": "2015-10-22T16:02:33",
   "p2016_authored_commits": 0.0,
   "modern_authored_commits": 0.0,
   "co_authored_commits": 0.0,
@@ -45,10 +45,10 @@
   "avg_pr_ack_velocity_days": 4.268248456790123,
   "avg_concept_lead_time_days": 3.7428163580246916,
   "review_reciprocity": 0.7857142857142857,
-  "hybrid_score": 0.1425,
+  "hybrid_score": 0.2749,
   "p2016_hybrid_score": 0.0792,
   "modern_hybrid_score": 0.075,
-  "impact_score": 8.0,
+  "impact_score": 15.0,
   "p2016_impact_score": 5.0,
   "modern_impact_score": 4.0,
   "threads_started": 5.0,
@@ -57,22 +57,32 @@
   "delving_threads": 0.0,
   "ml_responses": 28.0,
   "delving_responses": 0.0,
-  "first_active": "2014-04-25T14:54:05",
-  "last_active": "2015-08-10T14:19:36",
-  "dev_type": "Reviewer",
+  "first_active": null,
+  "last_active": null,
+  "dev_type": "Builder",
   "expertise_domains": [
+    "Infrastructure",
     "Consensus",
     "Ecosystem"
   ],
   "expertise_by_source": {
     "discussion": {
-      "Ecosystem": 0.444,
-      "Consensus": 0.556
+      "Consensus": 0.556,
+      "Ecosystem": 0.444
+    },
+    "code": {
+      "Wallet": 0.037,
+      "Infrastructure": 0.778,
+      "Consensus": 0.074,
+      "Network": 0.111
     }
   },
   "expertise_domain_scores": {
-    "Ecosystem": 0.444,
-    "Consensus": 0.556
+    "Infrastructure": 0.4668,
+    "Wallet": 0.0222,
+    "Consensus": 0.2668,
+    "Ecosystem": 0.1776,
+    "Network": 0.0666
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,
@@ -80,11 +90,11 @@
   "p2016_delving_posts": 0.0,
   "modern_ml_posts": 0.0,
   "modern_delving_posts": 0.0,
-  "is_engineer": false,
+  "is_engineer": true,
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": false,
-  "global_first_active": "2014-04-25T14:54:05",
+  "global_first_active": "2014-04-26T23:45:56",
   "global_last_active": "2016-09-22T06:47:00",
   "github_location": "London",
   "github_company": null,
@@ -97,18 +107,18 @@
   "github_url": "https://github.com/rnicoll",
   "commit_history": {
     "2014": {
-      "Consensus": 0.67,
-      "GUI": 4.67,
-      "Utilities": 2.67
+      "Consensus": 0.33,
+      "GUI": 2.33,
+      "Utilities": 1.33
     },
     "2015": {
-      "Build & CI": 0.67,
-      "Consensus": 0.67,
-      "Node & RPC": 0.67,
-      "P2P Network": 2.0,
-      "Tests": 2.67,
-      "Utilities": 2.67,
-      "Wallet": 0.67
+      "Build & CI": 0.33,
+      "Consensus": 0.33,
+      "Node & RPC": 0.33,
+      "P2P Network": 1.0,
+      "Tests": 1.33,
+      "Utilities": 1.33,
+      "Wallet": 0.33
     }
   },
   "first_message": {

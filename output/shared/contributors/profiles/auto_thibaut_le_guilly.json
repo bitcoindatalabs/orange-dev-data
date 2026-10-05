@@ -1,5 +1,5 @@
 {
-  "display_name": "Thibaut Le Guilly",
+  "display_name": "thibaut le guilly",
   "github_login_final": null,
   "delving_username_final": null,
   "uuid": "auto_thibaut_le_guilly",
@@ -57,8 +57,8 @@
   "delving_threads": 0.0,
   "ml_responses": 3.0,
   "delving_responses": 0.0,
-  "first_active": "2021-12-27T06:05:36",
-  "last_active": "2022-02-06T20:30:32",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Participant",
   "expertise_domains": [
     "L2",
@@ -67,15 +67,15 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "L2": 0.626,
       "Privacy": 0.121,
-      "Script": 0.253
+      "Script": 0.253,
+      "L2": 0.626
     }
   },
   "expertise_domain_scores": {
-    "L2": 0.626,
     "Privacy": 0.121,
-    "Script": 0.253
+    "Script": 0.253,
+    "L2": 0.626
   },
   "p2016_posts": 3.0,
   "modern_posts": 0.0,
@@ -87,8 +87,8 @@
   "is_reviewer": false,
   "is_researcher": true,
   "is_bip_author": false,
-  "global_first_active": "2021-12-27T06:05:36",
-  "global_last_active": "2022-02-06T20:30:32",
+  "global_first_active": null,
+  "global_last_active": null,
   "github_location": null,
   "github_company": null,
   "github_bio": null,

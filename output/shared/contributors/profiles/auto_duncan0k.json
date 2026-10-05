@@ -1,7 +1,7 @@
 {
-  "display_name": "duncan0k",
+  "display_name": "Duncan0k",
   "github_login_final": "duncan0k",
-  "delving_username_final": null,
+  "delving_username_final": "duncan0k",
   "uuid": "auto_duncan0k",
   "badges": null,
   "roles": null,
@@ -29,7 +29,7 @@
   "modern_bips_authored": 0.0,
   "first_bip_date": null,
   "last_bip_date": null,
-  "avg_review_latency_days": 4973.314780092593,
+  "avg_review_latency_days": 4976.77390625,
   "reviews_count": 1.0,
   "avg_approval_latency_days": null,
   "approvals_count": 0.0,
@@ -38,47 +38,54 @@
   "p2016_reviews_count": 1.0,
   "modern_reviews_count": 1.0,
   "first_review_date": "2026-09-24T01:39:17",
-  "last_review_date": "2026-09-24T01:39:17",
+  "last_review_date": "2026-09-30T23:41:34",
   "prs_authored": 1.0,
   "tier1_prs_authored": 0.0,
   "tier2_prs_authored": 1.0,
   "avg_pr_ack_velocity_days": null,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": 1.0,
-  "hybrid_score": 0.033,
-  "p2016_hybrid_score": 0.033,
-  "modern_hybrid_score": 0.033,
+  "hybrid_score": 0.0398,
+  "p2016_hybrid_score": 0.0434,
+  "modern_hybrid_score": 0.0633,
   "impact_score": 2.0,
-  "p2016_impact_score": 2.0,
-  "modern_impact_score": 2.0,
-  "threads_started": 0.0,
-  "replies_sent": 0.0,
-  "ml_threads": 0.0,
-  "delving_threads": 0.0,
-  "ml_responses": 0.0,
-  "delving_responses": 0.0,
-  "first_active": null,
-  "last_active": null,
+  "p2016_impact_score": 3.0,
+  "modern_impact_score": 4.0,
+  "threads_started": 3.0,
+  "replies_sent": 11.0,
+  "ml_threads": 1.0,
+  "delving_threads": 2.0,
+  "ml_responses": 4.0,
+  "delving_responses": 7.0,
+  "first_active": "2026-09-03T16:05:23.313000",
+  "last_active": "2026-09-26T07:36:35.202000",
   "dev_type": "Participant",
   "expertise_domains": [
-    "Infrastructure"
+    "Cryptography",
+    "Consensus"
   ],
-  "expertise_by_source": {},
-  "expertise_domain_scores": {
-    "Infrastructure": 1.0
+  "expertise_by_source": {
+    "discussion": {
+      "Consensus": 0.29,
+      "Cryptography": 0.71
+    }
   },
-  "p2016_posts": 0.0,
-  "modern_posts": 0.0,
-  "p2016_ml_posts": 0.0,
-  "p2016_delving_posts": 0.0,
-  "modern_ml_posts": 0.0,
-  "modern_delving_posts": 0.0,
+  "expertise_domain_scores": {
+    "Consensus": 0.29,
+    "Cryptography": 0.71
+  },
+  "p2016_posts": 14.0,
+  "modern_posts": 14.0,
+  "p2016_ml_posts": 5.0,
+  "p2016_delving_posts": 9.0,
+  "modern_ml_posts": 5.0,
+  "modern_delving_posts": 9.0,
   "is_engineer": false,
   "is_reviewer": true,
-  "is_researcher": false,
+  "is_researcher": true,
   "is_bip_author": false,
-  "global_first_active": "2026-09-24T01:39:17",
-  "global_last_active": "2026-09-24T01:39:17",
+  "global_first_active": "2026-09-03T16:05:23.313000",
+  "global_last_active": "2026-09-30T23:41:34",
   "github_location": null,
   "github_company": null,
   "github_bio": null,
@@ -87,5 +94,28 @@
   "github_followers": null,
   "activity_status": "New",
   "is_top_50": false,
-  "github_url": "https://github.com/duncan0k"
+  "github_url": "https://github.com/duncan0k",
+  "delving_url": "https://delvingbitcoin.org/u/duncan0k",
+  "first_message": {
+    "source": "delving",
+    "subject": "Standardizing an exposure classification for existing outputs (pre-BIP)",
+    "date": "2026-09-03",
+    "link": "https://delvingbitcoin.org/t/standardizing-an-exposure-classification-for-existing-outputs-pre-bip/2866/1"
+  },
+  "last_message": {
+    "source": "delving",
+    "subject": "Re: Standardizing an exposure classification for existing outputs (pre-BIP)",
+    "date": "2026-09-26",
+    "link": "https://delvingbitcoin.org/t/standardizing-an-exposure-classification-for-existing-outputs-pre-bip/2866/14"
+  },
+  "social_history": {
+    "2026": {
+      "core-dev": 3,
+      "mining": 9,
+      "other": 1,
+      "quantum": 9,
+      "signatures-sighash": 9,
+      "taproot": 10
+    }
+  }
 }

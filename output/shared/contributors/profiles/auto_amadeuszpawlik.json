@@ -15,12 +15,12 @@
   "self_merges": 0.0,
   "total_additions": 247.0,
   "total_deletions": 68.0,
-  "first_core_commit": "2021-05-25T06:42:23+00:00",
-  "last_core_commit": "2022-10-12T00:55:59+00:00",
+  "first_core_commit": "2021-05-25T06:47:05+00:00",
+  "last_core_commit": "2022-10-12T01:00:40+00:00",
   "first_ecosystem_commit": null,
   "last_ecosystem_commit": null,
-  "first_commit": "2021-05-25T06:42:23",
-  "last_commit": "2022-10-12T00:55:59",
+  "first_commit": "2021-05-25T06:47:05",
+  "last_commit": "2022-10-12T01:00:40",
   "p2016_authored_commits": 7.0,
   "modern_authored_commits": 0.0,
   "co_authored_commits": 0.0,
@@ -45,11 +45,11 @@
   "avg_pr_ack_velocity_days": 37.121888227513224,
   "avg_concept_lead_time_days": 16.17886959876543,
   "review_reciprocity": 1.125,
-  "hybrid_score": 0.0952,
-  "p2016_hybrid_score": 0.0952,
+  "hybrid_score": 0.215,
+  "p2016_hybrid_score": 0.215,
   "modern_hybrid_score": 0.058,
-  "impact_score": 6.0,
-  "p2016_impact_score": 6.0,
+  "impact_score": 12.0,
+  "p2016_impact_score": 12.0,
   "modern_impact_score": 3.0,
   "threads_started": 0.0,
   "replies_sent": 0.0,
@@ -59,13 +59,25 @@
   "delving_responses": 0.0,
   "first_active": null,
   "last_active": null,
-  "dev_type": "Participant",
+  "dev_type": "Builder",
   "expertise_domains": [
-    "Infrastructure"
+    "Infrastructure",
+    "Network",
+    "Consensus"
   ],
-  "expertise_by_source": {},
+  "expertise_by_source": {
+    "code": {
+      "Wallet": 0.047,
+      "Infrastructure": 0.715,
+      "Consensus": 0.047,
+      "Network": 0.191
+    }
+  },
   "expertise_domain_scores": {
-    "Infrastructure": 1.0
+    "Infrastructure": 0.715,
+    "Wallet": 0.047,
+    "Consensus": 0.047,
+    "Network": 0.191
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,
@@ -73,12 +85,12 @@
   "p2016_delving_posts": 0.0,
   "modern_ml_posts": 0.0,
   "modern_delving_posts": 0.0,
-  "is_engineer": false,
+  "is_engineer": true,
   "is_reviewer": true,
   "is_researcher": false,
   "is_bip_author": false,
   "global_first_active": "2021-05-20T14:01:57",
-  "global_last_active": "2022-10-12T00:55:59",
+  "global_last_active": "2022-10-12T01:00:40",
   "github_location": null,
   "github_company": null,
   "github_bio": null,
@@ -90,18 +102,18 @@
   "github_url": "https://github.com/amadeuszpawlik",
   "commit_history": {
     "2021": {
-      "Consensus": 0.67,
-      "Node & RPC": 0.67,
-      "P2P Network": 2.67,
-      "Utilities": 2.0
+      "Consensus": 0.33,
+      "Node & RPC": 0.33,
+      "P2P Network": 1.33,
+      "Utilities": 1.0
     },
     "2022": {
-      "Documentation": 0.5,
-      "GUI": 0.67,
-      "Node & RPC": 1.5,
-      "Tests": 3.17,
-      "Utilities": 1.5,
-      "Wallet": 0.67
+      "Documentation": 0.25,
+      "GUI": 0.33,
+      "Node & RPC": 0.75,
+      "Tests": 1.58,
+      "Utilities": 0.75,
+      "Wallet": 0.33
     }
   }
 }

@@ -1,5 +1,5 @@
 {
-  "display_name": "José Edil Guimarães de Medeiros",
+  "display_name": "josé edil guimarães de medeiros",
   "github_login_final": "edilmedeiros",
   "delving_username_final": null,
   "uuid": "auto_jos_edil_guimar_es_de_medeiros",
@@ -15,12 +15,12 @@
   "self_merges": 0.0,
   "total_additions": 3.0,
   "total_deletions": 2.0,
-  "first_core_commit": "2024-04-03T08:43:02+00:00",
-  "last_core_commit": "2024-04-03T08:43:02+00:00",
+  "first_core_commit": "2024-04-03T08:45:15+00:00",
+  "last_core_commit": "2024-04-03T08:45:15+00:00",
   "first_ecosystem_commit": null,
   "last_ecosystem_commit": null,
-  "first_commit": "2024-04-03T08:43:02",
-  "last_commit": "2024-04-03T08:43:02",
+  "first_commit": "2024-04-03T08:45:15",
+  "last_commit": "2024-04-03T08:45:15",
   "p2016_authored_commits": 1.0,
   "modern_authored_commits": 1.0,
   "co_authored_commits": 0.0,
@@ -45,31 +45,36 @@
   "avg_pr_ack_velocity_days": 1.2065239197530864,
   "avg_concept_lead_time_days": 1.2271527777777778,
   "review_reciprocity": 9.2,
-  "hybrid_score": 0.156,
-  "p2016_hybrid_score": 0.1646,
-  "modern_hybrid_score": 0.2032,
-  "impact_score": 9.0,
-  "p2016_impact_score": 9.0,
-  "modern_impact_score": 11.0,
+  "hybrid_score": 0.1959,
+  "p2016_hybrid_score": 0.2043,
+  "modern_hybrid_score": 0.2424,
+  "impact_score": 11.0,
+  "p2016_impact_score": 12.0,
+  "modern_impact_score": 14.0,
   "threads_started": 0.0,
   "replies_sent": 7.0,
   "ml_threads": 0.0,
   "delving_threads": 0.0,
   "ml_responses": 7.0,
   "delving_responses": 0.0,
-  "first_active": "2024-04-30T07:48:09",
-  "last_active": "2026-08-11T08:51:16",
-  "dev_type": "Reviewer",
+  "first_active": null,
+  "last_active": null,
+  "dev_type": "Builder",
   "expertise_domains": [
+    "Infrastructure",
     "Mining"
   ],
   "expertise_by_source": {
     "discussion": {
       "Mining": 1.0
+    },
+    "code": {
+      "Infrastructure": 1.0
     }
   },
   "expertise_domain_scores": {
-    "Mining": 1.0
+    "Mining": 0.4,
+    "Infrastructure": 0.6
   },
   "p2016_posts": 7.0,
   "modern_posts": 7.0,
@@ -77,7 +82,7 @@
   "p2016_delving_posts": 0.0,
   "modern_ml_posts": 7.0,
   "modern_delving_posts": 0.0,
-  "is_engineer": false,
+  "is_engineer": true,
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": false,
@@ -94,7 +99,7 @@
   "github_url": "https://github.com/edilmedeiros",
   "commit_history": {
     "2024": {
-      "Documentation": 2.0
+      "Documentation": 1.0
     }
   },
   "first_message": {

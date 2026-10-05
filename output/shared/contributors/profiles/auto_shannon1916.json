@@ -15,12 +15,12 @@
   "self_merges": 0.0,
   "total_additions": 10.0,
   "total_deletions": 1.0,
-  "first_core_commit": "2019-06-03T21:19:53+00:00",
-  "last_core_commit": "2019-06-03T21:19:53+00:00",
+  "first_core_commit": "2019-06-03T21:21:10+00:00",
+  "last_core_commit": "2019-06-03T21:21:10+00:00",
   "first_ecosystem_commit": null,
   "last_ecosystem_commit": null,
-  "first_commit": "2019-06-03T21:19:53",
-  "last_commit": "2019-06-03T21:19:53",
+  "first_commit": "2019-06-03T21:21:10",
+  "last_commit": "2019-06-03T21:21:10",
   "p2016_authored_commits": 1.0,
   "modern_authored_commits": 0.0,
   "co_authored_commits": 0.0,
@@ -77,8 +77,8 @@
   "is_reviewer": true,
   "is_researcher": false,
   "is_bip_author": false,
-  "global_first_active": "2019-06-03T21:19:53",
-  "global_last_active": "2019-06-03T21:19:53",
+  "global_first_active": "2019-06-03T21:21:10",
+  "global_last_active": "2019-06-03T21:21:10",
   "github_location": "Beijing",
   "github_company": null,
   "github_bio": "Blockchain Developer",
@@ -90,7 +90,7 @@
   "github_url": "https://github.com/web3shannon",
   "commit_history": {
     "2019": {
-      "GUI": 2.0
+      "GUI": 1.0
     }
   }
 }

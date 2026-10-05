@@ -23,12 +23,12 @@
   "self_merges": 0.0,
   "total_additions": 817.0,
   "total_deletions": 744.0,
-  "first_core_commit": "2025-02-21T16:02:40+00:00",
-  "last_core_commit": "2026-09-22T16:12:36+00:00",
+  "first_core_commit": "2025-02-21T16:02:45+00:00",
+  "last_core_commit": "2026-09-22T16:13:13+00:00",
   "first_ecosystem_commit": null,
   "last_ecosystem_commit": null,
-  "first_commit": "2025-02-21T16:02:40",
-  "last_commit": "2026-09-22T16:12:36",
+  "first_commit": "2025-02-21T16:02:45",
+  "last_commit": "2026-09-22T16:13:13",
   "p2016_authored_commits": 74.0,
   "modern_authored_commits": 74.0,
   "co_authored_commits": 16.0,
@@ -53,31 +53,41 @@
   "avg_pr_ack_velocity_days": 12.263366578014184,
   "avg_concept_lead_time_days": 23.396457561728393,
   "review_reciprocity": 6.509090909090909,
-  "hybrid_score": 0.2225,
-  "p2016_hybrid_score": 0.227,
-  "modern_hybrid_score": 0.2527,
-  "impact_score": 12.0,
-  "p2016_impact_score": 13.0,
-  "modern_impact_score": 14.0,
+  "hybrid_score": 0.4716,
+  "p2016_hybrid_score": 0.476,
+  "modern_hybrid_score": 0.5012,
+  "impact_score": 25.0,
+  "p2016_impact_score": 25.0,
+  "modern_impact_score": 26.0,
   "threads_started": 1.0,
   "replies_sent": 1.0,
   "ml_threads": 1.0,
   "delving_threads": 0.0,
   "ml_responses": 1.0,
   "delving_responses": 0.0,
-  "first_active": "2026-06-11T00:43:42",
-  "last_active": "2026-06-16T02:05:07",
-  "dev_type": "Reviewer",
+  "first_active": null,
+  "last_active": null,
+  "dev_type": "Builder",
   "expertise_domains": [
-    "Mempool"
+    "Infrastructure",
+    "Mempool",
+    "Wallet"
   ],
   "expertise_by_source": {
     "discussion": {
       "Mempool": 1.0
+    },
+    "code": {
+      "Wallet": 0.25,
+      "Infrastructure": 0.73,
+      "Consensus": 0.007,
+      "Script": 0.014
     }
   },
   "expertise_domain_scores": {
-    "Mempool": 1.0
+    "Infrastructure": 0.4377,
+    "Wallet": 0.1499,
+    "Mempool": 0.3998
   },
   "p2016_posts": 2.0,
   "modern_posts": 2.0,
@@ -85,12 +95,12 @@
   "p2016_delving_posts": 0.0,
   "modern_ml_posts": 2.0,
   "modern_delving_posts": 0.0,
-  "is_engineer": false,
+  "is_engineer": true,
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": false,
   "global_first_active": "2024-03-19T10:05:05",
-  "global_last_active": "2026-09-22T16:12:36",
+  "global_last_active": "2026-09-22T16:13:13",
   "github_location": "Mempool",
   "github_company": "@bitcoin-core ",
   "github_bio": "pron. /ˌare ˈcrux/\r\n\r\nE00F A95E EDFE 33EE 85C1 D3AA 8614 B8BD 2E14 4C6D",
@@ -102,20 +112,20 @@
   "github_url": "https://github.com/rkrux",
   "commit_history": {
     "2025": {
-      "Documentation": 4.0,
-      "Node & RPC": 3.0,
-      "Tests": 5.0,
-      "Utilities": 6.0,
-      "Wallet": 14.0
+      "Documentation": 2.0,
+      "Node & RPC": 1.5,
+      "Tests": 2.5,
+      "Utilities": 3.0,
+      "Wallet": 7.0
     },
     "2026": {
-      "Consensus": 1.0,
-      "Documentation": 10.0,
-      "Node & RPC": 3.0,
-      "Script": 2.0,
-      "Tests": 76.0,
-      "Utilities": 1.0,
-      "Wallet": 23.0
+      "Consensus": 0.5,
+      "Documentation": 5.0,
+      "Node & RPC": 1.5,
+      "Script": 1.0,
+      "Tests": 38.0,
+      "Utilities": 0.5,
+      "Wallet": 11.5
     }
   },
   "first_message": {

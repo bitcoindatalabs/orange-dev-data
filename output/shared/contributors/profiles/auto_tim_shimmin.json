@@ -1,5 +1,5 @@
 {
-  "display_name": "Tim Shimmin",
+  "display_name": "tim shimmin",
   "github_login_final": "TimothyShimmin",
   "delving_username_final": null,
   "uuid": "auto_tim_shimmin",
@@ -32,25 +32,25 @@
   "avg_review_latency_days": null,
   "reviews_count": 0.0,
   "avg_approval_latency_days": null,
-  "approvals_count": null,
+  "approvals_count": 0.0,
   "tier1_reviews_count": 0.0,
   "tier2_reviews_count": 0.0,
-  "p2016_reviews_count": null,
-  "modern_reviews_count": null,
+  "p2016_reviews_count": 0.0,
+  "modern_reviews_count": 0.0,
   "first_review_date": null,
   "last_review_date": null,
-  "prs_authored": 0.0,
-  "tier1_prs_authored": 0.0,
+  "prs_authored": 1.0,
+  "tier1_prs_authored": 1.0,
   "tier2_prs_authored": 0.0,
-  "avg_pr_ack_velocity_days": null,
+  "avg_pr_ack_velocity_days": 0.2308912037037037,
   "avg_concept_lead_time_days": null,
-  "review_reciprocity": null,
-  "hybrid_score": 0.0,
-  "p2016_hybrid_score": 0.0,
-  "modern_hybrid_score": 0.0,
-  "impact_score": 0.0,
-  "p2016_impact_score": 0.0,
-  "modern_impact_score": 0.0,
+  "review_reciprocity": 0.0,
+  "hybrid_score": 0.0546,
+  "p2016_hybrid_score": 0.0546,
+  "modern_hybrid_score": 0.0146,
+  "impact_score": 3.0,
+  "p2016_impact_score": 3.0,
+  "modern_impact_score": 1.0,
   "threads_started": 0.0,
   "replies_sent": 0.0,
   "ml_threads": 0.0,
@@ -59,11 +59,15 @@
   "delving_responses": 0.0,
   "first_active": null,
   "last_active": null,
-  "dev_type": "Participant",
+  "dev_type": "Builder",
   "expertise_domains": [
     "Infrastructure"
   ],
-  "expertise_by_source": {},
+  "expertise_by_source": {
+    "code": {
+      "Infrastructure": 1.0
+    }
+  },
   "expertise_domain_scores": {
     "Infrastructure": 1.0
   },
@@ -73,8 +77,8 @@
   "p2016_delving_posts": 0.0,
   "modern_ml_posts": 0.0,
   "modern_delving_posts": 0.0,
-  "is_engineer": false,
-  "is_reviewer": false,
+  "is_engineer": true,
+  "is_reviewer": true,
   "is_researcher": false,
   "is_bip_author": false,
   "global_first_active": "2017-12-01T14:27:20",
@@ -90,7 +94,7 @@
   "github_url": "https://github.com/TimothyShimmin",
   "commit_history": {
     "2017": {
-      "Tests": 2.0
+      "Tests": 1.0
     }
   }
 }

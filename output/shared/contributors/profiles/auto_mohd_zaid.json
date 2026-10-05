@@ -15,12 +15,12 @@
   "self_merges": 0.0,
   "total_additions": 282.0,
   "total_deletions": 64.0,
-  "first_core_commit": "2025-06-19T14:03:58+00:00",
-  "last_core_commit": "2025-11-18T22:06:54+00:00",
+  "first_core_commit": "2025-06-19T14:04:07+00:00",
+  "last_core_commit": "2025-11-18T22:07:10+00:00",
   "first_ecosystem_commit": null,
   "last_ecosystem_commit": null,
-  "first_commit": "2025-06-19T14:03:58",
-  "last_commit": "2025-11-18T22:06:54",
+  "first_commit": "2025-06-19T14:04:07",
+  "last_commit": "2025-11-18T22:07:10",
   "p2016_authored_commits": 3.0,
   "modern_authored_commits": 3.0,
   "co_authored_commits": 0.0,
@@ -45,12 +45,12 @@
   "avg_pr_ack_velocity_days": 0.04649305555555556,
   "avg_concept_lead_time_days": 0.025787037037037035,
   "review_reciprocity": 6.0,
-  "hybrid_score": 0.0952,
-  "p2016_hybrid_score": 0.0952,
-  "modern_hybrid_score": 0.0952,
-  "impact_score": 6.0,
-  "p2016_impact_score": 6.0,
-  "modern_impact_score": 6.0,
+  "hybrid_score": 0.175,
+  "p2016_hybrid_score": 0.175,
+  "modern_hybrid_score": 0.175,
+  "impact_score": 10.0,
+  "p2016_impact_score": 10.0,
+  "modern_impact_score": 10.0,
   "threads_started": 0.0,
   "replies_sent": 0.0,
   "ml_threads": 0.0,
@@ -59,11 +59,15 @@
   "delving_responses": 0.0,
   "first_active": null,
   "last_active": null,
-  "dev_type": "Reviewer",
+  "dev_type": "Builder",
   "expertise_domains": [
     "Infrastructure"
   ],
-  "expertise_by_source": {},
+  "expertise_by_source": {
+    "code": {
+      "Infrastructure": 1.0
+    }
+  },
   "expertise_domain_scores": {
     "Infrastructure": 1.0
   },
@@ -73,7 +77,7 @@
   "p2016_delving_posts": 0.0,
   "modern_ml_posts": 0.0,
   "modern_delving_posts": 0.0,
-  "is_engineer": false,
+  "is_engineer": true,
   "is_reviewer": true,
   "is_researcher": false,
   "is_bip_author": false,
@@ -90,9 +94,9 @@
   "github_url": "https://github.com/zaidmstrr",
   "commit_history": {
     "2025": {
-      "Node & RPC": 0.67,
-      "Tests": 4.67,
-      "Utilities": 0.67
+      "Node & RPC": 0.33,
+      "Tests": 2.33,
+      "Utilities": 0.33
     }
   }
 }

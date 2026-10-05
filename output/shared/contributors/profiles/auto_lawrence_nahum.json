@@ -16,11 +16,11 @@
   "total_additions": 2203.0,
   "total_deletions": 654.0,
   "first_core_commit": "2016-02-16T19:34:35+00:00",
-  "last_core_commit": "2018-07-19T18:19:21+00:00",
+  "last_core_commit": "2018-07-19T18:20:56+00:00",
   "first_ecosystem_commit": null,
   "last_ecosystem_commit": null,
   "first_commit": "2016-02-16T19:34:35",
-  "last_commit": "2018-07-19T18:19:21",
+  "last_commit": "2018-07-19T18:20:56",
   "p2016_authored_commits": 7.0,
   "modern_authored_commits": 0.0,
   "co_authored_commits": 0.0,
@@ -45,11 +45,11 @@
   "avg_pr_ack_velocity_days": 7.599247685185184,
   "avg_concept_lead_time_days": 38.54140625,
   "review_reciprocity": 2.3846153846153846,
-  "hybrid_score": 0.1532,
-  "p2016_hybrid_score": 0.1277,
+  "hybrid_score": 0.2799,
+  "p2016_hybrid_score": 0.2545,
   "modern_hybrid_score": 0.0727,
-  "impact_score": 9.0,
-  "p2016_impact_score": 7.0,
+  "impact_score": 15.0,
+  "p2016_impact_score": 14.0,
   "modern_impact_score": 4.0,
   "threads_started": 13.0,
   "replies_sent": 0.0,
@@ -57,25 +57,31 @@
   "delving_threads": 0.0,
   "ml_responses": 0.0,
   "delving_responses": 0.0,
-  "first_active": "2014-06-14T07:00:09",
-  "last_active": "2015-06-19T09:16:23",
-  "dev_type": "Reviewer",
+  "first_active": null,
+  "last_active": null,
+  "dev_type": "Builder",
   "expertise_domains": [
+    "Infrastructure",
     "Ecosystem",
-    "Mining",
-    "Mempool"
+    "Consensus"
   ],
   "expertise_by_source": {
     "discussion": {
-      "Ecosystem": 0.671,
       "Mining": 0.184,
-      "Mempool": 0.145
+      "Mempool": 0.145,
+      "Ecosystem": 0.671
+    },
+    "code": {
+      "Infrastructure": 0.75,
+      "Consensus": 0.25
     }
   },
   "expertise_domain_scores": {
-    "Ecosystem": 0.671,
-    "Mining": 0.184,
-    "Mempool": 0.145
+    "Mining": 0.0736,
+    "Infrastructure": 0.45,
+    "Consensus": 0.15,
+    "Mempool": 0.058,
+    "Ecosystem": 0.2684
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,
@@ -83,11 +89,11 @@
   "p2016_delving_posts": 0.0,
   "modern_ml_posts": 0.0,
   "modern_delving_posts": 0.0,
-  "is_engineer": false,
+  "is_engineer": true,
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": false,
-  "global_first_active": "2014-06-14T07:00:09",
+  "global_first_active": "2015-07-21T20:23:58",
   "global_last_active": "2022-12-03T09:25:35",
   "github_location": null,
   "github_company": null,
@@ -104,13 +110,13 @@
       "Utilities": 2.5
     },
     "2017": {
-      "Consensus": 4.0,
-      "Documentation": 2.0,
-      "Node & RPC": 1.0,
-      "Tests": 1.0
+      "Consensus": 2.0,
+      "Documentation": 1.0,
+      "Node & RPC": 0.5,
+      "Tests": 0.5
     },
     "2018": {
-      "Build & CI": 2.0
+      "Build & CI": 1.0
     }
   },
   "first_message": {

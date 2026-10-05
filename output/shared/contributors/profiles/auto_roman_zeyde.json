@@ -18,12 +18,12 @@
   "self_merges": 0.0,
   "total_additions": 556.0,
   "total_deletions": 191.0,
-  "first_core_commit": "2018-03-27T19:31:27+00:00",
-  "last_core_commit": "2025-12-17T15:09:15+00:00",
+  "first_core_commit": "2018-03-27T19:33:26+00:00",
+  "last_core_commit": "2025-12-17T15:09:21+00:00",
   "first_ecosystem_commit": "2019-04-21T22:04:23+00:00",
   "last_ecosystem_commit": "2026-01-29T23:47:49+00:00",
-  "first_commit": "2018-03-27T19:31:27",
-  "last_commit": "2025-12-17T15:09:15",
+  "first_commit": "2018-03-27T19:33:26",
+  "last_commit": "2025-12-17T15:09:21",
   "p2016_authored_commits": 26.0,
   "modern_authored_commits": 20.0,
   "co_authored_commits": 0.0,
@@ -48,27 +48,39 @@
   "avg_pr_ack_velocity_days": 1.5261010802469137,
   "avg_concept_lead_time_days": 1.7485300925925926,
   "review_reciprocity": 0.5882352941176471,
-  "hybrid_score": 0.1141,
-  "p2016_hybrid_score": 0.1181,
-  "modern_hybrid_score": 0.1032,
-  "impact_score": 7.0,
-  "p2016_impact_score": 7.0,
-  "modern_impact_score": 6.0,
+  "hybrid_score": 0.3043,
+  "p2016_hybrid_score": 0.3082,
+  "modern_hybrid_score": 0.2789,
+  "impact_score": 17.0,
+  "p2016_impact_score": 17.0,
+  "modern_impact_score": 15.0,
   "threads_started": 1.0,
   "replies_sent": 0.0,
   "ml_threads": 1.0,
   "delving_threads": 0.0,
   "ml_responses": 0.0,
   "delving_responses": 0.0,
-  "first_active": "2018-07-02T15:03:01",
-  "last_active": "2018-07-02T15:03:01",
-  "dev_type": "Reviewer",
+  "first_active": null,
+  "last_active": null,
+  "dev_type": "Builder",
   "expertise_domains": [
-    "Infrastructure"
+    "Infrastructure",
+    "Wallet",
+    "Mempool"
   ],
-  "expertise_by_source": {},
+  "expertise_by_source": {
+    "code": {
+      "Wallet": 0.115,
+      "Infrastructure": 0.814,
+      "Network": 0.032,
+      "Mempool": 0.038
+    }
+  },
   "expertise_domain_scores": {
-    "Infrastructure": 1.0
+    "Infrastructure": 0.8148,
+    "Wallet": 0.1151,
+    "Mempool": 0.038,
+    "Network": 0.032
   },
   "p2016_posts": 1.0,
   "modern_posts": 0.0,
@@ -76,11 +88,11 @@
   "p2016_delving_posts": 0.0,
   "modern_ml_posts": 0.0,
   "modern_delving_posts": 0.0,
-  "is_engineer": false,
+  "is_engineer": true,
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": false,
-  "global_first_active": "2018-03-27T19:31:27",
+  "global_first_active": "2018-03-27T19:33:26",
   "global_last_active": "2026-05-31T12:06:42",
   "github_location": null,
   "github_company": "Trezor",
@@ -88,34 +100,34 @@
   "github_twitter": "roman_zeyde",
   "github_blog": "https://romanzey.de",
   "github_followers": 433.0,
-  "activity_status": "Active",
+  "activity_status": "Rising",
   "is_top_50": false,
   "github_url": "https://github.com/romanz",
   "commit_history": {
     "2018": {
-      "Mempool": 2.0,
-      "Tests": 5.0,
-      "Utilities": 1.0
+      "Mempool": 1.0,
+      "Tests": 2.5,
+      "Utilities": 0.5
     },
     "2019": {
       "Utilities": 1.0,
       "Wallet": 1.0
     },
     "2023": {
-      "Node & RPC": 1.0,
-      "Tests": 1.0
+      "Node & RPC": 0.5,
+      "Tests": 0.5
     },
     "2024": {
-      "Node & RPC": 0.67,
-      "P2P Network": 0.67,
-      "Utilities": 4.67
+      "Node & RPC": 0.33,
+      "P2P Network": 0.33,
+      "Utilities": 2.33
     },
     "2025": {
-      "Documentation": 6.67,
-      "Node & RPC": 3.67,
-      "P2P Network": 1.0,
-      "Tests": 9.33,
-      "Utilities": 7.33,
+      "Documentation": 3.33,
+      "Node & RPC": 1.83,
+      "P2P Network": 0.5,
+      "Tests": 4.67,
+      "Utilities": 3.67,
       "Wallet": 1.0
     },
     "2026": {

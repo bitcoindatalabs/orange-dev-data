@@ -1,5 +1,5 @@
 {
-  "display_name": "Douglas Roark",
+  "display_name": "douglas roark",
   "github_login_final": "droark",
   "delving_username_final": null,
   "uuid": "auto_douglas_roark",
@@ -15,12 +15,12 @@
   "self_merges": 0.0,
   "total_additions": 180.0,
   "total_deletions": 156.0,
-  "first_core_commit": "2014-08-04T15:16:00+00:00",
-  "last_core_commit": "2019-03-17T10:05:16+00:00",
+  "first_core_commit": "2014-08-04T15:16:16+00:00",
+  "last_core_commit": "2019-03-17T12:49:07+00:00",
   "first_ecosystem_commit": null,
   "last_ecosystem_commit": null,
-  "first_commit": "2014-08-04T15:16:00",
-  "last_commit": "2019-03-17T10:05:16",
+  "first_commit": "2014-08-04T15:16:16",
+  "last_commit": "2019-03-17T12:49:07",
   "p2016_authored_commits": 12.0,
   "modern_authored_commits": 0.0,
   "co_authored_commits": 0.0,
@@ -45,11 +45,11 @@
   "avg_pr_ack_velocity_days": 5.737404927248677,
   "avg_concept_lead_time_days": 14.754984567901234,
   "review_reciprocity": 1.6111111111111112,
-  "hybrid_score": 0.1577,
-  "p2016_hybrid_score": 0.1527,
+  "hybrid_score": 0.3097,
+  "p2016_hybrid_score": 0.3003,
   "modern_hybrid_score": 0.0865,
-  "impact_score": 9.0,
-  "p2016_impact_score": 9.0,
+  "impact_score": 17.0,
+  "p2016_impact_score": 16.0,
   "modern_impact_score": 5.0,
   "threads_started": 1.0,
   "replies_sent": 16.0,
@@ -57,19 +57,27 @@
   "delving_threads": 0.0,
   "ml_responses": 16.0,
   "delving_responses": 0.0,
-  "first_active": "2015-01-21T13:29:52",
-  "last_active": "2017-12-11T12:12:02",
-  "dev_type": "Reviewer",
+  "first_active": null,
+  "last_active": null,
+  "dev_type": "Builder",
   "expertise_domains": [
-    "Consensus"
+    "Infrastructure",
+    "Consensus",
+    "Network"
   ],
   "expertise_by_source": {
     "discussion": {
       "Consensus": 1.0
+    },
+    "code": {
+      "Infrastructure": 0.923,
+      "Network": 0.077
     }
   },
   "expertise_domain_scores": {
-    "Consensus": 1.0
+    "Infrastructure": 0.5538,
+    "Consensus": 0.4,
+    "Network": 0.0462
   },
   "p2016_posts": 8.0,
   "modern_posts": 0.0,
@@ -77,11 +85,11 @@
   "p2016_delving_posts": 0.0,
   "modern_ml_posts": 0.0,
   "modern_delving_posts": 0.0,
-  "is_engineer": false,
+  "is_engineer": true,
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": false,
-  "global_first_active": "2014-08-04T15:16:00",
+  "global_first_active": "2014-08-04T15:16:16",
   "global_last_active": "2024-02-13T21:25:13",
   "github_location": "Austin, TX",
   "github_company": null,
@@ -94,22 +102,22 @@
   "github_url": "https://github.com/droark",
   "commit_history": {
     "2014": {
-      "GUI": 2.0
+      "GUI": 1.0
     },
     "2016": {
-      "Build & CI": 4.0,
-      "Tests": 2.0
+      "Build & CI": 2.0,
+      "Tests": 1.0
     },
     "2017": {
-      "Documentation": 5.0,
-      "P2P Network": 2.0,
-      "Utilities": 3.0
+      "Documentation": 2.5,
+      "P2P Network": 1.0,
+      "Utilities": 1.5
     },
     "2018": {
-      "Build & CI": 4.0
+      "Build & CI": 2.0
     },
     "2019": {
-      "Documentation": 4.0
+      "Documentation": 2.0
     }
   },
   "first_message": {

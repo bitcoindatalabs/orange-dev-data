@@ -1,5 +1,5 @@
 {
-  "display_name": "Daira-Emma Hopwood",
+  "display_name": "daira-emma hopwood",
   "github_login_final": "daira",
   "delving_username_final": null,
   "uuid": "auto_daira_emma_hopwood",
@@ -27,12 +27,12 @@
   "self_merges": 0.0,
   "total_additions": 12.0,
   "total_deletions": 12.0,
-  "first_core_commit": "2015-02-03T12:02:23+00:00",
-  "last_core_commit": "2015-02-03T12:02:23+00:00",
+  "first_core_commit": "2015-02-03T12:12:27+00:00",
+  "last_core_commit": "2015-02-03T12:12:27+00:00",
   "first_ecosystem_commit": null,
   "last_ecosystem_commit": null,
-  "first_commit": "2015-02-03T12:02:23",
-  "last_commit": "2015-02-03T12:02:23",
+  "first_commit": "2015-02-03T12:12:27",
+  "last_commit": "2015-02-03T12:12:27",
   "p2016_authored_commits": 0.0,
   "modern_authored_commits": 0.0,
   "co_authored_commits": 0.0,
@@ -57,10 +57,10 @@
   "avg_pr_ack_velocity_days": 1.352673611111111,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": 2.0,
-  "hybrid_score": 0.4146,
+  "hybrid_score": 0.4546,
   "p2016_hybrid_score": 0.408,
   "modern_hybrid_score": 0.025,
-  "impact_score": 22.0,
+  "impact_score": 24.0,
   "p2016_impact_score": 22.0,
   "modern_impact_score": 1.0,
   "threads_started": 0.0,
@@ -71,11 +71,14 @@
   "delving_responses": 0.0,
   "first_active": null,
   "last_active": null,
-  "dev_type": "Participant",
+  "dev_type": "Builder",
   "expertise_domains": [
     "Infrastructure"
   ],
   "expertise_by_source": {
+    "code": {
+      "Infrastructure": 1.0
+    },
     "bips": {
       "Infrastructure": 1.0
     }
@@ -89,7 +92,7 @@
   "p2016_delving_posts": 0.0,
   "modern_ml_posts": 0.0,
   "modern_delving_posts": 0.0,
-  "is_engineer": false,
+  "is_engineer": true,
   "is_reviewer": true,
   "is_researcher": false,
   "is_bip_author": true,
@@ -106,8 +109,8 @@
   "github_url": "https://github.com/daira",
   "commit_history": {
     "2015": {
-      "GUI": 1.0,
-      "Utilities": 1.0
+      "GUI": 0.5,
+      "Utilities": 0.5
     }
   },
   "bip_list": [

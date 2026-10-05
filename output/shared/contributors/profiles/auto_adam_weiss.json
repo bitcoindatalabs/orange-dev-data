@@ -1,5 +1,5 @@
 {
-  "display_name": "Adam Weiss",
+  "display_name": "adam weiss",
   "github_login_final": "ajweiss",
   "delving_username_final": null,
   "uuid": "auto_adam_weiss",
@@ -15,12 +15,12 @@
   "self_merges": 0.0,
   "total_additions": 448.0,
   "total_deletions": 116.0,
-  "first_core_commit": "2014-09-11T06:56:23+00:00",
-  "last_core_commit": "2015-08-17T14:50:55+00:00",
+  "first_core_commit": "2014-09-11T06:56:52+00:00",
+  "last_core_commit": "2015-08-17T14:52:59+00:00",
   "first_ecosystem_commit": null,
   "last_ecosystem_commit": null,
-  "first_commit": "2014-09-11T06:56:23",
-  "last_commit": "2015-08-17T14:50:55",
+  "first_commit": "2014-09-11T06:56:52",
+  "last_commit": "2015-08-17T14:52:59",
   "p2016_authored_commits": 0.0,
   "modern_authored_commits": 0.0,
   "co_authored_commits": 0.0,
@@ -45,10 +45,10 @@
   "avg_pr_ack_velocity_days": 1.6857465277777777,
   "avg_concept_lead_time_days": 0.26796296296296296,
   "review_reciprocity": 1.1818181818181819,
-  "hybrid_score": 0.1207,
+  "hybrid_score": 0.2481,
   "p2016_hybrid_score": 0.0675,
   "modern_hybrid_score": 0.0675,
-  "impact_score": 7.0,
+  "impact_score": 14.0,
   "p2016_impact_score": 4.0,
   "modern_impact_score": 4.0,
   "threads_started": 0.0,
@@ -57,19 +57,24 @@
   "delving_threads": 0.0,
   "ml_responses": 5.0,
   "delving_responses": 0.0,
-  "first_active": "2015-02-03T13:25:19",
-  "last_active": "2015-06-20T13:43:31",
-  "dev_type": "Reviewer",
+  "first_active": null,
+  "last_active": null,
+  "dev_type": "Builder",
   "expertise_domains": [
+    "Infrastructure",
     "Wallet"
   ],
   "expertise_by_source": {
     "discussion": {
       "Wallet": 1.0
+    },
+    "code": {
+      "Infrastructure": 1.0
     }
   },
   "expertise_domain_scores": {
-    "Wallet": 1.0
+    "Infrastructure": 0.6,
+    "Wallet": 0.4
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,
@@ -77,12 +82,12 @@
   "p2016_delving_posts": 0.0,
   "modern_ml_posts": 0.0,
   "modern_delving_posts": 0.0,
-  "is_engineer": false,
+  "is_engineer": true,
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": false,
-  "global_first_active": "2014-09-11T06:56:23",
-  "global_last_active": "2015-08-17T14:50:55",
+  "global_first_active": "2014-09-11T06:56:52",
+  "global_last_active": "2015-08-17T14:52:59",
   "github_location": "Brooklyn, NY",
   "github_company": null,
   "github_bio": "Tinkering...",
@@ -94,13 +99,13 @@
   "github_url": "https://github.com/ajweiss",
   "commit_history": {
     "2014": {
-      "Documentation": 1.0,
-      "Node & RPC": 1.0,
-      "Utilities": 4.0
+      "Documentation": 0.5,
+      "Node & RPC": 0.5,
+      "Utilities": 2.0
     },
     "2015": {
-      "Node & RPC": 6.0,
-      "Utilities": 4.0
+      "Node & RPC": 3.0,
+      "Utilities": 2.0
     }
   },
   "first_message": {

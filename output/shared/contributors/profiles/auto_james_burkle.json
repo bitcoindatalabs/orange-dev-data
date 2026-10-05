@@ -1,5 +1,5 @@
 {
-  "display_name": "James Burkle",
+  "display_name": "james burkle",
   "github_login_final": "jburkle",
   "delving_username_final": null,
   "uuid": "auto_james_burkle",
@@ -15,12 +15,12 @@
   "self_merges": 0.0,
   "total_additions": 11.0,
   "total_deletions": 2.0,
-  "first_core_commit": "2011-06-24T03:43:26+00:00",
-  "last_core_commit": "2011-06-24T03:43:26+00:00",
+  "first_core_commit": "2011-06-24T04:43:30+00:00",
+  "last_core_commit": "2011-06-24T04:43:30+00:00",
   "first_ecosystem_commit": null,
   "last_ecosystem_commit": null,
-  "first_commit": "2011-06-24T03:43:26",
-  "last_commit": "2011-06-24T03:43:26",
+  "first_commit": "2011-06-24T04:43:30",
+  "last_commit": "2011-06-24T04:43:30",
   "p2016_authored_commits": 0.0,
   "modern_authored_commits": 0.0,
   "co_authored_commits": 0.0,
@@ -45,10 +45,10 @@
   "avg_pr_ack_velocity_days": 0.09200231481481481,
   "avg_concept_lead_time_days": 4.5121064814814815,
   "review_reciprocity": 0.0,
-  "hybrid_score": 0.021,
+  "hybrid_score": 0.0609,
   "p2016_hybrid_score": 0.0146,
   "modern_hybrid_score": 0.0146,
-  "impact_score": 1.0,
+  "impact_score": 4.0,
   "p2016_impact_score": 1.0,
   "modern_impact_score": 1.0,
   "threads_started": 0.0,
@@ -57,13 +57,17 @@
   "delving_threads": 0.0,
   "ml_responses": 1.0,
   "delving_responses": 0.0,
-  "first_active": "2012-01-17T10:16:11",
-  "last_active": "2012-01-17T10:16:11",
-  "dev_type": "Participant",
+  "first_active": null,
+  "last_active": null,
+  "dev_type": "Builder",
   "expertise_domains": [
     "Infrastructure"
   ],
-  "expertise_by_source": {},
+  "expertise_by_source": {
+    "code": {
+      "Infrastructure": 1.0
+    }
+  },
   "expertise_domain_scores": {
     "Infrastructure": 1.0
   },
@@ -73,12 +77,12 @@
   "p2016_delving_posts": 0.0,
   "modern_ml_posts": 0.0,
   "modern_delving_posts": 0.0,
-  "is_engineer": false,
+  "is_engineer": true,
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": false,
-  "global_first_active": "2011-06-24T03:43:26",
-  "global_last_active": "2012-01-17T10:16:11",
+  "global_first_active": "2011-06-24T04:43:30",
+  "global_last_active": "2011-06-24T04:43:30",
   "github_location": null,
   "github_company": null,
   "github_bio": null,
@@ -90,7 +94,7 @@
   "github_url": "https://github.com/jburkle",
   "commit_history": {
     "2011": {
-      "Node & RPC": 2.0
+      "Node & RPC": 1.0
     }
   },
   "first_message": {

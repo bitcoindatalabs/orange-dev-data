@@ -1,7 +1,7 @@
 {
   "display_name": "Shinobi",
   "github_login_final": "brian_trollz",
-  "delving_username_final": null,
+  "delving_username_final": "shinobi",
   "uuid": "can_shinobi",
   "badges": {
     "is_maintainer": false,
@@ -57,20 +57,20 @@
   "avg_pr_ack_velocity_days": null,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": null,
-  "hybrid_score": 0.3596,
-  "p2016_hybrid_score": 0.3651,
-  "modern_hybrid_score": 0.0476,
+  "hybrid_score": 0.3593,
+  "p2016_hybrid_score": 0.3646,
+  "modern_hybrid_score": 0.0447,
   "impact_score": 19.0,
   "p2016_impact_score": 20.0,
   "modern_impact_score": 3.0,
-  "threads_started": 1.0,
-  "replies_sent": 2.0,
+  "threads_started": 4.0,
+  "replies_sent": 3.0,
   "ml_threads": 1.0,
-  "delving_threads": 0.0,
+  "delving_threads": 3.0,
   "ml_responses": 2.0,
-  "delving_responses": 0.0,
-  "first_active": "2026-07-14T11:39:14",
-  "last_active": "2026-07-23T19:39:45",
+  "delving_responses": 1.0,
+  "first_active": "2026-04-02T19:03:08.065000",
+  "last_active": "2026-07-24T00:40:51.157000",
   "dev_type": "Participant",
   "expertise_domains": [
     "Consensus",
@@ -78,28 +78,29 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Cryptography": 1.0
+      "Consensus": 0.167,
+      "Cryptography": 0.833
     },
     "bips": {
       "Consensus": 1.0
     }
   },
   "expertise_domain_scores": {
-    "Consensus": 0.7143,
-    "Cryptography": 0.2857
+    "Consensus": 0.762,
+    "Cryptography": 0.238
   },
-  "p2016_posts": 3.0,
-  "modern_posts": 3.0,
+  "p2016_posts": 7.0,
+  "modern_posts": 7.0,
   "p2016_ml_posts": 3.0,
-  "p2016_delving_posts": 0.0,
+  "p2016_delving_posts": 4.0,
   "modern_ml_posts": 3.0,
-  "modern_delving_posts": 0.0,
+  "modern_delving_posts": 4.0,
   "is_engineer": false,
   "is_reviewer": false,
   "is_researcher": true,
   "is_bip_author": true,
   "global_first_active": "2021-05-09T04:03:13",
-  "global_last_active": "2026-07-23T19:39:45",
+  "global_last_active": "2026-07-24T00:40:51.157000",
   "github_location": null,
   "github_company": null,
   "github_bio": null,
@@ -109,6 +110,7 @@
   "activity_status": "Active",
   "is_top_50": false,
   "github_url": "https://github.com/brian_trollz",
+  "delving_url": "https://delvingbitcoin.org/u/shinobi",
   "bip_list": [
     {
       "number": 343,
@@ -119,20 +121,25 @@
     }
   ],
   "first_message": {
-    "source": "mailing_list",
-    "subject": "[bitcoindev] Quantum Recovery Of Hashed Address Secured Coins With No\n Confiscatory Risk",
-    "date": "2026-07-14",
-    "link": "https://gnusha.org/pi/bitcoindev/sdGGYMMWowlFff6Yh8usMel61HVYmV8KPMqT9np2kK7GxPbVaogJ2aJSFe4v16VNLef4eDwNgfReiK-7j-sYn1jlXHPoAPWAwNBbSJxEz3M=@protonmail.com"
+    "source": "delving",
+    "subject": "Re: Consensus Cleanup: demo of slow blocks on Signet",
+    "date": "2026-04-02",
+    "link": "https://delvingbitcoin.org/t/consensus-cleanup-demo-of-slow-blocks-on-signet/2367/2"
   },
   "last_message": {
-    "source": "mailing_list",
-    "subject": "Re: [bitcoindev] Quantum Recovery Of Hashed Address Secured Coins\n With No Confiscatory Risk",
-    "date": "2026-07-23",
-    "link": "https://gnusha.org/pi/bitcoindev/gJnvMBYdwA6pJzPtnsuBLrymr9Vs1xQ_xejRrEvET1Tz-FJZ6B_b5z0gaT25Fz2RG1N--cVZikyUclGDoLouOTRNVocOTn-fuBuwiyMCs54=@protonmail.com"
+    "source": "delving",
+    "subject": "Re: Post Quantum Recovery Of Hashed Addresses With No Confiscatory Risk",
+    "date": "2026-07-24",
+    "link": "https://delvingbitcoin.org/t/post-quantum-recovery-of-hashed-addresses-with-no-confiscatory-risk/2714/2"
   },
   "social_history": {
     "2026": {
-      "quantum": 3
+      "consensus-cleanup": 2,
+      "core-dev": 2,
+      "mempool-fees": 2,
+      "quantum": 5,
+      "testing-devtools": 2,
+      "utxo-sync": 2
     }
   }
 }

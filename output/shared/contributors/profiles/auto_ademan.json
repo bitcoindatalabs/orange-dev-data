@@ -1,7 +1,7 @@
 {
   "display_name": "ademan",
   "github_login_final": "Ademan",
-  "delving_username_final": null,
+  "delving_username_final": "ademan",
   "uuid": "auto_ademan",
   "badges": null,
   "roles": null,
@@ -46,46 +46,49 @@
   "avg_concept_lead_time_days": null,
   "review_reciprocity": null,
   "hybrid_score": 0.0792,
-  "p2016_hybrid_score": 0.0853,
-  "modern_hybrid_score": 0.1252,
+  "p2016_hybrid_score": 0.0852,
+  "modern_hybrid_score": 0.1238,
   "impact_score": 5.0,
   "p2016_impact_score": 5.0,
   "modern_impact_score": 7.0,
-  "threads_started": 1.0,
-  "replies_sent": 3.0,
+  "threads_started": 8.0,
+  "replies_sent": 6.0,
   "ml_threads": 1.0,
-  "delving_threads": 0.0,
+  "delving_threads": 7.0,
   "ml_responses": 3.0,
-  "delving_responses": 0.0,
-  "first_active": "2023-11-07T11:03:30",
-  "last_active": "2025-07-09T15:14:02",
+  "delving_responses": 3.0,
+  "first_active": null,
+  "last_active": "2026-08-25T20:43:01.768000",
   "dev_type": "Participant",
   "expertise_domains": [
-    "Ecosystem",
-    "Consensus"
+    "Script",
+    "L2",
+    "Mempool"
   ],
   "expertise_by_source": {
     "discussion": {
-      "Ecosystem": 0.667,
-      "Consensus": 0.333
+      "Mempool": 0.192,
+      "Script": 0.481,
+      "L2": 0.327
     }
   },
   "expertise_domain_scores": {
-    "Ecosystem": 0.667,
-    "Consensus": 0.333
+    "Mempool": 0.192,
+    "Script": 0.481,
+    "L2": 0.327
   },
-  "p2016_posts": 4.0,
-  "modern_posts": 4.0,
+  "p2016_posts": 14.0,
+  "modern_posts": 14.0,
   "p2016_ml_posts": 4.0,
-  "p2016_delving_posts": 0.0,
+  "p2016_delving_posts": 10.0,
   "modern_ml_posts": 4.0,
-  "modern_delving_posts": 0.0,
+  "modern_delving_posts": 10.0,
   "is_engineer": false,
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": false,
-  "global_first_active": "2023-11-07T11:03:30",
-  "global_last_active": "2025-10-29T00:25:32",
+  "global_first_active": "2024-04-18T17:58:37",
+  "global_last_active": "2026-08-25T20:43:01.768000",
   "github_location": null,
   "github_company": null,
   "github_bio": null,
@@ -95,6 +98,7 @@
   "activity_status": "Active",
   "is_top_50": false,
   "github_url": "https://github.com/Ademan",
+  "delving_url": "https://delvingbitcoin.org/u/ademan",
   "first_message": {
     "source": "mailing_list",
     "subject": "Re: [bitcoin-dev] Future of the bitcoin-dev mailing list",
@@ -102,20 +106,28 @@
     "link": "https://gnusha.org/pi/bitcoindev/CAKwYL5ERT0zH=kcpPwqWe2Q2Gtn+Lj5nQF14yzAZ2nhn8AdD6A@mail.gmail.com"
   },
   "last_message": {
-    "source": "mailing_list",
-    "subject": "Re: [bitcoindev] A Taproot-native (re-)bindable transaction bundle proposal",
-    "date": "2025-07-09",
-    "link": "https://gnusha.org/pi/bitcoindev/CAKwYL5GjrOp5QbwMF+vS6dDYPjc7tBNPAZsqVBzb1DcY_h4FpQ@mail.gmail.com"
+    "source": "delving",
+    "subject": "Re: Improving the Security of lArk OOR Channels with Equivocation Bonds",
+    "date": "2026-08-25",
+    "link": "https://delvingbitcoin.org/t/improving-the-security-of-lark-oor-channels-with-equivocation-bonds/2816/3"
   },
   "social_history": {
     "2023": {
       "nostr": 2,
-      "other": 1,
-      "payment-protocol": 1,
-      "spam-filtering": 1
+      "other": 3
     },
     "2025": {
-      "taproot": 1
+      "lightning": 2,
+      "mempool-fees": 3,
+      "mining": 1,
+      "other": 1,
+      "security": 2,
+      "taproot": 2
+    },
+    "2026": {
+      "covenants": 5,
+      "lightning": 2,
+      "vaults": 3
     }
   }
 }

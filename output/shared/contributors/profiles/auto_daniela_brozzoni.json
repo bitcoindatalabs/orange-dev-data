@@ -1,5 +1,5 @@
 {
-  "display_name": "Daniela Brozzoni",
+  "display_name": "daniela brozzoni",
   "github_login_final": "danielabrozzoni",
   "delving_username_final": null,
   "uuid": "auto_daniela_brozzoni",
@@ -23,12 +23,12 @@
   "self_merges": 0.0,
   "total_additions": 228.0,
   "total_deletions": 203.0,
-  "first_core_commit": "2022-05-30T14:57:38+00:00",
-  "last_core_commit": "2026-07-08T18:49:10+00:00",
+  "first_core_commit": "2022-05-30T14:59:56+00:00",
+  "last_core_commit": "2026-07-08T18:49:32+00:00",
   "first_ecosystem_commit": null,
   "last_ecosystem_commit": null,
-  "first_commit": "2022-05-30T14:57:38",
-  "last_commit": "2026-07-08T18:49:10",
+  "first_commit": "2022-05-30T14:59:56",
+  "last_commit": "2026-07-08T18:49:32",
   "p2016_authored_commits": 16.0,
   "modern_authored_commits": 14.0,
   "co_authored_commits": 4.0,
@@ -37,28 +37,28 @@
   "modern_bips_authored": 0.0,
   "first_bip_date": null,
   "last_bip_date": null,
-  "avg_review_latency_days": 463.9012547657952,
+  "avg_review_latency_days": 461.64459238327424,
   "reviews_count": 119.0,
-  "avg_approval_latency_days": 218.33654694444445,
+  "avg_approval_latency_days": 216.91838964212226,
   "approvals_count": 99.0,
   "tier1_reviews_count": 107.0,
   "tier2_reviews_count": 12.0,
   "p2016_reviews_count": 119.0,
   "modern_reviews_count": 108.0,
   "first_review_date": "2022-03-08T14:24:20",
-  "last_review_date": "2026-09-24T17:07:16",
+  "last_review_date": "2026-10-04T07:33:39",
   "prs_authored": 10.0,
   "tier1_prs_authored": 9.0,
   "tier2_prs_authored": 1.0,
   "avg_pr_ack_velocity_days": 7.634402006172839,
   "avg_concept_lead_time_days": 10.603233796296298,
   "review_reciprocity": 11.9,
-  "hybrid_score": 0.1741,
-  "p2016_hybrid_score": 0.1741,
-  "modern_hybrid_score": 0.1708,
-  "impact_score": 10.0,
-  "p2016_impact_score": 10.0,
-  "modern_impact_score": 10.0,
+  "hybrid_score": 0.3376,
+  "p2016_hybrid_score": 0.3376,
+  "modern_hybrid_score": 0.3271,
+  "impact_score": 18.0,
+  "p2016_impact_score": 18.0,
+  "modern_impact_score": 18.0,
   "threads_started": 0.0,
   "replies_sent": 0.0,
   "ml_threads": 0.0,
@@ -67,13 +67,23 @@
   "delving_responses": 0.0,
   "first_active": null,
   "last_active": null,
-  "dev_type": "Reviewer",
+  "dev_type": "Builder",
   "expertise_domains": [
-    "Infrastructure"
+    "Infrastructure",
+    "Network",
+    "Consensus"
   ],
-  "expertise_by_source": {},
+  "expertise_by_source": {
+    "code": {
+      "Infrastructure": 0.635,
+      "Consensus": 0.114,
+      "Network": 0.25
+    }
+  },
   "expertise_domain_scores": {
-    "Infrastructure": 1.0
+    "Infrastructure": 0.6356,
+    "Consensus": 0.1141,
+    "Network": 0.2503
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,
@@ -81,12 +91,12 @@
   "p2016_delving_posts": 0.0,
   "modern_ml_posts": 0.0,
   "modern_delving_posts": 0.0,
-  "is_engineer": false,
+  "is_engineer": true,
   "is_reviewer": true,
   "is_researcher": false,
   "is_bip_author": false,
   "global_first_active": "2022-03-08T14:24:20",
-  "global_last_active": "2026-09-24T17:07:16",
+  "global_last_active": "2026-10-04T07:33:39",
   "github_location": "Italy",
   "github_company": null,
   "github_bio": null,
@@ -98,23 +108,23 @@
   "github_url": "https://github.com/danielabrozzoni",
   "commit_history": {
     "2022": {
-      "Tests": 4.0
+      "Tests": 2.0
     },
     "2024": {
-      "Documentation": 4.0
+      "Documentation": 2.0
     },
     "2025": {
-      "Documentation": 1.0,
-      "Node & RPC": 0.67,
-      "P2P Network": 2.67,
-      "Tests": 4.67,
-      "Utilities": 1.0
+      "Documentation": 0.5,
+      "Node & RPC": 0.33,
+      "P2P Network": 1.33,
+      "Tests": 2.33,
+      "Utilities": 0.5
     },
     "2026": {
-      "Consensus": 3.67,
-      "P2P Network": 5.33,
-      "Tests": 1.67,
-      "Utilities": 3.33
+      "Consensus": 1.83,
+      "P2P Network": 2.67,
+      "Tests": 0.83,
+      "Utilities": 1.67
     }
   }
 }

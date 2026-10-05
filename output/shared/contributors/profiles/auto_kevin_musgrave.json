@@ -15,12 +15,12 @@
   "self_merges": 0.0,
   "total_additions": 159.0,
   "total_deletions": 91.0,
-  "first_core_commit": "2022-04-04T16:23:10+00:00",
-  "last_core_commit": "2022-05-27T13:11:49+00:00",
+  "first_core_commit": "2022-04-14T16:24:36+00:00",
+  "last_core_commit": "2022-05-27T13:14:01+00:00",
   "first_ecosystem_commit": null,
   "last_ecosystem_commit": null,
-  "first_commit": "2022-04-04T16:23:10",
-  "last_commit": "2022-05-27T13:11:49",
+  "first_commit": "2022-04-14T16:24:36",
+  "last_commit": "2022-05-27T13:14:01",
   "p2016_authored_commits": 3.0,
   "modern_authored_commits": 0.0,
   "co_authored_commits": 2.0,
@@ -45,11 +45,11 @@
   "avg_pr_ack_velocity_days": 2.55181712962963,
   "avg_concept_lead_time_days": 1.8643171296296297,
   "review_reciprocity": 2.3333333333333335,
-  "hybrid_score": 0.0812,
-  "p2016_hybrid_score": 0.0812,
+  "hybrid_score": 0.1612,
+  "p2016_hybrid_score": 0.1612,
   "modern_hybrid_score": 0.033,
-  "impact_score": 5.0,
-  "p2016_impact_score": 5.0,
+  "impact_score": 9.0,
+  "p2016_impact_score": 9.0,
   "modern_impact_score": 2.0,
   "threads_started": 0.0,
   "replies_sent": 0.0,
@@ -59,11 +59,15 @@
   "delving_responses": 0.0,
   "first_active": null,
   "last_active": null,
-  "dev_type": "Participant",
+  "dev_type": "Builder",
   "expertise_domains": [
     "Infrastructure"
   ],
-  "expertise_by_source": {},
+  "expertise_by_source": {
+    "code": {
+      "Infrastructure": 1.0
+    }
+  },
   "expertise_domain_scores": {
     "Infrastructure": 1.0
   },
@@ -73,12 +77,12 @@
   "p2016_delving_posts": 0.0,
   "modern_ml_posts": 0.0,
   "modern_delving_posts": 0.0,
-  "is_engineer": false,
+  "is_engineer": true,
   "is_reviewer": true,
   "is_researcher": false,
   "is_bip_author": false,
   "global_first_active": "2022-04-04T12:27:38",
-  "global_last_active": "2022-05-27T13:11:49",
+  "global_last_active": "2022-05-27T13:14:01",
   "github_location": null,
   "github_company": "Fujitsu Research",
   "github_bio": "Research Engineer at Fujitsu Research.\r\nCo-creator of @settadev.\r\nCreator of PyTorch Metric Learning.\r\nML PhD from Cornell.",
@@ -90,8 +94,8 @@
   "github_url": "https://github.com/KevinMusgrave",
   "commit_history": {
     "2022": {
-      "Node & RPC": 2.0,
-      "Tests": 4.0
+      "Node & RPC": 1.0,
+      "Tests": 2.0
     }
   }
 }

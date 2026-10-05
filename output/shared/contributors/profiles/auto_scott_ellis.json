@@ -1,5 +1,5 @@
 {
-  "display_name": "scott ellis",
+  "display_name": "Scott Ellis",
   "github_login_final": "sje397",
   "delving_username_final": null,
   "uuid": "auto_scott_ellis",
@@ -15,11 +15,11 @@
   "self_merges": 0.0,
   "total_additions": 1608.0,
   "total_deletions": 108.0,
-  "first_core_commit": "2011-11-10T14:20:17+00:00",
+  "first_core_commit": "2011-12-23T10:50:28+00:00",
   "last_core_commit": "2013-10-15T10:48:22+00:00",
   "first_ecosystem_commit": null,
   "last_ecosystem_commit": null,
-  "first_commit": "2011-11-10T14:20:17",
+  "first_commit": "2011-12-23T10:50:28",
   "last_commit": "2013-10-15T10:48:22",
   "p2016_authored_commits": 0.0,
   "modern_authored_commits": 0.0,
@@ -45,10 +45,10 @@
   "avg_pr_ack_velocity_days": 7.296115451388889,
   "avg_concept_lead_time_days": 0.7739872685185185,
   "review_reciprocity": 0.125,
-  "hybrid_score": 0.0646,
+  "hybrid_score": 0.1846,
   "p2016_hybrid_score": 0.058,
   "modern_hybrid_score": 0.058,
-  "impact_score": 4.0,
+  "impact_score": 10.0,
   "p2016_impact_score": 3.0,
   "modern_impact_score": 3.0,
   "threads_started": 0.0,
@@ -59,13 +59,20 @@
   "delving_responses": 0.0,
   "first_active": null,
   "last_active": null,
-  "dev_type": "Participant",
+  "dev_type": "Builder",
   "expertise_domains": [
-    "Infrastructure"
+    "Infrastructure",
+    "Network"
   ],
-  "expertise_by_source": {},
+  "expertise_by_source": {
+    "code": {
+      "Infrastructure": 0.964,
+      "Network": 0.036
+    }
+  },
   "expertise_domain_scores": {
-    "Infrastructure": 1.0
+    "Infrastructure": 0.964,
+    "Network": 0.036
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,
@@ -73,11 +80,11 @@
   "p2016_delving_posts": 0.0,
   "modern_ml_posts": 0.0,
   "modern_delving_posts": 0.0,
-  "is_engineer": false,
+  "is_engineer": true,
   "is_reviewer": true,
   "is_researcher": false,
   "is_bip_author": false,
-  "global_first_active": "2011-11-10T14:20:17",
+  "global_first_active": "2011-12-23T10:50:28",
   "global_last_active": "2013-10-15T10:48:22",
   "github_location": "Melbourne, AU",
   "github_company": "Zuora",
@@ -90,21 +97,21 @@
   "github_url": "https://github.com/sje397",
   "commit_history": {
     "2011": {
-      "Build & CI": 0.5,
-      "Documentation": 0.5,
-      "GUI": 0.5,
-      "Utilities": 0.5
+      "Build & CI": 0.25,
+      "Documentation": 0.25,
+      "GUI": 0.25,
+      "Utilities": 0.25
     },
     "2012": {
-      "Documentation": 0.67,
-      "GUI": 6.67,
-      "Utilities": 2.67
+      "Documentation": 0.33,
+      "GUI": 3.33,
+      "Utilities": 1.33
     },
     "2013": {
-      "Build & CI": 0.5,
-      "GUI": 0.5,
-      "P2P Network": 0.5,
-      "Utilities": 0.5
+      "Build & CI": 0.25,
+      "GUI": 0.25,
+      "P2P Network": 0.25,
+      "Utilities": 0.25
     }
   }
 }

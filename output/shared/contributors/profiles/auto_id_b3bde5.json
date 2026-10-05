@@ -45,33 +45,44 @@
   "avg_pr_ack_velocity_days": null,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": null,
-  "hybrid_score": 0.0,
-  "p2016_hybrid_score": null,
-  "modern_hybrid_score": null,
-  "impact_score": null,
-  "p2016_impact_score": null,
-  "modern_impact_score": null,
-  "threads_started": 0.0,
+  "hybrid_score": 0.0066,
+  "p2016_hybrid_score": 0.0104,
+  "modern_hybrid_score": 0.0,
+  "impact_score": 0.0,
+  "p2016_impact_score": 1.0,
+  "modern_impact_score": 0.0,
+  "threads_started": 1.0,
   "replies_sent": 0.0,
-  "ml_threads": 0.0,
+  "ml_threads": 1.0,
   "delving_threads": 0.0,
   "ml_responses": 0.0,
   "delving_responses": 0.0,
   "first_active": null,
   "last_active": null,
-  "dev_type": null,
-  "expertise_domains": [],
-  "expertise_by_source": {},
-  "expertise_domain_scores": {},
-  "p2016_posts": 0.0,
+  "dev_type": "Participant",
+  "expertise_domains": [
+    "Ecosystem",
+    "Wallet"
+  ],
+  "expertise_by_source": {
+    "discussion": {
+      "Wallet": 0.33,
+      "Ecosystem": 0.67
+    }
+  },
+  "expertise_domain_scores": {
+    "Wallet": 0.33,
+    "Ecosystem": 0.67
+  },
+  "p2016_posts": 1.0,
   "modern_posts": 0.0,
-  "p2016_ml_posts": 0.0,
+  "p2016_ml_posts": 1.0,
   "p2016_delving_posts": 0.0,
   "modern_ml_posts": 0.0,
   "modern_delving_posts": 0.0,
   "is_engineer": false,
   "is_reviewer": false,
-  "is_researcher": false,
+  "is_researcher": true,
   "is_bip_author": false,
   "global_first_active": null,
   "global_last_active": null,
@@ -82,5 +93,23 @@
   "github_blog": null,
   "github_followers": null,
   "activity_status": "",
-  "is_top_50": false
+  "is_top_50": false,
+  "first_message": {
+    "source": "mailing_list",
+    "subject": "[bitcoin-dev] MultiSig request URI proposal",
+    "date": "2018-10-04",
+    "link": "https://gnusha.org/pi/bitcoindev/CAHm82F78NpV0UmyVMuka64Y1b0rwBO6FNj=KwAOm885d9q4xJg@mail.gmail.com"
+  },
+  "last_message": {
+    "source": "mailing_list",
+    "subject": "[bitcoin-dev] MultiSig request URI proposal",
+    "date": "2018-10-04",
+    "link": "https://gnusha.org/pi/bitcoindev/CAHm82F78NpV0UmyVMuka64Y1b0rwBO6FNj=KwAOm885d9q4xJg@mail.gmail.com"
+  },
+  "social_history": {
+    "2018": {
+      "multisig-threshold": 1,
+      "payment-protocol": 1
+    }
+  }
 }

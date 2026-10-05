@@ -1,7 +1,7 @@
 {
-  "display_name": "robin linus",
+  "display_name": "Robin Linus",
   "github_login_final": "RobinLinus",
-  "delving_username_final": null,
+  "delving_username_final": "robinlinus",
   "uuid": "auto_robin_linus",
   "badges": null,
   "roles": null,
@@ -45,47 +45,47 @@
   "avg_pr_ack_velocity_days": 0.6139351851851852,
   "avg_concept_lead_time_days": 0.6139351851851852,
   "review_reciprocity": 5.0,
-  "hybrid_score": 0.1009,
-  "p2016_hybrid_score": 0.123,
-  "modern_hybrid_score": 0.1287,
+  "hybrid_score": 0.1006,
+  "p2016_hybrid_score": 0.1222,
+  "modern_hybrid_score": 0.1265,
   "impact_score": 6.0,
   "p2016_impact_score": 7.0,
   "modern_impact_score": 7.0,
-  "threads_started": 5.0,
-  "replies_sent": 14.0,
+  "threads_started": 16.0,
+  "replies_sent": 29.0,
   "ml_threads": 5.0,
-  "delving_threads": 0.0,
+  "delving_threads": 11.0,
   "ml_responses": 14.0,
-  "delving_responses": 0.0,
-  "first_active": "2020-01-12T12:54:57",
-  "last_active": "2023-11-07T17:22:44",
+  "delving_responses": 15.0,
+  "first_active": null,
+  "last_active": "2026-05-03T04:12:15.763000",
   "dev_type": "Participant",
   "expertise_domains": [
-    "L2",
-    "Script"
+    "Script",
+    "L2"
   ],
   "expertise_by_source": {
     "discussion": {
-      "L2": 0.797,
-      "Script": 0.203
+      "Script": 0.613,
+      "L2": 0.387
     }
   },
   "expertise_domain_scores": {
-    "L2": 0.797,
-    "Script": 0.203
+    "Script": 0.613,
+    "L2": 0.387
   },
-  "p2016_posts": 19.0,
-  "modern_posts": 2.0,
+  "p2016_posts": 45.0,
+  "modern_posts": 28.0,
   "p2016_ml_posts": 19.0,
-  "p2016_delving_posts": 0.0,
+  "p2016_delving_posts": 26.0,
   "modern_ml_posts": 2.0,
-  "modern_delving_posts": 0.0,
+  "modern_delving_posts": 26.0,
   "is_engineer": false,
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": false,
-  "global_first_active": "2020-01-12T12:54:57",
-  "global_last_active": "2025-07-31T21:34:35",
+  "global_first_active": "2020-09-06T15:50:24",
+  "global_last_active": "2026-05-03T04:12:15.763000",
   "github_location": null,
   "github_company": "@BitVM ",
   "github_bio": "Bitcoin scalability, privacy, and usability",
@@ -95,6 +95,7 @@
   "activity_status": "Active",
   "is_top_50": false,
   "github_url": "https://github.com/RobinLinus",
+  "delving_url": "https://delvingbitcoin.org/u/robinlinus",
   "first_message": {
     "source": "mailing_list",
     "subject": "[bitcoin-dev] Coins: A trustless sidechain protocol",
@@ -102,31 +103,54 @@
     "link": "https://gnusha.org/pi/bitcoindev/kAPCabG_c_AiGFYny48dO7ZT-MUgINLLoiKdzElSN8IrRej9szT3t9s0FvAHihraSo0CftPwFjU_pxvKuu9SziIJFt2JZxO3rdpS3-CMKzg=@protonmail.com"
   },
   "last_message": {
-    "source": "mailing_list",
-    "subject": "[bitcoin-dev] Implementing Blake3 in Bitcoin Script",
-    "date": "2023-11-07",
-    "link": "https://gnusha.org/pi/bitcoindev/91D40E43-526E-42BC-BBBF-AABBD4F158F4@zerosync.org"
+    "source": "delving",
+    "subject": "Protocol for zero-conf transactions",
+    "date": "2026-05-03",
+    "link": "https://delvingbitcoin.org/t/protocol-for-zero-conf-transactions/2475/1"
   },
   "social_history": {
     "2020": {
-      "atomic-swaps": 1,
-      "lightning": 2,
-      "other": 3,
-      "sidechains-drivechain": 9
+      "other": 4,
+      "scaling": 1,
+      "sidechains-drivechain": 9,
+      "utxo-sync": 1
     },
     "2022": {
       "covenants": 3,
-      "lightning": 1,
+      "other": 3,
       "mining": 1,
-      "script-opcodes": 1,
-      "other": 2
+      "script-opcodes": 1
     },
     "2023": {
       "bitvm": 4,
       "covenants": 1,
-      "nostr": 1,
+      "other": 1,
       "script-opcodes": 2,
       "sidechains-drivechain": 1
+    },
+    "2024": {
+      "bitvm": 1,
+      "covenants": 7,
+      "other": 6,
+      "mempool-fees": 1,
+      "mining": 1,
+      "script-opcodes": 3
+    },
+    "2025": {
+      "other": 21,
+      "bitvm": 4,
+      "covenants": 5,
+      "mempool-fees": 8,
+      "mining": 8,
+      "scaling": 8,
+      "script-opcodes": 4,
+      "utxo-sync": 8
+    },
+    "2026": {
+      "other": 6,
+      "bitvm": 1,
+      "covenants": 1,
+      "script-opcodes": 1
     }
   }
 }

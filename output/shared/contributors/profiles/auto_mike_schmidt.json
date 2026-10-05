@@ -1,5 +1,5 @@
 {
-  "display_name": "mike schmidt",
+  "display_name": "Mike Schmidt",
   "github_login_final": "bitschmidty",
   "delving_username_final": null,
   "uuid": "auto_mike_schmidt",
@@ -45,8 +45,8 @@
   "avg_pr_ack_velocity_days": 0.013252314814814814,
   "avg_concept_lead_time_days": 0.013252314814814814,
   "review_reciprocity": 0.3333333333333333,
-  "hybrid_score": 0.054,
-  "p2016_hybrid_score": 0.0607,
+  "hybrid_score": 0.0538,
+  "p2016_hybrid_score": 0.0603,
   "modern_hybrid_score": 0.033,
   "impact_score": 3.0,
   "p2016_impact_score": 4.0,
@@ -57,8 +57,8 @@
   "delving_threads": 0.0,
   "ml_responses": 2.0,
   "delving_responses": 0.0,
-  "first_active": "2020-10-20T18:52:07",
-  "last_active": "2020-11-06T13:49:44",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Participant",
   "expertise_domains": [
     "Consensus"
@@ -82,7 +82,7 @@
   "is_researcher": true,
   "is_bip_author": false,
   "global_first_active": "2019-03-25T14:01:53",
-  "global_last_active": "2020-11-06T13:49:44",
+  "global_last_active": "2020-06-09T19:41:55",
   "github_location": null,
   "github_company": "@bitcoinops @bitcoinbrink ",
   "github_bio": "Bitcoiner. ",

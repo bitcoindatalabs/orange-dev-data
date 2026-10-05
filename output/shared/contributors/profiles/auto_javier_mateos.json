@@ -1,5 +1,5 @@
 {
-  "display_name": "Javier Mateos",
+  "display_name": "javier mateos",
   "github_login_final": "javierpmateos",
   "delving_username_final": null,
   "uuid": "auto_javier_mateos",
@@ -45,20 +45,20 @@
   "avg_pr_ack_velocity_days": 35.532465277777774,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": 0.0,
-  "hybrid_score": 0.0554,
-  "p2016_hybrid_score": 0.0797,
-  "modern_hybrid_score": 0.2159,
+  "hybrid_score": 0.0544,
+  "p2016_hybrid_score": 0.0777,
+  "modern_hybrid_score": 0.1993,
   "impact_score": 3.0,
   "p2016_impact_score": 5.0,
-  "modern_impact_score": 12.0,
+  "modern_impact_score": 11.0,
   "threads_started": 0.0,
   "replies_sent": 10.0,
   "ml_threads": 0.0,
   "delving_threads": 0.0,
   "ml_responses": 10.0,
   "delving_responses": 0.0,
-  "first_active": "2025-03-28T17:40:13",
-  "last_active": "2026-02-25T04:43:53",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Participant",
   "expertise_domains": [
     "Cryptography",
@@ -67,14 +67,14 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Ecosystem": 0.24,
       "Wallet": 0.3,
+      "Ecosystem": 0.24,
       "Cryptography": 0.46
     }
   },
   "expertise_domain_scores": {
-    "Ecosystem": 0.24,
     "Wallet": 0.3,
+    "Ecosystem": 0.24,
     "Cryptography": 0.46
   },
   "p2016_posts": 10.0,
@@ -87,8 +87,8 @@
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": false,
-  "global_first_active": "2025-03-28T17:40:13",
-  "global_last_active": "2026-02-25T04:43:53",
+  "global_first_active": null,
+  "global_last_active": null,
   "github_location": null,
   "github_company": null,
   "github_bio": "Entusiasta Blockchain",

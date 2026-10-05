@@ -58,7 +58,7 @@
   "avg_concept_lead_time_days": null,
   "review_reciprocity": 0.6,
   "hybrid_score": 0.4275,
-  "p2016_hybrid_score": 0.4356,
+  "p2016_hybrid_score": 0.4354,
   "modern_hybrid_score": 0.0452,
   "impact_score": 23.0,
   "p2016_impact_score": 23.0,
@@ -69,8 +69,8 @@
   "delving_threads": 0.0,
   "ml_responses": 11.0,
   "delving_responses": 0.0,
-  "first_active": "2017-08-14T01:05:35",
-  "last_active": "2020-12-23T05:44:52",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Participant",
   "expertise_domains": [
     "Network",
@@ -80,8 +80,8 @@
   "expertise_by_source": {
     "discussion": {
       "Mining": 0.204,
-      "Mempool": 0.265,
-      "Wallet": 0.531
+      "Wallet": 0.531,
+      "Mempool": 0.265
     },
     "bips": {
       "Network": 1.0
@@ -89,8 +89,8 @@
   },
   "expertise_domain_scores": {
     "Mining": 0.0583,
-    "Mempool": 0.0757,
     "Wallet": 0.1517,
+    "Mempool": 0.0757,
     "Network": 0.7143
   },
   "p2016_posts": 12.0,
@@ -103,8 +103,8 @@
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": true,
-  "global_first_active": "2017-08-14T01:05:35",
-  "global_last_active": "2020-12-23T05:44:52",
+  "global_first_active": "2017-09-06T08:42:37",
+  "global_last_active": "2017-10-02T11:49:50",
   "github_location": "Wherever there is internet",
   "github_company": null,
   "github_bio": "Engineer, hacker, humanist.",

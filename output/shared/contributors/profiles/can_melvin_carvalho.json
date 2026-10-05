@@ -1,7 +1,7 @@
 {
   "display_name": "Melvin Carvalho",
   "github_login_final": "melvincarvalho",
-  "delving_username_final": null,
+  "delving_username_final": "melvincarvalho",
   "uuid": "can_melvin_carvalho",
   "badges": null,
   "roles": null,
@@ -45,20 +45,20 @@
   "avg_pr_ack_velocity_days": null,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": 5.0,
-  "hybrid_score": 0.1888,
-  "p2016_hybrid_score": 0.1337,
-  "modern_hybrid_score": 0.1919,
+  "hybrid_score": 0.1882,
+  "p2016_hybrid_score": 0.1323,
+  "modern_hybrid_score": 0.1803,
   "impact_score": 11.0,
   "p2016_impact_score": 8.0,
-  "modern_impact_score": 11.0,
-  "threads_started": 15.0,
+  "modern_impact_score": 10.0,
+  "threads_started": 16.0,
   "replies_sent": 98.0,
   "ml_threads": 15.0,
-  "delving_threads": 0.0,
+  "delving_threads": 1.0,
   "ml_responses": 98.0,
   "delving_responses": 0.0,
-  "first_active": "2012-12-16T15:15:40",
-  "last_active": "2026-09-07T09:44:19",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Participant",
   "expertise_domains": [
     "Mining",
@@ -66,35 +66,36 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Ecosystem": 0.429,
-      "Mining": 0.571
+      "Mining": 0.571,
+      "Ecosystem": 0.429
     }
   },
   "expertise_domain_scores": {
-    "Ecosystem": 0.429,
-    "Mining": 0.571
+    "Mining": 0.571,
+    "Ecosystem": 0.429
   },
-  "p2016_posts": 24.0,
+  "p2016_posts": 25.0,
   "modern_posts": 14.0,
   "p2016_ml_posts": 24.0,
-  "p2016_delving_posts": 0.0,
+  "p2016_delving_posts": 1.0,
   "modern_ml_posts": 14.0,
   "modern_delving_posts": 0.0,
   "is_engineer": false,
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": false,
-  "global_first_active": "2012-12-16T15:15:40",
-  "global_last_active": "2026-09-07T09:44:19",
+  "global_first_active": "2023-09-03T21:18:53",
+  "global_last_active": "2026-02-10T05:13:12",
   "github_location": null,
   "github_company": null,
   "github_bio": "Web Developer\r\n\r\nnpub1melv683fw6n2mvhl5h6dhqd8mqfv3wmxnz4qph83ua4dk4006ezsrt5c24",
   "github_twitter": "melvincarvalho",
   "github_blog": "https://melvincarvalho.com/#me",
   "github_followers": 446.0,
-  "activity_status": "Rising",
+  "activity_status": "Active",
   "is_top_50": false,
   "github_url": "https://github.com/melvincarvalho",
+  "delving_url": "https://delvingbitcoin.org/u/melvincarvalho",
   "first_message": {
     "source": "mailing_list",
     "subject": "Re: [Bitcoin-development] Payment Protocol Proposal:\n\tInvoices/Payments/Receipts",
@@ -152,8 +153,8 @@
       "other": 1
     },
     "2023": {
+      "other": 9,
       "hard-fork-block-size": 2,
-      "other": 7,
       "mining": 1,
       "spam-filtering": 2
     },

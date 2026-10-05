@@ -1,7 +1,7 @@
 {
   "display_name": "scgbckbone",
   "github_login_final": "scgbckbone",
-  "delving_username_final": null,
+  "delving_username_final": "scgbckbone",
   "uuid": "auto_scgbckbone",
   "badges": {
     "ecosystem_contributor": true,
@@ -18,12 +18,12 @@
   "self_merges": 0.0,
   "total_additions": 301.0,
   "total_deletions": 108.0,
-  "first_core_commit": "2022-05-16T19:49:54+00:00",
-  "last_core_commit": "2025-10-27T20:56:45+00:00",
+  "first_core_commit": "2022-05-16T19:57:18+00:00",
+  "last_core_commit": "2025-10-27T20:57:15+00:00",
   "first_ecosystem_commit": "2026-01-30T21:09:34+00:00",
   "last_ecosystem_commit": "2026-01-30T21:09:34+00:00",
-  "first_commit": "2022-05-16T19:49:54",
-  "last_commit": "2025-10-27T20:56:45",
+  "first_commit": "2022-05-16T19:57:18",
+  "last_commit": "2025-10-27T20:57:15",
   "p2016_authored_commits": 4.0,
   "modern_authored_commits": 3.0,
   "co_authored_commits": 4.0,
@@ -39,7 +39,7 @@
   "tier1_reviews_count": 10.0,
   "tier2_reviews_count": 20.0,
   "p2016_reviews_count": 30.0,
-  "modern_reviews_count": 26.0,
+  "modern_reviews_count": 25.0,
   "first_review_date": "2020-06-24T09:06:00",
   "last_review_date": "2026-09-21T07:08:34",
   "prs_authored": 16.0,
@@ -48,37 +48,53 @@
   "avg_pr_ack_velocity_days": 35.690280092592594,
   "avg_concept_lead_time_days": 6.639224537037037,
   "review_reciprocity": 1.875,
-  "hybrid_score": 0.1321,
-  "p2016_hybrid_score": 0.1321,
-  "modern_hybrid_score": 0.1282,
-  "impact_score": 8.0,
-  "p2016_impact_score": 8.0,
-  "modern_impact_score": 7.0,
-  "threads_started": 0.0,
-  "replies_sent": 0.0,
+  "hybrid_score": 0.2302,
+  "p2016_hybrid_score": 0.2327,
+  "modern_hybrid_score": 0.2284,
+  "impact_score": 13.0,
+  "p2016_impact_score": 13.0,
+  "modern_impact_score": 13.0,
+  "threads_started": 2.0,
+  "replies_sent": 1.0,
   "ml_threads": 0.0,
-  "delving_threads": 0.0,
+  "delving_threads": 2.0,
   "ml_responses": 0.0,
-  "delving_responses": 0.0,
-  "first_active": null,
-  "last_active": null,
-  "dev_type": "Reviewer",
+  "delving_responses": 1.0,
+  "first_active": "2025-07-16T08:34:31.869000",
+  "last_active": "2025-07-21T12:55:15.750000",
+  "dev_type": "Builder",
   "expertise_domains": [
-    "Infrastructure"
+    "Wallet",
+    "Infrastructure",
+    "Script"
   ],
-  "expertise_by_source": {},
-  "expertise_domain_scores": {
-    "Infrastructure": 1.0
+  "expertise_by_source": {
+    "discussion": {
+      "Mining": 0.245,
+      "Script": 0.51,
+      "Cryptography": 0.245
+    },
+    "code": {
+      "Wallet": 0.625,
+      "Infrastructure": 0.375
+    }
   },
-  "p2016_posts": 0.0,
-  "modern_posts": 0.0,
+  "expertise_domain_scores": {
+    "Mining": 0.098,
+    "Infrastructure": 0.225,
+    "Wallet": 0.375,
+    "Script": 0.204,
+    "Cryptography": 0.098
+  },
+  "p2016_posts": 3.0,
+  "modern_posts": 3.0,
   "p2016_ml_posts": 0.0,
-  "p2016_delving_posts": 0.0,
+  "p2016_delving_posts": 3.0,
   "modern_ml_posts": 0.0,
-  "modern_delving_posts": 0.0,
-  "is_engineer": false,
+  "modern_delving_posts": 3.0,
+  "is_engineer": true,
   "is_reviewer": true,
-  "is_researcher": false,
+  "is_researcher": true,
   "is_bip_author": false,
   "global_first_active": "2020-06-24T09:06:00",
   "global_last_active": "2026-09-21T07:08:34",
@@ -88,19 +104,43 @@
   "github_twitter": null,
   "github_blog": null,
   "github_followers": 35.0,
-  "activity_status": "Active",
+  "activity_status": "Rising",
   "is_top_50": false,
   "github_url": "https://github.com/scgbckbone",
+  "delving_url": "https://delvingbitcoin.org/u/scgbckbone",
   "commit_history": {
     "2022": {
-      "Utilities": 2.0
+      "Utilities": 1.0
     },
     "2025": {
-      "Tests": 1.0,
-      "Wallet": 1.0
+      "Tests": 0.5,
+      "Wallet": 0.5
     },
     "2026": {
       "Wallet": 2.0
+    }
+  },
+  "first_message": {
+    "source": "delving",
+    "subject": "Re: Exploring Extended Relative Timelocks",
+    "date": "2025-07-16",
+    "link": "https://delvingbitcoin.org/t/exploring-extended-relative-timelocks/1818/10"
+  },
+  "last_message": {
+    "source": "delving",
+    "subject": "Re: Exploring Extended Relative Timelocks",
+    "date": "2025-07-21",
+    "link": "https://delvingbitcoin.org/t/exploring-extended-relative-timelocks/1818/18"
+  },
+  "social_history": {
+    "2025": {
+      "lightning": 3,
+      "mempool-fees": 3,
+      "mining": 3,
+      "quantum": 3,
+      "script-opcodes": 3,
+      "soft-fork-activation": 3,
+      "wallet-keys": 3
     }
   }
 }

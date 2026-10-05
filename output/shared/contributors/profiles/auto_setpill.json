@@ -15,12 +15,12 @@
   "self_merges": 0.0,
   "total_additions": 29.0,
   "total_deletions": 19.0,
-  "first_core_commit": "2019-08-29T03:40:10+00:00",
-  "last_core_commit": "2021-01-28T16:42:56+00:00",
+  "first_core_commit": "2019-08-29T03:56:01+00:00",
+  "last_core_commit": "2021-01-28T16:44:43+00:00",
   "first_ecosystem_commit": null,
   "last_ecosystem_commit": null,
-  "first_commit": "2019-08-29T03:40:10",
-  "last_commit": "2021-01-28T16:42:56",
+  "first_commit": "2019-08-29T03:56:01",
+  "last_commit": "2021-01-28T16:44:43",
   "p2016_authored_commits": 6.0,
   "modern_authored_commits": 0.0,
   "co_authored_commits": 0.0,
@@ -45,11 +45,11 @@
   "avg_pr_ack_velocity_days": 10.088046875,
   "avg_concept_lead_time_days": 0.05506944444444444,
   "review_reciprocity": 1.0,
-  "hybrid_score": 0.0702,
-  "p2016_hybrid_score": 0.0702,
+  "hybrid_score": 0.1825,
+  "p2016_hybrid_score": 0.1825,
   "modern_hybrid_score": 0.0396,
-  "impact_score": 4.0,
-  "p2016_impact_score": 4.0,
+  "impact_score": 10.0,
+  "p2016_impact_score": 10.0,
   "modern_impact_score": 2.0,
   "threads_started": 0.0,
   "replies_sent": 0.0,
@@ -59,11 +59,15 @@
   "delving_responses": 0.0,
   "first_active": null,
   "last_active": null,
-  "dev_type": "Participant",
+  "dev_type": "Builder",
   "expertise_domains": [
     "Infrastructure"
   ],
-  "expertise_by_source": {},
+  "expertise_by_source": {
+    "code": {
+      "Infrastructure": 1.0
+    }
+  },
   "expertise_domain_scores": {
     "Infrastructure": 1.0
   },
@@ -73,7 +77,7 @@
   "p2016_delving_posts": 0.0,
   "modern_ml_posts": 0.0,
   "modern_delving_posts": 0.0,
-  "is_engineer": false,
+  "is_engineer": true,
   "is_reviewer": true,
   "is_researcher": false,
   "is_bip_author": false,
@@ -90,11 +94,11 @@
   "github_url": "https://github.com/setpill",
   "commit_history": {
     "2019": {
-      "Documentation": 2.0,
-      "Utilities": 8.0
+      "Documentation": 1.0,
+      "Utilities": 4.0
     },
     "2021": {
-      "Utilities": 2.0
+      "Utilities": 1.0
     }
   }
 }

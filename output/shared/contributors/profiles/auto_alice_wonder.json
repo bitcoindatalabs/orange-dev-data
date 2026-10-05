@@ -15,12 +15,12 @@
   "self_merges": 0.0,
   "total_additions": 902.0,
   "total_deletions": 0.0,
-  "first_core_commit": "2016-03-24T11:19:39+00:00",
-  "last_core_commit": "2016-03-24T11:19:39+00:00",
+  "first_core_commit": "2016-03-24T11:19:55+00:00",
+  "last_core_commit": "2016-03-24T11:19:55+00:00",
   "first_ecosystem_commit": null,
   "last_ecosystem_commit": null,
-  "first_commit": "2016-03-24T11:19:39",
-  "last_commit": "2016-03-24T11:19:39",
+  "first_commit": "2016-03-24T11:19:55",
+  "last_commit": "2016-03-24T11:19:55",
   "p2016_authored_commits": 2.0,
   "modern_authored_commits": 0.0,
   "co_authored_commits": 0.0,
@@ -45,11 +45,11 @@
   "avg_pr_ack_velocity_days": 2.6413425925925926,
   "avg_concept_lead_time_days": 5.934976851851852,
   "review_reciprocity": 1.0,
-  "hybrid_score": 0.0859,
-  "p2016_hybrid_score": 0.097,
+  "hybrid_score": 0.1491,
+  "p2016_hybrid_score": 0.16,
   "modern_hybrid_score": 0.0396,
-  "impact_score": 5.0,
-  "p2016_impact_score": 6.0,
+  "impact_score": 9.0,
+  "p2016_impact_score": 9.0,
   "modern_impact_score": 2.0,
   "threads_started": 1.0,
   "replies_sent": 3.0,
@@ -57,13 +57,17 @@
   "delving_threads": 0.0,
   "ml_responses": 3.0,
   "delving_responses": 0.0,
-  "first_active": "2016-03-03T07:02:11",
-  "last_active": "2017-02-25T12:19:11",
-  "dev_type": "Participant",
+  "first_active": null,
+  "last_active": null,
+  "dev_type": "Builder",
   "expertise_domains": [
     "Infrastructure"
   ],
-  "expertise_by_source": {},
+  "expertise_by_source": {
+    "code": {
+      "Infrastructure": 1.0
+    }
+  },
   "expertise_domain_scores": {
     "Infrastructure": 1.0
   },
@@ -73,12 +77,12 @@
   "p2016_delving_posts": 0.0,
   "modern_ml_posts": 0.0,
   "modern_delving_posts": 0.0,
-  "is_engineer": false,
+  "is_engineer": true,
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": false,
   "global_first_active": "2016-02-24T10:21:49",
-  "global_last_active": "2017-02-25T12:19:11",
+  "global_last_active": "2016-06-29T09:47:09",
   "github_location": null,
   "github_company": "Alice Wonder Miscreations",
   "github_bio": "I mostly do stuff with PHP. I have been using Linux since 1998, as my primary operating system since 2000.",
@@ -90,8 +94,8 @@
   "github_url": "https://github.com/AliceWonderMiscreations",
   "commit_history": {
     "2016": {
-      "Documentation": 3.0,
-      "Utilities": 1.0
+      "Documentation": 1.5,
+      "Utilities": 0.5
     }
   },
   "first_message": {

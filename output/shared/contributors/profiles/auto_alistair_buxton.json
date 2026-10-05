@@ -1,5 +1,5 @@
 {
-  "display_name": "alistair buxton",
+  "display_name": "Alistair Buxton",
   "github_login_final": "ali1234",
   "delving_username_final": null,
   "uuid": "auto_alistair_buxton",
@@ -45,10 +45,10 @@
   "avg_pr_ack_velocity_days": 0.16434027777777777,
   "avg_concept_lead_time_days": 7.4132291666666665,
   "review_reciprocity": 1.0,
-  "hybrid_score": 0.033,
+  "hybrid_score": 0.073,
   "p2016_hybrid_score": 0.0146,
   "modern_hybrid_score": 0.0146,
-  "impact_score": 2.0,
+  "impact_score": 4.0,
   "p2016_impact_score": 1.0,
   "modern_impact_score": 1.0,
   "threads_started": 0.0,
@@ -59,13 +59,17 @@
   "delving_responses": 0.0,
   "first_active": null,
   "last_active": null,
-  "dev_type": "Participant",
+  "dev_type": "Builder",
   "expertise_domains": [
-    "Infrastructure"
+    "Network"
   ],
-  "expertise_by_source": {},
+  "expertise_by_source": {
+    "code": {
+      "Network": 1.0
+    }
+  },
   "expertise_domain_scores": {
-    "Infrastructure": 1.0
+    "Network": 1.0
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,
@@ -73,7 +77,7 @@
   "p2016_delving_posts": 0.0,
   "modern_ml_posts": 0.0,
   "modern_delving_posts": 0.0,
-  "is_engineer": false,
+  "is_engineer": true,
   "is_reviewer": true,
   "is_researcher": false,
   "is_bip_author": false,
@@ -90,7 +94,7 @@
   "github_url": "https://github.com/ali1234",
   "commit_history": {
     "2012": {
-      "P2P Network": 2.0
+      "P2P Network": 1.0
     }
   }
 }

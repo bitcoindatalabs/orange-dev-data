@@ -1,7 +1,7 @@
 {
   "display_name": "Ethan Heilman",
   "github_login_final": "EthanHeilman",
-  "delving_username_final": null,
+  "delving_username_final": "ethanheilman",
   "uuid": "can_ethan_heilman",
   "badges": {
     "is_maintainer": false,
@@ -27,12 +27,12 @@
   "self_merges": 0.0,
   "total_additions": 1275.0,
   "total_deletions": 93.0,
-  "first_core_commit": "2015-10-07T12:43:38+00:00",
-  "last_core_commit": "2025-04-21T18:50:48+00:00",
+  "first_core_commit": "2015-10-07T13:00:18+00:00",
+  "last_core_commit": "2025-04-21T18:51:30+00:00",
   "first_ecosystem_commit": null,
   "last_ecosystem_commit": null,
-  "first_commit": "2015-10-07T12:43:38",
-  "last_commit": "2025-04-21T18:50:48",
+  "first_commit": "2015-10-07T13:00:18",
+  "last_commit": "2025-04-21T18:51:30",
   "p2016_authored_commits": 11.0,
   "modern_authored_commits": 2.0,
   "co_authored_commits": 0.0,
@@ -57,51 +57,58 @@
   "avg_pr_ack_velocity_days": 33.950623638344226,
   "avg_concept_lead_time_days": 45.90123842592593,
   "review_reciprocity": 1.5789473684210527,
-  "hybrid_score": 0.8269,
-  "p2016_hybrid_score": 0.9266,
-  "modern_hybrid_score": 1.0186,
-  "impact_score": 39.0,
-  "p2016_impact_score": 43.0,
-  "modern_impact_score": 46.0,
-  "threads_started": 13.0,
-  "replies_sent": 74.0,
+  "hybrid_score": 0.9766,
+  "p2016_hybrid_score": 1.0684,
+  "modern_hybrid_score": 1.0986,
+  "impact_score": 44.0,
+  "p2016_impact_score": 47.0,
+  "modern_impact_score": 48.0,
+  "threads_started": 17.0,
+  "replies_sent": 83.0,
   "ml_threads": 13.0,
-  "delving_threads": 0.0,
+  "delving_threads": 4.0,
   "ml_responses": 74.0,
-  "delving_responses": 0.0,
-  "first_active": "2014-06-03T06:51:45",
-  "last_active": "2026-05-05T14:17:23",
-  "dev_type": "Reviewer",
+  "delving_responses": 9.0,
+  "first_active": null,
+  "last_active": null,
+  "dev_type": "Protocol Designer",
   "expertise_domains": [
     "Consensus",
-    "Cryptography",
-    "Script"
+    "Infrastructure",
+    "Cryptography"
   ],
   "expertise_by_source": {
     "discussion": {
-      "Script": 0.478,
-      "Cryptography": 0.522
+      "Consensus": 0.211,
+      "Script": 0.351,
+      "Cryptography": 0.439
+    },
+    "code": {
+      "Infrastructure": 0.769,
+      "Network": 0.231
     },
     "bips": {
       "Consensus": 1.0
     }
   },
   "expertise_domain_scores": {
-    "Script": 0.1366,
-    "Consensus": 0.7143,
-    "Cryptography": 0.1491
+    "Infrastructure": 0.2307,
+    "Consensus": 0.5421,
+    "Script": 0.0702,
+    "Cryptography": 0.0878,
+    "Network": 0.0693
   },
-  "p2016_posts": 83.0,
-  "modern_posts": 60.0,
+  "p2016_posts": 96.0,
+  "modern_posts": 73.0,
   "p2016_ml_posts": 83.0,
-  "p2016_delving_posts": 0.0,
+  "p2016_delving_posts": 13.0,
   "modern_ml_posts": 60.0,
-  "modern_delving_posts": 0.0,
-  "is_engineer": false,
+  "modern_delving_posts": 13.0,
+  "is_engineer": true,
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": true,
-  "global_first_active": "2014-06-03T06:51:45",
+  "global_first_active": "2015-10-07T13:00:18",
   "global_last_active": "2026-06-15T02:07:11",
   "github_location": null,
   "github_company": "@cloudflare",
@@ -112,33 +119,34 @@
   "activity_status": "Active",
   "is_top_50": false,
   "github_url": "https://github.com/EthanHeilman",
+  "delving_url": "https://delvingbitcoin.org/u/ethanheilman",
   "commit_history": {
     "2015": {
-      "Build & CI": 0.67,
-      "P2P Network": 0.67,
-      "Tests": 0.67
+      "Build & CI": 0.33,
+      "P2P Network": 0.33,
+      "Tests": 0.33
     },
     "2016": {
-      "Build & CI": 0.67,
-      "P2P Network": 2.33,
-      "Tests": 6.33,
-      "Utilities": 0.67
+      "Build & CI": 0.33,
+      "P2P Network": 1.17,
+      "Tests": 3.17,
+      "Utilities": 0.33
     },
     "2018": {
-      "P2P Network": 3.0,
-      "Tests": 1.0
+      "P2P Network": 1.5,
+      "Tests": 0.5
     },
     "2020": {
-      "Utilities": 2.0
+      "Utilities": 1.0
     },
     "2021": {
-      "Build & CI": 2.0
+      "Build & CI": 1.0
     },
     "2023": {
-      "Build & CI": 2.0
+      "Build & CI": 1.0
     },
     "2025": {
-      "Tests": 4.0
+      "Tests": 2.0
     }
   },
   "bip_list": [
@@ -178,20 +186,19 @@
       "mining": 2
     },
     "2016": {
-      "other": 7,
-      "segwit": 1
+      "other": 8
     },
     "2017": {
       "covenants": 2,
-      "other": 4,
+      "other": 3,
+      "scaling": 1,
       "script-opcodes": 2
     },
     "2019": {
       "bitvm": 3,
       "covenants": 3,
-      "other": 3,
-      "mining": 4,
-      "segwit": 1
+      "other": 4,
+      "mining": 4
     },
     "2021": {
       "covenants": 2,
@@ -206,30 +213,31 @@
       "taproot": 2
     },
     "2024": {
-      "covenants": 12,
-      "other": 7,
+      "other": 9,
+      "covenants": 14,
       "mining": 1,
       "quantum": 7,
-      "script-opcodes": 9,
-      "taproot": 3
+      "script-opcodes": 11,
+      "taproot": 5
     },
     "2025": {
-      "bitvm": 2,
+      "bitvm": 3,
       "covenants": 3,
-      "other": 8,
+      "other": 9,
       "mining": 2,
-      "quantum": 10,
-      "segwit": 4,
-      "taproot": 2
+      "quantum": 19,
+      "scaling": 4,
+      "taproot": 10
     },
     "2026": {
       "bitvm": 1,
-      "covenants": 3,
-      "mining": 1,
-      "other": 8,
-      "quantum": 14,
-      "script-opcodes": 2,
-      "taproot": 4
+      "covenants": 4,
+      "mining": 2,
+      "other": 7,
+      "quantum": 16,
+      "scaling": 1,
+      "script-opcodes": 3,
+      "taproot": 5
     }
   }
 }

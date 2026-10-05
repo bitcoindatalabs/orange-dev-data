@@ -1,7 +1,7 @@
 {
   "display_name": "Jonathan Underwood",
   "github_login_final": "junderw",
-  "delving_username_final": null,
+  "delving_username_final": "junderw",
   "uuid": "auto_jonathan_underwood",
   "badges": null,
   "roles": null,
@@ -15,12 +15,12 @@
   "self_merges": 0.0,
   "total_additions": 24.0,
   "total_deletions": 10.0,
-  "first_core_commit": "2022-02-25T07:45:03+00:00",
-  "last_core_commit": "2022-02-25T07:45:03+00:00",
+  "first_core_commit": "2022-02-25T07:47:27+00:00",
+  "last_core_commit": "2022-02-25T07:47:27+00:00",
   "first_ecosystem_commit": null,
   "last_ecosystem_commit": null,
-  "first_commit": "2022-02-25T07:45:03",
-  "last_commit": "2022-02-25T07:45:03",
+  "first_commit": "2022-02-25T07:47:27",
+  "last_commit": "2022-02-25T07:47:27",
   "p2016_authored_commits": 1.0,
   "modern_authored_commits": 0.0,
   "co_authored_commits": 0.0,
@@ -45,47 +45,54 @@
   "avg_pr_ack_velocity_days": 1.7088310185185185,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": 5.625,
-  "hybrid_score": 0.1749,
-  "p2016_hybrid_score": 0.1765,
+  "hybrid_score": 0.2146,
+  "p2016_hybrid_score": 0.2158,
   "modern_hybrid_score": 0.083,
-  "impact_score": 10.0,
-  "p2016_impact_score": 10.0,
+  "impact_score": 12.0,
+  "p2016_impact_score": 12.0,
   "modern_impact_score": 5.0,
-  "threads_started": 2.0,
-  "replies_sent": 16.0,
+  "threads_started": 7.0,
+  "replies_sent": 17.0,
   "ml_threads": 2.0,
-  "delving_threads": 0.0,
+  "delving_threads": 5.0,
   "ml_responses": 16.0,
-  "delving_responses": 0.0,
-  "first_active": "2018-11-08T23:17:30",
-  "last_active": "2020-11-26T17:24:32",
-  "dev_type": "Reviewer",
+  "delving_responses": 1.0,
+  "first_active": null,
+  "last_active": "2025-11-12T15:56:16.956000",
+  "dev_type": "Builder",
   "expertise_domains": [
+    "Infrastructure",
     "Wallet",
-    "Cryptography"
+    "Network"
   ],
   "expertise_by_source": {
     "discussion": {
-      "Wallet": 0.943,
-      "Cryptography": 0.057
+      "Privacy": 0.227,
+      "Wallet": 0.773
+    },
+    "code": {
+      "Infrastructure": 0.667,
+      "Network": 0.333
     }
   },
   "expertise_domain_scores": {
-    "Wallet": 0.943,
-    "Cryptography": 0.057
+    "Privacy": 0.0908,
+    "Infrastructure": 0.4002,
+    "Wallet": 0.3092,
+    "Network": 0.1998
   },
-  "p2016_posts": 18.0,
-  "modern_posts": 0.0,
+  "p2016_posts": 24.0,
+  "modern_posts": 6.0,
   "p2016_ml_posts": 18.0,
-  "p2016_delving_posts": 0.0,
+  "p2016_delving_posts": 6.0,
   "modern_ml_posts": 0.0,
-  "modern_delving_posts": 0.0,
-  "is_engineer": false,
+  "modern_delving_posts": 6.0,
+  "is_engineer": true,
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": false,
   "global_first_active": "2017-05-02T10:19:14",
-  "global_last_active": "2024-06-03T11:45:21",
+  "global_last_active": "2025-11-12T15:56:16.956000",
   "github_location": "Tokyo, Japan",
   "github_company": null,
   "github_bio": "Chief Bitcoin Officer,\r\nBitbank Inc.",
@@ -95,11 +102,12 @@
   "activity_status": "Active",
   "is_top_50": false,
   "github_url": "https://github.com/junderw",
+  "delving_url": "https://delvingbitcoin.org/u/junderw",
   "commit_history": {
     "2022": {
-      "P2P Network": 0.67,
-      "Tests": 0.67,
-      "Utilities": 0.67
+      "P2P Network": 0.33,
+      "Tests": 0.33,
+      "Utilities": 0.33
     }
   },
   "first_message": {
@@ -109,10 +117,10 @@
     "link": "https://gnusha.org/pi/bitcoindev/CAMpN3m+Zo6LG1wCkW7tLZy7VzpF8YpjHQqq7StO78C0P-8y0Ew@mail.gmail.com"
   },
   "last_message": {
-    "source": "mailing_list",
-    "subject": "Re: [bitcoin-dev] Against proprietary and PoR fields in PSBT BIP174",
-    "date": "2020-11-26",
-    "link": "https://gnusha.org/pi/bitcoindev/CAMpN3m+BcbKE77jwgXnUN4GevaSS6R4ZEXe9kVrjiB_DNmu3uA@mail.gmail.com"
+    "source": "delving",
+    "subject": "Re: BIP352 private key formats",
+    "date": "2025-11-12",
+    "link": "https://delvingbitcoin.org/t/bip352-private-key-formats/2080/9"
   },
   "social_history": {
     "2018": {
@@ -128,6 +136,10 @@
     },
     "2020": {
       "wallet-keys": 1
+    },
+    "2025": {
+      "silent-payments": 6,
+      "wallet-keys": 6
     }
   }
 }

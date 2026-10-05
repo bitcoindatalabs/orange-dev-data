@@ -57,8 +57,8 @@
   "avg_pr_ack_velocity_days": null,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": 0.5,
-  "hybrid_score": 0.4084,
-  "p2016_hybrid_score": 0.4234,
+  "hybrid_score": 0.4083,
+  "p2016_hybrid_score": 0.4228,
   "modern_hybrid_score": 0.025,
   "impact_score": 22.0,
   "p2016_impact_score": 22.0,
@@ -69,8 +69,8 @@
   "delving_threads": 0.0,
   "ml_responses": 10.0,
   "delving_responses": 0.0,
-  "first_active": "2015-12-07T20:10:22",
-  "last_active": "2016-02-02T13:22:10",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Participant",
   "expertise_domains": [
     "Network",
@@ -79,18 +79,18 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Ecosystem": 0.371,
       "Mempool": 0.103,
-      "Script": 0.526
+      "Script": 0.526,
+      "Ecosystem": 0.371
     },
     "bips": {
       "Network": 1.0
     }
   },
   "expertise_domain_scores": {
-    "Ecosystem": 0.106,
     "Mempool": 0.0294,
     "Script": 0.1503,
+    "Ecosystem": 0.106,
     "Network": 0.7143
   },
   "p2016_posts": 11.0,
@@ -103,7 +103,7 @@
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": true,
-  "global_first_active": "2015-12-07T20:10:22",
+  "global_first_active": "2016-01-28T19:38:40",
   "global_last_active": "2019-07-23T15:21:33",
   "github_location": "New Mexico",
   "github_company": "GitHub",

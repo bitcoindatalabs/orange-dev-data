@@ -1,5 +1,5 @@
 {
-  "display_name": "Kekcoin",
+  "display_name": "kekcoin",
   "github_login_final": null,
   "delving_username_final": null,
   "uuid": "auto_kekcoin",
@@ -45,8 +45,8 @@
   "avg_pr_ack_velocity_days": null,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": null,
-  "hybrid_score": 0.0119,
-  "p2016_hybrid_score": 0.0196,
+  "hybrid_score": 0.0115,
+  "p2016_hybrid_score": 0.0194,
   "modern_hybrid_score": 0.0,
   "impact_score": 1.0,
   "p2016_impact_score": 1.0,
@@ -57,8 +57,8 @@
   "delving_threads": 0.0,
   "ml_responses": 6.0,
   "delving_responses": 0.0,
-  "first_active": "2017-04-18T07:37:29",
-  "last_active": "2017-07-05T03:54:40",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Participant",
   "expertise_domains": [
     "Consensus",
@@ -66,13 +66,13 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Mempool": 0.05,
-      "Consensus": 0.95
+      "Consensus": 0.95,
+      "Mempool": 0.05
     }
   },
   "expertise_domain_scores": {
-    "Mempool": 0.05,
-    "Consensus": 0.95
+    "Consensus": 0.95,
+    "Mempool": 0.05
   },
   "p2016_posts": 7.0,
   "modern_posts": 0.0,
@@ -84,8 +84,8 @@
   "is_reviewer": false,
   "is_researcher": true,
   "is_bip_author": false,
-  "global_first_active": "2017-04-18T07:37:29",
-  "global_last_active": "2017-07-05T03:54:40",
+  "global_first_active": null,
+  "global_last_active": null,
   "github_location": null,
   "github_company": null,
   "github_bio": null,

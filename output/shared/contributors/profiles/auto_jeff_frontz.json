@@ -1,5 +1,5 @@
 {
-  "display_name": "Jeff Frontz",
+  "display_name": "jeff frontz",
   "github_login_final": "jhfrontz",
   "delving_username_final": null,
   "uuid": "auto_jeff_frontz",
@@ -19,11 +19,11 @@
   "total_additions": 10.0,
   "total_deletions": 3.0,
   "first_core_commit": "2018-05-29T13:57:38+00:00",
-  "last_core_commit": "2018-07-09T18:11:17+00:00",
+  "last_core_commit": "2018-07-09T18:12:21+00:00",
   "first_ecosystem_commit": "2020-01-03T18:21:56+00:00",
   "last_ecosystem_commit": "2020-01-03T18:21:56+00:00",
   "first_commit": "2018-05-29T13:57:38",
-  "last_commit": "2018-07-09T18:11:17",
+  "last_commit": "2018-07-09T18:12:21",
   "p2016_authored_commits": 3.0,
   "modern_authored_commits": 0.0,
   "co_authored_commits": 0.0,
@@ -48,11 +48,11 @@
   "avg_pr_ack_velocity_days": 1.4552546296296298,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": 0.5,
-  "hybrid_score": 0.0396,
-  "p2016_hybrid_score": 0.0396,
+  "hybrid_score": 0.1196,
+  "p2016_hybrid_score": 0.1196,
   "modern_hybrid_score": 0.025,
-  "impact_score": 2.0,
-  "p2016_impact_score": 2.0,
+  "impact_score": 7.0,
+  "p2016_impact_score": 7.0,
   "modern_impact_score": 1.0,
   "threads_started": 0.0,
   "replies_sent": 0.0,
@@ -62,13 +62,20 @@
   "delving_responses": 0.0,
   "first_active": null,
   "last_active": null,
-  "dev_type": "Participant",
+  "dev_type": "Builder",
   "expertise_domains": [
-    "Infrastructure"
+    "Infrastructure",
+    "Wallet"
   ],
-  "expertise_by_source": {},
+  "expertise_by_source": {
+    "code": {
+      "Wallet": 0.333,
+      "Infrastructure": 0.667
+    }
+  },
   "expertise_domain_scores": {
-    "Infrastructure": 1.0
+    "Infrastructure": 0.667,
+    "Wallet": 0.333
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,
@@ -76,7 +83,7 @@
   "p2016_delving_posts": 0.0,
   "modern_ml_posts": 0.0,
   "modern_delving_posts": 0.0,
-  "is_engineer": false,
+  "is_engineer": true,
   "is_reviewer": true,
   "is_researcher": false,
   "is_bip_author": false,
@@ -93,8 +100,8 @@
   "github_url": "https://github.com/jhfrontz",
   "commit_history": {
     "2018": {
-      "Documentation": 2.0,
-      "Utilities": 2.0
+      "Documentation": 1.0,
+      "Utilities": 1.0
     },
     "2020": {
       "Wallet": 1.0

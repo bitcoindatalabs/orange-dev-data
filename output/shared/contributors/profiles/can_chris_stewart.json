@@ -1,7 +1,7 @@
 {
   "display_name": "Chris Stewart",
   "github_login_final": "Christewart",
-  "delving_username_final": null,
+  "delving_username_final": "chris_stewart_5",
   "uuid": "can_chris_stewart",
   "badges": {
     "is_maintainer": false,
@@ -27,12 +27,12 @@
   "self_merges": 0.0,
   "total_additions": 273.0,
   "total_deletions": 19.0,
-  "first_core_commit": "2016-04-26T11:21:31+00:00",
-  "last_core_commit": "2025-12-09T16:11:13+00:00",
+  "first_core_commit": "2016-04-26T11:21:47+00:00",
+  "last_core_commit": "2025-12-09T16:11:22+00:00",
   "first_ecosystem_commit": null,
   "last_ecosystem_commit": null,
-  "first_commit": "2016-04-26T11:21:31",
-  "last_commit": "2025-12-09T16:11:13",
+  "first_commit": "2016-04-26T11:21:47",
+  "last_commit": "2025-12-09T16:11:22",
   "p2016_authored_commits": 12.0,
   "modern_authored_commits": 4.0,
   "co_authored_commits": 0.0,
@@ -57,48 +57,54 @@
   "avg_pr_ack_velocity_days": 34.872457561728396,
   "avg_concept_lead_time_days": 93.17467206790123,
   "review_reciprocity": 1.7272727272727273,
-  "hybrid_score": 0.5643,
-  "p2016_hybrid_score": 0.6124,
-  "modern_hybrid_score": 0.6411,
-  "impact_score": 29.0,
-  "p2016_impact_score": 31.0,
-  "modern_impact_score": 32.0,
-  "threads_started": 9.0,
-  "replies_sent": 35.0,
+  "hybrid_score": 0.7109,
+  "p2016_hybrid_score": 0.7571,
+  "modern_hybrid_score": 0.7139,
+  "impact_score": 35.0,
+  "p2016_impact_score": 37.0,
+  "modern_impact_score": 35.0,
+  "threads_started": 35.0,
+  "replies_sent": 59.0,
   "ml_threads": 9.0,
-  "delving_threads": 0.0,
+  "delving_threads": 26.0,
   "ml_responses": 35.0,
-  "delving_responses": 0.0,
-  "first_active": "2017-03-18T10:23:16",
-  "last_active": "2026-05-02T10:26:15",
-  "dev_type": "Reviewer",
+  "delving_responses": 24.0,
+  "first_active": null,
+  "last_active": null,
+  "dev_type": "Protocol Designer",
   "expertise_domains": [
     "Consensus",
-    "L2"
+    "Infrastructure",
+    "Script"
   ],
   "expertise_by_source": {
     "discussion": {
-      "L2": 1.0
+      "Consensus": 0.317,
+      "Script": 0.683
+    },
+    "code": {
+      "Infrastructure": 1.0
     },
     "bips": {
       "Consensus": 1.0
     }
   },
   "expertise_domain_scores": {
-    "L2": 0.2857,
-    "Consensus": 0.7143
+    "Infrastructure": 0.3,
+    "Consensus": 0.5634,
+    "Script": 0.1366
   },
-  "p2016_posts": 44.0,
-  "modern_posts": 12.0,
+  "p2016_posts": 94.0,
+  "modern_posts": 62.0,
   "p2016_ml_posts": 44.0,
-  "p2016_delving_posts": 0.0,
+  "p2016_delving_posts": 50.0,
   "modern_ml_posts": 12.0,
-  "modern_delving_posts": 0.0,
-  "is_engineer": false,
+  "modern_delving_posts": 50.0,
+  "is_engineer": true,
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": true,
-  "global_first_active": "2016-04-26T11:21:31",
+  "global_first_active": "2016-04-26T11:21:47",
   "global_last_active": "2026-07-24T17:49:56",
   "github_location": null,
   "github_company": null,
@@ -109,25 +115,26 @@
   "activity_status": "Active",
   "is_top_50": false,
   "github_url": "https://github.com/Christewart",
+  "delving_url": "https://delvingbitcoin.org/u/chris_stewart_5",
   "commit_history": {
     "2016": {
-      "Tests": 8.0
+      "Tests": 4.0
     },
     "2017": {
-      "Tests": 2.0,
-      "Utilities": 2.0
+      "Tests": 1.0,
+      "Utilities": 1.0
     },
     "2018": {
-      "Build & CI": 1.0,
-      "Tests": 3.0
+      "Build & CI": 0.5,
+      "Tests": 1.5
     },
     "2024": {
-      "Documentation": 2.0,
-      "Tests": 2.0
+      "Documentation": 1.0,
+      "Tests": 1.0
     },
     "2025": {
-      "Node & RPC": 1.0,
-      "Tests": 3.0
+      "Node & RPC": 0.5,
+      "Tests": 1.5
     }
   },
   "bip_list": [
@@ -155,8 +162,8 @@
     "2017": {
       "other": 9,
       "lightning": 1,
+      "mining": 3,
       "script-opcodes": 6,
-      "segwit": 3,
       "sidechains-drivechain": 14,
       "soft-fork-activation": 2
     },
@@ -164,39 +171,46 @@
       "other": 1
     },
     "2019": {
-      "other": 4,
-      "lightning": 2
+      "covenants": 2,
+      "lightning": 2,
+      "other": 2
     },
     "2020": {
-      "dlc": 1,
-      "other": 3
+      "other": 3,
+      "taproot": 1
     },
     "2021": {
-      "dlc": 1,
-      "other": 1
+      "other": 2
     },
     "2022": {
-      "dlc": 5,
-      "lightning": 4,
-      "other": 1
+      "other": 6,
+      "lightning": 4
     },
     "2023": {
       "other": 1
     },
     "2024": {
-      "other": 1
+      "bip-process": 19,
+      "covenants": 21,
+      "lightning": 1,
+      "other": 16,
+      "mining": 8,
+      "script-opcodes": 25,
+      "soft-fork-activation": 5,
+      "taproot": 20
     },
     "2025": {
-      "consensus-cleanup": 4,
-      "other": 2,
-      "script-opcodes": 2,
-      "segwit": 2,
-      "soft-fork-activation": 2
+      "other": 35,
+      "covenants": 14,
+      "lightning": 4,
+      "mining": 4,
+      "script-opcodes": 11,
+      "soft-fork-activation": 2,
+      "taproot": 4
     },
     "2026": {
-      "other": 2,
-      "consensus-cleanup": 1,
-      "segwit": 1,
+      "bip-process": 1,
+      "other": 3,
       "soft-fork-activation": 1
     }
   }

@@ -1,5 +1,5 @@
 {
-  "display_name": "Justin Moon",
+  "display_name": "justin moon",
   "github_login_final": "justinmoon",
   "delving_username_final": null,
   "uuid": "auto_justin_moon",
@@ -18,12 +18,12 @@
   "self_merges": 0.0,
   "total_additions": 3.0,
   "total_deletions": 3.0,
-  "first_core_commit": "2020-08-04T00:41:59+00:00",
-  "last_core_commit": "2020-08-04T00:41:59+00:00",
+  "first_core_commit": "2020-08-04T01:15:07+00:00",
+  "last_core_commit": "2020-08-04T01:15:07+00:00",
   "first_ecosystem_commit": "2019-07-18T16:38:13+00:00",
   "last_ecosystem_commit": "2019-07-18T16:38:13+00:00",
-  "first_commit": "2020-08-04T00:41:59",
-  "last_commit": "2020-08-04T00:41:59",
+  "first_commit": "2020-08-04T01:15:07",
+  "last_commit": "2020-08-04T01:15:07",
   "p2016_authored_commits": 2.0,
   "modern_authored_commits": 0.0,
   "co_authored_commits": 0.0,
@@ -48,11 +48,11 @@
   "avg_pr_ack_velocity_days": 0.07841435185185185,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": 0.0,
-  "hybrid_score": 0.0146,
-  "p2016_hybrid_score": 0.0146,
+  "hybrid_score": 0.078,
+  "p2016_hybrid_score": 0.078,
   "modern_hybrid_score": 0.0146,
-  "impact_score": 1.0,
-  "p2016_impact_score": 1.0,
+  "impact_score": 5.0,
+  "p2016_impact_score": 5.0,
   "modern_impact_score": 1.0,
   "threads_started": 0.0,
   "replies_sent": 0.0,
@@ -62,13 +62,17 @@
   "delving_responses": 0.0,
   "first_active": null,
   "last_active": null,
-  "dev_type": "Participant",
+  "dev_type": "Builder",
   "expertise_domains": [
-    "Infrastructure"
+    "Wallet"
   ],
-  "expertise_by_source": {},
+  "expertise_by_source": {
+    "code": {
+      "Wallet": 1.0
+    }
+  },
   "expertise_domain_scores": {
-    "Infrastructure": 1.0
+    "Wallet": 1.0
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,
@@ -76,12 +80,12 @@
   "p2016_delving_posts": 0.0,
   "modern_ml_posts": 0.0,
   "modern_delving_posts": 0.0,
-  "is_engineer": false,
+  "is_engineer": true,
   "is_reviewer": true,
   "is_researcher": false,
   "is_bip_author": false,
-  "global_first_active": "2020-08-04T00:41:59",
-  "global_last_active": "2020-08-04T00:41:59",
+  "global_first_active": "2020-08-04T01:15:07",
+  "global_last_active": "2020-08-04T01:15:07",
   "github_location": null,
   "github_company": null,
   "github_bio": null,
@@ -96,7 +100,7 @@
       "Wallet": 1.0
     },
     "2020": {
-      "Wallet": 2.0
+      "Wallet": 1.0
     }
   }
 }

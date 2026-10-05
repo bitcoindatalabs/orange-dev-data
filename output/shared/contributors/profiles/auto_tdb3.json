@@ -15,12 +15,12 @@
   "self_merges": 0.0,
   "total_additions": 726.0,
   "total_deletions": 202.0,
-  "first_core_commit": "2024-03-14T09:55:10+00:00",
-  "last_core_commit": "2025-03-21T05:47:48+00:00",
+  "first_core_commit": "2024-03-14T10:09:06+00:00",
+  "last_core_commit": "2025-03-21T05:47:56+00:00",
   "first_ecosystem_commit": null,
   "last_ecosystem_commit": null,
-  "first_commit": "2024-03-14T09:55:10",
-  "last_commit": "2025-03-21T05:47:48",
+  "first_commit": "2024-03-14T10:09:06",
+  "last_commit": "2025-03-21T05:47:56",
   "p2016_authored_commits": 44.0,
   "modern_authored_commits": 44.0,
   "co_authored_commits": 6.0,
@@ -45,12 +45,12 @@
   "avg_pr_ack_velocity_days": 6.293289351851852,
   "avg_concept_lead_time_days": 26.802949459876544,
   "review_reciprocity": 14.625,
-  "hybrid_score": 0.1981,
-  "p2016_hybrid_score": 0.1981,
-  "modern_hybrid_score": 0.1981,
-  "impact_score": 11.0,
-  "p2016_impact_score": 11.0,
-  "modern_impact_score": 11.0,
+  "hybrid_score": 0.4178,
+  "p2016_hybrid_score": 0.4178,
+  "modern_hybrid_score": 0.4178,
+  "impact_score": 22.0,
+  "p2016_impact_score": 22.0,
+  "modern_impact_score": 22.0,
   "threads_started": 0.0,
   "replies_sent": 0.0,
   "ml_threads": 0.0,
@@ -59,13 +59,20 @@
   "delving_responses": 0.0,
   "first_active": null,
   "last_active": null,
-  "dev_type": "Reviewer",
+  "dev_type": "Builder",
   "expertise_domains": [
-    "Infrastructure"
+    "Infrastructure",
+    "Network"
   ],
-  "expertise_by_source": {},
+  "expertise_by_source": {
+    "code": {
+      "Infrastructure": 0.977,
+      "Network": 0.023
+    }
+  },
   "expertise_domain_scores": {
-    "Infrastructure": 1.0
+    "Infrastructure": 0.977,
+    "Network": 0.023
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,
@@ -73,12 +80,12 @@
   "p2016_delving_posts": 0.0,
   "modern_ml_posts": 0.0,
   "modern_delving_posts": 0.0,
-  "is_engineer": false,
+  "is_engineer": true,
   "is_reviewer": true,
   "is_researcher": false,
   "is_bip_author": false,
   "global_first_active": "2024-01-28T16:20:47",
-  "global_last_active": "2025-03-21T05:47:48",
+  "global_last_active": "2025-03-21T05:47:56",
   "github_location": null,
   "github_company": null,
   "github_bio": "PGP: ECE9 F091 AC74 6B75 9366  59A8 2E75 ABF7 86F5 92AF",
@@ -90,15 +97,15 @@
   "github_url": "https://github.com/tdb3",
   "commit_history": {
     "2024": {
-      "Documentation": 8.0,
-      "Node & RPC": 15.0,
-      "P2P Network": 2.0,
-      "Tests": 51.0,
-      "Utilities": 6.0
+      "Documentation": 4.0,
+      "Node & RPC": 7.5,
+      "P2P Network": 1.0,
+      "Tests": 25.5,
+      "Utilities": 3.0
     },
     "2025": {
-      "Documentation": 2.0,
-      "Tests": 4.0
+      "Documentation": 1.0,
+      "Tests": 2.0
     }
   }
 }

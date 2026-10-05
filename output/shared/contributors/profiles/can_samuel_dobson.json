@@ -31,12 +31,12 @@
   "self_merges": 0.0,
   "total_additions": 9368.0,
   "total_deletions": 7803.0,
-  "first_core_commit": "2017-08-15T22:45:58+00:00",
-  "last_core_commit": "2021-12-20T19:50:54+00:00",
+  "first_core_commit": "2011-07-27T20:10:47+00:00",
+  "last_core_commit": "2021-12-20T19:51:58+00:00",
   "first_ecosystem_commit": null,
   "last_ecosystem_commit": null,
-  "first_commit": "2017-08-15T22:45:58",
-  "last_commit": "2021-12-20T19:50:54",
+  "first_commit": "2011-07-27T20:10:47",
+  "last_commit": "2021-12-20T19:51:58",
   "p2016_authored_commits": 139.0,
   "modern_authored_commits": 0.0,
   "co_authored_commits": 8.0,
@@ -61,11 +61,11 @@
   "avg_pr_ack_velocity_days": 7.4440962009803915,
   "avg_concept_lead_time_days": 13.756708622685187,
   "review_reciprocity": 9.5,
-  "hybrid_score": 1.2402,
-  "p2016_hybrid_score": 0.2402,
+  "hybrid_score": 1.5724,
+  "p2016_hybrid_score": 0.5722,
   "modern_hybrid_score": 0.133,
-  "impact_score": 52.0,
-  "p2016_impact_score": 13.0,
+  "impact_score": 61.0,
+  "p2016_impact_score": 29.0,
   "modern_impact_score": 8.0,
   "threads_started": 0.0,
   "replies_sent": 0.0,
@@ -75,13 +75,28 @@
   "delving_responses": 0.0,
   "first_active": null,
   "last_active": null,
-  "dev_type": "Reviewer",
+  "dev_type": "Builder",
   "expertise_domains": [
-    "Infrastructure"
+    "Infrastructure",
+    "Wallet",
+    "Script"
   ],
-  "expertise_by_source": {},
+  "expertise_by_source": {
+    "code": {
+      "Wallet": 0.26,
+      "Infrastructure": 0.707,
+      "Consensus": 0.011,
+      "Script": 0.016,
+      "Network": 0.002,
+      "Mempool": 0.002,
+      "Cryptography": 0.001
+    }
+  },
   "expertise_domain_scores": {
-    "Infrastructure": 1.0
+    "Infrastructure": 0.7077,
+    "Wallet": 0.2603,
+    "Consensus": 0.011,
+    "Script": 0.016
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,
@@ -89,11 +104,11 @@
   "p2016_delving_posts": 0.0,
   "modern_ml_posts": 0.0,
   "modern_delving_posts": 0.0,
-  "is_engineer": false,
+  "is_engineer": true,
   "is_reviewer": true,
   "is_researcher": false,
   "is_bip_author": false,
-  "global_first_active": "2017-06-28T13:19:03",
+  "global_first_active": "2011-07-27T20:10:47",
   "global_last_active": "2022-02-07T23:29:54",
   "github_location": null,
   "github_company": null,
@@ -105,57 +120,60 @@
   "is_top_50": false,
   "github_url": "https://github.com/meshcollider",
   "commit_history": {
+    "2011": {
+      "GUI": 1.0
+    },
     "2017": {
-      "Build & CI": 3.5,
-      "Consensus": 2.68,
-      "Cryptography": 0.18,
-      "Database": 0.18,
-      "Documentation": 9.67,
-      "GUI": 7.42,
-      "Mempool": 0.18,
-      "Node & RPC": 8.42,
-      "P2P Network": 0.68,
-      "Script": 0.52,
-      "Tests": 18.08,
-      "Utilities": 20.92,
-      "Wallet": 19.58
+      "Build & CI": 1.75,
+      "Consensus": 1.34,
+      "Cryptography": 0.09,
+      "Database": 0.09,
+      "Documentation": 4.83,
+      "GUI": 3.71,
+      "Mempool": 0.09,
+      "Node & RPC": 4.21,
+      "P2P Network": 0.34,
+      "Script": 0.26,
+      "Tests": 9.04,
+      "Utilities": 10.46,
+      "Wallet": 9.79
     },
     "2018": {
-      "Documentation": 2.0,
-      "GUI": 1.0,
-      "Merge": 12.0,
-      "Node & RPC": 1.67,
-      "Tests": 13.0,
-      "Utilities": 2.67,
-      "Wallet": 9.67
+      "Documentation": 1.0,
+      "GUI": 0.5,
+      "Merge": 6.0,
+      "Node & RPC": 0.83,
+      "Tests": 6.5,
+      "Utilities": 1.33,
+      "Wallet": 4.83
     },
     "2019": {
-      "Documentation": 6.0,
-      "GUI": 2.0,
-      "Merge": 124.0,
-      "Node & RPC": 1.0,
-      "Script": 2.0,
-      "Tests": 10.0,
-      "Utilities": 3.0,
-      "Wallet": 4.0
+      "Documentation": 3.0,
+      "GUI": 1.0,
+      "Merge": 62.0,
+      "Node & RPC": 0.5,
+      "Script": 1.0,
+      "Tests": 5.0,
+      "Utilities": 1.5,
+      "Wallet": 2.0
     },
     "2020": {
-      "Merge": 124.0,
-      "Script": 2.0,
-      "Tests": 3.0,
-      "Utilities": 3.0
+      "Merge": 62.0,
+      "Script": 1.0,
+      "Tests": 1.5,
+      "Utilities": 1.5
     },
     "2021": {
-      "Build & CI": 8.4,
-      "Consensus": 0.5,
-      "Documentation": 12.0,
-      "GUI": 5.0,
-      "Mempool": 0.5,
-      "Merge": 92.0,
-      "Node & RPC": 4.9,
-      "Tests": 30.4,
-      "Utilities": 19.4,
-      "Wallet": 38.9
+      "Build & CI": 4.2,
+      "Consensus": 0.25,
+      "Documentation": 6.0,
+      "GUI": 1.5,
+      "Mempool": 0.25,
+      "Merge": 46.0,
+      "Node & RPC": 2.45,
+      "Tests": 15.2,
+      "Utilities": 9.7,
+      "Wallet": 19.45
     }
   }
 }

@@ -16,11 +16,11 @@
   "total_additions": 249.0,
   "total_deletions": 382.0,
   "first_core_commit": "2024-11-22T21:28:30+00:00",
-  "last_core_commit": "2026-08-11T16:14:56+00:00",
+  "last_core_commit": "2026-08-11T16:15:17+00:00",
   "first_ecosystem_commit": null,
   "last_ecosystem_commit": null,
   "first_commit": "2024-11-22T21:28:30",
-  "last_commit": "2026-08-11T16:14:56",
+  "last_commit": "2026-08-11T16:15:17",
   "p2016_authored_commits": 17.0,
   "modern_authored_commits": 17.0,
   "co_authored_commits": 7.0,
@@ -29,28 +29,28 @@
   "modern_bips_authored": 0.0,
   "first_bip_date": null,
   "last_bip_date": null,
-  "avg_review_latency_days": 409.82049363200747,
-  "reviews_count": 111.0,
+  "avg_review_latency_days": 408.2768720840511,
+  "reviews_count": 112.0,
   "avg_approval_latency_days": 144.07992276531337,
   "approvals_count": 41.0,
-  "tier1_reviews_count": 110.0,
+  "tier1_reviews_count": 111.0,
   "tier2_reviews_count": 1.0,
-  "p2016_reviews_count": 111.0,
-  "modern_reviews_count": 111.0,
+  "p2016_reviews_count": 112.0,
+  "modern_reviews_count": 112.0,
   "first_review_date": "2025-02-02T17:27:31",
-  "last_review_date": "2026-09-25T05:46:52",
+  "last_review_date": "2026-09-28T10:24:38",
   "prs_authored": 21.0,
   "tier1_prs_authored": 21.0,
   "tier2_prs_authored": 0.0,
   "avg_pr_ack_velocity_days": 32.984051816239315,
   "avg_concept_lead_time_days": 3.6497615740740743,
-  "review_reciprocity": 5.285714285714286,
-  "hybrid_score": 0.1734,
-  "p2016_hybrid_score": 0.1734,
-  "modern_hybrid_score": 0.1734,
-  "impact_score": 10.0,
-  "p2016_impact_score": 10.0,
-  "modern_impact_score": 10.0,
+  "review_reciprocity": 5.333333333333333,
+  "hybrid_score": 0.3405,
+  "p2016_hybrid_score": 0.3405,
+  "modern_hybrid_score": 0.3405,
+  "impact_score": 18.0,
+  "p2016_impact_score": 18.0,
+  "modern_impact_score": 18.0,
   "threads_started": 0.0,
   "replies_sent": 0.0,
   "ml_threads": 0.0,
@@ -59,13 +59,25 @@
   "delving_responses": 0.0,
   "first_active": null,
   "last_active": null,
-  "dev_type": "Reviewer",
+  "dev_type": "Builder",
   "expertise_domains": [
-    "Infrastructure"
+    "Infrastructure",
+    "Script",
+    "Consensus"
   ],
-  "expertise_by_source": {},
+  "expertise_by_source": {
+    "code": {
+      "Infrastructure": 0.945,
+      "Consensus": 0.012,
+      "Script": 0.031,
+      "Network": 0.012
+    }
+  },
   "expertise_domain_scores": {
-    "Infrastructure": 1.0
+    "Infrastructure": 0.945,
+    "Consensus": 0.012,
+    "Script": 0.031,
+    "Network": 0.012
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,
@@ -73,12 +85,12 @@
   "p2016_delving_posts": 0.0,
   "modern_ml_posts": 0.0,
   "modern_delving_posts": 0.0,
-  "is_engineer": false,
+  "is_engineer": true,
   "is_reviewer": true,
   "is_researcher": false,
   "is_bip_author": false,
   "global_first_active": "2024-11-22T21:28:30",
-  "global_last_active": "2026-09-25T05:46:52",
+  "global_last_active": "2026-09-28T10:24:38",
   "github_location": "Hyperborea",
   "github_company": null,
   "github_bio": "executive high priest of blowing your mind",
@@ -93,16 +105,16 @@
       "Utilities": 1.0
     },
     "2025": {
-      "Build & CI": 8.0,
-      "Consensus": 0.4,
-      "P2P Network": 0.4,
-      "Script": 1.07,
-      "Tests": 3.07,
-      "Utilities": 6.07
+      "Build & CI": 4.5,
+      "Consensus": 0.2,
+      "P2P Network": 0.2,
+      "Script": 0.53,
+      "Tests": 1.53,
+      "Utilities": 4.03
     },
     "2026": {
-      "Build & CI": 6.0,
-      "Utilities": 4.0
+      "Build & CI": 3.0,
+      "Utilities": 2.0
     }
   }
 }

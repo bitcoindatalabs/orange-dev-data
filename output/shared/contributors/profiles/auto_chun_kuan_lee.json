@@ -1,5 +1,5 @@
 {
-  "display_name": "Chun Kuan Lee",
+  "display_name": "chun kuan lee",
   "github_login_final": "ken2812221",
   "delving_username_final": null,
   "uuid": "auto_chun_kuan_lee",
@@ -15,12 +15,12 @@
   "self_merges": 0.0,
   "total_additions": 2459.0,
   "total_deletions": 1741.0,
-  "first_core_commit": "2018-03-05T17:48:51+00:00",
-  "last_core_commit": "2019-03-01T14:47:52+00:00",
+  "first_core_commit": "2018-03-05T17:50:21+00:00",
+  "last_core_commit": "2019-03-01T14:49:44+00:00",
   "first_ecosystem_commit": null,
   "last_ecosystem_commit": null,
-  "first_commit": "2018-03-05T17:48:51",
-  "last_commit": "2019-03-01T14:47:52",
+  "first_commit": "2018-03-05T17:50:21",
+  "last_commit": "2019-03-01T14:49:44",
   "p2016_authored_commits": 105.0,
   "modern_authored_commits": 0.0,
   "co_authored_commits": 2.0,
@@ -45,11 +45,11 @@
   "avg_pr_ack_velocity_days": 7.438425659855258,
   "avg_concept_lead_time_days": 7.938462888291517,
   "review_reciprocity": 2.4166666666666665,
-  "hybrid_score": 0.2076,
-  "p2016_hybrid_score": 0.2076,
+  "hybrid_score": 0.4767,
+  "p2016_hybrid_score": 0.4767,
   "modern_hybrid_score": 0.1445,
-  "impact_score": 12.0,
-  "p2016_impact_score": 12.0,
+  "impact_score": 25.0,
+  "p2016_impact_score": 25.0,
   "modern_impact_score": 8.0,
   "threads_started": 0.0,
   "replies_sent": 0.0,
@@ -59,13 +59,24 @@
   "delving_responses": 0.0,
   "first_active": null,
   "last_active": null,
-  "dev_type": "Reviewer",
+  "dev_type": "Builder",
   "expertise_domains": [
-    "Infrastructure"
+    "Infrastructure",
+    "Wallet",
+    "Cryptography"
   ],
-  "expertise_by_source": {},
+  "expertise_by_source": {
+    "code": {
+      "Wallet": 0.044,
+      "Infrastructure": 0.934,
+      "Consensus": 0.008,
+      "Network": 0.005,
+      "Cryptography": 0.01
+    }
+  },
   "expertise_domain_scores": {
-    "Infrastructure": 1.0
+    "Infrastructure": 0.9331,
+    "Wallet": 0.044
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,
@@ -73,7 +84,7 @@
   "p2016_delving_posts": 0.0,
   "modern_ml_posts": 0.0,
   "modern_delving_posts": 0.0,
-  "is_engineer": false,
+  "is_engineer": true,
   "is_reviewer": true,
   "is_researcher": false,
   "is_bip_author": false,
@@ -90,24 +101,24 @@
   "github_url": "https://github.com/ken2812221",
   "commit_history": {
     "2018": {
-      "Build & CI": 29.5,
-      "Consensus": 1.73,
-      "Cryptography": 2.0,
-      "Documentation": 7.5,
-      "GUI": 9.07,
-      "Node & RPC": 6.07,
-      "P2P Network": 1.0,
-      "Tests": 28.73,
-      "Utilities": 84.23,
-      "Wallet": 8.17
+      "Build & CI": 14.75,
+      "Consensus": 0.87,
+      "Cryptography": 1.0,
+      "Documentation": 3.75,
+      "GUI": 4.53,
+      "Node & RPC": 3.03,
+      "P2P Network": 0.5,
+      "Tests": 14.37,
+      "Utilities": 42.12,
+      "Wallet": 4.08
     },
     "2019": {
-      "Build & CI": 15.67,
-      "GUI": 0.67,
-      "Node & RPC": 2.0,
-      "Tests": 2.0,
-      "Utilities": 10.67,
-      "Wallet": 1.0
+      "Build & CI": 7.83,
+      "GUI": 0.33,
+      "Node & RPC": 1.0,
+      "Tests": 1.0,
+      "Utilities": 5.33,
+      "Wallet": 0.5
     }
   }
 }

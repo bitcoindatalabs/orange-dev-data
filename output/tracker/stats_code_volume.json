@@ -1,1 +1,1 @@
-{"data": []}
+{"data": [{"name": "Tests", "value": 193100}, {"name": "Cryptography", "value": 83410}, {"name": "Utilities", "value": 71024}, {"name": "Node & RPC", "value": 34976}, {"name": "Database", "value": 31378}, {"name": "Wallet", "value": 28856}, {"name": "GUI", "value": 24698}, {"name": "Consensus", "value": 23017}, {"name": "P2P Network", "value": 19316}, {"name": "Script", "value": 13299}, {"name": "Mempool", "value": 6106}, {"name": "Build & CI", "value": 834}, {"name": "Documentation", "value": 510}]}

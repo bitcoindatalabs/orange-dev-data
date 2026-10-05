@@ -1,7 +1,7 @@
 {
   "display_name": "Pol Espinasa",
   "github_login_final": "polespinasa",
-  "delving_username_final": null,
+  "delving_username_final": "polespinasa",
   "uuid": "auto_pol_espinasa",
   "badges": {
     "is_maintainer": false,
@@ -27,12 +27,12 @@
   "self_merges": 0.0,
   "total_additions": 1843.0,
   "total_deletions": 1115.0,
-  "first_core_commit": "2025-03-24T16:59:24+00:00",
-  "last_core_commit": "2026-09-17T00:47:07+00:00",
+  "first_core_commit": "2012-03-19T12:13:09+00:00",
+  "last_core_commit": "2026-09-17T00:47:50+00:00",
   "first_ecosystem_commit": null,
   "last_ecosystem_commit": null,
-  "first_commit": "2025-03-24T16:59:24",
-  "last_commit": "2026-09-17T00:47:07",
+  "first_commit": "2012-03-19T12:13:09",
+  "last_commit": "2026-09-17T00:47:50",
   "p2016_authored_commits": 53.0,
   "modern_authored_commits": 53.0,
   "co_authored_commits": 6.0,
@@ -41,68 +41,77 @@
   "modern_bips_authored": 1.0,
   "first_bip_date": "2026-05-08T03:49:03",
   "last_bip_date": "2026-05-08T03:49:03",
-  "avg_review_latency_days": 527.3532133771151,
-  "reviews_count": 116.0,
-  "avg_approval_latency_days": 304.16875385802473,
-  "approvals_count": 89.0,
-  "tier1_reviews_count": 115.0,
+  "avg_review_latency_days": 512.2721759259259,
+  "reviews_count": 122.0,
+  "avg_approval_latency_days": 299.94627692901236,
+  "approvals_count": 93.0,
+  "tier1_reviews_count": 121.0,
   "tier2_reviews_count": 1.0,
-  "p2016_reviews_count": 116.0,
-  "modern_reviews_count": 116.0,
+  "p2016_reviews_count": 122.0,
+  "modern_reviews_count": 122.0,
   "first_review_date": "2024-10-29T12:22:59",
-  "last_review_date": "2026-09-24T10:40:58",
+  "last_review_date": "2026-10-01T16:31:28",
   "prs_authored": 29.0,
   "tier1_prs_authored": 29.0,
   "tier2_prs_authored": 0.0,
   "avg_pr_ack_velocity_days": 36.58361827601411,
   "avg_concept_lead_time_days": 49.27462239583333,
-  "review_reciprocity": 4.0,
-  "hybrid_score": 0.5367,
-  "p2016_hybrid_score": 0.543,
-  "modern_hybrid_score": 0.5775,
-  "impact_score": 28.0,
-  "p2016_impact_score": 28.0,
-  "modern_impact_score": 29.0,
-  "threads_started": 1.0,
-  "replies_sent": 2.0,
+  "review_reciprocity": 4.206896551724138,
+  "hybrid_score": 0.7684,
+  "p2016_hybrid_score": 0.7714,
+  "modern_hybrid_score": 0.8061,
+  "impact_score": 37.0,
+  "p2016_impact_score": 37.0,
+  "modern_impact_score": 38.0,
+  "threads_started": 3.0,
+  "replies_sent": 3.0,
   "ml_threads": 1.0,
-  "delving_threads": 0.0,
+  "delving_threads": 2.0,
   "ml_responses": 2.0,
-  "delving_responses": 0.0,
-  "first_active": "2026-06-02T06:24:18",
-  "last_active": "2026-06-02T11:48:56",
-  "dev_type": "Reviewer",
+  "delving_responses": 1.0,
+  "first_active": "2025-11-21T21:50:29.998000",
+  "last_active": null,
+  "dev_type": "Protocol Designer",
   "expertise_domains": [
     "Infrastructure",
-    "Mining",
-    "Consensus"
+    "Network",
+    "Wallet"
   ],
   "expertise_by_source": {
     "discussion": {
-      "Mining": 0.5,
-      "Consensus": 0.5
+      "Mining": 0.32,
+      "Network": 0.68
+    },
+    "code": {
+      "Wallet": 0.311,
+      "Infrastructure": 0.643,
+      "Consensus": 0.024,
+      "Script": 0.005,
+      "Network": 0.009,
+      "Mempool": 0.008
     },
     "bips": {
       "Infrastructure": 1.0
     }
   },
   "expertise_domain_scores": {
-    "Infrastructure": 0.7143,
-    "Mining": 0.1429,
-    "Consensus": 0.1429
+    "Mining": 0.064,
+    "Infrastructure": 0.6929,
+    "Wallet": 0.0933,
+    "Network": 0.1387
   },
-  "p2016_posts": 3.0,
-  "modern_posts": 3.0,
+  "p2016_posts": 6.0,
+  "modern_posts": 6.0,
   "p2016_ml_posts": 3.0,
-  "p2016_delving_posts": 0.0,
+  "p2016_delving_posts": 3.0,
   "modern_ml_posts": 3.0,
-  "modern_delving_posts": 0.0,
-  "is_engineer": false,
+  "modern_delving_posts": 3.0,
+  "is_engineer": true,
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": true,
-  "global_first_active": "2024-10-29T12:22:59",
-  "global_last_active": "2026-09-24T10:40:58",
+  "global_first_active": "2012-03-19T12:13:09",
+  "global_last_active": "2026-10-01T16:31:28",
   "github_location": "BCN",
   "github_company": "UAB",
   "github_bio": "PhD student researching Bitcoin and the Lightning Network ⚡ at UAB |||\r\n\r\n\r\nPGP: 2847 0907 B40B F26D",
@@ -112,26 +121,33 @@
   "activity_status": "Active",
   "is_top_50": false,
   "github_url": "https://github.com/polespinasa",
+  "delving_url": "https://delvingbitcoin.org/u/polespinasa",
   "commit_history": {
+    "2012": {
+      "Documentation": 1.0,
+      "GUI": 1.0,
+      "Tests": 0.5,
+      "Wallet": 0.5
+    },
     "2025": {
-      "Consensus": 0.5,
-      "Documentation": 4.0,
-      "Mempool": 0.5,
-      "Tests": 3.5,
-      "Wallet": 1.5
+      "Consensus": 0.25,
+      "Documentation": 2.0,
+      "Mempool": 0.25,
+      "Tests": 1.75,
+      "Wallet": 0.75
     },
     "2026": {
-      "Build & CI": 4.0,
-      "Consensus": 2.0,
-      "Documentation": 12.67,
-      "GUI": 6.33,
-      "Mempool": 0.33,
-      "Node & RPC": 3.83,
-      "P2P Network": 1.0,
-      "Script": 0.5,
-      "Tests": 32.5,
-      "Utilities": 1.33,
-      "Wallet": 29.5
+      "Build & CI": 2.0,
+      "Consensus": 1.0,
+      "Documentation": 5.33,
+      "GUI": 2.17,
+      "Mempool": 0.17,
+      "Node & RPC": 1.92,
+      "P2P Network": 0.5,
+      "Script": 0.25,
+      "Tests": 15.75,
+      "Utilities": 0.67,
+      "Wallet": 15.25
     }
   },
   "bip_list": [
@@ -144,10 +160,10 @@
     }
   ],
   "first_message": {
-    "source": "mailing_list",
-    "subject": "[bitcoindev] [BIP Draft] Testnet 5",
-    "date": "2026-06-02",
-    "link": "https://gnusha.org/pi/bitcoindev/BrgqDZiNhpEz32-Z9ZX2rrPDE9EUIb62SKT2WsTo-yZtd3gLMLVk6TkO6kLIR96-87TumXqi92l_m1j3xlJr1tcJwG_I3UVDk2NZgXZL8fw=@protonmail.com"
+    "source": "delving",
+    "subject": "Re: Stats on compact block reconstructions",
+    "date": "2025-11-21",
+    "link": "https://delvingbitcoin.org/t/stats-on-compact-block-reconstructions/1052/48"
   },
   "last_message": {
     "source": "mailing_list",
@@ -156,10 +172,17 @@
     "link": "https://gnusha.org/pi/bitcoindev/ZjV9FwOf2ShRUaaQWs6LZoHTDjbF8WmfmDptSF3x-V6rNducvUu7IRoXKfz7ZYnkxX9b4r8rIsKXcpMTgVNA7QS8qALJqCYEVRyaXrmwaXA=@protonmail.com"
   },
   "social_history": {
+    "2025": {
+      "hard-fork-block-size": 2,
+      "mempool-fees": 2,
+      "p2p-network": 2,
+      "spam-filtering": 2,
+      "taproot": 2
+    },
     "2026": {
       "consensus-cleanup": 1,
+      "other": 2,
       "mining": 2,
-      "soft-fork-activation": 1,
       "testing-devtools": 3
     }
   }

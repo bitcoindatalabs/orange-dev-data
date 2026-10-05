@@ -1,5 +1,5 @@
 {
-  "display_name": "deswurstes",
+  "display_name": "DesWurstes",
   "github_login_final": "DesWurstes",
   "delving_username_final": null,
   "uuid": "auto_deswurstes",
@@ -15,12 +15,12 @@
   "self_merges": 0.0,
   "total_additions": 45.0,
   "total_deletions": 46.0,
-  "first_core_commit": "2018-06-24T14:41:58+00:00",
-  "last_core_commit": "2020-05-04T23:19:44+00:00",
+  "first_core_commit": "2018-06-24T14:48:26+00:00",
+  "last_core_commit": "2020-05-04T23:45:24+00:00",
   "first_ecosystem_commit": null,
   "last_ecosystem_commit": null,
-  "first_commit": "2018-06-24T14:41:58",
-  "last_commit": "2020-05-04T23:19:44",
+  "first_commit": "2018-06-24T14:48:26",
+  "last_commit": "2020-05-04T23:45:24",
   "p2016_authored_commits": 5.0,
   "modern_authored_commits": 0.0,
   "co_authored_commits": 0.0,
@@ -45,11 +45,11 @@
   "avg_pr_ack_velocity_days": 0.18422067901234565,
   "avg_concept_lead_time_days": 0.4229513888888889,
   "review_reciprocity": 0.9166666666666666,
-  "hybrid_score": 0.1042,
-  "p2016_hybrid_score": 0.1042,
+  "hybrid_score": 0.2076,
+  "p2016_hybrid_score": 0.2076,
   "modern_hybrid_score": 0.0702,
-  "impact_score": 6.0,
-  "p2016_impact_score": 6.0,
+  "impact_score": 12.0,
+  "p2016_impact_score": 12.0,
   "modern_impact_score": 4.0,
   "threads_started": 0.0,
   "replies_sent": 0.0,
@@ -59,11 +59,15 @@
   "delving_responses": 0.0,
   "first_active": null,
   "last_active": null,
-  "dev_type": "Reviewer",
+  "dev_type": "Builder",
   "expertise_domains": [
     "Infrastructure"
   ],
-  "expertise_by_source": {},
+  "expertise_by_source": {
+    "code": {
+      "Infrastructure": 1.0
+    }
+  },
   "expertise_domain_scores": {
     "Infrastructure": 1.0
   },
@@ -73,12 +77,12 @@
   "p2016_delving_posts": 0.0,
   "modern_ml_posts": 0.0,
   "modern_delving_posts": 0.0,
-  "is_engineer": false,
+  "is_engineer": true,
   "is_reviewer": true,
   "is_researcher": false,
   "is_bip_author": false,
   "global_first_active": "2018-06-02T13:29:15",
-  "global_last_active": "2020-05-04T23:19:44",
+  "global_last_active": "2020-05-04T23:45:24",
   "github_location": null,
   "github_company": null,
   "github_bio": "I'm extraordinarily boring; feel free to unfollow; I promise not to take any offense.",
@@ -90,16 +94,16 @@
   "github_url": "https://github.com/DesWurstes",
   "commit_history": {
     "2018": {
-      "Node & RPC": 1.0,
-      "Tests": 1.0,
-      "Utilities": 2.0
+      "Node & RPC": 0.5,
+      "Tests": 0.5,
+      "Utilities": 1.0
     },
     "2019": {
       "Build & CI": 1.0,
       "Utilities": 1.0
     },
     "2020": {
-      "Utilities": 2.0
+      "Utilities": 1.0
     }
   }
 }

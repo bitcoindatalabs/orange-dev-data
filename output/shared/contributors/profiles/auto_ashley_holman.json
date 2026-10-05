@@ -15,12 +15,12 @@
   "self_merges": 0.0,
   "total_additions": 1042.0,
   "total_deletions": 48.0,
-  "first_core_commit": "2014-02-20T11:31:01+00:00",
-  "last_core_commit": "2015-09-21T12:34:44+00:00",
+  "first_core_commit": "2014-02-20T11:32:37+00:00",
+  "last_core_commit": "2015-09-21T12:35:07+00:00",
   "first_ecosystem_commit": null,
   "last_ecosystem_commit": null,
-  "first_commit": "2014-02-20T11:31:01",
-  "last_commit": "2015-09-21T12:34:44",
+  "first_commit": "2014-02-20T11:32:37",
+  "last_commit": "2015-09-21T12:35:07",
   "p2016_authored_commits": 0.0,
   "modern_authored_commits": 0.0,
   "co_authored_commits": 0.0,
@@ -45,10 +45,10 @@
   "avg_pr_ack_velocity_days": 15.555082947530865,
   "avg_concept_lead_time_days": 16.326944444444443,
   "review_reciprocity": 0.6666666666666666,
-  "hybrid_score": 0.0888,
+  "hybrid_score": 0.2009,
   "p2016_hybrid_score": 0.05,
   "modern_hybrid_score": 0.05,
-  "impact_score": 5.0,
+  "impact_score": 11.0,
   "p2016_impact_score": 3.0,
   "modern_impact_score": 3.0,
   "threads_started": 1.0,
@@ -57,10 +57,11 @@
   "delving_threads": 0.0,
   "ml_responses": 6.0,
   "delving_responses": 0.0,
-  "first_active": "2014-04-21T10:40:48",
-  "last_active": "2015-08-13T04:52:37",
-  "dev_type": "Participant",
+  "first_active": null,
+  "last_active": null,
+  "dev_type": "Builder",
   "expertise_domains": [
+    "Infrastructure",
     "Consensus",
     "Mining"
   ],
@@ -68,11 +69,17 @@
     "discussion": {
       "Mining": 0.5,
       "Consensus": 0.5
+    },
+    "code": {
+      "Infrastructure": 0.945,
+      "Mempool": 0.055
     }
   },
   "expertise_domain_scores": {
-    "Mining": 0.5,
-    "Consensus": 0.5
+    "Mining": 0.2,
+    "Infrastructure": 0.567,
+    "Consensus": 0.2,
+    "Mempool": 0.033
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,
@@ -80,12 +87,12 @@
   "p2016_delving_posts": 0.0,
   "modern_ml_posts": 0.0,
   "modern_delving_posts": 0.0,
-  "is_engineer": false,
+  "is_engineer": true,
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": false,
-  "global_first_active": "2014-02-20T11:31:01",
-  "global_last_active": "2015-09-21T12:34:44",
+  "global_first_active": "2014-02-20T11:32:37",
+  "global_last_active": "2015-09-21T12:35:07",
   "github_location": "Sydney, Australia",
   "github_company": null,
   "github_bio": null,
@@ -97,14 +104,14 @@
   "github_url": "https://github.com/ashleyholman",
   "commit_history": {
     "2014": {
-      "Build & CI": 1.0,
-      "GUI": 3.0,
-      "Utilities": 6.0
+      "Build & CI": 0.5,
+      "GUI": 1.5,
+      "Utilities": 3.0
     },
     "2015": {
-      "Mempool": 0.67,
-      "Tests": 0.67,
-      "Utilities": 0.67
+      "Mempool": 0.33,
+      "Tests": 0.33,
+      "Utilities": 0.33
     }
   },
   "first_message": {

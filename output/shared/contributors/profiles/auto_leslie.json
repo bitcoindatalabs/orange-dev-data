@@ -1,7 +1,7 @@
 {
-  "display_name": "leslie",
+  "display_name": "LesLie",
   "github_login_final": null,
-  "delving_username_final": null,
+  "delving_username_final": "0300dbdd1b",
   "uuid": "auto_leslie",
   "badges": null,
   "roles": null,
@@ -45,46 +45,80 @@
   "avg_pr_ack_velocity_days": null,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": null,
-  "hybrid_score": 0.0,
-  "p2016_hybrid_score": 0.0,
-  "modern_hybrid_score": 0.0,
+  "hybrid_score": 0.0074,
+  "p2016_hybrid_score": 0.013,
+  "modern_hybrid_score": 0.1378,
   "impact_score": 0.0,
-  "p2016_impact_score": 0.0,
-  "modern_impact_score": 0.0,
-  "threads_started": 0.0,
-  "replies_sent": 0.0,
-  "ml_threads": 0.0,
-  "delving_threads": 0.0,
-  "ml_responses": 0.0,
-  "delving_responses": 0.0,
+  "p2016_impact_score": 1.0,
+  "modern_impact_score": 8.0,
+  "threads_started": 3.0,
+  "replies_sent": 4.0,
+  "ml_threads": 1.0,
+  "delving_threads": 2.0,
+  "ml_responses": 2.0,
+  "delving_responses": 2.0,
   "first_active": null,
-  "last_active": null,
+  "last_active": "2026-06-16T23:48:44.740000",
   "dev_type": "Participant",
   "expertise_domains": [
-    "Infrastructure"
+    "Wallet",
+    "Mempool"
   ],
-  "expertise_by_source": {},
-  "expertise_domain_scores": {
-    "Infrastructure": 1.0
+  "expertise_by_source": {
+    "discussion": {
+      "Wallet": 0.6,
+      "Mempool": 0.4
+    }
   },
-  "p2016_posts": 0.0,
-  "modern_posts": 0.0,
-  "p2016_ml_posts": 0.0,
-  "p2016_delving_posts": 0.0,
-  "modern_ml_posts": 0.0,
-  "modern_delving_posts": 0.0,
+  "expertise_domain_scores": {
+    "Wallet": 0.6,
+    "Mempool": 0.4
+  },
+  "p2016_posts": 7.0,
+  "modern_posts": 7.0,
+  "p2016_ml_posts": 3.0,
+  "p2016_delving_posts": 4.0,
+  "modern_ml_posts": 3.0,
+  "modern_delving_posts": 4.0,
   "is_engineer": false,
   "is_reviewer": false,
-  "is_researcher": false,
+  "is_researcher": true,
   "is_bip_author": false,
   "global_first_active": null,
-  "global_last_active": null,
+  "global_last_active": "2026-06-16T23:48:44.740000",
   "github_location": null,
   "github_company": null,
   "github_bio": null,
   "github_twitter": null,
   "github_blog": null,
   "github_followers": null,
-  "activity_status": "",
-  "is_top_50": false
+  "activity_status": "Active",
+  "is_top_50": false,
+  "delving_url": "https://delvingbitcoin.org/u/0300dbdd1b",
+  "first_message": {
+    "source": "mailing_list",
+    "subject": "[bitcoin-dev] Introducing a version field to BIP39 mnemonic phrases",
+    "date": "2024-01-10",
+    "link": "https://gnusha.org/pi/bitcoindev/CdTY_9q1MdmLQ9iU7lIfS-14ibPGbuvlGFiXTdG5OzgaDolAsI2Pp3YXFmjU_o1XbijZmJA1mc4CCm1JMvsfLu5PDBdHYJuOcvgMMkxgpL0=@protonmail.com"
+  },
+  "last_message": {
+    "source": "delving",
+    "subject": "Defining 0x50 0x00 as unstructured taproot annex data",
+    "date": "2026-06-16",
+    "link": "https://delvingbitcoin.org/t/defining-0x50-0x00-as-unstructured-taproot-annex-data/2620/1"
+  },
+  "social_history": {
+    "2024": {
+      "script-opcodes": 1,
+      "wallet-keys": 3
+    },
+    "2026": {
+      "consensus-cleanup": 3,
+      "core-dev": 3,
+      "mempool-fees": 4,
+      "taproot": 1,
+      "testing-devtools": 3,
+      "utxo-sync": 3
+    }
+  }
 }

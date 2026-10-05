@@ -1,7 +1,7 @@
 {
-  "display_name": "bitsagarob",
+  "display_name": "BitsagaRob",
   "github_login_final": "bitsagarob",
-  "delving_username_final": null,
+  "delving_username_final": "bitsagarob",
   "uuid": "auto_bitsagarob",
   "badges": null,
   "roles": null,
@@ -51,34 +51,44 @@
   "impact_score": 3.0,
   "p2016_impact_score": 3.0,
   "modern_impact_score": 3.0,
-  "threads_started": 0.0,
+  "threads_started": 1.0,
   "replies_sent": 0.0,
   "ml_threads": 0.0,
-  "delving_threads": 0.0,
+  "delving_threads": 1.0,
   "ml_responses": 0.0,
   "delving_responses": 0.0,
-  "first_active": null,
-  "last_active": null,
+  "first_active": "2026-09-24T22:07:41.190000",
+  "last_active": "2026-09-24T22:07:41.190000",
   "dev_type": "Participant",
   "expertise_domains": [
-    "Infrastructure"
+    "Privacy",
+    "Mempool",
+    "Consensus"
   ],
-  "expertise_by_source": {},
-  "expertise_domain_scores": {
-    "Infrastructure": 1.0
+  "expertise_by_source": {
+    "discussion": {
+      "Privacy": 0.493,
+      "Consensus": 0.254,
+      "Mempool": 0.254
+    }
   },
-  "p2016_posts": 0.0,
-  "modern_posts": 0.0,
+  "expertise_domain_scores": {
+    "Privacy": 0.4925,
+    "Consensus": 0.2537,
+    "Mempool": 0.2537
+  },
+  "p2016_posts": 1.0,
+  "modern_posts": 1.0,
   "p2016_ml_posts": 0.0,
-  "p2016_delving_posts": 0.0,
+  "p2016_delving_posts": 1.0,
   "modern_ml_posts": 0.0,
-  "modern_delving_posts": 0.0,
+  "modern_delving_posts": 1.0,
   "is_engineer": false,
   "is_reviewer": true,
   "is_researcher": false,
   "is_bip_author": false,
   "global_first_active": "2026-09-03T12:22:16",
-  "global_last_active": "2026-09-18T21:13:09",
+  "global_last_active": "2026-09-24T22:07:41.190000",
   "github_location": null,
   "github_company": null,
   "github_bio": null,
@@ -87,5 +97,27 @@
   "github_followers": null,
   "activity_status": "New",
   "is_top_50": false,
-  "github_url": "https://github.com/bitsagarob"
+  "github_url": "https://github.com/bitsagarob",
+  "delving_url": "https://delvingbitcoin.org/u/bitsagarob",
+  "first_message": {
+    "source": "delving",
+    "subject": "Re: Silent Payments: Light Client Protocol",
+    "date": "2026-09-24",
+    "link": "https://delvingbitcoin.org/t/silent-payments-light-client-protocol/891/17"
+  },
+  "last_message": {
+    "source": "delving",
+    "subject": "Re: Silent Payments: Light Client Protocol",
+    "date": "2026-09-24",
+    "link": "https://delvingbitcoin.org/t/silent-payments-light-client-protocol/891/17"
+  },
+  "social_history": {
+    "2026": {
+      "mempool-fees": 1,
+      "p2p-network": 1,
+      "silent-payments": 1,
+      "taproot": 1,
+      "transaction-format": 1
+    }
+  }
 }

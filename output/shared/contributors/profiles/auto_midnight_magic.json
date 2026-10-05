@@ -1,7 +1,7 @@
 {
-  "display_name": "midnight magic",
+  "display_name": "Midnight Magic",
   "github_login_final": "midnightmagic",
-  "delving_username_final": null,
+  "delving_username_final": "midnight",
   "uuid": "auto_midnight_magic",
   "badges": null,
   "roles": null,
@@ -15,12 +15,12 @@
   "self_merges": 0.0,
   "total_additions": 114.0,
   "total_deletions": 24.0,
-  "first_core_commit": "2014-02-05T19:43:15+00:00",
-  "last_core_commit": "2026-09-21T19:21:17+00:00",
+  "first_core_commit": "2014-02-05T19:43:28+00:00",
+  "last_core_commit": "2026-09-21T19:22:43+00:00",
   "first_ecosystem_commit": null,
   "last_ecosystem_commit": null,
-  "first_commit": "2014-02-05T19:43:15",
-  "last_commit": "2026-09-21T19:21:17",
+  "first_commit": "2014-02-05T19:43:28",
+  "last_commit": "2026-09-21T19:22:43",
   "p2016_authored_commits": 1.0,
   "modern_authored_commits": 1.0,
   "co_authored_commits": 0.0,
@@ -45,40 +45,49 @@
   "avg_pr_ack_velocity_days": 249.8106886574074,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": 1.0,
-  "hybrid_score": 0.083,
-  "p2016_hybrid_score": 0.0702,
-  "modern_hybrid_score": 0.05,
-  "impact_score": 5.0,
-  "p2016_impact_score": 4.0,
-  "modern_impact_score": 3.0,
-  "threads_started": 0.0,
+  "hybrid_score": 0.163,
+  "p2016_hybrid_score": 0.1102,
+  "modern_hybrid_score": 0.09,
+  "impact_score": 9.0,
+  "p2016_impact_score": 6.0,
+  "modern_impact_score": 5.0,
+  "threads_started": 1.0,
   "replies_sent": 0.0,
   "ml_threads": 0.0,
-  "delving_threads": 0.0,
+  "delving_threads": 1.0,
   "ml_responses": 0.0,
   "delving_responses": 0.0,
-  "first_active": null,
-  "last_active": null,
-  "dev_type": "Participant",
+  "first_active": "2023-09-06T17:49:57.068000",
+  "last_active": "2023-09-06T17:49:57.068000",
+  "dev_type": "Builder",
   "expertise_domains": [
-    "Infrastructure"
+    "Infrastructure",
+    "Mempool"
   ],
-  "expertise_by_source": {},
-  "expertise_domain_scores": {
-    "Infrastructure": 1.0
+  "expertise_by_source": {
+    "discussion": {
+      "Mempool": 1.0
+    },
+    "code": {
+      "Infrastructure": 1.0
+    }
   },
-  "p2016_posts": 0.0,
+  "expertise_domain_scores": {
+    "Infrastructure": 0.6,
+    "Mempool": 0.4
+  },
+  "p2016_posts": 1.0,
   "modern_posts": 0.0,
   "p2016_ml_posts": 0.0,
-  "p2016_delving_posts": 0.0,
+  "p2016_delving_posts": 1.0,
   "modern_ml_posts": 0.0,
   "modern_delving_posts": 0.0,
-  "is_engineer": false,
+  "is_engineer": true,
   "is_reviewer": true,
   "is_researcher": false,
   "is_bip_author": false,
   "global_first_active": "2012-01-01T23:25:13",
-  "global_last_active": "2026-09-21T19:21:17",
+  "global_last_active": "2026-09-21T19:22:43",
   "github_location": "Canada",
   "github_company": null,
   "github_bio": null,
@@ -88,15 +97,35 @@
   "activity_status": "Active",
   "is_top_50": false,
   "github_url": "https://github.com/midnightmagic",
+  "delving_url": "https://delvingbitcoin.org/u/midnight",
   "commit_history": {
     "2014": {
-      "Build & CI": 2.0
+      "Build & CI": 1.0
     },
     "2015": {
-      "Documentation": 2.0
+      "Documentation": 1.0
     },
     "2026": {
-      "Utilities": 2.0
+      "Utilities": 1.0
+    }
+  },
+  "first_message": {
+    "source": "delving",
+    "subject": "Re: Public archive for Delving Bitcoin",
+    "date": "2023-09-06",
+    "link": "https://delvingbitcoin.org/t/public-archive-for-delving-bitcoin/87/5"
+  },
+  "last_message": {
+    "source": "delving",
+    "subject": "Re: Public archive for Delving Bitcoin",
+    "date": "2023-09-06",
+    "link": "https://delvingbitcoin.org/t/public-archive-for-delving-bitcoin/87/5"
+  },
+  "social_history": {
+    "2023": {
+      "core-dev": 1,
+      "mempool-fees": 1,
+      "security": 1
     }
   }
 }

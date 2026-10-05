@@ -24,11 +24,11 @@
   "total_additions": 427.0,
   "total_deletions": 188.0,
   "first_core_commit": "2013-05-22T14:51:43+00:00",
-  "last_core_commit": "2017-04-17T20:10:46+00:00",
+  "last_core_commit": "2017-04-17T20:13:53+00:00",
   "first_ecosystem_commit": null,
   "last_ecosystem_commit": null,
   "first_commit": "2013-05-22T14:51:43",
-  "last_commit": "2017-04-17T20:10:46",
+  "last_commit": "2017-04-17T20:13:53",
   "p2016_authored_commits": 7.0,
   "modern_authored_commits": 0.0,
   "co_authored_commits": 0.0,
@@ -53,11 +53,11 @@
   "avg_pr_ack_velocity_days": 3.389370177469136,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": 5.523809523809524,
-  "hybrid_score": 0.271,
-  "p2016_hybrid_score": 0.1527,
-  "modern_hybrid_score": 0.1121,
-  "impact_score": 15.0,
-  "p2016_impact_score": 9.0,
+  "hybrid_score": 0.4434,
+  "p2016_hybrid_score": 0.2725,
+  "modern_hybrid_score": 0.1123,
+  "impact_score": 23.0,
+  "p2016_impact_score": 15.0,
   "modern_impact_score": 7.0,
   "threads_started": 20.0,
   "replies_sent": 44.0,
@@ -65,19 +65,29 @@
   "delving_threads": 0.0,
   "ml_responses": 44.0,
   "delving_responses": 0.0,
-  "first_active": "2013-08-16T08:41:54",
-  "last_active": "2024-04-01T09:28:22",
-  "dev_type": "Reviewer",
+  "first_active": null,
+  "last_active": null,
+  "dev_type": "Builder",
   "expertise_domains": [
-    "Consensus"
+    "Infrastructure",
+    "Consensus",
+    "Network"
   ],
   "expertise_by_source": {
     "discussion": {
       "Consensus": 1.0
+    },
+    "code": {
+      "Wallet": 0.053,
+      "Infrastructure": 0.71,
+      "Network": 0.237
     }
   },
   "expertise_domain_scores": {
-    "Consensus": 1.0
+    "Infrastructure": 0.426,
+    "Wallet": 0.0318,
+    "Consensus": 0.4,
+    "Network": 0.1422
   },
   "p2016_posts": 4.0,
   "modern_posts": 1.0,
@@ -85,7 +95,7 @@
   "p2016_delving_posts": 0.0,
   "modern_ml_posts": 1.0,
   "modern_delving_posts": 0.0,
-  "is_engineer": false,
+  "is_engineer": true,
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": false,
@@ -102,21 +112,21 @@
   "github_url": "https://github.com/wtogami",
   "commit_history": {
     "2013": {
-      "Documentation": 1.0,
-      "P2P Network": 1.0,
-      "Utilities": 16.0
+      "Documentation": 0.5,
+      "P2P Network": 0.5,
+      "Utilities": 8.0
     },
     "2014": {
-      "Build & CI": 0.67,
-      "Documentation": 0.67,
-      "Utilities": 4.67
+      "Build & CI": 0.33,
+      "Documentation": 0.33,
+      "Utilities": 2.33
     },
     "2016": {
-      "Documentation": 4.0,
-      "P2P Network": 8.0
+      "Documentation": 2.0,
+      "P2P Network": 4.0
     },
     "2017": {
-      "Wallet": 2.0
+      "Wallet": 1.0
     }
   },
   "first_message": {

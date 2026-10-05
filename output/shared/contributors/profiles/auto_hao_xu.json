@@ -1,5 +1,5 @@
 {
-  "display_name": "hao xu",
+  "display_name": "Hao Xu",
   "github_login_final": "HowHsu",
   "delving_username_final": null,
   "uuid": "auto_hao_xu",
@@ -15,12 +15,12 @@
   "self_merges": 0.0,
   "total_additions": 478.0,
   "total_deletions": 272.0,
-  "first_core_commit": "2025-08-19T19:19:52+00:00",
-  "last_core_commit": "2026-09-23T17:06:03+00:00",
+  "first_core_commit": "2025-08-19T19:20:11+00:00",
+  "last_core_commit": "2026-09-23T17:06:10+00:00",
   "first_ecosystem_commit": null,
   "last_ecosystem_commit": null,
-  "first_commit": "2025-08-19T19:19:52",
-  "last_commit": "2026-09-23T17:06:03",
+  "first_commit": "2025-08-19T19:20:11",
+  "last_commit": "2026-09-23T17:06:10",
   "p2016_authored_commits": 23.0,
   "modern_authored_commits": 23.0,
   "co_authored_commits": 0.0,
@@ -45,12 +45,12 @@
   "avg_pr_ack_velocity_days": 32.40172003600823,
   "avg_concept_lead_time_days": 46.35790509259259,
   "review_reciprocity": 0.2222222222222222,
-  "hybrid_score": 0.1089,
-  "p2016_hybrid_score": 0.1089,
-  "modern_hybrid_score": 0.1089,
-  "impact_score": 6.0,
-  "p2016_impact_score": 6.0,
-  "modern_impact_score": 6.0,
+  "hybrid_score": 0.2923,
+  "p2016_hybrid_score": 0.2923,
+  "modern_hybrid_score": 0.2923,
+  "impact_score": 16.0,
+  "p2016_impact_score": 16.0,
+  "modern_impact_score": 16.0,
   "threads_started": 0.0,
   "replies_sent": 0.0,
   "ml_threads": 0.0,
@@ -59,13 +59,20 @@
   "delving_responses": 0.0,
   "first_active": null,
   "last_active": null,
-  "dev_type": "Participant",
+  "dev_type": "Builder",
   "expertise_domains": [
-    "Infrastructure"
+    "Infrastructure",
+    "Mempool"
   ],
-  "expertise_by_source": {},
+  "expertise_by_source": {
+    "code": {
+      "Infrastructure": 0.957,
+      "Mempool": 0.043
+    }
+  },
   "expertise_domain_scores": {
-    "Infrastructure": 1.0
+    "Infrastructure": 0.957,
+    "Mempool": 0.043
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,
@@ -73,12 +80,12 @@
   "p2016_delving_posts": 0.0,
   "modern_ml_posts": 0.0,
   "modern_delving_posts": 0.0,
-  "is_engineer": false,
+  "is_engineer": true,
   "is_reviewer": true,
   "is_researcher": false,
   "is_bip_author": false,
   "global_first_active": "2025-06-26T16:42:59",
-  "global_last_active": "2026-09-23T17:06:03",
+  "global_last_active": "2026-09-23T17:06:10",
   "github_location": "Hangzhou",
   "github_company": null,
   "github_bio": null,
@@ -90,14 +97,14 @@
   "github_url": "https://github.com/HowHsu",
   "commit_history": {
     "2025": {
-      "Node & RPC": 4.0
+      "Node & RPC": 2.0
     },
     "2026": {
-      "Documentation": 1.0,
-      "Mempool": 2.0,
-      "Node & RPC": 4.0,
-      "Tests": 33.0,
-      "Utilities": 2.0
+      "Documentation": 0.5,
+      "Mempool": 1.0,
+      "Node & RPC": 2.0,
+      "Tests": 16.5,
+      "Utilities": 1.0
     }
   }
 }

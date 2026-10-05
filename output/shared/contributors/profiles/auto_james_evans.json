@@ -15,12 +15,12 @@
   "self_merges": 0.0,
   "total_additions": 11.0,
   "total_deletions": 10.0,
-  "first_core_commit": "2017-03-01T10:16:11+00:00",
-  "last_core_commit": "2017-09-07T15:59:59+00:00",
+  "first_core_commit": "2017-03-01T10:17:31+00:00",
+  "last_core_commit": "2017-09-07T16:02:06+00:00",
   "first_ecosystem_commit": null,
   "last_ecosystem_commit": null,
-  "first_commit": "2017-03-01T10:16:11",
-  "last_commit": "2017-09-07T15:59:59",
+  "first_commit": "2017-03-01T10:17:31",
+  "last_commit": "2017-09-07T16:02:06",
   "p2016_authored_commits": 4.0,
   "modern_authored_commits": 0.0,
   "co_authored_commits": 0.0,
@@ -45,11 +45,11 @@
   "avg_pr_ack_velocity_days": 0.584417438271605,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": 0.4,
-  "hybrid_score": 0.0615,
-  "p2016_hybrid_score": 0.0615,
+  "hybrid_score": 0.1544,
+  "p2016_hybrid_score": 0.1544,
   "modern_hybrid_score": 0.0452,
-  "impact_score": 4.0,
-  "p2016_impact_score": 4.0,
+  "impact_score": 9.0,
+  "p2016_impact_score": 9.0,
   "modern_impact_score": 3.0,
   "threads_started": 0.0,
   "replies_sent": 0.0,
@@ -59,13 +59,23 @@
   "delving_responses": 0.0,
   "first_active": null,
   "last_active": null,
-  "dev_type": "Participant",
+  "dev_type": "Builder",
   "expertise_domains": [
-    "Infrastructure"
+    "Infrastructure",
+    "Network",
+    "Wallet"
   ],
-  "expertise_by_source": {},
+  "expertise_by_source": {
+    "code": {
+      "Wallet": 0.25,
+      "Infrastructure": 0.5,
+      "Network": 0.25
+    }
+  },
   "expertise_domain_scores": {
-    "Infrastructure": 1.0
+    "Infrastructure": 0.5,
+    "Wallet": 0.25,
+    "Network": 0.25
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,
@@ -73,11 +83,11 @@
   "p2016_delving_posts": 0.0,
   "modern_ml_posts": 0.0,
   "modern_delving_posts": 0.0,
-  "is_engineer": false,
+  "is_engineer": true,
   "is_reviewer": true,
   "is_researcher": false,
   "is_bip_author": false,
-  "global_first_active": "2017-03-01T10:16:11",
+  "global_first_active": "2017-03-01T10:17:31",
   "global_last_active": "2019-01-15T15:35:20",
   "github_location": "Buenos Aires, Argentina",
   "github_company": null,
@@ -90,10 +100,10 @@
   "github_url": "https://github.com/keystrike",
   "commit_history": {
     "2017": {
-      "GUI": 2.0,
-      "Node & RPC": 2.0,
-      "P2P Network": 2.0,
-      "Wallet": 2.0
+      "GUI": 1.0,
+      "Node & RPC": 1.0,
+      "P2P Network": 1.0,
+      "Wallet": 1.0
     }
   }
 }

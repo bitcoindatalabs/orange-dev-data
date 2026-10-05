@@ -1,7 +1,7 @@
 {
   "display_name": "elias rohrer",
   "github_login_final": "tnull",
-  "delving_username_final": null,
+  "delving_username_final": "tnull",
   "uuid": "auto_elias_rohrer",
   "badges": null,
   "roles": null,
@@ -15,12 +15,12 @@
   "self_merges": 0.0,
   "total_additions": 0.0,
   "total_deletions": 1.0,
-  "first_core_commit": "2015-12-17T09:39:57+00:00",
-  "last_core_commit": "2015-12-17T09:39:57+00:00",
+  "first_core_commit": "2015-12-17T09:40:22+00:00",
+  "last_core_commit": "2015-12-17T09:40:22+00:00",
   "first_ecosystem_commit": null,
   "last_ecosystem_commit": null,
-  "first_commit": "2015-12-17T09:39:57",
-  "last_commit": "2015-12-17T09:39:57",
+  "first_commit": "2015-12-17T09:40:22",
+  "last_commit": "2015-12-17T09:40:22",
   "p2016_authored_commits": 0.0,
   "modern_authored_commits": 0.0,
   "co_authored_commits": 0.0,
@@ -45,50 +45,52 @@
   "avg_pr_ack_velocity_days": 0.3764236111111111,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": 0.0,
-  "hybrid_score": 0.0398,
-  "p2016_hybrid_score": 0.0434,
+  "hybrid_score": 0.0797,
+  "p2016_hybrid_score": 0.0432,
   "modern_hybrid_score": 0.033,
-  "impact_score": 2.0,
+  "impact_score": 5.0,
   "p2016_impact_score": 3.0,
   "modern_impact_score": 2.0,
-  "threads_started": 0.0,
-  "replies_sent": 1.0,
+  "threads_started": 3.0,
+  "replies_sent": 6.0,
   "ml_threads": 0.0,
-  "delving_threads": 0.0,
+  "delving_threads": 3.0,
   "ml_responses": 1.0,
-  "delving_responses": 0.0,
-  "first_active": "2022-06-10T01:44:05",
-  "last_active": "2022-06-10T01:44:05",
-  "dev_type": "Participant",
+  "delving_responses": 5.0,
+  "first_active": null,
+  "last_active": "2026-04-27T09:57:20.545000",
+  "dev_type": "Builder",
   "expertise_domains": [
-    "Network",
+    "Consensus",
     "L2",
-    "Mining"
+    "Privacy"
   ],
   "expertise_by_source": {
     "discussion": {
-      "Mining": 0.25,
-      "L2": 0.25,
-      "Network": 0.5
+      "Privacy": 0.287,
+      "L2": 0.713
+    },
+    "code": {
+      "Consensus": 1.0
     }
   },
   "expertise_domain_scores": {
-    "Mining": 0.25,
-    "L2": 0.25,
-    "Network": 0.5
+    "Privacy": 0.1148,
+    "Consensus": 0.6,
+    "L2": 0.2852
   },
-  "p2016_posts": 1.0,
-  "modern_posts": 0.0,
+  "p2016_posts": 9.0,
+  "modern_posts": 8.0,
   "p2016_ml_posts": 1.0,
-  "p2016_delving_posts": 0.0,
+  "p2016_delving_posts": 8.0,
   "modern_ml_posts": 0.0,
-  "modern_delving_posts": 0.0,
-  "is_engineer": false,
+  "modern_delving_posts": 8.0,
+  "is_engineer": true,
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": false,
-  "global_first_active": "2015-12-17T09:39:57",
-  "global_last_active": "2022-06-10T01:44:05",
+  "global_first_active": "2015-12-17T09:40:22",
+  "global_last_active": "2026-04-27T09:57:20.545000",
   "github_location": null,
   "github_company": null,
   "github_bio": null,
@@ -98,9 +100,10 @@
   "activity_status": "Active",
   "is_top_50": false,
   "github_url": "https://github.com/tnull",
+  "delving_url": "https://delvingbitcoin.org/u/tnull",
   "commit_history": {
     "2015": {
-      "Consensus": 2.0
+      "Consensus": 1.0
     }
   },
   "first_message": {
@@ -110,16 +113,28 @@
     "link": "https://gnusha.org/pi/bitcoindev/31411E6C-B1BF-45B7-848A-0AC8ECDFFCB3@tnull.de"
   },
   "last_message": {
-    "source": "mailing_list",
-    "subject": "Re: [bitcoin-dev] BGP hijacking on Bitcoin p2p network",
-    "date": "2022-06-10",
-    "link": "https://gnusha.org/pi/bitcoindev/31411E6C-B1BF-45B7-848A-0AC8ECDFFCB3@tnull.de"
+    "source": "delving",
+    "subject": "Re: [Proposal] Public Fraud Proofs for Just-in-Time Channels",
+    "date": "2026-04-27",
+    "link": "https://delvingbitcoin.org/t/proposal-public-fraud-proofs-for-just-in-time-channels/2451/2"
   },
   "social_history": {
     "2022": {
       "lightning": 1,
       "mining": 1,
       "p2p-network": 1
+    },
+    "2025": {
+      "lightning": 6,
+      "privacy": 6
+    },
+    "2026": {
+      "bitvm": 1,
+      "ecash": 1,
+      "lightning": 1,
+      "privacy": 1,
+      "taproot": 1,
+      "utxo-sync": 1
     }
   }
 }

@@ -1,7 +1,7 @@
 {
   "display_name": "Bastien Teinturier",
   "github_login_final": "t-bast",
-  "delving_username_final": null,
+  "delving_username_final": "t-bast",
   "uuid": "can_bastien_teinturier",
   "badges": {
     "is_maintainer": false,
@@ -27,12 +27,12 @@
   "self_merges": 0.0,
   "total_additions": 319.0,
   "total_deletions": 26.0,
-  "first_core_commit": "2020-09-22T20:44:02+00:00",
-  "last_core_commit": "2022-05-27T13:15:24+00:00",
+  "first_core_commit": "2020-09-22T20:46:05+00:00",
+  "last_core_commit": "2022-05-27T13:18:10+00:00",
   "first_ecosystem_commit": null,
   "last_ecosystem_commit": null,
-  "first_commit": "2020-09-22T20:44:02",
-  "last_commit": "2022-05-27T13:15:24",
+  "first_commit": "2020-09-22T20:46:05",
+  "last_commit": "2022-05-27T13:18:10",
   "p2016_authored_commits": 4.0,
   "modern_authored_commits": 0.0,
   "co_authored_commits": 0.0,
@@ -57,54 +57,57 @@
   "avg_pr_ack_velocity_days": 3.7645717592592596,
   "avg_concept_lead_time_days": 0.38824652777777774,
   "review_reciprocity": 7.4,
-  "hybrid_score": 0.518,
-  "p2016_hybrid_score": 0.5438,
-  "modern_hybrid_score": 0.504,
-  "impact_score": 27.0,
-  "p2016_impact_score": 28.0,
+  "hybrid_score": 0.6103,
+  "p2016_hybrid_score": 0.6355,
+  "modern_hybrid_score": 0.5006,
+  "impact_score": 31.0,
+  "p2016_impact_score": 32.0,
   "modern_impact_score": 26.0,
-  "threads_started": 1.0,
-  "replies_sent": 21.0,
+  "threads_started": 29.0,
+  "replies_sent": 60.0,
   "ml_threads": 1.0,
-  "delving_threads": 0.0,
+  "delving_threads": 28.0,
   "ml_responses": 21.0,
-  "delving_responses": 0.0,
-  "first_active": "2020-04-22T03:55:42",
-  "last_active": "2023-10-19T03:12:08",
-  "dev_type": "Reviewer",
+  "delving_responses": 39.0,
+  "first_active": null,
+  "last_active": "2026-08-13T15:06:43.375000",
+  "dev_type": "Protocol Designer",
   "expertise_domains": [
     "Infrastructure",
-    "Mempool",
-    "L2"
+    "L2",
+    "Wallet"
   ],
   "expertise_by_source": {
     "discussion": {
-      "L2": 0.325,
-      "Mempool": 0.563,
-      "Script": 0.113
+      "Mempool": 0.431,
+      "L2": 0.569
+    },
+    "code": {
+      "Wallet": 0.334,
+      "Infrastructure": 0.666
     },
     "bips": {
       "Infrastructure": 1.0
     }
   },
   "expertise_domain_scores": {
-    "Infrastructure": 0.7141,
-    "L2": 0.0928,
-    "Mempool": 0.1608,
-    "Script": 0.0323
+    "Infrastructure": 0.6998,
+    "Wallet": 0.1002,
+    "Mempool": 0.0862,
+    "L2": 0.1138
   },
-  "p2016_posts": 22.0,
-  "modern_posts": 4.0,
+  "p2016_posts": 89.0,
+  "modern_posts": 71.0,
   "p2016_ml_posts": 22.0,
-  "p2016_delving_posts": 0.0,
+  "p2016_delving_posts": 67.0,
   "modern_ml_posts": 4.0,
-  "modern_delving_posts": 0.0,
-  "is_engineer": false,
+  "modern_delving_posts": 67.0,
+  "is_engineer": true,
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": true,
-  "global_first_active": "2020-04-22T03:55:42",
-  "global_last_active": "2024-10-21T02:54:49",
+  "global_first_active": "2020-07-03T07:05:15",
+  "global_last_active": "2026-08-13T15:06:43.375000",
   "github_location": null,
   "github_company": "@acinq",
   "github_bio": null,
@@ -114,19 +117,20 @@
   "activity_status": "Active",
   "is_top_50": false,
   "github_url": "https://github.com/t-bast",
+  "delving_url": "https://delvingbitcoin.org/u/t-bast",
   "commit_history": {
     "2020": {
-      "Tests": 2.0
+      "Tests": 1.0
     },
     "2021": {
-      "Documentation": 0.67,
-      "Tests": 0.67,
-      "Wallet": 2.67
+      "Documentation": 0.33,
+      "Tests": 0.33,
+      "Wallet": 1.33
     },
     "2022": {
-      "Documentation": 0.67,
-      "Node & RPC": 0.67,
-      "Tests": 0.67
+      "Documentation": 0.33,
+      "Node & RPC": 0.33,
+      "Tests": 0.33
     }
   },
   "bip_list": [
@@ -145,33 +149,59 @@
     "link": "https://gnusha.org/pi/bitcoindev/CACdvm3NfHbfE1O8ajc+by0wk=tqM4L-XU0VUFD5qfxSU3ArFtQ@mail.gmail.com"
   },
   "last_message": {
-    "source": "mailing_list",
-    "subject": "Re: [bitcoin-dev] [Lightning-dev] Full Disclosure: CVE-2023-40231 /\n CVE-2023-40232 / CVE-2023-40233 / CVE-2023-40234 \"All your mempool are\n belong to us\"",
-    "date": "2023-10-19",
-    "link": "https://gnusha.org/pi/bitcoindev/CACdvm3N+R1KqQx6r-s0eBw111B7uhM=8yguSkggOsth_cZZC5w@mail.gmail.com"
+    "source": "delving",
+    "subject": "Disclosure: LND doesn't wait for enough confirmations when closing channels",
+    "date": "2026-08-13",
+    "link": "https://delvingbitcoin.org/t/disclosure-lnd-doesnt-wait-for-enough-confirmations-when-closing-channels/2800/1"
   },
   "social_history": {
     "2020": {
       "lightning": 6,
       "mempool-fees": 5,
-      "payment-protocol": 1,
-      "tokens-runes": 1
+      "other": 2
     },
     "2021": {
       "lightning": 2,
       "mempool-fees": 5,
-      "p2p-network": 1
+      "other": 1
     },
     "2022": {
       "mempool-fees": 3,
-      "other": 2,
-      "tokens-runes": 1
+      "other": 3
     },
     "2023": {
-      "covenants": 3,
-      "lightning": 3,
-      "mempool-fees": 2,
-      "security": 1
+      "other": 3,
+      "lightning": 6,
+      "mempool-fees": 5,
+      "mining": 1,
+      "multisig-threshold": 4,
+      "security": 4,
+      "taproot": 3
+    },
+    "2024": {
+      "other": 9,
+      "lightning": 31,
+      "mempool-fees": 18,
+      "mining": 3,
+      "multisig-threshold": 1,
+      "taproot": 7
+    },
+    "2025": {
+      "lightning": 23,
+      "mempool-fees": 11,
+      "mining": 3,
+      "multisig-threshold": 1,
+      "other": 6,
+      "privacy": 10,
+      "security": 6,
+      "signatures-sighash": 7
+    },
+    "2026": {
+      "other": 1,
+      "lightning": 1,
+      "privacy": 1,
+      "security": 1,
+      "taproot": 1
     }
   }
 }

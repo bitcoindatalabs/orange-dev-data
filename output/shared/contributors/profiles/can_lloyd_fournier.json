@@ -1,7 +1,7 @@
 {
   "display_name": "Lloyd Fournier",
   "github_login_final": "clarkmoody",
-  "delving_username_final": null,
+  "delving_username_final": "llfourn",
   "uuid": "can_lloyd_fournier",
   "badges": {
     "is_maintainer": false,
@@ -57,20 +57,20 @@
   "avg_pr_ack_velocity_days": 0.7490740740740741,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": 5.5,
-  "hybrid_score": 0.5476,
-  "p2016_hybrid_score": 0.6026,
-  "modern_hybrid_score": 0.1132,
+  "hybrid_score": 0.5475,
+  "p2016_hybrid_score": 0.6016,
+  "modern_hybrid_score": 0.1101,
   "impact_score": 28.0,
   "p2016_impact_score": 30.0,
-  "modern_impact_score": 7.0,
-  "threads_started": 4.0,
-  "replies_sent": 57.0,
+  "modern_impact_score": 6.0,
+  "threads_started": 5.0,
+  "replies_sent": 58.0,
   "ml_threads": 4.0,
-  "delving_threads": 0.0,
+  "delving_threads": 1.0,
   "ml_responses": 57.0,
-  "delving_responses": 0.0,
-  "first_active": "2017-07-14T13:43:37",
-  "last_active": "2025-03-23T19:24:38",
+  "delving_responses": 1.0,
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Reviewer",
   "expertise_domains": [
     "Infrastructure",
@@ -79,8 +79,8 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Consensus": 0.7,
-      "Wallet": 0.3
+      "Consensus": 0.69,
+      "Wallet": 0.31
     },
     "bips": {
       "Infrastructure": 1.0
@@ -88,15 +88,15 @@
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.7143,
-    "Consensus": 0.2,
-    "Wallet": 0.0857
+    "Wallet": 0.0886,
+    "Consensus": 0.1971
   },
-  "p2016_posts": 61.0,
-  "modern_posts": 3.0,
+  "p2016_posts": 63.0,
+  "modern_posts": 4.0,
   "p2016_ml_posts": 61.0,
-  "p2016_delving_posts": 0.0,
+  "p2016_delving_posts": 2.0,
   "modern_ml_posts": 3.0,
-  "modern_delving_posts": 0.0,
+  "modern_delving_posts": 1.0,
   "is_engineer": false,
   "is_reviewer": true,
   "is_researcher": true,
@@ -112,6 +112,7 @@
   "activity_status": "Active",
   "is_top_50": false,
   "github_url": "https://github.com/clarkmoody",
+  "delving_url": "https://delvingbitcoin.org/u/llfourn",
   "bip_list": [
     {
       "number": 351,
@@ -143,16 +144,16 @@
       "wallet-keys": 2
     },
     "2019": {
-      "other": 10,
+      "covenants": 1,
+      "other": 9,
       "multisig-threshold": 3,
       "signatures-sighash": 1,
       "taproot": 2
     },
     "2020": {
-      "other": 7,
+      "other": 11,
       "mining": 5,
       "multisig-threshold": 3,
-      "privacy": 4,
       "signatures-sighash": 7,
       "taproot": 13,
       "wallet-keys": 1
@@ -166,14 +167,15 @@
       "wallet-keys": 2
     },
     "2022": {
+      "covenants": 1,
       "other": 3,
-      "privacy": 1,
       "quantum": 1,
       "taproot": 1,
       "wallet-keys": 2
     },
     "2023": {
-      "other": 10,
+      "other": 11,
+      "covenants": 3,
       "multisig-threshold": 3,
       "signatures-sighash": 1,
       "taproot": 2

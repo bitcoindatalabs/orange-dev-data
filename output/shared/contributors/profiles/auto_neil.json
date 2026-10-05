@@ -1,5 +1,5 @@
 {
-  "display_name": "neil",
+  "display_name": "Neil",
   "github_login_final": null,
   "delving_username_final": null,
   "uuid": "auto_neil",
@@ -51,14 +51,14 @@
   "impact_score": 1.0,
   "p2016_impact_score": 0.0,
   "modern_impact_score": 0.0,
-  "threads_started": 0.0,
+  "threads_started": 1.0,
   "replies_sent": 1.0,
-  "ml_threads": 0.0,
+  "ml_threads": 1.0,
   "delving_threads": 0.0,
   "ml_responses": 1.0,
   "delving_responses": 0.0,
-  "first_active": "2014-10-28T16:34:16",
-  "last_active": "2014-10-28T16:34:16",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Participant",
   "expertise_domains": [
     "Infrastructure"
@@ -77,8 +77,8 @@
   "is_reviewer": false,
   "is_researcher": true,
   "is_bip_author": false,
-  "global_first_active": "2014-10-28T16:34:16",
-  "global_last_active": "2014-10-28T16:34:16",
+  "global_first_active": null,
+  "global_last_active": null,
   "github_location": null,
   "github_company": null,
   "github_bio": null,
@@ -89,9 +89,9 @@
   "is_top_50": false,
   "first_message": {
     "source": "mailing_list",
-    "subject": "Re: [Bitcoin-development] Fwd: death by halving",
-    "date": "2014-10-28",
-    "link": "https://gnusha.org/pi/bitcoindev/CAPf5XX6aDGpNxNorbU_JddwpDhnCdX7z=8MskagorC9qUL+T=Q@mail.gmail.com"
+    "subject": "Re: [Bitcoin-development] Building BDB on MingW",
+    "date": "2014-07-14",
+    "link": "https://gnusha.org/pi/bitcoindev/loom.20140714T132614-934@post.gmane.org"
   },
   "last_message": {
     "source": "mailing_list",
@@ -101,7 +101,7 @@
   },
   "social_history": {
     "2014": {
-      "other": 1
+      "other": 2
     }
   }
 }

@@ -15,12 +15,12 @@
   "self_merges": 0.0,
   "total_additions": 2.0,
   "total_deletions": 2.0,
-  "first_core_commit": "2016-01-13T20:24:30+00:00",
-  "last_core_commit": "2016-08-22T14:39:51+00:00",
+  "first_core_commit": "2016-01-13T20:24:59+00:00",
+  "last_core_commit": "2016-08-22T14:40:28+00:00",
   "first_ecosystem_commit": null,
   "last_ecosystem_commit": null,
-  "first_commit": "2016-01-13T20:24:30",
-  "last_commit": "2016-08-22T14:39:51",
+  "first_commit": "2016-01-13T20:24:59",
+  "last_commit": "2016-08-22T14:40:28",
   "p2016_authored_commits": 2.0,
   "modern_authored_commits": 0.0,
   "co_authored_commits": 0.0,
@@ -45,11 +45,11 @@
   "avg_pr_ack_velocity_days": 0.9491030092592593,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": 0.0,
-  "hybrid_score": 0.0396,
-  "p2016_hybrid_score": 0.0396,
+  "hybrid_score": 0.103,
+  "p2016_hybrid_score": 0.103,
   "modern_hybrid_score": 0.0396,
-  "impact_score": 2.0,
-  "p2016_impact_score": 2.0,
+  "impact_score": 6.0,
+  "p2016_impact_score": 6.0,
   "modern_impact_score": 2.0,
   "threads_started": 0.0,
   "replies_sent": 0.0,
@@ -59,13 +59,20 @@
   "delving_responses": 0.0,
   "first_active": null,
   "last_active": null,
-  "dev_type": "Participant",
+  "dev_type": "Builder",
   "expertise_domains": [
-    "Infrastructure"
+    "Infrastructure",
+    "Wallet"
   ],
-  "expertise_by_source": {},
+  "expertise_by_source": {
+    "code": {
+      "Wallet": 0.5,
+      "Infrastructure": 0.5
+    }
+  },
   "expertise_domain_scores": {
-    "Infrastructure": 1.0
+    "Infrastructure": 0.5,
+    "Wallet": 0.5
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,
@@ -73,12 +80,12 @@
   "p2016_delving_posts": 0.0,
   "modern_ml_posts": 0.0,
   "modern_delving_posts": 0.0,
-  "is_engineer": false,
+  "is_engineer": true,
   "is_reviewer": true,
   "is_researcher": false,
   "is_bip_author": false,
-  "global_first_active": "2016-01-13T20:24:30",
-  "global_last_active": "2016-08-22T14:39:51",
+  "global_first_active": "2016-01-13T20:24:59",
+  "global_last_active": "2016-08-22T14:40:28",
   "github_location": null,
   "github_company": null,
   "github_bio": "Stranded on this planet and eventually started to like it...",
@@ -90,8 +97,8 @@
   "github_url": "https://github.com/crowning-",
   "commit_history": {
     "2016": {
-      "GUI": 2.0,
-      "Wallet": 2.0
+      "GUI": 1.0,
+      "Wallet": 1.0
     }
   }
 }

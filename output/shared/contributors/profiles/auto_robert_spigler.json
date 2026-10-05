@@ -1,5 +1,5 @@
 {
-  "display_name": "robert spigler",
+  "display_name": "Robert Spigler",
   "github_login_final": "Rspigler",
   "delving_username_final": null,
   "uuid": "auto_robert_spigler",
@@ -27,12 +27,12 @@
   "self_merges": 0.0,
   "total_additions": 2.0,
   "total_deletions": 0.0,
-  "first_core_commit": "2022-08-22T09:07:44+00:00",
-  "last_core_commit": "2022-08-22T09:07:44+00:00",
+  "first_core_commit": "2022-08-22T09:09:35+00:00",
+  "last_core_commit": "2022-08-22T09:09:35+00:00",
   "first_ecosystem_commit": null,
   "last_ecosystem_commit": null,
-  "first_commit": "2022-08-22T09:07:44",
-  "last_commit": "2022-08-22T09:07:44",
+  "first_commit": "2022-08-22T09:09:35",
+  "last_commit": "2022-08-22T09:09:35",
   "p2016_authored_commits": 1.0,
   "modern_authored_commits": 0.0,
   "co_authored_commits": 0.0,
@@ -57,11 +57,11 @@
   "avg_pr_ack_velocity_days": 14.64950810185185,
   "avg_concept_lead_time_days": 4.179293981481481,
   "review_reciprocity": 14.25,
-  "hybrid_score": 0.5334,
-  "p2016_hybrid_score": 0.5403,
+  "hybrid_score": 0.5734,
+  "p2016_hybrid_score": 0.5801,
   "modern_hybrid_score": 0.058,
-  "impact_score": 27.0,
-  "p2016_impact_score": 28.0,
+  "impact_score": 29.0,
+  "p2016_impact_score": 29.0,
   "modern_impact_score": 3.0,
   "threads_started": 2.0,
   "replies_sent": 9.0,
@@ -69,11 +69,12 @@
   "delving_threads": 0.0,
   "ml_responses": 9.0,
   "delving_responses": 0.0,
-  "first_active": "2020-08-23T17:07:38",
-  "last_active": "2021-04-20T17:44:45",
-  "dev_type": "Reviewer",
+  "first_active": null,
+  "last_active": null,
+  "dev_type": "Protocol Designer",
   "expertise_domains": [
     "Wallet",
+    "Infrastructure",
     "Consensus"
   ],
   "expertise_by_source": {
@@ -81,13 +82,17 @@
       "Consensus": 0.233,
       "Wallet": 0.767
     },
+    "code": {
+      "Infrastructure": 1.0
+    },
     "bips": {
       "Wallet": 1.0
     }
   },
   "expertise_domain_scores": {
-    "Consensus": 0.0666,
-    "Wallet": 0.9334
+    "Infrastructure": 0.3,
+    "Wallet": 0.6534,
+    "Consensus": 0.0466
   },
   "p2016_posts": 11.0,
   "modern_posts": 0.0,
@@ -95,7 +100,7 @@
   "p2016_delving_posts": 0.0,
   "modern_ml_posts": 0.0,
   "modern_delving_posts": 0.0,
-  "is_engineer": false,
+  "is_engineer": true,
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": true,
@@ -112,7 +117,7 @@
   "github_url": "https://github.com/Rspigler",
   "commit_history": {
     "2022": {
-      "Documentation": 2.0
+      "Documentation": 1.0
     }
   },
   "bip_list": [

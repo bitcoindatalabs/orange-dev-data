@@ -1,5 +1,5 @@
 {
-  "display_name": "adam stein",
+  "display_name": "Adam Stein",
   "github_login_final": "adaminsky",
   "delving_username_final": null,
   "uuid": "auto_adam_stein",
@@ -15,12 +15,12 @@
   "self_merges": 0.0,
   "total_additions": 24.0,
   "total_deletions": 1.0,
-  "first_core_commit": "2020-08-13T09:03:47+00:00",
-  "last_core_commit": "2020-08-13T09:03:47+00:00",
+  "first_core_commit": "2020-08-13T10:13:33+00:00",
+  "last_core_commit": "2020-08-13T10:13:33+00:00",
   "first_ecosystem_commit": null,
   "last_ecosystem_commit": null,
-  "first_commit": "2020-08-13T09:03:47",
-  "last_commit": "2020-08-13T09:03:47",
+  "first_commit": "2020-08-13T10:13:33",
+  "last_commit": "2020-08-13T10:13:33",
   "p2016_authored_commits": 1.0,
   "modern_authored_commits": 0.0,
   "co_authored_commits": 0.0,
@@ -45,11 +45,11 @@
   "avg_pr_ack_velocity_days": 7.3764872685185185,
   "avg_concept_lead_time_days": 6.425868055555555,
   "review_reciprocity": 3.5,
-  "hybrid_score": 0.0792,
-  "p2016_hybrid_score": 0.0792,
+  "hybrid_score": 0.1192,
+  "p2016_hybrid_score": 0.1192,
   "modern_hybrid_score": 0.025,
-  "impact_score": 5.0,
-  "p2016_impact_score": 5.0,
+  "impact_score": 7.0,
+  "p2016_impact_score": 7.0,
   "modern_impact_score": 1.0,
   "threads_started": 0.0,
   "replies_sent": 0.0,
@@ -59,13 +59,20 @@
   "delving_responses": 0.0,
   "first_active": null,
   "last_active": null,
-  "dev_type": "Participant",
+  "dev_type": "Builder",
   "expertise_domains": [
-    "Infrastructure"
+    "Infrastructure",
+    "Wallet"
   ],
-  "expertise_by_source": {},
+  "expertise_by_source": {
+    "code": {
+      "Wallet": 0.5,
+      "Infrastructure": 0.5
+    }
+  },
   "expertise_domain_scores": {
-    "Infrastructure": 1.0
+    "Infrastructure": 0.5,
+    "Wallet": 0.5
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,
@@ -73,7 +80,7 @@
   "p2016_delving_posts": 0.0,
   "modern_ml_posts": 0.0,
   "modern_delving_posts": 0.0,
-  "is_engineer": false,
+  "is_engineer": true,
   "is_reviewer": true,
   "is_researcher": false,
   "is_bip_author": false,
@@ -90,8 +97,8 @@
   "github_url": "https://github.com/adaminsky",
   "commit_history": {
     "2020": {
-      "Tests": 1.0,
-      "Wallet": 1.0
+      "Tests": 0.5,
+      "Wallet": 0.5
     }
   }
 }

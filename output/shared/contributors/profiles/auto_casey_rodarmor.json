@@ -1,7 +1,7 @@
 {
   "display_name": "casey rodarmor",
   "github_login_final": "casey",
-  "delving_username_final": null,
+  "delving_username_final": "rodarmor",
   "uuid": "auto_casey_rodarmor",
   "badges": null,
   "roles": null,
@@ -15,12 +15,12 @@
   "self_merges": 0.0,
   "total_additions": 1520.0,
   "total_deletions": 479.0,
-  "first_core_commit": "2015-07-24T08:59:18+00:00",
-  "last_core_commit": "2015-10-27T10:57:21+00:00",
+  "first_core_commit": "2015-07-24T08:59:54+00:00",
+  "last_core_commit": "2015-10-27T10:58:50+00:00",
   "first_ecosystem_commit": null,
   "last_ecosystem_commit": null,
-  "first_commit": "2015-07-24T08:59:18",
-  "last_commit": "2015-10-27T10:57:21",
+  "first_commit": "2015-07-24T08:59:54",
+  "last_commit": "2015-10-27T10:58:50",
   "p2016_authored_commits": 0.0,
   "modern_authored_commits": 0.0,
   "co_authored_commits": 0.0,
@@ -36,7 +36,7 @@
   "tier1_reviews_count": 9.0,
   "tier2_reviews_count": 3.0,
   "p2016_reviews_count": 8.0,
-  "modern_reviews_count": 5.0,
+  "modern_reviews_count": 4.0,
   "first_review_date": "2015-07-31T18:32:06",
   "last_review_date": "2026-07-22T06:03:40",
   "prs_authored": 18.0,
@@ -45,43 +45,53 @@
   "avg_pr_ack_velocity_days": 1.1209995039682539,
   "avg_concept_lead_time_days": 1.7558564814814817,
   "review_reciprocity": 0.6666666666666666,
-  "hybrid_score": 0.1289,
-  "p2016_hybrid_score": 0.1341,
-  "modern_hybrid_score": 0.183,
-  "impact_score": 7.0,
+  "hybrid_score": 0.2888,
+  "p2016_hybrid_score": 0.1337,
+  "modern_hybrid_score": 0.1784,
+  "impact_score": 16.0,
   "p2016_impact_score": 8.0,
   "modern_impact_score": 10.0,
-  "threads_started": 3.0,
+  "threads_started": 5.0,
   "replies_sent": 8.0,
   "ml_threads": 3.0,
-  "delving_threads": 0.0,
+  "delving_threads": 2.0,
   "ml_responses": 8.0,
   "delving_responses": 0.0,
-  "first_active": "2013-12-03T23:16:18",
-  "last_active": "2025-10-15T15:04:26",
-  "dev_type": "Reviewer",
+  "first_active": null,
+  "last_active": null,
+  "dev_type": "Builder",
   "expertise_domains": [
-    "Ecosystem"
+    "Infrastructure",
+    "Ecosystem",
+    "Privacy"
   ],
   "expertise_by_source": {
     "discussion": {
-      "Ecosystem": 1.0
+      "Privacy": 0.15,
+      "Ecosystem": 0.85
+    },
+    "code": {
+      "Infrastructure": 0.933,
+      "Mempool": 0.067
     }
   },
   "expertise_domain_scores": {
-    "Ecosystem": 1.0
+    "Privacy": 0.06,
+    "Infrastructure": 0.5598,
+    "Mempool": 0.0402,
+    "Ecosystem": 0.34
   },
-  "p2016_posts": 10.0,
-  "modern_posts": 3.0,
+  "p2016_posts": 12.0,
+  "modern_posts": 5.0,
   "p2016_ml_posts": 10.0,
-  "p2016_delving_posts": 0.0,
+  "p2016_delving_posts": 2.0,
   "modern_ml_posts": 3.0,
-  "modern_delving_posts": 0.0,
-  "is_engineer": false,
+  "modern_delving_posts": 2.0,
+  "is_engineer": true,
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": false,
-  "global_first_active": "2013-12-03T23:16:18",
+  "global_first_active": "2015-07-24T08:59:54",
   "global_last_active": "2026-07-22T06:03:40",
   "github_location": "The Blue Planet",
   "github_company": null,
@@ -92,15 +102,16 @@
   "activity_status": "Rising",
   "is_top_50": false,
   "github_url": "https://github.com/casey",
+  "delving_url": "https://delvingbitcoin.org/u/rodarmor",
   "commit_history": {
     "2015": {
-      "Build & CI": 1.67,
-      "Documentation": 4.0,
-      "GUI": 2.0,
-      "Mempool": 2.0,
-      "Node & RPC": 2.0,
-      "Tests": 3.67,
-      "Utilities": 14.67
+      "Build & CI": 0.83,
+      "Documentation": 2.0,
+      "GUI": 1.0,
+      "Mempool": 1.0,
+      "Node & RPC": 1.0,
+      "Tests": 1.83,
+      "Utilities": 7.33
     }
   },
   "first_message": {
@@ -125,6 +136,10 @@
     "2023": {
       "bip-process": 2,
       "ordinals-inscriptions": 3
+    },
+    "2024": {
+      "mempool-fees": 2,
+      "privacy": 2
     },
     "2025": {
       "bip-process": 1,

@@ -15,12 +15,12 @@
   "self_merges": 0.0,
   "total_additions": 300.0,
   "total_deletions": 250.0,
-  "first_core_commit": "2018-08-15T11:59:13+00:00",
-  "last_core_commit": "2020-01-14T01:44:44+00:00",
+  "first_core_commit": "2018-08-15T12:03:29+00:00",
+  "last_core_commit": "2020-01-14T02:02:56+00:00",
   "first_ecosystem_commit": null,
   "last_ecosystem_commit": null,
-  "first_commit": "2018-08-15T11:59:13",
-  "last_commit": "2020-01-14T01:44:44",
+  "first_commit": "2018-08-15T12:03:29",
+  "last_commit": "2020-01-14T02:02:56",
   "p2016_authored_commits": 12.0,
   "modern_authored_commits": 0.0,
   "co_authored_commits": 4.0,
@@ -45,11 +45,11 @@
   "avg_pr_ack_velocity_days": 10.502535548941799,
   "avg_concept_lead_time_days": 15.210388558201059,
   "review_reciprocity": 0.9,
-  "hybrid_score": 0.1214,
-  "p2016_hybrid_score": 0.1214,
+  "hybrid_score": 0.2694,
+  "p2016_hybrid_score": 0.2694,
   "modern_hybrid_score": 0.0865,
-  "impact_score": 7.0,
-  "p2016_impact_score": 7.0,
+  "impact_score": 15.0,
+  "p2016_impact_score": 15.0,
   "modern_impact_score": 5.0,
   "threads_started": 0.0,
   "replies_sent": 0.0,
@@ -59,13 +59,25 @@
   "delving_responses": 0.0,
   "first_active": null,
   "last_active": null,
-  "dev_type": "Reviewer",
+  "dev_type": "Builder",
   "expertise_domains": [
-    "Infrastructure"
+    "Infrastructure",
+    "Consensus",
+    "Script"
   ],
-  "expertise_by_source": {},
+  "expertise_by_source": {
+    "code": {
+      "Wallet": 0.069,
+      "Infrastructure": 0.764,
+      "Consensus": 0.083,
+      "Script": 0.083
+    }
+  },
   "expertise_domain_scores": {
-    "Infrastructure": 1.0
+    "Infrastructure": 0.7648,
+    "Wallet": 0.0691,
+    "Consensus": 0.0831,
+    "Script": 0.0831
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,
@@ -73,12 +85,12 @@
   "p2016_delving_posts": 0.0,
   "modern_ml_posts": 0.0,
   "modern_delving_posts": 0.0,
-  "is_engineer": false,
+  "is_engineer": true,
   "is_reviewer": true,
   "is_researcher": false,
   "is_bip_author": false,
-  "global_first_active": "2018-08-15T11:59:13",
-  "global_last_active": "2020-01-14T01:44:44",
+  "global_first_active": "2018-08-15T12:03:29",
+  "global_last_active": "2020-01-14T02:02:56",
   "github_location": null,
   "github_company": null,
   "github_bio": null,
@@ -90,22 +102,22 @@
   "github_url": "https://github.com/ch4ot1c",
   "commit_history": {
     "2018": {
-      "Build & CI": 2.0,
-      "Consensus": 2.0,
-      "Node & RPC": 1.67,
-      "Tests": 0.67,
-      "Wallet": 1.67
+      "Build & CI": 1.0,
+      "Consensus": 1.0,
+      "Node & RPC": 0.83,
+      "Tests": 0.33,
+      "Wallet": 0.83
     },
     "2019": {
-      "Build & CI": 0.67,
-      "Documentation": 5.67,
-      "Node & RPC": 1.0,
-      "Script": 2.0,
-      "Tests": 1.0,
-      "Utilities": 3.67
+      "Build & CI": 0.33,
+      "Documentation": 2.83,
+      "Node & RPC": 0.5,
+      "Script": 1.0,
+      "Tests": 0.5,
+      "Utilities": 1.83
     },
     "2020": {
-      "Documentation": 2.0
+      "Documentation": 1.0
     }
   }
 }

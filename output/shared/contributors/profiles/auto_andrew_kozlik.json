@@ -1,7 +1,7 @@
 {
   "display_name": "Andrew Kozlik",
   "github_login_final": null,
-  "delving_username_final": null,
+  "delving_username_final": "andrewkozlik",
   "uuid": "auto_andrew_kozlik",
   "badges": null,
   "roles": null,
@@ -45,20 +45,20 @@
   "avg_pr_ack_velocity_days": null,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": null,
-  "hybrid_score": 0.0252,
-  "p2016_hybrid_score": 0.0399,
+  "hybrid_score": 0.025,
+  "p2016_hybrid_score": 0.0395,
   "modern_hybrid_score": 0.0,
-  "impact_score": 2.0,
+  "impact_score": 1.0,
   "p2016_impact_score": 2.0,
   "modern_impact_score": 0.0,
-  "threads_started": 2.0,
+  "threads_started": 3.0,
   "replies_sent": 5.0,
   "ml_threads": 2.0,
-  "delving_threads": 0.0,
+  "delving_threads": 1.0,
   "ml_responses": 5.0,
   "delving_responses": 0.0,
-  "first_active": "2018-09-20T11:19:56",
-  "last_active": "2021-02-19T07:34:16",
+  "first_active": null,
+  "last_active": "2024-10-03T15:18:51.917000",
   "dev_type": "Participant",
   "expertise_domains": [
     "Consensus",
@@ -67,28 +67,28 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Ecosystem": 0.143,
-      "Consensus": 0.429,
-      "Wallet": 0.429
+      "Consensus": 0.468,
+      "Wallet": 0.416,
+      "Ecosystem": 0.117
     }
   },
   "expertise_domain_scores": {
-    "Ecosystem": 0.1429,
-    "Consensus": 0.4286,
-    "Wallet": 0.4286
+    "Wallet": 0.4156,
+    "Consensus": 0.4675,
+    "Ecosystem": 0.1169
   },
-  "p2016_posts": 7.0,
-  "modern_posts": 0.0,
+  "p2016_posts": 8.0,
+  "modern_posts": 1.0,
   "p2016_ml_posts": 7.0,
-  "p2016_delving_posts": 0.0,
+  "p2016_delving_posts": 1.0,
   "modern_ml_posts": 0.0,
-  "modern_delving_posts": 0.0,
+  "modern_delving_posts": 1.0,
   "is_engineer": false,
   "is_reviewer": false,
   "is_researcher": true,
   "is_bip_author": false,
-  "global_first_active": "2018-09-20T11:19:56",
-  "global_last_active": "2021-02-19T07:34:16",
+  "global_first_active": null,
+  "global_last_active": "2024-10-03T15:18:51.917000",
   "github_location": null,
   "github_company": null,
   "github_bio": null,
@@ -97,6 +97,7 @@
   "github_followers": null,
   "activity_status": "",
   "is_top_50": false,
+  "delving_url": "https://delvingbitcoin.org/u/andrewkozlik",
   "first_message": {
     "source": "mailing_list",
     "subject": "[bitcoin-dev] SLIP-0039: Shamir's Secret-Sharing for Mnemonic Codes",
@@ -104,10 +105,10 @@
     "link": "https://gnusha.org/pi/bitcoindev/4e2c7b41-1e16-b89a-04d8-776f3469141a@satoshilabs.com"
   },
   "last_message": {
-    "source": "mailing_list",
-    "subject": "Re: [bitcoin-dev] BIP70 is dead. What now?",
-    "date": "2021-02-19",
-    "link": "https://gnusha.org/pi/bitcoindev/CACvH2ek=bM=0vH-skjhr2VnaF47U3eht5P3ukJ7CUnB3V8ZGQQ@mail.gmail.com"
+    "source": "delving",
+    "subject": "Re: Unspendable keys in descriptors",
+    "date": "2024-10-03",
+    "link": "https://delvingbitcoin.org/t/unspendable-keys-in-descriptors/304/26"
   },
   "social_history": {
     "2018": {
@@ -122,6 +123,11 @@
     },
     "2021": {
       "payment-protocol": 1
+    },
+    "2024": {
+      "silent-payments": 1,
+      "taproot": 1,
+      "wallet-keys": 1
     }
   }
 }

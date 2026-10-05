@@ -1,5 +1,5 @@
 {
-  "display_name": "richard kiss",
+  "display_name": "Richard Kiss",
   "github_login_final": "richardkiss",
   "delving_username_final": null,
   "uuid": "auto_richard_kiss",
@@ -15,12 +15,12 @@
   "self_merges": 0.0,
   "total_additions": 17.0,
   "total_deletions": 1.0,
-  "first_core_commit": "2016-12-13T10:05:39+00:00",
-  "last_core_commit": "2018-03-06T22:57:40+00:00",
+  "first_core_commit": "2016-12-13T10:09:29+00:00",
+  "last_core_commit": "2018-03-06T22:58:38+00:00",
   "first_ecosystem_commit": null,
   "last_ecosystem_commit": null,
-  "first_commit": "2016-12-13T10:05:39",
-  "last_commit": "2018-03-06T22:57:40",
+  "first_commit": "2016-12-13T10:09:29",
+  "last_commit": "2018-03-06T22:58:38",
   "p2016_authored_commits": 3.0,
   "modern_authored_commits": 0.0,
   "co_authored_commits": 0.0,
@@ -45,11 +45,11 @@
   "avg_pr_ack_velocity_days": 14.68650173611111,
   "avg_concept_lead_time_days": 28.928356481481483,
   "review_reciprocity": 0.25,
-  "hybrid_score": 0.0702,
-  "p2016_hybrid_score": 0.0702,
+  "hybrid_score": 0.1502,
+  "p2016_hybrid_score": 0.1502,
   "modern_hybrid_score": 0.058,
-  "impact_score": 4.0,
-  "p2016_impact_score": 4.0,
+  "impact_score": 9.0,
+  "p2016_impact_score": 9.0,
   "modern_impact_score": 3.0,
   "threads_started": 0.0,
   "replies_sent": 0.0,
@@ -59,11 +59,15 @@
   "delving_responses": 0.0,
   "first_active": null,
   "last_active": null,
-  "dev_type": "Participant",
+  "dev_type": "Builder",
   "expertise_domains": [
     "Infrastructure"
   ],
-  "expertise_by_source": {},
+  "expertise_by_source": {
+    "code": {
+      "Infrastructure": 1.0
+    }
+  },
   "expertise_domain_scores": {
     "Infrastructure": 1.0
   },
@@ -73,7 +77,7 @@
   "p2016_delving_posts": 0.0,
   "modern_ml_posts": 0.0,
   "modern_delving_posts": 0.0,
-  "is_engineer": false,
+  "is_engineer": true,
   "is_reviewer": true,
   "is_researcher": false,
   "is_bip_author": false,
@@ -90,10 +94,10 @@
   "github_url": "https://github.com/richardkiss",
   "commit_history": {
     "2016": {
-      "Tests": 2.0
+      "Tests": 1.0
     },
     "2018": {
-      "Tests": 4.0
+      "Tests": 2.0
     }
   }
 }

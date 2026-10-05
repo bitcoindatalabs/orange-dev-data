@@ -15,12 +15,12 @@
   "self_merges": 0.0,
   "total_additions": 13.0,
   "total_deletions": 9.0,
-  "first_core_commit": "2021-01-07T12:30:49+00:00",
-  "last_core_commit": "2023-08-23T20:27:27+00:00",
+  "first_core_commit": "2021-01-07T12:43:24+00:00",
+  "last_core_commit": "2023-08-23T20:37:44+00:00",
   "first_ecosystem_commit": null,
   "last_ecosystem_commit": null,
-  "first_commit": "2021-01-07T12:30:49",
-  "last_commit": "2023-08-23T20:27:27",
+  "first_commit": "2021-01-07T12:43:24",
+  "last_commit": "2023-08-23T20:37:44",
   "p2016_authored_commits": 2.0,
   "modern_authored_commits": 0.0,
   "co_authored_commits": 0.0,
@@ -45,31 +45,39 @@
   "avg_pr_ack_velocity_days": 0.1184837962962963,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": 1.6666666666666667,
-  "hybrid_score": 0.0866,
-  "p2016_hybrid_score": 0.0981,
-  "modern_hybrid_score": 0.166,
-  "impact_score": 5.0,
-  "p2016_impact_score": 6.0,
-  "modern_impact_score": 9.0,
+  "hybrid_score": 0.1498,
+  "p2016_hybrid_score": 0.161,
+  "modern_hybrid_score": 0.2017,
+  "impact_score": 9.0,
+  "p2016_impact_score": 9.0,
+  "modern_impact_score": 11.0,
   "threads_started": 0.0,
   "replies_sent": 5.0,
   "ml_threads": 0.0,
   "delving_threads": 0.0,
   "ml_responses": 5.0,
   "delving_responses": 0.0,
-  "first_active": "2025-04-29T22:01:09",
-  "last_active": "2026-08-09T15:42:58",
-  "dev_type": "Participant",
+  "first_active": null,
+  "last_active": null,
+  "dev_type": "Builder",
   "expertise_domains": [
-    "Ecosystem"
+    "Infrastructure",
+    "Ecosystem",
+    "Wallet"
   ],
   "expertise_by_source": {
     "discussion": {
       "Ecosystem": 1.0
+    },
+    "code": {
+      "Wallet": 0.25,
+      "Infrastructure": 0.75
     }
   },
   "expertise_domain_scores": {
-    "Ecosystem": 1.0
+    "Infrastructure": 0.45,
+    "Wallet": 0.15,
+    "Ecosystem": 0.4
   },
   "p2016_posts": 5.0,
   "modern_posts": 5.0,
@@ -77,12 +85,12 @@
   "p2016_delving_posts": 0.0,
   "modern_ml_posts": 5.0,
   "modern_delving_posts": 0.0,
-  "is_engineer": false,
+  "is_engineer": true,
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": false,
   "global_first_active": "2021-01-05T21:30:36",
-  "global_last_active": "2026-08-09T15:42:58",
+  "global_last_active": "2025-05-05T16:33:54",
   "github_location": null,
   "github_company": null,
   "github_bio": null,
@@ -94,11 +102,11 @@
   "github_url": "https://github.com/miketwenty1",
   "commit_history": {
     "2021": {
-      "Documentation": 2.0
+      "Documentation": 1.0
     },
     "2023": {
-      "Node & RPC": 1.0,
-      "Wallet": 1.0
+      "Node & RPC": 0.5,
+      "Wallet": 0.5
     }
   },
   "first_message": {

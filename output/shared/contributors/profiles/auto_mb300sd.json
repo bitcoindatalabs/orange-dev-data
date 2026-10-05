@@ -16,11 +16,11 @@
   "total_additions": 69.0,
   "total_deletions": 48.0,
   "first_core_commit": "2013-04-07T21:44:19+00:00",
-  "last_core_commit": "2015-12-22T10:26:09+00:00",
+  "last_core_commit": "2015-12-22T10:37:28+00:00",
   "first_ecosystem_commit": null,
   "last_ecosystem_commit": null,
   "first_commit": "2013-04-07T21:44:19",
-  "last_commit": "2015-12-22T10:26:09",
+  "last_commit": "2015-12-22T10:37:28",
   "p2016_authored_commits": 0.0,
   "modern_authored_commits": 0.0,
   "co_authored_commits": 0.0,
@@ -45,10 +45,10 @@
   "avg_pr_ack_velocity_days": 0.5225347222222222,
   "avg_concept_lead_time_days": 0.08556712962962963,
   "review_reciprocity": 0.75,
-  "hybrid_score": 0.0646,
+  "hybrid_score": 0.1446,
   "p2016_hybrid_score": 0.05,
   "modern_hybrid_score": 0.0396,
-  "impact_score": 4.0,
+  "impact_score": 8.0,
   "p2016_impact_score": 3.0,
   "modern_impact_score": 2.0,
   "threads_started": 0.0,
@@ -59,13 +59,20 @@
   "delving_responses": 0.0,
   "first_active": null,
   "last_active": null,
-  "dev_type": "Participant",
+  "dev_type": "Builder",
   "expertise_domains": [
-    "Infrastructure"
+    "Infrastructure",
+    "Script"
   ],
-  "expertise_by_source": {},
+  "expertise_by_source": {
+    "code": {
+      "Infrastructure": 0.917,
+      "Script": 0.083
+    }
+  },
   "expertise_domain_scores": {
-    "Infrastructure": 1.0
+    "Infrastructure": 0.917,
+    "Script": 0.083
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,
@@ -73,7 +80,7 @@
   "p2016_delving_posts": 0.0,
   "modern_ml_posts": 0.0,
   "modern_delving_posts": 0.0,
-  "is_engineer": false,
+  "is_engineer": true,
   "is_reviewer": true,
   "is_researcher": false,
   "is_bip_author": false,
@@ -90,13 +97,13 @@
   "github_url": "https://github.com/mb300sd",
   "commit_history": {
     "2013": {
-      "Utilities": 2.0
+      "Utilities": 1.0
     },
     "2015": {
-      "Documentation": 0.5,
-      "Script": 0.5,
-      "Tests": 0.5,
-      "Utilities": 1.5
+      "Documentation": 0.25,
+      "Script": 0.25,
+      "Tests": 0.25,
+      "Utilities": 1.25
     }
   }
 }

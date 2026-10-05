@@ -1,7 +1,7 @@
 {
   "display_name": "Alexander Leishman",
   "github_login_final": "leishman",
-  "delving_username_final": null,
+  "delving_username_final": "leishman",
   "uuid": "auto_alexander_leishman",
   "badges": null,
   "roles": null,
@@ -15,12 +15,12 @@
   "self_merges": 0.0,
   "total_additions": 15.0,
   "total_deletions": 3.0,
-  "first_core_commit": "2018-08-16T10:49:25+00:00",
-  "last_core_commit": "2018-09-10T13:37:20+00:00",
+  "first_core_commit": "2018-08-16T10:51:30+00:00",
+  "last_core_commit": "2018-09-10T13:40:23+00:00",
   "first_ecosystem_commit": null,
   "last_ecosystem_commit": null,
-  "first_commit": "2018-08-16T10:49:25",
-  "last_commit": "2018-09-10T13:37:20",
+  "first_commit": "2018-08-16T10:51:30",
+  "last_commit": "2018-09-10T13:40:23",
   "p2016_authored_commits": 2.0,
   "modern_authored_commits": 0.0,
   "co_authored_commits": 0.0,
@@ -45,47 +45,52 @@
   "avg_pr_ack_velocity_days": 0.4821527777777778,
   "avg_concept_lead_time_days": 0.9502314814814815,
   "review_reciprocity": 3.0,
-  "hybrid_score": 0.0944,
-  "p2016_hybrid_score": 0.0979,
+  "hybrid_score": 0.1578,
+  "p2016_hybrid_score": 0.1613,
   "modern_hybrid_score": 0.033,
-  "impact_score": 6.0,
-  "p2016_impact_score": 6.0,
+  "impact_score": 9.0,
+  "p2016_impact_score": 9.0,
   "modern_impact_score": 2.0,
-  "threads_started": 1.0,
-  "replies_sent": 3.0,
+  "threads_started": 2.0,
+  "replies_sent": 4.0,
   "ml_threads": 1.0,
-  "delving_threads": 0.0,
+  "delving_threads": 1.0,
   "ml_responses": 3.0,
-  "delving_responses": 0.0,
-  "first_active": "2014-10-25T16:51:59",
-  "last_active": "2019-08-21T12:33:28",
-  "dev_type": "Participant",
+  "delving_responses": 1.0,
+  "first_active": null,
+  "last_active": "2026-02-13T18:20:41.438000",
+  "dev_type": "Builder",
   "expertise_domains": [
+    "Infrastructure",
     "Consensus",
-    "Mining"
+    "Cryptography"
   ],
   "expertise_by_source": {
     "discussion": {
-      "Mining": 0.5,
-      "Consensus": 0.5
+      "Consensus": 0.75,
+      "Cryptography": 0.25
+    },
+    "code": {
+      "Infrastructure": 1.0
     }
   },
   "expertise_domain_scores": {
-    "Mining": 0.5,
-    "Consensus": 0.5
+    "Infrastructure": 0.6,
+    "Consensus": 0.3,
+    "Cryptography": 0.1
   },
-  "p2016_posts": 3.0,
-  "modern_posts": 0.0,
+  "p2016_posts": 5.0,
+  "modern_posts": 2.0,
   "p2016_ml_posts": 3.0,
-  "p2016_delving_posts": 0.0,
+  "p2016_delving_posts": 2.0,
   "modern_ml_posts": 0.0,
-  "modern_delving_posts": 0.0,
-  "is_engineer": false,
+  "modern_delving_posts": 2.0,
+  "is_engineer": true,
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": false,
-  "global_first_active": "2014-10-25T16:51:59",
-  "global_last_active": "2021-04-15T19:26:20",
+  "global_first_active": "2018-08-16T10:51:30",
+  "global_last_active": "2026-02-13T18:20:41.438000",
   "github_location": null,
   "github_company": "River",
   "github_bio": null,
@@ -95,10 +100,11 @@
   "activity_status": "Active",
   "is_top_50": false,
   "github_url": "https://github.com/leishman",
+  "delving_url": "https://delvingbitcoin.org/u/leishman",
   "commit_history": {
     "2018": {
-      "Node & RPC": 2.0,
-      "Tests": 2.0
+      "Node & RPC": 1.0,
+      "Tests": 1.0
     }
   },
   "first_message": {
@@ -108,10 +114,10 @@
     "link": "https://gnusha.org/pi/bitcoindev/CABW94zRyNWzuRe_xMjj07s+pO5cMEtB7QvR7RiOnTEBbw4xhpw@mail.gmail.com"
   },
   "last_message": {
-    "source": "mailing_list",
-    "subject": "Re: [bitcoin-dev] testing bitcoin nodes",
-    "date": "2019-08-21",
-    "link": "https://gnusha.org/pi/bitcoindev/CABW94zRu+wo5KKczMiTwG6GXt+icThTVN4oh62BykVFk_hueQQ@mail.gmail.com"
+    "source": "delving",
+    "subject": "Re: Major BIP 360 Update",
+    "date": "2026-02-13",
+    "link": "https://delvingbitcoin.org/t/major-bip-360-update/2170/20"
   },
   "social_history": {
     "2014": {
@@ -123,6 +129,12 @@
     },
     "2019": {
       "other": 1
+    },
+    "2026": {
+      "quantum": 2,
+      "script-opcodes": 2,
+      "security": 2,
+      "taproot": 2
     }
   }
 }

@@ -1,7 +1,7 @@
 {
   "display_name": "neonrooks",
   "github_login_final": null,
-  "delving_username_final": null,
+  "delving_username_final": "neonrooks",
   "uuid": "auto_neonrooks",
   "badges": null,
   "roles": null,
@@ -47,38 +47,42 @@
   "review_reciprocity": null,
   "hybrid_score": 0.0052,
   "p2016_hybrid_score": 0.0077,
-  "modern_hybrid_score": 0.021,
+  "modern_hybrid_score": 0.0212,
   "impact_score": 0.0,
   "p2016_impact_score": 0.0,
   "modern_impact_score": 1.0,
-  "threads_started": 0.0,
-  "replies_sent": 1.0,
+  "threads_started": 4.0,
+  "replies_sent": 2.0,
   "ml_threads": 0.0,
-  "delving_threads": 0.0,
+  "delving_threads": 4.0,
   "ml_responses": 1.0,
-  "delving_responses": 0.0,
-  "first_active": "2026-02-21T00:22:31",
-  "last_active": "2026-02-21T00:22:31",
+  "delving_responses": 1.0,
+  "first_active": "2026-02-14T09:17:15.591000",
+  "last_active": "2026-04-07T08:05:09.192000",
   "dev_type": "Participant",
   "expertise_domains": [
-    "Infrastructure"
+    "Mempool"
   ],
-  "expertise_by_source": {},
-  "expertise_domain_scores": {
-    "Infrastructure": 1.0
+  "expertise_by_source": {
+    "discussion": {
+      "Mempool": 1.0
+    }
   },
-  "p2016_posts": 1.0,
-  "modern_posts": 1.0,
+  "expertise_domain_scores": {
+    "Mempool": 1.0
+  },
+  "p2016_posts": 6.0,
+  "modern_posts": 6.0,
   "p2016_ml_posts": 1.0,
-  "p2016_delving_posts": 0.0,
+  "p2016_delving_posts": 5.0,
   "modern_ml_posts": 1.0,
-  "modern_delving_posts": 0.0,
+  "modern_delving_posts": 5.0,
   "is_engineer": false,
   "is_reviewer": false,
   "is_researcher": true,
   "is_bip_author": false,
-  "global_first_active": "2026-02-21T00:22:31",
-  "global_last_active": "2026-02-21T00:22:31",
+  "global_first_active": "2026-02-14T09:17:15.591000",
+  "global_last_active": "2026-04-07T08:05:09.192000",
   "github_location": null,
   "github_company": null,
   "github_bio": null,
@@ -87,21 +91,27 @@
   "github_followers": null,
   "activity_status": "New",
   "is_top_50": false,
+  "delving_url": "https://delvingbitcoin.org/u/neonrooks",
   "first_message": {
-    "source": "mailing_list",
-    "subject": "Re: [bitcoindev] Hourglass V2 Update",
-    "date": "2026-02-21",
-    "link": "https://gnusha.org/pi/bitcoindev/69633e8d-1491-4230-bfc8-f9300ecc97dcn@googlegroups.com"
+    "source": "delving",
+    "subject": "Re: The future of the Bitcoin Core GUI",
+    "date": "2026-02-14",
+    "link": "https://delvingbitcoin.org/t/the-future-of-the-bitcoin-core-gui/2253/3"
   },
   "last_message": {
-    "source": "mailing_list",
-    "subject": "Re: [bitcoindev] Hourglass V2 Update",
-    "date": "2026-02-21",
-    "link": "https://gnusha.org/pi/bitcoindev/69633e8d-1491-4230-bfc8-f9300ecc97dcn@googlegroups.com"
+    "source": "delving",
+    "subject": "Re: BIP-110 update: v0.4.1 release and implementation submitted to Bitcoin Core",
+    "date": "2026-04-07",
+    "link": "https://delvingbitcoin.org/t/bip-110-update-v0-4-1-release-and-implementation-submitted-to-bitcoin-core/2360/9"
   },
   "social_history": {
     "2026": {
-      "other": 1
+      "mempool-fees": 2,
+      "other": 1,
+      "security": 1,
+      "soft-fork-activation": 2,
+      "spam-filtering": 2,
+      "utxo-sync": 2
     }
   }
 }

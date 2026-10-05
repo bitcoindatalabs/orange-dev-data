@@ -1,5 +1,5 @@
 {
-  "display_name": "Rhett Creighton",
+  "display_name": "rhett creighton",
   "github_login_final": "RhettCreighton",
   "delving_username_final": null,
   "uuid": "auto_rhett_creighton",
@@ -15,12 +15,12 @@
   "self_merges": 0.0,
   "total_additions": 36.0,
   "total_deletions": 1.0,
-  "first_core_commit": "2014-12-29T08:52:45+00:00",
-  "last_core_commit": "2014-12-29T08:52:45+00:00",
+  "first_core_commit": "2014-12-29T08:53:15+00:00",
+  "last_core_commit": "2014-12-29T08:53:15+00:00",
   "first_ecosystem_commit": null,
   "last_ecosystem_commit": null,
-  "first_commit": "2014-12-29T08:52:45",
-  "last_commit": "2014-12-29T08:52:45",
+  "first_commit": "2014-12-29T08:53:15",
+  "last_commit": "2014-12-29T08:53:15",
   "p2016_authored_commits": 0.0,
   "modern_authored_commits": 0.0,
   "co_authored_commits": 0.0,
@@ -45,10 +45,10 @@
   "avg_pr_ack_velocity_days": 0.07077546296296296,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": 0.5,
-  "hybrid_score": 0.0396,
+  "hybrid_score": 0.0796,
   "p2016_hybrid_score": 0.0396,
   "modern_hybrid_score": 0.0396,
-  "impact_score": 2.0,
+  "impact_score": 5.0,
   "p2016_impact_score": 2.0,
   "modern_impact_score": 2.0,
   "threads_started": 0.0,
@@ -59,11 +59,15 @@
   "delving_responses": 0.0,
   "first_active": null,
   "last_active": null,
-  "dev_type": "Participant",
+  "dev_type": "Builder",
   "expertise_domains": [
     "Infrastructure"
   ],
-  "expertise_by_source": {},
+  "expertise_by_source": {
+    "code": {
+      "Infrastructure": 1.0
+    }
+  },
   "expertise_domain_scores": {
     "Infrastructure": 1.0
   },
@@ -73,11 +77,11 @@
   "p2016_delving_posts": 0.0,
   "modern_ml_posts": 0.0,
   "modern_delving_posts": 0.0,
-  "is_engineer": false,
+  "is_engineer": true,
   "is_reviewer": true,
   "is_researcher": false,
   "is_bip_author": false,
-  "global_first_active": "2014-12-29T08:52:45",
+  "global_first_active": "2014-12-29T08:53:15",
   "global_last_active": "2026-04-17T18:36:51",
   "github_location": "San Juan, Puerto Rico",
   "github_company": "@RhettCreighton",
@@ -90,7 +94,7 @@
   "github_url": "https://github.com/RhettCreighton",
   "commit_history": {
     "2014": {
-      "Tests": 2.0
+      "Tests": 1.0
     }
   }
 }

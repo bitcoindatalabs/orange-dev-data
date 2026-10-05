@@ -15,12 +15,12 @@
   "self_merges": 0.0,
   "total_additions": 19.0,
   "total_deletions": 19.0,
-  "first_core_commit": "2021-01-05T10:53:15+00:00",
-  "last_core_commit": "2021-01-05T10:53:15+00:00",
+  "first_core_commit": "2021-01-05T10:55:00+00:00",
+  "last_core_commit": "2021-01-05T10:55:00+00:00",
   "first_ecosystem_commit": null,
   "last_ecosystem_commit": null,
-  "first_commit": "2021-01-05T10:53:15",
-  "last_commit": "2021-01-05T10:53:15",
+  "first_commit": "2021-01-05T10:55:00",
+  "last_commit": "2021-01-05T10:55:00",
   "p2016_authored_commits": 1.0,
   "modern_authored_commits": 0.0,
   "co_authored_commits": 0.0,
@@ -45,11 +45,11 @@
   "avg_pr_ack_velocity_days": 0.2578472222222222,
   "avg_concept_lead_time_days": 0.2578472222222222,
   "review_reciprocity": 1.0,
-  "hybrid_score": 0.033,
-  "p2016_hybrid_score": 0.033,
+  "hybrid_score": 0.073,
+  "p2016_hybrid_score": 0.073,
   "modern_hybrid_score": 0.0146,
-  "impact_score": 2.0,
-  "p2016_impact_score": 2.0,
+  "impact_score": 4.0,
+  "p2016_impact_score": 4.0,
   "modern_impact_score": 1.0,
   "threads_started": 0.0,
   "replies_sent": 0.0,
@@ -59,13 +59,20 @@
   "delving_responses": 0.0,
   "first_active": null,
   "last_active": null,
-  "dev_type": "Participant",
+  "dev_type": "Builder",
   "expertise_domains": [
-    "Infrastructure"
+    "Infrastructure",
+    "Cryptography"
   ],
-  "expertise_by_source": {},
+  "expertise_by_source": {
+    "code": {
+      "Infrastructure": 0.8,
+      "Cryptography": 0.2
+    }
+  },
   "expertise_domain_scores": {
-    "Infrastructure": 1.0
+    "Infrastructure": 0.8,
+    "Cryptography": 0.2
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,
@@ -73,12 +80,12 @@
   "p2016_delving_posts": 0.0,
   "modern_ml_posts": 0.0,
   "modern_delving_posts": 0.0,
-  "is_engineer": false,
+  "is_engineer": true,
   "is_reviewer": true,
   "is_researcher": false,
   "is_bip_author": false,
   "global_first_active": "2021-01-04T16:43:49",
-  "global_last_active": "2021-01-05T10:53:15",
+  "global_last_active": "2021-01-05T10:55:00",
   "github_location": "Los Angeles, CA",
   "github_company": "@fullsend-solutions",
   "github_bio": "Co-Founder @ Fullsend",
@@ -90,11 +97,11 @@
   "github_url": "https://github.com/sbilling",
   "commit_history": {
     "2021": {
-      "Cryptography": 0.4,
-      "Documentation": 0.4,
-      "GUI": 0.4,
-      "Tests": 0.4,
-      "Utilities": 0.4
+      "Cryptography": 0.2,
+      "Documentation": 0.2,
+      "GUI": 0.2,
+      "Tests": 0.2,
+      "Utilities": 0.2
     }
   }
 }

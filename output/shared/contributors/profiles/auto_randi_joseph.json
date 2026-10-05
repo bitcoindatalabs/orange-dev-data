@@ -1,5 +1,5 @@
 {
-  "display_name": "Randi Joseph",
+  "display_name": "randi joseph",
   "github_login_final": null,
   "delving_username_final": null,
   "uuid": "auto_randi_joseph",
@@ -45,7 +45,7 @@
   "avg_pr_ack_velocity_days": null,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": null,
-  "hybrid_score": 0.0093,
+  "hybrid_score": 0.0092,
   "p2016_hybrid_score": 0.0,
   "modern_hybrid_score": 0.0,
   "impact_score": 1.0,
@@ -57,8 +57,8 @@
   "delving_threads": 0.0,
   "ml_responses": 3.0,
   "delving_responses": 0.0,
-  "first_active": "2014-07-04T15:55:04",
-  "last_active": "2015-06-27T10:29:07",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Participant",
   "expertise_domains": [
     "Mining",
@@ -68,14 +68,14 @@
   "expertise_by_source": {
     "discussion": {
       "Mining": 0.626,
-      "Mempool": 0.253,
-      "Consensus": 0.121
+      "Consensus": 0.121,
+      "Mempool": 0.253
     }
   },
   "expertise_domain_scores": {
     "Mining": 0.626,
-    "Mempool": 0.253,
-    "Consensus": 0.121
+    "Consensus": 0.121,
+    "Mempool": 0.253
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,
@@ -87,8 +87,8 @@
   "is_reviewer": false,
   "is_researcher": true,
   "is_bip_author": false,
-  "global_first_active": "2014-07-04T15:55:04",
-  "global_last_active": "2015-06-27T10:29:07",
+  "global_first_active": null,
+  "global_last_active": null,
   "github_location": null,
   "github_company": null,
   "github_bio": null,

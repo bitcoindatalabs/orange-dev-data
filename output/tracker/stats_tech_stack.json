@@ -1,1 +1,1 @@
-{"data": [], "metadata": {"top_languages": []}}
+{"data": [{"name": "C++", "value": 394560}, {"name": "Python", "value": 97306}, {"name": "C", "value": 32978}, {"name": "Shell", "value": 4256}, {"name": "Assembly", "value": 925}, {"name": "Other", "value": 499, "details": "Web (499 LOC)"}], "metadata": {"top_languages": ["C++", "Python", "C", "Shell", "Assembly"]}}

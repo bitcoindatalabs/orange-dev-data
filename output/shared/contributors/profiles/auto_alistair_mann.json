@@ -1,5 +1,5 @@
 {
-  "display_name": "Alistair Mann",
+  "display_name": "alistair mann",
   "github_login_final": "Csi18nAlistairMann",
   "delving_username_final": null,
   "uuid": "auto_alistair_mann",
@@ -15,12 +15,12 @@
   "self_merges": 0.0,
   "total_additions": 27.0,
   "total_deletions": 0.0,
-  "first_core_commit": "2019-03-05T12:11:32+00:00",
-  "last_core_commit": "2019-03-05T12:11:32+00:00",
+  "first_core_commit": "2019-03-05T12:13:09+00:00",
+  "last_core_commit": "2019-03-05T12:13:09+00:00",
   "first_ecosystem_commit": null,
   "last_ecosystem_commit": null,
-  "first_commit": "2019-03-05T12:11:32",
-  "last_commit": "2019-03-05T12:11:32",
+  "first_commit": "2019-03-05T12:13:09",
+  "last_commit": "2019-03-05T12:13:09",
   "p2016_authored_commits": 1.0,
   "modern_authored_commits": 0.0,
   "co_authored_commits": 0.0,
@@ -45,11 +45,11 @@
   "avg_pr_ack_velocity_days": 1.2738368055555556,
   "avg_concept_lead_time_days": 1.452332175925926,
   "review_reciprocity": 0.0,
-  "hybrid_score": 0.0386,
-  "p2016_hybrid_score": 0.0467,
+  "hybrid_score": 0.0785,
+  "p2016_hybrid_score": 0.0865,
   "modern_hybrid_score": 0.025,
-  "impact_score": 2.0,
-  "p2016_impact_score": 3.0,
+  "impact_score": 5.0,
+  "p2016_impact_score": 5.0,
   "modern_impact_score": 1.0,
   "threads_started": 1.0,
   "replies_sent": 4.0,
@@ -57,25 +57,29 @@
   "delving_threads": 0.0,
   "ml_responses": 4.0,
   "delving_responses": 0.0,
-  "first_active": "2019-03-11T11:01:12",
-  "last_active": "2019-07-31T18:28:56",
-  "dev_type": "Participant",
+  "first_active": null,
+  "last_active": null,
+  "dev_type": "Builder",
   "expertise_domains": [
+    "Infrastructure",
     "L2",
-    "Mempool",
-    "Mining"
+    "Mempool"
   ],
   "expertise_by_source": {
     "discussion": {
       "Mining": 0.179,
-      "L2": 0.548,
-      "Mempool": 0.274
+      "Mempool": 0.274,
+      "L2": 0.548
+    },
+    "code": {
+      "Infrastructure": 1.0
     }
   },
   "expertise_domain_scores": {
-    "Mining": 0.1788,
-    "L2": 0.5475,
-    "Mempool": 0.2737
+    "Mining": 0.0716,
+    "Infrastructure": 0.5998,
+    "Mempool": 0.1096,
+    "L2": 0.2191
   },
   "p2016_posts": 5.0,
   "modern_posts": 0.0,
@@ -83,12 +87,12 @@
   "p2016_delving_posts": 0.0,
   "modern_ml_posts": 0.0,
   "modern_delving_posts": 0.0,
-  "is_engineer": false,
+  "is_engineer": true,
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": false,
-  "global_first_active": "2019-03-05T12:11:32",
-  "global_last_active": "2019-07-31T18:28:56",
+  "global_first_active": "2019-03-05T12:13:09",
+  "global_last_active": "2019-03-05T12:13:09",
   "github_location": null,
   "github_company": null,
   "github_bio": null,
@@ -100,7 +104,7 @@
   "github_url": "https://github.com/Csi18nAlistairMann",
   "commit_history": {
     "2019": {
-      "Build & CI": 2.0
+      "Build & CI": 1.0
     }
   },
   "first_message": {

@@ -1,7 +1,7 @@
 {
-  "display_name": "Fi3",
+  "display_name": "fi3",
   "github_login_final": "Fi3",
-  "delving_username_final": null,
+  "delving_username_final": "fi3",
   "uuid": "auto_fi3",
   "badges": null,
   "roles": null,
@@ -45,40 +45,50 @@
   "avg_pr_ack_velocity_days": 3.0248032407407406,
   "avg_concept_lead_time_days": 3.0248032407407406,
   "review_reciprocity": 4.0,
-  "hybrid_score": 0.0615,
-  "p2016_hybrid_score": 0.0615,
-  "modern_hybrid_score": 0.0452,
+  "hybrid_score": 0.0666,
+  "p2016_hybrid_score": 0.0692,
+  "modern_hybrid_score": 0.0664,
   "impact_score": 4.0,
   "p2016_impact_score": 4.0,
-  "modern_impact_score": 3.0,
-  "threads_started": 0.0,
-  "replies_sent": 0.0,
+  "modern_impact_score": 4.0,
+  "threads_started": 10.0,
+  "replies_sent": 16.0,
   "ml_threads": 0.0,
-  "delving_threads": 0.0,
+  "delving_threads": 10.0,
   "ml_responses": 0.0,
-  "delving_responses": 0.0,
-  "first_active": null,
-  "last_active": null,
+  "delving_responses": 16.0,
+  "first_active": "2024-05-06T10:00:29.691000",
+  "last_active": "2025-01-09T11:16:34.306000",
   "dev_type": "Participant",
   "expertise_domains": [
-    "Infrastructure"
+    "Mining",
+    "Consensus",
+    "Mempool"
   ],
-  "expertise_by_source": {},
-  "expertise_domain_scores": {
-    "Infrastructure": 1.0
+  "expertise_by_source": {
+    "discussion": {
+      "Mining": 0.51,
+      "Consensus": 0.245,
+      "Mempool": 0.245
+    }
   },
-  "p2016_posts": 0.0,
-  "modern_posts": 0.0,
+  "expertise_domain_scores": {
+    "Mining": 0.51,
+    "Consensus": 0.245,
+    "Mempool": 0.245
+  },
+  "p2016_posts": 26.0,
+  "modern_posts": 26.0,
   "p2016_ml_posts": 0.0,
-  "p2016_delving_posts": 0.0,
+  "p2016_delving_posts": 26.0,
   "modern_ml_posts": 0.0,
-  "modern_delving_posts": 0.0,
+  "modern_delving_posts": 26.0,
   "is_engineer": false,
   "is_reviewer": true,
-  "is_researcher": false,
+  "is_researcher": true,
   "is_bip_author": false,
   "global_first_active": "2020-11-06T18:20:08",
-  "global_last_active": "2024-07-12T10:26:30",
+  "global_last_active": "2025-01-09T11:16:34.306000",
   "github_location": "anywhere",
   "github_company": null,
   "github_bio": "...",
@@ -87,5 +97,31 @@
   "github_followers": 0.0,
   "activity_status": "Active",
   "is_top_50": false,
-  "github_url": "https://github.com/Fi3"
+  "github_url": "https://github.com/Fi3",
+  "delving_url": "https://delvingbitcoin.org/u/fi3",
+  "first_message": {
+    "source": "delving",
+    "subject": "Re: Deterministic tx selection for censorship resistance",
+    "date": "2024-05-06",
+    "link": "https://delvingbitcoin.org/t/deterministic-tx-selection-for-censorship-resistance/842/4"
+  },
+  "last_message": {
+    "source": "delving",
+    "subject": "Re: PPLNS with job declaration",
+    "date": "2025-01-09",
+    "link": "https://delvingbitcoin.org/t/pplns-with-job-declaration/1099/55"
+  },
+  "social_history": {
+    "2024": {
+      "consensus-cleanup": 24,
+      "mempool-fees": 24,
+      "mining": 25,
+      "spam-filtering": 1
+    },
+    "2025": {
+      "consensus-cleanup": 1,
+      "mempool-fees": 1,
+      "mining": 1
+    }
+  }
 }

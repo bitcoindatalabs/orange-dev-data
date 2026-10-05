@@ -1,7 +1,7 @@
 {
-  "display_name": "dmitry petukhov",
+  "display_name": "Dmitry Petukhov",
   "github_login_final": "dgpv",
-  "delving_username_final": null,
+  "delving_username_final": "dgpv",
   "uuid": "auto_dmitry_petukhov",
   "badges": {
     "is_maintainer": false,
@@ -27,12 +27,12 @@
   "self_merges": 0.0,
   "total_additions": 17.0,
   "total_deletions": 7.0,
-  "first_core_commit": "2020-11-19T16:59:17+00:00",
-  "last_core_commit": "2020-12-16T18:23:19+00:00",
+  "first_core_commit": "2020-11-19T17:00:44+00:00",
+  "last_core_commit": "2020-12-16T18:45:58+00:00",
   "first_ecosystem_commit": null,
   "last_ecosystem_commit": null,
-  "first_commit": "2020-11-19T16:59:17",
-  "last_commit": "2020-12-16T18:23:19",
+  "first_commit": "2020-11-19T17:00:44",
+  "last_commit": "2020-12-16T18:45:58",
   "p2016_authored_commits": 2.0,
   "modern_authored_commits": 0.0,
   "co_authored_commits": 0.0,
@@ -57,49 +57,55 @@
   "avg_pr_ack_velocity_days": 11.303676697530863,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": 1.7777777777777777,
-  "hybrid_score": 0.5182,
-  "p2016_hybrid_score": 0.5574,
-  "modern_hybrid_score": 0.0675,
-  "impact_score": 27.0,
-  "p2016_impact_score": 28.0,
-  "modern_impact_score": 4.0,
-  "threads_started": 4.0,
-  "replies_sent": 41.0,
+  "hybrid_score": 0.5821,
+  "p2016_hybrid_score": 0.621,
+  "modern_hybrid_score": 0.0887,
+  "impact_score": 29.0,
+  "p2016_impact_score": 31.0,
+  "modern_impact_score": 5.0,
+  "threads_started": 26.0,
+  "replies_sent": 53.0,
   "ml_threads": 4.0,
-  "delving_threads": 0.0,
+  "delving_threads": 22.0,
   "ml_responses": 41.0,
-  "delving_responses": 0.0,
-  "first_active": "2018-11-08T02:11:30",
-  "last_active": "2023-08-30T07:07:53",
-  "dev_type": "Reviewer",
+  "delving_responses": 12.0,
+  "first_active": null,
+  "last_active": "2024-09-09T10:54:41.079000",
+  "dev_type": "Protocol Designer",
   "expertise_domains": [
     "Infrastructure",
+    "Script",
     "Wallet"
   ],
   "expertise_by_source": {
     "discussion": {
-      "Wallet": 1.0
+      "Wallet": 0.289,
+      "Script": 0.711
+    },
+    "code": {
+      "Infrastructure": 1.0
     },
     "bips": {
       "Infrastructure": 1.0
     }
   },
   "expertise_domain_scores": {
-    "Infrastructure": 0.7143,
-    "Wallet": 0.2857
+    "Infrastructure": 0.8,
+    "Wallet": 0.0578,
+    "Script": 0.1422
   },
-  "p2016_posts": 45.0,
-  "modern_posts": 0.0,
+  "p2016_posts": 79.0,
+  "modern_posts": 33.0,
   "p2016_ml_posts": 45.0,
-  "p2016_delving_posts": 0.0,
+  "p2016_delving_posts": 34.0,
   "modern_ml_posts": 0.0,
-  "modern_delving_posts": 0.0,
-  "is_engineer": false,
+  "modern_delving_posts": 33.0,
+  "is_engineer": true,
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": true,
-  "global_first_active": "2018-11-08T02:11:30",
-  "global_last_active": "2024-04-12T17:27:44",
+  "global_first_active": "2019-07-24T12:19:28",
+  "global_last_active": "2024-09-09T10:54:41.079000",
   "github_location": null,
   "github_company": null,
   "github_bio": null,
@@ -109,10 +115,11 @@
   "activity_status": "Retired",
   "is_top_50": false,
   "github_url": "https://github.com/dgpv",
+  "delving_url": "https://delvingbitcoin.org/u/dgpv",
   "commit_history": {
     "2020": {
-      "Documentation": 2.0,
-      "Tests": 2.0
+      "Documentation": 1.0,
+      "Tests": 1.0
     }
   },
   "bip_list": [
@@ -131,10 +138,10 @@
     "link": "https://gnusha.org/pi/bitcoindev/20181108131130.134b2d43@simplexum.com"
   },
   "last_message": {
-    "source": "mailing_list",
-    "subject": "[bitcoin-dev] Announcing B'SST: Bitcoin-like Script Symbolic Tracer",
-    "date": "2023-08-30",
-    "link": "https://gnusha.org/pi/bitcoindev/20230830140753.574d2ab9@simplexum.com"
+    "source": "delving",
+    "subject": "BSST v0.1.4: license change to AGPLv3 (no other changes)",
+    "date": "2024-09-09",
+    "link": "https://delvingbitcoin.org/t/bsst-v0-1-4-license-change-to-agplv3-no-other-changes/1122/1"
   },
   "social_history": {
     "2018": {
@@ -143,31 +150,43 @@
     "2019": {
       "covenants": 1,
       "mining": 2,
-      "multisig-threshold": 4,
-      "other": 5,
+      "other": 8,
       "script-opcodes": 2,
+      "taproot": 1,
       "wallet-keys": 8
     },
     "2020": {
-      "atomic-swaps": 5,
+      "other": 7,
       "covenants": 4,
       "mempool-fees": 2,
       "mining": 1,
       "script-opcodes": 5,
-      "other": 2,
       "wallet-keys": 6
     },
     "2021": {
       "mining": 2,
-      "multisig-threshold": 5,
-      "other": 2,
+      "other": 6,
+      "taproot": 1,
       "wallet-keys": 2
     },
     "2022": {
       "wallet-keys": 2
     },
     "2023": {
-      "other": 1
+      "covenants": 5,
+      "mempool-fees": 2,
+      "other": 5,
+      "script-opcodes": 4,
+      "wallet-keys": 2
+    },
+    "2024": {
+      "other": 15,
+      "covenants": 22,
+      "mempool-fees": 13,
+      "mining": 13,
+      "script-opcodes": 21,
+      "taproot": 22,
+      "vaults": 13
     }
   }
 }

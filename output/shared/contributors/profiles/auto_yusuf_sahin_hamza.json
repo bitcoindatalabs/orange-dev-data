@@ -15,12 +15,12 @@
   "self_merges": 0.0,
   "total_additions": 65.0,
   "total_deletions": 41.0,
-  "first_core_commit": "2020-03-11T16:42:23+00:00",
-  "last_core_commit": "2023-05-01T13:21:28+00:00",
+  "first_core_commit": "2020-03-11T16:44:31+00:00",
+  "last_core_commit": "2023-05-01T13:28:20+00:00",
   "first_ecosystem_commit": null,
   "last_ecosystem_commit": null,
-  "first_commit": "2020-03-11T16:42:23",
-  "last_commit": "2023-05-01T13:21:28",
+  "first_commit": "2020-03-11T16:44:31",
+  "last_commit": "2023-05-01T13:28:20",
   "p2016_authored_commits": 4.0,
   "modern_authored_commits": 0.0,
   "co_authored_commits": 0.0,
@@ -45,12 +45,12 @@
   "avg_pr_ack_velocity_days": 52.81812268518519,
   "avg_concept_lead_time_days": 64.96201967592593,
   "review_reciprocity": 0.6,
-  "hybrid_score": 0.0675,
-  "p2016_hybrid_score": 0.0675,
-  "modern_hybrid_score": 0.0452,
-  "impact_score": 4.0,
-  "p2016_impact_score": 4.0,
-  "modern_impact_score": 3.0,
+  "hybrid_score": 0.1603,
+  "p2016_hybrid_score": 0.1603,
+  "modern_hybrid_score": 0.1252,
+  "impact_score": 9.0,
+  "p2016_impact_score": 9.0,
+  "modern_impact_score": 7.0,
   "threads_started": 0.0,
   "replies_sent": 0.0,
   "ml_threads": 0.0,
@@ -59,13 +59,20 @@
   "delving_responses": 0.0,
   "first_active": null,
   "last_active": null,
-  "dev_type": "Participant",
+  "dev_type": "Builder",
   "expertise_domains": [
-    "Infrastructure"
+    "Infrastructure",
+    "Wallet"
   ],
-  "expertise_by_source": {},
+  "expertise_by_source": {
+    "code": {
+      "Wallet": 0.333,
+      "Infrastructure": 0.667
+    }
+  },
   "expertise_domain_scores": {
-    "Infrastructure": 1.0
+    "Infrastructure": 0.667,
+    "Wallet": 0.333
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,
@@ -73,12 +80,12 @@
   "p2016_delving_posts": 0.0,
   "modern_ml_posts": 0.0,
   "modern_delving_posts": 0.0,
-  "is_engineer": false,
+  "is_engineer": true,
   "is_reviewer": true,
   "is_researcher": false,
   "is_bip_author": false,
   "global_first_active": "2019-09-30T09:15:45",
-  "global_last_active": "2023-05-01T13:21:28",
+  "global_last_active": "2023-05-01T13:28:20",
   "github_location": "Turkiye",
   "github_company": null,
   "github_bio": "3.14159265358979323846264338327950288419716939937510582097494459230781640628620899862803482534211706798214808651328230664709384460955058223172535940812848111...",
@@ -90,14 +97,14 @@
   "github_url": "https://github.com/yusufsahinhamza",
   "commit_history": {
     "2020": {
-      "Documentation": 0.67,
-      "Node & RPC": 0.67,
-      "Wallet": 0.67
+      "Documentation": 0.33,
+      "Node & RPC": 0.33,
+      "Wallet": 0.33
     },
     "2023": {
-      "Tests": 2.0,
-      "Utilities": 2.0,
-      "Wallet": 2.0
+      "Tests": 1.0,
+      "Utilities": 1.0,
+      "Wallet": 1.0
     }
   }
 }

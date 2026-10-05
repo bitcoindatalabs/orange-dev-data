@@ -5,27 +5,27 @@
   "uuid": "auto_aaron_clauson",
   "badges": {
     "ecosystem_contributor": true,
-    "tier2_commits": 92
+    "tier2_commits": 93
   },
   "roles": null,
-  "total_commits": 139.0,
-  "authored_commits": 139.0,
+  "total_commits": 140.0,
+  "authored_commits": 140.0,
   "tier1_authored_commits": 47.0,
-  "tier2_authored_commits": 92.0,
+  "tier2_authored_commits": 93.0,
   "merge_commits": 0.0,
   "tier1_merge_commits": 0.0,
   "tier2_merge_commits": 0.0,
   "self_merges": 0.0,
-  "total_additions": 8449.0,
+  "total_additions": 8470.0,
   "total_deletions": 4541.0,
-  "first_core_commit": "2017-11-13T11:48:45+00:00",
-  "last_core_commit": "2023-12-11T09:13:19+00:00",
+  "first_core_commit": "2017-11-13T11:49:46+00:00",
+  "last_core_commit": "2023-12-11T09:18:46+00:00",
   "first_ecosystem_commit": "2021-07-23T19:04:24+00:00",
-  "last_ecosystem_commit": "2026-09-19T19:32:24+00:00",
-  "first_commit": "2017-11-13T11:48:45",
-  "last_commit": "2023-12-11T09:13:19",
-  "p2016_authored_commits": 139.0,
-  "modern_authored_commits": 72.0,
+  "last_ecosystem_commit": "2026-10-01T20:29:30+00:00",
+  "first_commit": "2017-11-13T11:49:46",
+  "last_commit": "2023-12-11T09:18:46",
+  "p2016_authored_commits": 140.0,
+  "modern_authored_commits": 73.0,
   "co_authored_commits": 2.0,
   "bips_authored": 0.0,
   "p2016_bips_authored": 0.0,
@@ -39,7 +39,7 @@
   "tier1_reviews_count": 158.0,
   "tier2_reviews_count": 0.0,
   "p2016_reviews_count": 158.0,
-  "modern_reviews_count": 29.0,
+  "modern_reviews_count": 28.0,
   "first_review_date": "2018-02-01T22:51:09",
   "last_review_date": "2025-07-03T10:55:22",
   "prs_authored": 58.0,
@@ -48,12 +48,12 @@
   "avg_pr_ack_velocity_days": 0.878945987654321,
   "avg_concept_lead_time_days": 2.7713310185185183,
   "review_reciprocity": 2.7241379310344827,
-  "hybrid_score": 0.1889,
-  "p2016_hybrid_score": 0.1889,
-  "modern_hybrid_score": 0.1471,
-  "impact_score": 11.0,
-  "p2016_impact_score": 11.0,
-  "modern_impact_score": 8.0,
+  "hybrid_score": 0.474,
+  "p2016_hybrid_score": 0.474,
+  "modern_hybrid_score": 0.394,
+  "impact_score": 25.0,
+  "p2016_impact_score": 25.0,
+  "modern_impact_score": 21.0,
   "threads_started": 0.0,
   "replies_sent": 0.0,
   "ml_threads": 0.0,
@@ -62,13 +62,21 @@
   "delving_responses": 0.0,
   "first_active": null,
   "last_active": null,
-  "dev_type": "Reviewer",
+  "dev_type": "Builder",
   "expertise_domains": [
-    "Infrastructure"
+    "Infrastructure",
+    "Network",
+    "Consensus"
   ],
-  "expertise_by_source": {},
+  "expertise_by_source": {
+    "code": {
+      "Infrastructure": 0.989,
+      "Consensus": 0.002,
+      "Network": 0.009
+    }
+  },
   "expertise_domain_scores": {
-    "Infrastructure": 1.0
+    "Infrastructure": 0.989
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,
@@ -76,11 +84,11 @@
   "p2016_delving_posts": 0.0,
   "modern_ml_posts": 0.0,
   "modern_delving_posts": 0.0,
-  "is_engineer": false,
+  "is_engineer": true,
   "is_reviewer": true,
   "is_researcher": false,
   "is_bip_author": false,
-  "global_first_active": "2017-11-13T11:48:45",
+  "global_first_active": "2017-11-13T11:49:46",
   "global_last_active": "2025-07-03T10:55:22",
   "github_location": "Dublin, Ireland",
   "github_company": "NoFrixion",
@@ -88,42 +96,42 @@
   "github_twitter": "sipsorcery",
   "github_blog": null,
   "github_followers": 334.0,
-  "activity_status": "Active",
+  "activity_status": "Rising",
   "is_top_50": false,
   "github_url": "https://github.com/sipsorcery",
   "commit_history": {
     "2017": {
-      "Consensus": 0.5,
-      "Documentation": 6.0,
-      "P2P Network": 0.5,
-      "Tests": 2.5,
-      "Utilities": 0.5
+      "Consensus": 0.25,
+      "Documentation": 3.0,
+      "P2P Network": 0.25,
+      "Tests": 1.25,
+      "Utilities": 0.25
     },
     "2018": {
-      "Build & CI": 2.0,
-      "P2P Network": 2.0,
-      "Utilities": 2.0
+      "Build & CI": 1.0,
+      "P2P Network": 1.0,
+      "Utilities": 1.0
     },
     "2019": {
-      "Build & CI": 24.0,
-      "Documentation": 2.0,
-      "Tests": 2.0,
-      "Utilities": 6.0
+      "Build & CI": 12.0,
+      "Documentation": 1.0,
+      "Tests": 1.0,
+      "Utilities": 3.0
     },
     "2020": {
-      "Build & CI": 12.0,
-      "Documentation": 2.0,
-      "Utilities": 16.0
+      "Build & CI": 6.0,
+      "Documentation": 1.0,
+      "Utilities": 8.0
     },
     "2021": {
-      "Build & CI": 12.0,
-      "Utilities": 6.0
+      "Build & CI": 9.0,
+      "Utilities": 3.0
     },
     "2022": {
       "Build & CI": 15.0
     },
     "2023": {
-      "Build & CI": 2.0
+      "Build & CI": 1.0
     },
     "2024": {
       "Build & CI": 8.0
@@ -132,7 +140,7 @@
       "Build & CI": 37.0
     },
     "2026": {
-      "Build & CI": 23.0
+      "Build & CI": 26.0
     }
   }
 }

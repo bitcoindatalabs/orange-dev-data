@@ -15,12 +15,12 @@
   "self_merges": 0.0,
   "total_additions": 12.0,
   "total_deletions": 0.0,
-  "first_core_commit": "2026-09-14T12:10:49+00:00",
-  "last_core_commit": "2026-09-14T12:10:49+00:00",
+  "first_core_commit": "2026-09-14T12:11:01+00:00",
+  "last_core_commit": "2026-09-14T12:11:01+00:00",
   "first_ecosystem_commit": null,
   "last_ecosystem_commit": null,
-  "first_commit": "2026-09-14T12:10:49",
-  "last_commit": "2026-09-14T12:10:49",
+  "first_commit": "2026-09-14T12:11:01",
+  "last_commit": "2026-09-14T12:11:01",
   "p2016_authored_commits": 1.0,
   "modern_authored_commits": 1.0,
   "co_authored_commits": 0.0,
@@ -45,22 +45,23 @@
   "avg_pr_ack_velocity_days": 0.052222222222222225,
   "avg_concept_lead_time_days": 0.052222222222222225,
   "review_reciprocity": 0.0,
-  "hybrid_score": 0.0667,
-  "p2016_hybrid_score": 0.0831,
-  "modern_hybrid_score": 0.033,
-  "impact_score": 4.0,
-  "p2016_impact_score": 5.0,
-  "modern_impact_score": 2.0,
+  "hybrid_score": 0.1063,
+  "p2016_hybrid_score": 0.1226,
+  "modern_hybrid_score": 0.0728,
+  "impact_score": 6.0,
+  "p2016_impact_score": 7.0,
+  "modern_impact_score": 4.0,
   "threads_started": 0.0,
   "replies_sent": 1.0,
   "ml_threads": 0.0,
   "delving_threads": 0.0,
   "ml_responses": 1.0,
   "delving_responses": 0.0,
-  "first_active": "2018-07-12T19:27:31",
-  "last_active": "2018-07-12T19:27:31",
-  "dev_type": "Participant",
+  "first_active": null,
+  "last_active": null,
+  "dev_type": "Builder",
   "expertise_domains": [
+    "Infrastructure",
     "Mining",
     "Network"
   ],
@@ -68,11 +69,15 @@
     "discussion": {
       "Mining": 0.67,
       "Network": 0.33
+    },
+    "code": {
+      "Infrastructure": 1.0
     }
   },
   "expertise_domain_scores": {
-    "Mining": 0.67,
-    "Network": 0.33
+    "Mining": 0.268,
+    "Infrastructure": 0.6,
+    "Network": 0.132
   },
   "p2016_posts": 1.0,
   "modern_posts": 0.0,
@@ -80,26 +85,26 @@
   "p2016_delving_posts": 0.0,
   "modern_ml_posts": 0.0,
   "modern_delving_posts": 0.0,
-  "is_engineer": false,
+  "is_engineer": true,
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": false,
-  "global_first_active": "2018-07-12T19:27:31",
-  "global_last_active": "2026-09-14T12:10:49",
+  "global_first_active": "2026-09-14T12:11:01",
+  "global_last_active": "2026-09-14T12:11:01",
   "github_location": null,
   "github_company": "Braiins",
   "github_bio": "Braiins systems/Rust/Bitcoin",
   "github_twitter": null,
   "github_blog": null,
   "github_followers": 21.0,
-  "activity_status": "Active",
+  "activity_status": "New",
   "is_top_50": false,
   "github_url": "https://github.com/jakubtrnka",
   "commit_history": {
     "2026": {
-      "Documentation": 0.67,
-      "Node & RPC": 0.67,
-      "Tests": 0.67
+      "Documentation": 0.33,
+      "Node & RPC": 0.33,
+      "Tests": 0.33
     }
   },
   "first_message": {

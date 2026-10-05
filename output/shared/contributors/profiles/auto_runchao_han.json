@@ -1,5 +1,5 @@
 {
-  "display_name": "Runchao Han",
+  "display_name": "runchao han",
   "github_login_final": null,
   "delving_username_final": null,
   "uuid": "auto_runchao_han",
@@ -45,8 +45,8 @@
   "avg_pr_ack_velocity_days": null,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": null,
-  "hybrid_score": 0.0129,
-  "p2016_hybrid_score": 0.0199,
+  "hybrid_score": 0.0128,
+  "p2016_hybrid_score": 0.0198,
   "modern_hybrid_score": 0.0,
   "impact_score": 1.0,
   "p2016_impact_score": 1.0,
@@ -57,8 +57,8 @@
   "delving_threads": 0.0,
   "ml_responses": 5.0,
   "delving_responses": 0.0,
-  "first_active": "2019-08-10T00:46:35",
-  "last_active": "2019-12-08T18:45:27",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Participant",
   "expertise_domains": [
     "Script",
@@ -68,14 +68,14 @@
   "expertise_by_source": {
     "discussion": {
       "Mining": 0.179,
-      "L2": 0.179,
-      "Script": 0.643
+      "Script": 0.643,
+      "L2": 0.179
     }
   },
   "expertise_domain_scores": {
     "Mining": 0.1788,
-    "L2": 0.1788,
-    "Script": 0.6424
+    "Script": 0.6424,
+    "L2": 0.1788
   },
   "p2016_posts": 5.0,
   "modern_posts": 0.0,
@@ -87,8 +87,8 @@
   "is_reviewer": false,
   "is_researcher": true,
   "is_bip_author": false,
-  "global_first_active": "2019-08-10T00:46:35",
-  "global_last_active": "2019-12-08T18:45:27",
+  "global_first_active": null,
+  "global_last_active": null,
   "github_location": null,
   "github_company": null,
   "github_bio": null,

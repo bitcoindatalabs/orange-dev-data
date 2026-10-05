@@ -45,10 +45,10 @@
   "avg_pr_ack_velocity_days": null,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": null,
-  "hybrid_score": 0.0682,
+  "hybrid_score": 0.1308,
   "p2016_hybrid_score": 0.0,
   "modern_hybrid_score": 0.0,
-  "impact_score": 4.0,
+  "impact_score": 8.0,
   "p2016_impact_score": 0.0,
   "modern_impact_score": 0.0,
   "threads_started": 10.0,
@@ -57,19 +57,24 @@
   "delving_threads": 0.0,
   "ml_responses": 53.0,
   "delving_responses": 0.0,
-  "first_active": "2011-06-17T01:42:30",
-  "last_active": "2011-12-04T04:24:08",
-  "dev_type": "Participant",
+  "first_active": null,
+  "last_active": null,
+  "dev_type": "Builder",
   "expertise_domains": [
+    "Infrastructure",
     "Mining"
   ],
   "expertise_by_source": {
     "discussion": {
       "Mining": 1.0
+    },
+    "code": {
+      "Infrastructure": 1.0
     }
   },
   "expertise_domain_scores": {
-    "Mining": 1.0
+    "Mining": 0.4,
+    "Infrastructure": 0.6
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,
@@ -77,12 +82,12 @@
   "p2016_delving_posts": 0.0,
   "modern_ml_posts": 0.0,
   "modern_delving_posts": 0.0,
-  "is_engineer": false,
+  "is_engineer": true,
   "is_reviewer": false,
   "is_researcher": true,
   "is_bip_author": false,
   "global_first_active": "2010-12-22T13:08:00",
-  "global_last_active": "2011-12-04T04:24:08",
+  "global_last_active": "2010-12-24T09:25:21",
   "github_location": null,
   "github_company": null,
   "github_bio": null,
@@ -93,7 +98,7 @@
   "is_top_50": false,
   "commit_history": {
     "2010": {
-      "Utilities": 4.0
+      "Utilities": 2.0
     }
   },
   "first_message": {

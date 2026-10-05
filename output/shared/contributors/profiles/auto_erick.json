@@ -1,7 +1,7 @@
 {
-  "display_name": "auto_erick",
-  "github_login_final": null,
-  "delving_username_final": null,
+  "display_name": "Erick λ",
+  "github_login_final": "erickcestari",
+  "delving_username_final": "erickcestari",
   "uuid": "auto_erick",
   "badges": null,
   "roles": null,
@@ -51,34 +51,41 @@
   "impact_score": 2.0,
   "p2016_impact_score": 2.0,
   "modern_impact_score": 2.0,
-  "threads_started": 0.0,
-  "replies_sent": 0.0,
+  "threads_started": 3.0,
+  "replies_sent": 5.0,
   "ml_threads": 0.0,
-  "delving_threads": 0.0,
+  "delving_threads": 3.0,
   "ml_responses": 0.0,
-  "delving_responses": 0.0,
-  "first_active": null,
-  "last_active": null,
+  "delving_responses": 5.0,
+  "first_active": "2026-04-13T17:13:42.816000",
+  "last_active": "2026-10-01T18:50:37.535000",
   "dev_type": "Participant",
   "expertise_domains": [
-    "Infrastructure"
+    "L2",
+    "Consensus"
   ],
-  "expertise_by_source": {},
-  "expertise_domain_scores": {
-    "Infrastructure": 1.0
+  "expertise_by_source": {
+    "discussion": {
+      "Consensus": 0.239,
+      "L2": 0.761
+    }
   },
-  "p2016_posts": 0.0,
-  "modern_posts": 0.0,
+  "expertise_domain_scores": {
+    "Consensus": 0.239,
+    "L2": 0.761
+  },
+  "p2016_posts": 8.0,
+  "modern_posts": 8.0,
   "p2016_ml_posts": 0.0,
-  "p2016_delving_posts": 0.0,
+  "p2016_delving_posts": 8.0,
   "modern_ml_posts": 0.0,
-  "modern_delving_posts": 0.0,
+  "modern_delving_posts": 8.0,
   "is_engineer": false,
   "is_reviewer": true,
   "is_researcher": false,
   "is_bip_author": false,
   "global_first_active": "2024-07-31T18:54:38",
-  "global_last_active": "2024-07-31T18:54:38",
+  "global_last_active": "2026-10-01T18:50:37.535000",
   "github_location": null,
   "github_company": null,
   "github_bio": null,
@@ -86,5 +93,28 @@
   "github_blog": null,
   "github_followers": null,
   "activity_status": "Active",
-  "is_top_50": false
+  "is_top_50": false,
+  "github_url": "https://github.com/erickcestari",
+  "delving_url": "https://delvingbitcoin.org/u/erickcestari",
+  "first_message": {
+    "source": "delving",
+    "subject": "Onion Message Jamming in the Lightning Network",
+    "date": "2026-04-13",
+    "link": "https://delvingbitcoin.org/t/onion-message-jamming-in-the-lightning-network/2414/1"
+  },
+  "last_message": {
+    "source": "delving",
+    "subject": "Disclosure: DoS vulnerabilities fixed in Eclair v0.14.1",
+    "date": "2026-10-01",
+    "link": "https://delvingbitcoin.org/t/disclosure-dos-vulnerabilities-fixed-in-eclair-v0-14-1/2928/1"
+  },
+  "social_history": {
+    "2026": {
+      "ecash": 6,
+      "lightning": 7,
+      "privacy": 6,
+      "security": 2,
+      "taproot": 6
+    }
+  }
 }

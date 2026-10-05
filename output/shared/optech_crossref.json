@@ -1,8 +1,43 @@
 {
+  "29278": {
+    "optech_url": "https://bitcoinops.org/en/newsletters/2026/10/02/",
+    "date": "2026-10-02",
+    "snippet": "adds a `-maxfeerate` config option that caps the\n  feerate of wallet transactions at 0.10 BTC/kvB (10,000 sat/vB) by default.\n  Previously, the `-maxtxfee` option was documented as an absolute fee cap.\n  However, certain checks also interpreted the same amount as a fee per 1,000\n  vB (see [Newsletter #54][news54 maxtxfee]). The new option separates the feerate limit from the total fee limit and\n  applies to transaction creation, [fee bumping][topic rbf], [CPFP][topic cpfp]\n  and regular wallet broadcast."
+  },
+  "35984": {
+    "optech_url": "https://bitcoinops.org/en/newsletters/2026/10/02/",
+    "date": "2026-10-02",
+    "snippet": "fixes a bug where [PSBT][topic psbt] signing could\n  produce a `SIGHASH_SINGLE` signature without a corresponding output. This\n  sighash type commits to the output at the same index as the input being\n  signed. If the corresponding output is missing, legacy signing produces a\n  signature over a constant hash (see [Newsletter #207][news207 single]). This\n  signature can be reused to spend other UTXOs controlled by the same key,\n  provided the corresponding output remains missing. Bitcoin Core now leaves\n  such inputs unsigned for legacy and segwit v0, while still signing the PSBT's\n  other inputs, extending a check already present in raw transaction signing."
+  },
+  "35301": {
+    "optech_url": "https://bitcoinops.org/en/newsletters/2026/10/02/",
+    "date": "2026-10-02",
+    "snippet": "begins the [BIP352][] [silent payments][topic silent\n  payments] implementation by adding support for encoding and decoding\n  addresses, deriving [taproot][topic taproot] payment outputs from eligible\n  transaction inputs, and scanning transactions for payments to a recipient. It\n  also adds support for labels to distinguish payments to different derived\n  addresses and identify change. The implementation builds on libsecp256k1's\n  silent-payments module (see [Newsletter #415][news415 silent]). However, this\n  PR does not yet enable sending or receiving silent payments through the\n  wallet's RPCs or GUI."
+  },
+  "36312": {
+    "optech_url": "https://bitcoinops.org/en/newsletters/2026/10/02/",
+    "date": "2026-10-02",
+    "snippet": "fixes a privacy leak in the experimental, opt-in\n  private transaction broadcasting feature (see [Newsletter #388][news388\n  private broadcast]). Previously, [discouraging a misbehaving peer][news106\n  discouragement] could disconnect both regular and private broadcast\n  connections to the same address. A malicious peer could deliberately trigger\n  these disconnections to link a private broadcast connection to the node's\n  regular connections, weakening [transaction origin privacy][topic transaction\n  origin privacy]. Now, misbehaving private broadcast peers are disconnected\n  without discouraging their addresses, and discouraging regular peers leaves\n  private broadcast connections to the same addresses intact."
+  },
+  "36284": {
+    "optech_url": "https://bitcoinops.org/en/newsletters/2026/10/02/",
+    "date": "2026-10-02",
+    "snippet": "fixes a bug where the wallet could reject a payment\n  despite having enough eligible funds when partial-spend avoidance is enabled\n  via the `-avoidpartialspends` option (see [Newsletter #6][news6 avoidpartial])\n  or the wallet's `avoid_reuse` flag (see [Newsletter #52][news52 avoid reuse]). Partial-spend avoidance groups\n  together outputs paid to the same address during [coin selection][topic coin\n  selection] to reduce [output linking][topic output linking]. Previously, if a\n  group failed eligibility checks (e.g. the limit on unconfirmed ancestors),\n  its value was subtracted twice from the amount available for selection. Now,\n  each rejected group's value is subtracted only once."
+  },
+  "35752": {
+    "optech_url": "https://bitcoinops.org/en/newsletters/2026/10/02/",
+    "date": "2026-10-02",
+    "snippet": "fixes error handling when encrypting a wallet,\n  changing its encryption passphrase, or adding private keys. Previously, a\n  failed database write could cause a passphrase change to appear successful,\n  but only the old passphrase would work after reloading the wallet. The\n  encryption process could also report success despite missing required key\n  records or leaving plaintext private keys in the database, while a failed\n  database commit could terminate Bitcoin Core. Failed private-key insertions\n  could leave keys only in memory, causing them to disappear from the wallet\n  upon reloading. Now, the wallet checks database operations, rolls back failed\n  encryption updates, and only updates its in-memory keys after the\n  corresponding writes succeed, allowing failed operations to be retried. The\n  PR also prevents a failed passphrase change from leaving a previously locked\n  wallet unlocked and reports database or encryption failures separately from\n  incorrect passphrase errors."
+  },
+  "35813": {
+    "optech_url": "https://bitcoinops.org/en/newsletters/2026/10/02/",
+    "date": "2026-10-02",
+    "snippet": "adds a `listrawtransactions` wallet RPC that can list\n  every transaction known to the wallet, returning one entry per transaction\n  with its raw transaction hex. The existing `listtransactions` RPC returns\n  accounting entries: a self-transfer to a receiving address can appear as both\n  a send and a receive, while a transfer entirely to change addresses can be\n  omitted. The `count` and `skip` parameters provide pagination, and `verbose`\n  adds decoded transaction details."
+  },
   "34566": {
     "optech_url": "https://bitcoinops.org/en/newsletters/2026/09/25/",
     "date": "2026-09-25",
-    "snippet": "adds multi-signet data directory support (see\n  [Newsletter #412][news412 netmagic]), allowing custom [signets][topic signet]\n  to share a base data directory without their chain data conflicting. Each\n  custom signet uses a `signet_XXXXXXXX` subdirectory, suffixed by its\n  four-byte network identifier derived from the signet challenge. To avoid\n  resynchronizing after upgrading, existing custom signet users should manually\n  rename their directory to the new format."
+    "snippet": "adds multi-signet data directory support (see\n  [Newsletter #412][news412 netmagic]), allowing custom [signets][topic signet]\n  to share a base data directory without their chain data conflicting. Each\n  custom signet uses a `signet_XXXXXXXX` subdirectory, suffixed by its\n  four-byte network identifier derived from the signet challenge. To avoid\n  resynchronizing after upgrading, existing custom signet users should manually\n  rename their directory to the new format. {% assign timestamp=\"51:31\" %}"
   },
   "35445": {
     "optech_url": "https://bitcoinops.org/en/newsletters/2026/09/18/",

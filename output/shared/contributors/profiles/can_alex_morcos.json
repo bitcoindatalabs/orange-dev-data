@@ -27,12 +27,12 @@
   "self_merges": 0.0,
   "total_additions": 7756.0,
   "total_deletions": 3846.0,
-  "first_core_commit": "2014-08-04T14:44:32+00:00",
-  "last_core_commit": "2018-03-07T15:00:35+00:00",
+  "first_core_commit": "2014-08-04T14:45:32+00:00",
+  "last_core_commit": "2018-03-07T15:01:31+00:00",
   "first_ecosystem_commit": null,
   "last_ecosystem_commit": null,
-  "first_commit": "2014-08-04T14:44:32",
-  "last_commit": "2018-03-07T15:00:35",
+  "first_commit": "2014-08-04T14:45:32",
+  "last_commit": "2018-03-07T15:01:31",
   "p2016_authored_commits": 158.0,
   "modern_authored_commits": 0.0,
   "co_authored_commits": 0.0,
@@ -57,11 +57,11 @@
   "avg_pr_ack_velocity_days": 7.71497756254061,
   "avg_concept_lead_time_days": 20.93245827950043,
   "review_reciprocity": 2.634920634920635,
-  "hybrid_score": 0.6271,
-  "p2016_hybrid_score": 0.6083,
+  "hybrid_score": 0.9351,
+  "p2016_hybrid_score": 0.9015,
   "modern_hybrid_score": 0.15,
-  "impact_score": 31.0,
-  "p2016_impact_score": 31.0,
+  "impact_score": 43.0,
+  "p2016_impact_score": 42.0,
   "modern_impact_score": 9.0,
   "threads_started": 7.0,
   "replies_sent": 40.0,
@@ -69,9 +69,9 @@
   "delving_threads": 0.0,
   "ml_responses": 40.0,
   "delving_responses": 0.0,
-  "first_active": "2014-02-12T18:39:11",
-  "last_active": "2022-01-13T13:25:48",
-  "dev_type": "Reviewer",
+  "first_active": null,
+  "last_active": null,
+  "dev_type": "Protocol Designer",
   "expertise_domains": [
     "Infrastructure",
     "Mempool",
@@ -82,14 +82,24 @@
       "Mining": 0.417,
       "Mempool": 0.583
     },
+    "code": {
+      "Wallet": 0.156,
+      "Infrastructure": 0.472,
+      "Consensus": 0.113,
+      "Script": 0.001,
+      "Network": 0.022,
+      "Mempool": 0.236
+    },
     "bips": {
       "Infrastructure": 1.0
     }
   },
   "expertise_domain_scores": {
-    "Infrastructure": 0.7143,
-    "Mining": 0.1191,
-    "Mempool": 0.1666
+    "Mining": 0.0834,
+    "Infrastructure": 0.6416,
+    "Wallet": 0.0468,
+    "Consensus": 0.0339,
+    "Mempool": 0.1874
   },
   "p2016_posts": 15.0,
   "modern_posts": 0.0,
@@ -97,12 +107,12 @@
   "p2016_delving_posts": 0.0,
   "modern_ml_posts": 0.0,
   "modern_delving_posts": 0.0,
-  "is_engineer": false,
+  "is_engineer": true,
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": true,
-  "global_first_active": "2014-02-12T18:39:11",
-  "global_last_active": "2022-01-13T13:25:48",
+  "global_first_active": "2014-08-04T14:45:32",
+  "global_last_active": "2021-02-15T19:55:47",
   "github_location": null,
   "github_company": "Chaincode Labs",
   "github_bio": null,
@@ -114,46 +124,46 @@
   "github_url": "https://github.com/morcos",
   "commit_history": {
     "2014": {
-      "Mempool": 7.0,
-      "Utilities": 1.0
+      "Mempool": 3.5,
+      "Utilities": 0.5
     },
     "2015": {
-      "Build & CI": 0.5,
-      "Consensus": 3.5,
-      "GUI": 1.0,
-      "Mempool": 15.33,
-      "Node & RPC": 3.0,
-      "P2P Network": 2.0,
-      "Tests": 17.33,
-      "Utilities": 40.33,
-      "Wallet": 3.0
+      "Build & CI": 0.25,
+      "Consensus": 1.75,
+      "GUI": 0.5,
+      "Mempool": 7.67,
+      "Node & RPC": 1.5,
+      "P2P Network": 1.0,
+      "Tests": 8.67,
+      "Utilities": 20.17,
+      "Wallet": 1.5
     },
     "2016": {
-      "Build & CI": 1.0,
-      "Consensus": 4.07,
-      "Documentation": 4.0,
-      "GUI": 4.67,
-      "Mempool": 5.4,
-      "Node & RPC": 5.0,
-      "P2P Network": 2.33,
-      "Script": 0.4,
-      "Tests": 7.07,
-      "Utilities": 32.07,
-      "Wallet": 14.0
+      "Build & CI": 0.5,
+      "Consensus": 2.03,
+      "Documentation": 2.0,
+      "GUI": 2.33,
+      "Mempool": 2.7,
+      "Node & RPC": 2.5,
+      "P2P Network": 1.17,
+      "Script": 0.2,
+      "Tests": 3.53,
+      "Utilities": 16.03,
+      "Wallet": 7.0
     },
     "2017": {
-      "Consensus": 37.57,
-      "Documentation": 4.0,
-      "GUI": 12.13,
-      "Mempool": 70.97,
-      "Node & RPC": 34.37,
-      "P2P Network": 4.73,
-      "Tests": 14.87,
-      "Utilities": 15.0,
-      "Wallet": 48.37
+      "Consensus": 18.78,
+      "Documentation": 2.0,
+      "GUI": 6.07,
+      "Mempool": 35.48,
+      "Node & RPC": 17.18,
+      "P2P Network": 2.37,
+      "Tests": 7.43,
+      "Utilities": 7.5,
+      "Wallet": 24.18
     },
     "2018": {
-      "Consensus": 2.0
+      "Consensus": 1.0
     }
   },
   "bip_list": [

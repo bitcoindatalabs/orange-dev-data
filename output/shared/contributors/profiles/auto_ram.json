@@ -58,7 +58,7 @@
   "avg_concept_lead_time_days": null,
   "review_reciprocity": null,
   "hybrid_score": 0.3573,
-  "p2016_hybrid_score": 0.3611,
+  "p2016_hybrid_score": 0.361,
   "modern_hybrid_score": 0.3799,
   "impact_score": 19.0,
   "p2016_impact_score": 19.0,
@@ -69,8 +69,8 @@
   "delving_threads": 0.0,
   "ml_responses": 1.0,
   "delving_responses": 0.0,
-  "first_active": "2026-07-29T12:21:51",
-  "last_active": "2026-08-13T13:53:11",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Participant",
   "expertise_domains": [
     "Network"
@@ -93,7 +93,7 @@
   "is_reviewer": false,
   "is_researcher": true,
   "is_bip_author": true,
-  "global_first_active": "2026-07-29T12:21:51",
+  "global_first_active": "2026-08-21T17:49:20",
   "global_last_active": "2026-08-21T17:49:20",
   "github_location": null,
   "github_company": null,

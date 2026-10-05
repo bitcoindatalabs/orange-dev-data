@@ -3,8 +3,20 @@
   "github_login_final": "kallewoof",
   "delving_username_final": null,
   "uuid": "auto_id_8f5b7b",
-  "badges": null,
-  "roles": null,
+  "badges": {
+    "is_maintainer": false,
+    "is_core_committer": false,
+    "maintainer_status": null,
+    "is_sponsored": false,
+    "sponsor_id": null,
+    "is_bip_author": true,
+    "roles": [
+      "BIP Author"
+    ]
+  },
+  "roles": [
+    "BIP Author"
+  ],
   "total_commits": 168.0,
   "authored_commits": 168.0,
   "tier1_authored_commits": 168.0,
@@ -15,73 +27,270 @@
   "self_merges": 0.0,
   "total_additions": 5786.0,
   "total_deletions": 3108.0,
-  "first_core_commit": "2016-11-25T10:33:05+00:00",
-  "last_core_commit": "2022-08-05T19:08:42+00:00",
+  "first_core_commit": "2016-11-25T10:36:46+00:00",
+  "last_core_commit": "2022-08-05T19:19:28+00:00",
   "first_ecosystem_commit": null,
   "last_ecosystem_commit": null,
-  "first_commit": "2016-11-25T10:33:05",
-  "last_commit": "2022-08-05T19:08:42",
+  "first_commit": "2016-11-25T10:36:46",
+  "last_commit": "2022-08-05T19:19:28",
   "p2016_authored_commits": 168.0,
   "modern_authored_commits": 0.0,
   "co_authored_commits": 4.0,
-  "bips_authored": 0.0,
-  "p2016_bips_authored": 0.0,
+  "bips_authored": 7.0,
+  "p2016_bips_authored": 7.0,
   "modern_bips_authored": 0.0,
-  "first_bip_date": null,
-  "last_bip_date": null,
-  "avg_review_latency_days": null,
-  "reviews_count": 0.0,
-  "avg_approval_latency_days": null,
-  "approvals_count": null,
-  "tier1_reviews_count": 0.0,
-  "tier2_reviews_count": 0.0,
-  "p2016_reviews_count": null,
-  "modern_reviews_count": null,
-  "first_review_date": null,
-  "last_review_date": null,
-  "prs_authored": 0.0,
-  "tier1_prs_authored": 0.0,
-  "tier2_prs_authored": 0.0,
-  "avg_pr_ack_velocity_days": null,
-  "avg_concept_lead_time_days": null,
-  "review_reciprocity": null,
-  "hybrid_score": 0.0,
-  "p2016_hybrid_score": null,
-  "modern_hybrid_score": null,
-  "impact_score": null,
-  "p2016_impact_score": null,
-  "modern_impact_score": null,
-  "threads_started": 0.0,
-  "replies_sent": 0.0,
-  "ml_threads": 0.0,
+  "first_bip_date": "2017-03-26T17:19:22",
+  "last_bip_date": "2019-03-19T20:27:47",
+  "avg_review_latency_days": 669.6074498411133,
+  "reviews_count": 428.0,
+  "avg_approval_latency_days": 214.6059448935876,
+  "approvals_count": 265.0,
+  "tier1_reviews_count": 326.0,
+  "tier2_reviews_count": 102.0,
+  "p2016_reviews_count": 428.0,
+  "modern_reviews_count": 18.0,
+  "first_review_date": "2016-11-29T02:00:51",
+  "last_review_date": "2026-05-08T06:46:45",
+  "prs_authored": 172.0,
+  "tier1_prs_authored": 143.0,
+  "tier2_prs_authored": 29.0,
+  "avg_pr_ack_velocity_days": 14.145331719334012,
+  "avg_concept_lead_time_days": 17.75903049045139,
+  "review_reciprocity": 2.488372093023256,
+  "hybrid_score": 1.6492,
+  "p2016_hybrid_score": 1.7126,
+  "modern_hybrid_score": 0.189,
+  "impact_score": 63.0,
+  "p2016_impact_score": 64.0,
+  "modern_impact_score": 11.0,
+  "threads_started": 17.0,
+  "replies_sent": 44.0,
+  "ml_threads": 17.0,
   "delving_threads": 0.0,
-  "ml_responses": 0.0,
+  "ml_responses": 44.0,
   "delving_responses": 0.0,
   "first_active": null,
   "last_active": null,
-  "dev_type": null,
-  "expertise_domains": [],
-  "expertise_by_source": {},
-  "expertise_domain_scores": {},
-  "p2016_posts": 0.0,
-  "modern_posts": 0.0,
-  "p2016_ml_posts": 0.0,
+  "dev_type": "Protocol Designer",
+  "expertise_domains": [
+    "Infrastructure",
+    "Consensus",
+    "Wallet"
+  ],
+  "expertise_by_source": {
+    "discussion": {
+      "Consensus": 1.0
+    },
+    "code": {
+      "Wallet": 0.301,
+      "Infrastructure": 0.56,
+      "Consensus": 0.073,
+      "Script": 0.012,
+      "Network": 0.006,
+      "Mempool": 0.048
+    },
+    "bips": {
+      "Consensus": 0.429,
+      "Infrastructure": 0.571
+    }
+  },
+  "expertise_domain_scores": {
+    "Infrastructure": 0.4535,
+    "Wallet": 0.0903,
+    "Consensus": 0.4364,
+    "Mempool": 0.0144
+  },
+  "p2016_posts": 61.0,
+  "modern_posts": 1.0,
+  "p2016_ml_posts": 61.0,
   "p2016_delving_posts": 0.0,
-  "modern_ml_posts": 0.0,
+  "modern_ml_posts": 1.0,
   "modern_delving_posts": 0.0,
-  "is_engineer": false,
-  "is_reviewer": false,
-  "is_researcher": false,
-  "is_bip_author": false,
-  "global_first_active": "2016-11-25T10:33:05",
-  "global_last_active": "2022-08-05T19:08:42",
+  "is_engineer": true,
+  "is_reviewer": true,
+  "is_researcher": true,
+  "is_bip_author": true,
+  "global_first_active": "2016-11-25T10:36:46",
+  "global_last_active": "2026-05-08T06:46:45",
   "github_location": null,
   "github_company": null,
   "github_bio": null,
   "github_twitter": null,
   "github_blog": null,
   "github_followers": null,
-  "activity_status": "Retired",
+  "activity_status": "Active",
   "is_top_50": false,
-  "github_url": "https://github.com/kallewoof"
+  "github_url": "https://github.com/kallewoof",
+  "commit_history": {
+    "2016": {
+      "Build & CI": 0.33,
+      "GUI": 0.2,
+      "Node & RPC": 0.5,
+      "P2P Network": 0.2,
+      "Script": 0.2,
+      "Tests": 0.53,
+      "Utilities": 2.03
+    },
+    "2017": {
+      "Build & CI": 2.83,
+      "Consensus": 3.7,
+      "Documentation": 2.0,
+      "GUI": 0.33,
+      "Mempool": 0.2,
+      "Node & RPC": 6.7,
+      "P2P Network": 0.2,
+      "Script": 1.0,
+      "Tests": 5.67,
+      "Utilities": 6.03,
+      "Wallet": 7.33
+    },
+    "2018": {
+      "Build & CI": 2.5,
+      "Consensus": 3.58,
+      "Documentation": 6.0,
+      "GUI": 0.25,
+      "Mempool": 4.5,
+      "Node & RPC": 0.58,
+      "P2P Network": 0.25,
+      "Tests": 10.25,
+      "Utilities": 10.33,
+      "Wallet": 12.75
+    },
+    "2019": {
+      "Build & CI": 0.83,
+      "Consensus": 0.33,
+      "Documentation": 2.0,
+      "Node & RPC": 6.67,
+      "P2P Network": 0.33,
+      "Script": 0.83,
+      "Tests": 4.0,
+      "Utilities": 1.17,
+      "Wallet": 8.83
+    },
+    "2020": {
+      "Build & CI": 0.33,
+      "Consensus": 4.67,
+      "Documentation": 3.0,
+      "GUI": 1.0,
+      "Mempool": 3.33,
+      "Node & RPC": 0.5,
+      "Tests": 6.83,
+      "Utilities": 4.0,
+      "Wallet": 16.33
+    },
+    "2021": {
+      "Node & RPC": 4.5,
+      "Tests": 0.5,
+      "Wallet": 5.0
+    },
+    "2022": {
+      "Node & RPC": 0.33,
+      "Tests": 1.33,
+      "Wallet": 0.33
+    }
+  },
+  "bip_list": [
+    {
+      "number": 98,
+      "title": "Fast Merkle Trees",
+      "status": "Draft",
+      "theme": "Consensus & Soft Forks",
+      "link": "https://github.com/bitcoin/bips/blob/master/bip-0098.mediawiki"
+    },
+    {
+      "number": 116,
+      "title": "MERKLEBRANCHVERIFY",
+      "status": "Draft",
+      "theme": "Consensus & Soft Forks",
+      "link": "https://github.com/bitcoin/bips/blob/master/bip-0116.mediawiki"
+    },
+    {
+      "number": 117,
+      "title": "Tail Call Execution Semantics",
+      "status": "Draft",
+      "theme": "Consensus & Soft Forks",
+      "link": "https://github.com/bitcoin/bips/blob/master/bip-0117.mediawiki"
+    },
+    {
+      "number": 154,
+      "title": "Rate Limiting via peer specified challenges",
+      "status": "Closed",
+      "theme": "Other",
+      "link": "https://github.com/bitcoin/bips/blob/master/bip-0154.mediawiki"
+    },
+    {
+      "number": 178,
+      "title": "Version Extended WIF",
+      "status": "Draft",
+      "theme": "Other",
+      "link": "https://github.com/bitcoin/bips/blob/master/bip-0178.mediawiki"
+    },
+    {
+      "number": 322,
+      "title": "Generic Signed Message Format",
+      "status": "Complete",
+      "theme": "Other",
+      "link": "https://github.com/bitcoin/bips/blob/master/bip-0322.mediawiki"
+    },
+    {
+      "number": 325,
+      "title": "Signet",
+      "status": "Complete",
+      "theme": "Other",
+      "link": "https://github.com/bitcoin/bips/blob/master/bip-0325.mediawiki"
+    }
+  ],
+  "first_message": {
+    "source": "mailing_list",
+    "subject": "Re: [bitcoin-dev] Currency/exchange rate information API",
+    "date": "2017-03-04",
+    "link": "https://gnusha.org/pi/bitcoindev/CALJw2w49N273-sJ2cGjX=DncEYDh703S6F_7zupqmDJRsz+QZQ@mail.gmail.com"
+  },
+  "last_message": {
+    "source": "mailing_list",
+    "subject": "Re: [bitcoin-dev] BIP process friction",
+    "date": "2024-01-18",
+    "link": "https://gnusha.org/pi/bitcoindev/CALJw2w5SAo65nA1Qc7GinCkgZdhO2C6XQfznAk0Qez37Q1ru2w@mail.gmail.com"
+  },
+  "social_history": {
+    "2017": {
+      "bip-process": 1,
+      "other": 8,
+      "mining": 3,
+      "p2p-network": 3,
+      "segwit": 2,
+      "soft-fork-activation": 3,
+      "taproot": 2,
+      "testing-devtools": 1
+    },
+    "2018": {
+      "other": 19,
+      "mining": 2,
+      "p2p-network": 2,
+      "segwit": 2,
+      "soft-fork-activation": 1,
+      "testing-devtools": 1
+    },
+    "2019": {
+      "mining": 2,
+      "other": 3,
+      "segwit": 1,
+      "taproot": 1,
+      "testing-devtools": 8
+    },
+    "2020": {
+      "bip-process": 2,
+      "other": 6,
+      "taproot": 3,
+      "testing-devtools": 4
+    },
+    "2021": {
+      "bip-process": 1,
+      "other": 2,
+      "taproot": 1
+    },
+    "2024": {
+      "bip-process": 1
+    }
+  }
 }

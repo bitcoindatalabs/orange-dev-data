@@ -34,11 +34,11 @@
   "total_additions": 65630.0,
   "total_deletions": 76777.0,
   "first_core_commit": "2010-07-14T15:54:31+00:00",
-  "last_core_commit": "2016-05-05T17:00:42+00:00",
+  "last_core_commit": "2016-05-05T17:01:52+00:00",
   "first_ecosystem_commit": null,
   "last_ecosystem_commit": null,
   "first_commit": "2010-07-14T15:54:31",
-  "last_commit": "2016-05-05T17:00:42",
+  "last_commit": "2016-05-05T17:01:52",
   "p2016_authored_commits": 1.0,
   "modern_authored_commits": 0.0,
   "co_authored_commits": 0.0,
@@ -63,11 +63,11 @@
   "avg_pr_ack_velocity_days": 7.164126501873898,
   "avg_concept_lead_time_days": 40.39066984953704,
   "review_reciprocity": 3.75,
-  "hybrid_score": 2.8932,
-  "p2016_hybrid_score": 0.6711,
+  "hybrid_score": 3.2956,
+  "p2016_hybrid_score": 0.7083,
   "modern_hybrid_score": 0.1711,
-  "impact_score": 82.0,
-  "p2016_impact_score": 33.0,
+  "impact_score": 86.0,
+  "p2016_impact_score": 35.0,
   "modern_impact_score": 10.0,
   "threads_started": 99.0,
   "replies_sent": 320.0,
@@ -75,32 +75,39 @@
   "delving_threads": 0.0,
   "ml_responses": 320.0,
   "delving_responses": 0.0,
-  "first_active": "2011-06-13T13:41:35",
-  "last_active": "2017-01-26T11:21:37",
-  "dev_type": "Reviewer",
+  "first_active": null,
+  "last_active": null,
+  "dev_type": "Protocol Designer",
   "expertise_domains": [
+    "Infrastructure",
     "Consensus",
-    "Network",
-    "Ecosystem"
+    "Network"
   ],
   "expertise_by_source": {
     "discussion": {
-      "Ecosystem": 0.423,
-      "Consensus": 0.577
+      "Consensus": 0.577,
+      "Ecosystem": 0.423
+    },
+    "code": {
+      "Wallet": 0.001,
+      "Infrastructure": 0.96,
+      "Consensus": 0.004,
+      "Network": 0.031,
+      "Mempool": 0.004
     },
     "bips": {
       "Consensus": 0.417,
       "Infrastructure": 0.167,
-      "Network": 0.333,
-      "Script": 0.083
+      "Script": 0.083,
+      "Network": 0.333
     }
   },
   "expertise_domain_scores": {
-    "Infrastructure": 0.1193,
-    "Ecosystem": 0.1209,
-    "Script": 0.0593,
-    "Consensus": 0.4627,
-    "Network": 0.2379
+    "Infrastructure": 0.3715,
+    "Consensus": 0.3251,
+    "Script": 0.0415,
+    "Ecosystem": 0.0846,
+    "Network": 0.1758
   },
   "p2016_posts": 25.0,
   "modern_posts": 0.0,
@@ -108,7 +115,7 @@
   "p2016_delving_posts": 0.0,
   "modern_ml_posts": 0.0,
   "modern_delving_posts": 0.0,
-  "is_engineer": false,
+  "is_engineer": true,
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": true,
@@ -125,67 +132,67 @@
   "github_url": "https://github.com/gavinandresen",
   "commit_history": {
     "2010": {
-      "Build & CI": 5.67,
-      "Documentation": 9.67,
-      "Utilities": 54.67
+      "Build & CI": 2.83,
+      "Documentation": 4.83,
+      "Utilities": 27.33
     },
     "2011": {
-      "Build & CI": 20.5,
-      "Documentation": 38.0,
-      "GUI": 2.67,
-      "Merge": 260.0,
-      "Node & RPC": 6.5,
-      "P2P Network": 13.5,
-      "Tests": 18.0,
-      "Utilities": 204.83
+      "Build & CI": 10.25,
+      "Documentation": 19.0,
+      "GUI": 1.33,
+      "Merge": 129.0,
+      "Node & RPC": 3.25,
+      "P2P Network": 6.75,
+      "Tests": 8.0,
+      "Utilities": 98.42
     },
     "2012": {
-      "Build & CI": 28.67,
-      "Documentation": 16.07,
-      "GUI": 9.73,
-      "Merge": 314.0,
-      "Node & RPC": 22.57,
-      "P2P Network": 5.07,
-      "Tests": 30.17,
-      "Utilities": 163.73
+      "Build & CI": 14.33,
+      "Documentation": 8.03,
+      "GUI": 4.87,
+      "Merge": 158.0,
+      "Node & RPC": 11.28,
+      "P2P Network": 2.53,
+      "Tests": 16.08,
+      "Utilities": 85.87
     },
     "2013": {
-      "Build & CI": 15.5,
-      "Consensus": 2.17,
-      "Database": 0.67,
-      "Documentation": 9.67,
-      "GUI": 21.23,
-      "Mempool": 1.0,
-      "Merge": 418.0,
-      "Node & RPC": 14.07,
-      "P2P Network": 11.23,
-      "Tests": 22.9,
-      "Utilities": 129.57
+      "Build & CI": 7.75,
+      "Consensus": 1.08,
+      "Database": 0.33,
+      "Documentation": 4.83,
+      "GUI": 10.62,
+      "Mempool": 0.5,
+      "Merge": 209.0,
+      "Node & RPC": 7.03,
+      "P2P Network": 5.62,
+      "Tests": 11.45,
+      "Utilities": 64.78
     },
     "2014": {
-      "Build & CI": 2.0,
-      "Consensus": 2.0,
-      "Documentation": 11.5,
-      "GUI": 3.17,
-      "Mempool": 2.5,
-      "Merge": 128.0,
-      "Node & RPC": 3.17,
-      "Tests": 5.0,
-      "Utilities": 64.67
+      "Build & CI": 1.0,
+      "Consensus": 1.0,
+      "Documentation": 5.75,
+      "GUI": 1.58,
+      "Mempool": 1.25,
+      "Merge": 64.0,
+      "Node & RPC": 1.58,
+      "Tests": 2.5,
+      "Utilities": 32.33
     },
     "2015": {
-      "Build & CI": 7.67,
-      "GUI": 1.0,
-      "Mempool": 0.67,
-      "Merge": 6.0,
-      "Node & RPC": 4.0,
-      "P2P Network": 1.67,
-      "Tests": 8.0,
-      "Utilities": 10.0,
-      "Wallet": 1.0
+      "Build & CI": 3.83,
+      "GUI": 0.5,
+      "Mempool": 0.33,
+      "Merge": 3.0,
+      "Node & RPC": 2.0,
+      "P2P Network": 0.83,
+      "Tests": 4.0,
+      "Utilities": 5.0,
+      "Wallet": 0.5
     },
     "2016": {
-      "Tests": 2.0
+      "Tests": 1.0
     }
   },
   "bip_list": [

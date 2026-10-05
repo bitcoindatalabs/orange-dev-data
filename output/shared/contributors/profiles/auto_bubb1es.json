@@ -1,7 +1,7 @@
 {
   "display_name": "bubb1es",
   "github_login_final": null,
-  "delving_username_final": null,
+  "delving_username_final": "bubb1es",
   "uuid": "auto_bubb1es",
   "badges": {
     "is_maintainer": false,
@@ -57,52 +57,54 @@
   "avg_pr_ack_velocity_days": null,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": null,
-  "hybrid_score": 0.3602,
-  "p2016_hybrid_score": 0.3667,
-  "modern_hybrid_score": 0.4047,
+  "hybrid_score": 0.36,
+  "p2016_hybrid_score": 0.3663,
+  "modern_hybrid_score": 0.4032,
   "impact_score": 19.0,
   "p2016_impact_score": 20.0,
-  "modern_impact_score": 22.0,
-  "threads_started": 1.0,
-  "replies_sent": 3.0,
+  "modern_impact_score": 21.0,
+  "threads_started": 7.0,
+  "replies_sent": 16.0,
   "ml_threads": 1.0,
-  "delving_threads": 0.0,
+  "delving_threads": 6.0,
   "ml_responses": 3.0,
-  "delving_responses": 0.0,
-  "first_active": "2026-03-30T13:34:54",
-  "last_active": "2026-04-16T17:02:15",
+  "delving_responses": 13.0,
+  "first_active": "2026-01-25T17:20:49.445000",
+  "last_active": "2026-08-24T14:39:27.035000",
   "dev_type": "Participant",
   "expertise_domains": [
     "Network",
-    "Mempool",
-    "Cryptography"
+    "Privacy",
+    "Mempool"
   ],
   "expertise_by_source": {
     "discussion": {
-      "Mempool": 0.859,
-      "Cryptography": 0.141
+      "Privacy": 0.455,
+      "Mempool": 0.303,
+      "Cryptography": 0.242
     },
     "bips": {
       "Network": 1.0
     }
   },
   "expertise_domain_scores": {
-    "Mempool": 0.2454,
-    "Network": 0.7143,
-    "Cryptography": 0.0403
+    "Privacy": 0.13,
+    "Mempool": 0.0866,
+    "Cryptography": 0.0691,
+    "Network": 0.7143
   },
-  "p2016_posts": 4.0,
-  "modern_posts": 4.0,
+  "p2016_posts": 23.0,
+  "modern_posts": 23.0,
   "p2016_ml_posts": 4.0,
-  "p2016_delving_posts": 0.0,
+  "p2016_delving_posts": 19.0,
   "modern_ml_posts": 4.0,
-  "modern_delving_posts": 0.0,
+  "modern_delving_posts": 19.0,
   "is_engineer": false,
   "is_reviewer": false,
   "is_researcher": true,
   "is_bip_author": true,
-  "global_first_active": "2026-03-30T13:34:54",
-  "global_last_active": "2026-05-06T02:22:45",
+  "global_first_active": "2026-01-25T17:20:49.445000",
+  "global_last_active": "2026-08-24T14:39:27.035000",
   "github_location": null,
   "github_company": null,
   "github_bio": null,
@@ -111,6 +113,7 @@
   "github_followers": null,
   "activity_status": "New",
   "is_top_50": false,
+  "delving_url": "https://delvingbitcoin.org/u/bubb1es",
   "bip_list": [
     {
       "number": 451,
@@ -121,22 +124,26 @@
     }
   ],
   "first_message": {
-    "source": "mailing_list",
-    "subject": "[bitcoindev] [BIP Draft] Dust UTXO Disposal Protocol",
-    "date": "2026-03-30",
-    "link": "https://gnusha.org/pi/bitcoindev/3b3328b8-bba4-4858-b53a-0e9b631044ffn@googlegroups.com"
+    "source": "delving",
+    "subject": "Disposing of \"dust attack\" UTXOs",
+    "date": "2026-01-25",
+    "link": "https://delvingbitcoin.org/t/disposing-of-dust-attack-utxos/2215/1"
   },
   "last_message": {
-    "source": "mailing_list",
-    "subject": "Re: [bitcoindev] [BIP Draft] Dust UTXO Disposal Protocol",
-    "date": "2026-04-16",
-    "link": "https://gnusha.org/pi/bitcoindev/ORIGIO060hH_CrtpqpBQ_WLqZJ2xE41K17-P11n2aUsCpGDqhim0om_kz_rJ2oMjlzmPUt84YlRHsvcj1LJAtXQe_FlS0p_SW0Khm5LTN1Y=@proton.me"
+    "source": "delving",
+    "subject": "Re: Seedroller and keyderiver: cli tools to generate BIP39 seed words and derive BIP380 keys",
+    "date": "2026-08-24",
+    "link": "https://delvingbitcoin.org/t/seedroller-and-keyderiver-cli-tools-to-generate-bip39-seed-words-and-derive-bip380-keys/2822/3"
   },
   "social_history": {
     "2026": {
-      "mempool-fees": 3,
+      "mempool-fees": 20,
       "other": 1,
-      "signatures-sighash": 1
+      "privacy": 17,
+      "script-opcodes": 17,
+      "signatures-sighash": 18,
+      "testing-devtools": 17,
+      "wallet-keys": 2
     }
   }
 }

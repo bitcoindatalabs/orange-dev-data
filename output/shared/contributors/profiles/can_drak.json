@@ -27,12 +27,12 @@
   "self_merges": 0.0,
   "total_additions": 702.0,
   "total_deletions": 1189.0,
-  "first_core_commit": "2014-02-28T11:34:45+00:00",
-  "last_core_commit": "2017-05-03T09:42:13+00:00",
+  "first_core_commit": "2014-02-28T11:35:07+00:00",
+  "last_core_commit": "2017-05-03T09:48:15+00:00",
   "first_ecosystem_commit": null,
   "last_ecosystem_commit": null,
-  "first_commit": "2014-02-28T11:34:45",
-  "last_commit": "2017-05-03T09:42:13",
+  "first_commit": "2014-02-28T11:35:07",
+  "last_commit": "2017-05-03T09:48:15",
   "p2016_authored_commits": 28.0,
   "modern_authored_commits": 0.0,
   "co_authored_commits": 0.0,
@@ -57,11 +57,11 @@
   "avg_pr_ack_velocity_days": 15.437886854657688,
   "avg_concept_lead_time_days": 23.749498456790125,
   "review_reciprocity": 5.855072463768116,
-  "hybrid_score": 1.4732,
-  "p2016_hybrid_score": 1.0653,
+  "hybrid_score": 1.6858,
+  "p2016_hybrid_score": 1.2589,
   "modern_hybrid_score": 0.1287,
-  "impact_score": 59.0,
-  "p2016_impact_score": 47.0,
+  "impact_score": 64.0,
+  "p2016_impact_score": 53.0,
   "modern_impact_score": 7.0,
   "threads_started": 11.0,
   "replies_sent": 160.0,
@@ -69,9 +69,9 @@
   "delving_threads": 0.0,
   "ml_responses": 160.0,
   "delving_responses": 0.0,
-  "first_active": "2013-11-05T16:15:27",
-  "last_active": "2018-03-07T02:19:57",
-  "dev_type": "Reviewer",
+  "first_active": null,
+  "last_active": null,
+  "dev_type": "Protocol Designer",
   "expertise_domains": [
     "Consensus",
     "Infrastructure",
@@ -82,15 +82,23 @@
       "Mining": 0.345,
       "Consensus": 0.655
     },
+    "code": {
+      "Infrastructure": 0.844,
+      "Consensus": 0.063,
+      "Script": 0.056,
+      "Network": 0.025,
+      "Mempool": 0.013
+    },
     "bips": {
       "Consensus": 0.857,
       "Infrastructure": 0.143
     }
   },
   "expertise_domain_scores": {
-    "Infrastructure": 0.1021,
-    "Mining": 0.0986,
-    "Consensus": 0.7993
+    "Mining": 0.069,
+    "Infrastructure": 0.3246,
+    "Consensus": 0.5782,
+    "Script": 0.0168
   },
   "p2016_posts": 18.0,
   "modern_posts": 0.0,
@@ -98,11 +106,11 @@
   "p2016_delving_posts": 0.0,
   "modern_ml_posts": 0.0,
   "modern_delving_posts": 0.0,
-  "is_engineer": false,
+  "is_engineer": true,
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": true,
-  "global_first_active": "2013-11-05T16:15:27",
+  "global_first_active": "2014-02-28T11:35:07",
   "global_last_active": "2018-08-19T20:53:36",
   "github_location": null,
   "github_company": null,
@@ -115,27 +123,27 @@
   "github_url": "https://github.com/btcdrak",
   "commit_history": {
     "2014": {
-      "Build & CI": 2.0,
-      "Documentation": 10.0,
-      "Utilities": 4.0
+      "Build & CI": 1.0,
+      "Documentation": 5.0,
+      "Utilities": 2.0
     },
     "2015": {
-      "Documentation": 4.0,
-      "Utilities": 4.0
+      "Documentation": 2.0,
+      "Utilities": 2.0
     },
     "2016": {
-      "Build & CI": 4.67,
-      "Consensus": 5.0,
-      "Documentation": 7.17,
-      "GUI": 1.5,
-      "Mempool": 1.0,
-      "Node & RPC": 1.5,
-      "Script": 4.5,
-      "Tests": 7.5,
-      "Utilities": 21.17
+      "Build & CI": 2.33,
+      "Consensus": 2.5,
+      "Documentation": 3.58,
+      "GUI": 0.75,
+      "Mempool": 0.5,
+      "Node & RPC": 0.75,
+      "Script": 2.25,
+      "Tests": 3.75,
+      "Utilities": 10.58
     },
     "2017": {
-      "P2P Network": 2.0
+      "P2P Network": 1.0
     }
   },
   "bip_list": [

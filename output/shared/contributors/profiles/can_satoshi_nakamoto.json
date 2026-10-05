@@ -61,7 +61,7 @@
   "avg_pr_ack_velocity_days": null,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": null,
-  "hybrid_score": 1.0,
+  "hybrid_score": 1.3252,
   "p2016_hybrid_score": 0.0,
   "modern_hybrid_score": 0.0,
   "impact_score": null,
@@ -79,7 +79,11 @@
   "expertise_domains": [
     "Infrastructure"
   ],
-  "expertise_by_source": {},
+  "expertise_by_source": {
+    "code": {
+      "Infrastructure": 1.0
+    }
+  },
   "expertise_domain_scores": {
     "Infrastructure": 1.0
   },
@@ -89,7 +93,7 @@
   "p2016_delving_posts": 0.0,
   "modern_ml_posts": 0.0,
   "modern_delving_posts": 0.0,
-  "is_engineer": false,
+  "is_engineer": true,
   "is_reviewer": false,
   "is_researcher": false,
   "is_bip_author": false,
@@ -105,14 +109,14 @@
   "is_top_50": false,
   "commit_history": {
     "2009": {
-      "Build & CI": 10.0,
-      "Documentation": 16.0,
-      "Utilities": 86.0
+      "Build & CI": 5.0,
+      "Documentation": 8.0,
+      "Utilities": 43.0
     },
     "2010": {
-      "Build & CI": 61.67,
-      "Documentation": 39.67,
-      "Utilities": 344.67
+      "Build & CI": 30.83,
+      "Documentation": 19.83,
+      "Utilities": 172.33
     }
   }
 }

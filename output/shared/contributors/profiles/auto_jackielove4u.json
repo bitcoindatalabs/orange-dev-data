@@ -18,12 +18,12 @@
   "self_merges": 0.0,
   "total_additions": 2068.0,
   "total_deletions": 35.0,
-  "first_core_commit": "2021-01-19T16:23:48+00:00",
-  "last_core_commit": "2022-04-02T08:43:14+00:00",
+  "first_core_commit": "2021-01-19T16:30:46+00:00",
+  "last_core_commit": "2022-04-02T08:43:49+00:00",
   "first_ecosystem_commit": "2021-05-27T21:39:12+00:00",
   "last_ecosystem_commit": "2026-04-26T07:29:17+00:00",
-  "first_commit": "2021-01-19T16:23:48",
-  "last_commit": "2022-04-02T08:43:14",
+  "first_commit": "2021-01-19T16:30:46",
+  "last_commit": "2022-04-02T08:43:49",
   "p2016_authored_commits": 55.0,
   "modern_authored_commits": 13.0,
   "co_authored_commits": 0.0,
@@ -48,12 +48,12 @@
   "avg_pr_ack_velocity_days": 5.682129629629629,
   "avg_concept_lead_time_days": 11.34376736111111,
   "review_reciprocity": 12.6,
-  "hybrid_score": 0.1514,
-  "p2016_hybrid_score": 0.1514,
-  "modern_hybrid_score": 0.0542,
-  "impact_score": 9.0,
-  "p2016_impact_score": 9.0,
-  "modern_impact_score": 3.0,
+  "hybrid_score": 0.3837,
+  "p2016_hybrid_score": 0.3837,
+  "modern_hybrid_score": 0.2352,
+  "impact_score": 21.0,
+  "p2016_impact_score": 21.0,
+  "modern_impact_score": 13.0,
   "threads_started": 0.0,
   "replies_sent": 0.0,
   "ml_threads": 0.0,
@@ -62,13 +62,20 @@
   "delving_responses": 0.0,
   "first_active": null,
   "last_active": null,
-  "dev_type": "Reviewer",
+  "dev_type": "Builder",
   "expertise_domains": [
-    "Infrastructure"
+    "Infrastructure",
+    "Wallet"
   ],
-  "expertise_by_source": {},
+  "expertise_by_source": {
+    "code": {
+      "Wallet": 0.036,
+      "Infrastructure": 0.964
+    }
+  },
   "expertise_domain_scores": {
-    "Infrastructure": 1.0
+    "Infrastructure": 0.964,
+    "Wallet": 0.036
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,
@@ -76,7 +83,7 @@
   "p2016_delving_posts": 0.0,
   "modern_ml_posts": 0.0,
   "modern_delving_posts": 0.0,
-  "is_engineer": false,
+  "is_engineer": true,
   "is_reviewer": true,
   "is_researcher": false,
   "is_bip_author": false,
@@ -93,12 +100,12 @@
   "github_url": "https://github.com/gruve-p",
   "commit_history": {
     "2021": {
-      "Utilities": 2.0,
+      "Utilities": 1.0,
       "Wallet": 1.0
     },
     "2022": {
       "Build & CI": 29.0,
-      "Documentation": 2.0,
+      "Documentation": 1.0,
       "Wallet": 1.0
     },
     "2023": {

@@ -1,5 +1,5 @@
 {
-  "display_name": "daniel folkinshteyn",
+  "display_name": "Daniel Folkinshteyn",
   "github_login_final": "nanotube",
   "delving_username_final": null,
   "uuid": "auto_daniel_folkinshteyn",
@@ -16,11 +16,11 @@
   "total_additions": 181.0,
   "total_deletions": 140.0,
   "first_core_commit": "2011-02-06T20:10:02+00:00",
-  "last_core_commit": "2012-01-19T06:54:14+00:00",
+  "last_core_commit": "2012-01-25T13:21:21+00:00",
   "first_ecosystem_commit": null,
   "last_ecosystem_commit": null,
   "first_commit": "2011-02-06T20:10:02",
-  "last_commit": "2012-01-19T06:54:14",
+  "last_commit": "2012-01-25T13:21:21",
   "p2016_authored_commits": 0.0,
   "modern_authored_commits": 0.0,
   "co_authored_commits": 0.0,
@@ -45,10 +45,10 @@
   "avg_pr_ack_velocity_days": 0.0896238425925926,
   "avg_concept_lead_time_days": 0.1626388888888889,
   "review_reciprocity": 1.3333333333333333,
-  "hybrid_score": 0.0675,
+  "hybrid_score": 0.1475,
   "p2016_hybrid_score": 0.033,
   "modern_hybrid_score": 0.033,
-  "impact_score": 4.0,
+  "impact_score": 8.0,
   "p2016_impact_score": 2.0,
   "modern_impact_score": 2.0,
   "threads_started": 0.0,
@@ -59,13 +59,20 @@
   "delving_responses": 0.0,
   "first_active": null,
   "last_active": null,
-  "dev_type": "Participant",
+  "dev_type": "Builder",
   "expertise_domains": [
+    "Network",
     "Infrastructure"
   ],
-  "expertise_by_source": {},
+  "expertise_by_source": {
+    "code": {
+      "Infrastructure": 0.333,
+      "Network": 0.667
+    }
+  },
   "expertise_domain_scores": {
-    "Infrastructure": 1.0
+    "Infrastructure": 0.333,
+    "Network": 0.667
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,
@@ -73,7 +80,7 @@
   "p2016_delving_posts": 0.0,
   "modern_ml_posts": 0.0,
   "modern_delving_posts": 0.0,
-  "is_engineer": false,
+  "is_engineer": true,
   "is_reviewer": true,
   "is_researcher": false,
   "is_bip_author": false,
@@ -90,11 +97,11 @@
   "github_url": "https://github.com/nanotube",
   "commit_history": {
     "2011": {
-      "P2P Network": 2.0,
-      "Utilities": 2.0
+      "P2P Network": 1.0,
+      "Utilities": 1.0
     },
     "2012": {
-      "P2P Network": 2.0
+      "P2P Network": 1.0
     }
   }
 }

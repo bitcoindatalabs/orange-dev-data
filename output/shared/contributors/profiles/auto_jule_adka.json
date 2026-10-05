@@ -1,5 +1,5 @@
 {
-  "display_name": "Jule.Adka",
+  "display_name": "jule.adka",
   "github_login_final": null,
   "delving_username_final": null,
   "uuid": "auto_jule_adka",
@@ -57,8 +57,8 @@
   "delving_threads": 0.0,
   "ml_responses": 0.0,
   "delving_responses": 0.0,
-  "first_active": "2020-08-25T08:42:05",
-  "last_active": "2020-08-25T08:42:05",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Participant",
   "expertise_domains": [
     "Script",
@@ -67,15 +67,15 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Ecosystem": 0.25,
       "Privacy": 0.25,
-      "Script": 0.5
+      "Script": 0.5,
+      "Ecosystem": 0.25
     }
   },
   "expertise_domain_scores": {
-    "Ecosystem": 0.25,
     "Privacy": 0.25,
-    "Script": 0.5
+    "Script": 0.5,
+    "Ecosystem": 0.25
   },
   "p2016_posts": 1.0,
   "modern_posts": 0.0,
@@ -87,8 +87,8 @@
   "is_reviewer": false,
   "is_researcher": true,
   "is_bip_author": false,
-  "global_first_active": "2020-08-25T08:42:05",
-  "global_last_active": "2020-08-25T08:42:05",
+  "global_first_active": null,
+  "global_last_active": null,
   "github_location": null,
   "github_company": null,
   "github_bio": null,

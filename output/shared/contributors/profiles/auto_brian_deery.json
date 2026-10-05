@@ -1,5 +1,5 @@
 {
-  "display_name": "brian deery",
+  "display_name": "Brian Deery",
   "github_login_final": "carryforward",
   "delving_username_final": null,
   "uuid": "auto_brian_deery",
@@ -15,12 +15,12 @@
   "self_merges": 0.0,
   "total_additions": 2.0,
   "total_deletions": 2.0,
-  "first_core_commit": "2016-11-16T10:05:30+00:00",
-  "last_core_commit": "2016-11-16T10:05:30+00:00",
+  "first_core_commit": "2016-11-16T10:06:24+00:00",
+  "last_core_commit": "2016-11-16T10:06:24+00:00",
   "first_ecosystem_commit": null,
   "last_ecosystem_commit": null,
-  "first_commit": "2016-11-16T10:05:30",
-  "last_commit": "2016-11-16T10:05:30",
+  "first_commit": "2016-11-16T10:06:24",
+  "last_commit": "2016-11-16T10:06:24",
   "p2016_authored_commits": 1.0,
   "modern_authored_commits": 0.0,
   "co_authored_commits": 0.0,
@@ -45,11 +45,11 @@
   "avg_pr_ack_velocity_days": 0.3082986111111111,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": 0.0,
-  "hybrid_score": 0.0259,
-  "p2016_hybrid_score": 0.0146,
+  "hybrid_score": 0.0658,
+  "p2016_hybrid_score": 0.0546,
   "modern_hybrid_score": 0.0146,
-  "impact_score": 2.0,
-  "p2016_impact_score": 1.0,
+  "impact_score": 4.0,
+  "p2016_impact_score": 3.0,
   "modern_impact_score": 1.0,
   "threads_started": 2.0,
   "replies_sent": 0.0,
@@ -57,22 +57,29 @@
   "delving_threads": 0.0,
   "ml_responses": 0.0,
   "delving_responses": 0.0,
-  "first_active": "2015-03-20T00:46:18",
-  "last_active": "2015-04-27T09:53:59",
-  "dev_type": "Participant",
+  "first_active": null,
+  "last_active": null,
+  "dev_type": "Builder",
   "expertise_domains": [
-    "Network",
-    "Wallet"
+    "Mempool",
+    "Infrastructure",
+    "Network"
   ],
   "expertise_by_source": {
     "discussion": {
       "Wallet": 0.34,
       "Network": 0.66
+    },
+    "code": {
+      "Infrastructure": 0.5,
+      "Mempool": 0.5
     }
   },
   "expertise_domain_scores": {
-    "Wallet": 0.34,
-    "Network": 0.66
+    "Infrastructure": 0.3,
+    "Wallet": 0.136,
+    "Mempool": 0.3,
+    "Network": 0.264
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,
@@ -80,12 +87,12 @@
   "p2016_delving_posts": 0.0,
   "modern_ml_posts": 0.0,
   "modern_delving_posts": 0.0,
-  "is_engineer": false,
+  "is_engineer": true,
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": false,
-  "global_first_active": "2015-03-20T00:46:18",
-  "global_last_active": "2016-11-16T10:05:30",
+  "global_first_active": "2016-11-16T10:06:24",
+  "global_last_active": "2016-11-16T10:06:24",
   "github_location": "Austin, TX",
   "github_company": null,
   "github_bio": null,
@@ -97,8 +104,8 @@
   "github_url": "https://github.com/carryforward",
   "commit_history": {
     "2016": {
-      "Mempool": 1.0,
-      "Tests": 1.0
+      "Mempool": 0.5,
+      "Tests": 0.5
     }
   },
   "first_message": {

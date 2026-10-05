@@ -45,33 +45,44 @@
   "avg_pr_ack_velocity_days": null,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": null,
-  "hybrid_score": 0.0,
-  "p2016_hybrid_score": null,
-  "modern_hybrid_score": null,
-  "impact_score": null,
-  "p2016_impact_score": null,
-  "modern_impact_score": null,
-  "threads_started": 0.0,
-  "replies_sent": 0.0,
-  "ml_threads": 0.0,
+  "hybrid_score": 0.0175,
+  "p2016_hybrid_score": 0.0317,
+  "modern_hybrid_score": 0.0,
+  "impact_score": 1.0,
+  "p2016_impact_score": 2.0,
+  "modern_impact_score": 0.0,
+  "threads_started": 3.0,
+  "replies_sent": 1.0,
+  "ml_threads": 3.0,
   "delving_threads": 0.0,
-  "ml_responses": 0.0,
+  "ml_responses": 1.0,
   "delving_responses": 0.0,
   "first_active": null,
   "last_active": null,
-  "dev_type": null,
-  "expertise_domains": [],
-  "expertise_by_source": {},
-  "expertise_domain_scores": {},
-  "p2016_posts": 0.0,
+  "dev_type": "Participant",
+  "expertise_domains": [
+    "Consensus",
+    "Mining"
+  ],
+  "expertise_by_source": {
+    "discussion": {
+      "Mining": 0.5,
+      "Consensus": 0.5
+    }
+  },
+  "expertise_domain_scores": {
+    "Mining": 0.5,
+    "Consensus": 0.5
+  },
+  "p2016_posts": 4.0,
   "modern_posts": 0.0,
-  "p2016_ml_posts": 0.0,
+  "p2016_ml_posts": 4.0,
   "p2016_delving_posts": 0.0,
   "modern_ml_posts": 0.0,
   "modern_delving_posts": 0.0,
   "is_engineer": false,
   "is_reviewer": false,
-  "is_researcher": false,
+  "is_researcher": true,
   "is_bip_author": false,
   "global_first_active": null,
   "global_last_active": null,
@@ -82,5 +93,25 @@
   "github_blog": null,
   "github_followers": null,
   "activity_status": "",
-  "is_top_50": false
+  "is_top_50": false,
+  "first_message": {
+    "source": "mailing_list",
+    "subject": "[bitcoin-dev] Why is deriving public key from the signature not\n\tused in Segwit?",
+    "date": "2018-01-23",
+    "link": "https://gnusha.org/pi/bitcoindev/CAJRVQkBPQR3Gz3AtWFgK_Z_9vDVZvR4Ws=f+tUZ3Y0mdswuk_g@mail.gmail.com"
+  },
+  "last_message": {
+    "source": "mailing_list",
+    "subject": "Re: [bitcoin-dev] Considering starting a toy full-node\n implementation. Any advice?",
+    "date": "2018-11-07",
+    "link": "https://gnusha.org/pi/bitcoindev/CAJRVQkCn6Kd90q9BBkZuB2cUOUA0JuBmXcaj06RkrnnG3CVEVA@mail.gmail.com"
+  },
+  "social_history": {
+    "2018": {
+      "mining": 1,
+      "other": 1,
+      "segwit": 1,
+      "taproot": 1
+    }
+  }
 }

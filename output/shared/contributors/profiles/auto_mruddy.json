@@ -15,12 +15,12 @@
   "self_merges": 0.0,
   "total_additions": 770.0,
   "total_deletions": 167.0,
-  "first_core_commit": "2014-11-13T12:12:36+00:00",
-  "last_core_commit": "2023-05-03T21:49:07+00:00",
+  "first_core_commit": "2014-11-13T12:15:03+00:00",
+  "last_core_commit": "2023-05-03T21:50:14+00:00",
   "first_ecosystem_commit": null,
   "last_ecosystem_commit": null,
-  "first_commit": "2014-11-13T12:12:36",
-  "last_commit": "2023-05-03T21:49:07",
+  "first_commit": "2014-11-13T12:15:03",
+  "last_commit": "2023-05-03T21:50:14",
   "p2016_authored_commits": 16.0,
   "modern_authored_commits": 0.0,
   "co_authored_commits": 0.0,
@@ -45,12 +45,12 @@
   "avg_pr_ack_velocity_days": 23.387453177609427,
   "avg_concept_lead_time_days": 5.658373842592593,
   "review_reciprocity": 0.8235294117647058,
-  "hybrid_score": 0.1381,
-  "p2016_hybrid_score": 0.1339,
-  "modern_hybrid_score": 0.1042,
-  "impact_score": 8.0,
-  "p2016_impact_score": 8.0,
-  "modern_impact_score": 6.0,
+  "hybrid_score": 0.3138,
+  "p2016_hybrid_score": 0.2974,
+  "modern_hybrid_score": 0.1442,
+  "impact_score": 17.0,
+  "p2016_impact_score": 16.0,
+  "modern_impact_score": 8.0,
   "threads_started": 0.0,
   "replies_sent": 0.0,
   "ml_threads": 0.0,
@@ -59,13 +59,26 @@
   "delving_responses": 0.0,
   "first_active": null,
   "last_active": null,
-  "dev_type": "Reviewer",
+  "dev_type": "Builder",
   "expertise_domains": [
-    "Infrastructure"
+    "Infrastructure",
+    "Consensus",
+    "Network"
   ],
-  "expertise_by_source": {},
+  "expertise_by_source": {
+    "code": {
+      "Wallet": 0.05,
+      "Infrastructure": 0.755,
+      "Consensus": 0.135,
+      "Script": 0.01,
+      "Network": 0.05
+    }
+  },
   "expertise_domain_scores": {
-    "Infrastructure": 1.0
+    "Infrastructure": 0.755,
+    "Wallet": 0.05,
+    "Consensus": 0.135,
+    "Network": 0.05
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,
@@ -73,12 +86,12 @@
   "p2016_delving_posts": 0.0,
   "modern_ml_posts": 0.0,
   "modern_delving_posts": 0.0,
-  "is_engineer": false,
+  "is_engineer": true,
   "is_reviewer": true,
   "is_researcher": false,
   "is_bip_author": false,
-  "global_first_active": "2014-11-13T12:12:36",
-  "global_last_active": "2023-05-03T21:49:07",
+  "global_first_active": "2014-11-13T12:15:03",
+  "global_last_active": "2023-05-03T21:50:14",
   "github_location": null,
   "github_company": null,
   "github_bio": null,
@@ -90,44 +103,44 @@
   "github_url": "https://github.com/mruddy",
   "commit_history": {
     "2014": {
-      "Consensus": 2.0,
-      "Utilities": 2.0
+      "Consensus": 1.0,
+      "Utilities": 1.0
     },
     "2015": {
-      "Consensus": 0.4,
-      "Documentation": 1.4,
-      "Script": 0.4,
-      "Tests": 0.4,
-      "Utilities": 1.4
+      "Consensus": 0.2,
+      "Documentation": 0.7,
+      "Script": 0.2,
+      "Tests": 0.2,
+      "Utilities": 0.7
     },
     "2016": {
-      "Consensus": 0.5,
-      "Documentation": 4.0,
-      "Node & RPC": 4.5,
-      "P2P Network": 2.0,
-      "Tests": 1.5,
-      "Utilities": 3.5
+      "Consensus": 0.25,
+      "Documentation": 2.0,
+      "Node & RPC": 2.25,
+      "P2P Network": 1.0,
+      "Tests": 0.75,
+      "Utilities": 1.75
     },
     "2018": {
-      "Build & CI": 0.67,
-      "Documentation": 3.17,
-      "Node & RPC": 3.17,
-      "Tests": 0.5,
-      "Utilities": 0.5,
-      "Wallet": 2.0
+      "Build & CI": 0.33,
+      "Documentation": 1.58,
+      "Node & RPC": 1.58,
+      "Tests": 0.25,
+      "Utilities": 0.25,
+      "Wallet": 1.0
     },
     "2020": {
-      "Documentation": 1.0,
-      "Node & RPC": 1.0
+      "Documentation": 0.5,
+      "Node & RPC": 0.5
     },
     "2022": {
-      "Build & CI": 0.5,
-      "Consensus": 0.5,
-      "Node & RPC": 0.5,
-      "Tests": 0.5
+      "Build & CI": 0.25,
+      "Consensus": 0.25,
+      "Node & RPC": 0.25,
+      "Tests": 0.25
     },
     "2023": {
-      "Consensus": 2.0
+      "Consensus": 1.0
     }
   }
 }

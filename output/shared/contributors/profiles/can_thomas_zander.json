@@ -27,12 +27,12 @@
   "self_merges": 0.0,
   "total_additions": 97.0,
   "total_deletions": 29.0,
-  "first_core_commit": "2014-03-15T06:41:01+00:00",
-  "last_core_commit": "2015-01-08T08:48:18+00:00",
+  "first_core_commit": "2014-03-15T06:41:29+00:00",
+  "last_core_commit": "2015-01-08T09:04:28+00:00",
   "first_ecosystem_commit": null,
   "last_ecosystem_commit": null,
-  "first_commit": "2014-03-15T06:41:01",
-  "last_commit": "2015-01-08T08:48:18",
+  "first_commit": "2014-03-15T06:41:29",
+  "last_commit": "2015-01-08T09:04:28",
   "p2016_authored_commits": 0.0,
   "modern_authored_commits": 0.0,
   "co_authored_commits": 0.0,
@@ -57,10 +57,10 @@
   "avg_pr_ack_velocity_days": 0.683917824074074,
   "avg_concept_lead_time_days": 0.018796296296296297,
   "review_reciprocity": 1.1818181818181819,
-  "hybrid_score": 0.6508,
-  "p2016_hybrid_score": 0.6705,
+  "hybrid_score": 0.7413,
+  "p2016_hybrid_score": 0.6662,
   "modern_hybrid_score": 0.0675,
-  "impact_score": 32.0,
+  "impact_score": 36.0,
   "p2016_impact_score": 33.0,
   "modern_impact_score": 4.0,
   "threads_started": 5.0,
@@ -69,11 +69,12 @@
   "delving_threads": 0.0,
   "ml_responses": 173.0,
   "delving_responses": 0.0,
-  "first_active": "2014-09-15T02:23:02",
-  "last_active": "2017-09-02T16:13:57",
-  "dev_type": "Reviewer",
+  "first_active": null,
+  "last_active": null,
+  "dev_type": "Protocol Designer",
   "expertise_domains": [
     "Consensus",
+    "Infrastructure",
     "Mining"
   ],
   "expertise_by_source": {
@@ -81,13 +82,17 @@
       "Mining": 0.385,
       "Consensus": 0.615
     },
+    "code": {
+      "Infrastructure": 1.0
+    },
     "bips": {
       "Consensus": 1.0
     }
   },
   "expertise_domain_scores": {
-    "Mining": 0.11,
-    "Consensus": 0.89
+    "Mining": 0.077,
+    "Infrastructure": 0.3,
+    "Consensus": 0.623
   },
   "p2016_posts": 100.0,
   "modern_posts": 0.0,
@@ -95,12 +100,12 @@
   "p2016_delving_posts": 0.0,
   "modern_ml_posts": 0.0,
   "modern_delving_posts": 0.0,
-  "is_engineer": false,
+  "is_engineer": true,
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": true,
-  "global_first_active": "2014-03-15T06:41:01",
-  "global_last_active": "2017-09-02T16:13:57",
+  "global_first_active": "2014-03-15T06:41:29",
+  "global_last_active": "2017-05-24T21:11:25",
   "github_location": null,
   "github_company": null,
   "github_bio": null,
@@ -112,12 +117,12 @@
   "github_url": "https://github.com/thedigitalpatriot",
   "commit_history": {
     "2014": {
-      "Documentation": 2.0,
-      "GUI": 2.0,
-      "Utilities": 2.0
+      "Documentation": 1.0,
+      "GUI": 1.0,
+      "Utilities": 1.0
     },
     "2015": {
-      "GUI": 2.0
+      "GUI": 1.0
     }
   },
   "bip_list": [

@@ -1,7 +1,7 @@
 {
   "display_name": "Zawy",
   "github_login_final": null,
-  "delving_username_final": null,
+  "delving_username_final": "zawy",
   "uuid": "can_zawy",
   "badges": null,
   "roles": null,
@@ -45,55 +45,56 @@
   "avg_pr_ack_velocity_days": null,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": null,
-  "hybrid_score": 0.0201,
-  "p2016_hybrid_score": 0.0377,
-  "modern_hybrid_score": 0.0,
+  "hybrid_score": 0.0199,
+  "p2016_hybrid_score": 0.0372,
+  "modern_hybrid_score": 0.0212,
   "impact_score": 1.0,
   "p2016_impact_score": 2.0,
-  "modern_impact_score": 0.0,
-  "threads_started": 10.0,
-  "replies_sent": 5.0,
+  "modern_impact_score": 1.0,
+  "threads_started": 45.0,
+  "replies_sent": 53.0,
   "ml_threads": 10.0,
-  "delving_threads": 0.0,
+  "delving_threads": 35.0,
   "ml_responses": 5.0,
-  "delving_responses": 0.0,
-  "first_active": "2017-10-09T16:26:50",
-  "last_active": "2019-05-18T12:40:16",
+  "delving_responses": 48.0,
+  "first_active": null,
+  "last_active": "2026-09-22T19:31:21.139000",
   "dev_type": "Participant",
   "expertise_domains": [
-    "Consensus",
-    "Mining"
+    "Mining",
+    "Consensus"
   ],
   "expertise_by_source": {
     "discussion": {
-      "Mining": 0.469,
-      "Consensus": 0.531
+      "Mining": 0.717,
+      "Consensus": 0.283
     }
   },
   "expertise_domain_scores": {
-    "Mining": 0.469,
-    "Consensus": 0.531
+    "Mining": 0.717,
+    "Consensus": 0.283
   },
-  "p2016_posts": 15.0,
-  "modern_posts": 0.0,
+  "p2016_posts": 98.0,
+  "modern_posts": 83.0,
   "p2016_ml_posts": 15.0,
-  "p2016_delving_posts": 0.0,
+  "p2016_delving_posts": 83.0,
   "modern_ml_posts": 0.0,
-  "modern_delving_posts": 0.0,
+  "modern_delving_posts": 83.0,
   "is_engineer": false,
   "is_reviewer": false,
   "is_researcher": true,
   "is_bip_author": false,
-  "global_first_active": "2017-10-09T16:26:50",
-  "global_last_active": "2019-05-18T12:40:16",
+  "global_first_active": null,
+  "global_last_active": "2026-09-22T19:31:21.139000",
   "github_location": null,
   "github_company": null,
   "github_bio": null,
   "github_twitter": null,
   "github_blog": null,
   "github_followers": null,
-  "activity_status": "",
+  "activity_status": "Active",
   "is_top_50": false,
+  "delving_url": "https://delvingbitcoin.org/u/zawy",
   "first_message": {
     "source": "mailing_list",
     "subject": "[bitcoin-dev] New difficulty algorithm needed for SegWit2x fork?",
@@ -101,18 +102,17 @@
     "link": "https://gnusha.org/pi/bitcoindev/1091872802.4256448.1507584410826@mail.yahoo.com"
   },
   "last_message": {
-    "source": "mailing_list",
-    "subject": "[bitcoin-dev] Code not following proof of security",
-    "date": "2019-05-18",
-    "link": "https://gnusha.org/pi/bitcoindev/CADtTMv=H1rqfspx4=r+TDqxWVOXRO5yROzTuo0go6vtpevEJDQ@mail.gmail.com"
+    "source": "delving",
+    "subject": "Re: Bounds on chain length with BIP-54 timewarp fixes",
+    "date": "2026-09-22",
+    "link": "https://delvingbitcoin.org/t/bounds-on-chain-length-with-bip-54-timewarp-fixes/2899/28"
   },
   "social_history": {
     "2017": {
       "hard-fork-block-size": 5,
       "mempool-fees": 1,
       "mining": 5,
-      "other": 4,
-      "segwit": 5
+      "other": 9
     },
     "2018": {
       "consensus-cleanup": 1,
@@ -121,6 +121,29 @@
     },
     "2019": {
       "other": 1
+    },
+    "2024": {
+      "consensus-cleanup": 19,
+      "hard-fork-block-size": 10,
+      "mining": 20,
+      "other": 10,
+      "security": 14,
+      "testing-devtools": 19
+    },
+    "2025": {
+      "consensus-cleanup": 6,
+      "hard-fork-block-size": 7,
+      "mempool-fees": 6,
+      "mining": 43,
+      "other": 3,
+      "security": 1,
+      "testing-devtools": 6
+    },
+    "2026": {
+      "consensus-cleanup": 17,
+      "mining": 17,
+      "spam-filtering": 17,
+      "testing-devtools": 17
     }
   }
 }

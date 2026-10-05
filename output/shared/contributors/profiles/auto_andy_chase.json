@@ -1,5 +1,5 @@
 {
-  "display_name": "Andy Chase",
+  "display_name": "andy chase",
   "github_login_final": "andychase",
   "delving_username_final": null,
   "uuid": "auto_andy_chase",
@@ -57,7 +57,7 @@
   "avg_pr_ack_velocity_days": null,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": 1.5,
-  "hybrid_score": 0.4475,
+  "hybrid_score": 0.4473,
   "p2016_hybrid_score": 0.4112,
   "modern_hybrid_score": 0.0396,
   "impact_score": 24.0,
@@ -69,8 +69,8 @@
   "delving_threads": 0.0,
   "ml_responses": 11.0,
   "delving_responses": 0.0,
-  "first_active": "2015-08-25T18:20:28",
-  "last_active": "2016-01-18T22:23:31",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Participant",
   "expertise_domains": [
     "Infrastructure",
@@ -79,19 +79,19 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Ecosystem": 0.786,
       "Privacy": 0.071,
-      "Consensus": 0.143
+      "Consensus": 0.143,
+      "Ecosystem": 0.786
     },
     "bips": {
       "Infrastructure": 1.0
     }
   },
   "expertise_domain_scores": {
-    "Infrastructure": 0.7143,
-    "Ecosystem": 0.2246,
     "Privacy": 0.0203,
-    "Consensus": 0.0409
+    "Infrastructure": 0.7143,
+    "Consensus": 0.0409,
+    "Ecosystem": 0.2246
   },
   "p2016_posts": 1.0,
   "modern_posts": 0.0,
@@ -103,7 +103,7 @@
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": true,
-  "global_first_active": "2015-08-25T18:20:28",
+  "global_first_active": "2015-09-04T02:44:38",
   "global_last_active": "2016-01-19T09:00:31",
   "github_location": "Tigard, OR",
   "github_company": "@USEPA ",

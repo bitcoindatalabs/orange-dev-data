@@ -45,8 +45,8 @@
   "avg_pr_ack_velocity_days": null,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": null,
-  "hybrid_score": 0.0079,
-  "p2016_hybrid_score": 0.013,
+  "hybrid_score": 0.0078,
+  "p2016_hybrid_score": 0.0128,
   "modern_hybrid_score": 0.0,
   "impact_score": 0.0,
   "p2016_impact_score": 1.0,
@@ -57,8 +57,8 @@
   "delving_threads": 0.0,
   "ml_responses": 4.0,
   "delving_responses": 0.0,
-  "first_active": "2017-03-27T11:29:20",
-  "last_active": "2018-06-30T10:12:32",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Participant",
   "expertise_domains": [
     "Wallet",
@@ -68,14 +68,14 @@
   "expertise_by_source": {
     "discussion": {
       "Mining": 0.333,
-      "L2": 0.222,
-      "Wallet": 0.444
+      "Wallet": 0.444,
+      "L2": 0.222
     }
   },
   "expertise_domain_scores": {
     "Mining": 0.3333,
-    "L2": 0.2222,
-    "Wallet": 0.4444
+    "Wallet": 0.4444,
+    "L2": 0.2222
   },
   "p2016_posts": 5.0,
   "modern_posts": 0.0,
@@ -87,8 +87,8 @@
   "is_reviewer": false,
   "is_researcher": true,
   "is_bip_author": false,
-  "global_first_active": "2017-03-27T11:29:20",
-  "global_last_active": "2018-06-30T10:12:32",
+  "global_first_active": null,
+  "global_last_active": null,
   "github_location": null,
   "github_company": null,
   "github_bio": null,

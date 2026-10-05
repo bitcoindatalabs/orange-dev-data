@@ -1,7 +1,7 @@
 {
-  "display_name": "tadge dryja",
+  "display_name": "Tadge Dryja",
   "github_login_final": "adiabat",
-  "delving_username_final": null,
+  "delving_username_final": "adiabat",
   "uuid": "auto_tadge_dryja",
   "badges": null,
   "roles": null,
@@ -45,20 +45,20 @@
   "avg_pr_ack_velocity_days": null,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": null,
-  "hybrid_score": 0.03,
-  "p2016_hybrid_score": 0.0546,
-  "modern_hybrid_score": 0.1242,
+  "hybrid_score": 0.0294,
+  "p2016_hybrid_score": 0.0531,
+  "modern_hybrid_score": 0.1149,
   "impact_score": 2.0,
   "p2016_impact_score": 3.0,
   "modern_impact_score": 7.0,
-  "threads_started": 4.0,
+  "threads_started": 6.0,
   "replies_sent": 8.0,
   "ml_threads": 4.0,
-  "delving_threads": 0.0,
+  "delving_threads": 2.0,
   "ml_responses": 8.0,
   "delving_responses": 0.0,
-  "first_active": "2016-09-21T17:45:55",
-  "last_active": "2025-11-02T12:47:37",
+  "first_active": null,
+  "last_active": "2026-04-03T15:13:20.153000",
   "dev_type": "Participant",
   "expertise_domains": [
     "Cryptography",
@@ -67,28 +67,28 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Privacy": 0.294,
-      "Consensus": 0.235,
-      "Cryptography": 0.471
+      "Privacy": 0.293,
+      "Consensus": 0.244,
+      "Cryptography": 0.463
     }
   },
   "expertise_domain_scores": {
-    "Privacy": 0.294,
-    "Consensus": 0.235,
-    "Cryptography": 0.471
+    "Privacy": 0.293,
+    "Consensus": 0.244,
+    "Cryptography": 0.463
   },
-  "p2016_posts": 12.0,
-  "modern_posts": 5.0,
+  "p2016_posts": 14.0,
+  "modern_posts": 7.0,
   "p2016_ml_posts": 12.0,
-  "p2016_delving_posts": 0.0,
+  "p2016_delving_posts": 2.0,
   "modern_ml_posts": 5.0,
-  "modern_delving_posts": 0.0,
+  "modern_delving_posts": 2.0,
   "is_engineer": false,
   "is_reviewer": false,
   "is_researcher": true,
   "is_bip_author": false,
-  "global_first_active": "2016-09-21T17:45:55",
-  "global_last_active": "2025-11-02T12:47:37",
+  "global_first_active": null,
+  "global_last_active": "2026-04-03T15:13:20.153000",
   "github_location": null,
   "github_company": null,
   "github_bio": null,
@@ -98,6 +98,7 @@
   "activity_status": "Active",
   "is_top_50": false,
   "github_url": "https://github.com/adiabat",
+  "delving_url": "https://delvingbitcoin.org/u/adiabat",
   "first_message": {
     "source": "mailing_list",
     "subject": "[bitcoin-dev]  Requesting BIP assignment; Flexible Transactions.",
@@ -105,35 +106,41 @@
     "link": "https://gnusha.org/pi/bitcoindev/CAKEeUhjisp8qdXDNz3C+pB1MUTfvmHZPmsE-f0DVTxnph6NmMQ@mail.gmail.com"
   },
   "last_message": {
-    "source": "mailing_list",
-    "subject": "Re: [bitcoindev] OP_CIV - Post-Quantum Signature Aggregation",
-    "date": "2025-11-02",
-    "link": "https://gnusha.org/pi/bitcoindev/CAKEeUhhagHCBCd+dgddq8xG4285u_2Li0vKLxvVsdQkGH3gL-w@mail.gmail.com"
+    "source": "delving",
+    "subject": "New Utreexo releases",
+    "date": "2026-04-03",
+    "link": "https://delvingbitcoin.org/t/new-utreexo-releases/2371/1"
   },
   "social_history": {
     "2016": {
       "data-structures": 1,
-      "lightning": 1,
       "other": 2,
+      "script-opcodes": 1,
       "soft-fork-activation": 1
     },
     "2017": {
-      "other": 2,
+      "mempool-fees": 1,
       "p2p-network": 2,
       "privacy": 2,
-      "taproot": 2
+      "other": 3
     },
     "2023": {
       "privacy": 1,
       "scaling": 1
     },
     "2024": {
-      "other": 1,
+      "other": 3,
+      "mempool-fees": 1,
+      "script-opcodes": 1,
       "soft-fork-activation": 1
     },
     "2025": {
       "quantum": 4,
       "scaling": 1
+    },
+    "2026": {
+      "data-structures": 1,
+      "other": 1
     }
   }
 }

@@ -1,5 +1,5 @@
 {
-  "display_name": "Joe Miyamoto",
+  "display_name": "joe miyamoto",
   "github_login_final": "joemphilips",
   "delving_username_final": null,
   "uuid": "auto_joe_miyamoto",
@@ -15,12 +15,12 @@
   "self_merges": 0.0,
   "total_additions": 1.0,
   "total_deletions": 1.0,
-  "first_core_commit": "2018-04-11T19:32:41+00:00",
-  "last_core_commit": "2018-04-11T19:32:41+00:00",
+  "first_core_commit": "2018-04-11T19:35:11+00:00",
+  "last_core_commit": "2018-04-11T19:35:11+00:00",
   "first_ecosystem_commit": null,
   "last_ecosystem_commit": null,
-  "first_commit": "2018-04-11T19:32:41",
-  "last_commit": "2018-04-11T19:32:41",
+  "first_commit": "2018-04-11T19:35:11",
+  "last_commit": "2018-04-11T19:35:11",
   "p2016_authored_commits": 1.0,
   "modern_authored_commits": 0.0,
   "co_authored_commits": 0.0,
@@ -45,11 +45,11 @@
   "avg_pr_ack_velocity_days": 0.05921296296296297,
   "avg_concept_lead_time_days": 0.05023148148148148,
   "review_reciprocity": 0.0,
-  "hybrid_score": 0.033,
-  "p2016_hybrid_score": 0.033,
+  "hybrid_score": 0.073,
+  "p2016_hybrid_score": 0.073,
   "modern_hybrid_score": 0.033,
-  "impact_score": 2.0,
-  "p2016_impact_score": 2.0,
+  "impact_score": 4.0,
+  "p2016_impact_score": 4.0,
   "modern_impact_score": 2.0,
   "threads_started": 0.0,
   "replies_sent": 0.0,
@@ -59,13 +59,17 @@
   "delving_responses": 0.0,
   "first_active": null,
   "last_active": null,
-  "dev_type": "Participant",
+  "dev_type": "Builder",
   "expertise_domains": [
-    "Infrastructure"
+    "Wallet"
   ],
-  "expertise_by_source": {},
+  "expertise_by_source": {
+    "code": {
+      "Wallet": 1.0
+    }
+  },
   "expertise_domain_scores": {
-    "Infrastructure": 1.0
+    "Wallet": 1.0
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,
@@ -73,12 +77,12 @@
   "p2016_delving_posts": 0.0,
   "modern_ml_posts": 0.0,
   "modern_delving_posts": 0.0,
-  "is_engineer": false,
+  "is_engineer": true,
   "is_reviewer": true,
   "is_researcher": false,
   "is_bip_author": false,
-  "global_first_active": "2018-04-11T19:32:41",
-  "global_last_active": "2018-04-11T19:32:41",
+  "global_first_active": "2018-04-11T19:35:11",
+  "global_last_active": "2018-04-11T19:35:11",
   "github_location": "Japan Tokyo",
   "github_company": "Free",
   "github_bio": "Bioinformatician -> Bitcoin Developer.",
@@ -90,7 +94,7 @@
   "github_url": "https://github.com/joemphilips",
   "commit_history": {
     "2018": {
-      "Wallet": 2.0
+      "Wallet": 1.0
     }
   }
 }

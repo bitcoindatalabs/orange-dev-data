@@ -15,12 +15,12 @@
   "self_merges": 0.0,
   "total_additions": 23.0,
   "total_deletions": 0.0,
-  "first_core_commit": "2026-03-04T15:17:02+00:00",
-  "last_core_commit": "2026-03-04T15:17:02+00:00",
+  "first_core_commit": "2026-03-04T15:17:07+00:00",
+  "last_core_commit": "2026-03-04T15:17:07+00:00",
   "first_ecosystem_commit": null,
   "last_ecosystem_commit": null,
-  "first_commit": "2026-03-04T15:17:02",
-  "last_commit": "2026-03-04T15:17:02",
+  "first_commit": "2026-03-04T15:17:07",
+  "last_commit": "2026-03-04T15:17:07",
   "p2016_authored_commits": 1.0,
   "modern_authored_commits": 1.0,
   "co_authored_commits": 0.0,
@@ -45,12 +45,12 @@
   "avg_pr_ack_velocity_days": 1.9918055555555556,
   "avg_concept_lead_time_days": 1.9918055555555556,
   "review_reciprocity": 0.0,
-  "hybrid_score": 0.05,
-  "p2016_hybrid_score": 0.05,
-  "modern_hybrid_score": 0.05,
-  "impact_score": 3.0,
-  "p2016_impact_score": 3.0,
-  "modern_impact_score": 3.0,
+  "hybrid_score": 0.09,
+  "p2016_hybrid_score": 0.09,
+  "modern_hybrid_score": 0.09,
+  "impact_score": 5.0,
+  "p2016_impact_score": 5.0,
+  "modern_impact_score": 5.0,
   "threads_started": 0.0,
   "replies_sent": 0.0,
   "ml_threads": 0.0,
@@ -59,11 +59,15 @@
   "delving_responses": 0.0,
   "first_active": null,
   "last_active": null,
-  "dev_type": "Participant",
+  "dev_type": "Builder",
   "expertise_domains": [
     "Infrastructure"
   ],
-  "expertise_by_source": {},
+  "expertise_by_source": {
+    "code": {
+      "Infrastructure": 1.0
+    }
+  },
   "expertise_domain_scores": {
     "Infrastructure": 1.0
   },
@@ -73,12 +77,12 @@
   "p2016_delving_posts": 0.0,
   "modern_ml_posts": 0.0,
   "modern_delving_posts": 0.0,
-  "is_engineer": false,
+  "is_engineer": true,
   "is_reviewer": true,
   "is_researcher": false,
   "is_bip_author": false,
-  "global_first_active": "2026-03-04T15:17:02",
-  "global_last_active": "2026-03-04T15:17:02",
+  "global_first_active": "2026-03-04T15:17:07",
+  "global_last_active": "2026-03-04T15:17:07",
   "github_location": null,
   "github_company": "@Cryptocurrency-Wallet-Generators ",
   "github_bio": null,
@@ -90,8 +94,8 @@
   "github_url": "https://github.com/tboy1337",
   "commit_history": {
     "2026": {
-      "Tests": 1.0,
-      "Utilities": 1.0
+      "Tests": 0.5,
+      "Utilities": 0.5
     }
   }
 }

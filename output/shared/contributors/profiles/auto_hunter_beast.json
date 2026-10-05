@@ -1,7 +1,7 @@
 {
-  "display_name": "Hunter Beast",
+  "display_name": "hunter beast",
   "github_login_final": "cryptoquick",
-  "delving_username_final": null,
+  "delving_username_final": "cryptoquick",
   "uuid": "auto_hunter_beast",
   "badges": {
     "is_maintainer": false,
@@ -57,20 +57,20 @@
   "avg_pr_ack_velocity_days": null,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": 9.5,
-  "hybrid_score": 0.5322,
-  "p2016_hybrid_score": 0.5788,
+  "hybrid_score": 0.5314,
+  "p2016_hybrid_score": 0.5768,
   "modern_hybrid_score": 0.8042,
   "impact_score": 27.0,
   "p2016_impact_score": 29.0,
   "modern_impact_score": 38.0,
-  "threads_started": 4.0,
-  "replies_sent": 17.0,
+  "threads_started": 19.0,
+  "replies_sent": 20.0,
   "ml_threads": 4.0,
-  "delving_threads": 0.0,
+  "delving_threads": 15.0,
   "ml_responses": 17.0,
-  "delving_responses": 0.0,
-  "first_active": "2024-06-08T16:04:01",
-  "last_active": "2025-12-19T14:45:43",
+  "delving_responses": 3.0,
+  "first_active": "2024-03-15T19:14:56.566000",
+  "last_active": "2026-07-13T08:12:14.680000",
   "dev_type": "Reviewer",
   "expertise_domains": [
     "Consensus",
@@ -79,24 +79,25 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Script": 0.052,
-      "Cryptography": 0.948
+      "Consensus": 0.233,
+      "Script": 0.082,
+      "Cryptography": 0.685
     },
     "bips": {
       "Consensus": 1.0
     }
   },
   "expertise_domain_scores": {
-    "Script": 0.0149,
-    "Consensus": 0.7143,
-    "Cryptography": 0.2709
+    "Consensus": 0.7809,
+    "Script": 0.0234,
+    "Cryptography": 0.1957
   },
-  "p2016_posts": 21.0,
-  "modern_posts": 21.0,
+  "p2016_posts": 39.0,
+  "modern_posts": 39.0,
   "p2016_ml_posts": 21.0,
-  "p2016_delving_posts": 0.0,
+  "p2016_delving_posts": 18.0,
   "modern_ml_posts": 21.0,
-  "modern_delving_posts": 0.0,
+  "modern_delving_posts": 18.0,
   "is_engineer": false,
   "is_reviewer": true,
   "is_researcher": true,
@@ -112,6 +113,7 @@
   "activity_status": "Active",
   "is_top_50": false,
   "github_url": "https://github.com/cryptoquick",
+  "delving_url": "https://delvingbitcoin.org/u/cryptoquick",
   "bip_list": [
     {
       "number": 360,
@@ -122,30 +124,43 @@
     }
   ],
   "first_message": {
-    "source": "mailing_list",
-    "subject": "[bitcoindev] Proposing a P2QRH BIP towards a quantum resistant soft fork",
-    "date": "2024-06-08",
-    "link": "https://gnusha.org/pi/bitcoindev/62fd28ab-e8b5-4cfc-b5ae-0d5a033af057n@googlegroups.com"
+    "source": "delving",
+    "subject": "Re: LNHANCE bips and implementation",
+    "date": "2024-03-15",
+    "link": "https://delvingbitcoin.org/t/lnhance-bips-and-implementation/376/16"
   },
   "last_message": {
-    "source": "mailing_list",
-    "subject": "[bitcoindev] Major BIP 360 Update",
-    "date": "2025-12-19",
-    "link": "https://gnusha.org/pi/bitcoindev/7edb8e8f-064b-4409-9c6d-b4361c1e7df7n@googlegroups.com"
+    "source": "delving",
+    "subject": "Re: Public key recovery for EC leaves in P2MR (BIP-360)",
+    "date": "2026-07-13",
+    "link": "https://delvingbitcoin.org/t/public-key-recovery-for-ec-leaves-in-p2mr-bip-360/2603/33"
   },
   "social_history": {
     "2024": {
-      "quantum": 6
+      "covenants": 2,
+      "l2-bridges": 2,
+      "other": 2,
+      "quantum": 9,
+      "script-opcodes": 1,
+      "taproot": 1
     },
     "2025": {
       "covenants": 1,
-      "data-structures": 1,
-      "mining": 1,
-      "multisig-threshold": 2,
-      "other": 2,
-      "quantum": 12,
-      "taproot": 1,
+      "other": 6,
+      "multisig-threshold": 3,
+      "quantum": 19,
+      "script-opcodes": 1,
+      "security": 1,
+      "taproot": 5,
       "wallet-keys": 2
+    },
+    "2026": {
+      "other": 2,
+      "quantum": 5,
+      "script-opcodes": 4,
+      "security": 4,
+      "taproot": 5,
+      "wallet-keys": 1
     }
   }
 }

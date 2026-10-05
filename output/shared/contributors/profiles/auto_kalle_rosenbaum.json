@@ -1,5 +1,5 @@
 {
-  "display_name": "kalle rosenbaum",
+  "display_name": "Kalle Rosenbaum",
   "github_login_final": "kallerosenbaum",
   "delving_username_final": null,
   "uuid": "auto_kalle_rosenbaum",
@@ -57,9 +57,9 @@
   "avg_pr_ack_velocity_days": null,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": 0.6363636363636364,
-  "hybrid_score": 0.705,
-  "p2016_hybrid_score": 0.124,
-  "modern_hybrid_score": 0.0982,
+  "hybrid_score": 0.7044,
+  "p2016_hybrid_score": 0.1235,
+  "modern_hybrid_score": 0.0984,
   "impact_score": 34.0,
   "p2016_impact_score": 7.0,
   "modern_impact_score": 6.0,
@@ -69,8 +69,8 @@
   "delving_threads": 0.0,
   "ml_responses": 39.0,
   "delving_responses": 0.0,
-  "first_active": "2015-03-13T14:29:42",
-  "last_active": "2025-01-17T04:38:28",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Participant",
   "expertise_domains": [
     "Infrastructure",
@@ -87,8 +87,8 @@
     }
   },
   "expertise_domain_scores": {
-    "Infrastructure": 0.7143,
     "Mining": 0.1429,
+    "Infrastructure": 0.7143,
     "Mempool": 0.1429
   },
   "p2016_posts": 12.0,
@@ -101,8 +101,8 @@
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": true,
-  "global_first_active": "2015-03-13T14:29:42",
-  "global_last_active": "2025-01-17T04:38:28",
+  "global_first_active": "2015-07-28T15:41:35",
+  "global_last_active": "2023-06-21T14:14:43",
   "github_location": null,
   "github_company": null,
   "github_bio": null,

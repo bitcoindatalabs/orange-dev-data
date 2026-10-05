@@ -1,7 +1,7 @@
 {
-  "display_name": "Mikhail Kudinov",
+  "display_name": "mikhail kudinov",
   "github_login_final": null,
-  "delving_username_final": null,
+  "delving_username_final": "mikkud",
   "uuid": "auto_mikhail_kudinov",
   "badges": null,
   "roles": null,
@@ -45,55 +45,59 @@
   "avg_pr_ack_velocity_days": null,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": null,
-  "hybrid_score": 0.0288,
-  "p2016_hybrid_score": 0.0489,
-  "modern_hybrid_score": 0.1799,
+  "hybrid_score": 0.028,
+  "p2016_hybrid_score": 0.0471,
+  "modern_hybrid_score": 0.1643,
   "impact_score": 2.0,
   "p2016_impact_score": 3.0,
-  "modern_impact_score": 10.0,
-  "threads_started": 1.0,
-  "replies_sent": 10.0,
+  "modern_impact_score": 9.0,
+  "threads_started": 2.0,
+  "replies_sent": 11.0,
   "ml_threads": 1.0,
-  "delving_threads": 0.0,
+  "delving_threads": 1.0,
   "ml_responses": 10.0,
-  "delving_responses": 0.0,
-  "first_active": "2025-12-08T14:28:55",
-  "last_active": "2026-05-21T04:54:46",
+  "delving_responses": 1.0,
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Participant",
   "expertise_domains": [
     "Cryptography",
-    "L2"
+    "Script",
+    "Consensus"
   ],
   "expertise_by_source": {
     "discussion": {
-      "L2": 0.04,
-      "Cryptography": 0.96
+      "Consensus": 0.066,
+      "Script": 0.066,
+      "Cryptography": 0.868
     }
   },
   "expertise_domain_scores": {
-    "L2": 0.04,
-    "Cryptography": 0.96
+    "Consensus": 0.066,
+    "Script": 0.066,
+    "Cryptography": 0.868
   },
-  "p2016_posts": 11.0,
-  "modern_posts": 11.0,
+  "p2016_posts": 13.0,
+  "modern_posts": 13.0,
   "p2016_ml_posts": 11.0,
-  "p2016_delving_posts": 0.0,
+  "p2016_delving_posts": 2.0,
   "modern_ml_posts": 11.0,
-  "modern_delving_posts": 0.0,
+  "modern_delving_posts": 2.0,
   "is_engineer": false,
   "is_reviewer": false,
   "is_researcher": true,
   "is_bip_author": false,
-  "global_first_active": "2025-12-08T14:28:55",
-  "global_last_active": "2026-05-21T04:54:46",
+  "global_first_active": null,
+  "global_last_active": null,
   "github_location": null,
   "github_company": null,
   "github_bio": null,
   "github_twitter": null,
   "github_blog": null,
   "github_followers": null,
-  "activity_status": "New",
+  "activity_status": "Rising",
   "is_top_50": false,
+  "delving_url": "https://delvingbitcoin.org/u/mikkud",
   "first_message": {
     "source": "mailing_list",
     "subject": "[bitcoindev] Hash-Based Signatures for Bitcoin's Post-Quantum Future",
@@ -112,7 +116,10 @@
     },
     "2026": {
       "bitvm": 1,
-      "quantum": 7
+      "covenants": 2,
+      "quantum": 9,
+      "script-opcodes": 2,
+      "taproot": 2
     }
   }
 }

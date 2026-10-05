@@ -1,5 +1,5 @@
 {
-  "display_name": "Pablo Martin",
+  "display_name": "pablo martin",
   "github_login_final": "pablomartin4btc",
   "delving_username_final": null,
   "uuid": "auto_pablo_martin",
@@ -15,12 +15,12 @@
   "self_merges": 0.0,
   "total_additions": 982.0,
   "total_deletions": 354.0,
-  "first_core_commit": "2023-03-11T09:57:56+00:00",
-  "last_core_commit": "2026-09-22T21:18:40+00:00",
+  "first_core_commit": "2012-01-15T16:09:53+00:00",
+  "last_core_commit": "2026-09-22T21:18:58+00:00",
   "first_ecosystem_commit": null,
   "last_ecosystem_commit": null,
-  "first_commit": "2023-03-11T09:57:56",
-  "last_commit": "2026-09-22T21:18:40",
+  "first_commit": "2012-01-15T16:09:53",
+  "last_commit": "2026-09-22T21:18:58",
   "p2016_authored_commits": 55.0,
   "modern_authored_commits": 49.0,
   "co_authored_commits": 14.0,
@@ -45,12 +45,12 @@
   "avg_pr_ack_velocity_days": 7.705556445868947,
   "avg_concept_lead_time_days": 9.895350437242799,
   "review_reciprocity": 7.0,
-  "hybrid_score": 0.216,
-  "p2016_hybrid_score": 0.216,
-  "modern_hybrid_score": 0.2105,
-  "impact_score": 12.0,
-  "p2016_impact_score": 12.0,
-  "modern_impact_score": 12.0,
+  "hybrid_score": 0.4482,
+  "p2016_hybrid_score": 0.4461,
+  "modern_hybrid_score": 0.4407,
+  "impact_score": 24.0,
+  "p2016_impact_score": 23.0,
+  "modern_impact_score": 23.0,
   "threads_started": 0.0,
   "replies_sent": 0.0,
   "ml_threads": 0.0,
@@ -59,13 +59,22 @@
   "delving_responses": 0.0,
   "first_active": null,
   "last_active": null,
-  "dev_type": "Reviewer",
+  "dev_type": "Builder",
   "expertise_domains": [
-    "Infrastructure"
+    "Infrastructure",
+    "Wallet",
+    "Consensus"
   ],
-  "expertise_by_source": {},
+  "expertise_by_source": {
+    "code": {
+      "Wallet": 0.248,
+      "Infrastructure": 0.746,
+      "Consensus": 0.006
+    }
+  },
   "expertise_domain_scores": {
-    "Infrastructure": 1.0
+    "Infrastructure": 0.746,
+    "Wallet": 0.248
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,
@@ -73,11 +82,11 @@
   "p2016_delving_posts": 0.0,
   "modern_ml_posts": 0.0,
   "modern_delving_posts": 0.0,
-  "is_engineer": false,
+  "is_engineer": true,
   "is_reviewer": true,
   "is_researcher": false,
   "is_bip_author": false,
-  "global_first_active": "2022-07-28T17:53:18",
+  "global_first_active": "2012-01-15T16:09:53",
   "global_last_active": "2026-09-24T15:06:06",
   "github_location": null,
   "github_company": null,
@@ -85,39 +94,42 @@
   "github_twitter": null,
   "github_blog": null,
   "github_followers": 101.0,
-  "activity_status": "Active",
+  "activity_status": "Rising",
   "is_top_50": false,
   "github_url": "https://github.com/pablomartin4btc",
   "commit_history": {
+    "2012": {
+      "GUI": 2.0
+    },
     "2023": {
-      "Documentation": 2.0,
-      "GUI": 4.0,
-      "Node & RPC": 2.0,
-      "Tests": 5.0,
-      "Utilities": 3.0
+      "Documentation": 1.0,
+      "GUI": 1.0,
+      "Node & RPC": 1.0,
+      "Tests": 2.5,
+      "Utilities": 1.5
     },
     "2024": {
-      "Documentation": 2.0,
-      "GUI": 8.0,
-      "Node & RPC": 0.67,
-      "Tests": 0.67,
-      "Utilities": 2.0,
-      "Wallet": 0.67
+      "Documentation": 1.0,
+      "GUI": 3.0,
+      "Node & RPC": 0.33,
+      "Tests": 0.33,
+      "Utilities": 1.0,
+      "Wallet": 0.33
     },
     "2025": {
-      "Consensus": 0.67,
-      "Documentation": 4.0,
-      "Node & RPC": 2.67,
-      "Tests": 16.0,
-      "Wallet": 14.67
+      "Consensus": 0.33,
+      "Documentation": 2.0,
+      "Node & RPC": 1.33,
+      "Tests": 8.0,
+      "Wallet": 7.33
     },
     "2026": {
-      "Documentation": 10.0,
-      "GUI": 2.0,
-      "Node & RPC": 1.0,
-      "Tests": 13.0,
-      "Utilities": 4.0,
-      "Wallet": 12.0
+      "Documentation": 5.0,
+      "GUI": 1.0,
+      "Node & RPC": 0.5,
+      "Tests": 6.5,
+      "Utilities": 2.0,
+      "Wallet": 6.0
     }
   }
 }

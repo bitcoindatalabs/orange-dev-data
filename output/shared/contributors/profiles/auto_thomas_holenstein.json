@@ -1,5 +1,5 @@
 {
-  "display_name": "thomas holenstein",
+  "display_name": "Thomas Holenstein",
   "github_login_final": "tholenst",
   "delving_username_final": null,
   "uuid": "auto_thomas_holenstein",
@@ -15,12 +15,12 @@
   "self_merges": 0.0,
   "total_additions": 635.0,
   "total_deletions": 200.0,
-  "first_core_commit": "2013-12-20T08:35:03+00:00",
-  "last_core_commit": "2014-01-06T09:27:17+00:00",
+  "first_core_commit": "2013-12-20T08:35:24+00:00",
+  "last_core_commit": "2014-01-06T09:29:36+00:00",
   "first_ecosystem_commit": null,
   "last_ecosystem_commit": null,
-  "first_commit": "2013-12-20T08:35:03",
-  "last_commit": "2014-01-06T09:27:17",
+  "first_commit": "2013-12-20T08:35:24",
+  "last_commit": "2014-01-06T09:29:36",
   "p2016_authored_commits": 0.0,
   "modern_authored_commits": 0.0,
   "co_authored_commits": 0.0,
@@ -45,10 +45,10 @@
   "avg_pr_ack_velocity_days": 0.006388888888888889,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": 0.3333333333333333,
-  "hybrid_score": 0.0452,
+  "hybrid_score": 0.1252,
   "p2016_hybrid_score": 0.033,
   "modern_hybrid_score": 0.033,
-  "impact_score": 3.0,
+  "impact_score": 7.0,
   "p2016_impact_score": 2.0,
   "modern_impact_score": 2.0,
   "threads_started": 0.0,
@@ -59,13 +59,20 @@
   "delving_responses": 0.0,
   "first_active": null,
   "last_active": null,
-  "dev_type": "Participant",
+  "dev_type": "Builder",
   "expertise_domains": [
-    "Infrastructure"
+    "Infrastructure",
+    "Network"
   ],
-  "expertise_by_source": {},
+  "expertise_by_source": {
+    "code": {
+      "Infrastructure": 0.75,
+      "Network": 0.25
+    }
+  },
   "expertise_domain_scores": {
-    "Infrastructure": 1.0
+    "Infrastructure": 0.75,
+    "Network": 0.25
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,
@@ -73,11 +80,11 @@
   "p2016_delving_posts": 0.0,
   "modern_ml_posts": 0.0,
   "modern_delving_posts": 0.0,
-  "is_engineer": false,
+  "is_engineer": true,
   "is_reviewer": true,
   "is_researcher": false,
   "is_bip_author": false,
-  "global_first_active": "2013-12-20T08:35:03",
+  "global_first_active": "2013-12-20T08:35:24",
   "global_last_active": "2014-08-29T15:10:36",
   "github_location": "Zurich",
   "github_company": "Google",
@@ -90,15 +97,15 @@
   "github_url": "https://github.com/tholenst",
   "commit_history": {
     "2013": {
-      "Node & RPC": 0.5,
-      "P2P Network": 0.5,
-      "Tests": 0.5,
-      "Utilities": 0.5
+      "Node & RPC": 0.25,
+      "P2P Network": 0.25,
+      "Tests": 0.25,
+      "Utilities": 0.25
     },
     "2014": {
-      "P2P Network": 1.0,
-      "Tests": 1.0,
-      "Utilities": 2.0
+      "P2P Network": 0.5,
+      "Tests": 0.5,
+      "Utilities": 1.0
     }
   }
 }

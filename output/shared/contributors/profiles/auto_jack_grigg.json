@@ -15,12 +15,12 @@
   "self_merges": 0.0,
   "total_additions": 448.0,
   "total_deletions": 111.0,
-  "first_core_commit": "2017-05-18T17:58:34+00:00",
-  "last_core_commit": "2017-12-20T16:22:56+00:00",
+  "first_core_commit": "2017-05-18T18:00:15+00:00",
+  "last_core_commit": "2017-12-20T17:01:10+00:00",
   "first_ecosystem_commit": null,
   "last_ecosystem_commit": null,
-  "first_commit": "2017-05-18T17:58:34",
-  "last_commit": "2017-12-20T16:22:56",
+  "first_commit": "2017-05-18T18:00:15",
+  "last_commit": "2017-12-20T17:01:10",
   "p2016_authored_commits": 13.0,
   "modern_authored_commits": 0.0,
   "co_authored_commits": 0.0,
@@ -45,11 +45,11 @@
   "avg_pr_ack_velocity_days": 3.587841435185185,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": 0.5,
-  "hybrid_score": 0.0396,
-  "p2016_hybrid_score": 0.0396,
+  "hybrid_score": 0.1919,
+  "p2016_hybrid_score": 0.1919,
   "modern_hybrid_score": 0.025,
-  "impact_score": 2.0,
-  "p2016_impact_score": 2.0,
+  "impact_score": 11.0,
+  "p2016_impact_score": 11.0,
   "modern_impact_score": 1.0,
   "threads_started": 0.0,
   "replies_sent": 0.0,
@@ -59,13 +59,20 @@
   "delving_responses": 0.0,
   "first_active": null,
   "last_active": null,
-  "dev_type": "Participant",
+  "dev_type": "Builder",
   "expertise_domains": [
-    "Infrastructure"
+    "Infrastructure",
+    "Script"
   ],
-  "expertise_by_source": {},
+  "expertise_by_source": {
+    "code": {
+      "Infrastructure": 0.962,
+      "Script": 0.038
+    }
+  },
   "expertise_domain_scores": {
-    "Infrastructure": 1.0
+    "Infrastructure": 0.962,
+    "Script": 0.038
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,
@@ -73,12 +80,12 @@
   "p2016_delving_posts": 0.0,
   "modern_ml_posts": 0.0,
   "modern_delving_posts": 0.0,
-  "is_engineer": false,
+  "is_engineer": true,
   "is_reviewer": true,
   "is_researcher": false,
   "is_bip_author": false,
-  "global_first_active": "2017-05-18T17:58:34",
-  "global_last_active": "2017-12-20T16:22:56",
+  "global_first_active": "2017-05-18T18:00:15",
+  "global_last_active": "2017-12-20T17:01:10",
   "github_location": null,
   "github_company": "@zcash",
   "github_bio": null,
@@ -90,10 +97,10 @@
   "github_url": "https://github.com/str4d",
   "commit_history": {
     "2017": {
-      "Build & CI": 1.0,
-      "Script": 1.0,
-      "Tests": 2.0,
-      "Utilities": 22.0
+      "Build & CI": 0.5,
+      "Script": 0.5,
+      "Tests": 1.0,
+      "Utilities": 11.0
     }
   }
 }

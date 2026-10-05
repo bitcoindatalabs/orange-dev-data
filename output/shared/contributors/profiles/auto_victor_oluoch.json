@@ -1,5 +1,5 @@
 {
-  "display_name": "Victor Oluoch",
+  "display_name": "victor oluoch",
   "github_login_final": "vicjuma",
   "delving_username_final": null,
   "uuid": "auto_victor_oluoch",
@@ -15,12 +15,12 @@
   "self_merges": 0.0,
   "total_additions": 0.0,
   "total_deletions": 9.0,
-  "first_core_commit": "2026-08-11T09:51:25+00:00",
-  "last_core_commit": "2026-08-11T09:51:25+00:00",
+  "first_core_commit": "2026-08-11T09:51:33+00:00",
+  "last_core_commit": "2026-08-11T09:51:33+00:00",
   "first_ecosystem_commit": null,
   "last_ecosystem_commit": null,
-  "first_commit": "2026-08-11T09:51:25",
-  "last_commit": "2026-08-11T09:51:25",
+  "first_commit": "2026-08-11T09:51:33",
+  "last_commit": "2026-08-11T09:51:33",
   "p2016_authored_commits": 1.0,
   "modern_authored_commits": 1.0,
   "co_authored_commits": 0.0,
@@ -29,28 +29,28 @@
   "modern_bips_authored": 0.0,
   "first_bip_date": null,
   "last_bip_date": null,
-  "avg_review_latency_days": 6.334761243386243,
-  "reviews_count": 27.0,
-  "avg_approval_latency_days": 8.354078125,
-  "approvals_count": 16.0,
-  "tier1_reviews_count": 27.0,
+  "avg_review_latency_days": 9.634758467348929,
+  "reviews_count": 30.0,
+  "avg_approval_latency_days": 11.341763668430335,
+  "approvals_count": 17.0,
+  "tier1_reviews_count": 30.0,
   "tier2_reviews_count": 0.0,
-  "p2016_reviews_count": 27.0,
-  "modern_reviews_count": 27.0,
+  "p2016_reviews_count": 30.0,
+  "modern_reviews_count": 30.0,
   "first_review_date": "2025-05-13T17:40:20",
-  "last_review_date": "2026-09-25T22:52:29",
+  "last_review_date": "2026-10-02T21:45:57",
   "prs_authored": 9.0,
   "tier1_prs_authored": 9.0,
   "tier2_prs_authored": 0.0,
   "avg_pr_ack_velocity_days": 0.11445601851851851,
   "avg_concept_lead_time_days": null,
-  "review_reciprocity": 3.0,
-  "hybrid_score": 0.1256,
-  "p2016_hybrid_score": 0.1256,
-  "modern_hybrid_score": 0.1256,
-  "impact_score": 7.0,
-  "p2016_impact_score": 7.0,
-  "modern_impact_score": 7.0,
+  "review_reciprocity": 3.3333333333333335,
+  "hybrid_score": 0.1687,
+  "p2016_hybrid_score": 0.1687,
+  "modern_hybrid_score": 0.1687,
+  "impact_score": 10.0,
+  "p2016_impact_score": 10.0,
+  "modern_impact_score": 10.0,
   "threads_started": 0.0,
   "replies_sent": 0.0,
   "ml_threads": 0.0,
@@ -59,13 +59,17 @@
   "delving_responses": 0.0,
   "first_active": null,
   "last_active": null,
-  "dev_type": "Reviewer",
+  "dev_type": "Builder",
   "expertise_domains": [
-    "Infrastructure"
+    "Wallet"
   ],
-  "expertise_by_source": {},
+  "expertise_by_source": {
+    "code": {
+      "Wallet": 1.0
+    }
+  },
   "expertise_domain_scores": {
-    "Infrastructure": 1.0
+    "Wallet": 1.0
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,
@@ -73,12 +77,12 @@
   "p2016_delving_posts": 0.0,
   "modern_ml_posts": 0.0,
   "modern_delving_posts": 0.0,
-  "is_engineer": false,
+  "is_engineer": true,
   "is_reviewer": true,
   "is_researcher": false,
   "is_bip_author": false,
   "global_first_active": "2025-05-13T17:40:20",
-  "global_last_active": "2026-09-25T22:52:29",
+  "global_last_active": "2026-10-02T21:45:57",
   "github_location": "Remote",
   "github_company": "Mouseinc Technologies",
   "github_bio": "Exclusive",
@@ -90,7 +94,7 @@
   "github_url": "https://github.com/vicjuma",
   "commit_history": {
     "2026": {
-      "Wallet": 2.0
+      "Wallet": 1.0
     }
   }
 }

@@ -1,5 +1,5 @@
 {
-  "display_name": "newsletter catcher",
+  "display_name": "Newsletter Catcher",
   "github_login_final": null,
   "delving_username_final": null,
   "uuid": "auto_newsletter_catcher",
@@ -57,8 +57,8 @@
   "delving_threads": 0.0,
   "ml_responses": 1.0,
   "delving_responses": 0.0,
-  "first_active": "2021-12-18T02:36:07",
-  "last_active": "2021-12-18T02:36:07",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Participant",
   "expertise_domains": [
     "Ecosystem",
@@ -66,13 +66,13 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Ecosystem": 0.67,
-      "Mining": 0.33
+      "Mining": 0.33,
+      "Ecosystem": 0.67
     }
   },
   "expertise_domain_scores": {
-    "Ecosystem": 0.67,
-    "Mining": 0.33
+    "Mining": 0.33,
+    "Ecosystem": 0.67
   },
   "p2016_posts": 1.0,
   "modern_posts": 0.0,
@@ -84,8 +84,8 @@
   "is_reviewer": false,
   "is_researcher": true,
   "is_bip_author": false,
-  "global_first_active": "2021-12-18T02:36:07",
-  "global_last_active": "2021-12-18T02:36:07",
+  "global_first_active": null,
+  "global_last_active": null,
   "github_location": null,
   "github_company": null,
   "github_bio": null,

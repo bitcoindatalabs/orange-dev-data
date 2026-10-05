@@ -1,5 +1,5 @@
 {
-  "display_name": "shawn wilkinson",
+  "display_name": "Shawn Wilkinson",
   "github_login_final": "super3",
   "delving_username_final": null,
   "uuid": "auto_shawn_wilkinson",
@@ -16,11 +16,11 @@
   "total_additions": 1382.0,
   "total_deletions": 979.0,
   "first_core_commit": "2013-05-20T13:25:41+00:00",
-  "last_core_commit": "2015-05-18T05:52:13+00:00",
+  "last_core_commit": "2015-05-18T05:52:27+00:00",
   "first_ecosystem_commit": null,
   "last_ecosystem_commit": null,
   "first_commit": "2013-05-20T13:25:41",
-  "last_commit": "2015-05-18T05:52:13",
+  "last_commit": "2015-05-18T05:52:27",
   "p2016_authored_commits": 0.0,
   "modern_authored_commits": 0.0,
   "co_authored_commits": 0.0,
@@ -45,10 +45,10 @@
   "avg_pr_ack_velocity_days": 0.6249834656084656,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": 0.56,
-  "hybrid_score": 0.1195,
+  "hybrid_score": 0.283,
   "p2016_hybrid_score": 0.1011,
   "modern_hybrid_score": 0.0939,
-  "impact_score": 7.0,
+  "impact_score": 16.0,
   "p2016_impact_score": 6.0,
   "modern_impact_score": 5.0,
   "threads_started": 0.0,
@@ -59,13 +59,23 @@
   "delving_responses": 0.0,
   "first_active": null,
   "last_active": null,
-  "dev_type": "Reviewer",
+  "dev_type": "Builder",
   "expertise_domains": [
-    "Infrastructure"
+    "Infrastructure",
+    "Consensus",
+    "Network"
   ],
-  "expertise_by_source": {},
+  "expertise_by_source": {
+    "code": {
+      "Infrastructure": 0.975,
+      "Consensus": 0.013,
+      "Network": 0.013
+    }
+  },
   "expertise_domain_scores": {
-    "Infrastructure": 1.0
+    "Infrastructure": 0.974,
+    "Consensus": 0.013,
+    "Network": 0.013
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,
@@ -73,7 +83,7 @@
   "p2016_delving_posts": 0.0,
   "modern_ml_posts": 0.0,
   "modern_delving_posts": 0.0,
-  "is_engineer": false,
+  "is_engineer": true,
   "is_reviewer": true,
   "is_researcher": false,
   "is_bip_author": false,
@@ -90,20 +100,20 @@
   "github_url": "https://github.com/super3",
   "commit_history": {
     "2013": {
-      "Consensus": 0.4,
-      "Documentation": 16.0,
-      "GUI": 0.4,
-      "Node & RPC": 0.4,
-      "P2P Network": 0.4,
-      "Utilities": 4.4
+      "Consensus": 0.2,
+      "Documentation": 8.0,
+      "GUI": 0.2,
+      "Node & RPC": 0.2,
+      "P2P Network": 0.2,
+      "Utilities": 2.2
     },
     "2014": {
-      "Documentation": 5.0,
-      "Tests": 1.0
+      "Documentation": 2.5,
+      "Tests": 0.5
     },
     "2015": {
-      "Build & CI": 2.0,
-      "Documentation": 2.0
+      "Build & CI": 1.0,
+      "Documentation": 1.0
     }
   }
 }

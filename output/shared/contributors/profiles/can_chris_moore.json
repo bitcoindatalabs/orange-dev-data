@@ -1,7 +1,7 @@
 {
   "display_name": "Chris Moore",
   "github_login_final": "dooglus",
-  "delving_username_final": null,
+  "delving_username_final": "chris",
   "uuid": "can_chris_moore",
   "badges": {
     "is_maintainer": true,
@@ -32,11 +32,11 @@
   "total_additions": 3131.0,
   "total_deletions": 225.0,
   "first_core_commit": "2011-01-20T18:49:44+00:00",
-  "last_core_commit": "2019-06-17T17:02:45+00:00",
+  "last_core_commit": "2019-06-17T17:07:15+00:00",
   "first_ecosystem_commit": null,
   "last_ecosystem_commit": null,
   "first_commit": "2011-01-20T18:49:44",
-  "last_commit": "2019-06-17T17:02:45",
+  "last_commit": "2019-06-17T17:07:15",
   "p2016_authored_commits": 10.0,
   "modern_authored_commits": 0.0,
   "co_authored_commits": 0.0,
@@ -61,88 +61,96 @@
   "avg_pr_ack_velocity_days": 80.37119539411206,
   "avg_concept_lead_time_days": 64.58650939542483,
   "review_reciprocity": 0.3958333333333333,
-  "hybrid_score": 1.1822,
-  "p2016_hybrid_score": 0.1654,
+  "hybrid_score": 1.3867,
+  "p2016_hybrid_score": 0.308,
   "modern_hybrid_score": 0.1161,
-  "impact_score": 51.0,
-  "p2016_impact_score": 9.0,
+  "impact_score": 56.0,
+  "p2016_impact_score": 17.0,
   "modern_impact_score": 7.0,
-  "threads_started": 2.0,
+  "threads_started": 4.0,
   "replies_sent": 37.0,
   "ml_threads": 2.0,
-  "delving_threads": 0.0,
+  "delving_threads": 2.0,
   "ml_responses": 37.0,
   "delving_responses": 0.0,
-  "first_active": "2014-03-13T10:37:56",
-  "last_active": "2019-07-26T11:48:36",
-  "dev_type": "Reviewer",
+  "first_active": null,
+  "last_active": "2025-08-03T11:57:18.875000",
+  "dev_type": "Builder",
   "expertise_domains": [
-    "Mining",
-    "Script"
+    "Infrastructure",
+    "Script",
+    "Mining"
   ],
   "expertise_by_source": {
     "discussion": {
-      "Mining": 0.5,
-      "Script": 0.5
+      "Mining": 0.478,
+      "Script": 0.522
+    },
+    "code": {
+      "Wallet": 0.12,
+      "Infrastructure": 0.88
     }
   },
   "expertise_domain_scores": {
-    "Mining": 0.5,
-    "Script": 0.5
+    "Mining": 0.1912,
+    "Infrastructure": 0.528,
+    "Wallet": 0.072,
+    "Script": 0.2088
   },
-  "p2016_posts": 11.0,
-  "modern_posts": 0.0,
+  "p2016_posts": 13.0,
+  "modern_posts": 2.0,
   "p2016_ml_posts": 11.0,
-  "p2016_delving_posts": 0.0,
+  "p2016_delving_posts": 2.0,
   "modern_ml_posts": 0.0,
-  "modern_delving_posts": 0.0,
-  "is_engineer": false,
+  "modern_delving_posts": 2.0,
+  "is_engineer": true,
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": false,
   "global_first_active": "2011-01-20T18:49:44",
-  "global_last_active": "2023-02-06T23:19:07",
+  "global_last_active": "2025-08-03T11:57:18.875000",
   "github_location": "Canada",
   "github_company": null,
   "github_bio": null,
   "github_twitter": null,
   "github_blog": "https://just-dice.com",
   "github_followers": 162.0,
-  "activity_status": "Retired",
+  "activity_status": "Active",
   "is_top_50": false,
   "github_url": "https://github.com/dooglus",
+  "delving_url": "https://delvingbitcoin.org/u/chris",
   "commit_history": {
     "2011": {
-      "Documentation": 2.0,
-      "GUI": 2.0,
-      "Merge": 4.0,
-      "Utilities": 18.0
+      "Documentation": 1.0,
+      "GUI": 1.0,
+      "Merge": 2.0,
+      "Utilities": 9.0
     },
     "2012": {
-      "Documentation": 2.0,
-      "GUI": 1.0,
-      "Node & RPC": 1.0,
-      "Tests": 5.0,
-      "Utilities": 11.0
+      "Documentation": 1.0,
+      "GUI": 0.5,
+      "Node & RPC": 0.5,
+      "Tests": 2.5,
+      "Utilities": 5.5
     },
     "2016": {
-      "Node & RPC": 2.0,
-      "Utilities": 2.0,
-      "Wallet": 6.0
+      "Node & RPC": 1.0,
+      "Utilities": 1.0,
+      "Wallet": 3.0
     },
     "2017": {
-      "GUI": 2.0,
-      "Utilities": 1.0,
-      "Wallet": 1.0
+      "GUI": 1.0,
+      "Utilities": 0.5,
+      "Wallet": 0.5
     },
     "2018": {
-      "GUI": 2.67,
-      "Node & RPC": 0.67,
-      "Wallet": 0.67
+      "GUI": 1.33,
+      "Node & RPC": 0.33,
+      "Wallet": 0.33
     },
     "2019": {
-      "GUI": 2.0,
-      "Node & RPC": 2.0
+      "GUI": 1.0,
+      "Node & RPC": 1.0
     }
   },
   "first_message": {
@@ -152,10 +160,10 @@
     "link": "https://gnusha.org/pi/bitcoindev/CAB+qUq4yRd-ugC-FWxYsGbwQCARBP1kNbz5c+fT55qcxY4kvHA@mail.gmail.com"
   },
   "last_message": {
-    "source": "mailing_list",
-    "subject": "Re: [bitcoin-dev] Bitcoin Core to disable Bloom-based Filtering by\n default",
-    "date": "2019-07-26",
-    "link": "https://gnusha.org/pi/bitcoindev/aae66fbc-3d25-62f9-c434-017e52322d7a@gmail.com"
+    "source": "delving",
+    "subject": "Re: Exploring Extended Relative Timelocks",
+    "date": "2025-08-03",
+    "link": "https://delvingbitcoin.org/t/exploring-extended-relative-timelocks/1818/21"
   },
   "social_history": {
     "2014": {
@@ -192,6 +200,14 @@
     },
     "2019": {
       "p2p-network": 1
+    },
+    "2025": {
+      "other": 3,
+      "mempool-fees": 1,
+      "mining": 1,
+      "privacy": 1,
+      "script-opcodes": 1,
+      "soft-fork-activation": 1
     }
   }
 }

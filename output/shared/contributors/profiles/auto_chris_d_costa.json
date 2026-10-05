@@ -1,5 +1,5 @@
 {
-  "display_name": "chris d'costa",
+  "display_name": "Chris D'Costa",
   "github_login_final": null,
   "delving_username_final": null,
   "uuid": "auto_chris_d_costa",
@@ -45,7 +45,7 @@
   "avg_pr_ack_velocity_days": null,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": null,
-  "hybrid_score": 0.0197,
+  "hybrid_score": 0.0196,
   "p2016_hybrid_score": 0.0,
   "modern_hybrid_score": 0.0,
   "impact_score": 1.0,
@@ -57,8 +57,8 @@
   "delving_threads": 0.0,
   "ml_responses": 9.0,
   "delving_responses": 0.0,
-  "first_active": "2014-03-21T04:11:59",
-  "last_active": "2015-09-01T05:16:04",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Participant",
   "expertise_domains": [
     "Ecosystem",
@@ -66,13 +66,13 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Ecosystem": 0.75,
-      "Mining": 0.25
+      "Mining": 0.25,
+      "Ecosystem": 0.75
     }
   },
   "expertise_domain_scores": {
-    "Ecosystem": 0.75,
-    "Mining": 0.25
+    "Mining": 0.25,
+    "Ecosystem": 0.75
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,
@@ -84,8 +84,8 @@
   "is_reviewer": false,
   "is_researcher": true,
   "is_bip_author": false,
-  "global_first_active": "2014-03-21T04:11:59",
-  "global_last_active": "2015-09-01T05:16:04",
+  "global_first_active": null,
+  "global_last_active": null,
   "github_location": null,
   "github_company": null,
   "github_bio": null,

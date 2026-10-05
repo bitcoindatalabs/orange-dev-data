@@ -1,5 +1,5 @@
 {
-  "display_name": "Scott Howard",
+  "display_name": "scott howard",
   "github_login_final": "maqifrnswa",
   "delving_username_final": null,
   "uuid": "auto_scott_howard",
@@ -15,12 +15,12 @@
   "self_merges": 0.0,
   "total_additions": 218.0,
   "total_deletions": 11.0,
-  "first_core_commit": "2013-04-27T09:08:43+00:00",
-  "last_core_commit": "2013-04-27T09:08:43+00:00",
+  "first_core_commit": "2013-04-27T09:08:44+00:00",
+  "last_core_commit": "2013-04-27T09:08:44+00:00",
   "first_ecosystem_commit": null,
   "last_ecosystem_commit": null,
-  "first_commit": "2013-04-27T09:08:43",
-  "last_commit": "2013-04-27T09:08:43",
+  "first_commit": "2013-04-27T09:08:44",
+  "last_commit": "2013-04-27T09:08:44",
   "p2016_authored_commits": 0.0,
   "modern_authored_commits": 0.0,
   "co_authored_commits": 0.0,
@@ -45,10 +45,10 @@
   "avg_pr_ack_velocity_days": 0.6249768518518518,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": 1.0,
-  "hybrid_score": 0.0473,
+  "hybrid_score": 0.1106,
   "p2016_hybrid_score": 0.0146,
   "modern_hybrid_score": 0.0146,
-  "impact_score": 3.0,
+  "impact_score": 6.0,
   "p2016_impact_score": 1.0,
   "modern_impact_score": 1.0,
   "threads_started": 1.0,
@@ -57,19 +57,24 @@
   "delving_threads": 0.0,
   "ml_responses": 5.0,
   "delving_responses": 0.0,
-  "first_active": "2012-09-13T20:57:05",
-  "last_active": "2014-05-19T09:02:22",
-  "dev_type": "Participant",
+  "first_active": null,
+  "last_active": null,
+  "dev_type": "Builder",
   "expertise_domains": [
+    "Infrastructure",
     "Network"
   ],
   "expertise_by_source": {
     "discussion": {
       "Network": 1.0
+    },
+    "code": {
+      "Infrastructure": 1.0
     }
   },
   "expertise_domain_scores": {
-    "Network": 1.0
+    "Infrastructure": 0.6,
+    "Network": 0.4
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,
@@ -77,12 +82,12 @@
   "p2016_delving_posts": 0.0,
   "modern_ml_posts": 0.0,
   "modern_delving_posts": 0.0,
-  "is_engineer": false,
+  "is_engineer": true,
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": false,
-  "global_first_active": "2012-09-13T20:57:05",
-  "global_last_active": "2014-05-19T09:02:22",
+  "global_first_active": "2013-02-26T15:10:48",
+  "global_last_active": "2013-04-27T09:08:44",
   "github_location": null,
   "github_company": null,
   "github_bio": null,
@@ -94,7 +99,7 @@
   "github_url": "https://github.com/maqifrnswa",
   "commit_history": {
     "2013": {
-      "Utilities": 4.0
+      "Utilities": 2.0
     }
   },
   "first_message": {

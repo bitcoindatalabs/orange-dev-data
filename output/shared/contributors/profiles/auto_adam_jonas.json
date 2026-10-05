@@ -15,12 +15,12 @@
   "self_merges": 0.0,
   "total_additions": 400.0,
   "total_deletions": 149.0,
-  "first_core_commit": "2019-03-01T18:54:15+00:00",
-  "last_core_commit": "2022-05-06T09:46:10+00:00",
+  "first_core_commit": "2019-03-01T18:56:31+00:00",
+  "last_core_commit": "2022-05-06T09:47:23+00:00",
   "first_ecosystem_commit": null,
   "last_ecosystem_commit": null,
-  "first_commit": "2019-03-01T18:54:15",
-  "last_commit": "2022-05-06T09:46:10",
+  "first_commit": "2019-03-01T18:56:31",
+  "last_commit": "2022-05-06T09:47:23",
   "p2016_authored_commits": 14.0,
   "modern_authored_commits": 0.0,
   "co_authored_commits": 6.0,
@@ -45,11 +45,11 @@
   "avg_pr_ack_velocity_days": 1.1705635683760685,
   "avg_concept_lead_time_days": 0.41560185185185183,
   "review_reciprocity": 8.538461538461538,
-  "hybrid_score": 0.1722,
-  "p2016_hybrid_score": 0.1722,
+  "hybrid_score": 0.3284,
+  "p2016_hybrid_score": 0.3284,
   "modern_hybrid_score": 0.0727,
-  "impact_score": 10.0,
-  "p2016_impact_score": 10.0,
+  "impact_score": 18.0,
+  "p2016_impact_score": 18.0,
   "modern_impact_score": 4.0,
   "threads_started": 0.0,
   "replies_sent": 0.0,
@@ -59,13 +59,25 @@
   "delving_responses": 0.0,
   "first_active": null,
   "last_active": null,
-  "dev_type": "Reviewer",
+  "dev_type": "Builder",
   "expertise_domains": [
-    "Infrastructure"
+    "Infrastructure",
+    "Wallet",
+    "Network"
   ],
-  "expertise_by_source": {},
+  "expertise_by_source": {
+    "code": {
+      "Wallet": 0.202,
+      "Infrastructure": 0.595,
+      "Consensus": 0.024,
+      "Network": 0.179
+    }
+  },
   "expertise_domain_scores": {
-    "Infrastructure": 1.0
+    "Infrastructure": 0.595,
+    "Wallet": 0.202,
+    "Consensus": 0.024,
+    "Network": 0.179
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,
@@ -73,11 +85,11 @@
   "p2016_delving_posts": 0.0,
   "modern_ml_posts": 0.0,
   "modern_delving_posts": 0.0,
-  "is_engineer": false,
+  "is_engineer": true,
   "is_reviewer": true,
   "is_researcher": false,
   "is_bip_author": false,
-  "global_first_active": "2019-03-01T18:54:15",
+  "global_first_active": "2019-03-01T18:56:31",
   "global_last_active": "2022-10-13T12:39:01",
   "github_location": "NYC",
   "github_company": "Chaincode Labs",
@@ -90,23 +102,23 @@
   "github_url": "https://github.com/adamjonas",
   "commit_history": {
     "2019": {
-      "Node & RPC": 0.67,
-      "Tests": 5.67,
-      "Wallet": 5.67
+      "Node & RPC": 0.33,
+      "Tests": 2.83,
+      "Wallet": 2.83
     },
     "2020": {
-      "Node & RPC": 1.0,
-      "P2P Network": 5.0,
-      "Utilities": 4.0
-    },
-    "2021": {
-      "Documentation": 2.0,
+      "Node & RPC": 0.5,
+      "P2P Network": 2.5,
       "Utilities": 2.0
     },
+    "2021": {
+      "Documentation": 1.0,
+      "Utilities": 1.0
+    },
     "2022": {
-      "Consensus": 0.67,
-      "Node & RPC": 0.67,
-      "Tests": 0.67
+      "Consensus": 0.33,
+      "Node & RPC": 0.33,
+      "Tests": 0.33
     }
   }
 }

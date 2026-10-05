@@ -1,31 +1,31 @@
 {
-  "display_name": "Ben Carman",
+  "display_name": "ben carman",
   "github_login_final": "benthecarman",
-  "delving_username_final": null,
+  "delving_username_final": "benthecarman",
   "uuid": "auto_ben_carman",
   "badges": {
     "ecosystem_contributor": true,
-    "tier2_commits": 99
+    "tier2_commits": 100
   },
   "roles": null,
-  "total_commits": 118.0,
-  "authored_commits": 118.0,
+  "total_commits": 119.0,
+  "authored_commits": 119.0,
   "tier1_authored_commits": 19.0,
-  "tier2_authored_commits": 99.0,
+  "tier2_authored_commits": 100.0,
   "merge_commits": 0.0,
   "tier1_merge_commits": 0.0,
   "tier2_merge_commits": 0.0,
   "self_merges": 0.0,
-  "total_additions": 3282.0,
+  "total_additions": 3303.0,
   "total_deletions": 101.0,
-  "first_core_commit": "2018-12-28T11:19:25+00:00",
-  "last_core_commit": "2026-08-19T17:47:02+00:00",
+  "first_core_commit": "2018-12-28T11:21:16+00:00",
+  "last_core_commit": "2026-08-19T17:47:16+00:00",
   "first_ecosystem_commit": "2021-08-13T14:43:33+00:00",
-  "last_ecosystem_commit": "2026-09-19T19:01:05+00:00",
-  "first_commit": "2018-12-28T11:19:25",
-  "last_commit": "2026-08-19T17:47:02",
-  "p2016_authored_commits": 118.0,
-  "modern_authored_commits": 54.0,
+  "last_ecosystem_commit": "2026-10-01T23:13:46+00:00",
+  "first_commit": "2018-12-28T11:21:16",
+  "last_commit": "2026-08-19T17:47:16",
+  "p2016_authored_commits": 119.0,
+  "modern_authored_commits": 55.0,
   "co_authored_commits": 2.0,
   "bips_authored": 0.0,
   "p2016_bips_authored": 0.0,
@@ -48,50 +48,54 @@
   "avg_pr_ack_velocity_days": 9.93197337962963,
   "avg_concept_lead_time_days": 16.390671296296297,
   "review_reciprocity": 3.4358974358974357,
-  "hybrid_score": 0.1956,
-  "p2016_hybrid_score": 0.2044,
-  "modern_hybrid_score": 0.1617,
-  "impact_score": 11.0,
-  "p2016_impact_score": 12.0,
-  "modern_impact_score": 9.0,
-  "threads_started": 1.0,
-  "replies_sent": 3.0,
+  "hybrid_score": 0.4712,
+  "p2016_hybrid_score": 0.4799,
+  "modern_hybrid_score": 0.4035,
+  "impact_score": 25.0,
+  "p2016_impact_score": 25.0,
+  "modern_impact_score": 22.0,
+  "threads_started": 4.0,
+  "replies_sent": 4.0,
   "ml_threads": 1.0,
-  "delving_threads": 0.0,
+  "delving_threads": 3.0,
   "ml_responses": 3.0,
-  "delving_responses": 0.0,
-  "first_active": "2021-06-28T05:55:30",
-  "last_active": "2024-05-08T19:31:18",
-  "dev_type": "Reviewer",
+  "delving_responses": 1.0,
+  "first_active": null,
+  "last_active": "2024-10-17T23:37:44.518000",
+  "dev_type": "Builder",
   "expertise_domains": [
+    "Infrastructure",
     "Script",
-    "Consensus",
-    "Privacy"
+    "Consensus"
   ],
   "expertise_by_source": {
     "discussion": {
-      "Privacy": 0.302,
-      "Script": 0.396,
-      "Consensus": 0.302
+      "Consensus": 0.372,
+      "Script": 0.628
+    },
+    "code": {
+      "Wallet": 0.025,
+      "Infrastructure": 0.975
     }
   },
   "expertise_domain_scores": {
-    "Privacy": 0.302,
-    "Script": 0.396,
-    "Consensus": 0.302
+    "Infrastructure": 0.585,
+    "Wallet": 0.015,
+    "Consensus": 0.1488,
+    "Script": 0.2512
   },
-  "p2016_posts": 4.0,
-  "modern_posts": 1.0,
+  "p2016_posts": 8.0,
+  "modern_posts": 5.0,
   "p2016_ml_posts": 4.0,
-  "p2016_delving_posts": 0.0,
+  "p2016_delving_posts": 4.0,
   "modern_ml_posts": 1.0,
-  "modern_delving_posts": 0.0,
-  "is_engineer": false,
+  "modern_delving_posts": 4.0,
+  "is_engineer": true,
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": false,
   "global_first_active": "2018-12-16T15:51:12",
-  "global_last_active": "2026-08-19T17:47:02",
+  "global_last_active": "2026-08-19T17:47:16",
   "github_location": "Austin, TX",
   "github_company": "@spiralxyz",
   "github_bio": "Bitcoin dev\r\n",
@@ -101,26 +105,27 @@
   "activity_status": "Rising",
   "is_top_50": false,
   "github_url": "https://github.com/benthecarman",
+  "delving_url": "https://delvingbitcoin.org/u/benthecarman",
   "commit_history": {
     "2018": {
-      "Documentation": 2.0,
-      "Node & RPC": 2.0
+      "Documentation": 1.0,
+      "Node & RPC": 1.0
     },
     "2019": {
-      "Documentation": 2.0,
-      "GUI": 6.0,
-      "Node & RPC": 3.0,
-      "Tests": 5.0
+      "Documentation": 1.0,
+      "GUI": 3.0,
+      "Node & RPC": 1.5,
+      "Tests": 2.5
     },
     "2020": {
-      "Documentation": 1.0,
-      "GUI": 2.0,
-      "Node & RPC": 3.0
+      "Documentation": 0.5,
+      "GUI": 1.0,
+      "Node & RPC": 1.5
     },
     "2021": {
       "Build & CI": 7.0,
-      "Documentation": 4.0,
-      "Wallet": 2.0
+      "Documentation": 2.0,
+      "Wallet": 1.0
     },
     "2022": {
       "Build & CI": 29.0
@@ -130,12 +135,12 @@
     },
     "2025": {
       "Build & CI": 21.0,
-      "Wallet": 2.0
+      "Wallet": 1.0
     },
     "2026": {
-      "Build & CI": 18.0,
-      "Tests": 2.0,
-      "Wallet": 2.0
+      "Build & CI": 21.0,
+      "Tests": 1.0,
+      "Wallet": 1.0
     }
   },
   "first_message": {
@@ -145,10 +150,10 @@
     "link": "https://gnusha.org/pi/bitcoindev/SJ0PR10MB4719291762199CECE5798AF1A1039@SJ0PR10MB4719.namprd10.prod.outlook.com"
   },
   "last_message": {
-    "source": "mailing_list",
-    "subject": "Re: [bitcoindev] Signing a Bitcoin Transaction with Lamport\n Signatures (no changes needed)",
-    "date": "2024-05-08",
-    "link": "https://gnusha.org/pi/bitcoindev/b50b6b09-4d13-46ab-9776-f6b8a02aa2e0n@googlegroups.com"
+    "source": "delving",
+    "subject": "Re: LN Summit 2024 Notes & Summary/Commentary",
+    "date": "2024-10-17",
+    "link": "https://delvingbitcoin.org/t/ln-summit-2024-notes-summary-commentary/1198/5"
   },
   "social_history": {
     "2021": {
@@ -165,11 +170,13 @@
       "other": 2
     },
     "2024": {
-      "covenants": 1,
-      "quantum": 1,
-      "script-opcodes": 1,
+      "consensus-cleanup": 1,
+      "covenants": 3,
+      "lightning": 1,
+      "other": 7,
+      "script-opcodes": 3,
       "signatures-sighash": 1,
-      "taproot": 1
+      "taproot": 3
     }
   }
 }

@@ -1,7 +1,7 @@
 {
   "display_name": "Sebastian Kung",
   "github_login_final": "TheCharlatan",
-  "delving_username_final": null,
+  "delving_username_final": "thecharlatan",
   "uuid": "auto_sebastian_kung",
   "badges": {
     "is_maintainer": true,
@@ -18,165 +18,183 @@
     "maintainer_appointed": "2019-11-10",
     "maintainer_stepped_down": null,
     "ecosystem_contributor": true,
-    "tier2_commits": 114
+    "tier2_commits": 115
   },
   "roles": [
     "Build System Maintainer"
   ],
-  "total_commits": 652.0,
-  "authored_commits": 336.0,
+  "total_commits": 653.0,
+  "authored_commits": 337.0,
   "tier1_authored_commits": 222.0,
-  "tier2_authored_commits": 114.0,
+  "tier2_authored_commits": 115.0,
   "merge_commits": 316.0,
   "tier1_merge_commits": 316.0,
   "tier2_merge_commits": 0.0,
   "self_merges": 0.0,
-  "total_additions": 16768.0,
+  "total_additions": 16789.0,
   "total_deletions": 6326.0,
-  "first_core_commit": "2018-07-09T15:52:58+00:00",
+  "first_core_commit": "2018-07-09T15:56:27+00:00",
   "last_core_commit": "2026-09-25T11:42:28+00:00",
   "first_ecosystem_commit": "2020-01-23T05:38:59+00:00",
-  "last_ecosystem_commit": "2026-09-20T10:59:24+00:00",
-  "first_commit": "2018-07-09T15:52:58",
+  "last_ecosystem_commit": "2026-10-03T14:17:56+00:00",
+  "first_commit": "2018-07-09T15:56:27",
   "last_commit": "2026-09-25T11:42:28",
-  "p2016_authored_commits": 336.0,
-  "modern_authored_commits": 245.0,
+  "p2016_authored_commits": 337.0,
+  "modern_authored_commits": 246.0,
   "co_authored_commits": 68.0,
   "bips_authored": 0.0,
   "p2016_bips_authored": 0.0,
   "modern_bips_authored": 0.0,
   "first_bip_date": null,
   "last_bip_date": null,
-  "avg_review_latency_days": 117.12699203893169,
-  "reviews_count": 1508.0,
-  "avg_approval_latency_days": 83.99693803518404,
-  "approvals_count": 1171.0,
-  "tier1_reviews_count": 1505.0,
+  "avg_review_latency_days": 117.53304415644858,
+  "reviews_count": 1511.0,
+  "avg_approval_latency_days": 83.98672276138717,
+  "approvals_count": 1172.0,
+  "tier1_reviews_count": 1508.0,
   "tier2_reviews_count": 3.0,
-  "p2016_reviews_count": 1508.0,
-  "modern_reviews_count": 1344.0,
+  "p2016_reviews_count": 1511.0,
+  "modern_reviews_count": 1347.0,
   "first_review_date": "2018-06-19T18:26:49",
-  "last_review_date": "2026-09-25T15:32:43",
+  "last_review_date": "2026-10-02T17:09:10",
   "prs_authored": 113.0,
   "tier1_prs_authored": 113.0,
   "tier2_prs_authored": 0.0,
   "avg_pr_ack_velocity_days": 4.8100331439393935,
   "avg_concept_lead_time_days": 7.887764190821256,
-  "review_reciprocity": 13.345132743362832,
-  "hybrid_score": 1.2705,
-  "p2016_hybrid_score": 0.273,
-  "modern_hybrid_score": 0.2823,
-  "impact_score": 53.0,
-  "p2016_impact_score": 15.0,
-  "modern_impact_score": 16.0,
-  "threads_started": 4.0,
-  "replies_sent": 1.0,
+  "review_reciprocity": 13.371681415929203,
+  "hybrid_score": 1.6446,
+  "p2016_hybrid_score": 0.6471,
+  "modern_hybrid_score": 0.6558,
+  "impact_score": 63.0,
+  "p2016_impact_score": 32.0,
+  "modern_impact_score": 33.0,
+  "threads_started": 6.0,
+  "replies_sent": 2.0,
   "ml_threads": 4.0,
-  "delving_threads": 0.0,
+  "delving_threads": 2.0,
   "ml_responses": 1.0,
-  "delving_responses": 0.0,
-  "first_active": "2025-06-17T03:30:44",
-  "last_active": "2026-09-22T11:10:40",
-  "dev_type": "Reviewer",
+  "delving_responses": 1.0,
+  "first_active": "2025-03-08T22:48:27.020000",
+  "last_active": null,
+  "dev_type": "Builder",
   "expertise_domains": [
-    "Infrastructure"
+    "Infrastructure",
+    "Mempool",
+    "Consensus"
   ],
-  "expertise_by_source": {},
-  "expertise_domain_scores": {
-    "Infrastructure": 1.0
+  "expertise_by_source": {
+    "discussion": {
+      "Mempool": 1.0
+    },
+    "code": {
+      "Wallet": 0.015,
+      "Infrastructure": 0.834,
+      "Consensus": 0.117,
+      "Script": 0.011,
+      "Network": 0.016,
+      "Mempool": 0.006,
+      "Cryptography": 0.001
+    }
   },
-  "p2016_posts": 5.0,
-  "modern_posts": 5.0,
+  "expertise_domain_scores": {
+    "Infrastructure": 0.5004,
+    "Consensus": 0.0702,
+    "Mempool": 0.4036
+  },
+  "p2016_posts": 8.0,
+  "modern_posts": 8.0,
   "p2016_ml_posts": 5.0,
-  "p2016_delving_posts": 0.0,
+  "p2016_delving_posts": 3.0,
   "modern_ml_posts": 5.0,
-  "modern_delving_posts": 0.0,
-  "is_engineer": false,
+  "modern_delving_posts": 3.0,
+  "is_engineer": true,
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": false,
   "global_first_active": "2018-06-19T18:26:49",
-  "global_last_active": "2026-09-25T15:32:43",
+  "global_last_active": "2026-10-02T17:09:10",
   "github_location": null,
   "github_company": null,
   "github_bio": null,
   "github_twitter": null,
   "github_blog": null,
   "github_followers": 4.0,
-  "activity_status": "Rising",
+  "activity_status": "Active",
   "is_top_50": false,
   "github_url": "https://github.com/TheCharlatan",
+  "delving_url": "https://delvingbitcoin.org/u/thecharlatan",
   "commit_history": {
     "2018": {
-      "Build & CI": 6.0,
-      "Utilities": 2.0
+      "Build & CI": 3.0,
+      "Utilities": 1.0
     },
     "2019": {
-      "Documentation": 3.0,
-      "Utilities": 1.0
+      "Documentation": 1.5,
+      "Utilities": 0.5
     },
     "2020": {
       "Wallet": 2.0
     },
     "2022": {
-      "Consensus": 2.0
+      "Consensus": 1.0
     },
     "2023": {
-      "Build & CI": 34.16,
-      "Consensus": 21.57,
-      "Database": 29.2,
-      "Documentation": 6.5,
-      "GUI": 2.26,
-      "Mempool": 2.29,
-      "Node & RPC": 32.42,
-      "P2P Network": 5.82,
-      "Script": 0.42,
-      "Tests": 24.52,
-      "Utilities": 22.42,
-      "Wallet": 3.42
+      "Build & CI": 27.58,
+      "Consensus": 10.78,
+      "Database": 14.6,
+      "Documentation": 3.25,
+      "GUI": 1.13,
+      "Mempool": 1.14,
+      "Node & RPC": 16.21,
+      "P2P Network": 2.91,
+      "Script": 0.21,
+      "Tests": 12.26,
+      "Utilities": 11.21,
+      "Wallet": 1.71
     },
     "2024": {
-      "Build & CI": 39.63,
-      "Consensus": 21.92,
-      "Cryptography": 0.65,
-      "Documentation": 1.0,
-      "GUI": 0.25,
-      "Mempool": 1.47,
-      "Node & RPC": 30.85,
-      "P2P Network": 2.25,
-      "Script": 6.63,
-      "Tests": 19.52,
-      "Utilities": 23.58,
-      "Wallet": 0.25
+      "Build & CI": 32.82,
+      "Consensus": 10.96,
+      "Cryptography": 0.33,
+      "Documentation": 0.5,
+      "GUI": 0.12,
+      "Mempool": 0.73,
+      "Node & RPC": 15.43,
+      "P2P Network": 1.12,
+      "Script": 3.32,
+      "Tests": 9.76,
+      "Utilities": 11.79,
+      "Wallet": 0.12
     },
     "2025": {
-      "Build & CI": 37.33,
-      "Consensus": 28.73,
-      "Documentation": 2.0,
-      "GUI": 0.9,
-      "Node & RPC": 10.07,
-      "Tests": 33.57,
-      "Utilities": 8.9,
-      "Wallet": 0.5
+      "Build & CI": 35.67,
+      "Consensus": 14.37,
+      "Documentation": 1.0,
+      "GUI": 0.45,
+      "Node & RPC": 5.03,
+      "Tests": 16.78,
+      "Utilities": 4.45,
+      "Wallet": 0.25
     },
     "2026": {
-      "Build & CI": 31.67,
-      "Consensus": 4.33,
+      "Build & CI": 34.33,
+      "Consensus": 2.17,
       "Documentation": 4.0,
-      "GUI": 1.0,
-      "Merge": 518.0,
-      "Node & RPC": 5.67,
-      "P2P Network": 3.0,
-      "Tests": 17.0,
-      "Utilities": 7.33,
-      "Wallet": 2.0
+      "GUI": 0.5,
+      "Merge": 316.0,
+      "Node & RPC": 2.83,
+      "P2P Network": 1.5,
+      "Tests": 8.5,
+      "Utilities": 4.17,
+      "Wallet": 1.0
     }
   },
   "first_message": {
-    "source": "mailing_list",
-    "subject": "Re: [bitcoindev] The case for privatizing Bitcoin Core",
-    "date": "2025-06-17",
-    "link": "https://gnusha.org/pi/bitcoindev/58813483-7351-487e-8f7f-82fb18a4c808n@googlegroups.com"
+    "source": "delving",
+    "subject": "Re: Antoine Poinsot on Bitcoin Core's Priorities",
+    "date": "2025-03-08",
+    "link": "https://delvingbitcoin.org/t/antoine-poinsot-on-bitcoin-cores-priorities/1470/21"
   },
   "last_message": {
     "source": "mailing_list",
@@ -186,10 +204,12 @@
   },
   "social_history": {
     "2025": {
+      "mining": 1,
       "other": 1
     },
     "2026": {
-      "core-dev": 4
+      "core-dev": 5,
+      "mempool-fees": 1
     }
   }
 }

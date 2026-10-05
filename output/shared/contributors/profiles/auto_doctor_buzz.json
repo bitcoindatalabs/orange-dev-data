@@ -1,7 +1,7 @@
 {
-  "display_name": "Doctor Buzz",
+  "display_name": "doctor buzz",
   "github_login_final": null,
-  "delving_username_final": null,
+  "delving_username_final": "doctorbuzz1",
   "uuid": "auto_doctor_buzz",
   "badges": null,
   "roles": null,
@@ -47,18 +47,18 @@
   "review_reciprocity": null,
   "hybrid_score": 0.0052,
   "p2016_hybrid_score": 0.0077,
-  "modern_hybrid_score": 0.021,
+  "modern_hybrid_score": 0.0212,
   "impact_score": 0.0,
   "p2016_impact_score": 0.0,
   "modern_impact_score": 1.0,
-  "threads_started": 0.0,
+  "threads_started": 1.0,
   "replies_sent": 3.0,
   "ml_threads": 0.0,
-  "delving_threads": 0.0,
+  "delving_threads": 1.0,
   "ml_responses": 3.0,
   "delving_responses": 0.0,
-  "first_active": "2025-10-29T20:02:24",
-  "last_active": "2025-10-30T17:15:06",
+  "first_active": "2024-01-07T20:55:01.816000",
+  "last_active": null,
   "dev_type": "Participant",
   "expertise_domains": [
     "Mempool"
@@ -71,31 +71,32 @@
   "expertise_domain_scores": {
     "Mempool": 1.0
   },
-  "p2016_posts": 3.0,
-  "modern_posts": 3.0,
+  "p2016_posts": 4.0,
+  "modern_posts": 4.0,
   "p2016_ml_posts": 3.0,
-  "p2016_delving_posts": 0.0,
+  "p2016_delving_posts": 1.0,
   "modern_ml_posts": 3.0,
-  "modern_delving_posts": 0.0,
+  "modern_delving_posts": 1.0,
   "is_engineer": false,
   "is_reviewer": false,
   "is_researcher": true,
   "is_bip_author": false,
-  "global_first_active": "2025-10-29T20:02:24",
-  "global_last_active": "2025-10-30T17:15:06",
+  "global_first_active": "2024-01-07T20:55:01.816000",
+  "global_last_active": null,
   "github_location": null,
   "github_company": null,
   "github_bio": null,
   "github_twitter": null,
   "github_blog": null,
   "github_followers": null,
-  "activity_status": "New",
+  "activity_status": "Active",
   "is_top_50": false,
+  "delving_url": "https://delvingbitcoin.org/u/doctorbuzz1",
   "first_message": {
-    "source": "mailing_list",
-    "subject": "[bitcoindev] Re: By: Doctorbuzz1 {GitHub} Limit \"Bulk Dust\" with a\n default filter or consensus.",
-    "date": "2025-10-29",
-    "link": "https://gnusha.org/pi/bitcoindev/71b4d969-8c0d-4ff2-a177-244aa86ca57an@googlegroups.com"
+    "source": "delving",
+    "subject": "Re: [BUG]: spammers get Bitcoin blockspace at discounted price. Let's fix it",
+    "date": "2024-01-07",
+    "link": "https://delvingbitcoin.org/t/bug-spammers-get-bitcoin-blockspace-at-discounted-price-lets-fix-it/327/9"
   },
   "last_message": {
     "source": "mailing_list",
@@ -104,6 +105,14 @@
     "link": "https://gnusha.org/pi/bitcoindev/73793fc0-29d8-4b79-b7bf-048e459c928bn@googlegroups.com"
   },
   "social_history": {
+    "2024": {
+      "mining": 1,
+      "ordinals-inscriptions": 1,
+      "p2p-network": 1,
+      "segwit": 1,
+      "spam-filtering": 1,
+      "utxo-sync": 1
+    },
     "2025": {
       "other": 1,
       "spam-filtering": 1,

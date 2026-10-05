@@ -15,12 +15,12 @@
   "self_merges": 0.0,
   "total_additions": 259.0,
   "total_deletions": 475.0,
-  "first_core_commit": "2014-08-16T08:03:10+00:00",
-  "last_core_commit": "2016-10-08T19:19:45+00:00",
+  "first_core_commit": "2014-08-16T08:04:37+00:00",
+  "last_core_commit": "2016-10-08T19:21:02+00:00",
   "first_ecosystem_commit": null,
   "last_ecosystem_commit": null,
-  "first_commit": "2014-08-16T08:03:10",
-  "last_commit": "2016-10-08T19:19:45",
+  "first_commit": "2014-08-16T08:04:37",
+  "last_commit": "2016-10-08T19:21:02",
   "p2016_authored_commits": 2.0,
   "modern_authored_commits": 0.0,
   "co_authored_commits": 0.0,
@@ -45,11 +45,11 @@
   "avg_pr_ack_velocity_days": 4.010990547839506,
   "avg_concept_lead_time_days": 0.006423611111111111,
   "review_reciprocity": 0.6470588235294118,
-  "hybrid_score": 0.129,
-  "p2016_hybrid_score": 0.1069,
+  "hybrid_score": 0.2957,
+  "p2016_hybrid_score": 0.1702,
   "modern_hybrid_score": 0.0812,
-  "impact_score": 7.0,
-  "p2016_impact_score": 6.0,
+  "impact_score": 16.0,
+  "p2016_impact_score": 10.0,
   "modern_impact_score": 5.0,
   "threads_started": 1.0,
   "replies_sent": 11.0,
@@ -57,19 +57,24 @@
   "delving_threads": 0.0,
   "ml_responses": 11.0,
   "delving_responses": 0.0,
-  "first_active": "2015-05-11T16:00:51",
-  "last_active": "2018-09-21T17:39:46",
-  "dev_type": "Reviewer",
+  "first_active": null,
+  "last_active": null,
+  "dev_type": "Builder",
   "expertise_domains": [
+    "Infrastructure",
     "Consensus"
   ],
   "expertise_by_source": {
     "discussion": {
       "Consensus": 1.0
+    },
+    "code": {
+      "Infrastructure": 1.0
     }
   },
   "expertise_domain_scores": {
-    "Consensus": 1.0
+    "Infrastructure": 0.6,
+    "Consensus": 0.4
   },
   "p2016_posts": 3.0,
   "modern_posts": 0.0,
@@ -77,12 +82,12 @@
   "p2016_delving_posts": 0.0,
   "modern_ml_posts": 0.0,
   "modern_delving_posts": 0.0,
-  "is_engineer": false,
+  "is_engineer": true,
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": false,
-  "global_first_active": "2014-08-16T08:03:10",
-  "global_last_active": "2018-09-21T17:39:46",
+  "global_first_active": "2014-08-16T08:04:37",
+  "global_last_active": "2016-10-08T19:21:02",
   "github_location": "https://webchat.freenode.net/?channels=opentransactions&uio=d4",
   "github_company": null,
   "github_bio": null,
@@ -94,19 +99,19 @@
   "github_url": "https://github.com/randy-waterhouse",
   "commit_history": {
     "2014": {
-      "Build & CI": 10.0,
-      "Documentation": 2.0,
-      "Tests": 1.0,
-      "Utilities": 6.0
+      "Build & CI": 6.0,
+      "Documentation": 1.0,
+      "Tests": 0.5,
+      "Utilities": 3.5
     },
     "2015": {
-      "Build & CI": 5.0,
-      "Utilities": 3.0
+      "Build & CI": 2.5,
+      "Utilities": 1.5
     },
     "2016": {
-      "Build & CI": 2.0,
-      "Documentation": 1.0,
-      "Utilities": 1.0
+      "Build & CI": 1.0,
+      "Documentation": 0.5,
+      "Utilities": 0.5
     }
   },
   "first_message": {

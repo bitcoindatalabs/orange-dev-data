@@ -1,7 +1,7 @@
 {
-  "display_name": "Nikita Karetnikov",
+  "display_name": "nikita karetnikov",
   "github_login_final": "nkaretnikov",
-  "delving_username_final": null,
+  "delving_username_final": "nkaretnikov",
   "uuid": "auto_nikita_karetnikov",
   "badges": null,
   "roles": null,
@@ -45,46 +45,49 @@
   "avg_pr_ack_velocity_days": null,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": 1.0,
-  "hybrid_score": 0.0748,
-  "p2016_hybrid_score": 0.0824,
-  "modern_hybrid_score": 0.1268,
+  "hybrid_score": 0.0746,
+  "p2016_hybrid_score": 0.0821,
+  "modern_hybrid_score": 0.1246,
   "impact_score": 4.0,
   "p2016_impact_score": 5.0,
   "modern_impact_score": 7.0,
-  "threads_started": 2.0,
+  "threads_started": 12.0,
   "replies_sent": 2.0,
   "ml_threads": 2.0,
-  "delving_threads": 0.0,
+  "delving_threads": 10.0,
   "ml_responses": 2.0,
   "delving_responses": 0.0,
-  "first_active": "2026-05-07T11:07:20",
-  "last_active": "2026-06-20T16:03:11",
+  "first_active": null,
+  "last_active": "2026-07-11T20:56:01.360000",
   "dev_type": "Participant",
   "expertise_domains": [
+    "Privacy",
     "Cryptography",
-    "Privacy"
+    "Ecosystem"
   ],
   "expertise_by_source": {
     "discussion": {
-      "Privacy": 0.333,
-      "Cryptography": 0.667
+      "Privacy": 0.49,
+      "Ecosystem": 0.204,
+      "Cryptography": 0.306
     }
   },
   "expertise_domain_scores": {
-    "Privacy": 0.333,
-    "Cryptography": 0.667
+    "Privacy": 0.49,
+    "Ecosystem": 0.204,
+    "Cryptography": 0.306
   },
-  "p2016_posts": 4.0,
-  "modern_posts": 4.0,
+  "p2016_posts": 14.0,
+  "modern_posts": 14.0,
   "p2016_ml_posts": 4.0,
-  "p2016_delving_posts": 0.0,
+  "p2016_delving_posts": 10.0,
   "modern_ml_posts": 4.0,
-  "modern_delving_posts": 0.0,
+  "modern_delving_posts": 10.0,
   "is_engineer": false,
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": false,
-  "global_first_active": "2026-05-07T11:07:20",
+  "global_first_active": "2026-05-25T00:16:04",
   "global_last_active": "2026-08-23T22:20:53",
   "github_location": null,
   "github_company": null,
@@ -95,6 +98,7 @@
   "activity_status": "New",
   "is_top_50": false,
   "github_url": "https://github.com/nkaretnikov",
+  "delving_url": "https://delvingbitcoin.org/u/nkaretnikov",
   "first_message": {
     "source": "mailing_list",
     "subject": "Re: [bitcoindev] What if we let Quantum Hunters get Bitcoin rewards ?",
@@ -102,19 +106,22 @@
     "link": "https://gnusha.org/pi/bitcoindev/98AC7FB3-8EE6-43AE-99C3-4661C7E50D4D@karetnikov.org"
   },
   "last_message": {
-    "source": "mailing_list",
-    "subject": "[bitcoindev] State of the transaction privacy work in Bitcoin",
-    "date": "2026-06-20",
-    "link": "https://gnusha.org/pi/bitcoindev/925231ea-b59f-4bab-baaa-f57129f066d7n@googlegroups.com"
+    "source": "delving",
+    "subject": "Re: State of the transaction privacy work in Bitcoin",
+    "date": "2026-07-11",
+    "link": "https://delvingbitcoin.org/t/state-of-the-transaction-privacy-work-in-bitcoin/2622/29"
   },
   "social_history": {
     "2026": {
       "bitvm": 1,
-      "mining": 1,
-      "other": 1,
-      "payment-protocol": 1,
-      "privacy": 1,
-      "quantum": 2
+      "other": 4,
+      "nostr": 7,
+      "privacy": 8,
+      "quantum": 5,
+      "sidechains-drivechain": 7,
+      "silent-payments": 7,
+      "taproot": 7,
+      "tokens-runes": 7
     }
   }
 }

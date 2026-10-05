@@ -1,5 +1,5 @@
 {
-  "display_name": "Murad Ali",
+  "display_name": "murad ali",
   "github_login_final": null,
   "delving_username_final": null,
   "uuid": "auto_murad_ali",
@@ -47,7 +47,7 @@
   "review_reciprocity": null,
   "hybrid_score": 0.0052,
   "p2016_hybrid_score": 0.0077,
-  "modern_hybrid_score": 0.021,
+  "modern_hybrid_score": 0.0212,
   "impact_score": 0.0,
   "p2016_impact_score": 0.0,
   "modern_impact_score": 1.0,
@@ -57,8 +57,8 @@
   "delving_threads": 0.0,
   "ml_responses": 1.0,
   "delving_responses": 0.0,
-  "first_active": "2024-07-20T16:39:58",
-  "last_active": "2024-07-20T16:39:58",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Participant",
   "expertise_domains": [
     "Consensus",
@@ -66,13 +66,13 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Ecosystem": 0.33,
-      "Consensus": 0.67
+      "Consensus": 0.67,
+      "Ecosystem": 0.33
     }
   },
   "expertise_domain_scores": {
-    "Ecosystem": 0.33,
-    "Consensus": 0.67
+    "Consensus": 0.67,
+    "Ecosystem": 0.33
   },
   "p2016_posts": 1.0,
   "modern_posts": 1.0,
@@ -84,8 +84,8 @@
   "is_reviewer": false,
   "is_researcher": true,
   "is_bip_author": false,
-  "global_first_active": "2024-07-20T16:39:58",
-  "global_last_active": "2024-07-20T16:39:58",
+  "global_first_active": null,
+  "global_last_active": null,
   "github_location": null,
   "github_company": null,
   "github_bio": null,

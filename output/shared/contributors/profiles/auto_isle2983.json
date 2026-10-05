@@ -15,12 +15,12 @@
   "self_merges": 0.0,
   "total_additions": 1044.0,
   "total_deletions": 377.0,
-  "first_core_commit": "2016-08-30T06:05:40+00:00",
-  "last_core_commit": "2017-01-04T11:08:55+00:00",
+  "first_core_commit": "2016-08-30T06:06:42+00:00",
+  "last_core_commit": "2017-01-04T11:09:50+00:00",
   "first_ecosystem_commit": null,
   "last_ecosystem_commit": null,
-  "first_commit": "2016-08-30T06:05:40",
-  "last_commit": "2017-01-04T11:08:55",
+  "first_commit": "2016-08-30T06:06:42",
+  "last_commit": "2017-01-04T11:09:50",
   "p2016_authored_commits": 8.0,
   "modern_authored_commits": 0.0,
   "co_authored_commits": 3.0,
@@ -45,11 +45,11 @@
   "avg_pr_ack_velocity_days": 2.0762047558922556,
   "avg_concept_lead_time_days": 2.2474266975308645,
   "review_reciprocity": 0.5333333333333333,
-  "hybrid_score": 0.1011,
-  "p2016_hybrid_score": 0.1011,
+  "hybrid_score": 0.2276,
+  "p2016_hybrid_score": 0.2276,
   "modern_hybrid_score": 0.0772,
-  "impact_score": 6.0,
-  "p2016_impact_score": 6.0,
+  "impact_score": 13.0,
+  "p2016_impact_score": 13.0,
   "modern_impact_score": 5.0,
   "threads_started": 0.0,
   "replies_sent": 0.0,
@@ -59,13 +59,26 @@
   "delving_responses": 0.0,
   "first_active": null,
   "last_active": null,
-  "dev_type": "Participant",
+  "dev_type": "Builder",
   "expertise_domains": [
-    "Infrastructure"
+    "Infrastructure",
+    "Mempool",
+    "Consensus"
   ],
-  "expertise_by_source": {},
+  "expertise_by_source": {
+    "code": {
+      "Wallet": 0.01,
+      "Infrastructure": 0.915,
+      "Consensus": 0.01,
+      "Script": 0.01,
+      "Network": 0.01,
+      "Mempool": 0.035,
+      "Cryptography": 0.01
+    }
+  },
   "expertise_domain_scores": {
-    "Infrastructure": 1.0
+    "Infrastructure": 0.915,
+    "Mempool": 0.035
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,
@@ -73,7 +86,7 @@
   "p2016_delving_posts": 0.0,
   "modern_ml_posts": 0.0,
   "modern_delving_posts": 0.0,
-  "is_engineer": false,
+  "is_engineer": true,
   "is_reviewer": true,
   "is_researcher": false,
   "is_bip_author": false,
@@ -90,26 +103,26 @@
   "github_url": "https://github.com/isle2983",
   "commit_history": {
     "2016": {
-      "Build & CI": 1.4,
-      "Documentation": 3.0,
-      "GUI": 1.4,
-      "Mempool": 0.4,
-      "Tests": 0.4,
-      "Utilities": 7.4
+      "Build & CI": 0.7,
+      "Documentation": 1.5,
+      "GUI": 0.7,
+      "Mempool": 0.2,
+      "Tests": 0.2,
+      "Utilities": 3.7
     },
     "2017": {
-      "Build & CI": 0.17,
-      "Consensus": 0.17,
-      "Cryptography": 0.17,
-      "Database": 0.17,
-      "GUI": 0.17,
-      "Mempool": 0.17,
-      "Node & RPC": 0.17,
-      "P2P Network": 0.17,
-      "Script": 0.17,
-      "Tests": 0.17,
-      "Utilities": 0.17,
-      "Wallet": 0.17
+      "Build & CI": 0.08,
+      "Consensus": 0.08,
+      "Cryptography": 0.08,
+      "Database": 0.08,
+      "GUI": 0.08,
+      "Mempool": 0.08,
+      "Node & RPC": 0.08,
+      "P2P Network": 0.08,
+      "Script": 0.08,
+      "Tests": 0.08,
+      "Utilities": 0.08,
+      "Wallet": 0.08
     }
   }
 }

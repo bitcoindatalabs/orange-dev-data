@@ -1,7 +1,7 @@
 {
   "display_name": "john light",
   "github_login_final": null,
-  "delving_username_final": null,
+  "delving_username_final": "light",
   "uuid": "auto_john_light_1",
   "badges": null,
   "roles": null,
@@ -45,47 +45,50 @@
   "avg_pr_ack_velocity_days": null,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": null,
-  "hybrid_score": 0.0263,
-  "p2016_hybrid_score": 0.0451,
-  "modern_hybrid_score": 0.1165,
-  "impact_score": 2.0,
+  "hybrid_score": 0.0251,
+  "p2016_hybrid_score": 0.0428,
+  "modern_hybrid_score": 0.1041,
+  "impact_score": 1.0,
   "p2016_impact_score": 3.0,
-  "modern_impact_score": 7.0,
-  "threads_started": 3.0,
-  "replies_sent": 7.0,
+  "modern_impact_score": 6.0,
+  "threads_started": 9.0,
+  "replies_sent": 11.0,
   "ml_threads": 3.0,
-  "delving_threads": 0.0,
+  "delving_threads": 6.0,
   "ml_responses": 7.0,
-  "delving_responses": 0.0,
-  "first_active": "2022-10-11T10:40:52",
-  "last_active": "2026-05-05T15:07:15",
+  "delving_responses": 4.0,
+  "first_active": null,
+  "last_active": "2026-09-30T11:07:10.761000",
   "dev_type": "Participant",
   "expertise_domains": [
     "Script",
-    "Cryptography"
+    "Wallet",
+    "Mining"
   ],
   "expertise_by_source": {
     "discussion": {
-      "Script": 0.606,
-      "Cryptography": 0.394
+      "Mining": 0.222,
+      "Wallet": 0.25,
+      "Script": 0.528
     }
   },
   "expertise_domain_scores": {
-    "Script": 0.606,
-    "Cryptography": 0.394
+    "Mining": 0.222,
+    "Wallet": 0.25,
+    "Script": 0.528
   },
-  "p2016_posts": 10.0,
-  "modern_posts": 7.0,
+  "p2016_posts": 20.0,
+  "modern_posts": 17.0,
   "p2016_ml_posts": 10.0,
-  "p2016_delving_posts": 0.0,
+  "p2016_delving_posts": 10.0,
   "modern_ml_posts": 7.0,
-  "modern_delving_posts": 0.0,
+  "modern_delving_posts": 10.0,
   "is_engineer": false,
   "is_reviewer": false,
   "is_researcher": true,
   "is_bip_author": false,
-  "global_first_active": "2022-10-11T10:40:52",
-  "global_last_active": "2026-05-05T15:07:15",
+  "global_first_active": null,
+  "global_last_active": "2026-09-30T11:07:10.761000",
   "github_location": null,
   "github_company": null,
   "github_bio": null,
@@ -94,6 +97,7 @@
   "github_followers": null,
   "activity_status": "Active",
   "is_top_50": false,
+  "delving_url": "https://delvingbitcoin.org/u/light",
   "first_message": {
     "source": "mailing_list",
     "subject": "[bitcoin-dev] Validity Rollups on Bitcoin",
@@ -101,10 +105,10 @@
     "link": "https://gnusha.org/pi/bitcoindev/689ed481-e7eb-4fea-8ca7-578503f3f285@app.fastmail.com"
   },
   "last_message": {
-    "source": "mailing_list",
-    "subject": "Re: [bitcoindev] Re: The Bitcoin Lost and Found",
-    "date": "2026-05-05",
-    "link": "https://gnusha.org/pi/bitcoindev/66cf83b4-c304-4a77-802b-96873b17ec6f@app.fastmail.com"
+    "source": "delving",
+    "subject": "Re: A simple backup scheme for wallet accounts",
+    "date": "2026-09-30",
+    "link": "https://delvingbitcoin.org/t/a-simple-backup-scheme-for-wallet-accounts/1607/37"
   },
   "social_history": {
     "2022": {
@@ -116,17 +120,28 @@
     "2023": {
       "script-opcodes": 1
     },
+    "2024": {
+      "covenants": 1,
+      "multisig-threshold": 1
+    },
     "2025": {
-      "mining": 1,
+      "bitvm": 1,
+      "covenants": 5,
+      "other": 5,
+      "lightning": 2,
+      "mining": 3,
+      "multisig-threshold": 5,
       "script-opcodes": 1,
       "soft-fork-activation": 1
     },
     "2026": {
+      "bitvm": 1,
       "covenants": 1,
-      "other": 3,
-      "quantum": 2,
+      "mining": 1,
+      "multisig-threshold": 1,
+      "other": 16,
       "script-opcodes": 1,
-      "soft-fork-activation": 1
+      "soft-fork-activation": 2
     }
   }
 }

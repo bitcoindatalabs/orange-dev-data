@@ -45,10 +45,10 @@
   "avg_pr_ack_velocity_days": 0.0007523148148148148,
   "avg_concept_lead_time_days": 0.0007523148148148148,
   "review_reciprocity": 0.0,
-  "hybrid_score": 0.0379,
+  "hybrid_score": 0.1305,
   "p2016_hybrid_score": 0.0146,
   "modern_hybrid_score": 0.0146,
-  "impact_score": 2.0,
+  "impact_score": 8.0,
   "p2016_impact_score": 1.0,
   "modern_impact_score": 1.0,
   "threads_started": 3.0,
@@ -57,10 +57,11 @@
   "delving_threads": 0.0,
   "ml_responses": 11.0,
   "delving_responses": 0.0,
-  "first_active": "2011-11-15T21:11:55",
-  "last_active": "2012-11-28T07:55:22",
-  "dev_type": "Participant",
+  "first_active": null,
+  "last_active": null,
+  "dev_type": "Builder",
   "expertise_domains": [
+    "Infrastructure",
     "Ecosystem",
     "Network"
   ],
@@ -68,11 +69,15 @@
     "discussion": {
       "Ecosystem": 0.941,
       "Network": 0.059
+    },
+    "code": {
+      "Infrastructure": 1.0
     }
   },
   "expertise_domain_scores": {
-    "Ecosystem": 0.941,
-    "Network": 0.059
+    "Infrastructure": 0.6,
+    "Ecosystem": 0.3764,
+    "Network": 0.0236
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,
@@ -80,12 +85,12 @@
   "p2016_delving_posts": 0.0,
   "modern_ml_posts": 0.0,
   "modern_delving_posts": 0.0,
-  "is_engineer": false,
+  "is_engineer": true,
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": false,
   "global_first_active": "2011-10-09T17:27:34",
-  "global_last_active": "2012-11-28T07:55:22",
+  "global_last_active": "2011-10-09T17:27:34",
   "github_location": null,
   "github_company": null,
   "github_bio": null,
@@ -97,7 +102,7 @@
   "github_url": "https://github.com/globalcitizen",
   "commit_history": {
     "2011": {
-      "Documentation": 8.0
+      "Documentation": 4.0
     }
   },
   "first_message": {

@@ -1,31 +1,31 @@
 {
   "display_name": "Max Edwards",
   "github_login_final": "m3dwards",
-  "delving_username_final": null,
+  "delving_username_final": "m3dwards",
   "uuid": "auto_max_edwards",
   "badges": {
     "ecosystem_contributor": true,
-    "tier2_commits": 74
+    "tier2_commits": 75
   },
   "roles": null,
-  "total_commits": 105.0,
-  "authored_commits": 105.0,
+  "total_commits": 106.0,
+  "authored_commits": 106.0,
   "tier1_authored_commits": 31.0,
-  "tier2_authored_commits": 74.0,
+  "tier2_authored_commits": 75.0,
   "merge_commits": 0.0,
   "tier1_merge_commits": 0.0,
   "tier2_merge_commits": 0.0,
   "self_merges": 0.0,
-  "total_additions": 2889.0,
+  "total_additions": 2910.0,
   "total_deletions": 275.0,
-  "first_core_commit": "2024-02-21T14:43:37+00:00",
-  "last_core_commit": "2026-06-17T15:12:53+00:00",
+  "first_core_commit": "2024-02-21T14:52:53+00:00",
+  "last_core_commit": "2026-06-17T15:13:00+00:00",
   "first_ecosystem_commit": "2024-02-02T13:31:22+00:00",
-  "last_ecosystem_commit": "2026-09-24T14:43:31+00:00",
-  "first_commit": "2024-02-21T14:43:37",
-  "last_commit": "2026-06-17T15:12:53",
-  "p2016_authored_commits": 105.0,
-  "modern_authored_commits": 105.0,
+  "last_ecosystem_commit": "2026-10-02T12:40:20+00:00",
+  "first_commit": "2024-02-21T14:52:53",
+  "last_commit": "2026-06-17T15:13:00",
+  "p2016_authored_commits": 106.0,
+  "modern_authored_commits": 106.0,
   "co_authored_commits": 30.0,
   "bips_authored": 0.0,
   "p2016_bips_authored": 0.0,
@@ -48,35 +48,46 @@
   "avg_pr_ack_velocity_days": 3.7185510361552025,
   "avg_concept_lead_time_days": 7.2140290637860085,
   "review_reciprocity": 2.4166666666666665,
-  "hybrid_score": 0.1537,
-  "p2016_hybrid_score": 0.1537,
-  "modern_hybrid_score": 0.1537,
-  "impact_score": 9.0,
-  "p2016_impact_score": 9.0,
-  "modern_impact_score": 9.0,
-  "threads_started": 0.0,
-  "replies_sent": 0.0,
+  "hybrid_score": 0.4229,
+  "p2016_hybrid_score": 0.4229,
+  "modern_hybrid_score": 0.4229,
+  "impact_score": 22.0,
+  "p2016_impact_score": 22.0,
+  "modern_impact_score": 22.0,
+  "threads_started": 5.0,
+  "replies_sent": 4.0,
   "ml_threads": 0.0,
-  "delving_threads": 0.0,
+  "delving_threads": 5.0,
   "ml_responses": 0.0,
-  "delving_responses": 0.0,
-  "first_active": null,
-  "last_active": null,
-  "dev_type": "Reviewer",
+  "delving_responses": 4.0,
+  "first_active": "2023-12-21T11:23:16.812000",
+  "last_active": "2026-05-14T14:58:38.935000",
+  "dev_type": "Builder",
   "expertise_domains": [
-    "Infrastructure"
+    "Infrastructure",
+    "Mining",
+    "Network"
   ],
-  "expertise_by_source": {},
-  "expertise_domain_scores": {
-    "Infrastructure": 1.0
+  "expertise_by_source": {
+    "discussion": {
+      "Mining": 1.0
+    },
+    "code": {
+      "Infrastructure": 0.99,
+      "Network": 0.01
+    }
   },
-  "p2016_posts": 0.0,
-  "modern_posts": 0.0,
+  "expertise_domain_scores": {
+    "Mining": 0.4,
+    "Infrastructure": 0.594
+  },
+  "p2016_posts": 9.0,
+  "modern_posts": 9.0,
   "p2016_ml_posts": 0.0,
-  "p2016_delving_posts": 0.0,
+  "p2016_delving_posts": 9.0,
   "modern_ml_posts": 0.0,
-  "modern_delving_posts": 0.0,
-  "is_engineer": false,
+  "modern_delving_posts": 9.0,
+  "is_engineer": true,
   "is_reviewer": true,
   "is_researcher": false,
   "is_bip_author": false,
@@ -91,22 +102,50 @@
   "activity_status": "Active",
   "is_top_50": false,
   "github_url": "https://github.com/m3dwards",
+  "delving_url": "https://delvingbitcoin.org/u/m3dwards",
   "commit_history": {
     "2024": {
-      "Build & CI": 31.67,
-      "P2P Network": 2.0,
-      "Tests": 17.67,
-      "Utilities": 0.67
+      "Build & CI": 24.83,
+      "P2P Network": 1.0,
+      "Tests": 8.83,
+      "Utilities": 0.33
     },
     "2025": {
-      "Build & CI": 44.0,
-      "Documentation": 2.0,
-      "Tests": 10.0
+      "Build & CI": 39.0,
+      "Documentation": 1.0,
+      "Tests": 5.0
     },
     "2026": {
-      "Build & CI": 22.0,
-      "Documentation": 2.0,
-      "Tests": 2.0
+      "Build & CI": 23.0,
+      "Documentation": 1.0,
+      "Tests": 1.0
+    }
+  },
+  "first_message": {
+    "source": "delving",
+    "subject": "Re: Warnet + Increase Tx Relay Rate",
+    "date": "2023-12-21",
+    "link": "https://delvingbitcoin.org/t/warnet-increase-tx-relay-rate/294/4"
+  },
+  "last_message": {
+    "source": "delving",
+    "subject": "Re: TCP hole punching for Bitcoin nodes behind home NATs?",
+    "date": "2026-05-14",
+    "link": "https://delvingbitcoin.org/t/tcp-hole-punching-for-bitcoin-nodes-behind-home-nats/2497/13"
+  },
+  "social_history": {
+    "2023": {
+      "mining": 1
+    },
+    "2024": {
+      "mining": 4
+    },
+    "2026": {
+      "consensus-cleanup": 3,
+      "core-dev": 4,
+      "mempool-fees": 3,
+      "testing-devtools": 3,
+      "utxo-sync": 3
     }
   }
 }

@@ -1,5 +1,5 @@
 {
-  "display_name": "Damian Mee",
+  "display_name": "damian mee",
   "github_login_final": "meeDamian",
   "delving_username_final": null,
   "uuid": "auto_damian_mee",
@@ -15,12 +15,12 @@
   "self_merges": 0.0,
   "total_additions": 2.0,
   "total_deletions": 2.0,
-  "first_core_commit": "2018-10-08T02:12:09+00:00",
-  "last_core_commit": "2020-05-12T08:22:06+00:00",
+  "first_core_commit": "2018-10-08T02:15:25+00:00",
+  "last_core_commit": "2020-05-12T08:42:48+00:00",
   "first_ecosystem_commit": null,
   "last_ecosystem_commit": null,
-  "first_commit": "2018-10-08T02:12:09",
-  "last_commit": "2020-05-12T08:22:06",
+  "first_commit": "2018-10-08T02:15:25",
+  "last_commit": "2020-05-12T08:42:48",
   "p2016_authored_commits": 2.0,
   "modern_authored_commits": 0.0,
   "co_authored_commits": 0.0,
@@ -45,11 +45,11 @@
   "avg_pr_ack_velocity_days": 0.10931134259259259,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": 0.5,
-  "hybrid_score": 0.0448,
-  "p2016_hybrid_score": 0.0473,
+  "hybrid_score": 0.1082,
+  "p2016_hybrid_score": 0.1107,
   "modern_hybrid_score": 0.025,
-  "impact_score": 3.0,
-  "p2016_impact_score": 3.0,
+  "impact_score": 6.0,
+  "p2016_impact_score": 6.0,
   "modern_impact_score": 1.0,
   "threads_started": 0.0,
   "replies_sent": 1.0,
@@ -57,19 +57,24 @@
   "delving_threads": 0.0,
   "ml_responses": 1.0,
   "delving_responses": 0.0,
-  "first_active": "2019-11-08T07:42:13",
-  "last_active": "2019-11-08T07:42:13",
-  "dev_type": "Participant",
+  "first_active": null,
+  "last_active": null,
+  "dev_type": "Builder",
   "expertise_domains": [
+    "Infrastructure",
     "Consensus"
   ],
   "expertise_by_source": {
     "discussion": {
       "Consensus": 1.0
+    },
+    "code": {
+      "Infrastructure": 1.0
     }
   },
   "expertise_domain_scores": {
-    "Consensus": 1.0
+    "Infrastructure": 0.6,
+    "Consensus": 0.4
   },
   "p2016_posts": 1.0,
   "modern_posts": 0.0,
@@ -77,12 +82,12 @@
   "p2016_delving_posts": 0.0,
   "modern_ml_posts": 0.0,
   "modern_delving_posts": 0.0,
-  "is_engineer": false,
+  "is_engineer": true,
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": false,
-  "global_first_active": "2018-10-08T02:12:09",
-  "global_last_active": "2020-05-12T08:22:06",
+  "global_first_active": "2018-10-08T02:15:25",
+  "global_last_active": "2020-05-12T08:42:48",
   "github_location": "::1",
   "github_company": "@lncm ",
   "github_bio": "Node.js, Go & Android contractor in the Bitcoin space.",
@@ -94,10 +99,10 @@
   "github_url": "https://github.com/meeDamian",
   "commit_history": {
     "2018": {
-      "Documentation": 2.0
+      "Documentation": 1.0
     },
     "2020": {
-      "Documentation": 2.0
+      "Documentation": 1.0
     }
   },
   "first_message": {

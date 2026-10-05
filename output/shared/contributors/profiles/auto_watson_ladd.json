@@ -1,5 +1,5 @@
 {
-  "display_name": "Watson Ladd",
+  "display_name": "watson ladd",
   "github_login_final": null,
   "delving_username_final": null,
   "uuid": "auto_watson_ladd",
@@ -45,8 +45,8 @@
   "avg_pr_ack_velocity_days": null,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": null,
-  "hybrid_score": 0.0192,
-  "p2016_hybrid_score": 0.012,
+  "hybrid_score": 0.019,
+  "p2016_hybrid_score": 0.0119,
   "modern_hybrid_score": 0.0,
   "impact_score": 1.0,
   "p2016_impact_score": 1.0,
@@ -57,8 +57,8 @@
   "delving_threads": 0.0,
   "ml_responses": 10.0,
   "delving_responses": 0.0,
-  "first_active": "2012-03-02T13:57:27",
-  "last_active": "2017-02-25T14:42:56",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Participant",
   "expertise_domains": [
     "Script",
@@ -66,13 +66,13 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Script": 0.676,
-      "Wallet": 0.324
+      "Wallet": 0.324,
+      "Script": 0.676
     }
   },
   "expertise_domain_scores": {
-    "Script": 0.676,
-    "Wallet": 0.324
+    "Wallet": 0.324,
+    "Script": 0.676
   },
   "p2016_posts": 3.0,
   "modern_posts": 0.0,
@@ -84,8 +84,8 @@
   "is_reviewer": false,
   "is_researcher": true,
   "is_bip_author": false,
-  "global_first_active": "2012-03-02T13:57:27",
-  "global_last_active": "2017-02-25T14:42:56",
+  "global_first_active": null,
+  "global_last_active": null,
   "github_location": null,
   "github_company": null,
   "github_bio": null,

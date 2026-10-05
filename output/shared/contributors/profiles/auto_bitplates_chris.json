@@ -1,5 +1,5 @@
 {
-  "display_name": "BitPLATES® (Chris)",
+  "display_name": "bitplates® (chris)",
   "github_login_final": null,
   "delving_username_final": null,
   "uuid": "auto_bitplates_chris",
@@ -46,7 +46,7 @@
   "avg_concept_lead_time_days": null,
   "review_reciprocity": null,
   "hybrid_score": 0.0217,
-  "p2016_hybrid_score": 0.0338,
+  "p2016_hybrid_score": 0.0337,
   "modern_hybrid_score": 0.0,
   "impact_score": 1.0,
   "p2016_impact_score": 2.0,
@@ -57,8 +57,8 @@
   "delving_threads": 0.0,
   "ml_responses": 4.0,
   "delving_responses": 0.0,
-  "first_active": "2021-05-08T10:21:51",
-  "last_active": "2021-05-11T12:45:13",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Participant",
   "expertise_domains": [
     "Wallet",
@@ -67,14 +67,14 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Mempool": 0.08,
       "Wallet": 0.75,
+      "Mempool": 0.08,
       "Cryptography": 0.17
     }
   },
   "expertise_domain_scores": {
-    "Mempool": 0.08,
     "Wallet": 0.75,
+    "Mempool": 0.08,
     "Cryptography": 0.17
   },
   "p2016_posts": 5.0,
@@ -87,8 +87,8 @@
   "is_reviewer": false,
   "is_researcher": true,
   "is_bip_author": false,
-  "global_first_active": "2021-05-08T10:21:51",
-  "global_last_active": "2021-05-11T12:45:13",
+  "global_first_active": null,
+  "global_last_active": null,
   "github_location": null,
   "github_company": null,
   "github_bio": null,

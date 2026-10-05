@@ -15,12 +15,12 @@
   "self_merges": 0.0,
   "total_additions": 324.0,
   "total_deletions": 73.0,
-  "first_core_commit": "2025-07-15T10:47:11+00:00",
-  "last_core_commit": "2026-08-11T20:18:13+00:00",
+  "first_core_commit": "2025-07-15T10:47:16+00:00",
+  "last_core_commit": "2026-08-11T20:18:26+00:00",
   "first_ecosystem_commit": null,
   "last_ecosystem_commit": null,
-  "first_commit": "2025-07-15T10:47:11",
-  "last_commit": "2026-08-11T20:18:13",
+  "first_commit": "2025-07-15T10:47:16",
+  "last_commit": "2026-08-11T20:18:26",
   "p2016_authored_commits": 9.0,
   "modern_authored_commits": 9.0,
   "co_authored_commits": 14.0,
@@ -45,12 +45,12 @@
   "avg_pr_ack_velocity_days": 0.5607705026455027,
   "avg_concept_lead_time_days": 1.727830687830688,
   "review_reciprocity": 3.25,
-  "hybrid_score": 0.1239,
-  "p2016_hybrid_score": 0.1239,
-  "modern_hybrid_score": 0.1239,
-  "impact_score": 7.0,
-  "p2016_impact_score": 7.0,
-  "modern_impact_score": 7.0,
+  "hybrid_score": 0.2567,
+  "p2016_hybrid_score": 0.2567,
+  "modern_hybrid_score": 0.2567,
+  "impact_score": 14.0,
+  "p2016_impact_score": 14.0,
+  "modern_impact_score": 14.0,
   "threads_started": 0.0,
   "replies_sent": 0.0,
   "ml_threads": 0.0,
@@ -59,13 +59,23 @@
   "delving_responses": 0.0,
   "first_active": null,
   "last_active": null,
-  "dev_type": "Reviewer",
+  "dev_type": "Builder",
   "expertise_domains": [
-    "Infrastructure"
+    "Infrastructure",
+    "Consensus",
+    "Network"
   ],
-  "expertise_by_source": {},
+  "expertise_by_source": {
+    "code": {
+      "Infrastructure": 0.611,
+      "Consensus": 0.278,
+      "Network": 0.111
+    }
+  },
   "expertise_domain_scores": {
-    "Infrastructure": 1.0
+    "Infrastructure": 0.611,
+    "Consensus": 0.278,
+    "Network": 0.111
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,
@@ -73,12 +83,12 @@
   "p2016_delving_posts": 0.0,
   "modern_ml_posts": 0.0,
   "modern_delving_posts": 0.0,
-  "is_engineer": false,
+  "is_engineer": true,
   "is_reviewer": true,
   "is_researcher": false,
   "is_bip_author": false,
   "global_first_active": "2025-03-08T18:37:40",
-  "global_last_active": "2026-08-11T20:18:13",
+  "global_last_active": "2026-08-11T20:18:26",
   "github_location": null,
   "github_company": null,
   "github_bio": "Exploring Bitcoin Core | PGP: 2F141C4C650FEF2A",
@@ -90,14 +100,14 @@
   "github_url": "https://github.com/stringintech",
   "commit_history": {
     "2025": {
-      "Tests": 2.0
+      "Tests": 1.0
     },
     "2026": {
-      "Consensus": 5.0,
-      "Node & RPC": 1.0,
-      "P2P Network": 2.0,
-      "Tests": 6.0,
-      "Utilities": 2.0
+      "Consensus": 2.5,
+      "Node & RPC": 0.5,
+      "P2P Network": 1.0,
+      "Tests": 3.0,
+      "Utilities": 1.0
     }
   }
 }

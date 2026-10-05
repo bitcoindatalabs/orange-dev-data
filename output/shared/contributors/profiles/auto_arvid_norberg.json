@@ -1,5 +1,5 @@
 {
-  "display_name": "Arvid Norberg",
+  "display_name": "arvid norberg",
   "github_login_final": "arvidn",
   "delving_username_final": null,
   "uuid": "auto_arvid_norberg",
@@ -15,12 +15,12 @@
   "self_merges": 0.0,
   "total_additions": 29.0,
   "total_deletions": 29.0,
-  "first_core_commit": "2018-09-17T11:32:47+00:00",
-  "last_core_commit": "2018-09-20T21:57:13+00:00",
+  "first_core_commit": "2018-09-17T11:34:21+00:00",
+  "last_core_commit": "2018-09-20T21:59:17+00:00",
   "first_ecosystem_commit": null,
   "last_ecosystem_commit": null,
-  "first_commit": "2018-09-17T11:32:47",
-  "last_commit": "2018-09-20T21:57:13",
+  "first_commit": "2018-09-17T11:34:21",
+  "last_commit": "2018-09-20T21:59:17",
   "p2016_authored_commits": 2.0,
   "modern_authored_commits": 0.0,
   "co_authored_commits": 0.0,
@@ -45,11 +45,11 @@
   "avg_pr_ack_velocity_days": 0.26562885802469133,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": 3.0,
-  "hybrid_score": 0.0881,
-  "p2016_hybrid_score": 0.0881,
+  "hybrid_score": 0.1515,
+  "p2016_hybrid_score": 0.1515,
   "modern_hybrid_score": 0.033,
-  "impact_score": 5.0,
-  "p2016_impact_score": 5.0,
+  "impact_score": 9.0,
+  "p2016_impact_score": 9.0,
   "modern_impact_score": 2.0,
   "threads_started": 0.0,
   "replies_sent": 0.0,
@@ -59,13 +59,20 @@
   "delving_responses": 0.0,
   "first_active": null,
   "last_active": null,
-  "dev_type": "Participant",
+  "dev_type": "Builder",
   "expertise_domains": [
+    "Consensus",
     "Infrastructure"
   ],
-  "expertise_by_source": {},
+  "expertise_by_source": {
+    "code": {
+      "Infrastructure": 0.4,
+      "Consensus": 0.6
+    }
+  },
   "expertise_domain_scores": {
-    "Infrastructure": 1.0
+    "Infrastructure": 0.4,
+    "Consensus": 0.6
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,
@@ -73,7 +80,7 @@
   "p2016_delving_posts": 0.0,
   "modern_ml_posts": 0.0,
   "modern_delving_posts": 0.0,
-  "is_engineer": false,
+  "is_engineer": true,
   "is_reviewer": true,
   "is_researcher": false,
   "is_bip_author": false,
@@ -90,11 +97,11 @@
   "github_url": "https://github.com/arvidn",
   "commit_history": {
     "2018": {
-      "Consensus": 2.4,
-      "GUI": 0.4,
-      "Node & RPC": 0.4,
-      "Tests": 0.4,
-      "Utilities": 0.4
+      "Consensus": 1.2,
+      "GUI": 0.2,
+      "Node & RPC": 0.2,
+      "Tests": 0.2,
+      "Utilities": 0.2
     }
   }
 }

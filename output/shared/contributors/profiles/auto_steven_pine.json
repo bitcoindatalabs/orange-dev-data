@@ -1,5 +1,5 @@
 {
-  "display_name": "Steven Pine",
+  "display_name": "steven pine",
   "github_login_final": null,
   "delving_username_final": null,
   "uuid": "auto_steven_pine",
@@ -45,11 +45,11 @@
   "avg_pr_ack_velocity_days": null,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": null,
-  "hybrid_score": 0.0237,
-  "p2016_hybrid_score": 0.0257,
+  "hybrid_score": 0.0233,
+  "p2016_hybrid_score": 0.0248,
   "modern_hybrid_score": 0.0,
   "impact_score": 1.0,
-  "p2016_impact_score": 2.0,
+  "p2016_impact_score": 1.0,
   "modern_impact_score": 0.0,
   "threads_started": 1.0,
   "replies_sent": 10.0,
@@ -57,8 +57,8 @@
   "delving_threads": 0.0,
   "ml_responses": 10.0,
   "delving_responses": 0.0,
-  "first_active": "2015-05-08T09:57:50",
-  "last_active": "2017-05-22T23:03:49",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Participant",
   "expertise_domains": [
     "Consensus",
@@ -66,13 +66,13 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Ecosystem": 0.274,
-      "Consensus": 0.726
+      "Consensus": 0.726,
+      "Ecosystem": 0.274
     }
   },
   "expertise_domain_scores": {
-    "Ecosystem": 0.274,
-    "Consensus": 0.726
+    "Consensus": 0.726,
+    "Ecosystem": 0.274
   },
   "p2016_posts": 5.0,
   "modern_posts": 0.0,
@@ -84,8 +84,8 @@
   "is_reviewer": false,
   "is_researcher": true,
   "is_bip_author": false,
-  "global_first_active": "2015-05-08T09:57:50",
-  "global_last_active": "2017-05-22T23:03:49",
+  "global_first_active": null,
+  "global_last_active": null,
   "github_location": null,
   "github_company": null,
   "github_bio": null,

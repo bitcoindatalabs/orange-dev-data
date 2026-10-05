@@ -1,5 +1,5 @@
 {
-  "display_name": "felix weis",
+  "display_name": "Felix Weis",
   "github_login_final": "FelixWeis",
   "delving_username_final": null,
   "uuid": "auto_felix_weis",
@@ -15,12 +15,12 @@
   "self_merges": 0.0,
   "total_additions": 174.0,
   "total_deletions": 188.0,
-  "first_core_commit": "2017-08-11T13:30:01+00:00",
-  "last_core_commit": "2019-05-10T17:20:41+00:00",
+  "first_core_commit": "2017-08-11T13:34:08+00:00",
+  "last_core_commit": "2019-05-10T17:22:54+00:00",
   "first_ecosystem_commit": null,
   "last_ecosystem_commit": null,
-  "first_commit": "2017-08-11T13:30:01",
-  "last_commit": "2019-05-10T17:20:41",
+  "first_commit": "2017-08-11T13:34:08",
+  "last_commit": "2019-05-10T17:22:54",
   "p2016_authored_commits": 2.0,
   "modern_authored_commits": 0.0,
   "co_authored_commits": 2.0,
@@ -45,11 +45,11 @@
   "avg_pr_ack_velocity_days": 0.29116898148148146,
   "avg_concept_lead_time_days": 0.43633680555555554,
   "review_reciprocity": 3.6666666666666665,
-  "hybrid_score": 0.1006,
-  "p2016_hybrid_score": 0.1051,
+  "hybrid_score": 0.1638,
+  "p2016_hybrid_score": 0.1682,
   "modern_hybrid_score": 0.033,
-  "impact_score": 6.0,
-  "p2016_impact_score": 6.0,
+  "impact_score": 9.0,
+  "p2016_impact_score": 10.0,
   "modern_impact_score": 2.0,
   "threads_started": 1.0,
   "replies_sent": 1.0,
@@ -57,25 +57,29 @@
   "delving_threads": 0.0,
   "ml_responses": 1.0,
   "delving_responses": 0.0,
-  "first_active": "2016-01-06T09:18:56",
-  "last_active": "2017-10-01T06:22:30",
-  "dev_type": "Reviewer",
+  "first_active": null,
+  "last_active": null,
+  "dev_type": "Builder",
   "expertise_domains": [
+    "Infrastructure",
     "L2",
-    "Consensus",
-    "Privacy"
+    "Consensus"
   ],
   "expertise_by_source": {
     "discussion": {
-      "L2": 0.333,
       "Privacy": 0.333,
-      "Consensus": 0.333
+      "Consensus": 0.333,
+      "L2": 0.333
+    },
+    "code": {
+      "Infrastructure": 1.0
     }
   },
   "expertise_domain_scores": {
-    "L2": 0.3333,
-    "Privacy": 0.3333,
-    "Consensus": 0.3333
+    "Privacy": 0.1333,
+    "Infrastructure": 0.6002,
+    "Consensus": 0.1333,
+    "L2": 0.1333
   },
   "p2016_posts": 2.0,
   "modern_posts": 0.0,
@@ -83,11 +87,11 @@
   "p2016_delving_posts": 0.0,
   "modern_ml_posts": 0.0,
   "modern_delving_posts": 0.0,
-  "is_engineer": false,
+  "is_engineer": true,
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": false,
-  "global_first_active": "2016-01-06T09:18:56",
+  "global_first_active": "2016-01-07T14:31:17",
   "global_last_active": "2021-01-14T06:48:03",
   "github_location": null,
   "github_company": null,
@@ -100,12 +104,12 @@
   "github_url": "https://github.com/FelixWeis",
   "commit_history": {
     "2017": {
-      "Node & RPC": 2.0
+      "Node & RPC": 1.0
     },
     "2019": {
-      "Documentation": 0.67,
-      "Node & RPC": 0.67,
-      "Tests": 0.67
+      "Documentation": 0.33,
+      "Node & RPC": 0.33,
+      "Tests": 0.33
     }
   },
   "first_message": {

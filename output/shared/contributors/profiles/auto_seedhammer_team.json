@@ -1,5 +1,5 @@
 {
-  "display_name": "seedhammer team",
+  "display_name": "SeedHammer Team",
   "github_login_final": null,
   "delving_username_final": null,
   "uuid": "auto_seedhammer_team",
@@ -45,9 +45,9 @@
   "avg_pr_ack_velocity_days": null,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": null,
-  "hybrid_score": 0.3567,
-  "p2016_hybrid_score": 0.3602,
-  "modern_hybrid_score": 0.3799,
+  "hybrid_score": 0.3566,
+  "p2016_hybrid_score": 0.3601,
+  "modern_hybrid_score": 0.3794,
   "impact_score": 19.0,
   "p2016_impact_score": 19.0,
   "modern_impact_score": 20.0,
@@ -57,8 +57,8 @@
   "delving_threads": 0.0,
   "ml_responses": 0.0,
   "delving_responses": 0.0,
-  "first_active": "2023-11-23T16:25:43",
-  "last_active": "2023-12-17T18:52:44",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Participant",
   "expertise_domains": [
     "Script",
@@ -73,8 +73,8 @@
     }
   },
   "expertise_domain_scores": {
-    "Script": 0.7143,
-    "Wallet": 0.2857
+    "Wallet": 0.2857,
+    "Script": 0.7143
   },
   "p2016_posts": 2.0,
   "modern_posts": 2.0,
@@ -86,7 +86,7 @@
   "is_reviewer": false,
   "is_researcher": true,
   "is_bip_author": true,
-  "global_first_active": "2023-11-23T16:25:43",
+  "global_first_active": "2026-04-23T13:17:01",
   "global_last_active": "2026-04-23T13:17:01",
   "github_location": null,
   "github_company": null,
@@ -94,7 +94,7 @@
   "github_twitter": null,
   "github_blog": null,
   "github_followers": null,
-  "activity_status": "Active",
+  "activity_status": "New",
   "is_top_50": false,
   "bip_list": [
     {

@@ -1,7 +1,7 @@
 {
   "display_name": "Greg Tonoski",
   "github_login_final": "GregTonoski",
-  "delving_username_final": null,
+  "delving_username_final": "gregtonoski",
   "uuid": "auto_greg_tonoski",
   "badges": null,
   "roles": null,
@@ -45,38 +45,41 @@
   "avg_pr_ack_velocity_days": null,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": 11.0,
-  "hybrid_score": 0.1298,
-  "p2016_hybrid_score": 0.1568,
-  "modern_hybrid_score": 0.3215,
+  "hybrid_score": 0.1289,
+  "p2016_hybrid_score": 0.1549,
+  "modern_hybrid_score": 0.3097,
   "impact_score": 7.0,
   "p2016_impact_score": 9.0,
-  "modern_impact_score": 18.0,
-  "threads_started": 2.0,
-  "replies_sent": 16.0,
+  "modern_impact_score": 17.0,
+  "threads_started": 6.0,
+  "replies_sent": 30.0,
   "ml_threads": 2.0,
-  "delving_threads": 0.0,
+  "delving_threads": 4.0,
   "ml_responses": 16.0,
-  "delving_responses": 0.0,
-  "first_active": "2023-12-27T10:44:51",
-  "last_active": "2026-08-09T15:12:07",
+  "delving_responses": 14.0,
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Reviewer",
   "expertise_domains": [
-    "Consensus"
+    "Mempool",
+    "Ecosystem"
   ],
   "expertise_by_source": {
     "discussion": {
-      "Consensus": 1.0
+      "Mempool": 0.542,
+      "Ecosystem": 0.458
     }
   },
   "expertise_domain_scores": {
-    "Consensus": 1.0
+    "Mempool": 0.542,
+    "Ecosystem": 0.458
   },
-  "p2016_posts": 18.0,
-  "modern_posts": 18.0,
+  "p2016_posts": 36.0,
+  "modern_posts": 36.0,
   "p2016_ml_posts": 18.0,
-  "p2016_delving_posts": 0.0,
+  "p2016_delving_posts": 18.0,
   "modern_ml_posts": 18.0,
-  "modern_delving_posts": 0.0,
+  "modern_delving_posts": 18.0,
   "is_engineer": false,
   "is_reviewer": true,
   "is_researcher": true,
@@ -92,6 +95,7 @@
   "activity_status": "Rising",
   "is_top_50": false,
   "github_url": "https://github.com/GregTonoski",
+  "delving_url": "https://delvingbitcoin.org/u/gregtonoski",
   "first_message": {
     "source": "mailing_list",
     "subject": "[bitcoin-dev] [BUG]: Bitcoin blockspace price discrimination put\n simple transactions at disadvantage",
@@ -106,32 +110,40 @@
   },
   "social_history": {
     "2023": {
-      "mempool-fees": 1,
-      "other": 2,
-      "security": 1
+      "other": 3,
+      "mining": 1,
+      "ordinals-inscriptions": 2,
+      "p2p-network": 1,
+      "segwit": 1,
+      "spam-filtering": 1,
+      "utxo-sync": 1
     },
     "2024": {
-      "bip-process": 1,
-      "other": 4,
-      "covenants": 1,
-      "mempool-fees": 1,
-      "script-opcodes": 1,
-      "security": 1,
+      "other": 8,
+      "mining": 15,
+      "ordinals-inscriptions": 15,
+      "p2p-network": 15,
+      "segwit": 15,
       "soft-fork-activation": 1,
-      "spam-filtering": 1
+      "spam-filtering": 16,
+      "utxo-sync": 16
     },
     "2025": {
-      "covenants": 1,
-      "other": 3,
-      "script-opcodes": 2,
-      "security": 1,
+      "other": 5,
+      "mining": 1,
       "soft-fork-activation": 1,
-      "spam-filtering": 1
+      "spam-filtering": 1,
+      "utxo-sync": 1
     },
     "2026": {
-      "bip-process": 1,
-      "other": 4,
-      "soft-fork-activation": 1
+      "other": 5,
+      "mining": 1,
+      "ordinals-inscriptions": 1,
+      "p2p-network": 1,
+      "segwit": 1,
+      "soft-fork-activation": 2,
+      "spam-filtering": 2,
+      "utxo-sync": 2
     }
   }
 }

@@ -1,5 +1,5 @@
 {
-  "display_name": "Akio Nakamura",
+  "display_name": "akio nakamura",
   "github_login_final": "AkioNak",
   "delving_username_final": null,
   "uuid": "auto_akio_nakamura",
@@ -15,12 +15,12 @@
   "self_merges": 0.0,
   "total_additions": 570.0,
   "total_deletions": 258.0,
-  "first_core_commit": "2017-07-03T12:20:28+00:00",
-  "last_core_commit": "2020-09-12T23:50:18+00:00",
+  "first_core_commit": "2017-07-03T12:21:21+00:00",
+  "last_core_commit": "2020-09-13T00:05:02+00:00",
   "first_ecosystem_commit": null,
   "last_ecosystem_commit": null,
-  "first_commit": "2017-07-03T12:20:28",
-  "last_commit": "2020-09-12T23:50:18",
+  "first_commit": "2017-07-03T12:21:21",
+  "last_commit": "2020-09-13T00:05:02",
   "p2016_authored_commits": 17.0,
   "modern_authored_commits": 0.0,
   "co_authored_commits": 0.0,
@@ -45,11 +45,11 @@
   "avg_pr_ack_velocity_days": 6.145494281045751,
   "avg_concept_lead_time_days": 20.061587577160495,
   "review_reciprocity": 0.5,
-  "hybrid_score": 0.1062,
-  "p2016_hybrid_score": 0.1062,
+  "hybrid_score": 0.2729,
+  "p2016_hybrid_score": 0.2729,
   "modern_hybrid_score": 0.083,
-  "impact_score": 6.0,
-  "p2016_impact_score": 6.0,
+  "impact_score": 15.0,
+  "p2016_impact_score": 15.0,
   "modern_impact_score": 5.0,
   "threads_started": 0.0,
   "replies_sent": 0.0,
@@ -59,13 +59,20 @@
   "delving_responses": 0.0,
   "first_active": null,
   "last_active": null,
-  "dev_type": "Participant",
+  "dev_type": "Builder",
   "expertise_domains": [
-    "Infrastructure"
+    "Infrastructure",
+    "Wallet"
   ],
-  "expertise_by_source": {},
+  "expertise_by_source": {
+    "code": {
+      "Wallet": 0.147,
+      "Infrastructure": 0.853
+    }
+  },
   "expertise_domain_scores": {
-    "Infrastructure": 1.0
+    "Infrastructure": 0.853,
+    "Wallet": 0.147
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,
@@ -73,12 +80,12 @@
   "p2016_delving_posts": 0.0,
   "modern_ml_posts": 0.0,
   "modern_delving_posts": 0.0,
-  "is_engineer": false,
+  "is_engineer": true,
   "is_reviewer": true,
   "is_researcher": false,
   "is_bip_author": false,
-  "global_first_active": "2017-07-03T12:20:28",
-  "global_last_active": "2020-09-12T23:50:18",
+  "global_first_active": "2017-07-03T12:21:21",
+  "global_last_active": "2020-09-13T00:05:02",
   "github_location": "Tokyo, Japan",
   "github_company": null,
   "github_bio": "a programmer, a ultra marathon runner :runner:",
@@ -90,25 +97,25 @@
   "github_url": "https://github.com/AkioNak",
   "commit_history": {
     "2017": {
-      "Node & RPC": 4.0,
-      "Tests": 2.0,
-      "Utilities": 1.0,
-      "Wallet": 3.0
+      "Node & RPC": 2.0,
+      "Tests": 1.0,
+      "Utilities": 0.5,
+      "Wallet": 1.5
     },
     "2018": {
-      "Build & CI": 2.0,
-      "Documentation": 1.0,
-      "Node & RPC": 0.67,
-      "Tests": 4.67,
-      "Utilities": 5.67
+      "Build & CI": 1.0,
+      "Documentation": 0.5,
+      "Node & RPC": 0.33,
+      "Tests": 2.33,
+      "Utilities": 2.83
     },
     "2019": {
-      "Node & RPC": 0.67,
-      "Tests": 3.67,
-      "Utilities": 3.67
+      "Node & RPC": 0.33,
+      "Tests": 1.83,
+      "Utilities": 1.83
     },
     "2020": {
-      "Wallet": 2.0
+      "Wallet": 1.0
     }
   }
 }

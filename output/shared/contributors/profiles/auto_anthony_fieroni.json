@@ -1,5 +1,5 @@
 {
-  "display_name": "Anthony Fieroni",
+  "display_name": "anthony fieroni",
   "github_login_final": "bvbfan",
   "delving_username_final": null,
   "uuid": "auto_anthony_fieroni",
@@ -15,12 +15,12 @@
   "self_merges": 0.0,
   "total_additions": 38.0,
   "total_deletions": 3.0,
-  "first_core_commit": "2020-07-11T10:19:05+00:00",
-  "last_core_commit": "2020-07-11T17:12:34+00:00",
+  "first_core_commit": "2020-07-11T10:21:43+00:00",
+  "last_core_commit": "2020-07-11T17:14:36+00:00",
   "first_ecosystem_commit": null,
   "last_ecosystem_commit": null,
-  "first_commit": "2020-07-11T10:19:05",
-  "last_commit": "2020-07-11T17:12:34",
+  "first_commit": "2020-07-11T10:21:43",
+  "last_commit": "2020-07-11T17:14:36",
   "p2016_authored_commits": 2.0,
   "modern_authored_commits": 0.0,
   "co_authored_commits": 0.0,
@@ -45,11 +45,11 @@
   "avg_pr_ack_velocity_days": 7.203229166666667,
   "avg_concept_lead_time_days": 9.839166666666667,
   "review_reciprocity": 1.4285714285714286,
-  "hybrid_score": 0.0964,
-  "p2016_hybrid_score": 0.0964,
+  "hybrid_score": 0.1598,
+  "p2016_hybrid_score": 0.1598,
   "modern_hybrid_score": 0.0812,
-  "impact_score": 6.0,
-  "p2016_impact_score": 6.0,
+  "impact_score": 9.0,
+  "p2016_impact_score": 9.0,
   "modern_impact_score": 5.0,
   "threads_started": 0.0,
   "replies_sent": 0.0,
@@ -59,13 +59,20 @@
   "delving_responses": 0.0,
   "first_active": null,
   "last_active": null,
-  "dev_type": "Reviewer",
+  "dev_type": "Builder",
   "expertise_domains": [
-    "Infrastructure"
+    "Infrastructure",
+    "Wallet"
   ],
-  "expertise_by_source": {},
+  "expertise_by_source": {
+    "code": {
+      "Wallet": 0.25,
+      "Infrastructure": 0.75
+    }
+  },
   "expertise_domain_scores": {
-    "Infrastructure": 1.0
+    "Infrastructure": 0.75,
+    "Wallet": 0.25
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,
@@ -73,7 +80,7 @@
   "p2016_delving_posts": 0.0,
   "modern_ml_posts": 0.0,
   "modern_delving_posts": 0.0,
-  "is_engineer": false,
+  "is_engineer": true,
   "is_reviewer": true,
   "is_researcher": false,
   "is_bip_author": false,
@@ -90,8 +97,8 @@
   "github_url": "https://github.com/bvbfan",
   "commit_history": {
     "2020": {
-      "Tests": 3.0,
-      "Wallet": 1.0
+      "Tests": 1.5,
+      "Wallet": 0.5
     }
   }
 }

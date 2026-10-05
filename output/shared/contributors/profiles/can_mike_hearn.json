@@ -28,11 +28,11 @@
   "total_additions": 26286.0,
   "total_deletions": 693.0,
   "first_core_commit": "2012-10-20T21:49:33+00:00",
-  "last_core_commit": "2015-03-26T08:15:36+00:00",
+  "last_core_commit": "2015-03-26T08:27:07+00:00",
   "first_ecosystem_commit": null,
   "last_ecosystem_commit": null,
   "first_commit": "2012-10-20T21:49:33",
-  "last_commit": "2015-03-26T08:15:36",
+  "last_commit": "2015-03-26T08:27:07",
   "p2016_authored_commits": 0.0,
   "modern_authored_commits": 0.0,
   "co_authored_commits": 0.0,
@@ -57,10 +57,10 @@
   "avg_pr_ack_velocity_days": 11.509491898148147,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": 7.8,
-  "hybrid_score": 1.337,
+  "hybrid_score": 1.4803,
   "p2016_hybrid_score": 0.0772,
   "modern_hybrid_score": 0.0772,
-  "impact_score": 55.0,
+  "impact_score": 59.0,
   "p2016_impact_score": 5.0,
   "modern_impact_score": 5.0,
   "threads_started": 72.0,
@@ -69,18 +69,23 @@
   "delving_threads": 0.0,
   "ml_responses": 909.0,
   "delving_responses": 0.0,
-  "first_active": "2011-06-14T11:44:41",
-  "last_active": "2015-10-28T05:26:56",
-  "dev_type": "Reviewer",
+  "first_active": null,
+  "last_active": null,
+  "dev_type": "Protocol Designer",
   "expertise_domains": [
     "Infrastructure",
-    "Ecosystem",
-    "Network"
+    "Network",
+    "Ecosystem"
   ],
   "expertise_by_source": {
     "discussion": {
-      "Ecosystem": 0.714,
-      "Mining": 0.286
+      "Mining": 0.286,
+      "Ecosystem": 0.714
+    },
+    "code": {
+      "Infrastructure": 0.838,
+      "Consensus": 0.013,
+      "Network": 0.149
     },
     "bips": {
       "Infrastructure": 0.75,
@@ -88,10 +93,10 @@
     }
   },
   "expertise_domain_scores": {
-    "Infrastructure": 0.5357,
-    "Ecosystem": 0.204,
-    "Mining": 0.0817,
-    "Network": 0.1786
+    "Mining": 0.0572,
+    "Infrastructure": 0.6264,
+    "Ecosystem": 0.1428,
+    "Network": 0.1697
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,
@@ -99,12 +104,12 @@
   "p2016_delving_posts": 0.0,
   "modern_ml_posts": 0.0,
   "modern_delving_posts": 0.0,
-  "is_engineer": false,
+  "is_engineer": true,
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": true,
-  "global_first_active": "2011-06-14T11:44:41",
-  "global_last_active": "2015-10-28T05:26:56",
+  "global_first_active": "2011-11-13T11:00:36",
+  "global_last_active": "2015-10-12T16:06:54",
   "github_location": "Switzerland",
   "github_company": "@hydraulic-software ",
   "github_bio": "Making developer tools at Hydraulic. Former contributor to Bitcoin, Wine, Corda, GNOME, Google and various other software projects. ",
@@ -116,29 +121,29 @@
   "github_url": "https://github.com/mikehearn",
   "commit_history": {
     "2012": {
-      "Build & CI": 0.4,
-      "Database": 0.4,
-      "Documentation": 0.4,
-      "Tests": 0.4,
-      "Utilities": 0.4
+      "Build & CI": 0.2,
+      "Database": 0.2,
+      "Documentation": 0.2,
+      "Tests": 0.2,
+      "Utilities": 0.2
     },
     "2013": {
-      "Build & CI": 0.29,
-      "Consensus": 0.29,
-      "GUI": 0.29,
-      "Node & RPC": 2.29,
-      "P2P Network": 1.29,
-      "Tests": 0.29,
-      "Utilities": 7.29
+      "Build & CI": 0.14,
+      "Consensus": 0.14,
+      "GUI": 0.14,
+      "Node & RPC": 1.14,
+      "P2P Network": 0.64,
+      "Tests": 0.14,
+      "Utilities": 3.64
     },
     "2014": {
-      "P2P Network": 1.0,
-      "Tests": 1.0,
-      "Utilities": 4.0
+      "P2P Network": 0.5,
+      "Tests": 0.5,
+      "Utilities": 2.0
     },
     "2015": {
-      "GUI": 1.0,
-      "P2P Network": 1.0
+      "GUI": 0.5,
+      "P2P Network": 0.5
     }
   },
   "bip_list": [

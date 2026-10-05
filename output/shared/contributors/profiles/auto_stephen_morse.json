@@ -15,12 +15,12 @@
   "self_merges": 0.0,
   "total_additions": 5.0,
   "total_deletions": 1.0,
-  "first_core_commit": "2015-06-15T07:39:23+00:00",
-  "last_core_commit": "2015-06-15T07:39:23+00:00",
+  "first_core_commit": "2015-06-15T07:39:40+00:00",
+  "last_core_commit": "2015-06-15T07:39:40+00:00",
   "first_ecosystem_commit": null,
   "last_ecosystem_commit": null,
-  "first_commit": "2015-06-15T07:39:23",
-  "last_commit": "2015-06-15T07:39:23",
+  "first_commit": "2015-06-15T07:39:40",
+  "last_commit": "2015-06-15T07:39:40",
   "p2016_authored_commits": 0.0,
   "modern_authored_commits": 0.0,
   "co_authored_commits": 0.0,
@@ -45,10 +45,10 @@
   "avg_pr_ack_velocity_days": 0.6067361111111111,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": 0.0,
-  "hybrid_score": 0.0582,
+  "hybrid_score": 0.0975,
   "p2016_hybrid_score": 0.0146,
   "modern_hybrid_score": 0.0146,
-  "impact_score": 3.0,
+  "impact_score": 6.0,
   "p2016_impact_score": 1.0,
   "modern_impact_score": 1.0,
   "threads_started": 2.0,
@@ -57,25 +57,31 @@
   "delving_threads": 0.0,
   "ml_responses": 22.0,
   "delving_responses": 0.0,
-  "first_active": "2014-12-31T12:25:41",
-  "last_active": "2015-06-22T16:04:59",
-  "dev_type": "Participant",
+  "first_active": null,
+  "last_active": null,
+  "dev_type": "Builder",
   "expertise_domains": [
-    "Consensus",
-    "Script",
-    "Mining"
+    "Infrastructure",
+    "Wallet",
+    "Consensus"
   ],
   "expertise_by_source": {
     "discussion": {
       "Mining": 0.279,
-      "Script": 0.295,
-      "Consensus": 0.426
+      "Consensus": 0.426,
+      "Script": 0.295
+    },
+    "code": {
+      "Wallet": 0.333,
+      "Infrastructure": 0.667
     }
   },
   "expertise_domain_scores": {
-    "Mining": 0.279,
-    "Script": 0.295,
-    "Consensus": 0.426
+    "Mining": 0.1116,
+    "Infrastructure": 0.4002,
+    "Wallet": 0.1998,
+    "Consensus": 0.1704,
+    "Script": 0.118
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,
@@ -83,12 +89,12 @@
   "p2016_delving_posts": 0.0,
   "modern_ml_posts": 0.0,
   "modern_delving_posts": 0.0,
-  "is_engineer": false,
+  "is_engineer": true,
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": false,
-  "global_first_active": "2014-12-31T12:25:41",
-  "global_last_active": "2015-06-22T16:04:59",
+  "global_first_active": "2015-06-15T07:39:40",
+  "global_last_active": "2015-06-15T07:39:40",
   "github_location": "Remote",
   "github_company": "@squareup",
   "github_bio": "Software Engineer @ Cash App",
@@ -100,9 +106,9 @@
   "github_url": "https://github.com/scmorse",
   "commit_history": {
     "2015": {
-      "Documentation": 0.67,
-      "Utilities": 0.67,
-      "Wallet": 0.67
+      "Documentation": 0.33,
+      "Utilities": 0.33,
+      "Wallet": 0.33
     }
   },
   "first_message": {

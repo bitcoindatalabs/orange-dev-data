@@ -1,5 +1,5 @@
 {
-  "display_name": "Chakib Benziane",
+  "display_name": "chakib benziane",
   "github_login_final": "blob42",
   "delving_username_final": null,
   "uuid": "auto_chakib_benziane",
@@ -15,12 +15,12 @@
   "self_merges": 0.0,
   "total_additions": 7.0,
   "total_deletions": 3.0,
-  "first_core_commit": "2018-12-04T10:30:14+00:00",
-  "last_core_commit": "2018-12-04T10:30:14+00:00",
+  "first_core_commit": "2018-12-04T10:31:44+00:00",
+  "last_core_commit": "2018-12-04T10:31:44+00:00",
   "first_ecosystem_commit": null,
   "last_ecosystem_commit": null,
-  "first_commit": "2018-12-04T10:30:14",
-  "last_commit": "2018-12-04T10:30:14",
+  "first_commit": "2018-12-04T10:31:44",
+  "last_commit": "2018-12-04T10:31:44",
   "p2016_authored_commits": 1.0,
   "modern_authored_commits": 0.0,
   "co_authored_commits": 0.0,
@@ -45,11 +45,11 @@
   "avg_pr_ack_velocity_days": 0.0027314814814814814,
   "avg_concept_lead_time_days": 0.0027314814814814814,
   "review_reciprocity": 0.0,
-  "hybrid_score": 0.025,
-  "p2016_hybrid_score": 0.025,
+  "hybrid_score": 0.065,
+  "p2016_hybrid_score": 0.065,
   "modern_hybrid_score": 0.025,
-  "impact_score": 1.0,
-  "p2016_impact_score": 1.0,
+  "impact_score": 4.0,
+  "p2016_impact_score": 4.0,
   "modern_impact_score": 1.0,
   "threads_started": 0.0,
   "replies_sent": 0.0,
@@ -59,11 +59,15 @@
   "delving_responses": 0.0,
   "first_active": null,
   "last_active": null,
-  "dev_type": "Participant",
+  "dev_type": "Builder",
   "expertise_domains": [
     "Infrastructure"
   ],
-  "expertise_by_source": {},
+  "expertise_by_source": {
+    "code": {
+      "Infrastructure": 1.0
+    }
+  },
   "expertise_domain_scores": {
     "Infrastructure": 1.0
   },
@@ -73,12 +77,12 @@
   "p2016_delving_posts": 0.0,
   "modern_ml_posts": 0.0,
   "modern_delving_posts": 0.0,
-  "is_engineer": false,
+  "is_engineer": true,
   "is_reviewer": true,
   "is_researcher": false,
   "is_bip_author": false,
-  "global_first_active": "2018-12-04T10:30:14",
-  "global_last_active": "2018-12-04T10:30:14",
+  "global_first_active": "2018-12-04T10:31:44",
+  "global_last_active": "2018-12-04T10:31:44",
   "github_location": "Spain",
   "github_company": "Independent Consultant",
   "github_bio": "Systems Programming | LLM Ops |  Bitcoin Tech | #Go #Python #Rust",
@@ -90,7 +94,7 @@
   "github_url": "https://github.com/blob42",
   "commit_history": {
     "2018": {
-      "Documentation": 2.0
+      "Documentation": 1.0
     }
   }
 }

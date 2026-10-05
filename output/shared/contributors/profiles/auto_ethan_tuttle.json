@@ -1,7 +1,7 @@
 {
-  "display_name": "ethan tuttle",
+  "display_name": "Ethan Tuttle",
   "github_login_final": "EthnTuttle",
-  "delving_username_final": null,
+  "delving_username_final": "ethntuttle",
   "uuid": "auto_ethan_tuttle",
   "badges": null,
   "roles": null,
@@ -51,34 +51,41 @@
   "impact_score": 2.0,
   "p2016_impact_score": 2.0,
   "modern_impact_score": 2.0,
-  "threads_started": 0.0,
-  "replies_sent": 0.0,
+  "threads_started": 9.0,
+  "replies_sent": 10.0,
   "ml_threads": 0.0,
-  "delving_threads": 0.0,
+  "delving_threads": 9.0,
   "ml_responses": 0.0,
-  "delving_responses": 0.0,
-  "first_active": null,
-  "last_active": null,
+  "delving_responses": 10.0,
+  "first_active": "2023-08-22T20:21:05.873000",
+  "last_active": "2026-09-16T14:29:40.017000",
   "dev_type": "Participant",
   "expertise_domains": [
-    "Infrastructure"
+    "L2",
+    "Mining"
   ],
-  "expertise_by_source": {},
-  "expertise_domain_scores": {
-    "Infrastructure": 1.0
+  "expertise_by_source": {
+    "discussion": {
+      "Mining": 0.475,
+      "L2": 0.525
+    }
   },
-  "p2016_posts": 0.0,
-  "modern_posts": 0.0,
+  "expertise_domain_scores": {
+    "Mining": 0.475,
+    "L2": 0.525
+  },
+  "p2016_posts": 19.0,
+  "modern_posts": 13.0,
   "p2016_ml_posts": 0.0,
-  "p2016_delving_posts": 0.0,
+  "p2016_delving_posts": 19.0,
   "modern_ml_posts": 0.0,
-  "modern_delving_posts": 0.0,
+  "modern_delving_posts": 13.0,
   "is_engineer": false,
   "is_reviewer": true,
   "is_researcher": false,
   "is_bip_author": false,
-  "global_first_active": "2023-12-19T15:28:57",
-  "global_last_active": "2023-12-19T15:28:57",
+  "global_first_active": "2023-08-22T20:21:05.873000",
+  "global_last_active": "2026-09-16T14:29:40.017000",
   "github_location": null,
   "github_company": "FOSS",
   "github_bio": "npub1tmycvul7aj4fxhypg5qkjgsjtx30zvnrfeufrgx9xlwtv0hne7cs67el78\r\n\r\ntuttle.ethan@protonmail.com\r\n",
@@ -87,5 +94,39 @@
   "github_followers": 33.0,
   "activity_status": "Active",
   "is_top_50": false,
-  "github_url": "https://github.com/EthnTuttle"
+  "github_url": "https://github.com/EthnTuttle",
+  "delving_url": "https://delvingbitcoin.org/u/ethntuttle",
+  "first_message": {
+    "source": "delving",
+    "subject": "Re: Thoughts on scaling and consensus changes (2023)",
+    "date": "2023-08-22",
+    "link": "https://delvingbitcoin.org/t/thoughts-on-scaling-and-consensus-changes-2023/32/2"
+  },
+  "last_message": {
+    "source": "delving",
+    "subject": "Re: Block-wide Signature Aggregation via SNARKs",
+    "date": "2026-09-16",
+    "link": "https://delvingbitcoin.org/t/block-wide-signature-aggregation-via-snarks/2875/9"
+  },
+  "social_history": {
+    "2023": {
+      "bip-process": 1,
+      "ecash": 3,
+      "mining": 1,
+      "privacy": 1,
+      "other": 1,
+      "spam-filtering": 2
+    },
+    "2024": {
+      "ecash": 11,
+      "lightning": 11,
+      "mining": 11
+    },
+    "2026": {
+      "bitvm": 1,
+      "mining": 1,
+      "quantum": 1,
+      "other": 1
+    }
+  }
 }

@@ -1,5 +1,5 @@
 {
-  "display_name": "Thomas Kerin",
+  "display_name": "thomas kerin",
   "github_login_final": "afk11",
   "delving_username_final": null,
   "uuid": "auto_thomas_kerin",
@@ -28,11 +28,11 @@
   "total_additions": 228.0,
   "total_deletions": 23.0,
   "first_core_commit": "2015-07-14T00:55:45+00:00",
-  "last_core_commit": "2018-07-18T14:57:11+00:00",
+  "last_core_commit": "2018-07-18T15:20:11+00:00",
   "first_ecosystem_commit": null,
   "last_ecosystem_commit": null,
   "first_commit": "2015-07-14T00:55:45",
-  "last_commit": "2018-07-18T14:57:11",
+  "last_commit": "2018-07-18T15:20:11",
   "p2016_authored_commits": 4.0,
   "modern_authored_commits": 0.0,
   "co_authored_commits": 0.0,
@@ -57,11 +57,11 @@
   "avg_pr_ack_velocity_days": 4.405763888888889,
   "avg_concept_lead_time_days": 0.6678009259259259,
   "review_reciprocity": 3.9375,
-  "hybrid_score": 0.7536,
-  "p2016_hybrid_score": 0.1671,
+  "hybrid_score": 0.866,
+  "p2016_hybrid_score": 0.2597,
   "modern_hybrid_score": 0.0792,
-  "impact_score": 36.0,
-  "p2016_impact_score": 10.0,
+  "impact_score": 41.0,
+  "p2016_impact_score": 14.0,
   "modern_impact_score": 5.0,
   "threads_started": 5.0,
   "replies_sent": 20.0,
@@ -69,18 +69,23 @@
   "delving_threads": 0.0,
   "ml_responses": 20.0,
   "delving_responses": 0.0,
-  "first_active": "2014-03-27T08:12:07",
-  "last_active": "2019-05-26T14:34:55",
-  "dev_type": "Reviewer",
+  "first_active": null,
+  "last_active": null,
+  "dev_type": "Protocol Designer",
   "expertise_domains": [
     "Script",
     "Consensus",
-    "Wallet"
+    "Infrastructure"
   ],
   "expertise_by_source": {
     "discussion": {
-      "Script": 0.389,
-      "Wallet": 0.611
+      "Wallet": 0.611,
+      "Script": 0.389
+    },
+    "code": {
+      "Infrastructure": 0.667,
+      "Script": 0.167,
+      "Network": 0.167
     },
     "bips": {
       "Consensus": 0.5,
@@ -88,9 +93,11 @@
     }
   },
   "expertise_domain_scores": {
-    "Script": 0.4683,
-    "Consensus": 0.3571,
-    "Wallet": 0.1746
+    "Infrastructure": 0.2,
+    "Wallet": 0.1222,
+    "Consensus": 0.2499,
+    "Script": 0.3778,
+    "Network": 0.0501
   },
   "p2016_posts": 7.0,
   "modern_posts": 0.0,
@@ -98,11 +105,11 @@
   "p2016_delving_posts": 0.0,
   "modern_ml_posts": 0.0,
   "modern_delving_posts": 0.0,
-  "is_engineer": false,
+  "is_engineer": true,
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": true,
-  "global_first_active": "2014-03-27T08:12:07",
+  "global_first_active": "2015-02-12T15:02:56",
   "global_last_active": "2021-11-08T17:33:24",
   "github_location": "Ireland",
   "github_company": null,
@@ -115,17 +122,17 @@
   "github_url": "https://github.com/afk11",
   "commit_history": {
     "2015": {
-      "Documentation": 2.0,
+      "Documentation": 1.0,
       "Utilities": 1.0
     },
     "2016": {
-      "P2P Network": 2.0,
-      "Script": 1.0,
-      "Tests": 1.0
+      "P2P Network": 1.0,
+      "Script": 0.5,
+      "Tests": 0.5
     },
     "2018": {
-      "Script": 1.0,
-      "Tests": 1.0,
+      "Script": 0.5,
+      "Tests": 0.5,
       "Utilities": 1.0
     }
   },

@@ -1,5 +1,5 @@
 {
-  "display_name": "chris kleeschulte",
+  "display_name": "Chris Kleeschulte",
   "github_login_final": "kleetus",
   "delving_username_final": null,
   "uuid": "auto_chris_kleeschulte",
@@ -15,12 +15,12 @@
   "self_merges": 0.0,
   "total_additions": 1.0,
   "total_deletions": 1.0,
-  "first_core_commit": "2015-10-09T08:21:21+00:00",
-  "last_core_commit": "2015-10-09T08:21:21+00:00",
+  "first_core_commit": "2015-10-09T08:21:40+00:00",
+  "last_core_commit": "2015-10-09T08:21:40+00:00",
   "first_ecosystem_commit": null,
   "last_ecosystem_commit": null,
-  "first_commit": "2015-10-09T08:21:21",
-  "last_commit": "2015-10-09T08:21:21",
+  "first_commit": "2015-10-09T08:21:40",
+  "last_commit": "2015-10-09T08:21:40",
   "p2016_authored_commits": 0.0,
   "modern_authored_commits": 0.0,
   "co_authored_commits": 0.0,
@@ -45,10 +45,10 @@
   "avg_pr_ack_velocity_days": 0.17917824074074074,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": 0.0,
-  "hybrid_score": 0.0313,
-  "p2016_hybrid_score": 0.0347,
+  "hybrid_score": 0.0713,
+  "p2016_hybrid_score": 0.0346,
   "modern_hybrid_score": 0.025,
-  "impact_score": 2.0,
+  "impact_score": 4.0,
   "p2016_impact_score": 2.0,
   "modern_impact_score": 1.0,
   "threads_started": 1.0,
@@ -57,19 +57,24 @@
   "delving_threads": 0.0,
   "ml_responses": 0.0,
   "delving_responses": 0.0,
-  "first_active": "2016-03-25T12:27:30",
-  "last_active": "2016-03-25T12:27:30",
-  "dev_type": "Participant",
+  "first_active": null,
+  "last_active": null,
+  "dev_type": "Builder",
   "expertise_domains": [
+    "Infrastructure",
     "Consensus"
   ],
   "expertise_by_source": {
     "discussion": {
       "Consensus": 1.0
+    },
+    "code": {
+      "Infrastructure": 1.0
     }
   },
   "expertise_domain_scores": {
-    "Consensus": 1.0
+    "Infrastructure": 0.6,
+    "Consensus": 0.4
   },
   "p2016_posts": 1.0,
   "modern_posts": 0.0,
@@ -77,12 +82,12 @@
   "p2016_delving_posts": 0.0,
   "modern_ml_posts": 0.0,
   "modern_delving_posts": 0.0,
-  "is_engineer": false,
+  "is_engineer": true,
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": false,
-  "global_first_active": "2015-10-09T08:21:21",
-  "global_last_active": "2016-03-25T12:27:30",
+  "global_first_active": "2015-10-09T08:21:40",
+  "global_last_active": "2015-10-09T08:21:40",
   "github_location": "Palm Coast, FL USA",
   "github_company": null,
   "github_bio": "Interested in DevOps and Kubernetes.",
@@ -94,7 +99,7 @@
   "github_url": "https://github.com/kleetus",
   "commit_history": {
     "2015": {
-      "Build & CI": 2.0
+      "Build & CI": 1.0
     }
   },
   "first_message": {

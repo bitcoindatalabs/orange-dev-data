@@ -1,5 +1,5 @@
 {
-  "display_name": "Glenn Willen",
+  "display_name": "glenn willen",
   "github_login_final": "gwillen",
   "delving_username_final": null,
   "uuid": "auto_glenn_willen",
@@ -15,12 +15,12 @@
   "self_merges": 0.0,
   "total_additions": 2271.0,
   "total_deletions": 1335.0,
-  "first_core_commit": "2014-11-21T12:50:51+00:00",
-  "last_core_commit": "2020-06-29T04:44:12+00:00",
+  "first_core_commit": "2014-11-21T12:54:11+00:00",
+  "last_core_commit": "2020-06-29T05:09:01+00:00",
   "first_ecosystem_commit": null,
   "last_ecosystem_commit": null,
-  "first_commit": "2014-11-21T12:50:51",
-  "last_commit": "2020-06-29T04:44:12",
+  "first_commit": "2014-11-21T12:54:11",
+  "last_commit": "2020-06-29T05:09:01",
   "p2016_authored_commits": 26.0,
   "modern_authored_commits": 0.0,
   "co_authored_commits": 4.0,
@@ -45,11 +45,11 @@
   "avg_pr_ack_velocity_days": 2.2321656378600827,
   "avg_concept_lead_time_days": 0.34205439814814814,
   "review_reciprocity": 3.3,
-  "hybrid_score": 0.1321,
-  "p2016_hybrid_score": 0.1302,
+  "hybrid_score": 0.3244,
+  "p2016_hybrid_score": 0.3205,
   "modern_hybrid_score": 0.0646,
-  "impact_score": 8.0,
-  "p2016_impact_score": 8.0,
+  "impact_score": 18.0,
+  "p2016_impact_score": 17.0,
   "modern_impact_score": 4.0,
   "threads_started": 0.0,
   "replies_sent": 0.0,
@@ -59,13 +59,23 @@
   "delving_responses": 0.0,
   "first_active": null,
   "last_active": null,
-  "dev_type": "Reviewer",
+  "dev_type": "Builder",
   "expertise_domains": [
-    "Infrastructure"
+    "Infrastructure",
+    "Wallet",
+    "Script"
   ],
-  "expertise_by_source": {},
+  "expertise_by_source": {
+    "code": {
+      "Wallet": 0.164,
+      "Infrastructure": 0.765,
+      "Script": 0.071
+    }
+  },
   "expertise_domain_scores": {
-    "Infrastructure": 1.0
+    "Infrastructure": 0.765,
+    "Wallet": 0.164,
+    "Script": 0.071
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,
@@ -73,11 +83,11 @@
   "p2016_delving_posts": 0.0,
   "modern_ml_posts": 0.0,
   "modern_delving_posts": 0.0,
-  "is_engineer": false,
+  "is_engineer": true,
   "is_reviewer": true,
   "is_researcher": false,
   "is_bip_author": false,
-  "global_first_active": "2014-11-21T12:50:51",
+  "global_first_active": "2014-11-21T12:54:11",
   "global_last_active": "2020-10-09T09:08:09",
   "github_location": "SF Bay Area, California",
   "github_company": null,
@@ -90,29 +100,29 @@
   "github_url": "https://github.com/gwillen",
   "commit_history": {
     "2014": {
-      "Utilities": 2.0
+      "Utilities": 1.0
     },
     "2018": {
-      "Node & RPC": 2.5,
-      "Script": 3.5,
-      "Tests": 3.5,
-      "Wallet": 4.5
+      "Node & RPC": 1.25,
+      "Script": 1.75,
+      "Tests": 1.75,
+      "Wallet": 2.25
     },
     "2019": {
-      "Build & CI": 2.33,
-      "Documentation": 2.0,
-      "Node & RPC": 5.33,
-      "Script": 0.33,
-      "Tests": 3.33,
-      "Utilities": 9.33,
-      "Wallet": 3.33
+      "Build & CI": 1.17,
+      "Documentation": 1.0,
+      "Node & RPC": 2.67,
+      "Script": 0.17,
+      "Tests": 1.67,
+      "Utilities": 4.67,
+      "Wallet": 1.67
     },
     "2020": {
-      "Build & CI": 2.67,
-      "GUI": 3.67,
-      "Tests": 3.0,
-      "Utilities": 1.67,
-      "Wallet": 1.0
+      "Build & CI": 1.33,
+      "GUI": 1.83,
+      "Tests": 1.5,
+      "Utilities": 0.83,
+      "Wallet": 0.5
     }
   }
 }

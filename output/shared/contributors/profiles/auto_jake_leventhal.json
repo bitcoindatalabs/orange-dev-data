@@ -1,5 +1,5 @@
 {
-  "display_name": "Jake Leventhal",
+  "display_name": "jake leventhal",
   "github_login_final": "jakeleventhal",
   "delving_username_final": null,
   "uuid": "auto_jake_leventhal",
@@ -15,12 +15,12 @@
   "self_merges": 0.0,
   "total_additions": 9.0,
   "total_deletions": 10.0,
-  "first_core_commit": "2020-08-28T13:23:24+00:00",
-  "last_core_commit": "2020-08-28T13:23:24+00:00",
+  "first_core_commit": "2020-08-28T13:24:56+00:00",
+  "last_core_commit": "2020-08-28T13:24:56+00:00",
   "first_ecosystem_commit": null,
   "last_ecosystem_commit": null,
-  "first_commit": "2020-08-28T13:23:24",
-  "last_commit": "2020-08-28T13:23:24",
+  "first_commit": "2020-08-28T13:24:56",
+  "last_commit": "2020-08-28T13:24:56",
   "p2016_authored_commits": 1.0,
   "modern_authored_commits": 0.0,
   "co_authored_commits": 0.0,
@@ -45,11 +45,11 @@
   "avg_pr_ack_velocity_days": 2.788460648148148,
   "avg_concept_lead_time_days": 2.788460648148148,
   "review_reciprocity": 1.0,
-  "hybrid_score": 0.033,
-  "p2016_hybrid_score": 0.033,
+  "hybrid_score": 0.073,
+  "p2016_hybrid_score": 0.073,
   "modern_hybrid_score": 0.0146,
-  "impact_score": 2.0,
-  "p2016_impact_score": 2.0,
+  "impact_score": 4.0,
+  "p2016_impact_score": 4.0,
   "modern_impact_score": 1.0,
   "threads_started": 0.0,
   "replies_sent": 0.0,
@@ -59,11 +59,15 @@
   "delving_responses": 0.0,
   "first_active": null,
   "last_active": null,
-  "dev_type": "Participant",
+  "dev_type": "Builder",
   "expertise_domains": [
     "Infrastructure"
   ],
-  "expertise_by_source": {},
+  "expertise_by_source": {
+    "code": {
+      "Infrastructure": 1.0
+    }
+  },
   "expertise_domain_scores": {
     "Infrastructure": 1.0
   },
@@ -73,11 +77,11 @@
   "p2016_delving_posts": 0.0,
   "modern_ml_posts": 0.0,
   "modern_delving_posts": 0.0,
-  "is_engineer": false,
+  "is_engineer": true,
   "is_reviewer": true,
   "is_researcher": false,
   "is_bip_author": false,
-  "global_first_active": "2020-08-28T13:23:24",
+  "global_first_active": "2020-08-28T13:24:56",
   "global_last_active": "2021-02-19T04:53:33",
   "github_location": "Pompano Beach, FL",
   "github_company": "Rip Technologies",
@@ -90,7 +94,7 @@
   "github_url": "https://github.com/jakeleventhal",
   "commit_history": {
     "2020": {
-      "Node & RPC": 2.0
+      "Node & RPC": 1.0
     }
   }
 }

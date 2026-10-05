@@ -27,12 +27,12 @@
   "self_merges": 0.0,
   "total_additions": 2985.0,
   "total_deletions": 1676.0,
-  "first_core_commit": "2013-01-23T17:29:01+00:00",
-  "last_core_commit": "2015-11-17T00:34:42+00:00",
+  "first_core_commit": "2013-01-23T17:29:02+00:00",
+  "last_core_commit": "2015-11-17T00:35:16+00:00",
   "first_ecosystem_commit": null,
   "last_ecosystem_commit": null,
-  "first_commit": "2013-01-23T17:29:01",
-  "last_commit": "2015-11-17T00:34:42",
+  "first_commit": "2013-01-23T17:29:02",
+  "last_commit": "2015-11-17T00:35:16",
   "p2016_authored_commits": 0.0,
   "modern_authored_commits": 0.0,
   "co_authored_commits": 0.0,
@@ -57,10 +57,10 @@
   "avg_pr_ack_velocity_days": 139.84983723958334,
   "avg_concept_lead_time_days": 13.2615625,
   "review_reciprocity": 1.4523809523809523,
-  "hybrid_score": 1.3349,
-  "p2016_hybrid_score": 0.7471,
+  "hybrid_score": 1.543,
+  "p2016_hybrid_score": 0.7465,
   "modern_hybrid_score": 0.1131,
-  "impact_score": 55.0,
+  "impact_score": 60.0,
   "p2016_impact_score": 36.0,
   "modern_impact_score": 7.0,
   "threads_started": 19.0,
@@ -69,18 +69,23 @@
   "delving_threads": 0.0,
   "ml_responses": 192.0,
   "delving_responses": 0.0,
-  "first_active": "2011-12-17T01:41:56",
-  "last_active": "2017-06-01T16:00:02",
-  "dev_type": "Reviewer",
+  "first_active": null,
+  "last_active": null,
+  "dev_type": "Protocol Designer",
   "expertise_domains": [
-    "Consensus",
     "Infrastructure",
+    "Consensus",
     "Script"
   ],
   "expertise_by_source": {
     "discussion": {
-      "Mempool": 0.36,
-      "Consensus": 0.64
+      "Consensus": 0.64,
+      "Mempool": 0.36
+    },
+    "code": {
+      "Infrastructure": 0.91,
+      "Consensus": 0.027,
+      "Network": 0.063
     },
     "bips": {
       "Consensus": 0.5,
@@ -89,10 +94,11 @@
     }
   },
   "expertise_domain_scores": {
-    "Infrastructure": 0.2379,
-    "Mempool": 0.1029,
-    "Script": 0.1193,
-    "Consensus": 0.54
+    "Infrastructure": 0.4395,
+    "Consensus": 0.3861,
+    "Mempool": 0.072,
+    "Script": 0.0835,
+    "Network": 0.0189
   },
   "p2016_posts": 12.0,
   "modern_posts": 0.0,
@@ -100,11 +106,11 @@
   "p2016_delving_posts": 0.0,
   "modern_ml_posts": 0.0,
   "modern_delving_posts": 0.0,
-  "is_engineer": false,
+  "is_engineer": true,
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": true,
-  "global_first_active": "2011-12-17T01:41:56",
+  "global_first_active": "2012-12-24T06:55:01",
   "global_last_active": "2025-09-22T11:19:22",
   "github_location": null,
   "github_company": null,
@@ -117,22 +123,22 @@
   "github_url": "https://github.com/CodeShark",
   "commit_history": {
     "2013": {
-      "Build & CI": 1.0,
-      "Documentation": 0.67,
-      "GUI": 1.17,
-      "Node & RPC": 6.17,
-      "P2P Network": 4.67,
-      "Tests": 1.5,
-      "Utilities": 39.83
+      "Build & CI": 0.5,
+      "Documentation": 0.33,
+      "GUI": 0.58,
+      "Node & RPC": 3.08,
+      "P2P Network": 2.33,
+      "Tests": 0.75,
+      "Utilities": 20.42
     },
     "2014": {
       "Utilities": 4.0
     },
     "2015": {
-      "Consensus": 2.0,
-      "Node & RPC": 1.0,
-      "Tests": 4.0,
-      "Utilities": 3.0
+      "Consensus": 1.0,
+      "Node & RPC": 0.5,
+      "Tests": 2.0,
+      "Utilities": 1.5
     }
   },
   "bip_list": [

@@ -15,12 +15,12 @@
   "self_merges": 0.0,
   "total_additions": 4.0,
   "total_deletions": 4.0,
-  "first_core_commit": "2026-08-06T13:11:23+00:00",
-  "last_core_commit": "2026-08-18T09:07:18+00:00",
+  "first_core_commit": "2026-08-06T13:11:36+00:00",
+  "last_core_commit": "2026-08-18T09:07:23+00:00",
   "first_ecosystem_commit": null,
   "last_ecosystem_commit": null,
-  "first_commit": "2026-08-06T13:11:23",
-  "last_commit": "2026-08-18T09:07:18",
+  "first_commit": "2026-08-06T13:11:36",
+  "last_commit": "2026-08-18T09:07:23",
   "p2016_authored_commits": 4.0,
   "modern_authored_commits": 4.0,
   "co_authored_commits": 0.0,
@@ -29,28 +29,28 @@
   "modern_bips_authored": 0.0,
   "first_bip_date": null,
   "last_bip_date": null,
-  "avg_review_latency_days": 9.692636574074074,
+  "avg_review_latency_days": 16.815884589947093,
   "reviews_count": 3.0,
-  "avg_approval_latency_days": 5.028194444444445,
-  "approvals_count": 1.0,
+  "avg_approval_latency_days": 24.75873456790124,
+  "approvals_count": 3.0,
   "tier1_reviews_count": 3.0,
   "tier2_reviews_count": 0.0,
   "p2016_reviews_count": 3.0,
   "modern_reviews_count": 3.0,
   "first_review_date": "2026-09-02T09:30:47",
-  "last_review_date": "2026-09-17T12:35:15",
+  "last_review_date": "2026-10-01T11:42:33",
   "prs_authored": 5.0,
   "tier1_prs_authored": 5.0,
   "tier2_prs_authored": 0.0,
   "avg_pr_ack_velocity_days": 7.49067361111111,
   "avg_concept_lead_time_days": 0.007847222222222222,
   "review_reciprocity": 0.6,
-  "hybrid_score": 0.0675,
-  "p2016_hybrid_score": 0.0675,
-  "modern_hybrid_score": 0.0675,
-  "impact_score": 4.0,
-  "p2016_impact_score": 4.0,
-  "modern_impact_score": 4.0,
+  "hybrid_score": 0.1604,
+  "p2016_hybrid_score": 0.1604,
+  "modern_hybrid_score": 0.1604,
+  "impact_score": 9.0,
+  "p2016_impact_score": 9.0,
+  "modern_impact_score": 9.0,
   "threads_started": 0.0,
   "replies_sent": 0.0,
   "ml_threads": 0.0,
@@ -59,11 +59,15 @@
   "delving_responses": 0.0,
   "first_active": null,
   "last_active": null,
-  "dev_type": "Participant",
+  "dev_type": "Builder",
   "expertise_domains": [
     "Infrastructure"
   ],
-  "expertise_by_source": {},
+  "expertise_by_source": {
+    "code": {
+      "Infrastructure": 1.0
+    }
+  },
   "expertise_domain_scores": {
     "Infrastructure": 1.0
   },
@@ -73,12 +77,12 @@
   "p2016_delving_posts": 0.0,
   "modern_ml_posts": 0.0,
   "modern_delving_posts": 0.0,
-  "is_engineer": false,
+  "is_engineer": true,
   "is_reviewer": true,
   "is_researcher": false,
   "is_bip_author": false,
-  "global_first_active": "2026-08-06T13:11:23",
-  "global_last_active": "2026-09-17T12:35:15",
+  "global_first_active": "2026-08-06T13:11:36",
+  "global_last_active": "2026-10-01T11:42:33",
   "github_location": null,
   "github_company": null,
   "github_bio": null,
@@ -90,9 +94,9 @@
   "github_url": "https://github.com/cyb3ralbert",
   "commit_history": {
     "2026": {
-      "Documentation": 4.0,
-      "Tests": 2.0,
-      "Utilities": 2.0
+      "Documentation": 2.0,
+      "Tests": 1.0,
+      "Utilities": 1.0
     }
   }
 }

@@ -15,12 +15,12 @@
   "self_merges": 0.0,
   "total_additions": 28.0,
   "total_deletions": 3.0,
-  "first_core_commit": "2015-12-14T12:08:26+00:00",
-  "last_core_commit": "2017-01-04T11:46:35+00:00",
+  "first_core_commit": "2015-12-14T12:08:43+00:00",
+  "last_core_commit": "2017-01-04T11:48:18+00:00",
   "first_ecosystem_commit": null,
   "last_ecosystem_commit": null,
-  "first_commit": "2015-12-14T12:08:26",
-  "last_commit": "2017-01-04T11:46:35",
+  "first_commit": "2015-12-14T12:08:43",
+  "last_commit": "2017-01-04T11:48:18",
   "p2016_authored_commits": 2.0,
   "modern_authored_commits": 0.0,
   "co_authored_commits": 0.0,
@@ -45,11 +45,11 @@
   "avg_pr_ack_velocity_days": 1.014849537037037,
   "avg_concept_lead_time_days": 0.44050925925925927,
   "review_reciprocity": 0.0,
-  "hybrid_score": 0.033,
-  "p2016_hybrid_score": 0.033,
+  "hybrid_score": 0.1364,
+  "p2016_hybrid_score": 0.0964,
   "modern_hybrid_score": 0.033,
-  "impact_score": 2.0,
-  "p2016_impact_score": 2.0,
+  "impact_score": 8.0,
+  "p2016_impact_score": 6.0,
   "modern_impact_score": 2.0,
   "threads_started": 0.0,
   "replies_sent": 0.0,
@@ -59,13 +59,20 @@
   "delving_responses": 0.0,
   "first_active": null,
   "last_active": null,
-  "dev_type": "Participant",
+  "dev_type": "Builder",
   "expertise_domains": [
+    "Wallet",
     "Infrastructure"
   ],
-  "expertise_by_source": {},
+  "expertise_by_source": {
+    "code": {
+      "Wallet": 0.8,
+      "Infrastructure": 0.2
+    }
+  },
   "expertise_domain_scores": {
-    "Infrastructure": 1.0
+    "Infrastructure": 0.2,
+    "Wallet": 0.8
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,
@@ -73,12 +80,12 @@
   "p2016_delving_posts": 0.0,
   "modern_ml_posts": 0.0,
   "modern_delving_posts": 0.0,
-  "is_engineer": false,
+  "is_engineer": true,
   "is_reviewer": true,
   "is_researcher": false,
   "is_bip_author": false,
-  "global_first_active": "2015-12-14T12:08:26",
-  "global_last_active": "2017-01-04T11:46:35",
+  "global_first_active": "2015-12-14T12:08:43",
+  "global_last_active": "2017-01-04T11:48:18",
   "github_location": "Zone 8b",
   "github_company": null,
   "github_bio": "🌊🌲 🌧 ☕️",
@@ -90,13 +97,13 @@
   "github_url": "https://github.com/accraze",
   "commit_history": {
     "2015": {
-      "Wallet": 6.0
+      "Wallet": 3.0
     },
     "2016": {
-      "Documentation": 2.0
+      "Documentation": 1.0
     },
     "2017": {
-      "Wallet": 2.0
+      "Wallet": 1.0
     }
   }
 }

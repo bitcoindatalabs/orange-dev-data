@@ -1,5 +1,5 @@
 {
-  "display_name": "Nicola Leonardo Susca",
+  "display_name": "nicola leonardo susca",
   "github_login_final": "NicolaLS",
   "delving_username_final": null,
   "uuid": "auto_nicola_leonardo_susca",
@@ -15,12 +15,12 @@
   "self_merges": 0.0,
   "total_additions": 48.0,
   "total_deletions": 40.0,
-  "first_core_commit": "2025-02-14T19:04:24+00:00",
-  "last_core_commit": "2025-05-15T15:58:35+00:00",
+  "first_core_commit": "2025-02-14T19:04:34+00:00",
+  "last_core_commit": "2025-05-15T15:58:40+00:00",
   "first_ecosystem_commit": null,
   "last_ecosystem_commit": null,
-  "first_commit": "2025-02-14T19:04:24",
-  "last_commit": "2025-05-15T15:58:35",
+  "first_commit": "2025-02-14T19:04:34",
+  "last_commit": "2025-05-15T15:58:40",
   "p2016_authored_commits": 4.0,
   "modern_authored_commits": 4.0,
   "co_authored_commits": 0.0,
@@ -45,12 +45,12 @@
   "avg_pr_ack_velocity_days": 24.025028935185187,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": 1.0,
-  "hybrid_score": 0.05,
-  "p2016_hybrid_score": 0.05,
-  "modern_hybrid_score": 0.05,
-  "impact_score": 3.0,
-  "p2016_impact_score": 3.0,
-  "modern_impact_score": 3.0,
+  "hybrid_score": 0.1429,
+  "p2016_hybrid_score": 0.1429,
+  "modern_hybrid_score": 0.1429,
+  "impact_score": 8.0,
+  "p2016_impact_score": 8.0,
+  "modern_impact_score": 8.0,
   "threads_started": 0.0,
   "replies_sent": 0.0,
   "ml_threads": 0.0,
@@ -59,11 +59,15 @@
   "delving_responses": 0.0,
   "first_active": null,
   "last_active": null,
-  "dev_type": "Participant",
+  "dev_type": "Builder",
   "expertise_domains": [
     "Infrastructure"
   ],
-  "expertise_by_source": {},
+  "expertise_by_source": {
+    "code": {
+      "Infrastructure": 1.0
+    }
+  },
   "expertise_domain_scores": {
     "Infrastructure": 1.0
   },
@@ -73,11 +77,11 @@
   "p2016_delving_posts": 0.0,
   "modern_ml_posts": 0.0,
   "modern_delving_posts": 0.0,
-  "is_engineer": false,
+  "is_engineer": true,
   "is_reviewer": true,
   "is_researcher": false,
   "is_bip_author": false,
-  "global_first_active": "2025-02-14T19:04:24",
+  "global_first_active": "2025-02-14T19:04:34",
   "global_last_active": "2026-02-16T16:24:29",
   "github_location": null,
   "github_company": null,
@@ -90,7 +94,7 @@
   "github_url": "https://github.com/NicolaLS",
   "commit_history": {
     "2025": {
-      "Documentation": 8.0
+      "Documentation": 4.0
     }
   }
 }

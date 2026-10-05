@@ -1,5 +1,5 @@
 {
-  "display_name": "Haoyu LIN",
+  "display_name": "haoyu lin",
   "github_login_final": null,
   "delving_username_final": null,
   "uuid": "auto_haoyu_lin",
@@ -57,8 +57,8 @@
   "delving_threads": 0.0,
   "ml_responses": 0.0,
   "delving_responses": 0.0,
-  "first_active": "2019-08-09T08:35:19",
-  "last_active": "2019-08-09T08:35:19",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Participant",
   "expertise_domains": [
     "L2",
@@ -66,13 +66,13 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "L2": 0.75,
-      "Script": 0.25
+      "Script": 0.25,
+      "L2": 0.75
     }
   },
   "expertise_domain_scores": {
-    "L2": 0.75,
-    "Script": 0.25
+    "Script": 0.25,
+    "L2": 0.75
   },
   "p2016_posts": 1.0,
   "modern_posts": 0.0,
@@ -84,8 +84,8 @@
   "is_reviewer": false,
   "is_researcher": true,
   "is_bip_author": false,
-  "global_first_active": "2019-08-09T08:35:19",
-  "global_last_active": "2019-08-09T08:35:19",
+  "global_first_active": null,
+  "global_last_active": null,
   "github_location": null,
   "github_company": null,
   "github_bio": null,

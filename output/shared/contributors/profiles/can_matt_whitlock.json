@@ -16,11 +16,11 @@
   "total_additions": 15.0,
   "total_deletions": 7.0,
   "first_core_commit": "2018-02-23T19:02:37+00:00",
-  "last_core_commit": "2024-08-12T13:04:12+00:00",
+  "last_core_commit": "2024-08-12T13:04:18+00:00",
   "first_ecosystem_commit": null,
   "last_ecosystem_commit": null,
   "first_commit": "2018-02-23T19:02:37",
-  "last_commit": "2024-08-12T13:04:12",
+  "last_commit": "2024-08-12T13:04:18",
   "p2016_authored_commits": 5.0,
   "modern_authored_commits": 2.0,
   "co_authored_commits": 0.0,
@@ -45,22 +45,23 @@
   "avg_pr_ack_velocity_days": 28.357586805555556,
   "avg_concept_lead_time_days": 37.649475308641975,
   "review_reciprocity": 1.2,
-  "hybrid_score": 0.2844,
-  "p2016_hybrid_score": 0.1042,
-  "modern_hybrid_score": 0.0925,
-  "impact_score": 16.0,
-  "p2016_impact_score": 6.0,
-  "modern_impact_score": 5.0,
+  "hybrid_score": 0.3871,
+  "p2016_hybrid_score": 0.2076,
+  "modern_hybrid_score": 0.1559,
+  "impact_score": 21.0,
+  "p2016_impact_score": 12.0,
+  "modern_impact_score": 9.0,
   "threads_started": 5.0,
   "replies_sent": 109.0,
   "ml_threads": 5.0,
   "delving_threads": 0.0,
   "ml_responses": 109.0,
   "delving_responses": 0.0,
-  "first_active": "2014-03-29T03:05:17",
-  "last_active": "2015-09-02T14:21:48",
-  "dev_type": "Reviewer",
+  "first_active": null,
+  "last_active": null,
+  "dev_type": "Builder",
   "expertise_domains": [
+    "Infrastructure",
     "Wallet",
     "Mining"
   ],
@@ -68,11 +69,21 @@
     "discussion": {
       "Mining": 0.345,
       "Wallet": 0.655
+    },
+    "code": {
+      "Infrastructure": 0.5,
+      "Consensus": 0.1,
+      "Network": 0.2,
+      "Mempool": 0.2
     }
   },
   "expertise_domain_scores": {
-    "Mining": 0.345,
-    "Wallet": 0.655
+    "Mining": 0.138,
+    "Infrastructure": 0.3,
+    "Wallet": 0.262,
+    "Consensus": 0.06,
+    "Mempool": 0.12,
+    "Network": 0.12
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,
@@ -80,11 +91,11 @@
   "p2016_delving_posts": 0.0,
   "modern_ml_posts": 0.0,
   "modern_delving_posts": 0.0,
-  "is_engineer": false,
+  "is_engineer": true,
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": false,
-  "global_first_active": "2014-03-29T03:05:17",
+  "global_first_active": "2017-12-29T03:56:36",
   "global_last_active": "2026-02-20T07:56:41",
   "github_location": "New Hampshire, USA",
   "github_company": null,
@@ -92,23 +103,23 @@
   "github_twitter": null,
   "github_blog": null,
   "github_followers": 38.0,
-  "activity_status": "Active",
+  "activity_status": "Rising",
   "is_top_50": false,
   "github_url": "https://github.com/whitslack",
   "commit_history": {
     "2018": {
-      "P2P Network": 2.0
+      "P2P Network": 1.0
     },
     "2021": {
-      "Build & CI": 2.0
+      "Build & CI": 1.0
     },
     "2022": {
       "Build & CI": 1.0
     },
     "2024": {
-      "Consensus": 1.0,
-      "Mempool": 2.0,
-      "Node & RPC": 1.0
+      "Consensus": 0.5,
+      "Mempool": 1.0,
+      "Node & RPC": 0.5
     }
   },
   "first_message": {

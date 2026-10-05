@@ -15,11 +15,11 @@
   "self_merges": 0.0,
   "total_additions": 1624.0,
   "total_deletions": 846.0,
-  "first_core_commit": "2020-06-16T11:21:18+00:00",
+  "first_core_commit": "2020-06-16T11:27:43+00:00",
   "last_core_commit": "2022-12-20T23:05:53+00:00",
   "first_ecosystem_commit": null,
   "last_ecosystem_commit": null,
-  "first_commit": "2020-06-16T11:21:18",
+  "first_commit": "2020-06-16T11:27:43",
   "last_commit": "2022-12-20T23:05:53",
   "p2016_authored_commits": 58.0,
   "modern_authored_commits": 0.0,
@@ -45,11 +45,11 @@
   "avg_pr_ack_velocity_days": 8.990330737934903,
   "avg_concept_lead_time_days": 37.69507175925926,
   "review_reciprocity": 3.4473684210526314,
-  "hybrid_score": 0.181,
-  "p2016_hybrid_score": 0.181,
+  "hybrid_score": 0.4163,
+  "p2016_hybrid_score": 0.4163,
   "modern_hybrid_score": 0.1381,
-  "impact_score": 10.0,
-  "p2016_impact_score": 10.0,
+  "impact_score": 22.0,
+  "p2016_impact_score": 22.0,
   "modern_impact_score": 8.0,
   "threads_started": 0.0,
   "replies_sent": 0.0,
@@ -59,13 +59,23 @@
   "delving_responses": 0.0,
   "first_active": null,
   "last_active": null,
-  "dev_type": "Reviewer",
+  "dev_type": "Builder",
   "expertise_domains": [
-    "Infrastructure"
+    "Wallet",
+    "Infrastructure",
+    "Consensus"
   ],
-  "expertise_by_source": {},
+  "expertise_by_source": {
+    "code": {
+      "Wallet": 0.504,
+      "Infrastructure": 0.472,
+      "Consensus": 0.024
+    }
+  },
   "expertise_domain_scores": {
-    "Infrastructure": 1.0
+    "Infrastructure": 0.472,
+    "Wallet": 0.504,
+    "Consensus": 0.024
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,
@@ -73,11 +83,11 @@
   "p2016_delving_posts": 0.0,
   "modern_ml_posts": 0.0,
   "modern_delving_posts": 0.0,
-  "is_engineer": false,
+  "is_engineer": true,
   "is_reviewer": true,
   "is_researcher": false,
   "is_bip_author": false,
-  "global_first_active": "2020-06-16T11:21:18",
+  "global_first_active": "2020-06-16T11:27:43",
   "global_last_active": "2024-07-08T07:55:18",
   "github_location": null,
   "github_company": null,
@@ -90,23 +100,23 @@
   "github_url": "https://github.com/S3RK",
   "commit_history": {
     "2020": {
-      "Consensus": 2.8,
-      "GUI": 0.8,
-      "Node & RPC": 0.8,
-      "Tests": 11.0,
-      "Utilities": 1.8,
-      "Wallet": 6.8
+      "Consensus": 1.4,
+      "GUI": 0.4,
+      "Node & RPC": 0.4,
+      "Tests": 5.5,
+      "Utilities": 0.9,
+      "Wallet": 3.4
     },
     "2021": {
-      "Build & CI": 2.0,
-      "Documentation": 4.0,
-      "Node & RPC": 2.67,
-      "Tests": 18.67,
-      "Wallet": 26.67
+      "Build & CI": 1.0,
+      "Documentation": 2.0,
+      "Node & RPC": 1.33,
+      "Tests": 9.33,
+      "Wallet": 13.33
     },
     "2022": {
-      "Tests": 13.0,
-      "Wallet": 25.0
+      "Tests": 6.5,
+      "Wallet": 12.5
     }
   }
 }

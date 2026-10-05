@@ -15,11 +15,11 @@
   "self_merges": 0.0,
   "total_additions": 2.0,
   "total_deletions": 2.0,
-  "first_core_commit": "2012-03-21T14:45:49+00:00",
+  "first_core_commit": "2012-03-21T14:45:50+00:00",
   "last_core_commit": "2019-02-21T04:28:35+00:00",
   "first_ecosystem_commit": null,
   "last_ecosystem_commit": null,
-  "first_commit": "2012-03-21T14:45:49",
+  "first_commit": "2012-03-21T14:45:50",
   "last_commit": "2019-02-21T04:28:35",
   "p2016_authored_commits": 1.0,
   "modern_authored_commits": 0.0,
@@ -45,11 +45,11 @@
   "avg_pr_ack_velocity_days": 9.709496527777778,
   "avg_concept_lead_time_days": 20.302118055555557,
   "review_reciprocity": 0.0,
-  "hybrid_score": 0.0396,
-  "p2016_hybrid_score": 0.0396,
+  "hybrid_score": 0.103,
+  "p2016_hybrid_score": 0.0796,
   "modern_hybrid_score": 0.0396,
-  "impact_score": 2.0,
-  "p2016_impact_score": 2.0,
+  "impact_score": 6.0,
+  "p2016_impact_score": 5.0,
   "modern_impact_score": 2.0,
   "threads_started": 0.0,
   "replies_sent": 0.0,
@@ -59,11 +59,15 @@
   "delving_responses": 0.0,
   "first_active": null,
   "last_active": null,
-  "dev_type": "Participant",
+  "dev_type": "Builder",
   "expertise_domains": [
     "Infrastructure"
   ],
-  "expertise_by_source": {},
+  "expertise_by_source": {
+    "code": {
+      "Infrastructure": 1.0
+    }
+  },
   "expertise_domain_scores": {
     "Infrastructure": 1.0
   },
@@ -73,11 +77,11 @@
   "p2016_delving_posts": 0.0,
   "modern_ml_posts": 0.0,
   "modern_delving_posts": 0.0,
-  "is_engineer": false,
+  "is_engineer": true,
   "is_reviewer": true,
   "is_researcher": false,
   "is_bip_author": false,
-  "global_first_active": "2012-03-21T14:45:49",
+  "global_first_active": "2012-03-21T14:45:50",
   "global_last_active": "2019-02-21T04:28:35",
   "github_location": "Berlin, Germany",
   "github_company": "@DeforaNetworks ",
@@ -90,7 +94,7 @@
   "github_url": "https://github.com/khorben",
   "commit_history": {
     "2012": {
-      "Build & CI": 2.0
+      "Build & CI": 1.0
     },
     "2019": {
       "Build & CI": 1.0

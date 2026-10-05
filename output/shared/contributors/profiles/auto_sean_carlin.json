@@ -1,7 +1,7 @@
 {
   "display_name": "Sean Carlin",
   "github_login_final": null,
-  "delving_username_final": null,
+  "delving_username_final": "scarlin90",
   "uuid": "auto_sean_carlin",
   "badges": null,
   "roles": null,
@@ -45,55 +45,53 @@
   "avg_pr_ack_velocity_days": null,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": null,
-  "hybrid_score": 0.0198,
-  "p2016_hybrid_score": 0.0305,
-  "modern_hybrid_score": 0.1085,
+  "hybrid_score": 0.0191,
+  "p2016_hybrid_score": 0.0294,
+  "modern_hybrid_score": 0.1047,
   "impact_score": 1.0,
   "p2016_impact_score": 2.0,
   "modern_impact_score": 6.0,
-  "threads_started": 1.0,
-  "replies_sent": 5.0,
+  "threads_started": 5.0,
+  "replies_sent": 6.0,
   "ml_threads": 1.0,
-  "delving_threads": 0.0,
+  "delving_threads": 4.0,
   "ml_responses": 5.0,
-  "delving_responses": 0.0,
-  "first_active": "2026-03-25T07:00:13",
-  "last_active": "2026-04-17T11:11:25",
+  "delving_responses": 1.0,
+  "first_active": null,
+  "last_active": "2026-09-28T11:09:46.383000",
   "dev_type": "Participant",
   "expertise_domains": [
-    "Wallet",
-    "Privacy"
+    "Wallet"
   ],
   "expertise_by_source": {
     "discussion": {
-      "Privacy": 0.2,
-      "Wallet": 0.8
+      "Wallet": 1.0
     }
   },
   "expertise_domain_scores": {
-    "Privacy": 0.2,
-    "Wallet": 0.8
+    "Wallet": 1.0
   },
-  "p2016_posts": 6.0,
-  "modern_posts": 6.0,
+  "p2016_posts": 11.0,
+  "modern_posts": 11.0,
   "p2016_ml_posts": 6.0,
-  "p2016_delving_posts": 0.0,
+  "p2016_delving_posts": 5.0,
   "modern_ml_posts": 6.0,
-  "modern_delving_posts": 0.0,
+  "modern_delving_posts": 5.0,
   "is_engineer": false,
   "is_reviewer": false,
   "is_researcher": true,
   "is_bip_author": false,
-  "global_first_active": "2026-03-25T07:00:13",
-  "global_last_active": "2026-04-17T11:11:25",
+  "global_first_active": null,
+  "global_last_active": "2026-09-28T11:09:46.383000",
   "github_location": null,
   "github_company": null,
   "github_bio": null,
   "github_twitter": null,
   "github_blog": null,
   "github_followers": null,
-  "activity_status": "New",
+  "activity_status": "Active",
   "is_top_50": false,
+  "delving_url": "https://delvingbitcoin.org/u/scarlin90",
   "first_message": {
     "source": "mailing_list",
     "subject": "[bitcoindev] [BIP Draft] Blind Relay: Stateless Encrypted WebSocket\n Coordination for PSBTs",
@@ -101,16 +99,19 @@
     "link": "https://gnusha.org/pi/bitcoindev/3f1a1491-06e1-4453-9538-fa66bc432a06n@googlegroups.com"
   },
   "last_message": {
-    "source": "mailing_list",
-    "subject": "Re: [bitcoindev] [BIP Draft] Blind Relay: Stateless Encrypted\n WebSocket Coordination for PSBTs",
-    "date": "2026-04-17",
-    "link": "https://gnusha.org/pi/bitcoindev/740f74db-c7eb-40df-948a-84fc4c821b38n@googlegroups.com"
+    "source": "delving",
+    "subject": "Re: BIP Proposal: Stateless PSBT Coordination (Blind Relay)",
+    "date": "2026-09-28",
+    "link": "https://delvingbitcoin.org/t/bip-proposal-stateless-psbt-coordination-blind-relay/2369/4"
   },
   "social_history": {
     "2026": {
-      "multisig-threshold": 1,
+      "core-dev": 4,
+      "mempool-fees": 1,
+      "multisig-threshold": 5,
       "privacy": 2,
-      "wallet-keys": 6
+      "script-opcodes": 1,
+      "wallet-keys": 10
     }
   }
 }
