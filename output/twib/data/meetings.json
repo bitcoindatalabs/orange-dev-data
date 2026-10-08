@@ -11,12 +11,74 @@
       "jonatack",
       "sliv3r__"
     ],
-    "topics_discussed": [
-      "Summary generation failed."
+    "active_participants": [
+      "stickies-v",
+      "sedited",
+      "brunoerg",
+      "johnny9dev",
+      "jonatack",
+      "sliv3r__",
+      "pinheadmz",
+      "marcofleon"
     ],
-    "decisions_made": [],
-    "action_items": [],
-    "mentioned_prs": [],
+    "topics_discussed": [
+      "Fuzzing WG: marcofleon reported that high-quality fuzzing is actively occurring.",
+      "Kernel WG: sedited merged #34374, which provides a more flexible, struct-based logging interface for kernel users and removes reliance on the logging module. sedited requested review for #35641 (kernel: Add script evaluation tracer), which alexanderwiederin is using for experimental BIP440 integration in rust-bitcoinkernel/pull/230.",
+      "Benchmarking WG: l0rinc (via sedited) shared #36476, an opt-in pruned assumevalid mode that downloads blocks without witnesses, buffers them in memory, then deserializes and connects them without writing blocks or undo data to disk. Early tests show this could reduce pruned IBD on a 2 GB Pi 4 from ~22 days to under a week.",
+      "QML GUI WG: johnny9dev reported positive feedback from last week's testing. The preview build has been updated, and the project board is being cleaned up. Current focus is on finalizing UX, moving all functions off the GUI thread with regression tests, and finalizing the feature set for upstreaming to bitcoin/bitcoin.",
+      "QA WG: brunoerg announced that mutanthub.space now features a dedicated page for requesting mutation analysis for pull requests."
+    ],
+    "decisions_made": [
+      "The regular engineering sync will be skipped next week."
+    ],
+    "action_items": [
+      "Developers are requested to review #35641 (kernel: Add script evaluation tracer) by sedited.",
+      "Developers are encouraged to request mutation analysis for their pull requests via the new dedicated page on mutanthub.space.",
+      "johnny9dev's team will focus on finalizing QML GUI UX, migrating functions off the GUI thread with regression tests, and finalizing the feature set for upstreaming."
+    ],
+    "mentioned_prs": [
+      34374,
+      35641,
+      36476
+    ],
+    "card_topics": [
+      "Kernel WG: sedited merged #34374 for struct-based logging; requested review for #35641 (script evaluation tracer) used in BIP440 integration.",
+      "Benchmarking WG: l0rinc proposed #36476, an opt-in pruned assumevalid mode to reduce Pi 4 IBD from ~22 days to under a week.",
+      "QML GUI WG: johnny9dev reported good testing feedback, focusing on UX finalization, off-GUI thread functions, regression tests, and feature set for upstreaming.",
+      "QA WG: brunoerg launched mutanthub.space's dedicated page for requesting mutation analysis runs for pull requests.",
+      "Fuzzing WG: marcofleon confirmed high-quality fuzzing is actively occurring, ensuring code robustness."
+    ],
+    "spotlight_debate": "No significant technical debate occurred. The most notable proposal was l0rinc's #36476 for faster pruned IBD on low-end devices.",
+    "referenced_artifacts": [
+      {
+        "label": "PR #34374",
+        "icon": "git-pull-request"
+      },
+      {
+        "label": "PR #35641",
+        "icon": "git-pull-request"
+      },
+      {
+        "label": "PR #36476",
+        "icon": "git-pull-request"
+      },
+      {
+        "label": "mutanthub.space",
+        "icon": "globe"
+      },
+      {
+        "label": "rust-bitcoinkernel",
+        "icon": "code-branch"
+      }
+    ],
+    "narrative_summary": "Kernel development saw sedited merge #34374, refactoring logging to a struct-based interface and removing global logging module reliance. sedited requested review for #35641, a script evaluation tracer, used by alexanderwiederin for experimental BIP440 integration in rust-bitcoinkernel. In benchmarking, l0rinc introduced #36476, an opt-in pruned assumevalid mode to accelerate IBD on Raspberry Pi 4, potentially reducing sync times from 22 days to under a week.\n\nThe QML GUI WG, led by johnny9dev, reported positive testing feedback. Focus is on finalizing UX, migrating functions off the GUI thread with regression tests, and defining the feature set for upstreaming. For quality assurance, brunoerg announced mutanthub.space now offers a dedicated page for requesting mutation analysis for pull requests. marcofleon confirmed ongoing high-quality fuzzing.\n\nNo specific technical debates or leadership changes occurred. The primary logistical decision was to skip the regular engineering sync next week. Developers are encouraged to review outstanding pull requests, particularly #35641, and to leverage mutanthub.space for mutation testing.",
+    "x_priority_takeaway": "Review #35641 (kernel tracer) and #36476 (pruned IBD).",
+    "x_bullet_points": [
+      "Kernel logging refactor merged.",
+      "Faster pruned IBD proposed.",
+      "QML GUI progressing."
+    ],
+    "linkedin_context": "Kernel development saw sedited merge #34374, refactoring logging to a struct-based interface and removing global logging module reliance. sedited requested review for #35641, a script evaluation tracer, used by alexanderwiederin for experimental BIP440 integration in rust-bitcoinkernel. In benchmarking, l0rinc introduced #36476, an opt-in pruned assumevalid mode to accelerate IBD on Raspberry Pi 4, potentially reducing sync times from 22 days to under a week.\n\nThe QML GUI WG, led by johnny9dev, reported positive testing feedback. Focus is on finalizing UX, migrating functions off the GUI thread with regression tests, and defining the feature set for upstreaming. For quality assurance, brunoerg announced mutanthub.space now offers a dedicated page for requesting mutation analysis for pull requests. marcofleon confirmed ongoing high-quality fuzzing.\n\nNo specific technical debates or leadership changes occurred. The primary logistical decision was to skip the regular engineering sync next week. Developers are encouraged to review outstanding pull requests, particularly #35641, and to leverage mutanthub.space for mutation testing.",
     "_text_hash": "76e895d02b730cef38c0c2a23d83c158"
   },
   {
