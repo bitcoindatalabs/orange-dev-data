@@ -1,5 +1,25 @@
 [
   {
+    "date": "2026-10-08",
+    "url": "https://achow101.com/ircmeetings/2026/bitcoin-core-dev.2026-10-08_16_00.log.json",
+    "participant_count": 22,
+    "key_participants": [
+      "stickies-v",
+      "sedited",
+      "brunoerg",
+      "johnny9dev",
+      "jonatack",
+      "sliv3r__"
+    ],
+    "topics_discussed": [
+      "Summary generation failed."
+    ],
+    "decisions_made": [],
+    "action_items": [],
+    "mentioned_prs": [],
+    "_text_hash": "76e895d02b730cef38c0c2a23d83c158"
+  },
+  {
     "date": "2026-10-01",
     "url": "https://achow101.com/ircmeetings/2026/bitcoin-core-dev.2026-10-01_16_00.log.json",
     "participant_count": 24,
