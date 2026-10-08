@@ -253,7 +253,7 @@ Do NOT use markdown wrappers. Output only JSON.
                         break
 
                 except urllib.error.HTTPError as e:
-                    if e.code == 429 or e.code == 404:
+                    if e.code in (403, 404, 429):
                         print(f"Key {key_index + 1} hit {e.code}. Rotating to next key...")
                         break 
                     else:
@@ -264,18 +264,11 @@ Do NOT use markdown wrappers. Output only JSON.
                     time.sleep(2)
                     
         if not success:
-            print(f"Failed to generate summary for {date}. Appending empty structure.")
-            new_summaries.append({
-                "date": date,
-                "url": meeting.get("url", ""),
-                "participant_count": participant_count,
-                "key_participants": top_nicks,
-                "topics_discussed": ["Summary generation failed."],
-                "decisions_made": [],
-                "action_items": [],
-                "mentioned_prs": [],
-                "_text_hash": text_hash
-            })
+            if existing and existing.get("card_topics"):
+                print(f"Failed to refresh summary for {date}. Retaining existing valid summary.")
+                new_summaries.append(existing)
+            else:
+                raise RuntimeError(f"Failed to generate summary for {date}. All {len(api_keys)} Gemini API keys failed.")
 
     if changed:
         # Sort by date descending
