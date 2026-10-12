@@ -5,27 +5,27 @@
   "uuid": "auto_aaron_clauson",
   "badges": {
     "ecosystem_contributor": true,
-    "tier2_commits": 93
+    "tier2_commits": 94
   },
   "roles": null,
-  "total_commits": 140.0,
-  "authored_commits": 140.0,
+  "total_commits": 141.0,
+  "authored_commits": 141.0,
   "tier1_authored_commits": 47.0,
-  "tier2_authored_commits": 93.0,
+  "tier2_authored_commits": 94.0,
   "merge_commits": 0.0,
   "tier1_merge_commits": 0.0,
   "tier2_merge_commits": 0.0,
   "self_merges": 0.0,
-  "total_additions": 8470.0,
+  "total_additions": 8498.0,
   "total_deletions": 4541.0,
   "first_core_commit": "2017-11-13T11:49:46+00:00",
   "last_core_commit": "2023-12-11T09:18:46+00:00",
   "first_ecosystem_commit": "2021-07-23T19:04:24+00:00",
-  "last_ecosystem_commit": "2026-10-01T20:29:30+00:00",
+  "last_ecosystem_commit": "2026-10-06T05:58:02+00:00",
   "first_commit": "2017-11-13T11:49:46",
   "last_commit": "2023-12-11T09:18:46",
-  "p2016_authored_commits": 140.0,
-  "modern_authored_commits": 73.0,
+  "p2016_authored_commits": 141.0,
+  "modern_authored_commits": 74.0,
   "co_authored_commits": 2.0,
   "bips_authored": 0.0,
   "p2016_bips_authored": 0.0,
@@ -71,8 +71,8 @@
   "expertise_by_source": {
     "code": {
       "Infrastructure": 0.989,
-      "Consensus": 0.002,
-      "Network": 0.009
+      "Network": 0.009,
+      "Consensus": 0.002
     }
   },
   "expertise_domain_scores": {

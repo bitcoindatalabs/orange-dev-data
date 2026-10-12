@@ -1,5 +1,5 @@
 {
-  "display_name": "marijn stollenga",
+  "display_name": "Marijn Stollenga",
   "github_login_final": "marijnfs",
   "delving_username_final": null,
   "uuid": "auto_marijn_stollenga",
@@ -66,8 +66,8 @@
   ],
   "expertise_by_source": {
     "code": {
-      "Wallet": 0.5,
-      "Infrastructure": 0.5
+      "Infrastructure": 0.5,
+      "Wallet": 0.5
     }
   },
   "expertise_domain_scores": {

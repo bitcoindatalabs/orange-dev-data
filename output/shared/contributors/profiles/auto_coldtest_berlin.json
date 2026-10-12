@@ -57,8 +57,8 @@
   "delving_threads": 3.0,
   "ml_responses": 0.0,
   "delving_responses": 4.0,
-  "first_active": "2026-08-04T07:55:25.419000",
-  "last_active": "2026-08-23T08:57:28.729000",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Participant",
   "expertise_domains": [
     "Cryptography",
@@ -67,9 +67,9 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Wallet": 0.239,
       "Script": 0.239,
-      "Cryptography": 0.522
+      "Cryptography": 0.522,
+      "Wallet": 0.239
     }
   },
   "expertise_domain_scores": {
@@ -87,8 +87,8 @@
   "is_reviewer": false,
   "is_researcher": false,
   "is_bip_author": false,
-  "global_first_active": "2026-08-04T07:55:25.419000",
-  "global_last_active": "2026-08-23T08:57:28.729000",
+  "global_first_active": null,
+  "global_last_active": null,
   "github_location": null,
   "github_company": null,
   "github_bio": null,

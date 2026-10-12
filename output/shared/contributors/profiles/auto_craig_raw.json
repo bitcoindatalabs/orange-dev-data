@@ -59,7 +59,7 @@
   "review_reciprocity": 3.142857142857143,
   "hybrid_score": 0.902,
   "p2016_hybrid_score": 0.9296,
-  "modern_hybrid_score": 0.81,
+  "modern_hybrid_score": 0.8092,
   "impact_score": 42.0,
   "p2016_impact_score": 43.0,
   "modern_impact_score": 38.0,
@@ -69,8 +69,8 @@
   "delving_threads": 3.0,
   "ml_responses": 20.0,
   "delving_responses": 5.0,
-  "first_active": null,
-  "last_active": null,
+  "first_active": "2021-01-16T00:15:27",
+  "last_active": "2026-09-14T05:06:47",
   "dev_type": "Protocol Designer",
   "expertise_domains": [
     "Script",
@@ -86,13 +86,13 @@
       "Infrastructure": 1.0
     },
     "bips": {
-      "Script": 0.667,
-      "Wallet": 0.333
+      "Wallet": 0.333,
+      "Script": 0.667
     }
   },
   "expertise_domain_scores": {
-    "Privacy": 0.105,
     "Infrastructure": 0.3,
+    "Privacy": 0.105,
     "Wallet": 0.2615,
     "Script": 0.3335
   },
@@ -107,7 +107,7 @@
   "is_researcher": true,
   "is_bip_author": true,
   "global_first_active": "2020-12-19T07:12:35",
-  "global_last_active": "2026-09-07T14:13:53",
+  "global_last_active": "2026-09-14T05:06:47",
   "github_location": null,
   "github_company": null,
   "github_bio": null,

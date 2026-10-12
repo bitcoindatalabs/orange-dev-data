@@ -1,5 +1,5 @@
 {
-  "display_name": "satsfy (Renato Britto)",
+  "display_name": "satsfy (renato britto)",
   "github_login_final": "satsfy",
   "delving_username_final": null,
   "uuid": "auto_satsfy_renato_britto",
@@ -66,8 +66,8 @@
   ],
   "expertise_by_source": {
     "code": {
-      "Wallet": 0.278,
-      "Infrastructure": 0.722
+      "Infrastructure": 0.722,
+      "Wallet": 0.278
     }
   },
   "expertise_domain_scores": {

@@ -1,5 +1,5 @@
 {
-  "display_name": "enrique",
+  "display_name": "Enrique",
   "github_login_final": null,
   "delving_username_final": "el_mcmurphy",
   "uuid": "auto_enrique",
@@ -57,8 +57,8 @@
   "delving_threads": 1.0,
   "ml_responses": 0.0,
   "delving_responses": 0.0,
-  "first_active": "2025-10-31T14:57:42.206000",
-  "last_active": "2025-10-31T14:57:42.206000",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Participant",
   "expertise_domains": [
     "Privacy",
@@ -67,14 +67,14 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Privacy": 0.509,
       "Mempool": 0.246,
+      "Privacy": 0.509,
       "L2": 0.246
     }
   },
   "expertise_domain_scores": {
-    "Privacy": 0.5085,
     "Mempool": 0.2458,
+    "Privacy": 0.5085,
     "L2": 0.2458
   },
   "p2016_posts": 1.0,
@@ -87,8 +87,8 @@
   "is_reviewer": false,
   "is_researcher": false,
   "is_bip_author": false,
-  "global_first_active": "2025-10-31T14:57:42.206000",
-  "global_last_active": "2025-10-31T14:57:42.206000",
+  "global_first_active": null,
+  "global_last_active": null,
   "github_location": null,
   "github_company": null,
   "github_bio": null,

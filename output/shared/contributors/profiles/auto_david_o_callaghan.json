@@ -1,5 +1,5 @@
 {
-  "display_name": "David O'Callaghan",
+  "display_name": "david o'callaghan",
   "github_login_final": "docallag",
   "delving_username_final": null,
   "uuid": "auto_david_o_callaghan",
@@ -66,8 +66,8 @@
   ],
   "expertise_by_source": {
     "code": {
-      "Wallet": 0.5,
-      "Infrastructure": 0.5
+      "Infrastructure": 0.5,
+      "Wallet": 0.5
     }
   },
   "expertise_domain_scores": {

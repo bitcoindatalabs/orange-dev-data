@@ -75,8 +75,8 @@
   "delving_threads": 1.0,
   "ml_responses": 1.0,
   "delving_responses": 0.0,
-  "first_active": null,
-  "last_active": "2026-05-12T19:18:49.397000",
+  "first_active": "2019-11-18T10:44:00",
+  "last_active": null,
   "dev_type": "Builder",
   "expertise_domains": [
     "Infrastructure",
@@ -88,19 +88,19 @@
       "Network": 1.0
     },
     "code": {
-      "Wallet": 0.002,
       "Infrastructure": 0.798,
-      "Consensus": 0.152,
-      "Script": 0.003,
       "Network": 0.028,
-      "Mempool": 0.017
+      "Wallet": 0.002,
+      "Mempool": 0.017,
+      "Consensus": 0.152,
+      "Script": 0.003
     }
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.4788,
-    "Consensus": 0.0912,
     "Mempool": 0.0102,
-    "Network": 0.4168
+    "Network": 0.4168,
+    "Consensus": 0.0912
   },
   "p2016_posts": 2.0,
   "modern_posts": 1.0,
@@ -113,7 +113,7 @@
   "is_researcher": true,
   "is_bip_author": false,
   "global_first_active": "2017-08-18T07:57:31",
-  "global_last_active": "2026-05-12T19:18:49.397000",
+  "global_last_active": "2025-11-05T03:55:45",
   "github_location": "New York",
   "github_company": null,
   "github_bio": "Bitcoin, UNIX, systems engineering.",

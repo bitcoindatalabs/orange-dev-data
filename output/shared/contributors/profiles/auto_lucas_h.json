@@ -1,5 +1,5 @@
 {
-  "display_name": "lucas h",
+  "display_name": "Lucas H",
   "github_login_final": "lucash-dev",
   "delving_username_final": null,
   "uuid": "auto_lucas_h",
@@ -57,8 +57,8 @@
   "delving_threads": 0.0,
   "ml_responses": 2.0,
   "delving_responses": 0.0,
-  "first_active": null,
-  "last_active": null,
+  "first_active": "2019-10-18T17:01:54",
+  "last_active": "2019-10-20T16:33:24",
   "dev_type": "Builder",
   "expertise_domains": [
     "Mining",
@@ -70,20 +70,20 @@
       "Mining": 1.0
     },
     "code": {
-      "Wallet": 0.025,
       "Infrastructure": 0.625,
+      "Network": 0.025,
+      "Wallet": 0.025,
       "Consensus": 0.225,
-      "Script": 0.1,
-      "Network": 0.025
+      "Script": 0.1
     }
   },
   "expertise_domain_scores": {
-    "Mining": 0.4,
     "Infrastructure": 0.375,
+    "Mining": 0.4,
+    "Network": 0.015,
     "Wallet": 0.015,
     "Consensus": 0.135,
-    "Script": 0.06,
-    "Network": 0.015
+    "Script": 0.06
   },
   "p2016_posts": 3.0,
   "modern_posts": 0.0,
@@ -96,7 +96,7 @@
   "is_researcher": true,
   "is_bip_author": false,
   "global_first_active": "2018-05-31T02:24:58",
-  "global_last_active": "2019-09-18T14:02:37",
+  "global_last_active": "2019-10-20T16:33:24",
   "github_location": null,
   "github_company": null,
   "github_bio": null,

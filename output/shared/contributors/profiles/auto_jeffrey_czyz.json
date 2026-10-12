@@ -1,5 +1,5 @@
 {
-  "display_name": "Jeffrey Czyz",
+  "display_name": "jeffrey czyz",
   "github_login_final": "jkczyz",
   "delving_username_final": null,
   "uuid": "auto_jeffrey_czyz",
@@ -67,17 +67,17 @@
   ],
   "expertise_by_source": {
     "code": {
-      "Wallet": 0.011,
       "Infrastructure": 0.814,
-      "Consensus": 0.165,
-      "Network": 0.011
+      "Network": 0.011,
+      "Wallet": 0.011,
+      "Consensus": 0.165
     }
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.8132,
+    "Network": 0.011,
     "Wallet": 0.011,
-    "Consensus": 0.1648,
-    "Network": 0.011
+    "Consensus": 0.1648
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,

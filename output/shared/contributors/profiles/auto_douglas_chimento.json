@@ -1,5 +1,5 @@
 {
-  "display_name": "Douglas Chimento",
+  "display_name": "douglas chimento",
   "github_login_final": "dougEfresh",
   "delving_username_final": null,
   "uuid": "auto_douglas_chimento",
@@ -68,14 +68,14 @@
   "expertise_by_source": {
     "code": {
       "Infrastructure": 0.686,
-      "Consensus": 0.143,
-      "Network": 0.171
+      "Network": 0.171,
+      "Consensus": 0.143
     }
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.686,
-    "Consensus": 0.143,
-    "Network": 0.171
+    "Network": 0.171,
+    "Consensus": 0.143
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,

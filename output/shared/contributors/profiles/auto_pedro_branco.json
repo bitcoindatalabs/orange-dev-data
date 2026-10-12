@@ -1,5 +1,5 @@
 {
-  "display_name": "pedro branco",
+  "display_name": "Pedro Branco",
   "github_login_final": "pedrobranco",
   "delving_username_final": null,
   "uuid": "auto_pedro_branco",
@@ -67,8 +67,8 @@
   ],
   "expertise_by_source": {
     "code": {
-      "Wallet": 0.55,
       "Infrastructure": 0.4,
+      "Wallet": 0.55,
       "Consensus": 0.05
     }
   },

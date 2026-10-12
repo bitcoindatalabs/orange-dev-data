@@ -1,5 +1,5 @@
 {
-  "display_name": "Dr Olga Ukolova",
+  "display_name": "dr olga ukolova",
   "github_login_final": null,
   "delving_username_final": null,
   "uuid": "auto_dr_olga_ukolova",
@@ -57,8 +57,8 @@
   "delving_threads": 0.0,
   "ml_responses": 0.0,
   "delving_responses": 0.0,
-  "first_active": null,
-  "last_active": null,
+  "first_active": "2023-04-26T13:37:59",
+  "last_active": "2023-04-26T13:37:59",
   "dev_type": "Participant",
   "expertise_domains": [
     "Wallet",
@@ -66,8 +66,8 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Wallet": 0.75,
-      "Script": 0.25
+      "Script": 0.25,
+      "Wallet": 0.75
     }
   },
   "expertise_domain_scores": {
@@ -84,8 +84,8 @@
   "is_reviewer": false,
   "is_researcher": false,
   "is_bip_author": false,
-  "global_first_active": null,
-  "global_last_active": null,
+  "global_first_active": "2023-04-26T13:37:59",
+  "global_last_active": "2023-04-26T13:37:59",
   "github_location": null,
   "github_company": null,
   "github_bio": null,

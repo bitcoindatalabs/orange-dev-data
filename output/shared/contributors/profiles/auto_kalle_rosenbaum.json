@@ -59,7 +59,7 @@
   "review_reciprocity": 0.6363636363636364,
   "hybrid_score": 0.7044,
   "p2016_hybrid_score": 0.1235,
-  "modern_hybrid_score": 0.0984,
+  "modern_hybrid_score": 0.0981,
   "impact_score": 34.0,
   "p2016_impact_score": 7.0,
   "modern_impact_score": 6.0,
@@ -69,8 +69,8 @@
   "delving_threads": 0.0,
   "ml_responses": 39.0,
   "delving_responses": 0.0,
-  "first_active": null,
-  "last_active": null,
+  "first_active": "2015-03-13T14:29:42",
+  "last_active": "2025-01-17T04:38:28",
   "dev_type": "Participant",
   "expertise_domains": [
     "Infrastructure",
@@ -87,8 +87,8 @@
     }
   },
   "expertise_domain_scores": {
-    "Mining": 0.1429,
     "Infrastructure": 0.7143,
+    "Mining": 0.1429,
     "Mempool": 0.1429
   },
   "p2016_posts": 12.0,
@@ -101,8 +101,8 @@
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": true,
-  "global_first_active": "2015-07-28T15:41:35",
-  "global_last_active": "2023-06-21T14:14:43",
+  "global_first_active": "2015-03-13T14:29:42",
+  "global_last_active": "2025-01-17T04:38:28",
   "github_location": null,
   "github_company": null,
   "github_bio": null,

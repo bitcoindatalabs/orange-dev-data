@@ -1,5 +1,5 @@
 {
-  "display_name": "Alex Lewin",
+  "display_name": "alex lewin",
   "github_login_final": null,
   "delving_username_final": "alex",
   "uuid": "auto_alex_lewin",
@@ -57,8 +57,8 @@
   "delving_threads": 2.0,
   "ml_responses": 0.0,
   "delving_responses": 1.0,
-  "first_active": "2024-01-17T14:51:04.886000",
-  "last_active": "2026-02-06T03:48:07.162000",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Participant",
   "expertise_domains": [
     "Consensus",
@@ -68,8 +68,8 @@
   "expertise_by_source": {
     "discussion": {
       "Consensus": 0.429,
-      "Wallet": 0.286,
-      "Script": 0.286
+      "Script": 0.286,
+      "Wallet": 0.286
     }
   },
   "expertise_domain_scores": {
@@ -87,8 +87,8 @@
   "is_reviewer": false,
   "is_researcher": false,
   "is_bip_author": false,
-  "global_first_active": "2024-01-17T14:51:04.886000",
-  "global_last_active": "2026-02-06T03:48:07.162000",
+  "global_first_active": null,
+  "global_last_active": null,
   "github_location": null,
   "github_company": null,
   "github_bio": null,

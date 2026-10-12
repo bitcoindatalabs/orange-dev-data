@@ -1,5 +1,5 @@
 {
-  "display_name": "Neha Narula",
+  "display_name": "neha narula",
   "github_login_final": "narula",
   "delving_username_final": null,
   "uuid": "auto_neha_narula",
@@ -68,14 +68,14 @@
   "expertise_by_source": {
     "code": {
       "Infrastructure": 0.208,
-      "Consensus": 0.041,
-      "Network": 0.751
+      "Network": 0.751,
+      "Consensus": 0.041
     }
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.208,
-    "Consensus": 0.041,
-    "Network": 0.751
+    "Network": 0.751,
+    "Consensus": 0.041
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,

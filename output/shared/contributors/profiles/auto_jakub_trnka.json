@@ -1,5 +1,5 @@
 {
-  "display_name": "jakub trnka",
+  "display_name": "Jakub Trnka",
   "github_login_final": "jakubtrnka",
   "delving_username_final": null,
   "uuid": "auto_jakub_trnka",
@@ -57,8 +57,8 @@
   "delving_threads": 0.0,
   "ml_responses": 1.0,
   "delving_responses": 0.0,
-  "first_active": null,
-  "last_active": null,
+  "first_active": "2018-07-12T19:27:31",
+  "last_active": "2018-07-12T19:27:31",
   "dev_type": "Builder",
   "expertise_domains": [
     "Infrastructure",
@@ -75,8 +75,8 @@
     }
   },
   "expertise_domain_scores": {
-    "Mining": 0.268,
     "Infrastructure": 0.6,
+    "Mining": 0.268,
     "Network": 0.132
   },
   "p2016_posts": 1.0,
@@ -89,7 +89,7 @@
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": false,
-  "global_first_active": "2026-09-14T12:11:01",
+  "global_first_active": "2018-07-12T19:27:31",
   "global_last_active": "2026-09-14T12:11:01",
   "github_location": null,
   "github_company": "Braiins",
@@ -97,7 +97,7 @@
   "github_twitter": null,
   "github_blog": null,
   "github_followers": 21.0,
-  "activity_status": "New",
+  "activity_status": "Active",
   "is_top_50": false,
   "github_url": "https://github.com/jakubtrnka",
   "commit_history": {

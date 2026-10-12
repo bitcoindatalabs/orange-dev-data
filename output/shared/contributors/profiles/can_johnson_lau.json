@@ -69,8 +69,8 @@
   "delving_threads": 0.0,
   "ml_responses": 202.0,
   "delving_responses": 0.0,
-  "first_active": null,
-  "last_active": null,
+  "first_active": "2015-07-22T12:00:41",
+  "last_active": "2019-05-26T12:24:13",
   "dev_type": "Protocol Designer",
   "expertise_domains": [
     "Consensus",
@@ -82,12 +82,12 @@
       "Consensus": 1.0
     },
     "code": {
-      "Wallet": 0.011,
       "Infrastructure": 0.595,
-      "Consensus": 0.117,
-      "Script": 0.161,
       "Network": 0.011,
-      "Mempool": 0.106
+      "Wallet": 0.011,
+      "Mempool": 0.106,
+      "Consensus": 0.117,
+      "Script": 0.161
     },
     "bips": {
       "Consensus": 1.0
@@ -95,8 +95,8 @@
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.1784,
-    "Consensus": 0.7349,
     "Mempool": 0.0318,
+    "Consensus": 0.7349,
     "Script": 0.0483
   },
   "p2016_posts": 162.0,

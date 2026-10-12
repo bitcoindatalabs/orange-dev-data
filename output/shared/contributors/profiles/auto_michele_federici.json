@@ -1,5 +1,5 @@
 {
-  "display_name": "Michele Federici",
+  "display_name": "michele federici",
   "github_login_final": "ps1dr3x",
   "delving_username_final": null,
   "uuid": "auto_michele_federici",
@@ -57,8 +57,8 @@
   "delving_threads": 0.0,
   "ml_responses": 0.0,
   "delving_responses": 0.0,
-  "first_active": null,
-  "last_active": null,
+  "first_active": "2019-04-19T06:53:51",
+  "last_active": "2019-04-19T06:53:51",
   "dev_type": "Participant",
   "expertise_domains": [
     "Consensus",
@@ -68,8 +68,8 @@
   "expertise_by_source": {
     "discussion": {
       "Consensus": 0.5,
-      "Wallet": 0.25,
-      "Script": 0.25
+      "Script": 0.25,
+      "Wallet": 0.25
     }
   },
   "expertise_domain_scores": {
@@ -87,7 +87,7 @@
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": false,
-  "global_first_active": "2019-05-14T18:17:26",
+  "global_first_active": "2019-04-19T06:53:51",
   "global_last_active": "2019-05-14T20:23:17",
   "github_location": "🇨🇭 && 🇮🇹",
   "github_company": "@sig9sec @unicrowio",

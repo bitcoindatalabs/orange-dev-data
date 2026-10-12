@@ -1,38 +1,38 @@
 {
-  "generated_at": "2026-10-04",
+  "generated_at": "2026-10-11",
   "groups": {
-    "committers": 1272,
-    "reviewers": 5268,
-    "research": 1689,
-    "standards": 163,
-    "total_active": 6631,
-    "total_registry": 7790
+    "committers": 1274,
+    "reviewers": 5282,
+    "research": 1694,
+    "standards": 162,
+    "total_active": 6651,
+    "total_registry": 7810
   },
   "venn_4": {
     "0001": 12,
-    "0010": 1185,
+    "0010": 1191,
     "0011": 27,
-    "0100": 3949,
+    "0100": 3962,
     "0101": 6,
-    "0110": 144,
+    "0110": 143,
     "0111": 36,
     "1000": 125,
     "1001": 1,
     "1010": 12,
     "1011": 1,
-    "1100": 847,
+    "1100": 849,
     "1101": 2,
-    "1110": 206,
-    "1111": 78
+    "1110": 207,
+    "1111": 77
   },
   "venn_summary": {
     "code_only": 125,
-    "review_only": 3949,
-    "research_only": 1185,
+    "review_only": 3962,
+    "research_only": 1191,
     "standards_only": 12,
-    "all_four": 78,
-    "code_review": 847,
-    "review_research": 144,
+    "all_four": 77,
+    "code_review": 849,
+    "review_research": 143,
     "research_standards": 27
   },
   "rd_focus": {},
@@ -41,31 +41,31 @@
     "value": "BIP 70"
   },
   "spotlight": {
-    "name": "FlashWayne",
-    "uuid": "auto_flashwayne",
-    "github_login": "FlashWayne",
-    "description": "First-time core contributor recently merged PR #36375 (wallet: accept uppercase addresses without amount in sendall)."
+    "name": "jehudi castro-sierra",
+    "uuid": "auto_jehudi_castro_sierra",
+    "github_login": "jcastros",
+    "description": "First-time core contributor recently merged PR #36432 (wallet: show real fee_reason strings in help)."
   },
   "onboarding": {
-    "new_coders_90d": 32,
-    "new_coders_30d": 15,
+    "new_coders_90d": 33,
+    "new_coders_30d": 14,
     "new_coders_7d": 2,
     "new_discussants_90d": 44,
-    "new_discussants_7d": 3,
+    "new_discussants_7d": 5,
     "window_days": 90
   },
   "prs": {
-    "total_merged": 17032,
-    "merged_30d": 142,
-    "merged_prev_30d": 138,
-    "merged_7d": 24,
-    "merged_prev_7d": 35
+    "total_merged": 17074,
+    "merged_30d": 137,
+    "merged_prev_30d": 144,
+    "merged_7d": 42,
+    "merged_prev_7d": 24
   },
   "commits": {
-    "commits_30d": 318,
-    "commits_prev_30d": 435,
-    "commits_7d": 54,
-    "commits_prev_7d": 63
+    "commits_30d": 320,
+    "commits_prev_30d": 448,
+    "commits_7d": 70,
+    "commits_prev_7d": 64
   },
   "bips": {
     "total": 213,
@@ -76,20 +76,20 @@
       {
         "category": "quantum",
         "label": "Quantum",
-        "count": 117,
-        "share": 21.1
+        "count": 112,
+        "share": 22.1
       },
       {
         "category": "mining",
         "label": "Mining",
-        "count": 66,
-        "share": 11.9
+        "count": 56,
+        "share": 11.0
       },
       {
         "category": "taproot",
         "label": "Taproot",
-        "count": 56,
-        "share": 10.1
+        "count": 37,
+        "share": 7.3
       }
     ],
     "top_bips": [

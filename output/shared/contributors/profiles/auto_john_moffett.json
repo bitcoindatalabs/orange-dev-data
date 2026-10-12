@@ -1,5 +1,5 @@
 {
-  "display_name": "John Moffett",
+  "display_name": "john moffett",
   "github_login_final": "john-moffett",
   "delving_username_final": null,
   "uuid": "auto_john_moffett",
@@ -66,8 +66,8 @@
   ],
   "expertise_by_source": {
     "code": {
-      "Wallet": 0.083,
-      "Infrastructure": 0.917
+      "Infrastructure": 0.917,
+      "Wallet": 0.083
     }
   },
   "expertise_domain_scores": {

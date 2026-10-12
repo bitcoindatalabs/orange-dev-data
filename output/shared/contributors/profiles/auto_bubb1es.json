@@ -1,5 +1,5 @@
 {
-  "display_name": "bubb1es",
+  "display_name": "Bubb1Es",
   "github_login_final": null,
   "delving_username_final": "bubb1es",
   "uuid": "auto_bubb1es",
@@ -69,8 +69,8 @@
   "delving_threads": 6.0,
   "ml_responses": 3.0,
   "delving_responses": 13.0,
-  "first_active": "2026-01-25T17:20:49.445000",
-  "last_active": "2026-08-24T14:39:27.035000",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Participant",
   "expertise_domains": [
     "Network",
@@ -79,8 +79,8 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Privacy": 0.455,
       "Mempool": 0.303,
+      "Privacy": 0.455,
       "Cryptography": 0.242
     },
     "bips": {
@@ -88,10 +88,10 @@
     }
   },
   "expertise_domain_scores": {
-    "Privacy": 0.13,
     "Mempool": 0.0866,
-    "Cryptography": 0.0691,
-    "Network": 0.7143
+    "Privacy": 0.13,
+    "Network": 0.7143,
+    "Cryptography": 0.0691
   },
   "p2016_posts": 23.0,
   "modern_posts": 23.0,
@@ -103,8 +103,8 @@
   "is_reviewer": false,
   "is_researcher": true,
   "is_bip_author": true,
-  "global_first_active": "2026-01-25T17:20:49.445000",
-  "global_last_active": "2026-08-24T14:39:27.035000",
+  "global_first_active": "2026-05-06T02:22:45",
+  "global_last_active": "2026-05-06T02:22:45",
   "github_location": null,
   "github_company": null,
   "github_bio": null,

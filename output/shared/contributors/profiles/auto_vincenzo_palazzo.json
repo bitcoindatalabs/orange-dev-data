@@ -57,8 +57,8 @@
   "delving_threads": 3.0,
   "ml_responses": 4.0,
   "delving_responses": 0.0,
-  "first_active": null,
-  "last_active": "2026-01-04T13:07:54.748000",
+  "first_active": "2023-01-04T14:59:49",
+  "last_active": null,
   "dev_type": "Reviewer",
   "expertise_domains": [
     "L2",
@@ -66,13 +66,13 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Ecosystem": 0.197,
-      "L2": 0.803
+      "L2": 0.803,
+      "Ecosystem": 0.197
     }
   },
   "expertise_domain_scores": {
-    "Ecosystem": 0.197,
-    "L2": 0.803
+    "L2": 0.803,
+    "Ecosystem": 0.197
   },
   "p2016_posts": 7.0,
   "modern_posts": 3.0,
@@ -85,7 +85,7 @@
   "is_researcher": true,
   "is_bip_author": false,
   "global_first_active": "2021-02-09T11:13:08",
-  "global_last_active": "2026-01-04T13:07:54.748000",
+  "global_last_active": "2023-12-29T10:15:27",
   "github_location": "Zurich, CH",
   "github_company": null,
   "github_bio": "Programs must be written for people to read, and only\r\nincidentally for machines to execute.",

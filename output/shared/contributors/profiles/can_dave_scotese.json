@@ -47,7 +47,7 @@
   "review_reciprocity": 0.0,
   "hybrid_score": 0.1741,
   "p2016_hybrid_score": 0.169,
-  "modern_hybrid_score": 0.0766,
+  "modern_hybrid_score": 0.0765,
   "impact_score": 10.0,
   "p2016_impact_score": 10.0,
   "modern_impact_score": 4.0,
@@ -57,8 +57,8 @@
   "delving_threads": 0.0,
   "ml_responses": 63.0,
   "delving_responses": 0.0,
-  "first_active": null,
-  "last_active": null,
+  "first_active": "2015-07-23T21:57:12",
+  "last_active": "2025-06-10T18:13:14",
   "dev_type": "Builder",
   "expertise_domains": [
     "Infrastructure",
@@ -75,8 +75,8 @@
     }
   },
   "expertise_domain_scores": {
-    "Mining": 0.124,
     "Infrastructure": 0.6,
+    "Mining": 0.124,
     "Consensus": 0.276
   },
   "p2016_posts": 28.0,
@@ -89,8 +89,8 @@
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": false,
-  "global_first_active": "2021-04-01T11:17:12",
-  "global_last_active": "2022-04-20T10:41:29",
+  "global_first_active": "2015-07-23T21:57:12",
+  "global_last_active": "2025-06-10T18:13:14",
   "github_location": null,
   "github_company": null,
   "github_bio": "https://www.courtlistener.com/docket/67498051/united-states-v-scotese/ and I'm out on a bond seeking work.",

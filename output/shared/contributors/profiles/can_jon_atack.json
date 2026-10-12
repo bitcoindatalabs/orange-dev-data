@@ -33,7 +33,7 @@
   "last_commit": "2026-08-13T09:03:15",
   "p2016_authored_commits": 719.0,
   "modern_authored_commits": 30.0,
-  "co_authored_commits": 64.0,
+  "co_authored_commits": 66.0,
   "bips_authored": 0.0,
   "p2016_bips_authored": 0.0,
   "modern_bips_authored": 0.0,
@@ -46,7 +46,7 @@
   "tier1_reviews_count": 1699.0,
   "tier2_reviews_count": 551.0,
   "p2016_reviews_count": 2249.0,
-  "modern_reviews_count": 797.0,
+  "modern_reviews_count": 796.0,
   "first_review_date": "2019-03-06T22:22:01",
   "last_review_date": "2026-10-02T13:28:47",
   "prs_authored": 415.0,
@@ -57,7 +57,7 @@
   "review_reciprocity": 5.419277108433735,
   "hybrid_score": 0.6739,
   "p2016_hybrid_score": 0.6809,
-  "modern_hybrid_score": 0.5783,
+  "modern_hybrid_score": 0.5782,
   "impact_score": 33.0,
   "p2016_impact_score": 34.0,
   "modern_impact_score": 29.0,
@@ -67,8 +67,8 @@
   "delving_threads": 0.0,
   "ml_responses": 7.0,
   "delving_responses": 1.0,
-  "first_active": null,
-  "last_active": null,
+  "first_active": "2024-03-11T11:48:04",
+  "last_active": "2026-08-09T13:06:01",
   "dev_type": "Builder",
   "expertise_domains": [
     "Infrastructure",
@@ -81,20 +81,20 @@
       "Ecosystem": 0.841
     },
     "code": {
-      "Wallet": 0.056,
       "Infrastructure": 0.805,
-      "Consensus": 0.028,
-      "Script": 0.0,
       "Network": 0.108,
-      "Mempool": 0.003
+      "Wallet": 0.056,
+      "Mempool": 0.003,
+      "Consensus": 0.028,
+      "Script": 0.0
     }
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.483,
+    "Network": 0.0648,
     "Wallet": 0.0336,
     "Consensus": 0.0804,
-    "Ecosystem": 0.3364,
-    "Network": 0.0648
+    "Ecosystem": 0.3364
   },
   "p2016_posts": 10.0,
   "modern_posts": 10.0,

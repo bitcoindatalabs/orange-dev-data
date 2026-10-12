@@ -1,5 +1,5 @@
 {
-  "display_name": "ivan j.",
+  "display_name": "Ivan J.",
   "github_login_final": "parazyd",
   "delving_username_final": null,
   "uuid": "auto_ivan_j",
@@ -57,8 +57,8 @@
   "delving_threads": 0.0,
   "ml_responses": 1.0,
   "delving_responses": 0.0,
-  "first_active": null,
-  "last_active": null,
+  "first_active": "2014-12-10T11:18:31",
+  "last_active": "2021-04-09T05:23:27",
   "dev_type": "Builder",
   "expertise_domains": [
     "Infrastructure"
@@ -81,8 +81,8 @@
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": false,
-  "global_first_active": "2017-05-03T14:29:23",
-  "global_last_active": "2021-03-19T16:23:31",
+  "global_first_active": "2014-12-10T11:18:31",
+  "global_last_active": "2021-04-09T05:23:27",
   "github_location": "Mars",
   "github_company": "@maemo-leste | @darkrenaissance",
   "github_bio": "   ⛛",

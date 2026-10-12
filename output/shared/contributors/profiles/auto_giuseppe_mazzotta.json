@@ -1,5 +1,5 @@
 {
-  "display_name": "Giuseppe Mazzotta",
+  "display_name": "giuseppe mazzotta",
   "github_login_final": "cozz",
   "delving_username_final": null,
   "uuid": "auto_giuseppe_mazzotta",
@@ -57,8 +57,8 @@
   "delving_threads": 0.0,
   "ml_responses": 1.0,
   "delving_responses": 0.0,
-  "first_active": null,
-  "last_active": null,
+  "first_active": "2015-01-28T10:19:55",
+  "last_active": "2015-01-28T10:19:55",
   "dev_type": "Builder",
   "expertise_domains": [
     "Infrastructure",
@@ -71,9 +71,9 @@
     },
     "code": {
       "Infrastructure": 0.985,
-      "Consensus": 0.005,
       "Network": 0.007,
-      "Mempool": 0.003
+      "Mempool": 0.003,
+      "Consensus": 0.005
     }
   },
   "expertise_domain_scores": {

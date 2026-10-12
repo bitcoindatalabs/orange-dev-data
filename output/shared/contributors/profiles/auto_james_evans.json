@@ -1,5 +1,5 @@
 {
-  "display_name": "James Evans",
+  "display_name": "james evans",
   "github_login_final": "keystrike",
   "delving_username_final": null,
   "uuid": "auto_james_evans",
@@ -67,15 +67,15 @@
   ],
   "expertise_by_source": {
     "code": {
-      "Wallet": 0.25,
       "Infrastructure": 0.5,
-      "Network": 0.25
+      "Network": 0.25,
+      "Wallet": 0.25
     }
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.5,
-    "Wallet": 0.25,
-    "Network": 0.25
+    "Network": 0.25,
+    "Wallet": 0.25
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,

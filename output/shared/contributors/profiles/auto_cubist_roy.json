@@ -1,5 +1,5 @@
 {
-  "display_name": "Cubist_Roy",
+  "display_name": "cubist_roy",
   "github_login_final": null,
   "delving_username_final": "8144225309",
   "uuid": "auto_cubist_roy",
@@ -57,8 +57,8 @@
   "delving_threads": 4.0,
   "ml_responses": 0.0,
   "delving_responses": 0.0,
-  "first_active": "2026-02-13T16:11:40.988000",
-  "last_active": "2026-07-13T09:44:33.018000",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Participant",
   "expertise_domains": [
     "L2",
@@ -66,13 +66,13 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Script": 0.151,
-      "L2": 0.849
+      "L2": 0.849,
+      "Script": 0.151
     }
   },
   "expertise_domain_scores": {
-    "Script": 0.151,
-    "L2": 0.849
+    "L2": 0.849,
+    "Script": 0.151
   },
   "p2016_posts": 4.0,
   "modern_posts": 4.0,
@@ -84,8 +84,8 @@
   "is_reviewer": false,
   "is_researcher": false,
   "is_bip_author": false,
-  "global_first_active": "2026-02-13T16:11:40.988000",
-  "global_last_active": "2026-07-13T09:44:33.018000",
+  "global_first_active": null,
+  "global_last_active": null,
   "github_location": null,
   "github_company": null,
   "github_bio": null,

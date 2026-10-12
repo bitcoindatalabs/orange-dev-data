@@ -1,5 +1,5 @@
 {
-  "display_name": "Jonathan Underwood",
+  "display_name": "jonathan underwood",
   "github_login_final": "junderw",
   "delving_username_final": "junderw",
   "uuid": "auto_jonathan_underwood",
@@ -57,8 +57,8 @@
   "delving_threads": 5.0,
   "ml_responses": 16.0,
   "delving_responses": 1.0,
-  "first_active": null,
-  "last_active": "2025-11-12T15:56:16.956000",
+  "first_active": "2018-11-08T23:17:30",
+  "last_active": null,
   "dev_type": "Builder",
   "expertise_domains": [
     "Infrastructure",
@@ -76,10 +76,10 @@
     }
   },
   "expertise_domain_scores": {
-    "Privacy": 0.0908,
     "Infrastructure": 0.4002,
-    "Wallet": 0.3092,
-    "Network": 0.1998
+    "Privacy": 0.0908,
+    "Network": 0.1998,
+    "Wallet": 0.3092
   },
   "p2016_posts": 24.0,
   "modern_posts": 6.0,
@@ -92,7 +92,7 @@
   "is_researcher": true,
   "is_bip_author": false,
   "global_first_active": "2017-05-02T10:19:14",
-  "global_last_active": "2025-11-12T15:56:16.956000",
+  "global_last_active": "2024-06-03T11:45:21",
   "github_location": "Tokyo, Japan",
   "github_company": null,
   "github_bio": "Chief Bitcoin Officer,\r\nBitbank Inc.",

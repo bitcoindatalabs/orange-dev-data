@@ -1,5 +1,5 @@
 {
-  "display_name": "thomas kerin",
+  "display_name": "Thomas Kerin",
   "github_login_final": "afk11",
   "delving_username_final": null,
   "uuid": "auto_thomas_kerin",
@@ -69,8 +69,8 @@
   "delving_threads": 0.0,
   "ml_responses": 20.0,
   "delving_responses": 0.0,
-  "first_active": null,
-  "last_active": null,
+  "first_active": "2014-03-27T08:12:07",
+  "last_active": "2019-05-26T14:34:55",
   "dev_type": "Protocol Designer",
   "expertise_domains": [
     "Script",
@@ -79,13 +79,13 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Wallet": 0.611,
-      "Script": 0.389
+      "Script": 0.389,
+      "Wallet": 0.611
     },
     "code": {
       "Infrastructure": 0.667,
-      "Script": 0.167,
-      "Network": 0.167
+      "Network": 0.167,
+      "Script": 0.167
     },
     "bips": {
       "Consensus": 0.5,
@@ -94,10 +94,10 @@
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.2,
+    "Network": 0.0501,
     "Wallet": 0.1222,
     "Consensus": 0.2499,
-    "Script": 0.3778,
-    "Network": 0.0501
+    "Script": 0.3778
   },
   "p2016_posts": 7.0,
   "modern_posts": 0.0,
@@ -109,7 +109,7 @@
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": true,
-  "global_first_active": "2015-02-12T15:02:56",
+  "global_first_active": "2014-03-27T08:12:07",
   "global_last_active": "2021-11-08T17:33:24",
   "github_location": "Ireland",
   "github_company": null,

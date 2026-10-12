@@ -1,5 +1,5 @@
 {
-  "display_name": "justin camarena",
+  "display_name": "Justin Camarena",
   "github_login_final": "juscamarena",
   "delving_username_final": "juscamarena",
   "uuid": "auto_justin_camarena",
@@ -57,8 +57,8 @@
   "delving_threads": 0.0,
   "ml_responses": 0.0,
   "delving_responses": 1.0,
-  "first_active": "2024-04-26T20:36:49.983000",
-  "last_active": "2024-04-26T20:36:49.983000",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Builder",
   "expertise_domains": [
     "Infrastructure",
@@ -68,18 +68,18 @@
   "expertise_by_source": {
     "discussion": {
       "Privacy": 0.493,
-      "Ecosystem": 0.254,
-      "L2": 0.254
+      "L2": 0.254,
+      "Ecosystem": 0.254
     },
     "code": {
       "Infrastructure": 1.0
     }
   },
   "expertise_domain_scores": {
-    "Privacy": 0.1971,
     "Infrastructure": 0.5998,
-    "Ecosystem": 0.1016,
-    "L2": 0.1016
+    "Privacy": 0.1971,
+    "L2": 0.1016,
+    "Ecosystem": 0.1016
   },
   "p2016_posts": 1.0,
   "modern_posts": 1.0,
@@ -92,7 +92,7 @@
   "is_researcher": false,
   "is_bip_author": false,
   "global_first_active": "2015-06-10T04:05:27",
-  "global_last_active": "2024-04-26T20:36:49.983000",
+  "global_last_active": "2017-12-25T00:38:11",
   "github_location": "United States",
   "github_company": null,
   "github_bio": null,

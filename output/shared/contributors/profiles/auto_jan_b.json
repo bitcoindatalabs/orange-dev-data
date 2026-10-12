@@ -1,5 +1,5 @@
 {
-  "display_name": "Jan B",
+  "display_name": "jan b",
   "github_login_final": "janb84",
   "delving_username_final": "janb84",
   "uuid": "auto_jan_b",
@@ -57,8 +57,8 @@
   "delving_threads": 2.0,
   "ml_responses": 0.0,
   "delving_responses": 2.0,
-  "first_active": "2026-02-15T14:59:35.584000",
-  "last_active": "2026-05-12T14:35:09.283000",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Builder",
   "expertise_domains": [
     "Infrastructure",

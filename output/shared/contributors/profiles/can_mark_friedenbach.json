@@ -58,8 +58,8 @@
   "avg_concept_lead_time_days": 27.952148148148147,
   "review_reciprocity": 2.25,
   "hybrid_score": 1.6743,
-  "p2016_hybrid_score": 1.1545,
-  "modern_hybrid_score": 0.2352,
+  "p2016_hybrid_score": 1.1544,
+  "modern_hybrid_score": 0.2351,
   "impact_score": 63.0,
   "p2016_impact_score": 50.0,
   "modern_impact_score": 13.0,
@@ -69,8 +69,8 @@
   "delving_threads": 0.0,
   "ml_responses": 272.0,
   "delving_responses": 0.0,
-  "first_active": null,
-  "last_active": null,
+  "first_active": "2012-06-17T20:27:39",
+  "last_active": "2024-04-30T17:20:16",
   "dev_type": "Protocol Designer",
   "expertise_domains": [
     "Consensus",
@@ -84,9 +84,9 @@
     },
     "code": {
       "Infrastructure": 0.694,
+      "Mempool": 0.065,
       "Consensus": 0.099,
-      "Script": 0.142,
-      "Mempool": 0.065
+      "Script": 0.142
     },
     "bips": {
       "Consensus": 1.0
@@ -94,8 +94,8 @@
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.2082,
-    "Consensus": 0.6345,
     "Mempool": 0.0195,
+    "Consensus": 0.6345,
     "Script": 0.1378
   },
   "p2016_posts": 68.0,
@@ -108,7 +108,7 @@
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": true,
-  "global_first_active": "2012-09-28T05:48:27",
+  "global_first_active": "2012-06-17T20:27:39",
   "global_last_active": "2026-01-20T23:03:59",
   "github_location": "San José, CA",
   "github_company": null,

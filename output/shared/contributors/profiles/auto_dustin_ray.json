@@ -1,5 +1,5 @@
 {
-  "display_name": "dustin ray",
+  "display_name": "Dustin Ray",
   "github_login_final": null,
   "delving_username_final": null,
   "uuid": "auto_dustin_ray",
@@ -45,50 +45,50 @@
   "avg_pr_ack_velocity_days": null,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": null,
-  "hybrid_score": 0.0283,
-  "p2016_hybrid_score": 0.0443,
-  "modern_hybrid_score": 0.1336,
+  "hybrid_score": 0.0277,
+  "p2016_hybrid_score": 0.0433,
+  "modern_hybrid_score": 0.131,
   "impact_score": 2.0,
   "p2016_impact_score": 3.0,
   "modern_impact_score": 8.0,
   "threads_started": 0.0,
-  "replies_sent": 9.0,
+  "replies_sent": 10.0,
   "ml_threads": 0.0,
   "delving_threads": 0.0,
-  "ml_responses": 9.0,
+  "ml_responses": 10.0,
   "delving_responses": 0.0,
-  "first_active": null,
-  "last_active": null,
+  "first_active": "2025-02-11T18:15:19",
+  "last_active": "2026-10-11T18:46:25",
   "dev_type": "Participant",
   "expertise_domains": [
     "Cryptography",
-    "Ecosystem",
-    "L2"
+    "Mempool",
+    "Ecosystem"
   ],
   "expertise_by_source": {
     "discussion": {
-      "Ecosystem": 0.048,
-      "L2": 0.048,
-      "Cryptography": 0.904
+      "Mempool": 0.099,
+      "Cryptography": 0.852,
+      "Ecosystem": 0.049
     }
   },
   "expertise_domain_scores": {
-    "Ecosystem": 0.048,
-    "L2": 0.048,
-    "Cryptography": 0.904
+    "Mempool": 0.099,
+    "Cryptography": 0.852,
+    "Ecosystem": 0.049
   },
-  "p2016_posts": 9.0,
-  "modern_posts": 9.0,
-  "p2016_ml_posts": 9.0,
+  "p2016_posts": 10.0,
+  "modern_posts": 10.0,
+  "p2016_ml_posts": 10.0,
   "p2016_delving_posts": 0.0,
-  "modern_ml_posts": 9.0,
+  "modern_ml_posts": 10.0,
   "modern_delving_posts": 0.0,
   "is_engineer": false,
   "is_reviewer": false,
   "is_researcher": true,
   "is_bip_author": false,
-  "global_first_active": null,
-  "global_last_active": null,
+  "global_first_active": "2025-02-11T18:15:19",
+  "global_last_active": "2026-10-11T18:46:25",
   "github_location": null,
   "github_company": null,
   "github_bio": null,
@@ -105,9 +105,9 @@
   },
   "last_message": {
     "source": "mailing_list",
-    "subject": "Re: [bitcoindev] Against Allowing Quantum Recovery of Bitcoin",
-    "date": "2025-05-25",
-    "link": "https://gnusha.org/pi/bitcoindev/CAC3UE4+DR=DQqtT+X0SYvH1XCVnmatD7frcHC5dtdVAef39UnQ@mail.gmail.com"
+    "subject": "[bitcoindev] Re: Lichen: L2s In CHannels ENforced on bitcoin",
+    "date": "2026-10-11",
+    "link": "https://gnusha.org/pi/bitcoindev/3c10a867-fc2a-4b28-ab5b-75d8de050c3bn@googlegroups.com"
   },
   "social_history": {
     "2025": {
@@ -118,6 +118,9 @@
       "utxo-sync": 1,
       "vaults": 1,
       "wallet-keys": 1
+    },
+    "2026": {
+      "mempool-fees": 1
     }
   }
 }

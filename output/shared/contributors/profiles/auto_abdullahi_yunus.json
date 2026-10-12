@@ -1,5 +1,5 @@
 {
-  "display_name": "Abdullahi Yunus",
+  "display_name": "abdullahi yunus",
   "github_login_final": "Abdulkbk",
   "delving_username_final": "abdulkbk",
   "uuid": "auto_abdullahi_yunus",
@@ -57,8 +57,8 @@
   "delving_threads": 1.0,
   "ml_responses": 0.0,
   "delving_responses": 0.0,
-  "first_active": "2026-04-17T11:37:45.042000",
-  "last_active": "2026-04-17T11:37:45.042000",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Participant",
   "expertise_domains": [
     "L2",
@@ -66,13 +66,13 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Consensus": 0.25,
-      "L2": 0.75
+      "L2": 0.75,
+      "Consensus": 0.25
     }
   },
   "expertise_domain_scores": {
-    "Consensus": 0.25,
-    "L2": 0.75
+    "L2": 0.75,
+    "Consensus": 0.25
   },
   "p2016_posts": 1.0,
   "modern_posts": 1.0,
@@ -85,7 +85,7 @@
   "is_researcher": false,
   "is_bip_author": false,
   "global_first_active": "2024-11-10T19:17:19",
-  "global_last_active": "2026-04-17T11:37:45.042000",
+  "global_last_active": "2024-11-11T22:20:35",
   "github_location": "Kaduna, Nigeria.",
   "github_company": "@Bitcoin",
   "github_bio": "open-source software engineer | bitcoin and lightning developer",

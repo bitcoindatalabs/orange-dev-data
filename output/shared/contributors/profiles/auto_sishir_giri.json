@@ -1,5 +1,5 @@
 {
-  "display_name": "sishir giri",
+  "display_name": "Sishir Giri",
   "github_login_final": "stackman27",
   "delving_username_final": null,
   "uuid": "auto_sishir_giri",
@@ -66,8 +66,8 @@
   ],
   "expertise_by_source": {
     "code": {
-      "Wallet": 0.459,
-      "Infrastructure": 0.541
+      "Infrastructure": 0.541,
+      "Wallet": 0.459
     }
   },
   "expertise_domain_scores": {

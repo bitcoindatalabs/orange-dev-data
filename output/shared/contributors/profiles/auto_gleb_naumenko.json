@@ -36,7 +36,7 @@
   "first_commit": "2018-07-16T17:28:42",
   "last_commit": "2023-03-19T12:09:03",
   "p2016_authored_commits": 85.0,
-  "modern_authored_commits": 26.0,
+  "modern_authored_commits": 24.0,
   "co_authored_commits": 0.0,
   "bips_authored": 1.0,
   "p2016_bips_authored": 1.0,
@@ -50,7 +50,7 @@
   "tier1_reviews_count": 302.0,
   "tier2_reviews_count": 10.0,
   "p2016_reviews_count": 312.0,
-  "modern_reviews_count": 44.0,
+  "modern_reviews_count": 43.0,
   "first_review_date": "2018-10-26T23:32:13",
   "last_review_date": "2024-11-27T08:34:48",
   "prs_authored": 30.0,
@@ -61,7 +61,7 @@
   "review_reciprocity": 10.4,
   "hybrid_score": 0.8301,
   "p2016_hybrid_score": 0.8404,
-  "modern_hybrid_score": 0.3545,
+  "modern_hybrid_score": 0.3539,
   "impact_score": 39.0,
   "p2016_impact_score": 40.0,
   "modern_impact_score": 19.0,
@@ -71,8 +71,8 @@
   "delving_threads": 0.0,
   "ml_responses": 7.0,
   "delving_responses": 0.0,
-  "first_active": null,
-  "last_active": null,
+  "first_active": "2018-04-02T17:18:07",
+  "last_active": "2023-02-02T02:40:04",
   "dev_type": "Protocol Designer",
   "expertise_domains": [
     "Infrastructure",
@@ -86,8 +86,8 @@
     },
     "code": {
       "Infrastructure": 0.753,
-      "Consensus": 0.006,
-      "Network": 0.241
+      "Network": 0.241,
+      "Consensus": 0.006
     },
     "bips": {
       "Infrastructure": 1.0
@@ -108,7 +108,7 @@
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": true,
-  "global_first_active": "2018-07-16T17:28:42",
+  "global_first_active": "2018-04-02T17:18:07",
   "global_last_active": "2024-11-27T08:34:48",
   "github_location": null,
   "github_company": null,

@@ -45,8 +45,8 @@
   "avg_pr_ack_velocity_days": 0.19991898148148146,
   "avg_concept_lead_time_days": 0.1012037037037037,
   "review_reciprocity": 1.3333333333333333,
-  "hybrid_score": 0.1983,
-  "p2016_hybrid_score": 0.2657,
+  "hybrid_score": 0.1982,
+  "p2016_hybrid_score": 0.2656,
   "modern_hybrid_score": 0.4575,
   "impact_score": 11.0,
   "p2016_impact_score": 15.0,
@@ -57,8 +57,8 @@
   "delving_threads": 3.0,
   "ml_responses": 52.0,
   "delving_responses": 2.0,
-  "first_active": null,
-  "last_active": null,
+  "first_active": "2023-10-21T09:21:48",
+  "last_active": "2026-08-05T18:26:25",
   "dev_type": "Builder",
   "expertise_domains": [
     "Mempool",
@@ -67,8 +67,8 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Consensus": 0.146,
       "Mempool": 0.25,
+      "Consensus": 0.146,
       "Cryptography": 0.604
     },
     "code": {
@@ -76,8 +76,8 @@
     }
   },
   "expertise_domain_scores": {
-    "Consensus": 0.0584,
     "Mempool": 0.7,
+    "Consensus": 0.0584,
     "Cryptography": 0.2416
   },
   "p2016_posts": 58.0,
@@ -90,8 +90,8 @@
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": false,
-  "global_first_active": "2024-01-31T16:48:02",
-  "global_last_active": "2026-06-27T04:45:19",
+  "global_first_active": "2023-10-21T09:21:48",
+  "global_last_active": "2026-08-05T18:26:25",
   "github_location": "Earth",
   "github_company": null,
   "github_bio": "Developer",

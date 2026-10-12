@@ -67,15 +67,15 @@
   ],
   "expertise_by_source": {
     "code": {
-      "Wallet": 0.115,
       "Infrastructure": 0.705,
-      "Network": 0.179
+      "Network": 0.179,
+      "Wallet": 0.115
     }
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.7057,
-    "Wallet": 0.1151,
-    "Network": 0.1792
+    "Network": 0.1792,
+    "Wallet": 0.1151
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,

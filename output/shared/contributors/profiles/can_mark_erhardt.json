@@ -36,7 +36,7 @@
   "first_commit": "2015-12-08T09:23:05",
   "last_commit": "2026-06-03T21:06:56",
   "p2016_authored_commits": 75.0,
-  "modern_authored_commits": 52.0,
+  "modern_authored_commits": 51.0,
   "co_authored_commits": 34.0,
   "bips_authored": 1.0,
   "p2016_bips_authored": 1.0,
@@ -50,7 +50,7 @@
   "tier1_reviews_count": 213.0,
   "tier2_reviews_count": 518.0,
   "p2016_reviews_count": 731.0,
-  "modern_reviews_count": 613.0,
+  "modern_reviews_count": 611.0,
   "first_review_date": "2016-01-03T22:44:22",
   "last_review_date": "2026-09-25T18:56:55",
   "prs_authored": 72.0,
@@ -61,7 +61,7 @@
   "review_reciprocity": 10.152777777777779,
   "hybrid_score": 0.9949,
   "p2016_hybrid_score": 1.1104,
-  "modern_hybrid_score": 1.1763,
+  "modern_hybrid_score": 1.1761,
   "impact_score": 45.0,
   "p2016_impact_score": 49.0,
   "modern_impact_score": 51.0,
@@ -71,8 +71,8 @@
   "delving_threads": 19.0,
   "ml_responses": 65.0,
   "delving_responses": 40.0,
-  "first_active": null,
-  "last_active": "2026-09-17T18:31:50.856000",
+  "first_active": "2016-09-21T07:58:25",
+  "last_active": null,
   "dev_type": "Protocol Designer",
   "expertise_domains": [
     "Infrastructure",
@@ -86,8 +86,8 @@
       "Ecosystem": 0.343
     },
     "code": {
-      "Wallet": 0.307,
       "Infrastructure": 0.649,
+      "Wallet": 0.307,
       "Mempool": 0.044
     },
     "bips": {
@@ -95,10 +95,10 @@
     }
   },
   "expertise_domain_scores": {
-    "Mining": 0.0628,
     "Infrastructure": 0.6947,
-    "Wallet": 0.0921,
+    "Mining": 0.0628,
     "Mempool": 0.0818,
+    "Wallet": 0.0921,
     "Ecosystem": 0.0686
   },
   "p2016_posts": 132.0,

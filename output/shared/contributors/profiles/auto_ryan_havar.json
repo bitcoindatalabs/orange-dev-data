@@ -57,8 +57,8 @@
   "avg_pr_ack_velocity_days": 7.485280671296296,
   "avg_concept_lead_time_days": 8.005671296296295,
   "review_reciprocity": 1.7692307692307692,
-  "hybrid_score": 0.6143,
-  "p2016_hybrid_score": 0.6383,
+  "hybrid_score": 0.6144,
+  "p2016_hybrid_score": 0.6385,
   "modern_hybrid_score": 0.0727,
   "impact_score": 31.0,
   "p2016_impact_score": 32.0,
@@ -69,8 +69,8 @@
   "delving_threads": 0.0,
   "ml_responses": 40.0,
   "delving_responses": 0.0,
-  "first_active": null,
-  "last_active": null,
+  "first_active": "2017-07-02T15:35:22",
+  "last_active": "2022-08-25T08:48:36",
   "dev_type": "Protocol Designer",
   "expertise_domains": [
     "Privacy",
@@ -79,8 +79,8 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Privacy": 0.3,
-      "Mempool": 0.7
+      "Mempool": 0.7,
+      "Privacy": 0.3
     },
     "code": {
       "Wallet": 1.0
@@ -90,9 +90,9 @@
     }
   },
   "expertise_domain_scores": {
+    "Mempool": 0.14,
     "Privacy": 0.56,
-    "Wallet": 0.3,
-    "Mempool": 0.14
+    "Wallet": 0.3
   },
   "p2016_posts": 46.0,
   "modern_posts": 0.0,
@@ -105,7 +105,7 @@
   "is_researcher": true,
   "is_bip_author": true,
   "global_first_active": "2015-02-18T14:34:46",
-  "global_last_active": "2020-12-28T17:48:31",
+  "global_last_active": "2022-08-25T08:48:36",
   "github_location": "Zimbabwe",
   "github_company": null,
   "github_bio": null,

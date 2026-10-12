@@ -1,5 +1,5 @@
 {
-  "display_name": "Chris Wheeler",
+  "display_name": "chris wheeler",
   "github_login_final": "chriswheeler",
   "delving_username_final": null,
   "uuid": "auto_chris_wheeler",
@@ -67,17 +67,17 @@
   ],
   "expertise_by_source": {
     "code": {
-      "Wallet": 0.167,
       "Infrastructure": 0.5,
       "Network": 0.167,
+      "Wallet": 0.167,
       "Mempool": 0.167
     }
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.4995,
-    "Wallet": 0.1668,
     "Mempool": 0.1668,
-    "Network": 0.1668
+    "Network": 0.1668,
+    "Wallet": 0.1668
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,

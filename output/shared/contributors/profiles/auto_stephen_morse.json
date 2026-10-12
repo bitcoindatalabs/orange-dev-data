@@ -1,5 +1,5 @@
 {
-  "display_name": "stephen morse",
+  "display_name": "Stephen Morse",
   "github_login_final": "scmorse",
   "delving_username_final": null,
   "uuid": "auto_stephen_morse",
@@ -57,8 +57,8 @@
   "delving_threads": 0.0,
   "ml_responses": 22.0,
   "delving_responses": 0.0,
-  "first_active": null,
-  "last_active": null,
+  "first_active": "2014-12-31T12:25:41",
+  "last_active": "2015-06-22T16:04:59",
   "dev_type": "Builder",
   "expertise_domains": [
     "Infrastructure",
@@ -72,13 +72,13 @@
       "Script": 0.295
     },
     "code": {
-      "Wallet": 0.333,
-      "Infrastructure": 0.667
+      "Infrastructure": 0.667,
+      "Wallet": 0.333
     }
   },
   "expertise_domain_scores": {
-    "Mining": 0.1116,
     "Infrastructure": 0.4002,
+    "Mining": 0.1116,
     "Wallet": 0.1998,
     "Consensus": 0.1704,
     "Script": 0.118
@@ -93,8 +93,8 @@
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": false,
-  "global_first_active": "2015-06-15T07:39:40",
-  "global_last_active": "2015-06-15T07:39:40",
+  "global_first_active": "2014-12-31T12:25:41",
+  "global_last_active": "2015-06-22T16:04:59",
   "github_location": "Remote",
   "github_company": "@squareup",
   "github_bio": "Software Engineer @ Cash App",

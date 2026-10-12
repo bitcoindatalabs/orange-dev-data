@@ -1,5 +1,5 @@
 {
-  "display_name": "gustavo chaín",
+  "display_name": "Gustavo Chaín",
   "github_login_final": null,
   "delving_username_final": "qustavo",
   "uuid": "auto_gustavo_cha_n",
@@ -57,8 +57,8 @@
   "delving_threads": 0.0,
   "ml_responses": 0.0,
   "delving_responses": 1.0,
-  "first_active": "2025-03-25T18:54:37.152000",
-  "last_active": "2025-03-25T18:54:37.152000",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Participant",
   "expertise_domains": [
     "Consensus",
@@ -68,14 +68,14 @@
   "expertise_by_source": {
     "discussion": {
       "Mining": 0.25,
-      "Consensus": 0.5,
-      "L2": 0.25
+      "L2": 0.25,
+      "Consensus": 0.5
     }
   },
   "expertise_domain_scores": {
     "Mining": 0.25,
-    "Consensus": 0.5,
-    "L2": 0.25
+    "L2": 0.25,
+    "Consensus": 0.5
   },
   "p2016_posts": 1.0,
   "modern_posts": 1.0,
@@ -87,8 +87,8 @@
   "is_reviewer": false,
   "is_researcher": false,
   "is_bip_author": false,
-  "global_first_active": "2025-03-25T18:54:37.152000",
-  "global_last_active": "2025-03-25T18:54:37.152000",
+  "global_first_active": null,
+  "global_last_active": null,
   "github_location": null,
   "github_company": null,
   "github_bio": null,

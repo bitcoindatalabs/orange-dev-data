@@ -46,7 +46,7 @@
   "avg_concept_lead_time_days": null,
   "review_reciprocity": 0.75,
   "hybrid_score": 0.3004,
-  "p2016_hybrid_score": 0.178,
+  "p2016_hybrid_score": 0.1781,
   "modern_hybrid_score": 0.0396,
   "impact_score": 16.0,
   "p2016_impact_score": 10.0,
@@ -57,8 +57,8 @@
   "delving_threads": 0.0,
   "ml_responses": 162.0,
   "delving_responses": 0.0,
-  "first_active": null,
-  "last_active": null,
+  "first_active": "2013-05-26T21:57:38",
+  "last_active": "2019-09-21T16:16:25",
   "dev_type": "Builder",
   "expertise_domains": [
     "Infrastructure",
@@ -76,10 +76,10 @@
     }
   },
   "expertise_domain_scores": {
-    "Mining": 0.2,
     "Infrastructure": 0.4002,
-    "Script": 0.2,
-    "Network": 0.1998
+    "Mining": 0.2,
+    "Network": 0.1998,
+    "Script": 0.2
   },
   "p2016_posts": 54.0,
   "modern_posts": 0.0,
@@ -91,8 +91,8 @@
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": false,
-  "global_first_active": "2013-06-17T08:43:12",
-  "global_last_active": "2018-06-02T03:36:33",
+  "global_first_active": "2013-05-26T21:57:38",
+  "global_last_active": "2019-09-21T16:16:25",
   "github_location": "Germany",
   "github_company": null,
   "github_bio": "Independent Developer",

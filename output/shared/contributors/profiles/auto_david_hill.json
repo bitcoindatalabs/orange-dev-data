@@ -1,5 +1,5 @@
 {
-  "display_name": "David Hill",
+  "display_name": "david hill",
   "github_login_final": "dajohi",
   "delving_username_final": null,
   "uuid": "auto_david_hill",
@@ -68,14 +68,14 @@
   "expertise_by_source": {
     "code": {
       "Infrastructure": 0.333,
-      "Script": 0.333,
-      "Network": 0.333
+      "Network": 0.333,
+      "Script": 0.333
     }
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.3333,
-    "Script": 0.3333,
-    "Network": 0.3333
+    "Network": 0.3333,
+    "Script": 0.3333
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,

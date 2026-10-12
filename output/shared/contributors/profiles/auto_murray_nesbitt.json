@@ -67,8 +67,8 @@
   ],
   "expertise_by_source": {
     "code": {
-      "Wallet": 0.038,
       "Infrastructure": 0.948,
+      "Wallet": 0.038,
       "Consensus": 0.014
     }
   },

@@ -57,8 +57,8 @@
   "delving_threads": 0.0,
   "ml_responses": 1.0,
   "delving_responses": 0.0,
-  "first_active": null,
-  "last_active": null,
+  "first_active": "2018-12-23T14:55:31",
+  "last_active": "2018-12-23T14:55:31",
   "dev_type": "Builder",
   "expertise_domains": [
     "Infrastructure",
@@ -76,8 +76,8 @@
     }
   },
   "expertise_domain_scores": {
-    "Mining": 0.1,
     "Infrastructure": 0.6,
+    "Mining": 0.1,
     "Wallet": 0.2,
     "Consensus": 0.1
   },

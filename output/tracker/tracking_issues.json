@@ -1,5 +1,22 @@
 [
   {
+    "issue_id": 27587,
+    "project_name": "Bitcoin Kernel Library",
+    "description": "Extracting consensus validation logic into a standalone libbitcoinkernel C++ library with zero external state dependencies.",
+    "category": "Consensus Kernel",
+    "champion": "Sebastian Kung",
+    "champion_login": "sedited",
+    "bip": null,
+    "title": "Bitcoin Kernel Library Project Tracking",
+    "url": "https://github.com/bitcoin/bitcoin/issues/27587",
+    "created_at": "2023-05-06T08:27:17Z",
+    "updated_at": "2026-10-08T15:28:47Z",
+    "total_tasks": 0,
+    "completed_tasks": 0,
+    "completion_percentage": 0,
+    "tasks": []
+  },
+  {
     "issue_id": 28722,
     "project_name": "Multiprocess",
     "description": "Decouples Bitcoin Core into separate process binaries (gui, node, wallet) communicating over IPC for enhanced security and process isolation.",
@@ -2004,23 +2021,6 @@
         "linked_prs": []
       }
     ]
-  },
-  {
-    "issue_id": 27587,
-    "project_name": "Bitcoin Kernel Library",
-    "description": "Extracting consensus validation logic into a standalone libbitcoinkernel C++ library with zero external state dependencies.",
-    "category": "Consensus Kernel",
-    "champion": "Sebastian Kung",
-    "champion_login": "sedited",
-    "bip": null,
-    "title": "Bitcoin Kernel Library Project Tracking",
-    "url": "https://github.com/bitcoin/bitcoin/issues/27587",
-    "created_at": "2023-05-06T08:27:17Z",
-    "updated_at": "2026-07-31T22:56:44Z",
-    "total_tasks": 0,
-    "completed_tasks": 0,
-    "completion_percentage": 0,
-    "tasks": []
   },
   {
     "issue_id": 30249,

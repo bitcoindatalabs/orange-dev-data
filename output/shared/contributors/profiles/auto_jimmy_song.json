@@ -59,7 +59,7 @@
   "review_reciprocity": 2.4375,
   "hybrid_score": 1.0331,
   "p2016_hybrid_score": 0.7114,
-  "modern_hybrid_score": 0.1227,
+  "modern_hybrid_score": 0.1223,
   "impact_score": 46.0,
   "p2016_impact_score": 35.0,
   "modern_impact_score": 7.0,
@@ -69,8 +69,8 @@
   "delving_threads": 0.0,
   "ml_responses": 13.0,
   "delving_responses": 0.0,
-  "first_active": null,
-  "last_active": null,
+  "first_active": "2017-04-07T15:06:39",
+  "last_active": "2024-08-01T20:19:53",
   "dev_type": "Protocol Designer",
   "expertise_domains": [
     "Infrastructure",
@@ -91,8 +91,8 @@
     }
   },
   "expertise_domain_scores": {
-    "Mining": 0.062,
     "Infrastructure": 0.4665,
+    "Mining": 0.062,
     "Wallet": 0.3335,
     "Consensus": 0.138
   },

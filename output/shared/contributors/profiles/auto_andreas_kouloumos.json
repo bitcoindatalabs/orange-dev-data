@@ -66,8 +66,8 @@
   ],
   "expertise_by_source": {
     "code": {
-      "Wallet": 0.071,
-      "Infrastructure": 0.929
+      "Infrastructure": 0.929,
+      "Wallet": 0.071
     }
   },
   "expertise_domain_scores": {

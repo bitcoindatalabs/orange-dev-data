@@ -1,5 +1,5 @@
 {
-  "display_name": "Contact Team",
+  "display_name": "contact team",
   "github_login_final": null,
   "delving_username_final": null,
   "uuid": "auto_contact_team",
@@ -57,8 +57,8 @@
   "delving_threads": 0.0,
   "ml_responses": 0.0,
   "delving_responses": 0.0,
-  "first_active": null,
-  "last_active": null,
+  "first_active": "2020-02-26T07:02:20",
+  "last_active": "2020-02-26T07:02:20",
   "dev_type": "Participant",
   "expertise_domains": [
     "Wallet",
@@ -84,8 +84,8 @@
   "is_reviewer": false,
   "is_researcher": true,
   "is_bip_author": false,
-  "global_first_active": null,
-  "global_last_active": null,
+  "global_first_active": "2020-02-26T07:02:20",
+  "global_last_active": "2020-02-26T07:02:20",
   "github_location": null,
   "github_company": null,
   "github_bio": null,

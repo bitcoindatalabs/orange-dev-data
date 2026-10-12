@@ -1,5 +1,5 @@
 {
-  "display_name": "elias rohrer",
+  "display_name": "Elias Rohrer",
   "github_login_final": "tnull",
   "delving_username_final": "tnull",
   "uuid": "auto_elias_rohrer",
@@ -57,8 +57,8 @@
   "delving_threads": 3.0,
   "ml_responses": 1.0,
   "delving_responses": 5.0,
-  "first_active": null,
-  "last_active": "2026-04-27T09:57:20.545000",
+  "first_active": "2022-06-10T01:44:05",
+  "last_active": null,
   "dev_type": "Builder",
   "expertise_domains": [
     "Consensus",
@@ -76,8 +76,8 @@
   },
   "expertise_domain_scores": {
     "Privacy": 0.1148,
-    "Consensus": 0.6,
-    "L2": 0.2852
+    "L2": 0.2852,
+    "Consensus": 0.6
   },
   "p2016_posts": 9.0,
   "modern_posts": 8.0,
@@ -90,7 +90,7 @@
   "is_researcher": true,
   "is_bip_author": false,
   "global_first_active": "2015-12-17T09:40:22",
-  "global_last_active": "2026-04-27T09:57:20.545000",
+  "global_last_active": "2015-12-17T09:40:22",
   "github_location": null,
   "github_company": null,
   "github_bio": null,

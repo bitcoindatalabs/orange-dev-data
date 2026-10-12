@@ -1,5 +1,5 @@
 {
-  "display_name": "Ishaana Misra",
+  "display_name": "ishaana misra",
   "github_login_final": "ishaanam",
   "delving_username_final": null,
   "uuid": "auto_ishaana_misra",
@@ -67,15 +67,15 @@
   ],
   "expertise_by_source": {
     "code": {
-      "Wallet": 0.445,
       "Infrastructure": 0.542,
+      "Wallet": 0.445,
       "Mempool": 0.013
     }
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.542,
-    "Wallet": 0.445,
-    "Mempool": 0.013
+    "Mempool": 0.013,
+    "Wallet": 0.445
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,

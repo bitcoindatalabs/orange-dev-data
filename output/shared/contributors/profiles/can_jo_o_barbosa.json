@@ -77,19 +77,19 @@
   ],
   "expertise_by_source": {
     "code": {
-      "Wallet": 0.266,
       "Infrastructure": 0.695,
-      "Consensus": 0.02,
-      "Script": 0.006,
       "Network": 0.013,
-      "Mempool": 0.0
+      "Wallet": 0.266,
+      "Mempool": 0.0,
+      "Consensus": 0.02,
+      "Script": 0.006
     }
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.695,
+    "Network": 0.013,
     "Wallet": 0.266,
-    "Consensus": 0.02,
-    "Network": 0.013
+    "Consensus": 0.02
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,
@@ -109,7 +109,7 @@
   "github_twitter": "promag",
   "github_blog": null,
   "github_followers": 452.0,
-  "activity_status": "Active",
+  "activity_status": "Retired",
   "is_top_50": false,
   "github_url": "https://github.com/promag",
   "commit_history": {

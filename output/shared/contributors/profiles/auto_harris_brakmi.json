@@ -1,5 +1,5 @@
 {
-  "display_name": "Harris Brakmić",
+  "display_name": "harris brakmić",
   "github_login_final": "brakmic",
   "delving_username_final": "harris",
   "uuid": "auto_harris_brakmi",
@@ -57,8 +57,8 @@
   "delving_threads": 2.0,
   "ml_responses": 0.0,
   "delving_responses": 1.0,
-  "first_active": "2026-02-19T10:43:14.974000",
-  "last_active": "2026-04-01T07:19:52.611000",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Builder",
   "expertise_domains": [
     "Infrastructure",
@@ -67,20 +67,20 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Privacy": 0.493,
       "Mempool": 0.254,
+      "Privacy": 0.493,
       "Cryptography": 0.254
     },
     "code": {
-      "Wallet": 0.059,
-      "Infrastructure": 0.941
+      "Infrastructure": 0.941,
+      "Wallet": 0.059
     }
   },
   "expertise_domain_scores": {
-    "Privacy": 0.1971,
     "Infrastructure": 0.5644,
-    "Wallet": 0.0354,
     "Mempool": 0.1016,
+    "Privacy": 0.1971,
+    "Wallet": 0.0354,
     "Cryptography": 0.1016
   },
   "p2016_posts": 3.0,
@@ -94,14 +94,14 @@
   "is_researcher": false,
   "is_bip_author": false,
   "global_first_active": "2019-11-22T14:22:55",
-  "global_last_active": "2026-04-01T07:19:52.611000",
+  "global_last_active": "2020-06-21T10:24:54",
   "github_location": "Bonn, Germany",
   "github_company": null,
   "github_bio": "Software Engineer",
   "github_twitter": "brakmic",
   "github_blog": "https://blog.brakmic.com",
   "github_followers": 245.0,
-  "activity_status": "Active",
+  "activity_status": "Retired",
   "is_top_50": false,
   "github_url": "https://github.com/brakmic",
   "delving_url": "https://delvingbitcoin.org/u/harris",

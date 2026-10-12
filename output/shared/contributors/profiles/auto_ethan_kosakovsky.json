@@ -69,8 +69,8 @@
   "delving_threads": 0.0,
   "ml_responses": 6.0,
   "delving_responses": 0.0,
-  "first_active": null,
-  "last_active": null,
+  "first_active": "2020-03-20T10:44:01",
+  "last_active": "2020-04-16T12:53:38",
   "dev_type": "Reviewer",
   "expertise_domains": [
     "Infrastructure",
@@ -88,8 +88,8 @@
     }
   },
   "expertise_domain_scores": {
-    "Mining": 0.0183,
     "Infrastructure": 0.7141,
+    "Mining": 0.0183,
     "Wallet": 0.2311,
     "Consensus": 0.0366
   },
@@ -103,7 +103,7 @@
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": true,
-  "global_first_active": "2020-04-11T06:29:51",
+  "global_first_active": "2020-03-20T10:44:01",
   "global_last_active": "2023-02-07T14:55:36",
   "github_location": null,
   "github_company": null,

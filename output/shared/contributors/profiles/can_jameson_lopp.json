@@ -69,8 +69,8 @@
   "delving_threads": 2.0,
   "ml_responses": 83.0,
   "delving_responses": 1.0,
-  "first_active": null,
-  "last_active": null,
+  "first_active": "2013-11-05T13:33:14",
+  "last_active": "2026-08-09T14:47:46",
   "dev_type": "Protocol Designer",
   "expertise_domains": [
     "Consensus",
@@ -84,16 +84,16 @@
     },
     "code": {
       "Infrastructure": 0.931,
-      "Consensus": 0.042,
-      "Network": 0.028
+      "Network": 0.028,
+      "Consensus": 0.042
     },
     "bips": {
       "Consensus": 1.0
     }
   },
   "expertise_domain_scores": {
-    "Mining": 0.096,
     "Infrastructure": 0.2792,
+    "Mining": 0.096,
     "Consensus": 0.5124,
     "Cryptography": 0.104
   },
@@ -107,7 +107,7 @@
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": true,
-  "global_first_active": "2014-12-22T14:02:57",
+  "global_first_active": "2013-11-05T13:33:14",
   "global_last_active": "2026-08-10T20:06:23",
   "github_location": "United States",
   "github_company": "Casa",

@@ -1,5 +1,5 @@
 {
-  "display_name": "Filip Gospodinov",
+  "display_name": "filip gospodinov",
   "github_login_final": "toxeus",
   "delving_username_final": null,
   "uuid": "auto_filip_gospodinov",
@@ -69,8 +69,8 @@
   ],
   "expertise_by_source": {
     "code": {
-      "Wallet": 0.5,
-      "Infrastructure": 0.5
+      "Infrastructure": 0.5,
+      "Wallet": 0.5
     }
   },
   "expertise_domain_scores": {

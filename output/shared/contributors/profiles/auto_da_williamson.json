@@ -1,5 +1,5 @@
 {
-  "display_name": "DA Williamson",
+  "display_name": "da williamson",
   "github_login_final": null,
   "delving_username_final": null,
   "uuid": "auto_da_williamson",
@@ -57,8 +57,8 @@
   "delving_threads": 0.0,
   "ml_responses": 11.0,
   "delving_responses": 0.0,
-  "first_active": null,
-  "last_active": null,
+  "first_active": "2021-03-16T06:39:47",
+  "last_active": "2022-02-23T20:34:39",
   "dev_type": "Participant",
   "expertise_domains": [
     "Ecosystem",
@@ -67,14 +67,14 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Privacy": 0.283,
       "Mempool": 0.283,
+      "Privacy": 0.283,
       "Ecosystem": 0.434
     }
   },
   "expertise_domain_scores": {
-    "Privacy": 0.283,
     "Mempool": 0.283,
+    "Privacy": 0.283,
     "Ecosystem": 0.434
   },
   "p2016_posts": 11.0,
@@ -87,8 +87,8 @@
   "is_reviewer": false,
   "is_researcher": true,
   "is_bip_author": false,
-  "global_first_active": null,
-  "global_last_active": null,
+  "global_first_active": "2021-03-16T06:39:47",
+  "global_last_active": "2022-02-23T20:34:39",
   "github_location": null,
   "github_company": null,
   "github_bio": null,

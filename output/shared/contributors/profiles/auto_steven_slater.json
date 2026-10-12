@@ -1,5 +1,5 @@
 {
-  "display_name": "steven slater",
+  "display_name": "STEVEN SLATER",
   "github_login_final": null,
   "delving_username_final": null,
   "uuid": "auto_steven_slater",
@@ -47,18 +47,18 @@
   "review_reciprocity": null,
   "hybrid_score": 0.0117,
   "p2016_hybrid_score": 0.0183,
-  "modern_hybrid_score": 0.0594,
+  "modern_hybrid_score": 0.0591,
   "impact_score": 1.0,
   "p2016_impact_score": 1.0,
-  "modern_impact_score": 4.0,
+  "modern_impact_score": 3.0,
   "threads_started": 0.0,
   "replies_sent": 2.0,
   "ml_threads": 0.0,
   "delving_threads": 0.0,
   "ml_responses": 2.0,
   "delving_responses": 0.0,
-  "first_active": null,
-  "last_active": null,
+  "first_active": "2026-04-06T13:11:49",
+  "last_active": "2026-04-06T15:12:34",
   "dev_type": "Participant",
   "expertise_domains": [
     "Wallet",
@@ -66,13 +66,13 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Wallet": 0.5,
-      "Mempool": 0.5
+      "Mempool": 0.5,
+      "Wallet": 0.5
     }
   },
   "expertise_domain_scores": {
-    "Wallet": 0.5,
-    "Mempool": 0.5
+    "Mempool": 0.5,
+    "Wallet": 0.5
   },
   "p2016_posts": 2.0,
   "modern_posts": 2.0,
@@ -84,15 +84,15 @@
   "is_reviewer": false,
   "is_researcher": true,
   "is_bip_author": false,
-  "global_first_active": null,
-  "global_last_active": null,
+  "global_first_active": "2026-04-06T13:11:49",
+  "global_last_active": "2026-04-06T15:12:34",
   "github_location": null,
   "github_company": null,
   "github_bio": null,
   "github_twitter": null,
   "github_blog": null,
   "github_followers": null,
-  "activity_status": "Active",
+  "activity_status": "New",
   "is_top_50": false,
   "first_message": {
     "source": "mailing_list",

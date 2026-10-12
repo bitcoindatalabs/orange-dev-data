@@ -73,8 +73,8 @@
   "delving_threads": 2.0,
   "ml_responses": 37.0,
   "delving_responses": 0.0,
-  "first_active": null,
-  "last_active": "2025-08-03T11:57:18.875000",
+  "first_active": "2014-03-13T10:37:56",
+  "last_active": null,
   "dev_type": "Builder",
   "expertise_domains": [
     "Infrastructure",
@@ -87,13 +87,13 @@
       "Script": 0.522
     },
     "code": {
-      "Wallet": 0.12,
-      "Infrastructure": 0.88
+      "Infrastructure": 0.88,
+      "Wallet": 0.12
     }
   },
   "expertise_domain_scores": {
-    "Mining": 0.1912,
     "Infrastructure": 0.528,
+    "Mining": 0.1912,
     "Wallet": 0.072,
     "Script": 0.2088
   },
@@ -108,14 +108,14 @@
   "is_researcher": true,
   "is_bip_author": false,
   "global_first_active": "2011-01-20T18:49:44",
-  "global_last_active": "2025-08-03T11:57:18.875000",
+  "global_last_active": "2023-02-06T23:19:07",
   "github_location": "Canada",
   "github_company": null,
   "github_bio": null,
   "github_twitter": null,
   "github_blog": "https://just-dice.com",
   "github_followers": 162.0,
-  "activity_status": "Active",
+  "activity_status": "Retired",
   "is_top_50": false,
   "github_url": "https://github.com/dooglus",
   "delving_url": "https://delvingbitcoin.org/u/chris",

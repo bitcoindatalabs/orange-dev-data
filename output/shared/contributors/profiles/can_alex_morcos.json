@@ -69,8 +69,8 @@
   "delving_threads": 0.0,
   "ml_responses": 40.0,
   "delving_responses": 0.0,
-  "first_active": null,
-  "last_active": null,
+  "first_active": "2014-02-12T18:39:11",
+  "last_active": "2022-01-13T13:25:48",
   "dev_type": "Protocol Designer",
   "expertise_domains": [
     "Infrastructure",
@@ -83,23 +83,23 @@
       "Mempool": 0.583
     },
     "code": {
-      "Wallet": 0.156,
       "Infrastructure": 0.472,
-      "Consensus": 0.113,
-      "Script": 0.001,
       "Network": 0.022,
-      "Mempool": 0.236
+      "Wallet": 0.156,
+      "Mempool": 0.236,
+      "Consensus": 0.113,
+      "Script": 0.001
     },
     "bips": {
       "Infrastructure": 1.0
     }
   },
   "expertise_domain_scores": {
-    "Mining": 0.0834,
     "Infrastructure": 0.6416,
+    "Mining": 0.0834,
+    "Mempool": 0.1874,
     "Wallet": 0.0468,
-    "Consensus": 0.0339,
-    "Mempool": 0.1874
+    "Consensus": 0.0339
   },
   "p2016_posts": 15.0,
   "modern_posts": 0.0,
@@ -111,8 +111,8 @@
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": true,
-  "global_first_active": "2014-08-04T14:45:32",
-  "global_last_active": "2021-02-15T19:55:47",
+  "global_first_active": "2014-02-12T18:39:11",
+  "global_last_active": "2022-01-13T13:25:48",
   "github_location": null,
   "github_company": "Chaincode Labs",
   "github_bio": null,

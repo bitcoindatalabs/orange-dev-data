@@ -1,5 +1,5 @@
 {
-  "display_name": "vano chkheidze",
+  "display_name": "Vano Chkheidze",
   "github_login_final": null,
   "delving_username_final": null,
   "uuid": "auto_vano_chkheidze",
@@ -57,8 +57,8 @@
   "delving_threads": 0.0,
   "ml_responses": 0.0,
   "delving_responses": 0.0,
-  "first_active": null,
-  "last_active": null,
+  "first_active": "2026-03-22T21:52:56",
+  "last_active": "2026-03-22T21:52:56",
   "dev_type": "Participant",
   "expertise_domains": [
     "Network",
@@ -71,8 +71,8 @@
     }
   },
   "expertise_domain_scores": {
-    "Ecosystem": 0.33,
-    "Network": 0.67
+    "Network": 0.67,
+    "Ecosystem": 0.33
   },
   "p2016_posts": 1.0,
   "modern_posts": 1.0,
@@ -84,8 +84,8 @@
   "is_reviewer": false,
   "is_researcher": false,
   "is_bip_author": false,
-  "global_first_active": null,
-  "global_last_active": null,
+  "global_first_active": "2026-03-22T21:52:56",
+  "global_last_active": "2026-03-22T21:52:56",
   "github_location": null,
   "github_company": null,
   "github_bio": null,

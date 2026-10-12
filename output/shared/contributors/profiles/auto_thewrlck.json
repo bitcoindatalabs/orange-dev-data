@@ -1,5 +1,5 @@
 {
-  "display_name": "TheWrlck",
+  "display_name": "thewrlck",
   "github_login_final": "thewrlck",
   "delving_username_final": null,
   "uuid": "auto_thewrlck",
@@ -47,7 +47,7 @@
   "review_reciprocity": 3.0,
   "hybrid_score": 0.0594,
   "p2016_hybrid_score": 0.0619,
-  "modern_hybrid_score": 0.0754,
+  "modern_hybrid_score": 0.0752,
   "impact_score": 4.0,
   "p2016_impact_score": 4.0,
   "modern_impact_score": 4.0,
@@ -57,8 +57,8 @@
   "delving_threads": 0.0,
   "ml_responses": 1.0,
   "delving_responses": 0.0,
-  "first_active": null,
-  "last_active": null,
+  "first_active": "2025-10-27T11:35:17",
+  "last_active": "2025-10-27T11:35:17",
   "dev_type": "Participant",
   "expertise_domains": [
     "Consensus"
@@ -89,7 +89,7 @@
   "github_twitter": null,
   "github_blog": null,
   "github_followers": null,
-  "activity_status": "New",
+  "activity_status": "Active",
   "is_top_50": false,
   "github_url": "https://github.com/thewrlck",
   "first_message": {

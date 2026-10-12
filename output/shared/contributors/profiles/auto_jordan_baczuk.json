@@ -1,5 +1,5 @@
 {
-  "display_name": "jordan baczuk",
+  "display_name": "Jordan Baczuk",
   "github_login_final": "JBaczuk",
   "delving_username_final": null,
   "uuid": "auto_jordan_baczuk",
@@ -66,8 +66,8 @@
   ],
   "expertise_by_source": {
     "code": {
-      "Wallet": 0.125,
-      "Infrastructure": 0.875
+      "Infrastructure": 0.875,
+      "Wallet": 0.125
     }
   },
   "expertise_domain_scores": {

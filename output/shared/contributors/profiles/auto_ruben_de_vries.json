@@ -1,5 +1,5 @@
 {
-  "display_name": "ruben de vries",
+  "display_name": "Ruben De Vries",
   "github_login_final": "rubensayshi",
   "delving_username_final": null,
   "uuid": "auto_ruben_de_vries",
@@ -69,8 +69,8 @@
   "delving_threads": 0.0,
   "ml_responses": 2.0,
   "delving_responses": 0.0,
-  "first_active": null,
-  "last_active": null,
+  "first_active": "2015-01-14T10:37:10",
+  "last_active": "2015-02-13T03:01:41",
   "dev_type": "Protocol Designer",
   "expertise_domains": [
     "Script",
@@ -79,8 +79,8 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Wallet": 0.78,
-      "Script": 0.22
+      "Script": 0.22,
+      "Wallet": 0.78
     },
     "code": {
       "Infrastructure": 0.5,
@@ -92,9 +92,9 @@
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.15,
+    "Network": 0.15,
     "Wallet": 0.156,
-    "Script": 0.544,
-    "Network": 0.15
+    "Script": 0.544
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,

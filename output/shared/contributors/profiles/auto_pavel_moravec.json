@@ -1,5 +1,5 @@
 {
-  "display_name": "pavel moravec",
+  "display_name": "Pavel Moravec",
   "github_login_final": null,
   "delving_username_final": null,
   "uuid": "auto_pavel_moravec",
@@ -69,8 +69,8 @@
   "delving_threads": 0.0,
   "ml_responses": 2.0,
   "delving_responses": 0.0,
-  "first_active": null,
-  "last_active": null,
+  "first_active": "2017-04-08T03:33:01",
+  "last_active": "2017-04-08T11:38:03",
   "dev_type": "Participant",
   "expertise_domains": [
     "Network",
@@ -88,8 +88,8 @@
   },
   "expertise_domain_scores": {
     "Mining": 0.1143,
-    "Consensus": 0.1714,
-    "Network": 0.7143
+    "Network": 0.7143,
+    "Consensus": 0.1714
   },
   "p2016_posts": 2.0,
   "modern_posts": 0.0,
@@ -101,7 +101,7 @@
   "is_reviewer": false,
   "is_researcher": true,
   "is_bip_author": true,
-  "global_first_active": "2018-08-01T02:54:36",
+  "global_first_active": "2017-04-08T03:33:01",
   "global_last_active": "2018-08-01T02:54:36",
   "github_location": null,
   "github_company": null,

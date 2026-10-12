@@ -47,7 +47,7 @@
   "review_reciprocity": 1.25,
   "hybrid_score": 0.1502,
   "p2016_hybrid_score": 0.1578,
-  "modern_hybrid_score": 0.1242,
+  "modern_hybrid_score": 0.124,
   "impact_score": 9.0,
   "p2016_impact_score": 9.0,
   "modern_impact_score": 7.0,
@@ -57,8 +57,8 @@
   "delving_threads": 9.0,
   "ml_responses": 6.0,
   "delving_responses": 4.0,
-  "first_active": null,
-  "last_active": "2026-01-26T15:49:40.339000",
+  "first_active": "2020-05-11T06:46:04",
+  "last_active": null,
   "dev_type": "Builder",
   "expertise_domains": [
     "Wallet",
@@ -68,20 +68,20 @@
   "expertise_by_source": {
     "discussion": {
       "Mempool": 0.27,
-      "Script": 0.162,
-      "L2": 0.568
+      "L2": 0.568,
+      "Script": 0.162
     },
     "code": {
-      "Wallet": 0.75,
-      "Infrastructure": 0.25
+      "Infrastructure": 0.25,
+      "Wallet": 0.75
     }
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.15,
-    "Wallet": 0.45,
     "Mempool": 0.108,
-    "Script": 0.0648,
-    "L2": 0.2272
+    "L2": 0.2272,
+    "Wallet": 0.45,
+    "Script": 0.0648
   },
   "p2016_posts": 20.0,
   "modern_posts": 13.0,
@@ -94,7 +94,7 @@
   "is_researcher": true,
   "is_bip_author": false,
   "global_first_active": "2019-07-19T16:01:28",
-  "global_last_active": "2026-01-26T15:49:40.339000",
+  "global_last_active": "2024-01-23T19:34:01",
   "github_location": "EU",
   "github_company": null,
   "github_bio": "lightning, bitcoin, eltoo/ln-symmetry, anyprevout, taproot,  mesh networks",

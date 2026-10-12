@@ -1,5 +1,5 @@
 {
-  "display_name": "gosunuts",
+  "display_name": "Gosunuts",
   "github_login_final": null,
   "delving_username_final": "gosunuts",
   "uuid": "auto_gosunuts",
@@ -57,8 +57,8 @@
   "delving_threads": 1.0,
   "ml_responses": 0.0,
   "delving_responses": 0.0,
-  "first_active": "2026-09-28T08:58:51.974000",
-  "last_active": "2026-09-28T08:58:51.974000",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Participant",
   "expertise_domains": [
     "Mining"
@@ -81,8 +81,8 @@
   "is_reviewer": false,
   "is_researcher": false,
   "is_bip_author": false,
-  "global_first_active": "2026-09-28T08:58:51.974000",
-  "global_last_active": "2026-09-28T08:58:51.974000",
+  "global_first_active": null,
+  "global_last_active": null,
   "github_location": null,
   "github_company": null,
   "github_bio": null,
@@ -94,15 +94,15 @@
   "delving_url": "https://delvingbitcoin.org/u/gosunuts",
   "first_message": {
     "source": "delving",
-    "subject": "Bitcoin-rs: an independent Bitcoin node written in Rust",
+    "subject": "Bitcoin-rs: an independent Bitcoin full node written in Rust",
     "date": "2026-09-28",
-    "link": "https://delvingbitcoin.org/t/bitcoin-rs-an-independent-bitcoin-node-written-in-rust/2918/1"
+    "link": "https://delvingbitcoin.org/t/bitcoin-rs-an-independent-bitcoin-full-node-written-in-rust/2918/1"
   },
   "last_message": {
     "source": "delving",
-    "subject": "Bitcoin-rs: an independent Bitcoin node written in Rust",
+    "subject": "Bitcoin-rs: an independent Bitcoin full node written in Rust",
     "date": "2026-09-28",
-    "link": "https://delvingbitcoin.org/t/bitcoin-rs-an-independent-bitcoin-node-written-in-rust/2918/1"
+    "link": "https://delvingbitcoin.org/t/bitcoin-rs-an-independent-bitcoin-full-node-written-in-rust/2918/1"
   },
   "social_history": {
     "2026": {

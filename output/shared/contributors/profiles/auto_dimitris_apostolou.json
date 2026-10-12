@@ -1,5 +1,5 @@
 {
-  "display_name": "dimitris apostolou",
+  "display_name": "Dimitris Apostolou",
   "github_login_final": "rex4539",
   "delving_username_final": null,
   "uuid": "auto_dimitris_apostolou",
@@ -70,21 +70,21 @@
   ],
   "expertise_by_source": {
     "code": {
-      "Wallet": 0.102,
       "Infrastructure": 0.854,
-      "Consensus": 0.011,
-      "Script": 0.011,
       "Network": 0.011,
-      "Mempool": 0.011
+      "Wallet": 0.102,
+      "Mempool": 0.011,
+      "Consensus": 0.011,
+      "Script": 0.011
     }
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.854,
+    "Mempool": 0.011,
+    "Network": 0.011,
     "Wallet": 0.102,
     "Consensus": 0.011,
-    "Mempool": 0.011,
-    "Script": 0.011,
-    "Network": 0.011
+    "Script": 0.011
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,

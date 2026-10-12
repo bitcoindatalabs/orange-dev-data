@@ -1,5 +1,5 @@
 {
-  "display_name": "matthieu riou",
+  "display_name": "Matthieu Riou",
   "github_login_final": null,
   "delving_username_final": null,
   "uuid": "auto_matthieu_riou",
@@ -57,8 +57,8 @@
   "delving_threads": 0.0,
   "ml_responses": 4.0,
   "delving_responses": 0.0,
-  "first_active": null,
-  "last_active": null,
+  "first_active": "2014-04-17T13:00:04",
+  "last_active": "2016-01-07T20:17:03",
   "dev_type": "Participant",
   "expertise_domains": [
     "Consensus"
@@ -81,8 +81,8 @@
   "is_reviewer": false,
   "is_researcher": true,
   "is_bip_author": false,
-  "global_first_active": null,
-  "global_last_active": null,
+  "global_first_active": "2014-04-17T13:00:04",
+  "global_last_active": "2016-01-07T20:17:03",
   "github_location": null,
   "github_company": null,
   "github_bio": null,

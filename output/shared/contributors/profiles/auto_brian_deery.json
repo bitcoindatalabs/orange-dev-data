@@ -57,8 +57,8 @@
   "delving_threads": 0.0,
   "ml_responses": 0.0,
   "delving_responses": 0.0,
-  "first_active": null,
-  "last_active": null,
+  "first_active": "2015-03-20T00:46:18",
+  "last_active": "2015-04-27T09:53:59",
   "dev_type": "Builder",
   "expertise_domains": [
     "Mempool",
@@ -77,9 +77,9 @@
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.3,
-    "Wallet": 0.136,
     "Mempool": 0.3,
-    "Network": 0.264
+    "Network": 0.264,
+    "Wallet": 0.136
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,
@@ -91,7 +91,7 @@
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": false,
-  "global_first_active": "2016-11-16T10:06:24",
+  "global_first_active": "2015-03-20T00:46:18",
   "global_last_active": "2016-11-16T10:06:24",
   "github_location": "Austin, TX",
   "github_company": null,

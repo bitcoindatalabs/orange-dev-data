@@ -1,5 +1,5 @@
 {
-  "display_name": "nima yazdanmehr",
+  "display_name": "Nima Yazdanmehr",
   "github_login_final": "n1rna",
   "delving_username_final": null,
   "uuid": "auto_nima_yazdanmehr",
@@ -66,8 +66,8 @@
   ],
   "expertise_by_source": {
     "code": {
-      "Wallet": 0.25,
-      "Infrastructure": 0.75
+      "Infrastructure": 0.75,
+      "Wallet": 0.25
     }
   },
   "expertise_domain_scores": {

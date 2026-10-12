@@ -57,8 +57,8 @@
   "delving_threads": 5.0,
   "ml_responses": 0.0,
   "delving_responses": 7.0,
-  "first_active": "2025-01-07T18:02:54.863000",
-  "last_active": "2026-07-09T20:35:16.820000",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Participant",
   "expertise_domains": [
     "Mining",
@@ -68,14 +68,14 @@
   "expertise_by_source": {
     "discussion": {
       "Mining": 0.576,
-      "Script": 0.242,
-      "L2": 0.182
+      "L2": 0.182,
+      "Script": 0.242
     }
   },
   "expertise_domain_scores": {
     "Mining": 0.576,
-    "Script": 0.242,
-    "L2": 0.182
+    "L2": 0.182,
+    "Script": 0.242
   },
   "p2016_posts": 12.0,
   "modern_posts": 12.0,
@@ -88,7 +88,7 @@
   "is_researcher": false,
   "is_bip_author": false,
   "global_first_active": "2022-11-08T14:22:24",
-  "global_last_active": "2026-07-09T20:35:16.820000",
+  "global_last_active": "2023-01-13T02:14:52",
   "github_location": null,
   "github_company": null,
   "github_bio": null,

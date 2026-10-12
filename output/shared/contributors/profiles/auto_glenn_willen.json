@@ -67,8 +67,8 @@
   ],
   "expertise_by_source": {
     "code": {
-      "Wallet": 0.164,
       "Infrastructure": 0.765,
+      "Wallet": 0.164,
       "Script": 0.071
     }
   },

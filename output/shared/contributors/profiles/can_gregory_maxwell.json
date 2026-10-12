@@ -60,7 +60,7 @@
   "prs_authored": 228.0,
   "tier1_prs_authored": 227.0,
   "tier2_prs_authored": 1.0,
-  "avg_pr_ack_velocity_days": 3.930299631930067,
+  "avg_pr_ack_velocity_days": 3.92971862778928,
   "avg_concept_lead_time_days": 11.892227880658437,
   "review_reciprocity": 7.991228070175438,
   "hybrid_score": 2.5249,
@@ -75,8 +75,8 @@
   "delving_threads": 20.0,
   "ml_responses": 784.0,
   "delving_responses": 33.0,
-  "first_active": null,
-  "last_active": "2026-08-15T05:10:11.466000",
+  "first_active": "2011-06-30T21:07:50",
+  "last_active": null,
   "dev_type": "Protocol Designer",
   "expertise_domains": [
     "Infrastructure",
@@ -89,25 +89,25 @@
       "Script": 0.4
     },
     "code": {
-      "Wallet": 0.039,
       "Infrastructure": 0.787,
-      "Consensus": 0.042,
-      "Script": 0.004,
       "Network": 0.109,
-      "Mempool": 0.019
+      "Wallet": 0.039,
+      "Mempool": 0.019,
+      "Consensus": 0.042,
+      "Script": 0.004
     },
     "bips": {
-      "Consensus": 0.5,
-      "Infrastructure": 0.5
+      "Infrastructure": 0.5,
+      "Consensus": 0.5
     }
   },
   "expertise_domain_scores": {
-    "Mining": 0.12,
     "Infrastructure": 0.4861,
+    "Mining": 0.12,
+    "Network": 0.0327,
     "Wallet": 0.0117,
     "Consensus": 0.2626,
-    "Script": 0.0812,
-    "Network": 0.0327
+    "Script": 0.0812
   },
   "p2016_posts": 325.0,
   "modern_posts": 113.0,

@@ -57,8 +57,8 @@
   "delving_threads": 0.0,
   "ml_responses": 2.0,
   "delving_responses": 0.0,
-  "first_active": null,
-  "last_active": null,
+  "first_active": "2020-05-07T11:40:49",
+  "last_active": "2021-02-27T01:10:39",
   "dev_type": "Builder",
   "expertise_domains": [
     "Infrastructure",
@@ -76,8 +76,8 @@
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.6,
-    "Ecosystem": 0.1304,
-    "Network": 0.2696
+    "Network": 0.2696,
+    "Ecosystem": 0.1304
   },
   "p2016_posts": 2.0,
   "modern_posts": 0.0,

@@ -29,16 +29,16 @@
   "modern_bips_authored": 0.0,
   "first_bip_date": null,
   "last_bip_date": null,
-  "avg_review_latency_days": 158.1119243799,
+  "avg_review_latency_days": 156.56388922195578,
   "reviews_count": 107.0,
-  "avg_approval_latency_days": 45.27680315732399,
+  "avg_approval_latency_days": 45.048166542658734,
   "approvals_count": 84.0,
   "tier1_reviews_count": 105.0,
   "tier2_reviews_count": 2.0,
   "p2016_reviews_count": 107.0,
   "modern_reviews_count": 107.0,
   "first_review_date": "2024-02-25T05:40:41",
-  "last_review_date": "2026-09-30T08:17:07",
+  "last_review_date": "2026-10-07T06:35:25",
   "prs_authored": 18.0,
   "tier1_prs_authored": 18.0,
   "tier2_prs_authored": 0.0,
@@ -68,16 +68,16 @@
   "expertise_by_source": {
     "code": {
       "Infrastructure": 0.615,
-      "Consensus": 0.245,
       "Network": 0.124,
-      "Mempool": 0.015
+      "Mempool": 0.015,
+      "Consensus": 0.245
     }
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.6156,
-    "Consensus": 0.2452,
     "Mempool": 0.015,
-    "Network": 0.1241
+    "Network": 0.1241,
+    "Consensus": 0.2452
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,
@@ -90,7 +90,7 @@
   "is_researcher": false,
   "is_bip_author": false,
   "global_first_active": "2024-02-25T05:40:41",
-  "global_last_active": "2026-09-30T08:17:07",
+  "global_last_active": "2026-10-07T06:35:25",
   "github_location": null,
   "github_company": null,
   "github_bio": null,

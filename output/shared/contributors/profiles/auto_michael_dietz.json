@@ -1,5 +1,5 @@
 {
-  "display_name": "michael dietz",
+  "display_name": "Michael Dietz",
   "github_login_final": "mjdietzx",
   "delving_username_final": null,
   "uuid": "auto_michael_dietz",
@@ -67,8 +67,8 @@
   ],
   "expertise_by_source": {
     "code": {
-      "Wallet": 0.056,
       "Infrastructure": 0.931,
+      "Wallet": 0.056,
       "Script": 0.013
     }
   },

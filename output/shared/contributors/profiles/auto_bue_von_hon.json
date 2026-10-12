@@ -67,15 +67,15 @@
   ],
   "expertise_by_source": {
     "code": {
-      "Wallet": 0.166,
       "Infrastructure": 0.332,
+      "Wallet": 0.166,
       "Mempool": 0.503
     }
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.3317,
-    "Wallet": 0.1658,
-    "Mempool": 0.5025
+    "Mempool": 0.5025,
+    "Wallet": 0.1658
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,

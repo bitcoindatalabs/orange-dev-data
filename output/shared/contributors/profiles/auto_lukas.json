@@ -1,5 +1,5 @@
 {
-  "display_name": "lukas",
+  "display_name": "Lukas",
   "github_login_final": null,
   "delving_username_final": "luckylee",
   "uuid": "auto_lukas",
@@ -57,8 +57,8 @@
   "delving_threads": 0.0,
   "ml_responses": 0.0,
   "delving_responses": 1.0,
-  "first_active": "2024-04-02T08:42:43.055000",
-  "last_active": "2024-04-02T08:42:43.055000",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Participant",
   "expertise_domains": [
     "L2",
@@ -66,13 +66,13 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Consensus": 0.254,
-      "L2": 0.746
+      "L2": 0.746,
+      "Consensus": 0.254
     }
   },
   "expertise_domain_scores": {
-    "Consensus": 0.254,
-    "L2": 0.746
+    "L2": 0.746,
+    "Consensus": 0.254
   },
   "p2016_posts": 1.0,
   "modern_posts": 1.0,
@@ -84,8 +84,8 @@
   "is_reviewer": false,
   "is_researcher": false,
   "is_bip_author": false,
-  "global_first_active": "2024-04-02T08:42:43.055000",
-  "global_last_active": "2024-04-02T08:42:43.055000",
+  "global_first_active": null,
+  "global_last_active": null,
   "github_location": null,
   "github_company": null,
   "github_bio": null,

@@ -59,9 +59,9 @@
   "avg_pr_ack_velocity_days": 8.94121495627572,
   "avg_concept_lead_time_days": 11.727422839506172,
   "review_reciprocity": 3.4285714285714284,
-  "hybrid_score": 1.408,
-  "p2016_hybrid_score": 1.4571,
-  "modern_hybrid_score": 0.6499,
+  "hybrid_score": 1.4081,
+  "p2016_hybrid_score": 1.4572,
+  "modern_hybrid_score": 0.653,
   "impact_score": 57.0,
   "p2016_impact_score": 58.0,
   "modern_impact_score": 32.0,
@@ -71,8 +71,8 @@
   "delving_threads": 11.0,
   "ml_responses": 48.0,
   "delving_responses": 3.0,
-  "first_active": null,
-  "last_active": "2026-09-15T09:30:29.539000",
+  "first_active": "2015-06-14T12:45:48",
+  "last_active": null,
   "dev_type": "Protocol Designer",
   "expertise_domains": [
     "Infrastructure",
@@ -82,16 +82,16 @@
   "expertise_by_source": {
     "discussion": {
       "Consensus": 0.245,
-      "Wallet": 0.358,
-      "Cryptography": 0.396
+      "Cryptography": 0.396,
+      "Wallet": 0.358
     },
     "code": {
-      "Wallet": 0.016,
-      "Infrastructure": 0.984
+      "Infrastructure": 0.984,
+      "Wallet": 0.016
     },
     "bips": {
-      "Consensus": 0.5,
-      "Infrastructure": 0.5
+      "Infrastructure": 0.5,
+      "Consensus": 0.5
     }
   },
   "expertise_domain_scores": {
@@ -101,17 +101,17 @@
     "Cryptography": 0.0792
   },
   "p2016_posts": 68.0,
-  "modern_posts": 40.0,
+  "modern_posts": 39.0,
   "p2016_ml_posts": 54.0,
   "p2016_delving_posts": 14.0,
-  "modern_ml_posts": 26.0,
+  "modern_ml_posts": 25.0,
   "modern_delving_posts": 14.0,
   "is_engineer": true,
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": true,
   "global_first_active": "2015-03-11T23:42:40",
-  "global_last_active": "2026-09-15T09:30:29.539000",
+  "global_last_active": "2026-07-22T19:30:13",
   "github_location": null,
   "github_company": null,
   "github_bio": "GPG 36C7 1A37 C9D9 88BD E825  08D9 B1A7 0E4F 8DCD 0366",

@@ -1,5 +1,5 @@
 {
-  "display_name": "hector chu",
+  "display_name": "Hector Chu",
   "github_login_final": null,
   "delving_username_final": null,
   "uuid": "auto_hector_chu",
@@ -57,8 +57,8 @@
   "delving_threads": 0.0,
   "ml_responses": 36.0,
   "delving_responses": 0.0,
-  "first_active": null,
-  "last_active": null,
+  "first_active": "2015-02-11T02:54:15",
+  "last_active": "2015-08-26T01:28:49",
   "dev_type": "Participant",
   "expertise_domains": [
     "Consensus",
@@ -66,13 +66,13 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Consensus": 0.646,
-      "L2": 0.354
+      "L2": 0.354,
+      "Consensus": 0.646
     }
   },
   "expertise_domain_scores": {
-    "Consensus": 0.646,
-    "L2": 0.354
+    "L2": 0.354,
+    "Consensus": 0.646
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,
@@ -84,8 +84,8 @@
   "is_reviewer": false,
   "is_researcher": true,
   "is_bip_author": false,
-  "global_first_active": null,
-  "global_last_active": null,
+  "global_first_active": "2015-02-11T02:54:15",
+  "global_last_active": "2015-08-26T01:28:49",
   "github_location": null,
   "github_company": null,
   "github_bio": null,

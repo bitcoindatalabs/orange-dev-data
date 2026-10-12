@@ -57,8 +57,8 @@
   "delving_threads": 1.0,
   "ml_responses": 0.0,
   "delving_responses": 0.0,
-  "first_active": "2023-09-06T17:49:57.068000",
-  "last_active": "2023-09-06T17:49:57.068000",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Builder",
   "expertise_domains": [
     "Infrastructure",

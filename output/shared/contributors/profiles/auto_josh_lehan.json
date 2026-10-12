@@ -1,5 +1,5 @@
 {
-  "display_name": "Josh Lehan",
+  "display_name": "josh lehan",
   "github_login_final": "Krellan",
   "delving_username_final": null,
   "uuid": "auto_josh_lehan",
@@ -57,8 +57,8 @@
   "delving_threads": 0.0,
   "ml_responses": 2.0,
   "delving_responses": 0.0,
-  "first_active": null,
-  "last_active": null,
+  "first_active": "2014-05-13T12:48:19",
+  "last_active": "2015-02-12T15:40:48",
   "dev_type": "Builder",
   "expertise_domains": [
     "Network",
@@ -76,8 +76,8 @@
     }
   },
   "expertise_domain_scores": {
-    "Mining": 0.136,
     "Infrastructure": 0.3,
+    "Mining": 0.136,
     "Mempool": 0.264,
     "Network": 0.3
   },

@@ -1,5 +1,5 @@
 {
-  "display_name": "douglas roark",
+  "display_name": "Douglas Roark",
   "github_login_final": "droark",
   "delving_username_final": null,
   "uuid": "auto_douglas_roark",
@@ -57,8 +57,8 @@
   "delving_threads": 0.0,
   "ml_responses": 16.0,
   "delving_responses": 0.0,
-  "first_active": null,
-  "last_active": null,
+  "first_active": "2015-01-21T13:29:52",
+  "last_active": "2017-12-11T12:12:02",
   "dev_type": "Builder",
   "expertise_domains": [
     "Infrastructure",
@@ -76,8 +76,8 @@
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.5538,
-    "Consensus": 0.4,
-    "Network": 0.0462
+    "Network": 0.0462,
+    "Consensus": 0.4
   },
   "p2016_posts": 8.0,
   "modern_posts": 0.0,

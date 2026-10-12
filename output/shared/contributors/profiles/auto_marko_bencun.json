@@ -71,8 +71,8 @@
   "delving_threads": 0.0,
   "ml_responses": 3.0,
   "delving_responses": 0.0,
-  "first_active": null,
-  "last_active": null,
+  "first_active": "2020-02-28T11:42:15",
+  "last_active": "2020-03-21T15:29:26",
   "dev_type": "Protocol Designer",
   "expertise_domains": [
     "Wallet",
@@ -86,22 +86,22 @@
       "Wallet": 0.284
     },
     "code": {
-      "Wallet": 0.628,
       "Infrastructure": 0.29,
+      "Network": 0.072,
+      "Wallet": 0.628,
       "Consensus": 0.002,
-      "Script": 0.008,
-      "Network": 0.072
+      "Script": 0.008
     },
     "bips": {
       "Wallet": 1.0
     }
   },
   "expertise_domain_scores": {
-    "Mining": 0.0864,
     "Infrastructure": 0.087,
+    "Mining": 0.0864,
+    "Network": 0.0216,
     "Wallet": 0.7452,
-    "Consensus": 0.0574,
-    "Network": 0.0216
+    "Consensus": 0.0574
   },
   "p2016_posts": 3.0,
   "modern_posts": 0.0,

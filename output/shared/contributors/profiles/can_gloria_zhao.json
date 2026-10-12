@@ -42,7 +42,7 @@
   "first_commit": "2020-03-05T18:41:05",
   "last_commit": "2026-03-09T10:11:14",
   "p2016_authored_commits": 612.0,
-  "modern_authored_commits": 297.0,
+  "modern_authored_commits": 295.0,
   "co_authored_commits": 24.0,
   "bips_authored": 2.0,
   "p2016_bips_authored": 2.0,
@@ -56,7 +56,7 @@
   "tier1_reviews_count": 701.0,
   "tier2_reviews_count": 9.0,
   "p2016_reviews_count": 710.0,
-  "modern_reviews_count": 377.0,
+  "modern_reviews_count": 374.0,
   "first_review_date": "2020-04-24T19:47:08",
   "last_review_date": "2026-01-14T01:15:33",
   "prs_authored": 159.0,
@@ -77,8 +77,8 @@
   "delving_threads": 17.0,
   "ml_responses": 25.0,
   "delving_responses": 6.0,
-  "first_active": null,
-  "last_active": "2025-10-14T18:53:00.532000",
+  "first_active": "2021-04-26T18:06:34",
+  "last_active": null,
   "dev_type": "Protocol Designer",
   "expertise_domains": [
     "Infrastructure",
@@ -90,11 +90,11 @@
       "Mempool": 1.0
     },
     "code": {
-      "Wallet": 0.019,
       "Infrastructure": 0.703,
-      "Consensus": 0.132,
       "Network": 0.07,
-      "Mempool": 0.077
+      "Wallet": 0.019,
+      "Mempool": 0.077,
+      "Consensus": 0.132
     },
     "bips": {
       "Infrastructure": 0.5,
@@ -102,11 +102,11 @@
     }
   },
   "expertise_domain_scores": {
-    "Privacy": 0.2499,
     "Infrastructure": 0.4608,
-    "Consensus": 0.0396,
     "Mempool": 0.223,
-    "Network": 0.021
+    "Privacy": 0.2499,
+    "Network": 0.021,
+    "Consensus": 0.0396
   },
   "p2016_posts": 60.0,
   "modern_posts": 34.0,

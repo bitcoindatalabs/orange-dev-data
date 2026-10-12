@@ -1,5 +1,5 @@
 {
-  "display_name": "John C. Vernaleo",
+  "display_name": "john c. vernaleo",
   "github_login_final": null,
   "delving_username_final": null,
   "uuid": "auto_john_c_vernaleo",
@@ -57,8 +57,8 @@
   "delving_threads": 0.0,
   "ml_responses": 3.0,
   "delving_responses": 0.0,
-  "first_active": null,
-  "last_active": null,
+  "first_active": "2018-11-07T10:19:26",
+  "last_active": "2024-03-28T15:59:37",
   "dev_type": "Participant",
   "expertise_domains": [
     "Ecosystem",
@@ -66,13 +66,13 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Ecosystem": 0.597,
-      "L2": 0.403
+      "L2": 0.403,
+      "Ecosystem": 0.597
     }
   },
   "expertise_domain_scores": {
-    "Ecosystem": 0.597,
-    "L2": 0.403
+    "L2": 0.403,
+    "Ecosystem": 0.597
   },
   "p2016_posts": 3.0,
   "modern_posts": 2.0,
@@ -84,8 +84,8 @@
   "is_reviewer": false,
   "is_researcher": true,
   "is_bip_author": false,
-  "global_first_active": null,
-  "global_last_active": null,
+  "global_first_active": "2018-11-07T10:19:26",
+  "global_last_active": "2024-03-28T15:59:37",
   "github_location": null,
   "github_company": null,
   "github_bio": null,

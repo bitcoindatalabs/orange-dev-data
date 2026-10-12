@@ -57,8 +57,8 @@
   "delving_threads": 0.0,
   "ml_responses": 4.0,
   "delving_responses": 0.0,
-  "first_active": null,
-  "last_active": null,
+  "first_active": "2014-08-19T21:23:34",
+  "last_active": "2015-05-07T18:05:29",
   "dev_type": "Builder",
   "expertise_domains": [
     "Infrastructure",
@@ -72,17 +72,17 @@
     },
     "code": {
       "Infrastructure": 0.765,
-      "Consensus": 0.182,
       "Network": 0.023,
-      "Mempool": 0.03
+      "Mempool": 0.03,
+      "Consensus": 0.182
     }
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.459,
-    "Consensus": 0.3092,
     "Mempool": 0.018,
-    "Ecosystem": 0.2,
-    "Network": 0.0138
+    "Network": 0.0138,
+    "Consensus": 0.3092,
+    "Ecosystem": 0.2
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,
@@ -94,7 +94,7 @@
   "is_reviewer": false,
   "is_researcher": true,
   "is_bip_author": false,
-  "global_first_active": "2014-10-22T08:24:28",
+  "global_first_active": "2014-08-19T21:23:34",
   "global_last_active": "2016-05-26T05:33:03",
   "github_location": null,
   "github_company": null,

@@ -1,5 +1,5 @@
 {
-  "display_name": "rohit yadav",
+  "display_name": "Rohit Yadav",
   "github_login_final": null,
   "delving_username_final": null,
   "uuid": "auto_rohit_yadav",
@@ -69,8 +69,8 @@
   ],
   "expertise_by_source": {
     "code": {
-      "Wallet": 0.5,
-      "Infrastructure": 0.5
+      "Infrastructure": 0.5,
+      "Wallet": 0.5
     }
   },
   "expertise_domain_scores": {

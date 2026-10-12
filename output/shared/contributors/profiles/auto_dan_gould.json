@@ -1,5 +1,5 @@
 {
-  "display_name": "Dan Gould",
+  "display_name": "dan gould",
   "github_login_final": "DanGould",
   "delving_username_final": "bitgould",
   "uuid": "auto_dan_gould",
@@ -58,7 +58,7 @@
   "avg_concept_lead_time_days": null,
   "review_reciprocity": 2.0,
   "hybrid_score": 0.4547,
-  "p2016_hybrid_score": 0.4611,
+  "p2016_hybrid_score": 0.4612,
   "modern_hybrid_score": 0.4439,
   "impact_score": 24.0,
   "p2016_impact_score": 24.0,
@@ -69,8 +69,8 @@
   "delving_threads": 6.0,
   "ml_responses": 4.0,
   "delving_responses": 2.0,
-  "first_active": null,
-  "last_active": "2026-03-29T06:46:33.874000",
+  "first_active": "2022-11-07T20:57:34",
+  "last_active": null,
   "dev_type": "Reviewer",
   "expertise_domains": [
     "Infrastructure",
@@ -80,18 +80,18 @@
   "expertise_by_source": {
     "discussion": {
       "Privacy": 0.716,
-      "Wallet": 0.086,
-      "L2": 0.198
+      "L2": 0.198,
+      "Wallet": 0.086
     },
     "bips": {
       "Infrastructure": 1.0
     }
   },
   "expertise_domain_scores": {
-    "Privacy": 0.2046,
     "Infrastructure": 0.7143,
-    "Wallet": 0.0246,
-    "L2": 0.0566
+    "Privacy": 0.2046,
+    "L2": 0.0566,
+    "Wallet": 0.0246
   },
   "p2016_posts": 16.0,
   "modern_posts": 5.0,

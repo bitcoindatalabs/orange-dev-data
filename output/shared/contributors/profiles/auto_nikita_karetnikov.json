@@ -1,5 +1,5 @@
 {
-  "display_name": "nikita karetnikov",
+  "display_name": "Nikita Karetnikov",
   "github_login_final": "nkaretnikov",
   "delving_username_final": "nkaretnikov",
   "uuid": "auto_nikita_karetnikov",
@@ -47,7 +47,7 @@
   "review_reciprocity": 1.0,
   "hybrid_score": 0.0746,
   "p2016_hybrid_score": 0.0821,
-  "modern_hybrid_score": 0.1246,
+  "modern_hybrid_score": 0.1245,
   "impact_score": 4.0,
   "p2016_impact_score": 5.0,
   "modern_impact_score": 7.0,
@@ -57,8 +57,8 @@
   "delving_threads": 10.0,
   "ml_responses": 2.0,
   "delving_responses": 0.0,
-  "first_active": null,
-  "last_active": "2026-07-11T20:56:01.360000",
+  "first_active": "2026-05-07T11:07:20",
+  "last_active": null,
   "dev_type": "Participant",
   "expertise_domains": [
     "Privacy",
@@ -68,14 +68,14 @@
   "expertise_by_source": {
     "discussion": {
       "Privacy": 0.49,
-      "Ecosystem": 0.204,
-      "Cryptography": 0.306
+      "Cryptography": 0.306,
+      "Ecosystem": 0.204
     }
   },
   "expertise_domain_scores": {
     "Privacy": 0.49,
-    "Ecosystem": 0.204,
-    "Cryptography": 0.306
+    "Cryptography": 0.306,
+    "Ecosystem": 0.204
   },
   "p2016_posts": 14.0,
   "modern_posts": 14.0,
@@ -87,7 +87,7 @@
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": false,
-  "global_first_active": "2026-05-25T00:16:04",
+  "global_first_active": "2026-05-07T11:07:20",
   "global_last_active": "2026-08-23T22:20:53",
   "github_location": null,
   "github_company": null,

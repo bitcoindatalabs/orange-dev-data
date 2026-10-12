@@ -51,7 +51,7 @@
     "maturity_score": 0.4,
     "social_mention_count": 107,
     "revision_count": 116,
-    "code_mention_count": 60,
+    "code_mention_count": 66,
     "authors": "Ava Chow"
   },
   {
@@ -205,7 +205,7 @@
     "maturity_score": 0.17,
     "social_mention_count": 68,
     "revision_count": 34,
-    "code_mention_count": 19,
+    "code_mention_count": 25,
     "authors": "josibake, Ruben Somsen, Sebastian Falbesoner"
   },
   {
@@ -324,7 +324,7 @@
     "status": "Complete",
     "theme": "Other",
     "maturity_score": 0.12,
-    "social_mention_count": 18,
+    "social_mention_count": 17,
     "revision_count": 47,
     "code_mention_count": 0,
     "authors": "Shaolin Fry, Luke Dashjr"
@@ -401,7 +401,7 @@
     "status": "Draft",
     "theme": "Consensus & Soft Forks",
     "maturity_score": 0.1,
-    "social_mention_count": 14,
+    "social_mention_count": 15,
     "revision_count": 38,
     "code_mention_count": 0,
     "authors": "Paul Sztorc, CryptAxe"
@@ -953,7 +953,7 @@
     "maturity_score": 0.05,
     "social_mention_count": 16,
     "revision_count": 14,
-    "code_mention_count": 40,
+    "code_mention_count": 42,
     "authors": "Olaoluwa Osuntokun, Alex Akselrod, Jim Posen"
   },
   {

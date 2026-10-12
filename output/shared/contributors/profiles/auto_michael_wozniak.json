@@ -1,5 +1,5 @@
 {
-  "display_name": "Michael Wozniak",
+  "display_name": "michael wozniak",
   "github_login_final": null,
   "delving_username_final": null,
   "uuid": "auto_michael_wozniak",
@@ -57,8 +57,8 @@
   "delving_threads": 0.0,
   "ml_responses": 6.0,
   "delving_responses": 0.0,
-  "first_active": null,
-  "last_active": null,
+  "first_active": "2014-05-19T15:22:46",
+  "last_active": "2014-07-27T21:49:11",
   "dev_type": "Participant",
   "expertise_domains": [
     "Ecosystem",
@@ -71,8 +71,8 @@
     }
   },
   "expertise_domain_scores": {
-    "Ecosystem": 0.5,
-    "Network": 0.5
+    "Network": 0.5,
+    "Ecosystem": 0.5
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,
@@ -84,8 +84,8 @@
   "is_reviewer": false,
   "is_researcher": true,
   "is_bip_author": false,
-  "global_first_active": null,
-  "global_last_active": null,
+  "global_first_active": "2014-05-19T15:22:46",
+  "global_last_active": "2014-07-27T21:49:11",
   "github_location": null,
   "github_company": null,
   "github_bio": null,

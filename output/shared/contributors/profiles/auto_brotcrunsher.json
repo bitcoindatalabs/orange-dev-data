@@ -1,5 +1,5 @@
 {
-  "display_name": "brotcrunsher",
+  "display_name": "Brotcrunsher",
   "github_login_final": "Brotcrunsher",
   "delving_username_final": null,
   "uuid": "auto_brotcrunsher",
@@ -66,8 +66,8 @@
   ],
   "expertise_by_source": {
     "code": {
-      "Wallet": 0.125,
-      "Infrastructure": 0.875
+      "Infrastructure": 0.875,
+      "Wallet": 0.125
     }
   },
   "expertise_domain_scores": {

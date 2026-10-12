@@ -1,5 +1,5 @@
 {
-  "display_name": "Gijs van Dam",
+  "display_name": "gijs van dam",
   "github_login_final": null,
   "delving_username_final": "gijswijs",
   "uuid": "auto_gijs_van_dam",
@@ -57,8 +57,8 @@
   "delving_threads": 2.0,
   "ml_responses": 1.0,
   "delving_responses": 0.0,
-  "first_active": null,
-  "last_active": "2025-07-02T13:50:39.749000",
+  "first_active": "2021-08-24T02:36:29",
+  "last_active": null,
   "dev_type": "Participant",
   "expertise_domains": [
     "L2",
@@ -68,14 +68,14 @@
   "expertise_by_source": {
     "discussion": {
       "Mempool": 0.138,
-      "Script": 0.287,
-      "L2": 0.575
+      "L2": 0.575,
+      "Script": 0.287
     }
   },
   "expertise_domain_scores": {
     "Mempool": 0.138,
-    "Script": 0.287,
-    "L2": 0.575
+    "L2": 0.575,
+    "Script": 0.287
   },
   "p2016_posts": 3.0,
   "modern_posts": 2.0,
@@ -87,8 +87,8 @@
   "is_reviewer": false,
   "is_researcher": true,
   "is_bip_author": false,
-  "global_first_active": null,
-  "global_last_active": "2025-07-02T13:50:39.749000",
+  "global_first_active": "2021-08-24T02:36:29",
+  "global_last_active": null,
   "github_location": null,
   "github_company": null,
   "github_bio": null,

@@ -65,8 +65,8 @@
   "delving_threads": 0.0,
   "ml_responses": 2.0,
   "delving_responses": 0.0,
-  "first_active": null,
-  "last_active": null,
+  "first_active": "2021-02-23T17:14:33",
+  "last_active": "2021-04-01T13:05:28",
   "dev_type": "Builder",
   "expertise_domains": [
     "Consensus",
@@ -78,20 +78,20 @@
       "Consensus": 1.0
     },
     "code": {
-      "Wallet": 0.176,
       "Infrastructure": 0.664,
-      "Consensus": 0.036,
-      "Script": 0.075,
       "Network": 0.039,
-      "Mempool": 0.01
+      "Wallet": 0.176,
+      "Mempool": 0.01,
+      "Consensus": 0.036,
+      "Script": 0.075
     }
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.3984,
+    "Network": 0.0234,
     "Wallet": 0.1056,
     "Consensus": 0.4216,
-    "Script": 0.045,
-    "Network": 0.0234
+    "Script": 0.045
   },
   "p2016_posts": 2.0,
   "modern_posts": 0.0,
