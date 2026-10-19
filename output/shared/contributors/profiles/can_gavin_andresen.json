@@ -64,7 +64,7 @@
   "avg_concept_lead_time_days": 40.39066984953704,
   "review_reciprocity": 3.75,
   "hybrid_score": 3.2956,
-  "p2016_hybrid_score": 0.7082,
+  "p2016_hybrid_score": 0.7081,
   "modern_hybrid_score": 0.1711,
   "impact_score": 86.0,
   "p2016_impact_score": 35.0,
@@ -84,30 +84,30 @@
     "Network"
   ],
   "expertise_by_source": {
+    "code": {
+      "Infrastructure": 0.96,
+      "Wallet": 0.001,
+      "Consensus": 0.004,
+      "Network": 0.031,
+      "Mempool": 0.004
+    },
     "discussion": {
       "Consensus": 0.577,
       "Ecosystem": 0.423
     },
-    "code": {
-      "Infrastructure": 0.96,
-      "Network": 0.031,
-      "Wallet": 0.001,
-      "Mempool": 0.004,
-      "Consensus": 0.004
-    },
     "bips": {
-      "Infrastructure": 0.167,
       "Consensus": 0.417,
-      "Script": 0.083,
-      "Network": 0.333
+      "Infrastructure": 0.167,
+      "Network": 0.333,
+      "Script": 0.083
     }
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.3715,
-    "Network": 0.1758,
     "Consensus": 0.3251,
-    "Script": 0.0415,
-    "Ecosystem": 0.0846
+    "Ecosystem": 0.0846,
+    "Network": 0.1758,
+    "Script": 0.0415
   },
   "p2016_posts": 25.0,
   "modern_posts": 0.0,

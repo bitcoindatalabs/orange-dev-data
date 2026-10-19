@@ -1,5 +1,5 @@
 {
-  "display_name": "michael wozniak",
+  "display_name": "Michael Wozniak",
   "github_login_final": null,
   "delving_username_final": null,
   "uuid": "auto_michael_wozniak",
@@ -71,8 +71,8 @@
     }
   },
   "expertise_domain_scores": {
-    "Network": 0.5,
-    "Ecosystem": 0.5
+    "Ecosystem": 0.5,
+    "Network": 0.5
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,

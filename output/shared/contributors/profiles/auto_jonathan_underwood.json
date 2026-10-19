@@ -1,5 +1,5 @@
 {
-  "display_name": "jonathan underwood",
+  "display_name": "Jonathan Underwood",
   "github_login_final": "junderw",
   "delving_username_final": "junderw",
   "uuid": "auto_jonathan_underwood",
@@ -66,20 +66,20 @@
     "Network"
   ],
   "expertise_by_source": {
-    "discussion": {
-      "Privacy": 0.227,
-      "Wallet": 0.773
-    },
     "code": {
       "Infrastructure": 0.667,
       "Network": 0.333
+    },
+    "discussion": {
+      "Privacy": 0.227,
+      "Wallet": 0.773
     }
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.4002,
     "Privacy": 0.0908,
-    "Network": 0.1998,
-    "Wallet": 0.3092
+    "Wallet": 0.3092,
+    "Network": 0.1998
   },
   "p2016_posts": 24.0,
   "modern_posts": 6.0,

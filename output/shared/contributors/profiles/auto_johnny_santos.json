@@ -67,15 +67,15 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Mempool": 0.254,
       "Consensus": 0.254,
+      "Mempool": 0.254,
       "Network": 0.493
     }
   },
   "expertise_domain_scores": {
+    "Consensus": 0.2537,
     "Mempool": 0.2537,
-    "Network": 0.4925,
-    "Consensus": 0.2537
+    "Network": 0.4925
   },
   "p2016_posts": 1.0,
   "modern_posts": 1.0,

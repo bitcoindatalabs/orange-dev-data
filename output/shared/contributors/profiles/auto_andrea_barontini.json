@@ -1,5 +1,5 @@
 {
-  "display_name": "andrea barontini",
+  "display_name": "Andrea Barontini",
   "github_login_final": null,
   "delving_username_final": null,
   "uuid": "auto_andrea_barontini",
@@ -68,13 +68,13 @@
   "expertise_by_source": {
     "discussion": {
       "Consensus": 0.2,
-      "Cryptography": 0.4,
-      "Wallet": 0.4
+      "Wallet": 0.4,
+      "Cryptography": 0.4
     }
   },
   "expertise_domain_scores": {
-    "Wallet": 0.4,
     "Consensus": 0.2,
+    "Wallet": 0.4,
     "Cryptography": 0.4
   },
   "p2016_posts": 6.0,

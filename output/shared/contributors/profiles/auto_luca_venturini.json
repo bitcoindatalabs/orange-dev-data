@@ -1,5 +1,5 @@
 {
-  "display_name": "luca venturini",
+  "display_name": "Luca Venturini",
   "github_login_final": "lucayepa",
   "delving_username_final": null,
   "uuid": "auto_luca_venturini",
@@ -66,12 +66,12 @@
     "Consensus"
   ],
   "expertise_by_source": {
+    "code": {
+      "Infrastructure": 1.0
+    },
     "discussion": {
       "Consensus": 0.326,
       "Ecosystem": 0.674
-    },
-    "code": {
-      "Infrastructure": 1.0
     }
   },
   "expertise_domain_scores": {

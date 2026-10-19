@@ -1,5 +1,5 @@
 {
-  "display_name": "Adam Ficsor",
+  "display_name": "adam ficsor",
   "github_login_final": "nopara73",
   "delving_username_final": null,
   "uuid": "auto_adam_ficsor",
@@ -69,18 +69,18 @@
     "Ecosystem"
   ],
   "expertise_by_source": {
-    "discussion": {
-      "Privacy": 0.795,
-      "Ecosystem": 0.205
-    },
     "code": {
       "Wallet": 1.0
+    },
+    "discussion": {
+      "Ecosystem": 0.205,
+      "Privacy": 0.795
     }
   },
   "expertise_domain_scores": {
+    "Ecosystem": 0.082,
     "Privacy": 0.318,
-    "Wallet": 0.6,
-    "Ecosystem": 0.082
+    "Wallet": 0.6
   },
   "p2016_posts": 20.0,
   "modern_posts": 0.0,

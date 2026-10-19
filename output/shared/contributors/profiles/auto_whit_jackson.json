@@ -1,5 +1,5 @@
 {
-  "display_name": "Whit Jackson",
+  "display_name": "whit jackson",
   "github_login_final": "whitj00",
   "delving_username_final": null,
   "uuid": "auto_whit_jackson",
@@ -65,11 +65,11 @@
     "Consensus"
   ],
   "expertise_by_source": {
-    "discussion": {
-      "Consensus": 1.0
-    },
     "code": {
       "Infrastructure": 1.0
+    },
+    "discussion": {
+      "Consensus": 1.0
     }
   },
   "expertise_domain_scores": {

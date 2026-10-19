@@ -1,5 +1,5 @@
 {
-  "display_name": "dan carter",
+  "display_name": "Dan Carter",
   "github_login_final": null,
   "delving_username_final": null,
   "uuid": "auto_dan_carter",
@@ -67,15 +67,15 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Privacy": 0.398,
       "L2": 0.205,
-      "Ecosystem": 0.398
+      "Ecosystem": 0.398,
+      "Privacy": 0.398
     }
   },
   "expertise_domain_scores": {
-    "Privacy": 0.3976,
     "L2": 0.2048,
-    "Ecosystem": 0.3976
+    "Ecosystem": 0.3976,
+    "Privacy": 0.3976
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,

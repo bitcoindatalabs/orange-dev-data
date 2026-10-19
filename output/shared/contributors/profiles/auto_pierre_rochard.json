@@ -66,19 +66,19 @@
     "Infrastructure"
   ],
   "expertise_by_source": {
-    "discussion": {
-      "Consensus": 0.75,
-      "Script": 0.25
-    },
     "code": {
       "Infrastructure": 0.278,
       "Wallet": 0.722
+    },
+    "discussion": {
+      "Consensus": 0.75,
+      "Script": 0.25
     }
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.1668,
-    "Wallet": 0.4332,
     "Consensus": 0.3,
+    "Wallet": 0.4332,
     "Script": 0.1
   },
   "p2016_posts": 1.0,

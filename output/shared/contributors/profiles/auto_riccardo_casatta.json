@@ -1,5 +1,5 @@
 {
-  "display_name": "riccardo casatta",
+  "display_name": "Riccardo Casatta",
   "github_login_final": "RCasatta",
   "delving_username_final": null,
   "uuid": "auto_riccardo_casatta",
@@ -49,7 +49,7 @@
   "avg_concept_lead_time_days": null,
   "review_reciprocity": 1.0,
   "hybrid_score": 0.1077,
-  "p2016_hybrid_score": 0.1202,
+  "p2016_hybrid_score": 0.1201,
   "modern_hybrid_score": 0.025,
   "impact_score": 6.0,
   "p2016_impact_score": 7.0,
@@ -69,18 +69,18 @@
     "Privacy"
   ],
   "expertise_by_source": {
+    "code": {
+      "Wallet": 1.0
+    },
     "discussion": {
       "Privacy": 0.4,
       "Network": 0.6
-    },
-    "code": {
-      "Wallet": 1.0
     }
   },
   "expertise_domain_scores": {
     "Privacy": 0.16,
-    "Network": 0.24,
-    "Wallet": 0.6
+    "Wallet": 0.6,
+    "Network": 0.24
   },
   "p2016_posts": 12.0,
   "modern_posts": 0.0,

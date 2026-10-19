@@ -1,5 +1,5 @@
 {
-  "display_name": "erick λ",
+  "display_name": "Erick λ",
   "github_login_final": "erickcestari",
   "delving_username_final": "erickcestari",
   "uuid": "auto_erick",
@@ -29,7 +29,7 @@
   "modern_bips_authored": 0.0,
   "first_bip_date": null,
   "last_bip_date": null,
-  "avg_review_latency_days": 1704.422820767196,
+  "avg_review_latency_days": 1743.8992696759262,
   "reviews_count": 3.0,
   "avg_approval_latency_days": 1375.3258101851852,
   "approvals_count": 2.0,
@@ -38,7 +38,7 @@
   "p2016_reviews_count": 3.0,
   "modern_reviews_count": 3.0,
   "first_review_date": "2024-07-31T18:54:38",
-  "last_review_date": "2026-10-10T18:42:59",
+  "last_review_date": "2026-10-13T17:04:33",
   "prs_authored": 1.0,
   "tier1_prs_authored": 1.0,
   "tier2_prs_authored": 0.0,
@@ -66,13 +66,13 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "L2": 0.776,
-      "Consensus": 0.224
+      "Consensus": 0.224,
+      "L2": 0.776
     }
   },
   "expertise_domain_scores": {
-    "L2": 0.776,
-    "Consensus": 0.224
+    "Consensus": 0.224,
+    "L2": 0.776
   },
   "p2016_posts": 8.0,
   "modern_posts": 8.0,
@@ -85,7 +85,7 @@
   "is_researcher": false,
   "is_bip_author": false,
   "global_first_active": "2024-07-31T18:54:38",
-  "global_last_active": "2026-10-10T18:42:59",
+  "global_last_active": "2026-10-13T17:04:33",
   "github_location": null,
   "github_company": null,
   "github_bio": null,

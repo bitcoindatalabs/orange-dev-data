@@ -1,5 +1,5 @@
 {
-  "display_name": "Jon",
+  "display_name": "jon",
   "github_login_final": null,
   "delving_username_final": "jgmcalpine",
   "uuid": "auto_jon",
@@ -67,15 +67,15 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Mempool": 0.57,
+      "Consensus": 0.29,
       "L2": 0.14,
-      "Consensus": 0.29
+      "Mempool": 0.57
     }
   },
   "expertise_domain_scores": {
-    "Mempool": 0.57,
+    "Consensus": 0.29,
     "L2": 0.14,
-    "Consensus": 0.29
+    "Mempool": 0.57
   },
   "p2016_posts": 5.0,
   "modern_posts": 5.0,

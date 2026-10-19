@@ -60,7 +60,7 @@
   "avg_concept_lead_time_days": 0.06405092592592593,
   "review_reciprocity": 2.3333333333333335,
   "hybrid_score": 0.897,
-  "p2016_hybrid_score": 0.9246,
+  "p2016_hybrid_score": 0.9245,
   "modern_hybrid_score": 0.6101,
   "impact_score": 42.0,
   "p2016_impact_score": 43.0,
@@ -80,13 +80,13 @@
     "Consensus"
   ],
   "expertise_by_source": {
-    "discussion": {
-      "Script": 0.41,
-      "Wallet": 0.59
-    },
     "code": {
       "Infrastructure": 0.05,
       "Wallet": 0.95
+    },
+    "discussion": {
+      "Script": 0.41,
+      "Wallet": 0.59
     },
     "bips": {
       "Consensus": 0.5,
@@ -95,8 +95,8 @@
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.015,
-    "Wallet": 0.403,
     "Consensus": 0.25,
+    "Wallet": 0.403,
     "Script": 0.332
   },
   "p2016_posts": 26.0,

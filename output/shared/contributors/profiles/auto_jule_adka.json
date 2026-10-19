@@ -1,5 +1,5 @@
 {
-  "display_name": "jule.adka",
+  "display_name": "Jule.Adka",
   "github_login_final": null,
   "delving_username_final": null,
   "uuid": "auto_jule_adka",
@@ -67,15 +67,15 @@
   ],
   "expertise_by_source": {
     "discussion": {
+      "Ecosystem": 0.25,
       "Privacy": 0.25,
-      "Script": 0.5,
-      "Ecosystem": 0.25
+      "Script": 0.5
     }
   },
   "expertise_domain_scores": {
+    "Ecosystem": 0.25,
     "Privacy": 0.25,
-    "Script": 0.5,
-    "Ecosystem": 0.25
+    "Script": 0.5
   },
   "p2016_posts": 1.0,
   "modern_posts": 0.0,

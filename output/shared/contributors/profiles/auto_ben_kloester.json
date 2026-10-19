@@ -1,5 +1,5 @@
 {
-  "display_name": "ben kloester",
+  "display_name": "Ben Kloester",
   "github_login_final": null,
   "delving_username_final": null,
   "uuid": "auto_ben_kloester",
@@ -67,15 +67,15 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Mining": 0.383,
       "Consensus": 0.469,
+      "Mining": 0.383,
       "Wallet": 0.148
     }
   },
   "expertise_domain_scores": {
+    "Consensus": 0.469,
     "Mining": 0.383,
-    "Wallet": 0.148,
-    "Consensus": 0.469
+    "Wallet": 0.148
   },
   "p2016_posts": 5.0,
   "modern_posts": 0.0,

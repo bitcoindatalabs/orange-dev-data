@@ -1,5 +1,5 @@
 {
-  "display_name": "ryan havar",
+  "display_name": "Ryan Havar",
   "github_login_final": "RHavar",
   "delving_username_final": null,
   "uuid": "auto_ryan_havar",
@@ -58,7 +58,7 @@
   "avg_concept_lead_time_days": 8.005671296296295,
   "review_reciprocity": 1.7692307692307692,
   "hybrid_score": 0.6144,
-  "p2016_hybrid_score": 0.6385,
+  "p2016_hybrid_score": 0.6384,
   "modern_hybrid_score": 0.0727,
   "impact_score": 31.0,
   "p2016_impact_score": 32.0,
@@ -78,20 +78,20 @@
     "Mempool"
   ],
   "expertise_by_source": {
-    "discussion": {
-      "Mempool": 0.7,
-      "Privacy": 0.3
-    },
     "code": {
       "Wallet": 1.0
+    },
+    "discussion": {
+      "Privacy": 0.3,
+      "Mempool": 0.7
     },
     "bips": {
       "Privacy": 1.0
     }
   },
   "expertise_domain_scores": {
-    "Mempool": 0.14,
     "Privacy": 0.56,
+    "Mempool": 0.14,
     "Wallet": 0.3
   },
   "p2016_posts": 46.0,

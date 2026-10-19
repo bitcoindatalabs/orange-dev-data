@@ -66,26 +66,26 @@
     "Mempool"
   ],
   "expertise_by_source": {
-    "discussion": {
-      "Mempool": 0.5,
-      "Consensus": 0.5
-    },
     "code": {
       "Infrastructure": 0.817,
-      "Network": 0.051,
       "Wallet": 0.06,
-      "Mempool": 0.015,
-      "Consensus": 0.043,
       "Script": 0.013,
+      "Consensus": 0.043,
+      "Network": 0.051,
+      "Mempool": 0.015,
       "Cryptography": 0.001
+    },
+    "discussion": {
+      "Consensus": 0.5,
+      "Mempool": 0.5
     }
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.4902,
+    "Consensus": 0.2258,
     "Mempool": 0.209,
-    "Network": 0.0306,
     "Wallet": 0.036,
-    "Consensus": 0.2258
+    "Network": 0.0306
   },
   "p2016_posts": 1.0,
   "modern_posts": 0.0,

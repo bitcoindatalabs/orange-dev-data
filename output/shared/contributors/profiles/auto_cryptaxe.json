@@ -1,5 +1,5 @@
 {
-  "display_name": "cryptaxe",
+  "display_name": "Cryptaxe",
   "github_login_final": "CryptAxe",
   "delving_username_final": null,
   "uuid": "auto_cryptaxe",
@@ -78,14 +78,14 @@
     "Mempool"
   ],
   "expertise_by_source": {
-    "discussion": {
-      "L2": 0.478,
-      "Consensus": 0.261,
-      "Script": 0.261
-    },
     "code": {
       "Infrastructure": 0.667,
       "Mempool": 0.333
+    },
+    "discussion": {
+      "Consensus": 0.261,
+      "L2": 0.478,
+      "Script": 0.261
     },
     "bips": {
       "Consensus": 1.0
@@ -93,9 +93,9 @@
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.2001,
-    "Mempool": 0.0999,
-    "L2": 0.0956,
     "Consensus": 0.5522,
+    "L2": 0.0956,
+    "Mempool": 0.0999,
     "Script": 0.0522
   },
   "p2016_posts": 25.0,

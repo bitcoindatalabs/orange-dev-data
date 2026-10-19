@@ -1,5 +1,5 @@
 {
-  "display_name": "peter tschipper",
+  "display_name": "Peter Tschipper",
   "github_login_final": "ptschip",
   "delving_username_final": null,
   "uuid": "auto_peter_tschipper",
@@ -65,11 +65,11 @@
     "Ecosystem"
   ],
   "expertise_by_source": {
-    "discussion": {
-      "Ecosystem": 1.0
-    },
     "code": {
       "Infrastructure": 1.0
+    },
+    "discussion": {
+      "Ecosystem": 1.0
     }
   },
   "expertise_domain_scores": {

@@ -1,5 +1,5 @@
 {
-  "display_name": "vig seth",
+  "display_name": "Vig Seth",
   "github_login_final": null,
   "delving_username_final": "vigseth",
   "uuid": "auto_vig_seth",
@@ -66,13 +66,13 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Mempool": 0.5,
-      "Privacy": 0.5
+      "Privacy": 0.5,
+      "Mempool": 0.5
     }
   },
   "expertise_domain_scores": {
-    "Mempool": 0.5,
-    "Privacy": 0.5
+    "Privacy": 0.5,
+    "Mempool": 0.5
   },
   "p2016_posts": 4.0,
   "modern_posts": 4.0,

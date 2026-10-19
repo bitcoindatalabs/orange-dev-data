@@ -66,13 +66,13 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Privacy": 0.786,
-      "Ecosystem": 0.214
+      "Ecosystem": 0.214,
+      "Privacy": 0.786
     }
   },
   "expertise_domain_scores": {
-    "Privacy": 0.786,
-    "Ecosystem": 0.214
+    "Ecosystem": 0.214,
+    "Privacy": 0.786
   },
   "p2016_posts": 15.0,
   "modern_posts": 15.0,

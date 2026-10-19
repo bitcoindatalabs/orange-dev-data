@@ -66,18 +66,18 @@
     "Mining"
   ],
   "expertise_by_source": {
-    "discussion": {
-      "Mining": 0.5,
-      "Consensus": 0.5
-    },
     "code": {
       "Infrastructure": 1.0
+    },
+    "discussion": {
+      "Consensus": 0.5,
+      "Mining": 0.5
     }
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.6,
-    "Mining": 0.2,
-    "Consensus": 0.2
+    "Consensus": 0.2,
+    "Mining": 0.2
   },
   "p2016_posts": 4.0,
   "modern_posts": 0.0,

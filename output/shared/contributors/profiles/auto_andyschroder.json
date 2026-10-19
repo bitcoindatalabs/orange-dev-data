@@ -1,5 +1,5 @@
 {
-  "display_name": "AndySchroder",
+  "display_name": "andyschroder",
   "github_login_final": "AndySchroder",
   "delving_username_final": "andyschroder",
   "uuid": "auto_andyschroder",
@@ -67,15 +67,15 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Mempool": 0.08,
       "L2": 0.75,
-      "Ecosystem": 0.17
+      "Ecosystem": 0.17,
+      "Mempool": 0.08
     }
   },
   "expertise_domain_scores": {
-    "Mempool": 0.08,
     "L2": 0.75,
-    "Ecosystem": 0.17
+    "Ecosystem": 0.17,
+    "Mempool": 0.08
   },
   "p2016_posts": 10.0,
   "modern_posts": 10.0,

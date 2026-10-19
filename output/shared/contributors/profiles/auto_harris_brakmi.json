@@ -1,5 +1,5 @@
 {
-  "display_name": "harris brakmić",
+  "display_name": "Harris Brakmić",
   "github_login_final": "brakmic",
   "delving_username_final": "harris",
   "uuid": "auto_harris_brakmi",
@@ -66,20 +66,20 @@
     "Mempool"
   ],
   "expertise_by_source": {
-    "discussion": {
-      "Mempool": 0.254,
-      "Privacy": 0.493,
-      "Cryptography": 0.254
-    },
     "code": {
       "Infrastructure": 0.941,
       "Wallet": 0.059
+    },
+    "discussion": {
+      "Privacy": 0.493,
+      "Mempool": 0.254,
+      "Cryptography": 0.254
     }
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.5644,
-    "Mempool": 0.1016,
     "Privacy": 0.1971,
+    "Mempool": 0.1016,
     "Wallet": 0.0354,
     "Cryptography": 0.1016
   },

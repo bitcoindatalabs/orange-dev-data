@@ -1,5 +1,5 @@
 {
-  "display_name": "ryan breen",
+  "display_name": "Ryan Breen",
   "github_login_final": null,
   "delving_username_final": "ursuscamp",
   "uuid": "auto_ryan_breen",
@@ -67,15 +67,15 @@
   ],
   "expertise_by_source": {
     "discussion": {
+      "Consensus": 0.211,
       "Mining": 0.211,
-      "L2": 0.579,
-      "Consensus": 0.211
+      "L2": 0.579
     }
   },
   "expertise_domain_scores": {
+    "Consensus": 0.2108,
     "Mining": 0.2108,
-    "L2": 0.5784,
-    "Consensus": 0.2108
+    "L2": 0.5784
   },
   "p2016_posts": 15.0,
   "modern_posts": 9.0,

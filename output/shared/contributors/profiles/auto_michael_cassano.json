@@ -47,7 +47,7 @@
   "review_reciprocity": 1.0,
   "hybrid_score": 0.0883,
   "p2016_hybrid_score": 0.0381,
-  "modern_hybrid_score": 0.0845,
+  "modern_hybrid_score": 0.0847,
   "impact_score": 5.0,
   "p2016_impact_score": 2.0,
   "modern_impact_score": 5.0,
@@ -66,20 +66,20 @@
     "Mempool"
   ],
   "expertise_by_source": {
-    "discussion": {
-      "Mining": 0.758,
-      "Mempool": 0.121,
-      "Ecosystem": 0.121
-    },
     "code": {
       "Infrastructure": 1.0
+    },
+    "discussion": {
+      "Mining": 0.758,
+      "Ecosystem": 0.121,
+      "Mempool": 0.121
     }
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.6,
     "Mining": 0.3032,
-    "Mempool": 0.0484,
-    "Ecosystem": 0.0484
+    "Ecosystem": 0.0484,
+    "Mempool": 0.0484
   },
   "p2016_posts": 3.0,
   "modern_posts": 3.0,

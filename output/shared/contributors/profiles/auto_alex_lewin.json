@@ -1,5 +1,5 @@
 {
-  "display_name": "alex lewin",
+  "display_name": "Alex Lewin",
   "github_login_final": null,
   "delving_username_final": "alex",
   "uuid": "auto_alex_lewin",
@@ -73,8 +73,8 @@
     }
   },
   "expertise_domain_scores": {
-    "Wallet": 0.2857,
     "Consensus": 0.4286,
+    "Wallet": 0.2857,
     "Script": 0.2857
   },
   "p2016_posts": 3.0,

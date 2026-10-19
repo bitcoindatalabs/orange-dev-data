@@ -46,7 +46,7 @@
   "avg_concept_lead_time_days": null,
   "review_reciprocity": null,
   "hybrid_score": 0.2156,
-  "p2016_hybrid_score": 0.2721,
+  "p2016_hybrid_score": 0.272,
   "modern_hybrid_score": 0.0,
   "impact_score": 12.0,
   "p2016_impact_score": 15.0,
@@ -66,21 +66,21 @@
     "Mempool"
   ],
   "expertise_by_source": {
-    "discussion": {
-      "Mempool": 0.5,
-      "Consensus": 0.5
-    },
     "code": {
       "Infrastructure": 0.722,
       "Wallet": 0.111,
       "Consensus": 0.167
+    },
+    "discussion": {
+      "Consensus": 0.5,
+      "Mempool": 0.5
     }
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.4332,
+    "Consensus": 0.3002,
     "Mempool": 0.2,
-    "Wallet": 0.0666,
-    "Consensus": 0.3002
+    "Wallet": 0.0666
   },
   "p2016_posts": 83.0,
   "modern_posts": 0.0,

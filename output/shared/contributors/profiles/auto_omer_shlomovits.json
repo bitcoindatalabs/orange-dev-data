@@ -1,5 +1,5 @@
 {
-  "display_name": "omer shlomovits",
+  "display_name": "Omer Shlomovits",
   "github_login_final": null,
   "delving_username_final": null,
   "uuid": "auto_omer_shlomovits",
@@ -67,15 +67,15 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Mempool": 0.14,
       "Consensus": 0.57,
+      "Mempool": 0.14,
       "Wallet": 0.29
     }
   },
   "expertise_domain_scores": {
+    "Consensus": 0.57,
     "Mempool": 0.14,
-    "Wallet": 0.29,
-    "Consensus": 0.57
+    "Wallet": 0.29
   },
   "p2016_posts": 2.0,
   "modern_posts": 0.0,

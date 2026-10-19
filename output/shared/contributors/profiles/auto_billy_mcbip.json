@@ -1,5 +1,5 @@
 {
-  "display_name": "billy mcbip",
+  "display_name": "Billy McBip",
   "github_login_final": "billymcbip",
   "delving_username_final": "billymcbip",
   "uuid": "auto_billy_mcbip",
@@ -66,14 +66,14 @@
     "Consensus"
   ],
   "expertise_by_source": {
+    "code": {
+      "Infrastructure": 0.929,
+      "Script": 0.071
+    },
     "discussion": {
       "Consensus": 0.34,
       "Script": 0.404,
       "Cryptography": 0.255
-    },
-    "code": {
-      "Infrastructure": 0.929,
-      "Script": 0.071
     }
   },
   "expertise_domain_scores": {

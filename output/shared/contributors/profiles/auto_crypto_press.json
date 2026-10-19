@@ -1,5 +1,5 @@
 {
-  "display_name": "crypto.press",
+  "display_name": "Crypto.Press",
   "github_login_final": null,
   "delving_username_final": null,
   "uuid": "auto_crypto_press",
@@ -66,13 +66,13 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Mining": 0.33,
-      "Consensus": 0.67
+      "Consensus": 0.67,
+      "Mining": 0.33
     }
   },
   "expertise_domain_scores": {
-    "Mining": 0.33,
-    "Consensus": 0.67
+    "Consensus": 0.67,
+    "Mining": 0.33
   },
   "p2016_posts": 1.0,
   "modern_posts": 0.0,

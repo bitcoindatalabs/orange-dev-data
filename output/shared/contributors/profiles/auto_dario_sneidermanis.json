@@ -65,12 +65,12 @@
     "Cryptography"
   ],
   "expertise_by_source": {
+    "code": {
+      "Mempool": 1.0
+    },
     "discussion": {
       "Mempool": 0.877,
       "Cryptography": 0.123
-    },
-    "code": {
-      "Mempool": 1.0
     }
   },
   "expertise_domain_scores": {

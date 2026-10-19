@@ -46,8 +46,8 @@
   "avg_concept_lead_time_days": null,
   "review_reciprocity": 0.0,
   "hybrid_score": 0.0544,
-  "p2016_hybrid_score": 0.0778,
-  "modern_hybrid_score": 0.1988,
+  "p2016_hybrid_score": 0.0777,
+  "modern_hybrid_score": 0.1993,
   "impact_score": 3.0,
   "p2016_impact_score": 5.0,
   "modern_impact_score": 11.0,
@@ -67,15 +67,15 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Cryptography": 0.46,
+      "Ecosystem": 0.24,
       "Wallet": 0.3,
-      "Ecosystem": 0.24
+      "Cryptography": 0.46
     }
   },
   "expertise_domain_scores": {
+    "Ecosystem": 0.24,
     "Wallet": 0.3,
-    "Cryptography": 0.46,
-    "Ecosystem": 0.24
+    "Cryptography": 0.46
   },
   "p2016_posts": 10.0,
   "modern_posts": 10.0,

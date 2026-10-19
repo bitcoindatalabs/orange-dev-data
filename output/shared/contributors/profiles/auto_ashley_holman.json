@@ -1,5 +1,5 @@
 {
-  "display_name": "ashley holman",
+  "display_name": "Ashley Holman",
   "github_login_final": "ashleyholman",
   "delving_username_final": null,
   "uuid": "auto_ashley_holman",
@@ -66,20 +66,20 @@
     "Mining"
   ],
   "expertise_by_source": {
-    "discussion": {
-      "Mining": 0.5,
-      "Consensus": 0.5
-    },
     "code": {
       "Infrastructure": 0.945,
       "Mempool": 0.055
+    },
+    "discussion": {
+      "Consensus": 0.5,
+      "Mining": 0.5
     }
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.567,
+    "Consensus": 0.2,
     "Mining": 0.2,
-    "Mempool": 0.033,
-    "Consensus": 0.2
+    "Mempool": 0.033
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,

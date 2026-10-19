@@ -51,15 +51,15 @@
   "modern_reviews_count": 16.0,
   "first_review_date": "2022-04-01T22:30:08",
   "last_review_date": "2026-01-22T19:58:42",
-  "prs_authored": 10.0,
-  "tier1_prs_authored": 4.0,
+  "prs_authored": 11.0,
+  "tier1_prs_authored": 5.0,
   "tier2_prs_authored": 6.0,
   "avg_pr_ack_velocity_days": 73.69123346560846,
   "avg_concept_lead_time_days": 0.7398755787037037,
-  "review_reciprocity": 2.1,
-  "hybrid_score": 0.9781,
-  "p2016_hybrid_score": 1.0095,
-  "modern_hybrid_score": 1.0045,
+  "review_reciprocity": 1.9090909090909092,
+  "hybrid_score": 0.9788,
+  "p2016_hybrid_score": 1.0101,
+  "modern_hybrid_score": 1.0065,
   "impact_score": 44.0,
   "p2016_impact_score": 45.0,
   "modern_impact_score": 45.0,
@@ -78,16 +78,16 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Consensus": 0.216,
-      "Script": 0.784
+      "Consensus": 0.196,
+      "Script": 0.804
     },
     "bips": {
       "Consensus": 1.0
     }
   },
   "expertise_domain_scores": {
-    "Consensus": 0.776,
-    "Script": 0.224
+    "Consensus": 0.7703,
+    "Script": 0.2297
   },
   "p2016_posts": 85.0,
   "modern_posts": 61.0,
@@ -184,7 +184,7 @@
       "script-opcodes": 13,
       "signatures-sighash": 5,
       "soft-fork-activation": 8,
-      "taproot": 18
+      "taproot": 16
     },
     "2025": {
       "bip-process": 1,

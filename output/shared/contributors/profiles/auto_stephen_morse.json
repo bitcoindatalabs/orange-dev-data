@@ -1,5 +1,5 @@
 {
-  "display_name": "Stephen Morse",
+  "display_name": "stephen morse",
   "github_login_final": "scmorse",
   "delving_username_final": null,
   "uuid": "auto_stephen_morse",
@@ -66,21 +66,21 @@
     "Consensus"
   ],
   "expertise_by_source": {
-    "discussion": {
-      "Mining": 0.279,
-      "Consensus": 0.426,
-      "Script": 0.295
-    },
     "code": {
       "Infrastructure": 0.667,
       "Wallet": 0.333
+    },
+    "discussion": {
+      "Consensus": 0.426,
+      "Mining": 0.279,
+      "Script": 0.295
     }
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.4002,
+    "Consensus": 0.1704,
     "Mining": 0.1116,
     "Wallet": 0.1998,
-    "Consensus": 0.1704,
     "Script": 0.118
   },
   "p2016_posts": 0.0,

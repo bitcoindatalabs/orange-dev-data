@@ -77,11 +77,11 @@
     "Infrastructure"
   ],
   "expertise_by_source": {
-    "discussion": {
-      "Consensus": 1.0
-    },
     "code": {
       "Infrastructure": 1.0
+    },
+    "discussion": {
+      "Consensus": 1.0
     },
     "bips": {
       "Consensus": 1.0

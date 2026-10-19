@@ -1,5 +1,5 @@
 {
-  "display_name": "Undiscussed Horrific Abuse, One Victim of Many",
+  "display_name": "undiscussed horrific abuse, one victim of many",
   "github_login_final": null,
   "delving_username_final": null,
   "uuid": "auto_undiscussed_horrific_abuse_one_victim_of_many",
@@ -66,13 +66,13 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Mining": 0.821,
-      "Consensus": 0.179
+      "Consensus": 0.179,
+      "Mining": 0.821
     }
   },
   "expertise_domain_scores": {
-    "Mining": 0.821,
-    "Consensus": 0.179
+    "Consensus": 0.179,
+    "Mining": 0.821
   },
   "p2016_posts": 26.0,
   "modern_posts": 0.0,

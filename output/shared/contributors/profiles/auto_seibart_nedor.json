@@ -1,5 +1,5 @@
 {
-  "display_name": "seibart nedor",
+  "display_name": "Seibart Nedor",
   "github_login_final": "rodentrabies",
   "delving_username_final": null,
   "uuid": "auto_seibart_nedor",
@@ -74,8 +74,8 @@
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.7772,
-    "Wallet": 0.1668,
-    "Consensus": 0.0559
+    "Consensus": 0.0559,
+    "Wallet": 0.1668
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,

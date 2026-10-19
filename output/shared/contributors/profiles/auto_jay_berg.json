@@ -1,5 +1,5 @@
 {
-  "display_name": "jay berg",
+  "display_name": "Jay Berg",
   "github_login_final": null,
   "delving_username_final": null,
   "uuid": "auto_jay_berg",
@@ -45,7 +45,7 @@
   "avg_pr_ack_velocity_days": null,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": null,
-  "hybrid_score": 0.0066,
+  "hybrid_score": 0.0065,
   "p2016_hybrid_score": 0.01,
   "modern_hybrid_score": 0.0,
   "impact_score": 0.0,
@@ -66,13 +66,13 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Privacy": 0.14,
-      "Consensus": 0.86
+      "Consensus": 0.86,
+      "Privacy": 0.14
     }
   },
   "expertise_domain_scores": {
-    "Privacy": 0.14,
-    "Consensus": 0.86
+    "Consensus": 0.86,
+    "Privacy": 0.14
   },
   "p2016_posts": 3.0,
   "modern_posts": 0.0,

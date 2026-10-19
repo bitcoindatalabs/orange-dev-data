@@ -57,12 +57,12 @@
   "avg_pr_ack_velocity_days": 3.7645717592592596,
   "avg_concept_lead_time_days": 0.38824652777777774,
   "review_reciprocity": 7.4,
-  "hybrid_score": 0.6104,
-  "p2016_hybrid_score": 0.6355,
-  "modern_hybrid_score": 0.5004,
+  "hybrid_score": 0.6103,
+  "p2016_hybrid_score": 0.6354,
+  "modern_hybrid_score": 0.4698,
   "impact_score": 31.0,
   "p2016_impact_score": 32.0,
-  "modern_impact_score": 26.0,
+  "modern_impact_score": 25.0,
   "threads_started": 29.0,
   "replies_sent": 60.0,
   "ml_threads": 1.0,
@@ -78,13 +78,13 @@
     "Wallet"
   ],
   "expertise_by_source": {
-    "discussion": {
-      "Mempool": 0.431,
-      "L2": 0.569
-    },
     "code": {
       "Infrastructure": 0.666,
       "Wallet": 0.334
+    },
+    "discussion": {
+      "L2": 0.569,
+      "Mempool": 0.431
     },
     "bips": {
       "Infrastructure": 1.0
@@ -92,15 +92,15 @@
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.6998,
-    "Mempool": 0.0862,
     "L2": 0.1138,
+    "Mempool": 0.0862,
     "Wallet": 0.1002
   },
   "p2016_posts": 89.0,
-  "modern_posts": 71.0,
+  "modern_posts": 67.0,
   "p2016_ml_posts": 22.0,
   "p2016_delving_posts": 67.0,
-  "modern_ml_posts": 4.0,
+  "modern_ml_posts": 0.0,
   "modern_delving_posts": 67.0,
   "is_engineer": true,
   "is_reviewer": true,

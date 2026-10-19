@@ -1,5 +1,5 @@
 {
-  "display_name": "sivaram dhakshinamoorthy",
+  "display_name": "Sivaram Dhakshinamoorthy",
   "github_login_final": "siv2r",
   "delving_username_final": null,
   "uuid": "auto_sivaram_dhakshinamoorthy",
@@ -65,11 +65,11 @@
     "Wallet"
   ],
   "expertise_by_source": {
-    "discussion": {
-      "Wallet": 1.0
-    },
     "code": {
       "Infrastructure": 1.0
+    },
+    "discussion": {
+      "Wallet": 1.0
     }
   },
   "expertise_domain_scores": {

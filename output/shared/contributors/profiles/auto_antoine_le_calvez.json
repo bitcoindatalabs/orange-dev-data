@@ -1,5 +1,5 @@
 {
-  "display_name": "Antoine Le Calvez",
+  "display_name": "antoine le calvez",
   "github_login_final": "alecalve",
   "delving_username_final": null,
   "uuid": "auto_antoine_le_calvez",
@@ -45,7 +45,7 @@
   "avg_pr_ack_velocity_days": 0.3368229166666667,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": 0.0,
-  "hybrid_score": 0.0936,
+  "hybrid_score": 0.0935,
   "p2016_hybrid_score": 0.0961,
   "modern_hybrid_score": 0.025,
   "impact_score": 5.0,
@@ -66,18 +66,18 @@
     "Consensus"
   ],
   "expertise_by_source": {
-    "discussion": {
-      "Mining": 0.507,
-      "Consensus": 0.493
-    },
     "code": {
       "Infrastructure": 1.0
+    },
+    "discussion": {
+      "Consensus": 0.493,
+      "Mining": 0.507
     }
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.6,
-    "Mining": 0.2028,
-    "Consensus": 0.1972
+    "Consensus": 0.1972,
+    "Mining": 0.2028
   },
   "p2016_posts": 2.0,
   "modern_posts": 0.0,

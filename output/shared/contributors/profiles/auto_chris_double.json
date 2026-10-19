@@ -1,5 +1,5 @@
 {
-  "display_name": "Chris Double",
+  "display_name": "chris double",
   "github_login_final": "doublec",
   "delving_username_final": null,
   "uuid": "auto_chris_double",
@@ -66,13 +66,13 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Mining": 0.326,
-      "Consensus": 0.674
+      "Consensus": 0.674,
+      "Mining": 0.326
     }
   },
   "expertise_domain_scores": {
-    "Mining": 0.326,
-    "Consensus": 0.674
+    "Consensus": 0.674,
+    "Mining": 0.326
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,

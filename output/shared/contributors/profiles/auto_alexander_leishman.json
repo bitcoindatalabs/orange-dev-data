@@ -66,12 +66,12 @@
     "Cryptography"
   ],
   "expertise_by_source": {
+    "code": {
+      "Infrastructure": 1.0
+    },
     "discussion": {
       "Consensus": 0.75,
       "Cryptography": 0.25
-    },
-    "code": {
-      "Infrastructure": 1.0
     }
   },
   "expertise_domain_scores": {

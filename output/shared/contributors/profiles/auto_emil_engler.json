@@ -1,5 +1,5 @@
 {
-  "display_name": "Emil Engler",
+  "display_name": "emil engler",
   "github_login_final": "cvengler",
   "delving_username_final": null,
   "uuid": "auto_emil_engler",
@@ -57,8 +57,8 @@
   "avg_pr_ack_velocity_days": 1.2198092421124829,
   "avg_concept_lead_time_days": 1.8120453042328042,
   "review_reciprocity": 2.4693877551020407,
-  "hybrid_score": 0.7213,
-  "p2016_hybrid_score": 0.7412,
+  "hybrid_score": 0.7212,
+  "p2016_hybrid_score": 0.7411,
   "modern_hybrid_score": 0.1168,
   "impact_score": 35.0,
   "p2016_impact_score": 36.0,
@@ -77,11 +77,11 @@
     "Consensus"
   ],
   "expertise_by_source": {
-    "discussion": {
-      "Consensus": 1.0
-    },
     "code": {
       "Infrastructure": 1.0
+    },
+    "discussion": {
+      "Consensus": 1.0
     },
     "bips": {
       "Infrastructure": 1.0

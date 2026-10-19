@@ -66,18 +66,18 @@
     "Consensus"
   ],
   "expertise_by_source": {
-    "discussion": {
-      "Mempool": 0.25,
-      "Consensus": 0.146,
-      "Cryptography": 0.604
-    },
     "code": {
       "Mempool": 1.0
+    },
+    "discussion": {
+      "Consensus": 0.146,
+      "Mempool": 0.25,
+      "Cryptography": 0.604
     }
   },
   "expertise_domain_scores": {
-    "Mempool": 0.7,
     "Consensus": 0.0584,
+    "Mempool": 0.7,
     "Cryptography": 0.2416
   },
   "p2016_posts": 58.0,

@@ -69,13 +69,13 @@
     "Infrastructure"
   ],
   "expertise_by_source": {
-    "discussion": {
-      "Script": 0.25,
-      "Wallet": 0.75
-    },
     "code": {
       "Infrastructure": 0.071,
       "Wallet": 0.929
+    },
+    "discussion": {
+      "Script": 0.25,
+      "Wallet": 0.75
     }
   },
   "expertise_domain_scores": {

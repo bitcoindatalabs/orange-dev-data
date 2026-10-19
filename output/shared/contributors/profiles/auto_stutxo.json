@@ -47,7 +47,7 @@
   "review_reciprocity": 0.6,
   "hybrid_score": 0.1141,
   "p2016_hybrid_score": 0.1177,
-  "modern_hybrid_score": 0.136,
+  "modern_hybrid_score": 0.1361,
   "impact_score": 7.0,
   "p2016_impact_score": 7.0,
   "modern_impact_score": 8.0,
@@ -66,12 +66,12 @@
     "Script"
   ],
   "expertise_by_source": {
+    "code": {
+      "Infrastructure": 1.0
+    },
     "discussion": {
       "Mempool": 0.806,
       "Script": 0.194
-    },
-    "code": {
-      "Infrastructure": 1.0
     }
   },
   "expertise_domain_scores": {

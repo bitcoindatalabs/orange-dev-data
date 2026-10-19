@@ -78,14 +78,14 @@
     "Ecosystem"
   ],
   "expertise_by_source": {
+    "code": {
+      "Infrastructure": 0.838,
+      "Consensus": 0.013,
+      "Network": 0.149
+    },
     "discussion": {
       "Mining": 0.286,
       "Ecosystem": 0.714
-    },
-    "code": {
-      "Infrastructure": 0.838,
-      "Network": 0.149,
-      "Consensus": 0.013
     },
     "bips": {
       "Infrastructure": 0.75,
@@ -95,8 +95,8 @@
   "expertise_domain_scores": {
     "Infrastructure": 0.6264,
     "Mining": 0.0572,
-    "Network": 0.1697,
-    "Ecosystem": 0.1428
+    "Ecosystem": 0.1428,
+    "Network": 0.1697
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,

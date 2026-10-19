@@ -41,25 +41,25 @@
   "modern_bips_authored": 2.0,
   "first_bip_date": "2024-10-19T10:28:39",
   "last_bip_date": "2024-10-23T20:41:26",
-  "avg_review_latency_days": 342.76606502260785,
-  "reviews_count": 196.0,
-  "avg_approval_latency_days": 301.1203132159221,
-  "approvals_count": 117.0,
-  "tier1_reviews_count": 177.0,
+  "avg_review_latency_days": 341.21315391451725,
+  "reviews_count": 197.0,
+  "avg_approval_latency_days": 297.34014588033466,
+  "approvals_count": 118.0,
+  "tier1_reviews_count": 178.0,
   "tier2_reviews_count": 19.0,
-  "p2016_reviews_count": 196.0,
-  "modern_reviews_count": 163.0,
+  "p2016_reviews_count": 197.0,
+  "modern_reviews_count": 164.0,
   "first_review_date": "2018-12-08T16:14:40",
-  "last_review_date": "2026-10-10T14:15:08",
-  "prs_authored": 71.0,
-  "tier1_prs_authored": 65.0,
+  "last_review_date": "2026-10-18T19:01:31",
+  "prs_authored": 72.0,
+  "tier1_prs_authored": 66.0,
   "tier2_prs_authored": 6.0,
   "avg_pr_ack_velocity_days": 14.304437003968255,
   "avg_concept_lead_time_days": 21.599189250225834,
-  "review_reciprocity": 2.76056338028169,
-  "hybrid_score": 1.0355,
-  "p2016_hybrid_score": 1.0392,
-  "modern_hybrid_score": 1.0446,
+  "review_reciprocity": 2.736111111111111,
+  "hybrid_score": 1.0367,
+  "p2016_hybrid_score": 1.0403,
+  "modern_hybrid_score": 1.0459,
   "impact_score": 46.0,
   "p2016_impact_score": 46.0,
   "modern_impact_score": 47.0,
@@ -78,15 +78,15 @@
     "Wallet"
   ],
   "expertise_by_source": {
+    "code": {
+      "Infrastructure": 0.689,
+      "Wallet": 0.036,
+      "Consensus": 0.244,
+      "Network": 0.031
+    },
     "discussion": {
       "Privacy": 0.639,
       "Wallet": 0.361
-    },
-    "code": {
-      "Infrastructure": 0.686,
-      "Network": 0.029,
-      "Wallet": 0.037,
-      "Consensus": 0.248
     },
     "bips": {
       "Infrastructure": 0.5,
@@ -94,10 +94,10 @@
     }
   },
   "expertise_domain_scores": {
-    "Infrastructure": 0.4558,
+    "Infrastructure": 0.4567,
+    "Consensus": 0.0732,
     "Privacy": 0.3778,
-    "Wallet": 0.0833,
-    "Consensus": 0.0744
+    "Wallet": 0.083
   },
   "p2016_posts": 41.0,
   "modern_posts": 41.0,
@@ -110,7 +110,7 @@
   "is_researcher": true,
   "is_bip_author": true,
   "global_first_active": "2018-12-08T16:14:40",
-  "global_last_active": "2026-10-10T14:15:08",
+  "global_last_active": "2026-10-18T19:01:31",
   "github_location": "Toronto",
   "github_company": null,
   "github_bio": null,

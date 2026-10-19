@@ -67,15 +67,15 @@
   ],
   "expertise_by_source": {
     "discussion": {
+      "Consensus": 0.505,
       "Mining": 0.247,
-      "L2": 0.247,
-      "Consensus": 0.505
+      "L2": 0.247
     }
   },
   "expertise_domain_scores": {
+    "Consensus": 0.5055,
     "Mining": 0.2472,
-    "L2": 0.2472,
-    "Consensus": 0.5055
+    "L2": 0.2472
   },
   "p2016_posts": 8.0,
   "modern_posts": 8.0,

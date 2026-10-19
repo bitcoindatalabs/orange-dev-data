@@ -66,13 +66,13 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Mempool": 0.396,
-      "Consensus": 0.604
+      "Consensus": 0.604,
+      "Mempool": 0.396
     }
   },
   "expertise_domain_scores": {
-    "Mempool": 0.396,
-    "Consensus": 0.604
+    "Consensus": 0.604,
+    "Mempool": 0.396
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,

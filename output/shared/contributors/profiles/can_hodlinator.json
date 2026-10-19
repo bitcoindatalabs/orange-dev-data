@@ -29,25 +29,25 @@
   "modern_bips_authored": 0.0,
   "first_bip_date": null,
   "last_bip_date": null,
-  "avg_review_latency_days": 105.10220898520646,
-  "reviews_count": 288.0,
-  "avg_approval_latency_days": 82.5791039657943,
-  "approvals_count": 240.0,
-  "tier1_reviews_count": 288.0,
+  "avg_review_latency_days": 105.4203410978836,
+  "reviews_count": 292.0,
+  "avg_approval_latency_days": 82.18085745389344,
+  "approvals_count": 244.0,
+  "tier1_reviews_count": 292.0,
   "tier2_reviews_count": 0.0,
-  "p2016_reviews_count": 288.0,
-  "modern_reviews_count": 288.0,
+  "p2016_reviews_count": 292.0,
+  "modern_reviews_count": 292.0,
   "first_review_date": "2024-06-19T08:52:03",
-  "last_review_date": "2026-10-01T12:21:43",
+  "last_review_date": "2026-10-15T08:41:09",
   "prs_authored": 69.0,
   "tier1_prs_authored": 68.0,
   "tier2_prs_authored": 1.0,
   "avg_pr_ack_velocity_days": 10.194533362727807,
   "avg_concept_lead_time_days": 21.167526264245016,
-  "review_reciprocity": 4.173913043478261,
-  "hybrid_score": 0.5086,
-  "p2016_hybrid_score": 0.5111,
-  "modern_hybrid_score": 0.5244,
+  "review_reciprocity": 4.231884057971015,
+  "hybrid_score": 0.509,
+  "p2016_hybrid_score": 0.5116,
+  "modern_hybrid_score": 0.5249,
   "impact_score": 26.0,
   "p2016_impact_score": 26.0,
   "modern_impact_score": 27.0,
@@ -63,28 +63,30 @@
   "expertise_domains": [
     "Infrastructure",
     "Ecosystem",
-    "Mempool"
+    "Mining"
   ],
   "expertise_by_source": {
-    "discussion": {
-      "Mempool": 0.333,
-      "Ecosystem": 0.667
-    },
     "code": {
       "Infrastructure": 0.867,
-      "Network": 0.04,
       "Wallet": 0.018,
+      "Script": 0.061,
       "Consensus": 0.014,
-      "Script": 0.061
+      "Network": 0.04
+    },
+    "discussion": {
+      "Mining": 0.34,
+      "Ecosystem": 0.44,
+      "Mempool": 0.22
     }
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.5202,
-    "Mempool": 0.1332,
-    "Network": 0.024,
+    "Mining": 0.136,
+    "Ecosystem": 0.176,
+    "Mempool": 0.088,
     "Wallet": 0.0108,
-    "Script": 0.0366,
-    "Ecosystem": 0.2668
+    "Network": 0.024,
+    "Script": 0.0366
   },
   "p2016_posts": 5.0,
   "modern_posts": 5.0,
@@ -97,7 +99,7 @@
   "is_researcher": true,
   "is_bip_author": false,
   "global_first_active": "2024-06-19T08:52:03",
-  "global_last_active": "2026-10-01T12:21:43",
+  "global_last_active": "2026-10-15T08:41:09",
   "github_location": "Cyberspace",
   "github_company": null,
   "github_bio": "Bitcoin will cool off the human economy and provide time to stop SkyNet.\r\n\r\nSupported by @opensats.\r\n@chaincodelabs 2024 FOSS alum.",
@@ -164,7 +166,8 @@
       "other": 3
     },
     "2026": {
-      "core-dev": 1
+      "core-dev": 1,
+      "mining": 1
     }
   }
 }

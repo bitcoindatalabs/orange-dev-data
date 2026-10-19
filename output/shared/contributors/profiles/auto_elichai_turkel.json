@@ -1,5 +1,5 @@
 {
-  "display_name": "Elichai Turkel",
+  "display_name": "elichai turkel",
   "github_login_final": "elichai",
   "delving_username_final": null,
   "uuid": "auto_elichai_turkel",
@@ -74,22 +74,22 @@
     "Mining"
   ],
   "expertise_by_source": {
-    "discussion": {
-      "Mining": 0.5,
-      "Consensus": 0.5
-    },
     "code": {
       "Infrastructure": 0.934,
       "Wallet": 0.009,
-      "Consensus": 0.019,
       "Script": 0.019,
+      "Consensus": 0.019,
       "Cryptography": 0.019
+    },
+    "discussion": {
+      "Consensus": 0.5,
+      "Mining": 0.5
     }
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.5604,
-    "Mining": 0.2,
     "Consensus": 0.2114,
+    "Mining": 0.2,
     "Script": 0.0114,
     "Cryptography": 0.0114
   },

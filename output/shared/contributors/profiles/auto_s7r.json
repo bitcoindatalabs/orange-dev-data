@@ -45,7 +45,7 @@
   "avg_pr_ack_velocity_days": null,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": null,
-  "hybrid_score": 0.0969,
+  "hybrid_score": 0.0968,
   "p2016_hybrid_score": 0.0524,
   "modern_hybrid_score": 0.0,
   "impact_score": 6.0,
@@ -66,13 +66,13 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Mempool": 0.4,
-      "Consensus": 0.6
+      "Consensus": 0.6,
+      "Mempool": 0.4
     }
   },
   "expertise_domain_scores": {
-    "Mempool": 0.4,
-    "Consensus": 0.6
+    "Consensus": 0.6,
+    "Mempool": 0.4
   },
   "p2016_posts": 9.0,
   "modern_posts": 0.0,

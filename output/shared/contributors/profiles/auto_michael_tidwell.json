@@ -1,5 +1,5 @@
 {
-  "display_name": "Michael Tidwell",
+  "display_name": "michael tidwell",
   "github_login_final": "miketwenty1",
   "delving_username_final": null,
   "uuid": "auto_michael_tidwell",
@@ -47,7 +47,7 @@
   "review_reciprocity": 1.6666666666666667,
   "hybrid_score": 0.1498,
   "p2016_hybrid_score": 0.161,
-  "modern_hybrid_score": 0.2018,
+  "modern_hybrid_score": 0.2022,
   "impact_score": 9.0,
   "p2016_impact_score": 9.0,
   "modern_impact_score": 11.0,
@@ -66,18 +66,18 @@
     "Wallet"
   ],
   "expertise_by_source": {
-    "discussion": {
-      "Ecosystem": 1.0
-    },
     "code": {
       "Infrastructure": 0.75,
       "Wallet": 0.25
+    },
+    "discussion": {
+      "Ecosystem": 1.0
     }
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.45,
-    "Wallet": 0.15,
-    "Ecosystem": 0.4
+    "Ecosystem": 0.4,
+    "Wallet": 0.15
   },
   "p2016_posts": 5.0,
   "modern_posts": 5.0,

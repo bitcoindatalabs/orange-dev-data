@@ -84,12 +84,12 @@
     "Network"
   ],
   "expertise_by_source": {
-    "discussion": {
-      "Ecosystem": 1.0
-    },
     "code": {
       "Infrastructure": 0.956,
       "Network": 0.044
+    },
+    "discussion": {
+      "Ecosystem": 1.0
     },
     "bips": {
       "Infrastructure": 1.0
@@ -97,8 +97,8 @@
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.7868,
-    "Network": 0.0132,
-    "Ecosystem": 0.2
+    "Ecosystem": 0.2,
+    "Network": 0.0132
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,

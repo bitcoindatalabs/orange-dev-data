@@ -1,5 +1,5 @@
 {
-  "display_name": "upal chakraborty",
+  "display_name": "Upal Chakraborty",
   "github_login_final": "UpalChakraborty",
   "delving_username_final": null,
   "uuid": "auto_upal_chakraborty",
@@ -78,16 +78,16 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Mining": 0.084,
-      "Consensus": 0.916
+      "Consensus": 0.916,
+      "Mining": 0.084
     },
     "bips": {
       "Consensus": 1.0
     }
   },
   "expertise_domain_scores": {
-    "Mining": 0.024,
-    "Consensus": 0.976
+    "Consensus": 0.976,
+    "Mining": 0.024
   },
   "p2016_posts": 1.0,
   "modern_posts": 0.0,

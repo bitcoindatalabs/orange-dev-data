@@ -1,5 +1,5 @@
 {
-  "display_name": "Samson Mow",
+  "display_name": "samson mow",
   "github_login_final": null,
   "delving_username_final": null,
   "uuid": "auto_samson_mow",
@@ -45,7 +45,7 @@
   "avg_pr_ack_velocity_days": null,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": null,
-  "hybrid_score": 0.012,
+  "hybrid_score": 0.0119,
   "p2016_hybrid_score": 0.0196,
   "modern_hybrid_score": 0.0,
   "impact_score": 1.0,
@@ -66,13 +66,13 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Privacy": 0.25,
-      "Consensus": 0.75
+      "Consensus": 0.75,
+      "Privacy": 0.25
     }
   },
   "expertise_domain_scores": {
-    "Privacy": 0.25,
-    "Consensus": 0.75
+    "Consensus": 0.75,
+    "Privacy": 0.25
   },
   "p2016_posts": 4.0,
   "modern_posts": 0.0,

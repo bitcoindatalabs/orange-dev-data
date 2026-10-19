@@ -69,14 +69,14 @@
     "code": {
       "Infrastructure": 0.764,
       "Wallet": 0.069,
-      "Consensus": 0.083,
-      "Script": 0.083
+      "Script": 0.083,
+      "Consensus": 0.083
     }
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.7648,
-    "Wallet": 0.0691,
     "Consensus": 0.0831,
+    "Wallet": 0.0691,
     "Script": 0.0831
   },
   "p2016_posts": 0.0,

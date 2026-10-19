@@ -66,20 +66,20 @@
     "Consensus"
   ],
   "expertise_by_source": {
-    "discussion": {
-      "Privacy": 0.333,
-      "L2": 0.333,
-      "Consensus": 0.333
-    },
     "code": {
       "Infrastructure": 1.0
+    },
+    "discussion": {
+      "Consensus": 0.333,
+      "L2": 0.333,
+      "Privacy": 0.333
     }
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.6002,
-    "Privacy": 0.1333,
+    "Consensus": 0.1333,
     "L2": 0.1333,
-    "Consensus": 0.1333
+    "Privacy": 0.1333
   },
   "p2016_posts": 2.0,
   "modern_posts": 0.0,

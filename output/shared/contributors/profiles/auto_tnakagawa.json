@@ -66,18 +66,18 @@
     "Wallet"
   ],
   "expertise_by_source": {
+    "code": {
+      "Infrastructure": 1.0
+    },
     "discussion": {
       "Consensus": 0.62,
       "Wallet": 0.38
-    },
-    "code": {
-      "Infrastructure": 1.0
     }
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.6,
-    "Wallet": 0.152,
-    "Consensus": 0.248
+    "Consensus": 0.248,
+    "Wallet": 0.152
   },
   "p2016_posts": 5.0,
   "modern_posts": 0.0,

@@ -66,13 +66,13 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Privacy": 0.25,
-      "L2": 0.75
+      "L2": 0.75,
+      "Privacy": 0.25
     }
   },
   "expertise_domain_scores": {
-    "Privacy": 0.25,
-    "L2": 0.75
+    "L2": 0.75,
+    "Privacy": 0.25
   },
   "p2016_posts": 2.0,
   "modern_posts": 2.0,

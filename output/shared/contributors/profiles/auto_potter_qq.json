@@ -1,5 +1,5 @@
 {
-  "display_name": "Potter QQ",
+  "display_name": "potter qq",
   "github_login_final": null,
   "delving_username_final": null,
   "uuid": "auto_potter_qq",
@@ -66,13 +66,13 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Mining": 0.667,
-      "Consensus": 0.333
+      "Consensus": 0.333,
+      "Mining": 0.667
     }
   },
   "expertise_domain_scores": {
-    "Mining": 0.667,
-    "Consensus": 0.333
+    "Consensus": 0.333,
+    "Mining": 0.667
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,

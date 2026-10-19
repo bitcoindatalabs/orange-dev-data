@@ -1,5 +1,5 @@
 {
-  "display_name": "jimmy song",
+  "display_name": "Jimmy Song",
   "github_login_final": "jimmysong",
   "delving_username_final": null,
   "uuid": "auto_jimmy_song",
@@ -59,7 +59,7 @@
   "review_reciprocity": 2.4375,
   "hybrid_score": 1.0331,
   "p2016_hybrid_score": 0.7114,
-  "modern_hybrid_score": 0.1223,
+  "modern_hybrid_score": 0.1224,
   "impact_score": 46.0,
   "p2016_impact_score": 35.0,
   "modern_impact_score": 7.0,
@@ -78,12 +78,12 @@
     "Consensus"
   ],
   "expertise_by_source": {
-    "discussion": {
-      "Mining": 0.31,
-      "Consensus": 0.69
-    },
     "code": {
       "Infrastructure": 1.0
+    },
+    "discussion": {
+      "Consensus": 0.69,
+      "Mining": 0.31
     },
     "bips": {
       "Infrastructure": 0.333,
@@ -92,9 +92,9 @@
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.4665,
+    "Consensus": 0.138,
     "Mining": 0.062,
-    "Wallet": 0.3335,
-    "Consensus": 0.138
+    "Wallet": 0.3335
   },
   "p2016_posts": 16.0,
   "modern_posts": 1.0,

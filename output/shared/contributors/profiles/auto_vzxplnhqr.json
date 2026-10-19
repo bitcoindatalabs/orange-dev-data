@@ -1,5 +1,5 @@
 {
-  "display_name": "VzxPLnHqr",
+  "display_name": "vzxplnhqr",
   "github_login_final": "VzxPLnHqr",
   "delving_username_final": "vzxplnhqr",
   "uuid": "auto_vzxplnhqr",
@@ -68,14 +68,14 @@
   "expertise_by_source": {
     "discussion": {
       "Mining": 0.606,
-      "Mempool": 0.181,
-      "L2": 0.213
+      "L2": 0.213,
+      "Mempool": 0.181
     }
   },
   "expertise_domain_scores": {
     "Mining": 0.606,
-    "Mempool": 0.181,
-    "L2": 0.213
+    "L2": 0.213,
+    "Mempool": 0.181
   },
   "p2016_posts": 22.0,
   "modern_posts": 22.0,

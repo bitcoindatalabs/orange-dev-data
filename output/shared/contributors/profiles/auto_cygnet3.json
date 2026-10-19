@@ -75,15 +75,15 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Mempool": 0.254,
+      "Consensus": 0.254,
       "Privacy": 0.493,
-      "Consensus": 0.254
+      "Mempool": 0.254
     }
   },
   "expertise_domain_scores": {
-    "Mempool": 0.2537,
+    "Consensus": 0.2537,
     "Privacy": 0.4925,
-    "Consensus": 0.2537
+    "Mempool": 0.2537
   },
   "p2016_posts": 3.0,
   "modern_posts": 3.0,

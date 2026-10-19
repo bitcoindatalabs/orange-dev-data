@@ -1,5 +1,5 @@
 {
-  "display_name": "pindar wong",
+  "display_name": "Pindar Wong",
   "github_login_final": null,
   "delving_username_final": null,
   "uuid": "auto_pindar_wong",
@@ -67,14 +67,14 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Mining": 0.183,
       "Consensus": 0.62,
+      "Mining": 0.183,
       "Ecosystem": 0.197
     }
   },
   "expertise_domain_scores": {
-    "Mining": 0.183,
     "Consensus": 0.62,
+    "Mining": 0.183,
     "Ecosystem": 0.197
   },
   "p2016_posts": 2.0,

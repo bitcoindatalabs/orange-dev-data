@@ -1,5 +1,5 @@
 {
-  "display_name": "bitsagarob",
+  "display_name": "BitsagaRob",
   "github_login_final": "bitsagarob",
   "delving_username_final": "bitsagarob",
   "uuid": "auto_bitsagarob",
@@ -67,15 +67,15 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Mempool": 0.254,
+      "Consensus": 0.254,
       "Privacy": 0.493,
-      "Consensus": 0.254
+      "Mempool": 0.254
     }
   },
   "expertise_domain_scores": {
-    "Mempool": 0.2537,
+    "Consensus": 0.2537,
     "Privacy": 0.4925,
-    "Consensus": 0.2537
+    "Mempool": 0.2537
   },
   "p2016_posts": 1.0,
   "modern_posts": 1.0,

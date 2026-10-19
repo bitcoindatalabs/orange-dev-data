@@ -1,7 +1,7 @@
 {
-  "display_name": "alex wied",
+  "display_name": "Alex Wied",
   "github_login_final": "alex",
-  "delving_username_final": "olkurbatov",
+  "delving_username_final": "endothermicdev",
   "uuid": "auto_alex_wied",
   "badges": null,
   "roles": null,
@@ -47,46 +47,44 @@
   "review_reciprocity": 0.0,
   "hybrid_score": 0.1254,
   "p2016_hybrid_score": 0.0856,
-  "modern_hybrid_score": 0.2197,
+  "modern_hybrid_score": 0.221,
   "impact_score": 7.0,
   "p2016_impact_score": 5.0,
   "modern_impact_score": 12.0,
-  "threads_started": 9.0,
-  "replies_sent": 25.0,
+  "threads_started": 0.0,
+  "replies_sent": 19.0,
   "ml_threads": 0.0,
-  "delving_threads": 9.0,
+  "delving_threads": 0.0,
   "ml_responses": 18.0,
-  "delving_responses": 7.0,
+  "delving_responses": 1.0,
   "first_active": null,
   "last_active": "2026-08-22T12:46:44",
   "dev_type": "Builder",
   "expertise_domains": [
     "Infrastructure",
     "Cryptography",
-    "L2"
+    "Consensus"
   ],
   "expertise_by_source": {
-    "discussion": {
-      "L2": 0.327,
-      "Consensus": 0.231,
-      "Cryptography": 0.442
-    },
     "code": {
       "Infrastructure": 1.0
+    },
+    "discussion": {
+      "Consensus": 0.25,
+      "Cryptography": 0.75
     }
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.6,
-    "L2": 0.1308,
-    "Consensus": 0.0924,
-    "Cryptography": 0.1768
+    "Consensus": 0.1,
+    "Cryptography": 0.3
   },
-  "p2016_posts": 34.0,
-  "modern_posts": 34.0,
+  "p2016_posts": 19.0,
+  "modern_posts": 19.0,
   "p2016_ml_posts": 18.0,
-  "p2016_delving_posts": 16.0,
+  "p2016_delving_posts": 1.0,
   "modern_ml_posts": 18.0,
-  "modern_delving_posts": 16.0,
+  "modern_delving_posts": 1.0,
   "is_engineer": true,
   "is_reviewer": true,
   "is_researcher": true,
@@ -102,7 +100,7 @@
   "activity_status": "Rising",
   "is_top_50": false,
   "github_url": "https://github.com/alex",
-  "delving_url": "https://delvingbitcoin.org/u/olkurbatov",
+  "delving_url": "https://delvingbitcoin.org/u/endothermicdev",
   "commit_history": {
     "2012": {
       "Database": 1.0,
@@ -111,9 +109,9 @@
   },
   "first_message": {
     "source": "delving",
-    "subject": "Untraceable Taprootized Atomic Swaps",
-    "date": "2024-01-22",
-    "link": "https://delvingbitcoin.org/t/untraceable-taprootized-atomic-swaps/458/1"
+    "subject": "Re: Gossip Observer: New project to monitor the Lightning P2P network",
+    "date": "2025-12-16",
+    "link": "https://delvingbitcoin.org/t/gossip-observer-new-project-to-monitor-the-lightning-p2p-network/2105/20"
   },
   "last_message": {
     "source": "mailing_list",
@@ -122,24 +120,19 @@
     "link": "https://gnusha.org/pi/bitcoindev/CAHPaHkr5r4+hodZv6F2S1yCq_UcHSr2iCrkYLgZ_vryNgwbRPA@mail.gmail.com"
   },
   "social_history": {
-    "2024": {
-      "atomic-swaps": 2,
-      "taproot": 2
-    },
     "2025": {
-      "atomic-swaps": 3,
-      "lightning": 3,
-      "other": 6
+      "lightning": 1,
+      "other": 1
     },
     "2026": {
-      "bitvm": 5,
-      "other": 12,
-      "dlc": 6,
-      "lightning": 7,
-      "multisig-threshold": 6,
-      "quantum": 13,
-      "signatures-sighash": 6,
-      "taproot": 7
+      "bitvm": 2,
+      "lightning": 1,
+      "mempool-fees": 1,
+      "other": 2,
+      "quantum": 12,
+      "signatures-sighash": 3,
+      "taproot": 6,
+      "wallet-keys": 2
     }
   }
 }

@@ -1,5 +1,5 @@
 {
-  "display_name": "ataraxia 009",
+  "display_name": "Ataraxia 009",
   "github_login_final": "Ataraxia009",
   "delving_username_final": null,
   "uuid": "auto_ataraxia_009",
@@ -45,7 +45,7 @@
   "avg_pr_ack_velocity_days": 3.71447337962963,
   "avg_concept_lead_time_days": 3.71447337962963,
   "review_reciprocity": 1.2,
-  "hybrid_score": 0.0864,
+  "hybrid_score": 0.0863,
   "p2016_hybrid_score": 0.0889,
   "modern_hybrid_score": 0.1022,
   "impact_score": 5.0,

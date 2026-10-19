@@ -1,5 +1,5 @@
 {
-  "display_name": "Jean Do",
+  "display_name": "jean do",
   "github_login_final": null,
   "delving_username_final": "jdlcdl",
   "uuid": "auto_jean_do",
@@ -66,13 +66,13 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Wallet": 0.667,
-      "Ecosystem": 0.333
+      "Ecosystem": 0.333,
+      "Wallet": 0.667
     }
   },
   "expertise_domain_scores": {
-    "Wallet": 0.667,
-    "Ecosystem": 0.333
+    "Ecosystem": 0.333,
+    "Wallet": 0.667
   },
   "p2016_posts": 2.0,
   "modern_posts": 2.0,

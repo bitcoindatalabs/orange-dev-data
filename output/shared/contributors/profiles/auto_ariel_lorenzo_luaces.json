@@ -1,5 +1,5 @@
 {
-  "display_name": "ariel lorenzo-luaces",
+  "display_name": "Ariel Lorenzo-Luaces",
   "github_login_final": null,
   "delving_username_final": null,
   "uuid": "auto_ariel_lorenzo_luaces",
@@ -66,13 +66,13 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Mining": 0.118,
-      "Consensus": 0.882
+      "Consensus": 0.882,
+      "Mining": 0.118
     }
   },
   "expertise_domain_scores": {
-    "Mining": 0.118,
-    "Consensus": 0.882
+    "Consensus": 0.882,
+    "Mining": 0.118
   },
   "p2016_posts": 16.0,
   "modern_posts": 0.0,

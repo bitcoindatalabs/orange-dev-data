@@ -37,25 +37,25 @@
   "modern_bips_authored": 0.0,
   "first_bip_date": null,
   "last_bip_date": null,
-  "avg_review_latency_days": 156.07804854051955,
-  "reviews_count": 358.0,
-  "avg_approval_latency_days": 125.71744402178187,
-  "approvals_count": 320.0,
-  "tier1_reviews_count": 352.0,
+  "avg_review_latency_days": 155.69800215365683,
+  "reviews_count": 360.0,
+  "avg_approval_latency_days": 125.26212823486806,
+  "approvals_count": 322.0,
+  "tier1_reviews_count": 354.0,
   "tier2_reviews_count": 6.0,
-  "p2016_reviews_count": 358.0,
-  "modern_reviews_count": 358.0,
+  "p2016_reviews_count": 360.0,
+  "modern_reviews_count": 360.0,
   "first_review_date": "2024-03-19T10:05:05",
-  "last_review_date": "2026-09-12T12:16:10",
+  "last_review_date": "2026-10-15T13:06:41",
   "prs_authored": 55.0,
   "tier1_prs_authored": 53.0,
   "tier2_prs_authored": 2.0,
   "avg_pr_ack_velocity_days": 12.263366578014184,
   "avg_concept_lead_time_days": 23.396457561728393,
-  "review_reciprocity": 6.509090909090909,
-  "hybrid_score": 0.4716,
-  "p2016_hybrid_score": 0.476,
-  "modern_hybrid_score": 0.5011,
+  "review_reciprocity": 6.545454545454546,
+  "hybrid_score": 0.4725,
+  "p2016_hybrid_score": 0.4769,
+  "modern_hybrid_score": 0.5021,
   "impact_score": 25.0,
   "p2016_impact_score": 25.0,
   "modern_impact_score": 26.0,
@@ -74,20 +74,20 @@
     "Wallet"
   ],
   "expertise_by_source": {
+    "code": {
+      "Infrastructure": 0.733,
+      "Wallet": 0.247,
+      "Script": 0.013,
+      "Consensus": 0.007
+    },
     "discussion": {
       "Mempool": 1.0
-    },
-    "code": {
-      "Infrastructure": 0.73,
-      "Wallet": 0.25,
-      "Consensus": 0.007,
-      "Script": 0.014
     }
   },
   "expertise_domain_scores": {
-    "Infrastructure": 0.4377,
-    "Mempool": 0.3998,
-    "Wallet": 0.1499
+    "Infrastructure": 0.4398,
+    "Mempool": 0.4,
+    "Wallet": 0.1482
   },
   "p2016_posts": 2.0,
   "modern_posts": 2.0,
@@ -100,7 +100,7 @@
   "is_researcher": true,
   "is_bip_author": false,
   "global_first_active": "2024-03-19T10:05:05",
-  "global_last_active": "2026-10-05T11:31:38",
+  "global_last_active": "2026-10-15T13:06:41",
   "github_location": "Mempool",
   "github_company": "@bitcoin-core ",
   "github_bio": "pron. /ˌare ˈcrux/\r\n\r\nE00F A95E EDFE 33EE 85C1 D3AA 8614 B8BD 2E14 4C6D",

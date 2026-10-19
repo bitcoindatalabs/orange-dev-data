@@ -1,5 +1,5 @@
 {
-  "display_name": "Mechanic",
+  "display_name": "mechanic",
   "github_login_final": null,
   "delving_username_final": "mechanic",
   "uuid": "auto_mechanic",
@@ -66,13 +66,13 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Mempool": 0.667,
-      "Ecosystem": 0.333
+      "Ecosystem": 0.333,
+      "Mempool": 0.667
     }
   },
   "expertise_domain_scores": {
-    "Mempool": 0.667,
-    "Ecosystem": 0.333
+    "Ecosystem": 0.333,
+    "Mempool": 0.667
   },
   "p2016_posts": 1.0,
   "modern_posts": 1.0,

@@ -69,23 +69,23 @@
     "Mining"
   ],
   "expertise_by_source": {
-    "discussion": {
-      "Mining": 0.244,
-      "L2": 0.244,
-      "Wallet": 0.512
-    },
     "code": {
       "Infrastructure": 0.423,
       "Wallet": 0.5,
       "Consensus": 0.077
+    },
+    "discussion": {
+      "Mining": 0.244,
+      "L2": 0.244,
+      "Wallet": 0.512
     }
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.2538,
+    "Consensus": 0.0462,
     "Mining": 0.0976,
     "L2": 0.0976,
-    "Wallet": 0.5048,
-    "Consensus": 0.0462
+    "Wallet": 0.5048
   },
   "p2016_posts": 16.0,
   "modern_posts": 5.0,

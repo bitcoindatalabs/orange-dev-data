@@ -1,5 +1,5 @@
 {
-  "display_name": "MrHash",
+  "display_name": "mrhash",
   "github_login_final": "MrHash",
   "delving_username_final": "mrhash",
   "uuid": "auto_mrhash",
@@ -66,13 +66,13 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Mining": 0.483,
-      "Consensus": 0.517
+      "Consensus": 0.517,
+      "Mining": 0.483
     }
   },
   "expertise_domain_scores": {
-    "Mining": 0.483,
-    "Consensus": 0.517
+    "Consensus": 0.517,
+    "Mining": 0.483
   },
   "p2016_posts": 33.0,
   "modern_posts": 33.0,

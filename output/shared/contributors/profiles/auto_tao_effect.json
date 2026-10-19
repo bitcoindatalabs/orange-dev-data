@@ -46,8 +46,8 @@
   "avg_concept_lead_time_days": null,
   "review_reciprocity": null,
   "hybrid_score": 0.0585,
-  "p2016_hybrid_score": 0.1,
-  "modern_hybrid_score": 0.0468,
+  "p2016_hybrid_score": 0.0999,
+  "modern_hybrid_score": 0.0474,
   "impact_score": 3.0,
   "p2016_impact_score": 6.0,
   "modern_impact_score": 3.0,
@@ -66,13 +66,13 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "L2": 0.314,
-      "Consensus": 0.686
+      "Consensus": 0.686,
+      "L2": 0.314
     }
   },
   "expertise_domain_scores": {
-    "L2": 0.314,
-    "Consensus": 0.686
+    "Consensus": 0.686,
+    "L2": 0.314
   },
   "p2016_posts": 40.0,
   "modern_posts": 2.0,

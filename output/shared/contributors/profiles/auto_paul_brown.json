@@ -1,5 +1,5 @@
 {
-  "display_name": "paul brown",
+  "display_name": "Paul Brown",
   "github_login_final": null,
   "delving_username_final": null,
   "uuid": "auto_paul_brown",
@@ -45,7 +45,7 @@
   "avg_pr_ack_velocity_days": null,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": null,
-  "hybrid_score": 0.008,
+  "hybrid_score": 0.0079,
   "p2016_hybrid_score": 0.0123,
   "modern_hybrid_score": 0.0,
   "impact_score": 0.0,
@@ -71,8 +71,8 @@
     }
   },
   "expertise_domain_scores": {
-    "Wallet": 0.82,
-    "Consensus": 0.18
+    "Consensus": 0.18,
+    "Wallet": 0.82
   },
   "p2016_posts": 4.0,
   "modern_posts": 0.0,

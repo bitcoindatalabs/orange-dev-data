@@ -34,7 +34,7 @@
   "first_commit": "2014-09-12T17:05:09",
   "last_commit": "2026-01-23T15:10:59",
   "p2016_authored_commits": 377.0,
-  "modern_authored_commits": 90.0,
+  "modern_authored_commits": 85.0,
   "co_authored_commits": 46.0,
   "bips_authored": 4.0,
   "p2016_bips_authored": 3.0,
@@ -78,17 +78,17 @@
     "Mempool"
   ],
   "expertise_by_source": {
+    "code": {
+      "Infrastructure": 0.553,
+      "Wallet": 0.023,
+      "Consensus": 0.1,
+      "Network": 0.17,
+      "Mempool": 0.154
+    },
     "discussion": {
       "Mining": 0.148,
       "Mempool": 0.738,
       "Network": 0.115
-    },
-    "code": {
-      "Infrastructure": 0.553,
-      "Network": 0.17,
-      "Wallet": 0.023,
-      "Mempool": 0.154,
-      "Consensus": 0.1
     },
     "bips": {
       "Infrastructure": 0.5,
@@ -97,10 +97,10 @@
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.4158,
+    "Consensus": 0.03,
     "Mining": 0.0296,
     "Mempool": 0.1938,
-    "Network": 0.3239,
-    "Consensus": 0.03
+    "Network": 0.3239
   },
   "p2016_posts": 52.0,
   "modern_posts": 32.0,

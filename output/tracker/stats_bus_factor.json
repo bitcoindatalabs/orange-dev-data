@@ -2,7 +2,7 @@
   "headline": {
     "bus_factor": 7,
     "window": "trailing_12_months",
-    "period": "2025-10-11 to 2026-10-11",
+    "period": "2025-10-18 to 2026-10-18",
     "top_contributors": [
       "MarcoFalke",
       "Hennadii Stepanov",
@@ -73,7 +73,7 @@
       91,
       101,
       128,
-      152
+      153
     ]
   }
 }

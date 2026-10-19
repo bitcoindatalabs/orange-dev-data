@@ -68,14 +68,14 @@
   "expertise_by_source": {
     "discussion": {
       "Mining": 0.212,
-      "Mempool": 0.717,
-      "Privacy": 0.071
+      "Privacy": 0.071,
+      "Mempool": 0.717
     }
   },
   "expertise_domain_scores": {
     "Mining": 0.212,
-    "Mempool": 0.717,
-    "Privacy": 0.071
+    "Privacy": 0.071,
+    "Mempool": 0.717
   },
   "p2016_posts": 5.0,
   "modern_posts": 5.0,

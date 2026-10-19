@@ -1,5 +1,5 @@
 {
-  "display_name": "Stacie Waleyko",
+  "display_name": "stacie waleyko",
   "github_login_final": "satsie",
   "delving_username_final": "satsie",
   "uuid": "auto_stacie_waleyko",
@@ -68,11 +68,11 @@
     "Ecosystem"
   ],
   "expertise_by_source": {
-    "discussion": {
-      "Ecosystem": 1.0
-    },
     "code": {
       "Infrastructure": 1.0
+    },
+    "discussion": {
+      "Ecosystem": 1.0
     }
   },
   "expertise_domain_scores": {

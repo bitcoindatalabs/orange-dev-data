@@ -1,5 +1,5 @@
 {
-  "display_name": "josh lehan",
+  "display_name": "Josh Lehan",
   "github_login_final": "Krellan",
   "delving_username_final": null,
   "uuid": "auto_josh_lehan",
@@ -66,13 +66,13 @@
     "Mempool"
   ],
   "expertise_by_source": {
-    "discussion": {
-      "Mining": 0.34,
-      "Mempool": 0.66
-    },
     "code": {
       "Infrastructure": 0.5,
       "Network": 0.5
+    },
+    "discussion": {
+      "Mining": 0.34,
+      "Mempool": 0.66
     }
   },
   "expertise_domain_scores": {

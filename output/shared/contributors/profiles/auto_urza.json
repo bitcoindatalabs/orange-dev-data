@@ -1,5 +1,5 @@
 {
-  "display_name": "Urza",
+  "display_name": "urza",
   "github_login_final": null,
   "delving_username_final": "urza",
   "uuid": "auto_urza",
@@ -67,14 +67,14 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "L2": 0.413,
       "Consensus": 0.326,
+      "L2": 0.413,
       "Ecosystem": 0.261
     }
   },
   "expertise_domain_scores": {
-    "L2": 0.413,
     "Consensus": 0.326,
+    "L2": 0.413,
     "Ecosystem": 0.261
   },
   "p2016_posts": 5.0,

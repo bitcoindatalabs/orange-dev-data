@@ -68,14 +68,14 @@
   "expertise_by_source": {
     "code": {
       "Infrastructure": 0.975,
-      "Network": 0.013,
-      "Consensus": 0.013
+      "Consensus": 0.013,
+      "Network": 0.013
     }
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.974,
-    "Network": 0.013,
-    "Consensus": 0.013
+    "Consensus": 0.013,
+    "Network": 0.013
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,

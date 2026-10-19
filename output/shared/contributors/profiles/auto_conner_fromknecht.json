@@ -71,8 +71,8 @@
     }
   },
   "expertise_domain_scores": {
-    "Network": 0.4,
-    "Consensus": 0.6
+    "Consensus": 0.6,
+    "Network": 0.4
   },
   "p2016_posts": 2.0,
   "modern_posts": 0.0,

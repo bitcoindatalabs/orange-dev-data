@@ -66,23 +66,23 @@
     "Ecosystem"
   ],
   "expertise_by_source": {
+    "code": {
+      "Infrastructure": 0.778,
+      "Wallet": 0.037,
+      "Consensus": 0.074,
+      "Network": 0.111
+    },
     "discussion": {
       "Consensus": 0.556,
       "Ecosystem": 0.444
-    },
-    "code": {
-      "Infrastructure": 0.778,
-      "Network": 0.111,
-      "Wallet": 0.037,
-      "Consensus": 0.074
     }
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.4668,
-    "Network": 0.0666,
-    "Wallet": 0.0222,
     "Consensus": 0.2668,
-    "Ecosystem": 0.1776
+    "Ecosystem": 0.1776,
+    "Wallet": 0.0222,
+    "Network": 0.0666
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,

@@ -1,5 +1,5 @@
 {
-  "display_name": "adam ritter",
+  "display_name": "Adam Ritter",
   "github_login_final": null,
   "delving_username_final": null,
   "uuid": "auto_adam_ritter",
@@ -71,8 +71,8 @@
     }
   },
   "expertise_domain_scores": {
-    "Wallet": 0.345,
-    "Consensus": 0.655
+    "Consensus": 0.655,
+    "Wallet": 0.345
   },
   "p2016_posts": 2.0,
   "modern_posts": 0.0,

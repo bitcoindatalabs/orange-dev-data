@@ -78,16 +78,16 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Mempool": 0.66,
-      "Privacy": 0.34
+      "Privacy": 0.34,
+      "Mempool": 0.66
     },
     "bips": {
       "Privacy": 1.0
     }
   },
   "expertise_domain_scores": {
-    "Mempool": 0.1886,
-    "Privacy": 0.8114
+    "Privacy": 0.8114,
+    "Mempool": 0.1886
   },
   "p2016_posts": 2.0,
   "modern_posts": 0.0,

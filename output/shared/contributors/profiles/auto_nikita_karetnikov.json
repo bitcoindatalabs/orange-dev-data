@@ -47,7 +47,7 @@
   "review_reciprocity": 1.0,
   "hybrid_score": 0.0746,
   "p2016_hybrid_score": 0.0821,
-  "modern_hybrid_score": 0.1245,
+  "modern_hybrid_score": 0.1247,
   "impact_score": 4.0,
   "p2016_impact_score": 5.0,
   "modern_impact_score": 7.0,
@@ -67,15 +67,15 @@
   ],
   "expertise_by_source": {
     "discussion": {
+      "Ecosystem": 0.204,
       "Privacy": 0.49,
-      "Cryptography": 0.306,
-      "Ecosystem": 0.204
+      "Cryptography": 0.306
     }
   },
   "expertise_domain_scores": {
+    "Ecosystem": 0.204,
     "Privacy": 0.49,
-    "Cryptography": 0.306,
-    "Ecosystem": 0.204
+    "Cryptography": 0.306
   },
   "p2016_posts": 14.0,
   "modern_posts": 14.0,

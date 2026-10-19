@@ -59,7 +59,7 @@
   "review_reciprocity": 1.8235294117647058,
   "hybrid_score": 1.0837,
   "p2016_hybrid_score": 1.0903,
-  "modern_hybrid_score": 0.7118,
+  "modern_hybrid_score": 0.712,
   "impact_score": 48.0,
   "p2016_impact_score": 48.0,
   "modern_impact_score": 35.0,
@@ -78,32 +78,32 @@
     "Script"
   ],
   "expertise_by_source": {
-    "discussion": {
-      "Consensus": 0.261,
-      "Script": 0.739
-    },
     "code": {
       "Infrastructure": 0.75,
       "Wallet": 0.125,
       "Consensus": 0.125
     },
+    "discussion": {
+      "Consensus": 0.261,
+      "Script": 0.739
+    },
     "bips": {
-      "Infrastructure": 0.25,
-      "Consensus": 0.75
+      "Consensus": 0.75,
+      "Infrastructure": 0.25
     }
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.35,
-    "Wallet": 0.0375,
     "Consensus": 0.4647,
+    "Wallet": 0.0375,
     "Script": 0.1478
   },
   "p2016_posts": 53.0,
-  "modern_posts": 35.0,
+  "modern_posts": 34.0,
   "p2016_ml_posts": 5.0,
   "p2016_delving_posts": 48.0,
   "modern_ml_posts": 2.0,
-  "modern_delving_posts": 33.0,
+  "modern_delving_posts": 32.0,
   "is_engineer": true,
   "is_reviewer": true,
   "is_researcher": true,

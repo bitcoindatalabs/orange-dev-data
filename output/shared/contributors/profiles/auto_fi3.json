@@ -1,5 +1,5 @@
 {
-  "display_name": "Fi3",
+  "display_name": "fi3",
   "github_login_final": "Fi3",
   "delving_username_final": "fi3",
   "uuid": "auto_fi3",
@@ -67,15 +67,15 @@
   ],
   "expertise_by_source": {
     "discussion": {
+      "Consensus": 0.245,
       "Mining": 0.51,
-      "Mempool": 0.245,
-      "Consensus": 0.245
+      "Mempool": 0.245
     }
   },
   "expertise_domain_scores": {
+    "Consensus": 0.245,
     "Mining": 0.51,
-    "Mempool": 0.245,
-    "Consensus": 0.245
+    "Mempool": 0.245
   },
   "p2016_posts": 26.0,
   "modern_posts": 26.0,

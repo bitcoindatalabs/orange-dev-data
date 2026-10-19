@@ -12,27 +12,27 @@
     "is_bip_author": false,
     "roles": [],
     "ecosystem_contributor": true,
-    "tier2_commits": 121
+    "tier2_commits": 123
   },
   "roles": [],
-  "total_commits": 274.0,
-  "authored_commits": 274.0,
-  "tier1_authored_commits": 153.0,
-  "tier2_authored_commits": 121.0,
+  "total_commits": 282.0,
+  "authored_commits": 282.0,
+  "tier1_authored_commits": 159.0,
+  "tier2_authored_commits": 123.0,
   "merge_commits": 0.0,
   "tier1_merge_commits": 0.0,
   "tier2_merge_commits": 0.0,
   "self_merges": 0.0,
-  "total_additions": 6452.0,
-  "total_deletions": 1324.0,
+  "total_additions": 6554.0,
+  "total_deletions": 1338.0,
   "first_core_commit": "2012-02-10T17:04:19+00:00",
-  "last_core_commit": "2026-09-24T11:17:23+00:00",
+  "last_core_commit": "2026-10-15T01:05:54+00:00",
   "first_ecosystem_commit": "2021-09-10T09:54:49+00:00",
-  "last_ecosystem_commit": "2026-10-05T22:54:21+00:00",
+  "last_ecosystem_commit": "2026-10-12T21:09:21+00:00",
   "first_commit": "2012-02-10T17:04:19",
-  "last_commit": "2026-09-24T11:17:23",
-  "p2016_authored_commits": 274.0,
-  "modern_authored_commits": 226.0,
+  "last_commit": "2026-10-15T01:05:54",
+  "p2016_authored_commits": 282.0,
+  "modern_authored_commits": 234.0,
   "co_authored_commits": 34.0,
   "bips_authored": 0.0,
   "p2016_bips_authored": 0.0,
@@ -46,18 +46,18 @@
   "tier1_reviews_count": 461.0,
   "tier2_reviews_count": 1.0,
   "p2016_reviews_count": 462.0,
-  "modern_reviews_count": 368.0,
+  "modern_reviews_count": 367.0,
   "first_review_date": "2020-05-18T08:20:24",
   "last_review_date": "2026-10-08T13:35:06",
   "prs_authored": 129.0,
   "tier1_prs_authored": 128.0,
   "tier2_prs_authored": 1.0,
-  "avg_pr_ack_velocity_days": 7.03129927576091,
+  "avg_pr_ack_velocity_days": 7.072597131445171,
   "avg_concept_lead_time_days": 9.998473810820624,
   "review_reciprocity": 3.5813953488372094,
   "hybrid_score": 0.5767,
   "p2016_hybrid_score": 0.5734,
-  "modern_hybrid_score": 0.5365,
+  "modern_hybrid_score": 0.5364,
   "impact_score": 29.0,
   "p2016_impact_score": 29.0,
   "modern_impact_score": 28.0,
@@ -76,23 +76,23 @@
     "Mining"
   ],
   "expertise_by_source": {
-    "discussion": {
-      "Mining": 0.375,
-      "Consensus": 0.625
-    },
     "code": {
       "Infrastructure": 0.964,
-      "Network": 0.01,
       "Wallet": 0.017,
-      "Mempool": 0.004,
-      "Consensus": 0.006
+      "Consensus": 0.006,
+      "Network": 0.01,
+      "Mempool": 0.004
+    },
+    "discussion": {
+      "Consensus": 0.5,
+      "Mining": 0.5
     }
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.5781,
-    "Mining": 0.1499,
-    "Wallet": 0.0102,
-    "Consensus": 0.2534
+    "Consensus": 0.2035,
+    "Mining": 0.1999,
+    "Wallet": 0.0102
   },
   "p2016_posts": 8.0,
   "modern_posts": 6.0,
@@ -105,7 +105,7 @@
   "is_researcher": true,
   "is_bip_author": false,
   "global_first_active": "2011-09-08T14:25:22",
-  "global_last_active": "2026-10-08T13:35:06",
+  "global_last_active": "2026-10-15T01:05:54",
   "github_location": null,
   "github_company": null,
   "github_bio": null,
@@ -212,7 +212,7 @@
       "core-dev": 2,
       "lightning": 1,
       "mempool-fees": 2,
-      "mining": 1,
+      "mining": 3,
       "other": 1
     }
   }

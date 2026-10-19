@@ -59,7 +59,7 @@
   "review_reciprocity": 2.4,
   "hybrid_score": 0.518,
   "p2016_hybrid_score": 0.5375,
-  "modern_hybrid_score": 0.5227,
+  "modern_hybrid_score": 0.5235,
   "impact_score": 27.0,
   "p2016_impact_score": 28.0,
   "modern_impact_score": 27.0,
@@ -78,14 +78,14 @@
     "Privacy"
   ],
   "expertise_by_source": {
-    "discussion": {
-      "Mempool": 0.14,
-      "Privacy": 0.772,
-      "Consensus": 0.088
-    },
     "code": {
-      "Consensus": 0.5,
-      "Script": 0.5
+      "Script": 0.5,
+      "Consensus": 0.5
+    },
+    "discussion": {
+      "Consensus": 0.088,
+      "Privacy": 0.772,
+      "Mempool": 0.14
     },
     "bips": {
       "Infrastructure": 1.0
@@ -93,9 +93,9 @@
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.5,
-    "Mempool": 0.028,
-    "Privacy": 0.1544,
     "Consensus": 0.1676,
+    "Privacy": 0.1544,
+    "Mempool": 0.028,
     "Script": 0.15
   },
   "p2016_posts": 32.0,

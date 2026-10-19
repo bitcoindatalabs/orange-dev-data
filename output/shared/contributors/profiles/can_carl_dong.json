@@ -64,7 +64,7 @@
   "avg_concept_lead_time_days": 9.136084150326797,
   "review_reciprocity": 1.7887323943661972,
   "hybrid_score": 1.5764,
-  "p2016_hybrid_score": 0.5798,
+  "p2016_hybrid_score": 0.5797,
   "modern_hybrid_score": 0.2685,
   "impact_score": 61.0,
   "p2016_impact_score": 29.0,
@@ -81,26 +81,28 @@
   "expertise_domains": [
     "Infrastructure",
     "Network",
-    "Consensus"
+    "Mining"
   ],
   "expertise_by_source": {
-    "discussion": {
-      "Network": 1.0
-    },
     "code": {
       "Infrastructure": 0.798,
-      "Network": 0.028,
       "Wallet": 0.002,
-      "Mempool": 0.017,
+      "Script": 0.003,
       "Consensus": 0.152,
-      "Script": 0.003
+      "Network": 0.028,
+      "Mempool": 0.017
+    },
+    "discussion": {
+      "Mining": 0.5,
+      "Network": 0.5
     }
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.4788,
+    "Consensus": 0.0912,
+    "Mining": 0.2,
     "Mempool": 0.0102,
-    "Network": 0.4168,
-    "Consensus": 0.0912
+    "Network": 0.2168
   },
   "p2016_posts": 2.0,
   "modern_posts": 1.0,
@@ -195,7 +197,8 @@
       "p2p-network": 1
     },
     "2026": {
-      "core-dev": 1
+      "core-dev": 1,
+      "mining": 1
     }
   }
 }

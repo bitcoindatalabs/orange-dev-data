@@ -1,5 +1,5 @@
 {
-  "display_name": "Marko Bencun",
+  "display_name": "marko bencun",
   "github_login_final": "benma",
   "delving_username_final": null,
   "uuid": "auto_marko_bencun",
@@ -43,25 +43,25 @@
   "modern_bips_authored": 0.0,
   "first_bip_date": "2021-04-05T01:46:06",
   "last_bip_date": "2021-04-05T01:46:06",
-  "avg_review_latency_days": 1092.3517553748097,
-  "reviews_count": 42.0,
+  "avg_review_latency_days": 1140.3198476207997,
+  "reviews_count": 43.0,
   "avg_approval_latency_days": 245.97767403978054,
   "approvals_count": 18.0,
-  "tier1_reviews_count": 35.0,
+  "tier1_reviews_count": 36.0,
   "tier2_reviews_count": 7.0,
-  "p2016_reviews_count": 42.0,
-  "modern_reviews_count": 5.0,
+  "p2016_reviews_count": 43.0,
+  "modern_reviews_count": 6.0,
   "first_review_date": "2017-03-09T15:18:02",
-  "last_review_date": "2025-03-24T12:39:08",
+  "last_review_date": "2026-10-14T19:59:09",
   "prs_authored": 25.0,
   "tier1_prs_authored": 25.0,
   "tier2_prs_authored": 0.0,
   "avg_pr_ack_velocity_days": 3.4317141203703705,
   "avg_concept_lead_time_days": 3.930528067129629,
-  "review_reciprocity": 1.68,
-  "hybrid_score": 0.7352,
-  "p2016_hybrid_score": 0.7383,
-  "modern_hybrid_score": 0.1981,
+  "review_reciprocity": 1.72,
+  "hybrid_score": 0.7359,
+  "p2016_hybrid_score": 0.739,
+  "modern_hybrid_score": 0.2,
   "impact_score": 36.0,
   "p2016_impact_score": 36.0,
   "modern_impact_score": 11.0,
@@ -80,17 +80,17 @@
     "Mining"
   ],
   "expertise_by_source": {
-    "discussion": {
-      "Mining": 0.432,
-      "Consensus": 0.284,
-      "Wallet": 0.284
-    },
     "code": {
       "Infrastructure": 0.29,
-      "Network": 0.072,
       "Wallet": 0.628,
+      "Script": 0.008,
       "Consensus": 0.002,
-      "Script": 0.008
+      "Network": 0.072
+    },
+    "discussion": {
+      "Consensus": 0.284,
+      "Mining": 0.432,
+      "Wallet": 0.284
     },
     "bips": {
       "Wallet": 1.0
@@ -98,10 +98,10 @@
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.087,
+    "Consensus": 0.0574,
     "Mining": 0.0864,
-    "Network": 0.0216,
     "Wallet": 0.7452,
-    "Consensus": 0.0574
+    "Network": 0.0216
   },
   "p2016_posts": 3.0,
   "modern_posts": 0.0,
@@ -114,7 +114,7 @@
   "is_researcher": true,
   "is_bip_author": true,
   "global_first_active": "2017-02-22T09:10:00",
-  "global_last_active": "2025-03-24T12:39:08",
+  "global_last_active": "2026-10-14T19:59:09",
   "github_location": null,
   "github_company": null,
   "github_bio": null,

@@ -82,12 +82,12 @@
     "Network"
   ],
   "expertise_by_source": {
+    "code": {
+      "Infrastructure": 1.0
+    },
     "discussion": {
       "Mining": 0.576,
       "Network": 0.424
-    },
-    "code": {
-      "Infrastructure": 1.0
     }
   },
   "expertise_domain_scores": {

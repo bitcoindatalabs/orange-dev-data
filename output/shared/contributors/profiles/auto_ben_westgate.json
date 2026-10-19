@@ -47,7 +47,7 @@
   "review_reciprocity": 1.2727272727272727,
   "hybrid_score": 0.222,
   "p2016_hybrid_score": 0.2326,
-  "modern_hybrid_score": 0.2824,
+  "modern_hybrid_score": 0.2826,
   "impact_score": 12.0,
   "p2016_impact_score": 13.0,
   "modern_impact_score": 16.0,
@@ -66,18 +66,18 @@
     "Ecosystem"
   ],
   "expertise_by_source": {
-    "discussion": {
-      "Wallet": 0.86,
-      "Ecosystem": 0.14
-    },
     "code": {
       "Infrastructure": 1.0
+    },
+    "discussion": {
+      "Ecosystem": 0.14,
+      "Wallet": 0.86
     }
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.6,
-    "Wallet": 0.344,
-    "Ecosystem": 0.056
+    "Ecosystem": 0.056,
+    "Wallet": 0.344
   },
   "p2016_posts": 3.0,
   "modern_posts": 3.0,

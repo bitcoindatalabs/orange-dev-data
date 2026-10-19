@@ -57,7 +57,7 @@
   "avg_pr_ack_velocity_days": 4.319747299382716,
   "avg_concept_lead_time_days": 26.859270833333337,
   "review_reciprocity": 1.75,
-  "hybrid_score": 1.2275,
+  "hybrid_score": 1.2274,
   "p2016_hybrid_score": 0.1011,
   "modern_hybrid_score": 0.058,
   "impact_score": 52.0,
@@ -78,13 +78,13 @@
     "Script"
   ],
   "expertise_by_source": {
-    "discussion": {
-      "Script": 0.588,
-      "Ecosystem": 0.412
-    },
     "code": {
       "Infrastructure": 0.667,
       "Network": 0.333
+    },
+    "discussion": {
+      "Ecosystem": 0.412,
+      "Script": 0.588
     },
     "bips": {
       "Infrastructure": 0.6,
@@ -93,9 +93,9 @@
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.5001,
+    "Ecosystem": 0.0824,
     "Network": 0.2999,
-    "Script": 0.1176,
-    "Ecosystem": 0.0824
+    "Script": 0.1176
   },
   "p2016_posts": 6.0,
   "modern_posts": 0.0,

@@ -69,8 +69,8 @@
     "code": {
       "Infrastructure": 0.918,
       "Wallet": 0.009,
-      "Consensus": 0.063,
-      "Script": 0.009
+      "Script": 0.009,
+      "Consensus": 0.063
     }
   },
   "expertise_domain_scores": {

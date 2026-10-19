@@ -45,8 +45,8 @@
   "avg_pr_ack_velocity_days": 0.9243142361111112,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": 0.75,
-  "hybrid_score": 0.3004,
-  "p2016_hybrid_score": 0.1781,
+  "hybrid_score": 0.3003,
+  "p2016_hybrid_score": 0.178,
   "modern_hybrid_score": 0.0396,
   "impact_score": 16.0,
   "p2016_impact_score": 10.0,
@@ -66,13 +66,13 @@
     "Mining"
   ],
   "expertise_by_source": {
-    "discussion": {
-      "Mining": 0.5,
-      "Script": 0.5
-    },
     "code": {
       "Infrastructure": 0.667,
       "Network": 0.333
+    },
+    "discussion": {
+      "Mining": 0.5,
+      "Script": 0.5
     }
   },
   "expertise_domain_scores": {

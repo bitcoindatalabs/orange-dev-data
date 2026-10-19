@@ -1,5 +1,5 @@
 {
-  "display_name": "nick odell",
+  "display_name": "Nick ODell",
   "github_login_final": "nickodell",
   "delving_username_final": null,
   "uuid": "auto_nick_odell",
@@ -46,7 +46,7 @@
   "avg_concept_lead_time_days": null,
   "review_reciprocity": 0.0,
   "hybrid_score": 0.0438,
-  "p2016_hybrid_score": 0.0754,
+  "p2016_hybrid_score": 0.0753,
   "modern_hybrid_score": 0.0146,
   "impact_score": 3.0,
   "p2016_impact_score": 4.0,
@@ -67,14 +67,14 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Mining": 0.474,
       "Consensus": 0.263,
+      "Mining": 0.474,
       "Script": 0.263
     }
   },
   "expertise_domain_scores": {
-    "Mining": 0.474,
     "Consensus": 0.263,
+    "Mining": 0.474,
     "Script": 0.263
   },
   "p2016_posts": 14.0,

@@ -1,5 +1,5 @@
 {
-  "display_name": "Shiva Jairam",
+  "display_name": "shiva jairam",
   "github_login_final": null,
   "delving_username_final": null,
   "uuid": "auto_shiva_jairam",
@@ -67,14 +67,14 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Mining": 0.168,
       "Consensus": 0.168,
+      "Mining": 0.168,
       "Ecosystem": 0.663
     }
   },
   "expertise_domain_scores": {
-    "Mining": 0.1682,
     "Consensus": 0.1682,
+    "Mining": 0.1682,
     "Ecosystem": 0.6637
   },
   "p2016_posts": 2.0,

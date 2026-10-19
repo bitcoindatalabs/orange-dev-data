@@ -1,5 +1,5 @@
 {
-  "display_name": "micha bailey",
+  "display_name": "Micha Bailey",
   "github_login_final": null,
   "delving_username_final": null,
   "uuid": "auto_micha_bailey",
@@ -66,13 +66,13 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Mempool": 0.4,
-      "Consensus": 0.6
+      "Consensus": 0.6,
+      "Mempool": 0.4
     }
   },
   "expertise_domain_scores": {
-    "Mempool": 0.4,
-    "Consensus": 0.6
+    "Consensus": 0.6,
+    "Mempool": 0.4
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,

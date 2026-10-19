@@ -1,5 +1,5 @@
 {
-  "display_name": "thibaut le guilly",
+  "display_name": "Thibaut Le Guilly",
   "github_login_final": null,
   "delving_username_final": null,
   "uuid": "auto_thibaut_le_guilly",
@@ -67,14 +67,14 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Privacy": 0.121,
       "L2": 0.626,
+      "Privacy": 0.121,
       "Script": 0.253
     }
   },
   "expertise_domain_scores": {
-    "Privacy": 0.121,
     "L2": 0.626,
+    "Privacy": 0.121,
     "Script": 0.253
   },
   "p2016_posts": 3.0,

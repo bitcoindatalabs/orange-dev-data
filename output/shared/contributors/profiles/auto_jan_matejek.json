@@ -49,7 +49,7 @@
   "avg_concept_lead_time_days": null,
   "review_reciprocity": null,
   "hybrid_score": 0.1034,
-  "p2016_hybrid_score": 0.1239,
+  "p2016_hybrid_score": 0.1238,
   "modern_hybrid_score": 0.08,
   "impact_score": 6.0,
   "p2016_impact_score": 7.0,
@@ -67,10 +67,10 @@
     "Wallet"
   ],
   "expertise_by_source": {
-    "discussion": {
+    "code": {
       "Wallet": 1.0
     },
-    "code": {
+    "discussion": {
       "Wallet": 1.0
     }
   },

@@ -68,14 +68,14 @@
   "expertise_by_source": {
     "discussion": {
       "L2": 0.4,
-      "Script": 0.4,
-      "Ecosystem": 0.2
+      "Ecosystem": 0.2,
+      "Script": 0.4
     }
   },
   "expertise_domain_scores": {
     "L2": 0.4,
-    "Script": 0.4,
-    "Ecosystem": 0.2
+    "Ecosystem": 0.2,
+    "Script": 0.4
   },
   "p2016_posts": 2.0,
   "modern_posts": 2.0,

@@ -1,5 +1,5 @@
 {
-  "display_name": "Angus Pearson",
+  "display_name": "angus pearson",
   "github_login_final": "AngusP",
   "delving_username_final": null,
   "uuid": "auto_angus_pearson",
@@ -46,7 +46,7 @@
   "avg_concept_lead_time_days": 0.0996412037037037,
   "review_reciprocity": 7.5,
   "hybrid_score": 0.2144,
-  "p2016_hybrid_score": 0.2199,
+  "p2016_hybrid_score": 0.2198,
   "modern_hybrid_score": 0.2056,
   "impact_score": 12.0,
   "p2016_impact_score": 12.0,
@@ -66,14 +66,14 @@
     "Network"
   ],
   "expertise_by_source": {
+    "code": {
+      "Infrastructure": 0.8,
+      "Network": 0.2
+    },
     "discussion": {
       "Mining": 0.224,
       "Mempool": 0.553,
       "Script": 0.224
-    },
-    "code": {
-      "Infrastructure": 0.8,
-      "Network": 0.2
     }
   },
   "expertise_domain_scores": {

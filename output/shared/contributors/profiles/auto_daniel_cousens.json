@@ -1,5 +1,5 @@
 {
-  "display_name": "daniel cousens",
+  "display_name": "Daniel Cousens",
   "github_login_final": "dcousens",
   "delving_username_final": null,
   "uuid": "auto_daniel_cousens",
@@ -74,8 +74,8 @@
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.808,
-    "Wallet": 0.038,
-    "Consensus": 0.154
+    "Consensus": 0.154,
+    "Wallet": 0.038
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,

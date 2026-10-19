@@ -66,13 +66,13 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Script": 0.324,
-      "Ecosystem": 0.676
+      "Ecosystem": 0.676,
+      "Script": 0.324
     }
   },
   "expertise_domain_scores": {
-    "Script": 0.324,
-    "Ecosystem": 0.676
+    "Ecosystem": 0.676,
+    "Script": 0.324
   },
   "p2016_posts": 2.0,
   "modern_posts": 0.0,

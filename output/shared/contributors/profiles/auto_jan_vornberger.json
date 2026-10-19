@@ -1,5 +1,5 @@
 {
-  "display_name": "jan vornberger",
+  "display_name": "Jan Vornberger",
   "github_login_final": "javgh",
   "delving_username_final": null,
   "uuid": "auto_jan_vornberger",
@@ -66,13 +66,13 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Script": 0.278,
-      "Ecosystem": 0.722
+      "Ecosystem": 0.722,
+      "Script": 0.278
     }
   },
   "expertise_domain_scores": {
-    "Script": 0.278,
-    "Ecosystem": 0.722
+    "Ecosystem": 0.722,
+    "Script": 0.278
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,

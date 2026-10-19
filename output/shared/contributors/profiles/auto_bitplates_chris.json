@@ -1,5 +1,5 @@
 {
-  "display_name": "BitPLATES® (Chris)",
+  "display_name": "bitplates® (chris)",
   "github_login_final": null,
   "delving_username_final": null,
   "uuid": "auto_bitplates_chris",
@@ -68,8 +68,8 @@
   "expertise_by_source": {
     "discussion": {
       "Mempool": 0.08,
-      "Cryptography": 0.17,
-      "Wallet": 0.75
+      "Wallet": 0.75,
+      "Cryptography": 0.17
     }
   },
   "expertise_domain_scores": {

@@ -67,14 +67,14 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Mempool": 0.218,
       "L2": 0.564,
+      "Mempool": 0.218,
       "Cryptography": 0.218
     }
   },
   "expertise_domain_scores": {
-    "Mempool": 0.218,
     "L2": 0.564,
+    "Mempool": 0.218,
     "Cryptography": 0.218
   },
   "p2016_posts": 15.0,

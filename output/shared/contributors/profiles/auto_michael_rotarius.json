@@ -1,5 +1,5 @@
 {
-  "display_name": "Michael Rotarius",
+  "display_name": "michael rotarius",
   "github_login_final": "Mirobit",
   "delving_username_final": null,
   "uuid": "auto_michael_rotarius",
@@ -68,14 +68,14 @@
   "expertise_by_source": {
     "code": {
       "Infrastructure": 0.667,
-      "Network": 0.167,
-      "Wallet": 0.167
+      "Wallet": 0.167,
+      "Network": 0.167
     }
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.6663,
-    "Network": 0.1668,
-    "Wallet": 0.1668
+    "Wallet": 0.1668,
+    "Network": 0.1668
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,

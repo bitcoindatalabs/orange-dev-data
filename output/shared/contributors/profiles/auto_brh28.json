@@ -1,5 +1,5 @@
 {
-  "display_name": "brh28",
+  "display_name": "Brh28",
   "github_login_final": null,
   "delving_username_final": "brh28",
   "uuid": "auto_brh28",
@@ -66,13 +66,13 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Privacy": 0.275,
-      "L2": 0.725
+      "L2": 0.725,
+      "Privacy": 0.275
     }
   },
   "expertise_domain_scores": {
-    "Privacy": 0.275,
-    "L2": 0.725
+    "L2": 0.725,
+    "Privacy": 0.275
   },
   "p2016_posts": 14.0,
   "modern_posts": 14.0,

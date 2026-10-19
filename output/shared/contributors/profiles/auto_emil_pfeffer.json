@@ -66,18 +66,18 @@
     "Mempool"
   ],
   "expertise_by_source": {
-    "discussion": {
-      "Mempool": 0.218,
-      "Consensus": 0.782
-    },
     "code": {
       "Infrastructure": 1.0
+    },
+    "discussion": {
+      "Consensus": 0.782,
+      "Mempool": 0.218
     }
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.6,
-    "Mempool": 0.0872,
-    "Consensus": 0.3128
+    "Consensus": 0.3128,
+    "Mempool": 0.0872
   },
   "p2016_posts": 6.0,
   "modern_posts": 1.0,

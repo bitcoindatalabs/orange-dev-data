@@ -1,5 +1,5 @@
 {
-  "display_name": "Nadav Ivgi",
+  "display_name": "nadav ivgi",
   "github_login_final": "shesek",
   "delving_username_final": "shesek",
   "uuid": "auto_nadav_ivgi",
@@ -54,8 +54,8 @@
   "avg_concept_lead_time_days": null,
   "review_reciprocity": 1.5714285714285714,
   "hybrid_score": 0.1988,
-  "p2016_hybrid_score": 0.2196,
-  "modern_hybrid_score": 0.1567,
+  "p2016_hybrid_score": 0.2195,
+  "modern_hybrid_score": 0.1568,
   "impact_score": 11.0,
   "p2016_impact_score": 12.0,
   "modern_impact_score": 9.0,
@@ -74,19 +74,19 @@
     "Consensus"
   ],
   "expertise_by_source": {
+    "code": {
+      "Infrastructure": 1.0
+    },
     "discussion": {
       "Consensus": 0.19,
       "Script": 0.619,
       "Wallet": 0.19
-    },
-    "code": {
-      "Infrastructure": 1.0
     }
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.6002,
-    "Wallet": 0.076,
     "Consensus": 0.076,
+    "Wallet": 0.076,
     "Script": 0.2477
   },
   "p2016_posts": 27.0,

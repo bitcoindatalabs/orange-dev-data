@@ -47,7 +47,7 @@
   "review_reciprocity": null,
   "hybrid_score": 0.369,
   "p2016_hybrid_score": 0.3826,
-  "modern_hybrid_score": 0.4766,
+  "modern_hybrid_score": 0.4772,
   "impact_score": 20.0,
   "p2016_impact_score": 21.0,
   "modern_impact_score": 25.0,
@@ -68,8 +68,8 @@
   "expertise_by_source": {
     "discussion": {
       "Script": 0.167,
-      "Cryptography": 0.583,
-      "Wallet": 0.25
+      "Wallet": 0.25,
+      "Cryptography": 0.583
     },
     "bips": {
       "Privacy": 1.0

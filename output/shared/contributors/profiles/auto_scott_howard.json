@@ -1,5 +1,5 @@
 {
-  "display_name": "Scott Howard",
+  "display_name": "scott howard",
   "github_login_final": "maqifrnswa",
   "delving_username_final": null,
   "uuid": "auto_scott_howard",
@@ -65,11 +65,11 @@
     "Network"
   ],
   "expertise_by_source": {
-    "discussion": {
-      "Network": 1.0
-    },
     "code": {
       "Infrastructure": 1.0
+    },
+    "discussion": {
+      "Network": 1.0
     }
   },
   "expertise_domain_scores": {

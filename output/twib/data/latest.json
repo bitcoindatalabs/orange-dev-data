@@ -1,189 +1,77 @@
 {
-  "start_date": "2026-10-05",
-  "end_date": "2026-10-11",
+  "start_date": "2026-10-12",
+  "end_date": "2026-10-18",
   "stats": {
+    "total_merged": 19,
+    "subsystem_merged": {
+      "bitcoin-core/secp256k1": 3
+    },
+    "total_reviews": 334,
+    "total_threads": 12,
+    "new_contributors": 1
+  },
+  "previous_stats": {
     "total_merged": 42,
     "subsystem_merged": {},
-    "total_reviews": 453,
+    "total_reviews": 455,
     "total_threads": 8,
     "new_contributors": 2
   },
-  "previous_stats": {
-    "total_merged": 24,
-    "subsystem_merged": {
-      "bitcoin-core/secp256k1": 7
-    },
-    "total_reviews": 505,
-    "total_threads": 20,
-    "new_contributors": 2
-  },
   "social_hook": {
-    "headline": "Protocol velocity across privacy & wallet tooling:",
+    "headline": "Protocol velocity across privacy & network robustness:",
     "bullets": [
-      "Silent Payments (BIP 352) advances with a key fix for pubkey extraction from malleated scriptSig, bolstering privacy robustness.",
-      "Wallet safety enhanced by recording client versions, preparing for seamless future upgrades and preventing potential data issues."
+      "Silent Payments (BIP 352) implementation advances, enhancing on-chain privacy for recipients.",
+      "Mempool package processing gains a new safety guard, bolstering network robustness against potential overflows with complex transactions."
     ]
   },
   "tldr": [
-    "A significant focus on enhancing the core's robustness and security through extensive testing infrastructure improvements (fuzzing, CI isolation, race condition fixes, TSAN), critical bug fixes (e.g., BIP-352 malleability, CVE-2024-38365), and internal code quality refactors (e.g., structured logging, `NotNull` utility).",
-    "Ongoing, critical discussions within the wider development community regarding future protocol extensions and scaling solutions, including novel Layer 2 constructions (Lichen), confidential transactions (Flame), and in-depth security analysis of major soft-fork proposals like Drivechains (BIP 300)."
+    "A significant technical focus on improving node connectivity and initial synchronization, evidenced by discussions on TCP hole punching for NAT traversal and the IBD Booster PoC, alongside ongoing `cmpctblock` optimizations to enhance network resilience and lower the barrier to running full nodes.",
+    "Continued development and hardening of advanced cryptographic features, with progress on MuSig and Silent Payments, and proactive discussions on long-term security challenges such as post-quantum cryptography for L2s, demonstrating a commitment to evolving Bitcoin's privacy and security capabilities."
   ],
-  "meeting": {
-    "date": "2026-10-08",
-    "url": "https://achow101.com/ircmeetings/2026/bitcoin-core-dev.2026-10-08_16_00.log.json",
-    "participant_count": 22,
-    "key_participants": [
-      "stickies-v",
-      "sedited",
-      "brunoerg",
-      "johnny9dev",
-      "jonatack",
-      "sliv3r__"
-    ],
-    "active_participants": [
-      "stickies-v",
-      "sedited",
-      "brunoerg",
-      "johnny9dev",
-      "jonatack",
-      "sliv3r__",
-      "pinheadmz",
-      "marcofleon"
-    ],
-    "topics_discussed": [
-      "Fuzzing WG: marcofleon reported that high-quality fuzzing is actively occurring.",
-      "Kernel WG: sedited merged #34374, which provides a more flexible, struct-based logging interface for kernel users and removes reliance on the logging module. sedited requested review for #35641 (kernel: Add script evaluation tracer), which alexanderwiederin is using for experimental BIP440 integration in rust-bitcoinkernel/pull/230.",
-      "Benchmarking WG: l0rinc (via sedited) shared #36476, an opt-in pruned assumevalid mode that downloads blocks without witnesses, buffers them in memory, then deserializes and connects them without writing blocks or undo data to disk. Early tests show this could reduce pruned IBD on a 2 GB Pi 4 from ~22 days to under a week.",
-      "QML GUI WG: johnny9dev reported positive feedback from last week's testing. The preview build has been updated, and the project board is being cleaned up. Current focus is on finalizing UX, moving all functions off the GUI thread with regression tests, and finalizing the feature set for upstreaming to bitcoin/bitcoin.",
-      "QA WG: brunoerg announced that mutanthub.space now features a dedicated page for requesting mutation analysis for pull requests."
-    ],
-    "decisions_made": [
-      "The regular engineering sync will be skipped next week."
-    ],
-    "action_items": [
-      "Developers are requested to review #35641 (kernel: Add script evaluation tracer) by sedited.",
-      "Developers are encouraged to request mutation analysis for their pull requests via the new dedicated page on mutanthub.space.",
-      "johnny9dev's team will focus on finalizing QML GUI UX, migrating functions off the GUI thread with regression tests, and finalizing the feature set for upstreaming."
-    ],
-    "mentioned_prs": [
-      34374,
-      35641,
-      36476
-    ],
-    "card_topics": [
-      "Kernel WG: sedited merged #34374 for struct-based logging; requested review for #35641 (script evaluation tracer) used in BIP440 integration.",
-      "Benchmarking WG: l0rinc proposed #36476, an opt-in pruned assumevalid mode to reduce Pi 4 IBD from ~22 days to under a week.",
-      "QML GUI WG: johnny9dev reported good testing feedback, focusing on UX finalization, off-GUI thread functions, regression tests, and feature set for upstreaming.",
-      "QA WG: brunoerg launched mutanthub.space's dedicated page for requesting mutation analysis runs for pull requests.",
-      "Fuzzing WG: marcofleon confirmed high-quality fuzzing is actively occurring, ensuring code robustness."
-    ],
-    "spotlight_debate": "No significant technical debate occurred. The most notable proposal was l0rinc's #36476 for faster pruned IBD on low-end devices.",
-    "referenced_artifacts": [
-      {
-        "label": "PR #34374",
-        "icon": "git-pull-request"
-      },
-      {
-        "label": "PR #35641",
-        "icon": "git-pull-request"
-      },
-      {
-        "label": "PR #36476",
-        "icon": "git-pull-request"
-      },
-      {
-        "label": "mutanthub.space",
-        "icon": "globe"
-      },
-      {
-        "label": "rust-bitcoinkernel",
-        "icon": "code-branch"
-      }
-    ],
-    "narrative_summary": "Kernel development saw sedited merge #34374, refactoring logging to a struct-based interface and removing global logging module reliance. sedited requested review for #35641, a script evaluation tracer, used by alexanderwiederin for experimental BIP440 integration in rust-bitcoinkernel. In benchmarking, l0rinc introduced #36476, an opt-in pruned assumevalid mode to accelerate IBD on Raspberry Pi 4, potentially reducing sync times from 22 days to under a week.\n\nThe QML GUI WG, led by johnny9dev, reported positive testing feedback. Focus is on finalizing UX, migrating functions off the GUI thread with regression tests, and defining the feature set for upstreaming. For quality assurance, brunoerg announced mutanthub.space now offers a dedicated page for requesting mutation analysis for pull requests. marcofleon confirmed ongoing high-quality fuzzing.\n\nNo specific technical debates or leadership changes occurred. The primary logistical decision was to skip the regular engineering sync next week. Developers are encouraged to review outstanding pull requests, particularly #35641, and to leverage mutanthub.space for mutation testing.",
-    "x_priority_takeaway": "Review #35641 (kernel tracer) and #36476 (pruned IBD).",
-    "x_bullet_points": [
-      "Kernel logging refactor merged.",
-      "Faster pruned IBD proposed.",
-      "QML GUI progressing."
-    ],
-    "linkedin_context": "Kernel development saw sedited merge #34374, refactoring logging to a struct-based interface and removing global logging module reliance. sedited requested review for #35641, a script evaluation tracer, used by alexanderwiederin for experimental BIP440 integration in rust-bitcoinkernel. In benchmarking, l0rinc introduced #36476, an opt-in pruned assumevalid mode to accelerate IBD on Raspberry Pi 4, potentially reducing sync times from 22 days to under a week.\n\nThe QML GUI WG, led by johnny9dev, reported positive testing feedback. Focus is on finalizing UX, migrating functions off the GUI thread with regression tests, and defining the feature set for upstreaming. For quality assurance, brunoerg announced mutanthub.space now offers a dedicated page for requesting mutation analysis for pull requests. marcofleon confirmed ongoing high-quality fuzzing.\n\nNo specific technical debates or leadership changes occurred. The primary logistical decision was to skip the regular engineering sync next week. Developers are encouraged to review outstanding pull requests, particularly #35641, and to leverage mutanthub.space for mutation testing.",
-    "_text_hash": "76e895d02b730cef38c0c2a23d83c158"
-  },
+  "meeting": null,
   "categories": {
     "merged": [
       {
         "name": "Security & Consensus",
         "prs": [
           {
-            "number": 36337,
-            "repo": "bitcoin/bitcoin",
-            "title": "fuzz: Cover block filter P2P messages",
+            "number": 1866,
+            "repo": "bitcoin-core/secp256k1",
+            "title": "musig: Add hash context tests",
             "author": {
-              "username": "maflcko",
-              "uuid": "can_marcofalke"
+              "username": "mllwchrry",
+              "uuid": "auto_mllwchrry"
             },
-            "summary": "This PR expands the fuzzer coverage to include P2P messages related to compact block filters (BIP 157/158). This helps proactively identify potential vulnerabilities or bugs in the filter processing logic, enhancing the network's robustness.",
-            "technical_summary": "This PR adds new fuzzing targets specifically for the P2P messages used in compact block filters, such as `getcfheaders`, `cfheaders`, `getcfilters`, and `cfilters`. By generating malformed or unexpected inputs for these messages, the fuzzer can uncover edge cases, crashes, or assertion failures in the node's handling of filter data. This proactive testing improves the overall security and stability of the compact block filter implementation, protecting against potential DoS vectors.",
+            "summary": "",
+            "technical_summary": "",
             "importance": 11,
             "review_count": 11
           },
           {
-            "number": 36338,
-            "repo": "bitcoin/bitcoin",
-            "title": "BIP-352: fix P2PKH pubkey extraction from malleated scriptSig",
+            "number": 1929,
+            "repo": "bitcoin-core/secp256k1",
+            "title": "silentpayments: perform tweak addition with actual scalars",
             "author": {
               "username": "theStack",
               "uuid": "can_sebastian_falbesoner"
             },
-            "summary": "This PR fixes an issue in the implementation of BIP-352 (Silent Payments) related to extracting P2PKH public keys from malleated scriptSigs. This ensures the correct and secure interpretation of transaction data, preventing potential issues with silent payment address derivation.",
-            "technical_summary": "BIP-352 relies on specific rules for extracting public keys from transaction inputs to derive silent payment addresses. This fix addresses a scenario where a P2PKH `scriptSig` could be malleated (e.g., by adding extra data after the signature and public key), causing incorrect public key extraction. The PR modifies the parsing logic to robustly identify and extract the canonical public key even in the presence of such malleation, ensuring that silent payment derivations remain consistent and secure as intended by the BIP.",
-            "importance": 10,
-            "review_count": 10
+            "summary": "",
+            "technical_summary": "",
+            "importance": 3,
+            "review_count": 3
           },
           {
-            "number": 35873,
+            "number": 36535,
             "repo": "bitcoin/bitcoin",
-            "title": "test: add a tx_valid vector for CVE-2024-38365",
+            "title": "policy: sum package weight in int64_t",
             "author": {
-              "username": "jeanpablojp",
-              "uuid": "auto_jean_pablo"
+              "username": "fametrano",
+              "uuid": "auto_ferdinando_m_ametrano"
             },
-            "summary": "This PR adds a specific test case to validate transaction handling related to a recently identified vulnerability (CVE-2024-38365). This ensures that Bitcoin Core correctly rejects or processes transactions that could exploit this vulnerability, enhancing the network's security.",
-            "technical_summary": "The PR introduces a new `tx_valid` vector into the transaction validation test suite. This vector is specifically crafted to represent an edge case or malformed transaction that could potentially trigger or exploit CVE-2024-38365. By adding this test, the PR ensures that the transaction validation logic correctly identifies and handles such transactions, preventing the vulnerability from being exploited on the network.",
+            "summary": "This PR updates the transaction package weight calculation to use `int64_t`, preventing potential overflows for very large transaction packages. This ensures the correct and robust handling of transaction package policies.",
+            "technical_summary": "The data type used for summing transaction package weight is changed from a smaller integer type to `int64_t`. This modification prevents integer overflow issues that could arise with extremely large transaction packages, ensuring accurate weight calculations and correct application of mempool and relay policies, which are critical for network stability and transaction processing.",
             "importance": 2,
             "review_count": 2
-          }
-        ]
-      },
-      {
-        "name": "Strategic Initiatives",
-        "prs": [
-          {
-            "number": 34374,
-            "repo": "bitcoin/bitcoin",
-            "title": "kernel: use struct-based logging and simplify logging interface",
-            "author": {
-              "username": "stickies-v",
-              "uuid": "auto_stickies_v"
-            },
-            "summary": "This PR updates the core logging system in the kernel module to use a structured format and simplifies its interface. This improves the readability and parsability of logs, making debugging and monitoring Bitcoin Core easier for developers and advanced users.",
-            "technical_summary": "The change introduces structured logging principles within the `kernel` module, likely moving towards key-value pairs or JSON-like output. It refactors the logging interface to be more uniform and easier to use, potentially reducing boilerplate and improving consistency across different log messages, which is a foundational improvement for diagnostics.",
-            "importance": 36,
-            "review_count": 36
-          },
-          {
-            "number": 36418,
-            "repo": "bitcoin/bitcoin",
-            "title": "kernel: document that btck_WriteBytes may receive a null pointer",
-            "author": {
-              "username": "alexanderwiederin",
-              "uuid": "auto_alexander_wiederin"
-            },
-            "summary": "This PR adds crucial documentation to the `btck_WriteBytes` function within the new Bitcoin Core kernel, clarifying that it may receive a null pointer. This improves API clarity and helps developers correctly use and interact with the kernel's interfaces.",
-            "technical_summary": "As part of the ongoing 'kernel' project, the `btck_WriteBytes` function's contract regarding null pointer inputs was ambiguous. This change explicitly documents that the function is designed to handle a null pointer for its data argument, likely by treating it as a zero-length write or an error condition depending on the specific implementation. This clarification is vital for external modules or future kernel components interacting with this API, ensuring correct error handling and preventing undefined behavior.",
-            "importance": 4,
-            "review_count": 4
           }
         ]
       },
@@ -191,17 +79,30 @@
         "name": "Performance & Optimization",
         "prs": [
           {
-            "number": 36349,
+            "number": 36440,
             "repo": "bitcoin/bitcoin",
-            "title": "rpc: avoid copying unbroadcast transaction IDs just to count them",
+            "title": "test: speed up functional tests by removing avoidable waits",
             "author": {
-              "username": "musaHaruna",
-              "uuid": "auto_musa_haruna"
+              "username": "ViniciusCestarii",
+              "uuid": "auto_vinicius_cestari"
             },
-            "summary": "This PR optimizes RPC calls by preventing unnecessary copying of unbroadcast transaction IDs. It improves efficiency by reducing memory allocations and CPU cycles when simply counting these transactions.",
-            "technical_summary": "Previously, certain RPC calls would create a copy of the entire set of unbroadcast transaction IDs in memory solely to determine their count. This change modifies the RPC handler to directly query the size of the underlying data structure (e.g., a `std::set` or `std::unordered_set`) without creating an intermediate copy. This reduces memory footprint and CPU overhead, especially when dealing with a large number of unbroadcast transactions, leading to better performance for nodes with active mempools.",
-            "importance": 7,
-            "review_count": 7
+            "summary": "This PR significantly accelerates the functional test suite by eliminating unnecessary waiting periods, allowing for faster test execution. This optimization helps developers iterate more quickly and improves the efficiency of the testing process.",
+            "technical_summary": "Similar to other test speedup PRs, this change identifies and removes specific `sleep` calls or fixed-duration waits within the functional tests. It replaces them with more intelligent synchronization mechanisms, such as polling for specific conditions or waiting on events, ensuring tests progress as soon as their prerequisites are met. This directly reduces the overall time required to run the test suite.",
+            "importance": 11,
+            "review_count": 11
+          },
+          {
+            "number": 36446,
+            "repo": "bitcoin/bitcoin",
+            "title": "test: remove some avoidable test waits",
+            "author": {
+              "username": "willcl-ark",
+              "uuid": "auto_william_madden"
+            },
+            "summary": "This PR optimizes the functional test suite by eliminating unnecessary waiting periods, significantly speeding up test execution times. This improvement allows developers to run tests more quickly and efficiently, accelerating the development cycle.",
+            "technical_summary": "The PR identifies specific points within various functional tests where `time.sleep()` or similar waiting mechanisms were used excessively or could be replaced with more precise synchronization methods. By leveraging event-driven waits or more accurate polling, the tests can proceed immediately once conditions are met, rather than waiting for a fixed duration. This reduces overall test runtime without compromising test reliability.",
+            "importance": 5,
+            "review_count": 5
           }
         ]
       },
@@ -209,137 +110,28 @@
         "name": "Network & Privacy",
         "prs": [
           {
-            "number": 35037,
+            "number": 35724,
             "repo": "bitcoin/bitcoin",
-            "title": "ipc: support per-address max-connections options on -ipcbind",
+            "title": "cmpctblock: Improve logging of `cmpctblock` message reconstruction statistics [part of prefill series]",
             "author": {
-              "username": "enirox001",
-              "uuid": "auto_enoch_azariah"
+              "username": "davidgumberg",
+              "uuid": "can_vasil_dimov"
             },
-            "summary": "This PR enhances the Inter-Process Communication (IPC) interface by allowing users to specify a maximum number of connections for each individual IPC binding address. This provides more granular control over resource usage and security for local applications interacting with Bitcoin Core.",
-            "technical_summary": "The implementation modifies the IPC server to parse and apply a `max-connections` option associated with specific `ipcbind` addresses. This involves extending the configuration parsing logic for `ipcbind` entries to accommodate an optional integer connection limit per binding. The IPC connection handler then enforces this limit, rejecting new connections once the maximum for a given address is reached. This mechanism allows for tailored resource management based on the origin or purpose of different IPC consumers.",
-            "importance": 57,
-            "review_count": 57
-          },
-          {
-            "number": 36277,
-            "repo": "bitcoin/bitcoin",
-            "title": "net: always complete all initial private broadcast connections",
-            "author": {
-              "username": "andrewtoth",
-              "uuid": "can_andrew_toth"
-            },
-            "summary": "This PR ensures that Bitcoin Core always attempts to complete all initial private broadcast connections. This improves the reliability of private transaction propagation and enhances network privacy by ensuring messages reach their intended recipients.",
-            "technical_summary": "This change modifies the network connection logic to guarantee that all configured initial private broadcast connections are fully established, rather than potentially being dropped or incomplete under certain conditions. This involves adjustments to the connection manager's state machine or retry logic for these specific connection types, ensuring robust and reliable private message dissemination and improving network privacy guarantees.",
-            "importance": 21,
-            "review_count": 21
-          },
-          {
-            "number": 36080,
-            "repo": "bitcoin/bitcoin",
-            "title": "p2p: Suspend ping timeout while downloading blocks from a peer",
-            "author": {
-              "username": "mzumsande",
-              "uuid": "can_martin_zumsande"
-            },
-            "summary": "This PR improves network reliability by suspending the ping timeout mechanism when a peer is actively sending blocks. This prevents premature disconnections of valuable peers during Initial Block Download (IBD) or chain synchronization.",
-            "technical_summary": "The change modifies the P2P peer management logic to temporarily disable or extend the standard ping timeout for peers from which the node is currently downloading blocks. This addresses scenarios where a peer might be slow to respond to pings due to being busy sending large amounts of block data, leading to unnecessary disconnections. By suspending the timeout, the node avoids disconnecting peers that are actively contributing to chain synchronization, improving IBD robustness and reducing the need for re-establishing connections.",
-            "importance": 12,
-            "review_count": 12
-          }
-        ]
-      },
-      {
-        "name": "Wallet & User Tools",
-        "prs": [
-          {
-            "number": 36340,
-            "repo": "bitcoin/bitcoin",
-            "title": "util: cap Sock::WaitMany timeout to fix -rpcclienttimeout=0 on macOS",
-            "author": {
-              "username": "kriss39",
-              "uuid": "auto_kriss39"
-            },
-            "summary": "This PR fixes an issue on macOS where setting the RPC client timeout to zero would cause unexpected behavior. It caps the `Sock::WaitMany` timeout to ensure proper functionality and prevent potential hangs or errors specific to the macOS platform.",
-            "technical_summary": "The change introduces a maximum cap for the `Sock::WaitMany` timeout parameter, specifically addressing a platform-dependent behavior on macOS. On macOS, a timeout value of zero, often intended to mean 'wait indefinitely,' can be misinterpreted by the underlying socket API, leading to immediate returns or incorrect handling. By capping this value, the PR ensures that the socket wait function behaves as expected, even when `-rpcclienttimeout=0` is specified, preventing hangs or erroneous behavior on macOS systems.",
+            "summary": "This PR enhances the logging for `cmpctblock` (compact block) message reconstruction, providing more detailed statistics. This helps developers better understand and debug the performance and efficiency of compact block relay.",
+            "technical_summary": "The logging mechanisms for `cmpctblock` message reconstruction are augmented to include more granular statistics. This involves capturing and reporting metrics such as the number of missing transactions, successful reconstructions, and elapsed times. These detailed logs are invaluable for diagnosing issues and optimizing the compact block relay protocol, which is crucial for efficient block propagation.",
             "importance": 29,
             "review_count": 29
           },
           {
-            "number": 32895,
+            "number": 36522,
             "repo": "bitcoin/bitcoin",
-            "title": "wallet: Prepare for future upgrades by recording versions of last client to open and decrypt",
+            "title": "test: check MIN_PEER_PROTO_VERSION peers are not disconnected",
             "author": {
-              "username": "achow101",
-              "uuid": "can_ava_chow"
+              "username": "instagibbs",
+              "uuid": "can_greg_sanders"
             },
-            "summary": "This PR enhances the wallet's internal structure by recording the Bitcoin Core version that last opened and decrypted it. This prepares the wallet for smoother future upgrades and allows for version-specific compatibility checks.",
-            "technical_summary": "The wallet database schema is extended to store version information, specifically the client version that performed the last open and decrypt operations. This data will be persisted within the wallet file itself. In future upgrades, this recorded version can be used to detect potential incompatibilities, trigger specific migration routines, or provide better diagnostics if an older client tries to interact with a newer wallet, improving forward compatibility.",
-            "importance": 28,
-            "review_count": 28
-          },
-          {
-            "number": 35989,
-            "repo": "bitcoin/bitcoin",
-            "title": "wallet: fix crash on importdescriptors with a range ending at 2^31-1",
-            "author": {
-              "username": "shuv-amp",
-              "uuid": "auto_shuvam_pandey"
-            },
-            "summary": "This PR fixes a critical bug in the wallet's `importdescriptors` RPC command that caused a crash when importing a descriptor with a very large range. This prevents data loss and improves the reliability of wallet management for users.",
-            "technical_summary": "The `importdescriptors` RPC command allows importing descriptor-based wallets, often with a key range (e.g., `[0-1000]`). A bug caused a crash when the upper bound of such a range was set to the maximum signed 32-bit integer value (`2^31-1`). This likely resulted from an integer overflow or off-by-one error in the underlying range iteration logic. The fix involves correctly handling this edge case, ensuring the range calculation and iteration proceed without triggering a crash.",
-            "importance": 17,
-            "review_count": 17
-          },
-          {
-            "number": 36329,
-            "repo": "bitcoin/bitcoin",
-            "title": "psbt: add new test vectors",
-            "author": {
-              "username": "Sjors",
-              "uuid": "can_sjors_provoost"
-            },
-            "summary": "This PR expands the test suite for Partially Signed Bitcoin Transactions (PSBTs) by adding new test vectors. This ensures the correct and robust handling of various PSBT formats and scenarios, improving the reliability of wallet operations.",
-            "technical_summary": "The PR introduces additional test vectors specifically for the PSBT (Partially Signed Bitcoin Transaction) implementation. These new vectors likely cover edge cases, complex signing scenarios, or newly identified interaction patterns within the PSBT specification. By expanding the test coverage, the PR aims to ensure the PSBT serialization, deserialization, and processing logic remains robust and compliant across a wider range of inputs.",
-            "importance": 8,
-            "review_count": 8
-          },
-          {
-            "number": 36471,
-            "repo": "bitcoin/bitcoin",
-            "title": "bitcoin-util: print genesis hash in display order",
-            "author": {
-              "username": "ViniciusCestarii",
-              "uuid": "auto_vinicius_cestari"
-            },
-            "summary": "This PR updates the `bitcoin-util` tool to print the genesis hash in the standard display order. This ensures consistency and readability for users inspecting blockchain data.",
-            "technical_summary": "Previously, `bitcoin-util` might have displayed the genesis hash in an internal byte order, which differs from the standard big-endian hexadecimal representation. This change modifies the utility's output formatting logic to reverse the byte order before hexadecimal conversion, aligning it with common blockchain explorers and user expectations. It involves adjusting the specific print function responsible for hash serialization.",
-            "importance": 5,
-            "review_count": 5
-          },
-          {
-            "number": 36462,
-            "repo": "bitcoin/bitcoin",
-            "title": "rpc: fix OpenRPC hex pattern to allow empty strings",
-            "author": {
-              "username": "ViniciusCestarii",
-              "uuid": "auto_vinicius_cestari"
-            },
-            "summary": "This PR fixes the OpenRPC specification for hexadecimal patterns to correctly allow empty strings. This ensures that RPC clients can validate parameters more accurately, especially for optional hex fields.",
-            "technical_summary": "The OpenRPC schema, which describes Bitcoin Core's RPC interface, had a regex pattern for hexadecimal strings that implicitly disallowed empty strings. This fix modifies the regex pattern to explicitly permit zero-length strings, aligning the schema with the actual behavior of certain RPC methods where an empty hex string is a valid input or output. This prevents validation errors in client-side tools that strictly adhere to the OpenRPC specification.",
-            "importance": 5,
-            "review_count": 5
-          },
-          {
-            "number": 36432,
-            "repo": "bitcoin/bitcoin",
-            "title": "wallet: show real fee_reason strings in help",
-            "author": {
-              "username": "jcastros",
-              "uuid": "auto_jehudi_castro_sierra"
-            },
-            "summary": "This PR updates the wallet's help documentation to display the actual `fee_reason` strings. This provides users with more accurate and helpful information when interpreting transaction fee explanations.",
-            "technical_summary": "Previously, the help text for wallet RPCs or other user interfaces might have presented generic or placeholder descriptions for `fee_reason` fields. This change modifies the documentation generation or string lookup mechanisms to directly embed the precise, internal `fee_reason` strings that the wallet uses. This ensures that the user-facing explanations for why a certain fee was chosen or why a transaction failed to confirm are consistent and technically accurate.",
+            "summary": "This PR adds a test to ensure that peers running the minimum supported protocol version are not inadvertently disconnected. This helps maintain network compatibility and prevents unintended disconnections of valid nodes.",
+            "technical_summary": "A new test case is introduced to specifically verify that nodes connecting with `MIN_PEER_PROTO_VERSION` are correctly handled and not prematurely disconnected by the peer management logic. This test ensures adherence to the protocol versioning policy, preventing regressions that could impact network connectivity for older, but still supported, nodes.",
             "importance": 3,
             "review_count": 3
           }
@@ -349,340 +141,197 @@
         "name": "Maintenance & Tech Debt",
         "prs": [
           {
-            "number": 34844,
+            "number": 36425,
             "repo": "bitcoin/bitcoin",
-            "title": "util: Add util::NotNull<SmartPtrType>",
+            "title": "guix: declare python-setuptools in codesign manifest",
             "author": {
-              "username": "maflcko",
-              "uuid": "can_marcofalke"
+              "username": "willcl-ark",
+              "uuid": "auto_william_madden"
             },
-            "summary": "This PR introduces a new utility type, `util::NotNull`, to ensure that smart pointers cannot hold null values, thereby preventing common programming errors. This enhances code safety and reduces the risk of dereferencing null pointers.",
-            "technical_summary": "This change adds `util::NotNull<SmartPtrType>` which is a wrapper class designed to enforce non-nullability for smart pointers like `std::unique_ptr` or `std::shared_ptr`. It likely provides constructor overloads that assert non-null input and overloaded `operator*` and `operator->` for transparent access to the underlying pointer, ensuring that a `NotNull` instance always points to a valid object.",
-            "importance": 28,
-            "review_count": 28
-          },
-          {
-            "number": 36303,
-            "repo": "bitcoin/bitcoin",
-            "title": "http: Log bytes received from client, use to replace receive-throttle regression test",
-            "author": {
-              "username": "pinheadmz",
-              "uuid": "auto_matthew_zipkin"
-            },
-            "summary": "This PR improves the HTTP server's logging capabilities and refactors a related regression test. It provides better visibility into client communication and streamlines the testing of HTTP request handling.",
-            "technical_summary": "The PR introduces logging for the number of bytes received from HTTP clients within the `http` module. This new metric is then utilized to replace an existing 'receive-throttle' regression test, likely by directly asserting on the logged byte counts rather than relying on indirect timing or resource consumption measurements. This change provides more precise and direct verification of the HTTP server's throttling mechanisms and client interaction.",
-            "importance": 18,
-            "review_count": 18
-          },
-          {
-            "number": 34907,
-            "repo": "bitcoin/bitcoin",
-            "title": "wallet, test: make wallet_fast_rescan robust",
-            "author": {
-              "username": "rkrux",
-              "uuid": "auto_rkrux"
-            },
-            "summary": "This PR improves the robustness of the `wallet_fast_rescan` test, making it more reliable and less prone to flaky failures. This ensures higher confidence in the wallet's fast rescan functionality during development and release cycles.",
-            "technical_summary": "This PR modifies the existing `wallet_fast_rescan` functional test to address potential flakiness or improve its reliability. This might involve adjusting timing assumptions within the test, improving synchronization mechanisms between test components, or adding more comprehensive assertions to better validate the fast rescan behavior. The changes are strictly confined to the test suite and do not alter production code.",
-            "importance": 17,
-            "review_count": 17
-          },
-          {
-            "number": 34729,
-            "repo": "bitcoin/bitcoin",
-            "title": "Reduce log noise",
-            "author": {
-              "username": "ajtowns",
-              "uuid": "can_anthony_towns"
-            },
-            "summary": "This PR aims to reduce the volume and verbosity of log messages generated by Bitcoin Core, making logs easier to read and analyze. This helps users and developers quickly identify important events without being overwhelmed by excessive information.",
-            "technical_summary": "This PR implements changes to various logging statements throughout the codebase, adjusting log levels or consolidating redundant messages to decrease the overall volume of output. The goal is to make the logs more focused on actionable or critical information, thereby reducing \"noise\" and improving the efficiency of log parsing and analysis for users and developers. This is a quality-of-life improvement for node operators and debuggers.",
-            "importance": 15,
-            "review_count": 15
-          },
-          {
-            "number": 36151,
-            "repo": "bitcoin/bitcoin",
-            "title": "makeseeds: fix off-by-one in field count check",
-            "author": {
-              "username": "amannx21",
-              "uuid": "auto_aman21_droid"
-            },
-            "summary": "This PR fixes a minor bug in the `makeseeds` tool, which is used to generate initial peer lists for new nodes. This ensures the tool operates correctly and provides accurate seed data for network bootstrapping.",
-            "technical_summary": "The PR addresses an off-by-one error in the field count check within the `makeseeds` utility. This error likely caused incorrect parsing or validation of input data when generating seed nodes. By correcting the logic, the PR ensures that `makeseeds` accurately processes its input, leading to correctly formatted and reliable seed node lists for network bootstrapping.",
-            "importance": 13,
-            "review_count": 13
-          },
-          {
-            "number": 36271,
-            "repo": "bitcoin/bitcoin",
-            "title": "Revert #36057 & document mingw-w64 requirement",
-            "author": {
-              "username": "fanquake",
-              "uuid": "can_michael_ford"
-            },
-            "summary": "This PR reverts a previous change that caused issues with Windows builds and adds documentation clarifying the specific `mingw-w64` compiler requirement. This ensures that Windows builds remain stable and provides clear guidance for developers.",
-            "technical_summary": "PR #36057 introduced a change that led to build failures on Windows using `mingw-w64` due to compatibility issues. This PR fully reverts that problematic change to restore build stability for Windows users. Additionally, it updates the build documentation to explicitly state the minimum required version or specific configuration for `mingw-w64`, preventing similar build environment issues in the future and streamlining the development process.",
-            "importance": 11,
-            "review_count": 11
-          },
-          {
-            "number": 36427,
-            "repo": "bitcoin/bitcoin",
-            "title": "[32.x] More Backports",
-            "author": {
-              "username": "fanquake",
-              "uuid": "can_michael_ford"
-            },
-            "summary": "This PR incorporates a collection of previously merged fixes and improvements from the main development branch into the `32.x` release branch. This ensures that the upcoming release benefits from the latest stability enhancements and bug fixes.",
-            "technical_summary": "This is a routine backport PR, cherry-picking multiple commits from the `master` branch into the `32.x` release branch. While the specific contents are not detailed in the title, such PRs typically include critical bug fixes, minor performance improvements, or security patches deemed necessary for the stability and robustness of the upcoming release. The process involves careful selection of commits, conflict resolution, and thorough testing to ensure smooth integration.",
-            "importance": 10,
-            "review_count": 10
-          },
-          {
-            "number": 36447,
-            "repo": "bitcoin/bitcoin",
-            "title": "test: Misc fixes for pending validation events races",
-            "author": {
-              "username": "maflcko",
-              "uuid": "can_marcofalke"
-            },
-            "summary": "This PR introduces miscellaneous fixes to address race conditions in tests involving pending validation events. These improvements make the test suite more reliable and less prone to intermittent failures.",
-            "technical_summary": "The existing test suite exhibited non-deterministic failures due to race conditions where validation events (e.g., block or transaction processing) were not fully settled before assertions were made. This PR likely introduces synchronization primitives, more robust polling mechanisms, or delays within specific test cases to ensure that all asynchronous validation events have completed and their effects are observable before proceeding with test assertions. This enhances the determinism and stability of the test environment.",
-            "importance": 10,
-            "review_count": 10
-          },
-          {
-            "number": 36291,
-            "repo": "bitcoin/bitcoin",
-            "title": "test: add script_tests cases covering interpreter mutants",
-            "author": {
-              "username": "ViniciusCestarii",
-              "uuid": "auto_vinicius_cestari"
-            },
-            "summary": "This PR enhances the robustness of Bitcoin's script interpreter by adding new test cases. It helps ensure the interpreter correctly handles various edge cases and potential vulnerabilities.",
-            "technical_summary": "The PR introduces additional `script_tests` vectors specifically designed to cover 'interpreter mutants.' These mutants represent variations or edge cases in script execution logic, aiming to expose subtle bugs or inconsistencies. By expanding the test suite with these cases, the PR strengthens the interpreter's resilience against unexpected inputs and ensures its deterministic behavior across all scenarios.",
-            "importance": 10,
-            "review_count": 10
-          },
-          {
-            "number": 36327,
-            "repo": "bitcoin/bitcoin",
-            "title": "test: speed up secp256k1 fixed-base multiplication and Schnorr signing",
-            "author": {
-              "username": "brunoerg",
-              "uuid": "can_bruno_garcia"
-            },
-            "summary": "This PR optimizes the execution speed of tests related to `secp256k1` fixed-base multiplication and Schnorr signing. By making these tests run faster, it improves developer efficiency and reduces CI pipeline times.",
-            "technical_summary": "The PR modifies the test suite to improve the performance of benchmarks or unit tests involving `secp256k1` operations, specifically fixed-base multiplication and Schnorr signing. This might involve optimizing test data generation, reducing redundant computations within the test harness, or using more efficient testing methodologies. The goal is to decrease the wall-clock time required to execute these cryptographic tests without altering the correctness or coverage of the tests themselves.",
-            "importance": 10,
-            "review_count": 10
-          },
-          {
-            "number": 36435,
-            "repo": "bitcoin/bitcoin",
-            "title": "ci: isolate container test networks",
-            "author": {
-              "username": "maflcko",
-              "uuid": "can_marcofalke"
-            },
-            "summary": "This PR improves the reliability and efficiency of Bitcoin Core's continuous integration (CI) system. By isolating test networks, it prevents interference between different test runs, leading to more consistent and accurate results.",
-            "technical_summary": "The PR modifies the CI setup to ensure that containerized test networks are fully isolated from each other. This typically involves using distinct network namespaces or dedicated Docker networks for each test job. This isolation prevents resource contention, port conflicts, or unintended interactions between parallel test executions, thereby improving the determinism and reproducibility of CI runs.",
+            "summary": "This PR updates the Guix build system to correctly declare `python-setuptools` in the codesign manifest, ensuring the reproducible build process remains robust. It helps maintain the integrity and verifiability of Bitcoin Core releases.",
+            "technical_summary": "The change modifies the Guix build manifest, specifically the `codesign` section, to explicitly include `python-setuptools` as a dependency. This ensures that all components required for the build, including those used in the codesigning process, are properly tracked and included in the reproducible build environment. This prevents potential build failures or inconsistencies related to missing Python dependencies.",
             "importance": 9,
             "review_count": 9
           },
           {
-            "number": 36262,
+            "number": 36294,
             "repo": "bitcoin/bitcoin",
-            "title": "test: cover orphan reconsideration interruptibility",
+            "title": "mempool: Remove -persistmempoolv1 option",
+            "author": {
+              "username": "fjahr",
+              "uuid": "can_fabian_jahr"
+            },
+            "summary": "This PR removes the deprecated `-persistmempoolv1` option, simplifying the mempool persistence mechanism. This ensures all nodes utilize the current, more efficient mempool persistence format, reducing code complexity and maintenance burden.",
+            "technical_summary": "The change involves deleting the command-line option parsing logic for `-persistmempoolv1` and removing the associated code paths responsible for loading and saving the mempool in the older v1 format. This effectively deprecates and removes support for the legacy persistence mechanism, forcing all nodes to use the current, presumably more robust and performant, mempool persistence format. This reduces the codebase's technical debt.",
+            "importance": 9,
+            "review_count": 9
+          },
+          {
+            "number": 36439,
+            "repo": "bitcoin/bitcoin",
+            "title": "test: poll more frequently in sync helpers and RPC connection wait",
             "author": {
               "username": "ViniciusCestarii",
               "uuid": "auto_vinicius_cestari"
             },
-            "summary": "This PR adds tests to ensure that the process of reconsidering orphan transactions can be interrupted efficiently. This improves the responsiveness and resource management of the node, especially under high transaction load.",
-            "technical_summary": "The PR introduces new test cases to verify the interruptibility of the orphan reconsideration process. These tests simulate scenarios where the node needs to halt or pause the reconsideration of orphan transactions, for example, due to new block arrivals or shutdown signals. The goal is to ensure that the process can be gracefully interrupted without deadlocks or resource leaks, improving the node's responsiveness and stability.",
+            "summary": "This PR adjusts test helpers to poll more frequently when waiting for synchronization or RPC connections. This makes tests run faster and more reliably by reducing unnecessary delays.",
+            "technical_summary": "The polling intervals within test synchronization helpers and RPC connection wait functions are reduced. This modification allows tests to detect state changes, such as block synchronization or RPC server readiness, more quickly. This minimizes idle wait times, improving the overall execution speed and determinism of the test suite without affecting production code.",
             "importance": 8,
             "review_count": 8
           },
           {
-            "number": 36308,
+            "number": 36469,
             "repo": "bitcoin/bitcoin",
-            "title": "test: Set tsan enable_adaptive_delay=1 by default",
+            "title": "refactor: deduplicate block validation state catcher",
             "author": {
-              "username": "maflcko",
-              "uuid": "can_marcofalke"
+              "username": "enirox001",
+              "uuid": "auto_enoch_azariah"
             },
-            "summary": "This PR improves the effectiveness of thread sanitizer (TSan) tests in Bitcoin Core. By enabling adaptive delay, it helps detect more concurrency bugs and race conditions during development.",
-            "technical_summary": "The PR sets `enable_adaptive_delay=1` as the default for TSan (ThreadSanitizer) configurations within the test suite. This TSan option dynamically adjusts the delay introduced by the sanitizer, allowing it to better expose subtle timing-dependent race conditions and concurrency bugs that might otherwise be missed. This change enhances the diagnostic capabilities of TSan, leading to more robust multithreaded code.",
+            "summary": "This PR refactors the codebase by removing duplicate logic related to catching block validation states, making the code more concise and easier to maintain. It improves the overall quality and readability of the block validation infrastructure.",
+            "technical_summary": "The change involves identifying common patterns or identical code blocks used across different parts of the block validation process, specifically concerning how validation states are captured or handled. The refactor consolidates these duplicate sections into a single, reusable function or class, reducing code redundancy. This architectural improvement simplifies future modifications and reduces the risk of inconsistencies.",
             "importance": 7,
             "review_count": 7
           },
           {
-            "number": 36029,
+            "number": 36504,
             "repo": "bitcoin/bitcoin",
-            "title": "cmake: Detect and log MinGW-w64 version when cross-compiling for Windows",
+            "title": "test: Add missing timeouts for HTTPConnection",
             "author": {
-              "username": "hebasto",
-              "uuid": "can_hennadii_stepanov"
+              "username": "maflcko",
+              "uuid": "can_marcofalke"
             },
-            "summary": "This PR enhances the CMake build system to detect and log the MinGW-w64 version when cross-compiling for Windows. This provides valuable debugging information and improves the reproducibility of Windows builds.",
-            "technical_summary": "When cross-compiling Bitcoin Core for Windows using MinGW-w64, the specific compiler toolchain version can impact build outcomes. This change modifies the CMake configuration scripts to query and capture the MinGW-w64 version during the configuration phase. This information is then logged, making it easier for developers to diagnose build issues related to toolchain compatibility and ensuring that build environments are consistently documented.",
+            "summary": "This PR enhances the reliability of functional tests by adding missing timeouts to `HTTPConnection` instances, preventing tests from hanging indefinitely. This makes the test suite more robust and provides clearer failure indications.",
+            "technical_summary": "The change involves reviewing functional tests that utilize `HTTPConnection` objects and explicitly setting timeout parameters for these connections. Without timeouts, a test could block indefinitely if an HTTP request fails to receive a response, leading to stalled CI runs. Adding timeouts ensures that such network issues in tests are quickly identified and reported, improving test suite stability.",
             "importance": 6,
             "review_count": 6
           },
           {
-            "number": 36467,
+            "number": 36441,
             "repo": "bitcoin/bitcoin",
-            "title": "test: Set socket timeout in interface_http.py",
+            "title": "doc: fix How to Upgrade section for bitcoin wrapper and libexec",
             "author": {
-              "username": "maflcko",
-              "uuid": "can_marcofalke"
+              "username": "yashspidey",
+              "uuid": "auto_yashspidey"
             },
-            "summary": "This PR adds a socket timeout to HTTP interface tests, preventing them from hanging indefinitely if a connection issue occurs. This makes the test suite more robust and reliable, improving developer productivity.",
-            "technical_summary": "The `interface_http.py` test script interacts with the node's RPC interface over HTTP. Without a socket timeout, network issues or unresponsive nodes could cause these tests to stall indefinitely, consuming CI resources and delaying feedback. This PR introduces a reasonable timeout value for socket operations within these tests, ensuring that they fail gracefully and promptly instead of hanging, thereby improving test suite reliability and efficiency.",
+            "summary": "This PR updates the \"How to Upgrade\" documentation to correctly describe the process when using the `bitcoin` wrapper script and `libexec` directory. It ensures users have accurate instructions, preventing potential upgrade issues and improving the overall user experience.",
+            "technical_summary": "This PR modifies the `doc/upgrade.md` file to clarify the steps for users who compile Bitcoin Core with the `bitcoin` wrapper script and utilize the `libexec` directory for executables. The update ensures that the documented upgrade procedure accurately reflects the file structure and execution flow for such installations. It corrects references to where binaries are expected to reside and how they should be replaced during an upgrade, preventing misconfigurations or failed upgrades.",
+            "importance": 6,
+            "review_count": 6
+          },
+          {
+            "number": 36379,
+            "repo": "bitcoin/bitcoin",
+            "title": "fuzz: fix stale comments in http_request",
+            "author": {
+              "username": "frankomosh",
+              "uuid": "auto_frankomosh"
+            },
+            "summary": "This PR updates outdated comments within the HTTP request fuzzer, improving code clarity and maintainability for developers. It ensures that the documentation accurately reflects the current state of the fuzzer's logic.",
+            "technical_summary": "The change specifically targets comments in the `http_request` fuzzer module. It identifies and corrects comments that no longer accurately describe the associated code logic or assumptions. This involves reviewing the fuzzer's implementation details and aligning the explanatory text to prevent future misunderstandings during development or debugging.",
             "importance": 5,
             "review_count": 5
           },
           {
-            "number": 36416,
+            "number": 36498,
             "repo": "bitcoin/bitcoin",
-            "title": "test: use ipaddress in addr_to_hex",
+            "title": "[32.0] 32.0rc4",
             "author": {
               "username": "fanquake",
               "uuid": "can_michael_ford"
             },
-            "summary": "This PR refactors test infrastructure to use the `ipaddress` module when converting addresses to hexadecimal format. This improves the robustness and correctness of network-related tests.",
-            "technical_summary": "The `addr_to_hex` helper function, used in various network tests, previously might have had custom or less robust IP address parsing logic. By integrating Python's standard `ipaddress` module, the PR leverages a well-tested and comprehensive library for IP address manipulation. This change enhances the accuracy of address serialization within test scenarios, reducing potential edge-case bugs in test setup and validation.",
-            "importance": 5,
-            "review_count": 5
-          },
-          {
-            "number": 36152,
-            "repo": "bitcoin/bitcoin",
-            "title": "test: cover the feature-negotiation version boundary in p2p_leak",
-            "author": {
-              "username": "brunoerg",
-              "uuid": "can_bruno_garcia"
-            },
-            "summary": "This PR enhances the P2P network tests to cover specific version negotiation scenarios. It ensures that Bitcoin Core's peer-to-peer communication remains robust and secure even at the boundaries of feature negotiation.",
-            "technical_summary": "The PR adds new test cases to the `p2p_leak` test suite, specifically targeting the 'feature-negotiation version boundary.' This involves simulating peer connections where the negotiated protocol version is at critical thresholds or edge cases. The goal is to verify that the P2P layer correctly handles these version transitions and does not leak sensitive information or exhibit unexpected behavior under various negotiation outcomes.",
-            "importance": 5,
-            "review_count": 5
-          },
-          {
-            "number": 35835,
-            "repo": "bitcoin/bitcoin",
-            "title": "test: add CONST_SCRIPTCODE failure-path vectors to script_tests.json",
-            "author": {
-              "username": "jeanpablojp",
-              "uuid": "auto_jean_pablo"
-            },
-            "summary": "This PR enhances the script interpreter tests by adding specific cases for `CONST_SCRIPTCODE` failure paths. This improves the robustness of script validation, ensuring that the interpreter correctly handles invalid or malformed script constants.",
-            "technical_summary": "The PR extends `script_tests.json` with new failure-path vectors specifically targeting `CONST_SCRIPTCODE`. These test cases are designed to verify that the script interpreter correctly identifies and rejects scripts that misuse or malform the `CONST_SCRIPTCODE` opcode, leading to predictable failure states. This ensures the interpreter's resilience against invalid script constructions and maintains the integrity of script execution.",
+            "summary": "This PR marks the release candidate 4 for Bitcoin Core version 32.0, signifying a crucial step towards the official release. It bundles all changes merged up to this point for final testing and review before the stable version.",
+            "technical_summary": "This PR typically involves updating version strings, creating a new git tag (`v32.0rc4`), and potentially updating release notes or build scripts to reflect the new release candidate status. It serves as a checkpoint for the release process, allowing for comprehensive testing of the accumulated changes in a release-ready package. No functional code changes are usually introduced in such a PR itself, rather it's a metadata update.",
             "importance": 4,
             "review_count": 4
           },
           {
-            "number": 36320,
-            "repo": "bitcoin/bitcoin",
-            "title": "test: refactor: make chain_dir consistent with CreateBaseChainParams",
+            "number": 1963,
+            "repo": "bitcoin-core/secp256k1",
+            "title": "doc: say the sha256 compression callback processes secrets",
             "author": {
-              "username": "ekzyis",
-              "uuid": "auto_ekzyis"
+              "username": "fametrano",
+              "uuid": "auto_ferdinando_m_ametrano"
             },
-            "summary": "This PR refactors test code to ensure consistency in how `chain_dir` is handled, aligning it with the `CreateBaseChainParams` function. This improves code readability and maintainability within the test suite.",
-            "technical_summary": "The refactoring modifies test utilities to standardize the naming and usage of the `chain_dir` variable, making it consistent with the `CreateBaseChainParams` function's expectations. This involves updating various test helpers and fixtures to use a unified approach for managing chain data directories, reducing potential confusion and simplifying future test development. The change is purely cosmetic and does not alter test behavior, focusing solely on code cleanliness.",
+            "summary": "",
+            "technical_summary": "",
             "importance": 4,
             "review_count": 4
           },
           {
-            "number": 36128,
+            "number": 36552,
             "repo": "bitcoin/bitcoin",
-            "title": "test: add script_tests cases covering more interpreter mutants",
-            "author": {
-              "username": "ViniciusCestarii",
-              "uuid": "auto_vinicius_cestari"
-            },
-            "summary": "This PR expands the `script_tests` suite by adding new test cases designed to cover more \"mutants\" of the script interpreter. This enhances the robustness and reliability of Bitcoin's scripting engine by ensuring it behaves correctly under a wider range of conditions.",
-            "technical_summary": "The PR introduces additional test vectors to the `script_tests` framework, specifically targeting edge cases and less common execution paths within the Bitcoin Script interpreter. These \"mutant\" tests are designed to expose potential bugs or inconsistencies that might arise from subtle variations in script execution. By increasing test coverage, the PR helps to ensure the interpreter's correctness and adherence to consensus rules, reducing the risk of unexpected behavior or vulnerabilities.",
-            "importance": 4,
-            "review_count": 4
-          },
-          {
-            "number": 36392,
-            "repo": "bitcoin/bitcoin",
-            "title": "test: Extract and use sigterm_node in init_fd_overflow_test",
-            "author": {
-              "username": "maflcko",
-              "uuid": "can_marcofalke"
-            },
-            "summary": "This PR refactors the test suite by extracting and reusing the `sigterm_node` helper function within `init_fd_overflow_test`. This improves code reuse and maintainability across the test infrastructure.",
-            "technical_summary": "The `init_fd_overflow_test` likely contained duplicated logic for gracefully terminating a Bitcoin Core node using a SIGTERM signal. This PR identifies that common pattern and extracts it into a reusable `sigterm_node` helper function. By calling this new helper, the test reduces redundancy, centralizes node termination logic, and makes the test more concise and easier to understand.",
-            "importance": 3,
-            "review_count": 3
-          },
-          {
-            "number": 36426,
-            "repo": "bitcoin/bitcoin",
-            "title": "test: check IBD insufficient work disconnect of outbound peers",
-            "author": {
-              "username": "brunoerg",
-              "uuid": "can_bruno_garcia"
-            },
-            "summary": "This PR adds a new test case to verify that Bitcoin Core correctly disconnects outbound peers during Initial Block Download (IBD) if they provide insufficient proof-of-work. This ensures the network logic for IBD peer management is robust.",
-            "technical_summary": "The new test case simulates an IBD scenario where an outbound peer offers a chain with insufficient accumulated work compared to the best known chain. The test asserts that Bitcoin Core's peer management logic correctly identifies this condition and disconnects the misbehaving peer. This validates the implementation of the `CBlockIndex::nChainWork` comparison and the peer disconnection mechanism during IBD, which is critical for preventing sybil attacks or wasting resources on invalid chains.",
-            "importance": 3,
-            "review_count": 3
-          },
-          {
-            "number": 36450,
-            "repo": "bitcoin/bitcoin",
-            "title": "test: Use timeout_factor for drain timeout in check_slow_read_throttle",
-            "author": {
-              "username": "maflcko",
-              "uuid": "can_marcofalke"
-            },
-            "summary": "This PR improves the reliability of a specific test by making its timeout configurable via `timeout_factor`, adapting to different testing environments. This prevents flaky test failures and ensures consistent test results.",
-            "technical_summary": "The `check_slow_read_throttle` test likely simulates slow network conditions to verify the node's throttling behavior. The 'drain timeout' refers to the time allowed for data processing. By replacing a hardcoded timeout with `timeout_factor * X`, the test can dynamically adjust its timeout based on the overall test suite's configured `timeout_factor`. This change is crucial for preventing flaky test failures in slower CI environments or on less powerful machines, ensuring more consistent and reliable test outcomes.",
-            "importance": 2,
-            "review_count": 2
-          },
-          {
-            "number": 36436,
-            "repo": "bitcoin/bitcoin",
-            "title": "ci: Derive CONTAINER_NAME from the ci config file name",
-            "author": {
-              "username": "maflcko",
-              "uuid": "can_marcofalke"
-            },
-            "summary": "This PR streamlines the continuous integration (CI) configuration by automatically generating container names based on their respective CI job file names. This simplifies CI management and reduces potential for naming conflicts.",
-            "technical_summary": "In CI systems, jobs often run within containers that require unique names. Previously, these names might have been manually specified or inconsistently derived. This PR introduces logic to automatically derive the `CONTAINER_NAME` variable from the name of the CI configuration file itself (e.g., `fuzz.yml` -> `fuzz_container`). This convention makes the CI setup more maintainable, less error-prone, and easier to scale by ensuring consistent and unique container naming without manual intervention.",
-            "importance": 2,
-            "review_count": 2
-          },
-          {
-            "number": 36448,
-            "repo": "bitcoin/bitcoin",
-            "title": "randomenv: use `KERN_POSIX1` over `KERN_OSREV`",
+            "title": "refactor: drop lifetimebound `__has_attribute` check",
             "author": {
               "username": "fanquake",
               "uuid": "can_michael_ford"
             },
-            "summary": "This PR updates the `randomenv` utility to use `KERN_POSIX1` instead of `KERN_OSREV` for system information retrieval. This improves the reliability and portability of environment data collection, particularly for randomness generation.",
-            "technical_summary": "The `randomenv` component, responsible for gathering system entropy or environment details, previously relied on `KERN_OSREV` to obtain certain system information. This PR switches to using `KERN_POSIX1`, which is a more standardized and robust kernel identifier for POSIX version information. This change ensures that the environment data collected is more consistent across different operating systems and kernel versions, contributing to the overall reliability of entropy gathering processes.",
-            "importance": 2,
-            "review_count": 2
+            "summary": "This PR removes a specific `__has_attribute` check related to `lifetimebound` during compilation. This refactoring simplifies the build process and removes a compiler-specific check that is no longer necessary.",
+            "technical_summary": "The conditional compilation check for `__has_attribute(lifetimebound)` is eliminated from the build system. This attribute is specific to certain compiler versions or configurations, and its removal simplifies the codebase by reducing conditional compilation paths. This change contributes to a cleaner and more maintainable build system.",
+            "importance": 3,
+            "review_count": 3
           },
           {
-            "number": 36474,
+            "number": 36517,
             "repo": "bitcoin/bitcoin",
-            "title": "ci: Run valgrind --exclude tests again",
+            "title": "Update crc32c subtree to latest master",
+            "author": {
+              "username": "fanquake",
+              "uuid": "can_michael_ford"
+            },
+            "summary": "This PR updates the `crc32c` library subtree to its latest master version, incorporating upstream improvements and bug fixes. Keeping dependencies current ensures Bitcoin Core benefits from the latest advancements and maintains compatibility.",
+            "technical_summary": "The change involves pulling the latest commits from the upstream `crc32c` repository into Bitcoin Core's vendored subtree. This process updates the `crc32c` implementation used within Bitcoin Core, potentially bringing performance enhancements, bug fixes, or security patches from the upstream project. It's a routine dependency management task to keep the codebase up-to-date.",
+            "importance": 3,
+            "review_count": 3
+          },
+          {
+            "number": 36485,
+            "repo": "bitcoin/bitcoin",
+            "title": "ci: refactor BUILD_TARGETS use",
             "author": {
               "username": "maflcko",
               "uuid": "can_marcofalke"
             },
-            "summary": "This PR re-enables a `valgrind` memory error detection run in the continuous integration (CI) system, specifically excluding certain tests. This helps catch memory leaks and other issues early in the development cycle, improving code quality and stability.",
-            "technical_summary": "This PR modifies the CI configuration to re-introduce a `valgrind` job, a powerful memory debugging tool, which was previously disabled or misconfigured. It specifically uses the `--exclude` flag to skip tests known to be incompatible or excessively slow with `valgrind`. This allows critical parts of the codebase to be checked for memory errors, uninitialized reads, and other runtime issues without unduly impacting CI runtimes, thereby enhancing code quality.",
+            "summary": "This PR refactors how `BUILD_TARGETS` are used within the Continuous Integration (CI) system, streamlining the build configuration. It improves the clarity and maintainability of the CI scripts, making them easier to manage.",
+            "technical_summary": "The change focuses on optimizing the definition and usage of `BUILD_TARGETS` variables within the CI configuration files. This could involve consolidating target definitions, improving variable expansion logic, or standardizing how different build targets are invoked. The goal is to reduce complexity and potential errors in the CI pipeline setup.",
+            "importance": 3,
+            "review_count": 3
+          },
+          {
+            "number": 36511,
+            "repo": "bitcoin/bitcoin",
+            "title": "test: Small mempool_compatibility.py cleanups",
+            "author": {
+              "username": "maflcko",
+              "uuid": "can_marcofalke"
+            },
+            "summary": "This PR introduces minor cleanups to the `mempool_compatibility.py` test script, making the test suite more organized and easier to understand. It contributes to a cleaner and more maintainable codebase for future development.",
+            "technical_summary": "The changes involve refactoring small aspects of the `mempool_compatibility.py` functional test. This could include removing redundant code, improving variable naming, or reordering test steps for better logical flow. The goal is to enhance readability and maintainability of the test script without altering its functional behavior or coverage.",
+            "importance": 2,
+            "review_count": 2
+          },
+          {
+            "number": 36514,
+            "repo": "bitcoin/bitcoin",
+            "title": "ci: Remove confusing -DBUILD_BENCH=ON -DBUILD_FUZZ_BINARY=ON from CONFIG_ALL",
+            "author": {
+              "username": "maflcko",
+              "uuid": "can_marcofalke"
+            },
+            "summary": "This PR removes confusing and redundant build flags for benchmarks and fuzzing binaries from the `CONFIG_ALL` CI job. This simplifies the CI configuration and makes it clearer.",
+            "technical_summary": "The `CONFIG_ALL` CI job's build command is modified to remove the explicit `-DBUILD_BENCH=ON` and `-DBUILD_FUZZ_BINARY=ON` flags. These flags were either redundant or caused confusion, as their behavior was already implicitly handled or not desired in that specific configuration. This cleanup streamlines the CI pipeline and improves its maintainability.",
+            "importance": 1,
+            "review_count": 1
+          },
+          {
+            "number": 36544,
+            "repo": "bitcoin/bitcoin",
+            "title": "test: Fix intermittent issue in p2p_eviction.py",
+            "author": {
+              "username": "maflcko",
+              "uuid": "can_marcofalke"
+            },
+            "summary": "This PR fixes an intermittent issue in the `p2p_eviction.py` test script. This improves the reliability of the test suite, ensuring consistent and accurate testing of peer eviction logic.",
+            "technical_summary": "The `p2p_eviction.py` test is updated to address a non-deterministic failure mode. This likely involves adjusting timing assumptions, synchronization points, or race conditions within the test environment to ensure it reliably passes across different execution contexts, thereby improving the robustness of the P2P eviction policy validation.",
             "importance": 1,
             "review_count": 1
           }
@@ -691,31 +340,53 @@
     ],
     "hot": [
       {
+        "name": "Security & Consensus",
+        "prs": [
+          {
+            "number": 36525,
+            "repo": "bitcoin/bitcoin",
+            "title": "mining: add getTotalFees(), protect m_block_template with mutex",
+            "author": {
+              "username": "Sjors",
+              "uuid": "can_sjors_provoost"
+            },
+            "event_count": 9,
+            "summary": "This PR introduces a function to calculate total fees in a block template and protects the template with a mutex. This enhances the robustness of the mining process by preventing race conditions and ensuring data integrity.",
+            "technical_summary": "The `getTotalFees()` method is added to the block template class for efficient fee aggregation. Crucially, a mutex is implemented to guard `m_block_template`, ensuring thread-safe access and modification. This prevents data corruption and potential crashes in multi-threaded mining environments, thereby improving the reliability of block creation."
+          }
+        ]
+      },
+      {
         "name": "Network & Privacy",
         "prs": [
           {
-            "number": 36449,
+            "number": 35724,
             "repo": "bitcoin/bitcoin",
-            "title": "addrman: use uniform sampling inside buckets",
+            "title": "cmpctblock: Improve logging of `cmpctblock` message reconstruction statistics [part of prefill series]",
             "author": {
-              "username": "sipa",
-              "uuid": "can_pieter_wuille"
+              "username": "davidgumberg",
+              "uuid": "can_vasil_dimov"
             },
-            "event_count": 23,
-            "summary": "This PR improves the address manager's peer selection logic by ensuring more uniform sampling within its buckets. This helps Bitcoin Core discover and connect to a more diverse set of peers, enhancing network decentralization and resilience.",
-            "technical_summary": "The `addrman` stores known peer addresses in buckets to mitigate eclipse attacks. Previously, when selecting an address from a bucket, the sampling method could introduce biases by iterating from a random starting point. This PR modifies the selection process to use truly uniform random sampling within a bucket by directly picking a random index. This change prevents potential biases in peer selection, improving the distribution of connections and making the node more resistant to targeted attacks."
-          },
+            "event_count": 11,
+            "summary": "This PR enhances the logging for `cmpctblock` (compact block) message reconstruction, providing more detailed statistics. This helps developers better understand and debug the performance and efficiency of compact block relay.",
+            "technical_summary": "The logging mechanisms for `cmpctblock` message reconstruction are augmented to include more granular statistics. This involves capturing and reporting metrics such as the number of missing transactions, successful reconstructions, and elapsed times. These detailed logs are invaluable for diagnosing issues and optimizing the compact block relay protocol, which is crucial for efficient block propagation."
+          }
+        ]
+      },
+      {
+        "name": "Wallet & User Tools",
+        "prs": [
           {
-            "number": 36466,
+            "number": 35728,
             "repo": "bitcoin/bitcoin",
-            "title": "policy: make unstructured Taproot annexes standard",
+            "title": "rpc: Properly throw on internal I/O errors in GetTransaction",
             "author": {
-              "username": "RobinLinus",
-              "uuid": "auto_robin_linus"
+              "username": "maflcko",
+              "uuid": "can_marcofalke"
             },
-            "event_count": 9,
-            "summary": "This PR makes transactions with unstructured Taproot annexes standard, allowing them to be relayed and included in blocks by default. This improves compatibility and flexibility for future Taproot-based applications.",
-            "technical_summary": "The change updates the `IsStandardTx` policy to permit transactions containing an unstructured annex (a single field starting with `0x50`) to be considered standard. It specifically checks for the presence of the `ANNEX_TAG` byte and ensures the annex is not empty, without imposing further structure requirements. This enables broader adoption of Taproot features that might utilize annexes for various purposes, such as covenant designs or application-specific data."
+            "event_count": 11,
+            "summary": "This PR improves the `GetTransaction` RPC by ensuring it properly reports internal I/O errors. This makes the RPC more robust and provides clearer feedback to users or applications when underlying data access issues occur.",
+            "technical_summary": "The `GetTransaction` RPC is modified to explicitly catch and re-throw exceptions originating from internal I/O operations, such as database access failures. This change ensures that callers receive appropriate error responses instead of encountering silent failures or unexpected behavior, significantly improving the reliability and debuggability of the RPC interface."
           }
         ]
       },
@@ -723,40 +394,28 @@
         "name": "Maintenance & Tech Debt",
         "prs": [
           {
-            "number": 36427,
+            "number": 36524,
             "repo": "bitcoin/bitcoin",
-            "title": "[32.x] More Backports",
+            "title": "common: drop locale setting hack",
             "author": {
               "username": "fanquake",
               "uuid": "can_michael_ford"
             },
-            "event_count": 10,
-            "summary": "This PR incorporates a collection of previously merged fixes and improvements from the main development branch into the `32.x` release branch. This ensures that the upcoming release benefits from the latest stability enhancements and bug fixes.",
-            "technical_summary": "This is a routine backport PR, cherry-picking multiple commits from the `master` branch into the `32.x` release branch. While the specific contents are not detailed in the title, such PRs typically include critical bug fixes, minor performance improvements, or security patches deemed necessary for the stability and robustness of the upcoming release. The process involves careful selection of commits, conflict resolution, and thorough testing to ensure smooth integration."
+            "event_count": 13,
+            "summary": "This PR removes a problematic 'locale setting hack' from common utility functions. This simplifies the codebase, improves consistency, and eliminates a source of potential locale-dependent bugs.",
+            "technical_summary": "The specific code pattern that manipulated locale settings in the `common` module is removed. This streamlines the codebase by reducing complexity and dependency on system-specific locale configurations, leading to improved cross-platform consistency and fewer potential issues related to string formatting or parsing."
           },
           {
-            "number": 36447,
+            "number": 31507,
             "repo": "bitcoin/bitcoin",
-            "title": "test: Misc fixes for pending validation events races",
+            "title": "build: Use clang-cl to build on Windows natively",
             "author": {
-              "username": "maflcko",
-              "uuid": "can_marcofalke"
-            },
-            "event_count": 10,
-            "summary": "This PR introduces miscellaneous fixes to address race conditions in tests involving pending validation events. These improvements make the test suite more reliable and less prone to intermittent failures.",
-            "technical_summary": "The existing test suite exhibited non-deterministic failures due to race conditions where validation events (e.g., block or transaction processing) were not fully settled before assertions were made. This PR likely introduces synchronization primitives, more robust polling mechanisms, or delays within specific test cases to ensure that all asynchronous validation events have completed and their effects are observable before proceeding with test assertions. This enhances the determinism and stability of the test environment."
-          },
-          {
-            "number": 36435,
-            "repo": "bitcoin/bitcoin",
-            "title": "ci: isolate container test networks",
-            "author": {
-              "username": "maflcko",
-              "uuid": "can_marcofalke"
+              "username": "hebasto",
+              "uuid": "can_hennadii_stepanov"
             },
             "event_count": 9,
-            "summary": "This PR improves the reliability and efficiency of Bitcoin Core's continuous integration (CI) system. By isolating test networks, it prevents interference between different test runs, leading to more consistent and accurate results.",
-            "technical_summary": "The PR modifies the CI setup to ensure that containerized test networks are fully isolated from each other. This typically involves using distinct network namespaces or dedicated Docker networks for each test job. This isolation prevents resource contention, port conflicts, or unintended interactions between parallel test executions, thereby improving the determinism and reproducibility of CI runs."
+            "summary": "This PR updates the build system to use `clang-cl` for native Windows builds of Bitcoin Core. Leveraging `clang-cl` offers potential improvements in build times, better diagnostics, and alignment with modern compiler features across platforms.",
+            "technical_summary": "The build configuration (likely CMake or Autotools) is adjusted to detect and utilize `clang-cl`, Clang's MSVC-compatible driver, as the C/C++ compiler when building natively on Windows. This involves setting appropriate compiler paths, flags, and library dependencies to ensure ABI compatibility with MSVC while benefiting from Clang's frontend capabilities. The change standardizes the compiler toolchain somewhat, aligning Windows builds more closely with Linux/macOS Clang-based compilation workflows."
           }
         ]
       }
@@ -764,75 +423,71 @@
   },
   "discussions": [
     {
-      "source": "Mailing List",
-      "subject": "[bitcoindev] Lichen: L2s In CHannels ENforced on bitcoin",
+      "source": "Delving",
+      "subject": "TCP hole punching for Bitcoin nodes behind home NATs?",
       "author": {
-        "username": "Adam Gibson",
-        "uuid": "can_adam_gibson"
+        "username": "0xB10C",
+        "uuid": "can_0xb10c"
       },
-      "link": "https://gnusha.org/pi/bitcoindev/9dd171c9-e4fa-4b4d-b0d6-33bc46e48b30n@googlegroups.com",
-      "message_count": 2,
-      "summary": "A new proposal aims to enhance Bitcoin's privacy and scalability by enabling trust-minimized Layer 2 solutions with a central hub. This could unlock new applications and more efficient transactions for users.",
-      "technical_summary": "The discussion centers on a proposal for trust-minimized Layer 2s using co-owned 2-of-2 contracts and a non-trusted hub. The current technical debate focuses on the cryptographic primitive Groth16, with concerns raised about its post-quantum vulnerability. Developers are questioning the responsibility of deploying such infrastructure now, necessitating a deeper evaluation of its long-term security and potential alternatives."
+      "link": "https://delvingbitcoin.org/t/tcp-hole-punching-for-bitcoin-nodes-behind-home-nats/2497/18",
+      "message_count": 7,
+      "summary": "Developers are exploring new methods to make more Bitcoin nodes easily discoverable and connectable, especially for home users, to enhance the network's decentralization and resilience. This aims to ensure a more robust and accessible Bitcoin network for everyone.",
+      "technical_summary": "The discussion revolves around a proposed NAT holepunching feature to improve node reachability, particularly for residential ISPs, with questions raised about its precise problem-solving utility. A key architectural debate focuses on mitigating Sybil attacks, where an attacker could flood the node with fake or real addresses/public keys to monopolize connection attempts. Careful design of an 'holepunch address manager' and robust rate-limiting are critical to prevent resource exhaustion and connection monopolization. The main downside identified is the risk of an attacker monopolizing connections, necessitating robust defense strategies."
     },
     {
       "source": "Delving",
-      "subject": "Disclosure: DoS vulnerabilities fixed in Eclair v0.14.1",
+      "subject": "What does \"post-quantum\" actually mean for a Bitcoin L2 when settlement still happens on a non-PQ L1?",
       "author": {
-        "username": "erick \u03bb",
-        "uuid": "auto_erick"
+        "username": "hal_03",
+        "uuid": "auto_hal_03"
       },
-      "link": "https://delvingbitcoin.org/t/disclosure-dos-vulnerabilities-fixed-in-eclair-v0-14-1/2928/2",
-      "message_count": 2,
-      "summary": "Eclair users should upgrade to v0.14.1 to protect against denial-of-service vulnerabilities. Mobile wallet users, like Phoenix, are already safe as their service providers patched their nodes months ago.",
-      "technical_summary": "Two denial-of-service vulnerabilities, including LNF-2026-0003 related to an `open_channel` race condition, were identified in Eclair's channel opening flow. Eclair users are advised to upgrade their nodes to v0.14.1 or later to mitigate these risks. However, users of mobile wallets that rely on an Eclair node as a Lightning Service Provider (LSP), such as Phoenix, are unaffected. This is because ACINQ, the operator of these LSPs, proactively patched their Eclair nodes several months prior to the public disclosure."
+      "link": "https://delvingbitcoin.org/t/what-does-post-quantum-actually-mean-for-a-bitcoin-l2-when-settlement-still-happens-on-a-non-pq-l1/2715/8",
+      "message_count": 4,
+      "summary": "We're discussing how to future-proof Bitcoin's fast, off-chain payment systems against quantum computer threats, ensuring their long-term security even as the main network evolves.",
+      "technical_summary": "The core technical debate revolves around the design and utility of Post-Quantum (PQ) resistant Layer 2 (L2) solutions, like state channels, that settle on Bitcoin's currently quantum-vulnerable Layer 1 (L1). The discussion clarifies that the focus is not on L2s operating with already broken L1 cryptography, but rather on future-proofing L2 components. This involves considering how L2s can adopt PQ schemes now, anticipating potential L1 upgrades or a gradual transition, and defining the 'bridge' mechanisms for secure interaction."
     },
     {
       "source": "Delving",
-      "subject": "Anchoring an SPV light client on another chain: checkpoint trust, retargeting and reorg handling",
+      "subject": "Bitcoin-rs: an independent Bitcoin node written in Rust",
       "author": {
-        "username": "sebasti\u00e1n salazar solano",
-        "uuid": "auto_sebasti_n_salazar_solano"
+        "username": "Gosunuts",
+        "uuid": "auto_gosunuts"
       },
-      "link": "https://delvingbitcoin.org/t/anchoring-an-spv-light-client-on-another-chain-checkpoint-trust-retargeting-and-reorg-handling/2939/1",
+      "link": "https://delvingbitcoin.org/t/bitcoin-rs-an-independent-bitcoin-full-node-written-in-rust/2918/2",
       "message_count": 2,
-      "summary": "A new lending protocol is under review, enabling Bitcoin holders to secure USDC loans while their BTC collateral remains safely on the Bitcoin blockchain. This innovation aims to provide Bitcoin users with liquidity by allowing them to leverage their assets without moving them off-chain.",
-      "technical_summary": "The Writz Protocol, an open-source lending platform, is seeking architectural critique for its Bitcoin-facing components. It proposes a unique cross-chain model where BTC collateral is held natively on the Bitcoin blockchain, while corresponding USDC loans are issued on the Stellar network. The core technical challenge lies in designing robust, secure, and verifiable Bitcoin scripts or mechanisms to manage the collateral's lifecycle, ensuring its state is accurately and trustlessly reflected for loan issuance, repayment, and liquidation processes on Stellar."
+      "summary": "A new, independent Bitcoin full node is being developed in Rust, aiming to improve performance and explore new architectural designs. This initiative could lead to a more robust and efficient Bitcoin network for all users.",
+      "technical_summary": "An early-stage project, `bitcoin-rs`, has been announced, proposing a new independent Bitcoin full node implementation written in Rust. Similar to `btcd`, its primary goal is to explore alternative architectural patterns and performance optimizations beyond the existing Bitcoin Core codebase. While currently just an initial share, the project implicitly opens a discussion on alternative architectural patterns and performance trade-offs compared to Bitcoin Core. Future technical review and collaboration will be essential to evaluate its potential impact on network decentralization and efficiency, and to identify specific areas for architectural innovation and debate."
     },
     {
-      "source": "Mailing List",
-      "subject": "[bitcoindev] RE BIP 300: 26% censoring attack",
+      "source": "Delving",
+      "subject": "Open-source Bitcoin multisig coordinator: shared signing queue, hardware wallets, live signet demo",
       "author": {
-        "username": "ori newman",
-        "uuid": "auto_ori_newman"
+        "username": "Thomas Clement",
+        "uuid": "auto_thomas_clement"
       },
-      "link": "https://gnusha.org/pi/bitcoindev/2e554c89-a2a1-4bcf-941c-32f6a8ba9567n@googlegroups.com",
-      "message_count": 1,
-      "summary": "Discussions are underway to address a potential vulnerability in BIP 300 (Drivechains) that could allow a minority attacker to censor sidechain transactions. The aim is to ensure the secure and reliable operation of future Bitcoin features and innovations.",
-      "technical_summary": "A critical vulnerability in BIP 300's bundle scoring mechanism has been identified, where a 26% attacker can indefinitely censor valid drivechain bundles. By consistently sending 'ALARM' messages, the attacker can reduce a bundle's score, preventing its inclusion. The core architectural debate revolves around the security implications of the current scoring and alarm system, necessitating a re-evaluation of how bundle validity and inclusion are determined to prevent censorship."
+      "link": "https://delvingbitcoin.org/t/open-source-bitcoin-multisig-coordinator-shared-signing-queue-hardware-wallets-live-signet-demo/2957/1",
+      "message_count": 2,
+      "summary": "A new open-source tool, btc-safe, simplifies secure Bitcoin multisig management, allowing multiple parties to easily coordinate and sign transactions from their own devices. It enhances fund security and user control through its self-hosted, watch-only design.",
+      "technical_summary": "btc-safe is an open-source, self-hosted watch-only Bitcoin multisig coordinator. Its architecture facilitates transaction proposal by one owner, queuing it for co-signers. Each co-signer independently signs from their device, ensuring key isolation, before the coordinator broadcasts the final transaction. This design prioritizes self-custody and streamlined multi-party signing without holding private keys."
     },
     {
-      "source": "Mailing List",
-      "subject": "Re: [bitcoindev] Flame: confidential transactions with Bitcoin\n proof-of-burn consensus",
+      "source": "Delving",
+      "subject": "IBD Booster -- Speeding up IBD with pre-generated hints (PoC)",
       "author": {
-        "username": "Oleg Andreev OOO",
-        "uuid": "auto_oleg_andreev_ooo"
+        "username": "Sebastian Falbesoner",
+        "uuid": "can_sebastian_falbesoner"
       },
-      "link": "https://gnusha.org/pi/bitcoindev/9517998B-3019-4ADE-B566-F30D42F33C37@gmail.com",
+      "link": "https://delvingbitcoin.org/t/swiftsync-speeding-up-ibd-with-pre-generated-hints-poc/1562/19",
       "message_count": 1,
-      "summary": "Developers are discussing a new way to expand Bitcoin's utility by creating 'SideCoins' on other networks. This involves a one-way conversion of Bitcoin, potentially unlocking new features and applications for users.",
-      "technical_summary": "The 'Flame' project is evaluating a 'one-way peg' mechanism, proposed by Ruben, for converting BTC into a 'SideCoin.' This architecture entails 'burning' BTC on the main chain to issue an equivalent amount of SideCoin, making the transfer irreversible. The current discussion, led by Oleg Andreev, is likely weighing the architectural implications, security models, and the 'pros' (e.g., simplicity, finality) and implied 'cons' (e.g., lack of reversibility, trust assumptions) of this specific pegging design compared to other sidechain solutions. Further debate is needed to fully articulate the trade-offs and determine the optimal design for Flame."
+      "summary": "Developers are actively working on significantly speeding up the Initial Block Download (IBD) process, making it much faster for new Bitcoin nodes to sync and verify the entire blockchain. This aims to improve the user experience by reducing the time it takes to get a fully validated node online.",
+      "technical_summary": "The discussion revolves around optimizing Initial Block Download (IBD) by reducing chainstate operations. RubenSomsen initially proposed using pre-generated hints for this purpose. A significant new development is Floresta's implementation of SwiftSync, which leverages 'implicit deletions for Utreexo'\u2014a technique for efficient UTXO set management\u2014as an alternative or complementary approach to accelerate IBD. This introduces a new architectural path, potentially leveraging accumulator-based solutions like Utreexo, for substantial speed improvements, requiring further evaluation and integration considerations within Bitcoin Core."
     }
   ],
   "shoutouts": {
     "new_contributors": [
       {
-        "username": "amannx21",
-        "uuid": "auto_aman21_droid"
-      },
-      {
-        "username": "jcastros",
-        "uuid": "auto_jehudi_castro_sierra"
+        "username": "yashspidey",
+        "uuid": "auto_yashspidey"
       }
     ],
     "top_authors": [
@@ -841,13 +496,6 @@
           "username": "maflcko",
           "uuid": "can_marcofalke"
         },
-        "count": 10
-      },
-      {
-        "user": {
-          "username": "ViniciusCestarii",
-          "uuid": "auto_vinicius_cestari"
-        },
         "count": 5
       },
       {
@@ -855,58 +503,65 @@
           "username": "fanquake",
           "uuid": "can_michael_ford"
         },
-        "count": 4
-      },
-      {
-        "user": {
-          "username": "brunoerg",
-          "uuid": "can_bruno_garcia"
-        },
         "count": 3
       },
       {
         "user": {
-          "username": "jeanpablojp",
-          "uuid": "auto_jean_pablo"
+          "username": "ViniciusCestarii",
+          "uuid": "auto_vinicius_cestari"
         },
         "count": 2
-      }
-    ],
-    "top_reviewers": [
-      {
-        "user": {
-          "username": "sedited",
-          "uuid": "auto_sebastian_kung"
-        },
-        "count": 68
-      },
-      {
-        "user": {
-          "username": "maflcko",
-          "uuid": "can_marcofalke"
-        },
-        "count": 34
-      },
-      {
-        "user": {
-          "username": "w0xlt",
-          "uuid": "auto_woltx"
-        },
-        "count": 25
       },
       {
         "user": {
           "username": "willcl-ark",
           "uuid": "auto_william_madden"
         },
-        "count": 23
+        "count": 2
       },
       {
         "user": {
-          "username": "l0rinc",
-          "uuid": "can_lorinc_pap"
+          "username": "davidgumberg",
+          "uuid": "can_vasil_dimov"
+        },
+        "count": 1
+      }
+    ],
+    "top_reviewers": [
+      {
+        "user": {
+          "username": "maflcko",
+          "uuid": "can_marcofalke"
+        },
+        "count": 63
+      },
+      {
+        "user": {
+          "username": "fanquake",
+          "uuid": "can_michael_ford"
         },
         "count": 20
+      },
+      {
+        "user": {
+          "username": "fametrano",
+          "uuid": "auto_ferdinando_m_ametrano"
+        },
+        "count": 19
+      },
+      {
+        "user": {
+          "username": "pinheadmz",
+          "uuid": "auto_matthew_zipkin"
+        },
+        "count": 19
+      },
+      {
+        "user": {
+          "username": "hebasto",
+          "uuid": "can_hennadii_stepanov"
+        },
+        "count": 16
       }
     ],
     "all_active": [
@@ -915,12 +570,8 @@
         "uuid": "can_0xb10c"
       },
       {
-        "username": "8144225309",
-        "uuid": "auto_8144225309"
-      },
-      {
-        "username": "aaron-leeb",
-        "uuid": "auto_aaron_leeb"
+        "username": "0xShadowX",
+        "uuid": "auto_0xshadowx"
       },
       {
         "username": "achow101",
@@ -935,10 +586,6 @@
         "uuid": "auto_alexander_wiederin"
       },
       {
-        "username": "amannx21",
-        "uuid": "auto_aman21_droid"
-      },
-      {
         "username": "andrewtoth",
         "uuid": "can_andrew_toth"
       },
@@ -947,36 +594,24 @@
         "uuid": "auto_andrew_poelstra"
       },
       {
-        "username": "arejula27",
-        "uuid": "auto_igo_ar_jula_a_sa"
+        "username": "bartoli",
+        "uuid": "auto_bartoli"
       },
       {
-        "username": "average-gary",
-        "uuid": "auto_average_gary"
+        "username": "benma",
+        "uuid": "auto_marko_bencun"
       },
       {
-        "username": "Ayoazeez26",
-        "uuid": "auto_ayoazeez26"
-      },
-      {
-        "username": "b-l-u-e",
-        "uuid": "auto_b_l_u_e"
-      },
-      {
-        "username": "benthecarman",
-        "uuid": "auto_ben_carman"
-      },
-      {
-        "username": "BenWestgate",
-        "uuid": "auto_ben_westgate"
-      },
-      {
-        "username": "BrandonOdiwuor",
-        "uuid": "auto_brandon_odiwuor"
+        "username": "Bicaru20",
+        "uuid": "auto_bicaru20"
       },
       {
         "username": "brunoerg",
         "uuid": "can_bruno_garcia"
+      },
+      {
+        "username": "Conradgabe",
+        "uuid": "auto_conradgabe"
       },
       {
         "username": "Crypt-iQ",
@@ -999,20 +634,16 @@
         "uuid": "can_vasil_dimov"
       },
       {
-        "username": "DevaanshPathak",
-        "uuid": "auto_devaanshpathak"
-      },
-      {
-        "username": "ekzyis",
-        "uuid": "auto_ekzyis"
-      },
-      {
         "username": "enirox001",
         "uuid": "auto_enoch_azariah"
       },
       {
         "username": "erickcestari",
         "uuid": "auto_erick"
+      },
+      {
+        "username": "Eunovo",
+        "uuid": "auto_oghenovo_usiwoma"
       },
       {
         "username": "fametrano",
@@ -1035,8 +666,8 @@
         "uuid": "auto_frankomosh"
       },
       {
-        "username": "Grace-Ujah",
-        "uuid": "auto_grace_ujah"
+        "username": "furszy",
+        "uuid": "auto_matias_furszyfer"
       },
       {
         "username": "Hamza1610",
@@ -1059,32 +690,32 @@
         "uuid": "can_abubakar_sadiq_ismail"
       },
       {
-        "username": "jcastros",
-        "uuid": "auto_jehudi_castro_sierra"
-      },
-      {
-        "username": "jeanpablojp",
-        "uuid": "auto_jean_pablo"
+        "username": "ja7ad",
+        "uuid": "auto_ja7ad"
       },
       {
         "username": "jpk68",
         "uuid": "auto_jpk68"
       },
       {
-        "username": "kevkevinpal",
-        "uuid": "can_vasil_dimov"
+        "username": "julianvanceblackwood",
+        "uuid": "auto_julianvanceblackwood"
       },
       {
-        "username": "koko1123",
-        "uuid": "auto_koko1123"
+        "username": "kravens",
+        "uuid": "auto_kravens"
       },
       {
-        "username": "kriss39",
-        "uuid": "auto_kriss39"
+        "username": "kwsantiago",
+        "uuid": "auto_kyle"
       },
       {
         "username": "l0rinc",
         "uuid": "can_lorinc_pap"
+      },
+      {
+        "username": "LarryRuane",
+        "uuid": "can_larry_ruane"
       },
       {
         "username": "macgyver13",
@@ -1095,12 +726,12 @@
         "uuid": "can_marcofalke"
       },
       {
-        "username": "marcofleon",
-        "uuid": "can_marcofalke"
-      },
-      {
         "username": "mercie-ux",
         "uuid": "auto_mercie_ux"
+      },
+      {
+        "username": "mllwchrry",
+        "uuid": "auto_mllwchrry"
       },
       {
         "username": "musaHaruna",
@@ -1111,16 +742,8 @@
         "uuid": "can_martin_zumsande"
       },
       {
-        "username": "Naomi-Gift",
-        "uuid": "auto_naomi_gift"
-      },
-      {
-        "username": "nebula-21",
-        "uuid": "auto_rogersala21"
-      },
-      {
-        "username": "nervana21",
-        "uuid": "auto_nervana21"
+        "username": "naiyoma",
+        "uuid": "auto_naiyoma"
       },
       {
         "username": "optout21",
@@ -1131,10 +754,6 @@
         "uuid": "auto_pablo_martin"
       },
       {
-        "username": "peterdettman",
-        "uuid": "auto_peterdettman"
-      },
-      {
         "username": "petertodd",
         "uuid": "can_peter_todd"
       },
@@ -1143,52 +762,40 @@
         "uuid": "auto_matthew_zipkin"
       },
       {
+        "username": "plebhash",
+        "uuid": "auto_plebhash"
+      },
+      {
         "username": "polespinasa",
         "uuid": "auto_pol_espinasa"
       },
       {
-        "username": "psychemist",
-        "uuid": "auto_psychemist"
+        "username": "pseudoramdom",
+        "uuid": "auto_pseudoramdom"
       },
       {
-        "username": "purpleKarrot",
-        "uuid": "auto_daniel_pfeifer"
-      },
-      {
-        "username": "pzafonte",
-        "uuid": "auto_peter_zafonte"
-      },
-      {
-        "username": "RandyMcMillan",
-        "uuid": "auto_randymcmillann"
+        "username": "real-or-random",
+        "uuid": "can_tim_ruffing"
       },
       {
         "username": "rkrux",
         "uuid": "auto_rkrux"
       },
       {
-        "username": "RobinLinus",
-        "uuid": "auto_robin_linus"
-      },
-      {
         "username": "rustaceanrob",
         "uuid": "auto_robert_netzke"
       },
       {
-        "username": "rxbryan",
-        "uuid": "auto_rxbryan"
+        "username": "ryanofsky",
+        "uuid": "can_russell_yanofsky"
       },
       {
-        "username": "schildbach",
-        "uuid": "can_andreas_schildbach"
+        "username": "saikiran57",
+        "uuid": "auto_sai_kiran_nadipilli"
       },
       {
         "username": "sedited",
         "uuid": "auto_sebastian_kung"
-      },
-      {
-        "username": "shuv-amp",
-        "uuid": "auto_shuvam_pandey"
       },
       {
         "username": "sipa",
@@ -1199,40 +806,24 @@
         "uuid": "can_sjors_provoost"
       },
       {
-        "username": "StephenChi-hi",
-        "uuid": "auto_stephenchi_hi"
-      },
-      {
         "username": "stickies-v",
         "uuid": "auto_stickies_v"
       },
       {
-        "username": "stratospher",
-        "uuid": "auto_stratospher"
-      },
-      {
-        "username": "stutxo",
-        "uuid": "auto_stutxo"
+        "username": "taki-abedesselam",
+        "uuid": "auto_taki_eddine"
       },
       {
         "username": "theStack",
         "uuid": "can_sebastian_falbesoner"
       },
       {
-        "username": "trakshan-mishra",
-        "uuid": "auto_trakshan_mishra"
-      },
-      {
-        "username": "treib-holdings",
-        "uuid": "auto_treib_holdings"
+        "username": "thomasbuilds",
+        "uuid": "auto_thomasbuilds"
       },
       {
         "username": "tumutech",
         "uuid": "auto_tumutech"
-      },
-      {
-        "username": "vasild",
-        "uuid": "can_vasil_dimov"
       },
       {
         "username": "vicjuma",
@@ -1255,8 +846,8 @@
         "uuid": "auto_winterrdog"
       },
       {
-        "username": "xyzconstant",
-        "uuid": "auto_xyzconstant"
+        "username": "yashspidey",
+        "uuid": "auto_yashspidey"
       },
       {
         "username": "Yudis-bit",

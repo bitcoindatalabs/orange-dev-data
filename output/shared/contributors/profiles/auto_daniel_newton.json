@@ -1,5 +1,5 @@
 {
-  "display_name": "daniel newton",
+  "display_name": "Daniel Newton",
   "github_login_final": "djpnewton",
   "delving_username_final": null,
   "uuid": "auto_daniel_newton",
@@ -65,11 +65,11 @@
     "L2"
   ],
   "expertise_by_source": {
-    "discussion": {
-      "L2": 1.0
-    },
     "code": {
       "Infrastructure": 1.0
+    },
+    "discussion": {
+      "L2": 1.0
     }
   },
   "expertise_domain_scores": {

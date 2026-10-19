@@ -1,5 +1,5 @@
 {
-  "display_name": "Enrique",
+  "display_name": "enrique",
   "github_login_final": null,
   "delving_username_final": "el_mcmurphy",
   "uuid": "auto_enrique",
@@ -67,15 +67,15 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Mempool": 0.246,
+      "L2": 0.246,
       "Privacy": 0.509,
-      "L2": 0.246
+      "Mempool": 0.246
     }
   },
   "expertise_domain_scores": {
-    "Mempool": 0.2458,
+    "L2": 0.2458,
     "Privacy": 0.5085,
-    "L2": 0.2458
+    "Mempool": 0.2458
   },
   "p2016_posts": 1.0,
   "modern_posts": 1.0,

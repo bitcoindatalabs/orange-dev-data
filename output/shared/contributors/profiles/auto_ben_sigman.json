@@ -1,5 +1,5 @@
 {
-  "display_name": "Ben Sigman",
+  "display_name": "ben sigman",
   "github_login_final": "bensig",
   "delving_username_final": null,
   "uuid": "auto_ben_sigman",
@@ -47,7 +47,7 @@
   "review_reciprocity": 22.5,
   "hybrid_score": 0.184,
   "p2016_hybrid_score": 0.1865,
-  "modern_hybrid_score": 0.1998,
+  "modern_hybrid_score": 0.1999,
   "impact_score": 10.0,
   "p2016_impact_score": 11.0,
   "modern_impact_score": 11.0,
@@ -65,11 +65,11 @@
     "Cryptography"
   ],
   "expertise_by_source": {
-    "discussion": {
-      "Cryptography": 1.0
-    },
     "code": {
       "Infrastructure": 1.0
+    },
+    "discussion": {
+      "Cryptography": 1.0
     }
   },
   "expertise_domain_scores": {

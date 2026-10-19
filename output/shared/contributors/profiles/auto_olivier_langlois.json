@@ -1,5 +1,5 @@
 {
-  "display_name": "Olivier Langlois",
+  "display_name": "olivier langlois",
   "github_login_final": "lano1106",
   "delving_username_final": null,
   "uuid": "auto_olivier_langlois",
@@ -66,12 +66,12 @@
     "Mining"
   ],
   "expertise_by_source": {
+    "code": {
+      "Infrastructure": 1.0
+    },
     "discussion": {
       "Mining": 0.5,
       "Mempool": 0.5
-    },
-    "code": {
-      "Infrastructure": 1.0
     }
   },
   "expertise_domain_scores": {

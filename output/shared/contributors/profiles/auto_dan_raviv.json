@@ -1,5 +1,5 @@
 {
-  "display_name": "dan raviv",
+  "display_name": "Dan Raviv",
   "github_login_final": "danra",
   "delving_username_final": null,
   "uuid": "auto_dan_raviv",
@@ -68,19 +68,19 @@
   "expertise_by_source": {
     "code": {
       "Infrastructure": 0.613,
-      "Network": 0.015,
       "Wallet": 0.015,
-      "Mempool": 0.078,
       "Consensus": 0.25,
+      "Network": 0.015,
+      "Mempool": 0.078,
       "Cryptography": 0.029
     }
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.613,
-    "Mempool": 0.078,
-    "Network": 0.015,
-    "Wallet": 0.015,
     "Consensus": 0.25,
+    "Mempool": 0.078,
+    "Wallet": 0.015,
+    "Network": 0.015,
     "Cryptography": 0.029
   },
   "p2016_posts": 0.0,

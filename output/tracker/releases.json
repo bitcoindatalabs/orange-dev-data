@@ -2,14 +2,16 @@
   {
     "version": "33.0",
     "status": "upcoming",
-    "last_active_date": "Oct 11, 2026",
+    "last_active_date": "Oct 16, 2026",
     "summary": "Release notes and changes for Bitcoin Core 33.0.",
-    "release_summary": "Bitcoin Core version 33.0 introduces several important enhancements aimed at improving node reliability, platform compatibility, and developer usability. Node operators will benefit from more robust P2P network connectivity and faster startup times, especially after temporary network disruptions. This release also standardizes the Windows build environment for greater stability and compatibility with modern systems. Additionally, developers will find the RPC interface more accessible through clearer and more comprehensive help documentation, streamlining interaction with Bitcoin Core.",
-    "total_prs_in_release": 7,
+    "release_summary": "Bitcoin Core version 33.0 focuses on enhancing the stability, usability, and developer experience of the network's foundational software. This release brings important updates for node operators, including improved compatibility for Windows users and more accurate initial setup information. Developers will find it easier to interact with Bitcoin Core's RPC interfaces, while underlying changes ensure more robust handling of complex transaction policies and streamlined mempool operations, contributing to overall network health and reliability.",
+    "total_prs_in_release": 24,
     "highlights": [
-      "**For Node Runners:** Bitcoin Core 33.0 significantly improves P2P network resilience by preserving anchor nodes even when the network interface is temporarily disabled, leading to faster reconnection and more reliable node operation.",
-      "**Core Stability:** Windows users will benefit from enhanced stability and compatibility as release binaries now utilize the Universal C Runtime (UCRT), standardizing the runtime environment for modern Windows systems.",
-      "**For Developers:** The RPC interface has been made more user-friendly with improved help output, making it easier for developers and advanced users to discover and correctly utilize Bitcoin Core's commands."
+      "**For Node Runners:** Windows binaries now utilize the Universal C Runtime (UCRT), enhancing compatibility and stability for users on modern Windows systems.",
+      "**For Developers:** Improvements to RPC command help output make it easier to discover and understand how to correctly use Bitcoin Core's programmatic interfaces.",
+      "**For Node Runners:** The initial disk space estimate for new nodes has been corrected, providing more accurate information for first-time setup.",
+      "**For Node Runners:** The deprecated `-persistmempoolv1` option has been removed, streamlining mempool persistence and ensuring all nodes use the most efficient format.",
+      "**Core Stability:** Transaction package weight calculations now use `int64_t` to prevent overflows, ensuring robust policy handling for very large transaction packages."
     ],
     "prs": [
       {
@@ -32,7 +34,7 @@
         "description": "rpc: help metadata fixes",
         "author": "RuslanProgrammer",
         "author_uuid": "auto_ruslan_kasheparov",
-        "author_name": "Ruslan Kasheparov",
+        "author_name": "ruslan kasheparov",
         "merge_time_days": 90,
         "review_count": 25,
         "categories": [
@@ -43,11 +45,26 @@
         "technical_summary": "This PR addresses inconsistencies and inaccuracies within the RPC help strings, specifically focusing on metadata associated with RPC commands. It likely involves updating `CRPCTable` entries or the documentation generation logic to reflect correct parameter types, descriptions, and examples, thereby improving the programmatic and human-readable interfaces for RPC clients."
       },
       {
+        "pr": "#35724",
+        "description": "cmpctblock: Improve logging of `cmpctblock` message reconstruction statistics [part of prefill series]",
+        "author": "davidgumberg",
+        "author_uuid": "can_vasil_dimov",
+        "author_name": "Vasil Dimov",
+        "merge_time_days": 93,
+        "review_count": 52,
+        "categories": [
+          "Ecosystem"
+        ],
+        "impact_category": "Network & Privacy",
+        "public_summary": "This PR enhances the logging for `cmpctblock` (compact block) message reconstruction, providing more detailed statistics. This helps developers better understand and debug the performance and efficiency of compact block relay.",
+        "technical_summary": "The logging mechanisms for `cmpctblock` message reconstruction are augmented to include more granular statistics. This involves capturing and reporting metrics such as the number of missing transactions, successful reconstructions, and elapsed times. These detailed logs are invaluable for diagnosing issues and optimizing the compact block relay protocol, which is crucial for efficient block propagation."
+      },
+      {
         "pr": "#35809",
         "description": "contrib: add deterministic fuzz coverage mode",
         "author": "HowHsu",
         "author_uuid": "auto_hao_xu",
-        "author_name": "Hao Xu",
+        "author_name": "hao xu",
         "merge_time_days": 59,
         "review_count": 28,
         "categories": [
@@ -71,11 +88,41 @@
         "impact_category": "Maintenance & Tech Debt",
         "public_summary": "Revert #36057 & document mingw-w64 requirement",
         "technical_summary": "Technical details pending."
+      },
+      {
+        "pr": "#36294",
+        "description": "mempool: Remove -persistmempoolv1 option",
+        "author": "fjahr",
+        "author_uuid": "can_fabian_jahr",
+        "author_name": "Fabian Jahr",
+        "merge_time_days": 25,
+        "review_count": 20,
+        "categories": [
+          "Mempool & Fees"
+        ],
+        "impact_category": "Maintenance & Tech Debt",
+        "public_summary": "This PR removes the deprecated `-persistmempoolv1` option, simplifying the mempool persistence mechanism. This ensures all nodes utilize the current, more efficient mempool persistence format, reducing code complexity and maintenance burden.",
+        "technical_summary": "The change involves deleting the command-line option parsing logic for `-persistmempoolv1` and removing the associated code paths responsible for loading and saving the mempool in the older v1 format. This effectively deprecates and removes support for the legacy persistence mechanism, forcing all nodes to use the current, presumably more robust and performant, mempool persistence format. This reduces the codebase's technical debt."
+      },
+      {
+        "pr": "#36535",
+        "description": "policy: sum package weight in int64_t",
+        "author": "fametrano",
+        "author_uuid": "auto_ferdinando_m_ametrano",
+        "author_name": "ferdinando m. ametrano",
+        "merge_time_days": 0,
+        "review_count": 7,
+        "categories": [
+          "Mempool & Fees"
+        ],
+        "impact_category": "Security & Consensus",
+        "public_summary": "This PR updates the transaction package weight calculation to use `int64_t`, preventing potential overflows for very large transaction packages. This ensures the correct and robust handling of transaction package policies.",
+        "technical_summary": "The data type used for summing transaction package weight is changed from a smaller integer type to `int64_t`. This modification prevents integer overflow issues that could arise with extremely large transaction packages, ensuring accurate weight calculations and correct application of mempool and relay policies, which are critical for network stability and transaction processing."
       }
     ],
     "milestone_progress": {
-      "open_prs": 12,
-      "closed_prs": 7
+      "open_prs": 10,
+      "closed_prs": 9
     }
   },
   {
@@ -83,14 +130,14 @@
     "status": "upcoming",
     "last_active_date": "Oct 10, 2026",
     "summary": "Release notes and changes for Bitcoin Core 32.0.",
-    "release_summary": "Bitcoin Core version 32.0 delivers significant advancements focused on enhancing user privacy, boosting node performance, and expanding wallet capabilities. This release introduces initial support for BIP352 Silent Payments and full implementation of BIP370 PSBTv2, offering users more sophisticated transaction construction and privacy options. Node operators will experience substantial performance optimizations, particularly during initial block download and transaction relay, alongside improved fee estimation to reduce overpayments. The update also strengthens wallet robustness and provides new RPCs for more granular key and descriptor management, ensuring a more reliable and feature-rich experience for all users.",
-    "total_prs_in_release": 675,
+    "release_summary": "Bitcoin Core 32.0 introduces a suite of enhancements that significantly advance transaction capabilities, bolster node performance, and refine the project's core architecture. Wallet developers gain powerful new tools for constructing complex transactions and managing HD keys, while node operators will experience faster initial block download and more efficient resource utilization. Crucially, this release streamlines the codebase by removing major external dependencies, laying a robust foundation for future protocol developments and privacy-centric features like Silent Payments.",
+    "total_prs_in_release": 677,
     "highlights": [
-      "**For Privacy Enthusiasts:** Initial support for BIP352 Silent Payments is integrated, laying the groundwork for a major privacy-enhancing feature that allows for reusable payment codes without revealing recipient addresses on-chain.",
-      "**For Wallet Developers & Advanced Users:** Full implementation of BIP370 PSBTv2 significantly enhances the flexibility and capabilities for constructing complex transactions, complemented by new RPCs for more granular key and descriptor management.",
-      "**For Node Operators:** Performance during initial block download (IBD) is significantly improved by fetching previous transaction outputs in parallel, and a new mempool-based fee estimation algorithm helps reduce transaction overpayments.",
-      "**For Node Operators:** Network resilience is enhanced with global transaction rate limits replacing per-peer limits, and critical internal dependencies like Libevent and Boost.Signals have been replaced with custom implementations, improving maintainability and security.",
-      "**Core Stability:** Robustness is increased through critical fixes for ancient wallet migration, preventing data loss for users upgrading from very old versions, and by enforcing stricter database integrity checks."
+      "**For Wallet Developers & Advanced Users:** Bitcoin Core now supports BIP 370 PSBTv2, significantly enhancing the flexibility for constructing complex transactions, complemented by new RPCs such as `addhdkey`, `derivehdkey`, and `importdescriptors` for more granular HD key and descriptor management.",
+      "**For Node Runners:** Initial block download (IBD) and block validation are significantly accelerated by fetching previous transaction outputs in parallel, while regular chainstate compaction helps manage disk space, and increased inbound capacity for block-relay connections improves block propagation efficiency.",
+      "**For Users & Node Operators:** A new mempool-based fee estimation algorithm has been introduced to reduce fee overestimation, helping users avoid unnecessarily high transaction fees, and global transaction rate limits enhance network resilience against transaction flooding attacks.",
+      "**Core Stability & Maintainability:** This release marks a major architectural shift with the complete removal of the `Libevent` networking library and the replacement of `Boost.Signals`, streamlining the codebase, reducing external dependencies, and improving long-term security and maintainability.",
+      "**Future Protocol & Privacy:** Foundational groundwork is laid for future protocol upgrades with support for BIP 434 peer feature negotiation, and significant progress is made on the implementation of BIP 352 for Silent Payments, a crucial step towards integrating this privacy-enhancing technology."
     ],
     "prs": [
       {
@@ -102,8 +149,8 @@
         "merge_time_days": 1896,
         "review_count": 346,
         "categories": [
-          "Core Infrastructure",
-          "Wallet & Keys"
+          "Wallet & Keys",
+          "Core Infrastructure"
         ],
         "impact_category": "Strategic Initiatives",
         "public_summary": "This PR introduces support for BIP 370, implementing PSBTv2, an upgraded version of Partially Signed Bitcoin Transactions. It significantly enhances the flexibility and capabilities for constructing complex transactions, making advanced use cases more accessible.",
@@ -223,8 +270,8 @@
         "merge_time_days": 981,
         "review_count": 253,
         "categories": [
-          "Core Infrastructure",
-          "Wallet & Keys"
+          "Wallet & Keys",
+          "Core Infrastructure"
         ],
         "impact_category": "Wallet & User Tools",
         "public_summary": "This PR introduces the `maxfeerate` wallet startup configuration option to Bitcoin Core. This acts as a safety limit to prevent the wallet from accidentally creating and signing transactions with excessively high fee rates.",
@@ -250,7 +297,7 @@
         "description": "CI: Add Riscv bare metal job",
         "author": "sedited",
         "author_uuid": "auto_sebastian_kung",
-        "author_name": "Sebastian Kung",
+        "author_name": "sebastian kung",
         "merge_time_days": 574,
         "review_count": 97,
         "categories": [
@@ -295,7 +342,7 @@
         "description": "contrib: Support re-writing linearize-data dumps",
         "author": "midnightmagic",
         "author_uuid": "auto_midnight_magic",
-        "author_name": "Midnight Magic",
+        "author_name": "midnight magic",
         "merge_time_days": 581,
         "review_count": 40,
         "categories": [
@@ -359,8 +406,8 @@
         "merge_time_days": 415,
         "review_count": 185,
         "categories": [
-          "Ecosystem",
-          "Wallet & Keys"
+          "Wallet & Keys",
+          "Ecosystem"
         ],
         "impact_category": "Wallet & User Tools",
         "public_summary": "This PR introduces a new RPC command, `exportwatchonlywallet`, allowing users to create a read-only copy of their wallet for monitoring purposes. This enhances user privacy and security by enabling watch-only setups without exposing private keys.",
@@ -555,8 +602,8 @@
         "merge_time_days": 242,
         "review_count": 80,
         "categories": [
-          "Core Infrastructure",
-          "Ecosystem"
+          "Ecosystem",
+          "Core Infrastructure"
         ],
         "impact_category": "Security & Consensus",
         "public_summary": "This PR introduces a new fuzzing harness specifically designed to test Bitcoin Core's compact block message processing logic. This helps identify vulnerabilities or bugs in the compact block implementation, significantly enhancing the network's resilience and security against malformed block propagation.",
@@ -612,7 +659,7 @@
         "description": "doc: update interface, --stdin flag, `signtx` (#31005)",
         "author": "cobratbq",
         "author_uuid": "auto_danny_van_heumen",
-        "author_name": "danny van heumen",
+        "author_name": "Danny van Heumen",
         "merge_time_days": 198,
         "review_count": 69,
         "categories": [
@@ -1107,7 +1154,7 @@
         "description": "node: allocate index caches proportional to usage patterns",
         "author": "svanstaa",
         "author_uuid": "auto_sebastian_van_staa",
-        "author_name": "sebastian van staa",
+        "author_name": "Sebastian van Staa",
         "merge_time_days": 110,
         "review_count": 42,
         "categories": [
@@ -1182,7 +1229,7 @@
         "description": "descriptor: fix musig() duplicate key checks and doubled PSBT origin paths",
         "author": "shuv-amp",
         "author_uuid": "auto_shuvam_pandey",
-        "author_name": "Shuvam Pandey",
+        "author_name": "shuvam pandey",
         "merge_time_days": 177,
         "review_count": 42,
         "categories": [
@@ -1212,7 +1259,7 @@
         "description": "p2p: remove m_getaddr_sent",
         "author": "naiyoma",
         "author_uuid": "auto_naiyoma",
-        "author_name": "naiyoma",
+        "author_name": "Naiyoma",
         "merge_time_days": 203,
         "review_count": 76,
         "categories": [
@@ -1257,7 +1304,7 @@
         "description": "rpc: replace ELISION references with explicit result fields",
         "author": "satsfy",
         "author_uuid": "auto_satsfy_renato_britto",
-        "author_name": "satsfy (renato britto)",
+        "author_name": "satsfy (Renato Britto)",
         "merge_time_days": 105,
         "review_count": 92,
         "categories": [
@@ -1407,7 +1454,7 @@
         "description": "kernel: expose btck_block_tree_entry_get_ancestor",
         "author": "pzafonte",
         "author_uuid": "auto_peter_zafonte",
-        "author_name": "peter zafonte",
+        "author_name": "Peter Zafonte",
         "merge_time_days": 33,
         "review_count": 25,
         "categories": [
@@ -1647,7 +1694,7 @@
         "description": "p2p: Don't participate in addr relay with feelers",
         "author": "danielabrozzoni",
         "author_uuid": "auto_daniela_brozzoni",
-        "author_name": "daniela brozzoni",
+        "author_name": "Daniela Brozzoni",
         "merge_time_days": 96,
         "review_count": 54,
         "categories": [
@@ -1797,7 +1844,7 @@
         "description": "kernel: align height parameters to int32_t in btck API",
         "author": "alexanderwiederin",
         "author_uuid": "auto_alexander_wiederin",
-        "author_name": "Alexander Wiederin",
+        "author_name": "alexander wiederin",
         "merge_time_days": 3,
         "review_count": 10,
         "categories": [
@@ -1977,7 +2024,7 @@
         "description": "Replace libevent with our own HTTP and socket-handling implementation",
         "author": "pinheadmz",
         "author_uuid": "auto_matthew_zipkin",
-        "author_name": "matthew zipkin",
+        "author_name": "Matthew Zipkin",
         "merge_time_days": 52,
         "review_count": 209,
         "categories": [
@@ -2176,8 +2223,8 @@
         "merge_time_days": 27,
         "review_count": 62,
         "categories": [
-          "Core Infrastructure",
-          "Ecosystem"
+          "Ecosystem",
+          "Core Infrastructure"
         ],
         "impact_category": "Maintenance & Tech Debt",
         "public_summary": "This PR ensures that RPC commands related to 'private broadcasting' will fail gracefully and informatively if the feature is not explicitly enabled. This improves RPC robustness and provides clear feedback to users attempting to use unavailable functionality.",
@@ -2338,7 +2385,7 @@
         "description": "blockstorage: Remove cs_LastBlockFile recursive mutex",
         "author": "sedited",
         "author_uuid": "auto_sebastian_kung",
-        "author_name": "Sebastian Kung",
+        "author_name": "sebastian kung",
         "merge_time_days": 17,
         "review_count": 26,
         "categories": [
@@ -2353,7 +2400,7 @@
         "description": "kernel: expose witness stack and scriptSig for btck_TransactionInput",
         "author": "pzafonte",
         "author_uuid": "auto_peter_zafonte",
-        "author_name": "peter zafonte",
+        "author_name": "Peter Zafonte",
         "merge_time_days": 48,
         "review_count": 54,
         "categories": [
@@ -2473,7 +2520,7 @@
         "description": "wallet: check descriptor cache xpub length before decoding",
         "author": "alhudz",
         "author_uuid": "auto_alhuda_khan",
-        "author_name": "Alhuda Khan",
+        "author_name": "alhuda khan",
         "merge_time_days": 113,
         "review_count": 62,
         "categories": [
@@ -2518,7 +2565,7 @@
         "description": "kernel: Add function for creating chainparams with a signet challenge",
         "author": "sedited",
         "author_uuid": "auto_sebastian_kung",
-        "author_name": "Sebastian Kung",
+        "author_name": "sebastian kung",
         "merge_time_days": 32,
         "review_count": 42,
         "categories": [
@@ -2533,7 +2580,7 @@
         "description": "fuzz: exercise the transaction-handling path in process_message(s)",
         "author": "HowHsu",
         "author_uuid": "auto_hao_xu",
-        "author_name": "Hao Xu",
+        "author_name": "hao xu",
         "merge_time_days": 60,
         "review_count": 103,
         "categories": [
@@ -2729,7 +2776,7 @@
         "description": "http: check rpcallowip immediately after accepting connection",
         "author": "pinheadmz",
         "author_uuid": "auto_matthew_zipkin",
-        "author_name": "matthew zipkin",
+        "author_name": "Matthew Zipkin",
         "merge_time_days": 38,
         "review_count": 37,
         "categories": [
@@ -2849,7 +2896,7 @@
         "description": "external_signer: validate fingerprint from enumerate response",
         "author": "kwsantiago",
         "author_uuid": "auto_kyle",
-        "author_name": "kyle \ud83d\udc06",
+        "author_name": "Kyle \ud83d\udc06",
         "merge_time_days": 12,
         "review_count": 20,
         "categories": [
@@ -2999,7 +3046,7 @@
         "description": "http: limit connected HTTPRemoteClients",
         "author": "pinheadmz",
         "author_uuid": "auto_matthew_zipkin",
-        "author_name": "matthew zipkin",
+        "author_name": "Matthew Zipkin",
         "merge_time_days": 39,
         "review_count": 91,
         "categories": [
@@ -3014,7 +3061,7 @@
         "description": "Add state to HTTPRequest",
         "author": "pinheadmz",
         "author_uuid": "auto_matthew_zipkin",
-        "author_name": "matthew zipkin",
+        "author_name": "Matthew Zipkin",
         "merge_time_days": 31,
         "review_count": 80,
         "categories": [
@@ -3089,7 +3136,7 @@
         "description": "net: Simplify `AddressPosition` comparitor",
         "author": "rustaceanrob",
         "author_uuid": "auto_robert_netzke",
-        "author_name": "robert netzke",
+        "author_name": "Robert Netzke",
         "merge_time_days": 0,
         "review_count": 14,
         "categories": [
@@ -3134,7 +3181,7 @@
         "description": "fees: Return false for incompatible fee estimates",
         "author": "HowHsu",
         "author_uuid": "auto_hao_xu",
-        "author_name": "Hao Xu",
+        "author_name": "hao xu",
         "merge_time_days": 9,
         "review_count": 23,
         "categories": [
@@ -3194,7 +3241,7 @@
         "description": "wallet: use unsigned KDF iteration count",
         "author": "benthecarman",
         "author_uuid": "auto_ben_carman",
-        "author_name": "Ben Carman",
+        "author_name": "ben carman",
         "merge_time_days": 18,
         "review_count": 35,
         "categories": [
@@ -3209,7 +3256,7 @@
         "description": "rpc, wallet: fix invalid JSON in HelpExampleRpc curl examples",
         "author": "GuTS805",
         "author_uuid": "auto_guts805",
-        "author_name": "guts805",
+        "author_name": "GuTS805",
         "merge_time_days": 26,
         "review_count": 41,
         "categories": [
@@ -3269,12 +3316,12 @@
         "description": "doc: use overwrite (>) instead of append (>>) for one-shot PSBT files in offline-signing-tutorial.md",
         "author": "GuTS805",
         "author_uuid": "auto_guts805",
-        "author_name": "guts805",
+        "author_name": "GuTS805",
         "merge_time_days": 50,
         "review_count": 14,
         "categories": [
-          "Core Infrastructure",
-          "Wallet & Keys"
+          "Wallet & Keys",
+          "Core Infrastructure"
         ],
         "impact_category": "Maintenance & Tech Debt",
         "public_summary": "This PR updates the offline signing tutorial documentation to correctly use the overwrite operator (>) instead of the append operator (>>) when creating one-shot PSBT files. This ensures users follow the correct procedure and avoid unintended file concatenations.",
@@ -3435,7 +3482,7 @@
         "description": "wallet: fix crash on importdescriptors with a range ending at 2^31-1",
         "author": "shuv-amp",
         "author_uuid": "auto_shuvam_pandey",
-        "author_name": "Shuvam Pandey",
+        "author_name": "shuvam pandey",
         "merge_time_days": 53,
         "review_count": 41,
         "categories": [
@@ -3465,7 +3512,7 @@
         "description": "psbt: avoid duplicate taproot leaf script keys when merging",
         "author": "shuv-amp",
         "author_uuid": "auto_shuvam_pandey",
-        "author_name": "Shuvam Pandey",
+        "author_name": "shuvam pandey",
         "merge_time_days": 5,
         "review_count": 29,
         "categories": [
@@ -3555,7 +3602,7 @@
         "description": "http: throttle per-connection reads while a request is in flight",
         "author": "pinheadmz",
         "author_uuid": "auto_matthew_zipkin",
-        "author_name": "matthew zipkin",
+        "author_name": "Matthew Zipkin",
         "merge_time_days": 5,
         "review_count": 51,
         "categories": [
@@ -3660,7 +3707,7 @@
         "description": "http: throttle send buffer when client stops draining",
         "author": "pinheadmz",
         "author_uuid": "auto_matthew_zipkin",
-        "author_name": "matthew zipkin",
+        "author_name": "Matthew Zipkin",
         "merge_time_days": 5,
         "review_count": 45,
         "categories": [
@@ -3675,7 +3722,7 @@
         "description": "wallet: avoid a crash when creating a wallet with -nosettings",
         "author": "Rob1Ham",
         "author_uuid": "auto_rob_hamilton",
-        "author_name": "rob hamilton",
+        "author_name": "Rob Hamilton",
         "merge_time_days": 2,
         "review_count": 19,
         "categories": [
@@ -3781,7 +3828,7 @@
         "description": "[32.x] Bump to 32.0rc1",
         "author": "sedited",
         "author_uuid": "auto_sebastian_kung",
-        "author_name": "Sebastian Kung",
+        "author_name": "sebastian kung",
         "merge_time_days": 0,
         "review_count": 34,
         "categories": [
@@ -3886,7 +3933,7 @@
         "description": "http: Log bytes received from client, use to replace receive-throttle regression test",
         "author": "pinheadmz",
         "author_uuid": "auto_matthew_zipkin",
-        "author_name": "matthew zipkin",
+        "author_name": "Matthew Zipkin",
         "merge_time_days": 15,
         "review_count": 42,
         "categories": [
@@ -4007,7 +4054,7 @@
         "description": "wallet: accept uppercase addresses without amount in sendall",
         "author": "FlashWayne",
         "author_uuid": "auto_flashwayne",
-        "author_name": "FlashWayne",
+        "author_name": "flashwayne",
         "merge_time_days": 1,
         "review_count": 13,
         "categories": [
@@ -4022,7 +4069,7 @@
         "description": "kernel: document that btck_WriteBytes may receive a null pointer",
         "author": "alexanderwiederin",
         "author_uuid": "auto_alexander_wiederin",
-        "author_name": "Alexander Wiederin",
+        "author_name": "alexander wiederin",
         "merge_time_days": 5,
         "review_count": 14,
         "categories": [
@@ -4052,7 +4099,7 @@
         "description": "wallet: show real fee_reason strings in help",
         "author": "jcastros",
         "author_uuid": "auto_jehudi_castro_sierra",
-        "author_name": "jehudi castro-sierra",
+        "author_name": "Jehudi Castro-Sierra",
         "merge_time_days": 3,
         "review_count": 8,
         "categories": [
@@ -4065,7 +4112,7 @@
     ],
     "milestone_progress": {
       "open_prs": 2,
-      "closed_prs": 127
+      "closed_prs": 129
     }
   },
   {
@@ -4370,7 +4417,7 @@
         "description": "Fix tiebreak when loading blocks from disk (and add tests for comparing chain ties)",
         "author": "sr-gi",
         "author_uuid": "auto_sergi_delgado_segura",
-        "author_name": "Sergi Delgado Segura",
+        "author_name": "sergi delgado segura",
         "merge_time_days": 593,
         "review_count": 99,
         "categories": [
@@ -4475,7 +4522,7 @@
         "description": "test: assumeutxo: add missing tests in wallet_assumeutxo.py",
         "author": "alfonsoromanz",
         "author_uuid": "auto_alfonso_roman_zubeldia",
-        "author_name": "alfonso roman zubeldia",
+        "author_name": "Alfonso Roman Zubeldia",
         "merge_time_days": 504,
         "review_count": 104,
         "categories": [
@@ -4490,7 +4537,7 @@
         "description": "kernel: Introduce C header API",
         "author": "sedited",
         "author_uuid": "auto_sebastian_kung",
-        "author_name": "Sebastian Kung",
+        "author_name": "sebastian kung",
         "merge_time_days": 455,
         "review_count": 550,
         "categories": [
@@ -4539,8 +4586,8 @@
         "merge_time_days": 364,
         "review_count": 84,
         "categories": [
-          "Core Infrastructure",
-          "Ecosystem"
+          "Ecosystem",
+          "Core Infrastructure"
         ],
         "impact_category": "Security & Consensus",
         "public_summary": "This PR introduces a new fuzzing target to test the block index tree and its associated validation logic. This helps identify subtle bugs and potential vulnerabilities in how Bitcoin Core manages and validates the blockchain structure.",
@@ -4630,8 +4677,8 @@
         "merge_time_days": 330,
         "review_count": 74,
         "categories": [
-          "Core Infrastructure",
-          "Wallet & Keys"
+          "Wallet & Keys",
+          "Core Infrastructure"
         ],
         "impact_category": "Wallet & User Tools",
         "public_summary": "This PR removes outdated and potentially confusing RPC commands (`settxfee`, `paytxfee`) from the wallet. This streamlines the interface, encouraging the use of more modern and robust fee control mechanisms.",
@@ -4689,7 +4736,7 @@
         "author_uuid": "can_lorinc_pap",
         "author_name": "Lorinc Pap",
         "merge_time_days": 177,
-        "review_count": 52,
+        "review_count": 66,
         "categories": [
           "Ecosystem"
         ],
@@ -4871,8 +4918,8 @@
         "merge_time_days": 296,
         "review_count": 60,
         "categories": [
-          "Core Infrastructure",
-          "Ecosystem"
+          "Ecosystem",
+          "Core Infrastructure"
         ],
         "impact_category": "Wallet & User Tools",
         "public_summary": "This PR adds a fuzzing target for the `MigrateToDescriptor` wallet function, improving the robustness and security of wallet upgrades. Fuzz testing helps uncover edge cases and potential vulnerabilities in the migration process.",
@@ -4913,7 +4960,7 @@
         "description": "refactor: Header sync optimisations & simplifications",
         "author": "danielabrozzoni",
         "author_uuid": "auto_daniela_brozzoni",
-        "author_name": "daniela brozzoni",
+        "author_name": "Daniela Brozzoni",
         "merge_time_days": 215,
         "review_count": 66,
         "categories": [
@@ -4988,7 +5035,7 @@
         "description": "index: handle case where pindex_prev equals chain tip in NextSyncBlock()",
         "author": "HowHsu",
         "author_uuid": "auto_hao_xu",
-        "author_name": "Hao Xu",
+        "author_name": "hao xu",
         "merge_time_days": 269,
         "review_count": 91,
         "categories": [
@@ -5003,7 +5050,7 @@
         "description": "index: remove unnecessary locator cleaning in BaseIndex::Init()",
         "author": "HowHsu",
         "author_uuid": "auto_hao_xu",
-        "author_name": "Hao Xu",
+        "author_name": "hao xu",
         "merge_time_days": 150,
         "review_count": 30,
         "categories": [
@@ -5213,7 +5260,7 @@
         "description": "build: Remove CMAKE_SKIP_BUILD_RPATH and SKIP_BUILD_RPATH settings",
         "author": "151henry151",
         "author_uuid": "auto_henry_romp",
-        "author_name": "henry romp",
+        "author_name": "Henry Romp",
         "merge_time_days": 85,
         "review_count": 116,
         "categories": [
@@ -5273,7 +5320,7 @@
         "description": "help: enrich help text for `-loadblock`",
         "author": "HowHsu",
         "author_uuid": "auto_hao_xu",
-        "author_name": "Hao Xu",
+        "author_name": "hao xu",
         "merge_time_days": 204,
         "review_count": 30,
         "categories": [
@@ -5288,7 +5335,7 @@
         "description": "contrib: Add bash completion for new bitcoin command",
         "author": "caesrcd",
         "author_uuid": "auto_caesarcoder",
-        "author_name": "caesarcoder",
+        "author_name": "CaesarCoder",
         "merge_time_days": 205,
         "review_count": 28,
         "categories": [
@@ -5517,8 +5564,8 @@
         "merge_time_days": 41,
         "review_count": 81,
         "categories": [
-          "Consensus",
-          "Mempool & Fees"
+          "Mempool & Fees",
+          "Consensus"
         ],
         "impact_category": "Strategic Initiatives",
         "public_summary": "This foundational PR introduces the 'Cluster mempool' feature, a significant architectural change to how Bitcoin Core manages unconfirmed transactions. It aims to improve transaction propagation, fee estimation, and overall mempool efficiency by grouping related transactions.",
@@ -5724,7 +5771,7 @@
         "description": "kernel: Use enumeration type for flags argument",
         "author": "TheCharlatan",
         "author_uuid": "auto_sebastian_kung",
-        "author_name": "Sebastian Kung",
+        "author_name": "sebastian kung",
         "merge_time_days": 0,
         "review_count": 7,
         "categories": [
@@ -5799,7 +5846,7 @@
         "description": "kernel: Allow null arguments for serialized data",
         "author": "TheCharlatan",
         "author_uuid": "auto_sebastian_kung",
-        "author_name": "Sebastian Kung",
+        "author_name": "sebastian kung",
         "merge_time_days": 1,
         "review_count": 16,
         "categories": [
@@ -5875,7 +5922,7 @@
         "description": "kernel: Expose reusable `PrecomputedTransactionData` in script validation",
         "author": "joshdoman",
         "author_uuid": "auto_josh_doman",
-        "author_name": "Josh Doman",
+        "author_name": "josh doman",
         "merge_time_days": 39,
         "review_count": 43,
         "categories": [
@@ -5905,7 +5952,7 @@
         "description": "net: Remove unused `local_socket_bytes` variable in `CConnman::GetAddresses()`",
         "author": "waketraindev",
         "author_uuid": "auto_waketraindev",
-        "author_name": "WakeTrainDev",
+        "author_name": "waketraindev",
         "merge_time_days": 0,
         "review_count": 7,
         "categories": [
@@ -5950,7 +5997,7 @@
         "description": "script: Add a separate ScriptError for empty pubkeys encountered in Tapscript",
         "author": "billymcbip",
         "author_uuid": "auto_billy_mcbip",
-        "author_name": "billy mcbip",
+        "author_name": "Billy McBip",
         "merge_time_days": 12,
         "review_count": 25,
         "categories": [
@@ -6119,8 +6166,8 @@
         "merge_time_days": 89,
         "review_count": 38,
         "categories": [
-          "Core Infrastructure",
-          "Wallet & Keys"
+          "Wallet & Keys",
+          "Core Infrastructure"
         ],
         "impact_category": "Wallet & User Tools",
         "public_summary": "This PR improves the documentation and understanding of how Bitcoin Core's wallet selects coins for transactions, specifically regarding filters that manage UTXO consolidation to protect user privacy. It helps users and developers better comprehend and utilize the privacy features of coin selection.",
@@ -6146,7 +6193,7 @@
         "description": "net processing: Add ibd check before processing block for txdownloadman",
         "author": "sedited",
         "author_uuid": "auto_sebastian_kung",
-        "author_name": "Sebastian Kung",
+        "author_name": "sebastian kung",
         "merge_time_days": 76,
         "review_count": 57,
         "categories": [
@@ -6161,7 +6208,7 @@
         "description": "Make `transaction_indentifier` hex string constructor evaluated at comptime",
         "author": "rustaceanrob",
         "author_uuid": "auto_robert_netzke",
-        "author_name": "robert netzke",
+        "author_name": "Robert Netzke",
         "merge_time_days": 5,
         "review_count": 26,
         "categories": [
@@ -6191,7 +6238,7 @@
         "description": "kernel: Remove non-kernel module includes",
         "author": "sedited",
         "author_uuid": "auto_sebastian_kung",
-        "author_name": "Sebastian Kung",
+        "author_name": "sebastian kung",
         "merge_time_days": 6,
         "review_count": 61,
         "categories": [
@@ -6270,8 +6317,8 @@
         "merge_time_days": 15,
         "review_count": 12,
         "categories": [
-          "Core Infrastructure",
-          "Wallet & Keys"
+          "Wallet & Keys",
+          "Core Infrastructure"
         ],
         "impact_category": "Wallet & User Tools",
         "public_summary": "This is a minor but important RPC API improvement that corrects the data type for the transaction version in the `sendall` command. It ensures the API is more accurate and consistent with the actual Bitcoin transaction data.",
@@ -6372,7 +6419,7 @@
         "description": "Add sedited to trusted-keys",
         "author": "sedited",
         "author_uuid": "auto_sebastian_kung",
-        "author_name": "Sebastian Kung",
+        "author_name": "sebastian kung",
         "merge_time_days": 0,
         "review_count": 41,
         "categories": [
@@ -6402,7 +6449,7 @@
         "description": "Prepare string and net utils for future HTTP operations",
         "author": "pinheadmz",
         "author_uuid": "auto_matthew_zipkin",
-        "author_name": "matthew zipkin",
+        "author_name": "Matthew Zipkin",
         "merge_time_days": 13,
         "review_count": 58,
         "categories": [
@@ -6568,7 +6615,7 @@
         "description": "util: Remove `FilterHeaderHasher`",
         "author": "rustaceanrob",
         "author_uuid": "auto_robert_netzke",
-        "author_name": "robert netzke",
+        "author_name": "Robert Netzke",
         "merge_time_days": 5,
         "review_count": 26,
         "categories": [
@@ -6662,8 +6709,8 @@
         "merge_time_days": 35,
         "review_count": 61,
         "categories": [
-          "Core Infrastructure",
-          "Ecosystem"
+          "Ecosystem",
+          "Core Infrastructure"
         ],
         "impact_category": "Maintenance & Tech Debt",
         "public_summary": "This PR improves the robustness of a specific network test by making it less dependent on the order in which connections are established. This makes the test more reliable and less prone to intermittent failures due to timing variations.",
@@ -6783,8 +6830,8 @@
         "merge_time_days": 0,
         "review_count": 16,
         "categories": [
-          "Core Infrastructure",
-          "Wallet & Keys"
+          "Wallet & Keys",
+          "Core Infrastructure"
         ],
         "impact_category": "Maintenance & Tech Debt",
         "public_summary": "This PR renames an internal wallet record type from `DELETE` to `DELETE_FLAG`. This clarifies its meaning, indicating a record is marked for deletion rather than immediately removed.",
@@ -6795,7 +6842,7 @@
         "description": "net: Don't log own ips during discover",
         "author": "sedited",
         "author_uuid": "auto_sebastian_kung",
-        "author_name": "Sebastian Kung",
+        "author_name": "sebastian kung",
         "merge_time_days": 55,
         "review_count": 22,
         "categories": [
@@ -6915,7 +6962,7 @@
         "description": "kernel: Avoid duplicating symbols in the kernel library",
         "author": "sedited",
         "author_uuid": "auto_sebastian_kung",
-        "author_name": "Sebastian Kung",
+        "author_name": "sebastian kung",
         "merge_time_days": 3,
         "review_count": 34,
         "categories": [
@@ -7171,7 +7218,7 @@
         "description": "validation: Explicitly move blocks to validation signals",
         "author": "sedited",
         "author_uuid": "auto_sebastian_kung",
-        "author_name": "Sebastian Kung",
+        "author_name": "sebastian kung",
         "merge_time_days": 18,
         "review_count": 50,
         "categories": [
@@ -7186,7 +7233,7 @@
         "description": "kernel: Use fs:: namespace and unicode path in kernel tests",
         "author": "sedited",
         "author_uuid": "auto_sebastian_kung",
-        "author_name": "Sebastian Kung",
+        "author_name": "sebastian kung",
         "merge_time_days": 8,
         "review_count": 21,
         "categories": [
@@ -7351,7 +7398,7 @@
         "description": "wallet: document importdescriptors error object fields",
         "author": "satsfy",
         "author_uuid": "auto_satsfy_renato_britto",
-        "author_name": "satsfy (renato britto)",
+        "author_name": "satsfy (Renato Britto)",
         "merge_time_days": 10,
         "review_count": 11,
         "categories": [
@@ -7366,7 +7413,7 @@
         "description": "net: fix premature stale flagging of unpicked private broadcast txs",
         "author": "Mccalabrese",
         "author_uuid": "auto_michael_calabrese",
-        "author_name": "michael calabrese",
+        "author_name": "Michael Calabrese",
         "merge_time_days": 14,
         "review_count": 69,
         "categories": [
@@ -7397,7 +7444,7 @@
         "description": "Update string and net utils for future HTTP operations",
         "author": "pinheadmz",
         "author_uuid": "auto_matthew_zipkin",
-        "author_name": "matthew zipkin",
+        "author_name": "Matthew Zipkin",
         "merge_time_days": 16,
         "review_count": 36,
         "categories": [
@@ -7457,7 +7504,7 @@
         "description": "kernel: Remove NONNULL annotation from destroy method",
         "author": "alexanderwiederin",
         "author_uuid": "auto_alexander_wiederin",
-        "author_name": "Alexander Wiederin",
+        "author_name": "alexander wiederin",
         "merge_time_days": 0,
         "review_count": 16,
         "categories": [
@@ -7598,7 +7645,7 @@
         "description": "wallet: rpc: manpage: fix example missing `fee_rate` argument",
         "author": "SomberNight",
         "author_uuid": "auto_sombernight",
-        "author_name": "SomberNight",
+        "author_name": "sombernight",
         "merge_time_days": 13,
         "review_count": 14,
         "categories": [
@@ -7847,7 +7894,7 @@
         "description": "chainparams: remove dnsseed.bitcoin.dashjr-list-of-p2p-nodes.us",
         "author": "SatsAndSports",
         "author_uuid": "auto_satsandsports",
-        "author_name": "satsandsports",
+        "author_name": "SatsAndSports",
         "merge_time_days": 37,
         "review_count": 148,
         "categories": [
@@ -7915,7 +7962,7 @@
         "author_uuid": "can_vasil_dimov",
         "author_name": "Vasil Dimov",
         "merge_time_days": 727,
-        "review_count": 115,
+        "review_count": 120,
         "categories": [
           "Core Infrastructure"
         ],
@@ -7958,7 +8005,7 @@
         "description": "wallet, rpc: add anti-fee-sniping to `send` and `sendall`",
         "author": "ishaanam",
         "author_uuid": "auto_ishaana_misra",
-        "author_name": "ishaana misra",
+        "author_name": "Ishaana Misra",
         "merge_time_days": 610,
         "review_count": 86,
         "categories": [
@@ -8052,8 +8099,8 @@
         "merge_time_days": 400,
         "review_count": 168,
         "categories": [
-          "Core Infrastructure",
-          "Wallet & Keys"
+          "Wallet & Keys",
+          "Core Infrastructure"
         ],
         "impact_category": "Wallet & User Tools",
         "public_summary": "This PR restores crucial support for external hardware signers on the Windows operating system. This is a significant enhancement for users on Windows who rely on hardware wallets for enhanced security.",
@@ -8064,7 +8111,7 @@
         "description": "RPC: Return `permitbaremultisig` and `maxdatacarriersize` in `getmempoolinfo`",
         "author": "kristapsk",
         "author_uuid": "auto_kristaps_kaupe",
-        "author_name": "kristaps kaupe",
+        "author_name": "Kristaps Kaupe",
         "merge_time_days": 459,
         "review_count": 75,
         "categories": [
@@ -8711,7 +8758,7 @@
         "description": "torcontrol: Limit reconnect timeout to max seconds and log delay in whole seconds",
         "author": "eval-exec",
         "author_uuid": "auto_eval_exec",
-        "author_name": "Eval Exec",
+        "author_name": "eval exec",
         "merge_time_days": 16,
         "review_count": 45,
         "categories": [
@@ -8835,8 +8882,8 @@
         "merge_time_days": 88,
         "review_count": 55,
         "categories": [
-          "Core Infrastructure",
-          "Wallet & Keys"
+          "Wallet & Keys",
+          "Core Infrastructure"
         ],
         "impact_category": "Maintenance & Tech Debt",
         "public_summary": "This PR fixes a wallet migration functional test on Windows, ensuring this important test runs correctly across different operating systems. This improves test coverage and reliability for wallet upgrades on Windows.",
@@ -8956,8 +9003,8 @@
         "merge_time_days": 0,
         "review_count": 15,
         "categories": [
-          "Core Infrastructure",
-          "Wallet & Keys"
+          "Wallet & Keys",
+          "Core Infrastructure"
         ],
         "impact_category": "Maintenance & Tech Debt",
         "public_summary": "This PR temporarily disables a specific benchmark related to wallet migration in the continuous integration (CI) system. This pause allows for addressing stability issues with the benchmark without blocking other development.",
@@ -8972,8 +9019,8 @@
         "merge_time_days": 3,
         "review_count": 55,
         "categories": [
-          "Core Infrastructure",
-          "Wallet & Keys"
+          "Wallet & Keys",
+          "Core Infrastructure"
         ],
         "impact_category": "Maintenance & Tech Debt",
         "public_summary": "This PR improves the accuracy and reliability of wallet migration benchmarks. By ensuring wallets are properly closed, it prevents resource leaks and interference with subsequent benchmark runs.",
@@ -9243,8 +9290,8 @@
         "merge_time_days": 55,
         "review_count": 50,
         "categories": [
-          "Core Infrastructure",
-          "Wallet & Keys"
+          "Wallet & Keys",
+          "Core Infrastructure"
         ],
         "impact_category": "Maintenance & Tech Debt",
         "public_summary": "This PR refactors how output types are described within the wallet and RPC interfaces, moving away from hardcoded values to a more robust `OUTPUT_TYPES` enum. This improves code maintainability and consistency for describing transaction outputs.",
@@ -9589,8 +9636,8 @@
         "merge_time_days": 18,
         "review_count": 32,
         "categories": [
-          "Core Infrastructure",
-          "Wallet & Keys"
+          "Wallet & Keys",
+          "Core Infrastructure"
         ],
         "impact_category": "Wallet & User Tools",
         "public_summary": "This PR fixes a bug where the wallet interface might incorrectly detect the encryption status of a wallet. It ensures that users can reliably interact with their encrypted wallets, improving security and usability.",
@@ -9916,7 +9963,7 @@
         "description": "rpc: use CScheduler for relocking wallet and remove RPCTimer",
         "author": "pinheadmz",
         "author_uuid": "auto_matthew_zipkin",
-        "author_name": "matthew zipkin",
+        "author_name": "Matthew Zipkin",
         "merge_time_days": 4,
         "review_count": 32,
         "categories": [
@@ -9931,7 +9978,7 @@
         "description": "index: fix wrong assert of current_tip == m_best_block_index",
         "author": "HowHsu",
         "author_uuid": "auto_hao_xu",
-        "author_name": "Hao Xu",
+        "author_name": "hao xu",
         "merge_time_days": 46,
         "review_count": 80,
         "categories": [
@@ -9946,12 +9993,12 @@
         "description": "wallet, rpc: add v3 transaction creation and wallet support",
         "author": "ishaanam",
         "author_uuid": "auto_ishaana_misra",
-        "author_name": "ishaana misra",
+        "author_name": "Ishaana Misra",
         "merge_time_days": 42,
         "review_count": 139,
         "categories": [
-          "Core Infrastructure",
-          "Wallet & Keys"
+          "Wallet & Keys",
+          "Core Infrastructure"
         ],
         "impact_category": "Strategic Initiatives",
         "public_summary": "This PR adds comprehensive support for creating and managing v3 transactions within Bitcoin Core's wallet and via its RPC interface. This enables users to utilize the benefits of v3 transactions, such as package relay, improving transaction efficiency.",
@@ -10114,7 +10161,7 @@
         "author_uuid": "can_anthony_towns",
         "author_name": "Anthony Towns",
         "merge_time_days": 82,
-        "review_count": 54,
+        "review_count": 70,
         "categories": [
           "Ecosystem"
         ],
@@ -10607,7 +10654,7 @@
         "description": "net: Add interrupt to pcp retry loop",
         "author": "sedited",
         "author_uuid": "auto_sebastian_kung",
-        "author_name": "Sebastian Kung",
+        "author_name": "sebastian kung",
         "merge_time_days": 0,
         "review_count": 23,
         "categories": [
@@ -10637,7 +10684,7 @@
         "description": "Remove unnecessary casts when calling socket operations",
         "author": "pinheadmz",
         "author_uuid": "auto_matthew_zipkin",
-        "author_name": "matthew zipkin",
+        "author_name": "Matthew Zipkin",
         "merge_time_days": 6,
         "review_count": 31,
         "categories": [
@@ -10772,9 +10819,9 @@
         "description": "docs: Undeprecate datacarrier and datacarriersize configuration options",
         "author": "bitschmidty",
         "author_uuid": "auto_mike_schmidt",
-        "author_name": "Mike Schmidt",
+        "author_name": "mike schmidt",
         "merge_time_days": 8,
-        "review_count": 117,
+        "review_count": 125,
         "categories": [
           "Core Infrastructure"
         ],
@@ -10991,8 +11038,8 @@
         "merge_time_days": 8,
         "review_count": 26,
         "categories": [
-          "Ecosystem",
-          "Wallet & Keys"
+          "Wallet & Keys",
+          "Ecosystem"
         ],
         "impact_category": "Maintenance & Tech Debt",
         "public_summary": "This PR resolves bugs that were introduced during a previous backport operation into the 29.x development series. It ensures intended fixes are properly integrated without introducing new regressions, maintaining the integrity of the 29.x branch.",
@@ -11375,7 +11422,7 @@
         "description": "rpc: Note in fundrawtransaction doc, fee rate is for package",
         "author": "benthecarman",
         "author_uuid": "auto_ben_carman",
-        "author_name": "Ben Carman",
+        "author_name": "ben carman",
         "merge_time_days": 11,
         "review_count": 40,
         "categories": [
@@ -11671,9 +11718,9 @@
         "merge_time_days": 1093,
         "review_count": 302,
         "categories": [
-          "Core Infrastructure",
+          "Script & Covenants",
           "Wallet & Keys",
-          "Script & Covenants"
+          "Core Infrastructure"
         ],
         "impact_category": "Wallet & User Tools",
         "public_summary": "This PR enhances Bitcoin Core's descriptor wallet functionality by allowing users to define both receiving and change addresses within a single descriptor string. This simplifies wallet configuration and management, making it easier to handle complex wallet setups.",
@@ -11759,7 +11806,7 @@
         "description": "include verbose \"reject-details\" field in testmempoolaccept response",
         "author": "pinheadmz",
         "author_uuid": "auto_matthew_zipkin",
-        "author_name": "matthew zipkin",
+        "author_name": "Matthew Zipkin",
         "merge_time_days": 531,
         "review_count": 91,
         "categories": [
@@ -11819,7 +11866,7 @@
         "description": "[refactor] Cleanup BlockAssembler mempool usage",
         "author": "TheCharlatan",
         "author_uuid": "auto_sebastian_kung",
-        "author_name": "Sebastian Kung",
+        "author_name": "sebastian kung",
         "merge_time_days": 370,
         "review_count": 40,
         "categories": [
@@ -11909,7 +11956,7 @@
         "description": "test: Add test for rpcwhitelistdefault",
         "author": "naiyoma",
         "author_uuid": "auto_naiyoma",
-        "author_name": "naiyoma",
+        "author_name": "Naiyoma",
         "merge_time_days": 309,
         "review_count": 74,
         "categories": [
@@ -12318,8 +12365,8 @@
         "merge_time_days": 32,
         "review_count": 85,
         "categories": [
-          "Core Infrastructure",
-          "Ecosystem"
+          "Ecosystem",
+          "Core Infrastructure"
         ],
         "impact_category": "Wallet & User Tools",
         "public_summary": "This PR introduces a new RPC command, `getorphantxs`, allowing users to inspect the node's current set of orphan transactions. This provides better visibility into the mempool's state and aids in debugging network propagation issues.",
@@ -12495,7 +12542,7 @@
         "description": "kernel: Move block tree db open to block manager",
         "author": "sedited",
         "author_uuid": "auto_sebastian_kung",
-        "author_name": "Sebastian Kung",
+        "author_name": "sebastian kung",
         "merge_time_days": 128,
         "review_count": 89,
         "categories": [
@@ -12826,7 +12873,7 @@
         "description": "rpc: Remove submitblock pre-checks",
         "author": "sedited",
         "author_uuid": "auto_sebastian_kung",
-        "author_name": "Sebastian Kung",
+        "author_name": "sebastian kung",
         "merge_time_days": 35,
         "review_count": 44,
         "categories": [
@@ -12976,7 +13023,7 @@
         "description": "validation: Remove RECENT_CONSENSUS_CHANGE validation result",
         "author": "TheCharlatan",
         "author_uuid": "auto_sebastian_kung",
-        "author_name": "Sebastian Kung",
+        "author_name": "sebastian kung",
         "merge_time_days": 2,
         "review_count": 20,
         "categories": [
@@ -13111,7 +13158,7 @@
         "description": "interpreter: Use the same type for SignatureHash in the definition",
         "author": "sedited",
         "author_uuid": "auto_sebastian_kung",
-        "author_name": "Sebastian Kung",
+        "author_name": "sebastian kung",
         "merge_time_days": 1,
         "review_count": 21,
         "categories": [
@@ -13261,7 +13308,7 @@
         "description": "kernel: Move kernel-related cache constants to kernel cache",
         "author": "sedited",
         "author_uuid": "auto_sebastian_kung",
-        "author_name": "Sebastian Kung",
+        "author_name": "sebastian kung",
         "merge_time_days": 35,
         "review_count": 151,
         "categories": [
@@ -13321,7 +13368,7 @@
         "description": "rpc: Add signet_challenge field to getblockchaininfo and getmininginfo",
         "author": "A-Manning",
         "author_uuid": "auto_ash_manning",
-        "author_name": "Ash Manning",
+        "author_name": "ash manning",
         "merge_time_days": 12,
         "review_count": 47,
         "categories": [
@@ -13506,8 +13553,8 @@
         "merge_time_days": 2,
         "review_count": 19,
         "categories": [
-          "Core Infrastructure",
-          "Wallet & Keys"
+          "Wallet & Keys",
+          "Core Infrastructure"
         ],
         "impact_category": "Maintenance & Tech Debt",
         "public_summary": "This PR ensures that important database tests are always built and run, even if Berkeley DB is not used. This improves test coverage and build consistency, making the testing infrastructure more reliable for all configurations.",
@@ -13564,7 +13611,7 @@
         "description": "test: Add expected result assertions",
         "author": "yancyribbens",
         "author_uuid": "auto_yancy_ribbens",
-        "author_name": "Yancy Ribbens",
+        "author_name": "yancy ribbens",
         "merge_time_days": 69,
         "review_count": 65,
         "categories": [
@@ -13729,7 +13776,7 @@
         "description": "logging: Ensure -debug=0/none behaves consistently with -nodebug",
         "author": "danielabrozzoni",
         "author_uuid": "auto_daniela_brozzoni",
-        "author_name": "daniela brozzoni",
+        "author_name": "Daniela Brozzoni",
         "merge_time_days": 13,
         "review_count": 35,
         "categories": [
@@ -13789,7 +13836,7 @@
         "description": "random: Check `GetRNDRRS` is supported in `InitHardwareRand` to avoid infinite loop",
         "author": "eval-exec",
         "author_uuid": "auto_eval_exec",
-        "author_name": "Eval Exec",
+        "author_name": "eval exec",
         "merge_time_days": 10,
         "review_count": 89,
         "categories": [
@@ -13943,8 +13990,8 @@
         "merge_time_days": 11,
         "review_count": 81,
         "categories": [
-          "Core Infrastructure",
-          "Ecosystem"
+          "Ecosystem",
+          "Core Infrastructure"
         ],
         "impact_category": "Network & Privacy",
         "public_summary": "This PR enhances Bitcoin Core's startup by gracefully handling situations where UPnP (Universal Plug and Play) support is unavailable or dropped. It improves the user experience by preventing potential stalls or unexpected behavior in network configuration.",
@@ -13955,7 +14002,7 @@
         "description": "doc: Add Clang/LLVM based coverage report generation",
         "author": "Prabhat1308",
         "author_uuid": "auto_prabhat_verma",
-        "author_name": "Prabhat Verma",
+        "author_name": "prabhat verma",
         "merge_time_days": 39,
         "review_count": 114,
         "categories": [
@@ -14140,8 +14187,8 @@
         "merge_time_days": 11,
         "review_count": 59,
         "categories": [
-          "Core Infrastructure",
-          "Script & Covenants"
+          "Script & Covenants",
+          "Core Infrastructure"
         ],
         "impact_category": "Maintenance & Tech Debt",
         "public_summary": "This PR significantly improves the documentation for the `asmap-tool`, providing clearer instructions and explanations for its commands. Better documentation helps users and network operators more effectively utilize this tool to improve P2P network privacy and resilience.",
@@ -14227,7 +14274,7 @@
         "description": "torcontrol: Define tor reply code as const to improve our maintainability",
         "author": "eval-exec",
         "author_uuid": "auto_eval_exec",
-        "author_name": "Eval Exec",
+        "author_name": "eval exec",
         "merge_time_days": 2,
         "review_count": 43,
         "categories": [
@@ -14276,8 +14323,8 @@
         "merge_time_days": 8,
         "review_count": 59,
         "categories": [
-          "Core Infrastructure",
-          "Ecosystem"
+          "Ecosystem",
+          "Core Infrastructure"
         ],
         "impact_category": "Maintenance & Tech Debt",
         "public_summary": "This PR improves the reliability of a fuzz test related to initial P2P header synchronization. It ensures that testing for network startup behavior is more consistent, making it easier to identify potential issues.",
@@ -14307,8 +14354,8 @@
         "merge_time_days": 5,
         "review_count": 29,
         "categories": [
-          "Core Infrastructure",
-          "Wallet & Keys"
+          "Wallet & Keys",
+          "Core Infrastructure"
         ],
         "impact_category": "Maintenance & Tech Debt",
         "public_summary": "This PR removes an outdated and unstable wallet test from Bitcoin Core's test suite. Eliminating this unreliable test helps streamline development and maintain a robust, efficient testing environment.",
@@ -14372,8 +14419,8 @@
         "merge_time_days": 258,
         "review_count": 54,
         "categories": [
-          "Core Infrastructure",
-          "Wallet & Keys"
+          "Wallet & Keys",
+          "Core Infrastructure"
         ],
         "impact_category": "Maintenance & Tech Debt",
         "public_summary": "This PR significantly enhances the internal tools used for testing and analyzing Berkeley DB (BDB) data files. It allows developers to more robustly inspect and understand BDB files, crucial for wallet debugging and maintenance.",
@@ -14599,8 +14646,8 @@
         "merge_time_days": 803,
         "review_count": 91,
         "categories": [
-          "Core Infrastructure",
           "Wallet & Keys",
+          "Core Infrastructure",
           "Ecosystem"
         ],
         "impact_category": "Wallet & User Tools",
@@ -14705,7 +14752,7 @@
         "author_uuid": "auto_pablo_martin",
         "author_name": "Pablo Martin",
         "merge_time_days": 599,
-        "review_count": 186,
+        "review_count": 191,
         "categories": [
           "Script & Covenants"
         ],
@@ -14733,7 +14780,7 @@
         "description": "system: use %LOCALAPPDATA% as default datadir on windows",
         "author": "pinheadmz",
         "author_uuid": "auto_matthew_zipkin",
-        "author_name": "matthew zipkin",
+        "author_name": "Matthew Zipkin",
         "merge_time_days": 469,
         "review_count": 49,
         "categories": [
@@ -14748,7 +14795,7 @@
         "description": "Support JSON-RPC 2.0 when requested by client",
         "author": "pinheadmz",
         "author_uuid": "auto_matthew_zipkin",
-        "author_name": "matthew zipkin",
+        "author_name": "Matthew Zipkin",
         "merge_time_days": 456,
         "review_count": 181,
         "categories": [
@@ -14763,7 +14810,7 @@
         "description": "ZMQ: Support UNIX domain sockets",
         "author": "pinheadmz",
         "author_uuid": "auto_matthew_zipkin",
-        "author_name": "matthew zipkin",
+        "author_name": "Matthew Zipkin",
         "merge_time_days": 341,
         "review_count": 55,
         "categories": [
@@ -14793,7 +14840,7 @@
         "description": "p2p: gives seednode priority over dnsseed if both are provided",
         "author": "sr-gi",
         "author_uuid": "auto_sergi_delgado_segura",
-        "author_name": "Sergi Delgado Segura",
+        "author_name": "sergi delgado segura",
         "merge_time_days": 305,
         "review_count": 91,
         "categories": [
@@ -15048,7 +15095,7 @@
         "description": "[refactor] Check CTxMemPool options in ctor",
         "author": "TheCharlatan",
         "author_uuid": "auto_sebastian_kung",
-        "author_name": "Sebastian Kung",
+        "author_name": "sebastian kung",
         "merge_time_days": 215,
         "review_count": 86,
         "categories": [
@@ -15063,7 +15110,7 @@
         "description": "net: attempts to connect to all resolved addresses when connecting to a node",
         "author": "sr-gi",
         "author_uuid": "auto_sergi_delgado_segura",
-        "author_name": "Sergi Delgado Segura",
+        "author_name": "sergi delgado segura",
         "merge_time_days": 168,
         "review_count": 85,
         "categories": [
@@ -15097,8 +15144,8 @@
         "merge_time_days": 238,
         "review_count": 43,
         "categories": [
-          "Core Infrastructure",
           "Wallet & Keys",
+          "Core Infrastructure",
           "Ecosystem"
         ],
         "impact_category": "Performance & Optimization",
@@ -15125,7 +15172,7 @@
         "description": "kernel: Remove dependency on CScheduler",
         "author": "TheCharlatan",
         "author_uuid": "auto_sebastian_kung",
-        "author_name": "Sebastian Kung",
+        "author_name": "sebastian kung",
         "merge_time_days": 101,
         "review_count": 156,
         "categories": [
@@ -15155,7 +15202,7 @@
         "description": "wallet, rpc: document and update `sendall` behavior around unconfirmed inputs",
         "author": "ishaanam",
         "author_uuid": "auto_ishaana_misra",
-        "author_name": "ishaana misra",
+        "author_name": "Ishaana Misra",
         "merge_time_days": 186,
         "review_count": 44,
         "categories": [
@@ -15230,7 +15277,7 @@
         "description": "test: adds outbound eviction functional tests, updates comment in ConsiderEviction",
         "author": "sr-gi",
         "author_uuid": "auto_sergi_delgado_segura",
-        "author_name": "Sergi Delgado Segura",
+        "author_name": "sergi delgado segura",
         "merge_time_days": 141,
         "review_count": 174,
         "categories": [
@@ -15275,7 +15322,7 @@
         "description": "kernel: Remove key module from kernel library",
         "author": "TheCharlatan",
         "author_uuid": "auto_sebastian_kung",
-        "author_name": "Sebastian Kung",
+        "author_name": "sebastian kung",
         "merge_time_days": 115,
         "review_count": 52,
         "categories": [
@@ -15350,7 +15397,7 @@
         "description": "test: Handle functional test disk-full error",
         "author": "BrandonOdiwuor",
         "author_uuid": "auto_brandon_odiwuor",
-        "author_name": "Brandon Odiwuor",
+        "author_name": "brandon odiwuor",
         "merge_time_days": 101,
         "review_count": 123,
         "categories": [
@@ -15380,7 +15427,7 @@
         "description": "test: Assumeutxo: snapshots with less work should not be loaded",
         "author": "hernanmarino",
         "author_uuid": "auto_hernan_marino",
-        "author_name": "hernan marino",
+        "author_name": "Hernan Marino",
         "merge_time_days": 112,
         "review_count": 55,
         "categories": [
@@ -15530,7 +15577,7 @@
         "description": "test: update satoshi_round function",
         "author": "naiyoma",
         "author_uuid": "auto_naiyoma",
-        "author_name": "naiyoma",
+        "author_name": "Naiyoma",
         "merge_time_days": 183,
         "review_count": 68,
         "categories": [
@@ -15560,7 +15607,7 @@
         "description": "net: Favor peers from addrman over fetching seednodes",
         "author": "sr-gi",
         "author_uuid": "auto_sergi_delgado_segura",
-        "author_name": "Sergi Delgado Segura",
+        "author_name": "sergi delgado segura",
         "merge_time_days": 179,
         "review_count": 82,
         "categories": [
@@ -15725,7 +15772,7 @@
         "description": "test: Extends wait_for_getheaders so a specific block hash can be checked",
         "author": "sr-gi",
         "author_uuid": "auto_sergi_delgado_segura",
-        "author_name": "Sergi Delgado Segura",
+        "author_name": "sergi delgado segura",
         "merge_time_days": 30,
         "review_count": 71,
         "categories": [
@@ -15830,7 +15877,7 @@
         "description": "kernel: De-globalize fReindex",
         "author": "TheCharlatan",
         "author_uuid": "auto_sebastian_kung",
-        "author_name": "Sebastian Kung",
+        "author_name": "sebastian kung",
         "merge_time_days": 41,
         "review_count": 35,
         "categories": [
@@ -15965,7 +16012,7 @@
         "description": "netbase: clean up Proxy logging",
         "author": "pinheadmz",
         "author_uuid": "auto_matthew_zipkin",
-        "author_name": "matthew zipkin",
+        "author_name": "Matthew Zipkin",
         "merge_time_days": 8,
         "review_count": 12,
         "categories": [
@@ -16000,8 +16047,8 @@
         "merge_time_days": 7,
         "review_count": 131,
         "categories": [
-          "Core Infrastructure",
-          "Wallet & Keys"
+          "Wallet & Keys",
+          "Core Infrastructure"
         ],
         "impact_category": "Maintenance & Tech Debt",
         "public_summary": "This PR refactors our codebase to utilize an internal, custom implementation for URL decoding, replacing an external dependency. This improves code ownership, reduces reliance on third-party libraries, and offers greater control for Bitcoin-specific optimizations.",
@@ -16058,7 +16105,7 @@
         "description": "Assumeutxo: bugfix on loadtxoutset with a divergent chain + test",
         "author": "alfonsoromanz",
         "author_uuid": "auto_alfonso_roman_zubeldia",
-        "author_name": "alfonso roman zubeldia",
+        "author_name": "Alfonso Roman Zubeldia",
         "merge_time_days": 72,
         "review_count": 60,
         "categories": [
@@ -16268,7 +16315,7 @@
         "description": "init: fixes file descriptor accounting",
         "author": "sr-gi",
         "author_uuid": "auto_sergi_delgado_segura",
-        "author_name": "Sergi Delgado Segura",
+        "author_name": "sergi delgado segura",
         "merge_time_days": 124,
         "review_count": 57,
         "categories": [
@@ -16299,7 +16346,7 @@
         "description": "kernel: Remove batchpriority from kernel library",
         "author": "TheCharlatan",
         "author_uuid": "auto_sebastian_kung",
-        "author_name": "Sebastian Kung",
+        "author_name": "sebastian kung",
         "merge_time_days": 3,
         "review_count": 21,
         "categories": [
@@ -16393,8 +16440,8 @@
         "merge_time_days": 4,
         "review_count": 16,
         "categories": [
-          "Core Infrastructure",
-          "Wallet & Keys"
+          "Wallet & Keys",
+          "Core Infrastructure"
         ],
         "impact_category": "Maintenance & Tech Debt",
         "public_summary": "This PR addresses a compiler warning in wallet test utilities by preventing potential buffer overflows when generating public keys. It improves the robustness and safety of the test suite.",
@@ -16405,7 +16452,7 @@
         "description": "indexes: Don't wipe indexes again when continuing a prior reindex",
         "author": "TheCharlatan",
         "author_uuid": "auto_sebastian_kung",
-        "author_name": "Sebastian Kung",
+        "author_name": "sebastian kung",
         "merge_time_days": 23,
         "review_count": 69,
         "categories": [
@@ -16420,7 +16467,7 @@
         "description": "kernel: De-globalize validation caches",
         "author": "TheCharlatan",
         "author_uuid": "auto_sebastian_kung",
-        "author_name": "Sebastian Kung",
+        "author_name": "sebastian kung",
         "merge_time_days": 50,
         "review_count": 129,
         "categories": [
@@ -16465,7 +16512,7 @@
         "description": "cli: restrict multiple exclusive argument usage in bitcoin-cli",
         "author": "naiyoma",
         "author_uuid": "auto_naiyoma",
-        "author_name": "naiyoma",
+        "author_name": "Naiyoma",
         "merge_time_days": 105,
         "review_count": 44,
         "categories": [
@@ -16514,8 +16561,8 @@
         "merge_time_days": 25,
         "review_count": 80,
         "categories": [
-          "Core Infrastructure",
-          "Ecosystem"
+          "Ecosystem",
+          "Core Infrastructure"
         ],
         "impact_category": "Strategic Initiatives",
         "public_summary": "This PR introduces a new, modular Mining Interface, separating mining-specific logic from the core node and significantly improving the overall architecture. This is a foundational step towards more flexible and efficient block template generation and future mining-related developments.",
@@ -16815,8 +16862,8 @@
         "merge_time_days": 13,
         "review_count": 22,
         "categories": [
-          "Core Infrastructure",
-          "Wallet & Keys"
+          "Wallet & Keys",
+          "Core Infrastructure"
         ],
         "impact_category": "Maintenance & Tech Debt",
         "public_summary": "This PR fixes an inconsistency in a test related to `fundrawtransaction`'s transaction weight limits. It ensures the test accurately reflects the expected behavior for transaction size constraints, improving test reliability.",
@@ -16857,12 +16904,12 @@
         "description": "#27307 follow-up: update mempool conflict tests + docs",
         "author": "ishaanam",
         "author_uuid": "auto_ishaana_misra",
-        "author_name": "ishaana misra",
+        "author_name": "Ishaana Misra",
         "merge_time_days": 2,
         "review_count": 16,
         "categories": [
-          "Core Infrastructure",
-          "Wallet & Keys"
+          "Wallet & Keys",
+          "Core Infrastructure"
         ],
         "impact_category": "Maintenance & Tech Debt",
         "public_summary": "This PR is a follow-up to a previous change, updating tests and documentation related to mempool transaction conflicts. It ensures our mempool logic is thoroughly tested and clearly documented, particularly regarding how conflicting transactions are handled.",
@@ -16918,7 +16965,7 @@
         "description": "validation: Check if mempool exists before size check in ActivateSnapshot",
         "author": "TheCharlatan",
         "author_uuid": "auto_sebastian_kung",
-        "author_name": "Sebastian Kung",
+        "author_name": "sebastian kung",
         "merge_time_days": 0,
         "review_count": 18,
         "categories": [
@@ -17053,7 +17100,7 @@
         "description": "kernel: De-globalize static validation variables",
         "author": "TheCharlatan",
         "author_uuid": "auto_sebastian_kung",
-        "author_name": "Sebastian Kung",
+        "author_name": "sebastian kung",
         "merge_time_days": 5,
         "review_count": 10,
         "categories": [
@@ -17233,7 +17280,7 @@
         "description": "kernel: Only setup kernel context globals once",
         "author": "TheCharlatan",
         "author_uuid": "auto_sebastian_kung",
-        "author_name": "Sebastian Kung",
+        "author_name": "sebastian kung",
         "merge_time_days": 3,
         "review_count": 25,
         "categories": [
@@ -17534,7 +17581,7 @@
         "description": "kernel: Use spans instead of vectors for passing block headers to validation functions",
         "author": "TheCharlatan",
         "author_uuid": "auto_sebastian_kung",
-        "author_name": "Sebastian Kung",
+        "author_name": "sebastian kung",
         "merge_time_days": 6,
         "review_count": 52,
         "categories": [
@@ -17595,7 +17642,7 @@
         "description": "kernel: Create usable static kernel library",
         "author": "TheCharlatan",
         "author_uuid": "auto_sebastian_kung",
-        "author_name": "Sebastian Kung",
+        "author_name": "sebastian kung",
         "merge_time_days": 8,
         "review_count": 39,
         "categories": [
@@ -17685,7 +17732,7 @@
         "description": "kernel: Move background load thread to node context",
         "author": "TheCharlatan",
         "author_uuid": "auto_sebastian_kung",
-        "author_name": "Sebastian Kung",
+        "author_name": "sebastian kung",
         "merge_time_days": 0,
         "review_count": 18,
         "categories": [
@@ -17715,7 +17762,7 @@
         "description": "init: Remove retry for loop",
         "author": "TheCharlatan",
         "author_uuid": "auto_sebastian_kung",
-        "author_name": "Sebastian Kung",
+        "author_name": "sebastian kung",
         "merge_time_days": 5,
         "review_count": 30,
         "categories": [
@@ -18008,8 +18055,8 @@
         "merge_time_days": 555,
         "review_count": 126,
         "categories": [
-          "Core Infrastructure",
-          "Wallet & Keys"
+          "Wallet & Keys",
+          "Core Infrastructure"
         ],
         "impact_category": "Wallet & User Tools",
         "public_summary": "This PR significantly enhances transaction creation flexibility by allowing users to specify locktime and input sequence numbers. It enables the creation of more complex, custom transactions directly from the Bitcoin Core wallet.",
@@ -18095,7 +18142,7 @@
         "description": "blockstorage: do not flush block to disk if it is already there",
         "author": "pinheadmz",
         "author_uuid": "auto_matthew_zipkin",
-        "author_name": "matthew zipkin",
+        "author_name": "Matthew Zipkin",
         "merge_time_days": 410,
         "review_count": 182,
         "categories": [
@@ -18125,7 +18172,7 @@
         "description": "wallet: track mempool conflicts with wallet transactions",
         "author": "ishaanam",
         "author_uuid": "auto_ishaana_misra",
-        "author_name": "ishaana misra",
+        "author_name": "Ishaana Misra",
         "merge_time_days": 370,
         "review_count": 118,
         "categories": [
@@ -18140,7 +18187,7 @@
         "description": "net: support unix domain sockets for -proxy and -onion",
         "author": "pinheadmz",
         "author_uuid": "auto_matthew_zipkin",
-        "author_name": "matthew zipkin",
+        "author_name": "Matthew Zipkin",
         "merge_time_days": 348,
         "review_count": 192,
         "categories": [
@@ -18684,8 +18731,8 @@
         "merge_time_days": 61,
         "review_count": 36,
         "categories": [
-          "Core Infrastructure",
-          "Wallet & Keys"
+          "Wallet & Keys",
+          "Core Infrastructure"
         ],
         "impact_category": "Wallet & User Tools",
         "public_summary": "This PR fixes a bug affecting the migration process of newly created or empty wallets. This ensures that all wallet types, including those without initial data, can be migrated smoothly and without error.",
@@ -18955,8 +19002,8 @@
         "merge_time_days": 15,
         "review_count": 34,
         "categories": [
-          "Core Infrastructure",
-          "Wallet & Keys"
+          "Wallet & Keys",
+          "Core Infrastructure"
         ],
         "impact_category": "Maintenance & Tech Debt",
         "public_summary": "This PR enhances the robustness of the Bitcoin Core wallet by preventing potential database transaction issues that could lead to data corruption. It ensures the integrity of wallet data, especially during operations involving temporary database changes.",
@@ -19148,7 +19195,7 @@
         "description": "test, assumeutxo: Add test to ensure failure when mempool not empty",
         "author": "hernanmarino",
         "author_uuid": "auto_hernan_marino",
-        "author_name": "hernan marino",
+        "author_name": "Hernan Marino",
         "merge_time_days": 6,
         "review_count": 34,
         "categories": [
@@ -19313,7 +19360,7 @@
         "description": "validation: Make translations of fatal errors consistent",
         "author": "TheCharlatan",
         "author_uuid": "auto_sebastian_kung",
-        "author_name": "Sebastian Kung",
+        "author_name": "sebastian kung",
         "merge_time_days": 4,
         "review_count": 37,
         "categories": [
@@ -19449,7 +19496,7 @@
         "description": "refactor: Simplify CTxMempool/BlockAssembler fields, remove some external mapTx access",
         "author": "TheCharlatan",
         "author_uuid": "auto_sebastian_kung",
-        "author_name": "Sebastian Kung",
+        "author_name": "sebastian kung",
         "merge_time_days": 72,
         "review_count": 135,
         "categories": [
@@ -19775,8 +19822,8 @@
         "merge_time_days": 330,
         "review_count": 91,
         "categories": [
-          "Core Infrastructure",
-          "Wallet & Keys"
+          "Wallet & Keys",
+          "Core Infrastructure"
         ],
         "impact_category": "Wallet & User Tools",
         "public_summary": "This PR clarifies and expands the logic for setting and unsetting the \"blank wallet\" flag, along with adding comprehensive tests. This ensures the wallet accurately reflects its state, especially regarding whether it contains any funds.",
@@ -19852,8 +19899,8 @@
         "merge_time_days": 357,
         "review_count": 232,
         "categories": [
-          "Ecosystem",
-          "Wallet & Keys"
+          "Wallet & Keys",
+          "Ecosystem"
         ],
         "impact_category": "Wallet & User Tools",
         "public_summary": "This PR introduces the capability to bump the feerate of unconfirmed ancestor transactions, allowing users to accelerate transactions stuck due to low fees. This feature significantly improves the user experience for getting important transactions confirmed more reliably in a dynamic fee environment.",
@@ -20004,8 +20051,8 @@
         "merge_time_days": 180,
         "review_count": 25,
         "categories": [
-          "Core Infrastructure",
-          "Wallet & Keys"
+          "Wallet & Keys",
+          "Core Infrastructure"
         ],
         "impact_category": "Wallet & User Tools",
         "public_summary": "This PR introduces functionality to automatically migrate legacy wallets that are not stored within the dedicated `wallets/` subdirectory into their proper location. This streamlines wallet management and ensures consistency across installations.",
@@ -20076,7 +20123,7 @@
         "description": "wallet: when a block is disconnected, update transactions that are no longer conflicted",
         "author": "ishaanam",
         "author_uuid": "auto_ishaana_misra",
-        "author_name": "ishaana misra",
+        "author_name": "Ishaana Misra",
         "merge_time_days": 93,
         "review_count": 57,
         "categories": [
@@ -20196,7 +20243,7 @@
         "description": "move-only: Extract common/args from util/system",
         "author": "TheCharlatan",
         "author_uuid": "auto_sebastian_kung",
-        "author_name": "Sebastian Kung",
+        "author_name": "sebastian kung",
         "merge_time_days": 16,
         "review_count": 83,
         "categories": [
@@ -20211,7 +20258,7 @@
         "description": "test: cover addrv2 anchors by adding TorV3 to CAddress in messages.py",
         "author": "pinheadmz",
         "author_uuid": "auto_matthew_zipkin",
-        "author_name": "matthew zipkin",
+        "author_name": "Matthew Zipkin",
         "merge_time_days": 111,
         "review_count": 56,
         "categories": [
@@ -20363,7 +20410,7 @@
         "description": "kernel: Remove args, settings, chainparams, chainparamsbase from kernel library",
         "author": "TheCharlatan",
         "author_uuid": "auto_sebastian_kung",
-        "author_name": "Sebastian Kung",
+        "author_name": "sebastian kung",
         "merge_time_days": 35,
         "review_count": 87,
         "categories": [
@@ -20398,8 +20445,8 @@
         "review_count": 86,
         "categories": [
           "Ecosystem",
-          "Wallet & Keys",
-          "Core Infrastructure"
+          "Core Infrastructure",
+          "Wallet & Keys"
         ],
         "impact_category": "Maintenance & Tech Debt",
         "public_summary": "This PR enhances the fuzzing tests for the `coinselection` algorithm. It helps ensure the wallet's coin selection logic is robust and reliable, preventing potential issues for users.",
@@ -20485,7 +20532,7 @@
         "description": "kernel: Remove util/system from kernel library, interface_ui from validation.",
         "author": "TheCharlatan",
         "author_uuid": "auto_sebastian_kung",
-        "author_name": "Sebastian Kung",
+        "author_name": "sebastian kung",
         "merge_time_days": 18,
         "review_count": 135,
         "categories": [
@@ -20711,7 +20758,7 @@
         "description": "test: Add unit & functional test coverage for blockstore",
         "author": "pinheadmz",
         "author_uuid": "auto_matthew_zipkin",
-        "author_name": "matthew zipkin",
+        "author_name": "Matthew Zipkin",
         "merge_time_days": 96,
         "review_count": 199,
         "categories": [
@@ -20726,7 +20773,7 @@
         "description": "kernel: Rm ShutdownRequested and AbortNode from validation code.",
         "author": "TheCharlatan",
         "author_uuid": "auto_sebastian_kung",
-        "author_name": "Sebastian Kung",
+        "author_name": "sebastian kung",
         "merge_time_days": 24,
         "review_count": 116,
         "categories": [
@@ -20771,7 +20818,7 @@
         "description": "blockstorage: Return on fatal flush errors",
         "author": "TheCharlatan",
         "author_uuid": "auto_sebastian_kung",
-        "author_name": "Sebastian Kung",
+        "author_name": "sebastian kung",
         "merge_time_days": 108,
         "review_count": 61,
         "categories": [
@@ -20861,7 +20908,7 @@
         "description": "util: Don't derive secure_allocator from std::allocator",
         "author": "CaseyCarter",
         "author_uuid": "auto_casey_carter",
-        "author_name": "casey carter",
+        "author_name": "Casey Carter",
         "merge_time_days": 33,
         "review_count": 46,
         "categories": [
@@ -21176,7 +21223,7 @@
         "description": "kernel: Remove UniValue from kernel library",
         "author": "TheCharlatan",
         "author_uuid": "auto_sebastian_kung",
-        "author_name": "Sebastian Kung",
+        "author_name": "sebastian kung",
         "merge_time_days": 5,
         "review_count": 95,
         "categories": [
@@ -21206,7 +21253,7 @@
         "description": "net: improves addnode / m_added_nodes logic",
         "author": "sr-gi",
         "author_uuid": "auto_sergi_delgado_segura",
-        "author_name": "Sergi Delgado Segura",
+        "author_name": "sergi delgado segura",
         "merge_time_days": 105,
         "review_count": 91,
         "categories": [
@@ -21266,7 +21313,7 @@
         "description": "kernel: Prune leveldb headers",
         "author": "TheCharlatan",
         "author_uuid": "auto_sebastian_kung",
-        "author_name": "Sebastian Kung",
+        "author_name": "sebastian kung",
         "merge_time_days": 8,
         "review_count": 54,
         "categories": [
@@ -21386,7 +21433,7 @@
         "description": "shutdown: Destroy kernel last, make test shutdown order consistent",
         "author": "TheCharlatan",
         "author_uuid": "auto_sebastian_kung",
-        "author_name": "Sebastian Kung",
+        "author_name": "sebastian kung",
         "merge_time_days": 94,
         "review_count": 33,
         "categories": [
@@ -21523,7 +21570,7 @@
         "description": "doc: Add offline signing tutorial",
         "author": "BrandonOdiwuor",
         "author_uuid": "auto_brandon_odiwuor",
-        "author_name": "Brandon Odiwuor",
+        "author_name": "brandon odiwuor",
         "merge_time_days": 69,
         "review_count": 111,
         "categories": [
@@ -21584,7 +21631,7 @@
         "description": "wallet rpc: return final tx hex from walletprocesspsbt if complete",
         "author": "pinheadmz",
         "author_uuid": "auto_matthew_zipkin",
-        "author_name": "matthew zipkin",
+        "author_name": "Matthew Zipkin",
         "merge_time_days": 7,
         "review_count": 41,
         "categories": [
@@ -21599,7 +21646,7 @@
         "description": "kernel: Remove protocol.h/netaddress.h/compat.h from kernel headers",
         "author": "TheCharlatan",
         "author_uuid": "auto_sebastian_kung",
-        "author_name": "Sebastian Kung",
+        "author_name": "sebastian kung",
         "merge_time_days": 7,
         "review_count": 63,
         "categories": [
@@ -22050,7 +22097,7 @@
         "description": "test: enable reindex readonly test on *BSD",
         "author": "pinheadmz",
         "author_uuid": "auto_matthew_zipkin",
-        "author_name": "matthew zipkin",
+        "author_name": "Matthew Zipkin",
         "merge_time_days": 7,
         "review_count": 51,
         "categories": [
@@ -22496,7 +22543,7 @@
         "description": "util: Use void* throughout support/lockedpool.h",
         "author": "jkczyz",
         "author_uuid": "auto_jeffrey_czyz",
-        "author_name": "jeffrey czyz",
+        "author_name": "Jeffrey Czyz",
         "merge_time_days": 1352,
         "review_count": 44,
         "categories": [
@@ -22560,8 +22607,8 @@
         "merge_time_days": 1218,
         "review_count": 147,
         "categories": [
-          "Core Infrastructure",
-          "Ecosystem"
+          "Ecosystem",
+          "Core Infrastructure"
         ],
         "impact_category": "Security & Consensus",
         "public_summary": "This PR adds advanced automated testing, known as fuzzing, to protect against specific past vulnerabilities and edge cases related to transaction handling and blockchain rules. This improves the overall security and robustness of the Bitcoin Core software.",
@@ -22666,8 +22713,8 @@
         "merge_time_days": 627,
         "review_count": 84,
         "categories": [
-          "Core Infrastructure",
-          "Wallet & Keys"
+          "Wallet & Keys",
+          "Core Infrastructure"
         ],
         "impact_category": "Wallet & User Tools",
         "public_summary": "This PR enhances the `bumpfee` RPC and GUI functionality by adding support for external signers. This provides greater flexibility for users who manage their private keys outside of Bitcoin Core, such as with hardware wallets.",
@@ -22723,7 +22770,7 @@
         "description": "util: Add -shutdownnotify option",
         "author": "klementtan",
         "author_uuid": "auto_klement_tan",
-        "author_name": "klement tan",
+        "author_name": "Klement Tan",
         "merge_time_days": 445,
         "review_count": 92,
         "categories": [
@@ -22803,8 +22850,8 @@
         "review_count": 92,
         "categories": [
           "Core Infrastructure",
-          "Consensus",
-          "Mempool & Fees"
+          "Mempool & Fees",
+          "Consensus"
         ],
         "impact_category": "Maintenance & Tech Debt",
         "public_summary": "This PR refactors the `CheckSequenceLocksAtTip()` function by extracting its calculation logic, improving code clarity and testability. This makes the codebase easier to understand and reduces potential for future bugs.",
@@ -22819,8 +22866,8 @@
         "merge_time_days": 386,
         "review_count": 169,
         "categories": [
-          "Core Infrastructure",
-          "Script & Covenants"
+          "Script & Covenants",
+          "Core Infrastructure"
         ],
         "impact_category": "Maintenance & Tech Debt",
         "public_summary": "This PR adds crucial support for signing transactions using Miniscript descriptors, simplifying the use of complex spending conditions. This enables users and wallets to more easily and securely manage funds locked with advanced Miniscript policies.",
@@ -22880,8 +22927,8 @@
         "merge_time_days": 245,
         "review_count": 142,
         "categories": [
-          "Core Infrastructure",
-          "Wallet & Keys"
+          "Wallet & Keys",
+          "Core Infrastructure"
         ],
         "impact_category": "Wallet & User Tools",
         "public_summary": "This PR allows users to import wallets on pruned Bitcoin nodes, making it easier to manage existing wallets without needing a full copy of the blockchain. This significantly improves usability for users with limited disk space.",
@@ -22911,8 +22958,8 @@
         "merge_time_days": 253,
         "review_count": 40,
         "categories": [
-          "Core Infrastructure",
-          "Wallet & Keys"
+          "Wallet & Keys",
+          "Core Infrastructure"
         ],
         "impact_category": "Maintenance & Tech Debt",
         "public_summary": "This Pull Request corrects inaccuracies in the documentation for the `sendmany` RPC command. This ensures developers and users have precise information on how to properly use this function for sending multiple transactions.",
@@ -22972,8 +23019,8 @@
         "merge_time_days": 221,
         "review_count": 42,
         "categories": [
-          "Core Infrastructure",
-          "Wallet & Keys"
+          "Wallet & Keys",
+          "Core Infrastructure"
         ],
         "impact_category": "Performance & Optimization",
         "public_summary": "This PR introduces a new benchmark for the wallet's `AvailableCoins` function, which is critical for efficient coin selection. Benchmarks help developers identify and prevent performance regressions in key wallet operations.",
@@ -22988,8 +23035,8 @@
         "merge_time_days": 193,
         "review_count": 66,
         "categories": [
-          "Core Infrastructure",
-          "Ecosystem"
+          "Ecosystem",
+          "Core Infrastructure"
         ],
         "impact_category": "Performance & Optimization",
         "public_summary": "This PR refactors the `CBlockIndex` class by removing its copy constructor, preventing accidental or inefficient copies of block index objects. This improves memory safety and performance by encouraging pass-by-reference or unique ownership patterns.",
@@ -23030,12 +23077,12 @@
         "description": "New `outputs` argument for `bumpfee`/`psbtbumpfee`",
         "author": "rodentrabies",
         "author_uuid": "auto_seibart_nedor",
-        "author_name": "seibart nedor",
+        "author_name": "Seibart Nedor",
         "merge_time_days": 249,
         "review_count": 95,
         "categories": [
-          "Core Infrastructure",
-          "Wallet & Keys"
+          "Wallet & Keys",
+          "Core Infrastructure"
         ],
         "impact_category": "Wallet & User Tools",
         "public_summary": "This PR enhances the `bumpfee` and `psbtbumpfee` RPC commands by introducing an `outputs` argument. This new option gives users more granular control over transaction outputs when increasing fees, improving flexibility for advanced fee management.",
@@ -23046,12 +23093,12 @@
         "description": "rpc: add minconf/maxconf options to sendall and fund transaction calls",
         "author": "ishaanam",
         "author_uuid": "auto_ishaana_misra",
-        "author_name": "ishaana misra",
+        "author_name": "Ishaana Misra",
         "merge_time_days": 215,
         "review_count": 87,
         "categories": [
-          "Core Infrastructure",
-          "Wallet & Keys"
+          "Wallet & Keys",
+          "Core Infrastructure"
         ],
         "impact_category": "Wallet & User Tools",
         "public_summary": "This PR adds `minconf` and `maxconf` options to the `sendall` and `fundrawtransaction` RPC commands, giving users greater control over which UTXOs are selected for transactions based on their confirmation depth. This provides more flexibility for advanced wallet users to manage their funds.",
@@ -23137,7 +23184,7 @@
         "description": "rpc, docs: Add note for commands that supports only legacy wallets",
         "author": "yusufsahinhamza",
         "author_uuid": "auto_yusuf_sahin_hamza",
-        "author_name": "yusuf sahin hamza",
+        "author_name": "Yusuf Sahin HAMZA",
         "merge_time_days": 282,
         "review_count": 38,
         "categories": [
@@ -23227,7 +23274,7 @@
         "description": "rpc: add `descriptorprocesspsbt` rpc",
         "author": "ishaanam",
         "author_uuid": "auto_ishaana_misra",
-        "author_name": "ishaana misra",
+        "author_name": "Ishaana Misra",
         "merge_time_days": 288,
         "review_count": 57,
         "categories": [
@@ -23347,7 +23394,7 @@
         "description": "rpc: In `utxoupdatepsbt` also look for the tx in the txindex",
         "author": "ishaanam",
         "author_uuid": "auto_ishaana_misra",
-        "author_name": "ishaana misra",
+        "author_name": "Ishaana Misra",
         "merge_time_days": 237,
         "review_count": 27,
         "categories": [
@@ -23381,8 +23428,8 @@
         "merge_time_days": 144,
         "review_count": 42,
         "categories": [
-          "Core Infrastructure",
-          "Wallet & Keys"
+          "Wallet & Keys",
+          "Core Infrastructure"
         ],
         "impact_category": "Maintenance & Tech Debt",
         "public_summary": "This Pull Request updates how the embedded SQLite library, used by Bitcoin Core for certain features, is compiled. It ensures SQLite is built with a more robust set of recommended options, improving its stability and adherence to best practices.",
@@ -23393,12 +23440,12 @@
         "description": "test: Change coinselection parameter location to make tests independent",
         "author": "yancyribbens",
         "author_uuid": "auto_yancy_ribbens",
-        "author_name": "Yancy Ribbens",
+        "author_name": "yancy ribbens",
         "merge_time_days": 120,
         "review_count": 19,
         "categories": [
-          "Core Infrastructure",
-          "Wallet & Keys"
+          "Wallet & Keys",
+          "Core Infrastructure"
         ],
         "impact_category": "Maintenance & Tech Debt",
         "public_summary": "This PR refactors how coin selection parameters are handled in tests, ensuring that individual tests run in isolation without affecting others. This improves the reliability and maintainability of the Bitcoin Core test suite.",
@@ -23458,8 +23505,8 @@
         "merge_time_days": 237,
         "review_count": 143,
         "categories": [
-          "Core Infrastructure",
-          "Wallet & Keys"
+          "Wallet & Keys",
+          "Core Infrastructure"
         ],
         "impact_category": "Wallet & User Tools",
         "public_summary": "This update standardizes the notation used for hardened derivation paths in hierarchical deterministic (HD) wallets. It switches the marker from a prime symbol (') to the letter 'h' to align with widespread industry practice.",
@@ -23531,7 +23578,7 @@
         "description": "refactor / kernel: Move non-gArgs chainparams functionality to kernel",
         "author": "TheCharlatan",
         "author_uuid": "auto_sebastian_kung",
-        "author_name": "Sebastian Kung",
+        "author_name": "sebastian kung",
         "merge_time_days": 172,
         "review_count": 135,
         "categories": [
@@ -23550,8 +23597,8 @@
         "merge_time_days": 105,
         "review_count": 90,
         "categories": [
-          "Core Infrastructure",
-          "Wallet & Keys"
+          "Wallet & Keys",
+          "Core Infrastructure"
         ],
         "impact_category": "Wallet & User Tools",
         "public_summary": "This PR improves the robustness of wallet label management by sanitizing label names provided through various RPCs, removing problematic characters like leading/trailing whitespace. This ensures consistent and cleaner labels across the Bitcoin Core interface.",
@@ -23757,7 +23804,7 @@
         "description": "wallet: ensure the wallet is unlocked when needed for rescanning",
         "author": "ishaanam",
         "author_uuid": "auto_ishaana_misra",
-        "author_name": "ishaana misra",
+        "author_name": "Ishaana Misra",
         "merge_time_days": 124,
         "review_count": 66,
         "categories": [
@@ -23772,7 +23819,7 @@
         "description": "p2p: Erlay support signaling follow-ups",
         "author": "naumenkogs",
         "author_uuid": "auto_gleb_naumenko",
-        "author_name": "Gleb Naumenko",
+        "author_name": "gleb naumenko",
         "merge_time_days": 40,
         "review_count": 48,
         "categories": [
@@ -23938,7 +23985,7 @@
         "description": "cli: include local (\"unroutable\") peers in -netinfo table",
         "author": "pinheadmz",
         "author_uuid": "auto_matthew_zipkin",
-        "author_name": "matthew zipkin",
+        "author_name": "Matthew Zipkin",
         "merge_time_days": 79,
         "review_count": 41,
         "categories": [
@@ -24645,7 +24692,7 @@
         "description": "refactor, kernel: Decouple ArgsManager from blockstorage",
         "author": "TheCharlatan",
         "author_uuid": "auto_sebastian_kung",
-        "author_name": "Sebastian Kung",
+        "author_name": "sebastian kung",
         "merge_time_days": 80,
         "review_count": 177,
         "categories": [
@@ -24810,7 +24857,7 @@
         "description": "refactor: Extract util/fs from util/system",
         "author": "TheCharlatan",
         "author_uuid": "auto_sebastian_kung",
-        "author_name": "Sebastian Kung",
+        "author_name": "sebastian kung",
         "merge_time_days": 20,
         "review_count": 76,
         "categories": [
@@ -24886,12 +24933,12 @@
         "description": "refactor: remove unused param from legacy pubkey interface",
         "author": "Bushstar",
         "author_uuid": "auto_peter_john_bushnell",
-        "author_name": "Peter John Bushnell",
+        "author_name": "peter john bushnell",
         "merge_time_days": 14,
         "review_count": 22,
         "categories": [
-          "Core Infrastructure",
-          "Wallet & Keys"
+          "Wallet & Keys",
+          "Core Infrastructure"
         ],
         "impact_category": "Maintenance & Tech Debt",
         "public_summary": "This PR cleans up the codebase by removing an unused parameter from a legacy public key interface. This improves code clarity and eliminates unnecessary elements.",
@@ -25127,7 +25174,7 @@
         "description": "refactor: Move chain constants to the util library",
         "author": "TheCharlatan",
         "author_uuid": "auto_sebastian_kung",
-        "author_name": "Sebastian Kung",
+        "author_name": "sebastian kung",
         "merge_time_days": 20,
         "review_count": 99,
         "categories": [
@@ -25298,7 +25345,7 @@
         "description": "wallet: reuse change dest when re-creating TX with avoidpartialspends",
         "author": "pinheadmz",
         "author_uuid": "auto_matthew_zipkin",
-        "author_name": "matthew zipkin",
+        "author_name": "Matthew Zipkin",
         "merge_time_days": 13,
         "review_count": 34,
         "categories": [
@@ -25521,7 +25568,7 @@
         "description": "wallet: ensure wallet files are not reused across chains",
         "author": "rodentrabies",
         "author_uuid": "auto_seibart_nedor",
-        "author_name": "seibart nedor",
+        "author_name": "Seibart Nedor",
         "merge_time_days": 751,
         "review_count": 81,
         "categories": [
@@ -25536,7 +25583,7 @@
         "description": "Use std::chrono for the time to rotate destination of addr messages + tests",
         "author": "naumenkogs",
         "author_uuid": "auto_gleb_naumenko",
-        "author_name": "Gleb Naumenko",
+        "author_name": "gleb naumenko",
         "merge_time_days": 742,
         "review_count": 98,
         "categories": [
@@ -25555,8 +25602,8 @@
         "merge_time_days": 781,
         "review_count": 42,
         "categories": [
-          "Core Infrastructure",
-          "Ecosystem"
+          "Ecosystem",
+          "Core Infrastructure"
         ],
         "impact_category": "Maintenance & Tech Debt",
         "public_summary": "This PR performs a significant cleanup of Bitcoin Core's RPC and mining subsystems by removing code specifically designed for pre-Segwit miner compatibility. This simplifies the codebase, reduces maintenance overhead, and removes deprecated interfaces.",
@@ -25571,8 +25618,8 @@
         "merge_time_days": 765,
         "review_count": 299,
         "categories": [
-          "Core Infrastructure",
-          "Wallet & Keys"
+          "Wallet & Keys",
+          "Core Infrastructure"
         ],
         "impact_category": "Strategic Initiatives",
         "public_summary": "This PR introduces a crucial feature allowing users to migrate their old, non-descriptor wallets into the modern descriptor wallet format. This provides enhanced security, better interoperability, and future-proofing for managing Bitcoin funds.",
@@ -25602,8 +25649,8 @@
         "merge_time_days": 520,
         "review_count": 104,
         "categories": [
-          "Core Infrastructure",
-          "Wallet & Keys"
+          "Wallet & Keys",
+          "Core Infrastructure"
         ],
         "impact_category": "Maintenance & Tech Debt",
         "public_summary": "wallet, refactor: return out-params of CreateTransaction() as optional struct",
@@ -25680,8 +25727,8 @@
         "merge_time_days": 325,
         "review_count": 157,
         "categories": [
-          "Core Infrastructure",
-          "Script & Covenants"
+          "Script & Covenants",
+          "Core Infrastructure"
         ],
         "impact_category": "Maintenance & Tech Debt",
         "public_summary": "script: add script to generate example bitcoin.conf",
@@ -25726,9 +25773,9 @@
         "merge_time_days": 336,
         "review_count": 186,
         "categories": [
-          "Core Infrastructure",
+          "Script & Covenants",
           "Wallet & Keys",
-          "Script & Covenants"
+          "Core Infrastructure"
         ],
         "impact_category": "Strategic Initiatives",
         "public_summary": "This foundational PR added support for Taproot-specific data fields to the Partially Signed Bitcoin Transaction (PSBT) format. It enables wallets and tools to construct and sign complex Taproot transactions.",
@@ -25759,8 +25806,8 @@
         "review_count": 165,
         "categories": [
           "Ecosystem",
-          "Wallet & Keys",
-          "Core Infrastructure"
+          "Core Infrastructure",
+          "Wallet & Keys"
         ],
         "impact_category": "Maintenance & Tech Debt",
         "public_summary": "rpc/wallet: add simulaterawtransaction RPC",
@@ -25849,7 +25896,7 @@
         "description": "p2p: Erlay support signaling",
         "author": "naumenkogs",
         "author_uuid": "auto_gleb_naumenko",
-        "author_name": "Gleb Naumenko",
+        "author_name": "gleb naumenko",
         "merge_time_days": 346,
         "review_count": 253,
         "categories": [
@@ -25913,9 +25960,9 @@
         "merge_time_days": 336,
         "review_count": 46,
         "categories": [
-          "Core Infrastructure",
+          "Script & Covenants",
           "Wallet & Keys",
-          "Script & Covenants"
+          "Core Infrastructure"
         ],
         "impact_category": "Maintenance & Tech Debt",
         "public_summary": "Add external signer taproot support ",
@@ -25930,8 +25977,8 @@
         "merge_time_days": 164,
         "review_count": 54,
         "categories": [
-          "Core Infrastructure",
-          "Wallet & Keys"
+          "Wallet & Keys",
+          "Core Infrastructure"
         ],
         "impact_category": "Performance & Optimization",
         "public_summary": "This PR delivers significant performance improvements to the `getreceivedbyaddress` and `getreceivedbylabel` RPC commands. Users will experience much faster queries when checking received funds for specific addresses or labels, especially with large transaction histories.",
@@ -25991,8 +26038,8 @@
         "merge_time_days": 100,
         "review_count": 84,
         "categories": [
-          "Ecosystem",
           "Script & Covenants",
+          "Ecosystem",
           "Core Infrastructure"
         ],
         "impact_category": "Maintenance & Tech Debt",
@@ -26067,7 +26114,7 @@
         "description": "Rename message_command variables in src/net* and src/rpc/net.cpp",
         "author": "shaavan",
         "author_uuid": "auto_shashwat_vangani",
-        "author_name": "shashwat vangani",
+        "author_name": "Shashwat Vangani",
         "merge_time_days": 100,
         "review_count": 74,
         "categories": [
@@ -26101,8 +26148,8 @@
         "merge_time_days": 170,
         "review_count": 116,
         "categories": [
-          "Core Infrastructure",
-          "Script & Covenants"
+          "Script & Covenants",
+          "Core Infrastructure"
         ],
         "impact_category": "Maintenance & Tech Debt",
         "public_summary": "Miniscript support in Output Descriptors",
@@ -26345,9 +26392,9 @@
         "merge_time_days": 91,
         "review_count": 129,
         "categories": [
+          "Ecosystem",
           "Core Infrastructure",
-          "Consensus",
-          "Ecosystem"
+          "Consensus"
         ],
         "impact_category": "Maintenance & Tech Debt",
         "public_summary": "[kernel 2a/n] Split hashing/index `GetUTXOStats` codepaths, decouple from `coinstatsindex`",
@@ -26389,7 +26436,7 @@
         "description": "logging: Add severity level to logs",
         "author": "klementtan",
         "author_uuid": "auto_klement_tan",
-        "author_name": "klement tan",
+        "author_name": "Klement Tan",
         "merge_time_days": 83,
         "review_count": 76,
         "categories": [
@@ -26453,8 +26500,8 @@
         "merge_time_days": 40,
         "review_count": 38,
         "categories": [
-          "Ecosystem",
-          "Script & Covenants"
+          "Script & Covenants",
+          "Ecosystem"
         ],
         "impact_category": "Maintenance & Tech Debt",
         "public_summary": "contrib: macdeploy: make gen-sdk deterministic",
@@ -26637,8 +26684,8 @@
         "merge_time_days": 144,
         "review_count": 15,
         "categories": [
-          "Core Infrastructure",
-          "Wallet & Keys"
+          "Wallet & Keys",
+          "Core Infrastructure"
         ],
         "impact_category": "Maintenance & Tech Debt",
         "public_summary": "Prevent wallet unload on GetWalletForJSONRPCRequest",
@@ -26684,8 +26731,8 @@
         "merge_time_days": 129,
         "review_count": 88,
         "categories": [
-          "Core Infrastructure",
-          "Wallet & Keys"
+          "Wallet & Keys",
+          "Core Infrastructure"
         ],
         "impact_category": "Maintenance & Tech Debt",
         "public_summary": "wallet: Improve AvailableCoins performance by reducing duplicated operations",
@@ -26818,7 +26865,7 @@
         "description": "init: ignore BIP-30 verification in DisconnectBlock for problematic blocks",
         "author": "seejee",
         "author_uuid": "auto_chris_geihsler",
-        "author_name": "Chris Geihsler",
+        "author_name": "chris geihsler",
         "merge_time_days": 182,
         "review_count": 29,
         "categories": [
@@ -27002,8 +27049,8 @@
         "merge_time_days": 1,
         "review_count": 11,
         "categories": [
-          "Core Infrastructure",
-          "Wallet & Keys"
+          "Wallet & Keys",
+          "Core Infrastructure"
         ],
         "impact_category": "Maintenance & Tech Debt",
         "public_summary": "rpc: Explain active and internal in listdescriptors",
@@ -27140,8 +27187,8 @@
         "merge_time_days": 73,
         "review_count": 57,
         "categories": [
-          "Ecosystem",
-          "Wallet & Keys"
+          "Wallet & Keys",
+          "Ecosystem"
         ],
         "impact_category": "Maintenance & Tech Debt",
         "public_summary": "wallet: Save wallet scan progress",
@@ -27213,7 +27260,7 @@
         "description": "Set effective_value when initializing a COutput",
         "author": "ishaanam",
         "author_uuid": "auto_ishaana_misra",
-        "author_name": "ishaana misra",
+        "author_name": "Ishaana Misra",
         "merge_time_days": 15,
         "review_count": 60,
         "categories": [
@@ -27308,8 +27355,8 @@
         "merge_time_days": 10,
         "review_count": 37,
         "categories": [
-          "Core Infrastructure",
-          "Wallet & Keys"
+          "Wallet & Keys",
+          "Core Infrastructure"
         ],
         "impact_category": "Maintenance & Tech Debt",
         "public_summary": "rpc: getreceivedbylabel, return early if no addresses were found in the address book",
@@ -27355,8 +27402,8 @@
         "merge_time_days": 1,
         "review_count": 14,
         "categories": [
-          "Core Infrastructure",
-          "Wallet & Keys"
+          "Wallet & Keys",
+          "Core Infrastructure"
         ],
         "impact_category": "Maintenance & Tech Debt",
         "public_summary": "refactor: Remove `NO_THREAD_SAFETY_ANALYSIS` from non-test/benchmarking code",
@@ -27383,7 +27430,7 @@
         "description": "rpc: Put undocumented JSON failure mode behind a runtime flag",
         "author": "suhailsaqan",
         "author_uuid": "auto_suhail_saqan",
-        "author_name": "Suhail Saqan",
+        "author_name": "suhail saqan",
         "merge_time_days": 1,
         "review_count": 27,
         "categories": [
@@ -27402,8 +27449,8 @@
         "merge_time_days": 0,
         "review_count": 10,
         "categories": [
-          "Core Infrastructure",
-          "Wallet & Keys"
+          "Wallet & Keys",
+          "Core Infrastructure"
         ],
         "impact_category": "Maintenance & Tech Debt",
         "public_summary": "rpc: wallet: remove `-deprecatedrpc=exclude_coinbase` logic",
@@ -27464,8 +27511,8 @@
         "merge_time_days": 19,
         "review_count": 62,
         "categories": [
-          "Core Infrastructure",
-          "Ecosystem"
+          "Ecosystem",
+          "Core Infrastructure"
         ],
         "impact_category": "Maintenance & Tech Debt",
         "public_summary": "[kernel 2e/n] miner: Make `mempool` optional, stop constructing temporary empty mempools",
@@ -27526,8 +27573,8 @@
         "merge_time_days": 14,
         "review_count": 36,
         "categories": [
-          "Core Infrastructure",
-          "Ecosystem"
+          "Ecosystem",
+          "Core Infrastructure"
         ],
         "impact_category": "Maintenance & Tech Debt",
         "public_summary": "This PR consolidates platform-specific workarounds on Windows related to Address Space Layout Randomization (ASLR) to maintain compatibility with updates in the upstream secp256k1 library. It ensures the continued robust security posture of Bitcoin Core on Windows by properly integrating cryptographic library changes.",
@@ -27538,7 +27585,7 @@
         "description": "logging: fix logging empty thread name",
         "author": "klementtan",
         "author_uuid": "auto_klement_tan",
-        "author_name": "klement tan",
+        "author_name": "Klement Tan",
         "merge_time_days": 2,
         "review_count": 31,
         "categories": [
@@ -27572,8 +27619,8 @@
         "merge_time_days": 1,
         "review_count": 15,
         "categories": [
-          "Core Infrastructure",
-          "Wallet & Keys"
+          "Wallet & Keys",
+          "Core Infrastructure"
         ],
         "impact_category": "Maintenance & Tech Debt",
         "public_summary": "doc: Fix typo in importdescriptors",
@@ -27664,8 +27711,8 @@
         "merge_time_days": 36,
         "review_count": 45,
         "categories": [
-          "Core Infrastructure",
-          "Wallet & Keys"
+          "Wallet & Keys",
+          "Core Infrastructure"
         ],
         "impact_category": "Wallet & User Tools",
         "public_summary": "This PR ensures that after importing new keys or addresses, the wallet immediately scans the mempool for relevant transactions. This improves the responsiveness of the wallet to newly relevant unconfirmed transactions.",
@@ -27741,8 +27788,8 @@
         "review_count": 42,
         "categories": [
           "Core Infrastructure",
-          "Consensus",
-          "Mempool & Fees"
+          "Mempool & Fees",
+          "Consensus"
         ],
         "impact_category": "Maintenance & Tech Debt",
         "public_summary": "refactor: move policy constants to policy",
@@ -27939,8 +27986,8 @@
         "merge_time_days": 14,
         "review_count": 16,
         "categories": [
-          "Core Infrastructure",
-          "Wallet & Keys"
+          "Wallet & Keys",
+          "Core Infrastructure"
         ],
         "impact_category": "Maintenance & Tech Debt",
         "public_summary": "wallet: change `ScanForWalletTransactions` to use `Ticks(Dur2 d)`",
@@ -28015,8 +28062,8 @@
         "merge_time_days": 47,
         "review_count": 54,
         "categories": [
-          "Core Infrastructure",
-          "Wallet & Keys"
+          "Wallet & Keys",
+          "Core Infrastructure"
         ],
         "impact_category": "Strategic Initiatives",
         "public_summary": "This PR introduces a powerful new capability to Bitcoin Core's RPC interface, allowing users to track coins by their parent descriptors. This enables more advanced wallet management, improved fund organization, and enhanced privacy insights for derived addresses.",
@@ -28162,12 +28209,12 @@
         "description": "test: add tests for negative waste during coin selection",
         "author": "ishaanam",
         "author_uuid": "auto_ishaana_misra",
-        "author_name": "ishaana misra",
+        "author_name": "Ishaana Misra",
         "merge_time_days": 4,
         "review_count": 8,
         "categories": [
-          "Core Infrastructure",
-          "Wallet & Keys"
+          "Wallet & Keys",
+          "Core Infrastructure"
         ],
         "impact_category": "Maintenance & Tech Debt",
         "public_summary": "test: add tests for negative waste during coin selection",
@@ -28242,8 +28289,8 @@
         "merge_time_days": 18,
         "review_count": 37,
         "categories": [
-          "Core Infrastructure",
-          "Wallet & Keys"
+          "Wallet & Keys",
+          "Core Infrastructure"
         ],
         "impact_category": "Wallet & User Tools",
         "public_summary": "This PR changes the default wallet behavior to opt-in to Replace-by-Fee (RBF) for transactions. This allows users to more easily replace unconfirmed transactions with higher fee versions if needed.",
@@ -28843,7 +28890,7 @@
         "description": "wallet: fix sendall creates tx that fails tx-size check",
         "author": "kouloumos",
         "author_uuid": "auto_andreas_kouloumos",
-        "author_name": "Andreas Kouloumos",
+        "author_name": "andreas kouloumos",
         "merge_time_days": 8,
         "review_count": 32,
         "categories": [
@@ -28969,8 +29016,8 @@
         "merge_time_days": 2,
         "review_count": 21,
         "categories": [
-          "Core Infrastructure",
-          "Wallet & Keys"
+          "Wallet & Keys",
+          "Core Infrastructure"
         ],
         "impact_category": "Maintenance & Tech Debt",
         "public_summary": "rpc: Allow importmulti watchonly imports with locked wallet",
@@ -29240,8 +29287,8 @@
         "merge_time_days": 6,
         "review_count": 28,
         "categories": [
-          "Core Infrastructure",
           "Wallet & Keys",
+          "Core Infrastructure",
           "Ecosystem"
         ],
         "impact_category": "Maintenance & Tech Debt",
@@ -29447,7 +29494,7 @@
         "description": "net: remove non-blocking bool from interface",
         "author": "Bushstar",
         "author_uuid": "auto_peter_john_bushnell",
-        "author_name": "Peter John Bushnell",
+        "author_name": "peter john bushnell",
         "merge_time_days": 324,
         "review_count": 15,
         "categories": [
@@ -29954,7 +30001,7 @@
         "description": "Refactor: Change time variable type from int64_t to std::chrono::seconds in net_processing.cpp",
         "author": "shaavan",
         "author_uuid": "auto_shashwat_vangani",
-        "author_name": "shashwat vangani",
+        "author_name": "Shashwat Vangani",
         "merge_time_days": 2,
         "review_count": 51,
         "categories": [
@@ -29970,7 +30017,7 @@
         "description": "Refactor: Changes time variables from int to chrono",
         "author": "shaavan",
         "author_uuid": "auto_shashwat_vangani",
-        "author_name": "shashwat vangani",
+        "author_name": "Shashwat Vangani",
         "merge_time_days": 16,
         "review_count": 29,
         "categories": [
@@ -30126,7 +30173,7 @@
         "description": "p2p: Avoid InitError when downgrading peers.dat",
         "author": "junderw",
         "author_uuid": "auto_jonathan_underwood",
-        "author_name": "jonathan underwood",
+        "author_name": "Jonathan Underwood",
         "merge_time_days": 26,
         "review_count": 43,
         "categories": [
@@ -30583,10 +30630,10 @@
         "merge_time_days": 144,
         "review_count": 255,
         "categories": [
-          "Core Infrastructure",
           "Consensus",
-          "P2P Network",
-          "Mempool & Fees"
+          "Core Infrastructure",
+          "Mempool & Fees",
+          "P2P Network"
         ],
         "impact_category": "Wallet & User Tools",
         "public_summary": "This PR enhances the `testmempoolaccept` RPC to allow testing of transaction packages, where multiple dependent transactions can be submitted together. This is vital for developers and users to simulate and validate complex transaction scenarios, like those involving child-pays-for-parent (CPFP) or coinjoins, before broadcasting them.",
@@ -31154,7 +31201,7 @@
         "description": "rpc: add additional ban time fields to listbanned",
         "author": "jarolrod",
         "author_uuid": "auto_jarol_rodriguez",
-        "author_name": "jarol rodriguez",
+        "author_name": "Jarol Rodriguez",
         "merge_time_days": 6,
         "review_count": 63,
         "categories": [
@@ -31421,10 +31468,10 @@
         "merge_time_days": 9,
         "review_count": 109,
         "categories": [
-          "Core Infrastructure",
+          "Script & Covenants",
           "Wallet & Keys",
-          "Consensus",
-          "Script & Covenants"
+          "Core Infrastructure",
+          "Consensus"
         ],
         "impact_category": "Strategic Initiatives",
         "public_summary": "This PR introduces fundamental support for Taproot (P2TR) script descriptors, enabling users to generate and manage Taproot addresses directly within Bitcoin Core. It's a crucial step towards broader Taproot adoption and simplified wallet management for this new address type.",
@@ -31547,10 +31594,10 @@
         "merge_time_days": 17,
         "review_count": 51,
         "categories": [
-          "Core Infrastructure",
+          "Script & Covenants",
           "Wallet & Keys",
-          "Consensus",
-          "Script & Covenants"
+          "Core Infrastructure",
+          "Consensus"
         ],
         "impact_category": "Wallet & User Tools",
         "public_summary": "This PR adds crucial support for inferring `tr()` descriptors, which are used to represent Taproot outputs, making it easier for wallets to correctly identify and manage funds sent to Taproot addresses. This is a significant step towards improved Taproot integration and usability within Bitcoin Core.",
@@ -31628,8 +31675,8 @@
         "review_count": 73,
         "categories": [
           "Ecosystem",
-          "P2P Network",
-          "Mempool & Fees"
+          "Mempool & Fees",
+          "P2P Network"
         ],
         "impact_category": "Network & Privacy",
         "public_summary": "This PR includes two minor fixes to how nodes broadcast information, improving the reliability and efficiency of transaction and block propagation across the network. These changes contribute to smoother and more consistent network operation.",
@@ -31670,7 +31717,7 @@
         "description": "Resolve Tor control plane address",
         "author": "adriansmares",
         "author_uuid": "auto_adrian_stefan_mares",
-        "author_name": "Adrian-Stefan Mares",
+        "author_name": "adrian-stefan mares",
         "merge_time_days": 30,
         "review_count": 24,
         "categories": [
@@ -32199,8 +32246,8 @@
         "review_count": 198,
         "categories": [
           "Ecosystem",
-          "P2P Network",
-          "Mempool & Fees"
+          "Mempool & Fees",
+          "P2P Network"
         ],
         "impact_category": "Network & Privacy",
         "public_summary": "This PR updates the transaction relay mechanism to use 'wtxid' for transactions containing witness data. This improves network efficiency and security by ensuring the full transaction content is accounted for during relay, especially for SegWit transactions.",
@@ -32461,8 +32508,8 @@
         "merge_time_days": 58,
         "review_count": 19,
         "categories": [
-          "Core Infrastructure",
           "Consensus",
+          "Core Infrastructure",
           "P2P Network"
         ],
         "impact_category": "Maintenance & Tech Debt",
@@ -32474,7 +32521,7 @@
         "description": "Cache responses to GETADDR to prevent topology leaks",
         "author": "naumenkogs",
         "author_uuid": "auto_gleb_naumenko",
-        "author_name": "Gleb Naumenko",
+        "author_name": "gleb naumenko",
         "merge_time_days": 78,
         "review_count": 225,
         "categories": [
@@ -32627,7 +32674,7 @@
         "description": "p2p: disambiguate block-relay-only variable names from blocksonly variables",
         "author": "glowang",
         "author_uuid": "auto_gloria_wang",
-        "author_name": "Gloria Wang",
+        "author_name": "gloria wang",
         "merge_time_days": 42,
         "review_count": 15,
         "categories": [
@@ -32726,8 +32773,8 @@
         "merge_time_days": 55,
         "review_count": 137,
         "categories": [
-          "Core Infrastructure",
           "Consensus",
+          "Core Infrastructure",
           "P2P Network"
         ],
         "impact_category": "Maintenance & Tech Debt",
@@ -33109,7 +33156,7 @@
         "description": "Improvements on ADDR caching",
         "author": "naumenkogs",
         "author_uuid": "auto_gleb_naumenko",
-        "author_name": "Gleb Naumenko",
+        "author_name": "gleb naumenko",
         "merge_time_days": 41,
         "review_count": 55,
         "categories": [
@@ -33279,7 +33326,7 @@
         "description": "net: Remove old check for 3-byte shifted IP addresses from pre-0.2.9 nodes",
         "author": "i-rme",
         "author_uuid": "auto_ra_l_mart_nez_rme",
-        "author_name": "Ra\u00fal Mart\u00ednez (RME)",
+        "author_name": "ra\u00fal mart\u00ednez (rme)",
         "merge_time_days": 3,
         "review_count": 42,
         "categories": [
@@ -33527,7 +33574,7 @@
         "description": "doc: Better document features of feelers",
         "author": "naumenkogs",
         "author_uuid": "auto_gleb_naumenko",
-        "author_name": "Gleb Naumenko",
+        "author_name": "gleb naumenko",
         "merge_time_days": 14,
         "review_count": 57,
         "categories": [
@@ -33976,7 +34023,7 @@
         "description": "p2p: avoid calculating onion address checksum when version is not 3 ",
         "author": "lontivero",
         "author_uuid": "auto_lucas_ontivero",
-        "author_name": "lucas ontivero",
+        "author_name": "Lucas Ontivero",
         "merge_time_days": 0,
         "review_count": 23,
         "categories": [
@@ -34100,7 +34147,7 @@
         "description": "Check CJDNS address is valid",
         "author": "lontivero",
         "author_uuid": "auto_lucas_ontivero",
-        "author_name": "lucas ontivero",
+        "author_name": "Lucas Ontivero",
         "merge_time_days": 4,
         "review_count": 29,
         "categories": [
@@ -34390,8 +34437,8 @@
         "review_count": 84,
         "categories": [
           "Consensus",
-          "P2P Network",
-          "Mempool & Fees"
+          "Mempool & Fees",
+          "P2P Network"
         ],
         "impact_category": "Security & Consensus",
         "public_summary": "This PR enhances the peer-to-peer transaction relay policy by adding transaction IDs (txids) with non-standard inputs to a reject filter. This helps prevent nodes from repeatedly requesting or processing transactions that are unlikely to be confirmed and might indicate malicious or wasteful peer behavior.",
@@ -34492,8 +34539,8 @@
         "merge_time_days": 65,
         "review_count": 64,
         "categories": [
-          "P2P Network",
-          "Mempool & Fees"
+          "Mempool & Fees",
+          "P2P Network"
         ],
         "impact_category": "Network & Privacy",
         "public_summary": "This PR refines the fee filter mechanism to calculate the absolute fee for transactions rather than relying on a stored fee rate. This provides a more accurate and consistent approach for peers to filter transactions based on their actual economic value.",
@@ -34520,7 +34567,7 @@
         "description": "p2p: supplying and using asmap to improve IP bucketing in addrman",
         "author": "naumenkogs",
         "author_uuid": "auto_gleb_naumenko",
-        "author_name": "Gleb Naumenko",
+        "author_name": "gleb naumenko",
         "merge_time_days": 158,
         "review_count": 279,
         "categories": [
@@ -34600,7 +34647,7 @@
         "description": "p2p: Avoid allocating memory for addrKnown where we don't need it",
         "author": "naumenkogs",
         "author_uuid": "auto_gleb_naumenko",
-        "author_name": "Gleb Naumenko",
+        "author_name": "gleb naumenko",
         "merge_time_days": 18,
         "review_count": 48,
         "categories": [
@@ -34724,7 +34771,7 @@
         "description": "scripts: Read suspicious hosts from a file instead of hardcoding",
         "author": "sanjaykdragon",
         "author_uuid": "auto_sanjay_k",
-        "author_name": "sanjay k",
+        "author_name": "Sanjay K",
         "merge_time_days": 22,
         "review_count": 33,
         "categories": [
@@ -34878,7 +34925,7 @@
         "description": "refactor: Check for overflow when calculating sum of tx outputs",
         "author": "elichai",
         "author_uuid": "auto_elichai_turkel",
-        "author_name": "Elichai Turkel",
+        "author_name": "elichai turkel",
         "merge_time_days": 14,
         "review_count": 89,
         "categories": [
@@ -35821,7 +35868,7 @@
         "description": "P2P: Make peer timeout configurable, speed up very slow test and ensure correct code path tested.",
         "author": "zallarak",
         "author_uuid": "auto_zain_iqbal_allarakhia",
-        "author_name": "Zain Iqbal Allarakhia",
+        "author_name": "zain iqbal allarakhia",
         "merge_time_days": 18,
         "review_count": 61,
         "categories": [
@@ -35836,7 +35883,7 @@
         "description": "randomize GETDATA(tx) request order and introduce bias toward outbound ",
         "author": "naumenkogs",
         "author_uuid": "auto_gleb_naumenko",
-        "author_name": "Gleb Naumenko",
+        "author_name": "gleb naumenko",
         "merge_time_days": 62,
         "review_count": 149,
         "categories": [
@@ -36058,7 +36105,7 @@
         "description": "fix a deserialization overflow edge case",
         "author": "kazcw",
         "author_uuid": "auto_keziah_wesley",
-        "author_name": "keziah wesley",
+        "author_name": "Keziah Wesley",
         "merge_time_days": 10,
         "review_count": 38,
         "categories": [
@@ -36074,7 +36121,7 @@
         "description": "fix uninitialized read when stringifying an addrLocal",
         "author": "kazcw",
         "author_uuid": "auto_keziah_wesley",
-        "author_name": "keziah wesley",
+        "author_name": "Keziah Wesley",
         "merge_time_days": 8,
         "review_count": 64,
         "categories": [
@@ -36186,7 +36233,7 @@
         "description": "Extend #11583 to include \"version handshake timeout\" message",
         "author": "clemtaylor",
         "author_uuid": "auto_clem_taylor",
-        "author_name": "Clem  Taylor",
+        "author_name": "clem  taylor",
         "merge_time_days": 3,
         "review_count": 15,
         "categories": [
@@ -36635,7 +36682,7 @@
         "description": "Add vConnect to CConnman::Options",
         "author": "benma",
         "author_uuid": "auto_marko_bencun",
-        "author_name": "Marko Bencun",
+        "author_name": "marko bencun",
         "merge_time_days": 82,
         "review_count": 51,
         "categories": [
@@ -36666,7 +36713,7 @@
         "description": "net: set regtest JSON-RPC port to 18443 to avoid conflict with testnet 18332",
         "author": "fametrano",
         "author_uuid": "auto_ferdinando_m_ametrano",
-        "author_name": "Ferdinando M. Ametrano",
+        "author_name": "ferdinando m. ametrano",
         "merge_time_days": 53,
         "review_count": 34,
         "categories": [
@@ -36727,7 +36774,7 @@
         "description": "[gui] reset addrProxy/addrSeparateProxyTor if colon char missing",
         "author": "mess110",
         "author_uuid": "auto_cristian_mircea_messel",
-        "author_name": "cristian mircea messel",
+        "author_name": "Cristian Mircea Messel",
         "merge_time_days": 5,
         "review_count": 32,
         "categories": [
@@ -37353,7 +37400,7 @@
         "description": "removed unused code in INV message",
         "author": "Greg-Griffith",
         "author_uuid": "auto_greg_griffith",
-        "author_name": "Greg Griffith",
+        "author_name": "greg griffith",
         "merge_time_days": 0,
         "review_count": 10,
         "categories": [
@@ -37368,7 +37415,7 @@
         "description": "Net: Improvements to Tor control port parser",
         "author": "str4d",
         "author_uuid": "auto_jack_grigg",
-        "author_name": "Jack Grigg",
+        "author_name": "jack grigg",
         "merge_time_days": 2,
         "review_count": 42,
         "categories": [
@@ -37489,7 +37536,7 @@
         "description": "Move CloseSocket out of SetSocketNonBlocking and pass socket as const reference",
         "author": "bytting",
         "author_uuid": "auto_dag_rob_le",
-        "author_name": "dag rob\u00f8le",
+        "author_name": "Dag Rob\u00f8le",
         "merge_time_days": 6,
         "review_count": 33,
         "categories": [
@@ -37639,7 +37686,7 @@
         "description": "Enable host lookups for -proxy and -onion parameters",
         "author": "jmcorgan",
         "author_uuid": "auto_johnathan_corgan",
-        "author_name": "johnathan corgan",
+        "author_name": "Johnathan Corgan",
         "merge_time_days": 15,
         "review_count": 33,
         "categories": [
@@ -37669,7 +37716,7 @@
         "description": "Trivial: Debug log ambiguity fix for peer addrs",
         "author": "keystrike",
         "author_uuid": "auto_james_evans",
-        "author_name": "james evans",
+        "author_name": "James Evans",
         "merge_time_days": 3,
         "review_count": 27,
         "categories": [
@@ -37899,7 +37946,7 @@
         "description": "Move AdvertiseLocal debug output to net category",
         "author": "Mirobit",
         "author_uuid": "auto_michael_rotarius",
-        "author_name": "Michael Rotarius",
+        "author_name": "michael rotarius",
         "merge_time_days": 19,
         "review_count": 13,
         "categories": [
@@ -38239,8 +38286,8 @@
         "review_count": 17,
         "categories": [
           "Ecosystem",
-          "P2P Network",
-          "Mempool & Fees"
+          "Mempool & Fees",
+          "P2P Network"
         ],
         "impact_category": "Performance & Optimization",
         "public_summary": "This PR introduces a mechanism for nodes to inform peers if they don't accept free transactions by sending a fee filter. This helps optimize network resource usage by avoiding unnecessary transaction relay.",
@@ -38286,8 +38333,8 @@
         "merge_time_days": 0,
         "review_count": 16,
         "categories": [
-          "P2P Network",
-          "Mempool & Fees"
+          "Mempool & Fees",
+          "P2P Network"
         ],
         "impact_category": "Performance & Optimization",
         "public_summary": "This PR, a refinement of #9313, ensures nodes that don't accept free transactions always communicate their minimum fee requirements. This improves network efficiency by preventing the relay of transactions that would be rejected.",
@@ -39048,7 +39095,7 @@
         "description": "Do not download transactions during initial blockchain sync",
         "author": "ptschip",
         "author_uuid": "auto_peter_tschipper",
-        "author_name": "peter tschipper",
+        "author_name": "Peter Tschipper",
         "merge_time_days": 46,
         "review_count": 163,
         "categories": [
@@ -39175,8 +39222,8 @@
         "merge_time_days": 15,
         "review_count": 22,
         "categories": [
-          "P2P Network",
-          "Mempool & Fees"
+          "Mempool & Fees",
+          "P2P Network"
         ],
         "impact_category": "Maintenance & Tech Debt",
         "public_summary": "This PR re-removes unnecessary `ERROR` logging for routine mempool transaction rejections, reducing log spam and making critical errors easier to identify. This significantly improves log readability for node operators and developers.",
@@ -39386,7 +39433,7 @@
         "description": "fix race that could fail to persist a ban",
         "author": "kazcw",
         "author_uuid": "auto_keziah_wesley",
-        "author_name": "keziah wesley",
+        "author_name": "Keziah Wesley",
         "merge_time_days": 4,
         "review_count": 16,
         "categories": [
@@ -39416,7 +39463,7 @@
         "description": "don't run ThreadMessageHandler at lowered priority",
         "author": "kazcw",
         "author_uuid": "auto_keziah_wesley",
-        "author_name": "keziah wesley",
+        "author_name": "Keziah Wesley",
         "merge_time_days": 0,
         "review_count": 20,
         "categories": [
@@ -39512,8 +39559,8 @@
         "merge_time_days": 10,
         "review_count": 31,
         "categories": [
-          "P2P Network",
-          "Mempool & Fees"
+          "Mempool & Fees",
+          "P2P Network"
         ],
         "impact_category": "Performance & Optimization",
         "public_summary": "This PR optimizes transaction retrieval from peers by preventing the mempool from being queried for `GETDATA` requests concerning transactions accepted after the last mempool request. This improves network efficiency and prevents unnecessary processing.",
@@ -39600,7 +39647,7 @@
         "description": "drop vAddrToSend after sending big addr message",
         "author": "kazcw",
         "author_uuid": "auto_keziah_wesley",
-        "author_name": "keziah wesley",
+        "author_name": "Keziah Wesley",
         "merge_time_days": 2,
         "review_count": 13,
         "categories": [
@@ -39645,7 +39692,7 @@
         "description": "Clarify documentation for running a tor node",
         "author": "nathaniel-mahieu",
         "author_uuid": "auto_nathaniel_guy_mahieu",
-        "author_name": "Nathaniel Guy Mahieu",
+        "author_name": "nathaniel guy mahieu",
         "merge_time_days": 5,
         "review_count": 16,
         "categories": [
@@ -39830,8 +39877,8 @@
         "review_count": 36,
         "categories": [
           "Ecosystem",
-          "Consensus",
-          "Mempool & Fees"
+          "Mempool & Fees",
+          "Consensus"
         ],
         "impact_category": "Security & Consensus",
         "public_summary": "This PR backports the crucial BIP9 versionbits softfork mechanism along with BIP68, BIP112, and BIP113. It enables the activation of important new transaction features like relative lock-times and `CHECKLOCKTIMEVERIFY`.",
@@ -39889,7 +39936,7 @@
         "description": "Added -whiteconnections=<n> option",
         "author": "Krellan",
         "author_uuid": "auto_josh_lehan",
-        "author_name": "josh lehan",
+        "author_name": "Josh Lehan",
         "merge_time_days": 236,
         "review_count": 63,
         "categories": [
@@ -40091,8 +40138,8 @@
         "merge_time_days": 69,
         "review_count": 82,
         "categories": [
-          "Consensus",
-          "Mempool & Fees"
+          "Mempool & Fees",
+          "Consensus"
         ],
         "impact_category": "Security & Consensus",
         "public_summary": "This PR implements BIP-113, which changes how transaction lock-times are evaluated for transactions within the mempool. It ensures transactions using relative time locks are only considered valid if their lock-time is met based on the median time past of the mempool's ancestors, not just the current block.",
@@ -40283,7 +40330,7 @@
         "description": "torcontrol: only output disconnect if -debug=tor",
         "author": "dcousens",
         "author_uuid": "auto_daniel_cousens",
-        "author_name": "daniel cousens",
+        "author_name": "Daniel Cousens",
         "merge_time_days": 13,
         "review_count": 38,
         "categories": [
@@ -40434,7 +40481,7 @@
         "description": "Removed offline testnet DNSSeed 'alexykot.me'.",
         "author": "tnull",
         "author_uuid": "auto_elias_rohrer",
-        "author_name": "Elias Rohrer",
+        "author_name": "elias rohrer",
         "merge_time_days": 1,
         "review_count": 12,
         "categories": [
@@ -40539,7 +40586,7 @@
         "description": "net: Avoid duplicate getheaders requests.",
         "author": "domob1812",
         "author_uuid": "auto_daniel_kraft",
-        "author_name": "Daniel Kraft",
+        "author_name": "daniel kraft",
         "merge_time_days": 3,
         "review_count": 46,
         "categories": [
@@ -41153,7 +41200,7 @@
         "description": "Check block header when accepting headers from peers.",
         "author": "domob1812",
         "author_uuid": "auto_daniel_kraft",
-        "author_name": "Daniel Kraft",
+        "author_name": "daniel kraft",
         "merge_time_days": 7,
         "review_count": 22,
         "categories": [

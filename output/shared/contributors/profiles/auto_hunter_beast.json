@@ -1,5 +1,5 @@
 {
-  "display_name": "hunter beast",
+  "display_name": "Hunter Beast",
   "github_login_final": "cryptoquick",
   "delving_username_final": "cryptoquick",
   "uuid": "auto_hunter_beast",
@@ -57,8 +57,8 @@
   "avg_pr_ack_velocity_days": null,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": 9.5,
-  "hybrid_score": 0.5306,
-  "p2016_hybrid_score": 0.5755,
+  "hybrid_score": 0.5308,
+  "p2016_hybrid_score": 0.5759,
   "modern_hybrid_score": 0.8042,
   "impact_score": 27.0,
   "p2016_impact_score": 29.0,

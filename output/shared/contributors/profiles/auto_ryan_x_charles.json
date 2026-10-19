@@ -78,13 +78,13 @@
     "Ecosystem"
   ],
   "expertise_by_source": {
-    "discussion": {
-      "Consensus": 0.25,
-      "Script": 0.25,
-      "Ecosystem": 0.5
-    },
     "code": {
       "Infrastructure": 1.0
+    },
+    "discussion": {
+      "Consensus": 0.25,
+      "Ecosystem": 0.5,
+      "Script": 0.25
     },
     "bips": {
       "Wallet": 1.0
@@ -92,10 +92,10 @@
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.3,
-    "Wallet": 0.5,
     "Consensus": 0.05,
-    "Script": 0.05,
-    "Ecosystem": 0.1
+    "Ecosystem": 0.1,
+    "Wallet": 0.5,
+    "Script": 0.05
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,

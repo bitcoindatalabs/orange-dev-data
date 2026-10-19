@@ -1,5 +1,5 @@
 {
-  "display_name": "Rob Golding",
+  "display_name": "rob golding",
   "github_login_final": null,
   "delving_username_final": null,
   "uuid": "auto_rob_golding",
@@ -66,13 +66,13 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Mining": 0.744,
-      "Consensus": 0.256
+      "Consensus": 0.256,
+      "Mining": 0.744
     }
   },
   "expertise_domain_scores": {
-    "Mining": 0.744,
-    "Consensus": 0.256
+    "Consensus": 0.256,
+    "Mining": 0.744
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,

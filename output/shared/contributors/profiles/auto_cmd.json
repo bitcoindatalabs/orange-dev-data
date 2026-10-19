@@ -66,8 +66,8 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Cryptography": 0.575,
-      "Wallet": 0.425
+      "Wallet": 0.425,
+      "Cryptography": 0.575
     }
   },
   "expertise_domain_scores": {

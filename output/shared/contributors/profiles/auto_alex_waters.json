@@ -65,11 +65,11 @@
     "Ecosystem"
   ],
   "expertise_by_source": {
-    "discussion": {
-      "Ecosystem": 1.0
-    },
     "code": {
       "Infrastructure": 1.0
+    },
+    "discussion": {
+      "Ecosystem": 1.0
     }
   },
   "expertise_domain_scores": {

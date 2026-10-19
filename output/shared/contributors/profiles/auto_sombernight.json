@@ -1,5 +1,5 @@
 {
-  "display_name": "SomberNight",
+  "display_name": "sombernight",
   "github_login_final": "SomberNight",
   "delving_username_final": null,
   "uuid": "auto_sombernight",
@@ -50,7 +50,7 @@
   "review_reciprocity": 3.25,
   "hybrid_score": 0.2156,
   "p2016_hybrid_score": 0.2273,
-  "modern_hybrid_score": 0.2101,
+  "modern_hybrid_score": 0.2102,
   "impact_score": 12.0,
   "p2016_impact_score": 13.0,
   "modern_impact_score": 12.0,
@@ -69,19 +69,19 @@
     "Mempool"
   ],
   "expertise_by_source": {
-    "discussion": {
-      "Mempool": 0.338,
-      "Privacy": 0.254,
-      "Wallet": 0.408
-    },
     "code": {
       "Wallet": 0.75,
       "Script": 0.25
+    },
+    "discussion": {
+      "Privacy": 0.254,
+      "Mempool": 0.338,
+      "Wallet": 0.408
     }
   },
   "expertise_domain_scores": {
-    "Mempool": 0.1352,
     "Privacy": 0.1016,
+    "Mempool": 0.1352,
     "Wallet": 0.6132,
     "Script": 0.15
   },

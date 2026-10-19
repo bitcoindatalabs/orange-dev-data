@@ -57,9 +57,9 @@
   "avg_pr_ack_velocity_days": 44.17961805555556,
   "avg_concept_lead_time_days": 2.5776234567901235,
   "review_reciprocity": 1.7692307692307692,
-  "hybrid_score": 1.0937,
-  "p2016_hybrid_score": 0.9907,
-  "modern_hybrid_score": 0.7618,
+  "hybrid_score": 1.0935,
+  "p2016_hybrid_score": 0.9904,
+  "modern_hybrid_score": 0.762,
   "impact_score": 48.0,
   "p2016_impact_score": 45.0,
   "modern_impact_score": 37.0,
@@ -78,23 +78,23 @@
     "Script"
   ],
   "expertise_by_source": {
-    "discussion": {
-      "Mempool": 0.361,
-      "Consensus": 0.222,
-      "Script": 0.417
-    },
     "code": {
       "Infrastructure": 1.0
     },
+    "discussion": {
+      "Consensus": 0.222,
+      "Mempool": 0.361,
+      "Script": 0.417
+    },
     "bips": {
-      "Infrastructure": 0.333,
-      "Consensus": 0.667
+      "Consensus": 0.667,
+      "Infrastructure": 0.333
     }
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.4665,
-    "Mempool": 0.0722,
     "Consensus": 0.3779,
+    "Mempool": 0.0722,
     "Script": 0.0834
   },
   "p2016_posts": 121.0,

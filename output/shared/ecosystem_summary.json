@@ -1,37 +1,37 @@
 {
-  "generated_at": "2026-10-11",
+  "generated_at": "2026-10-18",
   "groups": {
-    "committers": 1274,
-    "reviewers": 5282,
-    "research": 1694,
-    "standards": 162,
-    "total_active": 6651,
-    "total_registry": 7810
+    "committers": 1275,
+    "reviewers": 5288,
+    "research": 1697,
+    "standards": 163,
+    "total_active": 6660,
+    "total_registry": 7823
   },
   "venn_4": {
     "0001": 12,
-    "0010": 1191,
+    "0010": 1193,
     "0011": 27,
-    "0100": 3962,
+    "0100": 3968,
     "0101": 6,
     "0110": 143,
     "0111": 36,
-    "1000": 125,
+    "1000": 126,
     "1001": 1,
     "1010": 12,
     "1011": 1,
-    "1100": 849,
+    "1100": 848,
     "1101": 2,
     "1110": 207,
-    "1111": 77
+    "1111": 78
   },
   "venn_summary": {
-    "code_only": 125,
-    "review_only": 3962,
-    "research_only": 1191,
+    "code_only": 126,
+    "review_only": 3968,
+    "research_only": 1193,
     "standards_only": 12,
-    "all_four": 77,
-    "code_review": 849,
+    "all_four": 78,
+    "code_review": 848,
     "review_research": 143,
     "research_standards": 27
   },
@@ -41,31 +41,31 @@
     "value": "BIP 70"
   },
   "spotlight": {
-    "name": "jehudi castro-sierra",
-    "uuid": "auto_jehudi_castro_sierra",
-    "github_login": "jcastros",
-    "description": "First-time core contributor recently merged PR #36432 (wallet: show real fee_reason strings in help)."
+    "name": "yashspidey",
+    "uuid": "auto_yashspidey",
+    "github_login": "yashspidey",
+    "description": "First-time core contributor recently merged PR #36441 (doc: fix How to Upgrade section for bitcoin wrapper and libexec)."
   },
   "onboarding": {
     "new_coders_90d": 33,
-    "new_coders_30d": 14,
-    "new_coders_7d": 2,
-    "new_discussants_90d": 44,
-    "new_discussants_7d": 5,
+    "new_coders_30d": 10,
+    "new_coders_7d": 1,
+    "new_discussants_90d": 43,
+    "new_discussants_7d": 3,
     "window_days": 90
   },
   "prs": {
-    "total_merged": 17074,
-    "merged_30d": 137,
-    "merged_prev_30d": 144,
-    "merged_7d": 42,
-    "merged_prev_7d": 24
+    "total_merged": 17093,
+    "merged_30d": 125,
+    "merged_prev_30d": 138,
+    "merged_7d": 19,
+    "merged_prev_7d": 42
   },
   "commits": {
-    "commits_30d": 320,
-    "commits_prev_30d": 448,
-    "commits_7d": 70,
-    "commits_prev_7d": 64
+    "commits_30d": 300,
+    "commits_prev_30d": 428,
+    "commits_7d": 53,
+    "commits_prev_7d": 79
   },
   "bips": {
     "total": 213,
@@ -76,20 +76,20 @@
       {
         "category": "quantum",
         "label": "Quantum",
-        "count": 112,
-        "share": 22.1
+        "count": 103,
+        "share": 21.8
       },
       {
         "category": "mining",
         "label": "Mining",
-        "count": 56,
-        "share": 11.0
+        "count": 51,
+        "share": 10.8
       },
       {
         "category": "taproot",
         "label": "Taproot",
-        "count": 37,
-        "share": 7.3
+        "count": 32,
+        "share": 6.8
       }
     ],
     "top_bips": [

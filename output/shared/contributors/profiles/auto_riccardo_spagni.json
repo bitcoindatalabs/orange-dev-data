@@ -1,5 +1,5 @@
 {
-  "display_name": "riccardo spagni",
+  "display_name": "Riccardo Spagni",
   "github_login_final": null,
   "delving_username_final": null,
   "uuid": "auto_riccardo_spagni",
@@ -66,20 +66,20 @@
     "Mempool"
   ],
   "expertise_by_source": {
-    "discussion": {
-      "Mempool": 0.253,
-      "Privacy": 0.121,
-      "Ecosystem": 0.626
-    },
     "code": {
       "Infrastructure": 1.0
+    },
+    "discussion": {
+      "Ecosystem": 0.626,
+      "Privacy": 0.121,
+      "Mempool": 0.253
     }
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.6,
-    "Mempool": 0.1012,
+    "Ecosystem": 0.2504,
     "Privacy": 0.0484,
-    "Ecosystem": 0.2504
+    "Mempool": 0.1012
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,

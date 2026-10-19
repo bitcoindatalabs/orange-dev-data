@@ -53,9 +53,9 @@
   "avg_pr_ack_velocity_days": 4.078164457070707,
   "avg_concept_lead_time_days": 12.787504340277778,
   "review_reciprocity": 1.2195121951219512,
-  "hybrid_score": 0.5864,
-  "p2016_hybrid_score": 0.7153,
-  "modern_hybrid_score": 0.4578,
+  "hybrid_score": 0.5863,
+  "p2016_hybrid_score": 0.715,
+  "modern_hybrid_score": 0.462,
   "impact_score": 30.0,
   "p2016_impact_score": 35.0,
   "modern_impact_score": 24.0,
@@ -74,13 +74,13 @@
     "Consensus"
   ],
   "expertise_by_source": {
-    "discussion": {
-      "Consensus": 0.31,
-      "Script": 0.69
-    },
     "code": {
       "Infrastructure": 0.975,
       "Script": 0.025
+    },
+    "discussion": {
+      "Consensus": 0.31,
+      "Script": 0.69
     }
   },
   "expertise_domain_scores": {
@@ -89,10 +89,10 @@
     "Script": 0.291
   },
   "p2016_posts": 235.0,
-  "modern_posts": 24.0,
+  "modern_posts": 23.0,
   "p2016_ml_posts": 226.0,
   "p2016_delving_posts": 9.0,
-  "modern_ml_posts": 15.0,
+  "modern_ml_posts": 14.0,
   "modern_delving_posts": 9.0,
   "is_engineer": true,
   "is_reviewer": true,

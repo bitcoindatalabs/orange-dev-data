@@ -1,5 +1,5 @@
 {
-  "display_name": "Eugene Sadovoi",
+  "display_name": "eugene sadovoi",
   "github_login_final": "ENikS",
   "delving_username_final": null,
   "uuid": "auto_eugene_sadovoi",
@@ -68,17 +68,17 @@
   "expertise_by_source": {
     "code": {
       "Infrastructure": 0.693,
-      "Network": 0.025,
-      "Mempool": 0.025,
+      "Script": 0.231,
       "Consensus": 0.025,
-      "Script": 0.231
+      "Network": 0.025,
+      "Mempool": 0.025
     }
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.6937,
+    "Consensus": 0.025,
     "Mempool": 0.025,
     "Network": 0.025,
-    "Consensus": 0.025,
     "Script": 0.2312
   },
   "p2016_posts": 0.0,

@@ -65,11 +65,11 @@
     "Network"
   ],
   "expertise_by_source": {
-    "discussion": {
-      "Network": 1.0
-    },
     "code": {
       "Infrastructure": 1.0
+    },
+    "discussion": {
+      "Network": 1.0
     }
   },
   "expertise_domain_scores": {

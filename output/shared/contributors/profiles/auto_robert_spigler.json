@@ -1,5 +1,5 @@
 {
-  "display_name": "Robert Spigler",
+  "display_name": "robert spigler",
   "github_login_final": "Rspigler",
   "delving_username_final": null,
   "uuid": "auto_robert_spigler",
@@ -78,12 +78,12 @@
     "Consensus"
   ],
   "expertise_by_source": {
+    "code": {
+      "Infrastructure": 1.0
+    },
     "discussion": {
       "Consensus": 0.233,
       "Wallet": 0.767
-    },
-    "code": {
-      "Infrastructure": 1.0
     },
     "bips": {
       "Wallet": 1.0
@@ -91,8 +91,8 @@
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.3,
-    "Wallet": 0.6534,
-    "Consensus": 0.0466
+    "Consensus": 0.0466,
+    "Wallet": 0.6534
   },
   "p2016_posts": 11.0,
   "modern_posts": 0.0,

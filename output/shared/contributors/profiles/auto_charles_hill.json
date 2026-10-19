@@ -66,13 +66,13 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Cryptography": 0.5,
-      "Ecosystem": 0.5
+      "Ecosystem": 0.5,
+      "Cryptography": 0.5
     }
   },
   "expertise_domain_scores": {
-    "Cryptography": 0.5,
-    "Ecosystem": 0.5
+    "Ecosystem": 0.5,
+    "Cryptography": 0.5
   },
   "p2016_posts": 2.0,
   "modern_posts": 0.0,

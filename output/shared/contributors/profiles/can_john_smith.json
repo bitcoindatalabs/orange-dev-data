@@ -65,11 +65,11 @@
     "Mining"
   ],
   "expertise_by_source": {
-    "discussion": {
-      "Mining": 1.0
-    },
     "code": {
       "Infrastructure": 1.0
+    },
+    "discussion": {
+      "Mining": 1.0
     }
   },
   "expertise_domain_scores": {

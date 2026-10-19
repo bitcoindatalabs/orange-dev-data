@@ -1,5 +1,5 @@
 {
-  "display_name": "carla kirk-cohen",
+  "display_name": "Carla Kirk-Cohen",
   "github_login_final": null,
   "delving_username_final": "carla",
   "uuid": "auto_carla_kirk_cohen",
@@ -67,15 +67,15 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Mempool": 0.105,
+      "L2": 0.686,
       "Privacy": 0.209,
-      "L2": 0.686
+      "Mempool": 0.105
     }
   },
   "expertise_domain_scores": {
-    "Mempool": 0.105,
+    "L2": 0.686,
     "Privacy": 0.209,
-    "L2": 0.686
+    "Mempool": 0.105
   },
   "p2016_posts": 14.0,
   "modern_posts": 14.0,

@@ -1,5 +1,5 @@
 {
-  "display_name": "Steve Lee",
+  "display_name": "steve lee",
   "github_login_final": "moneyball",
   "delving_username_final": "moneyball",
   "uuid": "auto_steve_lee",
@@ -45,9 +45,9 @@
   "avg_pr_ack_velocity_days": 8.067372685185186,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": 4.333333333333333,
-  "hybrid_score": 0.1598,
+  "hybrid_score": 0.1597,
   "p2016_hybrid_score": 0.1756,
-  "modern_hybrid_score": 0.139,
+  "modern_hybrid_score": 0.1391,
   "impact_score": 9.0,
   "p2016_impact_score": 10.0,
   "modern_impact_score": 8.0,
@@ -66,18 +66,18 @@
     "Script"
   ],
   "expertise_by_source": {
-    "discussion": {
-      "Script": 0.37,
-      "Ecosystem": 0.63
-    },
     "code": {
       "Infrastructure": 1.0
+    },
+    "discussion": {
+      "Ecosystem": 0.63,
+      "Script": 0.37
     }
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.6,
-    "Script": 0.148,
-    "Ecosystem": 0.252
+    "Ecosystem": 0.252,
+    "Script": 0.148
   },
   "p2016_posts": 21.0,
   "modern_posts": 9.0,

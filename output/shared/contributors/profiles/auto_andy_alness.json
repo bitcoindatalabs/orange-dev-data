@@ -1,5 +1,5 @@
 {
-  "display_name": "andy alness",
+  "display_name": "Andy Alness",
   "github_login_final": "aalness",
   "delving_username_final": null,
   "uuid": "auto_andy_alness",
@@ -66,18 +66,18 @@
     "Mempool"
   ],
   "expertise_by_source": {
-    "discussion": {
-      "Mempool": 0.141,
-      "Ecosystem": 0.859
-    },
     "code": {
       "Script": 1.0
+    },
+    "discussion": {
+      "Ecosystem": 0.859,
+      "Mempool": 0.141
     }
   },
   "expertise_domain_scores": {
+    "Ecosystem": 0.3436,
     "Mempool": 0.0564,
-    "Script": 0.6,
-    "Ecosystem": 0.3436
+    "Script": 0.6
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,

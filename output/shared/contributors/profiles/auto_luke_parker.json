@@ -1,5 +1,5 @@
 {
-  "display_name": "Luke Parker",
+  "display_name": "luke parker",
   "github_login_final": null,
   "delving_username_final": "kayabanerve",
   "uuid": "auto_luke_parker",
@@ -66,13 +66,13 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Privacy": 0.33,
-      "Consensus": 0.67
+      "Consensus": 0.67,
+      "Privacy": 0.33
     }
   },
   "expertise_domain_scores": {
-    "Privacy": 0.33,
-    "Consensus": 0.67
+    "Consensus": 0.67,
+    "Privacy": 0.33
   },
   "p2016_posts": 4.0,
   "modern_posts": 4.0,

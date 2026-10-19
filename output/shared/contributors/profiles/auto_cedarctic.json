@@ -61,15 +61,18 @@
   "last_active": null,
   "dev_type": "Participant",
   "expertise_domains": [
-    "Network"
+    "Network",
+    "Mining"
   ],
   "expertise_by_source": {
     "discussion": {
-      "Network": 1.0
+      "Mining": 0.325,
+      "Network": 0.675
     }
   },
   "expertise_domain_scores": {
-    "Network": 1.0
+    "Mining": 0.325,
+    "Network": 0.675
   },
   "p2016_posts": 5.0,
   "modern_posts": 5.0,
@@ -110,7 +113,8 @@
       "security": 4
     },
     "2026": {
-      "core-dev": 1
+      "core-dev": 1,
+      "mining": 1
     }
   }
 }

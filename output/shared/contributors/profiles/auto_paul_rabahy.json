@@ -1,5 +1,5 @@
 {
-  "display_name": "Paul Rabahy",
+  "display_name": "paul rabahy",
   "github_login_final": "PRabahy",
   "delving_username_final": null,
   "uuid": "auto_paul_rabahy",
@@ -65,11 +65,11 @@
     "Privacy"
   ],
   "expertise_by_source": {
-    "discussion": {
-      "Privacy": 1.0
-    },
     "code": {
       "Infrastructure": 1.0
+    },
+    "discussion": {
+      "Privacy": 1.0
     }
   },
   "expertise_domain_scores": {

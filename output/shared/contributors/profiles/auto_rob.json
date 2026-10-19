@@ -52,11 +52,11 @@
   "p2016_impact_score": 0.0,
   "modern_impact_score": 0.0,
   "threads_started": 5.0,
-  "replies_sent": 2.0,
+  "replies_sent": 3.0,
   "ml_threads": 0.0,
   "delving_threads": 5.0,
   "ml_responses": 0.0,
-  "delving_responses": 2.0,
+  "delving_responses": 3.0,
   "first_active": null,
   "last_active": null,
   "dev_type": "Participant",
@@ -66,20 +66,20 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Privacy": 0.338,
-      "Network": 0.662
+      "Privacy": 0.333,
+      "Network": 0.667
     }
   },
   "expertise_domain_scores": {
-    "Privacy": 0.338,
-    "Network": 0.662
+    "Privacy": 0.333,
+    "Network": 0.667
   },
-  "p2016_posts": 7.0,
-  "modern_posts": 7.0,
+  "p2016_posts": 8.0,
+  "modern_posts": 8.0,
   "p2016_ml_posts": 0.0,
-  "p2016_delving_posts": 7.0,
+  "p2016_delving_posts": 8.0,
   "modern_ml_posts": 0.0,
-  "modern_delving_posts": 7.0,
+  "modern_delving_posts": 8.0,
   "is_engineer": false,
   "is_reviewer": false,
   "is_researcher": false,
@@ -103,9 +103,9 @@
   },
   "last_message": {
     "source": "delving",
-    "subject": "Re: Binary Fuse filters as an alternative to BIP 158 GCS",
-    "date": "2026-05-21",
-    "link": "https://delvingbitcoin.org/t/binary-fuse-filters-as-an-alternative-to-bip-158-gcs/2428/8"
+    "subject": "Re: SwiftSync -- Speeding up IBD with pre-generated hints (PoC)",
+    "date": "2026-10-18",
+    "link": "https://delvingbitcoin.org/t/swiftsync-speeding-up-ibd-with-pre-generated-hints-poc/1562/19"
   },
   "social_history": {
     "2024": {
@@ -120,7 +120,8 @@
     },
     "2026": {
       "p2p-network": 3,
-      "privacy": 3
+      "privacy": 3,
+      "utxo-sync": 1
     }
   }
 }

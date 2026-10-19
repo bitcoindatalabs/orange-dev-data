@@ -53,7 +53,7 @@
   "avg_pr_ack_velocity_days": 6.211141975308642,
   "avg_concept_lead_time_days": 12.437359664351852,
   "review_reciprocity": 6.444444444444445,
-  "hybrid_score": 0.6806,
+  "hybrid_score": 0.6805,
   "p2016_hybrid_score": 0.7842,
   "modern_hybrid_score": 0.5008,
   "impact_score": 34.0,
@@ -74,33 +74,33 @@
     "Mempool"
   ],
   "expertise_by_source": {
-    "discussion": {
-      "Mempool": 0.45,
-      "L2": 0.25,
-      "Script": 0.3
-    },
     "code": {
       "Infrastructure": 0.451,
-      "Network": 0.067,
       "Wallet": 0.426,
-      "Mempool": 0.004,
-      "Consensus": 0.053
+      "Consensus": 0.053,
+      "Network": 0.067,
+      "Mempool": 0.004
+    },
+    "discussion": {
+      "L2": 0.25,
+      "Mempool": 0.45,
+      "Script": 0.3
     }
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.2704,
-    "Mempool": 0.1823,
-    "L2": 0.0999,
-    "Network": 0.0402,
-    "Wallet": 0.2554,
     "Consensus": 0.0318,
+    "L2": 0.0999,
+    "Mempool": 0.1823,
+    "Wallet": 0.2554,
+    "Network": 0.0402,
     "Script": 0.1199
   },
   "p2016_posts": 427.0,
-  "modern_posts": 247.0,
+  "modern_posts": 236.0,
   "p2016_ml_posts": 360.0,
   "p2016_delving_posts": 67.0,
-  "modern_ml_posts": 180.0,
+  "modern_ml_posts": 169.0,
   "modern_delving_posts": 67.0,
   "is_engineer": true,
   "is_reviewer": true,

@@ -1,5 +1,5 @@
 {
-  "display_name": "George Tsagkarelis",
+  "display_name": "george tsagkarelis",
   "github_login_final": null,
   "delving_username_final": "georgetsagk",
   "uuid": "auto_george_tsagkarelis",
@@ -66,13 +66,13 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Privacy": 0.272,
-      "L2": 0.728
+      "L2": 0.728,
+      "Privacy": 0.272
     }
   },
   "expertise_domain_scores": {
-    "Privacy": 0.272,
-    "L2": 0.728
+    "L2": 0.728,
+    "Privacy": 0.272
   },
   "p2016_posts": 8.0,
   "modern_posts": 8.0,

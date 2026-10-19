@@ -41,25 +41,25 @@
   "modern_bips_authored": 1.0,
   "first_bip_date": "2026-05-08T03:49:03",
   "last_bip_date": "2026-05-08T03:49:03",
-  "avg_review_latency_days": 495.8051401252885,
-  "reviews_count": 128.0,
-  "avg_approval_latency_days": 289.9644945245726,
-  "approvals_count": 99.0,
-  "tier1_reviews_count": 127.0,
+  "avg_review_latency_days": 494.35213510848126,
+  "reviews_count": 129.0,
+  "avg_approval_latency_days": 288.14745598903045,
+  "approvals_count": 100.0,
+  "tier1_reviews_count": 128.0,
   "tier2_reviews_count": 1.0,
-  "p2016_reviews_count": 128.0,
-  "modern_reviews_count": 128.0,
+  "p2016_reviews_count": 129.0,
+  "modern_reviews_count": 129.0,
   "first_review_date": "2024-10-29T12:22:59",
-  "last_review_date": "2026-10-09T16:17:48",
+  "last_review_date": "2026-10-15T06:33:54",
   "prs_authored": 29.0,
   "tier1_prs_authored": 29.0,
   "tier2_prs_authored": 0.0,
   "avg_pr_ack_velocity_days": 36.58361827601411,
   "avg_concept_lead_time_days": 49.27462239583333,
-  "review_reciprocity": 4.413793103448276,
-  "hybrid_score": 0.77,
-  "p2016_hybrid_score": 0.7729,
-  "modern_hybrid_score": 0.8074,
+  "review_reciprocity": 4.448275862068965,
+  "hybrid_score": 0.7702,
+  "p2016_hybrid_score": 0.7732,
+  "modern_hybrid_score": 0.8076,
   "impact_score": 37.0,
   "p2016_impact_score": 37.0,
   "modern_impact_score": 38.0,
@@ -78,17 +78,17 @@
     "Wallet"
   ],
   "expertise_by_source": {
+    "code": {
+      "Infrastructure": 0.643,
+      "Wallet": 0.311,
+      "Script": 0.005,
+      "Consensus": 0.024,
+      "Network": 0.009,
+      "Mempool": 0.008
+    },
     "discussion": {
       "Mining": 0.32,
       "Network": 0.68
-    },
-    "code": {
-      "Infrastructure": 0.643,
-      "Network": 0.009,
-      "Wallet": 0.311,
-      "Mempool": 0.008,
-      "Consensus": 0.024,
-      "Script": 0.005
     },
     "bips": {
       "Infrastructure": 1.0
@@ -97,8 +97,8 @@
   "expertise_domain_scores": {
     "Infrastructure": 0.6929,
     "Mining": 0.064,
-    "Network": 0.1387,
-    "Wallet": 0.0933
+    "Wallet": 0.0933,
+    "Network": 0.1387
   },
   "p2016_posts": 6.0,
   "modern_posts": 6.0,
@@ -111,7 +111,7 @@
   "is_researcher": true,
   "is_bip_author": true,
   "global_first_active": "2012-03-19T12:13:09",
-  "global_last_active": "2026-10-09T16:17:48",
+  "global_last_active": "2026-10-15T06:33:54",
   "github_location": "BCN",
   "github_company": "UAB",
   "github_bio": "PhD student researching Bitcoin and the Lightning Network ⚡ at UAB |||\r\n\r\n\r\nPGP: 2847 0907 B40B F26D",

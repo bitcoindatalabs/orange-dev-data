@@ -1,5 +1,5 @@
 {
-  "display_name": "Daniel Kraft",
+  "display_name": "daniel kraft",
   "github_login_final": "domob1812",
   "delving_username_final": null,
   "uuid": "auto_daniel_kraft",
@@ -66,21 +66,21 @@
     "Wallet"
   ],
   "expertise_by_source": {
-    "discussion": {
-      "Consensus": 1.0
-    },
     "code": {
       "Infrastructure": 0.868,
       "Wallet": 0.06,
-      "Mempool": 0.023,
-      "Consensus": 0.049
+      "Consensus": 0.049,
+      "Mempool": 0.023
+    },
+    "discussion": {
+      "Consensus": 1.0
     }
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.5208,
+    "Consensus": 0.4294,
     "Mempool": 0.0138,
-    "Wallet": 0.036,
-    "Consensus": 0.4294
+    "Wallet": 0.036
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,

@@ -66,18 +66,18 @@
     "L2"
   ],
   "expertise_by_source": {
-    "discussion": {
-      "Mempool": 0.67,
-      "L2": 0.33
-    },
     "code": {
       "Infrastructure": 1.0
+    },
+    "discussion": {
+      "L2": 0.33,
+      "Mempool": 0.67
     }
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.6,
-    "Mempool": 0.268,
-    "L2": 0.132
+    "L2": 0.132,
+    "Mempool": 0.268
   },
   "p2016_posts": 1.0,
   "modern_posts": 0.0,

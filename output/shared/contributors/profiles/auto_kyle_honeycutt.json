@@ -1,5 +1,5 @@
 {
-  "display_name": "kyle honeycutt",
+  "display_name": "Kyle Honeycutt",
   "github_login_final": "coinables",
   "delving_username_final": null,
   "uuid": "auto_kyle_honeycutt",
@@ -65,11 +65,11 @@
     "Wallet"
   ],
   "expertise_by_source": {
-    "discussion": {
-      "Wallet": 1.0
-    },
     "code": {
       "Infrastructure": 1.0
+    },
+    "discussion": {
+      "Wallet": 1.0
     }
   },
   "expertise_domain_scores": {

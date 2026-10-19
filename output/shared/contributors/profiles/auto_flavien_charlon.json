@@ -66,21 +66,21 @@
     "Ecosystem"
   ],
   "expertise_by_source": {
-    "discussion": {
-      "Consensus": 0.136,
-      "Script": 0.432,
-      "Ecosystem": 0.432
-    },
     "code": {
       "Infrastructure": 0.5,
       "Script": 0.5
+    },
+    "discussion": {
+      "Consensus": 0.136,
+      "Ecosystem": 0.432,
+      "Script": 0.432
     }
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.3,
     "Consensus": 0.0544,
-    "Script": 0.4728,
-    "Ecosystem": 0.1728
+    "Ecosystem": 0.1728,
+    "Script": 0.4728
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,

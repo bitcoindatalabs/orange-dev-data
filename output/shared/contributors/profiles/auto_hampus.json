@@ -1,5 +1,5 @@
 {
-  "display_name": "hampus",
+  "display_name": "Hampus",
   "github_login_final": null,
   "delving_username_final": "hampus",
   "uuid": "auto_hampus",
@@ -67,14 +67,14 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "L2": 0.25,
       "Consensus": 0.25,
+      "L2": 0.25,
       "Script": 0.5
     }
   },
   "expertise_domain_scores": {
-    "L2": 0.25,
     "Consensus": 0.25,
+    "L2": 0.25,
     "Script": 0.5
   },
   "p2016_posts": 1.0,

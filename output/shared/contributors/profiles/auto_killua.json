@@ -1,5 +1,5 @@
 {
-  "display_name": "Killua",
+  "display_name": "killua",
   "github_login_final": null,
   "delving_username_final": "coinjoinkillua",
   "uuid": "auto_killua",
@@ -68,14 +68,14 @@
   "expertise_by_source": {
     "discussion": {
       "Mining": 0.625,
-      "Mempool": 0.25,
-      "Privacy": 0.125
+      "Privacy": 0.125,
+      "Mempool": 0.25
     }
   },
   "expertise_domain_scores": {
     "Mining": 0.625,
-    "Mempool": 0.25,
-    "Privacy": 0.125
+    "Privacy": 0.125,
+    "Mempool": 0.25
   },
   "p2016_posts": 6.0,
   "modern_posts": 6.0,

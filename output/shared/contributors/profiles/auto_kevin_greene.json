@@ -71,8 +71,8 @@
     }
   },
   "expertise_domain_scores": {
-    "Network": 0.279,
-    "Ecosystem": 0.721
+    "Ecosystem": 0.721,
+    "Network": 0.279
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,

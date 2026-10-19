@@ -1,5 +1,5 @@
 {
-  "display_name": "sceptic",
+  "display_name": "Sceptic",
   "github_login_final": null,
   "delving_username_final": "sceptic",
   "uuid": "auto_sceptic",
@@ -66,13 +66,13 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Mempool": 0.746,
-      "Consensus": 0.254
+      "Consensus": 0.254,
+      "Mempool": 0.746
     }
   },
   "expertise_domain_scores": {
-    "Mempool": 0.746,
-    "Consensus": 0.254
+    "Consensus": 0.254,
+    "Mempool": 0.746
   },
   "p2016_posts": 1.0,
   "modern_posts": 1.0,

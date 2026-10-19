@@ -1,5 +1,5 @@
 {
-  "display_name": "jan b",
+  "display_name": "Jan B",
   "github_login_final": "janb84",
   "delving_username_final": "janb84",
   "uuid": "auto_jan_b",
@@ -62,19 +62,22 @@
   "dev_type": "Builder",
   "expertise_domains": [
     "Infrastructure",
-    "Mempool"
+    "Mempool",
+    "Mining"
   ],
   "expertise_by_source": {
-    "discussion": {
-      "Mempool": 1.0
-    },
     "code": {
       "Infrastructure": 1.0
+    },
+    "discussion": {
+      "Mining": 0.247,
+      "Mempool": 0.753
     }
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.6,
-    "Mempool": 0.4
+    "Mining": 0.0988,
+    "Mempool": 0.3012
   },
   "p2016_posts": 4.0,
   "modern_posts": 4.0,
@@ -122,7 +125,8 @@
   "social_history": {
     "2026": {
       "core-dev": 1,
-      "mempool-fees": 3
+      "mempool-fees": 3,
+      "mining": 1
     }
   }
 }

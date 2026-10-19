@@ -1,5 +1,5 @@
 {
-  "display_name": "adam weiss",
+  "display_name": "Adam Weiss",
   "github_login_final": "ajweiss",
   "delving_username_final": null,
   "uuid": "auto_adam_weiss",
@@ -65,11 +65,11 @@
     "Wallet"
   ],
   "expertise_by_source": {
-    "discussion": {
-      "Wallet": 1.0
-    },
     "code": {
       "Infrastructure": 1.0
+    },
+    "discussion": {
+      "Wallet": 1.0
     }
   },
   "expertise_domain_scores": {

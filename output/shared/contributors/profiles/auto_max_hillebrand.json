@@ -1,5 +1,5 @@
 {
-  "display_name": "Max Hillebrand",
+  "display_name": "max hillebrand",
   "github_login_final": null,
   "delving_username_final": null,
   "uuid": "auto_max_hillebrand",
@@ -66,13 +66,13 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Privacy": 0.912,
-      "Ecosystem": 0.088
+      "Ecosystem": 0.088,
+      "Privacy": 0.912
     }
   },
   "expertise_domain_scores": {
-    "Privacy": 0.912,
-    "Ecosystem": 0.088
+    "Ecosystem": 0.088,
+    "Privacy": 0.912
   },
   "p2016_posts": 6.0,
   "modern_posts": 0.0,

@@ -1,5 +1,5 @@
 {
-  "display_name": "Marathon Gary",
+  "display_name": "marathon gary",
   "github_login_final": null,
   "delving_username_final": "marathon-gary",
   "uuid": "auto_marathon_gary",
@@ -51,10 +51,10 @@
   "impact_score": 0.0,
   "p2016_impact_score": 0.0,
   "modern_impact_score": 0.0,
-  "threads_started": 13.0,
+  "threads_started": 14.0,
   "replies_sent": 17.0,
   "ml_threads": 0.0,
-  "delving_threads": 13.0,
+  "delving_threads": 14.0,
   "ml_responses": 0.0,
   "delving_responses": 17.0,
   "first_active": null,
@@ -67,22 +67,22 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Mining": 0.657,
-      "Mempool": 0.179,
-      "Consensus": 0.164
+      "Consensus": 0.152,
+      "Mining": 0.667,
+      "Mempool": 0.182
     }
   },
   "expertise_domain_scores": {
-    "Mining": 0.657,
-    "Mempool": 0.179,
-    "Consensus": 0.164
+    "Consensus": 0.1518,
+    "Mining": 0.6663,
+    "Mempool": 0.1818
   },
-  "p2016_posts": 30.0,
-  "modern_posts": 30.0,
+  "p2016_posts": 31.0,
+  "modern_posts": 31.0,
   "p2016_ml_posts": 0.0,
-  "p2016_delving_posts": 30.0,
+  "p2016_delving_posts": 31.0,
   "modern_ml_posts": 0.0,
-  "modern_delving_posts": 30.0,
+  "modern_delving_posts": 31.0,
   "is_engineer": false,
   "is_reviewer": false,
   "is_researcher": false,
@@ -107,8 +107,8 @@
   "last_message": {
     "source": "delving",
     "subject": "Re: Silent Payments coinbase",
-    "date": "2026-08-31",
-    "link": "https://delvingbitcoin.org/t/silent-payments-coinbase/2833/5"
+    "date": "2026-10-13",
+    "link": "https://delvingbitcoin.org/t/silent-payments-coinbase/2833/7"
   },
   "social_history": {
     "2024": {
@@ -128,9 +128,9 @@
       "vaults": 3
     },
     "2026": {
-      "mining": 4,
+      "mining": 5,
       "other": 1,
-      "silent-payments": 3
+      "silent-payments": 4
     }
   }
 }

@@ -1,5 +1,5 @@
 {
-  "display_name": "LORD HIS EXCELLENCY JAMES HRMH",
+  "display_name": "lord his excellency james hrmh",
   "github_login_final": "Willtech",
   "delving_username_final": null,
   "uuid": "auto_lord_his_excellency_james_hrmh",
@@ -45,8 +45,8 @@
   "avg_pr_ack_velocity_days": 33.90668402777778,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": 2.0,
-  "hybrid_score": 0.2089,
-  "p2016_hybrid_score": 0.272,
+  "hybrid_score": 0.2088,
+  "p2016_hybrid_score": 0.2719,
   "modern_hybrid_score": 0.033,
   "impact_score": 12.0,
   "p2016_impact_score": 15.0,
@@ -66,18 +66,18 @@
     "Mining"
   ],
   "expertise_by_source": {
-    "discussion": {
-      "Mining": 0.414,
-      "Consensus": 0.586
-    },
     "code": {
       "Infrastructure": 1.0
+    },
+    "discussion": {
+      "Consensus": 0.586,
+      "Mining": 0.414
     }
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.6,
-    "Mining": 0.1656,
-    "Consensus": 0.2344
+    "Consensus": 0.2344,
+    "Mining": 0.1656
   },
   "p2016_posts": 77.0,
   "modern_posts": 0.0,

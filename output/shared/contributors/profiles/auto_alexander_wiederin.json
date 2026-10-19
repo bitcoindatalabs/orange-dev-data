@@ -1,7 +1,7 @@
 {
-  "display_name": "Alexander Wiederin",
+  "display_name": "alexander wiederin",
   "github_login_final": "alexanderwiederin",
-  "delving_username_final": null,
+  "delving_username_final": "alexanderwiederin",
   "uuid": "auto_alexander_wiederin",
   "badges": null,
   "roles": null,
@@ -29,32 +29,32 @@
   "modern_bips_authored": 0.0,
   "first_bip_date": null,
   "last_bip_date": null,
-  "avg_review_latency_days": 140.0137006974507,
-  "reviews_count": 28.0,
+  "avg_review_latency_days": 138.33005552625409,
+  "reviews_count": 29.0,
   "avg_approval_latency_days": 64.46457947530864,
   "approvals_count": 20.0,
-  "tier1_reviews_count": 28.0,
+  "tier1_reviews_count": 29.0,
   "tier2_reviews_count": 0.0,
-  "p2016_reviews_count": 28.0,
-  "modern_reviews_count": 27.0,
+  "p2016_reviews_count": 29.0,
+  "modern_reviews_count": 28.0,
   "first_review_date": "2023-05-30T12:38:58",
-  "last_review_date": "2026-10-10T15:00:25",
+  "last_review_date": "2026-10-12T12:14:58",
   "prs_authored": 7.0,
   "tier1_prs_authored": 7.0,
   "tier2_prs_authored": 0.0,
   "avg_pr_ack_velocity_days": 0.8551678240740741,
   "avg_concept_lead_time_days": 0.4717708333333333,
-  "review_reciprocity": 4.0,
-  "hybrid_score": 0.229,
-  "p2016_hybrid_score": 0.229,
-  "modern_hybrid_score": 0.2278,
+  "review_reciprocity": 4.142857142857143,
+  "hybrid_score": 0.2301,
+  "p2016_hybrid_score": 0.2301,
+  "modern_hybrid_score": 0.229,
   "impact_score": 13.0,
   "p2016_impact_score": 13.0,
   "modern_impact_score": 13.0,
-  "threads_started": 0.0,
+  "threads_started": 1.0,
   "replies_sent": 0.0,
   "ml_threads": 0.0,
-  "delving_threads": 0.0,
+  "delving_threads": 1.0,
   "ml_responses": 0.0,
   "delving_responses": 0.0,
   "first_active": null,
@@ -62,30 +62,35 @@
   "dev_type": "Builder",
   "expertise_domains": [
     "Consensus",
+    "Mining",
     "Infrastructure"
   ],
   "expertise_by_source": {
     "code": {
       "Infrastructure": 0.2,
       "Consensus": 0.8
+    },
+    "discussion": {
+      "Mining": 1.0
     }
   },
   "expertise_domain_scores": {
-    "Infrastructure": 0.2,
-    "Consensus": 0.8
+    "Infrastructure": 0.12,
+    "Consensus": 0.48,
+    "Mining": 0.4
   },
-  "p2016_posts": 0.0,
-  "modern_posts": 0.0,
+  "p2016_posts": 1.0,
+  "modern_posts": 1.0,
   "p2016_ml_posts": 0.0,
-  "p2016_delving_posts": 0.0,
+  "p2016_delving_posts": 1.0,
   "modern_ml_posts": 0.0,
-  "modern_delving_posts": 0.0,
+  "modern_delving_posts": 1.0,
   "is_engineer": true,
   "is_reviewer": true,
   "is_researcher": false,
   "is_bip_author": false,
   "global_first_active": "2023-05-30T12:38:58",
-  "global_last_active": "2026-10-10T15:00:25",
+  "global_last_active": "2026-10-12T12:14:58",
   "github_location": "London",
   "github_company": null,
   "github_bio": "Funded by Spiral\r\n\r\ngithub.wiederin.alexander [at] gmail.com",
@@ -95,10 +100,28 @@
   "activity_status": "Active",
   "is_top_50": false,
   "github_url": "https://github.com/alexanderwiederin",
+  "delving_url": "https://delvingbitcoin.org/u/alexanderwiederin",
   "commit_history": {
     "2026": {
       "Consensus": 4.0,
       "Tests": 1.0
+    }
+  },
+  "first_message": {
+    "source": "delving",
+    "subject": "Re: Bitcoin-rs: an independent Bitcoin full node written in Rust",
+    "date": "2026-10-13",
+    "link": "https://delvingbitcoin.org/t/bitcoin-rs-an-independent-bitcoin-full-node-written-in-rust/2918/2"
+  },
+  "last_message": {
+    "source": "delving",
+    "subject": "Re: Bitcoin-rs: an independent Bitcoin full node written in Rust",
+    "date": "2026-10-13",
+    "link": "https://delvingbitcoin.org/t/bitcoin-rs-an-independent-bitcoin-full-node-written-in-rust/2918/2"
+  },
+  "social_history": {
+    "2026": {
+      "mining": 1
     }
   }
 }

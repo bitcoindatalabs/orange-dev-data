@@ -48,12 +48,12 @@
   "avg_pr_ack_velocity_days": 12.76458912037037,
   "avg_concept_lead_time_days": 5.2366319444444445,
   "review_reciprocity": 8.0,
-  "hybrid_score": 0.3,
-  "p2016_hybrid_score": 0.3,
-  "modern_hybrid_score": 0.3,
-  "impact_score": 16.0,
-  "p2016_impact_score": 16.0,
-  "modern_impact_score": 16.0,
+  "hybrid_score": 0.3106,
+  "p2016_hybrid_score": 0.3106,
+  "modern_hybrid_score": 0.3106,
+  "impact_score": 17.0,
+  "p2016_impact_score": 17.0,
+  "modern_impact_score": 17.0,
   "threads_started": 5.0,
   "replies_sent": 1.0,
   "ml_threads": 1.0,
@@ -65,23 +65,23 @@
   "dev_type": "Builder",
   "expertise_domains": [
     "Wallet",
-    "Cryptography",
-    "Infrastructure"
+    "Infrastructure",
+    "Cryptography"
   ],
   "expertise_by_source": {
+    "code": {
+      "Infrastructure": 0.455,
+      "Wallet": 0.545
+    },
     "discussion": {
       "Consensus": 0.38,
       "Cryptography": 0.62
-    },
-    "code": {
-      "Infrastructure": 0.333,
-      "Wallet": 0.667
     }
   },
   "expertise_domain_scores": {
-    "Infrastructure": 0.1998,
-    "Wallet": 0.4002,
+    "Infrastructure": 0.273,
     "Consensus": 0.152,
+    "Wallet": 0.327,
     "Cryptography": 0.248
   },
   "p2016_posts": 6.0,

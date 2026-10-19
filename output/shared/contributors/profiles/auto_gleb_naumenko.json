@@ -1,5 +1,5 @@
 {
-  "display_name": "Gleb Naumenko",
+  "display_name": "gleb naumenko",
   "github_login_final": "coinforensics",
   "delving_username_final": null,
   "uuid": "auto_gleb_naumenko",
@@ -50,7 +50,7 @@
   "tier1_reviews_count": 302.0,
   "tier2_reviews_count": 10.0,
   "p2016_reviews_count": 312.0,
-  "modern_reviews_count": 43.0,
+  "modern_reviews_count": 42.0,
   "first_review_date": "2018-10-26T23:32:13",
   "last_review_date": "2024-11-27T08:34:48",
   "prs_authored": 30.0,
@@ -60,8 +60,8 @@
   "avg_concept_lead_time_days": 42.84460099902534,
   "review_reciprocity": 10.4,
   "hybrid_score": 0.8301,
-  "p2016_hybrid_score": 0.8404,
-  "modern_hybrid_score": 0.3539,
+  "p2016_hybrid_score": 0.8403,
+  "modern_hybrid_score": 0.3532,
   "impact_score": 39.0,
   "p2016_impact_score": 40.0,
   "modern_impact_score": 19.0,
@@ -80,14 +80,14 @@
     "L2"
   ],
   "expertise_by_source": {
+    "code": {
+      "Infrastructure": 0.753,
+      "Consensus": 0.006,
+      "Network": 0.241
+    },
     "discussion": {
       "L2": 0.256,
       "Network": 0.744
-    },
-    "code": {
-      "Infrastructure": 0.753,
-      "Network": 0.241,
-      "Consensus": 0.006
     },
     "bips": {
       "Infrastructure": 1.0

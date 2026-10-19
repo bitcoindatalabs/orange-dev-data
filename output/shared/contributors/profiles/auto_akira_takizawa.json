@@ -1,5 +1,5 @@
 {
-  "display_name": "akira takizawa",
+  "display_name": "Akira Takizawa",
   "github_login_final": null,
   "delving_username_final": null,
   "uuid": "auto_akira_takizawa",
@@ -68,20 +68,20 @@
   "expertise_by_source": {
     "code": {
       "Infrastructure": 0.838,
-      "Network": 0.027,
       "Wallet": 0.027,
-      "Mempool": 0.027,
-      "Consensus": 0.027,
       "Script": 0.027,
+      "Consensus": 0.027,
+      "Network": 0.027,
+      "Mempool": 0.027,
       "Cryptography": 0.027
     }
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.838,
-    "Mempool": 0.027,
-    "Network": 0.027,
-    "Wallet": 0.027,
     "Consensus": 0.027,
+    "Mempool": 0.027,
+    "Wallet": 0.027,
+    "Network": 0.027,
     "Script": 0.027,
     "Cryptography": 0.027
   },

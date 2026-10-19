@@ -69,14 +69,14 @@
     "Script"
   ],
   "expertise_by_source": {
+    "code": {
+      "Infrastructure": 0.375,
+      "Wallet": 0.625
+    },
     "discussion": {
       "Mining": 0.245,
       "Script": 0.51,
       "Cryptography": 0.245
-    },
-    "code": {
-      "Infrastructure": 0.375,
-      "Wallet": 0.625
     }
   },
   "expertise_domain_scores": {

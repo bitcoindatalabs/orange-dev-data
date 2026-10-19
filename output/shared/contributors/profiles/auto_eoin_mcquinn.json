@@ -68,14 +68,14 @@
   "expertise_by_source": {
     "discussion": {
       "Consensus": 0.2,
-      "Cryptography": 0.4,
-      "Ecosystem": 0.4
+      "Ecosystem": 0.4,
+      "Cryptography": 0.4
     }
   },
   "expertise_domain_scores": {
     "Consensus": 0.2,
-    "Cryptography": 0.4,
-    "Ecosystem": 0.4
+    "Ecosystem": 0.4,
+    "Cryptography": 0.4
   },
   "p2016_posts": 2.0,
   "modern_posts": 0.0,

@@ -66,22 +66,22 @@
     "Consensus"
   ],
   "expertise_by_source": {
-    "discussion": {
-      "Mining": 0.184,
-      "Mempool": 0.145,
-      "Ecosystem": 0.671
-    },
     "code": {
       "Infrastructure": 0.75,
       "Consensus": 0.25
+    },
+    "discussion": {
+      "Mining": 0.184,
+      "Ecosystem": 0.671,
+      "Mempool": 0.145
     }
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.45,
-    "Mining": 0.0736,
-    "Mempool": 0.058,
     "Consensus": 0.15,
-    "Ecosystem": 0.2684
+    "Mining": 0.0736,
+    "Ecosystem": 0.2684,
+    "Mempool": 0.058
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,

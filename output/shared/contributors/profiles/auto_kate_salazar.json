@@ -1,5 +1,5 @@
 {
-  "display_name": "kate salazar",
+  "display_name": "Kate Salazar",
   "github_login_final": "katesalazar",
   "delving_username_final": null,
   "uuid": "auto_kate_salazar",
@@ -66,12 +66,12 @@
     "Consensus"
   ],
   "expertise_by_source": {
+    "code": {
+      "Infrastructure": 1.0
+    },
     "discussion": {
       "Consensus": 0.432,
       "Script": 0.568
-    },
-    "code": {
-      "Infrastructure": 1.0
     }
   },
   "expertise_domain_scores": {

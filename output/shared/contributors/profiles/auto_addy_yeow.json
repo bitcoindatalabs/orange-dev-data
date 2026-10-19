@@ -1,5 +1,5 @@
 {
-  "display_name": "addy yeow",
+  "display_name": "Addy Yeow",
   "github_login_final": "ayeowch",
   "delving_username_final": null,
   "uuid": "auto_addy_yeow",
@@ -66,18 +66,18 @@
     "Mining"
   ],
   "expertise_by_source": {
+    "code": {
+      "Consensus": 1.0
+    },
     "discussion": {
       "Mining": 0.4,
       "Network": 0.6
-    },
-    "code": {
-      "Consensus": 1.0
     }
   },
   "expertise_domain_scores": {
+    "Consensus": 0.6,
     "Mining": 0.16,
-    "Network": 0.24,
-    "Consensus": 0.6
+    "Network": 0.24
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,

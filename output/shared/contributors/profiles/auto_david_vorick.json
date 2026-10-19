@@ -1,5 +1,5 @@
 {
-  "display_name": "David Vorick",
+  "display_name": "david vorick",
   "github_login_final": null,
   "delving_username_final": null,
   "uuid": "auto_david_vorick",
@@ -45,7 +45,7 @@
   "avg_pr_ack_velocity_days": null,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": null,
-  "hybrid_score": 0.0615,
+  "hybrid_score": 0.0614,
   "p2016_hybrid_score": 0.1074,
   "modern_hybrid_score": 0.0,
   "impact_score": 4.0,
@@ -66,13 +66,13 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Mining": 0.452,
-      "Consensus": 0.548
+      "Consensus": 0.548,
+      "Mining": 0.452
     }
   },
   "expertise_domain_scores": {
-    "Mining": 0.452,
-    "Consensus": 0.548
+    "Consensus": 0.548,
+    "Mining": 0.452
   },
   "p2016_posts": 27.0,
   "modern_posts": 0.0,

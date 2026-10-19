@@ -1,5 +1,5 @@
 {
-  "display_name": "alfie john",
+  "display_name": "Alfie John",
   "github_login_final": "alfiedotwtf",
   "delving_username_final": null,
   "uuid": "auto_alfie_john",
@@ -66,12 +66,12 @@
     "Mempool"
   ],
   "expertise_by_source": {
+    "code": {
+      "Infrastructure": 1.0
+    },
     "discussion": {
       "Mempool": 0.304,
       "Network": 0.696
-    },
-    "code": {
-      "Infrastructure": 1.0
     }
   },
   "expertise_domain_scores": {

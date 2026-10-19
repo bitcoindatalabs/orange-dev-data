@@ -1,5 +1,5 @@
 {
-  "display_name": "Lucas H",
+  "display_name": "lucas h",
   "github_login_final": "lucash-dev",
   "delving_username_final": null,
   "uuid": "auto_lucas_h",
@@ -66,23 +66,23 @@
     "Consensus"
   ],
   "expertise_by_source": {
-    "discussion": {
-      "Mining": 1.0
-    },
     "code": {
       "Infrastructure": 0.625,
-      "Network": 0.025,
       "Wallet": 0.025,
+      "Script": 0.1,
       "Consensus": 0.225,
-      "Script": 0.1
+      "Network": 0.025
+    },
+    "discussion": {
+      "Mining": 1.0
     }
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.375,
-    "Mining": 0.4,
-    "Network": 0.015,
-    "Wallet": 0.015,
     "Consensus": 0.135,
+    "Mining": 0.4,
+    "Wallet": 0.015,
+    "Network": 0.015,
     "Script": 0.06
   },
   "p2016_posts": 3.0,

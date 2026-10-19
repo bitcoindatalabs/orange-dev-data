@@ -59,7 +59,7 @@
   "review_reciprocity": 1.6666666666666667,
   "hybrid_score": 0.5169,
   "p2016_hybrid_score": 0.5429,
-  "modern_hybrid_score": 0.1217,
+  "modern_hybrid_score": 0.1219,
   "impact_score": 27.0,
   "p2016_impact_score": 28.0,
   "modern_impact_score": 7.0,
@@ -80,8 +80,8 @@
   "expertise_by_source": {
     "discussion": {
       "Consensus": 0.4,
-      "Wallet": 0.34,
-      "Ecosystem": 0.26
+      "Ecosystem": 0.26,
+      "Wallet": 0.34
     },
     "bips": {
       "Infrastructure": 1.0
@@ -89,9 +89,9 @@
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.7143,
-    "Wallet": 0.0971,
     "Consensus": 0.1143,
-    "Ecosystem": 0.0743
+    "Ecosystem": 0.0743,
+    "Wallet": 0.0971
   },
   "p2016_posts": 36.0,
   "modern_posts": 12.0,

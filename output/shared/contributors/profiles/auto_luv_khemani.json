@@ -1,5 +1,5 @@
 {
-  "display_name": "Luv Khemani",
+  "display_name": "luv khemani",
   "github_login_final": "GamerSg",
   "delving_username_final": null,
   "uuid": "auto_luv_khemani",
@@ -66,18 +66,18 @@
     "Consensus"
   ],
   "expertise_by_source": {
-    "discussion": {
-      "Mining": 0.72,
-      "Consensus": 0.28
-    },
     "code": {
       "Infrastructure": 1.0
+    },
+    "discussion": {
+      "Consensus": 0.28,
+      "Mining": 0.72
     }
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.6,
-    "Mining": 0.288,
-    "Consensus": 0.112
+    "Consensus": 0.112,
+    "Mining": 0.288
   },
   "p2016_posts": 6.0,
   "modern_posts": 0.0,

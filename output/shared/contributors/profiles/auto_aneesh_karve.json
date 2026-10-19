@@ -1,5 +1,5 @@
 {
-  "display_name": "Aneesh Karve",
+  "display_name": "aneesh karve",
   "github_login_final": "akarve",
   "delving_username_final": null,
   "uuid": "auto_aneesh_karve",
@@ -41,7 +41,7 @@
   "modern_bips_authored": 0.0,
   "first_bip_date": "2020-04-11T06:29:51",
   "last_bip_date": "2020-04-11T06:29:51",
-  "avg_review_latency_days": 2143.286633746964,
+  "avg_review_latency_days": 2136.4954084259257,
   "reviews_count": 10.0,
   "avg_approval_latency_days": 1833.2050655864196,
   "approvals_count": 2.0,
@@ -50,7 +50,7 @@
   "p2016_reviews_count": 10.0,
   "modern_reviews_count": 10.0,
   "first_review_date": "2024-09-22T21:00:42",
-  "last_review_date": "2026-10-12T01:29:02",
+  "last_review_date": "2026-10-19T00:32:45",
   "prs_authored": 5.0,
   "tier1_prs_authored": 0.0,
   "tier2_prs_authored": 5.0,
@@ -59,7 +59,7 @@
   "review_reciprocity": 2.0,
   "hybrid_score": 0.4582,
   "p2016_hybrid_score": 0.4655,
-  "modern_hybrid_score": 0.1539,
+  "modern_hybrid_score": 0.154,
   "impact_score": 24.0,
   "p2016_impact_score": 24.0,
   "modern_impact_score": 9.0,
@@ -79,8 +79,8 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Mempool": 0.15,
       "Consensus": 0.08,
+      "Mempool": 0.15,
       "Wallet": 0.77
     },
     "bips": {
@@ -89,9 +89,9 @@
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.7143,
+    "Consensus": 0.0229,
     "Mempool": 0.0429,
-    "Wallet": 0.22,
-    "Consensus": 0.0229
+    "Wallet": 0.22
   },
   "p2016_posts": 6.0,
   "modern_posts": 6.0,
@@ -104,7 +104,7 @@
   "is_researcher": true,
   "is_bip_author": true,
   "global_first_active": "2020-04-11T06:29:51",
-  "global_last_active": "2026-10-12T01:29:02",
+  "global_last_active": "2026-10-19T00:32:45",
   "github_location": "California",
   "github_company": "@QuiltData, @gobeheard ",
   "github_bio": "quiltdata.com\r\ngobeheard.com",

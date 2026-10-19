@@ -1,5 +1,5 @@
 {
-  "display_name": "stefanwouldgo",
+  "display_name": "Stefanwouldgo",
   "github_login_final": "stefanwouldgo",
   "delving_username_final": "stefanwouldgo",
   "uuid": "auto_stefanwouldgo",
@@ -66,20 +66,20 @@
     "Mining"
   ],
   "expertise_by_source": {
-    "discussion": {
-      "Mining": 0.3,
-      "Mempool": 0.65,
-      "L2": 0.05
-    },
     "code": {
       "Infrastructure": 1.0
+    },
+    "discussion": {
+      "Mining": 0.3,
+      "L2": 0.05,
+      "Mempool": 0.65
     }
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.6,
     "Mining": 0.12,
-    "Mempool": 0.26,
-    "L2": 0.02
+    "L2": 0.02,
+    "Mempool": 0.26
   },
   "p2016_posts": 26.0,
   "modern_posts": 26.0,

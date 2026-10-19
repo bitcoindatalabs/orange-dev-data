@@ -1,5 +1,5 @@
 {
-  "display_name": "Sergej Kotliar",
+  "display_name": "sergej kotliar",
   "github_login_final": null,
   "delving_username_final": null,
   "uuid": "auto_sergej_kotliar",
@@ -45,9 +45,9 @@
   "avg_pr_ack_velocity_days": null,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": null,
-  "hybrid_score": 0.0261,
-  "p2016_hybrid_score": 0.0447,
-  "modern_hybrid_score": 0.0339,
+  "hybrid_score": 0.026,
+  "p2016_hybrid_score": 0.0446,
+  "modern_hybrid_score": 0.0338,
   "impact_score": 2.0,
   "p2016_impact_score": 3.0,
   "modern_impact_score": 2.0,
@@ -66,13 +66,13 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Mempool": 0.96,
-      "L2": 0.04
+      "L2": 0.04,
+      "Mempool": 0.96
     }
   },
   "expertise_domain_scores": {
-    "Mempool": 0.96,
-    "L2": 0.04
+    "L2": 0.04,
+    "Mempool": 0.96
   },
   "p2016_posts": 11.0,
   "modern_posts": 0.0,

@@ -78,12 +78,12 @@
     "Wallet"
   ],
   "expertise_by_source": {
+    "code": {
+      "Infrastructure": 1.0
+    },
     "discussion": {
       "Script": 0.254,
       "Wallet": 0.746
-    },
-    "code": {
-      "Infrastructure": 1.0
     },
     "bips": {
       "Script": 1.0

@@ -1,5 +1,5 @@
 {
-  "display_name": "gregorio guidi",
+  "display_name": "Gregorio Guidi",
   "github_login_final": null,
   "delving_username_final": null,
   "uuid": "auto_gregorio_guidi",
@@ -66,13 +66,13 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Mining": 0.14,
-      "Consensus": 0.86
+      "Consensus": 0.86,
+      "Mining": 0.14
     }
   },
   "expertise_domain_scores": {
-    "Mining": 0.14,
-    "Consensus": 0.86
+    "Consensus": 0.86,
+    "Mining": 0.14
   },
   "p2016_posts": 2.0,
   "modern_posts": 0.0,

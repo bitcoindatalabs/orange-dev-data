@@ -1,5 +1,5 @@
 {
-  "display_name": "radoslaw biernacki",
+  "display_name": "Radoslaw Biernacki",
   "github_login_final": null,
   "delving_username_final": null,
   "uuid": "auto_radoslaw_biernacki",
@@ -67,14 +67,14 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Mining": 0.5,
       "Consensus": 0.25,
+      "Mining": 0.5,
       "Ecosystem": 0.25
     }
   },
   "expertise_domain_scores": {
-    "Mining": 0.5,
     "Consensus": 0.25,
+    "Mining": 0.5,
     "Ecosystem": 0.25
   },
   "p2016_posts": 1.0,

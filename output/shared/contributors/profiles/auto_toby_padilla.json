@@ -1,5 +1,5 @@
 {
-  "display_name": "Toby Padilla",
+  "display_name": "toby padilla",
   "github_login_final": "toby",
   "delving_username_final": null,
   "uuid": "auto_toby_padilla",
@@ -79,19 +79,19 @@
   ],
   "expertise_by_source": {
     "discussion": {
+      "Ecosystem": 0.371,
       "Mempool": 0.103,
-      "Script": 0.526,
-      "Ecosystem": 0.371
+      "Script": 0.526
     },
     "bips": {
       "Network": 1.0
     }
   },
   "expertise_domain_scores": {
+    "Ecosystem": 0.106,
     "Mempool": 0.0294,
     "Network": 0.7143,
-    "Script": 0.1503,
-    "Ecosystem": 0.106
+    "Script": 0.1503
   },
   "p2016_posts": 11.0,
   "modern_posts": 0.0,

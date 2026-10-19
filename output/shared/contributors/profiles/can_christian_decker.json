@@ -57,9 +57,9 @@
   "avg_pr_ack_velocity_days": 0.030327932098765432,
   "avg_concept_lead_time_days": 0.08222222222222222,
   "review_reciprocity": 4.625,
-  "hybrid_score": 0.9466,
-  "p2016_hybrid_score": 0.707,
-  "modern_hybrid_score": 0.1153,
+  "hybrid_score": 0.9465,
+  "p2016_hybrid_score": 0.7068,
+  "modern_hybrid_score": 0.1154,
   "impact_score": 43.0,
   "p2016_impact_score": 35.0,
   "modern_impact_score": 7.0,
@@ -78,13 +78,13 @@
     "L2"
   ],
   "expertise_by_source": {
-    "discussion": {
-      "L2": 0.565,
-      "Cryptography": 0.435
-    },
     "code": {
       "Infrastructure": 0.714,
       "Consensus": 0.286
+    },
+    "discussion": {
+      "L2": 0.565,
+      "Cryptography": 0.435
     },
     "bips": {
       "Consensus": 1.0
@@ -92,8 +92,8 @@
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.2142,
-    "L2": 0.113,
     "Consensus": 0.5858,
+    "L2": 0.113,
     "Cryptography": 0.087
   },
   "p2016_posts": 67.0,

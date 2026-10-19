@@ -1,5 +1,5 @@
 {
-  "display_name": "Midnight Magic",
+  "display_name": "midnight magic",
   "github_login_final": "midnightmagic",
   "delving_username_final": "midnight",
   "uuid": "auto_midnight_magic",
@@ -65,11 +65,11 @@
     "Mempool"
   ],
   "expertise_by_source": {
-    "discussion": {
-      "Mempool": 1.0
-    },
     "code": {
       "Infrastructure": 1.0
+    },
+    "discussion": {
+      "Mempool": 1.0
     }
   },
   "expertise_domain_scores": {

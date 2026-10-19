@@ -1,5 +1,5 @@
 {
-  "display_name": "Joost Jager",
+  "display_name": "joost jager",
   "github_login_final": "joostjager",
   "delving_username_final": null,
   "uuid": "auto_joost_jager",
@@ -67,15 +67,15 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Mempool": 0.314,
       "Consensus": 0.593,
-      "Ecosystem": 0.093
+      "Ecosystem": 0.093,
+      "Mempool": 0.314
     }
   },
   "expertise_domain_scores": {
-    "Mempool": 0.314,
     "Consensus": 0.593,
-    "Ecosystem": 0.093
+    "Ecosystem": 0.093,
+    "Mempool": 0.314
   },
   "p2016_posts": 18.0,
   "modern_posts": 0.0,

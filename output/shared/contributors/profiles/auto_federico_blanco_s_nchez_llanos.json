@@ -1,5 +1,5 @@
 {
-  "display_name": "federico blanco sánchez-llanos",
+  "display_name": "Federico Blanco Sánchez-Llanos",
   "github_login_final": null,
   "delving_username_final": "babyblueviper1",
   "uuid": "auto_federico_blanco_s_nchez_llanos",
@@ -66,13 +66,13 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Mempool": 0.67,
-      "Privacy": 0.33
+      "Privacy": 0.33,
+      "Mempool": 0.67
     }
   },
   "expertise_domain_scores": {
-    "Mempool": 0.67,
-    "Privacy": 0.33
+    "Privacy": 0.33,
+    "Mempool": 0.67
   },
   "p2016_posts": 3.0,
   "modern_posts": 3.0,

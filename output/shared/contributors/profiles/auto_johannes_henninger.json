@@ -64,10 +64,10 @@
     "Network"
   ],
   "expertise_by_source": {
-    "discussion": {
+    "code": {
       "Network": 1.0
     },
-    "code": {
+    "discussion": {
       "Network": 1.0
     }
   },

@@ -1,5 +1,5 @@
 {
-  "display_name": "Bubb1Es",
+  "display_name": "bubb1es",
   "github_login_final": null,
   "delving_username_final": "bubb1es",
   "uuid": "auto_bubb1es",
@@ -59,7 +59,7 @@
   "review_reciprocity": null,
   "hybrid_score": 0.36,
   "p2016_hybrid_score": 0.3663,
-  "modern_hybrid_score": 0.4032,
+  "modern_hybrid_score": 0.4034,
   "impact_score": 19.0,
   "p2016_impact_score": 20.0,
   "modern_impact_score": 21.0,
@@ -79,8 +79,8 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Mempool": 0.303,
       "Privacy": 0.455,
+      "Mempool": 0.303,
       "Cryptography": 0.242
     },
     "bips": {
@@ -88,8 +88,8 @@
     }
   },
   "expertise_domain_scores": {
-    "Mempool": 0.0866,
     "Privacy": 0.13,
+    "Mempool": 0.0866,
     "Network": 0.7143,
     "Cryptography": 0.0691
   },

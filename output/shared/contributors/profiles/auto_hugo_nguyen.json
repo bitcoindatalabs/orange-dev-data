@@ -80,13 +80,13 @@
     "Mining"
   ],
   "expertise_by_source": {
-    "discussion": {
-      "Mining": 0.082,
-      "Wallet": 0.918
-    },
     "code": {
       "Infrastructure": 0.11,
       "Wallet": 0.89
+    },
+    "discussion": {
+      "Mining": 0.082,
+      "Wallet": 0.918
     },
     "bips": {
       "Wallet": 1.0

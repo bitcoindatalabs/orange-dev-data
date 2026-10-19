@@ -1,5 +1,5 @@
 {
-  "display_name": "tobin c. harding",
+  "display_name": "Tobin C. Harding",
   "github_login_final": "tcharding",
   "delving_username_final": null,
   "uuid": "auto_tobin_c_harding",
@@ -46,7 +46,7 @@
   "avg_concept_lead_time_days": 0.6908101851851852,
   "review_reciprocity": 0.375,
   "hybrid_score": 0.1517,
-  "p2016_hybrid_score": 0.1616,
+  "p2016_hybrid_score": 0.1615,
   "modern_hybrid_score": 0.075,
   "impact_score": 9.0,
   "p2016_impact_score": 9.0,
@@ -66,18 +66,18 @@
     "Consensus"
   ],
   "expertise_by_source": {
+    "code": {
+      "Infrastructure": 1.0
+    },
     "discussion": {
       "Consensus": 0.34,
       "Wallet": 0.66
-    },
-    "code": {
-      "Infrastructure": 1.0
     }
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.6,
-    "Wallet": 0.264,
-    "Consensus": 0.136
+    "Consensus": 0.136,
+    "Wallet": 0.264
   },
   "p2016_posts": 5.0,
   "modern_posts": 1.0,

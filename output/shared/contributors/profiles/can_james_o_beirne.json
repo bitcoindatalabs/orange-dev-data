@@ -60,11 +60,11 @@
   "avg_concept_lead_time_days": 13.622168146630237,
   "review_reciprocity": 3.816,
   "hybrid_score": 0.9742,
-  "p2016_hybrid_score": 1.0314,
-  "modern_hybrid_score": 0.6527,
+  "p2016_hybrid_score": 1.0313,
+  "modern_hybrid_score": 0.6552,
   "impact_score": 44.0,
   "p2016_impact_score": 46.0,
-  "modern_impact_score": 32.0,
+  "modern_impact_score": 33.0,
   "threads_started": 24.0,
   "replies_sent": 66.0,
   "ml_threads": 7.0,
@@ -80,16 +80,16 @@
     "Script"
   ],
   "expertise_by_source": {
+    "code": {
+      "Infrastructure": 0.682,
+      "Wallet": 0.016,
+      "Consensus": 0.273,
+      "Network": 0.025,
+      "Mempool": 0.004
+    },
     "discussion": {
       "L2": 0.111,
       "Script": 0.889
-    },
-    "code": {
-      "Infrastructure": 0.682,
-      "Network": 0.025,
-      "Wallet": 0.016,
-      "Mempool": 0.004,
-      "Consensus": 0.273
     },
     "bips": {
       "Consensus": 1.0
@@ -97,8 +97,8 @@
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.2046,
-    "L2": 0.0222,
     "Consensus": 0.5819,
+    "L2": 0.0222,
     "Script": 0.1778
   },
   "p2016_posts": 88.0,

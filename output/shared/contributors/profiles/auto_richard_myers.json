@@ -66,20 +66,20 @@
     "Infrastructure"
   ],
   "expertise_by_source": {
-    "discussion": {
-      "Mempool": 0.27,
-      "L2": 0.568,
-      "Script": 0.162
-    },
     "code": {
       "Infrastructure": 0.25,
       "Wallet": 0.75
+    },
+    "discussion": {
+      "L2": 0.568,
+      "Mempool": 0.27,
+      "Script": 0.162
     }
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.15,
-    "Mempool": 0.108,
     "L2": 0.2272,
+    "Mempool": 0.108,
     "Wallet": 0.45,
     "Script": 0.0648
   },

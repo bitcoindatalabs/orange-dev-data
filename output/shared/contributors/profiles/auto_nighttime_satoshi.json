@@ -47,7 +47,7 @@
   "review_reciprocity": null,
   "hybrid_score": 0.0112,
   "p2016_hybrid_score": 0.0186,
-  "modern_hybrid_score": 0.0548,
+  "modern_hybrid_score": 0.0549,
   "impact_score": 1.0,
   "p2016_impact_score": 1.0,
   "modern_impact_score": 3.0,
@@ -67,14 +67,14 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Mining": 0.67,
       "Consensus": 0.22,
+      "Mining": 0.67,
       "Script": 0.11
     }
   },
   "expertise_domain_scores": {
-    "Mining": 0.67,
     "Consensus": 0.22,
+    "Mining": 0.67,
     "Script": 0.11
   },
   "p2016_posts": 3.0,

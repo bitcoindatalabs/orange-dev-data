@@ -1,5 +1,5 @@
 {
-  "display_name": "washington sanchez",
+  "display_name": "Washington Sanchez",
   "github_login_final": null,
   "delving_username_final": null,
   "uuid": "auto_washington_sanchez",
@@ -67,8 +67,8 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Mining": 0.086,
       "Consensus": 0.828,
+      "Mining": 0.086,
       "Ecosystem": 0.086
     },
     "bips": {
@@ -76,8 +76,8 @@
     }
   },
   "expertise_domain_scores": {
-    "Mining": 0.0246,
     "Consensus": 0.9509,
+    "Mining": 0.0246,
     "Ecosystem": 0.0246
   },
   "p2016_posts": 0.0,

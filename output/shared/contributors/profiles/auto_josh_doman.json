@@ -1,5 +1,5 @@
 {
-  "display_name": "Josh Doman",
+  "display_name": "josh doman",
   "github_login_final": "joshdoman",
   "delving_username_final": null,
   "uuid": "auto_josh_doman",
@@ -47,10 +47,10 @@
   "review_reciprocity": 1.0,
   "hybrid_score": 0.0965,
   "p2016_hybrid_score": 0.1121,
-  "modern_hybrid_score": 0.2213,
+  "modern_hybrid_score": 0.2236,
   "impact_score": 6.0,
   "p2016_impact_score": 7.0,
-  "modern_impact_score": 12.0,
+  "modern_impact_score": 13.0,
   "threads_started": 4.0,
   "replies_sent": 7.0,
   "ml_threads": 4.0,
@@ -66,13 +66,13 @@
     "Script"
   ],
   "expertise_by_source": {
-    "discussion": {
-      "Consensus": 0.366,
-      "Script": 0.634
-    },
     "code": {
       "Infrastructure": 0.5,
       "Consensus": 0.5
+    },
+    "discussion": {
+      "Consensus": 0.366,
+      "Script": 0.634
     }
   },
   "expertise_domain_scores": {

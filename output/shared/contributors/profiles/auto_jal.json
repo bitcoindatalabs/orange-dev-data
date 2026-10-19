@@ -66,13 +66,13 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Mempool": 0.559,
-      "Privacy": 0.441
+      "Privacy": 0.441,
+      "Mempool": 0.559
     }
   },
   "expertise_domain_scores": {
-    "Mempool": 0.559,
-    "Privacy": 0.441
+    "Privacy": 0.441,
+    "Mempool": 0.559
   },
   "p2016_posts": 9.0,
   "modern_posts": 9.0,

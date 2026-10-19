@@ -58,7 +58,7 @@
   "avg_concept_lead_time_days": null,
   "review_reciprocity": 3.0,
   "hybrid_score": 0.5127,
-  "p2016_hybrid_score": 0.2209,
+  "p2016_hybrid_score": 0.2208,
   "modern_hybrid_score": 0.0146,
   "impact_score": 26.0,
   "p2016_impact_score": 12.0,
@@ -78,12 +78,12 @@
     "Ecosystem"
   ],
   "expertise_by_source": {
-    "discussion": {
-      "Wallet": 0.389,
-      "Ecosystem": 0.611
-    },
     "code": {
       "Infrastructure": 1.0
+    },
+    "discussion": {
+      "Ecosystem": 0.611,
+      "Wallet": 0.389
     },
     "bips": {
       "Network": 1.0
@@ -91,9 +91,9 @@
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.3,
-    "Network": 0.5,
+    "Ecosystem": 0.1222,
     "Wallet": 0.0778,
-    "Ecosystem": 0.1222
+    "Network": 0.5
   },
   "p2016_posts": 49.0,
   "modern_posts": 0.0,

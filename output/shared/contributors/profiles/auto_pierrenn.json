@@ -68,8 +68,8 @@
   "expertise_by_source": {
     "code": {
       "Infrastructure": 0.749,
-      "Consensus": 0.125,
-      "Script": 0.125
+      "Script": 0.125,
+      "Consensus": 0.125
     }
   },
   "expertise_domain_scores": {

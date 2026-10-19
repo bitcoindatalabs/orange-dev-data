@@ -39,25 +39,25 @@
   "modern_bips_authored": 0.0,
   "first_bip_date": null,
   "last_bip_date": null,
-  "avg_review_latency_days": 76.93291635385384,
-  "reviews_count": 99.0,
-  "avg_approval_latency_days": 57.19325405092592,
-  "approvals_count": 72.0,
-  "tier1_reviews_count": 98.0,
+  "avg_review_latency_days": 75.57583890116442,
+  "reviews_count": 102.0,
+  "avg_approval_latency_days": 56.166209490740734,
+  "approvals_count": 74.0,
+  "tier1_reviews_count": 101.0,
   "tier2_reviews_count": 1.0,
-  "p2016_reviews_count": 99.0,
-  "modern_reviews_count": 55.0,
+  "p2016_reviews_count": 102.0,
+  "modern_reviews_count": 58.0,
   "first_review_date": "2019-01-02T21:25:30",
-  "last_review_date": "2026-10-09T15:51:30",
+  "last_review_date": "2026-10-16T14:07:25",
   "prs_authored": 35.0,
   "tier1_prs_authored": 33.0,
   "tier2_prs_authored": 2.0,
   "avg_pr_ack_velocity_days": 7.352580536265432,
   "avg_concept_lead_time_days": 10.284097222222222,
-  "review_reciprocity": 2.8285714285714287,
-  "hybrid_score": 0.3876,
-  "p2016_hybrid_score": 0.3876,
-  "modern_hybrid_score": 0.3585,
+  "review_reciprocity": 2.914285714285714,
+  "hybrid_score": 0.3885,
+  "p2016_hybrid_score": 0.3885,
+  "modern_hybrid_score": 0.3599,
   "impact_score": 21.0,
   "p2016_impact_score": 21.0,
   "modern_impact_score": 19.0,
@@ -76,22 +76,22 @@
     "Mempool"
   ],
   "expertise_by_source": {
-    "discussion": {
-      "Mempool": 0.373,
-      "Consensus": 0.255,
-      "Network": 0.373
-    },
     "code": {
       "Infrastructure": 0.835,
-      "Network": 0.134,
-      "Consensus": 0.03
+      "Consensus": 0.03,
+      "Network": 0.134
+    },
+    "discussion": {
+      "Consensus": 0.24,
+      "Mempool": 0.38,
+      "Network": 0.38
     }
   },
   "expertise_domain_scores": {
-    "Infrastructure": 0.5011,
-    "Mempool": 0.1492,
-    "Network": 0.2296,
-    "Consensus": 0.12
+    "Infrastructure": 0.5013,
+    "Consensus": 0.1141,
+    "Mempool": 0.1521,
+    "Network": 0.2325
   },
   "p2016_posts": 18.0,
   "modern_posts": 18.0,
@@ -104,7 +104,7 @@
   "is_researcher": false,
   "is_bip_author": false,
   "global_first_active": "2019-01-02T21:25:30",
-  "global_last_active": "2026-10-09T15:51:30",
+  "global_last_active": "2026-10-16T14:07:25",
   "github_location": null,
   "github_company": null,
   "github_bio": null,
@@ -179,7 +179,8 @@
       "taproot": 3
     },
     "2026": {
-      "other": 1
+      "other": 1,
+      "mining": 1
     }
   }
 }

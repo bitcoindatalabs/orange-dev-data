@@ -1,5 +1,5 @@
 {
-  "display_name": "german luna",
+  "display_name": "German Luna",
   "github_login_final": null,
   "delving_username_final": null,
   "uuid": "auto_german_luna",
@@ -66,13 +66,13 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Privacy": 0.44,
-      "Consensus": 0.56
+      "Consensus": 0.56,
+      "Privacy": 0.44
     }
   },
   "expertise_domain_scores": {
-    "Privacy": 0.44,
-    "Consensus": 0.56
+    "Consensus": 0.56,
+    "Privacy": 0.44
   },
   "p2016_posts": 4.0,
   "modern_posts": 0.0,

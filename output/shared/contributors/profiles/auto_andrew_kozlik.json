@@ -1,5 +1,5 @@
 {
-  "display_name": "Andrew Kozlik",
+  "display_name": "andrew kozlik",
   "github_login_final": null,
   "delving_username_final": "andrewkozlik",
   "uuid": "auto_andrew_kozlik",
@@ -68,14 +68,14 @@
   "expertise_by_source": {
     "discussion": {
       "Consensus": 0.468,
-      "Wallet": 0.416,
-      "Ecosystem": 0.117
+      "Ecosystem": 0.117,
+      "Wallet": 0.416
     }
   },
   "expertise_domain_scores": {
-    "Wallet": 0.4156,
     "Consensus": 0.4675,
-    "Ecosystem": 0.1169
+    "Ecosystem": 0.1169,
+    "Wallet": 0.4156
   },
   "p2016_posts": 8.0,
   "modern_posts": 1.0,

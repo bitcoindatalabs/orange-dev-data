@@ -1,5 +1,5 @@
 {
-  "display_name": "Tadge Dryja",
+  "display_name": "tadge dryja",
   "github_login_final": "adiabat",
   "delving_username_final": "adiabat",
   "uuid": "auto_tadge_dryja",
@@ -46,8 +46,8 @@
   "avg_concept_lead_time_days": null,
   "review_reciprocity": null,
   "hybrid_score": 0.0294,
-  "p2016_hybrid_score": 0.0532,
-  "modern_hybrid_score": 0.1159,
+  "p2016_hybrid_score": 0.0531,
+  "modern_hybrid_score": 0.1161,
   "impact_score": 2.0,
   "p2016_impact_score": 3.0,
   "modern_impact_score": 7.0,
@@ -67,14 +67,14 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Privacy": 0.293,
       "Consensus": 0.244,
+      "Privacy": 0.293,
       "Cryptography": 0.463
     }
   },
   "expertise_domain_scores": {
-    "Privacy": 0.293,
     "Consensus": 0.244,
+    "Privacy": 0.293,
     "Cryptography": 0.463
   },
   "p2016_posts": 14.0,

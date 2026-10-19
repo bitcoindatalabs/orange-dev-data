@@ -58,8 +58,8 @@
   "avg_concept_lead_time_days": 93.17467206790123,
   "review_reciprocity": 1.7272727272727273,
   "hybrid_score": 0.7109,
-  "p2016_hybrid_score": 0.7571,
-  "modern_hybrid_score": 0.7147,
+  "p2016_hybrid_score": 0.757,
+  "modern_hybrid_score": 0.7151,
   "impact_score": 35.0,
   "p2016_impact_score": 37.0,
   "modern_impact_score": 35.0,
@@ -78,12 +78,12 @@
     "Script"
   ],
   "expertise_by_source": {
+    "code": {
+      "Infrastructure": 1.0
+    },
     "discussion": {
       "Consensus": 0.317,
       "Script": 0.683
-    },
-    "code": {
-      "Infrastructure": 1.0
     },
     "bips": {
       "Consensus": 1.0

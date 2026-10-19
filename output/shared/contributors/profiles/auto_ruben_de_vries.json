@@ -78,13 +78,13 @@
     "Network"
   ],
   "expertise_by_source": {
-    "discussion": {
-      "Script": 0.22,
-      "Wallet": 0.78
-    },
     "code": {
       "Infrastructure": 0.5,
       "Network": 0.5
+    },
+    "discussion": {
+      "Script": 0.22,
+      "Wallet": 0.78
     },
     "bips": {
       "Script": 1.0
@@ -92,8 +92,8 @@
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.15,
-    "Network": 0.15,
     "Wallet": 0.156,
+    "Network": 0.15,
     "Script": 0.544
   },
   "p2016_posts": 0.0,

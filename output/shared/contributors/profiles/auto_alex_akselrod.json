@@ -1,5 +1,5 @@
 {
-  "display_name": "Alex Akselrod",
+  "display_name": "alex akselrod",
   "github_login_final": "aakselrod",
   "delving_username_final": "aakselrod",
   "uuid": "auto_alex_akselrod",
@@ -89,8 +89,8 @@
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.3571,
-    "Mempool": 0.1429,
     "L2": 0.3571,
+    "Mempool": 0.1429,
     "Network": 0.1429
   },
   "p2016_posts": 3.0,

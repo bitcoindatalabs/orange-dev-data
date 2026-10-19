@@ -1,5 +1,5 @@
 {
-  "display_name": "henry romp",
+  "display_name": "Henry Romp",
   "github_login_final": "151henry151",
   "delving_username_final": null,
   "uuid": "auto_henry_romp",
@@ -47,7 +47,7 @@
   "review_reciprocity": 1.8181818181818181,
   "hybrid_score": 0.2161,
   "p2016_hybrid_score": 0.2186,
-  "modern_hybrid_score": 0.2319,
+  "modern_hybrid_score": 0.232,
   "impact_score": 12.0,
   "p2016_impact_score": 12.0,
   "modern_impact_score": 13.0,
@@ -66,12 +66,12 @@
     "Consensus"
   ],
   "expertise_by_source": {
+    "code": {
+      "Infrastructure": 1.0
+    },
     "discussion": {
       "Consensus": 0.333,
       "Ecosystem": 0.667
-    },
-    "code": {
-      "Infrastructure": 1.0
     }
   },
   "expertise_domain_scores": {

@@ -1,5 +1,5 @@
 {
-  "display_name": "nick johnson",
+  "display_name": "Nick Johnson",
   "github_login_final": null,
   "delving_username_final": "yonson",
   "uuid": "auto_nick_johnson",
@@ -46,7 +46,7 @@
   "avg_concept_lead_time_days": null,
   "review_reciprocity": null,
   "hybrid_score": 0.0129,
-  "p2016_hybrid_score": 0.0209,
+  "p2016_hybrid_score": 0.0208,
   "modern_hybrid_score": 0.0,
   "impact_score": 1.0,
   "p2016_impact_score": 1.0,
@@ -71,8 +71,8 @@
     }
   },
   "expertise_domain_scores": {
-    "Network": 0.306,
-    "Consensus": 0.694
+    "Consensus": 0.694,
+    "Network": 0.306
   },
   "p2016_posts": 6.0,
   "modern_posts": 2.0,

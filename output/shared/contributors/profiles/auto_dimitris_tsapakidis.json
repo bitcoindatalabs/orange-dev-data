@@ -1,5 +1,5 @@
 {
-  "display_name": "dimitris tsapakidis",
+  "display_name": "Dimitris Tsapakidis",
   "github_login_final": "dimitris-t",
   "delving_username_final": null,
   "uuid": "auto_dimitris_tsapakidis",
@@ -69,16 +69,16 @@
     "code": {
       "Infrastructure": 0.533,
       "Wallet": 0.367,
-      "Mempool": 0.033,
       "Consensus": 0.033,
+      "Mempool": 0.033,
       "Cryptography": 0.033
     }
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.5335,
+    "Consensus": 0.033,
     "Mempool": 0.033,
     "Wallet": 0.3674,
-    "Consensus": 0.033,
     "Cryptography": 0.033
   },
   "p2016_posts": 0.0,

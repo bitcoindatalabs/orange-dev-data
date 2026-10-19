@@ -1,5 +1,5 @@
 {
-  "display_name": "Richard Moore",
+  "display_name": "richard moore",
   "github_login_final": "ricmoo",
   "delving_username_final": null,
   "uuid": "auto_richard_moore",
@@ -66,13 +66,13 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Mining": 0.542,
-      "Consensus": 0.458
+      "Consensus": 0.458,
+      "Mining": 0.542
     }
   },
   "expertise_domain_scores": {
-    "Mining": 0.542,
-    "Consensus": 0.458
+    "Consensus": 0.458,
+    "Mining": 0.542
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,

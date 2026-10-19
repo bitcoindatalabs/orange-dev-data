@@ -1,5 +1,5 @@
 {
-  "display_name": "Anons191",
+  "display_name": "anons191",
   "github_login_final": null,
   "delving_username_final": "anons191",
   "uuid": "auto_anons191",
@@ -66,13 +66,13 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Mempool": 0.5,
-      "Ecosystem": 0.5
+      "Ecosystem": 0.5,
+      "Mempool": 0.5
     }
   },
   "expertise_domain_scores": {
-    "Mempool": 0.5,
-    "Ecosystem": 0.5
+    "Ecosystem": 0.5,
+    "Mempool": 0.5
   },
   "p2016_posts": 1.0,
   "modern_posts": 1.0,

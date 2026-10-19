@@ -1,5 +1,5 @@
 {
-  "display_name": "Matt Morehouse",
+  "display_name": "matt morehouse",
   "github_login_final": null,
   "delving_username_final": "morehouse",
   "uuid": "auto_matt_morehouse",
@@ -47,10 +47,10 @@
   "review_reciprocity": null,
   "hybrid_score": 0.0112,
   "p2016_hybrid_score": 0.0188,
-  "modern_hybrid_score": 0.0655,
+  "modern_hybrid_score": 0.041,
   "impact_score": 1.0,
   "p2016_impact_score": 1.0,
-  "modern_impact_score": 4.0,
+  "modern_impact_score": 2.0,
   "threads_started": 22.0,
   "replies_sent": 25.0,
   "ml_threads": 0.0,
@@ -66,19 +66,19 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Mempool": 0.431,
-      "L2": 0.569
+      "L2": 0.569,
+      "Mempool": 0.431
     }
   },
   "expertise_domain_scores": {
-    "Mempool": 0.431,
-    "L2": 0.569
+    "L2": 0.569,
+    "Mempool": 0.431
   },
   "p2016_posts": 47.0,
-  "modern_posts": 47.0,
+  "modern_posts": 44.0,
   "p2016_ml_posts": 5.0,
   "p2016_delving_posts": 42.0,
-  "modern_ml_posts": 5.0,
+  "modern_ml_posts": 2.0,
   "modern_delving_posts": 42.0,
   "is_engineer": false,
   "is_reviewer": false,

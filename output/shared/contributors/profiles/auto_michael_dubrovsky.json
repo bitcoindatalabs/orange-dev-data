@@ -85,8 +85,8 @@
     }
   },
   "expertise_domain_scores": {
-    "Mining": 0.2857,
-    "Consensus": 0.7143
+    "Consensus": 0.7143,
+    "Mining": 0.2857
   },
   "p2016_posts": 6.0,
   "modern_posts": 0.0,

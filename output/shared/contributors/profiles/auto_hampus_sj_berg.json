@@ -1,5 +1,5 @@
 {
-  "display_name": "Hampus Sjöberg",
+  "display_name": "hampus sjöberg",
   "github_login_final": "hsjoberg",
   "delving_username_final": null,
   "uuid": "auto_hampus_sj_berg",
@@ -46,7 +46,7 @@
   "avg_concept_lead_time_days": 0.24927662037037035,
   "review_reciprocity": 6.0,
   "hybrid_score": 0.1967,
-  "p2016_hybrid_score": 0.2169,
+  "p2016_hybrid_score": 0.2168,
   "modern_hybrid_score": 0.0772,
   "impact_score": 11.0,
   "p2016_impact_score": 12.0,
@@ -66,19 +66,19 @@
     "Mining"
   ],
   "expertise_by_source": {
-    "discussion": {
-      "Mining": 0.259,
-      "Consensus": 0.741
-    },
     "code": {
       "Infrastructure": 0.5,
       "Consensus": 0.5
+    },
+    "discussion": {
+      "Consensus": 0.741,
+      "Mining": 0.259
     }
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.3,
-    "Mining": 0.1036,
-    "Consensus": 0.5964
+    "Consensus": 0.5964,
+    "Mining": 0.1036
   },
   "p2016_posts": 23.0,
   "modern_posts": 0.0,

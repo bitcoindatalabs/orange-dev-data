@@ -1,5 +1,5 @@
 {
-  "display_name": "alfred hodler",
+  "display_name": "Alfred Hodler",
   "github_login_final": "alfred-hodler",
   "delving_username_final": null,
   "uuid": "auto_alfred_hodler",
@@ -58,7 +58,7 @@
   "avg_concept_lead_time_days": null,
   "review_reciprocity": 1.0,
   "hybrid_score": 0.3971,
-  "p2016_hybrid_score": 0.407,
+  "p2016_hybrid_score": 0.4069,
   "modern_hybrid_score": 0.0146,
   "impact_score": 21.0,
   "p2016_impact_score": 22.0,
@@ -79,8 +79,8 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Privacy": 0.8,
-      "Consensus": 0.2
+      "Consensus": 0.2,
+      "Privacy": 0.8
     },
     "bips": {
       "Infrastructure": 1.0
@@ -88,8 +88,8 @@
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.7143,
-    "Privacy": 0.2286,
-    "Consensus": 0.0571
+    "Consensus": 0.0571,
+    "Privacy": 0.2286
   },
   "p2016_posts": 9.0,
   "modern_posts": 0.0,

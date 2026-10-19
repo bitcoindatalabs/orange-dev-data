@@ -1,5 +1,5 @@
 {
-  "display_name": "Thomas Hartman",
+  "display_name": "thomas hartman",
   "github_login_final": null,
   "delving_username_final": null,
   "uuid": "auto_thomas_hartman",
@@ -67,14 +67,14 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Mining": 0.319,
       "Consensus": 0.209,
+      "Mining": 0.319,
       "Script": 0.473
     }
   },
   "expertise_domain_scores": {
-    "Mining": 0.3187,
     "Consensus": 0.2088,
+    "Mining": 0.3187,
     "Script": 0.4725
   },
   "p2016_posts": 10.0,

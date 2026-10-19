@@ -1,5 +1,5 @@
 {
-  "display_name": "Elias Rohrer",
+  "display_name": "elias rohrer",
   "github_login_final": "tnull",
   "delving_username_final": "tnull",
   "uuid": "auto_elias_rohrer",
@@ -66,18 +66,18 @@
     "Privacy"
   ],
   "expertise_by_source": {
-    "discussion": {
-      "Privacy": 0.287,
-      "L2": 0.713
-    },
     "code": {
       "Consensus": 1.0
+    },
+    "discussion": {
+      "L2": 0.713,
+      "Privacy": 0.287
     }
   },
   "expertise_domain_scores": {
-    "Privacy": 0.1148,
+    "Consensus": 0.6,
     "L2": 0.2852,
-    "Consensus": 0.6
+    "Privacy": 0.1148
   },
   "p2016_posts": 9.0,
   "modern_posts": 8.0,

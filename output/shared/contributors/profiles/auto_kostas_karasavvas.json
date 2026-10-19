@@ -1,5 +1,5 @@
 {
-  "display_name": "Kostas Karasavvas",
+  "display_name": "kostas karasavvas",
   "github_login_final": null,
   "delving_username_final": null,
   "uuid": "auto_kostas_karasavvas",
@@ -68,14 +68,14 @@
   "expertise_by_source": {
     "discussion": {
       "Consensus": 0.329,
-      "Script": 0.384,
-      "Ecosystem": 0.288
+      "Ecosystem": 0.288,
+      "Script": 0.384
     }
   },
   "expertise_domain_scores": {
     "Consensus": 0.3287,
-    "Script": 0.3836,
-    "Ecosystem": 0.2877
+    "Ecosystem": 0.2877,
+    "Script": 0.3836
   },
   "p2016_posts": 10.0,
   "modern_posts": 2.0,

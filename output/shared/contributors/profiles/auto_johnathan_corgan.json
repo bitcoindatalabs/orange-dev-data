@@ -1,5 +1,5 @@
 {
-  "display_name": "johnathan corgan",
+  "display_name": "Johnathan Corgan",
   "github_login_final": "jmcorgan",
   "delving_username_final": "jcorgan",
   "uuid": "auto_johnathan_corgan",
@@ -46,7 +46,7 @@
   "avg_concept_lead_time_days": 41.04101080246914,
   "review_reciprocity": 2.3684210526315788,
   "hybrid_score": 0.2943,
-  "p2016_hybrid_score": 0.1749,
+  "p2016_hybrid_score": 0.1748,
   "modern_hybrid_score": 0.0848,
   "impact_score": 16.0,
   "p2016_impact_score": 10.0,
@@ -66,18 +66,18 @@
     "Ecosystem"
   ],
   "expertise_by_source": {
+    "code": {
+      "Infrastructure": 1.0
+    },
     "discussion": {
       "Ecosystem": 0.318,
       "Network": 0.682
-    },
-    "code": {
-      "Infrastructure": 1.0
     }
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.6,
-    "Network": 0.2728,
-    "Ecosystem": 0.1272
+    "Ecosystem": 0.1272,
+    "Network": 0.2728
   },
   "p2016_posts": 2.0,
   "modern_posts": 1.0,

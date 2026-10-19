@@ -1,5 +1,5 @@
 {
-  "display_name": "giuseppe mazzotta",
+  "display_name": "Giuseppe Mazzotta",
   "github_login_final": "cozz",
   "delving_username_final": null,
   "uuid": "auto_giuseppe_mazzotta",
@@ -66,14 +66,14 @@
     "Network"
   ],
   "expertise_by_source": {
-    "discussion": {
-      "Ecosystem": 1.0
-    },
     "code": {
       "Infrastructure": 0.985,
+      "Consensus": 0.005,
       "Network": 0.007,
-      "Mempool": 0.003,
-      "Consensus": 0.005
+      "Mempool": 0.003
+    },
+    "discussion": {
+      "Ecosystem": 1.0
     }
   },
   "expertise_domain_scores": {

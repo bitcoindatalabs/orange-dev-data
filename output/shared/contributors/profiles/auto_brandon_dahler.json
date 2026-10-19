@@ -1,5 +1,5 @@
 {
-  "display_name": "Brandon Dahler",
+  "display_name": "brandon dahler",
   "github_login_final": "brandondahler",
   "delving_username_final": null,
   "uuid": "auto_brandon_dahler",
@@ -68,16 +68,16 @@
   "expertise_by_source": {
     "code": {
       "Infrastructure": 0.909,
+      "Consensus": 0.03,
       "Network": 0.03,
-      "Mempool": 0.03,
-      "Consensus": 0.03
+      "Mempool": 0.03
     }
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.9099,
+    "Consensus": 0.03,
     "Mempool": 0.03,
-    "Network": 0.03,
-    "Consensus": 0.03
+    "Network": 0.03
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,

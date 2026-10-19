@@ -1,5 +1,5 @@
 {
-  "display_name": "matt bell",
+  "display_name": "Matt Bell",
   "github_login_final": "mappum",
   "delving_username_final": null,
   "uuid": "auto_matt_bell",
@@ -67,15 +67,15 @@
   ],
   "expertise_by_source": {
     "discussion": {
+      "Consensus": 0.163,
       "Mining": 0.163,
-      "L2": 0.674,
-      "Consensus": 0.163
+      "L2": 0.674
     }
   },
   "expertise_domain_scores": {
+    "Consensus": 0.163,
     "Mining": 0.163,
-    "L2": 0.674,
-    "Consensus": 0.163
+    "L2": 0.674
   },
   "p2016_posts": 5.0,
   "modern_posts": 0.0,

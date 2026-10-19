@@ -1,5 +1,5 @@
 {
-  "display_name": "lucas ontivero",
+  "display_name": "Lucas Ontivero",
   "github_login_final": "lontivero",
   "delving_username_final": null,
   "uuid": "auto_lucas_ontivero",
@@ -69,24 +69,24 @@
     "Privacy"
   ],
   "expertise_by_source": {
-    "discussion": {
-      "Privacy": 0.548,
-      "Consensus": 0.274,
-      "Ecosystem": 0.178
-    },
     "code": {
       "Infrastructure": 0.125,
-      "Network": 0.375,
-      "Wallet": 0.5
+      "Wallet": 0.5,
+      "Network": 0.375
+    },
+    "discussion": {
+      "Consensus": 0.274,
+      "Ecosystem": 0.178,
+      "Privacy": 0.548
     }
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.075,
-    "Privacy": 0.2192,
-    "Network": 0.225,
-    "Wallet": 0.3,
     "Consensus": 0.1096,
-    "Ecosystem": 0.0712
+    "Ecosystem": 0.0712,
+    "Privacy": 0.2192,
+    "Wallet": 0.3,
+    "Network": 0.225
   },
   "p2016_posts": 7.0,
   "modern_posts": 0.0,

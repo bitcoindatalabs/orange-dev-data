@@ -1,5 +1,5 @@
 {
-  "display_name": "keziah wesley",
+  "display_name": "Keziah Wesley",
   "github_login_final": "kazcw",
   "delving_username_final": null,
   "uuid": "auto_keziah_wesley",
@@ -66,14 +66,14 @@
     "Mining"
   ],
   "expertise_by_source": {
-    "discussion": {
-      "Mining": 0.273,
-      "Mempool": 0.727
-    },
     "code": {
       "Infrastructure": 0.867,
       "Network": 0.12,
       "Mempool": 0.013
+    },
+    "discussion": {
+      "Mining": 0.273,
+      "Mempool": 0.727
     }
   },
   "expertise_domain_scores": {

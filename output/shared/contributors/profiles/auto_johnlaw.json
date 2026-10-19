@@ -1,5 +1,5 @@
 {
-  "display_name": "JohnLaw",
+  "display_name": "johnlaw",
   "github_login_final": null,
   "delving_username_final": "johnlaw",
   "uuid": "auto_johnlaw",
@@ -67,14 +67,14 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Mempool": 0.176,
       "L2": 0.608,
+      "Mempool": 0.176,
       "Wallet": 0.216
     }
   },
   "expertise_domain_scores": {
-    "Mempool": 0.176,
     "L2": 0.608,
+    "Mempool": 0.176,
     "Wallet": 0.216
   },
   "p2016_posts": 26.0,

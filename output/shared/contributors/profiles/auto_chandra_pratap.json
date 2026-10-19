@@ -1,5 +1,5 @@
 {
-  "display_name": "chandra pratap",
+  "display_name": "Chandra Pratap",
   "github_login_final": "Chand-ra",
   "delving_username_final": "chand-ra",
   "uuid": "auto_chandra_pratap",
@@ -65,11 +65,11 @@
     "L2"
   ],
   "expertise_by_source": {
-    "discussion": {
-      "L2": 1.0
-    },
     "code": {
       "Infrastructure": 1.0
+    },
+    "discussion": {
+      "L2": 1.0
     }
   },
   "expertise_domain_scores": {

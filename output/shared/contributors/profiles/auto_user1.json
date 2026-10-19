@@ -1,7 +1,7 @@
 {
   "display_name": "user1",
   "github_login_final": null,
-  "delving_username_final": "ahmet-kurt",
+  "delving_username_final": "kcu201104",
   "uuid": "auto_user1",
   "badges": null,
   "roles": null,
@@ -52,34 +52,34 @@
   "p2016_impact_score": 0.0,
   "modern_impact_score": 0.0,
   "threads_started": 1.0,
-  "replies_sent": 2.0,
+  "replies_sent": 0.0,
   "ml_threads": 0.0,
   "delving_threads": 1.0,
   "ml_responses": 0.0,
-  "delving_responses": 2.0,
+  "delving_responses": 0.0,
   "first_active": null,
   "last_active": null,
   "dev_type": "Participant",
   "expertise_domains": [
-    "Cryptography",
-    "L2"
+    "Mining",
+    "Ecosystem"
   ],
   "expertise_by_source": {
     "discussion": {
-      "L2": 0.25,
-      "Cryptography": 0.75
+      "Mining": 0.67,
+      "Ecosystem": 0.33
     }
   },
   "expertise_domain_scores": {
-    "L2": 0.25,
-    "Cryptography": 0.75
+    "Mining": 0.67,
+    "Ecosystem": 0.33
   },
-  "p2016_posts": 3.0,
-  "modern_posts": 3.0,
+  "p2016_posts": 1.0,
+  "modern_posts": 1.0,
   "p2016_ml_posts": 0.0,
-  "p2016_delving_posts": 3.0,
+  "p2016_delving_posts": 1.0,
   "modern_ml_posts": 0.0,
-  "modern_delving_posts": 3.0,
+  "modern_delving_posts": 1.0,
   "is_engineer": false,
   "is_reviewer": false,
   "is_researcher": false,
@@ -94,23 +94,23 @@
   "github_followers": null,
   "activity_status": "",
   "is_top_50": false,
-  "delving_url": "https://delvingbitcoin.org/u/ahmet-kurt",
+  "delving_url": "https://delvingbitcoin.org/u/kcu201104",
   "first_message": {
     "source": "delving",
-    "subject": "PQLN: Post-Quantum Security for the Bitcoin Lightning Network's Off-Chain Surfaces",
-    "date": "2026-09-16",
-    "link": "https://delvingbitcoin.org/t/pqln-post-quantum-security-for-the-bitcoin-lightning-networks-off-chain-surfaces/2893/1"
+    "subject": "Asynchronous Pipeline Consensus: Decoupling Mining from Full-Block Validation",
+    "date": "2026-09-22",
+    "link": "https://delvingbitcoin.org/t/asynchronous-pipeline-consensus-decoupling-mining-from-full-block-validation/2906/1"
   },
   "last_message": {
     "source": "delving",
-    "subject": "Re: PQLN: Post-Quantum Security for the Bitcoin Lightning Network's Off-Chain Surfaces",
-    "date": "2026-10-01",
-    "link": "https://delvingbitcoin.org/t/pqln-post-quantum-security-for-the-bitcoin-lightning-networks-off-chain-surfaces/2893/3"
+    "subject": "Asynchronous Pipeline Consensus: Decoupling Mining from Full-Block Validation",
+    "date": "2026-09-22",
+    "link": "https://delvingbitcoin.org/t/asynchronous-pipeline-consensus-decoupling-mining-from-full-block-validation/2906/1"
   },
   "social_history": {
     "2026": {
-      "lightning": 2,
-      "quantum": 3
+      "mining": 1,
+      "scaling": 1
     }
   }
 }

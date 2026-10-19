@@ -1,5 +1,5 @@
 {
-  "display_name": "Daniel Edgecumbe",
+  "display_name": "daniel edgecumbe",
   "github_login_final": "esotericnonsense",
   "delving_username_final": null,
   "uuid": "auto_daniel_edgecumbe",
@@ -66,19 +66,19 @@
     "Mempool"
   ],
   "expertise_by_source": {
-    "discussion": {
-      "Mempool": 0.405,
-      "Consensus": 0.595
-    },
     "code": {
       "Infrastructure": 0.917,
       "Consensus": 0.083
+    },
+    "discussion": {
+      "Consensus": 0.595,
+      "Mempool": 0.405
     }
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.5502,
-    "Mempool": 0.162,
-    "Consensus": 0.2878
+    "Consensus": 0.2878,
+    "Mempool": 0.162
   },
   "p2016_posts": 5.0,
   "modern_posts": 0.0,

@@ -1,5 +1,5 @@
 {
-  "display_name": "miro",
+  "display_name": "Miro",
   "github_login_final": null,
   "delving_username_final": "mr21free",
   "uuid": "auto_miro",
@@ -66,13 +66,13 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Wallet": 0.833,
-      "Ecosystem": 0.167
+      "Ecosystem": 0.167,
+      "Wallet": 0.833
     }
   },
   "expertise_domain_scores": {
-    "Wallet": 0.833,
-    "Ecosystem": 0.167
+    "Ecosystem": 0.167,
+    "Wallet": 0.833
   },
   "p2016_posts": 4.0,
   "modern_posts": 4.0,

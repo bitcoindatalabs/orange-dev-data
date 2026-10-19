@@ -71,8 +71,8 @@
     }
   },
   "expertise_domain_scores": {
-    "Wallet": 0.2,
-    "Consensus": 0.8
+    "Consensus": 0.8,
+    "Wallet": 0.2
   },
   "p2016_posts": 2.0,
   "modern_posts": 2.0,

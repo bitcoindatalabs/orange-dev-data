@@ -43,24 +43,24 @@
   "modern_bips_authored": 1.0,
   "first_bip_date": "2025-02-20T16:18:08",
   "last_bip_date": "2025-02-20T16:18:08",
-  "avg_review_latency_days": 1605.7876481372768,
-  "reviews_count": 731.0,
+  "avg_review_latency_days": 1604.7851361872379,
+  "reviews_count": 734.0,
   "avg_approval_latency_days": 1096.1528270013691,
   "approvals_count": 291.0,
   "tier1_reviews_count": 213.0,
-  "tier2_reviews_count": 518.0,
-  "p2016_reviews_count": 731.0,
+  "tier2_reviews_count": 521.0,
+  "p2016_reviews_count": 734.0,
   "modern_reviews_count": 611.0,
   "first_review_date": "2016-01-03T22:44:22",
-  "last_review_date": "2026-09-25T18:56:55",
+  "last_review_date": "2026-10-16T04:09:56",
   "prs_authored": 72.0,
   "tier1_prs_authored": 33.0,
   "tier2_prs_authored": 39.0,
   "avg_pr_ack_velocity_days": 42.59497779029029,
   "avg_concept_lead_time_days": 49.894305555555555,
-  "review_reciprocity": 10.152777777777779,
-  "hybrid_score": 0.9949,
-  "p2016_hybrid_score": 1.1104,
+  "review_reciprocity": 10.194444444444445,
+  "hybrid_score": 0.995,
+  "p2016_hybrid_score": 1.1103,
   "modern_hybrid_score": 1.1761,
   "impact_score": 45.0,
   "p2016_impact_score": 49.0,
@@ -80,15 +80,15 @@
     "Mempool"
   ],
   "expertise_by_source": {
-    "discussion": {
-      "Mining": 0.314,
-      "Mempool": 0.343,
-      "Ecosystem": 0.343
-    },
     "code": {
       "Infrastructure": 0.649,
       "Wallet": 0.307,
       "Mempool": 0.044
+    },
+    "discussion": {
+      "Mining": 0.314,
+      "Ecosystem": 0.343,
+      "Mempool": 0.343
     },
     "bips": {
       "Infrastructure": 1.0
@@ -97,9 +97,9 @@
   "expertise_domain_scores": {
     "Infrastructure": 0.6947,
     "Mining": 0.0628,
+    "Ecosystem": 0.0686,
     "Mempool": 0.0818,
-    "Wallet": 0.0921,
-    "Ecosystem": 0.0686
+    "Wallet": 0.0921
   },
   "p2016_posts": 132.0,
   "modern_posts": 124.0,
@@ -112,7 +112,7 @@
   "is_researcher": true,
   "is_bip_author": true,
   "global_first_active": "2015-12-08T09:23:05",
-  "global_last_active": "2026-09-25T18:56:55",
+  "global_last_active": "2026-10-16T04:09:56",
   "github_location": null,
   "github_company": null,
   "github_bio": null,
