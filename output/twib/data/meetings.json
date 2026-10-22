@@ -1,5 +1,91 @@
 [
   {
+    "date": "2026-10-22",
+    "url": "https://achow101.com/ircmeetings/2026/bitcoin-core-dev.2026-10-22_16_00.log.json",
+    "participant_count": 19,
+    "key_participants": [
+      "instagibbs",
+      "stickies-v",
+      "darosior",
+      "johnny9dev",
+      "andrewtoth_",
+      "eugenesiegel"
+    ],
+    "active_participants": [
+      "instagibbs",
+      "stickies-v",
+      "darosior",
+      "johnny9dev",
+      "andrewtoth_",
+      "eugenesiegel",
+      "achow101",
+      "Murch[m]",
+      "fanquake",
+      "yancy",
+      "brunoerg",
+      "hebasto",
+      "marcofleon",
+      "cfields"
+    ],
+    "topics_discussed": [
+      "Fuzzing WG Update (eugenesiegel, marcofleon): eugenesiegel is working on getting bedrock into shape for fuzzamoto, which found minor database consistency issues (e.g., a node having power loss during -reindex prevents startup). stickies-v suggested not to over-engineer fixes for loud failures, while darosior recommended opening an issue for potential underlying bugs.",
+      "QML GUI WG Update (johnny9dev): The team is addressing feedback from last week, with a PR to clarify storage choices during onboarding. Priority is getting the staging branch ready. johnny9dev is exploring pruned wallet setup, including txindex and compact block filters for pruned rescans and block retrieval. Murch raised the possibility of merging the new GUI into v33, but hebasto and stickies-v deemed it premature until the staging branch is available, which johnny9dev expects by late November/early December.",
+      "Windows Code Signer (achow101): achow101 highlighted that he is currently the sole Windows code signer, creating a single point of failure. He requested volunteers who are committed to building all releases and release candidates shortly after tagging to contact him.",
+      "Reimplement private broadcast as node state-less jobs + package relay support (#36608) (instagibbs): instagibbs presented PR #36608, a node state-less private broadcast variant with 1p1c package relay support, proposed for v33. The PR involves ~4.6k net LOC in logic, entirely outside consensus-critical code. instagibbs sought high-level spec discussions, project buy-in for v33, feedback on including a standalone tool variant, and advice on splitting the PR (e.g., one PR for the swap, one for package relay). andrewtoth_ questioned the feasibility of a 17k line PR for v33 and whether previous concerns were addressed. darosior supported the structural fix to node state leaks for privacy guarantees, suggesting the standalone tool could be integrated into bitcoin-util and the swap should be a single PR, with package relay as a follow-up. stickies-v agreed with darosior on the PR splitting.",
+      "General Updates (fanquake): fanquake announced that Bitcoin Core v32.0 has been tagged. Updates to the security policy have been merged (bitcoincore.org PR #1281), and a PR to enroll Core in the Anthropic OSS scanner (anthropics/oss-scanner PR #1018) is open."
+    ],
+    "decisions_made": [],
+    "action_items": [
+      "eugenesiegel: Open an issue for the minor database consistency issues found during fuzzing.",
+      "achow101: Interested developers to contact him regarding becoming an additional Windows code signer.",
+      "instagibbs: Continue offline discussions regarding the design and implementation of PR #36608.",
+      "cfields: Review PR #36608 and discuss potential overlap with multi-process p2p work with instagibbs out-of-band.",
+      "Developers: Review instagibbs's PR #36608."
+    ],
+    "mentioned_prs": [
+      36608
+    ],
+    "card_topics": [
+      "Fuzzing WG: eugenesiegel is preparing bedrock for fuzzamoto, identifying minor database consistency issues.",
+      "QML GUI WG: johnny9dev is progressing the staging branch, exploring pruned wallet setup and rescans.",
+      "Windows Code Signing: achow101 seeks additional signers to mitigate single point of failure for releases.",
+      "Private Broadcast Rework: instagibbs proposed #36608, a node state-less private broadcast with package relay, for v33.",
+      "Release & Security: fanquake announced v32.0 tag, security policy updates, and Anthropic OSS scanner enrollment."
+    ],
+    "spotlight_debate": "Private Broadcast Rework: instagibbs proposed #36608 for state-less private broadcast; andrewtoth_ questioned the large PR size for v33 and specific risks addressed beyond v32 fixes.",
+    "referenced_artifacts": [
+      {
+        "label": "PR #36608",
+        "icon": "git-pull-request"
+      },
+      {
+        "label": "Bitcoin Core v32.0",
+        "icon": "tag"
+      },
+      {
+        "label": "Fuzzamoto",
+        "icon": "robot"
+      },
+      {
+        "label": "QML GUI Staging",
+        "icon": "code-branch"
+      },
+      {
+        "label": "Anthropic OSS Scanner",
+        "icon": "shield-alt"
+      }
+    ],
+    "narrative_summary": "Bitcoin Core v32.0 has been tagged, as announced by fanquake. Updates to the security policy have been merged (bitcoincore.org PR #1281), and a PR to enroll Core in the Anthropic OSS scanner (anthropics/oss-scanner PR #1018) is open. achow101 requested volunteers to become additional Windows code signers to address the current single point of failure, requiring commitment to building all releases and release candidates.\n\nThe Fuzzing WG, led by eugenesiegel, is preparing bedrock for fuzzamoto, which has identified minor database consistency issues. The QML GUI WG, led by johnny9dev, is prioritizing readiness of the staging branch and exploring pruned wallet setup, including txindex and compact block filters for rescans.\n\ninstagibbs proposed a significant architectural change in PR #36608 to reimplement private broadcast as node state-less jobs with package relay support, targeting v33. The proposal, involving ~4.6k net LOC in logic, aims to structurally address node state leaks for improved privacy. andrewtoth_ raised concerns regarding the PR's size for v33 and requested further quantification of the specific risks addressed, while darosior advocated for structural fixes to privacy guarantees.",
+    "x_priority_takeaway": "Review #36608: Private Broadcast Rework.",
+    "x_bullet_points": [
+      "v32.0 tagged",
+      "New GUI staging",
+      "Code signer needed"
+    ],
+    "linkedin_context": "Bitcoin Core v32.0 has been tagged, as announced by fanquake. Updates to the security policy have been merged (bitcoincore.org PR #1281), and a PR to enroll Core in the Anthropic OSS scanner (anthropics/oss-scanner PR #1018) is open. achow101 requested volunteers to become additional Windows code signers to address the current single point of failure, requiring commitment to building all releases and release candidates.\n\nThe Fuzzing WG, led by eugenesiegel, is preparing bedrock for fuzzamoto, which has identified minor database consistency issues. The QML GUI WG, led by johnny9dev, is prioritizing readiness of the staging branch and exploring pruned wallet setup, including txindex and compact block filters for rescans.\n\ninstagibbs proposed a significant architectural change in PR #36608 to reimplement private broadcast as node state-less jobs with package relay support, targeting v33. The proposal, involving ~4.6k net LOC in logic, aims to structurally address node state leaks for improved privacy. andrewtoth_ raised concerns regarding the PR's size for v33 and requested further quantification of the specific risks addressed, while darosior advocated for structural fixes to privacy guarantees.",
+    "_text_hash": "d2f909a282067507d1ea472dbd1b1f43"
+  },
+  {
     "date": "2026-10-08",
     "url": "https://achow101.com/ircmeetings/2026/bitcoin-core-dev.2026-10-08_16_00.log.json",
     "participant_count": 22,
