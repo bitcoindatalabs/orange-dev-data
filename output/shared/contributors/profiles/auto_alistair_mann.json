@@ -1,6 +1,7 @@
 {
-  "display_name": "alistair mann",
+  "display_name": "Alistair Mann",
   "github_login_final": "Csi18nAlistairMann",
+  "github_id_final": "10445630",
   "delving_username_final": null,
   "uuid": "auto_alistair_mann",
   "badges": null,
@@ -45,7 +46,7 @@
   "avg_pr_ack_velocity_days": 1.2738368055555556,
   "avg_concept_lead_time_days": 1.452332175925926,
   "review_reciprocity": 0.0,
-  "hybrid_score": 0.0785,
+  "hybrid_score": 0.0784,
   "p2016_hybrid_score": 0.0865,
   "modern_hybrid_score": 0.025,
   "impact_score": 5.0,
@@ -57,8 +58,8 @@
   "delving_threads": 0.0,
   "ml_responses": 4.0,
   "delving_responses": 0.0,
-  "first_active": "2019-03-11T11:01:12",
-  "last_active": "2019-07-31T18:28:56",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Builder",
   "expertise_domains": [
     "Infrastructure",
@@ -66,20 +67,20 @@
     "Mempool"
   ],
   "expertise_by_source": {
+    "discussion": {
+      "L2": 0.548,
+      "Mempool": 0.274,
+      "Mining": 0.179
+    },
     "code": {
       "Infrastructure": 1.0
-    },
-    "discussion": {
-      "Mining": 0.179,
-      "L2": 0.548,
-      "Mempool": 0.274
     }
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.5998,
-    "Mining": 0.0716,
     "L2": 0.2191,
-    "Mempool": 0.1096
+    "Mempool": 0.1096,
+    "Mining": 0.0716
   },
   "p2016_posts": 5.0,
   "modern_posts": 0.0,
@@ -92,14 +93,32 @@
   "is_researcher": true,
   "is_bip_author": false,
   "global_first_active": "2019-03-05T12:13:09",
-  "global_last_active": "2019-07-31T18:28:56",
+  "global_last_active": "2019-03-05T12:13:09",
   "github_location": null,
   "github_company": null,
   "github_bio": null,
   "github_twitter": null,
   "github_blog": null,
   "github_followers": 2.0,
+  "github_profile_fetched_at": "2026-10-20T19:00:33Z",
   "activity_status": "Active",
+  "geo_country_iso2": null,
+  "geo_country_iso3": null,
+  "geo_country_name": null,
+  "geo_sovereign_iso2": null,
+  "geo_m49_subregion": null,
+  "geo_macro_region": "Undisclosed",
+  "geo_un_macro_region": "Undisclosed",
+  "geo_wb_income": null,
+  "geo_flag": null,
+  "geo_status": "empty",
+  "geo_source": "none",
+  "geo_confidence": 0.0,
+  "geo_conflict": false,
+  "geo_tz_signature": null,
+  "geo_location_raw": null,
+  "geo_as_of": null,
+  "geo_taxonomy_version": "2026.10.1",
   "is_top_50": false,
   "github_url": "https://github.com/Csi18nAlistairMann",
   "commit_history": {

@@ -1,6 +1,7 @@
 {
   "display_name": "Duncan Dean",
   "github_login_final": "dunxen",
+  "github_id_final": "3072149",
   "delving_username_final": "dunxen",
   "uuid": "auto_duncan_dean",
   "badges": {
@@ -60,24 +61,29 @@
   "delving_threads": 1.0,
   "ml_responses": 0.0,
   "delving_responses": 0.0,
-  "first_active": null,
-  "last_active": null,
+  "first_active": "2026-05-11T12:04:49.452000",
+  "last_active": "2026-05-11T12:04:49.452000",
   "dev_type": "Builder",
   "expertise_domains": [
     "Infrastructure",
+    "Network",
     "Mining"
   ],
   "expertise_by_source": {
+    "discussion": {
+      "Ecosystem": 0.25,
+      "Network": 0.5,
+      "Mining": 0.25
+    },
     "code": {
       "Infrastructure": 1.0
-    },
-    "discussion": {
-      "Mining": 1.0
     }
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.6,
-    "Mining": 0.4
+    "Ecosystem": 0.1,
+    "Network": 0.2,
+    "Mining": 0.1
   },
   "p2016_posts": 1.0,
   "modern_posts": 1.0,
@@ -90,14 +96,32 @@
   "is_researcher": false,
   "is_bip_author": false,
   "global_first_active": "2020-06-25T15:10:03",
-  "global_last_active": "2023-07-27T17:08:14",
+  "global_last_active": "2026-05-11T12:04:49.452000",
   "github_location": "South Africa",
   "github_company": "@nexedworks",
   "github_bio": "Barking up trees at Second (https://second.tech)\r\n\r\nMostly on GitLab these days: https://gitlab.com/dunxen",
   "github_twitter": "dunxen",
   "github_blog": "https://dunxen.dev",
-  "github_followers": 137.0,
-  "activity_status": "Retired",
+  "github_followers": 144.0,
+  "github_profile_fetched_at": "2026-10-20T19:01:09Z",
+  "activity_status": "Active",
+  "geo_country_iso2": "ZA",
+  "geo_country_iso3": "ZAF",
+  "geo_country_name": "South Africa",
+  "geo_sovereign_iso2": "ZA",
+  "geo_m49_subregion": "Southern Africa",
+  "geo_macro_region": "Africa",
+  "geo_un_macro_region": "Africa",
+  "geo_wb_income": "Upper-Middle",
+  "geo_flag": "🇿🇦",
+  "geo_status": "resolved",
+  "geo_source": "github_location",
+  "geo_confidence": 0.95,
+  "geo_conflict": false,
+  "geo_tz_signature": null,
+  "geo_location_raw": "South Africa",
+  "geo_as_of": "2026-10-20",
+  "geo_taxonomy_version": "2026.10.1",
   "is_top_50": false,
   "github_url": "https://github.com/dunxen",
   "delving_url": "https://delvingbitcoin.org/u/dunxen",
@@ -133,7 +157,9 @@
   "social_history": {
     "2026": {
       "core-dev": 1,
-      "mining": 1
+      "mining": 1,
+      "p2p-network": 1,
+      "payment-protocol": 1
     }
   }
 }

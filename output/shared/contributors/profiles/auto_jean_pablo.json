@@ -1,6 +1,7 @@
 {
   "display_name": "Jean Pablo",
   "github_login_final": "jeanpablojp",
+  "github_id_final": "8968629",
   "delving_username_final": "jeanpablojp",
   "uuid": "auto_jean_pablo",
   "badges": {
@@ -26,7 +27,7 @@
   "last_commit": "2026-10-05T12:47:35",
   "p2016_authored_commits": 11.0,
   "modern_authored_commits": 11.0,
-  "co_authored_commits": 2.0,
+  "co_authored_commits": 6.0,
   "bips_authored": 0.0,
   "p2016_bips_authored": 0.0,
   "modern_bips_authored": 0.0,
@@ -60,8 +61,8 @@
   "delving_threads": 4.0,
   "ml_responses": 0.0,
   "delving_responses": 1.0,
-  "first_active": null,
-  "last_active": "2026-08-06T08:51:55",
+  "first_active": "2026-07-28T21:29:41.575000",
+  "last_active": null,
   "dev_type": "Builder",
   "expertise_domains": [
     "Wallet",
@@ -69,13 +70,13 @@
     "Cryptography"
   ],
   "expertise_by_source": {
-    "code": {
-      "Infrastructure": 0.455,
-      "Wallet": 0.545
-    },
     "discussion": {
       "Consensus": 0.38,
       "Cryptography": 0.62
+    },
+    "code": {
+      "Infrastructure": 0.455,
+      "Wallet": 0.545
     }
   },
   "expertise_domain_scores": {
@@ -94,15 +95,33 @@
   "is_reviewer": true,
   "is_researcher": false,
   "is_bip_author": false,
-  "global_first_active": "2026-08-03T23:45:59",
+  "global_first_active": "2026-07-28T21:29:41.575000",
   "global_last_active": "2026-10-05T12:47:35",
-  "github_location": null,
+  "github_location": "Portugal",
   "github_company": null,
-  "github_bio": null,
+  "github_bio": "👨🏻‍💻 Build · Break · Learn · Repeat\r\n🤖 AI · ⛓️ Blockchain · ₿ Bitcoin ❤️",
   "github_twitter": null,
-  "github_blog": null,
-  "github_followers": null,
+  "github_blog": "https://jeanpablo.jp",
+  "github_followers": 14.0,
+  "github_profile_fetched_at": "2026-10-20T18:46:37Z",
   "activity_status": "New",
+  "geo_country_iso2": "PT",
+  "geo_country_iso3": "PRT",
+  "geo_country_name": "Portugal",
+  "geo_sovereign_iso2": "PT",
+  "geo_m49_subregion": "Southern Europe",
+  "geo_macro_region": "Europe",
+  "geo_un_macro_region": "Europe",
+  "geo_wb_income": "High",
+  "geo_flag": "🇵🇹",
+  "geo_status": "resolved",
+  "geo_source": "github_location",
+  "geo_confidence": 0.95,
+  "geo_conflict": false,
+  "geo_tz_signature": null,
+  "geo_location_raw": "Portugal",
+  "geo_as_of": "2026-10-20",
+  "geo_taxonomy_version": "2026.10.1",
   "is_top_50": false,
   "github_url": "https://github.com/jeanpablojp",
   "delving_url": "https://delvingbitcoin.org/u/jeanpablojp",

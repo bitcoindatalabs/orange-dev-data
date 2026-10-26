@@ -1,6 +1,7 @@
 {
-  "display_name": "ethan kosakovsky",
+  "display_name": "Ethan Kosakovsky",
   "github_login_final": "ethankosakovsky",
+  "github_id_final": "62417540",
   "delving_username_final": null,
   "uuid": "auto_ethan_kosakovsky",
   "badges": {
@@ -57,7 +58,7 @@
   "avg_pr_ack_velocity_days": 65.1033449074074,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": 3.3333333333333335,
-  "hybrid_score": 0.4511,
+  "hybrid_score": 0.451,
   "p2016_hybrid_score": 0.4577,
   "modern_hybrid_score": 0.033,
   "impact_score": 24.0,
@@ -69,8 +70,8 @@
   "delving_threads": 0.0,
   "ml_responses": 6.0,
   "delving_responses": 0.0,
-  "first_active": "2020-03-20T10:44:01",
-  "last_active": "2020-04-16T12:53:38",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Reviewer",
   "expertise_domains": [
     "Infrastructure",
@@ -80,8 +81,8 @@
   "expertise_by_source": {
     "discussion": {
       "Consensus": 0.128,
-      "Mining": 0.064,
-      "Wallet": 0.809
+      "Wallet": 0.809,
+      "Mining": 0.064
     },
     "bips": {
       "Infrastructure": 1.0
@@ -90,8 +91,8 @@
   "expertise_domain_scores": {
     "Infrastructure": 0.7141,
     "Consensus": 0.0366,
-    "Mining": 0.0183,
-    "Wallet": 0.2311
+    "Wallet": 0.2311,
+    "Mining": 0.0183
   },
   "p2016_posts": 7.0,
   "modern_posts": 0.0,
@@ -103,7 +104,7 @@
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": true,
-  "global_first_active": "2020-03-20T10:44:01",
+  "global_first_active": "2020-04-11T06:29:51",
   "global_last_active": "2023-02-07T14:55:36",
   "github_location": null,
   "github_company": null,
@@ -111,7 +112,25 @@
   "github_twitter": null,
   "github_blog": null,
   "github_followers": 6.0,
+  "github_profile_fetched_at": "2026-10-20T19:01:22Z",
   "activity_status": "Active",
+  "geo_country_iso2": null,
+  "geo_country_iso3": null,
+  "geo_country_name": null,
+  "geo_sovereign_iso2": null,
+  "geo_m49_subregion": null,
+  "geo_macro_region": "Undisclosed",
+  "geo_un_macro_region": "Undisclosed",
+  "geo_wb_income": null,
+  "geo_flag": null,
+  "geo_status": "empty",
+  "geo_source": "none",
+  "geo_confidence": 0.0,
+  "geo_conflict": false,
+  "geo_tz_signature": null,
+  "geo_location_raw": null,
+  "geo_as_of": null,
+  "geo_taxonomy_version": "2026.10.1",
   "is_top_50": false,
   "github_url": "https://github.com/ethankosakovsky",
   "bip_list": [

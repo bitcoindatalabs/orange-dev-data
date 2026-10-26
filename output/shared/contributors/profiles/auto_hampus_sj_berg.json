@@ -1,6 +1,7 @@
 {
-  "display_name": "hampus sjöberg",
+  "display_name": "Hampus Sjöberg",
   "github_login_final": "hsjoberg",
+  "github_id_final": "3824379",
   "delving_username_final": null,
   "uuid": "auto_hampus_sj_berg",
   "badges": null,
@@ -57,8 +58,8 @@
   "delving_threads": 0.0,
   "ml_responses": 23.0,
   "delving_responses": 0.0,
-  "first_active": "2016-12-04T14:37:39",
-  "last_active": "2022-04-25T08:34:25",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Builder",
   "expertise_domains": [
     "Consensus",
@@ -66,13 +67,13 @@
     "Mining"
   ],
   "expertise_by_source": {
-    "code": {
-      "Infrastructure": 0.5,
-      "Consensus": 0.5
-    },
     "discussion": {
       "Consensus": 0.741,
       "Mining": 0.259
+    },
+    "code": {
+      "Infrastructure": 0.5,
+      "Consensus": 0.5
     }
   },
   "expertise_domain_scores": {
@@ -97,8 +98,26 @@
   "github_bio": "Brogrammer.\r\nMusician.\r\nBitcoin fanatic.",
   "github_twitter": "hampus_s",
   "github_blog": "https://blixtwallet.github.io",
-  "github_followers": 220.0,
+  "github_followers": 233.0,
+  "github_profile_fetched_at": "2026-10-20T19:02:08Z",
   "activity_status": "Active",
+  "geo_country_iso2": "SE",
+  "geo_country_iso3": "SWE",
+  "geo_country_name": "Sweden",
+  "geo_sovereign_iso2": "SE",
+  "geo_m49_subregion": "Northern Europe",
+  "geo_macro_region": "Europe",
+  "geo_un_macro_region": "Europe",
+  "geo_wb_income": "High",
+  "geo_flag": "🇸🇪",
+  "geo_status": "resolved",
+  "geo_source": "github_location",
+  "geo_confidence": 0.95,
+  "geo_conflict": false,
+  "geo_tz_signature": null,
+  "geo_location_raw": "Stockholm, Sweden",
+  "geo_as_of": "2026-10-20",
+  "geo_taxonomy_version": "2026.10.1",
   "is_top_50": false,
   "github_url": "https://github.com/hsjoberg",
   "commit_history": {

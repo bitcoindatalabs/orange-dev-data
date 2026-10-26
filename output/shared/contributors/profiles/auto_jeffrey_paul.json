@@ -1,6 +1,7 @@
 {
   "display_name": "Jeffrey Paul",
   "github_login_final": "sneak",
+  "github_id_final": "408977",
   "delving_username_final": null,
   "uuid": "auto_jeffrey_paul",
   "badges": null,
@@ -57,8 +58,8 @@
   "delving_threads": 0.0,
   "ml_responses": 6.0,
   "delving_responses": 0.0,
-  "first_active": "2014-12-04T14:02:17",
-  "last_active": "2018-11-08T11:12:17",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Participant",
   "expertise_domains": [
     "Script",
@@ -66,13 +67,13 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Ecosystem": 0.324,
-      "Script": 0.676
+      "Script": 0.676,
+      "Ecosystem": 0.324
     }
   },
   "expertise_domain_scores": {
-    "Ecosystem": 0.324,
-    "Script": 0.676
+    "Script": 0.676,
+    "Ecosystem": 0.324
   },
   "p2016_posts": 1.0,
   "modern_posts": 0.0,
@@ -85,14 +86,32 @@
   "is_researcher": true,
   "is_bip_author": false,
   "global_first_active": "2011-08-23T00:04:41",
-  "global_last_active": "2018-11-08T11:12:17",
+  "global_last_active": "2014-02-13T18:27:14",
   "github_location": "Berlin, Germany",
   "github_company": "@eeqj, @keyternal ",
   "github_bio": "Hacker, photographer, dj, researcher.\r\n\r\nFounder of @eeqj and @keyternal.\r\n\r\nI have migrated from GitHub, due to my moral inability to support Microsoft.",
   "github_twitter": null,
   "github_blog": "https://sneak.berlin",
-  "github_followers": 183.0,
+  "github_followers": 182.0,
+  "github_profile_fetched_at": "2026-10-20T19:52:20Z",
   "activity_status": "Active",
+  "geo_country_iso2": "DE",
+  "geo_country_iso3": "DEU",
+  "geo_country_name": "Germany",
+  "geo_sovereign_iso2": "DE",
+  "geo_m49_subregion": "Western Europe",
+  "geo_macro_region": "Europe",
+  "geo_un_macro_region": "Europe",
+  "geo_wb_income": "High",
+  "geo_flag": "🇩🇪",
+  "geo_status": "resolved",
+  "geo_source": "github_location",
+  "geo_confidence": 0.95,
+  "geo_conflict": false,
+  "geo_tz_signature": null,
+  "geo_location_raw": "Berlin, Germany",
+  "geo_as_of": "2026-10-20",
+  "geo_taxonomy_version": "2026.10.1",
   "is_top_50": false,
   "github_url": "https://github.com/sneak",
   "first_message": {

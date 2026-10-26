@@ -1,6 +1,7 @@
 {
   "display_name": "John Newbery",
   "github_login_final": "jnewbery",
+  "github_id_final": "1063656",
   "delving_username_final": null,
   "uuid": "can_john_newbery",
   "badges": {
@@ -67,8 +68,8 @@
   "delving_threads": 0.0,
   "ml_responses": 9.0,
   "delving_responses": 0.0,
-  "first_active": "2018-01-23T15:56:50",
-  "last_active": "2021-04-27T06:33:48",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Builder",
   "expertise_domains": [
     "Network",
@@ -76,24 +77,24 @@
     "Consensus"
   ],
   "expertise_by_source": {
-    "code": {
-      "Infrastructure": 0.663,
-      "Wallet": 0.094,
-      "Script": 0.002,
-      "Consensus": 0.028,
-      "Network": 0.208,
-      "Mempool": 0.005
-    },
     "discussion": {
       "Consensus": 0.293,
       "Network": 0.707
+    },
+    "code": {
+      "Infrastructure": 0.663,
+      "Wallet": 0.094,
+      "Network": 0.208,
+      "Mempool": 0.005,
+      "Script": 0.002,
+      "Consensus": 0.028
     }
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.3978,
     "Consensus": 0.134,
-    "Wallet": 0.0564,
-    "Network": 0.4076
+    "Network": 0.4076,
+    "Wallet": 0.0564
   },
   "p2016_posts": 12.0,
   "modern_posts": 0.0,
@@ -112,8 +113,26 @@
   "github_bio": null,
   "github_twitter": "jfnewbery",
   "github_blog": null,
-  "github_followers": 912.0,
+  "github_followers": 918.0,
+  "github_profile_fetched_at": "2026-10-20T19:02:36Z",
   "activity_status": "Retired",
+  "geo_country_iso2": "GB",
+  "geo_country_iso3": "GBR",
+  "geo_country_name": "UK",
+  "geo_sovereign_iso2": "GB",
+  "geo_m49_subregion": "Northern Europe",
+  "geo_macro_region": "Europe",
+  "geo_un_macro_region": "Europe",
+  "geo_wb_income": "High",
+  "geo_flag": "🇬🇧",
+  "geo_status": "resolved",
+  "geo_source": "github_location",
+  "geo_confidence": 0.95,
+  "geo_conflict": false,
+  "geo_tz_signature": null,
+  "geo_location_raw": "London, UK",
+  "geo_as_of": "2026-10-20",
+  "geo_taxonomy_version": "2026.10.1",
   "is_top_50": false,
   "github_url": "https://github.com/jnewbery",
   "commit_history": {

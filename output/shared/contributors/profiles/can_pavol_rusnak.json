@@ -1,6 +1,7 @@
 {
   "display_name": "Pavol Rusnak",
   "github_login_final": "prusnak",
+  "github_id_final": "42201",
   "delving_username_final": null,
   "uuid": "can_pavol_rusnak",
   "badges": {
@@ -59,9 +60,9 @@
   "avg_pr_ack_velocity_days": 2.259021267361111,
   "avg_concept_lead_time_days": 16.40975378787879,
   "review_reciprocity": 5.142857142857143,
-  "hybrid_score": 1.3212,
-  "p2016_hybrid_score": 0.8882,
-  "modern_hybrid_score": 0.3056,
+  "hybrid_score": 1.321,
+  "p2016_hybrid_score": 0.888,
+  "modern_hybrid_score": 0.3066,
   "impact_score": 55.0,
   "p2016_impact_score": 41.0,
   "modern_impact_score": 17.0,
@@ -71,8 +72,8 @@
   "delving_threads": 0.0,
   "ml_responses": 102.0,
   "delving_responses": 0.0,
-  "first_active": "2013-09-10T16:34:01",
-  "last_active": "2024-01-13T10:31:35",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Protocol Designer",
   "expertise_domains": [
     "Wallet",
@@ -80,27 +81,27 @@
     "Mempool"
   ],
   "expertise_by_source": {
+    "discussion": {
+      "Wallet": 0.806,
+      "Mempool": 0.111,
+      "Mining": 0.083
+    },
     "code": {
       "Infrastructure": 0.399,
       "Wallet": 0.515,
       "Network": 0.025,
       "Cryptography": 0.061
     },
-    "discussion": {
-      "Mining": 0.083,
-      "Mempool": 0.111,
-      "Wallet": 0.806
-    },
     "bips": {
-      "Infrastructure": 0.25,
-      "Wallet": 0.75
+      "Wallet": 0.75,
+      "Infrastructure": 0.25
     }
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.2447,
-    "Mining": 0.0166,
-    "Mempool": 0.0222,
     "Wallet": 0.6907,
+    "Mempool": 0.0222,
+    "Mining": 0.0166,
     "Cryptography": 0.0183
   },
   "p2016_posts": 52.0,
@@ -113,15 +114,33 @@
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": true,
-  "global_first_active": "2013-09-10T16:34:01",
+  "global_first_active": "2013-09-15T18:38:35",
   "global_last_active": "2026-08-07T15:07:45",
   "github_location": "₿ pavol@rusnak.io",
   "github_company": "Co-Founder @SatoshiLabs",
-  "github_bio": "✊ Strengthening individual power and independence via open-source software and hardware projects • @Bitcoin @Trezor @NixOS @TropicSquare",
+  "github_bio": "✊ Strengthening individual power and independence via open-source software and hardware projects • @Bitcoin @Trezor @TropicSquare @NixOS",
   "github_twitter": "pavolrusnak",
   "github_blog": "https://rusnak.io",
-  "github_followers": 1168.0,
+  "github_followers": 1193.0,
+  "github_profile_fetched_at": "2026-10-20T19:04:44Z",
   "activity_status": "Active",
+  "geo_country_iso2": "SK",
+  "geo_country_iso3": "SVK",
+  "geo_country_name": "Slovakia",
+  "geo_sovereign_iso2": "SK",
+  "geo_m49_subregion": "Eastern Europe",
+  "geo_macro_region": "Europe",
+  "geo_un_macro_region": "Europe",
+  "geo_wb_income": "High",
+  "geo_flag": "🇸🇰",
+  "geo_status": "resolved",
+  "geo_source": "email_tld",
+  "geo_confidence": 0.55,
+  "geo_conflict": false,
+  "geo_tz_signature": "+60/+120",
+  "geo_location_raw": "₿ pavol@rusnak.io",
+  "geo_as_of": "2026-10-24",
+  "geo_taxonomy_version": "2026.10.1",
   "is_top_50": false,
   "github_url": "https://github.com/prusnak",
   "commit_history": {

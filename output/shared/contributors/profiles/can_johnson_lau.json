@@ -1,6 +1,7 @@
 {
   "display_name": "Johnson Lau",
   "github_login_final": "jl2012",
+  "github_id_final": "8403418",
   "delving_username_final": null,
   "uuid": "can_johnson_lau",
   "badges": {
@@ -57,7 +58,7 @@
   "avg_pr_ack_velocity_days": 14.820079695767195,
   "avg_concept_lead_time_days": 22.354290123456792,
   "review_reciprocity": 0.8709677419354839,
-  "hybrid_score": 1.5964,
+  "hybrid_score": 1.5963,
   "p2016_hybrid_score": 1.3646,
   "modern_hybrid_score": 0.1392,
   "impact_score": 62.0,
@@ -69,8 +70,8 @@
   "delving_threads": 0.0,
   "ml_responses": 202.0,
   "delving_responses": 0.0,
-  "first_active": "2015-07-22T12:00:41",
-  "last_active": "2019-05-26T12:24:13",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Protocol Designer",
   "expertise_domains": [
     "Consensus",
@@ -78,16 +79,16 @@
     "Script"
   ],
   "expertise_by_source": {
+    "discussion": {
+      "Consensus": 1.0
+    },
     "code": {
       "Infrastructure": 0.595,
       "Wallet": 0.011,
-      "Script": 0.161,
-      "Consensus": 0.117,
       "Network": 0.011,
-      "Mempool": 0.106
-    },
-    "discussion": {
-      "Consensus": 1.0
+      "Mempool": 0.106,
+      "Script": 0.161,
+      "Consensus": 0.117
     },
     "bips": {
       "Consensus": 1.0
@@ -95,9 +96,9 @@
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.1784,
+    "Script": 0.0483,
     "Consensus": 0.7349,
-    "Mempool": 0.0318,
-    "Script": 0.0483
+    "Mempool": 0.0318
   },
   "p2016_posts": 162.0,
   "modern_posts": 0.0,
@@ -117,7 +118,25 @@
   "github_twitter": null,
   "github_blog": null,
   "github_followers": 295.0,
+  "github_profile_fetched_at": "2026-10-20T19:02:35Z",
   "activity_status": "Retired",
+  "geo_country_iso2": "HK",
+  "geo_country_iso3": "HKG",
+  "geo_country_name": "Hong Kong",
+  "geo_sovereign_iso2": "CN",
+  "geo_m49_subregion": "Eastern Asia",
+  "geo_macro_region": "Asia Pacific",
+  "geo_un_macro_region": "Asia",
+  "geo_wb_income": "High",
+  "geo_flag": "🇭🇰",
+  "geo_status": "resolved",
+  "geo_source": "email_tld",
+  "geo_confidence": 0.55,
+  "geo_conflict": false,
+  "geo_tz_signature": null,
+  "geo_location_raw": null,
+  "geo_as_of": "2026-10-24",
+  "geo_taxonomy_version": "2026.10.1",
   "is_top_50": false,
   "github_url": "https://github.com/jl2012",
   "commit_history": {

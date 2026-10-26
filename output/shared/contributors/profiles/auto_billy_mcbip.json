@@ -1,6 +1,7 @@
 {
   "display_name": "Billy McBip",
   "github_login_final": "billymcbip",
+  "github_id_final": "245003547",
   "delving_username_final": "billymcbip",
   "uuid": "auto_billy_mcbip",
   "badges": null,
@@ -57,8 +58,8 @@
   "delving_threads": 10.0,
   "ml_responses": 0.0,
   "delving_responses": 1.0,
-  "first_active": null,
-  "last_active": null,
+  "first_active": "2025-12-08T18:34:00.062000",
+  "last_active": "2026-02-06T22:21:14.655000",
   "dev_type": "Builder",
   "expertise_domains": [
     "Infrastructure",
@@ -66,20 +67,20 @@
     "Consensus"
   ],
   "expertise_by_source": {
+    "discussion": {
+      "Script": 0.404,
+      "Consensus": 0.34,
+      "Cryptography": 0.255
+    },
     "code": {
       "Infrastructure": 0.929,
       "Script": 0.071
-    },
-    "discussion": {
-      "Consensus": 0.34,
-      "Script": 0.404,
-      "Cryptography": 0.255
     }
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.5576,
-    "Consensus": 0.1361,
     "Script": 0.2043,
+    "Consensus": 0.1361,
     "Cryptography": 0.102
   },
   "p2016_posts": 11.0,
@@ -93,14 +94,32 @@
   "is_researcher": false,
   "is_bip_author": false,
   "global_first_active": "2025-11-30T19:38:02",
-  "global_last_active": "2026-02-04T09:38:06",
+  "global_last_active": "2026-02-06T22:21:14.655000",
   "github_location": null,
   "github_company": null,
   "github_bio": "billymcbip@proton.me",
   "github_twitter": null,
   "github_blog": null,
-  "github_followers": 0.0,
+  "github_followers": 1.0,
+  "github_profile_fetched_at": "2026-10-20T18:59:44Z",
   "activity_status": "New",
+  "geo_country_iso2": null,
+  "geo_country_iso3": null,
+  "geo_country_name": null,
+  "geo_sovereign_iso2": null,
+  "geo_m49_subregion": null,
+  "geo_macro_region": "Undisclosed",
+  "geo_un_macro_region": "Undisclosed",
+  "geo_wb_income": null,
+  "geo_flag": null,
+  "geo_status": "empty",
+  "geo_source": "none",
+  "geo_confidence": 0.0,
+  "geo_conflict": false,
+  "geo_tz_signature": null,
+  "geo_location_raw": null,
+  "geo_as_of": null,
+  "geo_taxonomy_version": "2026.10.1",
   "is_top_50": false,
   "github_url": "https://github.com/billymcbip",
   "delving_url": "https://delvingbitcoin.org/u/billymcbip",

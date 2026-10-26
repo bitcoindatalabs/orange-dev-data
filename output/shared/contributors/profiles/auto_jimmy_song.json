@@ -1,6 +1,7 @@
 {
   "display_name": "Jimmy Song",
   "github_login_final": "jimmysong",
+  "github_id_final": "524761",
   "delving_username_final": null,
   "uuid": "auto_jimmy_song",
   "badges": {
@@ -57,9 +58,9 @@
   "avg_pr_ack_velocity_days": 2.9817966524216524,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": 2.4375,
-  "hybrid_score": 1.0331,
-  "p2016_hybrid_score": 0.7114,
-  "modern_hybrid_score": 0.1224,
+  "hybrid_score": 1.033,
+  "p2016_hybrid_score": 0.7112,
+  "modern_hybrid_score": 0.1226,
   "impact_score": 46.0,
   "p2016_impact_score": 35.0,
   "modern_impact_score": 7.0,
@@ -69,8 +70,8 @@
   "delving_threads": 0.0,
   "ml_responses": 13.0,
   "delving_responses": 0.0,
-  "first_active": "2017-04-07T15:06:39",
-  "last_active": "2024-08-01T20:19:53",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Protocol Designer",
   "expertise_domains": [
     "Infrastructure",
@@ -78,23 +79,23 @@
     "Consensus"
   ],
   "expertise_by_source": {
-    "code": {
-      "Infrastructure": 1.0
-    },
     "discussion": {
       "Consensus": 0.69,
       "Mining": 0.31
     },
+    "code": {
+      "Infrastructure": 1.0
+    },
     "bips": {
-      "Infrastructure": 0.333,
-      "Wallet": 0.667
+      "Wallet": 0.667,
+      "Infrastructure": 0.333
     }
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.4665,
     "Consensus": 0.138,
-    "Mining": 0.062,
-    "Wallet": 0.3335
+    "Wallet": 0.3335,
+    "Mining": 0.062
   },
   "p2016_posts": 16.0,
   "modern_posts": 1.0,
@@ -113,8 +114,26 @@
   "github_bio": "Bitcoin Educator, Developer and Entrepreneur\r\nPGP Fingerprint: DE9A 9438 F8B0 89DD AD17 82A3 99D0 75B8 9511 8988",
   "github_twitter": null,
   "github_blog": null,
-  "github_followers": 1150.0,
+  "github_followers": 1159.0,
+  "github_profile_fetched_at": "2026-10-20T19:02:33Z",
   "activity_status": "Active",
+  "geo_country_iso2": null,
+  "geo_country_iso3": null,
+  "geo_country_name": null,
+  "geo_sovereign_iso2": null,
+  "geo_m49_subregion": null,
+  "geo_macro_region": "Undisclosed",
+  "geo_un_macro_region": "Undisclosed",
+  "geo_wb_income": null,
+  "geo_flag": null,
+  "geo_status": "empty",
+  "geo_source": "none",
+  "geo_confidence": 0.0,
+  "geo_conflict": false,
+  "geo_tz_signature": null,
+  "geo_location_raw": null,
+  "geo_as_of": null,
+  "geo_taxonomy_version": "2026.10.1",
   "is_top_50": false,
   "github_url": "https://github.com/jimmysong",
   "commit_history": {

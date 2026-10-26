@@ -1,6 +1,7 @@
 {
-  "display_name": "luv khemani",
+  "display_name": "Luv Khemani",
   "github_login_final": "GamerSg",
+  "github_id_final": "5078381",
   "delving_username_final": null,
   "uuid": "auto_luv_khemani",
   "badges": null,
@@ -46,7 +47,7 @@
   "avg_concept_lead_time_days": 0.0015972222222222223,
   "review_reciprocity": 1.0,
   "hybrid_score": 0.092,
-  "p2016_hybrid_score": 0.0745,
+  "p2016_hybrid_score": 0.0744,
   "modern_hybrid_score": 0.0146,
   "impact_score": 5.0,
   "p2016_impact_score": 4.0,
@@ -57,8 +58,8 @@
   "delving_threads": 0.0,
   "ml_responses": 8.0,
   "delving_responses": 0.0,
-  "first_active": "2015-08-03T12:06:40",
-  "last_active": "2017-04-06T07:30:51",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Builder",
   "expertise_domains": [
     "Infrastructure",
@@ -66,12 +67,12 @@
     "Consensus"
   ],
   "expertise_by_source": {
-    "code": {
-      "Infrastructure": 1.0
-    },
     "discussion": {
       "Consensus": 0.28,
       "Mining": 0.72
+    },
+    "code": {
+      "Infrastructure": 1.0
     }
   },
   "expertise_domain_scores": {
@@ -89,15 +90,33 @@
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": false,
-  "global_first_active": "2015-08-03T12:06:40",
-  "global_last_active": "2017-04-06T07:30:51",
+  "global_first_active": "2015-08-24T18:03:02",
+  "global_last_active": "2016-03-14T08:20:44",
   "github_location": null,
   "github_company": null,
   "github_bio": null,
   "github_twitter": null,
   "github_blog": null,
   "github_followers": 1.0,
+  "github_profile_fetched_at": "2026-10-20T19:52:54Z",
   "activity_status": "Active",
+  "geo_country_iso2": null,
+  "geo_country_iso3": null,
+  "geo_country_name": null,
+  "geo_sovereign_iso2": null,
+  "geo_m49_subregion": null,
+  "geo_macro_region": "Undisclosed",
+  "geo_un_macro_region": "Undisclosed",
+  "geo_wb_income": null,
+  "geo_flag": null,
+  "geo_status": "empty",
+  "geo_source": "none",
+  "geo_confidence": 0.0,
+  "geo_conflict": false,
+  "geo_tz_signature": null,
+  "geo_location_raw": null,
+  "geo_as_of": null,
+  "geo_taxonomy_version": "2026.10.1",
   "is_top_50": false,
   "github_url": "https://github.com/GamerSg",
   "commit_history": {

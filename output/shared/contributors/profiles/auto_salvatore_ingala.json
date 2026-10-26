@@ -1,6 +1,7 @@
 {
-  "display_name": "salvatore ingala",
+  "display_name": "Salvatore Ingala",
   "github_login_final": "bigspider",
+  "github_id_final": "6681844",
   "delving_username_final": null,
   "uuid": "auto_salvatore_ingala",
   "badges": {
@@ -61,7 +62,7 @@
   "review_reciprocity": 2.3333333333333335,
   "hybrid_score": 0.897,
   "p2016_hybrid_score": 0.9245,
-  "modern_hybrid_score": 0.6101,
+  "modern_hybrid_score": 0.6104,
   "impact_score": 42.0,
   "p2016_impact_score": 43.0,
   "modern_impact_score": 31.0,
@@ -71,8 +72,8 @@
   "delving_threads": 0.0,
   "ml_responses": 21.0,
   "delving_responses": 0.0,
-  "first_active": "2020-06-08T04:28:28",
-  "last_active": "2025-01-17T07:02:50",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Protocol Designer",
   "expertise_domains": [
     "Wallet",
@@ -80,13 +81,13 @@
     "Consensus"
   ],
   "expertise_by_source": {
-    "code": {
-      "Infrastructure": 0.05,
-      "Wallet": 0.95
-    },
     "discussion": {
       "Script": 0.41,
       "Wallet": 0.59
+    },
+    "code": {
+      "Infrastructure": 0.05,
+      "Wallet": 0.95
     },
     "bips": {
       "Consensus": 0.5,
@@ -95,9 +96,9 @@
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.015,
+    "Script": 0.332,
     "Consensus": 0.25,
-    "Wallet": 0.403,
-    "Script": 0.332
+    "Wallet": 0.403
   },
   "p2016_posts": 26.0,
   "modern_posts": 3.0,
@@ -109,15 +110,33 @@
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": true,
-  "global_first_active": "2020-06-08T04:28:28",
+  "global_first_active": "2021-04-12T15:39:10",
   "global_last_active": "2026-08-18T09:08:59",
   "github_location": null,
   "github_company": null,
   "github_bio": "₿itcoin",
   "github_twitter": "salvatoshi",
   "github_blog": "https://salvatoshi.com",
-  "github_followers": 154.0,
+  "github_followers": 165.0,
+  "github_profile_fetched_at": "2026-10-20T18:59:43Z",
   "activity_status": "Active",
+  "geo_country_iso2": null,
+  "geo_country_iso3": null,
+  "geo_country_name": null,
+  "geo_sovereign_iso2": null,
+  "geo_m49_subregion": null,
+  "geo_macro_region": "Undisclosed",
+  "geo_un_macro_region": "Undisclosed",
+  "geo_wb_income": null,
+  "geo_flag": null,
+  "geo_status": "empty",
+  "geo_source": "none",
+  "geo_confidence": 0.0,
+  "geo_conflict": false,
+  "geo_tz_signature": null,
+  "geo_location_raw": null,
+  "geo_as_of": null,
+  "geo_taxonomy_version": "2026.10.1",
   "is_top_50": false,
   "github_url": "https://github.com/bigspider",
   "commit_history": {

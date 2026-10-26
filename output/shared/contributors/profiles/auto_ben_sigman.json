@@ -1,6 +1,7 @@
 {
-  "display_name": "ben sigman",
+  "display_name": "Ben Sigman",
   "github_login_final": "bensig",
+  "github_id_final": "1872138",
   "delving_username_final": null,
   "uuid": "auto_ben_sigman",
   "badges": null,
@@ -47,7 +48,7 @@
   "review_reciprocity": 22.5,
   "hybrid_score": 0.184,
   "p2016_hybrid_score": 0.1865,
-  "modern_hybrid_score": 0.1999,
+  "modern_hybrid_score": 0.2,
   "impact_score": 10.0,
   "p2016_impact_score": 11.0,
   "modern_impact_score": 11.0,
@@ -57,19 +58,19 @@
   "delving_threads": 0.0,
   "ml_responses": 1.0,
   "delving_responses": 0.0,
-  "first_active": "2025-04-03T23:49:28",
-  "last_active": "2025-04-03T23:49:28",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Builder",
   "expertise_domains": [
     "Infrastructure",
     "Cryptography"
   ],
   "expertise_by_source": {
-    "code": {
-      "Infrastructure": 1.0
-    },
     "discussion": {
       "Cryptography": 1.0
+    },
+    "code": {
+      "Infrastructure": 1.0
     }
   },
   "expertise_domain_scores": {
@@ -86,15 +87,33 @@
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": false,
-  "global_first_active": "2025-04-03T23:49:28",
+  "global_first_active": "2025-12-30T21:59:15",
   "global_last_active": "2026-01-19T19:34:17",
   "github_location": "Los Angeles, CA",
   "github_company": null,
   "github_bio": "🎯 ⛏️ 🏅 ",
   "github_twitter": "bensig",
   "github_blog": "https://benobi.one",
-  "github_followers": 987.0,
-  "activity_status": "Active",
+  "github_followers": 1052.0,
+  "github_profile_fetched_at": "2026-10-20T18:59:41Z",
+  "activity_status": "New",
+  "geo_country_iso2": "US",
+  "geo_country_iso3": "USA",
+  "geo_country_name": "USA",
+  "geo_sovereign_iso2": "US",
+  "geo_m49_subregion": "Northern America",
+  "geo_macro_region": "North America",
+  "geo_un_macro_region": "North America",
+  "geo_wb_income": "High",
+  "geo_flag": "🇺🇸",
+  "geo_status": "resolved",
+  "geo_source": "github_location",
+  "geo_confidence": 0.9,
+  "geo_conflict": false,
+  "geo_tz_signature": null,
+  "geo_location_raw": "Los Angeles, CA",
+  "geo_as_of": "2026-10-20",
+  "geo_taxonomy_version": "2026.10.1",
   "is_top_50": false,
   "github_url": "https://github.com/bensig",
   "commit_history": {

@@ -1,6 +1,7 @@
 {
   "display_name": "Ashley Holman",
   "github_login_final": "ashleyholman",
+  "github_id_final": "549484",
   "delving_username_final": null,
   "uuid": "auto_ashley_holman",
   "badges": null,
@@ -57,8 +58,8 @@
   "delving_threads": 0.0,
   "ml_responses": 6.0,
   "delving_responses": 0.0,
-  "first_active": "2014-04-21T10:40:48",
-  "last_active": "2015-08-13T04:52:37",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Builder",
   "expertise_domains": [
     "Infrastructure",
@@ -66,20 +67,20 @@
     "Mining"
   ],
   "expertise_by_source": {
-    "code": {
-      "Infrastructure": 0.945,
-      "Mempool": 0.055
-    },
     "discussion": {
       "Consensus": 0.5,
       "Mining": 0.5
+    },
+    "code": {
+      "Infrastructure": 0.945,
+      "Mempool": 0.055
     }
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.567,
     "Consensus": 0.2,
-    "Mining": 0.2,
-    "Mempool": 0.033
+    "Mempool": 0.033,
+    "Mining": 0.2
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,
@@ -98,8 +99,26 @@
   "github_bio": null,
   "github_twitter": null,
   "github_blog": null,
-  "github_followers": 21.0,
+  "github_followers": 22.0,
+  "github_profile_fetched_at": "2026-10-20T18:59:30Z",
   "activity_status": "Retired",
+  "geo_country_iso2": "AU",
+  "geo_country_iso3": "AUS",
+  "geo_country_name": "Australia",
+  "geo_sovereign_iso2": "AU",
+  "geo_m49_subregion": "Australia and New Zealand",
+  "geo_macro_region": "Asia Pacific",
+  "geo_un_macro_region": "Oceania",
+  "geo_wb_income": "High",
+  "geo_flag": "🇦🇺",
+  "geo_status": "resolved",
+  "geo_source": "github_location",
+  "geo_confidence": 0.95,
+  "geo_conflict": false,
+  "geo_tz_signature": null,
+  "geo_location_raw": "Sydney, Australia",
+  "geo_as_of": "2026-10-20",
+  "geo_taxonomy_version": "2026.10.1",
   "is_top_50": false,
   "github_url": "https://github.com/ashleyholman",
   "commit_history": {

@@ -1,6 +1,7 @@
 {
-  "display_name": "elichai turkel",
+  "display_name": "Elichai Turkel",
   "github_login_final": "elichai",
+  "github_id_final": "2167860",
   "delving_username_final": null,
   "uuid": "auto_elichai_turkel",
   "badges": {
@@ -65,8 +66,8 @@
   "delving_threads": 0.0,
   "ml_responses": 1.0,
   "delving_responses": 0.0,
-  "first_active": "2019-06-16T21:06:21",
-  "last_active": "2019-08-09T09:58:58",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Builder",
   "expertise_domains": [
     "Infrastructure",
@@ -74,23 +75,23 @@
     "Mining"
   ],
   "expertise_by_source": {
-    "code": {
-      "Infrastructure": 0.934,
-      "Wallet": 0.009,
-      "Script": 0.019,
-      "Consensus": 0.019,
-      "Cryptography": 0.019
-    },
     "discussion": {
       "Consensus": 0.5,
       "Mining": 0.5
+    },
+    "code": {
+      "Infrastructure": 0.934,
+      "Wallet": 0.009,
+      "Cryptography": 0.019,
+      "Script": 0.019,
+      "Consensus": 0.019
     }
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.5604,
+    "Script": 0.0114,
     "Consensus": 0.2114,
     "Mining": 0.2,
-    "Script": 0.0114,
     "Cryptography": 0.0114
   },
   "p2016_posts": 3.0,
@@ -106,12 +107,30 @@
   "global_first_active": "2014-08-21T03:20:53",
   "global_last_active": "2026-10-04T08:09:12",
   "github_location": "Israel",
-  "github_company": null,
-  "github_bio": null,
+  "github_company": "@sodot-rs",
+  "github_bio": "Cryptography & Rust. Building MPC infrastructure at @sodot-rs (acq. by @moonpay)",
   "github_twitter": null,
   "github_blog": null,
-  "github_followers": 247.0,
+  "github_followers": 255.0,
+  "github_profile_fetched_at": "2026-10-20T19:01:14Z",
   "activity_status": "Active",
+  "geo_country_iso2": "IL",
+  "geo_country_iso3": "ISR",
+  "geo_country_name": "Israel",
+  "geo_sovereign_iso2": "IL",
+  "geo_m49_subregion": "Western Asia",
+  "geo_macro_region": "Asia Pacific",
+  "geo_un_macro_region": "Asia",
+  "geo_wb_income": "High",
+  "geo_flag": "🇮🇱",
+  "geo_status": "resolved",
+  "geo_source": "github_location",
+  "geo_confidence": 0.95,
+  "geo_conflict": false,
+  "geo_tz_signature": "+120/+180",
+  "geo_location_raw": "Israel",
+  "geo_as_of": "2026-10-20",
+  "geo_taxonomy_version": "2026.10.1",
   "is_top_50": false,
   "github_url": "https://github.com/elichai",
   "commit_history": {

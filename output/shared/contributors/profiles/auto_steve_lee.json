@@ -1,6 +1,7 @@
 {
-  "display_name": "steve lee",
+  "display_name": "Steve Lee",
   "github_login_final": "moneyball",
+  "github_id_final": "326147",
   "delving_username_final": "moneyball",
   "uuid": "auto_steve_lee",
   "badges": null,
@@ -45,9 +46,9 @@
   "avg_pr_ack_velocity_days": 8.067372685185186,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": 4.333333333333333,
-  "hybrid_score": 0.1597,
+  "hybrid_score": 0.1598,
   "p2016_hybrid_score": 0.1756,
-  "modern_hybrid_score": 0.1391,
+  "modern_hybrid_score": 0.1429,
   "impact_score": 9.0,
   "p2016_impact_score": 10.0,
   "modern_impact_score": 8.0,
@@ -57,8 +58,8 @@
   "delving_threads": 1.0,
   "ml_responses": 15.0,
   "delving_responses": 2.0,
-  "first_active": "2019-10-23T12:44:49",
-  "last_active": null,
+  "first_active": null,
+  "last_active": "2025-11-18T03:42:54.962000",
   "dev_type": "Builder",
   "expertise_domains": [
     "Infrastructure",
@@ -66,18 +67,18 @@
     "Script"
   ],
   "expertise_by_source": {
+    "discussion": {
+      "Script": 0.37,
+      "Ecosystem": 0.63
+    },
     "code": {
       "Infrastructure": 1.0
-    },
-    "discussion": {
-      "Ecosystem": 0.63,
-      "Script": 0.37
     }
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.6,
-    "Ecosystem": 0.252,
-    "Script": 0.148
+    "Script": 0.148,
+    "Ecosystem": 0.252
   },
   "p2016_posts": 21.0,
   "modern_posts": 9.0,
@@ -90,14 +91,32 @@
   "is_researcher": true,
   "is_bip_author": false,
   "global_first_active": "2018-04-09T23:09:54",
-  "global_last_active": "2025-08-08T18:44:41",
+  "global_last_active": "2025-11-18T03:42:54.962000",
   "github_location": null,
   "github_company": null,
   "github_bio": "A PM working to improve Bitcoin",
   "github_twitter": "moneyball",
   "github_blog": null,
-  "github_followers": 161.0,
+  "github_followers": 169.0,
+  "github_profile_fetched_at": "2026-10-20T19:03:57Z",
   "activity_status": "Active",
+  "geo_country_iso2": null,
+  "geo_country_iso3": null,
+  "geo_country_name": null,
+  "geo_sovereign_iso2": null,
+  "geo_m49_subregion": null,
+  "geo_macro_region": "Undisclosed",
+  "geo_un_macro_region": "Undisclosed",
+  "geo_wb_income": null,
+  "geo_flag": null,
+  "geo_status": "empty",
+  "geo_source": "none",
+  "geo_confidence": 0.0,
+  "geo_conflict": false,
+  "geo_tz_signature": null,
+  "geo_location_raw": null,
+  "geo_as_of": null,
+  "geo_taxonomy_version": "2026.10.1",
   "is_top_50": false,
   "github_url": "https://github.com/moneyball",
   "delving_url": "https://delvingbitcoin.org/u/moneyball",

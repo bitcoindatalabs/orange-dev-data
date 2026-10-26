@@ -1,6 +1,7 @@
 {
   "display_name": "Andy Chase",
   "github_login_final": "andychase",
+  "github_id_final": "2470152",
   "delving_username_final": null,
   "uuid": "auto_andy_chase",
   "badges": {
@@ -58,7 +59,7 @@
   "avg_concept_lead_time_days": null,
   "review_reciprocity": 1.5,
   "hybrid_score": 0.4473,
-  "p2016_hybrid_score": 0.4112,
+  "p2016_hybrid_score": 0.4111,
   "modern_hybrid_score": 0.0396,
   "impact_score": 24.0,
   "p2016_impact_score": 22.0,
@@ -69,8 +70,8 @@
   "delving_threads": 0.0,
   "ml_responses": 11.0,
   "delving_responses": 0.0,
-  "first_active": "2015-08-25T18:20:28",
-  "last_active": "2016-01-18T22:23:31",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Participant",
   "expertise_domains": [
     "Infrastructure",
@@ -79,8 +80,8 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Consensus": 0.143,
       "Ecosystem": 0.786,
+      "Consensus": 0.143,
       "Privacy": 0.071
     },
     "bips": {
@@ -89,8 +90,8 @@
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.7143,
-    "Consensus": 0.0409,
     "Ecosystem": 0.2246,
+    "Consensus": 0.0409,
     "Privacy": 0.0203
   },
   "p2016_posts": 1.0,
@@ -103,15 +104,33 @@
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": true,
-  "global_first_active": "2015-08-25T18:20:28",
+  "global_first_active": "2015-09-04T02:44:38",
   "global_last_active": "2016-01-19T09:00:31",
   "github_location": "Tigard, OR",
   "github_company": "@USEPA ",
   "github_bio": null,
   "github_twitter": null,
   "github_blog": "https://andychase.me",
-  "github_followers": 48.0,
+  "github_followers": 51.0,
+  "github_profile_fetched_at": "2026-10-20T18:59:22Z",
   "activity_status": "Active",
+  "geo_country_iso2": "US",
+  "geo_country_iso3": "USA",
+  "geo_country_name": "USA",
+  "geo_sovereign_iso2": "US",
+  "geo_m49_subregion": "Northern America",
+  "geo_macro_region": "North America",
+  "geo_un_macro_region": "North America",
+  "geo_wb_income": "High",
+  "geo_flag": "🇺🇸",
+  "geo_status": "resolved",
+  "geo_source": "github_location",
+  "geo_confidence": 0.9,
+  "geo_conflict": false,
+  "geo_tz_signature": null,
+  "geo_location_raw": "Tigard, OR",
+  "geo_as_of": "2026-10-20",
+  "geo_taxonomy_version": "2026.10.1",
   "is_top_50": false,
   "github_url": "https://github.com/andychase",
   "bip_list": [

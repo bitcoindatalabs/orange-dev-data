@@ -1,6 +1,7 @@
 {
   "display_name": "Cloud Strife",
   "github_login_final": null,
+  "github_id_final": null,
   "delving_username_final": null,
   "uuid": "auto_cloud_strife",
   "badges": null,
@@ -46,7 +47,7 @@
   "avg_concept_lead_time_days": null,
   "review_reciprocity": null,
   "hybrid_score": 0.0079,
-  "p2016_hybrid_score": 0.0125,
+  "p2016_hybrid_score": 0.0124,
   "modern_hybrid_score": 0.0,
   "impact_score": 0.0,
   "p2016_impact_score": 1.0,
@@ -57,8 +58,8 @@
   "delving_threads": 0.0,
   "ml_responses": 2.0,
   "delving_responses": 0.0,
-  "first_active": "2020-06-25T16:43:20",
-  "last_active": "2021-06-16T22:31:00",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Participant",
   "expertise_domains": [
     "L2",
@@ -66,13 +67,13 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Mining": 0.324,
-      "L2": 0.676
+      "L2": 0.676,
+      "Mining": 0.324
     }
   },
   "expertise_domain_scores": {
-    "Mining": 0.324,
-    "L2": 0.676
+    "L2": 0.676,
+    "Mining": 0.324
   },
   "p2016_posts": 3.0,
   "modern_posts": 0.0,
@@ -84,15 +85,33 @@
   "is_reviewer": false,
   "is_researcher": true,
   "is_bip_author": false,
-  "global_first_active": "2020-06-25T16:43:20",
-  "global_last_active": "2021-06-16T22:31:00",
+  "global_first_active": null,
+  "global_last_active": null,
   "github_location": null,
   "github_company": null,
   "github_bio": null,
   "github_twitter": null,
   "github_blog": null,
   "github_followers": null,
+  "github_profile_fetched_at": null,
   "activity_status": "",
+  "geo_country_iso2": null,
+  "geo_country_iso3": null,
+  "geo_country_name": null,
+  "geo_sovereign_iso2": null,
+  "geo_m49_subregion": null,
+  "geo_macro_region": "Undisclosed",
+  "geo_un_macro_region": "Undisclosed",
+  "geo_wb_income": null,
+  "geo_flag": null,
+  "geo_status": "empty",
+  "geo_source": "none",
+  "geo_confidence": 0.0,
+  "geo_conflict": false,
+  "geo_tz_signature": null,
+  "geo_location_raw": null,
+  "geo_as_of": null,
+  "geo_taxonomy_version": "2026.10.1",
   "is_top_50": false,
   "first_message": {
     "source": "mailing_list",

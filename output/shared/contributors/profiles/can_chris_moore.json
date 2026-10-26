@@ -1,7 +1,8 @@
 {
   "display_name": "Chris Moore",
   "github_login_final": "dooglus",
-  "delving_username_final": "chris",
+  "github_id_final": "573356",
+  "delving_username_final": null,
   "uuid": "can_chris_moore",
   "badges": {
     "is_maintainer": true,
@@ -61,51 +62,44 @@
   "avg_pr_ack_velocity_days": 80.37119539411206,
   "avg_concept_lead_time_days": 64.58650939542483,
   "review_reciprocity": 0.3958333333333333,
-  "hybrid_score": 1.3867,
-  "p2016_hybrid_score": 0.308,
+  "hybrid_score": 1.3416,
+  "p2016_hybrid_score": 0.2755,
   "modern_hybrid_score": 0.1161,
-  "impact_score": 56.0,
-  "p2016_impact_score": 17.0,
+  "impact_score": 55.0,
+  "p2016_impact_score": 15.0,
   "modern_impact_score": 7.0,
-  "threads_started": 4.0,
-  "replies_sent": 37.0,
-  "ml_threads": 2.0,
-  "delving_threads": 2.0,
-  "ml_responses": 37.0,
+  "threads_started": 0.0,
+  "replies_sent": 0.0,
+  "ml_threads": 0.0,
+  "delving_threads": 0.0,
+  "ml_responses": 0.0,
   "delving_responses": 0.0,
-  "first_active": "2014-03-13T10:37:56",
+  "first_active": null,
   "last_active": null,
   "dev_type": "Builder",
   "expertise_domains": [
     "Infrastructure",
-    "Script",
-    "Mining"
+    "Wallet"
   ],
   "expertise_by_source": {
     "code": {
       "Infrastructure": 0.88,
       "Wallet": 0.12
-    },
-    "discussion": {
-      "Mining": 0.478,
-      "Script": 0.522
     }
   },
   "expertise_domain_scores": {
-    "Infrastructure": 0.528,
-    "Mining": 0.1912,
-    "Wallet": 0.072,
-    "Script": 0.2088
+    "Infrastructure": 0.88,
+    "Wallet": 0.12
   },
-  "p2016_posts": 13.0,
-  "modern_posts": 2.0,
-  "p2016_ml_posts": 11.0,
-  "p2016_delving_posts": 2.0,
+  "p2016_posts": 0.0,
+  "modern_posts": 0.0,
+  "p2016_ml_posts": 0.0,
+  "p2016_delving_posts": 0.0,
   "modern_ml_posts": 0.0,
-  "modern_delving_posts": 2.0,
+  "modern_delving_posts": 0.0,
   "is_engineer": true,
   "is_reviewer": true,
-  "is_researcher": true,
+  "is_researcher": false,
   "is_bip_author": false,
   "global_first_active": "2011-01-20T18:49:44",
   "global_last_active": "2023-02-06T23:19:07",
@@ -114,11 +108,28 @@
   "github_bio": null,
   "github_twitter": null,
   "github_blog": "https://just-dice.com",
-  "github_followers": 162.0,
+  "github_followers": 164.0,
+  "github_profile_fetched_at": "2026-10-20T19:01:04Z",
   "activity_status": "Retired",
+  "geo_country_iso2": "CA",
+  "geo_country_iso3": "CAN",
+  "geo_country_name": "Canada",
+  "geo_sovereign_iso2": "CA",
+  "geo_m49_subregion": "Northern America",
+  "geo_macro_region": "North America",
+  "geo_un_macro_region": "North America",
+  "geo_wb_income": "High",
+  "geo_flag": "🇨🇦",
+  "geo_status": "resolved",
+  "geo_source": "github_location",
+  "geo_confidence": 0.95,
+  "geo_conflict": false,
+  "geo_tz_signature": null,
+  "geo_location_raw": "Canada",
+  "geo_as_of": "2026-10-20",
+  "geo_taxonomy_version": "2026.10.1",
   "is_top_50": false,
   "github_url": "https://github.com/dooglus",
-  "delving_url": "https://delvingbitcoin.org/u/chris",
   "commit_history": {
     "2011": {
       "Documentation": 1.0,
@@ -151,63 +162,6 @@
     "2019": {
       "GUI": 1.0,
       "Node & RPC": 1.0
-    }
-  },
-  "first_message": {
-    "source": "mailing_list",
-    "subject": "Re: [Bitcoin-development] moving the default display to mbtc",
-    "date": "2014-03-13",
-    "link": "https://gnusha.org/pi/bitcoindev/CAB+qUq4yRd-ugC-FWxYsGbwQCARBP1kNbz5c+fT55qcxY4kvHA@mail.gmail.com"
-  },
-  "last_message": {
-    "source": "delving",
-    "subject": "Re: Exploring Extended Relative Timelocks",
-    "date": "2025-08-03",
-    "link": "https://delvingbitcoin.org/t/exploring-extended-relative-timelocks/1818/21"
-  },
-  "social_history": {
-    "2014": {
-      "mempool-fees": 1,
-      "mining": 2,
-      "other": 10,
-      "privacy": 2,
-      "script-opcodes": 2
-    },
-    "2015": {
-      "other": 9,
-      "hard-fork-block-size": 2,
-      "mempool-fees": 4,
-      "mining": 3,
-      "p2p-network": 2,
-      "privacy": 2,
-      "script-opcodes": 1,
-      "soft-fork-activation": 2
-    },
-    "2016": {
-      "p2p-network": 1
-    },
-    "2017": {
-      "other": 3,
-      "hard-fork-block-size": 1,
-      "mining": 2,
-      "p2p-network": 2,
-      "privacy": 2,
-      "script-opcodes": 3,
-      "soft-fork-activation": 1
-    },
-    "2018": {
-      "mining": 1
-    },
-    "2019": {
-      "p2p-network": 1
-    },
-    "2025": {
-      "other": 3,
-      "mempool-fees": 1,
-      "mining": 1,
-      "privacy": 1,
-      "script-opcodes": 1,
-      "soft-fork-activation": 1
     }
   }
 }

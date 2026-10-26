@@ -1,6 +1,28 @@
 {
-  "generated_at": "2026-10-19T02:51:14.935826+00:00",
+  "generated_at": "2026-10-26T03:03:10.237477+00:00",
   "self_merges": [
+    {
+      "maintainer_id": "can_michael_ford",
+      "maintainer_name": "Michael Ford",
+      "repository": "bitcoin/bitcoin",
+      "pr_number": 36590,
+      "url": "https://github.com/bitcoin/bitcoin/pull/36590",
+      "title": "doc: archive release notes for v32.0",
+      "merged_at": "2026-10-22T07:33:45+00:00",
+      "ack_count": 2,
+      "category": "Light Review"
+    },
+    {
+      "maintainer_id": "can_michael_ford",
+      "maintainer_name": "Michael Ford",
+      "repository": "bitcoin/bitcoin",
+      "pr_number": 36531,
+      "url": "https://github.com/bitcoin/bitcoin/pull/36531",
+      "title": "guix: use `--load-path` for local modules",
+      "merged_at": "2026-10-21T09:50:07+00:00",
+      "ack_count": 2,
+      "category": "Light Review"
+    },
     {
       "maintainer_id": "can_michael_ford",
       "maintainer_name": "Michael Ford",
@@ -14459,17 +14481,6 @@
       "maintainer_id": "can_marcofalke",
       "maintainer_name": "MarcoFalke",
       "repository": "bitcoin/bitcoin",
-      "pr_number": 15183,
-      "url": "https://github.com/bitcoin/bitcoin/pull/15183",
-      "title": "[Qt]: fixes m_assumed_blockchain_size variable value",
-      "merged_at": "2019-02-14T13:45:45+00:00",
-      "ack_count": 4,
-      "category": "Administrative Merge"
-    },
-    {
-      "maintainer_id": "can_marcofalke",
-      "maintainer_name": "MarcoFalke",
-      "repository": "bitcoin/bitcoin",
       "pr_number": 14918,
       "url": "https://github.com/bitcoin/bitcoin/pull/14918",
       "title": "RPCHelpMan: Check default values are given at compile-time",
@@ -14828,17 +14839,6 @@
       "merged_at": "2018-12-10T19:05:24+00:00",
       "ack_count": 3,
       "category": "Administrative Merge"
-    },
-    {
-      "maintainer_id": "can_marcofalke",
-      "maintainer_name": "MarcoFalke",
-      "repository": "bitcoin/bitcoin",
-      "pr_number": 14795,
-      "url": "https://github.com/bitcoin/bitcoin/pull/14795",
-      "title": "test: allows test_runner command line to receive parameters for each test",
-      "merged_at": "2018-12-07T16:28:39+00:00",
-      "ack_count": 2,
-      "category": "Light Review"
     },
     {
       "maintainer_id": "can_wladimir_j_van_der_laan",
@@ -15394,17 +15394,6 @@
       "maintainer_id": "can_marcofalke",
       "maintainer_name": "MarcoFalke",
       "repository": "bitcoin/bitcoin",
-      "pr_number": 13715,
-      "url": "https://github.com/bitcoin/bitcoin/pull/13715",
-      "title": "tests: fixes mininode's P2PConnection sending messages on closing transport",
-      "merged_at": "2018-07-19T13:09:28+00:00",
-      "ack_count": 1,
-      "category": "Light Review"
-    },
-    {
-      "maintainer_id": "can_marcofalke",
-      "maintainer_name": "MarcoFalke",
-      "repository": "bitcoin/bitcoin",
       "pr_number": 13663,
       "url": "https://github.com/bitcoin/bitcoin/pull/13663",
       "title": "tests: Avoid read/write to default datadir",
@@ -15574,17 +15563,6 @@
       "url": "https://github.com/bitcoin/bitcoin/pull/13265",
       "title": "wallet: Exit SyncMetaData if there are no transactions to sync",
       "merged_at": "2018-05-18T10:55:43+00:00",
-      "ack_count": 3,
-      "category": "Administrative Merge"
-    },
-    {
-      "maintainer_id": "can_marcofalke",
-      "maintainer_name": "MarcoFalke",
-      "repository": "bitcoin/bitcoin",
-      "pr_number": 13158,
-      "url": "https://github.com/bitcoin/bitcoin/pull/13158",
-      "title": "[Qt]: Improve sendcoinsdialog readability",
-      "merged_at": "2018-05-14T21:10:53+00:00",
       "ack_count": 3,
       "category": "Administrative Merge"
     },

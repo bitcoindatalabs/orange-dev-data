@@ -1,6 +1,7 @@
 {
-  "display_name": "tyler willis",
+  "display_name": "Tyler Willis",
   "github_login_final": "Kefkius",
+  "github_id_final": "6020810",
   "delving_username_final": null,
   "uuid": "auto_tyler_willis",
   "badges": null,
@@ -45,7 +46,7 @@
   "avg_pr_ack_velocity_days": 0.0011111111111111111,
   "avg_concept_lead_time_days": 0.005439814814814815,
   "review_reciprocity": 0.3333333333333333,
-  "hybrid_score": 0.1009,
+  "hybrid_score": 0.1008,
   "p2016_hybrid_score": 0.073,
   "modern_hybrid_score": 0.033,
   "impact_score": 6.0,
@@ -57,19 +58,19 @@
   "delving_threads": 0.0,
   "ml_responses": 1.0,
   "delving_responses": 0.0,
-  "first_active": "2015-04-08T02:05:43",
-  "last_active": "2016-04-26T18:00:48",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Builder",
   "expertise_domains": [
     "Infrastructure",
     "Wallet"
   ],
   "expertise_by_source": {
-    "code": {
-      "Infrastructure": 1.0
-    },
     "discussion": {
       "Wallet": 1.0
+    },
+    "code": {
+      "Infrastructure": 1.0
     }
   },
   "expertise_domain_scores": {
@@ -86,15 +87,33 @@
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": false,
-  "global_first_active": "2015-04-08T02:05:43",
-  "global_last_active": "2016-04-26T18:00:48",
+  "global_first_active": "2015-09-03T10:31:53",
+  "global_last_active": "2016-01-29T11:51:59",
   "github_location": null,
   "github_company": null,
   "github_bio": null,
   "github_twitter": null,
   "github_blog": null,
   "github_followers": 24.0,
+  "github_profile_fetched_at": "2026-10-20T19:02:56Z",
   "activity_status": "Active",
+  "geo_country_iso2": null,
+  "geo_country_iso3": null,
+  "geo_country_name": null,
+  "geo_sovereign_iso2": null,
+  "geo_m49_subregion": null,
+  "geo_macro_region": "Undisclosed",
+  "geo_un_macro_region": "Undisclosed",
+  "geo_wb_income": null,
+  "geo_flag": null,
+  "geo_status": "empty",
+  "geo_source": "none",
+  "geo_confidence": 0.0,
+  "geo_conflict": false,
+  "geo_tz_signature": null,
+  "geo_location_raw": null,
+  "geo_as_of": null,
+  "geo_taxonomy_version": "2026.10.1",
   "is_top_50": false,
   "github_url": "https://github.com/Kefkius",
   "commit_history": {

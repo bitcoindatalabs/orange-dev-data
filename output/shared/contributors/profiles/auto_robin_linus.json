@@ -1,6 +1,7 @@
 {
   "display_name": "Robin Linus",
   "github_login_final": "RobinLinus",
+  "github_id_final": "12780394",
   "delving_username_final": "robinlinus",
   "uuid": "auto_robin_linus",
   "badges": null,
@@ -57,8 +58,8 @@
   "delving_threads": 11.0,
   "ml_responses": 14.0,
   "delving_responses": 15.0,
-  "first_active": "2020-01-12T12:54:57",
-  "last_active": null,
+  "first_active": null,
+  "last_active": "2026-05-03T04:12:15.763000",
   "dev_type": "Participant",
   "expertise_domains": [
     "Script",
@@ -66,13 +67,13 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "L2": 0.387,
-      "Script": 0.613
+      "Script": 0.613,
+      "L2": 0.387
     }
   },
   "expertise_domain_scores": {
-    "L2": 0.387,
-    "Script": 0.613
+    "Script": 0.613,
+    "L2": 0.387
   },
   "p2016_posts": 45.0,
   "modern_posts": 27.0,
@@ -84,15 +85,33 @@
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": false,
-  "global_first_active": "2020-01-12T12:54:57",
-  "global_last_active": "2025-07-31T21:34:35",
+  "global_first_active": "2020-09-06T15:50:24",
+  "global_last_active": "2026-05-03T04:12:15.763000",
   "github_location": null,
   "github_company": "@BitVM ",
   "github_bio": "Bitcoin scalability, privacy, and usability",
   "github_twitter": "robin_linus",
   "github_blog": "https://robinlinus.com",
-  "github_followers": 1555.0,
+  "github_followers": 1577.0,
+  "github_profile_fetched_at": "2026-10-20T19:05:08Z",
   "activity_status": "Active",
+  "geo_country_iso2": null,
+  "geo_country_iso3": null,
+  "geo_country_name": null,
+  "geo_sovereign_iso2": null,
+  "geo_m49_subregion": null,
+  "geo_macro_region": "Undisclosed",
+  "geo_un_macro_region": "Undisclosed",
+  "geo_wb_income": null,
+  "geo_flag": null,
+  "geo_status": "empty",
+  "geo_source": "none",
+  "geo_confidence": 0.0,
+  "geo_conflict": false,
+  "geo_tz_signature": null,
+  "geo_location_raw": null,
+  "geo_as_of": null,
+  "geo_taxonomy_version": "2026.10.1",
   "is_top_50": false,
   "github_url": "https://github.com/RobinLinus",
   "delving_url": "https://delvingbitcoin.org/u/robinlinus",

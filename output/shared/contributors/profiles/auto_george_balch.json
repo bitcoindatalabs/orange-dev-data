@@ -1,6 +1,7 @@
 {
   "display_name": "George Balch",
   "github_login_final": "goudbor",
+  "github_id_final": "40566439",
   "delving_username_final": null,
   "uuid": "auto_george_balch",
   "badges": null,
@@ -57,8 +58,8 @@
   "delving_threads": 0.0,
   "ml_responses": 2.0,
   "delving_responses": 0.0,
-  "first_active": "2018-01-28T19:44:08",
-  "last_active": "2018-01-29T15:53:06",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Participant",
   "expertise_domains": [
     "Mempool",
@@ -66,13 +67,13 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Mining": 0.333,
-      "Mempool": 0.667
+      "Mempool": 0.667,
+      "Mining": 0.333
     }
   },
   "expertise_domain_scores": {
-    "Mining": 0.333,
-    "Mempool": 0.667
+    "Mempool": 0.667,
+    "Mining": 0.333
   },
   "p2016_posts": 2.0,
   "modern_posts": 0.0,
@@ -84,15 +85,33 @@
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": false,
-  "global_first_active": "2018-01-28T19:44:08",
-  "global_last_active": "2018-01-29T15:53:06",
+  "global_first_active": null,
+  "global_last_active": null,
   "github_location": null,
   "github_company": null,
   "github_bio": null,
-  "github_twitter": null,
-  "github_blog": null,
-  "github_followers": null,
+  "github_twitter": "goudbor",
+  "github_blog": "https://eurdoch.github.io",
+  "github_followers": 7.0,
+  "github_profile_fetched_at": "2026-10-20T19:02:39Z",
   "activity_status": "Active",
+  "geo_country_iso2": null,
+  "geo_country_iso3": null,
+  "geo_country_name": null,
+  "geo_sovereign_iso2": null,
+  "geo_m49_subregion": null,
+  "geo_macro_region": "Undisclosed",
+  "geo_un_macro_region": "Undisclosed",
+  "geo_wb_income": null,
+  "geo_flag": null,
+  "geo_status": "empty",
+  "geo_source": "none",
+  "geo_confidence": 0.0,
+  "geo_conflict": false,
+  "geo_tz_signature": null,
+  "geo_location_raw": null,
+  "geo_as_of": null,
+  "geo_taxonomy_version": "2026.10.1",
   "is_top_50": false,
   "github_url": "https://github.com/goudbor",
   "first_message": {

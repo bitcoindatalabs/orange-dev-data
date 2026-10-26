@@ -1,6 +1,7 @@
 {
   "display_name": "Kristov Atlas",
   "github_login_final": "kristovatlas",
+  "github_id_final": "7227529",
   "delving_username_final": null,
   "uuid": "auto_kristov_atlas",
   "badges": {
@@ -69,8 +70,8 @@
   "delving_threads": 0.0,
   "ml_responses": 23.0,
   "delving_responses": 0.0,
-  "first_active": "2014-04-23T15:05:49",
-  "last_active": "2016-05-18T23:18:15",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Reviewer",
   "expertise_domains": [
     "Infrastructure",
@@ -88,8 +89,8 @@
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.3571,
-    "Privacy": 0.2857,
-    "Script": 0.3571
+    "Script": 0.3571,
+    "Privacy": 0.2857
   },
   "p2016_posts": 3.0,
   "modern_posts": 0.0,
@@ -108,8 +109,26 @@
   "github_bio": "Senior Security Engineer @monad-developers, Contributor @OpenBitcoinPrivacyProject",
   "github_twitter": "kristovatlas",
   "github_blog": "http://kristovatlas.com",
-  "github_followers": 200.0,
+  "github_followers": 203.0,
+  "github_profile_fetched_at": "2026-10-20T19:03:07Z",
   "activity_status": "Active",
+  "geo_country_iso2": "US",
+  "geo_country_iso3": "USA",
+  "geo_country_name": "USA",
+  "geo_sovereign_iso2": "US",
+  "geo_m49_subregion": "Northern America",
+  "geo_macro_region": "North America",
+  "geo_un_macro_region": "North America",
+  "geo_wb_income": "High",
+  "geo_flag": "🇺🇸",
+  "geo_status": "resolved",
+  "geo_source": "github_location",
+  "geo_confidence": 0.95,
+  "geo_conflict": false,
+  "geo_tz_signature": null,
+  "geo_location_raw": "Texas",
+  "geo_as_of": "2026-10-20",
+  "geo_taxonomy_version": "2026.10.1",
   "is_top_50": false,
   "github_url": "https://github.com/kristovatlas",
   "bip_list": [

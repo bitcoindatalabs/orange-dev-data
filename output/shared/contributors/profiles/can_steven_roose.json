@@ -1,6 +1,7 @@
 {
   "display_name": "Steven Roose",
   "github_login_final": "stevenroose",
+  "github_id_final": "853468",
   "delving_username_final": "stevenroose",
   "uuid": "can_steven_roose",
   "badges": {
@@ -38,7 +39,7 @@
   "co_authored_commits": 0.0,
   "bips_authored": 4.0,
   "p2016_bips_authored": 4.0,
-  "modern_bips_authored": 3.0,
+  "modern_bips_authored": 2.0,
   "first_bip_date": "2018-11-30T05:50:49",
   "last_bip_date": "2026-03-17T15:01:23",
   "avg_review_latency_days": 1258.917160899935,
@@ -58,19 +59,19 @@
   "avg_concept_lead_time_days": 55.268850308641966,
   "review_reciprocity": 1.8235294117647058,
   "hybrid_score": 1.0837,
-  "p2016_hybrid_score": 1.0903,
-  "modern_hybrid_score": 0.712,
+  "p2016_hybrid_score": 1.0902,
+  "modern_hybrid_score": 0.6981,
   "impact_score": 48.0,
   "p2016_impact_score": 48.0,
-  "modern_impact_score": 35.0,
+  "modern_impact_score": 34.0,
   "threads_started": 20.0,
   "replies_sent": 33.0,
   "ml_threads": 2.0,
   "delving_threads": 18.0,
   "ml_responses": 3.0,
   "delving_responses": 30.0,
-  "first_active": "2019-01-29T16:03:04",
-  "last_active": null,
+  "first_active": null,
+  "last_active": "2026-02-25T16:14:01.884000",
   "dev_type": "Protocol Designer",
   "expertise_domains": [
     "Consensus",
@@ -78,31 +79,31 @@
     "Script"
   ],
   "expertise_by_source": {
+    "discussion": {
+      "Script": 0.739,
+      "Consensus": 0.261
+    },
     "code": {
       "Infrastructure": 0.75,
       "Wallet": 0.125,
       "Consensus": 0.125
     },
-    "discussion": {
-      "Consensus": 0.261,
-      "Script": 0.739
-    },
     "bips": {
-      "Consensus": 0.75,
-      "Infrastructure": 0.25
+      "Infrastructure": 0.25,
+      "Consensus": 0.75
     }
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.35,
+    "Script": 0.1478,
     "Consensus": 0.4647,
-    "Wallet": 0.0375,
-    "Script": 0.1478
+    "Wallet": 0.0375
   },
   "p2016_posts": 53.0,
-  "modern_posts": 34.0,
+  "modern_posts": 33.0,
   "p2016_ml_posts": 5.0,
   "p2016_delving_posts": 48.0,
-  "modern_ml_posts": 2.0,
+  "modern_ml_posts": 1.0,
   "modern_delving_posts": 32.0,
   "is_engineer": true,
   "is_reviewer": true,
@@ -115,8 +116,26 @@
   "github_bio": "\"We publish our code so that our fellow Cypherpunks may practice and play with it. Our code is free for all to use, worldwide.\"\r\n- A Cypherpunk's Manifesto",
   "github_twitter": null,
   "github_blog": "roose.io",
-  "github_followers": 492.0,
+  "github_followers": 494.0,
+  "github_profile_fetched_at": "2026-10-20T19:05:55Z",
   "activity_status": "Active",
+  "geo_country_iso2": "PT",
+  "geo_country_iso3": "PRT",
+  "geo_country_name": "Portugal",
+  "geo_sovereign_iso2": "PT",
+  "geo_m49_subregion": "Southern Europe",
+  "geo_macro_region": "Europe",
+  "geo_un_macro_region": "Europe",
+  "geo_wb_income": "High",
+  "geo_flag": "🇵🇹",
+  "geo_status": "resolved",
+  "geo_source": "github_location",
+  "geo_confidence": 0.95,
+  "geo_conflict": false,
+  "geo_tz_signature": null,
+  "geo_location_raw": "Portugal",
+  "geo_as_of": "2026-10-20",
+  "geo_taxonomy_version": "2026.10.1",
   "is_top_50": false,
   "github_url": "https://github.com/stevenroose",
   "delving_url": "https://delvingbitcoin.org/u/stevenroose",

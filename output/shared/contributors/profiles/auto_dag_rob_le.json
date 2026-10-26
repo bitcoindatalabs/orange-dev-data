@@ -1,6 +1,7 @@
 {
   "display_name": "Dag Robøle",
   "github_login_final": "bytting",
+  "github_id_final": "1276717",
   "delving_username_final": null,
   "uuid": "auto_dag_rob_le",
   "badges": null,
@@ -68,8 +69,8 @@
   "expertise_by_source": {
     "code": {
       "Infrastructure": 0.625,
-      "Consensus": 0.25,
-      "Network": 0.125
+      "Network": 0.125,
+      "Consensus": 0.25
     }
   },
   "expertise_domain_scores": {
@@ -95,7 +96,25 @@
   "github_twitter": null,
   "github_blog": null,
   "github_followers": 9.0,
+  "github_profile_fetched_at": "2026-10-20T19:00:04Z",
   "activity_status": "Active",
+  "geo_country_iso2": "NO",
+  "geo_country_iso3": "NOR",
+  "geo_country_name": "Norway",
+  "geo_sovereign_iso2": "NO",
+  "geo_m49_subregion": "Northern Europe",
+  "geo_macro_region": "Europe",
+  "geo_un_macro_region": "Europe",
+  "geo_wb_income": "High",
+  "geo_flag": "🇳🇴",
+  "geo_status": "resolved",
+  "geo_source": "github_location",
+  "geo_confidence": 0.85,
+  "geo_conflict": false,
+  "geo_tz_signature": null,
+  "geo_location_raw": "Oslo",
+  "geo_as_of": "2026-10-20",
+  "geo_taxonomy_version": "2026.10.1",
   "is_top_50": false,
   "github_url": "https://github.com/bytting",
   "commit_history": {

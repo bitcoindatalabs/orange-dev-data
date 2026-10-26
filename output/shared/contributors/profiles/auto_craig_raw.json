@@ -1,6 +1,7 @@
 {
-  "display_name": "craig raw",
+  "display_name": "Craig Raw",
   "github_login_final": "craigraw",
+  "github_id_final": "862166",
   "delving_username_final": "craigraw",
   "uuid": "auto_craig_raw",
   "badges": {
@@ -57,20 +58,20 @@
   "avg_pr_ack_velocity_days": 44.91820601851852,
   "avg_concept_lead_time_days": 89.69445601851852,
   "review_reciprocity": 3.142857142857143,
-  "hybrid_score": 0.902,
-  "p2016_hybrid_score": 0.9296,
-  "modern_hybrid_score": 0.8094,
+  "hybrid_score": 0.9051,
+  "p2016_hybrid_score": 0.9344,
+  "modern_hybrid_score": 0.8117,
   "impact_score": 42.0,
   "p2016_impact_score": 43.0,
-  "modern_impact_score": 38.0,
+  "modern_impact_score": 39.0,
   "threads_started": 6.0,
   "replies_sent": 25.0,
   "ml_threads": 3.0,
   "delving_threads": 3.0,
   "ml_responses": 20.0,
   "delving_responses": 5.0,
-  "first_active": "2021-01-16T00:15:27",
-  "last_active": "2026-09-14T05:06:47",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Protocol Designer",
   "expertise_domains": [
     "Script",
@@ -78,12 +79,12 @@
     "Wallet"
   ],
   "expertise_by_source": {
-    "code": {
-      "Infrastructure": 1.0
-    },
     "discussion": {
       "Privacy": 0.525,
       "Wallet": 0.475
+    },
+    "code": {
+      "Infrastructure": 1.0
     },
     "bips": {
       "Wallet": 0.333,
@@ -92,9 +93,9 @@
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.3,
-    "Privacy": 0.105,
+    "Script": 0.3335,
     "Wallet": 0.2615,
-    "Script": 0.3335
+    "Privacy": 0.105
   },
   "p2016_posts": 31.0,
   "modern_posts": 14.0,
@@ -107,14 +108,32 @@
   "is_researcher": true,
   "is_bip_author": true,
   "global_first_active": "2020-12-19T07:12:35",
-  "global_last_active": "2026-09-14T05:06:47",
+  "global_last_active": "2026-09-07T14:13:53",
   "github_location": null,
   "github_company": null,
   "github_bio": null,
   "github_twitter": null,
   "github_blog": null,
-  "github_followers": 305.0,
+  "github_followers": 327.0,
+  "github_profile_fetched_at": "2026-10-20T19:00:29Z",
   "activity_status": "Active",
+  "geo_country_iso2": null,
+  "geo_country_iso3": null,
+  "geo_country_name": null,
+  "geo_sovereign_iso2": null,
+  "geo_m49_subregion": null,
+  "geo_macro_region": "Undisclosed",
+  "geo_un_macro_region": "Undisclosed",
+  "geo_wb_income": null,
+  "geo_flag": null,
+  "geo_status": "empty",
+  "geo_source": "none",
+  "geo_confidence": 0.0,
+  "geo_conflict": false,
+  "geo_tz_signature": null,
+  "geo_location_raw": null,
+  "geo_as_of": null,
+  "geo_taxonomy_version": "2026.10.1",
   "is_top_50": false,
   "github_url": "https://github.com/craigraw",
   "delving_url": "https://delvingbitcoin.org/u/craigraw",

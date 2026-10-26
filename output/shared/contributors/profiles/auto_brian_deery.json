@@ -1,6 +1,7 @@
 {
   "display_name": "Brian Deery",
   "github_login_final": "carryforward",
+  "github_id_final": "7833030",
   "delving_username_final": null,
   "uuid": "auto_brian_deery",
   "badges": null,
@@ -57,8 +58,8 @@
   "delving_threads": 0.0,
   "ml_responses": 0.0,
   "delving_responses": 0.0,
-  "first_active": "2015-03-20T00:46:18",
-  "last_active": "2015-04-27T09:53:59",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Builder",
   "expertise_domains": [
     "Mempool",
@@ -66,20 +67,20 @@
     "Network"
   ],
   "expertise_by_source": {
+    "discussion": {
+      "Network": 0.66,
+      "Wallet": 0.34
+    },
     "code": {
       "Infrastructure": 0.5,
       "Mempool": 0.5
-    },
-    "discussion": {
-      "Wallet": 0.34,
-      "Network": 0.66
     }
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.3,
-    "Mempool": 0.3,
+    "Network": 0.264,
     "Wallet": 0.136,
-    "Network": 0.264
+    "Mempool": 0.3
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,
@@ -91,7 +92,7 @@
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": false,
-  "global_first_active": "2015-03-20T00:46:18",
+  "global_first_active": "2016-11-16T10:06:24",
   "global_last_active": "2016-11-16T10:06:24",
   "github_location": "Austin, TX",
   "github_company": null,
@@ -99,7 +100,25 @@
   "github_twitter": null,
   "github_blog": null,
   "github_followers": 19.0,
+  "github_profile_fetched_at": "2026-10-20T19:54:18Z",
   "activity_status": "Active",
+  "geo_country_iso2": "US",
+  "geo_country_iso3": "USA",
+  "geo_country_name": "USA",
+  "geo_sovereign_iso2": "US",
+  "geo_m49_subregion": "Northern America",
+  "geo_macro_region": "North America",
+  "geo_un_macro_region": "North America",
+  "geo_wb_income": "High",
+  "geo_flag": "🇺🇸",
+  "geo_status": "resolved",
+  "geo_source": "github_location",
+  "geo_confidence": 0.9,
+  "geo_conflict": false,
+  "geo_tz_signature": null,
+  "geo_location_raw": "Austin, TX",
+  "geo_as_of": "2026-10-20",
+  "geo_taxonomy_version": "2026.10.1",
   "is_top_50": false,
   "github_url": "https://github.com/carryforward",
   "commit_history": {

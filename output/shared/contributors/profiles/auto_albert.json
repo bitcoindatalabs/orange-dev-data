@@ -1,6 +1,7 @@
 {
   "display_name": "Albert",
   "github_login_final": null,
+  "github_id_final": null,
   "delving_username_final": null,
   "uuid": "auto_albert",
   "badges": null,
@@ -46,7 +47,7 @@
   "avg_concept_lead_time_days": null,
   "review_reciprocity": null,
   "hybrid_score": 0.0487,
-  "p2016_hybrid_score": 0.0544,
+  "p2016_hybrid_score": 0.0543,
   "modern_hybrid_score": 0.0,
   "impact_score": 3.0,
   "p2016_impact_score": 3.0,
@@ -57,19 +58,19 @@
   "delving_threads": 0.0,
   "ml_responses": 1.0,
   "delving_responses": 0.0,
-  "first_active": "2020-03-25T22:55:50",
-  "last_active": "2020-03-25T22:55:50",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Builder",
   "expertise_domains": [
     "Infrastructure",
     "L2"
   ],
   "expertise_by_source": {
-    "code": {
-      "Infrastructure": 1.0
-    },
     "discussion": {
       "L2": 1.0
+    },
+    "code": {
+      "Infrastructure": 1.0
     }
   },
   "expertise_domain_scores": {
@@ -87,14 +88,32 @@
   "is_researcher": true,
   "is_bip_author": false,
   "global_first_active": "2020-03-11T14:30:33",
-  "global_last_active": "2020-03-25T22:55:50",
+  "global_last_active": "2020-03-11T14:30:33",
   "github_location": null,
   "github_company": null,
   "github_bio": null,
   "github_twitter": null,
   "github_blog": null,
   "github_followers": null,
+  "github_profile_fetched_at": null,
   "activity_status": "Active",
+  "geo_country_iso2": null,
+  "geo_country_iso3": null,
+  "geo_country_name": null,
+  "geo_sovereign_iso2": null,
+  "geo_m49_subregion": null,
+  "geo_macro_region": "Undisclosed",
+  "geo_un_macro_region": "Undisclosed",
+  "geo_wb_income": null,
+  "geo_flag": null,
+  "geo_status": "empty",
+  "geo_source": "none",
+  "geo_confidence": 0.0,
+  "geo_conflict": false,
+  "geo_tz_signature": null,
+  "geo_location_raw": null,
+  "geo_as_of": null,
+  "geo_taxonomy_version": "2026.10.1",
   "is_top_50": false,
   "commit_history": {
     "2020": {

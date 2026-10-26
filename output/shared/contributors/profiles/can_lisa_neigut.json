@@ -1,6 +1,7 @@
 {
   "display_name": "Lisa Neigut",
   "github_login_final": "niftynei",
+  "github_id_final": "1097769",
   "delving_username_final": "niftynei",
   "uuid": "can_lisa_neigut",
   "badges": {
@@ -53,8 +54,8 @@
   "avg_pr_ack_velocity_days": 10.623526234567901,
   "avg_concept_lead_time_days": 31.716712962962962,
   "review_reciprocity": 1.0,
-  "hybrid_score": 0.1197,
-  "p2016_hybrid_score": 0.1321,
+  "hybrid_score": 0.1196,
+  "p2016_hybrid_score": 0.132,
   "modern_hybrid_score": 0.0542,
   "impact_score": 7.0,
   "p2016_impact_score": 8.0,
@@ -65,8 +66,8 @@
   "delving_threads": 2.0,
   "ml_responses": 1.0,
   "delving_responses": 1.0,
-  "first_active": "2021-10-25T21:56:21",
-  "last_active": null,
+  "first_active": null,
+  "last_active": "2025-08-15T16:12:24.488000",
   "dev_type": "Builder",
   "expertise_domains": [
     "Infrastructure",
@@ -74,19 +75,19 @@
     "Script"
   ],
   "expertise_by_source": {
+    "discussion": {
+      "Script": 0.3,
+      "Mempool": 0.3,
+      "Cryptography": 0.4
+    },
     "code": {
       "Infrastructure": 1.0
-    },
-    "discussion": {
-      "Mempool": 0.3,
-      "Script": 0.3,
-      "Cryptography": 0.4
     }
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.6,
-    "Mempool": 0.12,
     "Script": 0.12,
+    "Mempool": 0.12,
     "Cryptography": 0.16
   },
   "p2016_posts": 6.0,
@@ -105,9 +106,27 @@
   "github_company": "Blockstream Inc",
   "github_bio": " HIGH VOLTAGE SIGN",
   "github_twitter": "niftynei",
-  "github_blog": "https://btcplusplus.dev",
-  "github_followers": 363.0,
+  "github_blog": "https://btcpp.dev",
+  "github_followers": 371.0,
+  "github_profile_fetched_at": "2026-10-20T19:04:13Z",
   "activity_status": "Active",
+  "geo_country_iso2": "US",
+  "geo_country_iso3": "USA",
+  "geo_country_name": "USA",
+  "geo_sovereign_iso2": "US",
+  "geo_m49_subregion": "Northern America",
+  "geo_macro_region": "North America",
+  "geo_un_macro_region": "North America",
+  "geo_wb_income": "High",
+  "geo_flag": "🇺🇸",
+  "geo_status": "resolved",
+  "geo_source": "github_location",
+  "geo_confidence": 0.85,
+  "geo_conflict": false,
+  "geo_tz_signature": null,
+  "geo_location_raw": "ATX",
+  "geo_as_of": "2026-10-20",
+  "geo_taxonomy_version": "2026.10.1",
   "is_top_50": false,
   "github_url": "https://github.com/niftynei",
   "delving_url": "https://delvingbitcoin.org/u/niftynei",

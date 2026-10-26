@@ -1,6 +1,7 @@
 {
   "display_name": "Henry Romp",
   "github_login_final": "151henry151",
+  "github_id_final": "6581719",
   "delving_username_final": null,
   "uuid": "auto_henry_romp",
   "badges": null,
@@ -47,7 +48,7 @@
   "review_reciprocity": 1.8181818181818181,
   "hybrid_score": 0.2161,
   "p2016_hybrid_score": 0.2186,
-  "modern_hybrid_score": 0.232,
+  "modern_hybrid_score": 0.2321,
   "impact_score": 12.0,
   "p2016_impact_score": 12.0,
   "modern_impact_score": 13.0,
@@ -57,8 +58,8 @@
   "delving_threads": 0.0,
   "ml_responses": 2.0,
   "delving_responses": 0.0,
-  "first_active": "2025-12-15T13:09:50",
-  "last_active": "2025-12-16T00:04:24",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Builder",
   "expertise_domains": [
     "Infrastructure",
@@ -66,18 +67,18 @@
     "Consensus"
   ],
   "expertise_by_source": {
+    "discussion": {
+      "Ecosystem": 0.667,
+      "Consensus": 0.333
+    },
     "code": {
       "Infrastructure": 1.0
-    },
-    "discussion": {
-      "Consensus": 0.333,
-      "Ecosystem": 0.667
     }
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.6,
-    "Consensus": 0.1332,
-    "Ecosystem": 0.2668
+    "Ecosystem": 0.2668,
+    "Consensus": 0.1332
   },
   "p2016_posts": 2.0,
   "modern_posts": 2.0,
@@ -96,8 +97,26 @@
   "github_bio": "Founder of the Church of Bitcoin\r\nLooking for work as a software dev",
   "github_twitter": "RompHenry",
   "github_blog": "https://hromp.com",
-  "github_followers": 18.0,
-  "activity_status": "New",
+  "github_followers": 24.0,
+  "github_profile_fetched_at": "2026-10-20T18:58:51Z",
+  "activity_status": "Active",
+  "geo_country_iso2": "US",
+  "geo_country_iso3": "USA",
+  "geo_country_name": "USA",
+  "geo_sovereign_iso2": "US",
+  "geo_m49_subregion": "Northern America",
+  "geo_macro_region": "North America",
+  "geo_un_macro_region": "North America",
+  "geo_wb_income": "High",
+  "geo_flag": "🇺🇸",
+  "geo_status": "resolved",
+  "geo_source": "github_location",
+  "geo_confidence": 0.95,
+  "geo_conflict": false,
+  "geo_tz_signature": null,
+  "geo_location_raw": "Vermont, USA",
+  "geo_as_of": "2026-10-20",
+  "geo_taxonomy_version": "2026.10.1",
   "is_top_50": false,
   "github_url": "https://github.com/151henry151",
   "commit_history": {

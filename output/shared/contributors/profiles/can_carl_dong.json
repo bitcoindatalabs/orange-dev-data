@@ -1,6 +1,7 @@
 {
   "display_name": "Carl Dong",
   "github_login_final": "dongcarl",
+  "github_id_final": "3445290",
   "delving_username_final": "dongcarl",
   "uuid": "can_carl_dong",
   "badges": {
@@ -75,34 +76,36 @@
   "delving_threads": 1.0,
   "ml_responses": 1.0,
   "delving_responses": 0.0,
-  "first_active": "2019-11-18T10:44:00",
-  "last_active": null,
+  "first_active": null,
+  "last_active": "2026-05-12T19:18:49.397000",
   "dev_type": "Builder",
   "expertise_domains": [
     "Infrastructure",
     "Network",
-    "Mining"
+    "Consensus"
   ],
   "expertise_by_source": {
+    "discussion": {
+      "Ecosystem": 0.165,
+      "Network": 0.671,
+      "Mining": 0.165
+    },
     "code": {
       "Infrastructure": 0.798,
       "Wallet": 0.002,
-      "Script": 0.003,
-      "Consensus": 0.152,
       "Network": 0.028,
-      "Mempool": 0.017
-    },
-    "discussion": {
-      "Mining": 0.5,
-      "Network": 0.5
+      "Mempool": 0.017,
+      "Script": 0.003,
+      "Consensus": 0.152
     }
   },
   "expertise_domain_scores": {
-    "Infrastructure": 0.4788,
+    "Infrastructure": 0.4786,
+    "Ecosystem": 0.066,
     "Consensus": 0.0912,
-    "Mining": 0.2,
+    "Network": 0.2851,
     "Mempool": 0.0102,
-    "Network": 0.2168
+    "Mining": 0.066
   },
   "p2016_posts": 2.0,
   "modern_posts": 1.0,
@@ -115,14 +118,32 @@
   "is_researcher": true,
   "is_bip_author": false,
   "global_first_active": "2017-08-18T07:57:31",
-  "global_last_active": "2025-11-05T03:55:45",
+  "global_last_active": "2026-05-12T19:18:49.397000",
   "github_location": "New York",
   "github_company": null,
   "github_bio": "Bitcoin, UNIX, systems engineering.",
   "github_twitter": "carl_dong",
   "github_blog": "carldong.io",
-  "github_followers": 365.0,
+  "github_followers": 380.0,
+  "github_profile_fetched_at": "2026-10-20T19:01:03Z",
   "activity_status": "Active",
+  "geo_country_iso2": "US",
+  "geo_country_iso3": "USA",
+  "geo_country_name": "USA",
+  "geo_sovereign_iso2": "US",
+  "geo_m49_subregion": "Northern America",
+  "geo_macro_region": "North America",
+  "geo_un_macro_region": "North America",
+  "geo_wb_income": "High",
+  "geo_flag": "🇺🇸",
+  "geo_status": "resolved",
+  "geo_source": "github_location",
+  "geo_confidence": 0.92,
+  "geo_conflict": false,
+  "geo_tz_signature": "-300/-240",
+  "geo_location_raw": "New York",
+  "geo_as_of": "2026-10-20",
+  "geo_taxonomy_version": "2026.10.1",
   "is_top_50": false,
   "github_url": "https://github.com/dongcarl",
   "delving_url": "https://delvingbitcoin.org/u/dongcarl",
@@ -198,7 +219,9 @@
     },
     "2026": {
       "core-dev": 1,
-      "mining": 1
+      "mining": 1,
+      "p2p-network": 1,
+      "payment-protocol": 1
     }
   }
 }

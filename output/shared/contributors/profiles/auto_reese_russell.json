@@ -1,6 +1,7 @@
 {
   "display_name": "Reese Russell",
   "github_login_final": "portlandhodl",
+  "github_id_final": "3104223",
   "delving_username_final": null,
   "uuid": "auto_reese_russell",
   "badges": null,
@@ -47,7 +48,7 @@
   "review_reciprocity": 2.25,
   "hybrid_score": 0.2113,
   "p2016_hybrid_score": 0.2264,
-  "modern_hybrid_score": 0.3202,
+  "modern_hybrid_score": 0.3138,
   "impact_score": 12.0,
   "p2016_impact_score": 13.0,
   "modern_impact_score": 17.0,
@@ -57,8 +58,8 @@
   "delving_threads": 0.0,
   "ml_responses": 1.0,
   "delving_responses": 0.0,
-  "first_active": "2025-10-02T15:42:06",
-  "last_active": "2025-10-18T07:06:04",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Builder",
   "expertise_domains": [
     "Infrastructure",
@@ -66,18 +67,18 @@
     "Script"
   ],
   "expertise_by_source": {
+    "discussion": {
+      "Script": 0.34,
+      "Ecosystem": 0.66
+    },
     "code": {
       "Infrastructure": 1.0
-    },
-    "discussion": {
-      "Ecosystem": 0.66,
-      "Script": 0.34
     }
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.6,
-    "Ecosystem": 0.264,
-    "Script": 0.136
+    "Script": 0.136,
+    "Ecosystem": 0.264
   },
   "p2016_posts": 2.0,
   "modern_posts": 2.0,
@@ -91,13 +92,31 @@
   "is_bip_author": false,
   "global_first_active": "2022-04-23T06:17:59",
   "global_last_active": "2026-04-01T17:04:46",
-  "github_location": null,
-  "github_company": null,
-  "github_bio": null,
-  "github_twitter": null,
-  "github_blog": null,
-  "github_followers": null,
+  "github_location": "Oregon",
+  "github_company": "QR Snap - Bitcoin",
+  "github_bio": "Bitcoin Entrepreneur - NyanOS - Nyan Keys Mechanical Keyboard - Coinemu Hardware Wallet - Free Agent",
+  "github_twitter": "PortlandHODL",
+  "github_blog": "https://qrsnap.io",
+  "github_followers": 162.0,
+  "github_profile_fetched_at": "2026-10-20T19:05:15Z",
   "activity_status": "Rising",
+  "geo_country_iso2": "US",
+  "geo_country_iso3": "USA",
+  "geo_country_name": "USA",
+  "geo_sovereign_iso2": "US",
+  "geo_m49_subregion": "Northern America",
+  "geo_macro_region": "North America",
+  "geo_un_macro_region": "North America",
+  "geo_wb_income": "High",
+  "geo_flag": "🇺🇸",
+  "geo_status": "resolved",
+  "geo_source": "github_location",
+  "geo_confidence": 0.95,
+  "geo_conflict": false,
+  "geo_tz_signature": null,
+  "geo_location_raw": "Oregon",
+  "geo_as_of": "2026-10-20",
+  "geo_taxonomy_version": "2026.10.1",
   "is_top_50": false,
   "github_url": "https://github.com/portlandhodl",
   "commit_history": {

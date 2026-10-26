@@ -1,6 +1,7 @@
 {
   "display_name": "Gavin Andresen",
   "github_login_final": "gavinandresen",
+  "github_id_final": "331997",
   "delving_username_final": null,
   "uuid": "can_gavin_andresen",
   "badges": {
@@ -64,7 +65,7 @@
   "avg_concept_lead_time_days": 40.39066984953704,
   "review_reciprocity": 3.75,
   "hybrid_score": 3.2956,
-  "p2016_hybrid_score": 0.7081,
+  "p2016_hybrid_score": 0.7078,
   "modern_hybrid_score": 0.1711,
   "impact_score": 86.0,
   "p2016_impact_score": 35.0,
@@ -75,8 +76,8 @@
   "delving_threads": 0.0,
   "ml_responses": 320.0,
   "delving_responses": 0.0,
-  "first_active": "2011-06-13T13:41:35",
-  "last_active": "2017-01-26T11:21:37",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Protocol Designer",
   "expertise_domains": [
     "Infrastructure",
@@ -84,30 +85,30 @@
     "Network"
   ],
   "expertise_by_source": {
+    "discussion": {
+      "Ecosystem": 0.423,
+      "Consensus": 0.577
+    },
     "code": {
       "Infrastructure": 0.96,
       "Wallet": 0.001,
-      "Consensus": 0.004,
       "Network": 0.031,
-      "Mempool": 0.004
-    },
-    "discussion": {
-      "Consensus": 0.577,
-      "Ecosystem": 0.423
+      "Mempool": 0.004,
+      "Consensus": 0.004
     },
     "bips": {
-      "Consensus": 0.417,
       "Infrastructure": 0.167,
+      "Consensus": 0.417,
       "Network": 0.333,
       "Script": 0.083
     }
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.3715,
-    "Consensus": 0.3251,
+    "Script": 0.0415,
     "Ecosystem": 0.0846,
-    "Network": 0.1758,
-    "Script": 0.0415
+    "Consensus": 0.3251,
+    "Network": 0.1758
   },
   "p2016_posts": 25.0,
   "modern_posts": 0.0,
@@ -121,13 +122,31 @@
   "is_bip_author": true,
   "global_first_active": "2010-07-14T15:54:31",
   "global_last_active": "2022-09-30T19:12:54",
-  "github_location": null,
-  "github_company": null,
+  "github_location": "Amherst, MA",
+  "github_company": "Clearwing Software",
   "github_bio": null,
   "github_twitter": "gavinandresen",
-  "github_blog": null,
-  "github_followers": null,
+  "github_blog": "http://gavinthink.blogspot.com",
+  "github_followers": 2495.0,
+  "github_profile_fetched_at": "2026-10-20T18:46:36Z",
   "activity_status": "Retired",
+  "geo_country_iso2": "US",
+  "geo_country_iso3": "USA",
+  "geo_country_name": "USA",
+  "geo_sovereign_iso2": "US",
+  "geo_m49_subregion": "Northern America",
+  "geo_macro_region": "North America",
+  "geo_un_macro_region": "North America",
+  "geo_wb_income": "High",
+  "geo_flag": "🇺🇸",
+  "geo_status": "resolved",
+  "geo_source": "github_location",
+  "geo_confidence": 0.9,
+  "geo_conflict": false,
+  "geo_tz_signature": null,
+  "geo_location_raw": "Amherst, MA",
+  "geo_as_of": "2026-10-20",
+  "geo_taxonomy_version": "2026.10.1",
   "is_top_50": false,
   "github_url": "https://github.com/gavinandresen",
   "commit_history": {

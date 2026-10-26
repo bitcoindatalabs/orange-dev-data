@@ -1,6 +1,7 @@
 {
   "display_name": "Suhas Daftuar",
   "github_login_final": "sdaftuar",
+  "github_id_final": "7463573",
   "delving_username_final": "sdaftuar",
   "uuid": "can_suhas_daftuar",
   "badges": {
@@ -34,7 +35,7 @@
   "first_commit": "2014-09-12T17:05:09",
   "last_commit": "2026-01-23T15:10:59",
   "p2016_authored_commits": 377.0,
-  "modern_authored_commits": 85.0,
+  "modern_authored_commits": 84.0,
   "co_authored_commits": 46.0,
   "bips_authored": 4.0,
   "p2016_bips_authored": 3.0,
@@ -57,8 +58,8 @@
   "avg_pr_ack_velocity_days": 5.413163457769939,
   "avg_concept_lead_time_days": 9.707705399061032,
   "review_reciprocity": 2.6220095693779903,
-  "hybrid_score": 1.4383,
-  "p2016_hybrid_score": 1.3403,
+  "hybrid_score": 1.4382,
+  "p2016_hybrid_score": 1.3401,
   "modern_hybrid_score": 0.4574,
   "impact_score": 58.0,
   "p2016_impact_score": 55.0,
@@ -69,8 +70,8 @@
   "delving_threads": 11.0,
   "ml_responses": 16.0,
   "delving_responses": 21.0,
-  "first_active": "2015-07-30T11:41:55",
-  "last_active": null,
+  "first_active": null,
+  "last_active": "2025-11-19T15:29:46.556000",
   "dev_type": "Protocol Designer",
   "expertise_domains": [
     "Infrastructure",
@@ -78,17 +79,17 @@
     "Mempool"
   ],
   "expertise_by_source": {
+    "discussion": {
+      "Network": 0.115,
+      "Mempool": 0.738,
+      "Mining": 0.148
+    },
     "code": {
       "Infrastructure": 0.553,
       "Wallet": 0.023,
-      "Consensus": 0.1,
       "Network": 0.17,
-      "Mempool": 0.154
-    },
-    "discussion": {
-      "Mining": 0.148,
-      "Mempool": 0.738,
-      "Network": 0.115
+      "Mempool": 0.154,
+      "Consensus": 0.1
     },
     "bips": {
       "Infrastructure": 0.5,
@@ -98,9 +99,9 @@
   "expertise_domain_scores": {
     "Infrastructure": 0.4158,
     "Consensus": 0.03,
-    "Mining": 0.0296,
+    "Network": 0.3239,
     "Mempool": 0.1938,
-    "Network": 0.3239
+    "Mining": 0.0296
   },
   "p2016_posts": 52.0,
   "modern_posts": 32.0,
@@ -119,8 +120,26 @@
   "github_bio": null,
   "github_twitter": null,
   "github_blog": null,
-  "github_followers": 538.0,
+  "github_followers": 548.0,
+  "github_profile_fetched_at": "2026-10-20T19:05:32Z",
   "activity_status": "Active",
+  "geo_country_iso2": null,
+  "geo_country_iso3": null,
+  "geo_country_name": null,
+  "geo_sovereign_iso2": null,
+  "geo_m49_subregion": null,
+  "geo_macro_region": "North America",
+  "geo_un_macro_region": "North America",
+  "geo_wb_income": null,
+  "geo_flag": null,
+  "geo_status": "region_only",
+  "geo_source": "timezone",
+  "geo_confidence": 0.35,
+  "geo_conflict": false,
+  "geo_tz_signature": "-300/-240",
+  "geo_location_raw": null,
+  "geo_as_of": "2026-10-24",
+  "geo_taxonomy_version": "2026.10.1",
   "is_top_50": false,
   "github_url": "https://github.com/sdaftuar",
   "delving_url": "https://delvingbitcoin.org/u/sdaftuar",

@@ -1,6 +1,7 @@
 {
   "display_name": "nerd2ninja",
   "github_login_final": "nerd2ninja",
+  "github_id_final": "23155951",
   "delving_username_final": "nerd2ninja",
   "uuid": "auto_nerd2ninja",
   "badges": null,
@@ -57,8 +58,8 @@
   "delving_threads": 2.0,
   "ml_responses": 0.0,
   "delving_responses": 0.0,
-  "first_active": null,
-  "last_active": null,
+  "first_active": "2026-08-05T01:45:00.481000",
+  "last_active": "2026-08-25T23:21:08.676000",
   "dev_type": "Participant",
   "expertise_domains": [
     "Script",
@@ -66,13 +67,13 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Consensus": 0.329,
-      "Script": 0.671
+      "Script": 0.671,
+      "Consensus": 0.329
     }
   },
   "expertise_domain_scores": {
-    "Consensus": 0.329,
-    "Script": 0.671
+    "Script": 0.671,
+    "Consensus": 0.329
   },
   "p2016_posts": 2.0,
   "modern_posts": 2.0,
@@ -85,14 +86,32 @@
   "is_researcher": false,
   "is_bip_author": false,
   "global_first_active": "2023-08-17T16:32:38",
-  "global_last_active": "2024-04-02T18:41:26",
+  "global_last_active": "2026-08-25T23:21:08.676000",
   "github_location": null,
   "github_company": null,
-  "github_bio": null,
+  "github_bio": "I'm just here for the XP (experience points)",
   "github_twitter": null,
-  "github_blog": null,
-  "github_followers": null,
+  "github_blog": "https://www.codewars.com/users/nerd2ninja",
+  "github_followers": 6.0,
+  "github_profile_fetched_at": "2026-10-20T18:49:20Z",
   "activity_status": "Active",
+  "geo_country_iso2": null,
+  "geo_country_iso3": null,
+  "geo_country_name": null,
+  "geo_sovereign_iso2": null,
+  "geo_m49_subregion": null,
+  "geo_macro_region": "Undisclosed",
+  "geo_un_macro_region": "Undisclosed",
+  "geo_wb_income": null,
+  "geo_flag": null,
+  "geo_status": "empty",
+  "geo_source": "none",
+  "geo_confidence": 0.0,
+  "geo_conflict": false,
+  "geo_tz_signature": null,
+  "geo_location_raw": null,
+  "geo_as_of": null,
+  "geo_taxonomy_version": "2026.10.1",
   "is_top_50": false,
   "github_url": "https://github.com/nerd2ninja",
   "delving_url": "https://delvingbitcoin.org/u/nerd2ninja",

@@ -1,6 +1,7 @@
 {
   "display_name": "Jonas Nick",
   "github_login_final": "jonasnick",
+  "github_id_final": "2582071",
   "delving_username_final": "jonasnick",
   "uuid": "can_jonas_nick",
   "badges": {
@@ -36,7 +37,7 @@
   "first_commit": "2016-05-08T17:53:01",
   "last_commit": "2026-06-29T07:06:10",
   "p2016_authored_commits": 189.0,
-  "modern_authored_commits": 45.0,
+  "modern_authored_commits": 40.0,
   "co_authored_commits": 9.0,
   "bips_authored": 4.0,
   "p2016_bips_authored": 4.0,
@@ -50,7 +51,7 @@
   "tier1_reviews_count": 337.0,
   "tier2_reviews_count": 61.0,
   "p2016_reviews_count": 383.0,
-  "modern_reviews_count": 84.0,
+  "modern_reviews_count": 83.0,
   "first_review_date": "2015-03-11T23:42:40",
   "last_review_date": "2026-07-22T19:30:13",
   "prs_authored": 112.0,
@@ -59,20 +60,20 @@
   "avg_pr_ack_velocity_days": 8.94121495627572,
   "avg_concept_lead_time_days": 11.727422839506172,
   "review_reciprocity": 3.4285714285714284,
-  "hybrid_score": 1.408,
-  "p2016_hybrid_score": 1.4571,
-  "modern_hybrid_score": 0.6535,
+  "hybrid_score": 1.4079,
+  "p2016_hybrid_score": 1.4569,
+  "modern_hybrid_score": 0.6555,
   "impact_score": 57.0,
   "p2016_impact_score": 58.0,
-  "modern_impact_score": 32.0,
+  "modern_impact_score": 33.0,
   "threads_started": 18.0,
   "replies_sent": 51.0,
   "ml_threads": 7.0,
   "delving_threads": 11.0,
   "ml_responses": 48.0,
   "delving_responses": 3.0,
-  "first_active": "2015-06-14T12:45:48",
-  "last_active": null,
+  "first_active": null,
+  "last_active": "2026-09-15T09:30:29.539000",
   "dev_type": "Protocol Designer",
   "expertise_domains": [
     "Infrastructure",
@@ -80,18 +81,18 @@
     "Cryptography"
   ],
   "expertise_by_source": {
-    "code": {
-      "Infrastructure": 0.984,
-      "Wallet": 0.016
-    },
     "discussion": {
       "Consensus": 0.245,
       "Wallet": 0.358,
       "Cryptography": 0.396
     },
+    "code": {
+      "Infrastructure": 0.984,
+      "Wallet": 0.016
+    },
     "bips": {
-      "Consensus": 0.5,
-      "Infrastructure": 0.5
+      "Infrastructure": 0.5,
+      "Consensus": 0.5
     }
   },
   "expertise_domain_scores": {
@@ -111,14 +112,32 @@
   "is_researcher": true,
   "is_bip_author": true,
   "global_first_active": "2015-03-11T23:42:40",
-  "global_last_active": "2026-07-22T19:30:13",
+  "global_last_active": "2026-09-15T09:30:29.539000",
   "github_location": null,
   "github_company": null,
   "github_bio": "GPG 36C7 1A37 C9D9 88BD E825  08D9 B1A7 0E4F 8DCD 0366",
   "github_twitter": null,
   "github_blog": "https://nickler.ninja",
-  "github_followers": 523.0,
+  "github_followers": 554.0,
+  "github_profile_fetched_at": "2026-10-20T19:02:41Z",
   "activity_status": "Active",
+  "geo_country_iso2": null,
+  "geo_country_iso3": null,
+  "geo_country_name": null,
+  "geo_sovereign_iso2": null,
+  "geo_m49_subregion": null,
+  "geo_macro_region": "Undisclosed",
+  "geo_un_macro_region": "Undisclosed",
+  "geo_wb_income": null,
+  "geo_flag": null,
+  "geo_status": "empty",
+  "geo_source": "none",
+  "geo_confidence": 0.0,
+  "geo_conflict": false,
+  "geo_tz_signature": null,
+  "geo_location_raw": null,
+  "geo_as_of": null,
+  "geo_taxonomy_version": "2026.10.1",
   "is_top_50": false,
   "github_url": "https://github.com/jonasnick",
   "delving_url": "https://delvingbitcoin.org/u/jonasnick",

@@ -1,6 +1,7 @@
 {
   "display_name": "Chris Beams",
   "github_login_final": "cbeams",
+  "github_id_final": "301810",
   "delving_username_final": null,
   "uuid": "auto_chris_beams",
   "badges": null,
@@ -57,19 +58,19 @@
   "delving_threads": 0.0,
   "ml_responses": 7.0,
   "delving_responses": 0.0,
-  "first_active": "2014-03-29T04:08:47",
-  "last_active": "2014-06-09T10:34:18",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Builder",
   "expertise_domains": [
     "Infrastructure",
     "Wallet"
   ],
   "expertise_by_source": {
-    "code": {
-      "Infrastructure": 1.0
-    },
     "discussion": {
       "Wallet": 1.0
+    },
+    "code": {
+      "Infrastructure": 1.0
     }
   },
   "expertise_domain_scores": {
@@ -87,14 +88,32 @@
   "is_researcher": true,
   "is_bip_author": false,
   "global_first_active": "2014-03-22T13:42:16",
-  "global_last_active": "2014-06-09T10:34:18",
+  "global_last_active": "2014-03-31T06:14:59",
   "github_location": null,
   "github_company": null,
   "github_bio": null,
   "github_twitter": null,
   "github_blog": "cbea.ms",
-  "github_followers": 784.0,
+  "github_followers": 793.0,
+  "github_profile_fetched_at": "2026-10-20T19:00:07Z",
   "activity_status": "Active",
+  "geo_country_iso2": null,
+  "geo_country_iso3": null,
+  "geo_country_name": null,
+  "geo_sovereign_iso2": null,
+  "geo_m49_subregion": null,
+  "geo_macro_region": "Undisclosed",
+  "geo_un_macro_region": "Undisclosed",
+  "geo_wb_income": null,
+  "geo_flag": null,
+  "geo_status": "empty",
+  "geo_source": "none",
+  "geo_confidence": 0.0,
+  "geo_conflict": false,
+  "geo_tz_signature": null,
+  "geo_location_raw": null,
+  "geo_as_of": null,
+  "geo_taxonomy_version": "2026.10.1",
   "is_top_50": false,
   "github_url": "https://github.com/cbeams",
   "commit_history": {

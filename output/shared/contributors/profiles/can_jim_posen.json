@@ -1,6 +1,7 @@
 {
   "display_name": "Jim Posen",
   "github_login_final": "jimpo",
+  "github_id_final": "881253",
   "delving_username_final": null,
   "uuid": "can_jim_posen",
   "badges": {
@@ -58,7 +59,7 @@
   "avg_concept_lead_time_days": 9.54938425925926,
   "review_reciprocity": 3.1724137931034484,
   "hybrid_score": 0.831,
-  "p2016_hybrid_score": 0.8733,
+  "p2016_hybrid_score": 0.8732,
   "modern_hybrid_score": 0.0989,
   "impact_score": 39.0,
   "p2016_impact_score": 41.0,
@@ -69,8 +70,8 @@
   "delving_threads": 0.0,
   "ml_responses": 31.0,
   "delving_responses": 0.0,
-  "first_active": "2017-12-11T14:40:00",
-  "last_active": "2019-04-04T00:59:32",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Protocol Designer",
   "expertise_domains": [
     "Infrastructure",
@@ -78,18 +79,18 @@
     "L2"
   ],
   "expertise_by_source": {
-    "code": {
-      "Infrastructure": 0.851,
-      "Wallet": 0.005,
-      "Script": 0.029,
-      "Consensus": 0.051,
-      "Network": 0.059,
-      "Mempool": 0.003,
-      "Cryptography": 0.002
-    },
     "discussion": {
       "L2": 0.316,
       "Network": 0.684
+    },
+    "code": {
+      "Infrastructure": 0.851,
+      "Wallet": 0.005,
+      "Network": 0.059,
+      "Cryptography": 0.002,
+      "Mempool": 0.003,
+      "Script": 0.029,
+      "Consensus": 0.051
     },
     "bips": {
       "Infrastructure": 1.0
@@ -97,8 +98,8 @@
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.7553,
-    "Consensus": 0.0153,
     "L2": 0.0632,
+    "Consensus": 0.0153,
     "Network": 0.1545
   },
   "p2016_posts": 35.0,
@@ -118,8 +119,26 @@
   "github_bio": "The truth is in the code",
   "github_twitter": "jimpo_potamus",
   "github_blog": null,
-  "github_followers": 179.0,
+  "github_followers": 186.0,
+  "github_profile_fetched_at": "2026-10-20T19:02:33Z",
   "activity_status": "Retired",
+  "geo_country_iso2": "DE",
+  "geo_country_iso3": "DEU",
+  "geo_country_name": "Germany",
+  "geo_sovereign_iso2": "DE",
+  "geo_m49_subregion": "Western Europe",
+  "geo_macro_region": "Europe",
+  "geo_un_macro_region": "Europe",
+  "geo_wb_income": "High",
+  "geo_flag": "🇩🇪",
+  "geo_status": "resolved",
+  "geo_source": "github_location",
+  "geo_confidence": 0.92,
+  "geo_conflict": true,
+  "geo_tz_signature": "-480/-420",
+  "geo_location_raw": "Berlin",
+  "geo_as_of": "2026-10-20",
+  "geo_taxonomy_version": "2026.10.1",
   "is_top_50": false,
   "github_url": "https://github.com/jimpo",
   "commit_history": {

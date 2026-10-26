@@ -1,1 +1,319 @@
-{"data": [{"name": "USA", "value": 140}, {"name": "Germany", "value": 55}, {"name": "UK", "value": 52}, {"name": "Australia", "value": 28}, {"name": "France", "value": 28}, {"name": "Netherlands", "value": 25}, {"name": "China", "value": 24}, {"name": "Switzerland", "value": 23}, {"name": "Canada", "value": 23}, {"name": "Japan", "value": 22}, {"name": "Spain", "value": 20}, {"name": "Brazil", "value": 19}, {"name": "Italy", "value": 16}, {"name": "Argentina", "value": 12}, {"name": "Russia", "value": 3}]}
+{
+  "data": [
+    {
+      "name": "USA",
+      "iso2": "US",
+      "iso3": "USA",
+      "flag": "🇺🇸",
+      "macro_region": "North America",
+      "value": 557,
+      "active_devs": 395,
+      "authored_commits": 4665
+    },
+    {
+      "name": "Germany",
+      "iso2": "DE",
+      "iso3": "DEU",
+      "flag": "🇩🇪",
+      "macro_region": "Europe",
+      "value": 110,
+      "active_devs": 85,
+      "authored_commits": 1940
+    },
+    {
+      "name": "India",
+      "iso2": "IN",
+      "iso3": "IND",
+      "flag": "🇮🇳",
+      "macro_region": "Asia Pacific",
+      "value": 87,
+      "active_devs": 83,
+      "authored_commits": 46
+    },
+    {
+      "name": "UK",
+      "iso2": "GB",
+      "iso3": "GBR",
+      "flag": "🇬🇧",
+      "macro_region": "Europe",
+      "value": 81,
+      "active_devs": 56,
+      "authored_commits": 1035
+    },
+    {
+      "name": "Canada",
+      "iso2": "CA",
+      "iso3": "CAN",
+      "flag": "🇨🇦",
+      "macro_region": "North America",
+      "value": 66,
+      "active_devs": 47,
+      "authored_commits": 329
+    },
+    {
+      "name": "Brazil",
+      "iso2": "BR",
+      "iso3": "BRA",
+      "flag": "🇧🇷",
+      "macro_region": "Latin America",
+      "value": 63,
+      "active_devs": 51,
+      "authored_commits": 322
+    },
+    {
+      "name": "Australia",
+      "iso2": "AU",
+      "iso3": "AUS",
+      "flag": "🇦🇺",
+      "macro_region": "Asia Pacific",
+      "value": 62,
+      "active_devs": 46,
+      "authored_commits": 518
+    },
+    {
+      "name": "France",
+      "iso2": "FR",
+      "iso3": "FRA",
+      "flag": "🇫🇷",
+      "macro_region": "Europe",
+      "value": 58,
+      "active_devs": 42,
+      "authored_commits": 145
+    },
+    {
+      "name": "Netherlands",
+      "iso2": "NL",
+      "iso3": "NLD",
+      "flag": "🇳🇱",
+      "macro_region": "Europe",
+      "value": 57,
+      "active_devs": 43,
+      "authored_commits": 2843
+    },
+    {
+      "name": "Switzerland",
+      "iso2": "CH",
+      "iso3": "CHE",
+      "flag": "🇨🇭",
+      "macro_region": "Europe",
+      "value": 53,
+      "active_devs": 38,
+      "authored_commits": 1176
+    },
+    {
+      "name": "China",
+      "iso2": "CN",
+      "iso3": "CHN",
+      "flag": "🇨🇳",
+      "macro_region": "Asia Pacific",
+      "value": 45,
+      "active_devs": 38,
+      "authored_commits": 42
+    },
+    {
+      "name": "Spain",
+      "iso2": "ES",
+      "iso3": "ESP",
+      "flag": "🇪🇸",
+      "macro_region": "Europe",
+      "value": 42,
+      "active_devs": 35,
+      "authored_commits": 69
+    },
+    {
+      "name": "Italy",
+      "iso2": "IT",
+      "iso3": "ITA",
+      "flag": "🇮🇹",
+      "macro_region": "Europe",
+      "value": 35,
+      "active_devs": 27,
+      "authored_commits": 66
+    },
+    {
+      "name": "Japan",
+      "iso2": "JP",
+      "iso3": "JPN",
+      "flag": "🇯🇵",
+      "macro_region": "Asia Pacific",
+      "value": 34,
+      "active_devs": 32,
+      "authored_commits": 244
+    },
+    {
+      "name": "Poland",
+      "iso2": "PL",
+      "iso3": "POL",
+      "flag": "🇵🇱",
+      "macro_region": "Europe",
+      "value": 31,
+      "active_devs": 19,
+      "authored_commits": 6
+    }
+  ],
+  "data_commit_weighted": [
+    {
+      "name": "USA",
+      "iso2": "US",
+      "iso3": "USA",
+      "flag": "🇺🇸",
+      "macro_region": "North America",
+      "value": 4665,
+      "contributors": 557,
+      "active_devs": 395
+    },
+    {
+      "name": "Sweden",
+      "iso2": "SE",
+      "iso3": "SWE",
+      "flag": "🇸🇪",
+      "macro_region": "Europe",
+      "value": 3904,
+      "contributors": 27,
+      "active_devs": 19
+    },
+    {
+      "name": "Netherlands",
+      "iso2": "NL",
+      "iso3": "NLD",
+      "flag": "🇳🇱",
+      "macro_region": "Europe",
+      "value": 2843,
+      "contributors": 57,
+      "active_devs": 43
+    },
+    {
+      "name": "Ukraine",
+      "iso2": "UA",
+      "iso3": "UKR",
+      "flag": "🇺🇦",
+      "macro_region": "Europe",
+      "value": 2386,
+      "contributors": 13,
+      "active_devs": 11
+    },
+    {
+      "name": "Germany",
+      "iso2": "DE",
+      "iso3": "DEU",
+      "flag": "🇩🇪",
+      "macro_region": "Europe",
+      "value": 1940,
+      "contributors": 110,
+      "active_devs": 85
+    },
+    {
+      "name": "Switzerland",
+      "iso2": "CH",
+      "iso3": "CHE",
+      "flag": "🇨🇭",
+      "macro_region": "Europe",
+      "value": 1176,
+      "contributors": 53,
+      "active_devs": 38
+    },
+    {
+      "name": "UK",
+      "iso2": "GB",
+      "iso3": "GBR",
+      "flag": "🇬🇧",
+      "macro_region": "Europe",
+      "value": 1035,
+      "contributors": 81,
+      "active_devs": 56
+    },
+    {
+      "name": "Austria",
+      "iso2": "AT",
+      "iso3": "AUT",
+      "flag": "🇦🇹",
+      "macro_region": "Europe",
+      "value": 929,
+      "contributors": 23,
+      "active_devs": 19
+    },
+    {
+      "name": "Australia",
+      "iso2": "AU",
+      "iso3": "AUS",
+      "flag": "🇦🇺",
+      "macro_region": "Asia Pacific",
+      "value": 518,
+      "contributors": 62,
+      "active_devs": 46
+    },
+    {
+      "name": "Portugal",
+      "iso2": "PT",
+      "iso3": "PRT",
+      "flag": "🇵🇹",
+      "macro_region": "Europe",
+      "value": 372,
+      "contributors": 20,
+      "active_devs": 13
+    },
+    {
+      "name": "Canada",
+      "iso2": "CA",
+      "iso3": "CAN",
+      "flag": "🇨🇦",
+      "macro_region": "North America",
+      "value": 329,
+      "contributors": 66,
+      "active_devs": 47
+    },
+    {
+      "name": "Brazil",
+      "iso2": "BR",
+      "iso3": "BRA",
+      "flag": "🇧🇷",
+      "macro_region": "Latin America",
+      "value": 322,
+      "contributors": 63,
+      "active_devs": 51
+    },
+    {
+      "name": "Japan",
+      "iso2": "JP",
+      "iso3": "JPN",
+      "flag": "🇯🇵",
+      "macro_region": "Asia Pacific",
+      "value": 244,
+      "contributors": 34,
+      "active_devs": 32
+    },
+    {
+      "name": "Ireland",
+      "iso2": "IE",
+      "iso3": "IRL",
+      "flag": "🇮🇪",
+      "macro_region": "Europe",
+      "value": 155,
+      "contributors": 10,
+      "active_devs": 8
+    },
+    {
+      "name": "France",
+      "iso2": "FR",
+      "iso3": "FRA",
+      "flag": "🇫🇷",
+      "macro_region": "Europe",
+      "value": 145,
+      "contributors": 58,
+      "active_devs": 42
+    }
+  ],
+  "other_small_countries": {
+    "countries": 51,
+    "contributors": 89,
+    "authored_commits": 84,
+    "rule": "countries with fewer than 5 contributors are not listed individually"
+  },
+  "coverage": {
+    "devs_known": 1941,
+    "devs_total": 7867,
+    "commit_weighted_known": 0.5476,
+    "countries_total": 103,
+    "taxonomy_version": "2026.10.1"
+  }
+}

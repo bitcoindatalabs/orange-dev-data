@@ -1,6 +1,7 @@
 {
   "display_name": "Caleb James DeLisle",
   "github_login_final": "cjdelisle",
+  "github_id_final": "509047",
   "delving_username_final": null,
   "uuid": "auto_caleb_james_delisle",
   "badges": null,
@@ -57,19 +58,19 @@
   "delving_threads": 0.0,
   "ml_responses": 12.0,
   "delving_responses": 0.0,
-  "first_active": "2011-07-28T10:37:21",
-  "last_active": "2013-07-08T20:20:08",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Builder",
   "expertise_domains": [
     "Infrastructure",
     "Network"
   ],
   "expertise_by_source": {
-    "code": {
-      "Infrastructure": 1.0
-    },
     "discussion": {
       "Network": 1.0
+    },
+    "code": {
+      "Infrastructure": 1.0
     }
   },
   "expertise_domain_scores": {
@@ -86,15 +87,33 @@
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": false,
-  "global_first_active": "2011-07-28T10:37:21",
+  "global_first_active": "2011-09-09T18:46:05",
   "global_last_active": "2022-03-17T01:12:55",
   "github_location": "Paris France",
   "github_company": null,
   "github_bio": "cjd",
   "github_twitter": null,
   "github_blog": null,
-  "github_followers": 662.0,
+  "github_followers": 667.0,
+  "github_profile_fetched_at": "2026-10-20T19:00:19Z",
   "activity_status": "Active",
+  "geo_country_iso2": "FR",
+  "geo_country_iso3": "FRA",
+  "geo_country_name": "France",
+  "geo_sovereign_iso2": "FR",
+  "geo_m49_subregion": "Western Europe",
+  "geo_macro_region": "Europe",
+  "geo_un_macro_region": "Europe",
+  "geo_wb_income": "High",
+  "geo_flag": "🇫🇷",
+  "geo_status": "resolved",
+  "geo_source": "github_location",
+  "geo_confidence": 0.95,
+  "geo_conflict": false,
+  "geo_tz_signature": null,
+  "geo_location_raw": "Paris France",
+  "geo_as_of": "2026-10-20",
+  "geo_taxonomy_version": "2026.10.1",
   "is_top_50": false,
   "github_url": "https://github.com/cjdelisle",
   "commit_history": {

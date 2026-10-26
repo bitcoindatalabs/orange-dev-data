@@ -1,6 +1,7 @@
 {
-  "display_name": "rune kjær svendsen",
+  "display_name": "Rune Kjær Svendsen",
   "github_login_final": "runeksvendsen",
+  "github_id_final": "1069247",
   "delving_username_final": null,
   "uuid": "auto_rune_kj_r_svendsen",
   "badges": null,
@@ -45,7 +46,7 @@
   "avg_pr_ack_velocity_days": 0.22895833333333332,
   "avg_concept_lead_time_days": 0.018657407407407407,
   "review_reciprocity": 1.0,
-  "hybrid_score": 0.2621,
+  "hybrid_score": 0.262,
   "p2016_hybrid_score": 0.083,
   "modern_hybrid_score": 0.058,
   "impact_score": 15.0,
@@ -57,19 +58,19 @@
   "delving_threads": 0.0,
   "ml_responses": 12.0,
   "delving_responses": 0.0,
-  "first_active": "2013-03-11T14:27:51",
-  "last_active": "2021-12-18T07:25:08",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Builder",
   "expertise_domains": [
     "Infrastructure",
     "Mining"
   ],
   "expertise_by_source": {
-    "code": {
-      "Infrastructure": 1.0
-    },
     "discussion": {
       "Mining": 1.0
+    },
+    "code": {
+      "Infrastructure": 1.0
     }
   },
   "expertise_domain_scores": {
@@ -87,14 +88,32 @@
   "is_researcher": true,
   "is_bip_author": false,
   "global_first_active": "2011-11-13T14:39:13",
-  "global_last_active": "2021-12-18T07:25:08",
+  "global_last_active": "2016-09-12T05:15:56",
   "github_location": "Copenhagen",
   "github_company": null,
   "github_bio": "I've been writing code since I was 12. Love Haskell and Bitcoin.",
   "github_twitter": "runeksvendsen",
   "github_blog": null,
-  "github_followers": 79.0,
+  "github_followers": 82.0,
+  "github_profile_fetched_at": "2026-10-20T19:05:16Z",
   "activity_status": "Retired",
+  "geo_country_iso2": "DK",
+  "geo_country_iso3": "DNK",
+  "geo_country_name": "Denmark",
+  "geo_sovereign_iso2": "DK",
+  "geo_m49_subregion": "Northern Europe",
+  "geo_macro_region": "Europe",
+  "geo_un_macro_region": "Europe",
+  "geo_wb_income": "High",
+  "geo_flag": "🇩🇰",
+  "geo_status": "resolved",
+  "geo_source": "github_location",
+  "geo_confidence": 0.85,
+  "geo_conflict": false,
+  "geo_tz_signature": null,
+  "geo_location_raw": "Copenhagen",
+  "geo_as_of": "2026-10-20",
+  "geo_taxonomy_version": "2026.10.1",
   "is_top_50": false,
   "github_url": "https://github.com/runeksvendsen",
   "commit_history": {

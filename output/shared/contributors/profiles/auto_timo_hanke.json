@@ -1,6 +1,7 @@
 {
   "display_name": "Timo Hanke",
   "github_login_final": "timohanke",
+  "github_id_final": "3149329",
   "delving_username_final": null,
   "uuid": "auto_timo_hanke",
   "badges": null,
@@ -45,7 +46,7 @@
   "avg_pr_ack_velocity_days": null,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": 1.0,
-  "hybrid_score": 0.0733,
+  "hybrid_score": 0.0732,
   "p2016_hybrid_score": 0.0609,
   "modern_hybrid_score": 0.0146,
   "impact_score": 4.0,
@@ -57,8 +58,8 @@
   "delving_threads": 0.0,
   "ml_responses": 28.0,
   "delving_responses": 0.0,
-  "first_active": "2013-02-08T04:03:54",
-  "last_active": "2017-04-08T11:19:01",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Participant",
   "expertise_domains": [
     "Mining",
@@ -67,15 +68,15 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Mining": 0.481,
       "Ecosystem": 0.358,
-      "Wallet": 0.16
+      "Wallet": 0.16,
+      "Mining": 0.481
     }
   },
   "expertise_domain_scores": {
-    "Mining": 0.4815,
     "Ecosystem": 0.3584,
-    "Wallet": 0.1602
+    "Wallet": 0.1602,
+    "Mining": 0.4815
   },
   "p2016_posts": 10.0,
   "modern_posts": 0.0,
@@ -87,15 +88,33 @@
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": false,
-  "global_first_active": "2013-02-08T04:03:54",
+  "global_first_active": "2018-08-01T20:43:14",
   "global_last_active": "2018-08-01T20:43:14",
   "github_location": "Switzerland",
   "github_company": null,
   "github_bio": null,
   "github_twitter": null,
   "github_blog": null,
-  "github_followers": 91.0,
+  "github_followers": 92.0,
+  "github_profile_fetched_at": "2026-10-20T19:51:35Z",
   "activity_status": "Active",
+  "geo_country_iso2": "CH",
+  "geo_country_iso3": "CHE",
+  "geo_country_name": "Switzerland",
+  "geo_sovereign_iso2": "CH",
+  "geo_m49_subregion": "Western Europe",
+  "geo_macro_region": "Europe",
+  "geo_un_macro_region": "Europe",
+  "geo_wb_income": "High",
+  "geo_flag": "🇨🇭",
+  "geo_status": "resolved",
+  "geo_source": "github_location",
+  "geo_confidence": 0.95,
+  "geo_conflict": false,
+  "geo_tz_signature": null,
+  "geo_location_raw": "Switzerland",
+  "geo_as_of": "2026-10-20",
+  "geo_taxonomy_version": "2026.10.1",
   "is_top_50": false,
   "github_url": "https://github.com/timohanke",
   "first_message": {

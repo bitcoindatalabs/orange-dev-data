@@ -1,6 +1,7 @@
 {
   "display_name": "Pierre Rochard",
   "github_login_final": "PierreRochard",
+  "github_id_final": "6299681",
   "delving_username_final": "pierrerochard",
   "uuid": "auto_pierre_rochard",
   "badges": null,
@@ -57,8 +58,8 @@
   "delving_threads": 1.0,
   "ml_responses": 0.0,
   "delving_responses": 0.0,
-  "first_active": null,
-  "last_active": null,
+  "first_active": "2024-05-21T03:35:59.869000",
+  "last_active": "2024-05-21T03:35:59.869000",
   "dev_type": "Builder",
   "expertise_domains": [
     "Wallet",
@@ -66,20 +67,20 @@
     "Infrastructure"
   ],
   "expertise_by_source": {
+    "discussion": {
+      "Script": 0.25,
+      "Consensus": 0.75
+    },
     "code": {
       "Infrastructure": 0.278,
       "Wallet": 0.722
-    },
-    "discussion": {
-      "Consensus": 0.75,
-      "Script": 0.25
     }
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.1668,
+    "Script": 0.1,
     "Consensus": 0.3,
-    "Wallet": 0.4332,
-    "Script": 0.1
+    "Wallet": 0.4332
   },
   "p2016_posts": 1.0,
   "modern_posts": 1.0,
@@ -92,14 +93,32 @@
   "is_researcher": false,
   "is_bip_author": false,
   "global_first_active": "2015-12-21T20:47:49",
-  "global_last_active": "2020-08-27T02:54:23",
+  "global_last_active": "2024-05-21T03:35:59.869000",
   "github_location": "Earth",
   "github_company": "Bitcoin",
   "github_bio": null,
   "github_twitter": "BitcoinPierre",
   "github_blog": null,
-  "github_followers": 467.0,
+  "github_followers": 474.0,
+  "github_profile_fetched_at": "2026-10-20T19:04:36Z",
   "activity_status": "Retired",
+  "geo_country_iso2": null,
+  "geo_country_iso3": null,
+  "geo_country_name": null,
+  "geo_sovereign_iso2": null,
+  "geo_m49_subregion": null,
+  "geo_macro_region": "Undisclosed",
+  "geo_un_macro_region": "Undisclosed",
+  "geo_wb_income": null,
+  "geo_flag": null,
+  "geo_status": "non_geographic",
+  "geo_source": "none",
+  "geo_confidence": 0.0,
+  "geo_conflict": false,
+  "geo_tz_signature": null,
+  "geo_location_raw": "Earth",
+  "geo_as_of": null,
+  "geo_taxonomy_version": "2026.10.1",
   "is_top_50": false,
   "github_url": "https://github.com/PierreRochard",
   "delving_url": "https://delvingbitcoin.org/u/pierrerochard",

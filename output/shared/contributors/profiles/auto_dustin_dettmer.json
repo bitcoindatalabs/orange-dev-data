@@ -1,6 +1,7 @@
 {
-  "display_name": "dustin dettmer",
+  "display_name": "Dustin Dettmer",
   "github_login_final": "ddustin",
+  "github_id_final": "331415",
   "delving_username_final": null,
   "uuid": "auto_dustin_dettmer",
   "badges": null,
@@ -57,8 +58,8 @@
   "delving_threads": 0.0,
   "ml_responses": 12.0,
   "delving_responses": 0.0,
-  "first_active": "2019-01-22T10:33:23",
-  "last_active": "2021-10-03T04:53:00",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Participant",
   "expertise_domains": [
     "Network",
@@ -66,13 +67,13 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Mining": 0.381,
-      "Network": 0.619
+      "Network": 0.619,
+      "Mining": 0.381
     }
   },
   "expertise_domain_scores": {
-    "Mining": 0.381,
-    "Network": 0.619
+    "Network": 0.619,
+    "Mining": 0.381
   },
   "p2016_posts": 12.0,
   "modern_posts": 0.0,
@@ -85,14 +86,32 @@
   "is_researcher": true,
   "is_bip_author": false,
   "global_first_active": "2018-10-23T19:44:51",
-  "global_last_active": "2021-10-03T04:53:00",
+  "global_last_active": "2021-04-19T22:58:48",
   "github_location": null,
   "github_company": null,
   "github_bio": null,
   "github_twitter": null,
   "github_blog": null,
-  "github_followers": 81.0,
+  "github_followers": 87.0,
+  "github_profile_fetched_at": "2026-10-20T19:00:48Z",
   "activity_status": "Active",
+  "geo_country_iso2": null,
+  "geo_country_iso3": null,
+  "geo_country_name": null,
+  "geo_sovereign_iso2": null,
+  "geo_m49_subregion": null,
+  "geo_macro_region": "Undisclosed",
+  "geo_un_macro_region": "Undisclosed",
+  "geo_wb_income": null,
+  "geo_flag": null,
+  "geo_status": "empty",
+  "geo_source": "none",
+  "geo_confidence": 0.0,
+  "geo_conflict": false,
+  "geo_tz_signature": null,
+  "geo_location_raw": null,
+  "geo_as_of": null,
+  "geo_taxonomy_version": "2026.10.1",
   "is_top_50": false,
   "github_url": "https://github.com/ddustin",
   "first_message": {

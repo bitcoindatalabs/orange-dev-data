@@ -1,6 +1,7 @@
 {
   "display_name": "Daniel Newton",
   "github_login_final": "djpnewton",
+  "github_id_final": "42459",
   "delving_username_final": null,
   "uuid": "auto_daniel_newton",
   "badges": null,
@@ -57,19 +58,19 @@
   "delving_threads": 0.0,
   "ml_responses": 2.0,
   "delving_responses": 0.0,
-  "first_active": "2014-04-06T19:28:26",
-  "last_active": "2015-10-14T18:42:31",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Builder",
   "expertise_domains": [
     "Infrastructure",
     "L2"
   ],
   "expertise_by_source": {
-    "code": {
-      "Infrastructure": 1.0
-    },
     "discussion": {
       "L2": 1.0
+    },
+    "code": {
+      "Infrastructure": 1.0
     }
   },
   "expertise_domain_scores": {
@@ -93,8 +94,26 @@
   "github_bio": null,
   "github_twitter": null,
   "github_blog": null,
-  "github_followers": 76.0,
+  "github_followers": 75.0,
+  "github_profile_fetched_at": "2026-10-20T19:00:58Z",
   "activity_status": "Active",
+  "geo_country_iso2": null,
+  "geo_country_iso3": null,
+  "geo_country_name": null,
+  "geo_sovereign_iso2": null,
+  "geo_m49_subregion": null,
+  "geo_macro_region": "Undisclosed",
+  "geo_un_macro_region": "Undisclosed",
+  "geo_wb_income": null,
+  "geo_flag": null,
+  "geo_status": "empty",
+  "geo_source": "none",
+  "geo_confidence": 0.0,
+  "geo_conflict": false,
+  "geo_tz_signature": null,
+  "geo_location_raw": null,
+  "geo_as_of": null,
+  "geo_taxonomy_version": "2026.10.1",
   "is_top_50": false,
   "github_url": "https://github.com/djpnewton",
   "commit_history": {

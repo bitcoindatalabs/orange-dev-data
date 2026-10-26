@@ -1,6 +1,7 @@
 {
   "display_name": "ben-kaufman",
   "github_login_final": "ben-kaufman",
+  "github_id_final": "10667901",
   "delving_username_final": "benk10",
   "uuid": "auto_ben_kaufman",
   "badges": {
@@ -60,8 +61,8 @@
   "delving_threads": 3.0,
   "ml_responses": 0.0,
   "delving_responses": 0.0,
-  "first_active": null,
-  "last_active": null,
+  "first_active": "2025-05-04T06:43:00.108000",
+  "last_active": "2026-05-29T16:33:25.497000",
   "dev_type": "Builder",
   "expertise_domains": [
     "Wallet",
@@ -69,19 +70,19 @@
     "Infrastructure"
   ],
   "expertise_by_source": {
-    "code": {
-      "Infrastructure": 0.071,
-      "Wallet": 0.929
-    },
     "discussion": {
       "Script": 0.25,
       "Wallet": 0.75
+    },
+    "code": {
+      "Infrastructure": 0.071,
+      "Wallet": 0.929
     }
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.0426,
-    "Wallet": 0.8574,
-    "Script": 0.1
+    "Script": 0.1,
+    "Wallet": 0.8574
   },
   "p2016_posts": 3.0,
   "modern_posts": 3.0,
@@ -94,14 +95,32 @@
   "is_researcher": false,
   "is_bip_author": false,
   "global_first_active": "2021-01-25T19:33:41",
-  "global_last_active": "2025-05-15T22:43:35",
+  "global_last_active": "2026-05-29T16:33:25.497000",
   "github_location": null,
   "github_company": null,
   "github_bio": null,
   "github_twitter": null,
   "github_blog": null,
-  "github_followers": 105.0,
+  "github_followers": 107.0,
+  "github_profile_fetched_at": "2026-10-20T18:59:40Z",
   "activity_status": "Active",
+  "geo_country_iso2": null,
+  "geo_country_iso3": null,
+  "geo_country_name": null,
+  "geo_sovereign_iso2": null,
+  "geo_m49_subregion": null,
+  "geo_macro_region": "Undisclosed",
+  "geo_un_macro_region": "Undisclosed",
+  "geo_wb_income": null,
+  "geo_flag": null,
+  "geo_status": "empty",
+  "geo_source": "none",
+  "geo_confidence": 0.0,
+  "geo_conflict": false,
+  "geo_tz_signature": null,
+  "geo_location_raw": null,
+  "geo_as_of": null,
+  "geo_taxonomy_version": "2026.10.1",
   "is_top_50": false,
   "github_url": "https://github.com/ben-kaufman",
   "delving_url": "https://delvingbitcoin.org/u/benk10",

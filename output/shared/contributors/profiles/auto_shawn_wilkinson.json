@@ -1,6 +1,7 @@
 {
   "display_name": "Shawn Wilkinson",
   "github_login_final": "super3",
+  "github_id_final": "60975",
   "delving_username_final": null,
   "uuid": "auto_shawn_wilkinson",
   "badges": null,
@@ -68,8 +69,8 @@
   "expertise_by_source": {
     "code": {
       "Infrastructure": 0.975,
-      "Consensus": 0.013,
-      "Network": 0.013
+      "Network": 0.013,
+      "Consensus": 0.013
     }
   },
   "expertise_domain_scores": {
@@ -94,8 +95,26 @@
   "github_bio": null,
   "github_twitter": null,
   "github_blog": "http://super3.org",
-  "github_followers": 248.0,
+  "github_followers": 251.0,
+  "github_profile_fetched_at": "2026-10-20T19:05:59Z",
   "activity_status": "Retired",
+  "geo_country_iso2": "US",
+  "geo_country_iso3": "USA",
+  "geo_country_name": "USA",
+  "geo_sovereign_iso2": "US",
+  "geo_m49_subregion": "Northern America",
+  "geo_macro_region": "North America",
+  "geo_un_macro_region": "North America",
+  "geo_wb_income": "High",
+  "geo_flag": "🇺🇸",
+  "geo_status": "resolved",
+  "geo_source": "github_location",
+  "geo_confidence": 0.9,
+  "geo_conflict": false,
+  "geo_tz_signature": null,
+  "geo_location_raw": "Atlanta, GA",
+  "geo_as_of": "2026-10-20",
+  "geo_taxonomy_version": "2026.10.1",
   "is_top_50": false,
   "github_url": "https://github.com/super3",
   "commit_history": {

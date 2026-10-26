@@ -1,6 +1,7 @@
 {
-  "display_name": "sergi delgado segura",
+  "display_name": "Sergi Delgado Segura",
   "github_login_final": "sr-gi",
+  "github_id_final": "6665628",
   "delving_username_final": "sr-gi",
   "uuid": "auto_sergi_delgado_segura",
   "badges": {
@@ -30,7 +31,7 @@
   "first_commit": "2023-11-08T11:31:59",
   "last_commit": "2025-10-27T16:17:53",
   "p2016_authored_commits": 28.0,
-  "modern_authored_commits": 23.0,
+  "modern_authored_commits": 22.0,
   "co_authored_commits": 0.0,
   "bips_authored": 0.0,
   "p2016_bips_authored": 0.0,
@@ -55,7 +56,7 @@
   "review_reciprocity": 1.8214285714285714,
   "hybrid_score": 0.3542,
   "p2016_hybrid_score": 0.3604,
-  "modern_hybrid_score": 0.3957,
+  "modern_hybrid_score": 0.3979,
   "impact_score": 19.0,
   "p2016_impact_score": 19.0,
   "modern_impact_score": 21.0,
@@ -65,8 +66,8 @@
   "delving_threads": 6.0,
   "ml_responses": 1.0,
   "delving_responses": 1.0,
-  "first_active": "2023-09-13T16:15:36",
-  "last_active": null,
+  "first_active": null,
+  "last_active": "2025-02-05T20:48:13.842000",
   "dev_type": "Builder",
   "expertise_domains": [
     "Network",
@@ -74,22 +75,22 @@
     "Ecosystem"
   ],
   "expertise_by_source": {
-    "code": {
-      "Infrastructure": 0.738,
-      "Consensus": 0.036,
-      "Network": 0.226
-    },
     "discussion": {
       "L2": 0.11,
       "Ecosystem": 0.11,
       "Network": 0.78
+    },
+    "code": {
+      "Infrastructure": 0.738,
+      "Network": 0.226,
+      "Consensus": 0.036
     }
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.4428,
-    "Consensus": 0.0216,
     "L2": 0.044,
     "Ecosystem": 0.044,
+    "Consensus": 0.0216,
     "Network": 0.4476
   },
   "p2016_posts": 9.0,
@@ -109,8 +110,26 @@
   "github_bio": "Bitcoin Dev @2140-dev. PhD from UAB, ex-{UCL, UIUC}. Bitcoin and distributed networks.",
   "github_twitter": "sr_gi",
   "github_blog": "https://srgi.me",
-  "github_followers": 344.0,
+  "github_followers": 354.0,
+  "github_profile_fetched_at": "2026-10-20T19:05:51Z",
   "activity_status": "Rising",
+  "geo_country_iso2": "NL",
+  "geo_country_iso3": "NLD",
+  "geo_country_name": "Netherlands",
+  "geo_sovereign_iso2": "NL",
+  "geo_m49_subregion": "Western Europe",
+  "geo_macro_region": "Europe",
+  "geo_un_macro_region": "Europe",
+  "geo_wb_income": "High",
+  "geo_flag": "🇳🇱",
+  "geo_status": "resolved",
+  "geo_source": "github_location",
+  "geo_confidence": 0.85,
+  "geo_conflict": true,
+  "geo_tz_signature": "-300/-240",
+  "geo_location_raw": "Amsterdam",
+  "geo_as_of": "2026-10-20",
+  "geo_taxonomy_version": "2026.10.1",
   "is_top_50": false,
   "github_url": "https://github.com/sr-gi",
   "delving_url": "https://delvingbitcoin.org/u/sr-gi",

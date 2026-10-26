@@ -1,6 +1,7 @@
 {
   "display_name": "Eugene Siegel",
   "github_login_final": "Crypt-iQ",
+  "github_id_final": "15145615",
   "delving_username_final": "crypt-iq",
   "uuid": "auto_eugene_siegel",
   "badges": {
@@ -67,8 +68,8 @@
   "delving_threads": 13.0,
   "ml_responses": 0.0,
   "delving_responses": 5.0,
-  "first_active": null,
-  "last_active": null,
+  "first_active": "2024-01-24T22:04:54.478000",
+  "last_active": "2026-05-14T19:48:57.695000",
   "dev_type": "Builder",
   "expertise_domains": [
     "Infrastructure",
@@ -76,22 +77,22 @@
     "Mempool"
   ],
   "expertise_by_source": {
+    "discussion": {
+      "Consensus": 0.235,
+      "Network": 0.412,
+      "Mempool": 0.353
+    },
     "code": {
       "Infrastructure": 0.835,
-      "Consensus": 0.03,
-      "Network": 0.134
-    },
-    "discussion": {
-      "Consensus": 0.24,
-      "Mempool": 0.38,
-      "Network": 0.38
+      "Network": 0.134,
+      "Consensus": 0.03
     }
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.5013,
-    "Consensus": 0.1141,
-    "Mempool": 0.1521,
-    "Network": 0.2325
+    "Consensus": 0.1121,
+    "Network": 0.2453,
+    "Mempool": 0.1413
   },
   "p2016_posts": 18.0,
   "modern_posts": 18.0,
@@ -110,8 +111,26 @@
   "github_bio": null,
   "github_twitter": null,
   "github_blog": null,
-  "github_followers": 77.0,
+  "github_followers": 81.0,
+  "github_profile_fetched_at": "2026-10-20T19:00:31Z",
   "activity_status": "Rising",
+  "geo_country_iso2": null,
+  "geo_country_iso3": null,
+  "geo_country_name": null,
+  "geo_sovereign_iso2": null,
+  "geo_m49_subregion": null,
+  "geo_macro_region": "North America",
+  "geo_un_macro_region": "North America",
+  "geo_wb_income": null,
+  "geo_flag": null,
+  "geo_status": "region_only",
+  "geo_source": "timezone",
+  "geo_confidence": 0.35,
+  "geo_conflict": false,
+  "geo_tz_signature": "-300/-240",
+  "geo_location_raw": null,
+  "geo_as_of": "2026-10-24",
+  "geo_taxonomy_version": "2026.10.1",
   "is_top_50": false,
   "github_url": "https://github.com/Crypt-iQ",
   "delving_url": "https://delvingbitcoin.org/u/crypt-iq",
@@ -179,8 +198,9 @@
       "taproot": 3
     },
     "2026": {
-      "other": 1,
-      "mining": 1
+      "other": 2,
+      "mining": 1,
+      "p2p-network": 1
     }
   }
 }

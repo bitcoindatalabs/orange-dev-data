@@ -1,6 +1,7 @@
 {
   "display_name": "rkrux",
   "github_login_final": "rkrux",
+  "github_id_final": "5960750",
   "delving_username_final": null,
   "uuid": "auto_rkrux",
   "badges": {
@@ -55,7 +56,7 @@
   "review_reciprocity": 6.545454545454546,
   "hybrid_score": 0.4725,
   "p2016_hybrid_score": 0.4769,
-  "modern_hybrid_score": 0.5021,
+  "modern_hybrid_score": 0.5027,
   "impact_score": 25.0,
   "p2016_impact_score": 25.0,
   "modern_impact_score": 26.0,
@@ -65,8 +66,8 @@
   "delving_threads": 0.0,
   "ml_responses": 1.0,
   "delving_responses": 0.0,
-  "first_active": "2026-06-11T00:43:42",
-  "last_active": "2026-06-16T02:05:07",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Builder",
   "expertise_domains": [
     "Infrastructure",
@@ -74,20 +75,20 @@
     "Wallet"
   ],
   "expertise_by_source": {
+    "discussion": {
+      "Mempool": 1.0
+    },
     "code": {
       "Infrastructure": 0.733,
       "Wallet": 0.247,
       "Script": 0.013,
       "Consensus": 0.007
-    },
-    "discussion": {
-      "Mempool": 1.0
     }
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.4398,
-    "Mempool": 0.4,
-    "Wallet": 0.1482
+    "Wallet": 0.1482,
+    "Mempool": 0.4
   },
   "p2016_posts": 2.0,
   "modern_posts": 2.0,
@@ -101,13 +102,31 @@
   "is_bip_author": false,
   "global_first_active": "2024-03-19T10:05:05",
   "global_last_active": "2026-10-15T13:06:41",
-  "github_location": "Mempool",
-  "github_company": "@bitcoin-core ",
+  "github_location": "Darwin, Australia",
+  "github_company": null,
   "github_bio": "pron. /ˌare ˈcrux/\r\n\r\nE00F A95E EDFE 33EE 85C1 D3AA 8614 B8BD 2E14 4C6D",
   "github_twitter": null,
   "github_blog": null,
-  "github_followers": 40.0,
+  "github_followers": 0.0,
+  "github_profile_fetched_at": "2026-10-20T19:05:06Z",
   "activity_status": "Active",
+  "geo_country_iso2": "AU",
+  "geo_country_iso3": "AUS",
+  "geo_country_name": "Australia",
+  "geo_sovereign_iso2": "AU",
+  "geo_m49_subregion": "Australia and New Zealand",
+  "geo_macro_region": "Asia Pacific",
+  "geo_un_macro_region": "Oceania",
+  "geo_wb_income": "High",
+  "geo_flag": "🇦🇺",
+  "geo_status": "resolved",
+  "geo_source": "github_location",
+  "geo_confidence": 0.95,
+  "geo_conflict": false,
+  "geo_tz_signature": "+330/+330",
+  "geo_location_raw": "Darwin, Australia",
+  "geo_as_of": "2026-10-20",
+  "geo_taxonomy_version": "2026.10.1",
   "is_top_50": false,
   "github_url": "https://github.com/rkrux",
   "commit_history": {

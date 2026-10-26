@@ -1,6 +1,7 @@
 {
   "display_name": "Shaolin Fry",
   "github_login_final": "shaolinfry",
+  "github_id_final": "19836615",
   "delving_username_final": null,
   "uuid": "can_shaolin_fry",
   "badges": {
@@ -51,26 +52,26 @@
   "modern_reviews_count": 0.0,
   "first_review_date": "2017-03-19T19:22:32",
   "last_review_date": "2020-06-24T15:00:53",
-  "prs_authored": 16.0,
-  "tier1_prs_authored": 3.0,
+  "prs_authored": 14.0,
+  "tier1_prs_authored": 1.0,
   "tier2_prs_authored": 13.0,
   "avg_pr_ack_velocity_days": 0.022291666666666668,
   "avg_concept_lead_time_days": null,
-  "review_reciprocity": 0.625,
-  "hybrid_score": 0.874,
-  "p2016_hybrid_score": 0.8996,
-  "modern_hybrid_score": 0.0792,
+  "review_reciprocity": 0.7142857142857143,
+  "hybrid_score": 0.872,
+  "p2016_hybrid_score": 0.8976,
+  "modern_hybrid_score": 0.075,
   "impact_score": 41.0,
   "p2016_impact_score": 42.0,
-  "modern_impact_score": 5.0,
+  "modern_impact_score": 4.0,
   "threads_started": 6.0,
   "replies_sent": 10.0,
   "ml_threads": 6.0,
   "delving_threads": 0.0,
   "ml_responses": 10.0,
   "delving_responses": 0.0,
-  "first_active": "2017-02-25T17:55:51",
-  "last_active": "2017-07-07T00:52:13",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Protocol Designer",
   "expertise_domains": [
     "Consensus",
@@ -78,17 +79,17 @@
     "Mining"
   ],
   "expertise_by_source": {
-    "code": {
-      "Infrastructure": 0.667,
-      "Consensus": 0.333
-    },
     "discussion": {
       "Consensus": 0.871,
       "Mining": 0.129
     },
+    "code": {
+      "Infrastructure": 0.667,
+      "Consensus": 0.333
+    },
     "bips": {
-      "Consensus": 0.667,
-      "Infrastructure": 0.333
+      "Infrastructure": 0.333,
+      "Consensus": 0.667
     }
   },
   "expertise_domain_scores": {
@@ -106,15 +107,33 @@
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": true,
-  "global_first_active": "2017-02-25T17:55:51",
+  "global_first_active": "2017-03-18T15:09:37",
   "global_last_active": "2020-06-24T15:00:53",
   "github_location": null,
   "github_company": null,
   "github_bio": "BTC: 1225p4Uv9dZpSZ8gt6q3WRUBZ3PUtXQYie",
   "github_twitter": null,
   "github_blog": null,
-  "github_followers": 120.0,
+  "github_followers": 123.0,
+  "github_profile_fetched_at": "2026-10-20T19:05:36Z",
   "activity_status": "Retired",
+  "geo_country_iso2": null,
+  "geo_country_iso3": null,
+  "geo_country_name": null,
+  "geo_sovereign_iso2": null,
+  "geo_m49_subregion": null,
+  "geo_macro_region": "Undisclosed",
+  "geo_un_macro_region": "Undisclosed",
+  "geo_wb_income": null,
+  "geo_flag": null,
+  "geo_status": "empty",
+  "geo_source": "none",
+  "geo_confidence": 0.0,
+  "geo_conflict": false,
+  "geo_tz_signature": null,
+  "geo_location_raw": null,
+  "geo_as_of": null,
+  "geo_taxonomy_version": "2026.10.1",
   "is_top_50": false,
   "github_url": "https://github.com/shaolinfry",
   "commit_history": {

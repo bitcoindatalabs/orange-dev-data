@@ -1,6 +1,7 @@
 {
   "display_name": "Damian Mee",
   "github_login_final": "meeDamian",
+  "github_id_final": "526657",
   "delving_username_final": null,
   "uuid": "auto_damian_mee",
   "badges": null,
@@ -45,7 +46,7 @@
   "avg_pr_ack_velocity_days": 0.10931134259259259,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": 0.5,
-  "hybrid_score": 0.1082,
+  "hybrid_score": 0.1081,
   "p2016_hybrid_score": 0.1107,
   "modern_hybrid_score": 0.025,
   "impact_score": 6.0,
@@ -57,19 +58,19 @@
   "delving_threads": 0.0,
   "ml_responses": 1.0,
   "delving_responses": 0.0,
-  "first_active": "2019-11-08T07:42:13",
-  "last_active": "2019-11-08T07:42:13",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Builder",
   "expertise_domains": [
     "Infrastructure",
     "Consensus"
   ],
   "expertise_by_source": {
-    "code": {
-      "Infrastructure": 1.0
-    },
     "discussion": {
       "Consensus": 1.0
+    },
+    "code": {
+      "Infrastructure": 1.0
     }
   },
   "expertise_domain_scores": {
@@ -94,7 +95,25 @@
   "github_twitter": "meeDamian",
   "github_blog": "https://meeDamian.com",
   "github_followers": 154.0,
+  "github_profile_fetched_at": "2026-10-20T19:03:43Z",
   "activity_status": "Active",
+  "geo_country_iso2": null,
+  "geo_country_iso3": null,
+  "geo_country_name": null,
+  "geo_sovereign_iso2": null,
+  "geo_m49_subregion": null,
+  "geo_macro_region": "Undisclosed",
+  "geo_un_macro_region": "Undisclosed",
+  "geo_wb_income": null,
+  "geo_flag": null,
+  "geo_status": "non_geographic",
+  "geo_source": "none",
+  "geo_confidence": 0.0,
+  "geo_conflict": false,
+  "geo_tz_signature": null,
+  "geo_location_raw": "::1",
+  "geo_as_of": null,
+  "geo_taxonomy_version": "2026.10.1",
   "is_top_50": false,
   "github_url": "https://github.com/meeDamian",
   "commit_history": {

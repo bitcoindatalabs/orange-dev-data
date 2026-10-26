@@ -1,6 +1,7 @@
 {
   "display_name": "Charlie Lee",
   "github_login_final": "coblee",
+  "github_id_final": "999927",
   "delving_username_final": null,
   "uuid": "auto_charlie_lee",
   "badges": null,
@@ -45,8 +46,8 @@
   "avg_pr_ack_velocity_days": 13.337537615740741,
   "avg_concept_lead_time_days": 0.19545138888888888,
   "review_reciprocity": 0.75,
-  "hybrid_score": 0.1332,
-  "p2016_hybrid_score": 0.0977,
+  "hybrid_score": 0.1331,
+  "p2016_hybrid_score": 0.0976,
   "modern_hybrid_score": 0.0396,
   "impact_score": 8.0,
   "p2016_impact_score": 6.0,
@@ -57,8 +58,8 @@
   "delving_threads": 0.0,
   "ml_responses": 1.0,
   "delving_responses": 0.0,
-  "first_active": "2021-08-10T13:39:39",
-  "last_active": "2021-08-10T13:39:39",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Builder",
   "expertise_domains": [
     "Infrastructure",
@@ -66,12 +67,12 @@
     "L2"
   ],
   "expertise_by_source": {
-    "code": {
-      "Infrastructure": 1.0
-    },
     "discussion": {
       "L2": 0.33,
       "Mempool": 0.67
+    },
+    "code": {
+      "Infrastructure": 1.0
     }
   },
   "expertise_domain_scores": {
@@ -96,8 +97,26 @@
   "github_bio": "Creator of Litecoin, Director of Litecoin Foundation",
   "github_twitter": "SatoshiLite",
   "github_blog": "litecoin.org",
-  "github_followers": 649.0,
+  "github_followers": 654.0,
+  "github_profile_fetched_at": "2026-10-20T19:00:22Z",
   "activity_status": "Active",
+  "geo_country_iso2": null,
+  "geo_country_iso3": null,
+  "geo_country_name": null,
+  "geo_sovereign_iso2": null,
+  "geo_m49_subregion": null,
+  "geo_macro_region": "Undisclosed",
+  "geo_un_macro_region": "Undisclosed",
+  "geo_wb_income": null,
+  "geo_flag": null,
+  "geo_status": "empty",
+  "geo_source": "none",
+  "geo_confidence": 0.0,
+  "geo_conflict": false,
+  "geo_tz_signature": null,
+  "geo_location_raw": null,
+  "geo_as_of": null,
+  "geo_taxonomy_version": "2026.10.1",
   "is_top_50": false,
   "github_url": "https://github.com/coblee",
   "commit_history": {

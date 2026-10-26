@@ -1,6 +1,7 @@
 {
   "display_name": "Will Binns",
   "github_login_final": "wbnns",
+  "github_id_final": "1130872",
   "delving_username_final": null,
   "uuid": "auto_will_binns",
   "badges": null,
@@ -57,19 +58,19 @@
   "delving_threads": 0.0,
   "ml_responses": 0.0,
   "delving_responses": 0.0,
-  "first_active": "2015-06-27T10:09:43",
-  "last_active": "2015-06-27T10:09:43",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Builder",
   "expertise_domains": [
     "Infrastructure",
     "Consensus"
   ],
   "expertise_by_source": {
-    "code": {
-      "Infrastructure": 1.0
-    },
     "discussion": {
       "Consensus": 1.0
+    },
+    "code": {
+      "Infrastructure": 1.0
     }
   },
   "expertise_domain_scores": {
@@ -86,15 +87,33 @@
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": false,
-  "global_first_active": "2015-06-27T10:09:43",
+  "global_first_active": "2016-06-20T08:33:32",
   "global_last_active": "2018-11-01T12:41:33",
-  "github_location": "Remote",
-  "github_company": null,
-  "github_bio": "Making things • ex: bitcoin.org, coinbase • editor of mastering bitcoin & mastering ethereum",
+  "github_location": "Azores, Portugal",
+  "github_company": "@mruspace ",
+  "github_bio": "Founder @mruspace • ran bitcoin.org, led teams @coinbase • editor of Mastering Bitcoin & Mastering Ethereum • software that outlives its makers",
   "github_twitter": "wbnns",
-  "github_blog": "wbnns.com",
-  "github_followers": 1191.0,
+  "github_blog": "https://willbinns.org",
+  "github_followers": 1218.0,
+  "github_profile_fetched_at": "2026-10-20T19:06:43Z",
   "activity_status": "Active",
+  "geo_country_iso2": "PT",
+  "geo_country_iso3": "PRT",
+  "geo_country_name": "Portugal",
+  "geo_sovereign_iso2": "PT",
+  "geo_m49_subregion": "Southern Europe",
+  "geo_macro_region": "Europe",
+  "geo_un_macro_region": "Europe",
+  "geo_wb_income": "High",
+  "geo_flag": "🇵🇹",
+  "geo_status": "resolved",
+  "geo_source": "github_location",
+  "geo_confidence": 0.95,
+  "geo_conflict": false,
+  "geo_tz_signature": null,
+  "geo_location_raw": "Azores, Portugal",
+  "geo_as_of": "2026-10-20",
+  "geo_taxonomy_version": "2026.10.1",
   "is_top_50": false,
   "github_url": "https://github.com/wbnns",
   "commit_history": {

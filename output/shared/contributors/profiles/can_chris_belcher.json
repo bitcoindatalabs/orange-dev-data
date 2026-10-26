@@ -1,6 +1,7 @@
 {
   "display_name": "Chris Belcher",
   "github_login_final": "chris-belcher",
+  "github_id_final": "8398185",
   "delving_username_final": null,
   "uuid": "can_chris_belcher",
   "badges": {
@@ -58,7 +59,7 @@
   "avg_concept_lead_time_days": 0.014652777777777778,
   "review_reciprocity": 4.666666666666667,
   "hybrid_score": 0.7883,
-  "p2016_hybrid_score": 0.8569,
+  "p2016_hybrid_score": 0.8568,
   "modern_hybrid_score": 0.033,
   "impact_score": 38.0,
   "p2016_impact_score": 40.0,
@@ -69,8 +70,8 @@
   "delving_threads": 0.0,
   "ml_responses": 48.0,
   "delving_responses": 0.0,
-  "first_active": "2016-02-10T15:15:37",
-  "last_active": "2022-05-16T05:26:45",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Protocol Designer",
   "expertise_domains": [
     "Infrastructure",
@@ -78,16 +79,16 @@
     "Privacy"
   ],
   "expertise_by_source": {
-    "code": {
-      "Infrastructure": 1.0
-    },
     "discussion": {
       "Consensus": 0.24,
       "Privacy": 0.76
     },
+    "code": {
+      "Infrastructure": 1.0
+    },
     "bips": {
-      "Consensus": 0.5,
-      "Infrastructure": 0.5
+      "Infrastructure": 0.5,
+      "Consensus": 0.5
     }
   },
   "expertise_domain_scores": {
@@ -112,8 +113,26 @@
   "github_bio": "I write code.\r\n\r\nPGP fingerprint: 0A8B 038F 5E10 CC27 89BF CFFF EF73 4EA6 77F3 1129",
   "github_twitter": null,
   "github_blog": null,
-  "github_followers": 282.0,
+  "github_followers": 288.0,
+  "github_profile_fetched_at": "2026-10-20T19:00:16Z",
   "activity_status": "Retired",
+  "geo_country_iso2": null,
+  "geo_country_iso3": null,
+  "geo_country_name": null,
+  "geo_sovereign_iso2": null,
+  "geo_m49_subregion": null,
+  "geo_macro_region": "Undisclosed",
+  "geo_un_macro_region": "Undisclosed",
+  "geo_wb_income": null,
+  "geo_flag": null,
+  "geo_status": "empty",
+  "geo_source": "none",
+  "geo_confidence": 0.0,
+  "geo_conflict": false,
+  "geo_tz_signature": null,
+  "geo_location_raw": null,
+  "geo_as_of": null,
+  "geo_taxonomy_version": "2026.10.1",
   "is_top_50": false,
   "github_url": "https://github.com/chris-belcher",
   "commit_history": {

@@ -1,6 +1,7 @@
 {
   "display_name": "Matias Furszyfer",
   "github_login_final": "furszy",
+  "github_id_final": "5377650",
   "delving_username_final": null,
   "uuid": "auto_matias_furszyfer",
   "badges": {
@@ -44,7 +45,7 @@
   "tier1_reviews_count": 488.0,
   "tier2_reviews_count": 2.0,
   "p2016_reviews_count": 490.0,
-  "modern_reviews_count": 312.0,
+  "modern_reviews_count": 307.0,
   "first_review_date": "2020-06-01T17:20:58",
   "last_review_date": "2026-10-18T15:32:17",
   "prs_authored": 178.0,
@@ -55,7 +56,7 @@
   "review_reciprocity": 2.752808988764045,
   "hybrid_score": 0.5724,
   "p2016_hybrid_score": 0.5706,
-  "modern_hybrid_score": 0.5414,
+  "modern_hybrid_score": 0.541,
   "impact_score": 29.0,
   "p2016_impact_score": 29.0,
   "modern_impact_score": 28.0,
@@ -77,15 +78,15 @@
     "code": {
       "Infrastructure": 0.574,
       "Wallet": 0.401,
+      "Network": 0.018,
       "Script": 0.005,
-      "Consensus": 0.002,
-      "Network": 0.018
+      "Consensus": 0.002
     }
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.574,
-    "Wallet": 0.401,
-    "Network": 0.018
+    "Network": 0.018,
+    "Wallet": 0.401
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,
@@ -104,8 +105,26 @@
   "github_bio": null,
   "github_twitter": null,
   "github_blog": null,
-  "github_followers": 318.0,
+  "github_followers": 335.0,
+  "github_profile_fetched_at": "2026-10-20T19:01:38Z",
   "activity_status": "Active",
+  "geo_country_iso2": null,
+  "geo_country_iso3": null,
+  "geo_country_name": null,
+  "geo_sovereign_iso2": null,
+  "geo_m49_subregion": null,
+  "geo_macro_region": "Undisclosed",
+  "geo_un_macro_region": "Undisclosed",
+  "geo_wb_income": null,
+  "geo_flag": null,
+  "geo_status": "empty",
+  "geo_source": "none",
+  "geo_confidence": 0.0,
+  "geo_conflict": false,
+  "geo_tz_signature": null,
+  "geo_location_raw": null,
+  "geo_as_of": null,
+  "geo_taxonomy_version": "2026.10.1",
   "is_top_50": false,
   "github_url": "https://github.com/furszy",
   "commit_history": {

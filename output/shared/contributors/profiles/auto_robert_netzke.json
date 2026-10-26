@@ -1,6 +1,7 @@
 {
   "display_name": "Robert Netzke",
   "github_login_final": "rustaceanrob",
+  "github_id_final": "102320249",
   "delving_username_final": null,
   "uuid": "auto_robert_netzke",
   "badges": null,
@@ -57,8 +58,8 @@
   "delving_threads": 0.0,
   "ml_responses": 0.0,
   "delving_responses": 0.0,
-  "first_active": "2024-11-04T12:29:53",
-  "last_active": "2024-11-04T12:29:53",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Builder",
   "expertise_domains": [
     "Infrastructure",
@@ -66,25 +67,25 @@
     "Mempool"
   ],
   "expertise_by_source": {
+    "discussion": {
+      "Wallet": 1.0
+    },
     "code": {
       "Infrastructure": 0.746,
       "Wallet": 0.009,
-      "Script": 0.009,
-      "Consensus": 0.051,
       "Network": 0.083,
+      "Cryptography": 0.009,
       "Mempool": 0.093,
-      "Cryptography": 0.009
-    },
-    "discussion": {
-      "Wallet": 1.0
+      "Script": 0.009,
+      "Consensus": 0.051
     }
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.4476,
     "Consensus": 0.0306,
-    "Mempool": 0.0558,
+    "Network": 0.0498,
     "Wallet": 0.4054,
-    "Network": 0.0498
+    "Mempool": 0.0558
   },
   "p2016_posts": 1.0,
   "modern_posts": 1.0,
@@ -96,15 +97,33 @@
   "is_reviewer": true,
   "is_researcher": false,
   "is_bip_author": false,
-  "global_first_active": "2024-11-04T12:29:53",
+  "global_first_active": "2025-10-15T14:08:26",
   "global_last_active": "2026-10-18T05:17:02",
   "github_location": "Amsterdam",
   "github_company": "2140",
   "github_bio": "C9FB C331 E4E8 3ECD 5CD0 B5AC F4DD 8F84 86EC 0F1F",
   "github_twitter": null,
   "github_blog": "https://rustaceanrob.com",
-  "github_followers": 102.0,
+  "github_followers": 127.0,
+  "github_profile_fetched_at": "2026-10-20T19:05:16Z",
   "activity_status": "Active",
+  "geo_country_iso2": "NL",
+  "geo_country_iso3": "NLD",
+  "geo_country_name": "Netherlands",
+  "geo_sovereign_iso2": "NL",
+  "geo_m49_subregion": "Western Europe",
+  "geo_macro_region": "Europe",
+  "geo_un_macro_region": "Europe",
+  "geo_wb_income": "High",
+  "geo_flag": "🇳🇱",
+  "geo_status": "resolved",
+  "geo_source": "github_location",
+  "geo_confidence": 0.85,
+  "geo_conflict": false,
+  "geo_tz_signature": null,
+  "geo_location_raw": "Amsterdam",
+  "geo_as_of": "2026-10-20",
+  "geo_taxonomy_version": "2026.10.1",
   "is_top_50": false,
   "github_url": "https://github.com/rustaceanrob",
   "commit_history": {

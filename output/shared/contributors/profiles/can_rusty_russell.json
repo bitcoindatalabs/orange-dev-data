@@ -1,6 +1,7 @@
 {
   "display_name": "Rusty Russell",
   "github_login_final": "rustyrussell",
+  "github_id_final": "775844",
   "delving_username_final": "rustyrussell",
   "uuid": "can_rusty_russell",
   "badges": {
@@ -58,19 +59,19 @@
   "avg_concept_lead_time_days": 2.5776234567901235,
   "review_reciprocity": 1.7692307692307692,
   "hybrid_score": 1.0935,
-  "p2016_hybrid_score": 0.9904,
-  "modern_hybrid_score": 0.762,
+  "p2016_hybrid_score": 0.9903,
+  "modern_hybrid_score": 0.7198,
   "impact_score": 48.0,
   "p2016_impact_score": 45.0,
-  "modern_impact_score": 37.0,
+  "modern_impact_score": 35.0,
   "threads_started": 28.0,
   "replies_sent": 145.0,
   "ml_threads": 20.0,
   "delving_threads": 8.0,
   "ml_responses": 120.0,
   "delving_responses": 25.0,
-  "first_active": "2014-06-03T07:45:23",
-  "last_active": "2026-03-12T16:01:00",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Protocol Designer",
   "expertise_domains": [
     "Infrastructure",
@@ -78,44 +79,62 @@
     "Script"
   ],
   "expertise_by_source": {
+    "discussion": {
+      "Script": 0.417,
+      "Consensus": 0.222,
+      "Mempool": 0.361
+    },
     "code": {
       "Infrastructure": 1.0
     },
-    "discussion": {
-      "Consensus": 0.222,
-      "Mempool": 0.361,
-      "Script": 0.417
-    },
     "bips": {
-      "Consensus": 0.667,
-      "Infrastructure": 0.333
+      "Infrastructure": 0.333,
+      "Consensus": 0.667
     }
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.4665,
+    "Script": 0.0834,
     "Consensus": 0.3779,
-    "Mempool": 0.0722,
-    "Script": 0.0834
+    "Mempool": 0.0722
   },
   "p2016_posts": 121.0,
-  "modern_posts": 46.0,
+  "modern_posts": 41.0,
   "p2016_ml_posts": 88.0,
   "p2016_delving_posts": 33.0,
-  "modern_ml_posts": 13.0,
+  "modern_ml_posts": 8.0,
   "modern_delving_posts": 33.0,
   "is_engineer": true,
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": true,
-  "global_first_active": "2014-06-03T07:45:23",
+  "global_first_active": "2015-03-25T11:21:09",
   "global_last_active": "2026-03-28T23:02:59",
   "github_location": null,
   "github_company": "Blockstream",
   "github_bio": "GPG: 15EE 8D6C AB0E 7F0C F999  BFCB D920 0E6C D1AD B8F1\r\n\r\nRusty Russell <rusty@rustcorp.com.au>\r\n\r\nnpub179e9tp4yqtqx4myp35283fz64gxuzmr6n3yxnktux5pnd5t03eps0el",
   "github_twitter": null,
   "github_blog": "http://rusty.ozlabs.org",
-  "github_followers": 1025.0,
+  "github_followers": 1045.0,
+  "github_profile_fetched_at": "2026-10-20T19:05:17Z",
   "activity_status": "Active",
+  "geo_country_iso2": "AU",
+  "geo_country_iso3": "AUS",
+  "geo_country_name": "Australia",
+  "geo_sovereign_iso2": "AU",
+  "geo_m49_subregion": "Australia and New Zealand",
+  "geo_macro_region": "Asia Pacific",
+  "geo_un_macro_region": "Oceania",
+  "geo_wb_income": "High",
+  "geo_flag": "🇦🇺",
+  "geo_status": "resolved",
+  "geo_source": "email_tld",
+  "geo_confidence": 0.55,
+  "geo_conflict": false,
+  "geo_tz_signature": null,
+  "geo_location_raw": null,
+  "geo_as_of": "2026-10-24",
+  "geo_taxonomy_version": "2026.10.1",
   "is_top_50": false,
   "github_url": "https://github.com/rustyrussell",
   "delving_url": "https://delvingbitcoin.org/u/rustyrussell",

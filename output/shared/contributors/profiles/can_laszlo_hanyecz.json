@@ -1,6 +1,7 @@
 {
   "display_name": "Laszlo Hanyecz",
   "github_login_final": null,
+  "github_id_final": null,
   "delving_username_final": null,
   "uuid": "can_laszlo_hanyecz",
   "badges": {
@@ -61,8 +62,8 @@
   "avg_pr_ack_velocity_days": null,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": null,
-  "hybrid_score": 1.0639,
-  "p2016_hybrid_score": 0.0077,
+  "hybrid_score": 1.064,
+  "p2016_hybrid_score": 0.0076,
   "modern_hybrid_score": 0.0,
   "impact_score": 47.0,
   "p2016_impact_score": 0.0,
@@ -73,8 +74,8 @@
   "delving_threads": 0.0,
   "ml_responses": 10.0,
   "delving_responses": 0.0,
-  "first_active": "2014-04-02T10:13:29",
-  "last_active": "2018-06-18T13:49:09",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Builder",
   "expertise_domains": [
     "Infrastructure",
@@ -82,18 +83,18 @@
     "Network"
   ],
   "expertise_by_source": {
+    "discussion": {
+      "Network": 0.424,
+      "Mining": 0.576
+    },
     "code": {
       "Infrastructure": 1.0
-    },
-    "discussion": {
-      "Mining": 0.576,
-      "Network": 0.424
     }
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.6,
-    "Mining": 0.2304,
-    "Network": 0.1696
+    "Network": 0.1696,
+    "Mining": 0.2304
   },
   "p2016_posts": 1.0,
   "modern_posts": 0.0,
@@ -106,14 +107,32 @@
   "is_researcher": true,
   "is_bip_author": false,
   "global_first_active": "2010-08-04T04:15:38",
-  "global_last_active": "2018-06-18T13:49:09",
+  "global_last_active": "2010-08-04T04:15:38",
   "github_location": null,
   "github_company": null,
   "github_bio": null,
   "github_twitter": null,
   "github_blog": null,
   "github_followers": null,
+  "github_profile_fetched_at": null,
   "activity_status": "Active",
+  "geo_country_iso2": null,
+  "geo_country_iso3": null,
+  "geo_country_name": null,
+  "geo_sovereign_iso2": null,
+  "geo_m49_subregion": null,
+  "geo_macro_region": "Undisclosed",
+  "geo_un_macro_region": "Undisclosed",
+  "geo_wb_income": null,
+  "geo_flag": null,
+  "geo_status": "empty",
+  "geo_source": "none",
+  "geo_confidence": 0.0,
+  "geo_conflict": false,
+  "geo_tz_signature": null,
+  "geo_location_raw": null,
+  "geo_as_of": null,
+  "geo_taxonomy_version": "2026.10.1",
   "is_top_50": false,
   "commit_history": {
     "2010": {

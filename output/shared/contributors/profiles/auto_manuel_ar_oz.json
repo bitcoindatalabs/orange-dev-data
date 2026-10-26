@@ -1,0 +1,175 @@
+{
+  "display_name": "Manuel Aráoz",
+  "github_login_final": "maraoz",
+  "github_id_final": "287189",
+  "delving_username_final": null,
+  "uuid": "auto_manuel_ar_oz",
+  "badges": {
+    "is_maintainer": false,
+    "is_core_committer": false,
+    "maintainer_status": null,
+    "is_sponsored": false,
+    "sponsor_id": null,
+    "is_bip_author": true,
+    "roles": [
+      "BIP Author"
+    ]
+  },
+  "roles": [
+    "BIP Author"
+  ],
+  "total_commits": 5.0,
+  "authored_commits": 5.0,
+  "tier1_authored_commits": 5.0,
+  "tier2_authored_commits": 0.0,
+  "merge_commits": 0.0,
+  "tier1_merge_commits": 0.0,
+  "tier2_merge_commits": 0.0,
+  "self_merges": 0.0,
+  "total_additions": 619.0,
+  "total_deletions": 56.0,
+  "first_core_commit": "2014-04-01T06:53:36+00:00",
+  "last_core_commit": "2015-02-02T10:56:38+00:00",
+  "first_ecosystem_commit": null,
+  "last_ecosystem_commit": null,
+  "first_commit": "2014-04-01T06:53:36",
+  "last_commit": "2015-02-02T10:56:38",
+  "p2016_authored_commits": 0.0,
+  "modern_authored_commits": 0.0,
+  "co_authored_commits": 0.0,
+  "bips_authored": 1.0,
+  "p2016_bips_authored": 0.0,
+  "modern_bips_authored": 0.0,
+  "first_bip_date": "2014-04-28T14:04:16",
+  "last_bip_date": "2014-04-28T14:04:16",
+  "avg_review_latency_days": 756.3973584806397,
+  "reviews_count": 12.0,
+  "avg_approval_latency_days": 715.3321634615385,
+  "approvals_count": 7.0,
+  "tier1_reviews_count": 3.0,
+  "tier2_reviews_count": 9.0,
+  "p2016_reviews_count": 6.0,
+  "modern_reviews_count": 0.0,
+  "first_review_date": "2014-07-10T15:01:46",
+  "last_review_date": "2019-09-26T19:47:08",
+  "prs_authored": 7.0,
+  "tier1_prs_authored": 3.0,
+  "tier2_prs_authored": 4.0,
+  "avg_pr_ack_velocity_days": 18.56082175925926,
+  "avg_concept_lead_time_days": null,
+  "review_reciprocity": 1.7142857142857142,
+  "hybrid_score": 0.5658,
+  "p2016_hybrid_score": 0.0848,
+  "modern_hybrid_score": 0.0542,
+  "impact_score": 29.0,
+  "p2016_impact_score": 5.0,
+  "modern_impact_score": 3.0,
+  "threads_started": 1.0,
+  "replies_sent": 2.0,
+  "ml_threads": 1.0,
+  "delving_threads": 0.0,
+  "ml_responses": 2.0,
+  "delving_responses": 0.0,
+  "first_active": null,
+  "last_active": null,
+  "dev_type": "Protocol Designer",
+  "expertise_domains": [
+    "Wallet",
+    "Infrastructure"
+  ],
+  "expertise_by_source": {
+    "discussion": {
+      "Wallet": 1.0
+    },
+    "code": {
+      "Infrastructure": 1.0
+    },
+    "bips": {
+      "Wallet": 1.0
+    }
+  },
+  "expertise_domain_scores": {
+    "Infrastructure": 0.3,
+    "Wallet": 0.7
+  },
+  "p2016_posts": 0.0,
+  "modern_posts": 0.0,
+  "p2016_ml_posts": 0.0,
+  "p2016_delving_posts": 0.0,
+  "modern_ml_posts": 0.0,
+  "modern_delving_posts": 0.0,
+  "is_engineer": true,
+  "is_reviewer": true,
+  "is_researcher": true,
+  "is_bip_author": true,
+  "global_first_active": "2014-04-01T06:53:36",
+  "global_last_active": "2019-09-26T19:47:08",
+  "github_location": "Planet Earth",
+  "github_company": null,
+  "github_bio": null,
+  "github_twitter": null,
+  "github_blog": "https://maraoz.com",
+  "github_followers": 735.0,
+  "github_profile_fetched_at": "2026-10-20T19:03:33Z",
+  "activity_status": "Active",
+  "geo_country_iso2": null,
+  "geo_country_iso3": null,
+  "geo_country_name": null,
+  "geo_sovereign_iso2": null,
+  "geo_m49_subregion": null,
+  "geo_macro_region": "Undisclosed",
+  "geo_un_macro_region": "Undisclosed",
+  "geo_wb_income": null,
+  "geo_flag": null,
+  "geo_status": "non_geographic",
+  "geo_source": "none",
+  "geo_confidence": 0.0,
+  "geo_conflict": false,
+  "geo_tz_signature": null,
+  "geo_location_raw": "Planet Earth",
+  "geo_as_of": null,
+  "geo_taxonomy_version": "2026.10.1",
+  "is_top_50": false,
+  "github_url": "https://github.com/maraoz",
+  "commit_history": {
+    "2014": {
+      "Tests": 4.0
+    },
+    "2015": {
+      "Build & CI": 0.5,
+      "Tests": 0.5
+    }
+  },
+  "bip_list": [
+    {
+      "number": 45,
+      "title": "Structure for Deterministic P2SH Multisignature Wallets",
+      "status": "Complete",
+      "theme": "Wallet & Keys",
+      "link": "https://github.com/bitcoin/bips/blob/master/bip-0045.mediawiki"
+    }
+  ],
+  "first_message": {
+    "source": "mailing_list",
+    "subject": "[Bitcoin-development] New BIP32 structure for P2SH multisig wallets",
+    "date": "2014-04-25",
+    "link": "https://gnusha.org/pi/bitcoindev/CABQSq2Q98K5zbUbQAqSE4OYez2QuOaWTt+9n5iZmSR2boynf_Q@mail.gmail.com"
+  },
+  "last_message": {
+    "source": "mailing_list",
+    "subject": "Re: [bitcoin-dev] push tx fuzzing",
+    "date": "2015-09-01",
+    "link": "https://gnusha.org/pi/bitcoindev/CABQSq2RgdrFyHw36k96FDL+uFCRuEedTLWUrXM+VtrYY_Ng8fg@mail.gmail.com"
+  },
+  "social_history": {
+    "2014": {
+      "multisig-threshold": 2,
+      "privacy": 1,
+      "script-opcodes": 2,
+      "wallet-keys": 2
+    },
+    "2015": {
+      "testing-devtools": 1
+    }
+  }
+}

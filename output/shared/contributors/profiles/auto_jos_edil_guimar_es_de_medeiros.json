@@ -1,6 +1,7 @@
 {
-  "display_name": "josé edil guimarães de medeiros",
+  "display_name": "José Edil Guimarães de Medeiros",
   "github_login_final": "edilmedeiros",
+  "github_id_final": "78322931",
   "delving_username_final": null,
   "uuid": "auto_jos_edil_guimar_es_de_medeiros",
   "badges": null,
@@ -45,9 +46,9 @@
   "avg_pr_ack_velocity_days": 1.2065239197530864,
   "avg_concept_lead_time_days": 1.2271527777777778,
   "review_reciprocity": 9.2,
-  "hybrid_score": 0.1959,
+  "hybrid_score": 0.1958,
   "p2016_hybrid_score": 0.2043,
-  "modern_hybrid_score": 0.242,
+  "modern_hybrid_score": 0.2435,
   "impact_score": 11.0,
   "p2016_impact_score": 12.0,
   "modern_impact_score": 14.0,
@@ -57,19 +58,19 @@
   "delving_threads": 0.0,
   "ml_responses": 7.0,
   "delving_responses": 0.0,
-  "first_active": "2024-04-30T07:48:09",
-  "last_active": "2026-08-11T08:51:16",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Builder",
   "expertise_domains": [
     "Infrastructure",
     "Mining"
   ],
   "expertise_by_source": {
-    "code": {
-      "Infrastructure": 1.0
-    },
     "discussion": {
       "Mining": 1.0
+    },
+    "code": {
+      "Infrastructure": 1.0
     }
   },
   "expertise_domain_scores": {
@@ -93,8 +94,26 @@
   "github_bio": "Assoc. Professor at the Univ. of Brasília. Bitcoin, Functional Programming, Embedded Systems.\r\n\r\nPGP 2113 A2F4 1043 17C6 30DF  8A58 8E31 D077 EAEC F0B2",
   "github_twitter": "edil_medeiros",
   "github_blog": "https://edil.com.br",
-  "github_followers": 126.0,
+  "github_followers": 141.0,
+  "github_profile_fetched_at": "2026-10-20T19:01:11Z",
   "activity_status": "Active",
+  "geo_country_iso2": "BR",
+  "geo_country_iso3": "BRA",
+  "geo_country_name": "Brazil",
+  "geo_sovereign_iso2": "BR",
+  "geo_m49_subregion": "South America",
+  "geo_macro_region": "Latin America",
+  "geo_un_macro_region": "Latin America & Caribbean",
+  "geo_wb_income": "Upper-Middle",
+  "geo_flag": "🇧🇷",
+  "geo_status": "resolved",
+  "geo_source": "github_location",
+  "geo_confidence": 0.95,
+  "geo_conflict": false,
+  "geo_tz_signature": null,
+  "geo_location_raw": "Brasília, DF, Brazil",
+  "geo_as_of": "2026-10-20",
+  "geo_taxonomy_version": "2026.10.1",
   "is_top_50": false,
   "github_url": "https://github.com/edilmedeiros",
   "commit_history": {

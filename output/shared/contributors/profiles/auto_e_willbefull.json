@@ -1,6 +1,7 @@
 {
   "display_name": "E willbefull",
   "github_login_final": "ebfull",
+  "github_id_final": "3794471",
   "delving_username_final": null,
   "uuid": "auto_e_willbefull",
   "badges": {
@@ -58,7 +59,7 @@
   "avg_concept_lead_time_days": 0.07188657407407407,
   "review_reciprocity": 2.5,
   "hybrid_score": 0.6355,
-  "p2016_hybrid_score": 0.4306,
+  "p2016_hybrid_score": 0.4305,
   "modern_hybrid_score": 0.0396,
   "impact_score": 32.0,
   "p2016_impact_score": 23.0,
@@ -69,8 +70,8 @@
   "delving_threads": 0.0,
   "ml_responses": 3.0,
   "delving_responses": 0.0,
-  "first_active": "2013-07-31T18:30:46",
-  "last_active": "2016-07-19T23:35:39",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Participant",
   "expertise_domains": [
     "Wallet",
@@ -79,21 +80,21 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Mining": 0.25,
       "L2": 0.25,
-      "Ecosystem": 0.5
+      "Ecosystem": 0.5,
+      "Mining": 0.25
     },
     "bips": {
-      "Infrastructure": 0.5,
-      "Wallet": 0.5
+      "Wallet": 0.5,
+      "Infrastructure": 0.5
     }
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.3571,
-    "Mining": 0.0714,
     "L2": 0.0714,
     "Ecosystem": 0.1429,
-    "Wallet": 0.3571
+    "Wallet": 0.3571,
+    "Mining": 0.0714
   },
   "p2016_posts": 1.0,
   "modern_posts": 0.0,
@@ -105,15 +106,33 @@
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": true,
-  "global_first_active": "2013-07-31T18:30:46",
+  "global_first_active": "2013-10-20T23:56:42",
   "global_last_active": "2025-01-30T18:56:10",
   "github_location": "Colorado",
   "github_company": "@zcash",
   "github_bio": "Zcash Developer",
   "github_twitter": "ebfull",
   "github_blog": null,
-  "github_followers": 395.0,
+  "github_followers": 404.0,
+  "github_profile_fetched_at": "2026-10-20T19:01:10Z",
   "activity_status": "Active",
+  "geo_country_iso2": "US",
+  "geo_country_iso3": "USA",
+  "geo_country_name": "USA",
+  "geo_sovereign_iso2": "US",
+  "geo_m49_subregion": "Northern America",
+  "geo_macro_region": "North America",
+  "geo_un_macro_region": "North America",
+  "geo_wb_income": "High",
+  "geo_flag": "🇺🇸",
+  "geo_status": "resolved",
+  "geo_source": "github_location",
+  "geo_confidence": 0.95,
+  "geo_conflict": false,
+  "geo_tz_signature": null,
+  "geo_location_raw": "Colorado",
+  "geo_as_of": "2026-10-20",
+  "geo_taxonomy_version": "2026.10.1",
   "is_top_50": false,
   "github_url": "https://github.com/ebfull",
   "bip_list": [

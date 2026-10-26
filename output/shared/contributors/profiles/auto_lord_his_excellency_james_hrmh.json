@@ -1,6 +1,7 @@
 {
-  "display_name": "lord his excellency james hrmh",
+  "display_name": "LORD HIS EXCELLENCY JAMES HRMH",
   "github_login_final": "Willtech",
+  "github_id_final": "1173622",
   "delving_username_final": null,
   "uuid": "auto_lord_his_excellency_james_hrmh",
   "badges": null,
@@ -45,8 +46,8 @@
   "avg_pr_ack_velocity_days": 33.90668402777778,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": 2.0,
-  "hybrid_score": 0.2088,
-  "p2016_hybrid_score": 0.2719,
+  "hybrid_score": 0.2087,
+  "p2016_hybrid_score": 0.2717,
   "modern_hybrid_score": 0.033,
   "impact_score": 12.0,
   "p2016_impact_score": 15.0,
@@ -57,8 +58,8 @@
   "delving_threads": 0.0,
   "ml_responses": 64.0,
   "delving_responses": 0.0,
-  "first_active": "2017-12-01T21:55:22",
-  "last_active": "2021-12-04T04:00:13",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Builder",
   "expertise_domains": [
     "Infrastructure",
@@ -66,12 +67,12 @@
     "Mining"
   ],
   "expertise_by_source": {
-    "code": {
-      "Infrastructure": 1.0
-    },
     "discussion": {
       "Consensus": 0.586,
       "Mining": 0.414
+    },
+    "code": {
+      "Infrastructure": 1.0
     }
   },
   "expertise_domain_scores": {
@@ -89,15 +90,33 @@
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": false,
-  "global_first_active": "2017-12-01T21:55:22",
-  "global_last_active": "2021-12-04T04:00:13",
+  "global_first_active": "2018-01-07T11:11:05",
+  "global_last_active": "2021-04-02T08:38:17",
   "github_location": "Victoria, Australia",
   "github_company": "Willtech",
   "github_bio": null,
   "github_twitter": null,
   "github_blog": "http://www.willtech.com.au/",
   "github_followers": 2.0,
+  "github_profile_fetched_at": "2026-10-20T19:06:47Z",
   "activity_status": "Active",
+  "geo_country_iso2": "AU",
+  "geo_country_iso3": "AUS",
+  "geo_country_name": "Australia",
+  "geo_sovereign_iso2": "AU",
+  "geo_m49_subregion": "Australia and New Zealand",
+  "geo_macro_region": "Asia Pacific",
+  "geo_un_macro_region": "Oceania",
+  "geo_wb_income": "High",
+  "geo_flag": "🇦🇺",
+  "geo_status": "resolved",
+  "geo_source": "github_location",
+  "geo_confidence": 0.95,
+  "geo_conflict": false,
+  "geo_tz_signature": null,
+  "geo_location_raw": "Victoria, Australia",
+  "geo_as_of": "2026-10-20",
+  "geo_taxonomy_version": "2026.10.1",
   "is_top_50": false,
   "github_url": "https://github.com/Willtech",
   "commit_history": {

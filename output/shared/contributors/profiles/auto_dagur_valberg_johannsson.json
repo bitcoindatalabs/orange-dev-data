@@ -1,6 +1,7 @@
 {
   "display_name": "Dagur Valberg Johannsson",
   "github_login_final": "dagurval",
+  "github_id_final": "92707",
   "delving_username_final": null,
   "uuid": "auto_dagur_valberg_johannsson",
   "badges": {
@@ -58,7 +59,7 @@
   "avg_concept_lead_time_days": null,
   "review_reciprocity": 0.0,
   "hybrid_score": 0.4219,
-  "p2016_hybrid_score": 0.4261,
+  "p2016_hybrid_score": 0.426,
   "modern_hybrid_score": 0.025,
   "impact_score": 22.0,
   "p2016_impact_score": 23.0,
@@ -69,19 +70,19 @@
   "delving_threads": 0.0,
   "ml_responses": 1.0,
   "delving_responses": 0.0,
-  "first_active": "2016-03-07T15:10:33",
-  "last_active": "2016-03-07T15:10:33",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Protocol Designer",
   "expertise_domains": [
     "Consensus",
     "Infrastructure"
   ],
   "expertise_by_source": {
-    "code": {
-      "Infrastructure": 1.0
-    },
     "discussion": {
       "Consensus": 1.0
+    },
+    "code": {
+      "Infrastructure": 1.0
     },
     "bips": {
       "Consensus": 1.0
@@ -101,15 +102,33 @@
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": true,
-  "global_first_active": "2016-03-07T15:10:33",
+  "global_first_active": "2016-10-13T16:48:58",
   "global_last_active": "2017-03-08T10:46:12",
   "github_location": null,
   "github_company": "Valberg Consulting AS",
   "github_bio": "I'm currently more active on gitlab (https://gitlab.com/dagurval)",
   "github_twitter": "dagur",
   "github_blog": "https://valbergconsulting.no",
-  "github_followers": 61.0,
+  "github_followers": 64.0,
+  "github_profile_fetched_at": "2026-10-20T19:00:38Z",
   "activity_status": "Active",
+  "geo_country_iso2": "NO",
+  "geo_country_iso3": "NOR",
+  "geo_country_name": "Norway",
+  "geo_sovereign_iso2": "NO",
+  "geo_m49_subregion": "Northern Europe",
+  "geo_macro_region": "Europe",
+  "geo_un_macro_region": "Europe",
+  "geo_wb_income": "High",
+  "geo_flag": "🇳🇴",
+  "geo_status": "resolved",
+  "geo_source": "email_tld",
+  "geo_confidence": 0.55,
+  "geo_conflict": false,
+  "geo_tz_signature": null,
+  "geo_location_raw": null,
+  "geo_as_of": "2026-10-24",
+  "geo_taxonomy_version": "2026.10.1",
   "is_top_50": false,
   "github_url": "https://github.com/dagurval",
   "commit_history": {

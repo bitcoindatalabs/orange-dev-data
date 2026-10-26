@@ -1,6 +1,7 @@
 {
-  "display_name": "michael hendricks",
+  "display_name": "Michael Hendricks",
   "github_login_final": "mndrix",
+  "github_id_final": "43997",
   "delving_username_final": null,
   "uuid": "auto_michael_hendricks",
   "badges": null,
@@ -45,7 +46,7 @@
   "avg_pr_ack_velocity_days": 10.099297839506173,
   "avg_concept_lead_time_days": 0.0025578703703703705,
   "review_reciprocity": 0.0,
-  "hybrid_score": 0.1523,
+  "hybrid_score": 0.1521,
   "p2016_hybrid_score": 0.033,
   "modern_hybrid_score": 0.033,
   "impact_score": 9.0,
@@ -57,19 +58,19 @@
   "delving_threads": 0.0,
   "ml_responses": 11.0,
   "delving_responses": 0.0,
-  "first_active": "2011-10-24T12:14:09",
-  "last_active": "2013-11-22T17:11:00",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Builder",
   "expertise_domains": [
     "Infrastructure",
     "Consensus"
   ],
   "expertise_by_source": {
-    "code": {
-      "Infrastructure": 1.0
-    },
     "discussion": {
       "Consensus": 1.0
+    },
+    "code": {
+      "Infrastructure": 1.0
     }
   },
   "expertise_domain_scores": {
@@ -86,15 +87,33 @@
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": false,
-  "global_first_active": "2011-10-24T12:14:09",
-  "global_last_active": "2013-11-22T17:11:00",
+  "global_first_active": "2011-11-21T19:31:42",
+  "global_last_active": "2012-05-21T17:04:27",
   "github_location": "Wyoming, USA",
   "github_company": null,
   "github_bio": null,
   "github_twitter": null,
   "github_blog": null,
-  "github_followers": 159.0,
+  "github_followers": 163.0,
+  "github_profile_fetched_at": "2026-10-20T19:03:56Z",
   "activity_status": "Active",
+  "geo_country_iso2": "US",
+  "geo_country_iso3": "USA",
+  "geo_country_name": "USA",
+  "geo_sovereign_iso2": "US",
+  "geo_m49_subregion": "Northern America",
+  "geo_macro_region": "North America",
+  "geo_un_macro_region": "North America",
+  "geo_wb_income": "High",
+  "geo_flag": "🇺🇸",
+  "geo_status": "resolved",
+  "geo_source": "github_location",
+  "geo_confidence": 0.95,
+  "geo_conflict": false,
+  "geo_tz_signature": null,
+  "geo_location_raw": "Wyoming, USA",
+  "geo_as_of": "2026-10-20",
+  "geo_taxonomy_version": "2026.10.1",
   "is_top_50": false,
   "github_url": "https://github.com/mndrix",
   "commit_history": {

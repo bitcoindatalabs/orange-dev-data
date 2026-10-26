@@ -1,6 +1,7 @@
 {
-  "display_name": "stephen morse",
+  "display_name": "Stephen Morse",
   "github_login_final": "scmorse",
+  "github_id_final": "4519249",
   "delving_username_final": null,
   "uuid": "auto_stephen_morse",
   "badges": null,
@@ -45,7 +46,7 @@
   "avg_pr_ack_velocity_days": 0.6067361111111111,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": 0.0,
-  "hybrid_score": 0.0975,
+  "hybrid_score": 0.0974,
   "p2016_hybrid_score": 0.0146,
   "modern_hybrid_score": 0.0146,
   "impact_score": 6.0,
@@ -57,8 +58,8 @@
   "delving_threads": 0.0,
   "ml_responses": 22.0,
   "delving_responses": 0.0,
-  "first_active": "2014-12-31T12:25:41",
-  "last_active": "2015-06-22T16:04:59",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Builder",
   "expertise_domains": [
     "Infrastructure",
@@ -66,22 +67,22 @@
     "Consensus"
   ],
   "expertise_by_source": {
+    "discussion": {
+      "Script": 0.295,
+      "Consensus": 0.426,
+      "Mining": 0.279
+    },
     "code": {
       "Infrastructure": 0.667,
       "Wallet": 0.333
-    },
-    "discussion": {
-      "Consensus": 0.426,
-      "Mining": 0.279,
-      "Script": 0.295
     }
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.4002,
+    "Script": 0.118,
     "Consensus": 0.1704,
-    "Mining": 0.1116,
     "Wallet": 0.1998,
-    "Script": 0.118
+    "Mining": 0.1116
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,
@@ -93,15 +94,33 @@
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": false,
-  "global_first_active": "2014-12-31T12:25:41",
-  "global_last_active": "2015-06-22T16:04:59",
+  "global_first_active": "2015-06-15T07:39:40",
+  "global_last_active": "2015-06-15T07:39:40",
   "github_location": "Remote",
   "github_company": "@squareup",
   "github_bio": "Software Engineer @ Cash App",
   "github_twitter": null,
   "github_blog": null,
-  "github_followers": 17.0,
+  "github_followers": 18.0,
+  "github_profile_fetched_at": "2026-10-20T19:52:36Z",
   "activity_status": "Active",
+  "geo_country_iso2": null,
+  "geo_country_iso3": null,
+  "geo_country_name": null,
+  "geo_sovereign_iso2": null,
+  "geo_m49_subregion": null,
+  "geo_macro_region": "Undisclosed",
+  "geo_un_macro_region": "Undisclosed",
+  "geo_wb_income": null,
+  "geo_flag": null,
+  "geo_status": "non_geographic",
+  "geo_source": "none",
+  "geo_confidence": 0.0,
+  "geo_conflict": false,
+  "geo_tz_signature": null,
+  "geo_location_raw": "Remote",
+  "geo_as_of": null,
+  "geo_taxonomy_version": "2026.10.1",
   "is_top_50": false,
   "github_url": "https://github.com/scmorse",
   "commit_history": {

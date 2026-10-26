@@ -1,39 +1,39 @@
 {
-  "generated_at": "2026-10-18",
+  "generated_at": "2026-10-25",
   "groups": {
-    "committers": 1275,
-    "reviewers": 5288,
-    "research": 1697,
-    "standards": 163,
-    "total_active": 6660,
-    "total_registry": 7823
+    "committers": 1289,
+    "reviewers": 5341,
+    "research": 1715,
+    "standards": 164,
+    "total_active": 6602,
+    "total_registry": 7316
   },
   "venn_4": {
-    "0001": 12,
-    "0010": 1193,
-    "0011": 27,
-    "0100": 3968,
-    "0101": 6,
-    "0110": 143,
-    "0111": 36,
-    "1000": 126,
+    "0001": 9,
+    "0010": 1112,
+    "0011": 21,
+    "0100": 3885,
+    "0101": 9,
+    "0110": 234,
+    "0111": 43,
+    "1000": 106,
     "1001": 1,
-    "1010": 12,
+    "1010": 11,
     "1011": 1,
-    "1100": 848,
-    "1101": 2,
-    "1110": 207,
-    "1111": 78
+    "1100": 876,
+    "1101": 1,
+    "1110": 214,
+    "1111": 79
   },
   "venn_summary": {
-    "code_only": 126,
-    "review_only": 3968,
-    "research_only": 1193,
-    "standards_only": 12,
-    "all_four": 78,
-    "code_review": 848,
-    "review_research": 143,
-    "research_standards": 27
+    "code_only": 106,
+    "review_only": 3885,
+    "research_only": 1112,
+    "standards_only": 9,
+    "all_four": 79,
+    "code_review": 876,
+    "review_research": 234,
+    "research_standards": 21
   },
   "rd_focus": {},
   "hotspot": {
@@ -41,34 +41,34 @@
     "value": "BIP 70"
   },
   "spotlight": {
-    "name": "yashspidey",
-    "uuid": "auto_yashspidey",
-    "github_login": "yashspidey",
-    "description": "First-time core contributor recently merged PR #36441 (doc: fix How to Upgrade section for bitcoin wrapper and libexec)."
+    "name": "Kevin Ravensberg",
+    "uuid": "auto_kevin_ravensberg",
+    "github_login": "kravens",
+    "description": "First-time core contributor recently merged PR #36559 (test: zero-pad the port in feature_anchors' expected hex)."
   },
   "onboarding": {
-    "new_coders_90d": 33,
-    "new_coders_30d": 10,
-    "new_coders_7d": 1,
-    "new_discussants_90d": 43,
-    "new_discussants_7d": 3,
+    "new_coders_90d": 32,
+    "new_coders_30d": 7,
+    "new_coders_7d": 2,
+    "new_discussants_90d": 49,
+    "new_discussants_7d": 8,
     "window_days": 90
   },
   "prs": {
-    "total_merged": 17093,
-    "merged_30d": 125,
-    "merged_prev_30d": 138,
-    "merged_7d": 19,
-    "merged_prev_7d": 42
+    "total_merged": 17134,
+    "merged_30d": 126,
+    "merged_prev_30d": 146,
+    "merged_7d": 41,
+    "merged_prev_7d": 19
   },
   "commits": {
-    "commits_30d": 300,
-    "commits_prev_30d": 428,
-    "commits_7d": 53,
-    "commits_prev_7d": 79
+    "commits_30d": 350,
+    "commits_prev_30d": 415,
+    "commits_7d": 84,
+    "commits_prev_7d": 83
   },
   "bips": {
-    "total": 213,
+    "total": 214,
     "active_recently": 100
   },
   "discussion_pulse": {
@@ -76,20 +76,20 @@
       {
         "category": "quantum",
         "label": "Quantum",
-        "count": 103,
-        "share": 21.8
+        "count": 102,
+        "share": 22.1
       },
       {
         "category": "mining",
         "label": "Mining",
-        "count": 51,
-        "share": 10.8
+        "count": 35,
+        "share": 7.6
       },
       {
-        "category": "taproot",
-        "label": "Taproot",
-        "count": 32,
-        "share": 6.8
+        "category": "p2p-network",
+        "label": "P2P Network",
+        "count": 31,
+        "share": 6.7
       }
     ],
     "top_bips": [

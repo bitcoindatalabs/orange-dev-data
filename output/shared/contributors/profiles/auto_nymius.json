@@ -1,6 +1,7 @@
 {
-  "display_name": "nymius",
+  "display_name": "Nymius",
   "github_login_final": "nymius",
+  "github_id_final": "155548262",
   "delving_username_final": "nymius",
   "uuid": "auto_nymius",
   "badges": {
@@ -69,8 +70,8 @@
   "delving_threads": 2.0,
   "ml_responses": 0.0,
   "delving_responses": 1.0,
-  "first_active": null,
-  "last_active": null,
+  "first_active": "2025-10-27T17:29:31.287000",
+  "last_active": "2026-01-16T13:40:24.859000",
   "dev_type": "Reviewer",
   "expertise_domains": [
     "Privacy",
@@ -86,8 +87,8 @@
     }
   },
   "expertise_domain_scores": {
-    "Privacy": 0.876,
-    "Wallet": 0.124
+    "Wallet": 0.124,
+    "Privacy": 0.876
   },
   "p2016_posts": 4.0,
   "modern_posts": 4.0,
@@ -106,8 +107,26 @@
   "github_bio": null,
   "github_twitter": null,
   "github_blog": null,
-  "github_followers": 47.0,
+  "github_followers": 54.0,
+  "github_profile_fetched_at": "2026-10-20T19:04:20Z",
   "activity_status": "Active",
+  "geo_country_iso2": null,
+  "geo_country_iso3": null,
+  "geo_country_name": null,
+  "geo_sovereign_iso2": null,
+  "geo_m49_subregion": null,
+  "geo_macro_region": "Undisclosed",
+  "geo_un_macro_region": "Undisclosed",
+  "geo_wb_income": null,
+  "geo_flag": null,
+  "geo_status": "empty",
+  "geo_source": "none",
+  "geo_confidence": 0.0,
+  "geo_conflict": false,
+  "geo_tz_signature": null,
+  "geo_location_raw": null,
+  "geo_as_of": null,
+  "geo_taxonomy_version": "2026.10.1",
   "is_top_50": false,
   "github_url": "https://github.com/nymius",
   "delving_url": "https://delvingbitcoin.org/u/nymius",

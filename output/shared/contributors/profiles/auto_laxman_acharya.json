@@ -1,6 +1,7 @@
 {
   "display_name": "Laxman Acharya",
   "github_login_final": "laxmanacharya8",
+  "github_id_final": "211137695",
   "delving_username_final": null,
   "uuid": "auto_laxman_acharya",
   "badges": null,
@@ -71,8 +72,8 @@
     }
   },
   "expertise_domain_scores": {
-    "Wallet": 0.75,
-    "Script": 0.25
+    "Script": 0.25,
+    "Wallet": 0.75
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,
@@ -90,9 +91,27 @@
   "github_company": null,
   "github_bio": null,
   "github_twitter": null,
-  "github_blog": null,
-  "github_followers": null,
+  "github_blog": "laxmanacharya.com.np",
+  "github_followers": 14.0,
+  "github_profile_fetched_at": "2026-10-20T18:48:56Z",
   "activity_status": "New",
+  "geo_country_iso2": "NP",
+  "geo_country_iso3": "NPL",
+  "geo_country_name": "Nepal",
+  "geo_sovereign_iso2": "NP",
+  "geo_m49_subregion": "Southern Asia",
+  "geo_macro_region": "Asia Pacific",
+  "geo_un_macro_region": "Asia",
+  "geo_wb_income": "Lower-Middle",
+  "geo_flag": "🇳🇵",
+  "geo_status": "resolved",
+  "geo_source": "blog_tld",
+  "geo_confidence": 0.45,
+  "geo_conflict": false,
+  "geo_tz_signature": null,
+  "geo_location_raw": null,
+  "geo_as_of": "2026-10-20",
+  "geo_taxonomy_version": "2026.10.1",
   "is_top_50": false,
   "github_url": "https://github.com/laxmanacharya8",
   "commit_history": {

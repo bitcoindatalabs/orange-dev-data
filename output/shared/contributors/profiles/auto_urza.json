@@ -1,6 +1,7 @@
 {
-  "display_name": "urza",
+  "display_name": "Urza",
   "github_login_final": null,
+  "github_id_final": null,
   "delving_username_final": "urza",
   "uuid": "auto_urza",
   "badges": null,
@@ -57,8 +58,8 @@
   "delving_threads": 4.0,
   "ml_responses": 0.0,
   "delving_responses": 1.0,
-  "first_active": null,
-  "last_active": null,
+  "first_active": "2024-01-03T09:18:27.324000",
+  "last_active": "2024-06-05T15:47:48.199000",
   "dev_type": "Participant",
   "expertise_domains": [
     "L2",
@@ -67,15 +68,15 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Consensus": 0.326,
       "L2": 0.413,
-      "Ecosystem": 0.261
+      "Ecosystem": 0.261,
+      "Consensus": 0.326
     }
   },
   "expertise_domain_scores": {
-    "Consensus": 0.326,
     "L2": 0.413,
-    "Ecosystem": 0.261
+    "Ecosystem": 0.261,
+    "Consensus": 0.326
   },
   "p2016_posts": 5.0,
   "modern_posts": 5.0,
@@ -87,15 +88,33 @@
   "is_reviewer": false,
   "is_researcher": false,
   "is_bip_author": false,
-  "global_first_active": null,
-  "global_last_active": null,
+  "global_first_active": "2024-01-03T09:18:27.324000",
+  "global_last_active": "2024-06-05T15:47:48.199000",
   "github_location": null,
   "github_company": null,
   "github_bio": null,
   "github_twitter": null,
   "github_blog": null,
   "github_followers": null,
+  "github_profile_fetched_at": null,
   "activity_status": "",
+  "geo_country_iso2": null,
+  "geo_country_iso3": null,
+  "geo_country_name": null,
+  "geo_sovereign_iso2": null,
+  "geo_m49_subregion": null,
+  "geo_macro_region": "Undisclosed",
+  "geo_un_macro_region": "Undisclosed",
+  "geo_wb_income": null,
+  "geo_flag": null,
+  "geo_status": "empty",
+  "geo_source": "none",
+  "geo_confidence": 0.0,
+  "geo_conflict": false,
+  "geo_tz_signature": null,
+  "geo_location_raw": null,
+  "geo_as_of": null,
+  "geo_taxonomy_version": "2026.10.1",
   "is_top_50": false,
   "delving_url": "https://delvingbitcoin.org/u/urza",
   "first_message": {

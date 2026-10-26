@@ -1,6 +1,7 @@
 {
   "display_name": "Chandra Pratap",
   "github_login_final": "Chand-ra",
+  "github_id_final": "114725427",
   "delving_username_final": "chand-ra",
   "uuid": "auto_chandra_pratap",
   "badges": null,
@@ -57,19 +58,19 @@
   "delving_threads": 2.0,
   "ml_responses": 0.0,
   "delving_responses": 0.0,
-  "first_active": null,
-  "last_active": null,
+  "first_active": "2026-05-16T13:23:53.455000",
+  "last_active": "2026-07-19T07:31:16.164000",
   "dev_type": "Builder",
   "expertise_domains": [
     "Infrastructure",
     "L2"
   ],
   "expertise_by_source": {
-    "code": {
-      "Infrastructure": 1.0
-    },
     "discussion": {
       "L2": 1.0
+    },
+    "code": {
+      "Infrastructure": 1.0
     }
   },
   "expertise_domain_scores": {
@@ -87,14 +88,32 @@
   "is_researcher": false,
   "is_bip_author": false,
   "global_first_active": "2025-03-09T16:58:11",
-  "global_last_active": "2026-05-01T20:43:06",
+  "global_last_active": "2026-07-19T07:31:16.164000",
   "github_location": null,
   "github_company": null,
-  "github_bio": "Undergrad Mathematics student with a passion for CS | SVNIT Surat",
+  "github_bio": "Grad Mathematics student",
   "github_twitter": "chandrapratap37",
-  "github_blog": null,
-  "github_followers": 3.0,
+  "github_blog": "https://chand-ra.github.io/",
+  "github_followers": 7.0,
+  "github_profile_fetched_at": "2026-10-20T19:00:12Z",
   "activity_status": "Active",
+  "geo_country_iso2": null,
+  "geo_country_iso3": null,
+  "geo_country_name": null,
+  "geo_sovereign_iso2": null,
+  "geo_m49_subregion": null,
+  "geo_macro_region": "Undisclosed",
+  "geo_un_macro_region": "Undisclosed",
+  "geo_wb_income": null,
+  "geo_flag": null,
+  "geo_status": "empty",
+  "geo_source": "none",
+  "geo_confidence": 0.0,
+  "geo_conflict": false,
+  "geo_tz_signature": null,
+  "geo_location_raw": null,
+  "geo_as_of": null,
+  "geo_taxonomy_version": "2026.10.1",
   "is_top_50": false,
   "github_url": "https://github.com/Chand-ra",
   "delving_url": "https://delvingbitcoin.org/u/chand-ra",

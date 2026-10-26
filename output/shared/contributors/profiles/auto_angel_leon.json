@@ -1,6 +1,7 @@
 {
   "display_name": "Angel Leon",
   "github_login_final": "gubatron",
+  "github_id_final": "163977",
   "delving_username_final": null,
   "uuid": "auto_angel_leon",
   "badges": null,
@@ -45,7 +46,7 @@
   "avg_pr_ack_velocity_days": 2.041639660493827,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": 0.2,
-  "hybrid_score": 0.2161,
+  "hybrid_score": 0.216,
   "p2016_hybrid_score": 0.112,
   "modern_hybrid_score": 0.0646,
   "impact_score": 12.0,
@@ -57,8 +58,8 @@
   "delving_threads": 0.0,
   "ml_responses": 28.0,
   "delving_responses": 0.0,
-  "first_active": "2014-03-19T12:27:08",
-  "last_active": "2020-01-15T19:21:52",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Builder",
   "expertise_domains": [
     "Infrastructure",
@@ -66,23 +67,23 @@
     "Mining"
   ],
   "expertise_by_source": {
-    "code": {
-      "Infrastructure": 0.8,
-      "Consensus": 0.1,
-      "Network": 0.034,
-      "Mempool": 0.066
-    },
     "discussion": {
       "Consensus": 0.792,
       "Mining": 0.208
+    },
+    "code": {
+      "Infrastructure": 0.8,
+      "Network": 0.034,
+      "Mempool": 0.066,
+      "Consensus": 0.1
     }
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.48,
     "Consensus": 0.3768,
-    "Mining": 0.0832,
+    "Network": 0.0204,
     "Mempool": 0.0396,
-    "Network": 0.0204
+    "Mining": 0.0832
   },
   "p2016_posts": 3.0,
   "modern_posts": 0.0,
@@ -95,14 +96,32 @@
   "is_researcher": true,
   "is_bip_author": false,
   "global_first_active": "2014-02-03T20:07:15",
-  "global_last_active": "2020-01-15T19:21:52",
+  "global_last_active": "2017-02-22T11:19:05",
   "github_location": "USA",
   "github_company": "frostwire.com",
   "github_bio": "rust, java, c/c++, python, php, bash\r\nNielsen, LimeWire, FrostWire, MyBloop, Acotel, Temboo, Punsr, Bitcoin, OpenBazaar, DiarioBitcoin, MentisDB",
   "github_twitter": "gubatron",
   "github_blog": "https://gubatron.com/blog",
-  "github_followers": 239.0,
+  "github_followers": 252.0,
+  "github_profile_fetched_at": "2026-10-20T19:01:54Z",
   "activity_status": "Active",
+  "geo_country_iso2": "US",
+  "geo_country_iso3": "USA",
+  "geo_country_name": "USA",
+  "geo_sovereign_iso2": "US",
+  "geo_m49_subregion": "Northern America",
+  "geo_macro_region": "North America",
+  "geo_un_macro_region": "North America",
+  "geo_wb_income": "High",
+  "geo_flag": "🇺🇸",
+  "geo_status": "resolved",
+  "geo_source": "github_location",
+  "geo_confidence": 0.95,
+  "geo_conflict": false,
+  "geo_tz_signature": null,
+  "geo_location_raw": "USA",
+  "geo_as_of": "2026-10-20",
+  "geo_taxonomy_version": "2026.10.1",
   "is_top_50": false,
   "github_url": "https://github.com/gubatron",
   "commit_history": {

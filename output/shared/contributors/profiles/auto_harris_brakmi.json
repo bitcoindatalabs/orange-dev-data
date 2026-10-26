@@ -1,6 +1,7 @@
 {
   "display_name": "Harris Brakmić",
   "github_login_final": "brakmic",
+  "github_id_final": "56779",
   "delving_username_final": "harris",
   "uuid": "auto_harris_brakmi",
   "badges": null,
@@ -57,8 +58,8 @@
   "delving_threads": 2.0,
   "ml_responses": 0.0,
   "delving_responses": 1.0,
-  "first_active": null,
-  "last_active": null,
+  "first_active": "2026-02-19T10:43:14.974000",
+  "last_active": "2026-04-01T07:19:52.611000",
   "dev_type": "Builder",
   "expertise_domains": [
     "Infrastructure",
@@ -66,21 +67,21 @@
     "Mempool"
   ],
   "expertise_by_source": {
-    "code": {
-      "Infrastructure": 0.941,
-      "Wallet": 0.059
-    },
     "discussion": {
       "Privacy": 0.493,
       "Mempool": 0.254,
       "Cryptography": 0.254
+    },
+    "code": {
+      "Infrastructure": 0.941,
+      "Wallet": 0.059
     }
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.5644,
+    "Wallet": 0.0354,
     "Privacy": 0.1971,
     "Mempool": 0.1016,
-    "Wallet": 0.0354,
     "Cryptography": 0.1016
   },
   "p2016_posts": 3.0,
@@ -94,14 +95,32 @@
   "is_researcher": false,
   "is_bip_author": false,
   "global_first_active": "2019-11-22T14:22:55",
-  "global_last_active": "2020-06-21T10:24:54",
+  "global_last_active": "2026-04-01T07:19:52.611000",
   "github_location": "Bonn, Germany",
   "github_company": null,
   "github_bio": "Software Engineer",
   "github_twitter": "brakmic",
   "github_blog": "https://blog.brakmic.com",
-  "github_followers": 245.0,
-  "activity_status": "Retired",
+  "github_followers": 243.0,
+  "github_profile_fetched_at": "2026-10-20T18:59:56Z",
+  "activity_status": "Active",
+  "geo_country_iso2": "DE",
+  "geo_country_iso3": "DEU",
+  "geo_country_name": "Germany",
+  "geo_sovereign_iso2": "DE",
+  "geo_m49_subregion": "Western Europe",
+  "geo_macro_region": "Europe",
+  "geo_un_macro_region": "Europe",
+  "geo_wb_income": "High",
+  "geo_flag": "🇩🇪",
+  "geo_status": "resolved",
+  "geo_source": "github_location",
+  "geo_confidence": 0.95,
+  "geo_conflict": false,
+  "geo_tz_signature": null,
+  "geo_location_raw": "Bonn, Germany",
+  "geo_as_of": "2026-10-20",
+  "geo_taxonomy_version": "2026.10.1",
   "is_top_50": false,
   "github_url": "https://github.com/brakmic",
   "delving_url": "https://delvingbitcoin.org/u/harris",

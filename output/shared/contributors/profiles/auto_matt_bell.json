@@ -1,6 +1,7 @@
 {
   "display_name": "Matt Bell",
   "github_login_final": "mappum",
+  "github_id_final": "398285",
   "delving_username_final": null,
   "uuid": "auto_matt_bell",
   "badges": null,
@@ -46,7 +47,7 @@
   "avg_concept_lead_time_days": null,
   "review_reciprocity": 1.0,
   "hybrid_score": 0.0494,
-  "p2016_hybrid_score": 0.0582,
+  "p2016_hybrid_score": 0.0581,
   "modern_hybrid_score": 0.0146,
   "impact_score": 3.0,
   "p2016_impact_score": 3.0,
@@ -57,8 +58,8 @@
   "delving_threads": 0.0,
   "ml_responses": 3.0,
   "delving_responses": 0.0,
-  "first_active": "2017-04-27T12:48:16",
-  "last_active": "2019-01-24T12:46:11",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Participant",
   "expertise_domains": [
     "L2",
@@ -67,15 +68,15 @@
   ],
   "expertise_by_source": {
     "discussion": {
+      "L2": 0.674,
       "Consensus": 0.163,
-      "Mining": 0.163,
-      "L2": 0.674
+      "Mining": 0.163
     }
   },
   "expertise_domain_scores": {
+    "L2": 0.674,
     "Consensus": 0.163,
-    "Mining": 0.163,
-    "L2": 0.674
+    "Mining": 0.163
   },
   "p2016_posts": 5.0,
   "modern_posts": 0.0,
@@ -88,14 +89,32 @@
   "is_researcher": true,
   "is_bip_author": false,
   "global_first_active": "2016-07-05T16:47:12",
-  "global_last_active": "2019-01-24T12:46:11",
+  "global_last_active": "2016-07-05T16:47:12",
   "github_location": "Austin, TX",
   "github_company": "@nomic-io",
   "github_bio": null,
   "github_twitter": "mappum",
   "github_blog": null,
-  "github_followers": 585.0,
+  "github_followers": 583.0,
+  "github_profile_fetched_at": "2026-10-20T19:52:14Z",
   "activity_status": "Active",
+  "geo_country_iso2": "US",
+  "geo_country_iso3": "USA",
+  "geo_country_name": "USA",
+  "geo_sovereign_iso2": "US",
+  "geo_m49_subregion": "Northern America",
+  "geo_macro_region": "North America",
+  "geo_un_macro_region": "North America",
+  "geo_wb_income": "High",
+  "geo_flag": "🇺🇸",
+  "geo_status": "resolved",
+  "geo_source": "github_location",
+  "geo_confidence": 0.9,
+  "geo_conflict": false,
+  "geo_tz_signature": null,
+  "geo_location_raw": "Austin, TX",
+  "geo_as_of": "2026-10-20",
+  "geo_taxonomy_version": "2026.10.1",
   "is_top_50": false,
   "github_url": "https://github.com/mappum",
   "first_message": {

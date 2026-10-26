@@ -1,6 +1,7 @@
 {
   "display_name": "Tom Harding",
   "github_login_final": "dgenr8",
+  "github_id_final": "4284124",
   "delving_username_final": null,
   "uuid": "can_tom_harding",
   "badges": {
@@ -57,9 +58,9 @@
   "avg_pr_ack_velocity_days": 16.65670762108262,
   "avg_concept_lead_time_days": 15.150736882716052,
   "review_reciprocity": 3.1176470588235294,
-  "hybrid_score": 0.8109,
-  "p2016_hybrid_score": 0.5761,
-  "modern_hybrid_score": 0.1602,
+  "hybrid_score": 0.8106,
+  "p2016_hybrid_score": 0.576,
+  "modern_hybrid_score": 0.1609,
   "impact_score": 39.0,
   "p2016_impact_score": 29.0,
   "modern_impact_score": 9.0,
@@ -69,8 +70,8 @@
   "delving_threads": 0.0,
   "ml_responses": 130.0,
   "delving_responses": 0.0,
-  "first_active": "2014-04-07T09:45:33",
-  "last_active": "2026-05-04T11:26:00",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Protocol Designer",
   "expertise_domains": [
     "Consensus",
@@ -78,15 +79,15 @@
     "Mining"
   ],
   "expertise_by_source": {
-    "code": {
-      "Infrastructure": 0.825,
-      "Wallet": 0.079,
-      "Consensus": 0.079,
-      "Mempool": 0.017
-    },
     "discussion": {
       "Consensus": 0.531,
       "Mining": 0.469
+    },
+    "code": {
+      "Infrastructure": 0.825,
+      "Wallet": 0.079,
+      "Mempool": 0.017,
+      "Consensus": 0.079
     },
     "bips": {
       "Consensus": 1.0
@@ -95,8 +96,8 @@
   "expertise_domain_scores": {
     "Infrastructure": 0.2475,
     "Consensus": 0.6299,
-    "Mining": 0.0938,
-    "Wallet": 0.0237
+    "Wallet": 0.0237,
+    "Mining": 0.0938
   },
   "p2016_posts": 27.0,
   "modern_posts": 3.0,
@@ -109,14 +110,32 @@
   "is_researcher": true,
   "is_bip_author": true,
   "global_first_active": "2014-02-12T23:43:08",
-  "global_last_active": "2026-05-04T11:26:00",
+  "global_last_active": "2020-07-21T09:32:34",
   "github_location": "California, US",
   "github_company": null,
   "github_bio": "Let's fix money.",
   "github_twitter": null,
   "github_blog": null,
-  "github_followers": 38.0,
-  "activity_status": "Active",
+  "github_followers": 39.0,
+  "github_profile_fetched_at": "2026-10-20T19:00:54Z",
+  "activity_status": "Retired",
+  "geo_country_iso2": "US",
+  "geo_country_iso3": "USA",
+  "geo_country_name": "USA",
+  "geo_sovereign_iso2": "US",
+  "geo_m49_subregion": "Northern America",
+  "geo_macro_region": "North America",
+  "geo_un_macro_region": "North America",
+  "geo_wb_income": "High",
+  "geo_flag": "🇺🇸",
+  "geo_status": "resolved",
+  "geo_source": "github_location",
+  "geo_confidence": 0.95,
+  "geo_conflict": false,
+  "geo_tz_signature": null,
+  "geo_location_raw": "California, US",
+  "geo_as_of": "2026-10-20",
+  "geo_taxonomy_version": "2026.10.1",
   "is_top_50": false,
   "github_url": "https://github.com/dgenr8",
   "commit_history": {

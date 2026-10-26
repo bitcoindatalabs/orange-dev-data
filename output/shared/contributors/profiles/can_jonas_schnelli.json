@@ -1,6 +1,7 @@
 {
   "display_name": "Jonas Schnelli",
   "github_login_final": "jonasschnelli",
+  "github_id_final": "178464",
   "delving_username_final": null,
   "uuid": "can_jonas_schnelli",
   "badges": {
@@ -63,9 +64,9 @@
   "avg_pr_ack_velocity_days": 13.971309079055322,
   "avg_concept_lead_time_days": 37.47512433087384,
   "review_reciprocity": 5.259615384615385,
-  "hybrid_score": 2.7316,
-  "p2016_hybrid_score": 1.8147,
-  "modern_hybrid_score": 0.2478,
+  "hybrid_score": 2.7313,
+  "p2016_hybrid_score": 1.8143,
+  "modern_hybrid_score": 0.2489,
   "impact_score": 81.0,
   "p2016_impact_score": 66.0,
   "modern_impact_score": 14.0,
@@ -75,8 +76,8 @@
   "delving_threads": 0.0,
   "ml_responses": 99.0,
   "delving_responses": 0.0,
-  "first_active": "2013-10-08T05:31:06",
-  "last_active": "2026-05-07T00:25:09",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Protocol Designer",
   "expertise_domains": [
     "Infrastructure",
@@ -84,18 +85,18 @@
     "Wallet"
   ],
   "expertise_by_source": {
+    "discussion": {
+      "Network": 0.7,
+      "Wallet": 0.3
+    },
     "code": {
       "Infrastructure": 0.763,
       "Wallet": 0.17,
-      "Script": 0.001,
-      "Consensus": 0.018,
       "Network": 0.041,
+      "Cryptography": 0.003,
       "Mempool": 0.003,
-      "Cryptography": 0.003
-    },
-    "discussion": {
-      "Wallet": 0.3,
-      "Network": 0.7
+      "Script": 0.001,
+      "Consensus": 0.018
     },
     "bips": {
       "Infrastructure": 0.8,
@@ -104,8 +105,8 @@
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.6291,
-    "Wallet": 0.111,
-    "Network": 0.2524
+    "Network": 0.2524,
+    "Wallet": 0.111
   },
   "p2016_posts": 98.0,
   "modern_posts": 2.0,
@@ -118,14 +119,32 @@
   "is_researcher": true,
   "is_bip_author": true,
   "global_first_active": "2011-01-06T13:59:02",
-  "global_last_active": "2026-05-07T00:25:09",
-  "github_location": null,
-  "github_company": null,
-  "github_bio": null,
-  "github_twitter": null,
-  "github_blog": null,
-  "github_followers": null,
+  "global_last_active": "2025-07-11T11:18:07",
+  "github_location": "World",
+  "github_company": "Bitcoin Core",
+  "github_bio": "Former Bitcoin Core Developer & Maintainer (2013-2021)",
+  "github_twitter": "_jonasschnelli_",
+  "github_blog": "bitcoin.jonasschnelli.ch",
+  "github_followers": 1411.0,
+  "github_profile_fetched_at": "2026-10-20T18:46:34Z",
   "activity_status": "Active",
+  "geo_country_iso2": "CH",
+  "geo_country_iso3": "CHE",
+  "geo_country_name": "Switzerland",
+  "geo_sovereign_iso2": "CH",
+  "geo_m49_subregion": "Western Europe",
+  "geo_macro_region": "Europe",
+  "geo_un_macro_region": "Europe",
+  "geo_wb_income": "High",
+  "geo_flag": "🇨🇭",
+  "geo_status": "resolved",
+  "geo_source": "email_tld",
+  "geo_confidence": 0.55,
+  "geo_conflict": false,
+  "geo_tz_signature": "+60/+120",
+  "geo_location_raw": "World",
+  "geo_as_of": "2026-10-24",
+  "geo_taxonomy_version": "2026.10.1",
   "is_top_50": false,
   "github_url": "https://github.com/jonasschnelli",
   "commit_history": {

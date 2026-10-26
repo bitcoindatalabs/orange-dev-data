@@ -1,6 +1,7 @@
 {
   "display_name": "Kyle Honeycutt",
   "github_login_final": "coinables",
+  "github_id_final": "11477785",
   "delving_username_final": null,
   "uuid": "auto_kyle_honeycutt",
   "badges": null,
@@ -46,8 +47,8 @@
   "avg_concept_lead_time_days": 0.4594212962962963,
   "review_reciprocity": 2.0,
   "hybrid_score": 0.0903,
-  "p2016_hybrid_score": 0.0929,
-  "modern_hybrid_score": 0.0356,
+  "p2016_hybrid_score": 0.0928,
+  "modern_hybrid_score": 0.0358,
   "impact_score": 5.0,
   "p2016_impact_score": 5.0,
   "modern_impact_score": 2.0,
@@ -57,19 +58,19 @@
   "delving_threads": 0.0,
   "ml_responses": 2.0,
   "delving_responses": 0.0,
-  "first_active": "2024-04-08T23:29:55",
-  "last_active": "2025-05-23T09:29:27",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Builder",
   "expertise_domains": [
     "Infrastructure",
     "Wallet"
   ],
   "expertise_by_source": {
-    "code": {
-      "Infrastructure": 1.0
-    },
     "discussion": {
       "Wallet": 1.0
+    },
+    "code": {
+      "Infrastructure": 1.0
     }
   },
   "expertise_domain_scores": {
@@ -87,14 +88,32 @@
   "is_researcher": true,
   "is_bip_author": false,
   "global_first_active": "2017-03-31T07:29:11",
-  "global_last_active": "2025-05-23T09:29:27",
+  "global_last_active": "2023-08-06T01:30:14",
   "github_location": null,
   "github_company": null,
   "github_bio": "Financial Analyst, Musician, Hiker, Web Developer",
   "github_twitter": null,
   "github_blog": null,
-  "github_followers": 381.0,
+  "github_followers": 387.0,
+  "github_profile_fetched_at": "2026-10-20T19:07:25Z",
   "activity_status": "Active",
+  "geo_country_iso2": null,
+  "geo_country_iso3": null,
+  "geo_country_name": null,
+  "geo_sovereign_iso2": null,
+  "geo_m49_subregion": null,
+  "geo_macro_region": "Undisclosed",
+  "geo_un_macro_region": "Undisclosed",
+  "geo_wb_income": null,
+  "geo_flag": null,
+  "geo_status": "empty",
+  "geo_source": "none",
+  "geo_confidence": 0.0,
+  "geo_conflict": false,
+  "geo_tz_signature": null,
+  "geo_location_raw": null,
+  "geo_as_of": null,
+  "geo_taxonomy_version": "2026.10.1",
   "is_top_50": false,
   "github_url": "https://github.com/coinables",
   "commit_history": {

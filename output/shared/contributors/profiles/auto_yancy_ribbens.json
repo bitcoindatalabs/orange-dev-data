@@ -1,6 +1,7 @@
 {
-  "display_name": "yancy ribbens",
+  "display_name": "Yancy Ribbens",
   "github_login_final": "yancyribbens",
+  "github_id_final": "817736",
   "delving_username_final": null,
   "uuid": "auto_yancy_ribbens",
   "badges": null,
@@ -45,9 +46,9 @@
   "avg_pr_ack_velocity_days": 14.980576923076923,
   "avg_concept_lead_time_days": 22.585044367283952,
   "review_reciprocity": 3.6363636363636362,
-  "hybrid_score": 0.3298,
-  "p2016_hybrid_score": 0.3442,
-  "modern_hybrid_score": 0.311,
+  "hybrid_score": 0.3297,
+  "p2016_hybrid_score": 0.3441,
+  "modern_hybrid_score": 0.3112,
   "impact_score": 18.0,
   "p2016_impact_score": 19.0,
   "modern_impact_score": 17.0,
@@ -57,8 +58,8 @@
   "delving_threads": 0.0,
   "ml_responses": 19.0,
   "delving_responses": 0.0,
-  "first_active": "2021-03-12T16:37:23",
-  "last_active": "2023-11-08T03:05:34",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Builder",
   "expertise_domains": [
     "Infrastructure",
@@ -66,22 +67,22 @@
     "Wallet"
   ],
   "expertise_by_source": {
+    "discussion": {
+      "L2": 0.074,
+      "Mempool": 0.654,
+      "Mining": 0.272
+    },
     "code": {
       "Infrastructure": 0.636,
       "Wallet": 0.364
-    },
-    "discussion": {
-      "Mining": 0.272,
-      "L2": 0.074,
-      "Mempool": 0.654
     }
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.3816,
-    "Mining": 0.1088,
     "L2": 0.0296,
+    "Wallet": 0.2184,
     "Mempool": 0.2616,
-    "Wallet": 0.2184
+    "Mining": 0.1088
   },
   "p2016_posts": 20.0,
   "modern_posts": 1.0,
@@ -100,8 +101,26 @@
   "github_bio": null,
   "github_twitter": null,
   "github_blog": null,
-  "github_followers": 32.0,
+  "github_followers": 34.0,
+  "github_profile_fetched_at": "2026-10-20T19:06:55Z",
   "activity_status": "Rising",
+  "geo_country_iso2": null,
+  "geo_country_iso3": null,
+  "geo_country_name": null,
+  "geo_sovereign_iso2": null,
+  "geo_m49_subregion": null,
+  "geo_macro_region": "Undisclosed",
+  "geo_un_macro_region": "Undisclosed",
+  "geo_wb_income": null,
+  "geo_flag": null,
+  "geo_status": "non_geographic",
+  "geo_source": "none",
+  "geo_confidence": 0.0,
+  "geo_conflict": false,
+  "geo_tz_signature": null,
+  "geo_location_raw": "The internet",
+  "geo_as_of": null,
+  "geo_taxonomy_version": "2026.10.1",
   "is_top_50": false,
   "github_url": "https://github.com/yancyribbens",
   "commit_history": {

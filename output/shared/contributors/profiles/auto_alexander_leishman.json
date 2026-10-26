@@ -1,6 +1,7 @@
 {
-  "display_name": "alexander leishman",
+  "display_name": "Alexander Leishman",
   "github_login_final": "leishman",
+  "github_id_final": "3648618",
   "delving_username_final": "leishman",
   "uuid": "auto_alexander_leishman",
   "badges": null,
@@ -46,7 +47,7 @@
   "avg_concept_lead_time_days": 0.9502314814814815,
   "review_reciprocity": 3.0,
   "hybrid_score": 0.1578,
-  "p2016_hybrid_score": 0.1613,
+  "p2016_hybrid_score": 0.1612,
   "modern_hybrid_score": 0.033,
   "impact_score": 9.0,
   "p2016_impact_score": 9.0,
@@ -57,8 +58,8 @@
   "delving_threads": 1.0,
   "ml_responses": 3.0,
   "delving_responses": 1.0,
-  "first_active": "2014-10-25T16:51:59",
-  "last_active": null,
+  "first_active": null,
+  "last_active": "2026-02-13T18:20:41.438000",
   "dev_type": "Builder",
   "expertise_domains": [
     "Infrastructure",
@@ -66,12 +67,12 @@
     "Cryptography"
   ],
   "expertise_by_source": {
-    "code": {
-      "Infrastructure": 1.0
-    },
     "discussion": {
       "Consensus": 0.75,
       "Cryptography": 0.25
+    },
+    "code": {
+      "Infrastructure": 1.0
     }
   },
   "expertise_domain_scores": {
@@ -89,15 +90,33 @@
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": false,
-  "global_first_active": "2014-10-25T16:51:59",
-  "global_last_active": "2021-04-15T19:26:20",
+  "global_first_active": "2018-08-16T10:51:30",
+  "global_last_active": "2026-02-13T18:20:41.438000",
   "github_location": null,
   "github_company": "River",
   "github_bio": null,
   "github_twitter": "leishman",
   "github_blog": null,
-  "github_followers": 107.0,
+  "github_followers": 109.0,
+  "github_profile_fetched_at": "2026-10-20T19:03:15Z",
   "activity_status": "Active",
+  "geo_country_iso2": null,
+  "geo_country_iso3": null,
+  "geo_country_name": null,
+  "geo_sovereign_iso2": null,
+  "geo_m49_subregion": null,
+  "geo_macro_region": "Undisclosed",
+  "geo_un_macro_region": "Undisclosed",
+  "geo_wb_income": null,
+  "geo_flag": null,
+  "geo_status": "empty",
+  "geo_source": "none",
+  "geo_confidence": 0.0,
+  "geo_conflict": false,
+  "geo_tz_signature": null,
+  "geo_location_raw": null,
+  "geo_as_of": null,
+  "geo_taxonomy_version": "2026.10.1",
   "is_top_50": false,
   "github_url": "https://github.com/leishman",
   "delving_url": "https://delvingbitcoin.org/u/leishman",

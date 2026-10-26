@@ -1,8 +1,8 @@
 # 📰 This Week in Bitcoin (2026-10-12 to 2026-10-18)
 
 ## 📌 The TL;DR
-- A significant technical focus on improving node connectivity and initial synchronization, evidenced by discussions on TCP hole punching for NAT traversal and the IBD Booster PoC, alongside ongoing `cmpctblock` optimizations to enhance network resilience and lower the barrier to running full nodes.
-- Continued development and hardening of advanced cryptographic features, with progress on MuSig and Silent Payments, and proactive discussions on long-term security challenges such as post-quantum cryptography for L2s, demonstrating a commitment to evolving Bitcoin's privacy and security capabilities.
+- Enhanced Network Efficiency and Node Connectivity:** Significant efforts are underway to optimize block propagation (e.g., `cmpctblock` logging as part of the prefill series), accelerate Initial Block Download (IBD Booster discussion), and improve node reachability for home users (TCP hole punching discussion), all aimed at strengthening network decentralization and performance.
+- Advancing Future Protocol Features and Cryptographic Security:** Active development continues on advanced features like MuSig and Silent Payments, alongside critical discussions regarding long-term cryptographic security challenges such as post-quantum implications for L1/L2 interactions, ensuring Bitcoin's future resilience and privacy capabilities.
 
 ## 🚢 Core Code (Merged This Week)
 The most critical pull requests merged into Bitcoin Core, ordered by community review activity.
@@ -13,14 +13,17 @@ The most critical pull requests merged into Bitcoin Core, ordered by community r
 
 **Technical Details:** The logging mechanisms for `cmpctblock` message reconstruction are augmented to include more granular statistics. This involves capturing and reporting metrics such as the number of missing transactions, successful reconstructions, and elapsed times. These detailed logs are invaluable for diagnosing issues and optimizing the compact block relay protocol, which is crucial for efficient block propagation.
 
-#### [#1866: musig: Add hash context tests](https://github.com/bitcoin-core/secp256k1/pull/1866)
-**Author:** [@mllwchrry](https://github.com/mllwchrry) | **[Security & Consensus]** *(Activity: 11 review events)*
-
 #### [#36440: test: speed up functional tests by removing avoidable waits](https://github.com/bitcoin/bitcoin/pull/36440)
 **Author:** [@ViniciusCestarii](https://github.com/ViniciusCestarii) | **[Performance & Optimization]** *(Activity: 11 review events)*
 > This PR significantly accelerates the functional test suite by eliminating unnecessary waiting periods, allowing for faster test execution. This optimization helps developers iterate more quickly and improves the efficiency of the testing process.
 
 **Technical Details:** Similar to other test speedup PRs, this change identifies and removes specific `sleep` calls or fixed-duration waits within the functional tests. It replaces them with more intelligent synchronization mechanisms, such as polling for specific conditions or waiting on events, ensuring tests progress as soon as their prerequisites are met. This directly reduces the overall time required to run the test suite.
+
+#### [#1866: musig: Add hash context tests](https://github.com/bitcoin-core/secp256k1/pull/1866)
+**Author:** [@mllwchrry](https://github.com/mllwchrry) | **[Maintenance & Tech Debt]** *(Activity: 11 review events)*
+> This PR adds comprehensive tests for the hash context management within the MuSig multi-signature scheme. It ensures the cryptographic hashing operations are robust and correctly implemented, enhancing the reliability of future multi-signature transactions.
+
+**Technical Details:** This PR introduces new test vectors and scenarios specifically targeting the hash context handling in the `secp256k1` library's MuSig implementation. It verifies that intermediate hash states are correctly managed across various MuSig operations, preventing potential cryptographic inconsistencies or vulnerabilities. These tests confirm the deterministic and secure generation of nonces and challenges, which are critical for MuSig's security proofs and overall integrity. The added coverage helps validate the cryptographic primitives used in this advanced multi-signature scheme.
 
 #### [#36425: guix: declare python-setuptools in codesign manifest](https://github.com/bitcoin/bitcoin/pull/36425)
 **Author:** [@willcl-ark](https://github.com/willcl-ark) | **[Maintenance & Tech Debt]** *(Activity: 9 review events)*
@@ -78,15 +81,21 @@ The most critical pull requests merged into Bitcoin Core, ordered by community r
 
 #### [#1963: doc: say the sha256 compression callback processes secrets](https://github.com/bitcoin-core/secp256k1/pull/1963)
 **Author:** [@fametrano](https://github.com/fametrano) | **[Maintenance & Tech Debt]** *(Activity: 4 review events)*
+> This PR updates the documentation for the `secp256k1` library to explicitly state that a specific SHA256 compression callback function handles sensitive data. This clarification helps developers understand the security implications when using or modifying this cryptographic component.
 
-#### [#1929: silentpayments: perform tweak addition with actual scalars](https://github.com/bitcoin-core/secp256k1/pull/1929)
-**Author:** [@theStack](https://github.com/theStack) | **[Security & Consensus]** *(Activity: 3 review events)*
+**Technical Details:** This PR updates the internal documentation within the `secp256k1` library, specifically for the SHA256 compression callback interface. It adds a note clarifying that the data processed by this callback can include secret information, such as private keys or nonces. This explicit documentation serves as a warning to developers, emphasizing the need for careful implementation and side-channel resistance when providing custom callbacks. This improves the security posture of cryptographic operations that utilize this interface by raising awareness of potential pitfalls.
 
 #### [#36522: test: check MIN_PEER_PROTO_VERSION peers are not disconnected](https://github.com/bitcoin/bitcoin/pull/36522)
 **Author:** [@instagibbs](https://github.com/instagibbs) | **[Network & Privacy]** *(Activity: 3 review events)*
 > This PR adds a test to ensure that peers running the minimum supported protocol version are not inadvertently disconnected. This helps maintain network compatibility and prevents unintended disconnections of valid nodes.
 
 **Technical Details:** A new test case is introduced to specifically verify that nodes connecting with `MIN_PEER_PROTO_VERSION` are correctly handled and not prematurely disconnected by the peer management logic. This test ensures adherence to the protocol versioning policy, preventing regressions that could impact network connectivity for older, but still supported, nodes.
+
+#### [#1929: silentpayments: perform tweak addition with actual scalars](https://github.com/bitcoin-core/secp256k1/pull/1929)
+**Author:** [@theStack](https://github.com/theStack) | **[Network & Privacy]** *(Activity: 3 review events)*
+> This PR refines the cryptographic operations for Silent Payments, a privacy-enhancing feature. It ensures that address tweaks are applied using precise scalar arithmetic, which is crucial for the security and correct functioning of these private transactions.
+
+**Technical Details:** This PR modifies the `secp256k1` library's implementation for Silent Payments by ensuring that the tweak addition, specifically when deriving new public keys, is performed using actual scalar values. This change guarantees that elliptic curve point addition operations adhere strictly to the underlying field arithmetic, preventing potential side-channel attacks or cryptographic inconsistencies. It directly impacts the cryptographic security and correctness of Silent Payment address generation and scanning, ensuring the derived keys are mathematically sound and resistant to manipulation. This precision is vital for maintaining the privacy guarantees of Silent Payments.
 
 #### [#36552: refactor: drop lifetimebound `__has_attribute` check](https://github.com/bitcoin/bitcoin/pull/36552)
 **Author:** [@fanquake](https://github.com/fanquake) | **[Maintenance & Tech Debt]** *(Activity: 3 review events)*
@@ -135,7 +144,7 @@ The most actively discussed and reviewed open pull requests right now.
 
 #### [#36524: common: drop locale setting hack](https://github.com/bitcoin/bitcoin/pull/36524)
 **Author:** [@fanquake](https://github.com/fanquake) | **[Maintenance & Tech Debt]** *(Activity: 13 review events this week)*
-> This PR removes a problematic 'locale setting hack' from common utility functions. This simplifies the codebase, improves consistency, and eliminates a source of potential locale-dependent bugs.
+> This PR removes an unnecessary workaround related to locale settings, simplifying the codebase. It improves the internal consistency and maintainability of Bitcoin Core by removing a non-standard practice.
 
 #### [#35724: cmpctblock: Improve logging of `cmpctblock` message reconstruction statistics [part of prefill series]](https://github.com/bitcoin/bitcoin/pull/35724)
 **Author:** [@davidgumberg](https://github.com/davidgumberg) | **[Network & Privacy]** *(Activity: 11 review events this week)*
@@ -163,12 +172,12 @@ Top active threads across mailing lists and research forums.
 **Technical Details:** The discussion revolves around a proposed NAT holepunching feature to improve node reachability, particularly for residential ISPs, with questions raised about its precise problem-solving utility. A key architectural debate focuses on mitigating Sybil attacks, where an attacker could flood the node with fake or real addresses/public keys to monopolize connection attempts. Careful design of an 'holepunch address manager' and robust rate-limiting are critical to prevent resource exhaustion and connection monopolization. The main downside identified is the risk of an attacker monopolizing connections, necessitating robust defense strategies.
 
 ### [What does "post-quantum" actually mean for a Bitcoin L2 when settlement still happens on a non-PQ L1?](https://delvingbitcoin.org/t/what-does-post-quantum-actually-mean-for-a-bitcoin-l2-when-settlement-still-happens-on-a-non-pq-l1/2715/8)
-**Source:** Delving | **Started By:** {'username': 'hal_03', 'uuid': 'auto_hal_03'} | **Messages:** 4
+**Source:** Delving | **Started By:** {'username': 'Hal_03', 'uuid': 'auto_hal_03'} | **Messages:** 4
 > We're discussing how to future-proof Bitcoin's fast, off-chain payment systems against quantum computer threats, ensuring their long-term security even as the main network evolves.
 
 **Technical Details:** The core technical debate revolves around the design and utility of Post-Quantum (PQ) resistant Layer 2 (L2) solutions, like state channels, that settle on Bitcoin's currently quantum-vulnerable Layer 1 (L1). The discussion clarifies that the focus is not on L2s operating with already broken L1 cryptography, but rather on future-proofing L2 components. This involves considering how L2s can adopt PQ schemes now, anticipating potential L1 upgrades or a gradual transition, and defining the 'bridge' mechanisms for secure interaction.
 
-### [Bitcoin-rs: an independent Bitcoin node written in Rust](https://delvingbitcoin.org/t/bitcoin-rs-an-independent-bitcoin-full-node-written-in-rust/2918/2)
+### [Bitcoin-rs: an independent Bitcoin full node written in Rust](https://delvingbitcoin.org/t/bitcoin-rs-an-independent-bitcoin-full-node-written-in-rust/2918/2)
 **Source:** Delving | **Started By:** {'username': 'Gosunuts', 'uuid': 'auto_gosunuts'} | **Messages:** 2
 > A new, independent Bitcoin full node is being developed in Rust, aiming to improve performance and explore new architectural designs. This initiative could lead to a more robust and efficient Bitcoin network for all users.
 

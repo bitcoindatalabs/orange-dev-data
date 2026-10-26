@@ -1,6 +1,7 @@
 {
   "display_name": "nervana21",
   "github_login_final": "nervana21",
+  "github_id_final": "205626986",
   "delving_username_final": null,
   "uuid": "auto_nervana21",
   "badges": null,
@@ -47,7 +48,7 @@
   "review_reciprocity": 2.9411764705882355,
   "hybrid_score": 0.2583,
   "p2016_hybrid_score": 0.2624,
-  "modern_hybrid_score": 0.2863,
+  "modern_hybrid_score": 0.2866,
   "impact_score": 14.0,
   "p2016_impact_score": 15.0,
   "modern_impact_score": 16.0,
@@ -57,8 +58,8 @@
   "delving_threads": 0.0,
   "ml_responses": 1.0,
   "delving_responses": 0.0,
-  "first_active": "2026-08-18T03:00:01",
-  "last_active": "2026-08-21T15:29:23",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Builder",
   "expertise_domains": [
     "Infrastructure",
@@ -66,20 +67,20 @@
     "Wallet"
   ],
   "expertise_by_source": {
+    "discussion": {
+      "Wallet": 0.333,
+      "Mempool": 0.667
+    },
     "code": {
       "Infrastructure": 0.9,
       "Consensus": 0.1
-    },
-    "discussion": {
-      "Mempool": 0.667,
-      "Wallet": 0.333
     }
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.54,
     "Consensus": 0.06,
-    "Mempool": 0.2668,
-    "Wallet": 0.1332
+    "Wallet": 0.1332,
+    "Mempool": 0.2668
   },
   "p2016_posts": 2.0,
   "modern_posts": 2.0,
@@ -98,8 +99,26 @@
   "github_bio": "Bitcoin. Rust.\r\nGPG: 4B2D601F1E63068E",
   "github_twitter": null,
   "github_blog": null,
-  "github_followers": 13.0,
+  "github_followers": 16.0,
+  "github_profile_fetched_at": "2026-10-20T19:04:11Z",
   "activity_status": "Active",
+  "geo_country_iso2": null,
+  "geo_country_iso3": null,
+  "geo_country_name": null,
+  "geo_sovereign_iso2": null,
+  "geo_m49_subregion": null,
+  "geo_macro_region": "Undisclosed",
+  "geo_un_macro_region": "Undisclosed",
+  "geo_wb_income": null,
+  "geo_flag": null,
+  "geo_status": "non_geographic",
+  "geo_source": "none",
+  "geo_confidence": 0.0,
+  "geo_conflict": false,
+  "geo_tz_signature": null,
+  "geo_location_raw": "Earth",
+  "geo_as_of": null,
+  "geo_taxonomy_version": "2026.10.1",
   "is_top_50": false,
   "github_url": "https://github.com/nervana21",
   "commit_history": {

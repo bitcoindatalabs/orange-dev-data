@@ -1,6 +1,7 @@
 {
   "display_name": "Dev Random",
   "github_login_final": "devrandom",
+  "github_id_final": "107096",
   "delving_username_final": null,
   "uuid": "auto_dev_random",
   "badges": null,
@@ -45,8 +46,8 @@
   "avg_pr_ack_velocity_days": 7.32900462962963,
   "avg_concept_lead_time_days": 16.281296296296297,
   "review_reciprocity": 6.0,
-  "hybrid_score": 0.2818,
-  "p2016_hybrid_score": 0.1497,
+  "hybrid_score": 0.2816,
+  "p2016_hybrid_score": 0.1495,
   "modern_hybrid_score": 0.033,
   "impact_score": 16.0,
   "p2016_impact_score": 9.0,
@@ -57,19 +58,19 @@
   "delving_threads": 0.0,
   "ml_responses": 31.0,
   "delving_responses": 0.0,
-  "first_active": "2014-01-15T22:29:47",
-  "last_active": "2022-09-17T02:52:49",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Builder",
   "expertise_domains": [
     "Infrastructure",
     "Wallet"
   ],
   "expertise_by_source": {
-    "code": {
-      "Infrastructure": 1.0
-    },
     "discussion": {
       "Wallet": 1.0
+    },
+    "code": {
+      "Infrastructure": 1.0
     }
   },
   "expertise_domain_scores": {
@@ -87,14 +88,32 @@
   "is_researcher": true,
   "is_bip_author": false,
   "global_first_active": "2011-02-01T17:27:14",
-  "global_last_active": "2022-09-17T02:52:49",
+  "global_last_active": "2021-03-26T14:28:33",
   "github_location": null,
   "github_company": null,
   "github_bio": null,
   "github_twitter": null,
   "github_blog": "https://gitian.org/",
-  "github_followers": 256.0,
+  "github_followers": 261.0,
+  "github_profile_fetched_at": "2026-10-20T19:00:53Z",
   "activity_status": "Retired",
+  "geo_country_iso2": null,
+  "geo_country_iso3": null,
+  "geo_country_name": null,
+  "geo_sovereign_iso2": null,
+  "geo_m49_subregion": null,
+  "geo_macro_region": "Undisclosed",
+  "geo_un_macro_region": "Undisclosed",
+  "geo_wb_income": null,
+  "geo_flag": null,
+  "geo_status": "empty",
+  "geo_source": "none",
+  "geo_confidence": 0.0,
+  "geo_conflict": false,
+  "geo_tz_signature": null,
+  "geo_location_raw": null,
+  "geo_as_of": null,
+  "geo_taxonomy_version": "2026.10.1",
   "is_top_50": false,
   "github_url": "https://github.com/devrandom",
   "commit_history": {

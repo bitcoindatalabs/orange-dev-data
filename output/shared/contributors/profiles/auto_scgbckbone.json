@@ -1,6 +1,7 @@
 {
   "display_name": "scgbckbone",
   "github_login_final": "scgbckbone",
+  "github_id_final": "25349625",
   "delving_username_final": "scgbckbone",
   "uuid": "auto_scgbckbone",
   "badges": {
@@ -48,9 +49,9 @@
   "avg_pr_ack_velocity_days": 35.690280092592594,
   "avg_concept_lead_time_days": 6.639224537037037,
   "review_reciprocity": 1.875,
-  "hybrid_score": 0.2302,
+  "hybrid_score": 0.2301,
   "p2016_hybrid_score": 0.2327,
-  "modern_hybrid_score": 0.2282,
+  "modern_hybrid_score": 0.2284,
   "impact_score": 13.0,
   "p2016_impact_score": 13.0,
   "modern_impact_score": 13.0,
@@ -60,8 +61,8 @@
   "delving_threads": 2.0,
   "ml_responses": 0.0,
   "delving_responses": 1.0,
-  "first_active": null,
-  "last_active": null,
+  "first_active": "2025-07-16T08:34:31.869000",
+  "last_active": "2025-07-21T12:55:15.750000",
   "dev_type": "Builder",
   "expertise_domains": [
     "Wallet",
@@ -69,21 +70,21 @@
     "Script"
   ],
   "expertise_by_source": {
+    "discussion": {
+      "Script": 0.51,
+      "Mining": 0.245,
+      "Cryptography": 0.245
+    },
     "code": {
       "Infrastructure": 0.375,
       "Wallet": 0.625
-    },
-    "discussion": {
-      "Mining": 0.245,
-      "Script": 0.51,
-      "Cryptography": 0.245
     }
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.225,
-    "Mining": 0.098,
-    "Wallet": 0.375,
     "Script": 0.204,
+    "Wallet": 0.375,
+    "Mining": 0.098,
     "Cryptography": 0.098
   },
   "p2016_posts": 3.0,
@@ -103,8 +104,26 @@
   "github_bio": null,
   "github_twitter": null,
   "github_blog": null,
-  "github_followers": 35.0,
+  "github_followers": 41.0,
+  "github_profile_fetched_at": "2026-10-20T19:05:30Z",
   "activity_status": "Rising",
+  "geo_country_iso2": "US",
+  "geo_country_iso3": "USA",
+  "geo_country_name": "USA",
+  "geo_sovereign_iso2": "US",
+  "geo_m49_subregion": "Northern America",
+  "geo_macro_region": "North America",
+  "geo_un_macro_region": "North America",
+  "geo_wb_income": "High",
+  "geo_flag": "🇺🇸",
+  "geo_status": "resolved",
+  "geo_source": "github_location",
+  "geo_confidence": 0.85,
+  "geo_conflict": false,
+  "geo_tz_signature": null,
+  "geo_location_raw": "ASU",
+  "geo_as_of": "2026-10-20",
+  "geo_taxonomy_version": "2026.10.1",
   "is_top_50": false,
   "github_url": "https://github.com/scgbckbone",
   "delving_url": "https://delvingbitcoin.org/u/scgbckbone",

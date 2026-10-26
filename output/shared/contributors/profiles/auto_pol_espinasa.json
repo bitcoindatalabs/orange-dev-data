@@ -1,6 +1,7 @@
 {
   "display_name": "Pol Espinasa",
   "github_login_final": "polespinasa",
+  "github_id_final": "57642229",
   "delving_username_final": "polespinasa",
   "uuid": "auto_pol_espinasa",
   "badges": {
@@ -58,8 +59,8 @@
   "avg_concept_lead_time_days": 49.27462239583333,
   "review_reciprocity": 4.448275862068965,
   "hybrid_score": 0.7702,
-  "p2016_hybrid_score": 0.7732,
-  "modern_hybrid_score": 0.8076,
+  "p2016_hybrid_score": 0.7731,
+  "modern_hybrid_score": 0.8087,
   "impact_score": 37.0,
   "p2016_impact_score": 37.0,
   "modern_impact_score": 38.0,
@@ -69,8 +70,8 @@
   "delving_threads": 2.0,
   "ml_responses": 2.0,
   "delving_responses": 1.0,
-  "first_active": null,
-  "last_active": "2026-06-02T11:48:56",
+  "first_active": "2025-11-21T21:50:29.998000",
+  "last_active": null,
   "dev_type": "Protocol Designer",
   "expertise_domains": [
     "Infrastructure",
@@ -78,17 +79,17 @@
     "Wallet"
   ],
   "expertise_by_source": {
+    "discussion": {
+      "Network": 0.68,
+      "Mining": 0.32
+    },
     "code": {
       "Infrastructure": 0.643,
       "Wallet": 0.311,
-      "Script": 0.005,
-      "Consensus": 0.024,
       "Network": 0.009,
-      "Mempool": 0.008
-    },
-    "discussion": {
-      "Mining": 0.32,
-      "Network": 0.68
+      "Mempool": 0.008,
+      "Script": 0.005,
+      "Consensus": 0.024
     },
     "bips": {
       "Infrastructure": 1.0
@@ -96,9 +97,9 @@
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.6929,
-    "Mining": 0.064,
+    "Network": 0.1387,
     "Wallet": 0.0933,
-    "Network": 0.1387
+    "Mining": 0.064
   },
   "p2016_posts": 6.0,
   "modern_posts": 6.0,
@@ -114,11 +115,29 @@
   "global_last_active": "2026-10-15T06:33:54",
   "github_location": "BCN",
   "github_company": "UAB",
-  "github_bio": "PhD student researching Bitcoin and the Lightning Network ⚡ at UAB |||\r\n\r\n\r\nPGP: 2847 0907 B40B F26D",
+  "github_bio": "PhD student researching Bitcoin and the Lightning Network ⚡ at UAB ||||  \r\n\r\n\r\nContributing to Bitcoin Core ||||\r\n\r\n\r\nPGP: 2847 0907 B40B F26D",
   "github_twitter": "sliv3r__",
   "github_blog": "https://www.pesvi.xyz",
-  "github_followers": 74.0,
+  "github_followers": 89.0,
+  "github_profile_fetched_at": "2026-10-20T19:04:38Z",
   "activity_status": "Active",
+  "geo_country_iso2": "ES",
+  "geo_country_iso3": "ESP",
+  "geo_country_name": "Spain",
+  "geo_sovereign_iso2": "ES",
+  "geo_m49_subregion": "Southern Europe",
+  "geo_macro_region": "Europe",
+  "geo_un_macro_region": "Europe",
+  "geo_wb_income": "High",
+  "geo_flag": "🇪🇸",
+  "geo_status": "resolved",
+  "geo_source": "github_location",
+  "geo_confidence": 0.85,
+  "geo_conflict": false,
+  "geo_tz_signature": null,
+  "geo_location_raw": "BCN",
+  "geo_as_of": "2026-10-20",
+  "geo_taxonomy_version": "2026.10.1",
   "is_top_50": false,
   "github_url": "https://github.com/polespinasa",
   "delving_url": "https://delvingbitcoin.org/u/polespinasa",

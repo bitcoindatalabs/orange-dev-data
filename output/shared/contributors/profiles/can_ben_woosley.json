@@ -1,6 +1,7 @@
 {
   "display_name": "Ben Woosley",
   "github_login_final": "Empact",
+  "github_id_final": "5470",
   "delving_username_final": null,
   "uuid": "can_ben_woosley",
   "badges": {
@@ -54,7 +55,7 @@
   "avg_concept_lead_time_days": 14.48161128917379,
   "review_reciprocity": 3.4245810055865924,
   "hybrid_score": 0.5315,
-  "p2016_hybrid_score": 0.5341,
+  "p2016_hybrid_score": 0.534,
   "modern_hybrid_score": 0.2641,
   "impact_score": 27.0,
   "p2016_impact_score": 27.0,
@@ -65,8 +66,8 @@
   "delving_threads": 0.0,
   "ml_responses": 2.0,
   "delving_responses": 0.0,
-  "first_active": "2021-02-23T17:14:33",
-  "last_active": "2021-04-01T13:05:28",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Builder",
   "expertise_domains": [
     "Consensus",
@@ -74,24 +75,24 @@
     "Wallet"
   ],
   "expertise_by_source": {
+    "discussion": {
+      "Consensus": 1.0
+    },
     "code": {
       "Infrastructure": 0.664,
       "Wallet": 0.176,
-      "Script": 0.075,
-      "Consensus": 0.036,
       "Network": 0.039,
-      "Mempool": 0.01
-    },
-    "discussion": {
-      "Consensus": 1.0
+      "Mempool": 0.01,
+      "Script": 0.075,
+      "Consensus": 0.036
     }
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.3984,
+    "Script": 0.045,
     "Consensus": 0.4216,
-    "Wallet": 0.1056,
     "Network": 0.0234,
-    "Script": 0.045
+    "Wallet": 0.1056
   },
   "p2016_posts": 2.0,
   "modern_posts": 0.0,
@@ -111,7 +112,25 @@
   "github_twitter": "Empact",
   "github_blog": null,
   "github_followers": 643.0,
+  "github_profile_fetched_at": "2026-10-20T19:01:16Z",
   "activity_status": "Active",
+  "geo_country_iso2": "US",
+  "geo_country_iso3": "USA",
+  "geo_country_name": "USA",
+  "geo_sovereign_iso2": "US",
+  "geo_m49_subregion": "Northern America",
+  "geo_macro_region": "North America",
+  "geo_un_macro_region": "North America",
+  "geo_wb_income": "High",
+  "geo_flag": "🇺🇸",
+  "geo_status": "resolved",
+  "geo_source": "github_location",
+  "geo_confidence": 0.9,
+  "geo_conflict": false,
+  "geo_tz_signature": null,
+  "geo_location_raw": "Austin, TX",
+  "geo_as_of": "2026-10-20",
+  "geo_taxonomy_version": "2026.10.1",
   "is_top_50": false,
   "github_url": "https://github.com/Empact",
   "commit_history": {

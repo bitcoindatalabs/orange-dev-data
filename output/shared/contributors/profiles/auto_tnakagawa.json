@@ -1,6 +1,7 @@
 {
   "display_name": "tnakagawa",
   "github_login_final": "tnakagawa",
+  "github_id_final": "1720070",
   "delving_username_final": null,
   "uuid": "auto_tnakagawa",
   "badges": null,
@@ -57,8 +58,8 @@
   "delving_threads": 0.0,
   "ml_responses": 4.0,
   "delving_responses": 0.0,
-  "first_active": "2018-08-07T01:35:58",
-  "last_active": "2021-01-17T23:59:05",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Builder",
   "expertise_domains": [
     "Infrastructure",
@@ -66,12 +67,12 @@
     "Wallet"
   ],
   "expertise_by_source": {
-    "code": {
-      "Infrastructure": 1.0
-    },
     "discussion": {
       "Consensus": 0.62,
       "Wallet": 0.38
+    },
+    "code": {
+      "Infrastructure": 1.0
     }
   },
   "expertise_domain_scores": {
@@ -90,14 +91,32 @@
   "is_researcher": true,
   "is_bip_author": false,
   "global_first_active": "2017-06-24T13:40:17",
-  "global_last_active": "2021-01-17T23:59:05",
+  "global_last_active": "2017-06-24T13:40:17",
   "github_location": "japan",
   "github_company": null,
   "github_bio": null,
   "github_twitter": null,
   "github_blog": null,
   "github_followers": 24.0,
+  "github_profile_fetched_at": "2026-10-20T19:08:39Z",
   "activity_status": "Active",
+  "geo_country_iso2": "JP",
+  "geo_country_iso3": "JPN",
+  "geo_country_name": "Japan",
+  "geo_sovereign_iso2": "JP",
+  "geo_m49_subregion": "Eastern Asia",
+  "geo_macro_region": "Asia Pacific",
+  "geo_un_macro_region": "Asia",
+  "geo_wb_income": "High",
+  "geo_flag": "🇯🇵",
+  "geo_status": "resolved",
+  "geo_source": "github_location",
+  "geo_confidence": 0.95,
+  "geo_conflict": false,
+  "geo_tz_signature": null,
+  "geo_location_raw": "japan",
+  "geo_as_of": "2026-10-20",
+  "geo_taxonomy_version": "2026.10.1",
   "is_top_50": false,
   "github_url": "https://github.com/tnakagawa",
   "commit_history": {

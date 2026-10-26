@@ -1,6 +1,7 @@
 {
-  "display_name": "pyth",
+  "display_name": "Pyth",
   "github_login_final": null,
+  "github_id_final": null,
   "delving_username_final": "pyth",
   "uuid": "auto_pyth",
   "badges": {
@@ -36,11 +37,11 @@
   "p2016_authored_commits": 0.0,
   "modern_authored_commits": 0.0,
   "co_authored_commits": 0.0,
-  "bips_authored": 1.0,
-  "p2016_bips_authored": 1.0,
-  "modern_bips_authored": 1.0,
+  "bips_authored": 2.0,
+  "p2016_bips_authored": 2.0,
+  "modern_bips_authored": 2.0,
   "first_bip_date": "2025-08-22T04:59:20",
-  "last_bip_date": "2025-08-22T04:59:20",
+  "last_bip_date": "2026-10-24T10:11:13",
   "avg_review_latency_days": null,
   "reviews_count": 0.0,
   "avg_approval_latency_days": null,
@@ -57,20 +58,20 @@
   "avg_pr_ack_velocity_days": null,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": null,
-  "hybrid_score": 0.3607,
-  "p2016_hybrid_score": 0.3664,
-  "modern_hybrid_score": 0.4025,
-  "impact_score": 19.0,
-  "p2016_impact_score": 20.0,
-  "modern_impact_score": 21.0,
+  "hybrid_score": 0.5654,
+  "p2016_hybrid_score": 0.5711,
+  "modern_hybrid_score": 0.6107,
+  "impact_score": 29.0,
+  "p2016_impact_score": 29.0,
+  "modern_impact_score": 31.0,
   "threads_started": 14.0,
   "replies_sent": 15.0,
   "ml_threads": 3.0,
   "delving_threads": 11.0,
   "ml_responses": 2.0,
   "delving_responses": 13.0,
-  "first_active": null,
-  "last_active": null,
+  "first_active": "2025-07-10T04:18:41.418000",
+  "last_active": "2026-10-01T01:13:48.944000",
   "dev_type": "Participant",
   "expertise_domains": [
     "Wallet",
@@ -79,18 +80,18 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Mining": 0.222,
       "Script": 0.356,
-      "Wallet": 0.422
+      "Wallet": 0.422,
+      "Mining": 0.222
     },
     "bips": {
       "Wallet": 1.0
     }
   },
   "expertise_domain_scores": {
-    "Mining": 0.0634,
+    "Script": 0.1017,
     "Wallet": 0.8349,
-    "Script": 0.1017
+    "Mining": 0.0634
   },
   "p2016_posts": 29.0,
   "modern_posts": 29.0,
@@ -102,15 +103,33 @@
   "is_reviewer": false,
   "is_researcher": true,
   "is_bip_author": true,
-  "global_first_active": "2025-08-22T04:59:20",
-  "global_last_active": "2025-08-22T04:59:20",
+  "global_first_active": "2025-07-10T04:18:41.418000",
+  "global_last_active": "2026-10-24T10:11:13",
   "github_location": null,
   "github_company": null,
   "github_bio": null,
   "github_twitter": null,
   "github_blog": null,
   "github_followers": null,
+  "github_profile_fetched_at": null,
   "activity_status": "Active",
+  "geo_country_iso2": null,
+  "geo_country_iso3": null,
+  "geo_country_name": null,
+  "geo_sovereign_iso2": null,
+  "geo_m49_subregion": null,
+  "geo_macro_region": "Undisclosed",
+  "geo_un_macro_region": "Undisclosed",
+  "geo_wb_income": null,
+  "geo_flag": null,
+  "geo_status": "empty",
+  "geo_source": "none",
+  "geo_confidence": 0.0,
+  "geo_conflict": false,
+  "geo_tz_signature": null,
+  "geo_location_raw": null,
+  "geo_as_of": null,
+  "geo_taxonomy_version": "2026.10.1",
   "is_top_50": false,
   "delving_url": "https://delvingbitcoin.org/u/pyth",
   "bip_list": [
@@ -120,6 +139,13 @@
       "status": "Draft",
       "theme": "Wallet & Keys",
       "link": "https://github.com/bitcoin/bips/blob/master/bip-0138.mediawiki"
+    },
+    {
+      "number": 139,
+      "title": "Wallet Metadata Export Format",
+      "status": "Draft",
+      "theme": "Wallet & Keys",
+      "link": "https://github.com/bitcoin/bips/blob/master/bip-0139.mediawiki"
     }
   ],
   "first_message": {

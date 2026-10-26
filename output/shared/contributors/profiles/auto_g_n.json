@@ -1,6 +1,7 @@
 {
   "display_name": "�g��\f ��-n\u000b�",
   "github_login_final": "karelbilek",
+  "github_id_final": "104945",
   "delving_username_final": null,
   "uuid": "auto_g_n",
   "badges": null,
@@ -57,8 +58,8 @@
   "delving_threads": 0.0,
   "ml_responses": 1.0,
   "delving_responses": 0.0,
-  "first_active": "2014-06-17T13:25:39",
-  "last_active": "2014-06-17T13:25:39",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Builder",
   "expertise_domains": [
     "Infrastructure",
@@ -66,18 +67,18 @@
     "Wallet"
   ],
   "expertise_by_source": {
+    "discussion": {
+      "Mining": 1.0
+    },
     "code": {
       "Infrastructure": 0.89,
       "Wallet": 0.11
-    },
-    "discussion": {
-      "Mining": 1.0
     }
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.534,
-    "Mining": 0.4,
-    "Wallet": 0.066
+    "Wallet": 0.066,
+    "Mining": 0.4
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,
@@ -89,15 +90,33 @@
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": false,
-  "global_first_active": "2014-06-17T13:25:39",
+  "global_first_active": "2017-03-17T04:58:01",
   "global_last_active": "2018-12-06T16:49:33",
   "github_location": "Prague",
   "github_company": "CDN77",
   "github_bio": null,
   "github_twitter": null,
   "github_blog": "https://karelbilek.com",
-  "github_followers": 132.0,
+  "github_followers": 133.0,
+  "github_profile_fetched_at": "2026-10-20T19:02:53Z",
   "activity_status": "Active",
+  "geo_country_iso2": "CZ",
+  "geo_country_iso3": "CZE",
+  "geo_country_name": "Czechia",
+  "geo_sovereign_iso2": "CZ",
+  "geo_m49_subregion": "Eastern Europe",
+  "geo_macro_region": "Europe",
+  "geo_un_macro_region": "Europe",
+  "geo_wb_income": "High",
+  "geo_flag": "🇨🇿",
+  "geo_status": "resolved",
+  "geo_source": "github_location",
+  "geo_confidence": 0.85,
+  "geo_conflict": false,
+  "geo_tz_signature": null,
+  "geo_location_raw": "Prague",
+  "geo_as_of": "2026-10-20",
+  "geo_taxonomy_version": "2026.10.1",
   "is_top_50": false,
   "github_url": "https://github.com/karelbilek",
   "commit_history": {

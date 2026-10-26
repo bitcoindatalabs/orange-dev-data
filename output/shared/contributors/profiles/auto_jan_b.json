@@ -1,6 +1,7 @@
 {
   "display_name": "Jan B",
   "github_login_final": "janb84",
+  "github_id_final": "608446",
   "delving_username_final": "janb84",
   "uuid": "auto_jan_b",
   "badges": null,
@@ -57,27 +58,29 @@
   "delving_threads": 2.0,
   "ml_responses": 0.0,
   "delving_responses": 2.0,
-  "first_active": null,
-  "last_active": null,
+  "first_active": "2026-02-15T14:59:35.584000",
+  "last_active": "2026-05-12T14:35:09.283000",
   "dev_type": "Builder",
   "expertise_domains": [
     "Infrastructure",
     "Mempool",
-    "Mining"
+    "Network"
   ],
   "expertise_by_source": {
+    "discussion": {
+      "Network": 0.22,
+      "Mempool": 0.671,
+      "Mining": 0.11
+    },
     "code": {
       "Infrastructure": 1.0
-    },
-    "discussion": {
-      "Mining": 0.247,
-      "Mempool": 0.753
     }
   },
   "expertise_domain_scores": {
-    "Infrastructure": 0.6,
-    "Mining": 0.0988,
-    "Mempool": 0.3012
+    "Infrastructure": 0.5998,
+    "Network": 0.088,
+    "Mempool": 0.2683,
+    "Mining": 0.044
   },
   "p2016_posts": 4.0,
   "modern_posts": 4.0,
@@ -96,8 +99,26 @@
   "github_bio": null,
   "github_twitter": null,
   "github_blog": "janb84.dev",
-  "github_followers": 24.0,
+  "github_followers": 27.0,
+  "github_profile_fetched_at": "2026-10-20T19:02:24Z",
   "activity_status": "Active",
+  "geo_country_iso2": "NL",
+  "geo_country_iso3": "NLD",
+  "geo_country_name": "Netherlands",
+  "geo_sovereign_iso2": "NL",
+  "geo_m49_subregion": "Western Europe",
+  "geo_macro_region": "Europe",
+  "geo_un_macro_region": "Europe",
+  "geo_wb_income": "High",
+  "geo_flag": "🇳🇱",
+  "geo_status": "resolved",
+  "geo_source": "github_location",
+  "geo_confidence": 0.95,
+  "geo_conflict": false,
+  "geo_tz_signature": null,
+  "geo_location_raw": "The netherlands",
+  "geo_as_of": "2026-10-20",
+  "geo_taxonomy_version": "2026.10.1",
   "is_top_50": false,
   "github_url": "https://github.com/janb84",
   "delving_url": "https://delvingbitcoin.org/u/janb84",
@@ -126,7 +147,9 @@
     "2026": {
       "core-dev": 1,
       "mempool-fees": 3,
-      "mining": 1
+      "mining": 1,
+      "p2p-network": 1,
+      "payment-protocol": 1
     }
   }
 }

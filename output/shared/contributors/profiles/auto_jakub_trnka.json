@@ -1,6 +1,7 @@
 {
   "display_name": "Jakub Trnka",
   "github_login_final": "jakubtrnka",
+  "github_id_final": "13293315",
   "delving_username_final": null,
   "uuid": "auto_jakub_trnka",
   "badges": null,
@@ -45,8 +46,8 @@
   "avg_pr_ack_velocity_days": 0.052222222222222225,
   "avg_concept_lead_time_days": 0.052222222222222225,
   "review_reciprocity": 0.0,
-  "hybrid_score": 0.1063,
-  "p2016_hybrid_score": 0.1226,
+  "hybrid_score": 0.1061,
+  "p2016_hybrid_score": 0.1223,
   "modern_hybrid_score": 0.0728,
   "impact_score": 6.0,
   "p2016_impact_score": 7.0,
@@ -57,8 +58,8 @@
   "delving_threads": 0.0,
   "ml_responses": 1.0,
   "delving_responses": 0.0,
-  "first_active": "2018-07-12T19:27:31",
-  "last_active": "2018-07-12T19:27:31",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Builder",
   "expertise_domains": [
     "Infrastructure",
@@ -66,18 +67,18 @@
     "Network"
   ],
   "expertise_by_source": {
+    "discussion": {
+      "Network": 0.33,
+      "Mining": 0.67
+    },
     "code": {
       "Infrastructure": 1.0
-    },
-    "discussion": {
-      "Mining": 0.67,
-      "Network": 0.33
     }
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.6,
-    "Mining": 0.268,
-    "Network": 0.132
+    "Network": 0.132,
+    "Mining": 0.268
   },
   "p2016_posts": 1.0,
   "modern_posts": 0.0,
@@ -89,7 +90,7 @@
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": false,
-  "global_first_active": "2018-07-12T19:27:31",
+  "global_first_active": "2026-09-14T12:11:01",
   "global_last_active": "2026-09-14T12:11:01",
   "github_location": null,
   "github_company": "Braiins",
@@ -97,7 +98,25 @@
   "github_twitter": null,
   "github_blog": null,
   "github_followers": 21.0,
-  "activity_status": "Active",
+  "github_profile_fetched_at": "2026-10-20T19:07:51Z",
+  "activity_status": "New",
+  "geo_country_iso2": "CZ",
+  "geo_country_iso3": "CZE",
+  "geo_country_name": "Czechia",
+  "geo_sovereign_iso2": "CZ",
+  "geo_m49_subregion": "Eastern Europe",
+  "geo_macro_region": "Europe",
+  "geo_un_macro_region": "Europe",
+  "geo_wb_income": "High",
+  "geo_flag": "🇨🇿",
+  "geo_status": "resolved",
+  "geo_source": "email_tld",
+  "geo_confidence": 0.55,
+  "geo_conflict": false,
+  "geo_tz_signature": null,
+  "geo_location_raw": null,
+  "geo_as_of": "2026-10-24",
+  "geo_taxonomy_version": "2026.10.1",
   "is_top_50": false,
   "github_url": "https://github.com/jakubtrnka",
   "commit_history": {

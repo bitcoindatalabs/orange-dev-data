@@ -1,6 +1,7 @@
 {
   "display_name": "Tobin C. Harding",
   "github_login_final": "tcharding",
+  "github_id_final": "12626037",
   "delving_username_final": null,
   "uuid": "auto_tobin_c_harding",
   "badges": null,
@@ -57,8 +58,8 @@
   "delving_threads": 0.0,
   "ml_responses": 2.0,
   "delving_responses": 0.0,
-  "first_active": "2022-04-05T17:55:18",
-  "last_active": "2024-09-02T18:18:05",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Builder",
   "expertise_domains": [
     "Infrastructure",
@@ -66,12 +67,12 @@
     "Consensus"
   ],
   "expertise_by_source": {
-    "code": {
-      "Infrastructure": 1.0
-    },
     "discussion": {
       "Consensus": 0.34,
       "Wallet": 0.66
+    },
+    "code": {
+      "Infrastructure": 1.0
     }
   },
   "expertise_domain_scores": {
@@ -96,8 +97,26 @@
   "github_bio": "Journeyman Linux Programmer",
   "github_twitter": null,
   "github_blog": "http://tobin.cc",
-  "github_followers": 267.0,
+  "github_followers": 274.0,
+  "github_profile_fetched_at": "2026-10-20T19:06:05Z",
   "activity_status": "Active",
+  "geo_country_iso2": "AU",
+  "geo_country_iso3": "AUS",
+  "geo_country_name": "Australia",
+  "geo_sovereign_iso2": "AU",
+  "geo_m49_subregion": "Australia and New Zealand",
+  "geo_macro_region": "Asia Pacific",
+  "geo_un_macro_region": "Oceania",
+  "geo_wb_income": "High",
+  "geo_flag": "🇦🇺",
+  "geo_status": "resolved",
+  "geo_source": "github_location",
+  "geo_confidence": 0.95,
+  "geo_conflict": false,
+  "geo_tz_signature": null,
+  "geo_location_raw": "Sydney, Australia.",
+  "geo_as_of": "2026-10-20",
+  "geo_taxonomy_version": "2026.10.1",
   "is_top_50": false,
   "github_url": "https://github.com/tcharding",
   "commit_history": {

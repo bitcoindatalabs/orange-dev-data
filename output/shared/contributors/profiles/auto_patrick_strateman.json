@@ -1,6 +1,7 @@
 {
   "display_name": "Patrick Strateman",
   "github_login_final": "pstratem",
+  "github_id_final": "620611",
   "delving_username_final": null,
   "uuid": "auto_patrick_strateman",
   "badges": {
@@ -57,10 +58,10 @@
   "avg_pr_ack_velocity_days": 5.0146055480884115,
   "avg_concept_lead_time_days": 6.917857434640522,
   "review_reciprocity": 1.2391304347826086,
-  "hybrid_score": 0.8376,
-  "p2016_hybrid_score": 0.4116,
+  "hybrid_score": 0.8375,
+  "p2016_hybrid_score": 0.4115,
   "modern_hybrid_score": 0.1396,
-  "impact_score": 40.0,
+  "impact_score": 39.0,
   "p2016_impact_score": 22.0,
   "modern_impact_score": 8.0,
   "threads_started": 0.0,
@@ -69,8 +70,8 @@
   "delving_threads": 0.0,
   "ml_responses": 28.0,
   "delving_responses": 0.0,
-  "first_active": "2013-06-05T20:17:30",
-  "last_active": "2016-02-07T13:03:54",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Protocol Designer",
   "expertise_domains": [
     "Network",
@@ -78,15 +79,15 @@
     "Consensus"
   ],
   "expertise_by_source": {
+    "discussion": {
+      "L2": 0.5,
+      "Consensus": 0.5
+    },
     "code": {
       "Infrastructure": 0.418,
       "Wallet": 0.172,
-      "Script": 0.034,
-      "Network": 0.375
-    },
-    "discussion": {
-      "Consensus": 0.5,
-      "L2": 0.5
+      "Network": 0.375,
+      "Script": 0.034
     },
     "bips": {
       "Network": 1.0
@@ -94,11 +95,11 @@
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.1254,
-    "Consensus": 0.1,
+    "Script": 0.0102,
     "L2": 0.1,
-    "Wallet": 0.0516,
+    "Consensus": 0.1,
     "Network": 0.6127,
-    "Script": 0.0102
+    "Wallet": 0.0516
   },
   "p2016_posts": 1.0,
   "modern_posts": 0.0,
@@ -112,13 +113,31 @@
   "is_bip_author": true,
   "global_first_active": "2011-11-13T14:56:30",
   "global_last_active": "2025-08-01T22:07:36",
-  "github_location": "San Francisco",
+  "github_location": null,
   "github_company": null,
   "github_bio": null,
   "github_twitter": null,
-  "github_blog": "https://strateman.ninja/",
-  "github_followers": 80.0,
+  "github_blog": null,
+  "github_followers": 0.0,
+  "github_profile_fetched_at": "2026-10-20T19:04:45Z",
   "activity_status": "Active",
+  "geo_country_iso2": null,
+  "geo_country_iso3": null,
+  "geo_country_name": null,
+  "geo_sovereign_iso2": null,
+  "geo_m49_subregion": null,
+  "geo_macro_region": "Undisclosed",
+  "geo_un_macro_region": "Undisclosed",
+  "geo_wb_income": null,
+  "geo_flag": null,
+  "geo_status": "empty",
+  "geo_source": "none",
+  "geo_confidence": 0.0,
+  "geo_conflict": false,
+  "geo_tz_signature": null,
+  "geo_location_raw": null,
+  "geo_as_of": null,
+  "geo_taxonomy_version": "2026.10.1",
   "is_top_50": false,
   "github_url": "https://github.com/pstratem",
   "commit_history": {

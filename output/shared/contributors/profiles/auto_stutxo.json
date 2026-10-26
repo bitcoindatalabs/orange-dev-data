@@ -1,6 +1,7 @@
 {
   "display_name": "stutxo",
   "github_login_final": "stutxo",
+  "github_id_final": "70952638",
   "delving_username_final": null,
   "uuid": "auto_stutxo",
   "badges": null,
@@ -46,8 +47,8 @@
   "avg_concept_lead_time_days": 0.2748611111111111,
   "review_reciprocity": 0.6,
   "hybrid_score": 0.1141,
-  "p2016_hybrid_score": 0.1177,
-  "modern_hybrid_score": 0.1361,
+  "p2016_hybrid_score": 0.1176,
+  "modern_hybrid_score": 0.1367,
   "impact_score": 7.0,
   "p2016_impact_score": 7.0,
   "modern_impact_score": 8.0,
@@ -57,8 +58,8 @@
   "delving_threads": 0.0,
   "ml_responses": 1.0,
   "delving_responses": 0.0,
-  "first_active": "2024-12-17T18:25:43",
-  "last_active": "2024-12-30T18:57:15",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Builder",
   "expertise_domains": [
     "Infrastructure",
@@ -66,18 +67,18 @@
     "Script"
   ],
   "expertise_by_source": {
+    "discussion": {
+      "Script": 0.194,
+      "Mempool": 0.806
+    },
     "code": {
       "Infrastructure": 1.0
-    },
-    "discussion": {
-      "Mempool": 0.806,
-      "Script": 0.194
     }
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.6,
-    "Mempool": 0.3224,
-    "Script": 0.0776
+    "Script": 0.0776,
+    "Mempool": 0.3224
   },
   "p2016_posts": 2.0,
   "modern_posts": 2.0,
@@ -89,15 +90,33 @@
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": false,
-  "global_first_active": "2024-12-17T18:25:43",
+  "global_first_active": "2025-07-14T09:08:00",
   "global_last_active": "2026-04-01T19:07:26",
   "github_location": null,
-  "github_company": "@judica-org",
-  "github_bio": null,
+  "github_company": null,
+  "github_bio": "pgp:2985A7C418D77EB6EEEF608D4B57B009340AEBD2",
   "github_twitter": "stutxo",
   "github_blog": null,
-  "github_followers": 61.0,
+  "github_followers": 67.0,
+  "github_profile_fetched_at": "2026-10-20T19:05:58Z",
   "activity_status": "Active",
+  "geo_country_iso2": null,
+  "geo_country_iso3": null,
+  "geo_country_name": null,
+  "geo_sovereign_iso2": null,
+  "geo_m49_subregion": null,
+  "geo_macro_region": "Undisclosed",
+  "geo_un_macro_region": "Undisclosed",
+  "geo_wb_income": null,
+  "geo_flag": null,
+  "geo_status": "empty",
+  "geo_source": "none",
+  "geo_confidence": 0.0,
+  "geo_conflict": false,
+  "geo_tz_signature": null,
+  "geo_location_raw": null,
+  "geo_as_of": null,
+  "geo_taxonomy_version": "2026.10.1",
   "is_top_50": false,
   "github_url": "https://github.com/stutxo",
   "commit_history": {

@@ -1,6 +1,7 @@
 {
   "display_name": "Dimitris Tsapakidis",
   "github_login_final": "dimitris-t",
+  "github_id_final": "8949706",
   "delving_username_final": null,
   "uuid": "auto_dimitris_tsapakidis",
   "badges": null,
@@ -69,16 +70,16 @@
     "code": {
       "Infrastructure": 0.533,
       "Wallet": 0.367,
-      "Consensus": 0.033,
+      "Cryptography": 0.033,
       "Mempool": 0.033,
-      "Cryptography": 0.033
+      "Consensus": 0.033
     }
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.5335,
     "Consensus": 0.033,
-    "Mempool": 0.033,
     "Wallet": 0.3674,
+    "Mempool": 0.033,
     "Cryptography": 0.033
   },
   "p2016_posts": 0.0,
@@ -98,8 +99,26 @@
   "github_bio": null,
   "github_twitter": null,
   "github_blog": "https://linkedin.com/in/dimitris",
-  "github_followers": 40.0,
+  "github_followers": 41.0,
+  "github_profile_fetched_at": "2026-10-20T19:00:56Z",
   "activity_status": "Active",
+  "geo_country_iso2": null,
+  "geo_country_iso3": null,
+  "geo_country_name": null,
+  "geo_sovereign_iso2": null,
+  "geo_m49_subregion": null,
+  "geo_macro_region": "Undisclosed",
+  "geo_un_macro_region": "Undisclosed",
+  "geo_wb_income": null,
+  "geo_flag": null,
+  "geo_status": "empty",
+  "geo_source": "none",
+  "geo_confidence": 0.0,
+  "geo_conflict": false,
+  "geo_tz_signature": null,
+  "geo_location_raw": null,
+  "geo_as_of": null,
+  "geo_taxonomy_version": "2026.10.1",
   "is_top_50": false,
   "github_url": "https://github.com/dimitris-t",
   "commit_history": {

@@ -1,6 +1,7 @@
 {
-  "display_name": "elias rohrer",
+  "display_name": "Elias Rohrer",
   "github_login_final": "tnull",
+  "github_id_final": "521467",
   "delving_username_final": "tnull",
   "uuid": "auto_elias_rohrer",
   "badges": null,
@@ -45,7 +46,7 @@
   "avg_pr_ack_velocity_days": 0.3764236111111111,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": 0.0,
-  "hybrid_score": 0.0797,
+  "hybrid_score": 0.0796,
   "p2016_hybrid_score": 0.0432,
   "modern_hybrid_score": 0.033,
   "impact_score": 5.0,
@@ -57,8 +58,8 @@
   "delving_threads": 3.0,
   "ml_responses": 1.0,
   "delving_responses": 5.0,
-  "first_active": "2022-06-10T01:44:05",
-  "last_active": null,
+  "first_active": null,
+  "last_active": "2026-04-27T09:57:20.545000",
   "dev_type": "Builder",
   "expertise_domains": [
     "Consensus",
@@ -66,17 +67,17 @@
     "Privacy"
   ],
   "expertise_by_source": {
-    "code": {
-      "Consensus": 1.0
-    },
     "discussion": {
       "L2": 0.713,
       "Privacy": 0.287
+    },
+    "code": {
+      "Consensus": 1.0
     }
   },
   "expertise_domain_scores": {
-    "Consensus": 0.6,
     "L2": 0.2852,
+    "Consensus": 0.6,
     "Privacy": 0.1148
   },
   "p2016_posts": 9.0,
@@ -90,14 +91,32 @@
   "is_researcher": true,
   "is_bip_author": false,
   "global_first_active": "2015-12-17T09:40:22",
-  "global_last_active": "2015-12-17T09:40:22",
+  "global_last_active": "2026-04-27T09:57:20.545000",
   "github_location": null,
   "github_company": null,
   "github_bio": null,
   "github_twitter": "_tnull",
   "github_blog": null,
   "github_followers": 0.0,
+  "github_profile_fetched_at": "2026-10-20T19:06:20Z",
   "activity_status": "Active",
+  "geo_country_iso2": "DE",
+  "geo_country_iso3": "DEU",
+  "geo_country_name": "Germany",
+  "geo_sovereign_iso2": "DE",
+  "geo_m49_subregion": "Western Europe",
+  "geo_macro_region": "Europe",
+  "geo_un_macro_region": "Europe",
+  "geo_wb_income": "High",
+  "geo_flag": "🇩🇪",
+  "geo_status": "resolved",
+  "geo_source": "email_tld",
+  "geo_confidence": 0.55,
+  "geo_conflict": false,
+  "geo_tz_signature": null,
+  "geo_location_raw": null,
+  "geo_as_of": "2026-10-24",
+  "geo_taxonomy_version": "2026.10.1",
   "is_top_50": false,
   "github_url": "https://github.com/tnull",
   "delving_url": "https://delvingbitcoin.org/u/tnull",

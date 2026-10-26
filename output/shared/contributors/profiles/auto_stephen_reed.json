@@ -1,6 +1,7 @@
 {
   "display_name": "Stephen Reed",
   "github_login_final": "StephenLReed",
+  "github_id_final": "3487363",
   "delving_username_final": null,
   "uuid": "auto_stephen_reed",
   "badges": null,
@@ -57,8 +58,8 @@
   "delving_threads": 0.0,
   "ml_responses": 1.0,
   "delving_responses": 0.0,
-  "first_active": "2014-04-24T18:32:15",
-  "last_active": "2015-03-04T23:06:15",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Participant",
   "expertise_domains": [
     "Mining",
@@ -66,13 +67,13 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Mining": 0.718,
-      "L2": 0.282
+      "L2": 0.282,
+      "Mining": 0.718
     }
   },
   "expertise_domain_scores": {
-    "Mining": 0.718,
-    "L2": 0.282
+    "L2": 0.282,
+    "Mining": 0.718
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,
@@ -84,15 +85,33 @@
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": false,
-  "global_first_active": "2014-04-24T18:32:15",
-  "global_last_active": "2015-03-04T23:06:15",
+  "global_first_active": null,
+  "global_last_active": null,
   "github_location": "Austin, Texas, United States",
   "github_company": null,
   "github_bio": "AGI agent orchestrator.",
   "github_twitter": null,
   "github_blog": null,
-  "github_followers": 15.0,
+  "github_followers": 13.0,
+  "github_profile_fetched_at": "2026-10-20T19:51:49Z",
   "activity_status": "Active",
+  "geo_country_iso2": "US",
+  "geo_country_iso3": "USA",
+  "geo_country_name": "USA",
+  "geo_sovereign_iso2": "US",
+  "geo_m49_subregion": "Northern America",
+  "geo_macro_region": "North America",
+  "geo_un_macro_region": "North America",
+  "geo_wb_income": "High",
+  "geo_flag": "🇺🇸",
+  "geo_status": "resolved",
+  "geo_source": "github_location",
+  "geo_confidence": 0.95,
+  "geo_conflict": false,
+  "geo_tz_signature": null,
+  "geo_location_raw": "Austin, Texas, United States",
+  "geo_as_of": "2026-10-20",
+  "geo_taxonomy_version": "2026.10.1",
   "is_top_50": false,
   "github_url": "https://github.com/StephenLReed",
   "first_message": {

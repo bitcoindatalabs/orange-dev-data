@@ -1,6 +1,7 @@
 {
-  "display_name": "antoine le calvez",
+  "display_name": "Antoine Le Calvez",
   "github_login_final": "alecalve",
+  "github_id_final": "3832610",
   "delving_username_final": null,
   "uuid": "auto_antoine_le_calvez",
   "badges": null,
@@ -46,7 +47,7 @@
   "avg_concept_lead_time_days": null,
   "review_reciprocity": 0.0,
   "hybrid_score": 0.0935,
-  "p2016_hybrid_score": 0.0961,
+  "p2016_hybrid_score": 0.096,
   "modern_hybrid_score": 0.025,
   "impact_score": 5.0,
   "p2016_impact_score": 6.0,
@@ -57,8 +58,8 @@
   "delving_threads": 0.0,
   "ml_responses": 2.0,
   "delving_responses": 0.0,
-  "first_active": "2017-03-27T15:56:49",
-  "last_active": "2017-04-27T14:45:54",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Builder",
   "expertise_domains": [
     "Infrastructure",
@@ -66,12 +67,12 @@
     "Consensus"
   ],
   "expertise_by_source": {
-    "code": {
-      "Infrastructure": 1.0
-    },
     "discussion": {
       "Consensus": 0.493,
       "Mining": 0.507
+    },
+    "code": {
+      "Infrastructure": 1.0
     }
   },
   "expertise_domain_scores": {
@@ -89,7 +90,7 @@
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": false,
-  "global_first_active": "2017-03-27T15:56:49",
+  "global_first_active": "2018-09-24T11:51:23",
   "global_last_active": "2018-10-20T02:03:57",
   "github_location": null,
   "github_company": "@coinmetrics ",
@@ -97,7 +98,25 @@
   "github_twitter": null,
   "github_blog": null,
   "github_followers": 175.0,
+  "github_profile_fetched_at": "2026-10-20T18:59:12Z",
   "activity_status": "Active",
+  "geo_country_iso2": null,
+  "geo_country_iso3": null,
+  "geo_country_name": null,
+  "geo_sovereign_iso2": null,
+  "geo_m49_subregion": null,
+  "geo_macro_region": "Undisclosed",
+  "geo_un_macro_region": "Undisclosed",
+  "geo_wb_income": null,
+  "geo_flag": null,
+  "geo_status": "empty",
+  "geo_source": "none",
+  "geo_confidence": 0.0,
+  "geo_conflict": false,
+  "geo_tz_signature": null,
+  "geo_location_raw": null,
+  "geo_as_of": null,
+  "geo_taxonomy_version": "2026.10.1",
   "is_top_50": false,
   "github_url": "https://github.com/alecalve",
   "commit_history": {

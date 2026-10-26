@@ -1,6 +1,7 @@
 {
-  "display_name": "ján sáreník",
+  "display_name": "Ján Sáreník",
   "github_login_final": "jsarenik",
+  "github_id_final": "244565",
   "delving_username_final": "jsarenik",
   "uuid": "auto_j_n_s_ren_k",
   "badges": null,
@@ -47,7 +48,7 @@
   "review_reciprocity": 7.333333333333333,
   "hybrid_score": 0.1205,
   "p2016_hybrid_score": 0.123,
-  "modern_hybrid_score": 0.1149,
+  "modern_hybrid_score": 0.115,
   "impact_score": 7.0,
   "p2016_impact_score": 7.0,
   "modern_impact_score": 7.0,
@@ -57,8 +58,8 @@
   "delving_threads": 13.0,
   "ml_responses": 0.0,
   "delving_responses": 9.0,
-  "first_active": null,
-  "last_active": null,
+  "first_active": "2025-02-06T16:08:22.286000",
+  "last_active": "2026-06-23T05:48:48.265000",
   "dev_type": "Reviewer",
   "expertise_domains": [
     "Mempool",
@@ -66,13 +67,13 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Mining": 0.429,
-      "Mempool": 0.571
+      "Mempool": 0.571,
+      "Mining": 0.429
     }
   },
   "expertise_domain_scores": {
-    "Mining": 0.429,
-    "Mempool": 0.571
+    "Mempool": 0.571,
+    "Mining": 0.429
   },
   "p2016_posts": 22.0,
   "modern_posts": 22.0,
@@ -88,11 +89,29 @@
   "global_last_active": "2026-08-21T07:44:02",
   "github_location": "Slovakia",
   "github_company": null,
-  "github_bio": "Embedded Linux Accordionist running Bitcoin Core.",
+  "github_bio": null,
   "github_twitter": null,
   "github_blog": "https://järok.bublina.eu.org",
-  "github_followers": 117.0,
+  "github_followers": 125.0,
+  "github_profile_fetched_at": "2026-10-20T19:02:47Z",
   "activity_status": "Active",
+  "geo_country_iso2": "SK",
+  "geo_country_iso3": "SVK",
+  "geo_country_name": "Slovakia",
+  "geo_sovereign_iso2": "SK",
+  "geo_m49_subregion": "Eastern Europe",
+  "geo_macro_region": "Europe",
+  "geo_un_macro_region": "Europe",
+  "geo_wb_income": "High",
+  "geo_flag": "🇸🇰",
+  "geo_status": "resolved",
+  "geo_source": "github_location",
+  "geo_confidence": 0.95,
+  "geo_conflict": false,
+  "geo_tz_signature": null,
+  "geo_location_raw": "Slovakia",
+  "geo_as_of": "2026-10-20",
+  "geo_taxonomy_version": "2026.10.1",
   "is_top_50": false,
   "github_url": "https://github.com/jsarenik",
   "delving_url": "https://delvingbitcoin.org/u/jsarenik",

@@ -1,6 +1,7 @@
 {
-  "display_name": "tomas van der wansem",
+  "display_name": "Tomas van der Wansem",
   "github_login_final": "tomasvdw",
+  "github_id_final": "534388",
   "delving_username_final": null,
   "uuid": "auto_tomas_van_der_wansem",
   "badges": null,
@@ -57,8 +58,8 @@
   "delving_threads": 0.0,
   "ml_responses": 21.0,
   "delving_responses": 0.0,
-  "first_active": "2015-12-30T10:35:17",
-  "last_active": "2017-09-29T08:14:03",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Builder",
   "expertise_domains": [
     "Infrastructure",
@@ -66,20 +67,20 @@
     "Network"
   ],
   "expertise_by_source": {
-    "code": {
-      "Infrastructure": 0.5,
-      "Wallet": 0.5
-    },
     "discussion": {
       "Consensus": 0.5,
       "Network": 0.5
+    },
+    "code": {
+      "Infrastructure": 0.5,
+      "Wallet": 0.5
     }
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.3,
     "Consensus": 0.2,
-    "Wallet": 0.3,
-    "Network": 0.2
+    "Network": 0.2,
+    "Wallet": 0.3
   },
   "p2016_posts": 26.0,
   "modern_posts": 0.0,
@@ -91,7 +92,7 @@
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": false,
-  "global_first_active": "2015-12-30T10:35:17",
+  "global_first_active": "2017-09-19T15:40:22",
   "global_last_active": "2017-11-01T16:31:11",
   "github_location": "Amsterdam",
   "github_company": null,
@@ -99,7 +100,25 @@
   "github_twitter": null,
   "github_blog": null,
   "github_followers": 32.0,
+  "github_profile_fetched_at": "2026-10-20T19:53:04Z",
   "activity_status": "Active",
+  "geo_country_iso2": "NL",
+  "geo_country_iso3": "NLD",
+  "geo_country_name": "Netherlands",
+  "geo_sovereign_iso2": "NL",
+  "geo_m49_subregion": "Western Europe",
+  "geo_macro_region": "Europe",
+  "geo_un_macro_region": "Europe",
+  "geo_wb_income": "High",
+  "geo_flag": "🇳🇱",
+  "geo_status": "resolved",
+  "geo_source": "github_location",
+  "geo_confidence": 0.85,
+  "geo_conflict": false,
+  "geo_tz_signature": null,
+  "geo_location_raw": "Amsterdam",
+  "geo_as_of": "2026-10-20",
+  "geo_taxonomy_version": "2026.10.1",
   "is_top_50": false,
   "github_url": "https://github.com/tomasvdw",
   "commit_history": {

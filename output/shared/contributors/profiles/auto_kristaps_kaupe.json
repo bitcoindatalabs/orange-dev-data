@@ -1,6 +1,7 @@
 {
   "display_name": "Kristaps Kaupe",
   "github_login_final": "kristapsk",
+  "github_id_final": "4500994",
   "delving_username_final": null,
   "uuid": "auto_kristaps_kaupe",
   "badges": null,
@@ -69,17 +70,17 @@
     "code": {
       "Infrastructure": 0.609,
       "Wallet": 0.283,
-      "Consensus": 0.043,
       "Network": 0.043,
-      "Mempool": 0.022
+      "Mempool": 0.022,
+      "Consensus": 0.043
     }
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.609,
     "Consensus": 0.043,
-    "Mempool": 0.022,
+    "Network": 0.043,
     "Wallet": 0.283,
-    "Network": 0.043
+    "Mempool": 0.022
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,
@@ -98,8 +99,26 @@
   "github_bio": "Universal Soldier",
   "github_twitter": "kristapsk",
   "github_blog": null,
-  "github_followers": 197.0,
+  "github_followers": 202.0,
+  "github_profile_fetched_at": "2026-10-20T19:03:07Z",
   "activity_status": "Rising",
+  "geo_country_iso2": "LV",
+  "geo_country_iso3": "LVA",
+  "geo_country_name": "Latvia",
+  "geo_sovereign_iso2": "LV",
+  "geo_m49_subregion": "Northern Europe",
+  "geo_macro_region": "Europe",
+  "geo_un_macro_region": "Europe",
+  "geo_wb_income": "High",
+  "geo_flag": "🇱🇻",
+  "geo_status": "resolved",
+  "geo_source": "github_location",
+  "geo_confidence": 0.95,
+  "geo_conflict": false,
+  "geo_tz_signature": null,
+  "geo_location_raw": "Riga, Latvia",
+  "geo_as_of": "2026-10-20",
+  "geo_taxonomy_version": "2026.10.1",
   "is_top_50": false,
   "github_url": "https://github.com/kristapsk",
   "commit_history": {

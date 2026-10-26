@@ -1,6 +1,7 @@
 {
   "display_name": "Calvin Kim",
   "github_login_final": "kcalvinalvin",
+  "github_id_final": "37185887",
   "delving_username_final": "kcalvinalvin",
   "uuid": "auto_calvin_kim",
   "badges": {
@@ -54,19 +55,19 @@
   "avg_concept_lead_time_days": 11.41734085648148,
   "review_reciprocity": 0.3333333333333333,
   "hybrid_score": 0.1878,
-  "p2016_hybrid_score": 0.2015,
-  "modern_hybrid_score": 0.1647,
+  "p2016_hybrid_score": 0.2014,
+  "modern_hybrid_score": 0.1667,
   "impact_score": 11.0,
   "p2016_impact_score": 11.0,
-  "modern_impact_score": 9.0,
+  "modern_impact_score": 10.0,
   "threads_started": 4.0,
   "replies_sent": 5.0,
   "ml_threads": 3.0,
   "delving_threads": 1.0,
   "ml_responses": 5.0,
   "delving_responses": 0.0,
-  "first_active": "2023-03-02T00:55:19",
-  "last_active": "2025-08-10T01:58:20",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Builder",
   "expertise_domains": [
     "Infrastructure",
@@ -74,20 +75,20 @@
     "Consensus"
   ],
   "expertise_by_source": {
+    "discussion": {
+      "Mining": 1.0
+    },
     "code": {
       "Infrastructure": 0.812,
       "Script": 0.062,
       "Consensus": 0.125
-    },
-    "discussion": {
-      "Mining": 1.0
     }
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.4875,
+    "Script": 0.0372,
     "Consensus": 0.075,
-    "Mining": 0.4002,
-    "Script": 0.0372
+    "Mining": 0.4002
   },
   "p2016_posts": 9.0,
   "modern_posts": 8.0,
@@ -106,8 +107,26 @@
   "github_bio": "I like Linux and Bitcoin.\r\nProfessional water deer/고롸늬\r\n",
   "github_twitter": "kcalvinalvinn",
   "github_blog": "meetup.com/KOREASLUG, meetup.com/seoulbitcoin",
-  "github_followers": 210.0,
+  "github_followers": 218.0,
+  "github_profile_fetched_at": "2026-10-20T19:02:55Z",
   "activity_status": "Rising",
+  "geo_country_iso2": "KR",
+  "geo_country_iso3": "KOR",
+  "geo_country_name": "South Korea",
+  "geo_sovereign_iso2": "KR",
+  "geo_m49_subregion": "Eastern Asia",
+  "geo_macro_region": "Asia Pacific",
+  "geo_un_macro_region": "Asia",
+  "geo_wb_income": "High",
+  "geo_flag": "🇰🇷",
+  "geo_status": "resolved",
+  "geo_source": "github_location",
+  "geo_confidence": 0.85,
+  "geo_conflict": false,
+  "geo_tz_signature": null,
+  "geo_location_raw": "seoul",
+  "geo_as_of": "2026-10-20",
+  "geo_taxonomy_version": "2026.10.1",
   "is_top_50": false,
   "github_url": "https://github.com/kcalvinalvin",
   "delving_url": "https://delvingbitcoin.org/u/kcalvinalvin",

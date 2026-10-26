@@ -1,6 +1,7 @@
 {
   "display_name": "Jonathan Underwood",
   "github_login_final": "junderw",
+  "github_id_final": "11246316",
   "delving_username_final": "junderw",
   "uuid": "auto_jonathan_underwood",
   "badges": null,
@@ -45,8 +46,8 @@
   "avg_pr_ack_velocity_days": 1.7088310185185185,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": 5.625,
-  "hybrid_score": 0.2146,
-  "p2016_hybrid_score": 0.2158,
+  "hybrid_score": 0.2145,
+  "p2016_hybrid_score": 0.2157,
   "modern_hybrid_score": 0.083,
   "impact_score": 12.0,
   "p2016_impact_score": 12.0,
@@ -57,8 +58,8 @@
   "delving_threads": 5.0,
   "ml_responses": 16.0,
   "delving_responses": 1.0,
-  "first_active": "2018-11-08T23:17:30",
-  "last_active": null,
+  "first_active": null,
+  "last_active": "2025-11-12T15:56:16.956000",
   "dev_type": "Builder",
   "expertise_domains": [
     "Infrastructure",
@@ -66,20 +67,20 @@
     "Network"
   ],
   "expertise_by_source": {
-    "code": {
-      "Infrastructure": 0.667,
-      "Network": 0.333
-    },
     "discussion": {
       "Privacy": 0.227,
       "Wallet": 0.773
+    },
+    "code": {
+      "Infrastructure": 0.667,
+      "Network": 0.333
     }
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.4002,
-    "Privacy": 0.0908,
+    "Network": 0.1998,
     "Wallet": 0.3092,
-    "Network": 0.1998
+    "Privacy": 0.0908
   },
   "p2016_posts": 24.0,
   "modern_posts": 6.0,
@@ -92,14 +93,32 @@
   "is_researcher": true,
   "is_bip_author": false,
   "global_first_active": "2017-05-02T10:19:14",
-  "global_last_active": "2024-06-03T11:45:21",
+  "global_last_active": "2025-11-12T15:56:16.956000",
   "github_location": "Tokyo, Japan",
   "github_company": null,
   "github_bio": "Chief Bitcoin Officer,\r\nBitbank Inc.",
   "github_twitter": null,
   "github_blog": null,
-  "github_followers": 473.0,
+  "github_followers": 498.0,
+  "github_profile_fetched_at": "2026-10-20T19:02:48Z",
   "activity_status": "Active",
+  "geo_country_iso2": "JP",
+  "geo_country_iso3": "JPN",
+  "geo_country_name": "Japan",
+  "geo_sovereign_iso2": "JP",
+  "geo_m49_subregion": "Eastern Asia",
+  "geo_macro_region": "Asia Pacific",
+  "geo_un_macro_region": "Asia",
+  "geo_wb_income": "High",
+  "geo_flag": "🇯🇵",
+  "geo_status": "resolved",
+  "geo_source": "github_location",
+  "geo_confidence": 0.95,
+  "geo_conflict": false,
+  "geo_tz_signature": null,
+  "geo_location_raw": "Tokyo, Japan",
+  "geo_as_of": "2026-10-20",
+  "geo_taxonomy_version": "2026.10.1",
   "is_top_50": false,
   "github_url": "https://github.com/junderw",
   "delving_url": "https://delvingbitcoin.org/u/junderw",

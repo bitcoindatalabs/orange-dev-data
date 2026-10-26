@@ -1,6 +1,7 @@
 {
   "display_name": "Washington Sanchez",
   "github_login_final": null,
+  "github_id_final": null,
   "delving_username_final": null,
   "uuid": "auto_washington_sanchez",
   "badges": null,
@@ -57,8 +58,8 @@
   "delving_threads": 0.0,
   "ml_responses": 4.0,
   "delving_responses": 0.0,
-  "first_active": "2015-09-08T02:45:16",
-  "last_active": "2015-09-09T08:10:43",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Participant",
   "expertise_domains": [
     "Consensus",
@@ -67,18 +68,18 @@
   ],
   "expertise_by_source": {
     "discussion": {
+      "Ecosystem": 0.086,
       "Consensus": 0.828,
-      "Mining": 0.086,
-      "Ecosystem": 0.086
+      "Mining": 0.086
     },
     "bips": {
       "Consensus": 1.0
     }
   },
   "expertise_domain_scores": {
+    "Ecosystem": 0.0246,
     "Consensus": 0.9509,
-    "Mining": 0.0246,
-    "Ecosystem": 0.0246
+    "Mining": 0.0246
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,
@@ -90,7 +91,7 @@
   "is_reviewer": false,
   "is_researcher": true,
   "is_bip_author": true,
-  "global_first_active": "2015-09-08T02:45:16",
+  "global_first_active": "2015-09-13T07:00:11",
   "global_last_active": "2015-09-13T07:00:11",
   "github_location": null,
   "github_company": null,
@@ -98,7 +99,25 @@
   "github_twitter": null,
   "github_blog": null,
   "github_followers": null,
+  "github_profile_fetched_at": null,
   "activity_status": "",
+  "geo_country_iso2": null,
+  "geo_country_iso3": null,
+  "geo_country_name": null,
+  "geo_sovereign_iso2": null,
+  "geo_m49_subregion": null,
+  "geo_macro_region": "Undisclosed",
+  "geo_un_macro_region": "Undisclosed",
+  "geo_wb_income": null,
+  "geo_flag": null,
+  "geo_status": "empty",
+  "geo_source": "none",
+  "geo_confidence": 0.0,
+  "geo_conflict": false,
+  "geo_tz_signature": null,
+  "geo_location_raw": null,
+  "geo_as_of": null,
+  "geo_taxonomy_version": "2026.10.1",
   "is_top_50": false,
   "bip_list": [
     {

@@ -1,0 +1,216 @@
+{
+  "display_name": "Josiah Baker",
+  "github_login_final": "josibake",
+  "github_id_final": "7444140",
+  "delving_username_final": null,
+  "uuid": "auto_josiah_baker",
+  "badges": {
+    "is_maintainer": false,
+    "is_core_committer": false,
+    "maintainer_status": null,
+    "is_sponsored": true,
+    "sponsor_id": null,
+    "is_bip_author": true,
+    "roles": [
+      "BIP Author"
+    ],
+    "ecosystem_contributor": true,
+    "tier2_commits": 23
+  },
+  "roles": [
+    "BIP Author"
+  ],
+  "total_commits": 105.0,
+  "authored_commits": 105.0,
+  "tier1_authored_commits": 82.0,
+  "tier2_authored_commits": 23.0,
+  "merge_commits": 0.0,
+  "tier1_merge_commits": 0.0,
+  "tier2_merge_commits": 0.0,
+  "self_merges": 0.0,
+  "total_additions": 22850.0,
+  "total_deletions": 1150.0,
+  "first_core_commit": "2021-06-22T06:13:42+00:00",
+  "last_core_commit": "2026-09-23T23:18:34+00:00",
+  "first_ecosystem_commit": "2023-05-12T12:34:49+00:00",
+  "last_ecosystem_commit": "2024-03-07T08:22:18+00:00",
+  "first_commit": "2021-06-22T06:13:42",
+  "last_commit": "2026-09-23T23:18:34",
+  "p2016_authored_commits": 105.0,
+  "modern_authored_commits": 36.0,
+  "co_authored_commits": 6.0,
+  "bips_authored": 2.0,
+  "p2016_bips_authored": 2.0,
+  "modern_bips_authored": 2.0,
+  "first_bip_date": "2024-01-15T05:05:08",
+  "last_bip_date": "2024-10-19T10:28:39",
+  "avg_review_latency_days": 1022.4284326750025,
+  "reviews_count": 185.0,
+  "avg_approval_latency_days": 292.47251781010533,
+  "approvals_count": 155.0,
+  "tier1_reviews_count": 175.0,
+  "tier2_reviews_count": 10.0,
+  "p2016_reviews_count": 185.0,
+  "modern_reviews_count": 89.0,
+  "first_review_date": "2021-07-26T12:06:17",
+  "last_review_date": "2026-09-21T15:55:30",
+  "prs_authored": 42.0,
+  "tier1_prs_authored": 37.0,
+  "tier2_prs_authored": 5.0,
+  "avg_pr_ack_velocity_days": 9.714867084826762,
+  "avg_concept_lead_time_days": 24.53325367647059,
+  "review_reciprocity": 4.404761904761905,
+  "hybrid_score": 1.0229,
+  "p2016_hybrid_score": 1.0265,
+  "modern_hybrid_score": 0.9609,
+  "impact_score": 46.0,
+  "p2016_impact_score": 46.0,
+  "modern_impact_score": 44.0,
+  "threads_started": 2.0,
+  "replies_sent": 2.0,
+  "ml_threads": 2.0,
+  "delving_threads": 0.0,
+  "ml_responses": 2.0,
+  "delving_responses": 0.0,
+  "first_active": null,
+  "last_active": null,
+  "dev_type": "Protocol Designer",
+  "expertise_domains": [
+    "Privacy",
+    "Infrastructure",
+    "Wallet"
+  ],
+  "expertise_by_source": {
+    "discussion": {
+      "Privacy": 1.0
+    },
+    "code": {
+      "Infrastructure": 0.89,
+      "Wallet": 0.09,
+      "Network": 0.01,
+      "Consensus": 0.01
+    },
+    "bips": {
+      "Privacy": 1.0
+    }
+  },
+  "expertise_domain_scores": {
+    "Infrastructure": 0.267,
+    "Wallet": 0.027,
+    "Privacy": 0.7
+  },
+  "p2016_posts": 4.0,
+  "modern_posts": 0.0,
+  "p2016_ml_posts": 4.0,
+  "p2016_delving_posts": 0.0,
+  "modern_ml_posts": 0.0,
+  "modern_delving_posts": 0.0,
+  "is_engineer": true,
+  "is_reviewer": true,
+  "is_researcher": true,
+  "is_bip_author": true,
+  "global_first_active": "2021-06-22T06:13:42",
+  "global_last_active": "2026-09-23T23:18:34",
+  "github_location": null,
+  "github_company": "@2140-dev ",
+  "github_bio": "bitcoin core developer; nerdy projects on the side",
+  "github_twitter": "josibake",
+  "github_blog": "josibake.io",
+  "github_followers": 362.0,
+  "github_profile_fetched_at": "2026-10-20T19:02:45Z",
+  "activity_status": "Active",
+  "geo_country_iso2": null,
+  "geo_country_iso3": null,
+  "geo_country_name": null,
+  "geo_sovereign_iso2": null,
+  "geo_m49_subregion": null,
+  "geo_macro_region": "Europe",
+  "geo_un_macro_region": "Europe",
+  "geo_wb_income": null,
+  "geo_flag": null,
+  "geo_status": "region_only",
+  "geo_source": "timezone",
+  "geo_confidence": 0.35,
+  "geo_conflict": false,
+  "geo_tz_signature": "+60/+120",
+  "geo_location_raw": null,
+  "geo_as_of": "2026-10-24",
+  "geo_taxonomy_version": "2026.10.1",
+  "is_top_50": false,
+  "github_url": "https://github.com/josibake",
+  "commit_history": {
+    "2021": {
+      "Build & CI": 0.5,
+      "Documentation": 1.0,
+      "Node & RPC": 1.5,
+      "P2P Network": 1.0,
+      "Tests": 9.5,
+      "Utilities": 0.5
+    },
+    "2022": {
+      "Build & CI": 1.5,
+      "Documentation": 2.0,
+      "Node & RPC": 1.0,
+      "Tests": 17.0,
+      "Utilities": 5.5,
+      "Wallet": 5.0
+    },
+    "2023": {
+      "Build & CI": 19.0,
+      "Consensus": 1.0,
+      "Documentation": 1.0,
+      "Tests": 2.0
+    },
+    "2024": {
+      "Build & CI": 5.5,
+      "Documentation": 1.0,
+      "Node & RPC": 2.0,
+      "Tests": 6.5,
+      "Utilities": 8.5,
+      "Wallet": 4.5
+    },
+    "2025": {
+      "Build & CI": 1.0,
+      "Utilities": 4.0
+    },
+    "2026": {
+      "Build & CI": 0.5,
+      "Tests": 1.0,
+      "Utilities": 1.5
+    }
+  },
+  "bip_list": [
+    {
+      "number": 352,
+      "title": "Silent Payments",
+      "status": "Complete",
+      "theme": "Privacy",
+      "link": "https://github.com/bitcoin/bips/blob/master/bip-0352.mediawiki"
+    },
+    {
+      "number": 375,
+      "title": "Sending Silent Payments with PSBTs",
+      "status": "Draft",
+      "theme": "Privacy",
+      "link": "https://github.com/bitcoin/bips/blob/master/bip-0375.mediawiki"
+    }
+  ],
+  "first_message": {
+    "source": "mailing_list",
+    "subject": "Re: [bitcoin-dev] Seeking concept ACKs for transaction terminology\n\tBIP",
+    "date": "2023-04-21",
+    "link": "https://gnusha.org/pi/bitcoindev/a5C5saUWE_hqdhv-xjQmgXchsVpGg4Oe4fURovdPyGruniWlCz6JYZ8MZh1xVHL5ikpqSaoliMlKuEgLjVGE-O7rlJzaMPpYSAFawns33eo=@protonmail.com"
+  },
+  "last_message": {
+    "source": "mailing_list",
+    "subject": "Re: [bitcoin-dev] BIP-352 Silent Payments addresses should have an\n\texpiration time",
+    "date": "2023-08-06",
+    "link": "https://gnusha.org/pi/bitcoindev/Xypmhu6s58gWgRNoFzBDhbtvcEt8DomdJcLe1RIbesEKOx1MO5TBHTLDENqedTbN9DPZT5MNSpA-xMiiSDDb-hVnx-YgIAqCtrGHoCrqxsE=@protonmail.com"
+  },
+  "social_history": {
+    "2023": {
+      "other": 1,
+      "silent-payments": 3
+    }
+  }
+}

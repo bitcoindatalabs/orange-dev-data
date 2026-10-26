@@ -1,6 +1,7 @@
 {
   "display_name": "Sivaram Dhakshinamoorthy",
   "github_login_final": "siv2r",
+  "github_id_final": "56887198",
   "delving_username_final": null,
   "uuid": "auto_sivaram_dhakshinamoorthy",
   "badges": null,
@@ -57,19 +58,19 @@
   "delving_threads": 0.0,
   "ml_responses": 1.0,
   "delving_responses": 0.0,
-  "first_active": "2024-07-31T06:23:31",
-  "last_active": "2024-07-31T19:45:06",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Builder",
   "expertise_domains": [
     "Infrastructure",
     "Wallet"
   ],
   "expertise_by_source": {
-    "code": {
-      "Infrastructure": 1.0
-    },
     "discussion": {
       "Wallet": 1.0
+    },
+    "code": {
+      "Infrastructure": 1.0
     }
   },
   "expertise_domain_scores": {
@@ -92,9 +93,27 @@
   "github_company": null,
   "github_bio": "Cryptography Engineer | IIT Kharagpur",
   "github_twitter": "siv2r",
-  "github_blog": null,
-  "github_followers": 108.0,
+  "github_blog": "siv2r.in",
+  "github_followers": 114.0,
+  "github_profile_fetched_at": "2026-10-20T19:05:43Z",
   "activity_status": "Active",
+  "geo_country_iso2": "IN",
+  "geo_country_iso3": "IND",
+  "geo_country_name": "India",
+  "geo_sovereign_iso2": "IN",
+  "geo_m49_subregion": "Southern Asia",
+  "geo_macro_region": "Asia Pacific",
+  "geo_un_macro_region": "Asia",
+  "geo_wb_income": "Lower-Middle",
+  "geo_flag": "🇮🇳",
+  "geo_status": "resolved",
+  "geo_source": "blog_tld",
+  "geo_confidence": 0.45,
+  "geo_conflict": false,
+  "geo_tz_signature": null,
+  "geo_location_raw": "¯\\_(ツ)_/¯",
+  "geo_as_of": "2026-10-20",
+  "geo_taxonomy_version": "2026.10.1",
   "is_top_50": false,
   "github_url": "https://github.com/siv2r",
   "commit_history": {

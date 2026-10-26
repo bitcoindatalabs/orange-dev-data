@@ -1,6 +1,7 @@
 {
-  "display_name": "elliot olds",
+  "display_name": "Elliot Olds",
   "github_login_final": "elliotolds",
+  "github_id_final": "5849793",
   "delving_username_final": null,
   "uuid": "auto_elliot_olds",
   "badges": null,
@@ -45,7 +46,7 @@
   "avg_pr_ack_velocity_days": 0.21795138888888888,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": 0.0,
-  "hybrid_score": 0.0663,
+  "hybrid_score": 0.0662,
   "p2016_hybrid_score": 0.0546,
   "modern_hybrid_score": 0.0146,
   "impact_score": 4.0,
@@ -57,8 +58,8 @@
   "delving_threads": 0.0,
   "ml_responses": 11.0,
   "delving_responses": 0.0,
-  "first_active": "2015-07-31T15:09:58",
-  "last_active": "2015-08-29T04:15:16",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Builder",
   "expertise_domains": [
     "Infrastructure",
@@ -66,12 +67,12 @@
     "Mining"
   ],
   "expertise_by_source": {
-    "code": {
-      "Infrastructure": 1.0
-    },
     "discussion": {
       "Consensus": 0.893,
       "Mining": 0.107
+    },
+    "code": {
+      "Infrastructure": 1.0
     }
   },
   "expertise_domain_scores": {
@@ -89,15 +90,33 @@
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": false,
-  "global_first_active": "2015-07-31T15:09:58",
+  "global_first_active": "2016-03-11T07:43:15",
   "global_last_active": "2016-03-11T07:43:15",
   "github_location": "Seattle, WA",
   "github_company": null,
   "github_bio": null,
   "github_twitter": null,
   "github_blog": null,
-  "github_followers": 10.0,
+  "github_followers": 11.0,
+  "github_profile_fetched_at": "2026-10-20T19:53:18Z",
   "activity_status": "Active",
+  "geo_country_iso2": "US",
+  "geo_country_iso3": "USA",
+  "geo_country_name": "USA",
+  "geo_sovereign_iso2": "US",
+  "geo_m49_subregion": "Northern America",
+  "geo_macro_region": "North America",
+  "geo_un_macro_region": "North America",
+  "geo_wb_income": "High",
+  "geo_flag": "🇺🇸",
+  "geo_status": "resolved",
+  "geo_source": "github_location",
+  "geo_confidence": 0.9,
+  "geo_conflict": false,
+  "geo_tz_signature": null,
+  "geo_location_raw": "Seattle, WA",
+  "geo_as_of": "2026-10-20",
+  "geo_taxonomy_version": "2026.10.1",
   "is_top_50": false,
   "github_url": "https://github.com/elliotolds",
   "commit_history": {

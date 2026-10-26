@@ -1,31 +1,32 @@
 {
-  "display_name": "max edwards",
+  "display_name": "Max Edwards",
   "github_login_final": "m3dwards",
+  "github_id_final": "1204616",
   "delving_username_final": "m3dwards",
   "uuid": "auto_max_edwards",
   "badges": {
     "ecosystem_contributor": true,
-    "tier2_commits": 77
+    "tier2_commits": 79
   },
   "roles": null,
-  "total_commits": 108.0,
-  "authored_commits": 108.0,
+  "total_commits": 110.0,
+  "authored_commits": 110.0,
   "tier1_authored_commits": 31.0,
-  "tier2_authored_commits": 77.0,
+  "tier2_authored_commits": 79.0,
   "merge_commits": 0.0,
   "tier1_merge_commits": 0.0,
   "tier2_merge_commits": 0.0,
   "self_merges": 0.0,
-  "total_additions": 2987.0,
+  "total_additions": 3036.0,
   "total_deletions": 275.0,
   "first_core_commit": "2024-02-21T14:52:53+00:00",
   "last_core_commit": "2026-06-17T15:13:00+00:00",
   "first_ecosystem_commit": "2024-02-02T13:31:22+00:00",
-  "last_ecosystem_commit": "2026-10-13T05:54:58+00:00",
+  "last_ecosystem_commit": "2026-10-22T22:07:14+00:00",
   "first_commit": "2024-02-21T14:52:53",
   "last_commit": "2026-06-17T15:13:00",
-  "p2016_authored_commits": 108.0,
-  "modern_authored_commits": 108.0,
+  "p2016_authored_commits": 110.0,
+  "modern_authored_commits": 110.0,
   "co_authored_commits": 30.0,
   "bips_authored": 0.0,
   "p2016_bips_authored": 0.0,
@@ -60,8 +61,8 @@
   "delving_threads": 5.0,
   "ml_responses": 0.0,
   "delving_responses": 4.0,
-  "first_active": null,
-  "last_active": null,
+  "first_active": "2023-12-21T11:23:16.812000",
+  "last_active": "2026-05-14T14:58:38.935000",
   "dev_type": "Builder",
   "expertise_domains": [
     "Infrastructure",
@@ -69,12 +70,12 @@
     "Network"
   ],
   "expertise_by_source": {
+    "discussion": {
+      "Mining": 1.0
+    },
     "code": {
       "Infrastructure": 0.99,
       "Network": 0.01
-    },
-    "discussion": {
-      "Mining": 1.0
     }
   },
   "expertise_domain_scores": {
@@ -98,8 +99,26 @@
   "github_bio": null,
   "github_twitter": null,
   "github_blog": null,
-  "github_followers": 36.0,
+  "github_followers": 40.0,
+  "github_profile_fetched_at": "2026-10-20T19:03:27Z",
   "activity_status": "Active",
+  "geo_country_iso2": null,
+  "geo_country_iso3": null,
+  "geo_country_name": null,
+  "geo_sovereign_iso2": null,
+  "geo_m49_subregion": null,
+  "geo_macro_region": "Europe",
+  "geo_un_macro_region": "Europe",
+  "geo_wb_income": null,
+  "geo_flag": null,
+  "geo_status": "region_only",
+  "geo_source": "timezone",
+  "geo_confidence": 0.35,
+  "geo_conflict": false,
+  "geo_tz_signature": "+0/+60",
+  "geo_location_raw": null,
+  "geo_as_of": "2026-10-24",
+  "geo_taxonomy_version": "2026.10.1",
   "is_top_50": false,
   "github_url": "https://github.com/m3dwards",
   "delving_url": "https://delvingbitcoin.org/u/m3dwards",
@@ -145,6 +164,8 @@
       "core-dev": 4,
       "mempool-fees": 3,
       "mining": 1,
+      "p2p-network": 1,
+      "payment-protocol": 1,
       "testing-devtools": 3,
       "utxo-sync": 3
     }

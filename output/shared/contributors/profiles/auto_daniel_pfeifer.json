@@ -1,6 +1,7 @@
 {
-  "display_name": "daniel pfeifer",
+  "display_name": "Daniel Pfeifer",
   "github_login_final": "purpleKarrot",
+  "github_id_final": "185240",
   "delving_username_final": null,
   "uuid": "auto_daniel_pfeifer",
   "badges": null,
@@ -68,16 +69,16 @@
   "expertise_by_source": {
     "code": {
       "Infrastructure": 0.945,
+      "Network": 0.012,
       "Script": 0.031,
-      "Consensus": 0.012,
-      "Network": 0.012
+      "Consensus": 0.012
     }
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.945,
+    "Script": 0.031,
     "Consensus": 0.012,
-    "Network": 0.012,
-    "Script": 0.031
+    "Network": 0.012
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,
@@ -96,8 +97,26 @@
   "github_bio": "executive high priest of blowing your mind",
   "github_twitter": null,
   "github_blog": "https://purplekarrot.net",
-  "github_followers": 175.0,
+  "github_followers": 185.0,
+  "github_profile_fetched_at": "2026-10-20T19:04:47Z",
   "activity_status": "Active",
+  "geo_country_iso2": "DE",
+  "geo_country_iso3": "DEU",
+  "geo_country_name": "Germany",
+  "geo_sovereign_iso2": "DE",
+  "geo_m49_subregion": "Western Europe",
+  "geo_macro_region": "Europe",
+  "geo_un_macro_region": "Europe",
+  "geo_wb_income": "High",
+  "geo_flag": "🇩🇪",
+  "geo_status": "resolved",
+  "geo_source": "email_tld",
+  "geo_confidence": 0.55,
+  "geo_conflict": false,
+  "geo_tz_signature": null,
+  "geo_location_raw": "Hyperborea",
+  "geo_as_of": "2026-10-24",
+  "geo_taxonomy_version": "2026.10.1",
   "is_top_50": false,
   "github_url": "https://github.com/purpleKarrot",
   "commit_history": {

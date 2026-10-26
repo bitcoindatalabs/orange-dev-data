@@ -1,6 +1,7 @@
 {
   "display_name": "Devin de Hueck",
   "github_login_final": "ddehueck",
+  "github_id_final": "5186669",
   "delving_username_final": null,
   "uuid": "auto_devin_de_hueck",
   "badges": null,
@@ -57,8 +58,8 @@
   "delving_threads": 0.0,
   "ml_responses": 0.0,
   "delving_responses": 0.0,
-  "first_active": "2015-09-10T16:12:29",
-  "last_active": "2015-09-10T16:12:29",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Participant",
   "expertise_domains": [
     "Ecosystem",
@@ -66,13 +67,13 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Mining": 0.33,
-      "Ecosystem": 0.67
+      "Ecosystem": 0.67,
+      "Mining": 0.33
     }
   },
   "expertise_domain_scores": {
-    "Mining": 0.33,
-    "Ecosystem": 0.67
+    "Ecosystem": 0.67,
+    "Mining": 0.33
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,
@@ -85,14 +86,32 @@
   "is_researcher": true,
   "is_bip_author": false,
   "global_first_active": "2015-05-06T15:05:54",
-  "global_last_active": "2015-09-10T16:12:29",
+  "global_last_active": "2015-05-10T19:19:18",
   "github_location": "NYC",
   "github_company": null,
   "github_bio": "making stuff",
   "github_twitter": null,
-  "github_blog": "https://ddehueck.github.io/",
-  "github_followers": 44.0,
+  "github_blog": null,
+  "github_followers": 49.0,
+  "github_profile_fetched_at": "2026-10-20T19:52:59Z",
   "activity_status": "Active",
+  "geo_country_iso2": "US",
+  "geo_country_iso3": "USA",
+  "geo_country_name": "USA",
+  "geo_sovereign_iso2": "US",
+  "geo_m49_subregion": "Northern America",
+  "geo_macro_region": "North America",
+  "geo_un_macro_region": "North America",
+  "geo_wb_income": "High",
+  "geo_flag": "🇺🇸",
+  "geo_status": "resolved",
+  "geo_source": "github_location",
+  "geo_confidence": 0.85,
+  "geo_conflict": false,
+  "geo_tz_signature": null,
+  "geo_location_raw": "NYC",
+  "geo_as_of": "2026-10-20",
+  "geo_taxonomy_version": "2026.10.1",
   "is_top_50": false,
   "github_url": "https://github.com/ddehueck",
   "first_message": {

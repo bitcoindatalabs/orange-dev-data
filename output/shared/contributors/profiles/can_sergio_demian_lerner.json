@@ -1,6 +1,7 @@
 {
   "display_name": "Sergio Demian Lerner",
   "github_login_final": "SergioDemianLerner",
+  "github_id_final": "1752347",
   "delving_username_final": "sergiodemianlerner",
   "uuid": "can_sergio_demian_lerner",
   "badges": null,
@@ -45,9 +46,9 @@
   "avg_pr_ack_velocity_days": 14.572341820987655,
   "avg_concept_lead_time_days": 13.623611111111112,
   "review_reciprocity": 6.5,
-  "hybrid_score": 0.3167,
-  "p2016_hybrid_score": 0.2386,
-  "modern_hybrid_score": 0.0892,
+  "hybrid_score": 0.3168,
+  "p2016_hybrid_score": 0.2383,
+  "modern_hybrid_score": 0.0895,
   "impact_score": 17.0,
   "p2016_impact_score": 13.0,
   "modern_impact_score": 5.0,
@@ -57,8 +58,8 @@
   "delving_threads": 1.0,
   "ml_responses": 73.0,
   "delving_responses": 0.0,
-  "first_active": "2015-08-06T12:16:56",
-  "last_active": "2026-06-04T22:52:02",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Builder",
   "expertise_domains": [
     "Consensus",
@@ -66,13 +67,13 @@
     "Mining"
   ],
   "expertise_by_source": {
-    "code": {
-      "Infrastructure": 0.694,
-      "Consensus": 0.306
-    },
     "discussion": {
       "Consensus": 0.717,
       "Mining": 0.283
+    },
+    "code": {
+      "Infrastructure": 0.694,
+      "Consensus": 0.306
     }
   },
   "expertise_domain_scores": {
@@ -91,14 +92,32 @@
   "is_researcher": true,
   "is_bip_author": false,
   "global_first_active": "2012-05-21T12:20:04",
-  "global_last_active": "2026-06-04T22:52:02",
+  "global_last_active": "2025-04-30T03:36:02",
   "github_location": "8CAC20548B2B7B850B0BEA957C7A2BD5DFA9B490",
   "github_company": "IOV Labs",
   "github_bio": "Cryptocurrency Security Maestro.\r\nDesigner of the @rsksmart Bitcoin sidechain.",
   "github_twitter": "SDLerner",
   "github_blog": "http://bitslog.com",
-  "github_followers": 102.0,
+  "github_followers": 104.0,
+  "github_profile_fetched_at": "2026-10-20T19:05:33Z",
   "activity_status": "Active",
+  "geo_country_iso2": null,
+  "geo_country_iso3": null,
+  "geo_country_name": null,
+  "geo_sovereign_iso2": null,
+  "geo_m49_subregion": null,
+  "geo_macro_region": "Undisclosed",
+  "geo_un_macro_region": "Undisclosed",
+  "geo_wb_income": null,
+  "geo_flag": null,
+  "geo_status": "non_geographic",
+  "geo_source": "none",
+  "geo_confidence": 0.0,
+  "geo_conflict": false,
+  "geo_tz_signature": null,
+  "geo_location_raw": "8CAC20548B2B7B850B0BEA957C7A2BD5DFA9B490",
+  "geo_as_of": null,
+  "geo_taxonomy_version": "2026.10.1",
   "is_top_50": false,
   "github_url": "https://github.com/SergioDemianLerner",
   "delving_url": "https://delvingbitcoin.org/u/sergiodemianlerner",

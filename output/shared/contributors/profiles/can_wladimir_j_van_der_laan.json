@@ -1,6 +1,7 @@
 {
   "display_name": "Wladimir J. van der Laan",
   "github_login_final": "laanwj",
+  "github_id_final": "126646",
   "delving_username_final": "laanwj",
   "uuid": "can_wladimir_j_van_der_laan",
   "badges": {
@@ -42,7 +43,7 @@
   "first_commit": "2011-03-02T20:05:15",
   "last_commit": "2026-01-13T23:34:03",
   "p2016_authored_commits": 788.0,
-  "modern_authored_commits": 124.0,
+  "modern_authored_commits": 121.0,
   "co_authored_commits": 30.0,
   "bips_authored": 1.0,
   "p2016_bips_authored": 1.0,
@@ -65,8 +66,8 @@
   "avg_pr_ack_velocity_days": 4.99075489872303,
   "avg_concept_lead_time_days": 16.062394162848417,
   "review_reciprocity": 8.74077868852459,
-  "hybrid_score": 2.5263,
-  "p2016_hybrid_score": 1.2042,
+  "hybrid_score": 2.5262,
+  "p2016_hybrid_score": 1.2047,
   "modern_hybrid_score": 0.5261,
   "impact_score": 78.0,
   "p2016_impact_score": 51.0,
@@ -77,8 +78,8 @@
   "delving_threads": 1.0,
   "ml_responses": 294.0,
   "delving_responses": 0.0,
-  "first_active": "2011-12-04T09:31:01",
-  "last_active": null,
+  "first_active": null,
+  "last_active": "2024-03-21T08:50:48.006000",
   "dev_type": "Protocol Designer",
   "expertise_domains": [
     "Infrastructure",
@@ -86,17 +87,17 @@
     "Network"
   ],
   "expertise_by_source": {
+    "discussion": {
+      "Ecosystem": 1.0
+    },
     "code": {
       "Infrastructure": 0.931,
       "Wallet": 0.016,
-      "Script": 0.002,
-      "Consensus": 0.015,
       "Network": 0.033,
+      "Cryptography": 0.001,
       "Mempool": 0.002,
-      "Cryptography": 0.001
-    },
-    "discussion": {
-      "Ecosystem": 1.0
+      "Script": 0.002,
+      "Consensus": 0.015
     },
     "bips": {
       "Infrastructure": 1.0
@@ -118,13 +119,31 @@
   "is_bip_author": true,
   "global_first_active": "2011-03-02T20:05:15",
   "global_last_active": "2026-09-07T14:20:22",
-  "github_location": null,
+  "github_location": "The Netherlands",
   "github_company": null,
-  "github_bio": null,
+  "github_bio": "embedded software developer with an interest in P2P systems, robotics and decentralized infrastructure -  former bitcoin-core maintainer",
   "github_twitter": "laanwj",
   "github_blog": null,
-  "github_followers": null,
+  "github_followers": 4761.0,
+  "github_profile_fetched_at": "2026-10-20T18:46:14Z",
   "activity_status": "Active",
+  "geo_country_iso2": "NL",
+  "geo_country_iso3": "NLD",
+  "geo_country_name": "Netherlands",
+  "geo_sovereign_iso2": "NL",
+  "geo_m49_subregion": "Western Europe",
+  "geo_macro_region": "Europe",
+  "geo_un_macro_region": "Europe",
+  "geo_wb_income": "High",
+  "geo_flag": "🇳🇱",
+  "geo_status": "resolved",
+  "geo_source": "github_location",
+  "geo_confidence": 0.95,
+  "geo_conflict": false,
+  "geo_tz_signature": "+60/+120",
+  "geo_location_raw": "The Netherlands",
+  "geo_as_of": "2026-10-20",
+  "geo_taxonomy_version": "2026.10.1",
   "is_top_50": false,
   "github_url": "https://github.com/laanwj",
   "delving_url": "https://delvingbitcoin.org/u/laanwj",

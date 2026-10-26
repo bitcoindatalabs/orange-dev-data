@@ -1,6 +1,7 @@
 {
   "display_name": "Breno Brito",
   "github_login_final": "brenorb",
+  "github_id_final": "4992664",
   "delving_username_final": null,
   "uuid": "auto_breno_brito",
   "badges": null,
@@ -46,7 +47,7 @@
   "avg_concept_lead_time_days": null,
   "review_reciprocity": 4.0,
   "hybrid_score": 0.0683,
-  "p2016_hybrid_score": 0.0719,
+  "p2016_hybrid_score": 0.0718,
   "modern_hybrid_score": 0.0146,
   "impact_score": 4.0,
   "p2016_impact_score": 4.0,
@@ -57,8 +58,8 @@
   "delving_threads": 0.0,
   "ml_responses": 1.0,
   "delving_responses": 0.0,
-  "first_active": "2018-06-26T10:58:53",
-  "last_active": "2022-08-18T10:29:01",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Participant",
   "expertise_domains": [
     "Mining",
@@ -66,13 +67,13 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Mining": 0.5,
-      "Wallet": 0.5
+      "Wallet": 0.5,
+      "Mining": 0.5
     }
   },
   "expertise_domain_scores": {
-    "Mining": 0.5,
-    "Wallet": 0.5
+    "Wallet": 0.5,
+    "Mining": 0.5
   },
   "p2016_posts": 2.0,
   "modern_posts": 0.0,
@@ -85,14 +86,32 @@
   "is_researcher": true,
   "is_bip_author": false,
   "global_first_active": "2018-06-15T08:20:23",
-  "global_last_active": "2022-08-18T10:29:01",
+  "global_last_active": "2020-12-20T15:42:14",
   "github_location": "Brasília, Brazil",
   "github_company": "BBrito",
   "github_bio": "More ideas than time to implement.\r\nAI / Bitcoin / Finance / Libertarianism.",
   "github_twitter": "brenorb",
   "github_blog": "brenorb.com",
-  "github_followers": 58.0,
+  "github_followers": 80.0,
+  "github_profile_fetched_at": "2026-10-20T19:52:52Z",
   "activity_status": "Active",
+  "geo_country_iso2": "BR",
+  "geo_country_iso3": "BRA",
+  "geo_country_name": "Brazil",
+  "geo_sovereign_iso2": "BR",
+  "geo_m49_subregion": "South America",
+  "geo_macro_region": "Latin America",
+  "geo_un_macro_region": "Latin America & Caribbean",
+  "geo_wb_income": "Upper-Middle",
+  "geo_flag": "🇧🇷",
+  "geo_status": "resolved",
+  "geo_source": "github_location",
+  "geo_confidence": 0.95,
+  "geo_conflict": false,
+  "geo_tz_signature": null,
+  "geo_location_raw": "Brasília, Brazil",
+  "geo_as_of": "2026-10-20",
+  "geo_taxonomy_version": "2026.10.1",
   "is_top_50": false,
   "github_url": "https://github.com/brenorb",
   "first_message": {

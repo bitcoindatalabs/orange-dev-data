@@ -1,6 +1,7 @@
 {
   "display_name": "virtu",
   "github_login_final": "virtu",
+  "github_id_final": "72414353",
   "delving_username_final": "virtu",
   "uuid": "auto_virtu",
   "badges": null,
@@ -47,7 +48,7 @@
   "review_reciprocity": 3.0,
   "hybrid_score": 0.2151,
   "p2016_hybrid_score": 0.2176,
-  "modern_hybrid_score": 0.2229,
+  "modern_hybrid_score": 0.2231,
   "impact_score": 12.0,
   "p2016_impact_score": 12.0,
   "modern_impact_score": 13.0,
@@ -57,8 +58,8 @@
   "delving_threads": 4.0,
   "ml_responses": 0.0,
   "delving_responses": 4.0,
-  "first_active": null,
-  "last_active": null,
+  "first_active": "2024-02-14T14:18:22.962000",
+  "last_active": "2025-03-03T14:01:18.346000",
   "dev_type": "Builder",
   "expertise_domains": [
     "Infrastructure",
@@ -66,23 +67,23 @@
     "Mempool"
   ],
   "expertise_by_source": {
+    "discussion": {
+      "Network": 0.516,
+      "Mempool": 0.226,
+      "Mining": 0.258
+    },
     "code": {
       "Infrastructure": 0.85,
-      "Consensus": 0.117,
-      "Mempool": 0.033
-    },
-    "discussion": {
-      "Mining": 0.258,
-      "Mempool": 0.226,
-      "Network": 0.516
+      "Mempool": 0.033,
+      "Consensus": 0.117
     }
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.51,
     "Consensus": 0.0702,
-    "Mining": 0.1032,
+    "Network": 0.2064,
     "Mempool": 0.1102,
-    "Network": 0.2064
+    "Mining": 0.1032
   },
   "p2016_posts": 8.0,
   "modern_posts": 8.0,
@@ -101,8 +102,26 @@
   "github_bio": "Bitcoin researcher and developer",
   "github_twitter": "vir7u",
   "github_blog": "21.ninja",
-  "github_followers": 26.0,
+  "github_followers": 28.0,
+  "github_profile_fetched_at": "2026-10-20T19:06:38Z",
   "activity_status": "Active",
+  "geo_country_iso2": null,
+  "geo_country_iso3": null,
+  "geo_country_name": null,
+  "geo_sovereign_iso2": null,
+  "geo_m49_subregion": null,
+  "geo_macro_region": "Undisclosed",
+  "geo_un_macro_region": "Undisclosed",
+  "geo_wb_income": null,
+  "geo_flag": null,
+  "geo_status": "non_geographic",
+  "geo_source": "none",
+  "geo_confidence": 0.0,
+  "geo_conflict": false,
+  "geo_tz_signature": null,
+  "geo_location_raw": "Earth",
+  "geo_as_of": null,
+  "geo_taxonomy_version": "2026.10.1",
   "is_top_50": false,
   "github_url": "https://github.com/virtu",
   "delving_url": "https://delvingbitcoin.org/u/virtu",

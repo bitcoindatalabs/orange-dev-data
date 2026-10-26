@@ -1,6 +1,7 @@
 {
   "display_name": "Yuval Kogman",
   "github_login_final": "nothingmuch",
+  "github_id_final": "14242",
   "delving_username_final": "nothingmuch",
   "uuid": "auto_yuval_kogman",
   "badges": {
@@ -57,9 +58,9 @@
   "avg_pr_ack_velocity_days": 0.2253587962962963,
   "avg_concept_lead_time_days": 85.22662037037037,
   "review_reciprocity": 2.4,
-  "hybrid_score": 0.518,
-  "p2016_hybrid_score": 0.5375,
-  "modern_hybrid_score": 0.5235,
+  "hybrid_score": 0.5179,
+  "p2016_hybrid_score": 0.5373,
+  "modern_hybrid_score": 0.5251,
   "impact_score": 27.0,
   "p2016_impact_score": 28.0,
   "modern_impact_score": 27.0,
@@ -69,8 +70,8 @@
   "delving_threads": 4.0,
   "ml_responses": 22.0,
   "delving_responses": 2.0,
-  "first_active": "2018-11-06T09:50:38",
-  "last_active": null,
+  "first_active": null,
+  "last_active": "2026-07-22T16:01:11.951000",
   "dev_type": "Protocol Designer",
   "expertise_domains": [
     "Infrastructure",
@@ -78,14 +79,14 @@
     "Privacy"
   ],
   "expertise_by_source": {
-    "code": {
-      "Script": 0.5,
-      "Consensus": 0.5
-    },
     "discussion": {
       "Consensus": 0.088,
       "Privacy": 0.772,
       "Mempool": 0.14
+    },
+    "code": {
+      "Script": 0.5,
+      "Consensus": 0.5
     },
     "bips": {
       "Infrastructure": 1.0
@@ -93,10 +94,10 @@
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.5,
+    "Script": 0.15,
     "Consensus": 0.1676,
     "Privacy": 0.1544,
-    "Mempool": 0.028,
-    "Script": 0.15
+    "Mempool": 0.028
   },
   "p2016_posts": 32.0,
   "modern_posts": 18.0,
@@ -108,15 +109,33 @@
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": true,
-  "global_first_active": "2018-11-06T09:50:38",
-  "global_last_active": "2026-06-04T20:51:37",
+  "global_first_active": "2019-07-02T15:09:39",
+  "global_last_active": "2026-07-22T16:01:11.951000",
   "github_location": null,
   "github_company": "spiral",
   "github_bio": null,
   "github_twitter": null,
   "github_blog": null,
   "github_followers": 0.0,
+  "github_profile_fetched_at": "2026-10-20T19:04:17Z",
   "activity_status": "Active",
+  "geo_country_iso2": null,
+  "geo_country_iso3": null,
+  "geo_country_name": null,
+  "geo_sovereign_iso2": null,
+  "geo_m49_subregion": null,
+  "geo_macro_region": "Undisclosed",
+  "geo_un_macro_region": "Undisclosed",
+  "geo_wb_income": null,
+  "geo_flag": null,
+  "geo_status": "empty",
+  "geo_source": "none",
+  "geo_confidence": 0.0,
+  "geo_conflict": false,
+  "geo_tz_signature": null,
+  "geo_location_raw": null,
+  "geo_as_of": null,
+  "geo_taxonomy_version": "2026.10.1",
   "is_top_50": false,
   "github_url": "https://github.com/nothingmuch",
   "delving_url": "https://delvingbitcoin.org/u/nothingmuch",

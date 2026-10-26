@@ -1,6 +1,7 @@
 {
   "display_name": "Bob McElrath",
   "github_login_final": "mcelrath",
+  "github_id_final": "1746780",
   "delving_username_final": "mcelrath",
   "uuid": "can_bob_mcelrath",
   "badges": null,
@@ -46,7 +47,7 @@
   "avg_concept_lead_time_days": 2.607366898148148,
   "review_reciprocity": 1.25,
   "hybrid_score": 0.226,
-  "p2016_hybrid_score": 0.2151,
+  "p2016_hybrid_score": 0.215,
   "modern_hybrid_score": 0.0396,
   "impact_score": 13.0,
   "p2016_impact_score": 12.0,
@@ -57,8 +58,8 @@
   "delving_threads": 12.0,
   "ml_responses": 23.0,
   "delving_responses": 19.0,
-  "first_active": "2014-08-10T09:07:19",
-  "last_active": null,
+  "first_active": null,
+  "last_active": "2025-12-03T12:49:27.107000",
   "dev_type": "Builder",
   "expertise_domains": [
     "Infrastructure",
@@ -66,22 +67,22 @@
     "Mempool"
   ],
   "expertise_by_source": {
+    "discussion": {
+      "Network": 0.132,
+      "Mempool": 0.189,
+      "Mining": 0.679
+    },
     "code": {
       "Infrastructure": 0.945,
       "Consensus": 0.055
-    },
-    "discussion": {
-      "Mining": 0.679,
-      "Mempool": 0.189,
-      "Network": 0.132
     }
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.567,
     "Consensus": 0.033,
-    "Mining": 0.2716,
+    "Network": 0.0528,
     "Mempool": 0.0756,
-    "Network": 0.0528
+    "Mining": 0.2716
   },
   "p2016_posts": 47.0,
   "modern_posts": 31.0,
@@ -93,15 +94,33 @@
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": false,
-  "global_first_active": "2014-08-10T09:07:19",
-  "global_last_active": "2020-10-09T00:59:53",
+  "global_first_active": "2015-10-29T12:40:07",
+  "global_last_active": "2025-12-03T12:49:27.107000",
   "github_location": "Boston, MA",
   "github_company": "Startup/VC Tech Advisor, Independent Contributor",
   "github_bio": "Remaking money and reverse-engineering the universe.",
   "github_twitter": null,
   "github_blog": "http://bob.mcelrath.org/resume/",
-  "github_followers": 80.0,
-  "activity_status": "Retired",
+  "github_followers": 82.0,
+  "github_profile_fetched_at": "2026-10-20T19:03:42Z",
+  "activity_status": "Active",
+  "geo_country_iso2": "US",
+  "geo_country_iso3": "USA",
+  "geo_country_name": "USA",
+  "geo_sovereign_iso2": "US",
+  "geo_m49_subregion": "Northern America",
+  "geo_macro_region": "North America",
+  "geo_un_macro_region": "North America",
+  "geo_wb_income": "High",
+  "geo_flag": "🇺🇸",
+  "geo_status": "resolved",
+  "geo_source": "github_location",
+  "geo_confidence": 0.9,
+  "geo_conflict": false,
+  "geo_tz_signature": null,
+  "geo_location_raw": "Boston, MA",
+  "geo_as_of": "2026-10-20",
+  "geo_taxonomy_version": "2026.10.1",
   "is_top_50": false,
   "github_url": "https://github.com/mcelrath",
   "delving_url": "https://delvingbitcoin.org/u/mcelrath",

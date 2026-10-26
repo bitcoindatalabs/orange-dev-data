@@ -1,31 +1,32 @@
 {
   "display_name": "Sebastian van Staa",
   "github_login_final": "svanstaa",
+  "github_id_final": "7563059",
   "delving_username_final": "svanstaa",
   "uuid": "auto_sebastian_van_staa",
   "badges": {
     "ecosystem_contributor": true,
-    "tier2_commits": 76
+    "tier2_commits": 77
   },
   "roles": null,
-  "total_commits": 78.0,
-  "authored_commits": 78.0,
+  "total_commits": 79.0,
+  "authored_commits": 79.0,
   "tier1_authored_commits": 2.0,
-  "tier2_authored_commits": 76.0,
+  "tier2_authored_commits": 77.0,
   "merge_commits": 0.0,
   "tier1_merge_commits": 0.0,
   "tier2_merge_commits": 0.0,
   "self_merges": 0.0,
-  "total_additions": 2439.0,
+  "total_additions": 2460.0,
   "total_deletions": 73.0,
   "first_core_commit": "2026-06-10T21:24:20+00:00",
   "last_core_commit": "2026-06-10T21:24:20+00:00",
   "first_ecosystem_commit": "2022-11-25T10:31:53+00:00",
-  "last_ecosystem_commit": "2026-10-12T05:33:15+00:00",
+  "last_ecosystem_commit": "2026-10-21T14:21:37+00:00",
   "first_commit": "2026-06-10T21:24:20",
   "last_commit": "2026-06-10T21:24:20",
-  "p2016_authored_commits": 78.0,
-  "modern_authored_commits": 67.0,
+  "p2016_authored_commits": 79.0,
+  "modern_authored_commits": 66.0,
   "co_authored_commits": 0.0,
   "bips_authored": 0.0,
   "p2016_bips_authored": 0.0,
@@ -60,19 +61,19 @@
   "delving_threads": 0.0,
   "ml_responses": 0.0,
   "delving_responses": 1.0,
-  "first_active": null,
-  "last_active": null,
+  "first_active": "2026-04-08T14:32:38.719000",
+  "last_active": "2026-04-08T14:32:38.719000",
   "dev_type": "Builder",
   "expertise_domains": [
     "Infrastructure",
     "Consensus"
   ],
   "expertise_by_source": {
-    "code": {
-      "Infrastructure": 1.0
-    },
     "discussion": {
       "Consensus": 1.0
+    },
+    "code": {
+      "Infrastructure": 1.0
     }
   },
   "expertise_domain_scores": {
@@ -96,8 +97,26 @@
   "github_bio": null,
   "github_twitter": "sebastianvstaa",
   "github_blog": null,
-  "github_followers": 17.0,
+  "github_followers": 27.0,
+  "github_profile_fetched_at": "2026-10-20T19:54:11Z",
   "activity_status": "Active",
+  "geo_country_iso2": null,
+  "geo_country_iso3": null,
+  "geo_country_name": null,
+  "geo_sovereign_iso2": null,
+  "geo_m49_subregion": null,
+  "geo_macro_region": "Europe",
+  "geo_un_macro_region": "Europe",
+  "geo_wb_income": null,
+  "geo_flag": null,
+  "geo_status": "region_only",
+  "geo_source": "timezone",
+  "geo_confidence": 0.35,
+  "geo_conflict": false,
+  "geo_tz_signature": "+60/+120",
+  "geo_location_raw": null,
+  "geo_as_of": "2026-10-24",
+  "geo_taxonomy_version": "2026.10.1",
   "is_top_50": false,
   "github_url": "https://github.com/svanstaa",
   "delving_url": "https://delvingbitcoin.org/u/svanstaa",

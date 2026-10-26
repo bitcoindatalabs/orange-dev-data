@@ -1,6 +1,7 @@
 {
   "display_name": "R E Broadley",
   "github_login_final": "rebroad",
+  "github_id_final": "1530283",
   "delving_username_final": null,
   "uuid": "auto_r_e_broadley",
   "badges": null,
@@ -45,8 +46,8 @@
   "avg_pr_ack_velocity_days": 12.91871130952381,
   "avg_concept_lead_time_days": 12.027255787037037,
   "review_reciprocity": 1.5892857142857142,
-  "hybrid_score": 0.4278,
-  "p2016_hybrid_score": 0.3416,
+  "hybrid_score": 0.4277,
+  "p2016_hybrid_score": 0.3415,
   "modern_hybrid_score": 0.1627,
   "impact_score": 23.0,
   "p2016_impact_score": 19.0,
@@ -57,8 +58,8 @@
   "delving_threads": 0.0,
   "ml_responses": 4.0,
   "delving_responses": 0.0,
-  "first_active": "2017-06-02T07:29:19",
-  "last_active": "2021-05-09T06:30:53",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Builder",
   "expertise_domains": [
     "Infrastructure",
@@ -66,20 +67,20 @@
     "Mempool"
   ],
   "expertise_by_source": {
-    "code": {
-      "Infrastructure": 0.838,
-      "Network": 0.162
-    },
     "discussion": {
       "Consensus": 0.5,
       "Mempool": 0.5
+    },
+    "code": {
+      "Infrastructure": 0.838,
+      "Network": 0.162
     }
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.5028,
     "Consensus": 0.2,
-    "Mempool": 0.2,
-    "Network": 0.0972
+    "Network": 0.0972,
+    "Mempool": 0.2
   },
   "p2016_posts": 4.0,
   "modern_posts": 0.0,
@@ -98,8 +99,26 @@
   "github_bio": null,
   "github_twitter": null,
   "github_blog": null,
-  "github_followers": 61.0,
+  "github_followers": 65.0,
+  "github_profile_fetched_at": "2026-10-20T19:05:00Z",
   "activity_status": "Rising",
+  "geo_country_iso2": null,
+  "geo_country_iso3": null,
+  "geo_country_name": null,
+  "geo_sovereign_iso2": null,
+  "geo_m49_subregion": null,
+  "geo_macro_region": "Undisclosed",
+  "geo_un_macro_region": "Undisclosed",
+  "geo_wb_income": null,
+  "geo_flag": null,
+  "geo_status": "empty",
+  "geo_source": "none",
+  "geo_confidence": 0.0,
+  "geo_conflict": false,
+  "geo_tz_signature": null,
+  "geo_location_raw": null,
+  "geo_as_of": null,
+  "geo_taxonomy_version": "2026.10.1",
   "is_top_50": false,
   "github_url": "https://github.com/rebroad",
   "commit_history": {

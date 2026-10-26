@@ -1,6 +1,7 @@
 {
   "display_name": "odudex",
   "github_login_final": "odudex",
+  "github_id_final": "5049478",
   "delving_username_final": "odudex",
   "uuid": "auto_odudex",
   "badges": null,
@@ -57,8 +58,8 @@
   "delving_threads": 1.0,
   "ml_responses": 0.0,
   "delving_responses": 0.0,
-  "first_active": null,
-  "last_active": null,
+  "first_active": "2026-04-28T13:07:40.842000",
+  "last_active": "2026-04-28T13:07:40.842000",
   "dev_type": "Participant",
   "expertise_domains": [
     "Script",
@@ -66,13 +67,13 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Mempool": 0.33,
-      "Script": 0.67
+      "Script": 0.67,
+      "Mempool": 0.33
     }
   },
   "expertise_domain_scores": {
-    "Mempool": 0.33,
-    "Script": 0.67
+    "Script": 0.67,
+    "Mempool": 0.33
   },
   "p2016_posts": 1.0,
   "modern_posts": 1.0,
@@ -85,14 +86,32 @@
   "is_researcher": false,
   "is_bip_author": false,
   "global_first_active": "2025-09-15T20:00:46",
-  "global_last_active": "2025-09-15T20:00:46",
+  "global_last_active": "2026-04-28T13:07:40.842000",
   "github_location": null,
   "github_company": null,
-  "github_bio": null,
-  "github_twitter": null,
+  "github_bio": "I'm an electrical engineer, product designer interested in embedded software and cryptography\r\nGPG: CD48298A386CE34F3A9FEE3EB9AA47C3E81DD14C",
+  "github_twitter": "odudex",
   "github_blog": null,
-  "github_followers": null,
+  "github_followers": 88.0,
+  "github_profile_fetched_at": "2026-10-20T18:58:29Z",
   "activity_status": "Active",
+  "geo_country_iso2": null,
+  "geo_country_iso3": null,
+  "geo_country_name": null,
+  "geo_sovereign_iso2": null,
+  "geo_m49_subregion": null,
+  "geo_macro_region": "Undisclosed",
+  "geo_un_macro_region": "Undisclosed",
+  "geo_wb_income": null,
+  "geo_flag": null,
+  "geo_status": "empty",
+  "geo_source": "none",
+  "geo_confidence": 0.0,
+  "geo_conflict": false,
+  "geo_tz_signature": null,
+  "geo_location_raw": null,
+  "geo_as_of": null,
+  "geo_taxonomy_version": "2026.10.1",
   "is_top_50": false,
   "github_url": "https://github.com/odudex",
   "delving_url": "https://delvingbitcoin.org/u/odudex",

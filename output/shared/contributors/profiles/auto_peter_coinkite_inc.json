@@ -1,6 +1,7 @@
 {
-  "display_name": "peter (coinkite inc)",
+  "display_name": "Peter (Coinkite Inc)",
   "github_login_final": "doc-hex",
+  "github_id_final": "1482781",
   "delving_username_final": null,
   "uuid": "auto_peter_coinkite_inc",
   "badges": {
@@ -48,7 +49,7 @@
   "avg_pr_ack_velocity_days": null,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": 3.5,
-  "hybrid_score": 0.5501,
+  "hybrid_score": 0.55,
   "p2016_hybrid_score": 0.577,
   "modern_hybrid_score": 0.025,
   "impact_score": 28.0,
@@ -60,20 +61,20 @@
   "delving_threads": 0.0,
   "ml_responses": 19.0,
   "delving_responses": 0.0,
-  "first_active": "2015-02-06T13:06:07",
-  "last_active": "2022-08-04T13:36:06",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Protocol Designer",
   "expertise_domains": [
     "Wallet",
     "Consensus"
   ],
   "expertise_by_source": {
-    "code": {
-      "Wallet": 1.0
-    },
     "discussion": {
       "Consensus": 0.058,
       "Wallet": 0.942
+    },
+    "code": {
+      "Wallet": 1.0
     },
     "bips": {
       "Wallet": 1.0
@@ -93,15 +94,33 @@
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": true,
-  "global_first_active": "2015-02-06T13:06:07",
-  "global_last_active": "2022-08-04T13:36:06",
+  "global_first_active": "2019-04-30T23:19:55",
+  "global_last_active": "2022-07-13T15:13:03",
   "github_location": "Toronto, Ontario, Canada",
   "github_company": "Coinkite Inc.",
   "github_bio": null,
   "github_twitter": null,
   "github_blog": "coinkite.com",
-  "github_followers": 102.0,
+  "github_followers": 115.0,
+  "github_profile_fetched_at": "2026-10-20T19:01:00Z",
   "activity_status": "Retired",
+  "geo_country_iso2": "CA",
+  "geo_country_iso3": "CAN",
+  "geo_country_name": "Canada",
+  "geo_sovereign_iso2": "CA",
+  "geo_m49_subregion": "Northern America",
+  "geo_macro_region": "North America",
+  "geo_un_macro_region": "North America",
+  "geo_wb_income": "High",
+  "geo_flag": "🇨🇦",
+  "geo_status": "resolved",
+  "geo_source": "github_location",
+  "geo_confidence": 0.95,
+  "geo_conflict": false,
+  "geo_tz_signature": null,
+  "geo_location_raw": "Toronto, Ontario, Canada",
+  "geo_as_of": "2026-10-20",
+  "geo_taxonomy_version": "2026.10.1",
   "is_top_50": false,
   "github_url": "https://github.com/doc-hex",
   "commit_history": {

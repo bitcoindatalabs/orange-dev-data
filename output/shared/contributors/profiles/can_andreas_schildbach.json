@@ -1,6 +1,7 @@
 {
   "display_name": "Andreas Schildbach",
   "github_login_final": "schildbach",
+  "github_id_final": "743306",
   "delving_username_final": null,
   "uuid": "can_andreas_schildbach",
   "badges": null,
@@ -45,9 +46,9 @@
   "avg_pr_ack_velocity_days": 3.2759852430555556,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": 3.263157894736842,
-  "hybrid_score": 0.4772,
-  "p2016_hybrid_score": 0.3181,
-  "modern_hybrid_score": 0.1342,
+  "hybrid_score": 0.4768,
+  "p2016_hybrid_score": 0.3179,
+  "modern_hybrid_score": 0.1347,
   "impact_score": 25.0,
   "p2016_impact_score": 17.0,
   "modern_impact_score": 8.0,
@@ -57,8 +58,8 @@
   "delving_threads": 0.0,
   "ml_responses": 187.0,
   "delving_responses": 0.0,
-  "first_active": "2011-09-23T14:42:08",
-  "last_active": "2025-03-14T04:12:57",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Builder",
   "expertise_domains": [
     "Infrastructure",
@@ -66,19 +67,19 @@
     "Consensus"
   ],
   "expertise_by_source": {
-    "code": {
-      "Infrastructure": 0.625,
-      "Consensus": 0.375
-    },
     "discussion": {
       "Ecosystem": 0.76,
       "Wallet": 0.24
+    },
+    "code": {
+      "Infrastructure": 0.625,
+      "Consensus": 0.375
     }
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.375,
-    "Consensus": 0.225,
     "Ecosystem": 0.304,
+    "Consensus": 0.225,
     "Wallet": 0.096
   },
   "p2016_posts": 44.0,
@@ -91,15 +92,33 @@
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": false,
-  "global_first_active": "2011-09-23T14:42:08",
+  "global_first_active": "2012-10-30T13:28:55",
   "global_last_active": "2026-10-06T14:21:40",
   "github_location": null,
   "github_company": null,
   "github_bio": null,
   "github_twitter": null,
   "github_blog": null,
-  "github_followers": 821.0,
+  "github_followers": 839.0,
+  "github_profile_fetched_at": "2026-10-20T19:05:31Z",
   "activity_status": "Active",
+  "geo_country_iso2": "DE",
+  "geo_country_iso3": "DEU",
+  "geo_country_name": "Germany",
+  "geo_sovereign_iso2": "DE",
+  "geo_m49_subregion": "Western Europe",
+  "geo_macro_region": "Europe",
+  "geo_un_macro_region": "Europe",
+  "geo_wb_income": "High",
+  "geo_flag": "🇩🇪",
+  "geo_status": "resolved",
+  "geo_source": "email_tld",
+  "geo_confidence": 0.55,
+  "geo_conflict": false,
+  "geo_tz_signature": null,
+  "geo_location_raw": null,
+  "geo_as_of": "2026-10-24",
+  "geo_taxonomy_version": "2026.10.1",
   "is_top_50": false,
   "github_url": "https://github.com/schildbach",
   "commit_history": {

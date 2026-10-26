@@ -1,6 +1,7 @@
 {
   "display_name": "Peter Tschipper",
   "github_login_final": "ptschip",
+  "github_id_final": "12862928",
   "delving_username_final": null,
   "uuid": "auto_peter_tschipper",
   "badges": null,
@@ -45,7 +46,7 @@
   "avg_pr_ack_velocity_days": 6.871641589506172,
   "avg_concept_lead_time_days": 6.112465277777778,
   "review_reciprocity": 0.3076923076923077,
-  "hybrid_score": 0.2213,
+  "hybrid_score": 0.2214,
   "p2016_hybrid_score": 0.1406,
   "modern_hybrid_score": 0.0727,
   "impact_score": 12.0,
@@ -57,19 +58,19 @@
   "delving_threads": 0.0,
   "ml_responses": 12.0,
   "delving_responses": 0.0,
-  "first_active": "2015-11-09T13:18:10",
-  "last_active": "2015-12-02T17:05:10",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Builder",
   "expertise_domains": [
     "Infrastructure",
     "Ecosystem"
   ],
   "expertise_by_source": {
-    "code": {
-      "Infrastructure": 1.0
-    },
     "discussion": {
       "Ecosystem": 1.0
+    },
+    "code": {
+      "Infrastructure": 1.0
     }
   },
   "expertise_domain_scores": {
@@ -93,8 +94,26 @@
   "github_bio": null,
   "github_twitter": null,
   "github_blog": null,
-  "github_followers": 22.0,
+  "github_followers": 23.0,
+  "github_profile_fetched_at": "2026-10-20T19:04:45Z",
   "activity_status": "Retired",
+  "geo_country_iso2": null,
+  "geo_country_iso3": null,
+  "geo_country_name": null,
+  "geo_sovereign_iso2": null,
+  "geo_m49_subregion": null,
+  "geo_macro_region": "Undisclosed",
+  "geo_un_macro_region": "Undisclosed",
+  "geo_wb_income": null,
+  "geo_flag": null,
+  "geo_status": "empty",
+  "geo_source": "none",
+  "geo_confidence": 0.0,
+  "geo_conflict": false,
+  "geo_tz_signature": null,
+  "geo_location_raw": null,
+  "geo_as_of": null,
+  "geo_taxonomy_version": "2026.10.1",
   "is_top_50": false,
   "github_url": "https://github.com/ptschip",
   "commit_history": {

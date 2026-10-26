@@ -1,6 +1,7 @@
 {
   "display_name": "Kate Salazar",
   "github_login_final": "katesalazar",
+  "github_id_final": "52637275",
   "delving_username_final": null,
   "uuid": "auto_kate_salazar",
   "badges": null,
@@ -46,7 +47,7 @@
   "avg_concept_lead_time_days": 0.8119791666666667,
   "review_reciprocity": 7.045454545454546,
   "hybrid_score": 0.2378,
-  "p2016_hybrid_score": 0.2463,
+  "p2016_hybrid_score": 0.2462,
   "modern_hybrid_score": 0.1571,
   "impact_score": 13.0,
   "p2016_impact_score": 14.0,
@@ -57,8 +58,8 @@
   "delving_threads": 0.0,
   "ml_responses": 7.0,
   "delving_responses": 0.0,
-  "first_active": "2021-10-16T16:34:32",
-  "last_active": "2022-06-29T05:44:11",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Builder",
   "expertise_domains": [
     "Infrastructure",
@@ -66,18 +67,18 @@
     "Consensus"
   ],
   "expertise_by_source": {
+    "discussion": {
+      "Script": 0.568,
+      "Consensus": 0.432
+    },
     "code": {
       "Infrastructure": 1.0
-    },
-    "discussion": {
-      "Consensus": 0.432,
-      "Script": 0.568
     }
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.6,
-    "Consensus": 0.1728,
-    "Script": 0.2272
+    "Script": 0.2272,
+    "Consensus": 0.1728
   },
   "p2016_posts": 7.0,
   "modern_posts": 0.0,
@@ -97,7 +98,25 @@
   "github_twitter": null,
   "github_blog": null,
   "github_followers": 0.0,
+  "github_profile_fetched_at": "2026-10-20T19:02:54Z",
   "activity_status": "Active",
+  "geo_country_iso2": null,
+  "geo_country_iso3": null,
+  "geo_country_name": null,
+  "geo_sovereign_iso2": null,
+  "geo_m49_subregion": null,
+  "geo_macro_region": "Undisclosed",
+  "geo_un_macro_region": "Undisclosed",
+  "geo_wb_income": null,
+  "geo_flag": null,
+  "geo_status": "empty",
+  "geo_source": "none",
+  "geo_confidence": 0.0,
+  "geo_conflict": false,
+  "geo_tz_signature": null,
+  "geo_location_raw": null,
+  "geo_as_of": null,
+  "geo_taxonomy_version": "2026.10.1",
   "is_top_50": false,
   "github_url": "https://github.com/katesalazar",
   "commit_history": {

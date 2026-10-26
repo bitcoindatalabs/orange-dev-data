@@ -1,6 +1,7 @@
 {
   "display_name": "Riccardo Casatta",
   "github_login_final": "RCasatta",
+  "github_id_final": "6470319",
   "delving_username_final": null,
   "uuid": "auto_riccardo_casatta",
   "badges": {
@@ -48,7 +49,7 @@
   "avg_pr_ack_velocity_days": null,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": 1.0,
-  "hybrid_score": 0.1077,
+  "hybrid_score": 0.1076,
   "p2016_hybrid_score": 0.1201,
   "modern_hybrid_score": 0.025,
   "impact_score": 6.0,
@@ -60,8 +61,8 @@
   "delving_threads": 0.0,
   "ml_responses": 10.0,
   "delving_responses": 0.0,
-  "first_active": "2017-08-28T10:50:23",
-  "last_active": "2021-09-17T02:07:48",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Builder",
   "expertise_domains": [
     "Wallet",
@@ -69,18 +70,18 @@
     "Privacy"
   ],
   "expertise_by_source": {
+    "discussion": {
+      "Network": 0.6,
+      "Privacy": 0.4
+    },
     "code": {
       "Wallet": 1.0
-    },
-    "discussion": {
-      "Privacy": 0.4,
-      "Network": 0.6
     }
   },
   "expertise_domain_scores": {
-    "Privacy": 0.16,
+    "Network": 0.24,
     "Wallet": 0.6,
-    "Network": 0.24
+    "Privacy": 0.16
   },
   "p2016_posts": 12.0,
   "modern_posts": 0.0,
@@ -92,15 +93,33 @@
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": false,
-  "global_first_active": "2017-08-28T10:50:23",
+  "global_first_active": "2018-11-27T15:37:20",
   "global_last_active": "2023-04-30T13:33:56",
   "github_location": "Italia",
   "github_company": null,
   "github_bio": "#bitcoin",
   "github_twitter": null,
   "github_blog": null,
-  "github_followers": 257.0,
+  "github_followers": 264.0,
+  "github_profile_fetched_at": "2026-10-20T19:04:58Z",
   "activity_status": "Active",
+  "geo_country_iso2": "IT",
+  "geo_country_iso3": "ITA",
+  "geo_country_name": "Italy",
+  "geo_sovereign_iso2": "IT",
+  "geo_m49_subregion": "Southern Europe",
+  "geo_macro_region": "Europe",
+  "geo_un_macro_region": "Europe",
+  "geo_wb_income": "High",
+  "geo_flag": "🇮🇹",
+  "geo_status": "resolved",
+  "geo_source": "github_location",
+  "geo_confidence": 0.95,
+  "geo_conflict": false,
+  "geo_tz_signature": null,
+  "geo_location_raw": "Italia",
+  "geo_as_of": "2026-10-20",
+  "geo_taxonomy_version": "2026.10.1",
   "is_top_50": false,
   "github_url": "https://github.com/RCasatta",
   "commit_history": {

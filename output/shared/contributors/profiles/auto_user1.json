@@ -1,7 +1,8 @@
 {
   "display_name": "user1",
   "github_login_final": null,
-  "delving_username_final": "kcu201104",
+  "github_id_final": null,
+  "delving_username_final": "ahmet-kurt",
   "uuid": "auto_user1",
   "badges": null,
   "roles": null,
@@ -52,65 +53,83 @@
   "p2016_impact_score": 0.0,
   "modern_impact_score": 0.0,
   "threads_started": 1.0,
-  "replies_sent": 0.0,
+  "replies_sent": 2.0,
   "ml_threads": 0.0,
   "delving_threads": 1.0,
   "ml_responses": 0.0,
-  "delving_responses": 0.0,
-  "first_active": null,
-  "last_active": null,
+  "delving_responses": 2.0,
+  "first_active": "2026-09-16T07:30:49.860000",
+  "last_active": "2026-10-01T01:55:58.034000",
   "dev_type": "Participant",
   "expertise_domains": [
-    "Mining",
-    "Ecosystem"
+    "Cryptography",
+    "L2"
   ],
   "expertise_by_source": {
     "discussion": {
-      "Mining": 0.67,
-      "Ecosystem": 0.33
+      "L2": 0.25,
+      "Cryptography": 0.75
     }
   },
   "expertise_domain_scores": {
-    "Mining": 0.67,
-    "Ecosystem": 0.33
+    "L2": 0.25,
+    "Cryptography": 0.75
   },
-  "p2016_posts": 1.0,
-  "modern_posts": 1.0,
+  "p2016_posts": 3.0,
+  "modern_posts": 3.0,
   "p2016_ml_posts": 0.0,
-  "p2016_delving_posts": 1.0,
+  "p2016_delving_posts": 3.0,
   "modern_ml_posts": 0.0,
-  "modern_delving_posts": 1.0,
+  "modern_delving_posts": 3.0,
   "is_engineer": false,
   "is_reviewer": false,
   "is_researcher": false,
   "is_bip_author": false,
-  "global_first_active": null,
-  "global_last_active": null,
+  "global_first_active": "2026-09-16T07:30:49.860000",
+  "global_last_active": "2026-10-01T01:55:58.034000",
   "github_location": null,
   "github_company": null,
   "github_bio": null,
   "github_twitter": null,
   "github_blog": null,
   "github_followers": null,
+  "github_profile_fetched_at": null,
   "activity_status": "",
+  "geo_country_iso2": null,
+  "geo_country_iso3": null,
+  "geo_country_name": null,
+  "geo_sovereign_iso2": null,
+  "geo_m49_subregion": null,
+  "geo_macro_region": "Undisclosed",
+  "geo_un_macro_region": "Undisclosed",
+  "geo_wb_income": null,
+  "geo_flag": null,
+  "geo_status": "empty",
+  "geo_source": "none",
+  "geo_confidence": 0.0,
+  "geo_conflict": false,
+  "geo_tz_signature": null,
+  "geo_location_raw": null,
+  "geo_as_of": null,
+  "geo_taxonomy_version": "2026.10.1",
   "is_top_50": false,
-  "delving_url": "https://delvingbitcoin.org/u/kcu201104",
+  "delving_url": "https://delvingbitcoin.org/u/ahmet-kurt",
   "first_message": {
     "source": "delving",
-    "subject": "Asynchronous Pipeline Consensus: Decoupling Mining from Full-Block Validation",
-    "date": "2026-09-22",
-    "link": "https://delvingbitcoin.org/t/asynchronous-pipeline-consensus-decoupling-mining-from-full-block-validation/2906/1"
+    "subject": "PQLN: Post-Quantum Security for the Bitcoin Lightning Network's Off-Chain Surfaces",
+    "date": "2026-09-16",
+    "link": "https://delvingbitcoin.org/t/pqln-post-quantum-security-for-the-bitcoin-lightning-networks-off-chain-surfaces/2893/1"
   },
   "last_message": {
     "source": "delving",
-    "subject": "Asynchronous Pipeline Consensus: Decoupling Mining from Full-Block Validation",
-    "date": "2026-09-22",
-    "link": "https://delvingbitcoin.org/t/asynchronous-pipeline-consensus-decoupling-mining-from-full-block-validation/2906/1"
+    "subject": "Re: PQLN: Post-Quantum Security for the Bitcoin Lightning Network's Off-Chain Surfaces",
+    "date": "2026-10-01",
+    "link": "https://delvingbitcoin.org/t/pqln-post-quantum-security-for-the-bitcoin-lightning-networks-off-chain-surfaces/2893/3"
   },
   "social_history": {
     "2026": {
-      "mining": 1,
-      "scaling": 1
+      "lightning": 2,
+      "quantum": 3
     }
   }
 }

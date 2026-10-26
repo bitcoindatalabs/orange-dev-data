@@ -1,6 +1,7 @@
 {
-  "display_name": "richard myers",
+  "display_name": "Richard Myers",
   "github_login_final": "remyers",
+  "github_id_final": "8568892",
   "delving_username_final": "remyers",
   "uuid": "auto_richard_myers",
   "badges": null,
@@ -46,8 +47,8 @@
   "avg_concept_lead_time_days": null,
   "review_reciprocity": 1.25,
   "hybrid_score": 0.1502,
-  "p2016_hybrid_score": 0.1578,
-  "modern_hybrid_score": 0.124,
+  "p2016_hybrid_score": 0.1577,
+  "modern_hybrid_score": 0.1242,
   "impact_score": 9.0,
   "p2016_impact_score": 9.0,
   "modern_impact_score": 7.0,
@@ -57,8 +58,8 @@
   "delving_threads": 9.0,
   "ml_responses": 6.0,
   "delving_responses": 4.0,
-  "first_active": "2020-05-11T06:46:04",
-  "last_active": null,
+  "first_active": null,
+  "last_active": "2026-01-26T15:49:40.339000",
   "dev_type": "Builder",
   "expertise_domains": [
     "Wallet",
@@ -66,22 +67,22 @@
     "Infrastructure"
   ],
   "expertise_by_source": {
+    "discussion": {
+      "Script": 0.162,
+      "L2": 0.568,
+      "Mempool": 0.27
+    },
     "code": {
       "Infrastructure": 0.25,
       "Wallet": 0.75
-    },
-    "discussion": {
-      "L2": 0.568,
-      "Mempool": 0.27,
-      "Script": 0.162
     }
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.15,
+    "Script": 0.0648,
     "L2": 0.2272,
-    "Mempool": 0.108,
     "Wallet": 0.45,
-    "Script": 0.0648
+    "Mempool": 0.108
   },
   "p2016_posts": 20.0,
   "modern_posts": 13.0,
@@ -94,14 +95,32 @@
   "is_researcher": true,
   "is_bip_author": false,
   "global_first_active": "2019-07-19T16:01:28",
-  "global_last_active": "2024-01-23T19:34:01",
+  "global_last_active": "2026-01-26T15:49:40.339000",
   "github_location": "EU",
   "github_company": null,
   "github_bio": "lightning, bitcoin, eltoo/ln-symmetry, anyprevout, taproot,  mesh networks",
   "github_twitter": "remyers_",
   "github_blog": "https://yakshaver.org",
-  "github_followers": 73.0,
+  "github_followers": 74.0,
+  "github_profile_fetched_at": "2026-10-20T19:05:01Z",
   "activity_status": "Active",
+  "geo_country_iso2": null,
+  "geo_country_iso3": null,
+  "geo_country_name": null,
+  "geo_sovereign_iso2": null,
+  "geo_m49_subregion": null,
+  "geo_macro_region": "Europe",
+  "geo_un_macro_region": "Europe",
+  "geo_wb_income": null,
+  "geo_flag": null,
+  "geo_status": "region_only",
+  "geo_source": "github_location",
+  "geo_confidence": 0.75,
+  "geo_conflict": false,
+  "geo_tz_signature": null,
+  "geo_location_raw": "EU",
+  "geo_as_of": "2026-10-20",
+  "geo_taxonomy_version": "2026.10.1",
   "is_top_50": false,
   "github_url": "https://github.com/remyers",
   "delving_url": "https://delvingbitcoin.org/u/remyers",

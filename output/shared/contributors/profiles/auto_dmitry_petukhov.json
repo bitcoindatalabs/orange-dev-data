@@ -1,6 +1,7 @@
 {
-  "display_name": "dmitry petukhov",
+  "display_name": "Dmitry Petukhov",
   "github_login_final": "dgpv",
+  "github_id_final": "43240089",
   "delving_username_final": "dgpv",
   "uuid": "auto_dmitry_petukhov",
   "badges": {
@@ -58,8 +59,8 @@
   "avg_concept_lead_time_days": null,
   "review_reciprocity": 1.7777777777777777,
   "hybrid_score": 0.5821,
-  "p2016_hybrid_score": 0.6209,
-  "modern_hybrid_score": 0.0885,
+  "p2016_hybrid_score": 0.621,
+  "modern_hybrid_score": 0.0887,
   "impact_score": 29.0,
   "p2016_impact_score": 31.0,
   "modern_impact_score": 5.0,
@@ -69,8 +70,8 @@
   "delving_threads": 22.0,
   "ml_responses": 41.0,
   "delving_responses": 12.0,
-  "first_active": "2018-11-08T02:11:30",
-  "last_active": null,
+  "first_active": null,
+  "last_active": "2024-09-09T10:54:41.079000",
   "dev_type": "Protocol Designer",
   "expertise_domains": [
     "Infrastructure",
@@ -78,12 +79,12 @@
     "Wallet"
   ],
   "expertise_by_source": {
-    "code": {
-      "Infrastructure": 1.0
-    },
     "discussion": {
       "Script": 0.711,
       "Wallet": 0.289
+    },
+    "code": {
+      "Infrastructure": 1.0
     },
     "bips": {
       "Infrastructure": 1.0
@@ -91,8 +92,8 @@
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.8,
-    "Wallet": 0.0578,
-    "Script": 0.1422
+    "Script": 0.1422,
+    "Wallet": 0.0578
   },
   "p2016_posts": 79.0,
   "modern_posts": 31.0,
@@ -104,15 +105,33 @@
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": true,
-  "global_first_active": "2018-11-08T02:11:30",
-  "global_last_active": "2024-04-12T17:27:44",
+  "global_first_active": "2019-07-24T12:19:28",
+  "global_last_active": "2024-09-09T10:54:41.079000",
   "github_location": null,
   "github_company": null,
   "github_bio": null,
   "github_twitter": null,
   "github_blog": null,
-  "github_followers": 47.0,
+  "github_followers": 46.0,
+  "github_profile_fetched_at": "2026-10-20T19:00:55Z",
   "activity_status": "Retired",
+  "geo_country_iso2": null,
+  "geo_country_iso3": null,
+  "geo_country_name": null,
+  "geo_sovereign_iso2": null,
+  "geo_m49_subregion": null,
+  "geo_macro_region": "Undisclosed",
+  "geo_un_macro_region": "Undisclosed",
+  "geo_wb_income": null,
+  "geo_flag": null,
+  "geo_status": "empty",
+  "geo_source": "none",
+  "geo_confidence": 0.0,
+  "geo_conflict": false,
+  "geo_tz_signature": null,
+  "geo_location_raw": null,
+  "geo_as_of": null,
+  "geo_taxonomy_version": "2026.10.1",
   "is_top_50": false,
   "github_url": "https://github.com/dgpv",
   "delving_url": "https://delvingbitcoin.org/u/dgpv",

@@ -1,6 +1,7 @@
 {
   "display_name": "Flavien Charlon",
   "github_login_final": "Flavien",
+  "github_id_final": "296540",
   "delving_username_final": null,
   "uuid": "auto_flavien_charlon",
   "badges": null,
@@ -57,8 +58,8 @@
   "delving_threads": 0.0,
   "ml_responses": 13.0,
   "delving_responses": 0.0,
-  "first_active": "2014-04-06T15:59:34",
-  "last_active": "2014-11-28T05:45:19",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Builder",
   "expertise_domains": [
     "Script",
@@ -66,21 +67,21 @@
     "Ecosystem"
   ],
   "expertise_by_source": {
+    "discussion": {
+      "Script": 0.432,
+      "Ecosystem": 0.432,
+      "Consensus": 0.136
+    },
     "code": {
       "Infrastructure": 0.5,
       "Script": 0.5
-    },
-    "discussion": {
-      "Consensus": 0.136,
-      "Ecosystem": 0.432,
-      "Script": 0.432
     }
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.3,
-    "Consensus": 0.0544,
+    "Script": 0.4728,
     "Ecosystem": 0.1728,
-    "Script": 0.4728
+    "Consensus": 0.0544
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,
@@ -92,15 +93,33 @@
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": false,
-  "global_first_active": "2014-04-06T15:59:34",
+  "global_first_active": "2014-11-12T17:38:39",
   "global_last_active": "2015-02-03T12:12:53",
   "github_location": "Dublin, Ireland",
   "github_company": "Toast",
   "github_bio": null,
   "github_twitter": null,
   "github_blog": null,
-  "github_followers": 189.0,
+  "github_followers": 190.0,
+  "github_profile_fetched_at": "2026-10-20T19:51:22Z",
   "activity_status": "Active",
+  "geo_country_iso2": "IE",
+  "geo_country_iso3": "IRL",
+  "geo_country_name": "Ireland",
+  "geo_sovereign_iso2": "IE",
+  "geo_m49_subregion": "Northern Europe",
+  "geo_macro_region": "Europe",
+  "geo_un_macro_region": "Europe",
+  "geo_wb_income": "High",
+  "geo_flag": "🇮🇪",
+  "geo_status": "resolved",
+  "geo_source": "github_location",
+  "geo_confidence": 0.95,
+  "geo_conflict": false,
+  "geo_tz_signature": null,
+  "geo_location_raw": "Dublin, Ireland",
+  "geo_as_of": "2026-10-20",
+  "geo_taxonomy_version": "2026.10.1",
   "is_top_50": false,
   "github_url": "https://github.com/Flavien",
   "commit_history": {

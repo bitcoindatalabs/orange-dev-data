@@ -1,6 +1,7 @@
 {
   "display_name": "Cryptaxe",
   "github_login_final": "CryptAxe",
+  "github_id_final": "8107318",
   "delving_username_final": null,
   "uuid": "auto_cryptaxe",
   "badges": {
@@ -58,7 +59,7 @@
   "avg_concept_lead_time_days": 9.431030092592591,
   "review_reciprocity": 0.42857142857142855,
   "hybrid_score": 0.7508,
-  "p2016_hybrid_score": 0.7692,
+  "p2016_hybrid_score": 0.7691,
   "modern_hybrid_score": 0.0615,
   "impact_score": 36.0,
   "p2016_impact_score": 37.0,
@@ -69,8 +70,8 @@
   "delving_threads": 0.0,
   "ml_responses": 25.0,
   "delving_responses": 0.0,
-  "first_active": "2017-05-24T12:32:22",
-  "last_active": "2018-09-25T19:00:03",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Protocol Designer",
   "expertise_domains": [
     "Consensus",
@@ -78,14 +79,14 @@
     "Mempool"
   ],
   "expertise_by_source": {
+    "discussion": {
+      "Script": 0.261,
+      "L2": 0.478,
+      "Consensus": 0.261
+    },
     "code": {
       "Infrastructure": 0.667,
       "Mempool": 0.333
-    },
-    "discussion": {
-      "Consensus": 0.261,
-      "L2": 0.478,
-      "Script": 0.261
     },
     "bips": {
       "Consensus": 1.0
@@ -93,10 +94,10 @@
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.2001,
-    "Consensus": 0.5522,
+    "Script": 0.0522,
     "L2": 0.0956,
-    "Mempool": 0.0999,
-    "Script": 0.0522
+    "Consensus": 0.5522,
+    "Mempool": 0.0999
   },
   "p2016_posts": 25.0,
   "modern_posts": 0.0,
@@ -116,7 +117,25 @@
   "github_twitter": null,
   "github_blog": null,
   "github_followers": 0.0,
+  "github_profile_fetched_at": "2026-10-20T19:00:32Z",
   "activity_status": "Retired",
+  "geo_country_iso2": null,
+  "geo_country_iso3": null,
+  "geo_country_name": null,
+  "geo_sovereign_iso2": null,
+  "geo_m49_subregion": null,
+  "geo_macro_region": "Undisclosed",
+  "geo_un_macro_region": "Undisclosed",
+  "geo_wb_income": null,
+  "geo_flag": null,
+  "geo_status": "empty",
+  "geo_source": "none",
+  "geo_confidence": 0.0,
+  "geo_conflict": false,
+  "geo_tz_signature": null,
+  "geo_location_raw": null,
+  "geo_as_of": null,
+  "geo_taxonomy_version": "2026.10.1",
   "is_top_50": false,
   "github_url": "https://github.com/CryptAxe",
   "commit_history": {

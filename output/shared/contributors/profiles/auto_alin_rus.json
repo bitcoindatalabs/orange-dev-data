@@ -1,6 +1,7 @@
 {
-  "display_name": "alin rus",
+  "display_name": "Alin Rus",
   "github_login_final": null,
+  "github_id_final": null,
   "delving_username_final": null,
   "uuid": "auto_alin_rus",
   "badges": null,
@@ -74,8 +75,8 @@
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.75,
-    "Wallet": 0.125,
-    "Network": 0.125
+    "Network": 0.125,
+    "Wallet": 0.125
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,
@@ -95,7 +96,25 @@
   "github_twitter": null,
   "github_blog": null,
   "github_followers": null,
+  "github_profile_fetched_at": null,
   "activity_status": "Active",
+  "geo_country_iso2": "RO",
+  "geo_country_iso3": "ROU",
+  "geo_country_name": "Romania",
+  "geo_sovereign_iso2": "RO",
+  "geo_m49_subregion": "Eastern Europe",
+  "geo_macro_region": "Europe",
+  "geo_un_macro_region": "Europe",
+  "geo_wb_income": "High",
+  "geo_flag": "🇷🇴",
+  "geo_status": "resolved",
+  "geo_source": "email_tld",
+  "geo_confidence": 0.55,
+  "geo_conflict": false,
+  "geo_tz_signature": null,
+  "geo_location_raw": null,
+  "geo_as_of": "2026-10-24",
+  "geo_taxonomy_version": "2026.10.1",
   "is_top_50": false,
   "commit_history": {
     "2018": {

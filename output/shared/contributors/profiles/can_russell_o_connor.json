@@ -1,6 +1,7 @@
 {
   "display_name": "Russell O'Connor",
   "github_login_final": "roconnor",
+  "github_id_final": "852967",
   "delving_username_final": "roconnor-blockstream",
   "uuid": "can_russell_o_connor",
   "badges": {
@@ -53,9 +54,9 @@
   "avg_pr_ack_velocity_days": 4.078164457070707,
   "avg_concept_lead_time_days": 12.787504340277778,
   "review_reciprocity": 1.2195121951219512,
-  "hybrid_score": 0.5863,
-  "p2016_hybrid_score": 0.715,
-  "modern_hybrid_score": 0.462,
+  "hybrid_score": 0.586,
+  "p2016_hybrid_score": 0.7145,
+  "modern_hybrid_score": 0.4638,
   "impact_score": 30.0,
   "p2016_impact_score": 35.0,
   "modern_impact_score": 24.0,
@@ -65,8 +66,8 @@
   "delving_threads": 7.0,
   "ml_responses": 216.0,
   "delving_responses": 2.0,
-  "first_active": "2011-12-29T00:55:03",
-  "last_active": "2025-12-15T10:31:49",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Builder",
   "expertise_domains": [
     "Infrastructure",
@@ -74,19 +75,19 @@
     "Consensus"
   ],
   "expertise_by_source": {
+    "discussion": {
+      "Script": 0.69,
+      "Consensus": 0.31
+    },
     "code": {
       "Infrastructure": 0.975,
       "Script": 0.025
-    },
-    "discussion": {
-      "Consensus": 0.31,
-      "Script": 0.69
     }
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.585,
-    "Consensus": 0.124,
-    "Script": 0.291
+    "Script": 0.291,
+    "Consensus": 0.124
   },
   "p2016_posts": 235.0,
   "modern_posts": 23.0,
@@ -98,15 +99,33 @@
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": false,
-  "global_first_active": "2011-12-29T00:55:03",
+  "global_first_active": "2017-08-26T16:10:45",
   "global_last_active": "2026-09-10T16:59:21",
   "github_location": null,
   "github_company": null,
   "github_bio": null,
   "github_twitter": null,
   "github_blog": null,
-  "github_followers": null,
+  "github_followers": 39.0,
+  "github_profile_fetched_at": "2026-10-20T18:46:47Z",
   "activity_status": "Active",
+  "geo_country_iso2": null,
+  "geo_country_iso3": null,
+  "geo_country_name": null,
+  "geo_sovereign_iso2": null,
+  "geo_m49_subregion": null,
+  "geo_macro_region": "North America",
+  "geo_un_macro_region": "North America",
+  "geo_wb_income": null,
+  "geo_flag": null,
+  "geo_status": "region_only",
+  "geo_source": "timezone",
+  "geo_confidence": 0.35,
+  "geo_conflict": false,
+  "geo_tz_signature": "-300/-240",
+  "geo_location_raw": null,
+  "geo_as_of": "2026-10-24",
+  "geo_taxonomy_version": "2026.10.1",
   "is_top_50": false,
   "github_url": "https://github.com/roconnor",
   "delving_url": "https://delvingbitcoin.org/u/roconnor-blockstream",

@@ -1,6 +1,7 @@
 {
   "display_name": "Andy Alness",
   "github_login_final": "aalness",
+  "github_id_final": "4391003",
   "delving_username_final": null,
   "uuid": "auto_andy_alness",
   "badges": null,
@@ -45,7 +46,7 @@
   "avg_pr_ack_velocity_days": 27.557123842592596,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": 1.7142857142857142,
-  "hybrid_score": 0.1512,
+  "hybrid_score": 0.1511,
   "p2016_hybrid_score": 0.0615,
   "modern_hybrid_score": 0.0542,
   "impact_score": 9.0,
@@ -57,8 +58,8 @@
   "delving_threads": 0.0,
   "ml_responses": 4.0,
   "delving_responses": 0.0,
-  "first_active": "2014-05-11T20:05:20",
-  "last_active": "2014-06-24T14:34:03",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Builder",
   "expertise_domains": [
     "Script",
@@ -66,18 +67,18 @@
     "Mempool"
   ],
   "expertise_by_source": {
-    "code": {
-      "Script": 1.0
-    },
     "discussion": {
       "Ecosystem": 0.859,
       "Mempool": 0.141
+    },
+    "code": {
+      "Script": 1.0
     }
   },
   "expertise_domain_scores": {
+    "Script": 0.6,
     "Ecosystem": 0.3436,
-    "Mempool": 0.0564,
-    "Script": 0.6
+    "Mempool": 0.0564
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,
@@ -97,7 +98,25 @@
   "github_twitter": null,
   "github_blog": null,
   "github_followers": 36.0,
+  "github_profile_fetched_at": "2026-10-20T18:58:59Z",
   "activity_status": "Active",
+  "geo_country_iso2": null,
+  "geo_country_iso3": null,
+  "geo_country_name": null,
+  "geo_sovereign_iso2": null,
+  "geo_m49_subregion": null,
+  "geo_macro_region": "Undisclosed",
+  "geo_un_macro_region": "Undisclosed",
+  "geo_wb_income": null,
+  "geo_flag": null,
+  "geo_status": "empty",
+  "geo_source": "none",
+  "geo_confidence": 0.0,
+  "geo_conflict": false,
+  "geo_tz_signature": null,
+  "geo_location_raw": null,
+  "geo_as_of": null,
+  "geo_taxonomy_version": "2026.10.1",
   "is_top_50": false,
   "github_url": "https://github.com/aalness",
   "commit_history": {

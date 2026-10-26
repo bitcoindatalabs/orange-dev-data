@@ -1,6 +1,7 @@
 {
   "display_name": "isle2983",
   "github_login_final": "isle2983",
+  "github_id_final": "20916903",
   "delving_username_final": null,
   "uuid": "auto_isle2983",
   "badges": null,
@@ -69,11 +70,11 @@
     "code": {
       "Infrastructure": 0.915,
       "Wallet": 0.01,
-      "Script": 0.01,
-      "Consensus": 0.01,
       "Network": 0.01,
+      "Cryptography": 0.01,
       "Mempool": 0.035,
-      "Cryptography": 0.01
+      "Script": 0.01,
+      "Consensus": 0.01
     }
   },
   "expertise_domain_scores": {
@@ -97,8 +98,26 @@
   "github_bio": "This man is an island.",
   "github_twitter": null,
   "github_blog": null,
-  "github_followers": 9.0,
+  "github_followers": 10.0,
+  "github_profile_fetched_at": "2026-10-20T19:02:18Z",
   "activity_status": "Retired",
+  "geo_country_iso2": null,
+  "geo_country_iso3": null,
+  "geo_country_name": null,
+  "geo_sovereign_iso2": null,
+  "geo_m49_subregion": null,
+  "geo_macro_region": "Undisclosed",
+  "geo_un_macro_region": "Undisclosed",
+  "geo_wb_income": null,
+  "geo_flag": null,
+  "geo_status": "empty",
+  "geo_source": "none",
+  "geo_confidence": 0.0,
+  "geo_conflict": false,
+  "geo_tz_signature": null,
+  "geo_location_raw": null,
+  "geo_as_of": null,
+  "geo_taxonomy_version": "2026.10.1",
   "is_top_50": false,
   "github_url": "https://github.com/isle2983",
   "commit_history": {

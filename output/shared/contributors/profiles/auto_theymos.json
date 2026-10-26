@@ -1,6 +1,7 @@
 {
   "display_name": "theymos",
   "github_login_final": "theymos",
+  "github_id_final": "628984",
   "delving_username_final": null,
   "uuid": "auto_theymos",
   "badges": null,
@@ -45,7 +46,7 @@
   "avg_pr_ack_velocity_days": null,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": null,
-  "hybrid_score": 0.0858,
+  "hybrid_score": 0.0857,
   "p2016_hybrid_score": 0.0361,
   "modern_hybrid_score": 0.0,
   "impact_score": 5.0,
@@ -57,8 +58,8 @@
   "delving_threads": 0.0,
   "ml_responses": 18.0,
   "delving_responses": 0.0,
-  "first_active": "2011-08-18T11:47:56",
-  "last_active": "2017-04-05T18:05:18",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Participant",
   "expertise_domains": [
     "Mining",
@@ -66,13 +67,13 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Mining": 0.5,
-      "Script": 0.5
+      "Script": 0.5,
+      "Mining": 0.5
     }
   },
   "expertise_domain_scores": {
-    "Mining": 0.5,
-    "Script": 0.5
+    "Script": 0.5,
+    "Mining": 0.5
   },
   "p2016_posts": 1.0,
   "modern_posts": 0.0,
@@ -84,15 +85,33 @@
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": false,
-  "global_first_active": "2011-08-18T11:47:56",
-  "global_last_active": "2017-04-05T18:05:18",
+  "global_first_active": "2014-09-16T01:03:31",
+  "global_last_active": "2016-03-18T16:53:53",
   "github_location": null,
   "github_company": null,
   "github_bio": null,
   "github_twitter": null,
   "github_blog": null,
-  "github_followers": null,
+  "github_followers": 83.0,
+  "github_profile_fetched_at": "2026-10-20T18:48:42Z",
   "activity_status": "",
+  "geo_country_iso2": null,
+  "geo_country_iso3": null,
+  "geo_country_name": null,
+  "geo_sovereign_iso2": null,
+  "geo_m49_subregion": null,
+  "geo_macro_region": "Undisclosed",
+  "geo_un_macro_region": "Undisclosed",
+  "geo_wb_income": null,
+  "geo_flag": null,
+  "geo_status": "empty",
+  "geo_source": "none",
+  "geo_confidence": 0.0,
+  "geo_conflict": false,
+  "geo_tz_signature": null,
+  "geo_location_raw": null,
+  "geo_as_of": null,
+  "geo_taxonomy_version": "2026.10.1",
   "is_top_50": false,
   "github_url": "https://github.com/theymos",
   "first_message": {

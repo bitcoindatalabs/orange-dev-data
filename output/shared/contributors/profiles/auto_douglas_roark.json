@@ -1,6 +1,7 @@
 {
   "display_name": "Douglas Roark",
   "github_login_final": "droark",
+  "github_id_final": "5931802",
   "delving_username_final": null,
   "uuid": "auto_douglas_roark",
   "badges": null,
@@ -46,7 +47,7 @@
   "avg_concept_lead_time_days": 14.754984567901234,
   "review_reciprocity": 1.6111111111111112,
   "hybrid_score": 0.3097,
-  "p2016_hybrid_score": 0.3002,
+  "p2016_hybrid_score": 0.3003,
   "modern_hybrid_score": 0.0865,
   "impact_score": 17.0,
   "p2016_impact_score": 16.0,
@@ -57,8 +58,8 @@
   "delving_threads": 0.0,
   "ml_responses": 16.0,
   "delving_responses": 0.0,
-  "first_active": "2015-01-21T13:29:52",
-  "last_active": "2017-12-11T12:12:02",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Builder",
   "expertise_domains": [
     "Infrastructure",
@@ -66,12 +67,12 @@
     "Network"
   ],
   "expertise_by_source": {
+    "discussion": {
+      "Consensus": 1.0
+    },
     "code": {
       "Infrastructure": 0.923,
       "Network": 0.077
-    },
-    "discussion": {
-      "Consensus": 1.0
     }
   },
   "expertise_domain_scores": {
@@ -97,7 +98,25 @@
   "github_twitter": null,
   "github_blog": "https://www.linkedin.com/in/douglasroarkengineer/",
   "github_followers": 41.0,
+  "github_profile_fetched_at": "2026-10-20T19:01:07Z",
   "activity_status": "Retired",
+  "geo_country_iso2": "US",
+  "geo_country_iso3": "USA",
+  "geo_country_name": "USA",
+  "geo_sovereign_iso2": "US",
+  "geo_m49_subregion": "Northern America",
+  "geo_macro_region": "North America",
+  "geo_un_macro_region": "North America",
+  "geo_wb_income": "High",
+  "geo_flag": "🇺🇸",
+  "geo_status": "resolved",
+  "geo_source": "github_location",
+  "geo_confidence": 0.9,
+  "geo_conflict": false,
+  "geo_tz_signature": null,
+  "geo_location_raw": "Austin, TX",
+  "geo_as_of": "2026-10-20",
+  "geo_taxonomy_version": "2026.10.1",
   "is_top_50": false,
   "github_url": "https://github.com/droark",
   "commit_history": {

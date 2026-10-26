@@ -1,6 +1,7 @@
 {
   "display_name": "Samuel Dobson",
   "github_login_final": "meshcollider",
+  "github_id_final": "3211283",
   "delving_username_final": null,
   "uuid": "can_samuel_dobson",
   "badges": {
@@ -85,18 +86,18 @@
     "code": {
       "Infrastructure": 0.707,
       "Wallet": 0.26,
-      "Script": 0.016,
-      "Consensus": 0.011,
       "Network": 0.002,
+      "Cryptography": 0.001,
       "Mempool": 0.002,
-      "Cryptography": 0.001
+      "Script": 0.016,
+      "Consensus": 0.011
     }
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.7077,
+    "Script": 0.016,
     "Consensus": 0.011,
-    "Wallet": 0.2603,
-    "Script": 0.016
+    "Wallet": 0.2603
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,
@@ -110,13 +111,31 @@
   "is_bip_author": false,
   "global_first_active": "2011-07-27T20:10:47",
   "global_last_active": "2022-02-07T23:29:54",
-  "github_location": null,
+  "github_location": "Aotearoa  | New Zealand",
   "github_company": null,
-  "github_bio": null,
-  "github_twitter": null,
-  "github_blog": null,
-  "github_followers": null,
+  "github_bio": "PhD (mathematics) from the University of Auckland.",
+  "github_twitter": "meshcollider",
+  "github_blog": "meshcollider.github.io",
+  "github_followers": 507.0,
+  "github_profile_fetched_at": "2026-10-20T18:46:36Z",
   "activity_status": "Retired",
+  "geo_country_iso2": "NZ",
+  "geo_country_iso3": "NZL",
+  "geo_country_name": "New Zealand",
+  "geo_sovereign_iso2": "NZ",
+  "geo_m49_subregion": "Australia and New Zealand",
+  "geo_macro_region": "Asia Pacific",
+  "geo_un_macro_region": "Oceania",
+  "geo_wb_income": "High",
+  "geo_flag": "🇳🇿",
+  "geo_status": "resolved",
+  "geo_source": "github_location",
+  "geo_confidence": 0.95,
+  "geo_conflict": false,
+  "geo_tz_signature": "+780/+720",
+  "geo_location_raw": "Aotearoa  | New Zealand",
+  "geo_as_of": "2026-10-20",
+  "geo_taxonomy_version": "2026.10.1",
   "is_top_50": false,
   "github_url": "https://github.com/meshcollider",
   "commit_history": {

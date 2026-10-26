@@ -1,6 +1,7 @@
 {
   "display_name": "Luca Venturini",
   "github_login_final": "lucayepa",
+  "github_id_final": "697159",
   "delving_username_final": null,
   "uuid": "auto_luca_venturini",
   "badges": null,
@@ -45,8 +46,8 @@
   "avg_pr_ack_velocity_days": 10.625856481481481,
   "avg_concept_lead_time_days": 23.5946875,
   "review_reciprocity": 0.6666666666666666,
-  "hybrid_score": 0.1636,
-  "p2016_hybrid_score": 0.1327,
+  "hybrid_score": 0.1635,
+  "p2016_hybrid_score": 0.1326,
   "modern_hybrid_score": 0.05,
   "impact_score": 9.0,
   "p2016_impact_score": 8.0,
@@ -57,8 +58,8 @@
   "delving_threads": 0.0,
   "ml_responses": 2.0,
   "delving_responses": 0.0,
-  "first_active": "2017-09-06T10:44:47",
-  "last_active": "2017-09-06T14:25:16",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Builder",
   "expertise_domains": [
     "Infrastructure",
@@ -66,18 +67,18 @@
     "Consensus"
   ],
   "expertise_by_source": {
+    "discussion": {
+      "Ecosystem": 0.674,
+      "Consensus": 0.326
+    },
     "code": {
       "Infrastructure": 1.0
-    },
-    "discussion": {
-      "Consensus": 0.326,
-      "Ecosystem": 0.674
     }
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.6,
-    "Consensus": 0.1304,
-    "Ecosystem": 0.2696
+    "Ecosystem": 0.2696,
+    "Consensus": 0.1304
   },
   "p2016_posts": 3.0,
   "modern_posts": 0.0,
@@ -97,7 +98,25 @@
   "github_twitter": "lucayepa",
   "github_blog": "http://luca.yepa.com",
   "github_followers": 28.0,
+  "github_profile_fetched_at": "2026-10-20T19:03:24Z",
   "activity_status": "Active",
+  "geo_country_iso2": "BS",
+  "geo_country_iso3": "BHS",
+  "geo_country_name": "Bahamas",
+  "geo_sovereign_iso2": "BS",
+  "geo_m49_subregion": "Caribbean",
+  "geo_macro_region": "Latin America",
+  "geo_un_macro_region": "Latin America & Caribbean",
+  "geo_wb_income": "High",
+  "geo_flag": "🇧🇸",
+  "geo_status": "resolved",
+  "geo_source": "github_location",
+  "geo_confidence": 0.95,
+  "geo_conflict": false,
+  "geo_tz_signature": null,
+  "geo_location_raw": "Nassau, Bahamas",
+  "geo_as_of": "2026-10-20",
+  "geo_taxonomy_version": "2026.10.1",
   "is_top_50": false,
   "github_url": "https://github.com/lucayepa",
   "commit_history": {

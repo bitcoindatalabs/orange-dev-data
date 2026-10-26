@@ -1,6 +1,7 @@
 {
   "display_name": "Giacomo Caironi",
   "github_login_final": "giacomocaironi",
+  "github_id_final": "30932677",
   "delving_username_final": null,
   "uuid": "auto_giacomo_caironi",
   "badges": {
@@ -48,7 +49,7 @@
   "avg_pr_ack_velocity_days": 15.471296296296297,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": 2.0,
-  "hybrid_score": 0.1466,
+  "hybrid_score": 0.1465,
   "p2016_hybrid_score": 0.1521,
   "modern_hybrid_score": 0.0946,
   "impact_score": 8.0,
@@ -60,19 +61,19 @@
   "delving_threads": 0.0,
   "ml_responses": 2.0,
   "delving_responses": 0.0,
-  "first_active": "2021-09-16T16:36:48",
-  "last_active": "2021-10-06T15:35:51",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Builder",
   "expertise_domains": [
     "Wallet",
     "Consensus"
   ],
   "expertise_by_source": {
-    "code": {
-      "Wallet": 1.0
-    },
     "discussion": {
       "Consensus": 1.0
+    },
+    "code": {
+      "Wallet": 1.0
     }
   },
   "expertise_domain_scores": {
@@ -89,15 +90,33 @@
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": false,
-  "global_first_active": "2021-09-16T16:36:48",
+  "global_first_active": "2021-10-30T14:22:55",
   "global_last_active": "2024-01-17T19:11:05",
   "github_location": null,
   "github_company": null,
   "github_bio": null,
   "github_twitter": null,
   "github_blog": "www.giacomocaironi.dev",
-  "github_followers": 9.0,
+  "github_followers": 10.0,
+  "github_profile_fetched_at": "2026-10-20T19:01:45Z",
   "activity_status": "Active",
+  "geo_country_iso2": null,
+  "geo_country_iso3": null,
+  "geo_country_name": null,
+  "geo_sovereign_iso2": null,
+  "geo_m49_subregion": null,
+  "geo_macro_region": "Undisclosed",
+  "geo_un_macro_region": "Undisclosed",
+  "geo_wb_income": null,
+  "geo_flag": null,
+  "geo_status": "empty",
+  "geo_source": "none",
+  "geo_confidence": 0.0,
+  "geo_conflict": false,
+  "geo_tz_signature": null,
+  "geo_location_raw": null,
+  "geo_as_of": null,
+  "geo_taxonomy_version": "2026.10.1",
   "is_top_50": false,
   "github_url": "https://github.com/giacomocaironi",
   "commit_history": {

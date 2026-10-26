@@ -1,6 +1,7 @@
 {
   "display_name": "Matt Whitlock",
   "github_login_final": "whitslack",
+  "github_id_final": "797782",
   "delving_username_final": null,
   "uuid": "can_matt_whitlock",
   "badges": null,
@@ -45,7 +46,7 @@
   "avg_pr_ack_velocity_days": 28.357586805555556,
   "avg_concept_lead_time_days": 37.649475308641975,
   "review_reciprocity": 1.2,
-  "hybrid_score": 0.387,
+  "hybrid_score": 0.3867,
   "p2016_hybrid_score": 0.2076,
   "modern_hybrid_score": 0.1559,
   "impact_score": 21.0,
@@ -57,8 +58,8 @@
   "delving_threads": 0.0,
   "ml_responses": 109.0,
   "delving_responses": 0.0,
-  "first_active": "2014-03-29T03:05:17",
-  "last_active": "2015-09-02T14:21:48",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Builder",
   "expertise_domains": [
     "Infrastructure",
@@ -66,24 +67,24 @@
     "Mining"
   ],
   "expertise_by_source": {
+    "discussion": {
+      "Wallet": 0.655,
+      "Mining": 0.345
+    },
     "code": {
       "Infrastructure": 0.5,
-      "Consensus": 0.1,
       "Network": 0.2,
-      "Mempool": 0.2
-    },
-    "discussion": {
-      "Mining": 0.345,
-      "Wallet": 0.655
+      "Mempool": 0.2,
+      "Consensus": 0.1
     }
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.3,
     "Consensus": 0.06,
-    "Mining": 0.138,
-    "Mempool": 0.12,
+    "Network": 0.12,
     "Wallet": 0.262,
-    "Network": 0.12
+    "Mempool": 0.12,
+    "Mining": 0.138
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,
@@ -95,15 +96,33 @@
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": false,
-  "global_first_active": "2014-03-29T03:05:17",
+  "global_first_active": "2017-12-29T03:56:36",
   "global_last_active": "2026-02-20T07:56:41",
   "github_location": "New Hampshire, USA",
   "github_company": null,
   "github_bio": null,
   "github_twitter": null,
   "github_blog": null,
-  "github_followers": 38.0,
+  "github_followers": 40.0,
+  "github_profile_fetched_at": "2026-10-20T19:06:46Z",
   "activity_status": "Rising",
+  "geo_country_iso2": "US",
+  "geo_country_iso3": "USA",
+  "geo_country_name": "USA",
+  "geo_sovereign_iso2": "US",
+  "geo_m49_subregion": "Northern America",
+  "geo_macro_region": "North America",
+  "geo_un_macro_region": "North America",
+  "geo_wb_income": "High",
+  "geo_flag": "🇺🇸",
+  "geo_status": "resolved",
+  "geo_source": "github_location",
+  "geo_confidence": 0.95,
+  "geo_conflict": false,
+  "geo_tz_signature": null,
+  "geo_location_raw": "New Hampshire, USA",
+  "geo_as_of": "2026-10-20",
+  "geo_taxonomy_version": "2026.10.1",
   "is_top_50": false,
   "github_url": "https://github.com/whitslack",
   "commit_history": {

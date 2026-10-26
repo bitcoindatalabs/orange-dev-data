@@ -4,7 +4,7 @@
     "project_name": "Bitcoin Kernel Library",
     "description": "Extracting consensus validation logic into a standalone libbitcoinkernel C++ library with zero external state dependencies.",
     "category": "Consensus Kernel",
-    "champion": "Sebastian Kung",
+    "champion": "Reproducibility Matters",
     "champion_login": "sedited",
     "bip": null,
     "title": "Bitcoin Kernel Library Project Tracking",

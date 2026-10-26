@@ -1,6 +1,7 @@
 {
-  "display_name": "igor zhukov",
+  "display_name": "Igor Zhukov",
   "github_login_final": "fsb4000",
+  "github_id_final": "4289847",
   "delving_username_final": null,
   "uuid": "auto_igor_zhukov",
   "badges": null,
@@ -68,8 +69,8 @@
   "expertise_by_source": {
     "code": {
       "Infrastructure": 0.933,
-      "Mempool": 0.033,
-      "Cryptography": 0.033
+      "Cryptography": 0.033,
+      "Mempool": 0.033
     }
   },
   "expertise_domain_scores": {
@@ -94,8 +95,26 @@
   "github_bio": null,
   "github_twitter": null,
   "github_blog": null,
-  "github_followers": 28.0,
+  "github_followers": 33.0,
+  "github_profile_fetched_at": "2026-10-20T19:01:37Z",
   "activity_status": "Retired",
+  "geo_country_iso2": "RU",
+  "geo_country_iso3": "RUS",
+  "geo_country_name": "Russia",
+  "geo_sovereign_iso2": "RU",
+  "geo_m49_subregion": "Eastern Europe",
+  "geo_macro_region": "Europe",
+  "geo_un_macro_region": "Europe",
+  "geo_wb_income": "High",
+  "geo_flag": "🇷🇺",
+  "geo_status": "resolved",
+  "geo_source": "github_location",
+  "geo_confidence": 0.95,
+  "geo_conflict": false,
+  "geo_tz_signature": null,
+  "geo_location_raw": "Russia",
+  "geo_as_of": "2026-10-20",
+  "geo_taxonomy_version": "2026.10.1",
   "is_top_50": false,
   "github_url": "https://github.com/fsb4000",
   "commit_history": {

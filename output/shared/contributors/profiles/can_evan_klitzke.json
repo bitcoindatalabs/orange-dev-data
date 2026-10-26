@@ -1,6 +1,7 @@
 {
   "display_name": "Evan Klitzke",
   "github_login_final": "eklitzke",
+  "github_id_final": "2734",
   "delving_username_final": null,
   "uuid": "can_evan_klitzke",
   "badges": null,
@@ -45,7 +46,7 @@
   "avg_pr_ack_velocity_days": 1.343814547720798,
   "avg_concept_lead_time_days": 0.38385271990740744,
   "review_reciprocity": 1.6551724137931034,
-  "hybrid_score": 0.3411,
+  "hybrid_score": 0.341,
   "p2016_hybrid_score": 0.3457,
   "modern_hybrid_score": 0.0989,
   "impact_score": 19.0,
@@ -57,19 +58,19 @@
   "delving_threads": 0.0,
   "ml_responses": 1.0,
   "delving_responses": 0.0,
-  "first_active": "2018-03-18T00:50:34",
-  "last_active": "2018-03-18T00:50:34",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Builder",
   "expertise_domains": [
     "Infrastructure",
     "Privacy"
   ],
   "expertise_by_source": {
-    "code": {
-      "Infrastructure": 1.0
-    },
     "discussion": {
       "Privacy": 1.0
+    },
+    "code": {
+      "Infrastructure": 1.0
     }
   },
   "expertise_domain_scores": {
@@ -93,8 +94,26 @@
   "github_bio": "dc -e 36[d1-d0!=F+]dsFxp",
   "github_twitter": null,
   "github_blog": "https://eklitzke.org/",
-  "github_followers": 805.0,
+  "github_followers": 819.0,
+  "github_profile_fetched_at": "2026-10-20T19:01:12Z",
   "activity_status": "Retired",
+  "geo_country_iso2": "US",
+  "geo_country_iso3": "USA",
+  "geo_country_name": "USA",
+  "geo_sovereign_iso2": "US",
+  "geo_m49_subregion": "Northern America",
+  "geo_macro_region": "North America",
+  "geo_un_macro_region": "North America",
+  "geo_wb_income": "High",
+  "geo_flag": "🇺🇸",
+  "geo_status": "resolved",
+  "geo_source": "github_location",
+  "geo_confidence": 0.9,
+  "geo_conflict": false,
+  "geo_tz_signature": null,
+  "geo_location_raw": "San Francisco, CA",
+  "geo_as_of": "2026-10-20",
+  "geo_taxonomy_version": "2026.10.1",
   "is_top_50": false,
   "github_url": "https://github.com/eklitzke",
   "commit_history": {

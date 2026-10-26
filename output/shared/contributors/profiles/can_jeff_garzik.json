@@ -1,6 +1,7 @@
 {
   "display_name": "Jeff Garzik",
   "github_login_final": "jgarzik",
+  "github_id_final": "494411",
   "delving_username_final": null,
   "uuid": "can_jeff_garzik",
   "badges": {
@@ -75,8 +76,8 @@
   "delving_threads": 0.0,
   "ml_responses": 472.0,
   "delving_responses": 0.0,
-  "first_active": "2011-06-11T21:23:58",
-  "last_active": "2015-12-20T21:39:52",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Protocol Designer",
   "expertise_domains": [
     "Consensus",
@@ -84,16 +85,16 @@
     "Network"
   ],
   "expertise_by_source": {
-    "code": {
-      "Infrastructure": 0.93,
-      "Wallet": 0.001,
-      "Consensus": 0.002,
-      "Network": 0.065,
-      "Mempool": 0.002
-    },
     "discussion": {
       "Consensus": 0.556,
       "Mining": 0.444
+    },
+    "code": {
+      "Infrastructure": 0.93,
+      "Wallet": 0.001,
+      "Network": 0.065,
+      "Mempool": 0.002,
+      "Consensus": 0.002
     },
     "bips": {
       "Consensus": 0.667,
@@ -103,8 +104,8 @@
   "expertise_domain_scores": {
     "Infrastructure": 0.279,
     "Consensus": 0.4453,
-    "Mining": 0.0888,
-    "Network": 0.186
+    "Network": 0.186,
+    "Mining": 0.0888
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,
@@ -118,13 +119,31 @@
   "is_bip_author": true,
   "global_first_active": "2011-02-13T07:01:17",
   "global_last_active": "2024-02-16T14:50:17",
-  "github_location": null,
+  "github_location": "Atlanta, GA",
   "github_company": null,
   "github_bio": null,
   "github_twitter": "jgarzik",
   "github_blog": null,
-  "github_followers": null,
+  "github_followers": 1158.0,
+  "github_profile_fetched_at": "2026-10-20T18:46:35Z",
   "activity_status": "Retired",
+  "geo_country_iso2": "US",
+  "geo_country_iso3": "USA",
+  "geo_country_name": "USA",
+  "geo_sovereign_iso2": "US",
+  "geo_m49_subregion": "Northern America",
+  "geo_macro_region": "North America",
+  "geo_un_macro_region": "North America",
+  "geo_wb_income": "High",
+  "geo_flag": "🇺🇸",
+  "geo_status": "resolved",
+  "geo_source": "github_location",
+  "geo_confidence": 0.9,
+  "geo_conflict": false,
+  "geo_tz_signature": "-300/-240",
+  "geo_location_raw": "Atlanta, GA",
+  "geo_as_of": "2026-10-20",
+  "geo_taxonomy_version": "2026.10.1",
   "is_top_50": false,
   "github_url": "https://github.com/jgarzik",
   "commit_history": {

@@ -1,6 +1,7 @@
 {
-  "display_name": "marcos mayorga",
+  "display_name": "Marcos mayorga",
   "github_login_final": "mm-s",
+  "github_id_final": "6876580",
   "delving_username_final": null,
   "uuid": "auto_marcos_mayorga",
   "badges": null,
@@ -45,8 +46,8 @@
   "avg_pr_ack_velocity_days": 0.42303819444444446,
   "avg_concept_lead_time_days": 0.5254861111111111,
   "review_reciprocity": 0.0,
-  "hybrid_score": 0.0824,
-  "p2016_hybrid_score": 0.0952,
+  "hybrid_score": 0.0823,
+  "p2016_hybrid_score": 0.0951,
   "modern_hybrid_score": 0.025,
   "impact_score": 5.0,
   "p2016_impact_score": 6.0,
@@ -57,19 +58,19 @@
   "delving_threads": 0.0,
   "ml_responses": 8.0,
   "delving_responses": 0.0,
-  "first_active": "2017-03-17T15:53:55",
-  "last_active": "2022-11-08T10:31:15",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Builder",
   "expertise_domains": [
     "Consensus",
     "Mining"
   ],
   "expertise_by_source": {
-    "code": {
-      "Consensus": 1.0
-    },
     "discussion": {
       "Mining": 1.0
+    },
+    "code": {
+      "Consensus": 1.0
     }
   },
   "expertise_domain_scores": {
@@ -86,15 +87,33 @@
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": false,
-  "global_first_active": "2017-03-17T15:53:55",
-  "global_last_active": "2022-11-08T10:31:15",
+  "global_first_active": "2017-05-01T23:41:21",
+  "global_last_active": "2017-05-01T23:41:21",
   "github_location": "England",
   "github_company": "mm-studios",
   "github_bio": "Linux&C++&blockchain",
   "github_twitter": null,
   "github_blog": "http://mm-studios.com",
-  "github_followers": 16.0,
+  "github_followers": 17.0,
+  "github_profile_fetched_at": "2026-10-20T19:53:53Z",
   "activity_status": "Active",
+  "geo_country_iso2": "GB",
+  "geo_country_iso3": "GBR",
+  "geo_country_name": "UK",
+  "geo_sovereign_iso2": "GB",
+  "geo_m49_subregion": "Northern Europe",
+  "geo_macro_region": "Europe",
+  "geo_un_macro_region": "Europe",
+  "geo_wb_income": "High",
+  "geo_flag": "🇬🇧",
+  "geo_status": "resolved",
+  "geo_source": "github_location",
+  "geo_confidence": 0.92,
+  "geo_conflict": false,
+  "geo_tz_signature": null,
+  "geo_location_raw": "England",
+  "geo_as_of": "2026-10-20",
+  "geo_taxonomy_version": "2026.10.1",
   "is_top_50": false,
   "github_url": "https://github.com/mm-s",
   "commit_history": {

@@ -1,6 +1,7 @@
 {
   "display_name": "Thomas Kerin",
   "github_login_final": "afk11",
+  "github_id_final": "5617245",
   "delving_username_final": null,
   "uuid": "auto_thomas_kerin",
   "badges": {
@@ -57,8 +58,8 @@
   "avg_pr_ack_velocity_days": 4.405763888888889,
   "avg_concept_lead_time_days": 0.6678009259259259,
   "review_reciprocity": 3.9375,
-  "hybrid_score": 0.8659,
-  "p2016_hybrid_score": 0.2597,
+  "hybrid_score": 0.8658,
+  "p2016_hybrid_score": 0.2596,
   "modern_hybrid_score": 0.0792,
   "impact_score": 41.0,
   "p2016_impact_score": 14.0,
@@ -69,8 +70,8 @@
   "delving_threads": 0.0,
   "ml_responses": 20.0,
   "delving_responses": 0.0,
-  "first_active": "2014-03-27T08:12:07",
-  "last_active": "2019-05-26T14:34:55",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Protocol Designer",
   "expertise_domains": [
     "Script",
@@ -78,14 +79,14 @@
     "Infrastructure"
   ],
   "expertise_by_source": {
-    "code": {
-      "Infrastructure": 0.667,
-      "Script": 0.167,
-      "Network": 0.167
-    },
     "discussion": {
       "Script": 0.389,
       "Wallet": 0.611
+    },
+    "code": {
+      "Infrastructure": 0.667,
+      "Network": 0.167,
+      "Script": 0.167
     },
     "bips": {
       "Consensus": 0.5,
@@ -94,10 +95,10 @@
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.2,
+    "Script": 0.3778,
     "Consensus": 0.2499,
-    "Wallet": 0.1222,
     "Network": 0.0501,
-    "Script": 0.3778
+    "Wallet": 0.1222
   },
   "p2016_posts": 7.0,
   "modern_posts": 0.0,
@@ -109,15 +110,33 @@
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": true,
-  "global_first_active": "2014-03-27T08:12:07",
+  "global_first_active": "2015-02-12T15:02:56",
   "global_last_active": "2021-11-08T17:33:24",
   "github_location": "Ireland",
   "github_company": null,
   "github_bio": null,
   "github_twitter": null,
   "github_blog": null,
-  "github_followers": 188.0,
+  "github_followers": 192.0,
+  "github_profile_fetched_at": "2026-10-20T18:59:06Z",
   "activity_status": "Retired",
+  "geo_country_iso2": "IE",
+  "geo_country_iso3": "IRL",
+  "geo_country_name": "Ireland",
+  "geo_sovereign_iso2": "IE",
+  "geo_m49_subregion": "Northern Europe",
+  "geo_macro_region": "Europe",
+  "geo_un_macro_region": "Europe",
+  "geo_wb_income": "High",
+  "geo_flag": "🇮🇪",
+  "geo_status": "resolved",
+  "geo_source": "github_location",
+  "geo_confidence": 0.95,
+  "geo_conflict": false,
+  "geo_tz_signature": null,
+  "geo_location_raw": "Ireland",
+  "geo_as_of": "2026-10-20",
+  "geo_taxonomy_version": "2026.10.1",
   "is_top_50": false,
   "github_url": "https://github.com/afk11",
   "commit_history": {

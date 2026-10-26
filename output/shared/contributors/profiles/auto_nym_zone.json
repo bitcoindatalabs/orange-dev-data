@@ -1,6 +1,7 @@
 {
   "display_name": "nym-zone",
   "github_login_final": "nym-zone",
+  "github_id_final": "33915087",
   "delving_username_final": null,
   "uuid": "auto_nym_zone",
   "badges": null,
@@ -45,8 +46,8 @@
   "avg_pr_ack_velocity_days": 0.03082175925925926,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": 5.0,
-  "hybrid_score": 0.09,
-  "p2016_hybrid_score": 0.1061,
+  "hybrid_score": 0.0899,
+  "p2016_hybrid_score": 0.106,
   "modern_hybrid_score": 0.0146,
   "impact_score": 5.0,
   "p2016_impact_score": 6.0,
@@ -57,8 +58,8 @@
   "delving_threads": 0.0,
   "ml_responses": 8.0,
   "delving_responses": 0.0,
-  "first_active": "2017-12-25T15:21:57",
-  "last_active": "2018-01-20T00:30:37",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Participant",
   "expertise_domains": [
     "Wallet",
@@ -66,13 +67,13 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Mining": 0.471,
-      "Wallet": 0.529
+      "Wallet": 0.529,
+      "Mining": 0.471
     }
   },
   "expertise_domain_scores": {
-    "Mining": 0.471,
-    "Wallet": 0.529
+    "Wallet": 0.529,
+    "Mining": 0.471
   },
   "p2016_posts": 10.0,
   "modern_posts": 0.0,
@@ -84,15 +85,33 @@
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": false,
-  "global_first_active": "2017-12-25T15:21:57",
-  "global_last_active": "2018-01-20T00:30:37",
+  "global_first_active": "2018-01-05T15:18:31",
+  "global_last_active": "2018-01-08T09:15:24",
   "github_location": "nym.zone",
   "github_company": null,
   "github_bio": "PGP:\r\nECC, preferred: 0xC2E91CD74A4C57A105F6C21B5A00591B2F307E0C\r\nRSA: 0xA232750664CC39D61CE5D61536EBB4AB699A10EE\r\n\r\nBitcoin: 36finjay27E5XPDtSdLEsPR1RypfhNW8D8",
   "github_twitter": null,
   "github_blog": null,
   "github_followers": 11.0,
+  "github_profile_fetched_at": "2026-10-20T19:51:45Z",
   "activity_status": "Active",
+  "geo_country_iso2": null,
+  "geo_country_iso3": null,
+  "geo_country_name": null,
+  "geo_sovereign_iso2": null,
+  "geo_m49_subregion": null,
+  "geo_macro_region": "Undisclosed",
+  "geo_un_macro_region": "Undisclosed",
+  "geo_wb_income": null,
+  "geo_flag": null,
+  "geo_status": "non_geographic",
+  "geo_source": "none",
+  "geo_confidence": 0.0,
+  "geo_conflict": false,
+  "geo_tz_signature": null,
+  "geo_location_raw": "nym.zone",
+  "geo_as_of": null,
+  "geo_taxonomy_version": "2026.10.1",
   "is_top_50": false,
   "github_url": "https://github.com/nym-zone",
   "first_message": {

@@ -1,6 +1,7 @@
 {
-  "display_name": "vojtěch strnad",
+  "display_name": "Vojtěch Strnad",
   "github_login_final": "vostrnad",
+  "github_id_final": "43024885",
   "delving_username_final": "vostrnad",
   "uuid": "auto_vojt_ch_strnad",
   "badges": null,
@@ -57,8 +58,8 @@
   "delving_threads": 5.0,
   "ml_responses": 0.0,
   "delving_responses": 4.0,
-  "first_active": null,
-  "last_active": null,
+  "first_active": "2024-03-12T04:08:49.428000",
+  "last_active": "2025-05-30T07:38:02.854000",
   "dev_type": "Reviewer",
   "expertise_domains": [
     "Script",
@@ -66,13 +67,13 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Mining": 0.325,
-      "Script": 0.675
+      "Script": 0.675,
+      "Mining": 0.325
     }
   },
   "expertise_domain_scores": {
-    "Mining": 0.325,
-    "Script": 0.675
+    "Script": 0.675,
+    "Mining": 0.325
   },
   "p2016_posts": 9.0,
   "modern_posts": 9.0,
@@ -91,8 +92,26 @@
   "github_bio": null,
   "github_twitter": null,
   "github_blog": null,
-  "github_followers": 34.0,
+  "github_followers": 35.0,
+  "github_profile_fetched_at": "2026-10-20T19:06:40Z",
   "activity_status": "Active",
+  "geo_country_iso2": null,
+  "geo_country_iso3": null,
+  "geo_country_name": null,
+  "geo_sovereign_iso2": null,
+  "geo_m49_subregion": null,
+  "geo_macro_region": "Undisclosed",
+  "geo_un_macro_region": "Undisclosed",
+  "geo_wb_income": null,
+  "geo_flag": null,
+  "geo_status": "empty",
+  "geo_source": "none",
+  "geo_confidence": 0.0,
+  "geo_conflict": false,
+  "geo_tz_signature": null,
+  "geo_location_raw": null,
+  "geo_as_of": null,
+  "geo_taxonomy_version": "2026.10.1",
   "is_top_50": false,
   "github_url": "https://github.com/vostrnad",
   "delving_url": "https://delvingbitcoin.org/u/vostrnad",

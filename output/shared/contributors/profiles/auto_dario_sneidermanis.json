@@ -1,6 +1,7 @@
 {
   "display_name": "Dario Sneidermanis",
   "github_login_final": "esneider",
+  "github_id_final": "667132",
   "delving_username_final": null,
   "uuid": "auto_dario_sneidermanis",
   "badges": null,
@@ -46,7 +47,7 @@
   "avg_concept_lead_time_days": null,
   "review_reciprocity": 1.5,
   "hybrid_score": 0.1169,
-  "p2016_hybrid_score": 0.1304,
+  "p2016_hybrid_score": 0.1303,
   "modern_hybrid_score": 0.025,
   "impact_score": 7.0,
   "p2016_impact_score": 8.0,
@@ -57,20 +58,20 @@
   "delving_threads": 0.0,
   "ml_responses": 6.0,
   "delving_responses": 0.0,
-  "first_active": "2015-06-20T21:11:49",
-  "last_active": "2022-10-21T16:13:41",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Builder",
   "expertise_domains": [
     "Mempool",
     "Cryptography"
   ],
   "expertise_by_source": {
-    "code": {
-      "Mempool": 1.0
-    },
     "discussion": {
       "Mempool": 0.877,
       "Cryptography": 0.123
+    },
+    "code": {
+      "Mempool": 1.0
     }
   },
   "expertise_domain_scores": {
@@ -87,15 +88,33 @@
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": false,
-  "global_first_active": "2015-06-20T21:11:49",
+  "global_first_active": "2017-09-07T01:16:22",
   "global_last_active": "2022-11-07T16:41:58",
   "github_location": null,
   "github_company": "@muun ",
   "github_bio": null,
   "github_twitter": null,
   "github_blog": null,
-  "github_followers": 208.0,
+  "github_followers": 209.0,
+  "github_profile_fetched_at": "2026-10-20T19:01:20Z",
   "activity_status": "Active",
+  "geo_country_iso2": null,
+  "geo_country_iso3": null,
+  "geo_country_name": null,
+  "geo_sovereign_iso2": null,
+  "geo_m49_subregion": null,
+  "geo_macro_region": "Undisclosed",
+  "geo_un_macro_region": "Undisclosed",
+  "geo_wb_income": null,
+  "geo_flag": null,
+  "geo_status": "empty",
+  "geo_source": "none",
+  "geo_confidence": 0.0,
+  "geo_conflict": false,
+  "geo_tz_signature": null,
+  "geo_location_raw": null,
+  "geo_as_of": null,
+  "geo_taxonomy_version": "2026.10.1",
   "is_top_50": false,
   "github_url": "https://github.com/esneider",
   "commit_history": {

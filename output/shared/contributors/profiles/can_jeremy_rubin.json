@@ -1,6 +1,7 @@
 {
   "display_name": "Jeremy Rubin",
   "github_login_final": "JeremyRubin",
+  "github_id_final": "886523",
   "delving_username_final": "jeremyrubin",
   "uuid": "can_jeremy_rubin",
   "badges": {
@@ -54,12 +55,12 @@
   "prs_authored": 100.0,
   "tier1_prs_authored": 70.0,
   "tier2_prs_authored": 30.0,
-  "avg_pr_ack_velocity_days": 38.09567084241104,
-  "avg_concept_lead_time_days": 18.57474652777778,
+  "avg_pr_ack_velocity_days": 33.86037199074074,
+  "avg_concept_lead_time_days": 19.367351466049385,
   "review_reciprocity": 2.9,
-  "hybrid_score": 1.509,
+  "hybrid_score": 1.5087,
   "p2016_hybrid_score": 1.6101,
-  "modern_hybrid_score": 1.1171,
+  "modern_hybrid_score": 1.121,
   "impact_score": 60.0,
   "p2016_impact_score": 62.0,
   "modern_impact_score": 49.0,
@@ -69,8 +70,8 @@
   "delving_threads": 22.0,
   "ml_responses": 239.0,
   "delving_responses": 10.0,
-  "first_active": "2014-07-16T12:56:54",
-  "last_active": "2026-06-16T14:59:33",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Protocol Designer",
   "expertise_domains": [
     "Consensus",
@@ -78,16 +79,16 @@
     "Infrastructure"
   ],
   "expertise_by_source": {
+    "discussion": {
+      "Script": 1.0
+    },
     "code": {
       "Infrastructure": 0.679,
       "Wallet": 0.113,
-      "Script": 0.046,
-      "Consensus": 0.042,
       "Network": 0.058,
-      "Mempool": 0.062
-    },
-    "discussion": {
-      "Script": 1.0
+      "Mempool": 0.062,
+      "Script": 0.046,
+      "Consensus": 0.042
     },
     "bips": {
       "Consensus": 1.0
@@ -95,11 +96,11 @@
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.2037,
+    "Script": 0.2138,
     "Consensus": 0.5126,
-    "Mempool": 0.0186,
-    "Wallet": 0.0339,
     "Network": 0.0174,
-    "Script": 0.2138
+    "Wallet": 0.0339,
+    "Mempool": 0.0186
   },
   "p2016_posts": 350.0,
   "modern_posts": 58.0,
@@ -111,15 +112,33 @@
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": true,
-  "global_first_active": "2014-07-16T12:56:54",
-  "global_last_active": "2026-06-16T14:59:33",
+  "global_first_active": "2015-09-25T12:18:51",
+  "global_last_active": "2026-05-31T23:46:45",
   "github_location": "behind u",
   "github_company": null,
   "github_bio": null,
   "github_twitter": "jeremyrubin",
   "github_blog": "rubin.io",
-  "github_followers": 697.0,
+  "github_followers": 710.0,
+  "github_profile_fetched_at": "2026-10-20T19:02:30Z",
   "activity_status": "Active",
+  "geo_country_iso2": null,
+  "geo_country_iso3": null,
+  "geo_country_name": null,
+  "geo_sovereign_iso2": null,
+  "geo_m49_subregion": null,
+  "geo_macro_region": "Undisclosed",
+  "geo_un_macro_region": "Undisclosed",
+  "geo_wb_income": null,
+  "geo_flag": null,
+  "geo_status": "non_geographic",
+  "geo_source": "none",
+  "geo_confidence": 0.0,
+  "geo_conflict": false,
+  "geo_tz_signature": "-300/-420",
+  "geo_location_raw": "behind u",
+  "geo_as_of": null,
+  "geo_taxonomy_version": "2026.10.1",
   "is_top_50": false,
   "github_url": "https://github.com/JeremyRubin",
   "delving_url": "https://delvingbitcoin.org/u/jeremyrubin",

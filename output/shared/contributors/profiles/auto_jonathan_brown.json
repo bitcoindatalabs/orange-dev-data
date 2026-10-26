@@ -1,6 +1,7 @@
 {
-  "display_name": "jonathan brown",
+  "display_name": "Jonathan Brown",
   "github_login_final": "ethernomad",
+  "github_id_final": "161566",
   "delving_username_final": null,
   "uuid": "auto_jonathan_brown",
   "badges": null,
@@ -57,19 +58,19 @@
   "delving_threads": 0.0,
   "ml_responses": 1.0,
   "delving_responses": 0.0,
-  "first_active": "2015-01-15T05:59:15",
-  "last_active": "2015-01-22T04:20:51",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Builder",
   "expertise_domains": [
     "Infrastructure",
     "Wallet"
   ],
   "expertise_by_source": {
-    "code": {
-      "Infrastructure": 1.0
-    },
     "discussion": {
       "Wallet": 1.0
+    },
+    "code": {
+      "Infrastructure": 1.0
     }
   },
   "expertise_domain_scores": {
@@ -90,11 +91,29 @@
   "global_last_active": "2015-02-14T06:11:49",
   "github_location": null,
   "github_company": "@acuity-social ",
-  "github_bio": "Kusama address: Hv5k1kkGDntEigtcZFkDkKxdhUNe1AWQNaqj5aYLsQKX324",
+  "github_bio": null,
   "github_twitter": null,
   "github_blog": null,
-  "github_followers": 88.0,
+  "github_followers": 90.0,
+  "github_profile_fetched_at": "2026-10-20T19:01:22Z",
   "activity_status": "Active",
+  "geo_country_iso2": null,
+  "geo_country_iso3": null,
+  "geo_country_name": null,
+  "geo_sovereign_iso2": null,
+  "geo_m49_subregion": null,
+  "geo_macro_region": "Undisclosed",
+  "geo_un_macro_region": "Undisclosed",
+  "geo_wb_income": null,
+  "geo_flag": null,
+  "geo_status": "empty",
+  "geo_source": "none",
+  "geo_confidence": 0.0,
+  "geo_conflict": false,
+  "geo_tz_signature": null,
+  "geo_location_raw": null,
+  "geo_as_of": null,
+  "geo_taxonomy_version": "2026.10.1",
   "is_top_50": false,
   "github_url": "https://github.com/ethernomad",
   "commit_history": {
