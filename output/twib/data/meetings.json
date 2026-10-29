@@ -1,5 +1,71 @@
 [
   {
+    "date": "2026-10-29",
+    "url": "https://achow101.com/ircmeetings/2026/bitcoin-core-dev.2026-10-29_16_00.log.json",
+    "participant_count": 14,
+    "key_participants": [
+      "stickies-v",
+      "yancy",
+      "johnny9dev",
+      "instagibbs",
+      "brunoerg",
+      "vasild"
+    ],
+    "active_participants": [
+      "stickies-v",
+      "yancy",
+      "johnny9dev",
+      "instagibbs",
+      "brunoerg",
+      "vasild",
+      "eugenesiegel"
+    ],
+    "topics_discussed": [
+      "Fuzzing WG: No update provided by eugenesiegel.",
+      "QML GUI WG: johnny9dev reported integration test fixtures merged. Focus is on multi-wallet management improvements and threading, preparing for staging branch build-up.",
+      "QA WG: brunoerg uploaded mutation testing results for `src/node/blockstorage.cpp` to mutanthub.space, highlighting interesting cases.",
+      "Release Process Efficiency: stickies-v noted the rapid TCP OOM vulnerability release (2026-10-23 to 2026-10-28) and proposed reviewing release notes only in the initial PR, not during release, potentially with LLM-lintable rules. vasild supported this proposal.",
+      "Merge Policy Documentation: yancy inquired about the Bitcoin Core merge policy. stickies-v stated it is not explicitly documented due to difficulty in quantifying non-gameable criteria. vasild referenced `CONTRIBUTING.md`'s \"Decision Making\" section."
+    ],
+    "decisions_made": [],
+    "action_items": [
+      "Review mutation testing results for `src/node/blockstorage.cpp` on mutanthub.space (brunoerg).",
+      "Discuss proposals for streamlining the release note review process (stickies-v)."
+    ],
+    "mentioned_prs": [],
+    "card_topics": [
+      "QML GUI WG: johnny9dev merged integration test fixtures; focusing on multi-wallet management and threading for staging branch.",
+      "QA WG: brunoerg published mutation testing results for `src/node/blockstorage.cpp` on mutanthub.space.",
+      "Release Process: stickies-v proposed reviewing release notes only in initial PRs, not during final release, to improve efficiency.",
+      "Merge Policy: yancy inquired about Bitcoin Core's merge policy; stickies-v confirmed no explicit, documented policy exists.",
+      "Release Speed: stickies-v highlighted the rapid TCP OOM vulnerability release from 2026-10-23 to 2026-10-28."
+    ],
+    "spotlight_debate": "Release Process: stickies-v proposed reviewing release notes solely in initial PRs, not during final release, to leverage fresh context and potentially use LLM-lintable rules.",
+    "referenced_artifacts": [
+      {
+        "label": "mutanthub.space",
+        "icon": "globe"
+      },
+      {
+        "label": "Branch: staging",
+        "icon": "code-branch"
+      },
+      {
+        "label": "File: CONTRIBUTING.md",
+        "icon": "file-alt"
+      }
+    ],
+    "narrative_summary": "The Bitcoin Core project completed a rapid release addressing a TCP OOM vulnerability, moving from initial report on 2026-10-23 to release on 2026-10-28. stickies-v noted this quick turnaround and suggested improvements for future release processes.\n\nThe QML GUI WG, led by johnny9dev, merged integration test fixtures and is progressing on multi-wallet management and threading, preparing for the staging branch. brunoerg from the QA WG published mutation testing results for `src/node/blockstorage.cpp` on mutanthub.space.\n\nyancy inquired about Bitcoin Core's merge policy; stickies-v confirmed no explicit, documented policy exists due to the difficulty of defining non-gameable criteria. stickies-v proposed streamlining release note review to occur only within initial PRs, rather than during the final release process.",
+    "x_priority_takeaway": "Streamline release note review.",
+    "x_bullet_points": [
+      "QML GUI: Staging branch focus.",
+      "QA: Mutation testing results.",
+      "Release notes: Review process."
+    ],
+    "linkedin_context": "The Bitcoin Core project completed a rapid release addressing a TCP OOM vulnerability, moving from initial report on 2026-10-23 to release on 2026-10-28. stickies-v noted this quick turnaround and suggested improvements for future release processes.\n\nThe QML GUI WG, led by johnny9dev, merged integration test fixtures and is progressing on multi-wallet management and threading, preparing for the staging branch. brunoerg from the QA WG published mutation testing results for `src/node/blockstorage.cpp` on mutanthub.space.\n\nyancy inquired about Bitcoin Core's merge policy; stickies-v confirmed no explicit, documented policy exists due to the difficulty of defining non-gameable criteria. stickies-v proposed streamlining release note review to occur only within initial PRs, rather than during the final release process.",
+    "_text_hash": "7bd15fa6e34553333a76db32bfd2cb63"
+  },
+  {
     "date": "2026-10-22",
     "url": "https://achow101.com/ircmeetings/2026/bitcoin-core-dev.2026-10-22_16_00.log.json",
     "participant_count": 19,
