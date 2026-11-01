@@ -1,4 +1,19 @@
 {
+  "36665": {
+    "optech_url": "https://bitcoinops.org/en/newsletters/2026/10/30/",
+    "date": "2026-10-30",
+    "snippet": "fixes a [memory-exhaustion vulnerability][core tcp\n  oom] that allowed a connected peer to crash nodes running on Windows, macOS,\n  or BSD. Although Bitcoin Core pauses reads from a peer when its receive queue\n  grows too large, its `select()` socket backend continued monitoring\n  exceptional conditions. A peer could send TCP urgent data to trigger further\n  reads and bypass the queue limit. Now, exceptional conditions are only\n  monitored when reads are enabled for that socket. Linux uses a different\n  socket backend and was unaffected."
+  },
+  "36667": {
+    "optech_url": "https://bitcoinops.org/en/newsletters/2026/10/30/",
+    "date": "2026-10-30",
+    "snippet": "adds a timeout that disconnects a peer if the node's\n  send buffer for that peer exceeds its limit for more than 20 minutes,\n  mitigating [unbounded memory growth][core paused send oom]. Bitcoin Core\n  continues to queue some transaction announcements even after this limit is\n  exceeded. Typically, a ping timeout would eventually disconnect a\n  slow-reading peer. However, peers claiming a protocol version predating\n  [BIP31][] could avoid this. This would allow a malicious peer to maintain an\n  open connection while queued announcements gradually accumulate. The new\n  timeout applies regardless of the peer's protocol version. Nodes using the\n  `-blocksonly` option were much less affected."
+  },
+  "36669": {
+    "optech_url": "https://bitcoinops.org/en/newsletters/2026/10/30/",
+    "date": "2026-10-30",
+    "snippet": "fixes an [undo-file overflow][core undo overflow]\n  that could corrupt data needed to disconnect blocks during a reorg. Since\n  undo data can exceed the size of its corresponding block data, an undo file\n  can exceed 4 GiB and wrap its 32-bit offset, thereby overwriting earlier\n  data. A subsequent reorg could stop the node, requiring reindexing with a\n  fixed version to recover. The fix increases the file offset size to 64 bits.\n  It also uses 64-bit file positioning calls on Windows, where exceeding 2 GiB\n  could stop the node even without a reorg. Exploitation requires mining\n  thousands of specially constructed blocks. For the corruption case, it also\n  requires precisely positioning those blocks within the targeted node's block\n  files, followed by a reorg. The disclosure deems this impractical. Nodes on\n  32-bit systems or FAT32 block storage are still affected."
+  },
   "36277": {
     "optech_url": "https://bitcoinops.org/en/newsletters/2026/10/09/",
     "date": "2026-10-09",

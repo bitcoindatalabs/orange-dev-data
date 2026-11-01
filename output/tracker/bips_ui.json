@@ -7,7 +7,7 @@
     "maturity_score": 0.68,
     "social_mention_count": 390,
     "revision_count": 41,
-    "code_mention_count": 100,
+    "code_mention_count": 104,
     "authors": "Gavin Andresen, Mike Hearn"
   },
   {
@@ -18,7 +18,7 @@
     "maturity_score": 0.55,
     "social_mention_count": 277,
     "revision_count": 59,
-    "code_mention_count": 124,
+    "code_mention_count": 128,
     "authors": "Pieter Wuille"
   },
   {
@@ -137,7 +137,7 @@
     "status": "Draft",
     "theme": "Consensus & Soft Forks",
     "maturity_score": 0.19,
-    "social_mention_count": 115,
+    "social_mention_count": 116,
     "revision_count": 6,
     "code_mention_count": 0,
     "authors": "Hunter Beast, Ethan Heilman, Isabel Foxen Duke"
@@ -187,35 +187,13 @@
     "authors": "Nils Schneider, Matt Corallo"
   },
   {
-    "bip_id": "54",
-    "title": "Consensus Cleanup",
-    "status": "Complete",
-    "theme": "Consensus & Soft Forks",
-    "maturity_score": 0.17,
-    "social_mention_count": 72,
-    "revision_count": 30,
-    "code_mention_count": 16,
-    "authors": "Antoine Poinsot, Matt Corallo"
-  },
-  {
-    "bip_id": "119",
-    "title": "CHECKTEMPLATEVERIFY",
-    "status": "Draft",
-    "theme": "Consensus & Soft Forks",
-    "maturity_score": 0.17,
-    "social_mention_count": 30,
-    "revision_count": 59,
-    "code_mention_count": 0,
-    "authors": "Jeremy Rubin"
-  },
-  {
     "bip_id": "352",
     "title": "Silent Payments",
     "status": "Complete",
     "theme": "Privacy",
-    "maturity_score": 0.17,
-    "social_mention_count": 68,
-    "revision_count": 34,
+    "maturity_score": 0.18,
+    "social_mention_count": 69,
+    "revision_count": 35,
     "code_mention_count": 26,
     "authors": "josibake, Ruben Somsen, Sebastian Falbesoner"
   },
@@ -229,6 +207,28 @@
     "revision_count": 18,
     "code_mention_count": 134,
     "authors": "David A. Harding, Peter Todd"
+  },
+  {
+    "bip_id": "119",
+    "title": "CHECKTEMPLATEVERIFY",
+    "status": "Draft",
+    "theme": "Consensus & Soft Forks",
+    "maturity_score": 0.17,
+    "social_mention_count": 31,
+    "revision_count": 59,
+    "code_mention_count": 0,
+    "authors": "Jeremy Rubin"
+  },
+  {
+    "bip_id": "54",
+    "title": "Consensus Cleanup",
+    "status": "Complete",
+    "theme": "Consensus & Soft Forks",
+    "maturity_score": 0.17,
+    "social_mention_count": 73,
+    "revision_count": 30,
+    "code_mention_count": 16,
+    "authors": "Antoine Poinsot, Matt Corallo"
   },
   {
     "bip_id": "322",
@@ -517,17 +517,6 @@
     "authors": "Marek Palatinus, Pavol Rusnak"
   },
   {
-    "bip_id": "138",
-    "title": "Compact Encryption Scheme for Non-seed Wallet Data",
-    "status": "Draft",
-    "theme": "Wallet & Keys",
-    "maturity_score": 0.09,
-    "social_mention_count": 0,
-    "revision_count": 45,
-    "code_mention_count": 0,
-    "authors": "Pyth"
-  },
-  {
     "bip_id": "321",
     "title": "URI Scheme",
     "status": "Complete",
@@ -539,6 +528,28 @@
     "authors": "Matt Corallo"
   },
   {
+    "bip_id": "118",
+    "title": "SIGHASH_ANYPREVOUT for Taproot Scripts",
+    "status": "Draft",
+    "theme": "Consensus & Soft Forks",
+    "maturity_score": 0.09,
+    "social_mention_count": 37,
+    "revision_count": 14,
+    "code_mention_count": 0,
+    "authors": "Christian Decker, Anthony Towns"
+  },
+  {
+    "bip_id": "138",
+    "title": "Compact Encryption Scheme for Non-seed Wallet Data",
+    "status": "Draft",
+    "theme": "Wallet & Keys",
+    "maturity_score": 0.09,
+    "social_mention_count": 0,
+    "revision_count": 45,
+    "code_mention_count": 0,
+    "authors": "Pyth"
+  },
+  {
     "bip_id": "370",
     "title": "PSBT Version 2",
     "status": "Deployed",
@@ -548,17 +559,6 @@
     "revision_count": 34,
     "code_mention_count": 12,
     "authors": "Ava Chow"
-  },
-  {
-    "bip_id": "118",
-    "title": "SIGHASH_ANYPREVOUT for Taproot Scripts",
-    "status": "Draft",
-    "theme": "Consensus & Soft Forks",
-    "maturity_score": 0.08,
-    "social_mention_count": 36,
-    "revision_count": 14,
-    "code_mention_count": 0,
-    "authors": "Christian Decker, Anthony Towns"
   },
   {
     "bip_id": "47",
@@ -633,7 +633,7 @@
     "theme": "Other",
     "maturity_score": 0.07,
     "social_mention_count": 0,
-    "revision_count": 36,
+    "revision_count": 37,
     "code_mention_count": 0,
     "authors": "Andrew Toth, Ruben Somsen, Sebastian Falbesoner"
   },
@@ -731,7 +731,7 @@
     "status": "Closed",
     "theme": "Consensus & Soft Forks",
     "maturity_score": 0.06,
-    "social_mention_count": 27,
+    "social_mention_count": 28,
     "revision_count": 9,
     "code_mention_count": 0,
     "authors": "Dathon Ohm"

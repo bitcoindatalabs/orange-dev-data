@@ -67,18 +67,18 @@
     "Mining"
   ],
   "expertise_by_source": {
-    "discussion": {
-      "Ecosystem": 0.738,
-      "Mining": 0.262
-    },
     "code": {
       "Infrastructure": 1.0
+    },
+    "discussion": {
+      "Mining": 0.262,
+      "Ecosystem": 0.738
     }
   },
   "expertise_domain_scores": {
+    "Mining": 0.1048,
     "Infrastructure": 0.6,
-    "Ecosystem": 0.2952,
-    "Mining": 0.1048
+    "Ecosystem": 0.2952
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,
@@ -115,7 +115,7 @@
   "geo_conflict": false,
   "geo_tz_signature": null,
   "geo_location_raw": null,
-  "geo_as_of": "2026-10-24",
+  "geo_as_of": "2026-10-31",
   "geo_taxonomy_version": "2026.10.1",
   "is_top_50": false,
   "github_url": "https://github.com/roybadami",

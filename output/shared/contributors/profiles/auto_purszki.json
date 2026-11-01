@@ -67,13 +67,13 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Network": 0.67,
-      "Privacy": 0.33
+      "Privacy": 0.33,
+      "Network": 0.67
     }
   },
   "expertise_domain_scores": {
-    "Network": 0.67,
-    "Privacy": 0.33
+    "Privacy": 0.33,
+    "Network": 0.67
   },
   "p2016_posts": 6.0,
   "modern_posts": 6.0,

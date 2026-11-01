@@ -11,43 +11,45 @@
     "is_sponsored": true,
     "sponsor_id": null,
     "is_bip_author": false,
-    "roles": []
+    "roles": [],
+    "ecosystem_contributor": true,
+    "tier2_commits": 4
   },
   "roles": [],
-  "total_commits": 148.0,
-  "authored_commits": 148.0,
+  "total_commits": 152.0,
+  "authored_commits": 152.0,
   "tier1_authored_commits": 148.0,
-  "tier2_authored_commits": 0.0,
+  "tier2_authored_commits": 4.0,
   "merge_commits": 0.0,
   "tier1_merge_commits": 0.0,
   "tier2_merge_commits": 0.0,
   "self_merges": 0.0,
-  "total_additions": 3722.0,
+  "total_additions": 4041.0,
   "total_deletions": 2858.0,
   "first_core_commit": "2022-04-14T16:24:36+00:00",
   "last_core_commit": "2026-10-22T15:34:36+00:00",
-  "first_ecosystem_commit": null,
-  "last_ecosystem_commit": null,
+  "first_ecosystem_commit": "2026-10-28T10:48:56+00:00",
+  "last_ecosystem_commit": "2026-10-29T12:00:49+00:00",
   "first_commit": "2022-04-14T16:24:36",
   "last_commit": "2026-10-22T15:34:36",
-  "p2016_authored_commits": 148.0,
-  "modern_authored_commits": 87.0,
+  "p2016_authored_commits": 152.0,
+  "modern_authored_commits": 91.0,
   "co_authored_commits": 90.0,
   "bips_authored": 0.0,
   "p2016_bips_authored": 0.0,
   "modern_bips_authored": 0.0,
   "first_bip_date": null,
   "last_bip_date": null,
-  "avg_review_latency_days": 75.12084090767117,
+  "avg_review_latency_days": 74.9118846191109,
   "reviews_count": 604.0,
-  "avg_approval_latency_days": 68.56294124119718,
+  "avg_approval_latency_days": 68.48903627176415,
   "approvals_count": 518.0,
   "tier1_reviews_count": 601.0,
   "tier2_reviews_count": 3.0,
   "p2016_reviews_count": 604.0,
-  "modern_reviews_count": 408.0,
+  "modern_reviews_count": 402.0,
   "first_review_date": "2021-10-20T18:13:51",
-  "last_review_date": "2026-10-23T11:33:22",
+  "last_review_date": "2026-10-27T15:50:40",
   "prs_authored": 68.0,
   "tier1_prs_authored": 68.0,
   "tier2_prs_authored": 0.0,
@@ -56,7 +58,7 @@
   "review_reciprocity": 8.882352941176471,
   "hybrid_score": 0.521,
   "p2016_hybrid_score": 0.521,
-  "modern_hybrid_score": 0.498,
+  "modern_hybrid_score": 0.4975,
   "impact_score": 27.0,
   "p2016_impact_score": 27.0,
   "modern_impact_score": 26.0,
@@ -75,24 +77,24 @@
     "Consensus"
   ],
   "expertise_by_source": {
-    "discussion": {
-      "Mempool": 1.0
-    },
     "code": {
+      "Consensus": 0.149,
       "Infrastructure": 0.716,
       "Wallet": 0.042,
       "Network": 0.035,
       "Mempool": 0.055,
-      "Script": 0.002,
-      "Consensus": 0.149
+      "Script": 0.002
+    },
+    "discussion": {
+      "Mempool": 1.0
     }
   },
   "expertise_domain_scores": {
-    "Infrastructure": 0.4299,
     "Consensus": 0.0895,
-    "Network": 0.021,
+    "Infrastructure": 0.4299,
+    "Mempool": 0.4333,
     "Wallet": 0.0252,
-    "Mempool": 0.4333
+    "Network": 0.021
   },
   "p2016_posts": 2.0,
   "modern_posts": 2.0,
@@ -105,7 +107,7 @@
   "is_researcher": false,
   "is_bip_author": false,
   "global_first_active": "2021-10-20T18:13:51",
-  "global_last_active": "2026-10-23T11:33:22",
+  "global_last_active": "2026-10-27T15:50:40",
   "github_location": "London, UK",
   "github_company": null,
   "github_bio": "Working @bitcoin, supported by brink.dev.\r\n\r\nPGP: E60F E080 866D E5F7 1C8D  F3A0 5CB1 CE6E 5E66 A757",
@@ -177,14 +179,14 @@
       "Wallet": 0.17
     },
     "2026": {
-      "Build & CI": 0.25,
+      "Build & CI": 4.25,
       "Consensus": 8.75,
       "Database": 0.17,
       "Mempool": 0.17,
       "Node & RPC": 0.67,
       "Script": 0.17,
-      "Tests": 3.58,
-      "Utilities": 12.25
+      "Tests": 4.58,
+      "Utilities": 13.25
     }
   },
   "first_message": {

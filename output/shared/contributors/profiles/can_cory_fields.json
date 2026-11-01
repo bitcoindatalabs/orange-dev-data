@@ -48,25 +48,25 @@
   "modern_bips_authored": 0.0,
   "first_bip_date": null,
   "last_bip_date": null,
-  "avg_review_latency_days": 218.34334461613932,
-  "reviews_count": 1330.0,
+  "avg_review_latency_days": 217.98556211355984,
+  "reviews_count": 1331.0,
   "avg_approval_latency_days": 176.7182017460576,
   "approvals_count": 796.0,
-  "tier1_reviews_count": 1327.0,
+  "tier1_reviews_count": 1328.0,
   "tier2_reviews_count": 3.0,
-  "p2016_reviews_count": 1009.0,
-  "modern_reviews_count": 310.0,
+  "p2016_reviews_count": 1010.0,
+  "modern_reviews_count": 309.0,
   "first_review_date": "2013-07-02T17:53:33",
-  "last_review_date": "2026-10-23T18:27:10",
+  "last_review_date": "2026-10-30T16:49:02",
   "prs_authored": 407.0,
   "tier1_prs_authored": 407.0,
   "tier2_prs_authored": 0.0,
   "avg_pr_ack_velocity_days": 11.072385301644813,
   "avg_concept_lead_time_days": 5.535144624713209,
-  "review_reciprocity": 3.267813267813268,
+  "review_reciprocity": 3.27027027027027,
   "hybrid_score": 1.6868,
   "p2016_hybrid_score": 0.6552,
-  "modern_hybrid_score": 0.5195,
+  "modern_hybrid_score": 0.5194,
   "impact_score": 64.0,
   "p2016_impact_score": 33.0,
   "modern_impact_score": 27.0,
@@ -85,26 +85,26 @@
     "Script"
   ],
   "expertise_by_source": {
-    "discussion": {
-      "Script": 0.45,
-      "Consensus": 0.55
-    },
     "code": {
+      "Consensus": 0.019,
       "Infrastructure": 0.824,
       "Wallet": 0.03,
       "Network": 0.109,
-      "Cryptography": 0.007,
       "Mempool": 0.003,
       "Script": 0.007,
-      "Consensus": 0.019
+      "Cryptography": 0.007
+    },
+    "discussion": {
+      "Consensus": 0.55,
+      "Script": 0.45
     }
   },
   "expertise_domain_scores": {
+    "Consensus": 0.2315,
     "Infrastructure": 0.4947,
     "Script": 0.1843,
-    "Consensus": 0.2315,
-    "Network": 0.0654,
-    "Wallet": 0.018
+    "Wallet": 0.018,
+    "Network": 0.0654
   },
   "p2016_posts": 14.0,
   "modern_posts": 1.0,
@@ -117,7 +117,7 @@
   "is_researcher": true,
   "is_bip_author": false,
   "global_first_active": "2013-06-05T16:26:11",
-  "global_last_active": "2026-10-23T18:27:10",
+  "global_last_active": "2026-10-30T16:49:02",
   "github_location": null,
   "github_company": null,
   "github_bio": null,
@@ -141,7 +141,7 @@
   "geo_conflict": false,
   "geo_tz_signature": "-300/-240",
   "geo_location_raw": null,
-  "geo_as_of": "2026-10-24",
+  "geo_as_of": "2026-10-31",
   "geo_taxonomy_version": "2026.10.1",
   "is_top_50": false,
   "github_url": "https://github.com/theuni",

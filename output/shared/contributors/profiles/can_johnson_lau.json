@@ -79,26 +79,26 @@
     "Script"
   ],
   "expertise_by_source": {
-    "discussion": {
-      "Consensus": 1.0
-    },
     "code": {
+      "Consensus": 0.117,
       "Infrastructure": 0.595,
       "Wallet": 0.011,
       "Network": 0.011,
       "Mempool": 0.106,
-      "Script": 0.161,
-      "Consensus": 0.117
+      "Script": 0.161
+    },
+    "discussion": {
+      "Consensus": 1.0
     },
     "bips": {
       "Consensus": 1.0
     }
   },
   "expertise_domain_scores": {
-    "Infrastructure": 0.1784,
-    "Script": 0.0483,
     "Consensus": 0.7349,
-    "Mempool": 0.0318
+    "Infrastructure": 0.1784,
+    "Mempool": 0.0318,
+    "Script": 0.0483
   },
   "p2016_posts": 162.0,
   "modern_posts": 0.0,
@@ -135,7 +135,7 @@
   "geo_conflict": false,
   "geo_tz_signature": null,
   "geo_location_raw": null,
-  "geo_as_of": "2026-10-24",
+  "geo_as_of": "2026-10-31",
   "geo_taxonomy_version": "2026.10.1",
   "is_top_50": false,
   "github_url": "https://github.com/jl2012",

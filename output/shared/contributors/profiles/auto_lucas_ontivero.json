@@ -70,24 +70,24 @@
     "Privacy"
   ],
   "expertise_by_source": {
-    "discussion": {
-      "Ecosystem": 0.178,
-      "Consensus": 0.274,
-      "Privacy": 0.548
-    },
     "code": {
       "Infrastructure": 0.125,
       "Wallet": 0.5,
       "Network": 0.375
+    },
+    "discussion": {
+      "Consensus": 0.274,
+      "Ecosystem": 0.178,
+      "Privacy": 0.548
     }
   },
   "expertise_domain_scores": {
+    "Consensus": 0.1096,
     "Infrastructure": 0.075,
     "Ecosystem": 0.0712,
-    "Consensus": 0.1096,
-    "Network": 0.225,
     "Wallet": 0.3,
-    "Privacy": 0.2192
+    "Privacy": 0.2192,
+    "Network": 0.225
   },
   "p2016_posts": 7.0,
   "modern_posts": 0.0,

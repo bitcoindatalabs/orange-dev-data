@@ -68,15 +68,15 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "L2": 0.5,
+      "Mempool": 0.077,
       "Wallet": 0.423,
-      "Mempool": 0.077
+      "L2": 0.5
     }
   },
   "expertise_domain_scores": {
-    "L2": 0.5,
+    "Mempool": 0.077,
     "Wallet": 0.423,
-    "Mempool": 0.077
+    "L2": 0.5
   },
   "p2016_posts": 25.0,
   "modern_posts": 0.0,

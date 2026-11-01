@@ -67,22 +67,22 @@
     "Network"
   ],
   "expertise_by_source": {
-    "discussion": {
-      "Script": 0.224,
-      "Mempool": 0.553,
-      "Mining": 0.224
-    },
     "code": {
       "Infrastructure": 0.8,
       "Network": 0.2
+    },
+    "discussion": {
+      "Mining": 0.224,
+      "Mempool": 0.553,
+      "Script": 0.224
     }
   },
   "expertise_domain_scores": {
+    "Mining": 0.0896,
     "Infrastructure": 0.4798,
-    "Script": 0.0896,
-    "Network": 0.12,
     "Mempool": 0.2211,
-    "Mining": 0.0896
+    "Script": 0.0896,
+    "Network": 0.12
   },
   "p2016_posts": 4.0,
   "modern_posts": 0.0,

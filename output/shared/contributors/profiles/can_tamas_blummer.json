@@ -67,20 +67,20 @@
     "Mining"
   ],
   "expertise_by_source": {
-    "discussion": {
-      "Script": 0.5,
-      "Mining": 0.5
-    },
     "code": {
       "Infrastructure": 0.667,
       "Network": 0.333
+    },
+    "discussion": {
+      "Mining": 0.5,
+      "Script": 0.5
     }
   },
   "expertise_domain_scores": {
+    "Mining": 0.2,
     "Infrastructure": 0.4002,
     "Script": 0.2,
-    "Network": 0.1998,
-    "Mining": 0.2
+    "Network": 0.1998
   },
   "p2016_posts": 54.0,
   "modern_posts": 0.0,

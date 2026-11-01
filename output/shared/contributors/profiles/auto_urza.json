@@ -68,15 +68,15 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "L2": 0.413,
+      "Consensus": 0.326,
       "Ecosystem": 0.261,
-      "Consensus": 0.326
+      "L2": 0.413
     }
   },
   "expertise_domain_scores": {
-    "L2": 0.413,
+    "Consensus": 0.326,
     "Ecosystem": 0.261,
-    "Consensus": 0.326
+    "L2": 0.413
   },
   "p2016_posts": 5.0,
   "modern_posts": 5.0,

@@ -48,7 +48,7 @@
   "review_reciprocity": null,
   "hybrid_score": 0.0207,
   "p2016_hybrid_score": 0.0361,
-  "modern_hybrid_score": 0.0453,
+  "modern_hybrid_score": 0.0455,
   "impact_score": 1.0,
   "p2016_impact_score": 2.0,
   "modern_impact_score": 3.0,
@@ -67,8 +67,8 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Consensus": 0.5,
-      "Mempool": 0.5
+      "Mempool": 0.5,
+      "Consensus": 0.5
     }
   },
   "expertise_domain_scores": {

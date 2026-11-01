@@ -70,20 +70,20 @@
     "Cryptography"
   ],
   "expertise_by_source": {
-    "discussion": {
-      "Consensus": 0.38,
-      "Cryptography": 0.62
-    },
     "code": {
       "Infrastructure": 0.455,
       "Wallet": 0.545
+    },
+    "discussion": {
+      "Consensus": 0.388,
+      "Cryptography": 0.612
     }
   },
   "expertise_domain_scores": {
+    "Consensus": 0.1552,
     "Infrastructure": 0.273,
-    "Consensus": 0.152,
     "Wallet": 0.327,
-    "Cryptography": 0.248
+    "Cryptography": 0.2448
   },
   "p2016_posts": 6.0,
   "modern_posts": 6.0,
@@ -145,15 +145,15 @@
   },
   "social_history": {
     "2026": {
+      "hard-fork-block-size": 1,
       "mempool-fees": 3,
       "multisig-threshold": 1,
       "privacy": 1,
       "quantum": 5,
       "scaling": 1,
-      "segwit": 1,
+      "other": 3,
       "taproot": 3,
-      "testing-devtools": 3,
-      "other": 2
+      "testing-devtools": 3
     }
   }
 }

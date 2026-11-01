@@ -86,8 +86,8 @@
     }
   },
   "expertise_domain_scores": {
-    "Infrastructure": 0.7143,
-    "Consensus": 0.2857
+    "Consensus": 0.2857,
+    "Infrastructure": 0.7143
   },
   "p2016_posts": 14.0,
   "modern_posts": 0.0,

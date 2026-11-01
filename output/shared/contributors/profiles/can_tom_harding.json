@@ -60,7 +60,7 @@
   "review_reciprocity": 3.1176470588235294,
   "hybrid_score": 0.8106,
   "p2016_hybrid_score": 0.576,
-  "modern_hybrid_score": 0.1609,
+  "modern_hybrid_score": 0.1614,
   "impact_score": 39.0,
   "p2016_impact_score": 29.0,
   "modern_impact_score": 9.0,
@@ -79,25 +79,25 @@
     "Mining"
   ],
   "expertise_by_source": {
-    "discussion": {
-      "Consensus": 0.531,
-      "Mining": 0.469
-    },
     "code": {
+      "Consensus": 0.079,
       "Infrastructure": 0.825,
       "Wallet": 0.079,
-      "Mempool": 0.017,
-      "Consensus": 0.079
+      "Mempool": 0.017
+    },
+    "discussion": {
+      "Mining": 0.469,
+      "Consensus": 0.531
     },
     "bips": {
       "Consensus": 1.0
     }
   },
   "expertise_domain_scores": {
-    "Infrastructure": 0.2475,
     "Consensus": 0.6299,
-    "Wallet": 0.0237,
-    "Mining": 0.0938
+    "Mining": 0.0938,
+    "Infrastructure": 0.2475,
+    "Wallet": 0.0237
   },
   "p2016_posts": 27.0,
   "modern_posts": 3.0,

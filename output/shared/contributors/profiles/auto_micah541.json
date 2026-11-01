@@ -68,8 +68,8 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Consensus": 0.246,
       "Mining": 0.509,
+      "Consensus": 0.246,
       "Cryptography": 0.246
     }
   },

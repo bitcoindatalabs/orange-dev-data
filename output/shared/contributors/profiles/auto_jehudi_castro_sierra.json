@@ -106,5 +106,12 @@
   "geo_as_of": null,
   "geo_taxonomy_version": "2026.10.1",
   "is_top_50": false,
-  "github_url": "https://github.com/jcastros"
+  "github_url": "https://github.com/jcastros",
+  "commit_history": {
+    "2026": {
+      "Tests": 0.33,
+      "Utilities": 0.33,
+      "Wallet": 0.33
+    }
+  }
 }

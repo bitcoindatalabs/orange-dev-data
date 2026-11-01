@@ -26,7 +26,7 @@
   "first_commit": "2021-01-19T16:30:46",
   "last_commit": "2022-04-02T08:43:49",
   "p2016_authored_commits": 56.0,
-  "modern_authored_commits": 11.0,
+  "modern_authored_commits": 10.0,
   "co_authored_commits": 0.0,
   "bips_authored": 0.0,
   "p2016_bips_authored": 0.0,
@@ -137,7 +137,7 @@
       "Build & CI": 1.0
     },
     "2026": {
-      "Build & CI": 1.0
+      "Build & CI": 2.0
     }
   }
 }

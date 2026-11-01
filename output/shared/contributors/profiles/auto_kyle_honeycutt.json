@@ -48,7 +48,7 @@
   "review_reciprocity": 2.0,
   "hybrid_score": 0.0903,
   "p2016_hybrid_score": 0.0928,
-  "modern_hybrid_score": 0.0358,
+  "modern_hybrid_score": 0.0359,
   "impact_score": 5.0,
   "p2016_impact_score": 5.0,
   "modern_impact_score": 2.0,
@@ -66,11 +66,11 @@
     "Wallet"
   ],
   "expertise_by_source": {
-    "discussion": {
-      "Wallet": 1.0
-    },
     "code": {
       "Infrastructure": 1.0
+    },
+    "discussion": {
+      "Wallet": 1.0
     }
   },
   "expertise_domain_scores": {

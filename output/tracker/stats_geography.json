@@ -6,9 +6,9 @@
       "iso3": "USA",
       "flag": "🇺🇸",
       "macro_region": "North America",
-      "value": 557,
-      "active_devs": 395,
-      "authored_commits": 4665
+      "value": 559,
+      "active_devs": 397,
+      "authored_commits": 4673
     },
     {
       "name": "Germany",
@@ -18,7 +18,7 @@
       "macro_region": "Europe",
       "value": 110,
       "active_devs": 85,
-      "authored_commits": 1940
+      "authored_commits": 1944
     },
     {
       "name": "India",
@@ -38,7 +38,7 @@
       "macro_region": "Europe",
       "value": 81,
       "active_devs": 56,
-      "authored_commits": 1035
+      "authored_commits": 1044
     },
     {
       "name": "Canada",
@@ -58,7 +58,7 @@
       "macro_region": "Latin America",
       "value": 63,
       "active_devs": 51,
-      "authored_commits": 322
+      "authored_commits": 323
     },
     {
       "name": "Australia",
@@ -68,7 +68,7 @@
       "macro_region": "Asia Pacific",
       "value": 62,
       "active_devs": 46,
-      "authored_commits": 518
+      "authored_commits": 524
     },
     {
       "name": "France",
@@ -88,7 +88,7 @@
       "macro_region": "Europe",
       "value": 57,
       "active_devs": 43,
-      "authored_commits": 2843
+      "authored_commits": 2851
     },
     {
       "name": "Switzerland",
@@ -98,7 +98,7 @@
       "macro_region": "Europe",
       "value": 53,
       "active_devs": 38,
-      "authored_commits": 1176
+      "authored_commits": 1182
     },
     {
       "name": "China",
@@ -108,7 +108,7 @@
       "macro_region": "Asia Pacific",
       "value": 45,
       "active_devs": 38,
-      "authored_commits": 42
+      "authored_commits": 55
     },
     {
       "name": "Spain",
@@ -128,7 +128,7 @@
       "macro_region": "Europe",
       "value": 35,
       "active_devs": 27,
-      "authored_commits": 66
+      "authored_commits": 69
     },
     {
       "name": "Japan",
@@ -148,7 +148,7 @@
       "macro_region": "Europe",
       "value": 31,
       "active_devs": 19,
-      "authored_commits": 6
+      "authored_commits": 7
     }
   ],
   "data_commit_weighted": [
@@ -158,9 +158,9 @@
       "iso3": "USA",
       "flag": "🇺🇸",
       "macro_region": "North America",
-      "value": 4665,
-      "contributors": 557,
-      "active_devs": 395
+      "value": 4673,
+      "contributors": 559,
+      "active_devs": 397
     },
     {
       "name": "Sweden",
@@ -168,7 +168,7 @@
       "iso3": "SWE",
       "flag": "🇸🇪",
       "macro_region": "Europe",
-      "value": 3904,
+      "value": 3917,
       "contributors": 27,
       "active_devs": 19
     },
@@ -178,7 +178,7 @@
       "iso3": "NLD",
       "flag": "🇳🇱",
       "macro_region": "Europe",
-      "value": 2843,
+      "value": 2851,
       "contributors": 57,
       "active_devs": 43
     },
@@ -188,7 +188,7 @@
       "iso3": "UKR",
       "flag": "🇺🇦",
       "macro_region": "Europe",
-      "value": 2386,
+      "value": 2393,
       "contributors": 13,
       "active_devs": 11
     },
@@ -198,7 +198,7 @@
       "iso3": "DEU",
       "flag": "🇩🇪",
       "macro_region": "Europe",
-      "value": 1940,
+      "value": 1944,
       "contributors": 110,
       "active_devs": 85
     },
@@ -208,7 +208,7 @@
       "iso3": "CHE",
       "flag": "🇨🇭",
       "macro_region": "Europe",
-      "value": 1176,
+      "value": 1182,
       "contributors": 53,
       "active_devs": 38
     },
@@ -218,7 +218,7 @@
       "iso3": "GBR",
       "flag": "🇬🇧",
       "macro_region": "Europe",
-      "value": 1035,
+      "value": 1044,
       "contributors": 81,
       "active_devs": 56
     },
@@ -230,7 +230,7 @@
       "macro_region": "Europe",
       "value": 929,
       "contributors": 23,
-      "active_devs": 19
+      "active_devs": 18
     },
     {
       "name": "Australia",
@@ -238,7 +238,7 @@
       "iso3": "AUS",
       "flag": "🇦🇺",
       "macro_region": "Asia Pacific",
-      "value": 518,
+      "value": 524,
       "contributors": 62,
       "active_devs": 46
     },
@@ -268,7 +268,7 @@
       "iso3": "BRA",
       "flag": "🇧🇷",
       "macro_region": "Latin America",
-      "value": 322,
+      "value": 323,
       "contributors": 63,
       "active_devs": 51
     },
@@ -310,9 +310,9 @@
     "rule": "countries with fewer than 5 contributors are not listed individually"
   },
   "coverage": {
-    "devs_known": 1941,
-    "devs_total": 7867,
-    "commit_weighted_known": 0.5476,
+    "devs_known": 1945,
+    "devs_total": 7902,
+    "commit_weighted_known": 0.5474,
     "countries_total": 103,
     "taxonomy_version": "2026.10.1"
   }

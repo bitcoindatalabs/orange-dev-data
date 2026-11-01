@@ -79,8 +79,8 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Consensus": 0.528,
-      "Mining": 0.472
+      "Mining": 0.472,
+      "Consensus": 0.528
     },
     "bips": {
       "Consensus": 1.0

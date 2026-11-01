@@ -62,21 +62,21 @@
   "last_active": "2026-02-20T16:52:30.133000",
   "dev_type": "Participant",
   "expertise_domains": [
+    "Mempool",
     "L2",
-    "Script",
-    "Mempool"
+    "Script"
   ],
   "expertise_by_source": {
     "discussion": {
-      "Script": 0.377,
-      "L2": 0.377,
-      "Mempool": 0.246
+      "Mempool": 0.333,
+      "Script": 0.333,
+      "L2": 0.333
     }
   },
   "expertise_domain_scores": {
-    "Script": 0.377,
-    "L2": 0.377,
-    "Mempool": 0.246
+    "Mempool": 0.3333,
+    "Script": 0.3333,
+    "L2": 0.3333
   },
   "p2016_posts": 4.0,
   "modern_posts": 4.0,
@@ -138,6 +138,7 @@
     "2025": {
       "covenants": 1,
       "lightning": 1,
+      "mempool-fees": 1,
       "mining": 1
     },
     "2026": {

@@ -75,19 +75,19 @@
     "Script"
   ],
   "expertise_by_source": {
-    "discussion": {
-      "Script": 0.3,
-      "Mempool": 0.3,
-      "Cryptography": 0.4
-    },
     "code": {
       "Infrastructure": 1.0
+    },
+    "discussion": {
+      "Mempool": 0.3,
+      "Script": 0.3,
+      "Cryptography": 0.4
     }
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.6,
-    "Script": 0.12,
     "Mempool": 0.12,
+    "Script": 0.12,
     "Cryptography": 0.16
   },
   "p2016_posts": 6.0,

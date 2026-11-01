@@ -68,15 +68,15 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Consensus": 0.152,
-      "Mempool": 0.182,
-      "Mining": 0.667
+      "Mining": 0.647,
+      "Mempool": 0.206,
+      "Consensus": 0.147
     }
   },
   "expertise_domain_scores": {
-    "Consensus": 0.1518,
-    "Mempool": 0.1818,
-    "Mining": 0.6663
+    "Consensus": 0.147,
+    "Mining": 0.647,
+    "Mempool": 0.206
   },
   "p2016_posts": 31.0,
   "modern_posts": 31.0,
@@ -142,7 +142,7 @@
       "covenants": 5,
       "other": 10,
       "lightning": 4,
-      "mempool-fees": 1,
+      "mempool-fees": 3,
       "mining": 4,
       "vaults": 3
     },

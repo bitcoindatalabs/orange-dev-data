@@ -78,11 +78,11 @@
     "Infrastructure"
   ],
   "expertise_by_source": {
-    "discussion": {
-      "Wallet": 1.0
-    },
     "code": {
       "Infrastructure": 1.0
+    },
+    "discussion": {
+      "Wallet": 1.0
     },
     "bips": {
       "Wallet": 1.0

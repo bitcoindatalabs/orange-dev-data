@@ -68,15 +68,15 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "L2": 0.213,
+      "Mining": 0.606,
       "Mempool": 0.181,
-      "Mining": 0.606
+      "L2": 0.213
     }
   },
   "expertise_domain_scores": {
-    "L2": 0.213,
+    "Mining": 0.606,
     "Mempool": 0.181,
-    "Mining": 0.606
+    "L2": 0.213
   },
   "p2016_posts": 22.0,
   "modern_posts": 22.0,

@@ -79,24 +79,24 @@
     "Network"
   ],
   "expertise_by_source": {
+    "code": {
+      "Infrastructure": 1.0
+    },
     "discussion": {
       "Consensus": 0.6,
       "Wallet": 0.4
     },
-    "code": {
-      "Infrastructure": 1.0
-    },
     "bips": {
       "Wallet": 0.333,
-      "Infrastructure": 0.333,
-      "Network": 0.333
+      "Network": 0.333,
+      "Infrastructure": 0.333
     }
   },
   "expertise_domain_scores": {
-    "Infrastructure": 0.4667,
     "Consensus": 0.1201,
-    "Network": 0.1666,
-    "Wallet": 0.2466
+    "Infrastructure": 0.4667,
+    "Wallet": 0.2466,
+    "Network": 0.1666
   },
   "p2016_posts": 12.0,
   "modern_posts": 0.0,

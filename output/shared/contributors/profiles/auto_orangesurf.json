@@ -63,20 +63,20 @@
   "dev_type": "Participant",
   "expertise_domains": [
     "Mining",
-    "L2",
-    "Mempool"
+    "Consensus",
+    "L2"
   ],
   "expertise_by_source": {
     "discussion": {
-      "L2": 0.232,
-      "Mempool": 0.232,
-      "Mining": 0.536
+      "Mining": 0.464,
+      "Consensus": 0.321,
+      "L2": 0.214
     }
   },
   "expertise_domain_scores": {
-    "L2": 0.232,
-    "Mempool": 0.232,
-    "Mining": 0.536
+    "Consensus": 0.3213,
+    "Mining": 0.4645,
+    "L2": 0.2142
   },
   "p2016_posts": 8.0,
   "modern_posts": 8.0,
@@ -140,14 +140,13 @@
       "hard-fork-block-size": 1,
       "mempool-fees": 2,
       "mining": 1,
-      "p2p-network": 1,
-      "other": 3,
+      "other": 4,
       "spam-filtering": 2
     },
     "2026": {
       "mining": 4,
       "sidechains-drivechain": 4,
-      "other": 1
+      "soft-fork-activation": 5
     }
   }
 }

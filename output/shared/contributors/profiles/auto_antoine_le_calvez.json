@@ -67,18 +67,18 @@
     "Consensus"
   ],
   "expertise_by_source": {
-    "discussion": {
-      "Consensus": 0.493,
-      "Mining": 0.507
-    },
     "code": {
       "Infrastructure": 1.0
+    },
+    "discussion": {
+      "Mining": 0.507,
+      "Consensus": 0.493
     }
   },
   "expertise_domain_scores": {
-    "Infrastructure": 0.6,
     "Consensus": 0.1972,
-    "Mining": 0.2028
+    "Mining": 0.2028,
+    "Infrastructure": 0.6
   },
   "p2016_posts": 2.0,
   "modern_posts": 0.0,

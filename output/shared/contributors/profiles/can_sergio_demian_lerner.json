@@ -48,7 +48,7 @@
   "review_reciprocity": 6.5,
   "hybrid_score": 0.3168,
   "p2016_hybrid_score": 0.2383,
-  "modern_hybrid_score": 0.0895,
+  "modern_hybrid_score": 0.0898,
   "impact_score": 17.0,
   "p2016_impact_score": 13.0,
   "modern_impact_score": 5.0,
@@ -67,19 +67,19 @@
     "Mining"
   ],
   "expertise_by_source": {
-    "discussion": {
-      "Consensus": 0.717,
-      "Mining": 0.283
-    },
     "code": {
-      "Infrastructure": 0.694,
-      "Consensus": 0.306
+      "Consensus": 0.306,
+      "Infrastructure": 0.694
+    },
+    "discussion": {
+      "Mining": 0.283,
+      "Consensus": 0.717
     }
   },
   "expertise_domain_scores": {
-    "Infrastructure": 0.4164,
     "Consensus": 0.4704,
-    "Mining": 0.1132
+    "Mining": 0.1132,
+    "Infrastructure": 0.4164
   },
   "p2016_posts": 79.0,
   "modern_posts": 7.0,

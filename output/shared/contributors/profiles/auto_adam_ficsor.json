@@ -70,12 +70,12 @@
     "Ecosystem"
   ],
   "expertise_by_source": {
+    "code": {
+      "Wallet": 1.0
+    },
     "discussion": {
       "Ecosystem": 0.205,
       "Privacy": 0.795
-    },
-    "code": {
-      "Wallet": 1.0
     }
   },
   "expertise_domain_scores": {

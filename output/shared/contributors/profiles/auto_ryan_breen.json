@@ -48,7 +48,7 @@
   "review_reciprocity": null,
   "hybrid_score": 0.0376,
   "p2016_hybrid_score": 0.0455,
-  "modern_hybrid_score": 0.0212,
+  "modern_hybrid_score": 0.0213,
   "impact_score": 2.0,
   "p2016_impact_score": 3.0,
   "modern_impact_score": 1.0,
@@ -68,15 +68,15 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "L2": 0.579,
+      "Mining": 0.211,
       "Consensus": 0.211,
-      "Mining": 0.211
+      "L2": 0.579
     }
   },
   "expertise_domain_scores": {
-    "L2": 0.5784,
     "Consensus": 0.2108,
-    "Mining": 0.2108
+    "Mining": 0.2108,
+    "L2": 0.5784
   },
   "p2016_posts": 15.0,
   "modern_posts": 8.0,

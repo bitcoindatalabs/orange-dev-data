@@ -80,15 +80,15 @@
   ],
   "expertise_by_source": {
     "code": {
+      "Consensus": 0.105,
       "Infrastructure": 0.766,
       "Network": 0.111,
-      "Cryptography": 0.019,
-      "Consensus": 0.105
+      "Cryptography": 0.019
     }
   },
   "expertise_domain_scores": {
-    "Infrastructure": 0.7652,
     "Consensus": 0.1049,
+    "Infrastructure": 0.7652,
     "Network": 0.1109,
     "Cryptography": 0.019
   },
@@ -127,7 +127,7 @@
   "geo_conflict": false,
   "geo_tz_signature": "-480/-420",
   "geo_location_raw": "Earth",
-  "geo_as_of": "2026-10-24",
+  "geo_as_of": "2026-10-31",
   "geo_taxonomy_version": "2026.10.1",
   "is_top_50": false,
   "github_url": "https://github.com/dhruv",

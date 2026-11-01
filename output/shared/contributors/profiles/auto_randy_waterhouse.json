@@ -66,16 +66,16 @@
     "Consensus"
   ],
   "expertise_by_source": {
-    "discussion": {
-      "Consensus": 1.0
-    },
     "code": {
       "Infrastructure": 1.0
+    },
+    "discussion": {
+      "Consensus": 1.0
     }
   },
   "expertise_domain_scores": {
-    "Infrastructure": 0.6,
-    "Consensus": 0.4
+    "Consensus": 0.4,
+    "Infrastructure": 0.6
   },
   "p2016_posts": 3.0,
   "modern_posts": 0.0,

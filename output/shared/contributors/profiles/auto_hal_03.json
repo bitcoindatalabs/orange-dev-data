@@ -48,7 +48,7 @@
   "review_reciprocity": null,
   "hybrid_score": 0.0051,
   "p2016_hybrid_score": 0.0076,
-  "modern_hybrid_score": 0.0212,
+  "modern_hybrid_score": 0.0213,
   "impact_score": 0.0,
   "p2016_impact_score": 0.0,
   "modern_impact_score": 1.0,
@@ -62,15 +62,18 @@
   "last_active": "2026-10-14T18:54:35.828000",
   "dev_type": "Participant",
   "expertise_domains": [
-    "Cryptography"
+    "Cryptography",
+    "L2"
   ],
   "expertise_by_source": {
     "discussion": {
-      "Cryptography": 1.0
+      "L2": 0.5,
+      "Cryptography": 0.5
     }
   },
   "expertise_domain_scores": {
-    "Cryptography": 1.0
+    "L2": 0.5,
+    "Cryptography": 0.5
   },
   "p2016_posts": 7.0,
   "modern_posts": 7.0,
@@ -125,6 +128,8 @@
   },
   "social_history": {
     "2026": {
+      "l2-bridges": 6,
+      "lightning": 6,
       "quantum": 6,
       "security": 1
     }

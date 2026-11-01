@@ -68,15 +68,15 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Wallet": 0.194,
+      "Mining": 0.403,
       "Mempool": 0.403,
-      "Mining": 0.403
+      "Wallet": 0.194
     }
   },
   "expertise_domain_scores": {
-    "Wallet": 0.194,
+    "Mining": 0.403,
     "Mempool": 0.403,
-    "Mining": 0.403
+    "Wallet": 0.194
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,

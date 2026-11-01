@@ -68,15 +68,15 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Privacy": 0.125,
-      "Mempool": 0.25,
-      "Mining": 0.625
+      "Mining": 0.585,
+      "Mempool": 0.292,
+      "Privacy": 0.123
     }
   },
   "expertise_domain_scores": {
-    "Privacy": 0.125,
-    "Mempool": 0.25,
-    "Mining": 0.625
+    "Mining": 0.585,
+    "Mempool": 0.292,
+    "Privacy": 0.123
   },
   "p2016_posts": 6.0,
   "modern_posts": 6.0,
@@ -135,7 +135,7 @@
       "bitvm": 1,
       "covenants": 1,
       "lightning": 1,
-      "mempool-fees": 1,
+      "mempool-fees": 2,
       "mining": 4,
       "nostr": 1,
       "privacy": 1,

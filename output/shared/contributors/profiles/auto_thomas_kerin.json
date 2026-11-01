@@ -79,26 +79,26 @@
     "Infrastructure"
   ],
   "expertise_by_source": {
-    "discussion": {
-      "Script": 0.389,
-      "Wallet": 0.611
-    },
     "code": {
       "Infrastructure": 0.667,
       "Network": 0.167,
       "Script": 0.167
     },
+    "discussion": {
+      "Script": 0.389,
+      "Wallet": 0.611
+    },
     "bips": {
-      "Consensus": 0.5,
-      "Script": 0.5
+      "Script": 0.5,
+      "Consensus": 0.5
     }
   },
   "expertise_domain_scores": {
+    "Consensus": 0.2499,
     "Infrastructure": 0.2,
     "Script": 0.3778,
-    "Consensus": 0.2499,
-    "Network": 0.0501,
-    "Wallet": 0.1222
+    "Wallet": 0.1222,
+    "Network": 0.0501
   },
   "p2016_posts": 7.0,
   "modern_posts": 0.0,

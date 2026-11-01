@@ -68,14 +68,14 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Ecosystem": 0.117,
       "Consensus": 0.468,
+      "Ecosystem": 0.117,
       "Wallet": 0.416
     }
   },
   "expertise_domain_scores": {
-    "Ecosystem": 0.1169,
     "Consensus": 0.4675,
+    "Ecosystem": 0.1169,
     "Wallet": 0.4156
   },
   "p2016_posts": 8.0,

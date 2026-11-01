@@ -79,25 +79,25 @@
     "Mempool"
   ],
   "expertise_by_source": {
-    "discussion": {
-      "Script": 0.261,
-      "L2": 0.478,
-      "Consensus": 0.261
-    },
     "code": {
       "Infrastructure": 0.667,
       "Mempool": 0.333
+    },
+    "discussion": {
+      "Consensus": 0.261,
+      "Script": 0.261,
+      "L2": 0.478
     },
     "bips": {
       "Consensus": 1.0
     }
   },
   "expertise_domain_scores": {
-    "Infrastructure": 0.2001,
-    "Script": 0.0522,
-    "L2": 0.0956,
     "Consensus": 0.5522,
-    "Mempool": 0.0999
+    "Infrastructure": 0.2001,
+    "Mempool": 0.0999,
+    "Script": 0.0522,
+    "L2": 0.0956
   },
   "p2016_posts": 25.0,
   "modern_posts": 0.0,

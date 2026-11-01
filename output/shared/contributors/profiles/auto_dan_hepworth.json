@@ -63,20 +63,20 @@
   "dev_type": "Participant",
   "expertise_domains": [
     "Mining",
-    "Script",
-    "Cryptography"
+    "Mempool",
+    "Script"
   ],
   "expertise_by_source": {
     "discussion": {
-      "Script": 0.273,
-      "Mining": 0.545,
-      "Cryptography": 0.182
+      "Mining": 0.509,
+      "Mempool": 0.246,
+      "Script": 0.246
     }
   },
   "expertise_domain_scores": {
-    "Script": 0.273,
-    "Mining": 0.545,
-    "Cryptography": 0.182
+    "Mining": 0.5085,
+    "Mempool": 0.2458,
+    "Script": 0.2458
   },
   "p2016_posts": 3.0,
   "modern_posts": 3.0,
@@ -135,7 +135,7 @@
       "covenants": 3,
       "ecash": 2,
       "lightning": 1,
-      "mempool-fees": 2,
+      "mempool-fees": 3,
       "mining": 3,
       "quantum": 2,
       "scaling": 2,

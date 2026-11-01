@@ -68,15 +68,15 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Network": 0.5,
+      "Mining": 0.25,
       "Privacy": 0.25,
-      "Mining": 0.25
+      "Network": 0.5
     }
   },
   "expertise_domain_scores": {
-    "Network": 0.5,
+    "Mining": 0.25,
     "Privacy": 0.25,
-    "Mining": 0.25
+    "Network": 0.5
   },
   "p2016_posts": 16.0,
   "modern_posts": 0.0,

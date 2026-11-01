@@ -48,18 +48,18 @@
   "review_reciprocity": null,
   "hybrid_score": 0.0051,
   "p2016_hybrid_score": 0.0076,
-  "modern_hybrid_score": 0.0212,
+  "modern_hybrid_score": 0.0213,
   "impact_score": 0.0,
   "p2016_impact_score": 0.0,
   "modern_impact_score": 1.0,
   "threads_started": 69.0,
-  "replies_sent": 64.0,
+  "replies_sent": 67.0,
   "ml_threads": 0.0,
   "delving_threads": 69.0,
   "ml_responses": 0.0,
-  "delving_responses": 64.0,
+  "delving_responses": 67.0,
   "first_active": "2023-11-08T14:45:57.141000",
-  "last_active": "2026-10-21T14:25:31.154000",
+  "last_active": "2026-10-26T08:51:38.235000",
   "dev_type": "Participant",
   "expertise_domains": [
     "L2",
@@ -67,26 +67,26 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "L2": 0.786,
-      "Wallet": 0.214
+      "Wallet": 0.209,
+      "L2": 0.791
     }
   },
   "expertise_domain_scores": {
-    "L2": 0.786,
-    "Wallet": 0.214
+    "Wallet": 0.209,
+    "L2": 0.791
   },
-  "p2016_posts": 133.0,
-  "modern_posts": 133.0,
+  "p2016_posts": 136.0,
+  "modern_posts": 136.0,
   "p2016_ml_posts": 0.0,
-  "p2016_delving_posts": 133.0,
+  "p2016_delving_posts": 136.0,
   "modern_ml_posts": 0.0,
-  "modern_delving_posts": 133.0,
+  "modern_delving_posts": 136.0,
   "is_engineer": false,
   "is_reviewer": false,
   "is_researcher": true,
   "is_bip_author": false,
   "global_first_active": "2023-11-08T14:45:57.141000",
-  "global_last_active": "2026-10-21T14:25:31.154000",
+  "global_last_active": "2026-10-26T08:51:38.235000",
   "github_location": null,
   "github_company": null,
   "github_bio": null,
@@ -116,15 +116,15 @@
   "delving_url": "https://delvingbitcoin.org/u/zmnscpxj",
   "first_message": {
     "source": "delving",
-    "subject": "Batched Splicing Considered Risky",
+    "subject": "[Lightning] Batched Splicing Considered Risky",
     "date": "2023-11-08",
-    "link": "https://delvingbitcoin.org/t/batched-splicing-considered-risky/170/1"
+    "link": "https://delvingbitcoin.org/t/lightning-batched-splicing-considered-risky/170/1"
   },
   "last_message": {
     "source": "delving",
-    "subject": "Re: Softfork before GTA VI?",
-    "date": "2026-10-21",
-    "link": "https://delvingbitcoin.org/t/softfork-before-gta-vi/2913/3"
+    "subject": "Re: What does \"post-quantum\" actually mean for a Bitcoin L2 when settlement still happens on a non-PQ L1?",
+    "date": "2026-10-26",
+    "link": "https://delvingbitcoin.org/t/what-does-post-quantum-actually-mean-for-a-bitcoin-l2-when-settlement-still-happens-on-a-non-pq-l1/2715/13"
   },
   "social_history": {
     "2023": {
@@ -157,11 +157,11 @@
     "2026": {
       "other": 51,
       "covenants": 5,
-      "l2-bridges": 2,
-      "lightning": 17,
+      "l2-bridges": 6,
+      "lightning": 22,
       "mining": 8,
-      "multisig-threshold": 15,
-      "quantum": 4,
+      "multisig-threshold": 16,
+      "quantum": 6,
       "taproot": 6
     }
   }

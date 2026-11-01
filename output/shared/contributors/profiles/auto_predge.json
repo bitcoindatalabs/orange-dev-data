@@ -62,15 +62,21 @@
   "last_active": "2026-10-22T21:01:05.571000",
   "dev_type": "Participant",
   "expertise_domains": [
-    "Script"
+    "Consensus",
+    "Script",
+    "Cryptography"
   ],
   "expertise_by_source": {
     "discussion": {
-      "Script": 1.0
+      "Consensus": 0.5,
+      "Script": 0.25,
+      "Cryptography": 0.25
     }
   },
   "expertise_domain_scores": {
-    "Script": 1.0
+    "Consensus": 0.5,
+    "Script": 0.25,
+    "Cryptography": 0.25
   },
   "p2016_posts": 1.0,
   "modern_posts": 1.0,
@@ -125,7 +131,9 @@
   },
   "social_history": {
     "2026": {
-      "covenants": 1
+      "covenants": 1,
+      "signatures-sighash": 1,
+      "taproot": 1
     }
   }
 }

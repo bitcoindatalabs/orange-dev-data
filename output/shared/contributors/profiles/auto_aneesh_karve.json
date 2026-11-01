@@ -60,7 +60,7 @@
   "review_reciprocity": 2.0,
   "hybrid_score": 0.4582,
   "p2016_hybrid_score": 0.4655,
-  "modern_hybrid_score": 0.1545,
+  "modern_hybrid_score": 0.1549,
   "impact_score": 24.0,
   "p2016_impact_score": 24.0,
   "modern_impact_score": 9.0,
@@ -80,19 +80,19 @@
   ],
   "expertise_by_source": {
     "discussion": {
+      "Mempool": 0.15,
       "Consensus": 0.08,
-      "Wallet": 0.77,
-      "Mempool": 0.15
+      "Wallet": 0.77
     },
     "bips": {
       "Infrastructure": 1.0
     }
   },
   "expertise_domain_scores": {
-    "Infrastructure": 0.7143,
     "Consensus": 0.0229,
-    "Wallet": 0.22,
-    "Mempool": 0.0429
+    "Infrastructure": 0.7143,
+    "Mempool": 0.0429,
+    "Wallet": 0.22
   },
   "p2016_posts": 6.0,
   "modern_posts": 6.0,

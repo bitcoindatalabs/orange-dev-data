@@ -68,14 +68,14 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Script": 0.559,
       "Consensus": 0.203,
+      "Script": 0.559,
       "Cryptography": 0.237
     }
   },
   "expertise_domain_scores": {
-    "Script": 0.5596,
     "Consensus": 0.2032,
+    "Script": 0.5596,
     "Cryptography": 0.2372
   },
   "p2016_posts": 9.0,

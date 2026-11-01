@@ -48,7 +48,7 @@
   "review_reciprocity": 1.9166666666666667,
   "hybrid_score": 0.4933,
   "p2016_hybrid_score": 0.4615,
-  "modern_hybrid_score": 0.4207,
+  "modern_hybrid_score": 0.4217,
   "impact_score": 26.0,
   "p2016_impact_score": 24.0,
   "modern_impact_score": 22.0,
@@ -67,18 +67,18 @@
     "Network"
   ],
   "expertise_by_source": {
-    "discussion": {
-      "Network": 0.458,
-      "Mining": 0.542
-    },
     "code": {
       "Infrastructure": 1.0
+    },
+    "discussion": {
+      "Mining": 0.542,
+      "Network": 0.458
     }
   },
   "expertise_domain_scores": {
+    "Mining": 0.2168,
     "Infrastructure": 0.6,
-    "Network": 0.1832,
-    "Mining": 0.2168
+    "Network": 0.1832
   },
   "p2016_posts": 338.0,
   "modern_posts": 87.0,

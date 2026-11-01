@@ -81,8 +81,8 @@
   "expertise_by_source": {
     "discussion": {
       "Script": 0.25,
-      "L2": 0.25,
-      "Wallet": 0.5
+      "Wallet": 0.5,
+      "L2": 0.25
     },
     "bips": {
       "Infrastructure": 1.0
@@ -91,8 +91,8 @@
   "expertise_domain_scores": {
     "Infrastructure": 0.7143,
     "Script": 0.0714,
-    "L2": 0.0714,
-    "Wallet": 0.1429
+    "Wallet": 0.1429,
+    "L2": 0.0714
   },
   "p2016_posts": 3.0,
   "modern_posts": 3.0,
@@ -145,9 +145,9 @@
   ],
   "first_message": {
     "source": "delving",
-    "subject": "Chain Code Delegation: Private Access Control for Bitcoin Keys",
+    "subject": "Chain Code Delegation: Access Control for Bitcoin Keys",
     "date": "2025-07-15",
-    "link": "https://delvingbitcoin.org/t/chain-code-delegation-private-access-control-for-bitcoin-keys/1837/1"
+    "link": "https://delvingbitcoin.org/t/chain-code-delegation-access-control-for-bitcoin-keys/1837/1"
   },
   "last_message": {
     "source": "delving",

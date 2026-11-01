@@ -35,7 +35,7 @@
         1,
         1,
         4,
-        6
+        7
       ]
     },
     {
@@ -61,9 +61,9 @@
     }
   ],
   "coverage": {
-    "devs_known_region": 1419,
-    "devs_total": 7867,
-    "commit_weighted_known": 0.7699,
+    "devs_known_region": 1423,
+    "devs_total": 7902,
+    "commit_weighted_known": 0.77,
     "taxonomy_version": "2026.10.1"
   }
 }

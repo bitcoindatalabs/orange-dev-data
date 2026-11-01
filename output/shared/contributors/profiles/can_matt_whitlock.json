@@ -67,24 +67,24 @@
     "Mining"
   ],
   "expertise_by_source": {
-    "discussion": {
-      "Wallet": 0.655,
-      "Mining": 0.345
-    },
     "code": {
+      "Consensus": 0.1,
       "Infrastructure": 0.5,
       "Network": 0.2,
-      "Mempool": 0.2,
-      "Consensus": 0.1
+      "Mempool": 0.2
+    },
+    "discussion": {
+      "Mining": 0.345,
+      "Wallet": 0.655
     }
   },
   "expertise_domain_scores": {
-    "Infrastructure": 0.3,
     "Consensus": 0.06,
-    "Network": 0.12,
-    "Wallet": 0.262,
+    "Mining": 0.138,
+    "Infrastructure": 0.3,
     "Mempool": 0.12,
-    "Mining": 0.138
+    "Wallet": 0.262,
+    "Network": 0.12
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,

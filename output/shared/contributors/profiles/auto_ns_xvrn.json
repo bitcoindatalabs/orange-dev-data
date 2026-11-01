@@ -23,7 +23,7 @@
   "first_commit": "2023-10-11T18:08:34",
   "last_commit": "2023-10-29T09:15:08",
   "p2016_authored_commits": 2.0,
-  "modern_authored_commits": 1.0,
+  "modern_authored_commits": 0.0,
   "co_authored_commits": 0.0,
   "bips_authored": 0.0,
   "p2016_bips_authored": 0.0,
@@ -48,7 +48,7 @@
   "review_reciprocity": 3.25,
   "hybrid_score": 0.1701,
   "p2016_hybrid_score": 0.1745,
-  "modern_hybrid_score": 0.1911,
+  "modern_hybrid_score": 0.1913,
   "impact_score": 10.0,
   "p2016_impact_score": 10.0,
   "modern_impact_score": 11.0,
@@ -67,20 +67,20 @@
     "L2"
   ],
   "expertise_by_source": {
-    "discussion": {
-      "Script": 0.286,
-      "L2": 0.286,
-      "Mempool": 0.429
-    },
     "code": {
       "Infrastructure": 1.0
+    },
+    "discussion": {
+      "Mempool": 0.429,
+      "Script": 0.286,
+      "L2": 0.286
     }
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.5998,
+    "Mempool": 0.1715,
     "Script": 0.1144,
-    "L2": 0.1144,
-    "Mempool": 0.1715
+    "L2": 0.1144
   },
   "p2016_posts": 3.0,
   "modern_posts": 3.0,

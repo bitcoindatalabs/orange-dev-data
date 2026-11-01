@@ -78,11 +78,11 @@
     "Script"
   ],
   "expertise_by_source": {
-    "discussion": {
-      "Script": 1.0
-    },
     "code": {
       "Infrastructure": 1.0
+    },
+    "discussion": {
+      "Script": 1.0
     },
     "bips": {
       "Infrastructure": 1.0

@@ -79,25 +79,25 @@
     "Ecosystem"
   ],
   "expertise_by_source": {
-    "discussion": {
-      "Ecosystem": 0.714,
-      "Mining": 0.286
-    },
     "code": {
+      "Consensus": 0.013,
       "Infrastructure": 0.838,
-      "Network": 0.149,
-      "Consensus": 0.013
+      "Network": 0.149
+    },
+    "discussion": {
+      "Mining": 0.286,
+      "Ecosystem": 0.714
     },
     "bips": {
-      "Infrastructure": 0.75,
-      "Network": 0.25
+      "Network": 0.25,
+      "Infrastructure": 0.75
     }
   },
   "expertise_domain_scores": {
+    "Mining": 0.0572,
     "Infrastructure": 0.6264,
     "Ecosystem": 0.1428,
-    "Network": 0.1697,
-    "Mining": 0.0572
+    "Network": 0.1697
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,

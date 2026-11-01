@@ -60,7 +60,7 @@
   "review_reciprocity": 29.666666666666668,
   "hybrid_score": 0.7895,
   "p2016_hybrid_score": 0.9054,
-  "modern_hybrid_score": 0.3554,
+  "modern_hybrid_score": 0.3556,
   "impact_score": 38.0,
   "p2016_impact_score": 42.0,
   "modern_impact_score": 19.0,
@@ -78,19 +78,19 @@
     "Infrastructure"
   ],
   "expertise_by_source": {
-    "discussion": {
-      "Consensus": 1.0
-    },
     "code": {
       "Infrastructure": 1.0
+    },
+    "discussion": {
+      "Consensus": 1.0
     },
     "bips": {
       "Consensus": 1.0
     }
   },
   "expertise_domain_scores": {
-    "Infrastructure": 0.3,
-    "Consensus": 0.7
+    "Consensus": 0.7,
+    "Infrastructure": 0.3
   },
   "p2016_posts": 142.0,
   "modern_posts": 29.0,

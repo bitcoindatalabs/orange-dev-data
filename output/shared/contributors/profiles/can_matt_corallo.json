@@ -79,17 +79,17 @@
     "Mining"
   ],
   "expertise_by_source": {
-    "discussion": {
-      "Consensus": 0.467,
-      "Mining": 0.533
-    },
     "code": {
+      "Consensus": 0.104,
       "Infrastructure": 0.684,
       "Wallet": 0.048,
       "Network": 0.138,
       "Mempool": 0.026,
-      "Script": 0.002,
-      "Consensus": 0.104
+      "Script": 0.002
+    },
+    "discussion": {
+      "Mining": 0.533,
+      "Consensus": 0.467
     },
     "bips": {
       "Infrastructure": 0.75,
@@ -98,12 +98,12 @@
     }
   },
   "expertise_domain_scores": {
-    "Infrastructure": 0.5799,
-    "L2": 0.0625,
     "Consensus": 0.187,
-    "Network": 0.0414,
+    "Mining": 0.1065,
+    "Infrastructure": 0.5799,
     "Wallet": 0.0144,
-    "Mining": 0.1065
+    "L2": 0.0625,
+    "Network": 0.0414
   },
   "p2016_posts": 311.0,
   "modern_posts": 117.0,

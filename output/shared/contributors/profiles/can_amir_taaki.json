@@ -79,22 +79,22 @@
     "Script"
   ],
   "expertise_by_source": {
-    "discussion": {
-      "Script": 0.588,
-      "Ecosystem": 0.412
-    },
     "code": {
       "Infrastructure": 1.0
     },
+    "discussion": {
+      "Ecosystem": 0.412,
+      "Script": 0.588
+    },
     "bips": {
-      "Infrastructure": 0.6,
-      "Network": 0.4
+      "Network": 0.4,
+      "Infrastructure": 0.6
     }
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.6,
-    "Script": 0.1176,
     "Ecosystem": 0.0824,
+    "Script": 0.1176,
     "Network": 0.2
   },
   "p2016_posts": 6.0,

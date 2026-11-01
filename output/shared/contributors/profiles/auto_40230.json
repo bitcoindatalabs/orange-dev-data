@@ -63,20 +63,17 @@
   "dev_type": "Participant",
   "expertise_domains": [
     "Consensus",
-    "L2",
-    "Mempool"
+    "L2"
   ],
   "expertise_by_source": {
     "discussion": {
-      "L2": 0.25,
-      "Consensus": 0.5,
-      "Mempool": 0.25
+      "Consensus": 0.659,
+      "L2": 0.341
     }
   },
   "expertise_domain_scores": {
-    "L2": 0.25,
-    "Consensus": 0.5,
-    "Mempool": 0.25
+    "Consensus": 0.659,
+    "L2": 0.341
   },
   "p2016_posts": 4.0,
   "modern_posts": 4.0,
@@ -134,8 +131,10 @@
       "bip-process": 1,
       "bitvm": 3,
       "core-dev": 1,
+      "data-structures": 3,
       "mempool-fees": 3,
-      "taproot": 3
+      "taproot": 3,
+      "utxo-sync": 4
     }
   }
 }

@@ -67,13 +67,13 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Wallet": 0.17,
-      "Mempool": 0.83
+      "Mempool": 0.83,
+      "Wallet": 0.17
     }
   },
   "expertise_domain_scores": {
-    "Wallet": 0.17,
-    "Mempool": 0.83
+    "Mempool": 0.83,
+    "Wallet": 0.17
   },
   "p2016_posts": 6.0,
   "modern_posts": 6.0,

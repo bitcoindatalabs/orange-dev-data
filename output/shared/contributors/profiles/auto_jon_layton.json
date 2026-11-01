@@ -68,16 +68,16 @@
   ],
   "expertise_by_source": {
     "code": {
+      "Consensus": 0.083,
       "Infrastructure": 0.764,
       "Wallet": 0.069,
-      "Script": 0.083,
-      "Consensus": 0.083
+      "Script": 0.083
     }
   },
   "expertise_domain_scores": {
+    "Consensus": 0.0831,
     "Infrastructure": 0.7648,
     "Script": 0.0831,
-    "Consensus": 0.0831,
     "Wallet": 0.0691
   },
   "p2016_posts": 0.0,

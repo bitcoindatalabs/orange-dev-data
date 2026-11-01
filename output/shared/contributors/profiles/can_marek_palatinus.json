@@ -79,16 +79,16 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Wallet": 0.761,
-      "Mining": 0.239
+      "Mining": 0.239,
+      "Wallet": 0.761
     },
     "bips": {
       "Wallet": 1.0
     }
   },
   "expertise_domain_scores": {
-    "Wallet": 0.9317,
-    "Mining": 0.0683
+    "Mining": 0.0683,
+    "Wallet": 0.9317
   },
   "p2016_posts": 11.0,
   "modern_posts": 0.0,

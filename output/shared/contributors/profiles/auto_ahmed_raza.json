@@ -68,14 +68,14 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Script": 0.254,
       "Ecosystem": 0.254,
+      "Script": 0.254,
       "Cryptography": 0.493
     }
   },
   "expertise_domain_scores": {
-    "Script": 0.2537,
     "Ecosystem": 0.2537,
+    "Script": 0.2537,
     "Cryptography": 0.4925
   },
   "p2016_posts": 2.0,

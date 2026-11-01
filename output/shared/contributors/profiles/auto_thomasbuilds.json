@@ -68,14 +68,14 @@
   ],
   "expertise_by_source": {
     "code": {
+      "Consensus": 0.05,
       "Infrastructure": 0.85,
-      "Cryptography": 0.1,
-      "Consensus": 0.05
+      "Cryptography": 0.1
     }
   },
   "expertise_domain_scores": {
-    "Infrastructure": 0.85,
     "Consensus": 0.05,
+    "Infrastructure": 0.85,
     "Cryptography": 0.1
   },
   "p2016_posts": 0.0,

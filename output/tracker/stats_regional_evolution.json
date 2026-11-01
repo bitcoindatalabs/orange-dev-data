@@ -43,7 +43,7 @@
         25,
         20,
         36,
-        17
+        18
       ]
     },
     {
@@ -69,7 +69,7 @@
         30,
         30,
         35,
-        32
+        34
       ]
     },
     {
@@ -147,7 +147,7 @@
         1,
         1,
         4,
-        6
+        7
       ]
     },
     {
@@ -173,14 +173,14 @@
         214,
         274,
         360,
-        320
+        345
       ]
     }
   ],
   "coverage": {
-    "devs_known_region": 1419,
-    "devs_total": 7867,
-    "commit_weighted_known": 0.7699,
+    "devs_known_region": 1423,
+    "devs_total": 7902,
+    "commit_weighted_known": 0.77,
     "taxonomy_version": "2026.10.1"
   }
 }

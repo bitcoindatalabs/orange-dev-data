@@ -48,7 +48,7 @@
   "review_reciprocity": 3.0,
   "hybrid_score": 0.0667,
   "p2016_hybrid_score": 0.075,
-  "modern_hybrid_score": 0.1205,
+  "modern_hybrid_score": 0.1207,
   "impact_score": 4.0,
   "p2016_impact_score": 4.0,
   "modern_impact_score": 7.0,
@@ -68,8 +68,8 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Consensus": 0.194,
       "Mempool": 0.403,
+      "Consensus": 0.194,
       "Cryptography": 0.403
     }
   },

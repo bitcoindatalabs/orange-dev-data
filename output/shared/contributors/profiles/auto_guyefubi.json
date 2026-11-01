@@ -1,9 +1,9 @@
 {
-  "display_name": "Anonymous_6271",
+  "display_name": "guyefubi",
   "github_login_final": null,
   "github_id_final": null,
-  "delving_username_final": "willcl-ark",
-  "uuid": "auto_6271",
+  "delving_username_final": "guyefubi",
+  "uuid": "auto_guyefubi",
   "badges": null,
   "roles": null,
   "total_commits": 0.0,
@@ -52,44 +52,41 @@
   "impact_score": 0.0,
   "p2016_impact_score": 0.0,
   "modern_impact_score": 0.0,
-  "threads_started": 5.0,
-  "replies_sent": 1.0,
+  "threads_started": 2.0,
+  "replies_sent": 0.0,
   "ml_threads": 0.0,
-  "delving_threads": 5.0,
+  "delving_threads": 2.0,
   "ml_responses": 0.0,
-  "delving_responses": 1.0,
-  "first_active": "2025-05-15T16:23:11.245000",
-  "last_active": "2026-05-18T14:52:14.130000",
+  "delving_responses": 0.0,
+  "first_active": "2026-10-26T20:36:38.193000",
+  "last_active": "2026-10-27T15:11:35.718000",
   "dev_type": "Participant",
   "expertise_domains": [
     "Mining",
-    "Network",
-    "Mempool"
+    "Ecosystem"
   ],
   "expertise_by_source": {
     "discussion": {
-      "Network": 0.308,
-      "Mempool": 0.308,
-      "Mining": 0.385
+      "Mining": 0.66,
+      "Ecosystem": 0.34
     }
   },
   "expertise_domain_scores": {
-    "Network": 0.3077,
-    "Mempool": 0.3077,
-    "Mining": 0.3846
+    "Mining": 0.66,
+    "Ecosystem": 0.34
   },
-  "p2016_posts": 6.0,
-  "modern_posts": 6.0,
+  "p2016_posts": 2.0,
+  "modern_posts": 2.0,
   "p2016_ml_posts": 0.0,
-  "p2016_delving_posts": 6.0,
+  "p2016_delving_posts": 2.0,
   "modern_ml_posts": 0.0,
-  "modern_delving_posts": 6.0,
+  "modern_delving_posts": 2.0,
   "is_engineer": false,
   "is_reviewer": false,
   "is_researcher": false,
   "is_bip_author": false,
-  "global_first_active": "2025-05-15T16:23:11.245000",
-  "global_last_active": "2026-05-18T14:52:14.130000",
+  "global_first_active": "2026-10-26T20:36:38.193000",
+  "global_last_active": "2026-10-27T15:11:35.718000",
   "github_location": null,
   "github_company": null,
   "github_bio": null,
@@ -116,31 +113,25 @@
   "geo_as_of": null,
   "geo_taxonomy_version": "2026.10.1",
   "is_top_50": false,
-  "delving_url": "https://delvingbitcoin.org/u/willcl-ark",
+  "delving_url": "https://delvingbitcoin.org/u/guyefubi",
   "first_message": {
     "source": "delving",
-    "subject": "Re: Bitcointap: an strace-like tool for bitcoin ebpf USDT tracepoints",
-    "date": "2025-05-15",
-    "link": "https://delvingbitcoin.org/t/bitcointap-an-strace-like-tool-for-bitcoin-ebpf-usdt-tracepoints/1694/2"
+    "subject": "Re: Reducing Bitcoin Full Node Storage Without Consensus Changes",
+    "date": "2026-10-26",
+    "link": "https://delvingbitcoin.org/t/reducing-bitcoin-full-node-storage-without-consensus-changes/2790/9"
   },
   "last_message": {
     "source": "delving",
-    "subject": "Re: TCP hole punching for Bitcoin nodes behind home NATs?",
-    "date": "2026-05-18",
-    "link": "https://delvingbitcoin.org/t/tcp-hole-punching-for-bitcoin-nodes-behind-home-nats/2497/17"
+    "subject": "Re: SV2 Extensions for Payout Verification and Job Size at Scale",
+    "date": "2026-10-27",
+    "link": "https://delvingbitcoin.org/t/sv2-extensions-for-payout-verification-and-job-size-at-scale/2805/3"
   },
   "social_history": {
-    "2025": {
-      "mining": 1
-    },
     "2026": {
-      "core-dev": 2,
-      "lightning": 1,
-      "mempool-fees": 2,
-      "mining": 3,
-      "p2p-network": 2,
-      "payment-protocol": 2,
-      "security": 1
+      "bip-process": 1,
+      "core-dev": 1,
+      "mining": 1,
+      "utxo-sync": 1
     }
   }
 }

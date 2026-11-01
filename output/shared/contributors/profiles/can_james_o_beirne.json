@@ -62,10 +62,10 @@
   "review_reciprocity": 3.816,
   "hybrid_score": 0.9741,
   "p2016_hybrid_score": 1.031,
-  "modern_hybrid_score": 0.6802,
+  "modern_hybrid_score": 0.6558,
   "impact_score": 44.0,
   "p2016_impact_score": 46.0,
-  "modern_impact_score": 34.0,
+  "modern_impact_score": 33.0,
   "threads_started": 24.0,
   "replies_sent": 66.0,
   "ml_threads": 7.0,
@@ -81,32 +81,32 @@
     "Script"
   ],
   "expertise_by_source": {
-    "discussion": {
-      "Script": 0.889,
-      "L2": 0.111
-    },
     "code": {
+      "Consensus": 0.273,
       "Infrastructure": 0.682,
       "Wallet": 0.016,
       "Network": 0.025,
-      "Mempool": 0.004,
-      "Consensus": 0.273
+      "Mempool": 0.004
+    },
+    "discussion": {
+      "Mempool": 0.111,
+      "Script": 0.889
     },
     "bips": {
       "Consensus": 1.0
     }
   },
   "expertise_domain_scores": {
+    "Consensus": 0.5819,
     "Infrastructure": 0.2046,
-    "Script": 0.1778,
-    "L2": 0.0222,
-    "Consensus": 0.5819
+    "Mempool": 0.0234,
+    "Script": 0.1778
   },
   "p2016_posts": 88.0,
-  "modern_posts": 38.0,
+  "modern_posts": 37.0,
   "p2016_ml_posts": 48.0,
   "p2016_delving_posts": 40.0,
-  "modern_ml_posts": 15.0,
+  "modern_ml_posts": 14.0,
   "modern_delving_posts": 23.0,
   "is_engineer": true,
   "is_reviewer": true,
@@ -137,7 +137,7 @@
   "geo_conflict": false,
   "geo_tz_signature": "-300/-240",
   "geo_location_raw": null,
-  "geo_as_of": "2026-10-24",
+  "geo_as_of": "2026-10-31",
   "geo_taxonomy_version": "2026.10.1",
   "is_top_50": false,
   "github_url": "https://github.com/jamesob",
@@ -280,7 +280,7 @@
       "bitvm": 12,
       "covenants": 31,
       "lightning": 18,
-      "mempool-fees": 3,
+      "mempool-fees": 5,
       "other": 18,
       "script-opcodes": 1,
       "segwit": 13,

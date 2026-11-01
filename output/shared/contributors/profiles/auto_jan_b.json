@@ -67,20 +67,20 @@
     "Network"
   ],
   "expertise_by_source": {
-    "discussion": {
-      "Network": 0.22,
-      "Mempool": 0.671,
-      "Mining": 0.11
-    },
     "code": {
       "Infrastructure": 1.0
+    },
+    "discussion": {
+      "Mining": 0.11,
+      "Mempool": 0.671,
+      "Network": 0.22
     }
   },
   "expertise_domain_scores": {
+    "Mining": 0.044,
     "Infrastructure": 0.5998,
-    "Network": 0.088,
     "Mempool": 0.2683,
-    "Mining": 0.044
+    "Network": 0.088
   },
   "p2016_posts": 4.0,
   "modern_posts": 4.0,

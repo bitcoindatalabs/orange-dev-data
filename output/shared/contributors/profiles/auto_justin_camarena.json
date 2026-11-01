@@ -67,19 +67,19 @@
     "Ecosystem"
   ],
   "expertise_by_source": {
-    "discussion": {
-      "L2": 0.254,
-      "Ecosystem": 0.254,
-      "Privacy": 0.493
-    },
     "code": {
       "Infrastructure": 1.0
+    },
+    "discussion": {
+      "Ecosystem": 0.254,
+      "L2": 0.254,
+      "Privacy": 0.493
     }
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.5998,
-    "L2": 0.1016,
     "Ecosystem": 0.1016,
+    "L2": 0.1016,
     "Privacy": 0.1971
   },
   "p2016_posts": 1.0,

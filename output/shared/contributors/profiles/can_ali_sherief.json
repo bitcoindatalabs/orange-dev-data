@@ -51,7 +51,7 @@
   "review_reciprocity": 3.0,
   "hybrid_score": 0.2067,
   "p2016_hybrid_score": 0.2486,
-  "modern_hybrid_score": 0.1392,
+  "modern_hybrid_score": 0.1389,
   "impact_score": 12.0,
   "p2016_impact_score": 14.0,
   "modern_impact_score": 8.0,
@@ -69,12 +69,12 @@
     "Consensus"
   ],
   "expertise_by_source": {
+    "code": {
+      "Wallet": 1.0
+    },
     "discussion": {
       "Consensus": 0.429,
       "Wallet": 0.571
-    },
-    "code": {
-      "Wallet": 1.0
     }
   },
   "expertise_domain_scores": {

@@ -113,9 +113,9 @@
   "delving_url": "https://delvingbitcoin.org/u/gosunuts",
   "first_message": {
     "source": "delving",
-    "subject": "Bitcoin-rs: an independent Bitcoin full node written in Rust",
+    "subject": "Bitcoin-rs: an independent Bitcoin node written in Rust",
     "date": "2026-09-28",
-    "link": "https://delvingbitcoin.org/t/bitcoin-rs-an-independent-bitcoin-full-node-written-in-rust/2918/1"
+    "link": "https://delvingbitcoin.org/t/bitcoin-rs-an-independent-bitcoin-node-written-in-rust/2918/1"
   },
   "last_message": {
     "source": "delving",

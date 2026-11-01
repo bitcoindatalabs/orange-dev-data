@@ -43,7 +43,7 @@
   "prs_authored": 5.0,
   "tier1_prs_authored": 5.0,
   "tier2_prs_authored": 0.0,
-  "avg_pr_ack_velocity_days": 3.8095624999999997,
+  "avg_pr_ack_velocity_days": 2.5017708333333335,
   "avg_concept_lead_time_days": 0.759988425925926,
   "review_reciprocity": 0.4,
   "hybrid_score": 0.1544,

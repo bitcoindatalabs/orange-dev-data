@@ -16,60 +16,60 @@
     "tier2_commits": 12
   },
   "roles": [],
-  "total_commits": 271.0,
-  "authored_commits": 271.0,
-  "tier1_authored_commits": 259.0,
+  "total_commits": 272.0,
+  "authored_commits": 272.0,
+  "tier1_authored_commits": 260.0,
   "tier2_authored_commits": 12.0,
   "merge_commits": 0.0,
   "tier1_merge_commits": 0.0,
   "tier2_merge_commits": 0.0,
   "self_merges": 0.0,
-  "total_additions": 4250.0,
+  "total_additions": 4274.0,
   "total_deletions": 2011.0,
   "first_core_commit": "2011-06-11T23:17:14+00:00",
-  "last_core_commit": "2026-10-19T11:58:31+00:00",
+  "last_core_commit": "2026-10-28T14:42:46+00:00",
   "first_ecosystem_commit": "2023-11-14T21:48:49+00:00",
   "last_ecosystem_commit": "2026-01-04T19:45:53+00:00",
   "first_commit": "2011-06-11T23:17:14",
-  "last_commit": "2026-10-19T11:58:31",
-  "p2016_authored_commits": 271.0,
-  "modern_authored_commits": 136.0,
+  "last_commit": "2026-10-28T14:42:46",
+  "p2016_authored_commits": 272.0,
+  "modern_authored_commits": 135.0,
   "co_authored_commits": 12.0,
   "bips_authored": 0.0,
   "p2016_bips_authored": 0.0,
   "modern_bips_authored": 0.0,
   "first_bip_date": null,
   "last_bip_date": null,
-  "avg_review_latency_days": 96.03373937316472,
+  "avg_review_latency_days": 95.97596817375886,
   "reviews_count": 602.0,
   "avg_approval_latency_days": 61.02980341640122,
   "approvals_count": 455.0,
   "tier1_reviews_count": 601.0,
   "tier2_reviews_count": 1.0,
   "p2016_reviews_count": 602.0,
-  "modern_reviews_count": 320.0,
+  "modern_reviews_count": 319.0,
   "first_review_date": "2020-11-20T11:01:34",
-  "last_review_date": "2026-10-23T19:30:22",
-  "prs_authored": 222.0,
-  "tier1_prs_authored": 219.0,
+  "last_review_date": "2026-10-28T14:05:39",
+  "prs_authored": 223.0,
+  "tier1_prs_authored": 220.0,
   "tier2_prs_authored": 3.0,
-  "avg_pr_ack_velocity_days": 14.23664866255144,
+  "avg_pr_ack_velocity_days": 14.165216708542712,
   "avg_concept_lead_time_days": 24.846958208208207,
-  "review_reciprocity": 2.7117117117117115,
+  "review_reciprocity": 2.6995515695067263,
   "hybrid_score": 0.5599,
-  "p2016_hybrid_score": 0.5596,
-  "modern_hybrid_score": 0.5255,
+  "p2016_hybrid_score": 0.5597,
+  "modern_hybrid_score": 0.5254,
   "impact_score": 29.0,
   "p2016_impact_score": 29.0,
   "modern_impact_score": 27.0,
-  "threads_started": 16.0,
+  "threads_started": 17.0,
   "replies_sent": 8.0,
   "ml_threads": 0.0,
-  "delving_threads": 16.0,
+  "delving_threads": 17.0,
   "ml_responses": 0.0,
   "delving_responses": 8.0,
   "first_active": "2023-11-18T15:06:59.397000",
-  "last_active": "2026-06-26T12:54:29.479000",
+  "last_active": "2026-10-27T16:52:03.122000",
   "dev_type": "Builder",
   "expertise_domains": [
     "Infrastructure",
@@ -77,39 +77,39 @@
     "Script"
   ],
   "expertise_by_source": {
-    "discussion": {
-      "Script": 0.433,
-      "Mining": 0.567
-    },
     "code": {
+      "Consensus": 0.004,
       "Infrastructure": 0.841,
       "Wallet": 0.056,
       "Network": 0.074,
-      "Cryptography": 0.001,
       "Mempool": 0.004,
       "Script": 0.021,
-      "Consensus": 0.004
+      "Cryptography": 0.001
+    },
+    "discussion": {
+      "Mining": 0.552,
+      "Script": 0.448
     }
   },
   "expertise_domain_scores": {
+    "Mining": 0.2207,
     "Infrastructure": 0.5043,
-    "Script": 0.1857,
-    "Network": 0.0444,
+    "Script": 0.1917,
     "Wallet": 0.0336,
-    "Mining": 0.2267
+    "Network": 0.0444
   },
-  "p2016_posts": 24.0,
-  "modern_posts": 24.0,
+  "p2016_posts": 25.0,
+  "modern_posts": 25.0,
   "p2016_ml_posts": 0.0,
-  "p2016_delving_posts": 24.0,
+  "p2016_delving_posts": 25.0,
   "modern_ml_posts": 0.0,
-  "modern_delving_posts": 24.0,
+  "modern_delving_posts": 25.0,
   "is_engineer": true,
   "is_reviewer": true,
   "is_researcher": false,
   "is_bip_author": false,
   "global_first_active": "2011-06-11T23:17:14",
-  "global_last_active": "2026-10-23T19:30:22",
+  "global_last_active": "2026-10-28T14:42:46",
   "github_location": "Brazil",
   "github_company": "@bitcoin ",
   "github_bio": "@vinteumorg  @opensats @btrustteam ",
@@ -184,7 +184,7 @@
     "2026": {
       "P2P Network": 7.5,
       "Script": 1.5,
-      "Tests": 28.0,
+      "Tests": 32.0,
       "Utilities": 3.0
     }
   },
@@ -196,9 +196,9 @@
   },
   "last_message": {
     "source": "delving",
-    "subject": "Re: ASmap dashboard: tracking the asmap-data history against the observed network",
-    "date": "2026-06-26",
-    "link": "https://delvingbitcoin.org/t/asmap-dashboard-tracking-the-asmap-data-history-against-the-observed-network/2652/2"
+    "subject": "Re: Btc-verified October Update: Connecting Map to Territory",
+    "date": "2026-10-27",
+    "link": "https://delvingbitcoin.org/t/btc-verified-october-update-connecting-map-to-territory/2964/3"
   },
   "social_history": {
     "2023": {
@@ -222,7 +222,7 @@
     },
     "2026": {
       "other": 1,
-      "testing-devtools": 4
+      "testing-devtools": 5
     }
   }
 }

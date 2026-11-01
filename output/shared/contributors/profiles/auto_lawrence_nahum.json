@@ -67,22 +67,22 @@
     "Consensus"
   ],
   "expertise_by_source": {
-    "discussion": {
-      "Ecosystem": 0.671,
-      "Mempool": 0.145,
-      "Mining": 0.184
-    },
     "code": {
-      "Infrastructure": 0.75,
-      "Consensus": 0.25
+      "Consensus": 0.25,
+      "Infrastructure": 0.75
+    },
+    "discussion": {
+      "Mining": 0.184,
+      "Mempool": 0.145,
+      "Ecosystem": 0.671
     }
   },
   "expertise_domain_scores": {
-    "Infrastructure": 0.45,
-    "Ecosystem": 0.2684,
     "Consensus": 0.15,
+    "Mining": 0.0736,
+    "Infrastructure": 0.45,
     "Mempool": 0.058,
-    "Mining": 0.0736
+    "Ecosystem": 0.2684
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,
@@ -119,7 +119,7 @@
   "geo_conflict": false,
   "geo_tz_signature": null,
   "geo_location_raw": null,
-  "geo_as_of": "2026-10-24",
+  "geo_as_of": "2026-10-31",
   "geo_taxonomy_version": "2026.10.1",
   "is_top_50": false,
   "github_url": "https://github.com/greenaddress",

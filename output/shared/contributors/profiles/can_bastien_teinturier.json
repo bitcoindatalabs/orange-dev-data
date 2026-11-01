@@ -60,7 +60,7 @@
   "review_reciprocity": 7.4,
   "hybrid_score": 0.6103,
   "p2016_hybrid_score": 0.6353,
-  "modern_hybrid_score": 0.47,
+  "modern_hybrid_score": 0.4702,
   "impact_score": 31.0,
   "p2016_impact_score": 32.0,
   "modern_impact_score": 25.0,
@@ -79,13 +79,13 @@
     "Wallet"
   ],
   "expertise_by_source": {
-    "discussion": {
-      "L2": 0.569,
-      "Mempool": 0.431
-    },
     "code": {
       "Infrastructure": 0.666,
       "Wallet": 0.334
+    },
+    "discussion": {
+      "Mempool": 0.431,
+      "L2": 0.569
     },
     "bips": {
       "Infrastructure": 1.0
@@ -93,9 +93,9 @@
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.6998,
-    "L2": 0.1138,
+    "Mempool": 0.0862,
     "Wallet": 0.1002,
-    "Mempool": 0.0862
+    "L2": 0.1138
   },
   "p2016_posts": 89.0,
   "modern_posts": 67.0,
@@ -132,7 +132,7 @@
   "geo_conflict": false,
   "geo_tz_signature": null,
   "geo_location_raw": null,
-  "geo_as_of": "2026-10-24",
+  "geo_as_of": "2026-10-31",
   "geo_taxonomy_version": "2026.10.1",
   "is_top_50": false,
   "github_url": "https://github.com/t-bast",

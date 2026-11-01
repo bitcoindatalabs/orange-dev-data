@@ -67,8 +67,8 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Consensus": 0.89,
-      "Mining": 0.11
+      "Mining": 0.11,
+      "Consensus": 0.89
     }
   },
   "expertise_domain_scores": {

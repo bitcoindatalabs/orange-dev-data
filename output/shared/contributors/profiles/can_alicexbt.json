@@ -30,14 +30,14 @@
   "modern_bips_authored": 0.0,
   "first_bip_date": null,
   "last_bip_date": null,
-  "avg_review_latency_days": 290.1689136588818,
-  "reviews_count": 71.0,
-  "avg_approval_latency_days": 37.686061972059775,
-  "approvals_count": 45.0,
-  "tier1_reviews_count": 69.0,
+  "avg_review_latency_days": 297.73468159949164,
+  "reviews_count": 68.0,
+  "avg_approval_latency_days": 39.033156144781145,
+  "approvals_count": 43.0,
+  "tier1_reviews_count": 66.0,
   "tier2_reviews_count": 2.0,
-  "p2016_reviews_count": 71.0,
-  "modern_reviews_count": 71.0,
+  "p2016_reviews_count": 68.0,
+  "modern_reviews_count": 68.0,
   "first_review_date": "2023-10-24T01:54:24",
   "last_review_date": "2025-07-31T11:10:00",
   "prs_authored": 5.0,
@@ -45,11 +45,11 @@
   "tier2_prs_authored": 2.0,
   "avg_pr_ack_velocity_days": 0.3529513888888889,
   "avg_concept_lead_time_days": 2.553310185185185,
-  "review_reciprocity": 14.2,
-  "hybrid_score": 0.3835,
-  "p2016_hybrid_score": 0.4982,
-  "modern_hybrid_score": 0.5055,
-  "impact_score": 21.0,
+  "review_reciprocity": 13.6,
+  "hybrid_score": 0.382,
+  "p2016_hybrid_score": 0.4968,
+  "modern_hybrid_score": 0.504,
+  "impact_score": 20.0,
   "p2016_impact_score": 26.0,
   "modern_impact_score": 26.0,
   "threads_started": 107.0,
@@ -67,26 +67,26 @@
     "Privacy"
   ],
   "expertise_by_source": {
-    "discussion": {
-      "Script": 0.429,
-      "Privacy": 0.343,
-      "Mempool": 0.229
-    },
     "code": {
       "Infrastructure": 1.0
+    },
+    "discussion": {
+      "Mempool": 0.229,
+      "Script": 0.429,
+      "Privacy": 0.343
     }
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.5998,
+    "Mempool": 0.0916,
     "Script": 0.1715,
-    "Privacy": 0.1371,
-    "Mempool": 0.0916
+    "Privacy": 0.1371
   },
   "p2016_posts": 307.0,
-  "modern_posts": 213.0,
+  "modern_posts": 212.0,
   "p2016_ml_posts": 174.0,
   "p2016_delving_posts": 133.0,
-  "modern_ml_posts": 80.0,
+  "modern_ml_posts": 79.0,
   "modern_delving_posts": 133.0,
   "is_engineer": true,
   "is_reviewer": true,
@@ -177,7 +177,7 @@
       "other": 136,
       "covenants": 42,
       "lightning": 16,
-      "mempool-fees": 23,
+      "mempool-fees": 24,
       "mining": 23,
       "privacy": 25,
       "script-opcodes": 27,

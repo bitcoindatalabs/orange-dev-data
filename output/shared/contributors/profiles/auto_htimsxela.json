@@ -67,8 +67,8 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Privacy": 0.67,
-      "Wallet": 0.33
+      "Wallet": 0.33,
+      "Privacy": 0.67
     }
   },
   "expertise_domain_scores": {

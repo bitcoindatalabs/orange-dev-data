@@ -67,18 +67,18 @@
     "Wallet"
   ],
   "expertise_by_source": {
-    "discussion": {
-      "Mining": 1.0
-    },
     "code": {
       "Infrastructure": 0.89,
       "Wallet": 0.11
+    },
+    "discussion": {
+      "Mining": 1.0
     }
   },
   "expertise_domain_scores": {
+    "Mining": 0.4,
     "Infrastructure": 0.534,
-    "Wallet": 0.066,
-    "Mining": 0.4
+    "Wallet": 0.066
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,

@@ -68,15 +68,15 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Ecosystem": 0.663,
+      "Mining": 0.168,
       "Consensus": 0.168,
-      "Mining": 0.168
+      "Ecosystem": 0.663
     }
   },
   "expertise_domain_scores": {
-    "Ecosystem": 0.6637,
     "Consensus": 0.1682,
-    "Mining": 0.1682
+    "Mining": 0.1682,
+    "Ecosystem": 0.6637
   },
   "p2016_posts": 2.0,
   "modern_posts": 0.0,

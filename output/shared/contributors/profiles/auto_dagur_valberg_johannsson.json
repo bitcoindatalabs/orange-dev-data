@@ -78,19 +78,19 @@
     "Infrastructure"
   ],
   "expertise_by_source": {
-    "discussion": {
-      "Consensus": 1.0
-    },
     "code": {
       "Infrastructure": 1.0
+    },
+    "discussion": {
+      "Consensus": 1.0
     },
     "bips": {
       "Consensus": 1.0
     }
   },
   "expertise_domain_scores": {
-    "Infrastructure": 0.3,
-    "Consensus": 0.7
+    "Consensus": 0.7,
+    "Infrastructure": 0.3
   },
   "p2016_posts": 1.0,
   "modern_posts": 0.0,
@@ -127,7 +127,7 @@
   "geo_conflict": false,
   "geo_tz_signature": null,
   "geo_location_raw": null,
-  "geo_as_of": "2026-10-24",
+  "geo_as_of": "2026-10-31",
   "geo_taxonomy_version": "2026.10.1",
   "is_top_50": false,
   "github_url": "https://github.com/dagurval",

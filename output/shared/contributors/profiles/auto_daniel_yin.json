@@ -67,12 +67,12 @@
     "Wallet"
   ],
   "expertise_by_source": {
-    "discussion": {
-      "Cryptography": 1.0
-    },
     "code": {
       "Wallet": 0.5,
       "Script": 0.5
+    },
+    "discussion": {
+      "Cryptography": 1.0
     }
   },
   "expertise_domain_scores": {

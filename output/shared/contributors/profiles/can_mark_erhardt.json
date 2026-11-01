@@ -51,7 +51,7 @@
   "tier1_reviews_count": 216.0,
   "tier2_reviews_count": 523.0,
   "p2016_reviews_count": 739.0,
-  "modern_reviews_count": 616.0,
+  "modern_reviews_count": 615.0,
   "first_review_date": "2016-01-03T22:44:22",
   "last_review_date": "2026-10-24T15:13:16",
   "prs_authored": 70.0,
@@ -62,7 +62,7 @@
   "review_reciprocity": 10.557142857142857,
   "hybrid_score": 0.9946,
   "p2016_hybrid_score": 1.1095,
-  "modern_hybrid_score": 1.1764,
+  "modern_hybrid_score": 1.1763,
   "impact_score": 45.0,
   "p2016_impact_score": 49.0,
   "modern_impact_score": 51.0,
@@ -81,26 +81,26 @@
     "Mempool"
   ],
   "expertise_by_source": {
-    "discussion": {
-      "Ecosystem": 0.343,
-      "Mempool": 0.343,
-      "Mining": 0.314
-    },
     "code": {
       "Infrastructure": 0.649,
       "Wallet": 0.307,
       "Mempool": 0.044
+    },
+    "discussion": {
+      "Mining": 0.314,
+      "Mempool": 0.343,
+      "Ecosystem": 0.343
     },
     "bips": {
       "Infrastructure": 1.0
     }
   },
   "expertise_domain_scores": {
+    "Mining": 0.0628,
     "Infrastructure": 0.6947,
-    "Ecosystem": 0.0686,
-    "Wallet": 0.0921,
     "Mempool": 0.0818,
-    "Mining": 0.0628
+    "Ecosystem": 0.0686,
+    "Wallet": 0.0921
   },
   "p2016_posts": 132.0,
   "modern_posts": 124.0,
@@ -177,7 +177,7 @@
       "Tests": 14.0
     },
     "2026": {
-      "Tests": 17.5,
+      "Tests": 18.5,
       "Wallet": 4.5
     }
   },
@@ -204,8 +204,9 @@
   },
   "social_history": {
     "2016": {
-      "other": 5,
-      "taproot": 1
+      "other": 4,
+      "taproot": 1,
+      "utxo-sync": 1
     },
     "2021": {
       "mempool-fees": 1,
@@ -219,41 +220,41 @@
     "2023": {
       "mempool-fees": 5,
       "mining": 2,
-      "other": 5,
+      "other": 4,
       "script-opcodes": 1,
-      "taproot": 4
+      "taproot": 4,
+      "utxo-sync": 1
     },
     "2024": {
       "bip-process": 8,
-      "other": 47,
+      "other": 57,
       "hard-fork-block-size": 10,
       "mempool-fees": 17,
       "mining": 14,
       "script-opcodes": 4,
-      "taproot": 3,
-      "testing-devtools": 10
+      "taproot": 3
     },
     "2025": {
       "bip-process": 10,
-      "other": 22,
+      "other": 20,
       "hard-fork-block-size": 1,
       "mempool-fees": 5,
       "mining": 3,
       "quantum": 2,
       "script-opcodes": 1,
       "taproot": 3,
-      "testing-devtools": 2
+      "utxo-sync": 4
     },
     "2026": {
       "bip-process": 10,
-      "other": 65,
+      "other": 61,
       "hard-fork-block-size": 10,
       "mempool-fees": 8,
       "mining": 16,
       "quantum": 13,
       "script-opcodes": 16,
       "taproot": 6,
-      "testing-devtools": 3
+      "utxo-sync": 11
     }
   }
 }

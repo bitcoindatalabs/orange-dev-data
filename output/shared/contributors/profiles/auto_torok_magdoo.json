@@ -52,38 +52,41 @@
   "impact_score": 0.0,
   "p2016_impact_score": 0.0,
   "modern_impact_score": 0.0,
-  "threads_started": 1.0,
+  "threads_started": 2.0,
   "replies_sent": 0.0,
   "ml_threads": 0.0,
-  "delving_threads": 1.0,
+  "delving_threads": 2.0,
   "ml_responses": 0.0,
   "delving_responses": 0.0,
   "first_active": "2026-10-20T20:16:07.137000",
-  "last_active": "2026-10-20T20:16:07.137000",
+  "last_active": "2026-10-26T10:43:49.356000",
   "dev_type": "Participant",
   "expertise_domains": [
+    "Mempool",
     "Mining"
   ],
   "expertise_by_source": {
     "discussion": {
-      "Mining": 1.0
+      "Mining": 0.333,
+      "Mempool": 0.667
     }
   },
   "expertise_domain_scores": {
-    "Mining": 1.0
+    "Mining": 0.333,
+    "Mempool": 0.667
   },
-  "p2016_posts": 1.0,
-  "modern_posts": 1.0,
+  "p2016_posts": 2.0,
+  "modern_posts": 2.0,
   "p2016_ml_posts": 0.0,
-  "p2016_delving_posts": 1.0,
+  "p2016_delving_posts": 2.0,
   "modern_ml_posts": 0.0,
-  "modern_delving_posts": 1.0,
+  "modern_delving_posts": 2.0,
   "is_engineer": false,
   "is_reviewer": false,
   "is_researcher": false,
   "is_bip_author": false,
   "global_first_active": "2026-10-20T20:16:07.137000",
-  "global_last_active": "2026-10-20T20:16:07.137000",
+  "global_last_active": "2026-10-26T10:43:49.356000",
   "github_location": null,
   "github_company": null,
   "github_bio": null,
@@ -119,13 +122,15 @@
   },
   "last_message": {
     "source": "delving",
-    "subject": "Evaluating Deterministic BFT Finality within a Confidential UTXO State Machine",
-    "date": "2026-10-20",
-    "link": "https://delvingbitcoin.org/t/evaluating-deterministic-bft-finality-within-a-confidential-utxo-state-machine/2965/1"
+    "subject": "Update and open questions on FinalisCore (deterministic BFT finality + confidential UTXOs from genesis)",
+    "date": "2026-10-26",
+    "link": "https://delvingbitcoin.org/t/update-and-open-questions-on-finaliscore-deterministic-bft-finality-confidential-utxos-from-genesis/2980/1"
   },
   "social_history": {
     "2026": {
-      "mining": 1
+      "mempool-fees": 1,
+      "mining": 1,
+      "testing-devtools": 1
     }
   }
 }

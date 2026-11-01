@@ -60,7 +60,7 @@
   "review_reciprocity": 1.0,
   "hybrid_score": 0.4707,
   "p2016_hybrid_score": 0.4981,
-  "modern_hybrid_score": 0.68,
+  "modern_hybrid_score": 0.6804,
   "impact_score": 25.0,
   "p2016_impact_score": 26.0,
   "modern_impact_score": 34.0,
@@ -79,8 +79,8 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Consensus": 0.537,
-      "Mempool": 0.463
+      "Mempool": 0.463,
+      "Consensus": 0.537
     },
     "bips": {
       "Consensus": 1.0
@@ -109,7 +109,7 @@
   "github_blog": null,
   "github_followers": 57.0,
   "github_profile_fetched_at": "2026-10-20T19:00:44Z",
-  "activity_status": "New",
+  "activity_status": "Active",
   "geo_country_iso2": null,
   "geo_country_iso3": null,
   "geo_country_name": null,

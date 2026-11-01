@@ -43,7 +43,7 @@
   "first_commit": "2020-03-05T18:41:05",
   "last_commit": "2026-03-09T10:11:14",
   "p2016_authored_commits": 612.0,
-  "modern_authored_commits": 291.0,
+  "modern_authored_commits": 284.0,
   "co_authored_commits": 24.0,
   "bips_authored": 2.0,
   "p2016_bips_authored": 2.0,
@@ -68,7 +68,7 @@
   "review_reciprocity": 4.465408805031447,
   "hybrid_score": 2.2308,
   "p2016_hybrid_score": 1.2632,
-  "modern_hybrid_score": 1.0203,
+  "modern_hybrid_score": 1.0198,
   "impact_score": 74.0,
   "p2016_impact_score": 53.0,
   "modern_impact_score": 46.0,
@@ -87,27 +87,27 @@
     "Mempool"
   ],
   "expertise_by_source": {
-    "discussion": {
-      "Mempool": 1.0
-    },
     "code": {
+      "Consensus": 0.132,
       "Infrastructure": 0.703,
       "Wallet": 0.019,
       "Network": 0.07,
-      "Mempool": 0.077,
-      "Consensus": 0.132
+      "Mempool": 0.077
+    },
+    "discussion": {
+      "Mempool": 1.0
     },
     "bips": {
-      "Infrastructure": 0.5,
-      "Privacy": 0.5
+      "Privacy": 0.5,
+      "Infrastructure": 0.5
     }
   },
   "expertise_domain_scores": {
-    "Infrastructure": 0.4608,
     "Consensus": 0.0396,
-    "Network": 0.021,
+    "Infrastructure": 0.4608,
+    "Mempool": 0.223,
     "Privacy": 0.2499,
-    "Mempool": 0.223
+    "Network": 0.021
   },
   "p2016_posts": 60.0,
   "modern_posts": 34.0,

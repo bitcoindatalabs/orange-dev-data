@@ -106,5 +106,10 @@
   "geo_as_of": "2026-10-20",
   "geo_taxonomy_version": "2026.10.1",
   "is_top_50": false,
-  "github_url": "https://github.com/yashspidey"
+  "github_url": "https://github.com/yashspidey",
+  "commit_history": {
+    "2026": {
+      "Documentation": 1.0
+    }
+  }
 }

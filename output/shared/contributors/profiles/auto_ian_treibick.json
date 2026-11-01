@@ -52,9 +52,9 @@
   "impact_score": 0.0,
   "p2016_impact_score": 0.0,
   "modern_impact_score": 0.0,
-  "threads_started": 0.0,
+  "threads_started": 1.0,
   "replies_sent": 1.0,
-  "ml_threads": 0.0,
+  "ml_threads": 1.0,
   "delving_threads": 0.0,
   "ml_responses": 1.0,
   "delving_responses": 0.0,
@@ -68,11 +68,11 @@
   "expertise_domain_scores": {
     "Infrastructure": 1.0
   },
-  "p2016_posts": 0.0,
-  "modern_posts": 0.0,
-  "p2016_ml_posts": 0.0,
+  "p2016_posts": 1.0,
+  "modern_posts": 1.0,
+  "p2016_ml_posts": 1.0,
   "p2016_delving_posts": 0.0,
-  "modern_ml_posts": 0.0,
+  "modern_ml_posts": 1.0,
   "modern_delving_posts": 0.0,
   "is_engineer": false,
   "is_reviewer": false,
@@ -114,13 +114,16 @@
   },
   "last_message": {
     "source": "mailing_list",
-    "subject": "[bitcoin-dev] LockUnspent not working, bug?",
-    "date": "2015-07-30",
-    "link": "https://gnusha.org/pi/bitcoindev/6DA19C0F-EFBD-4C38-B2FD-1DD0A40F11D4@coincadence.com"
+    "subject": "=?UTF-8?Q?=5Bbitcoindev=5D_A_readable_public_mirror_of_this_list?=\n\t=?UTF-8?Q?=E2=80=99s_archive?=",
+    "date": "2026-10-26",
+    "link": "https://gnusha.org/pi/bitcoindev/2IPCHQvGWv3XuD7gnPGSO4pTh9ctw4wXLXNnls-JvqR7FpxdCAykE4JKQ2IM7nokXYyq-s9Bt25emIU84kEJnryx0llUijjRTwkttplWAyc=@learnbitcoin.com"
   },
   "social_history": {
     "2015": {
       "transaction-format": 1
+    },
+    "2026": {
+      "other": 1
     }
   }
 }

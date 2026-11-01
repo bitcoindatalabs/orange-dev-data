@@ -80,8 +80,8 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Script": 0.082,
       "Consensus": 0.233,
+      "Script": 0.082,
       "Cryptography": 0.685
     },
     "bips": {
@@ -89,8 +89,8 @@
     }
   },
   "expertise_domain_scores": {
-    "Script": 0.0234,
     "Consensus": 0.7809,
+    "Script": 0.0234,
     "Cryptography": 0.1957
   },
   "p2016_posts": 39.0,

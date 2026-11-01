@@ -68,18 +68,18 @@
   ],
   "expertise_by_source": {
     "code": {
+      "Consensus": 0.033,
       "Infrastructure": 0.533,
       "Wallet": 0.367,
-      "Cryptography": 0.033,
       "Mempool": 0.033,
-      "Consensus": 0.033
+      "Cryptography": 0.033
     }
   },
   "expertise_domain_scores": {
-    "Infrastructure": 0.5335,
     "Consensus": 0.033,
-    "Wallet": 0.3674,
+    "Infrastructure": 0.5335,
     "Mempool": 0.033,
+    "Wallet": 0.3674,
     "Cryptography": 0.033
   },
   "p2016_posts": 0.0,

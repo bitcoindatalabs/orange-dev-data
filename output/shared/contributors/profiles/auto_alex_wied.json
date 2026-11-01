@@ -48,7 +48,7 @@
   "review_reciprocity": 0.0,
   "hybrid_score": 0.1252,
   "p2016_hybrid_score": 0.0854,
-  "modern_hybrid_score": 0.2231,
+  "modern_hybrid_score": 0.224,
   "impact_score": 7.0,
   "p2016_impact_score": 5.0,
   "modern_impact_score": 13.0,
@@ -67,17 +67,17 @@
     "Consensus"
   ],
   "expertise_by_source": {
+    "code": {
+      "Infrastructure": 1.0
+    },
     "discussion": {
       "Consensus": 0.25,
       "Cryptography": 0.75
-    },
-    "code": {
-      "Infrastructure": 1.0
     }
   },
   "expertise_domain_scores": {
-    "Infrastructure": 0.6,
     "Consensus": 0.1,
+    "Infrastructure": 0.6,
     "Cryptography": 0.3
   },
   "p2016_posts": 19.0,

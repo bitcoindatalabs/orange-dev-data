@@ -1,16 +1,17 @@
 {
   "headline": {
-    "bus_factor": 7,
+    "bus_factor": 8,
     "window": "trailing_12_months",
-    "period": "2025-10-25 to 2026-10-25",
+    "period": "2025-11-01 to 2026-11-01",
     "top_contributors": [
       "MarcoFalke",
-      "Hennadii Stepanov",
       "fanquake",
+      "Hennadii Stepanov",
       "L\u0151rinc",
       "Ava Chow",
+      "Hodlinator",
       "Sjors Provoost",
-      "Hodlinator"
+      "Andrew Toth"
     ],
     "basis": "authored (non-merge) bitcoin/bitcoin commits"
   },
@@ -53,7 +54,7 @@
       7,
       8,
       8,
-      7
+      8
     ],
     "total_contributors": [
       2,
@@ -73,7 +74,7 @@
       94,
       105,
       132,
-      155
+      154
     ]
   }
 }

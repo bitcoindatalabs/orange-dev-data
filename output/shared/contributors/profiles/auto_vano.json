@@ -48,7 +48,7 @@
   "review_reciprocity": null,
   "hybrid_score": 0.0051,
   "p2016_hybrid_score": 0.0076,
-  "modern_hybrid_score": 0.0212,
+  "modern_hybrid_score": 0.0213,
   "impact_score": 0.0,
   "p2016_impact_score": 0.0,
   "modern_impact_score": 1.0,
@@ -69,14 +69,14 @@
   "expertise_by_source": {
     "discussion": {
       "Ecosystem": 0.222,
-      "Network": 0.352,
-      "Privacy": 0.426
+      "Privacy": 0.426,
+      "Network": 0.352
     }
   },
   "expertise_domain_scores": {
     "Ecosystem": 0.222,
-    "Network": 0.352,
-    "Privacy": 0.426
+    "Privacy": 0.426,
+    "Network": 0.352
   },
   "p2016_posts": 28.0,
   "modern_posts": 28.0,

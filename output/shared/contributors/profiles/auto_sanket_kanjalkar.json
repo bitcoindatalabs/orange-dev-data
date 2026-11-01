@@ -60,7 +60,7 @@
   "review_reciprocity": 2.1666666666666665,
   "hybrid_score": 0.5967,
   "p2016_hybrid_score": 0.603,
-  "modern_hybrid_score": 0.4943,
+  "modern_hybrid_score": 0.4945,
   "impact_score": 30.0,
   "p2016_impact_score": 30.0,
   "modern_impact_score": 26.0,
@@ -79,25 +79,25 @@
     "Mempool"
   ],
   "expertise_by_source": {
-    "discussion": {
-      "Script": 0.595,
-      "Consensus": 0.19,
-      "Cryptography": 0.214
-    },
     "code": {
       "Infrastructure": 0.5,
       "Mempool": 0.167,
       "Script": 0.333
+    },
+    "discussion": {
+      "Consensus": 0.19,
+      "Script": 0.595,
+      "Cryptography": 0.214
     },
     "bips": {
       "Script": 1.0
     }
   },
   "expertise_domain_scores": {
-    "Infrastructure": 0.15,
-    "Script": 0.719,
     "Consensus": 0.038,
+    "Infrastructure": 0.15,
     "Mempool": 0.0501,
+    "Script": 0.719,
     "Cryptography": 0.0428
   },
   "p2016_posts": 17.0,

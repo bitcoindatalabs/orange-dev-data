@@ -1,9 +1,9 @@
 {
-  "display_name": "bitKingAE",
+  "display_name": "groundinglab",
   "github_login_final": null,
   "github_id_final": null,
-  "delving_username_final": "bitkingae",
-  "uuid": "auto_bitkingae",
+  "delving_username_final": "groundinglab",
+  "uuid": "auto_groundinglab",
   "badges": null,
   "roles": null,
   "total_commits": 0.0,
@@ -58,19 +58,15 @@
   "delving_threads": 1.0,
   "ml_responses": 0.0,
   "delving_responses": 0.0,
-  "first_active": "2026-10-23T09:20:18.732000",
-  "last_active": "2026-10-23T09:20:18.732000",
+  "first_active": "2026-10-26T15:55:30.533000",
+  "last_active": "2026-10-26T15:55:30.533000",
   "dev_type": "Participant",
   "expertise_domains": [
-    "Cryptography"
+    "Infrastructure"
   ],
-  "expertise_by_source": {
-    "discussion": {
-      "Cryptography": 1.0
-    }
-  },
+  "expertise_by_source": {},
   "expertise_domain_scores": {
-    "Cryptography": 1.0
+    "Infrastructure": 1.0
   },
   "p2016_posts": 1.0,
   "modern_posts": 1.0,
@@ -82,8 +78,8 @@
   "is_reviewer": false,
   "is_researcher": false,
   "is_bip_author": false,
-  "global_first_active": "2026-10-23T09:20:18.732000",
-  "global_last_active": "2026-10-23T09:20:18.732000",
+  "global_first_active": "2026-10-26T15:55:30.533000",
+  "global_last_active": "2026-10-26T15:55:30.533000",
   "github_location": null,
   "github_company": null,
   "github_bio": null,
@@ -110,22 +106,22 @@
   "geo_as_of": null,
   "geo_taxonomy_version": "2026.10.1",
   "is_top_50": false,
-  "delving_url": "https://delvingbitcoin.org/u/bitkingae",
+  "delving_url": "https://delvingbitcoin.org/u/groundinglab",
   "first_message": {
     "source": "delving",
-    "subject": "A Novel Post-Quantum Approach: \"Proof-Of-Decay\" (Cryptographic Half-Life) for Unmigrated Dormant UTXOs",
-    "date": "2026-10-23",
-    "link": "https://delvingbitcoin.org/t/a-novel-post-quantum-approach-proof-of-decay-cryptographic-half-life-for-unmigrated-dormant-utxos/2970/1"
+    "subject": "Cost-backed Sybil resistance for self-issued identifiers",
+    "date": "2026-10-26",
+    "link": "https://delvingbitcoin.org/t/cost-backed-sybil-resistance-for-self-issued-identifiers/2984/1"
   },
   "last_message": {
     "source": "delving",
-    "subject": "A Novel Post-Quantum Approach: \"Proof-Of-Decay\" (Cryptographic Half-Life) for Unmigrated Dormant UTXOs",
-    "date": "2026-10-23",
-    "link": "https://delvingbitcoin.org/t/a-novel-post-quantum-approach-proof-of-decay-cryptographic-half-life-for-unmigrated-dormant-utxos/2970/1"
+    "subject": "Cost-backed Sybil resistance for self-issued identifiers",
+    "date": "2026-10-26",
+    "link": "https://delvingbitcoin.org/t/cost-backed-sybil-resistance-for-self-issued-identifiers/2984/1"
   },
   "social_history": {
     "2026": {
-      "quantum": 1
+      "other": 1
     }
   }
 }

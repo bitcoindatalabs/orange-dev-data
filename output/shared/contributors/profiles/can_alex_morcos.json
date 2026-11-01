@@ -79,28 +79,28 @@
     "Mining"
   ],
   "expertise_by_source": {
-    "discussion": {
-      "Mempool": 0.583,
-      "Mining": 0.417
-    },
     "code": {
+      "Consensus": 0.113,
       "Infrastructure": 0.472,
       "Wallet": 0.156,
       "Network": 0.022,
       "Mempool": 0.236,
-      "Script": 0.001,
-      "Consensus": 0.113
+      "Script": 0.001
+    },
+    "discussion": {
+      "Mining": 0.417,
+      "Mempool": 0.583
     },
     "bips": {
       "Infrastructure": 1.0
     }
   },
   "expertise_domain_scores": {
-    "Infrastructure": 0.6416,
     "Consensus": 0.0339,
-    "Wallet": 0.0468,
+    "Mining": 0.0834,
+    "Infrastructure": 0.6416,
     "Mempool": 0.1874,
-    "Mining": 0.0834
+    "Wallet": 0.0468
   },
   "p2016_posts": 15.0,
   "modern_posts": 0.0,
@@ -137,7 +137,7 @@
   "geo_conflict": false,
   "geo_tz_signature": "-300/-240",
   "geo_location_raw": null,
-  "geo_as_of": "2026-10-24",
+  "geo_as_of": "2026-10-31",
   "geo_taxonomy_version": "2026.10.1",
   "is_top_50": false,
   "github_url": "https://github.com/morcos",

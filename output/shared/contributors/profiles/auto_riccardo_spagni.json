@@ -67,20 +67,20 @@
     "Mempool"
   ],
   "expertise_by_source": {
-    "discussion": {
-      "Ecosystem": 0.626,
-      "Privacy": 0.121,
-      "Mempool": 0.253
-    },
     "code": {
       "Infrastructure": 1.0
+    },
+    "discussion": {
+      "Mempool": 0.253,
+      "Ecosystem": 0.626,
+      "Privacy": 0.121
     }
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.6,
+    "Mempool": 0.1012,
     "Ecosystem": 0.2504,
-    "Privacy": 0.0484,
-    "Mempool": 0.1012
+    "Privacy": 0.0484
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,

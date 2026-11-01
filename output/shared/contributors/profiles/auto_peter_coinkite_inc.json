@@ -69,12 +69,12 @@
     "Consensus"
   ],
   "expertise_by_source": {
+    "code": {
+      "Wallet": 1.0
+    },
     "discussion": {
       "Consensus": 0.058,
       "Wallet": 0.942
-    },
-    "code": {
-      "Wallet": 1.0
     },
     "bips": {
       "Wallet": 1.0

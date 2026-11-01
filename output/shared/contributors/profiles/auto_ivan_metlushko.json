@@ -68,14 +68,14 @@
   ],
   "expertise_by_source": {
     "code": {
+      "Consensus": 0.024,
       "Infrastructure": 0.472,
-      "Wallet": 0.504,
-      "Consensus": 0.024
+      "Wallet": 0.504
     }
   },
   "expertise_domain_scores": {
-    "Infrastructure": 0.472,
     "Consensus": 0.024,
+    "Infrastructure": 0.472,
     "Wallet": 0.504
   },
   "p2016_posts": 0.0,
@@ -113,7 +113,7 @@
   "geo_conflict": false,
   "geo_tz_signature": "+60/+120",
   "geo_location_raw": null,
-  "geo_as_of": "2026-10-24",
+  "geo_as_of": "2026-10-31",
   "geo_taxonomy_version": "2026.10.1",
   "is_top_50": false,
   "github_url": "https://github.com/S3RK",

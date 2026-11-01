@@ -51,7 +51,7 @@
   "review_reciprocity": 3.25,
   "hybrid_score": 0.2155,
   "p2016_hybrid_score": 0.2272,
-  "modern_hybrid_score": 0.2109,
+  "modern_hybrid_score": 0.2113,
   "impact_score": 12.0,
   "p2016_impact_score": 13.0,
   "modern_impact_score": 12.0,
@@ -70,21 +70,21 @@
     "Mempool"
   ],
   "expertise_by_source": {
-    "discussion": {
-      "Privacy": 0.254,
-      "Wallet": 0.408,
-      "Mempool": 0.338
-    },
     "code": {
       "Wallet": 0.75,
       "Script": 0.25
+    },
+    "discussion": {
+      "Mempool": 0.338,
+      "Wallet": 0.408,
+      "Privacy": 0.254
     }
   },
   "expertise_domain_scores": {
+    "Mempool": 0.1352,
     "Script": 0.15,
     "Wallet": 0.6132,
-    "Privacy": 0.1016,
-    "Mempool": 0.1352
+    "Privacy": 0.1016
   },
   "p2016_posts": 7.0,
   "modern_posts": 2.0,

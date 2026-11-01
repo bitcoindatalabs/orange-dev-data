@@ -60,14 +60,14 @@
   "impact_score": 34.0,
   "p2016_impact_score": 38.0,
   "modern_impact_score": 26.0,
-  "threads_started": 118.0,
+  "threads_started": 119.0,
   "replies_sent": 310.0,
-  "ml_threads": 56.0,
+  "ml_threads": 57.0,
   "delving_threads": 62.0,
   "ml_responses": 304.0,
   "delving_responses": 6.0,
   "first_active": null,
-  "last_active": "2026-10-22T03:29:26.257000",
+  "last_active": null,
   "dev_type": "Builder",
   "expertise_domains": [
     "Infrastructure",
@@ -75,33 +75,33 @@
     "Mempool"
   ],
   "expertise_by_source": {
-    "discussion": {
-      "Script": 0.3,
-      "L2": 0.25,
-      "Mempool": 0.45
-    },
     "code": {
+      "Consensus": 0.053,
       "Infrastructure": 0.451,
       "Wallet": 0.426,
       "Network": 0.067,
-      "Mempool": 0.004,
-      "Consensus": 0.053
+      "Mempool": 0.004
+    },
+    "discussion": {
+      "Mempool": 0.45,
+      "Script": 0.3,
+      "L2": 0.25
     }
   },
   "expertise_domain_scores": {
-    "Infrastructure": 0.2704,
-    "Script": 0.1199,
-    "L2": 0.0999,
     "Consensus": 0.0318,
-    "Network": 0.0402,
+    "Infrastructure": 0.2704,
+    "Mempool": 0.1823,
+    "Script": 0.1199,
     "Wallet": 0.2554,
-    "Mempool": 0.1823
+    "L2": 0.0999,
+    "Network": 0.0402
   },
-  "p2016_posts": 428.0,
-  "modern_posts": 234.0,
-  "p2016_ml_posts": 360.0,
+  "p2016_posts": 429.0,
+  "modern_posts": 235.0,
+  "p2016_ml_posts": 361.0,
   "p2016_delving_posts": 68.0,
-  "modern_ml_posts": 166.0,
+  "modern_ml_posts": 167.0,
   "modern_delving_posts": 68.0,
   "is_engineer": true,
   "is_reviewer": true,
@@ -132,7 +132,7 @@
   "geo_conflict": false,
   "geo_tz_signature": null,
   "geo_location_raw": null,
-  "geo_as_of": "2026-10-24",
+  "geo_as_of": "2026-10-31",
   "geo_taxonomy_version": "2026.10.1",
   "is_top_50": false,
   "github_url": "https://github.com/ariard",
@@ -175,10 +175,10 @@
     "link": "https://gnusha.org/pi/bitcoindev/CALZpt+HRuxNxKsdwtyMD=+hE-Tq+8Wt9mLVP0vj9Z+yENg_UJg@mail.gmail.com"
   },
   "last_message": {
-    "source": "delving",
-    "subject": "Re: Softfork before GTA VI?",
-    "date": "2026-10-22",
-    "link": "https://delvingbitcoin.org/t/softfork-before-gta-vi/2913/4"
+    "source": "mailing_list",
+    "subject": "[bitcoindev] BIP54: On fixing time-warp and the (unsoundness) of the\n forward block idea",
+    "date": "2026-10-31",
+    "link": "https://gnusha.org/pi/bitcoindev/CALZpt+EL_JwYP7iFFWCeVihVV5in7aBOVSc9WcEP6A+DYUALzQ@mail.gmail.com"
   },
   "social_history": {
     "2020": {
@@ -244,8 +244,8 @@
       "taproot": 9
     },
     "2026": {
-      "other": 50,
-      "consensus-cleanup": 10,
+      "other": 52,
+      "consensus-cleanup": 11,
       "covenants": 2,
       "lightning": 6,
       "mempool-fees": 6,

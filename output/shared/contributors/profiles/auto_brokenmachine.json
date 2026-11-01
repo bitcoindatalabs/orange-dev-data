@@ -126,7 +126,8 @@
   "social_history": {
     "2026": {
       "bip-process": 5,
-      "core-dev": 5
+      "core-dev": 5,
+      "utxo-sync": 5
     }
   }
 }

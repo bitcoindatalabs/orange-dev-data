@@ -79,16 +79,16 @@
     "Mining"
   ],
   "expertise_by_source": {
-    "discussion": {
-      "Consensus": 0.655,
-      "Mining": 0.345
-    },
     "code": {
+      "Consensus": 0.063,
       "Infrastructure": 0.844,
       "Network": 0.025,
       "Mempool": 0.013,
-      "Script": 0.056,
-      "Consensus": 0.063
+      "Script": 0.056
+    },
+    "discussion": {
+      "Mining": 0.345,
+      "Consensus": 0.655
     },
     "bips": {
       "Infrastructure": 0.143,
@@ -96,10 +96,10 @@
     }
   },
   "expertise_domain_scores": {
-    "Infrastructure": 0.3246,
-    "Script": 0.0168,
     "Consensus": 0.5782,
-    "Mining": 0.069
+    "Mining": 0.069,
+    "Infrastructure": 0.3246,
+    "Script": 0.0168
   },
   "p2016_posts": 18.0,
   "modern_posts": 0.0,
@@ -136,7 +136,7 @@
   "geo_conflict": false,
   "geo_tz_signature": "+0/+60",
   "geo_location_raw": null,
-  "geo_as_of": "2026-10-24",
+  "geo_as_of": "2026-10-31",
   "geo_taxonomy_version": "2026.10.1",
   "is_top_50": false,
   "github_url": "https://github.com/btcdrak",

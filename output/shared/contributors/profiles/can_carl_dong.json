@@ -85,27 +85,27 @@
     "Consensus"
   ],
   "expertise_by_source": {
-    "discussion": {
-      "Ecosystem": 0.165,
-      "Network": 0.671,
-      "Mining": 0.165
-    },
     "code": {
+      "Consensus": 0.152,
       "Infrastructure": 0.798,
       "Wallet": 0.002,
       "Network": 0.028,
       "Mempool": 0.017,
-      "Script": 0.003,
-      "Consensus": 0.152
+      "Script": 0.003
+    },
+    "discussion": {
+      "Mining": 0.165,
+      "Ecosystem": 0.165,
+      "Network": 0.671
     }
   },
   "expertise_domain_scores": {
-    "Infrastructure": 0.4786,
-    "Ecosystem": 0.066,
     "Consensus": 0.0912,
-    "Network": 0.2851,
+    "Mining": 0.066,
+    "Infrastructure": 0.4786,
     "Mempool": 0.0102,
-    "Mining": 0.066
+    "Ecosystem": 0.066,
+    "Network": 0.2851
   },
   "p2016_posts": 2.0,
   "modern_posts": 1.0,

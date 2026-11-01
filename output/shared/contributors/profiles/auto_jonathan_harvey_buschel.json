@@ -68,15 +68,15 @@
   ],
   "expertise_by_source": {
     "discussion": {
+      "Mining": 0.032,
       "L2": 0.305,
-      "Network": 0.663,
-      "Mining": 0.032
+      "Network": 0.663
     }
   },
   "expertise_domain_scores": {
+    "Mining": 0.032,
     "L2": 0.305,
-    "Network": 0.663,
-    "Mining": 0.032
+    "Network": 0.663
   },
   "p2016_posts": 11.0,
   "modern_posts": 11.0,

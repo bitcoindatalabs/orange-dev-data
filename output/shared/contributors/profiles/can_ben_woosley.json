@@ -75,24 +75,24 @@
     "Wallet"
   ],
   "expertise_by_source": {
-    "discussion": {
-      "Consensus": 1.0
-    },
     "code": {
+      "Consensus": 0.036,
       "Infrastructure": 0.664,
       "Wallet": 0.176,
       "Network": 0.039,
       "Mempool": 0.01,
-      "Script": 0.075,
-      "Consensus": 0.036
+      "Script": 0.075
+    },
+    "discussion": {
+      "Consensus": 1.0
     }
   },
   "expertise_domain_scores": {
+    "Consensus": 0.4216,
     "Infrastructure": 0.3984,
     "Script": 0.045,
-    "Consensus": 0.4216,
-    "Network": 0.0234,
-    "Wallet": 0.1056
+    "Wallet": 0.1056,
+    "Network": 0.0234
   },
   "p2016_posts": 2.0,
   "modern_posts": 0.0,

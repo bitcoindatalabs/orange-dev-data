@@ -68,14 +68,14 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Script": 0.25,
       "Mempool": 0.25,
+      "Script": 0.25,
       "Cryptography": 0.5
     }
   },
   "expertise_domain_scores": {
-    "Script": 0.25,
     "Mempool": 0.25,
+    "Script": 0.25,
     "Cryptography": 0.5
   },
   "p2016_posts": 1.0,

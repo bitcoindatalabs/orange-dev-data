@@ -60,7 +60,7 @@
   "review_reciprocity": 4.625,
   "hybrid_score": 0.9464,
   "p2016_hybrid_score": 0.7067,
-  "modern_hybrid_score": 0.1161,
+  "modern_hybrid_score": 0.1163,
   "impact_score": 43.0,
   "p2016_impact_score": 35.0,
   "modern_impact_score": 7.0,
@@ -79,22 +79,22 @@
     "L2"
   ],
   "expertise_by_source": {
+    "code": {
+      "Consensus": 0.286,
+      "Infrastructure": 0.714
+    },
     "discussion": {
       "L2": 0.565,
       "Cryptography": 0.435
-    },
-    "code": {
-      "Infrastructure": 0.714,
-      "Consensus": 0.286
     },
     "bips": {
       "Consensus": 1.0
     }
   },
   "expertise_domain_scores": {
+    "Consensus": 0.5858,
     "Infrastructure": 0.2142,
     "L2": 0.113,
-    "Consensus": 0.5858,
     "Cryptography": 0.087
   },
   "p2016_posts": 67.0,

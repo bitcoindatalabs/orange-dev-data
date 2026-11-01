@@ -67,18 +67,18 @@
     "Mining"
   ],
   "expertise_by_source": {
-    "discussion": {
-      "Mempool": 0.5,
-      "Mining": 0.5
-    },
     "code": {
       "Infrastructure": 1.0
+    },
+    "discussion": {
+      "Mining": 0.5,
+      "Mempool": 0.5
     }
   },
   "expertise_domain_scores": {
+    "Mining": 0.2,
     "Infrastructure": 0.6,
-    "Mempool": 0.2,
-    "Mining": 0.2
+    "Mempool": 0.2
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,

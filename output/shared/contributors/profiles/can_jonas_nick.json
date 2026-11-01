@@ -51,7 +51,7 @@
   "tier1_reviews_count": 337.0,
   "tier2_reviews_count": 61.0,
   "p2016_reviews_count": 383.0,
-  "modern_reviews_count": 83.0,
+  "modern_reviews_count": 82.0,
   "first_review_date": "2015-03-11T23:42:40",
   "last_review_date": "2026-07-22T19:30:13",
   "prs_authored": 112.0,
@@ -62,7 +62,7 @@
   "review_reciprocity": 3.4285714285714284,
   "hybrid_score": 1.4079,
   "p2016_hybrid_score": 1.4569,
-  "modern_hybrid_score": 0.6555,
+  "modern_hybrid_score": 0.6561,
   "impact_score": 57.0,
   "p2016_impact_score": 58.0,
   "modern_impact_score": 33.0,
@@ -81,14 +81,14 @@
     "Cryptography"
   ],
   "expertise_by_source": {
+    "code": {
+      "Infrastructure": 0.984,
+      "Wallet": 0.016
+    },
     "discussion": {
       "Consensus": 0.245,
       "Wallet": 0.358,
       "Cryptography": 0.396
-    },
-    "code": {
-      "Infrastructure": 0.984,
-      "Wallet": 0.016
     },
     "bips": {
       "Infrastructure": 0.5,
@@ -96,8 +96,8 @@
     }
   },
   "expertise_domain_scores": {
-    "Infrastructure": 0.5453,
     "Consensus": 0.2991,
+    "Infrastructure": 0.5453,
     "Wallet": 0.0764,
     "Cryptography": 0.0792
   },
@@ -286,7 +286,7 @@
       "taproot": 3
     },
     "2026": {
-      "other": 5,
+      "other": 7,
       "covenants": 4,
       "mining": 1,
       "quantum": 11,

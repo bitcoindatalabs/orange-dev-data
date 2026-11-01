@@ -68,15 +68,15 @@
   ],
   "expertise_by_source": {
     "discussion": {
+      "Mining": 0.286,
       "Script": 0.429,
-      "Privacy": 0.286,
-      "Mining": 0.286
+      "Privacy": 0.286
     }
   },
   "expertise_domain_scores": {
+    "Mining": 0.2857,
     "Script": 0.4286,
-    "Privacy": 0.2857,
-    "Mining": 0.2857
+    "Privacy": 0.2857
   },
   "p2016_posts": 7.0,
   "modern_posts": 7.0,

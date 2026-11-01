@@ -62,7 +62,7 @@
   "review_reciprocity": 5.142857142857143,
   "hybrid_score": 1.321,
   "p2016_hybrid_score": 0.888,
-  "modern_hybrid_score": 0.3066,
+  "modern_hybrid_score": 0.3075,
   "impact_score": 55.0,
   "p2016_impact_score": 41.0,
   "modern_impact_score": 17.0,
@@ -81,16 +81,16 @@
     "Mempool"
   ],
   "expertise_by_source": {
-    "discussion": {
-      "Wallet": 0.806,
-      "Mempool": 0.111,
-      "Mining": 0.083
-    },
     "code": {
       "Infrastructure": 0.399,
       "Wallet": 0.515,
       "Network": 0.025,
       "Cryptography": 0.061
+    },
+    "discussion": {
+      "Mining": 0.083,
+      "Mempool": 0.111,
+      "Wallet": 0.806
     },
     "bips": {
       "Wallet": 0.75,
@@ -98,10 +98,10 @@
     }
   },
   "expertise_domain_scores": {
-    "Infrastructure": 0.2447,
-    "Wallet": 0.6907,
-    "Mempool": 0.0222,
     "Mining": 0.0166,
+    "Infrastructure": 0.2447,
+    "Mempool": 0.0222,
+    "Wallet": 0.6907,
     "Cryptography": 0.0183
   },
   "p2016_posts": 52.0,
@@ -139,7 +139,7 @@
   "geo_conflict": false,
   "geo_tz_signature": "+60/+120",
   "geo_location_raw": "₿ pavol@rusnak.io",
-  "geo_as_of": "2026-10-24",
+  "geo_as_of": "2026-10-31",
   "geo_taxonomy_version": "2026.10.1",
   "is_top_50": false,
   "github_url": "https://github.com/prusnak",

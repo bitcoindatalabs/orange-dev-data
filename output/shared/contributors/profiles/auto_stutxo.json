@@ -48,7 +48,7 @@
   "review_reciprocity": 0.6,
   "hybrid_score": 0.1141,
   "p2016_hybrid_score": 0.1176,
-  "modern_hybrid_score": 0.1367,
+  "modern_hybrid_score": 0.1369,
   "impact_score": 7.0,
   "p2016_impact_score": 7.0,
   "modern_impact_score": 8.0,
@@ -67,18 +67,18 @@
     "Script"
   ],
   "expertise_by_source": {
-    "discussion": {
-      "Script": 0.194,
-      "Mempool": 0.806
-    },
     "code": {
       "Infrastructure": 1.0
+    },
+    "discussion": {
+      "Mempool": 0.806,
+      "Script": 0.194
     }
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.6,
-    "Script": 0.0776,
-    "Mempool": 0.3224
+    "Mempool": 0.3224,
+    "Script": 0.0776
   },
   "p2016_posts": 2.0,
   "modern_posts": 2.0,

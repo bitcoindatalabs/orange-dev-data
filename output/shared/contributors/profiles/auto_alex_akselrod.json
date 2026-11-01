@@ -80,8 +80,8 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Network": 0.5,
-      "Mempool": 0.5
+      "Mempool": 0.5,
+      "Network": 0.5
     },
     "bips": {
       "Infrastructure": 0.5,
@@ -90,9 +90,9 @@
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.3571,
+    "Mempool": 0.1429,
     "L2": 0.3571,
-    "Network": 0.1429,
-    "Mempool": 0.1429
+    "Network": 0.1429
   },
   "p2016_posts": 3.0,
   "modern_posts": 1.0,

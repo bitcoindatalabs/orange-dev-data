@@ -79,25 +79,25 @@
     "Privacy"
   ],
   "expertise_by_source": {
-    "discussion": {
-      "Consensus": 0.088,
-      "Privacy": 0.772,
-      "Mempool": 0.14
-    },
     "code": {
-      "Script": 0.5,
-      "Consensus": 0.5
+      "Consensus": 0.5,
+      "Script": 0.5
+    },
+    "discussion": {
+      "Mempool": 0.14,
+      "Consensus": 0.088,
+      "Privacy": 0.772
     },
     "bips": {
       "Infrastructure": 1.0
     }
   },
   "expertise_domain_scores": {
-    "Infrastructure": 0.5,
-    "Script": 0.15,
     "Consensus": 0.1676,
-    "Privacy": 0.1544,
-    "Mempool": 0.028
+    "Infrastructure": 0.5,
+    "Mempool": 0.028,
+    "Script": 0.15,
+    "Privacy": 0.1544
   },
   "p2016_posts": 32.0,
   "modern_posts": 18.0,

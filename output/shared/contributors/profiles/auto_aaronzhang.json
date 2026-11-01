@@ -52,14 +52,14 @@
   "impact_score": 0.0,
   "p2016_impact_score": 0.0,
   "modern_impact_score": 0.0,
-  "threads_started": 21.0,
+  "threads_started": 22.0,
   "replies_sent": 7.0,
   "ml_threads": 0.0,
-  "delving_threads": 21.0,
+  "delving_threads": 22.0,
   "ml_responses": 0.0,
   "delving_responses": 7.0,
   "first_active": "2026-03-09T08:50:59.242000",
-  "last_active": "2026-07-13T22:33:27.516000",
+  "last_active": "2026-10-31T22:59:37.461000",
   "dev_type": "Participant",
   "expertise_domains": [
     "Script",
@@ -67,26 +67,26 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Script": 0.784,
-      "Consensus": 0.216
+      "Consensus": 0.204,
+      "Script": 0.796
     }
   },
   "expertise_domain_scores": {
-    "Script": 0.784,
-    "Consensus": 0.216
+    "Consensus": 0.204,
+    "Script": 0.796
   },
-  "p2016_posts": 28.0,
-  "modern_posts": 28.0,
+  "p2016_posts": 29.0,
+  "modern_posts": 29.0,
   "p2016_ml_posts": 0.0,
-  "p2016_delving_posts": 28.0,
+  "p2016_delving_posts": 29.0,
   "modern_ml_posts": 0.0,
-  "modern_delving_posts": 28.0,
+  "modern_delving_posts": 29.0,
   "is_engineer": false,
   "is_reviewer": false,
   "is_researcher": false,
   "is_bip_author": false,
   "global_first_active": "2026-03-09T08:50:59.242000",
-  "global_last_active": "2026-07-13T22:33:27.516000",
+  "global_last_active": "2026-10-31T22:59:37.461000",
   "github_location": null,
   "github_company": null,
   "github_bio": null,
@@ -122,21 +122,21 @@
   },
   "last_message": {
     "source": "delving",
-    "subject": "Re: Taproot-native prevout binding via sighash preimage decomposition",
-    "date": "2026-07-13",
-    "link": "https://delvingbitcoin.org/t/taproot-native-prevout-binding-via-sighash-preimage-decomposition/2483/4"
+    "subject": "Eltoo state chain on signet, third time: TEMPLATEHASH + CSFS + INTERNALKEY",
+    "date": "2026-10-31",
+    "link": "https://delvingbitcoin.org/t/eltoo-state-chain-on-signet-third-time-templatehash-csfs-internalkey/3012/1"
   },
   "social_history": {
     "2026": {
       "other": 11,
       "bitvm": 6,
-      "covenants": 28,
-      "lightning": 5,
+      "covenants": 29,
+      "lightning": 6,
       "ordinals-inscriptions": 4,
-      "script-opcodes": 4,
+      "script-opcodes": 5,
       "signatures-sighash": 7,
       "taproot": 11,
-      "testing-devtools": 19
+      "testing-devtools": 20
     }
   }
 }

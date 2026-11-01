@@ -48,7 +48,7 @@
   "review_reciprocity": null,
   "hybrid_score": 0.0156,
   "p2016_hybrid_score": 0.0252,
-  "modern_hybrid_score": 0.0426,
+  "modern_hybrid_score": 0.0428,
   "impact_score": 1.0,
   "p2016_impact_score": 2.0,
   "modern_impact_score": 3.0,
@@ -69,14 +69,14 @@
   "expertise_by_source": {
     "discussion": {
       "Script": 0.627,
-      "L2": 0.209,
-      "Wallet": 0.164
+      "Wallet": 0.164,
+      "L2": 0.209
     }
   },
   "expertise_domain_scores": {
     "Script": 0.627,
-    "L2": 0.209,
-    "Wallet": 0.164
+    "Wallet": 0.164,
+    "L2": 0.209
   },
   "p2016_posts": 13.0,
   "modern_posts": 4.0,

@@ -71,9 +71,9 @@
   ],
   "expertise_by_source": {
     "code": {
+      "Consensus": 0.002,
       "Infrastructure": 0.989,
-      "Network": 0.009,
-      "Consensus": 0.002
+      "Network": 0.009
     }
   },
   "expertise_domain_scores": {
@@ -159,7 +159,7 @@
       "Build & CI": 37.0
     },
     "2026": {
-      "Build & CI": 26.0
+      "Build & CI": 32.0
     }
   }
 }

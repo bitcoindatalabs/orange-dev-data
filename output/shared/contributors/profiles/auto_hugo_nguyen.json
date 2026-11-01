@@ -81,22 +81,22 @@
     "Mining"
   ],
   "expertise_by_source": {
-    "discussion": {
-      "Wallet": 0.918,
-      "Mining": 0.082
-    },
     "code": {
       "Infrastructure": 0.11,
       "Wallet": 0.89
+    },
+    "discussion": {
+      "Mining": 0.082,
+      "Wallet": 0.918
     },
     "bips": {
       "Wallet": 1.0
     }
   },
   "expertise_domain_scores": {
+    "Mining": 0.0164,
     "Infrastructure": 0.033,
-    "Wallet": 0.9506,
-    "Mining": 0.0164
+    "Wallet": 0.9506
   },
   "p2016_posts": 19.0,
   "modern_posts": 0.0,

@@ -60,7 +60,7 @@
   "review_reciprocity": 2.508771929824561,
   "hybrid_score": 1.6491,
   "p2016_hybrid_score": 1.7121,
-  "modern_hybrid_score": 0.1892,
+  "modern_hybrid_score": 0.1893,
   "impact_score": 63.0,
   "p2016_impact_score": 64.0,
   "modern_impact_score": 11.0,
@@ -79,16 +79,16 @@
     "Wallet"
   ],
   "expertise_by_source": {
-    "discussion": {
-      "Consensus": 1.0
-    },
     "code": {
+      "Consensus": 0.073,
       "Infrastructure": 0.56,
       "Wallet": 0.301,
       "Network": 0.006,
       "Mempool": 0.048,
-      "Script": 0.012,
-      "Consensus": 0.073
+      "Script": 0.012
+    },
+    "discussion": {
+      "Consensus": 1.0
     },
     "bips": {
       "Infrastructure": 0.571,
@@ -96,10 +96,10 @@
     }
   },
   "expertise_domain_scores": {
-    "Infrastructure": 0.4535,
     "Consensus": 0.4364,
-    "Wallet": 0.0903,
-    "Mempool": 0.0144
+    "Infrastructure": 0.4535,
+    "Mempool": 0.0144,
+    "Wallet": 0.0903
   },
   "p2016_posts": 61.0,
   "modern_posts": 1.0,
@@ -136,7 +136,7 @@
   "geo_conflict": false,
   "geo_tz_signature": "+540/+540",
   "geo_location_raw": null,
-  "geo_as_of": "2026-10-24",
+  "geo_as_of": "2026-10-31",
   "geo_taxonomy_version": "2026.10.1",
   "is_top_50": false,
   "github_url": "https://github.com/kallewoof",

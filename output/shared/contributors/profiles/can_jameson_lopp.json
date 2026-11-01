@@ -79,23 +79,23 @@
     "Cryptography"
   ],
   "expertise_by_source": {
+    "code": {
+      "Consensus": 0.042,
+      "Infrastructure": 0.931,
+      "Network": 0.028
+    },
     "discussion": {
       "Mining": 0.48,
       "Cryptography": 0.52
-    },
-    "code": {
-      "Infrastructure": 0.931,
-      "Network": 0.028,
-      "Consensus": 0.042
     },
     "bips": {
       "Consensus": 1.0
     }
   },
   "expertise_domain_scores": {
-    "Infrastructure": 0.2792,
     "Consensus": 0.5124,
     "Mining": 0.096,
+    "Infrastructure": 0.2792,
     "Cryptography": 0.104
   },
   "p2016_posts": 55.0,

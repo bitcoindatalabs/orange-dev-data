@@ -63,20 +63,20 @@
   "dev_type": "Participant",
   "expertise_domains": [
     "L2",
-    "Mempool",
-    "Cryptography"
+    "Mining",
+    "Mempool"
   ],
   "expertise_by_source": {
     "discussion": {
-      "L2": 0.564,
+      "Mining": 0.218,
       "Mempool": 0.218,
-      "Cryptography": 0.218
+      "L2": 0.564
     }
   },
   "expertise_domain_scores": {
-    "L2": 0.564,
+    "Mining": 0.218,
     "Mempool": 0.218,
-    "Cryptography": 0.218
+    "L2": 0.564
   },
   "p2016_posts": 15.0,
   "modern_posts": 15.0,

@@ -70,13 +70,13 @@
   ],
   "expertise_by_source": {
     "code": {
-      "Infrastructure": 0.886,
-      "Consensus": 0.114
+      "Consensus": 0.114,
+      "Infrastructure": 0.886
     }
   },
   "expertise_domain_scores": {
-    "Infrastructure": 0.886,
-    "Consensus": 0.114
+    "Consensus": 0.114,
+    "Infrastructure": 0.886
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,
@@ -123,7 +123,7 @@
       "Tests": 3.0
     },
     "2026": {
-      "Build & CI": 2.0,
+      "Build & CI": 3.0,
       "Consensus": 1.83,
       "Tests": 3.33,
       "Utilities": 0.83

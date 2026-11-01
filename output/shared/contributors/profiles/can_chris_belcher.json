@@ -79,12 +79,12 @@
     "Privacy"
   ],
   "expertise_by_source": {
+    "code": {
+      "Infrastructure": 1.0
+    },
     "discussion": {
       "Consensus": 0.24,
       "Privacy": 0.76
-    },
-    "code": {
-      "Infrastructure": 1.0
     },
     "bips": {
       "Infrastructure": 0.5,
@@ -92,8 +92,8 @@
     }
   },
   "expertise_domain_scores": {
-    "Infrastructure": 0.55,
     "Consensus": 0.298,
+    "Infrastructure": 0.55,
     "Privacy": 0.152
   },
   "p2016_posts": 64.0,

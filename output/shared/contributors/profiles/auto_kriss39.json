@@ -116,9 +116,9 @@
   "github_url": "https://github.com/kriss39",
   "commit_history": {
     "2026": {
-      "Node & RPC": 0.5,
+      "Node & RPC": 1.0,
       "Tests": 2.0,
-      "Utilities": 1.5,
+      "Utilities": 2.0,
       "Wallet": 1.0
     }
   }

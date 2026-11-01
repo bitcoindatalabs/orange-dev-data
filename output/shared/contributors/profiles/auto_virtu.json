@@ -48,7 +48,7 @@
   "review_reciprocity": 3.0,
   "hybrid_score": 0.2151,
   "p2016_hybrid_score": 0.2176,
-  "modern_hybrid_score": 0.2231,
+  "modern_hybrid_score": 0.2232,
   "impact_score": 12.0,
   "p2016_impact_score": 12.0,
   "modern_impact_score": 13.0,
@@ -67,23 +67,23 @@
     "Mempool"
   ],
   "expertise_by_source": {
-    "discussion": {
-      "Network": 0.516,
-      "Mempool": 0.226,
-      "Mining": 0.258
-    },
     "code": {
+      "Consensus": 0.117,
       "Infrastructure": 0.85,
-      "Mempool": 0.033,
-      "Consensus": 0.117
+      "Mempool": 0.033
+    },
+    "discussion": {
+      "Mining": 0.258,
+      "Mempool": 0.226,
+      "Network": 0.516
     }
   },
   "expertise_domain_scores": {
-    "Infrastructure": 0.51,
     "Consensus": 0.0702,
-    "Network": 0.2064,
+    "Mining": 0.1032,
+    "Infrastructure": 0.51,
     "Mempool": 0.1102,
-    "Mining": 0.1032
+    "Network": 0.2064
   },
   "p2016_posts": 8.0,
   "modern_posts": 8.0,

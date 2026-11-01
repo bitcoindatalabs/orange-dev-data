@@ -62,18 +62,15 @@
   "last_active": "2026-07-09T23:30:35.116000",
   "dev_type": "Participant",
   "expertise_domains": [
-    "Consensus",
-    "L2"
+    "Consensus"
   ],
   "expertise_by_source": {
     "discussion": {
-      "L2": 0.2,
-      "Consensus": 0.8
+      "Consensus": 1.0
     }
   },
   "expertise_domain_scores": {
-    "L2": 0.2,
-    "Consensus": 0.8
+    "Consensus": 1.0
   },
   "p2016_posts": 2.0,
   "modern_posts": 2.0,
@@ -130,11 +127,12 @@
     "2026": {
       "bip-process": 1,
       "bitvm": 1,
+      "data-structures": 1,
       "hard-fork-block-size": 1,
       "mempool-fees": 1,
       "mining": 1,
       "taproot": 1,
-      "utxo-sync": 1
+      "utxo-sync": 2
     }
   }
 }

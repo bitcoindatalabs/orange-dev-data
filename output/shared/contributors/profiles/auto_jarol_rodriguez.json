@@ -37,7 +37,7 @@
   "tier1_reviews_count": 650.0,
   "tier2_reviews_count": 1.0,
   "p2016_reviews_count": 651.0,
-  "modern_reviews_count": 34.0,
+  "modern_reviews_count": 33.0,
   "first_review_date": "2020-11-05T05:33:24",
   "last_review_date": "2026-07-29T21:52:48",
   "prs_authored": 45.0,
@@ -48,7 +48,7 @@
   "review_reciprocity": 14.466666666666667,
   "hybrid_score": 0.4433,
   "p2016_hybrid_score": 0.4384,
-  "modern_hybrid_score": 0.1461,
+  "modern_hybrid_score": 0.1455,
   "impact_score": 23.0,
   "p2016_impact_score": 23.0,
   "modern_impact_score": 8.0,
@@ -67,13 +67,13 @@
   ],
   "expertise_by_source": {
     "code": {
-      "Infrastructure": 0.972,
-      "Consensus": 0.028
+      "Consensus": 0.028,
+      "Infrastructure": 0.972
     }
   },
   "expertise_domain_scores": {
-    "Infrastructure": 0.972,
-    "Consensus": 0.028
+    "Consensus": 0.028,
+    "Infrastructure": 0.972
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,

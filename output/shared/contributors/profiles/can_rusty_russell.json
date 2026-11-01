@@ -60,10 +60,10 @@
   "review_reciprocity": 1.7692307692307692,
   "hybrid_score": 1.0935,
   "p2016_hybrid_score": 0.9903,
-  "modern_hybrid_score": 0.7198,
+  "modern_hybrid_score": 0.6883,
   "impact_score": 48.0,
   "p2016_impact_score": 45.0,
-  "modern_impact_score": 35.0,
+  "modern_impact_score": 34.0,
   "threads_started": 28.0,
   "replies_sent": 145.0,
   "ml_threads": 20.0,
@@ -79,13 +79,13 @@
     "Script"
   ],
   "expertise_by_source": {
-    "discussion": {
-      "Script": 0.417,
-      "Consensus": 0.222,
-      "Mempool": 0.361
-    },
     "code": {
       "Infrastructure": 1.0
+    },
+    "discussion": {
+      "Mempool": 0.361,
+      "Consensus": 0.222,
+      "Script": 0.417
     },
     "bips": {
       "Infrastructure": 0.333,
@@ -93,16 +93,16 @@
     }
   },
   "expertise_domain_scores": {
-    "Infrastructure": 0.4665,
-    "Script": 0.0834,
     "Consensus": 0.3779,
-    "Mempool": 0.0722
+    "Infrastructure": 0.4665,
+    "Mempool": 0.0722,
+    "Script": 0.0834
   },
   "p2016_posts": 121.0,
-  "modern_posts": 41.0,
+  "modern_posts": 39.0,
   "p2016_ml_posts": 88.0,
   "p2016_delving_posts": 33.0,
-  "modern_ml_posts": 8.0,
+  "modern_ml_posts": 6.0,
   "modern_delving_posts": 33.0,
   "is_engineer": true,
   "is_reviewer": true,
@@ -133,7 +133,7 @@
   "geo_conflict": false,
   "geo_tz_signature": null,
   "geo_location_raw": null,
-  "geo_as_of": "2026-10-24",
+  "geo_as_of": "2026-10-31",
   "geo_taxonomy_version": "2026.10.1",
   "is_top_50": false,
   "github_url": "https://github.com/rustyrussell",

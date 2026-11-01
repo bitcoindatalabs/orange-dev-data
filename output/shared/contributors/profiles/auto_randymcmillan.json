@@ -30,7 +30,7 @@
   "modern_bips_authored": 0.0,
   "first_bip_date": null,
   "last_bip_date": null,
-  "avg_review_latency_days": 1803.5087862424373,
+  "avg_review_latency_days": 1821.5446036542269,
   "reviews_count": 194.0,
   "avg_approval_latency_days": 1111.4406886574075,
   "approvals_count": 104.0,
@@ -39,7 +39,7 @@
   "p2016_reviews_count": 194.0,
   "modern_reviews_count": 43.0,
   "first_review_date": "2019-10-27T22:43:56",
-  "last_review_date": "2026-10-09T00:10:36",
+  "last_review_date": "2026-10-29T23:12:42",
   "prs_authored": 71.0,
   "tier1_prs_authored": 64.0,
   "tier2_prs_authored": 7.0,
@@ -67,23 +67,23 @@
     "Mempool"
   ],
   "expertise_by_source": {
-    "discussion": {
-      "Consensus": 0.508,
-      "Privacy": 0.246,
-      "Mempool": 0.246
-    },
     "code": {
+      "Consensus": 0.009,
       "Infrastructure": 0.972,
       "Network": 0.009,
-      "Script": 0.009,
-      "Consensus": 0.009
+      "Script": 0.009
+    },
+    "discussion": {
+      "Mempool": 0.246,
+      "Consensus": 0.508,
+      "Privacy": 0.246
     }
   },
   "expertise_domain_scores": {
-    "Infrastructure": 0.5836,
     "Consensus": 0.2087,
-    "Privacy": 0.0985,
-    "Mempool": 0.0985
+    "Infrastructure": 0.5836,
+    "Mempool": 0.0985,
+    "Privacy": 0.0985
   },
   "p2016_posts": 3.0,
   "modern_posts": 3.0,
@@ -96,7 +96,7 @@
   "is_researcher": false,
   "is_bip_author": false,
   "global_first_active": "2011-06-07T18:38:35",
-  "global_last_active": "2026-10-09T00:10:36",
+  "global_last_active": "2026-10-29T23:12:42",
   "github_location": "₿:8333",
   "github_company": "@bitcoincore-dev ",
   "github_bio": "Operations Specialist @usnavy\r\n\r\nE616FA7221A1613E5B99206297966C06 BB06757B\r\n",

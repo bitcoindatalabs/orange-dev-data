@@ -48,7 +48,7 @@
   "review_reciprocity": null,
   "hybrid_score": 0.0909,
   "p2016_hybrid_score": 0.1168,
-  "modern_hybrid_score": 0.2735,
+  "modern_hybrid_score": 0.2748,
   "impact_score": 5.0,
   "p2016_impact_score": 7.0,
   "modern_impact_score": 15.0,
@@ -67,13 +67,13 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Mempool": 0.429,
-      "Mining": 0.571
+      "Mining": 0.591,
+      "Mempool": 0.409
     }
   },
   "expertise_domain_scores": {
-    "Mempool": 0.429,
-    "Mining": 0.571
+    "Mining": 0.591,
+    "Mempool": 0.409
   },
   "p2016_posts": 75.0,
   "modern_posts": 75.0,

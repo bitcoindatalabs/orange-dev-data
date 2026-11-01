@@ -60,7 +60,7 @@
   "review_reciprocity": 1.8235294117647058,
   "hybrid_score": 1.0837,
   "p2016_hybrid_score": 1.0902,
-  "modern_hybrid_score": 0.6981,
+  "modern_hybrid_score": 0.6983,
   "impact_score": 48.0,
   "p2016_impact_score": 48.0,
   "modern_impact_score": 34.0,
@@ -79,14 +79,14 @@
     "Script"
   ],
   "expertise_by_source": {
-    "discussion": {
-      "Script": 0.739,
-      "Consensus": 0.261
-    },
     "code": {
+      "Consensus": 0.125,
       "Infrastructure": 0.75,
-      "Wallet": 0.125,
-      "Consensus": 0.125
+      "Wallet": 0.125
+    },
+    "discussion": {
+      "Consensus": 0.261,
+      "Script": 0.739
     },
     "bips": {
       "Infrastructure": 0.25,
@@ -94,9 +94,9 @@
     }
   },
   "expertise_domain_scores": {
+    "Consensus": 0.4647,
     "Infrastructure": 0.35,
     "Script": 0.1478,
-    "Consensus": 0.4647,
     "Wallet": 0.0375
   },
   "p2016_posts": 53.0,

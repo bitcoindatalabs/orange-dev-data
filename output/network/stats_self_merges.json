@@ -1,6 +1,28 @@
 {
-  "generated_at": "2026-10-26T03:03:10.237477+00:00",
+  "generated_at": "2026-11-01T05:57:08.095312+00:00",
   "self_merges": [
+    {
+      "maintainer_id": "can_michael_ford",
+      "maintainer_name": "Michael Ford",
+      "repository": "bitcoin/bitcoin",
+      "pr_number": 36683,
+      "url": "https://github.com/bitcoin/bitcoin/pull/36683",
+      "title": "doc: fix `v32.1` release notes archive",
+      "merged_at": "2026-10-28T14:14:13+00:00",
+      "ack_count": 2,
+      "category": "Light Review"
+    },
+    {
+      "maintainer_id": "can_michael_ford",
+      "maintainer_name": "Michael Ford",
+      "repository": "bitcoin/bitcoin",
+      "pr_number": 36610,
+      "url": "https://github.com/bitcoin/bitcoin/pull/36610",
+      "title": "test: add `plyvel` to deps table",
+      "merged_at": "2026-10-26T13:32:04+00:00",
+      "ack_count": 1,
+      "category": "Light Review"
+    },
     {
       "maintainer_id": "can_michael_ford",
       "maintainer_name": "Michael Ford",

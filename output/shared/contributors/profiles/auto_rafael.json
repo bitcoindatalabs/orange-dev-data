@@ -68,14 +68,14 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Script": 0.51,
       "Mining": 0.245,
+      "Script": 0.51,
       "Cryptography": 0.245
     }
   },
   "expertise_domain_scores": {
-    "Script": 0.51,
     "Mining": 0.245,
+    "Script": 0.51,
     "Cryptography": 0.245
   },
   "p2016_posts": 1.0,

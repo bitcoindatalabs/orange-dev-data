@@ -67,20 +67,20 @@
     "Consensus"
   ],
   "expertise_by_source": {
-    "discussion": {
-      "Script": 0.404,
-      "Consensus": 0.34,
-      "Cryptography": 0.255
-    },
     "code": {
       "Infrastructure": 0.929,
       "Script": 0.071
+    },
+    "discussion": {
+      "Consensus": 0.34,
+      "Script": 0.404,
+      "Cryptography": 0.255
     }
   },
   "expertise_domain_scores": {
+    "Consensus": 0.1361,
     "Infrastructure": 0.5576,
     "Script": 0.2043,
-    "Consensus": 0.1361,
     "Cryptography": 0.102
   },
   "p2016_posts": 11.0,

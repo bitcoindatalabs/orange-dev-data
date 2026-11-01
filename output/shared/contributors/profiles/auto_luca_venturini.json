@@ -67,18 +67,18 @@
     "Consensus"
   ],
   "expertise_by_source": {
-    "discussion": {
-      "Ecosystem": 0.674,
-      "Consensus": 0.326
-    },
     "code": {
       "Infrastructure": 1.0
+    },
+    "discussion": {
+      "Consensus": 0.326,
+      "Ecosystem": 0.674
     }
   },
   "expertise_domain_scores": {
+    "Consensus": 0.1304,
     "Infrastructure": 0.6,
-    "Ecosystem": 0.2696,
-    "Consensus": 0.1304
+    "Ecosystem": 0.2696
   },
   "p2016_posts": 3.0,
   "modern_posts": 0.0,

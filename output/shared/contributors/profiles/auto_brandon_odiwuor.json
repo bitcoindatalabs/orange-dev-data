@@ -31,7 +31,7 @@
   "first_commit": "2023-10-19T09:23:53",
   "last_commit": "2026-05-29T09:30:37",
   "p2016_authored_commits": 14.0,
-  "modern_authored_commits": 12.0,
+  "modern_authored_commits": 11.0,
   "co_authored_commits": 6.0,
   "bips_authored": 0.0,
   "p2016_bips_authored": 0.0,
@@ -45,7 +45,7 @@
   "tier1_reviews_count": 220.0,
   "tier2_reviews_count": 0.0,
   "p2016_reviews_count": 220.0,
-  "modern_reviews_count": 210.0,
+  "modern_reviews_count": 209.0,
   "first_review_date": "2023-08-04T05:47:56",
   "last_review_date": "2026-10-25T02:45:23",
   "prs_authored": 32.0,
@@ -56,7 +56,7 @@
   "review_reciprocity": 6.875,
   "hybrid_score": 0.3535,
   "p2016_hybrid_score": 0.3535,
-  "modern_hybrid_score": 0.3519,
+  "modern_hybrid_score": 0.3518,
   "impact_score": 19.0,
   "p2016_impact_score": 19.0,
   "modern_impact_score": 19.0,
@@ -76,16 +76,16 @@
   ],
   "expertise_by_source": {
     "code": {
+      "Consensus": 0.014,
       "Infrastructure": 0.957,
       "Wallet": 0.014,
-      "Script": 0.014,
-      "Consensus": 0.014
+      "Script": 0.014
     }
   },
   "expertise_domain_scores": {
+    "Consensus": 0.014,
     "Infrastructure": 0.958,
     "Script": 0.014,
-    "Consensus": 0.014,
     "Wallet": 0.014
   },
   "p2016_posts": 0.0,

@@ -68,15 +68,15 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Script": 0.452,
+      "Mining": 0.274,
       "Consensus": 0.274,
-      "Mining": 0.274
+      "Script": 0.452
     }
   },
   "expertise_domain_scores": {
-    "Script": 0.452,
     "Consensus": 0.274,
-    "Mining": 0.274
+    "Mining": 0.274,
+    "Script": 0.452
   },
   "p2016_posts": 6.0,
   "modern_posts": 0.0,

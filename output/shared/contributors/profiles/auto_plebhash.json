@@ -48,7 +48,7 @@
   "review_reciprocity": null,
   "hybrid_score": 0.1051,
   "p2016_hybrid_score": 0.1076,
-  "modern_hybrid_score": 0.1212,
+  "modern_hybrid_score": 0.1213,
   "impact_score": 6.0,
   "p2016_impact_score": 6.0,
   "modern_impact_score": 7.0,
@@ -63,20 +63,20 @@
   "dev_type": "Reviewer",
   "expertise_domains": [
     "Mining",
-    "Consensus",
-    "Mempool"
+    "Mempool",
+    "Consensus"
   ],
   "expertise_by_source": {
     "discussion": {
-      "Consensus": 0.222,
-      "Mempool": 0.198,
-      "Mining": 0.58
+      "Mining": 0.556,
+      "Mempool": 0.235,
+      "Consensus": 0.21
     }
   },
   "expertise_domain_scores": {
-    "Consensus": 0.222,
-    "Mempool": 0.198,
-    "Mining": 0.58
+    "Consensus": 0.2098,
+    "Mining": 0.5554,
+    "Mempool": 0.2348
   },
   "p2016_posts": 12.0,
   "modern_posts": 12.0,
@@ -144,6 +144,7 @@
     "2025": {
       "covenants": 2,
       "lightning": 2,
+      "mempool-fees": 2,
       "mining": 2
     }
   }

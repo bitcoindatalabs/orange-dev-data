@@ -67,20 +67,20 @@
     "Mempool"
   ],
   "expertise_by_source": {
-    "discussion": {
-      "L2": 0.548,
-      "Mempool": 0.274,
-      "Mining": 0.179
-    },
     "code": {
       "Infrastructure": 1.0
+    },
+    "discussion": {
+      "Mining": 0.179,
+      "Mempool": 0.274,
+      "L2": 0.548
     }
   },
   "expertise_domain_scores": {
+    "Mining": 0.0716,
     "Infrastructure": 0.5998,
-    "L2": 0.2191,
     "Mempool": 0.1096,
-    "Mining": 0.0716
+    "L2": 0.2191
   },
   "p2016_posts": 5.0,
   "modern_posts": 0.0,

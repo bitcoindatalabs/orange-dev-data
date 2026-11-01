@@ -48,7 +48,7 @@
   "review_reciprocity": 3.263157894736842,
   "hybrid_score": 0.4768,
   "p2016_hybrid_score": 0.3179,
-  "modern_hybrid_score": 0.1347,
+  "modern_hybrid_score": 0.1349,
   "impact_score": 25.0,
   "p2016_impact_score": 17.0,
   "modern_impact_score": 8.0,
@@ -67,19 +67,19 @@
     "Consensus"
   ],
   "expertise_by_source": {
+    "code": {
+      "Consensus": 0.375,
+      "Infrastructure": 0.625
+    },
     "discussion": {
       "Ecosystem": 0.76,
       "Wallet": 0.24
-    },
-    "code": {
-      "Infrastructure": 0.625,
-      "Consensus": 0.375
     }
   },
   "expertise_domain_scores": {
+    "Consensus": 0.225,
     "Infrastructure": 0.375,
     "Ecosystem": 0.304,
-    "Consensus": 0.225,
     "Wallet": 0.096
   },
   "p2016_posts": 44.0,
@@ -117,7 +117,7 @@
   "geo_conflict": false,
   "geo_tz_signature": null,
   "geo_location_raw": null,
-  "geo_as_of": "2026-10-24",
+  "geo_as_of": "2026-10-31",
   "geo_taxonomy_version": "2026.10.1",
   "is_top_50": false,
   "github_url": "https://github.com/schildbach",

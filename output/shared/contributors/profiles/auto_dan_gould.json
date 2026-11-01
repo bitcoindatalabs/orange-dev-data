@@ -80,9 +80,9 @@
   ],
   "expertise_by_source": {
     "discussion": {
+      "Wallet": 0.086,
       "L2": 0.198,
-      "Privacy": 0.716,
-      "Wallet": 0.086
+      "Privacy": 0.716
     },
     "bips": {
       "Infrastructure": 1.0
@@ -90,8 +90,8 @@
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.7143,
-    "L2": 0.0566,
     "Wallet": 0.0246,
+    "L2": 0.0566,
     "Privacy": 0.2046
   },
   "p2016_posts": 16.0,

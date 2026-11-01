@@ -67,18 +67,18 @@
     "Consensus"
   ],
   "expertise_by_source": {
-    "discussion": {
-      "Ecosystem": 0.52,
-      "Consensus": 0.48
-    },
     "code": {
       "Infrastructure": 1.0
+    },
+    "discussion": {
+      "Consensus": 0.48,
+      "Ecosystem": 0.52
     }
   },
   "expertise_domain_scores": {
+    "Consensus": 0.192,
     "Infrastructure": 0.6,
-    "Ecosystem": 0.208,
-    "Consensus": 0.192
+    "Ecosystem": 0.208
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,
@@ -115,7 +115,7 @@
   "geo_conflict": false,
   "geo_tz_signature": null,
   "geo_location_raw": null,
-  "geo_as_of": "2026-10-24",
+  "geo_as_of": "2026-10-31",
   "geo_taxonomy_version": "2026.10.1",
   "is_top_50": false,
   "github_url": "https://github.com/jojkaart",

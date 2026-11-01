@@ -80,19 +80,19 @@
   ],
   "expertise_by_source": {
     "discussion": {
+      "Mining": 0.064,
       "Consensus": 0.128,
-      "Wallet": 0.809,
-      "Mining": 0.064
+      "Wallet": 0.809
     },
     "bips": {
       "Infrastructure": 1.0
     }
   },
   "expertise_domain_scores": {
-    "Infrastructure": 0.7141,
     "Consensus": 0.0366,
-    "Wallet": 0.2311,
-    "Mining": 0.0183
+    "Mining": 0.0183,
+    "Infrastructure": 0.7141,
+    "Wallet": 0.2311
   },
   "p2016_posts": 7.0,
   "modern_posts": 0.0,

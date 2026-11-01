@@ -79,21 +79,21 @@
     "Mining"
   ],
   "expertise_by_source": {
-    "discussion": {
-      "Consensus": 0.615,
-      "Mining": 0.385
-    },
     "code": {
       "Infrastructure": 1.0
+    },
+    "discussion": {
+      "Mining": 0.385,
+      "Consensus": 0.615
     },
     "bips": {
       "Consensus": 1.0
     }
   },
   "expertise_domain_scores": {
-    "Infrastructure": 0.3,
     "Consensus": 0.623,
-    "Mining": 0.077
+    "Mining": 0.077,
+    "Infrastructure": 0.3
   },
   "p2016_posts": 100.0,
   "modern_posts": 0.0,
@@ -130,7 +130,7 @@
   "geo_conflict": false,
   "geo_tz_signature": null,
   "geo_location_raw": null,
-  "geo_as_of": "2026-10-24",
+  "geo_as_of": "2026-10-31",
   "geo_taxonomy_version": "2026.10.1",
   "is_top_50": false,
   "github_url": "https://github.com/zander",

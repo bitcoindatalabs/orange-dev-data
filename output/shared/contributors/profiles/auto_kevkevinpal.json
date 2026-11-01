@@ -37,7 +37,7 @@
   "tier1_reviews_count": 246.0,
   "tier2_reviews_count": 1.0,
   "p2016_reviews_count": 247.0,
-  "modern_reviews_count": 202.0,
+  "modern_reviews_count": 201.0,
   "first_review_date": "2022-08-17T01:20:16",
   "last_review_date": "2026-10-10T17:11:54",
   "prs_authored": 71.0,
@@ -48,7 +48,7 @@
   "review_reciprocity": 3.4788732394366195,
   "hybrid_score": 0.4306,
   "p2016_hybrid_score": 0.4306,
-  "modern_hybrid_score": 0.4243,
+  "modern_hybrid_score": 0.4242,
   "impact_score": 23.0,
   "p2016_impact_score": 23.0,
   "modern_impact_score": 22.0,
@@ -68,14 +68,14 @@
   ],
   "expertise_by_source": {
     "code": {
+      "Consensus": 0.04,
       "Infrastructure": 0.953,
-      "Wallet": 0.007,
-      "Consensus": 0.04
+      "Wallet": 0.007
     }
   },
   "expertise_domain_scores": {
-    "Infrastructure": 0.953,
-    "Consensus": 0.04
+    "Consensus": 0.04,
+    "Infrastructure": 0.953
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,

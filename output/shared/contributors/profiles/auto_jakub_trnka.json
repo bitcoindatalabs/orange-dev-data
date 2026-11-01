@@ -67,18 +67,18 @@
     "Network"
   ],
   "expertise_by_source": {
-    "discussion": {
-      "Network": 0.33,
-      "Mining": 0.67
-    },
     "code": {
       "Infrastructure": 1.0
+    },
+    "discussion": {
+      "Mining": 0.67,
+      "Network": 0.33
     }
   },
   "expertise_domain_scores": {
+    "Mining": 0.268,
     "Infrastructure": 0.6,
-    "Network": 0.132,
-    "Mining": 0.268
+    "Network": 0.132
   },
   "p2016_posts": 1.0,
   "modern_posts": 0.0,
@@ -115,7 +115,7 @@
   "geo_conflict": false,
   "geo_tz_signature": null,
   "geo_location_raw": null,
-  "geo_as_of": "2026-10-24",
+  "geo_as_of": "2026-10-31",
   "geo_taxonomy_version": "2026.10.1",
   "is_top_50": false,
   "github_url": "https://github.com/jakubtrnka",

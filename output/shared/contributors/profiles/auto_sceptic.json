@@ -67,8 +67,8 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Consensus": 0.254,
-      "Mempool": 0.746
+      "Mempool": 0.746,
+      "Consensus": 0.254
     }
   },
   "expertise_domain_scores": {

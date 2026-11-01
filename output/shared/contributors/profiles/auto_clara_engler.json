@@ -78,19 +78,19 @@
     "Consensus"
   ],
   "expertise_by_source": {
-    "discussion": {
-      "Consensus": 1.0
-    },
     "code": {
       "Infrastructure": 1.0
+    },
+    "discussion": {
+      "Consensus": 1.0
     },
     "bips": {
       "Infrastructure": 1.0
     }
   },
   "expertise_domain_scores": {
-    "Infrastructure": 0.8,
-    "Consensus": 0.2
+    "Consensus": 0.2,
+    "Infrastructure": 0.8
   },
   "p2016_posts": 13.0,
   "modern_posts": 0.0,

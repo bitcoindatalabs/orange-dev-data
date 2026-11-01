@@ -60,7 +60,7 @@
   "review_reciprocity": 0.3333333333333333,
   "hybrid_score": 0.4142,
   "p2016_hybrid_score": 0.4278,
-  "modern_hybrid_score": 0.5253,
+  "modern_hybrid_score": 0.5258,
   "impact_score": 22.0,
   "p2016_impact_score": 23.0,
   "modern_impact_score": 27.0,
@@ -80,8 +80,8 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Wallet": 0.26,
       "Mining": 0.143,
+      "Wallet": 0.26,
       "Cryptography": 0.597
     },
     "bips": {
@@ -89,9 +89,9 @@
     }
   },
   "expertise_domain_scores": {
+    "Mining": 0.0409,
     "Wallet": 0.0743,
     "Privacy": 0.7143,
-    "Mining": 0.0409,
     "Cryptography": 0.1706
   },
   "p2016_posts": 17.0,

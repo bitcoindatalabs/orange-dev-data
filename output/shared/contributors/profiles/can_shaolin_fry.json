@@ -79,13 +79,13 @@
     "Mining"
   ],
   "expertise_by_source": {
-    "discussion": {
-      "Consensus": 0.871,
-      "Mining": 0.129
-    },
     "code": {
-      "Infrastructure": 0.667,
-      "Consensus": 0.333
+      "Consensus": 0.333,
+      "Infrastructure": 0.667
+    },
+    "discussion": {
+      "Mining": 0.129,
+      "Consensus": 0.871
     },
     "bips": {
       "Infrastructure": 0.333,
@@ -93,9 +93,9 @@
     }
   },
   "expertise_domain_scores": {
-    "Infrastructure": 0.3666,
     "Consensus": 0.6076,
-    "Mining": 0.0258
+    "Mining": 0.0258,
+    "Infrastructure": 0.3666
   },
   "p2016_posts": 16.0,
   "modern_posts": 0.0,
