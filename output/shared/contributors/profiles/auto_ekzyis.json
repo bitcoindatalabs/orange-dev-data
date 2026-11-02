@@ -61,25 +61,25 @@
   "delving_threads": 1.0,
   "ml_responses": 0.0,
   "delving_responses": 0.0,
-  "first_active": "2026-04-06T23:15:13.963000",
-  "last_active": "2026-04-06T23:15:13.963000",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Builder",
   "expertise_domains": [
     "Infrastructure",
     "Consensus"
   ],
   "expertise_by_source": {
-    "code": {
-      "Consensus": 0.121,
-      "Infrastructure": 0.879
-    },
     "discussion": {
       "Consensus": 1.0
+    },
+    "code": {
+      "Infrastructure": 0.879,
+      "Consensus": 0.121
     }
   },
   "expertise_domain_scores": {
-    "Consensus": 0.4726,
-    "Infrastructure": 0.5274
+    "Infrastructure": 0.5274,
+    "Consensus": 0.4726
   },
   "p2016_posts": 1.0,
   "modern_posts": 1.0,

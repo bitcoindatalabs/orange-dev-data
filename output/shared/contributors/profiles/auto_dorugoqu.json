@@ -58,8 +58,8 @@
   "delving_threads": 2.0,
   "ml_responses": 0.0,
   "delving_responses": 0.0,
-  "first_active": "2026-10-26T20:38:23.910000",
-  "last_active": "2026-10-27T15:13:09.658000",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Participant",
   "expertise_domains": [
     "Cryptography",
@@ -74,8 +74,8 @@
     }
   },
   "expertise_domain_scores": {
-    "Consensus": 0.3333,
     "Mining": 0.3333,
+    "Consensus": 0.3333,
     "Cryptography": 0.3333
   },
   "p2016_posts": 2.0,
@@ -88,8 +88,8 @@
   "is_reviewer": false,
   "is_researcher": false,
   "is_bip_author": false,
-  "global_first_active": "2026-10-26T20:38:23.910000",
-  "global_last_active": "2026-10-27T15:13:09.658000",
+  "global_first_active": null,
+  "global_last_active": null,
   "github_location": null,
   "github_company": null,
   "github_bio": null,

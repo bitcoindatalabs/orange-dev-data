@@ -58,8 +58,8 @@
   "delving_threads": 2.0,
   "ml_responses": 0.0,
   "delving_responses": 0.0,
-  "first_active": "2026-10-20T22:29:59.774000",
-  "last_active": "2026-10-22T14:07:25.332000",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Participant",
   "expertise_domains": [
     "Infrastructure"
@@ -78,8 +78,8 @@
   "is_reviewer": false,
   "is_researcher": false,
   "is_bip_author": false,
-  "global_first_active": "2026-10-20T22:29:59.774000",
-  "global_last_active": "2026-10-22T14:07:25.332000",
+  "global_first_active": null,
+  "global_last_active": null,
   "github_location": null,
   "github_company": null,
   "github_bio": null,

@@ -58,8 +58,8 @@
   "delving_threads": 9.0,
   "ml_responses": 0.0,
   "delving_responses": 5.0,
-  "first_active": "2025-03-08T20:26:32.753000",
-  "last_active": "2026-08-10T19:21:49.244000",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Participant",
   "expertise_domains": [
     "L2",
@@ -67,13 +67,13 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "L2": 0.725,
-      "Privacy": 0.275
+      "Privacy": 0.275,
+      "L2": 0.725
     }
   },
   "expertise_domain_scores": {
-    "L2": 0.725,
-    "Privacy": 0.275
+    "Privacy": 0.275,
+    "L2": 0.725
   },
   "p2016_posts": 14.0,
   "modern_posts": 14.0,
@@ -85,8 +85,8 @@
   "is_reviewer": false,
   "is_researcher": false,
   "is_bip_author": false,
-  "global_first_active": "2025-03-08T20:26:32.753000",
-  "global_last_active": "2026-08-10T19:21:49.244000",
+  "global_first_active": null,
+  "global_last_active": null,
   "github_location": null,
   "github_company": null,
   "github_bio": null,
@@ -116,9 +116,9 @@
   "delving_url": "https://delvingbitcoin.org/u/brh28",
   "first_message": {
     "source": "delving",
-    "subject": "Revisiting pathfinding",
+    "subject": "Revisiting the pathfinding protocol",
     "date": "2025-03-08",
-    "link": "https://delvingbitcoin.org/t/revisiting-pathfinding/1503/1"
+    "link": "https://delvingbitcoin.org/t/revisiting-the-pathfinding-protocol/1503/1"
   },
   "last_message": {
     "source": "delving",

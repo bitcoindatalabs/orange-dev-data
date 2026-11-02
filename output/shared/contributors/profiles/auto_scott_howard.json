@@ -58,19 +58,19 @@
   "delving_threads": 0.0,
   "ml_responses": 5.0,
   "delving_responses": 0.0,
-  "first_active": null,
-  "last_active": null,
+  "first_active": "2012-09-13T20:57:05",
+  "last_active": "2014-05-19T09:02:22",
   "dev_type": "Builder",
   "expertise_domains": [
     "Infrastructure",
     "Network"
   ],
   "expertise_by_source": {
-    "code": {
-      "Infrastructure": 1.0
-    },
     "discussion": {
       "Network": 1.0
+    },
+    "code": {
+      "Infrastructure": 1.0
     }
   },
   "expertise_domain_scores": {
@@ -87,8 +87,8 @@
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": false,
-  "global_first_active": "2013-02-26T15:10:48",
-  "global_last_active": "2013-04-27T09:08:44",
+  "global_first_active": "2012-09-13T20:57:05",
+  "global_last_active": "2014-05-19T09:02:22",
   "github_location": null,
   "github_company": null,
   "github_bio": null,

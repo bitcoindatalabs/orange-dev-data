@@ -80,15 +80,15 @@
   ],
   "expertise_by_source": {
     "code": {
-      "Consensus": 0.105,
       "Infrastructure": 0.766,
+      "Consensus": 0.105,
       "Network": 0.111,
       "Cryptography": 0.019
     }
   },
   "expertise_domain_scores": {
-    "Consensus": 0.1049,
     "Infrastructure": 0.7652,
+    "Consensus": 0.1049,
     "Network": 0.1109,
     "Cryptography": 0.019
   },

@@ -72,8 +72,8 @@
   "delving_threads": 0.0,
   "ml_responses": 18.0,
   "delving_responses": 0.0,
-  "first_active": null,
-  "last_active": null,
+  "first_active": "2021-02-08T17:14:17",
+  "last_active": "2022-09-21T01:07:12",
   "dev_type": "Protocol Designer",
   "expertise_domains": [
     "Wallet",
@@ -81,13 +81,13 @@
     "Mining"
   ],
   "expertise_by_source": {
-    "code": {
-      "Infrastructure": 0.11,
-      "Wallet": 0.89
-    },
     "discussion": {
       "Mining": 0.082,
       "Wallet": 0.918
+    },
+    "code": {
+      "Infrastructure": 0.11,
+      "Wallet": 0.89
     },
     "bips": {
       "Wallet": 1.0

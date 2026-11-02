@@ -58,8 +58,8 @@
   "delving_threads": 0.0,
   "ml_responses": 5.0,
   "delving_responses": 0.0,
-  "first_active": null,
-  "last_active": null,
+  "first_active": "2015-08-17T15:24:29",
+  "last_active": "2017-06-20T17:13:06",
   "dev_type": "Participant",
   "expertise_domains": [
     "Mempool",
@@ -72,8 +72,8 @@
     }
   },
   "expertise_domain_scores": {
-    "Consensus": 0.5,
-    "Mempool": 0.5
+    "Mempool": 0.5,
+    "Consensus": 0.5
   },
   "p2016_posts": 2.0,
   "modern_posts": 0.0,
@@ -86,7 +86,7 @@
   "is_researcher": true,
   "is_bip_author": false,
   "global_first_active": "2015-08-01T20:06:31",
-  "global_last_active": "2015-09-25T20:57:51",
+  "global_last_active": "2017-06-20T17:13:06",
   "github_location": "New York",
   "github_company": null,
   "github_bio": "See my twitter account profile.",

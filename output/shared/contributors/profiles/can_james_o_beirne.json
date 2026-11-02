@@ -62,7 +62,7 @@
   "review_reciprocity": 3.816,
   "hybrid_score": 0.9741,
   "p2016_hybrid_score": 1.031,
-  "modern_hybrid_score": 0.6558,
+  "modern_hybrid_score": 0.6559,
   "impact_score": 44.0,
   "p2016_impact_score": 46.0,
   "modern_impact_score": 33.0,
@@ -72,8 +72,8 @@
   "delving_threads": 17.0,
   "ml_responses": 43.0,
   "delving_responses": 23.0,
-  "first_active": null,
-  "last_active": null,
+  "first_active": "2015-10-07T18:32:03",
+  "last_active": "2025-07-11T17:59:18",
   "dev_type": "Protocol Designer",
   "expertise_domains": [
     "Consensus",
@@ -81,25 +81,25 @@
     "Script"
   ],
   "expertise_by_source": {
-    "code": {
-      "Consensus": 0.273,
-      "Infrastructure": 0.682,
-      "Wallet": 0.016,
-      "Network": 0.025,
-      "Mempool": 0.004
-    },
     "discussion": {
       "Mempool": 0.111,
       "Script": 0.889
+    },
+    "code": {
+      "Infrastructure": 0.682,
+      "Consensus": 0.273,
+      "Wallet": 0.016,
+      "Network": 0.025,
+      "Mempool": 0.004
     },
     "bips": {
       "Consensus": 1.0
     }
   },
   "expertise_domain_scores": {
-    "Consensus": 0.5819,
-    "Infrastructure": 0.2046,
     "Mempool": 0.0234,
+    "Infrastructure": 0.2046,
+    "Consensus": 0.5819,
     "Script": 0.1778
   },
   "p2016_posts": 88.0,

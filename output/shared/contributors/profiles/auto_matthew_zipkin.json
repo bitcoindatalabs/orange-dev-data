@@ -40,7 +40,7 @@
   "tier1_reviews_count": 273.0,
   "tier2_reviews_count": 6.0,
   "p2016_reviews_count": 279.0,
-  "modern_reviews_count": 200.0,
+  "modern_reviews_count": 199.0,
   "first_review_date": "2017-01-18T16:49:19",
   "last_review_date": "2026-10-31T14:36:44",
   "prs_authored": 63.0,
@@ -49,9 +49,9 @@
   "avg_pr_ack_velocity_days": 4.976516898148149,
   "avg_concept_lead_time_days": 8.006630923202614,
   "review_reciprocity": 4.428571428571429,
-  "hybrid_score": 0.5315,
-  "p2016_hybrid_score": 0.5379,
-  "modern_hybrid_score": 0.5677,
+  "hybrid_score": 0.5348,
+  "p2016_hybrid_score": 0.5413,
+  "modern_hybrid_score": 0.5712,
   "impact_score": 27.0,
   "p2016_impact_score": 28.0,
   "modern_impact_score": 29.0,
@@ -61,8 +61,8 @@
   "delving_threads": 3.0,
   "ml_responses": 1.0,
   "delving_responses": 0.0,
-  "first_active": "2023-12-01T16:46:53.686000",
-  "last_active": "2026-10-24T10:10:14.381000",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Builder",
   "expertise_domains": [
     "Infrastructure",
@@ -70,23 +70,23 @@
     "L2"
   ],
   "expertise_by_source": {
-    "code": {
-      "Consensus": 0.001,
-      "Infrastructure": 0.943,
-      "Wallet": 0.015,
-      "Network": 0.038,
-      "Mempool": 0.002
-    },
     "discussion": {
-      "Wallet": 0.5,
-      "L2": 0.5
+      "L2": 0.5,
+      "Wallet": 0.5
+    },
+    "code": {
+      "Infrastructure": 0.947,
+      "Consensus": 0.001,
+      "Wallet": 0.014,
+      "Network": 0.036,
+      "Mempool": 0.002
     }
   },
   "expertise_domain_scores": {
-    "Infrastructure": 0.5661,
-    "Wallet": 0.2091,
-    "L2": 0.2001,
-    "Network": 0.0228
+    "Infrastructure": 0.5682,
+    "Wallet": 0.2084,
+    "Network": 0.0216,
+    "L2": 0.2
   },
   "p2016_posts": 5.0,
   "modern_posts": 5.0,

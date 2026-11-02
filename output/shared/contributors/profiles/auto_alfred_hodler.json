@@ -70,8 +70,8 @@
   "delving_threads": 0.0,
   "ml_responses": 7.0,
   "delving_responses": 0.0,
-  "first_active": null,
-  "last_active": null,
+  "first_active": "2022-06-27T13:17:16",
+  "last_active": "2022-08-01T06:38:29",
   "dev_type": "Participant",
   "expertise_domains": [
     "Infrastructure",
@@ -88,8 +88,8 @@
     }
   },
   "expertise_domain_scores": {
-    "Consensus": 0.0571,
     "Infrastructure": 0.7143,
+    "Consensus": 0.0571,
     "Privacy": 0.2286
   },
   "p2016_posts": 9.0,
@@ -102,7 +102,7 @@
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": true,
-  "global_first_active": "2022-07-22T03:51:32",
+  "global_first_active": "2022-06-27T13:17:16",
   "global_last_active": "2022-09-15T13:48:58",
   "github_location": null,
   "github_company": null,

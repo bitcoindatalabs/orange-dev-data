@@ -44,36 +44,36 @@
   "modern_bips_authored": 0.0,
   "first_bip_date": "2018-07-05T20:45:34",
   "last_bip_date": "2022-10-07T13:59:24",
-  "avg_review_latency_days": 1287.1247080464018,
-  "reviews_count": 885.0,
-  "avg_approval_latency_days": 1187.4186361540387,
-  "approvals_count": 589.0,
-  "tier1_reviews_count": 853.0,
+  "avg_review_latency_days": 1287.6270043338147,
+  "reviews_count": 886.0,
+  "avg_approval_latency_days": 1188.2834631506507,
+  "approvals_count": 590.0,
+  "tier1_reviews_count": 854.0,
   "tier2_reviews_count": 52.0,
-  "p2016_reviews_count": 885.0,
-  "modern_reviews_count": 359.0,
+  "p2016_reviews_count": 886.0,
+  "modern_reviews_count": 360.0,
   "first_review_date": "2018-08-05T00:31:52",
-  "last_review_date": "2026-10-30T18:49:40",
+  "last_review_date": "2026-11-01T19:14:17",
   "prs_authored": 213.0,
   "tier1_prs_authored": 204.0,
   "tier2_prs_authored": 9.0,
   "avg_pr_ack_velocity_days": 9.36075819088319,
   "avg_concept_lead_time_days": 31.148193226120863,
-  "review_reciprocity": 4.154929577464789,
-  "hybrid_score": 1.3757,
-  "p2016_hybrid_score": 1.4225,
-  "modern_hybrid_score": 0.6796,
+  "review_reciprocity": 4.15962441314554,
+  "hybrid_score": 1.376,
+  "p2016_hybrid_score": 1.4228,
+  "modern_hybrid_score": 0.6807,
   "impact_score": 56.0,
   "p2016_impact_score": 57.0,
-  "modern_impact_score": 33.0,
+  "modern_impact_score": 34.0,
   "threads_started": 11.0,
   "replies_sent": 64.0,
   "ml_threads": 6.0,
   "delving_threads": 5.0,
   "ml_responses": 57.0,
   "delving_responses": 7.0,
-  "first_active": null,
-  "last_active": "2026-02-27T10:52:17.147000",
+  "first_active": "2014-08-06T17:22:31",
+  "last_active": null,
   "dev_type": "Protocol Designer",
   "expertise_domains": [
     "Infrastructure",
@@ -81,18 +81,18 @@
     "Cryptography"
   ],
   "expertise_by_source": {
+    "discussion": {
+      "Privacy": 0.478,
+      "Cryptography": 0.522
+    },
     "code": {
       "Infrastructure": 0.988,
       "Wallet": 0.008,
       "Network": 0.004
     },
-    "discussion": {
-      "Privacy": 0.478,
-      "Cryptography": 0.522
-    },
     "bips": {
-      "Network": 0.333,
-      "Infrastructure": 0.667
+      "Infrastructure": 0.667,
+      "Network": 0.333
     }
   },
   "expertise_domain_scores": {
@@ -111,8 +111,8 @@
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": true,
-  "global_first_active": "2017-07-31T07:44:51",
-  "global_last_active": "2026-10-30T18:49:40",
+  "global_first_active": "2014-08-06T17:22:31",
+  "global_last_active": "2026-11-01T19:14:17",
   "github_location": "Germany",
   "github_company": null,
   "github_bio": "full-stack cryptographer",

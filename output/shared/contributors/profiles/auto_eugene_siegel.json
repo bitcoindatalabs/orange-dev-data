@@ -68,8 +68,8 @@
   "delving_threads": 13.0,
   "ml_responses": 0.0,
   "delving_responses": 5.0,
-  "first_active": "2024-01-24T22:04:54.478000",
-  "last_active": "2026-05-14T19:48:57.695000",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Builder",
   "expertise_domains": [
     "Infrastructure",
@@ -77,21 +77,21 @@
     "Mempool"
   ],
   "expertise_by_source": {
-    "code": {
-      "Consensus": 0.03,
-      "Infrastructure": 0.835,
-      "Network": 0.134
-    },
     "discussion": {
       "Mempool": 0.353,
       "Consensus": 0.235,
       "Network": 0.412
+    },
+    "code": {
+      "Infrastructure": 0.835,
+      "Consensus": 0.03,
+      "Network": 0.134
     }
   },
   "expertise_domain_scores": {
-    "Consensus": 0.1121,
-    "Infrastructure": 0.5013,
     "Mempool": 0.1413,
+    "Infrastructure": 0.5013,
+    "Consensus": 0.1121,
     "Network": 0.2453
   },
   "p2016_posts": 18.0,

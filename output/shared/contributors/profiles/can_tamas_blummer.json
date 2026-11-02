@@ -58,8 +58,8 @@
   "delving_threads": 0.0,
   "ml_responses": 162.0,
   "delving_responses": 0.0,
-  "first_active": null,
-  "last_active": null,
+  "first_active": "2013-05-26T21:57:38",
+  "last_active": "2019-09-21T16:16:25",
   "dev_type": "Builder",
   "expertise_domains": [
     "Infrastructure",
@@ -67,13 +67,13 @@
     "Mining"
   ],
   "expertise_by_source": {
-    "code": {
-      "Infrastructure": 0.667,
-      "Network": 0.333
-    },
     "discussion": {
       "Mining": 0.5,
       "Script": 0.5
+    },
+    "code": {
+      "Infrastructure": 0.667,
+      "Network": 0.333
     }
   },
   "expertise_domain_scores": {
@@ -92,8 +92,8 @@
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": false,
-  "global_first_active": "2013-06-17T08:43:12",
-  "global_last_active": "2018-06-02T03:36:33",
+  "global_first_active": "2013-05-26T21:57:38",
+  "global_last_active": "2019-09-21T16:16:25",
   "github_location": "Germany",
   "github_company": null,
   "github_bio": "Independent Developer",

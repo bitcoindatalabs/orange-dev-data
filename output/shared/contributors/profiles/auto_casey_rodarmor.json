@@ -48,7 +48,7 @@
   "review_reciprocity": 0.6666666666666666,
   "hybrid_score": 0.2887,
   "p2016_hybrid_score": 0.1336,
-  "modern_hybrid_score": 0.1547,
+  "modern_hybrid_score": 0.1549,
   "impact_score": 16.0,
   "p2016_impact_score": 8.0,
   "modern_impact_score": 9.0,
@@ -58,8 +58,8 @@
   "delving_threads": 2.0,
   "ml_responses": 8.0,
   "delving_responses": 0.0,
-  "first_active": null,
-  "last_active": null,
+  "first_active": "2013-12-03T23:16:18",
+  "last_active": "2025-10-15T15:04:26",
   "dev_type": "Builder",
   "expertise_domains": [
     "Infrastructure",
@@ -67,18 +67,18 @@
     "Privacy"
   ],
   "expertise_by_source": {
-    "code": {
-      "Infrastructure": 0.933,
-      "Mempool": 0.067
-    },
     "discussion": {
       "Ecosystem": 0.85,
       "Privacy": 0.15
+    },
+    "code": {
+      "Infrastructure": 0.933,
+      "Mempool": 0.067
     }
   },
   "expertise_domain_scores": {
-    "Infrastructure": 0.5598,
     "Mempool": 0.0402,
+    "Infrastructure": 0.5598,
     "Ecosystem": 0.34,
     "Privacy": 0.06
   },
@@ -92,7 +92,7 @@
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": false,
-  "global_first_active": "2015-07-24T08:59:54",
+  "global_first_active": "2013-12-03T23:16:18",
   "global_last_active": "2026-07-22T06:03:40",
   "github_location": "The Blue Planet",
   "github_company": null,

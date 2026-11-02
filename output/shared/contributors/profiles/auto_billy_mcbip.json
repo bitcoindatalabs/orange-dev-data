@@ -58,8 +58,8 @@
   "delving_threads": 10.0,
   "ml_responses": 0.0,
   "delving_responses": 1.0,
-  "first_active": "2025-12-08T18:34:00.062000",
-  "last_active": "2026-02-06T22:21:14.655000",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Builder",
   "expertise_domains": [
     "Infrastructure",
@@ -67,19 +67,19 @@
     "Consensus"
   ],
   "expertise_by_source": {
+    "discussion": {
+      "Script": 0.404,
+      "Consensus": 0.34,
+      "Cryptography": 0.255
+    },
     "code": {
       "Infrastructure": 0.929,
       "Script": 0.071
-    },
-    "discussion": {
-      "Consensus": 0.34,
-      "Script": 0.404,
-      "Cryptography": 0.255
     }
   },
   "expertise_domain_scores": {
-    "Consensus": 0.1361,
     "Infrastructure": 0.5576,
+    "Consensus": 0.1361,
     "Script": 0.2043,
     "Cryptography": 0.102
   },
@@ -94,7 +94,7 @@
   "is_researcher": false,
   "is_bip_author": false,
   "global_first_active": "2025-11-30T19:38:02",
-  "global_last_active": "2026-02-06T22:21:14.655000",
+  "global_last_active": "2026-02-04T09:38:06",
   "github_location": null,
   "github_company": null,
   "github_bio": "billymcbip@proton.me",

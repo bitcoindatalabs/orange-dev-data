@@ -58,8 +58,8 @@
   "delving_threads": 2.0,
   "ml_responses": 0.0,
   "delving_responses": 1.0,
-  "first_active": "2026-02-19T10:43:14.974000",
-  "last_active": "2026-04-01T07:19:52.611000",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Builder",
   "expertise_domains": [
     "Infrastructure",
@@ -67,19 +67,19 @@
     "Mempool"
   ],
   "expertise_by_source": {
-    "code": {
-      "Infrastructure": 0.941,
-      "Wallet": 0.059
-    },
     "discussion": {
       "Mempool": 0.254,
       "Privacy": 0.493,
       "Cryptography": 0.254
+    },
+    "code": {
+      "Infrastructure": 0.941,
+      "Wallet": 0.059
     }
   },
   "expertise_domain_scores": {
-    "Infrastructure": 0.5644,
     "Mempool": 0.1016,
+    "Infrastructure": 0.5644,
     "Wallet": 0.0354,
     "Privacy": 0.1971,
     "Cryptography": 0.1016
@@ -95,7 +95,7 @@
   "is_researcher": false,
   "is_bip_author": false,
   "global_first_active": "2019-11-22T14:22:55",
-  "global_last_active": "2026-04-01T07:19:52.611000",
+  "global_last_active": "2020-06-21T10:24:54",
   "github_location": "Bonn, Germany",
   "github_company": null,
   "github_bio": "Software Engineer",
@@ -103,7 +103,7 @@
   "github_blog": "https://blog.brakmic.com",
   "github_followers": 243.0,
   "github_profile_fetched_at": "2026-10-20T18:59:56Z",
-  "activity_status": "Active",
+  "activity_status": "Retired",
   "geo_country_iso2": "DE",
   "geo_country_iso3": "DEU",
   "geo_country_name": "Germany",

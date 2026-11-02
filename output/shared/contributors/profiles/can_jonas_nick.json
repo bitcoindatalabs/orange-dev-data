@@ -62,7 +62,7 @@
   "review_reciprocity": 3.4285714285714284,
   "hybrid_score": 1.4079,
   "p2016_hybrid_score": 1.4569,
-  "modern_hybrid_score": 0.6561,
+  "modern_hybrid_score": 0.6564,
   "impact_score": 57.0,
   "p2016_impact_score": 58.0,
   "modern_impact_score": 33.0,
@@ -72,8 +72,8 @@
   "delving_threads": 11.0,
   "ml_responses": 48.0,
   "delving_responses": 3.0,
-  "first_active": null,
-  "last_active": "2026-09-15T09:30:29.539000",
+  "first_active": "2015-06-14T12:45:48",
+  "last_active": null,
   "dev_type": "Protocol Designer",
   "expertise_domains": [
     "Infrastructure",
@@ -81,14 +81,14 @@
     "Cryptography"
   ],
   "expertise_by_source": {
+    "discussion": {
+      "Consensus": 0.245,
+      "Cryptography": 0.396,
+      "Wallet": 0.358
+    },
     "code": {
       "Infrastructure": 0.984,
       "Wallet": 0.016
-    },
-    "discussion": {
-      "Consensus": 0.245,
-      "Wallet": 0.358,
-      "Cryptography": 0.396
     },
     "bips": {
       "Infrastructure": 0.5,
@@ -96,8 +96,8 @@
     }
   },
   "expertise_domain_scores": {
-    "Consensus": 0.2991,
     "Infrastructure": 0.5453,
+    "Consensus": 0.2991,
     "Wallet": 0.0764,
     "Cryptography": 0.0792
   },
@@ -112,7 +112,7 @@
   "is_researcher": true,
   "is_bip_author": true,
   "global_first_active": "2015-03-11T23:42:40",
-  "global_last_active": "2026-09-15T09:30:29.539000",
+  "global_last_active": "2026-07-22T19:30:13",
   "github_location": null,
   "github_company": null,
   "github_bio": "GPG 36C7 1A37 C9D9 88BD E825  08D9 B1A7 0E4F 8DCD 0366",

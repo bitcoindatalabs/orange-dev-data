@@ -58,24 +58,24 @@
   "delving_threads": 0.0,
   "ml_responses": 0.0,
   "delving_responses": 0.0,
-  "first_active": null,
-  "last_active": null,
+  "first_active": "2015-10-02T14:03:05",
+  "last_active": "2015-10-02T14:03:05",
   "dev_type": "Builder",
   "expertise_domains": [
     "Infrastructure",
     "Consensus"
   ],
   "expertise_by_source": {
-    "code": {
-      "Infrastructure": 1.0
-    },
     "discussion": {
       "Consensus": 1.0
+    },
+    "code": {
+      "Infrastructure": 1.0
     }
   },
   "expertise_domain_scores": {
-    "Consensus": 0.4,
-    "Infrastructure": 0.6
+    "Infrastructure": 0.6,
+    "Consensus": 0.4
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,
@@ -88,7 +88,7 @@
   "is_researcher": false,
   "is_bip_author": false,
   "global_first_active": "2014-06-25T05:07:15",
-  "global_last_active": "2014-10-01T11:21:48",
+  "global_last_active": "2015-10-02T14:03:05",
   "github_location": "Los Angeles, CA",
   "github_company": null,
   "github_bio": null,

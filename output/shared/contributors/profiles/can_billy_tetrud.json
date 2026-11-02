@@ -58,8 +58,8 @@
   "delving_threads": 0.0,
   "ml_responses": 176.0,
   "delving_responses": 0.0,
-  "first_active": null,
-  "last_active": null,
+  "first_active": "2021-04-12T14:39:13",
+  "last_active": "2023-01-31T09:02:51",
   "dev_type": "Participant",
   "expertise_domains": [
     "Script",
@@ -67,8 +67,8 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Consensus": 0.485,
-      "Script": 0.515
+      "Script": 0.515,
+      "Consensus": 0.485
     }
   },
   "expertise_domain_scores": {
@@ -85,8 +85,8 @@
   "is_reviewer": false,
   "is_researcher": true,
   "is_bip_author": false,
-  "global_first_active": null,
-  "global_last_active": null,
+  "global_first_active": "2021-04-12T14:39:13",
+  "global_last_active": "2023-01-31T09:02:51",
   "github_location": null,
   "github_company": null,
   "github_bio": null,

@@ -56,7 +56,7 @@
   "review_reciprocity": 1.2195121951219512,
   "hybrid_score": 0.586,
   "p2016_hybrid_score": 0.7145,
-  "modern_hybrid_score": 0.4644,
+  "modern_hybrid_score": 0.4646,
   "impact_score": 30.0,
   "p2016_impact_score": 35.0,
   "modern_impact_score": 24.0,
@@ -66,8 +66,8 @@
   "delving_threads": 7.0,
   "ml_responses": 216.0,
   "delving_responses": 2.0,
-  "first_active": null,
-  "last_active": null,
+  "first_active": "2011-12-29T00:55:03",
+  "last_active": "2025-12-15T10:31:49",
   "dev_type": "Builder",
   "expertise_domains": [
     "Infrastructure",
@@ -75,18 +75,18 @@
     "Consensus"
   ],
   "expertise_by_source": {
+    "discussion": {
+      "Script": 0.69,
+      "Consensus": 0.31
+    },
     "code": {
       "Infrastructure": 0.975,
       "Script": 0.025
-    },
-    "discussion": {
-      "Consensus": 0.31,
-      "Script": 0.69
     }
   },
   "expertise_domain_scores": {
-    "Consensus": 0.124,
     "Infrastructure": 0.585,
+    "Consensus": 0.124,
     "Script": 0.291
   },
   "p2016_posts": 235.0,
@@ -99,7 +99,7 @@
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": false,
-  "global_first_active": "2017-08-26T16:10:45",
+  "global_first_active": "2011-12-29T00:55:03",
   "global_last_active": "2026-09-10T16:59:21",
   "github_location": null,
   "github_company": null,

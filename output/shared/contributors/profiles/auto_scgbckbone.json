@@ -51,7 +51,7 @@
   "review_reciprocity": 1.875,
   "hybrid_score": 0.2301,
   "p2016_hybrid_score": 0.2327,
-  "modern_hybrid_score": 0.2285,
+  "modern_hybrid_score": 0.2286,
   "impact_score": 13.0,
   "p2016_impact_score": 13.0,
   "modern_impact_score": 13.0,
@@ -61,8 +61,8 @@
   "delving_threads": 2.0,
   "ml_responses": 0.0,
   "delving_responses": 1.0,
-  "first_active": "2025-07-16T08:34:31.869000",
-  "last_active": "2025-07-21T12:55:15.750000",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Builder",
   "expertise_domains": [
     "Wallet",
@@ -70,21 +70,21 @@
     "Script"
   ],
   "expertise_by_source": {
-    "code": {
-      "Infrastructure": 0.375,
-      "Wallet": 0.625
-    },
     "discussion": {
       "Mining": 0.245,
       "Script": 0.51,
       "Cryptography": 0.245
+    },
+    "code": {
+      "Infrastructure": 0.375,
+      "Wallet": 0.625
     }
   },
   "expertise_domain_scores": {
     "Mining": 0.098,
     "Infrastructure": 0.225,
-    "Script": 0.204,
     "Wallet": 0.375,
+    "Script": 0.204,
     "Cryptography": 0.098
   },
   "p2016_posts": 3.0,

@@ -58,8 +58,8 @@
   "delving_threads": 2.0,
   "ml_responses": 0.0,
   "delving_responses": 0.0,
-  "first_active": "2026-10-25T21:01:16.096000",
-  "last_active": "2026-10-26T13:16:49.964000",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Participant",
   "expertise_domains": [
     "Wallet",
@@ -67,8 +67,8 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Wallet": 0.67,
-      "L2": 0.33
+      "L2": 0.33,
+      "Wallet": 0.67
     }
   },
   "expertise_domain_scores": {
@@ -85,8 +85,8 @@
   "is_reviewer": false,
   "is_researcher": false,
   "is_bip_author": false,
-  "global_first_active": "2026-10-25T21:01:16.096000",
-  "global_last_active": "2026-10-26T13:16:49.964000",
+  "global_first_active": null,
+  "global_last_active": null,
   "github_location": null,
   "github_company": null,
   "github_bio": null,

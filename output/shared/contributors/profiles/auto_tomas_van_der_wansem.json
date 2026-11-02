@@ -58,8 +58,8 @@
   "delving_threads": 0.0,
   "ml_responses": 21.0,
   "delving_responses": 0.0,
-  "first_active": null,
-  "last_active": null,
+  "first_active": "2015-12-30T10:35:17",
+  "last_active": "2017-09-29T08:14:03",
   "dev_type": "Builder",
   "expertise_domains": [
     "Infrastructure",
@@ -67,18 +67,18 @@
     "Network"
   ],
   "expertise_by_source": {
-    "code": {
-      "Infrastructure": 0.5,
-      "Wallet": 0.5
-    },
     "discussion": {
       "Consensus": 0.5,
       "Network": 0.5
+    },
+    "code": {
+      "Infrastructure": 0.5,
+      "Wallet": 0.5
     }
   },
   "expertise_domain_scores": {
-    "Consensus": 0.2,
     "Infrastructure": 0.3,
+    "Consensus": 0.2,
     "Wallet": 0.3,
     "Network": 0.2
   },
@@ -92,7 +92,7 @@
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": false,
-  "global_first_active": "2017-09-19T15:40:22",
+  "global_first_active": "2015-12-30T10:35:17",
   "global_last_active": "2017-11-01T16:31:11",
   "github_location": "Amsterdam",
   "github_company": null,

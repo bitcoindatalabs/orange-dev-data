@@ -49,9 +49,9 @@
   "avg_pr_ack_velocity_days": 0.878945987654321,
   "avg_concept_lead_time_days": 2.7713310185185183,
   "review_reciprocity": 2.7241379310344827,
-  "hybrid_score": 0.474,
-  "p2016_hybrid_score": 0.474,
-  "modern_hybrid_score": 0.394,
+  "hybrid_score": 0.4765,
+  "p2016_hybrid_score": 0.4765,
+  "modern_hybrid_score": 0.3986,
   "impact_score": 25.0,
   "p2016_impact_score": 25.0,
   "modern_impact_score": 21.0,
@@ -71,8 +71,8 @@
   ],
   "expertise_by_source": {
     "code": {
+      "Infrastructure": 0.99,
       "Consensus": 0.002,
-      "Infrastructure": 0.989,
       "Network": 0.009
     }
   },

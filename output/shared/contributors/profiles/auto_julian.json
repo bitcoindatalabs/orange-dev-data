@@ -48,7 +48,7 @@
   "review_reciprocity": null,
   "hybrid_score": 0.0067,
   "p2016_hybrid_score": 0.0104,
-  "modern_hybrid_score": 0.0366,
+  "modern_hybrid_score": 0.0367,
   "impact_score": 0.0,
   "p2016_impact_score": 1.0,
   "modern_impact_score": 2.0,
@@ -58,8 +58,8 @@
   "delving_threads": 3.0,
   "ml_responses": 1.0,
   "delving_responses": 4.0,
-  "first_active": null,
-  "last_active": "2026-02-08T15:07:23.373000",
+  "first_active": "2025-11-07T09:50:55",
+  "last_active": null,
   "dev_type": "Participant",
   "expertise_domains": [
     "Consensus",
@@ -68,8 +68,8 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Consensus": 0.5,
       "Script": 0.286,
+      "Consensus": 0.5,
       "Cryptography": 0.214
     }
   },
@@ -88,8 +88,8 @@
   "is_reviewer": false,
   "is_researcher": true,
   "is_bip_author": false,
-  "global_first_active": null,
-  "global_last_active": "2026-02-08T15:07:23.373000",
+  "global_first_active": "2025-11-07T09:50:55",
+  "global_last_active": null,
   "github_location": null,
   "github_company": null,
   "github_bio": null,
@@ -97,7 +97,7 @@
   "github_blog": null,
   "github_followers": null,
   "github_profile_fetched_at": null,
-  "activity_status": "Active",
+  "activity_status": "New",
   "geo_country_iso2": null,
   "geo_country_iso3": null,
   "geo_country_name": null,

@@ -1,9 +1,9 @@
 {
-  "display_name": "Anonymous_6308",
+  "display_name": "Anonymous_6311",
   "github_login_final": null,
   "github_id_final": null,
   "delving_username_final": "willcl-ark",
-  "uuid": "auto_6308",
+  "uuid": "auto_6311",
   "badges": null,
   "roles": null,
   "total_commits": 0.0,
@@ -58,8 +58,8 @@
   "delving_threads": 5.0,
   "ml_responses": 0.0,
   "delving_responses": 1.0,
-  "first_active": "2025-05-15T16:23:11.245000",
-  "last_active": "2026-05-18T14:52:14.130000",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Participant",
   "expertise_domains": [
     "Mining",
@@ -68,14 +68,14 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Mining": 0.385,
       "Mempool": 0.308,
+      "Mining": 0.385,
       "Network": 0.308
     }
   },
   "expertise_domain_scores": {
-    "Mining": 0.3846,
     "Mempool": 0.3077,
+    "Mining": 0.3846,
     "Network": 0.3077
   },
   "p2016_posts": 6.0,
@@ -88,8 +88,8 @@
   "is_reviewer": false,
   "is_researcher": false,
   "is_bip_author": false,
-  "global_first_active": "2025-05-15T16:23:11.245000",
-  "global_last_active": "2026-05-18T14:52:14.130000",
+  "global_first_active": null,
+  "global_last_active": null,
   "github_location": null,
   "github_company": null,
   "github_bio": null,

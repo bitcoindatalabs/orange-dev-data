@@ -62,7 +62,7 @@
   "review_reciprocity": 2.3333333333333335,
   "hybrid_score": 0.897,
   "p2016_hybrid_score": 0.9245,
-  "modern_hybrid_score": 0.6106,
+  "modern_hybrid_score": 0.6108,
   "impact_score": 42.0,
   "p2016_impact_score": 43.0,
   "modern_impact_score": 31.0,
@@ -72,8 +72,8 @@
   "delving_threads": 0.0,
   "ml_responses": 21.0,
   "delving_responses": 0.0,
-  "first_active": null,
-  "last_active": null,
+  "first_active": "2020-06-08T04:28:28",
+  "last_active": "2025-01-17T07:02:50",
   "dev_type": "Protocol Designer",
   "expertise_domains": [
     "Wallet",
@@ -81,24 +81,24 @@
     "Consensus"
   ],
   "expertise_by_source": {
-    "code": {
-      "Infrastructure": 0.05,
-      "Wallet": 0.95
-    },
     "discussion": {
       "Script": 0.41,
       "Wallet": 0.59
     },
+    "code": {
+      "Infrastructure": 0.05,
+      "Wallet": 0.95
+    },
     "bips": {
-      "Script": 0.5,
-      "Consensus": 0.5
+      "Consensus": 0.5,
+      "Script": 0.5
     }
   },
   "expertise_domain_scores": {
-    "Consensus": 0.25,
     "Infrastructure": 0.015,
-    "Script": 0.332,
-    "Wallet": 0.403
+    "Consensus": 0.25,
+    "Wallet": 0.403,
+    "Script": 0.332
   },
   "p2016_posts": 26.0,
   "modern_posts": 3.0,
@@ -110,7 +110,7 @@
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": true,
-  "global_first_active": "2021-04-12T15:39:10",
+  "global_first_active": "2020-06-08T04:28:28",
   "global_last_active": "2026-08-18T09:08:59",
   "github_location": null,
   "github_company": null,

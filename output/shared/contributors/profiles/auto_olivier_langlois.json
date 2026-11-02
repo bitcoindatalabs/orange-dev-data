@@ -58,8 +58,8 @@
   "delving_threads": 0.0,
   "ml_responses": 5.0,
   "delving_responses": 0.0,
-  "first_active": null,
-  "last_active": null,
+  "first_active": "2013-09-30T23:03:39",
+  "last_active": "2013-10-03T22:52:18",
   "dev_type": "Builder",
   "expertise_domains": [
     "Infrastructure",
@@ -67,18 +67,18 @@
     "Mining"
   ],
   "expertise_by_source": {
+    "discussion": {
+      "Mempool": 0.5,
+      "Mining": 0.5
+    },
     "code": {
       "Infrastructure": 1.0
-    },
-    "discussion": {
-      "Mining": 0.5,
-      "Mempool": 0.5
     }
   },
   "expertise_domain_scores": {
+    "Mempool": 0.2,
     "Mining": 0.2,
-    "Infrastructure": 0.6,
-    "Mempool": 0.2
+    "Infrastructure": 0.6
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,
@@ -90,7 +90,7 @@
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": false,
-  "global_first_active": "2013-11-04T13:55:37",
+  "global_first_active": "2013-09-30T23:03:39",
   "global_last_active": "2021-09-01T03:22:14",
   "github_location": "Montreal, Canada",
   "github_company": "Trillion01 Inc.",

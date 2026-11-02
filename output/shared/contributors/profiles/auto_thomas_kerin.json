@@ -70,8 +70,8 @@
   "delving_threads": 0.0,
   "ml_responses": 20.0,
   "delving_responses": 0.0,
-  "first_active": null,
-  "last_active": null,
+  "first_active": "2014-03-27T08:12:07",
+  "last_active": "2019-05-26T14:34:55",
   "dev_type": "Protocol Designer",
   "expertise_domains": [
     "Script",
@@ -79,25 +79,25 @@
     "Infrastructure"
   ],
   "expertise_by_source": {
+    "discussion": {
+      "Script": 0.389,
+      "Wallet": 0.611
+    },
     "code": {
       "Infrastructure": 0.667,
       "Network": 0.167,
       "Script": 0.167
     },
-    "discussion": {
-      "Script": 0.389,
-      "Wallet": 0.611
-    },
     "bips": {
-      "Script": 0.5,
-      "Consensus": 0.5
+      "Consensus": 0.5,
+      "Script": 0.5
     }
   },
   "expertise_domain_scores": {
-    "Consensus": 0.2499,
     "Infrastructure": 0.2,
-    "Script": 0.3778,
+    "Consensus": 0.2499,
     "Wallet": 0.1222,
+    "Script": 0.3778,
     "Network": 0.0501
   },
   "p2016_posts": 7.0,
@@ -110,7 +110,7 @@
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": true,
-  "global_first_active": "2015-02-12T15:02:56",
+  "global_first_active": "2014-03-27T08:12:07",
   "global_last_active": "2021-11-08T17:33:24",
   "github_location": "Ireland",
   "github_company": null,

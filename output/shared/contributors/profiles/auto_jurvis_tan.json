@@ -70,8 +70,8 @@
   "delving_threads": 2.0,
   "ml_responses": 0.0,
   "delving_responses": 1.0,
-  "first_active": "2025-07-15T00:38:33.001000",
-  "last_active": "2025-10-15T03:40:34.123000",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Participant",
   "expertise_domains": [
     "Infrastructure",
@@ -81,8 +81,8 @@
   "expertise_by_source": {
     "discussion": {
       "Script": 0.25,
-      "Wallet": 0.5,
-      "L2": 0.25
+      "L2": 0.25,
+      "Wallet": 0.5
     },
     "bips": {
       "Infrastructure": 1.0
@@ -90,8 +90,8 @@
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.7143,
-    "Script": 0.0714,
     "Wallet": 0.1429,
+    "Script": 0.0714,
     "L2": 0.0714
   },
   "p2016_posts": 3.0,
@@ -104,7 +104,7 @@
   "is_reviewer": true,
   "is_researcher": false,
   "is_bip_author": true,
-  "global_first_active": "2025-07-15T00:38:33.001000",
+  "global_first_active": "2025-11-30T23:39:17",
   "global_last_active": "2026-02-04T14:58:08",
   "github_location": "Los Angeles, CA",
   "github_company": null,
@@ -113,7 +113,7 @@
   "github_blog": "https://jurv.is/",
   "github_followers": 102.0,
   "github_profile_fetched_at": "2026-10-20T19:53:24Z",
-  "activity_status": "Active",
+  "activity_status": "New",
   "geo_country_iso2": "US",
   "geo_country_iso3": "USA",
   "geo_country_name": "USA",

@@ -72,8 +72,8 @@
     }
   },
   "expertise_domain_scores": {
-    "Script": 0.25,
-    "Wallet": 0.75
+    "Wallet": 0.75,
+    "Script": 0.25
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,

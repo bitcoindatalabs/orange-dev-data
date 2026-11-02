@@ -48,7 +48,7 @@
   "review_reciprocity": 3.7058823529411766,
   "hybrid_score": 0.3487,
   "p2016_hybrid_score": 0.3624,
-  "modern_hybrid_score": 0.4758,
+  "modern_hybrid_score": 0.4763,
   "impact_score": 19.0,
   "p2016_impact_score": 20.0,
   "modern_impact_score": 25.0,
@@ -58,8 +58,8 @@
   "delving_threads": 1.0,
   "ml_responses": 5.0,
   "delving_responses": 4.0,
-  "first_active": "2024-05-22T15:25:38.310000",
-  "last_active": null,
+  "first_active": null,
+  "last_active": "2025-12-14T14:30:17",
   "dev_type": "Builder",
   "expertise_domains": [
     "Wallet",
@@ -67,20 +67,20 @@
     "Privacy"
   ],
   "expertise_by_source": {
+    "discussion": {
+      "Privacy": 0.313,
+      "Wallet": 0.687
+    },
     "code": {
       "Infrastructure": 0.426,
       "Wallet": 0.463,
       "Script": 0.111
-    },
-    "discussion": {
-      "Wallet": 0.687,
-      "Privacy": 0.313
     }
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.2556,
-    "Script": 0.0666,
     "Wallet": 0.5526,
+    "Script": 0.0666,
     "Privacy": 0.1252
   },
   "p2016_posts": 10.0,

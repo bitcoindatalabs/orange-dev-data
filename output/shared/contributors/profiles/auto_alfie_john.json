@@ -58,8 +58,8 @@
   "delving_threads": 0.0,
   "ml_responses": 5.0,
   "delving_responses": 0.0,
-  "first_active": null,
-  "last_active": null,
+  "first_active": "2016-06-08T18:47:28",
+  "last_active": "2023-01-01T06:42:50",
   "dev_type": "Builder",
   "expertise_domains": [
     "Infrastructure",
@@ -67,17 +67,17 @@
     "Mempool"
   ],
   "expertise_by_source": {
-    "code": {
-      "Infrastructure": 1.0
-    },
     "discussion": {
       "Mempool": 0.304,
       "Network": 0.696
+    },
+    "code": {
+      "Infrastructure": 1.0
     }
   },
   "expertise_domain_scores": {
-    "Infrastructure": 0.6,
     "Mempool": 0.1216,
+    "Infrastructure": 0.6,
     "Network": 0.2784
   },
   "p2016_posts": 6.0,
@@ -91,7 +91,7 @@
   "is_researcher": true,
   "is_bip_author": false,
   "global_first_active": "2016-02-29T08:30:42",
-  "global_last_active": "2016-02-29T08:30:42",
+  "global_last_active": "2023-01-01T06:42:50",
   "github_location": null,
   "github_company": null,
   "github_bio": "🔥 Rust all the things 🔥\r\n",

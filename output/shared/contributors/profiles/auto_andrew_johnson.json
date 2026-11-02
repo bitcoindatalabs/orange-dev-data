@@ -58,8 +58,8 @@
   "delving_threads": 0.0,
   "ml_responses": 16.0,
   "delving_responses": 0.0,
-  "first_active": null,
-  "last_active": null,
+  "first_active": "2015-09-08T11:46:33",
+  "last_active": "2017-09-29T13:07:26",
   "dev_type": "Participant",
   "expertise_domains": [
     "Consensus",
@@ -74,8 +74,8 @@
     }
   },
   "expertise_domain_scores": {
-    "Consensus": 0.725,
     "Mining": 0.174,
+    "Consensus": 0.725,
     "Ecosystem": 0.101
   },
   "p2016_posts": 15.0,
@@ -88,8 +88,8 @@
   "is_reviewer": false,
   "is_researcher": true,
   "is_bip_author": false,
-  "global_first_active": null,
-  "global_last_active": null,
+  "global_first_active": "2015-09-08T11:46:33",
+  "global_last_active": "2017-09-29T13:07:26",
   "github_location": null,
   "github_company": null,
   "github_bio": null,

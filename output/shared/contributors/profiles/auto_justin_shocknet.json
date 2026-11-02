@@ -58,8 +58,8 @@
   "delving_threads": 2.0,
   "ml_responses": 0.0,
   "delving_responses": 3.0,
-  "first_active": "2024-06-04T15:33:21.166000",
-  "last_active": "2025-06-28T18:12:18.711000",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Participant",
   "expertise_domains": [
     "Consensus",
@@ -74,8 +74,8 @@
     }
   },
   "expertise_domain_scores": {
-    "Consensus": 0.4444,
     "Mining": 0.2222,
+    "Consensus": 0.4444,
     "L2": 0.3333
   },
   "p2016_posts": 5.0,
@@ -88,7 +88,7 @@
   "is_reviewer": true,
   "is_researcher": false,
   "is_bip_author": false,
-  "global_first_active": "2024-06-04T15:33:21.166000",
+  "global_first_active": "2025-07-15T20:11:42",
   "global_last_active": "2025-10-26T17:54:26",
   "github_location": "US",
   "github_company": "@shocknet ",

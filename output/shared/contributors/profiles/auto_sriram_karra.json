@@ -58,8 +58,8 @@
   "delving_threads": 0.0,
   "ml_responses": 8.0,
   "delving_responses": 0.0,
-  "first_active": null,
-  "last_active": null,
+  "first_active": "2015-07-22T12:02:49",
+  "last_active": "2015-10-08T23:22:32",
   "dev_type": "Participant",
   "expertise_domains": [
     "Consensus",
@@ -72,8 +72,8 @@
     }
   },
   "expertise_domain_scores": {
-    "Consensus": 0.604,
-    "Mempool": 0.396
+    "Mempool": 0.396,
+    "Consensus": 0.604
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,
@@ -85,8 +85,8 @@
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": false,
-  "global_first_active": "2015-08-11T10:46:48",
-  "global_last_active": "2015-08-11T10:46:48",
+  "global_first_active": "2015-07-22T12:02:49",
+  "global_last_active": "2015-10-08T23:22:32",
   "github_location": "Sunnyvale, CA",
   "github_company": "Google Inc",
   "github_bio": null,

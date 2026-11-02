@@ -46,10 +46,10 @@
   "avg_pr_ack_velocity_days": 11.850943813131313,
   "avg_concept_lead_time_days": 9.059110725308642,
   "review_reciprocity": 2.9411764705882355,
-  "hybrid_score": 0.2583,
-  "p2016_hybrid_score": 0.2624,
-  "modern_hybrid_score": 0.2868,
-  "impact_score": 14.0,
+  "hybrid_score": 0.2672,
+  "p2016_hybrid_score": 0.2713,
+  "modern_hybrid_score": 0.2959,
+  "impact_score": 15.0,
   "p2016_impact_score": 15.0,
   "modern_impact_score": 16.0,
   "threads_started": 1.0,
@@ -58,8 +58,8 @@
   "delving_threads": 0.0,
   "ml_responses": 1.0,
   "delving_responses": 0.0,
-  "first_active": null,
-  "last_active": null,
+  "first_active": "2026-08-18T03:00:01",
+  "last_active": "2026-08-21T15:29:23",
   "dev_type": "Builder",
   "expertise_domains": [
     "Infrastructure",
@@ -67,19 +67,19 @@
     "Wallet"
   ],
   "expertise_by_source": {
-    "code": {
-      "Consensus": 0.1,
-      "Infrastructure": 0.9
-    },
     "discussion": {
       "Mempool": 0.667,
       "Wallet": 0.333
+    },
+    "code": {
+      "Infrastructure": 0.917,
+      "Consensus": 0.083
     }
   },
   "expertise_domain_scores": {
-    "Consensus": 0.06,
-    "Infrastructure": 0.54,
     "Mempool": 0.2668,
+    "Infrastructure": 0.5502,
+    "Consensus": 0.0498,
     "Wallet": 0.1332
   },
   "p2016_posts": 2.0,

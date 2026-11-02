@@ -58,8 +58,8 @@
   "delving_threads": 0.0,
   "ml_responses": 4.0,
   "delving_responses": 0.0,
-  "first_active": null,
-  "last_active": null,
+  "first_active": "2022-10-19T08:40:35",
+  "last_active": "2023-05-08T16:33:24",
   "dev_type": "Builder",
   "expertise_domains": [
     "Infrastructure",
@@ -67,20 +67,20 @@
     "Network"
   ],
   "expertise_by_source": {
+    "discussion": {
+      "Mempool": 0.553,
+      "Mining": 0.224,
+      "Script": 0.224
+    },
     "code": {
       "Infrastructure": 0.8,
       "Network": 0.2
-    },
-    "discussion": {
-      "Mining": 0.224,
-      "Mempool": 0.553,
-      "Script": 0.224
     }
   },
   "expertise_domain_scores": {
+    "Mempool": 0.2211,
     "Mining": 0.0896,
     "Infrastructure": 0.4798,
-    "Mempool": 0.2211,
     "Script": 0.0896,
     "Network": 0.12
   },
@@ -94,7 +94,7 @@
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": false,
-  "global_first_active": "2024-03-29T21:59:59",
+  "global_first_active": "2022-10-19T08:40:35",
   "global_last_active": "2024-09-01T09:56:21",
   "github_location": "London",
   "github_company": null,

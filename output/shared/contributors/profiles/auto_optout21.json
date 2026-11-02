@@ -68,16 +68,16 @@
   ],
   "expertise_by_source": {
     "code": {
-      "Consensus": 0.193,
       "Infrastructure": 0.697,
+      "Consensus": 0.193,
       "Network": 0.098,
       "Mempool": 0.012
     }
   },
   "expertise_domain_scores": {
-    "Consensus": 0.193,
-    "Infrastructure": 0.697,
     "Mempool": 0.012,
+    "Infrastructure": 0.697,
+    "Consensus": 0.193,
     "Network": 0.098
   },
   "p2016_posts": 0.0,

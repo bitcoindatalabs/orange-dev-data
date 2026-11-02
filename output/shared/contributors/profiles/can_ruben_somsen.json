@@ -60,7 +60,7 @@
   "review_reciprocity": null,
   "hybrid_score": 0.7801,
   "p2016_hybrid_score": 0.8769,
-  "modern_hybrid_score": 0.9804,
+  "modern_hybrid_score": 0.9808,
   "impact_score": 37.0,
   "p2016_impact_score": 41.0,
   "modern_impact_score": 44.0,
@@ -70,8 +70,8 @@
   "delving_threads": 13.0,
   "ml_responses": 76.0,
   "delving_responses": 5.0,
-  "first_active": null,
-  "last_active": "2026-10-19T07:46:25.894000",
+  "first_active": "2018-09-01T12:26:54",
+  "last_active": null,
   "dev_type": "Reviewer",
   "expertise_domains": [
     "Privacy",
@@ -82,8 +82,8 @@
       "Privacy": 1.0
     },
     "bips": {
-      "Privacy": 0.5,
-      "Infrastructure": 0.5
+      "Infrastructure": 0.5,
+      "Privacy": 0.5
     }
   },
   "expertise_domain_scores": {
@@ -100,8 +100,8 @@
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": true,
-  "global_first_active": "2022-04-20T08:45:49",
-  "global_last_active": "2026-10-19T07:46:25.894000",
+  "global_first_active": "2018-09-01T12:26:54",
+  "global_last_active": "2026-02-27T20:44:59",
   "github_location": "Amsterdam",
   "github_company": "2140.dev",
   "github_bio": "PGP: 9878 C48E 7D45 2F8E AEB2 3EB6 4DFA 005F 1358 625F",

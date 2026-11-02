@@ -58,8 +58,8 @@
   "delving_threads": 2.0,
   "ml_responses": 0.0,
   "delving_responses": 0.0,
-  "first_active": "2026-10-26T20:38:05.389000",
-  "last_active": "2026-10-27T15:12:41.785000",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Participant",
   "expertise_domains": [
     "Mempool",
@@ -67,13 +67,13 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Mining": 0.333,
-      "Mempool": 0.667
+      "Mempool": 0.667,
+      "Mining": 0.333
     }
   },
   "expertise_domain_scores": {
-    "Mining": 0.333,
-    "Mempool": 0.667
+    "Mempool": 0.667,
+    "Mining": 0.333
   },
   "p2016_posts": 2.0,
   "modern_posts": 2.0,
@@ -85,8 +85,8 @@
   "is_reviewer": false,
   "is_researcher": false,
   "is_bip_author": false,
-  "global_first_active": "2026-10-26T20:38:05.389000",
-  "global_last_active": "2026-10-27T15:12:41.785000",
+  "global_first_active": null,
+  "global_last_active": null,
   "github_location": null,
   "github_company": null,
   "github_bio": null,

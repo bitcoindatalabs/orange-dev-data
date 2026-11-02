@@ -48,7 +48,7 @@
   "review_reciprocity": null,
   "hybrid_score": 0.0125,
   "p2016_hybrid_score": 0.0198,
-  "modern_hybrid_score": 0.0656,
+  "modern_hybrid_score": 0.0658,
   "impact_score": 1.0,
   "p2016_impact_score": 1.0,
   "modern_impact_score": 4.0,
@@ -58,8 +58,8 @@
   "delving_threads": 0.0,
   "ml_responses": 3.0,
   "delving_responses": 0.0,
-  "first_active": null,
-  "last_active": null,
+  "first_active": "2025-12-13T19:51:47",
+  "last_active": "2026-01-18T19:11:10",
   "dev_type": "Participant",
   "expertise_domains": [
     "Mempool",
@@ -67,13 +67,13 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Mining": 0.141,
-      "Mempool": 0.859
+      "Mempool": 0.859,
+      "Mining": 0.141
     }
   },
   "expertise_domain_scores": {
-    "Mining": 0.141,
-    "Mempool": 0.859
+    "Mempool": 0.859,
+    "Mining": 0.141
   },
   "p2016_posts": 3.0,
   "modern_posts": 3.0,
@@ -85,8 +85,8 @@
   "is_reviewer": false,
   "is_researcher": true,
   "is_bip_author": false,
-  "global_first_active": null,
-  "global_last_active": null,
+  "global_first_active": "2025-12-13T19:51:47",
+  "global_last_active": "2026-01-18T19:11:10",
   "github_location": null,
   "github_company": null,
   "github_bio": null,
@@ -94,7 +94,7 @@
   "github_blog": null,
   "github_followers": null,
   "github_profile_fetched_at": null,
-  "activity_status": "Active",
+  "activity_status": "New",
   "geo_country_iso2": null,
   "geo_country_iso3": null,
   "geo_country_name": null,

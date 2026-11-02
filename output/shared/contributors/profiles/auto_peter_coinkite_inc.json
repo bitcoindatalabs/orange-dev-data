@@ -61,20 +61,20 @@
   "delving_threads": 0.0,
   "ml_responses": 19.0,
   "delving_responses": 0.0,
-  "first_active": null,
-  "last_active": null,
+  "first_active": "2015-02-06T13:06:07",
+  "last_active": "2022-08-04T13:36:06",
   "dev_type": "Protocol Designer",
   "expertise_domains": [
     "Wallet",
     "Consensus"
   ],
   "expertise_by_source": {
-    "code": {
-      "Wallet": 1.0
-    },
     "discussion": {
       "Consensus": 0.058,
       "Wallet": 0.942
+    },
+    "code": {
+      "Wallet": 1.0
     },
     "bips": {
       "Wallet": 1.0
@@ -94,8 +94,8 @@
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": true,
-  "global_first_active": "2019-04-30T23:19:55",
-  "global_last_active": "2022-07-13T15:13:03",
+  "global_first_active": "2015-02-06T13:06:07",
+  "global_last_active": "2022-08-04T13:36:06",
   "github_location": "Toronto, Ontario, Canada",
   "github_company": "Coinkite Inc.",
   "github_bio": null,

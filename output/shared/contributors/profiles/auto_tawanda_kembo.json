@@ -58,8 +58,8 @@
   "delving_threads": 0.0,
   "ml_responses": 0.0,
   "delving_responses": 0.0,
-  "first_active": null,
-  "last_active": null,
+  "first_active": "2014-05-28T11:37:40",
+  "last_active": "2014-05-28T11:37:40",
   "dev_type": "Builder",
   "expertise_domains": [
     "Infrastructure"
@@ -82,7 +82,7 @@
   "is_reviewer": true,
   "is_researcher": false,
   "is_bip_author": false,
-  "global_first_active": "2014-06-02T13:21:54",
+  "global_first_active": "2014-05-28T11:37:40",
   "global_last_active": "2014-06-02T13:21:54",
   "github_location": "Johannesburg, South Africa",
   "github_company": null,

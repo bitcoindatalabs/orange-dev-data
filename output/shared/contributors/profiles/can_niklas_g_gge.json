@@ -58,7 +58,7 @@
   "review_reciprocity": 6.2298850574712645,
   "hybrid_score": 0.5259,
   "p2016_hybrid_score": 0.532,
-  "modern_hybrid_score": 0.5359,
+  "modern_hybrid_score": 0.5358,
   "impact_score": 27.0,
   "p2016_impact_score": 27.0,
   "modern_impact_score": 27.0,
@@ -68,8 +68,8 @@
   "delving_threads": 2.0,
   "ml_responses": 1.0,
   "delving_responses": 1.0,
-  "first_active": "2023-12-21T16:39:35.378000",
-  "last_active": null,
+  "first_active": null,
+  "last_active": "2026-05-05T08:17:45",
   "dev_type": "Builder",
   "expertise_domains": [
     "Ecosystem",
@@ -77,21 +77,21 @@
     "Network"
   ],
   "expertise_by_source": {
-    "code": {
-      "Consensus": 0.059,
-      "Infrastructure": 0.532,
-      "Wallet": 0.003,
-      "Network": 0.401,
-      "Mempool": 0.003,
-      "Script": 0.001
-    },
     "discussion": {
       "Ecosystem": 1.0
+    },
+    "code": {
+      "Infrastructure": 0.532,
+      "Consensus": 0.059,
+      "Wallet": 0.003,
+      "Network": 0.401,
+      "Script": 0.001,
+      "Mempool": 0.003
     }
   },
   "expertise_domain_scores": {
-    "Consensus": 0.0354,
     "Infrastructure": 0.3194,
+    "Consensus": 0.0354,
     "Ecosystem": 0.4002,
     "Network": 0.2407
   },

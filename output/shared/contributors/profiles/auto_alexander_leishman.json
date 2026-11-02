@@ -58,8 +58,8 @@
   "delving_threads": 1.0,
   "ml_responses": 3.0,
   "delving_responses": 1.0,
-  "first_active": null,
-  "last_active": "2026-02-13T18:20:41.438000",
+  "first_active": "2014-10-25T16:51:59",
+  "last_active": null,
   "dev_type": "Builder",
   "expertise_domains": [
     "Infrastructure",
@@ -67,17 +67,17 @@
     "Cryptography"
   ],
   "expertise_by_source": {
-    "code": {
-      "Infrastructure": 1.0
-    },
     "discussion": {
       "Consensus": 0.75,
       "Cryptography": 0.25
+    },
+    "code": {
+      "Infrastructure": 1.0
     }
   },
   "expertise_domain_scores": {
-    "Consensus": 0.3,
     "Infrastructure": 0.6,
+    "Consensus": 0.3,
     "Cryptography": 0.1
   },
   "p2016_posts": 5.0,
@@ -90,8 +90,8 @@
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": false,
-  "global_first_active": "2018-08-16T10:51:30",
-  "global_last_active": "2026-02-13T18:20:41.438000",
+  "global_first_active": "2014-10-25T16:51:59",
+  "global_last_active": "2021-04-15T19:26:20",
   "github_location": null,
   "github_company": "River",
   "github_bio": null,

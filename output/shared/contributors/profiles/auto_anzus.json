@@ -58,8 +58,8 @@
   "delving_threads": 28.0,
   "ml_responses": 0.0,
   "delving_responses": 4.0,
-  "first_active": "2026-08-14T03:14:47.387000",
-  "last_active": "2026-10-28T03:04:46.405000",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Participant",
   "expertise_domains": [
     "Wallet",
@@ -75,8 +75,8 @@
   },
   "expertise_domain_scores": {
     "Mining": 0.286,
-    "Script": 0.314,
-    "Wallet": 0.4
+    "Wallet": 0.4,
+    "Script": 0.314
   },
   "p2016_posts": 32.0,
   "modern_posts": 32.0,
@@ -88,8 +88,8 @@
   "is_reviewer": false,
   "is_researcher": false,
   "is_bip_author": false,
-  "global_first_active": "2026-08-14T03:14:47.387000",
-  "global_last_active": "2026-10-28T03:04:46.405000",
+  "global_first_active": null,
+  "global_last_active": null,
   "github_location": null,
   "github_company": null,
   "github_bio": null,

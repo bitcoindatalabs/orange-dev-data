@@ -58,8 +58,8 @@
   "delving_threads": 1.0,
   "ml_responses": 0.0,
   "delving_responses": 1.0,
-  "first_active": "2026-06-20T10:31:20.206000",
-  "last_active": "2026-06-22T04:14:00.620000",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Builder",
   "expertise_domains": [
     "Consensus",
@@ -67,19 +67,19 @@
     "Mining"
   ],
   "expertise_by_source": {
-    "code": {
-      "Consensus": 0.5,
-      "Infrastructure": 0.5
-    },
     "discussion": {
       "Mining": 0.67,
       "Ecosystem": 0.33
+    },
+    "code": {
+      "Infrastructure": 0.5,
+      "Consensus": 0.5
     }
   },
   "expertise_domain_scores": {
-    "Consensus": 0.3,
     "Mining": 0.268,
     "Infrastructure": 0.3,
+    "Consensus": 0.3,
     "Ecosystem": 0.132
   },
   "p2016_posts": 2.0,
@@ -92,7 +92,7 @@
   "is_reviewer": true,
   "is_researcher": false,
   "is_bip_author": false,
-  "global_first_active": "2026-06-20T10:31:20.206000",
+  "global_first_active": "2026-09-16T07:59:23",
   "global_last_active": "2026-09-16T07:59:23",
   "github_location": "Brasília, BR",
   "github_company": "University of Brasilia",

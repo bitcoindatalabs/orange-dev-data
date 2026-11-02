@@ -70,8 +70,8 @@
   "delving_threads": 0.0,
   "ml_responses": 83.0,
   "delving_responses": 0.0,
-  "first_active": null,
-  "last_active": null,
+  "first_active": "2014-06-06T17:53:25",
+  "last_active": "2025-10-03T09:59:32",
   "dev_type": "Protocol Designer",
   "expertise_domains": [
     "Infrastructure",
@@ -79,12 +79,12 @@
     "Consensus"
   ],
   "expertise_by_source": {
+    "discussion": {
+      "Script": 0.407,
+      "Consensus": 0.593
+    },
     "code": {
       "Infrastructure": 1.0
-    },
-    "discussion": {
-      "Consensus": 0.593,
-      "Script": 0.407
     },
     "bips": {
       "Infrastructure": 0.5,
@@ -92,8 +92,8 @@
     }
   },
   "expertise_domain_scores": {
-    "Consensus": 0.1186,
     "Infrastructure": 0.55,
+    "Consensus": 0.1186,
     "Script": 0.3314
   },
   "p2016_posts": 83.0,

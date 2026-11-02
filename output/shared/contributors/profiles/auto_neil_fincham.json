@@ -58,8 +58,8 @@
   "delving_threads": 0.0,
   "ml_responses": 4.0,
   "delving_responses": 0.0,
-  "first_active": null,
-  "last_active": null,
+  "first_active": "2013-09-28T21:28:26",
+  "last_active": "2015-08-04T19:40:42",
   "dev_type": "Participant",
   "expertise_domains": [
     "Mempool"
@@ -82,8 +82,8 @@
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": false,
-  "global_first_active": "2015-01-31T21:03:23",
-  "global_last_active": "2015-02-04T19:55:55",
+  "global_first_active": "2013-09-28T21:28:26",
+  "global_last_active": "2015-08-04T19:40:42",
   "github_location": "New Zealand",
   "github_company": null,
   "github_bio": null,

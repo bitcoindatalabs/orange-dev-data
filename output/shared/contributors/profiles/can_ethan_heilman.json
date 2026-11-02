@@ -70,8 +70,8 @@
   "delving_threads": 4.0,
   "ml_responses": 74.0,
   "delving_responses": 9.0,
-  "first_active": null,
-  "last_active": null,
+  "first_active": "2014-06-03T06:51:45",
+  "last_active": "2026-05-05T14:17:23",
   "dev_type": "Protocol Designer",
   "expertise_domains": [
     "Consensus",
@@ -79,22 +79,22 @@
     "Cryptography"
   ],
   "expertise_by_source": {
+    "discussion": {
+      "Script": 0.351,
+      "Consensus": 0.211,
+      "Cryptography": 0.439
+    },
     "code": {
       "Infrastructure": 0.769,
       "Network": 0.231
-    },
-    "discussion": {
-      "Consensus": 0.211,
-      "Script": 0.351,
-      "Cryptography": 0.439
     },
     "bips": {
       "Consensus": 1.0
     }
   },
   "expertise_domain_scores": {
-    "Consensus": 0.5421,
     "Infrastructure": 0.2307,
+    "Consensus": 0.5421,
     "Script": 0.0702,
     "Network": 0.0693,
     "Cryptography": 0.0878
@@ -109,7 +109,7 @@
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": true,
-  "global_first_active": "2015-09-30T17:42:18",
+  "global_first_active": "2014-06-03T06:51:45",
   "global_last_active": "2026-06-15T02:07:11",
   "github_location": null,
   "github_company": "@cloudflare",

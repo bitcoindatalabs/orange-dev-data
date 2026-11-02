@@ -58,8 +58,8 @@
   "delving_threads": 1.0,
   "ml_responses": 0.0,
   "delving_responses": 0.0,
-  "first_active": "2026-09-24T22:07:41.190000",
-  "last_active": "2026-09-24T22:07:41.190000",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Participant",
   "expertise_domains": [
     "Privacy",
@@ -74,8 +74,8 @@
     }
   },
   "expertise_domain_scores": {
-    "Consensus": 0.2537,
     "Mempool": 0.2537,
+    "Consensus": 0.2537,
     "Privacy": 0.4925
   },
   "p2016_posts": 1.0,
@@ -89,7 +89,7 @@
   "is_researcher": false,
   "is_bip_author": false,
   "global_first_active": "2026-09-03T12:22:16",
-  "global_last_active": "2026-09-24T22:07:41.190000",
+  "global_last_active": "2026-09-18T21:13:09",
   "github_location": "Turnhout, BE",
   "github_company": "Bitsaga",
   "github_bio": "Freedom engineer",

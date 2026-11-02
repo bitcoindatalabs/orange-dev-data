@@ -70,8 +70,8 @@
   "delving_threads": 0.0,
   "ml_responses": 173.0,
   "delving_responses": 0.0,
-  "first_active": null,
-  "last_active": null,
+  "first_active": "2014-09-15T02:23:02",
+  "last_active": "2017-09-02T16:13:57",
   "dev_type": "Protocol Designer",
   "expertise_domains": [
     "Consensus",
@@ -79,21 +79,21 @@
     "Mining"
   ],
   "expertise_by_source": {
-    "code": {
-      "Infrastructure": 1.0
-    },
     "discussion": {
       "Mining": 0.385,
       "Consensus": 0.615
+    },
+    "code": {
+      "Infrastructure": 1.0
     },
     "bips": {
       "Consensus": 1.0
     }
   },
   "expertise_domain_scores": {
-    "Consensus": 0.623,
     "Mining": 0.077,
-    "Infrastructure": 0.3
+    "Infrastructure": 0.3,
+    "Consensus": 0.623
   },
   "p2016_posts": 100.0,
   "modern_posts": 0.0,
@@ -106,7 +106,7 @@
   "is_researcher": true,
   "is_bip_author": true,
   "global_first_active": "2014-03-15T06:41:29",
-  "global_last_active": "2017-05-24T21:11:25",
+  "global_last_active": "2017-09-02T16:13:57",
   "github_location": null,
   "github_company": null,
   "github_bio": null,

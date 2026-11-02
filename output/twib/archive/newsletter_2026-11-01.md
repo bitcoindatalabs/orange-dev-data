@@ -1,8 +1,8 @@
 # 📰 This Week in Bitcoin (2026-10-26 to 2026-11-01)
 
 ## 📌 The TL;DR
-- Continued focus on long-term protocol resilience and advanced on-chain capabilities:** Discussions around mitigating quantum-vulnerable UTXOs highlight a proactive approach to future security threats, while the BIP draft for Co-signer Spending Policies and the extension of Silent Payments to multiparty wallets indicate significant progress towards more robust and private on-chain contract designs. The allowance of non-standard scripts on testnets further supports experimentation for future protocol evolution.
-- Sustained investment in code quality, testing, and development infrastructure:** A substantial volume of merged PRs focused on fuzzing, comprehensive testing, CI improvements, and extensive refactoring demonstrates a continuous, high-priority effort to enhance the codebase's robustness, maintainability, and reliability.
+- A notable technical shift towards enabling more flexible policy experimentation on testnets, exemplified by allowing non-standard scripts, is underway, alongside critical long-term protocol discussions concerning future security challenges like quantum vulnerability and advanced spending conditions such as co-signer policies.
+- There's a sustained and significant focus on enhancing the core codebase's robustness, maintainability, and developer tooling, evident through extensive refactoring, improved fuzzing infrastructure, and continuous integration enhancements.
 
 ## 🚢 Core Code (Merged This Week)
 The most critical pull requests merged into Bitcoin Core, ordered by community review activity.
@@ -55,17 +55,17 @@ The most critical pull requests merged into Bitcoin Core, ordered by community r
 
 **Technical Details:** The change involves harmonizing the exception handling logic for network sockets, specifically ensuring that both `poll()` and `select()` system call backends correctly detect and report exceptional conditions. This typically means ensuring that the `POLLPRI` flag for `poll()` and the `exceptfds` set for `select()` are consistently checked and processed, leading to uniform error propagation and connection management.
 
+#### [#36011: btcsignals: destroy callbacks on disconnect](https://github.com/bitcoin/bitcoin/pull/36011)
+**Author:** [@ryanofsky](https://github.com/ryanofsky) | **[Maintenance & Tech Debt]** *(Activity: 11 review events)*
+> This PR ensures that signal callbacks are properly destroyed when a connection is disconnected, preventing potential memory leaks and improving resource management. This contributes to a more stable and efficient node operation over time.
+
+**Technical Details:** The `btcsignals` system facilitates inter-component communication. This PR addresses a scenario where, upon a component or connection disconnecting, associated signal callbacks might not have been properly unregistered or deallocated. By explicitly destroying these callbacks on disconnect, it prevents dangling pointers or accumulated memory usage, ensuring resources are correctly released and avoiding potential crashes or memory exhaustion.
+
 #### [#36594: net: make orphan reconsideration more granular](https://github.com/bitcoin/bitcoin/pull/36594)
 **Author:** [@darosior](https://github.com/darosior) | **[Performance & Optimization]** *(Activity: 10 review events)*
 > This PR improves how Bitcoin Core handles orphaned transactions, making the reconsideration process more efficient. It helps the node process transactions more quickly when blocks arrive out of order or with missing parents.
 
 **Technical Details:** Previously, orphan reconsideration was a global process. This PR refactors `MaybeReconsiderOrphans` to operate on a per-transaction basis, allowing individual orphans to be re-evaluated for inclusion in the mempool without re-scanning all orphans. It introduces a mechanism to only re-evaluate orphans whose parents have recently become available, significantly reducing CPU overhead during orphan processing.
-
-#### [#36011: btcsignals: destroy callbacks on disconnect](https://github.com/bitcoin/bitcoin/pull/36011)
-**Author:** [@ryanofsky](https://github.com/ryanofsky) | **[Maintenance & Tech Debt]** *(Activity: 10 review events)*
-> This PR ensures that signal callbacks are properly destroyed when a connection is disconnected, preventing potential memory leaks and improving resource management. This contributes to a more stable and efficient node operation over time.
-
-**Technical Details:** The `btcsignals` system facilitates inter-component communication. This PR addresses a scenario where, upon a component or connection disconnecting, associated signal callbacks might not have been properly unregistered or deallocated. By explicitly destroying these callbacks on disconnect, it prevents dangling pointers or accumulated memory usage, ensuring resources are correctly released and avoiding potential crashes or memory exhaustion.
 
 #### [#36611: test: consolidate mempool constants](https://github.com/bitcoin/bitcoin/pull/36611)
 **Author:** [@fanquake](https://github.com/fanquake) | **[Maintenance & Tech Debt]** *(Activity: 9 review events)*
@@ -181,6 +181,12 @@ The most critical pull requests merged into Bitcoin Core, ordered by community r
 
 **Technical Details:** The change involves modifying the `depends/packages` or similar dependency management configuration to list `plyvel` as a required package for certain test environments, likely Python-based functional tests that interact with LevelDB. This ensures that automated CI/CD pipelines and developer setups can correctly resolve and install this dependency, preventing test failures due to missing libraries.
 
+#### [#1983: silentpayments: return 0 instead of `ARG_CHECK`ing for empty inputs/outputs](https://github.com/bitcoin-core/secp256k1/pull/1983)
+**Author:** [@theStack](https://github.com/theStack) | **[Network & Privacy]** *(Activity: 3 review events)*
+> This PR refines the error handling within the `secp256k1` library for silent payments. It changes the behavior for empty inputs or outputs, allowing the function to gracefully return a failure code instead of triggering a strict argument check. This improves the robustness and user experience when interacting with silent payments by preventing unnecessary program termination for valid edge cases.
+
+**Technical Details:** This modification in the `secp256k1` library specifically targets the `silentpayments` implementation. Instead of using `ARG_CHECK` for empty inputs or outputs, which typically asserts conditions and can lead to program termination or strict error propagation, the function will now return `0`. This change implies a more lenient and robust handling of edge cases where empty inputs/outputs might be valid or expected, allowing the calling code to handle the non-operation gracefully. It avoids potential crashes or overly strict validation in scenarios where an empty set is not a critical error but rather a condition that results in no cryptographic operation.
+
 #### [#970: Remove legacy BIP70 merchant name from tx details window](https://github.com/bitcoin-core/gui/pull/970)
 **Author:** [@maflcko](https://github.com/maflcko) | **[Wallet & User Tools]** *(Activity: 3 review events)*
 > This PR removes the display of legacy BIP70 merchant names from the transaction details window in the Bitcoin Core GUI. This streamlines the user interface by removing outdated information, as BIP70 is no longer widely used or supported.
@@ -243,7 +249,7 @@ The most actively discussed and reviewed open pull requests right now.
 > This PR changes how Bitcoin Core handles a specific type of network data, ensuring that all incoming information is processed in a consistent order. This prevents potential issues with out-of-order data processing from peers.
 
 #### [#36628: net: reimplement private broadcast as jobs isolated from the node](https://github.com/bitcoin/bitcoin/pull/36628)
-**Author:** [@instagibbs](https://github.com/instagibbs) | **[Network & Privacy]** *(Activity: 22 review events this week)*
+**Author:** [@instagibbs](https://github.com/instagibbs) | **[Network & Privacy]** *(Activity: 23 review events this week)*
 > This PR rearchitects how private transaction broadcasts are handled, isolating them as separate jobs from the main node's operation. This improves the reliability and efficiency of private transaction relay, particularly for wallet-initiated transactions.
 
 #### [#36673: [DRAFT] ci: Monitor Windows signing certificate expiry](https://github.com/bitcoin/bitcoin/pull/36673)
@@ -282,9 +288,9 @@ Top active threads across mailing lists and research forums.
 
 ### [Silent Payments for Multiparty Wallets](https://delvingbitcoin.org/t/silent-payments-for-multiparty-wallets/2960/2)
 **Source:** Delving | **Started By:** {'username': 'Oleks', 'uuid': 'auto_olkurbatov'} | **Messages:** 3
-> We're making strides to enable groups of people to use Silent Payments securely, bringing enhanced privacy to shared Bitcoin wallets and multi-party transactions. This work ensures that the benefits of private payments can be reliably extended to collaborative spending.
+> Making Bitcoin's privacy-enhancing Silent Payments work securely for shared wallets is a key focus, allowing multiple parties to approve transactions while maintaining strong privacy. This work aims to bring advanced privacy features to collaborative spending.
 
-**Technical Details:** The discussion centers on a new protocol to securely compose BIP-352 Silent Payments with multiparty signing schemes like FROST and MuSig2, addressing the initial lack of a security proof. Recent feedback clarified cryptographic notation regarding commitment aggregation (e.g., `c_i` vs `hat c_i = g * c_i`) and the proper application of accumulated parity, referencing BIP-327 and BIP-445. The architectural debate is on establishing a robust, shared interface that ensures cryptographic soundness when integrating diverse multiparty schemes, requiring careful construction of individual signer contributions and their aggregation.
+**Technical Details:** The thread discusses a new protocol to enable secure multiparty Silent Payments, addressing BIP-352's initial hesitation regarding FROST/MuSig2 due to unproven security. A recent clarification corrected a notation slip, detailing that individual `c_i` values should be transformed as `\hat c_i = g \cdot c_i`, akin to accumulated parity in BIP-327/445. The community appreciates the security focus and the potential for a shared interface across various multiparty signing schemes, indicating progress towards a robust, unified solution.
 
 ### [We made the bitcoin-dev mailing list readable: 15 years, 24,699 messages](https://delvingbitcoin.org/t/we-made-the-bitcoin-dev-mailing-list-readable-15-years-24-699-messages/2985/1)
 **Source:** Delving | **Started By:** {'username': 'LearnBitcoin.com', 'uuid': 'auto_learnbitcoin_com'} | **Messages:** 3
@@ -298,15 +304,15 @@ Top active threads across mailing lists and research forums.
 
 **Technical Details:** The discussion focuses on standardizing co-signer policies to enable covenant-like behavior, where co-signers sign only when a specific predicate holds. A critical feedback point highlights that the current `statement-v0` draft signs event ID, outcome, and timestamp, but fails to specify if the outcome is final or mutable. This omission could lead to co-signers acting on a preliminary or subsequently invalidated outcome. The policy standardization must therefore explicitly address outcome finality to ensure co-signers operate on definitive data, preventing potential transaction invalidations.
 
-### [Where should wallets explain the differences between on-chain Bitcoin and Lightning?](https://delvingbitcoin.org/t/where-should-wallets-explain-the-differences-between-on-chain-bitcoin-and-lightning/2922/2)
-**Source:** Delving | **Started By:** {'username': 'Anzus', 'uuid': 'auto_anzus'} | **Messages:** 2
-> Efforts are underway to simplify Bitcoin transactions for new users by clearly labeling payment types (on-chain vs. Lightning) at the confirmation stage, preventing common errors and improving user experience.
+### [Towards A K-of-N Lightning Network Node](https://delvingbitcoin.org/t/towards-a-k-of-n-lightning-network-node/2395/8)
+**Source:** Delving | **Started By:** {'username': 'ZmnSCPxj jxPCSnmZ', 'uuid': 'auto_zmnscpxj_jxpcsnmz'} | **Messages:** 2
+> We're exploring how to build more secure, shared Lightning Network nodes using multisignature technology, offering enhanced self-custody and resilience for your funds. This could make managing Lightning payments safer and more flexible for users.
 
-**Technical Details:** A recurring usability issue has been identified where users fail to distinguish between on-chain Bitcoin and Lightning Network payments, leading to confusion. The proposed solution focuses on a UI enhancement: explicitly labeling the payment type on the transaction confirmation screen. This approach is supported by observations from support teams, indicating that most user confusion occurs at the point of confirmation, suggesting that proactive labeling at this critical stage is more effective than relying on users to understand the distinction beforehand.
+**Technical Details:** The discussion focuses on designing a k-of-n multisignature self-custodial Lightning Network node, leveraging the Nested MuSig2 paper. The immediate question is whether to formalize this concept as an upstream bLIP, with potential numbers 266/267. Key technical concerns and architectural debates center on defining robust multi-signer coordination mechanisms and establishing reliable reestablishment rules for channels in such a distributed environment. This involves intricate details of how multiple parties securely manage and recover Lightning channel states.
 
 ## 🏆 Contributor Shoutouts
 ### ✍️ Top Authors
 The most active PR authors this week: [@fanquake](https://github.com/fanquake), [@darosior](https://github.com/darosior), [@maflcko](https://github.com/maflcko), [@l0rinc](https://github.com/l0rinc), [@HowHsu](https://github.com/HowHsu)
 
 ### 🕵️ Top Reviewers
-Providing critical review and testing: [@maflcko](https://github.com/maflcko), [@fanquake](https://github.com/fanquake), [@sedited](https://github.com/sedited), [@hebasto](https://github.com/hebasto), [@Sjors](https://github.com/Sjors)
+Providing critical review and testing: [@maflcko](https://github.com/maflcko), [@fanquake](https://github.com/fanquake), [@sedited](https://github.com/sedited), [@hebasto](https://github.com/hebasto), [@fametrano](https://github.com/fametrano)

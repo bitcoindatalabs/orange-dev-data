@@ -72,8 +72,8 @@
     }
   },
   "expertise_domain_scores": {
-    "Infrastructure": 0.388,
-    "Mempool": 0.612
+    "Mempool": 0.612,
+    "Infrastructure": 0.388
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,

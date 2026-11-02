@@ -20,24 +20,24 @@
   "roles": [
     "BIP Author"
   ],
-  "total_commits": 865.0,
-  "authored_commits": 865.0,
-  "tier1_authored_commits": 758.0,
+  "total_commits": 868.0,
+  "authored_commits": 868.0,
+  "tier1_authored_commits": 761.0,
   "tier2_authored_commits": 107.0,
   "merge_commits": 0.0,
   "tier1_merge_commits": 0.0,
   "tier2_merge_commits": 0.0,
   "self_merges": 0.0,
-  "total_additions": 18649.0,
-  "total_deletions": 11901.0,
+  "total_additions": 18695.0,
+  "total_deletions": 11934.0,
   "first_core_commit": "2012-01-23T18:15:04+00:00",
-  "last_core_commit": "2026-10-07T09:29:10+00:00",
+  "last_core_commit": "2026-10-31T09:40:41+00:00",
   "first_ecosystem_commit": "2022-11-22T11:06:32+00:00",
   "last_ecosystem_commit": "2026-07-09T01:49:22+00:00",
   "first_commit": "2012-01-23T18:15:04",
-  "last_commit": "2026-10-07T09:29:10",
-  "p2016_authored_commits": 865.0,
-  "modern_authored_commits": 347.0,
+  "last_commit": "2026-10-31T09:40:41",
+  "p2016_authored_commits": 868.0,
+  "modern_authored_commits": 350.0,
   "co_authored_commits": 50.0,
   "bips_authored": 2.0,
   "p2016_bips_authored": 2.0,
@@ -60,9 +60,9 @@
   "avg_pr_ack_velocity_days": 7.384191208964646,
   "avg_concept_lead_time_days": 12.150027052655066,
   "review_reciprocity": 2.2752293577981653,
-  "hybrid_score": 1.2142,
-  "p2016_hybrid_score": 1.2164,
-  "modern_hybrid_score": 1.1687,
+  "hybrid_score": 1.2143,
+  "p2016_hybrid_score": 1.2165,
+  "modern_hybrid_score": 1.1689,
   "impact_score": 52.0,
   "p2016_impact_score": 52.0,
   "modern_impact_score": 50.0,
@@ -72,8 +72,8 @@
   "delving_threads": 9.0,
   "ml_responses": 4.0,
   "delving_responses": 4.0,
-  "first_active": null,
-  "last_active": null,
+  "first_active": "2020-04-02T10:26:40",
+  "last_active": "2026-08-03T17:15:04",
   "dev_type": "Protocol Designer",
   "expertise_domains": [
     "Infrastructure",
@@ -81,22 +81,22 @@
     "Network"
   ],
   "expertise_by_source": {
-    "code": {
-      "Consensus": 0.009,
-      "Infrastructure": 0.889,
-      "Wallet": 0.062,
-      "Network": 0.028,
-      "Mempool": 0.007,
-      "Script": 0.004,
-      "Cryptography": 0.0
-    },
     "discussion": {
       "Privacy": 0.409,
       "Network": 0.591
     },
+    "code": {
+      "Infrastructure": 0.889,
+      "Consensus": 0.009,
+      "Wallet": 0.062,
+      "Network": 0.028,
+      "Script": 0.004,
+      "Mempool": 0.007,
+      "Cryptography": 0.0
+    },
     "bips": {
-      "Privacy": 0.5,
-      "Infrastructure": 0.5
+      "Infrastructure": 0.5,
+      "Privacy": 0.5
     }
   },
   "expertise_domain_scores": {
@@ -116,7 +116,7 @@
   "is_researcher": true,
   "is_bip_author": true,
   "global_first_active": "2012-01-23T18:15:04",
-  "global_last_active": "2026-10-31T04:26:58",
+  "global_last_active": "2026-10-31T09:40:41",
   "github_location": "Austria",
   "github_company": null,
   "github_bio": null,
@@ -232,12 +232,12 @@
     "2026": {
       "Build & CI": 20.5,
       "Consensus": 2.0,
-      "Documentation": 10.58,
+      "Documentation": 11.58,
       "Node & RPC": 1.58,
       "P2P Network": 1.75,
       "Script": 1.0,
       "Tests": 16.58,
-      "Utilities": 34.0,
+      "Utilities": 36.0,
       "Wallet": 1.0
     }
   },

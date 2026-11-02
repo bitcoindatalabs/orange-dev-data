@@ -74,8 +74,8 @@
     }
   },
   "expertise_domain_scores": {
-    "Infrastructure": 0.542,
     "Mempool": 0.013,
+    "Infrastructure": 0.542,
     "Wallet": 0.445
   },
   "p2016_posts": 0.0,

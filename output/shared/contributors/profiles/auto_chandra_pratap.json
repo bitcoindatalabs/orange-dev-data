@@ -58,19 +58,19 @@
   "delving_threads": 2.0,
   "ml_responses": 0.0,
   "delving_responses": 1.0,
-  "first_active": "2026-05-16T13:23:53.455000",
-  "last_active": "2026-10-28T14:34:57.466000",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Builder",
   "expertise_domains": [
     "Infrastructure",
     "L2"
   ],
   "expertise_by_source": {
-    "code": {
-      "Infrastructure": 1.0
-    },
     "discussion": {
       "L2": 1.0
+    },
+    "code": {
+      "Infrastructure": 1.0
     }
   },
   "expertise_domain_scores": {
@@ -88,7 +88,7 @@
   "is_researcher": false,
   "is_bip_author": false,
   "global_first_active": "2025-03-09T16:58:11",
-  "global_last_active": "2026-10-28T14:34:57.466000",
+  "global_last_active": "2026-05-01T20:43:06",
   "github_location": null,
   "github_company": null,
   "github_bio": "Grad Mathematics student",

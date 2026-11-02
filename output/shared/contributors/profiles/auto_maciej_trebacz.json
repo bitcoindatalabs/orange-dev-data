@@ -58,8 +58,8 @@
   "delving_threads": 0.0,
   "ml_responses": 1.0,
   "delving_responses": 0.0,
-  "first_active": null,
-  "last_active": null,
+  "first_active": "2013-08-22T04:36:51",
+  "last_active": "2014-04-06T02:35:20",
   "dev_type": "Participant",
   "expertise_domains": [
     "Script",
@@ -68,14 +68,14 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Mining": 0.333,
       "Mempool": 0.333,
+      "Mining": 0.333,
       "Script": 0.333
     }
   },
   "expertise_domain_scores": {
-    "Mining": 0.3333,
     "Mempool": 0.3333,
+    "Mining": 0.3333,
     "Script": 0.3333
   },
   "p2016_posts": 0.0,
@@ -88,8 +88,8 @@
   "is_reviewer": false,
   "is_researcher": true,
   "is_bip_author": false,
-  "global_first_active": null,
-  "global_last_active": null,
+  "global_first_active": "2013-08-22T04:36:51",
+  "global_last_active": "2014-04-06T02:35:20",
   "github_location": null,
   "github_company": null,
   "github_bio": null,

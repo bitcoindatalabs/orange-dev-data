@@ -58,8 +58,8 @@
   "delving_threads": 0.0,
   "ml_responses": 28.0,
   "delving_responses": 0.0,
-  "first_active": null,
-  "last_active": null,
+  "first_active": "2013-02-08T04:03:54",
+  "last_active": "2017-04-08T11:19:01",
   "dev_type": "Participant",
   "expertise_domains": [
     "Mining",
@@ -75,8 +75,8 @@
   },
   "expertise_domain_scores": {
     "Mining": 0.4815,
-    "Ecosystem": 0.3584,
-    "Wallet": 0.1602
+    "Wallet": 0.1602,
+    "Ecosystem": 0.3584
   },
   "p2016_posts": 10.0,
   "modern_posts": 0.0,
@@ -88,7 +88,7 @@
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": false,
-  "global_first_active": "2018-08-01T20:43:14",
+  "global_first_active": "2013-02-08T04:03:54",
   "global_last_active": "2018-08-01T20:43:14",
   "github_location": "Switzerland",
   "github_company": null,

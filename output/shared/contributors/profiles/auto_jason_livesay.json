@@ -58,8 +58,8 @@
   "delving_threads": 0.0,
   "ml_responses": 0.0,
   "delving_responses": 0.0,
-  "first_active": null,
-  "last_active": null,
+  "first_active": "2015-09-13T20:46:57",
+  "last_active": "2015-09-13T20:46:57",
   "dev_type": "Participant",
   "expertise_domains": [
     "Consensus"
@@ -82,7 +82,7 @@
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": false,
-  "global_first_active": "2019-07-22T19:21:53",
+  "global_first_active": "2015-09-13T20:46:57",
   "global_last_active": "2019-07-22T19:21:53",
   "github_location": "McAllen, TX",
   "github_company": null,

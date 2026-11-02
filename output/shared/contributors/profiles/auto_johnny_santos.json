@@ -58,8 +58,8 @@
   "delving_threads": 0.0,
   "ml_responses": 0.0,
   "delving_responses": 1.0,
-  "first_active": "2026-09-29T20:23:32.391000",
-  "last_active": "2026-09-29T20:23:32.391000",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Participant",
   "expertise_domains": [
     "Network",
@@ -74,8 +74,8 @@
     }
   },
   "expertise_domain_scores": {
-    "Consensus": 0.2537,
     "Mempool": 0.2537,
+    "Consensus": 0.2537,
     "Network": 0.4925
   },
   "p2016_posts": 1.0,
@@ -89,7 +89,7 @@
   "is_researcher": false,
   "is_bip_author": false,
   "global_first_active": "2018-07-27T02:40:36",
-  "global_last_active": "2026-09-29T20:23:32.391000",
+  "global_last_active": "2026-09-25T17:59:54",
   "github_location": "127.0.0.1",
   "github_company": "@VinteumOrg",
   "github_bio": "Yet Another Dev",

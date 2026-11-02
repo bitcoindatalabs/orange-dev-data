@@ -70,8 +70,8 @@
   "delving_threads": 26.0,
   "ml_responses": 32.0,
   "delving_responses": 21.0,
-  "first_active": null,
-  "last_active": "2026-08-11T17:14:24.609000",
+  "first_active": "2018-09-06T15:32:44",
+  "last_active": null,
   "dev_type": "Reviewer",
   "expertise_domains": [
     "Consensus",
@@ -79,8 +79,8 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Consensus": 0.22,
-      "Script": 0.78
+      "Script": 0.78,
+      "Consensus": 0.22
     },
     "bips": {
       "Consensus": 1.0
@@ -100,8 +100,8 @@
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": true,
-  "global_first_active": "2022-04-01T22:30:08",
-  "global_last_active": "2026-08-11T17:14:24.609000",
+  "global_first_active": "2018-09-06T15:32:44",
+  "global_last_active": "2026-03-03T13:38:26",
   "github_location": "Seattle",
   "github_company": null,
   "github_bio": "Freedom fighter, stoic, software engineer, thinker. Study Bitcoin.",

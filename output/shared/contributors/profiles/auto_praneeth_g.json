@@ -58,8 +58,8 @@
   "delving_threads": 1.0,
   "ml_responses": 0.0,
   "delving_responses": 0.0,
-  "first_active": "2026-09-17T21:49:57.549000",
-  "last_active": "2026-09-17T21:49:57.549000",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Participant",
   "expertise_domains": [
     "Script"
@@ -83,7 +83,7 @@
   "is_researcher": false,
   "is_bip_author": false,
   "global_first_active": "2026-08-27T23:42:24",
-  "global_last_active": "2026-09-17T21:49:57.549000",
+  "global_last_active": "2026-08-29T00:31:55",
   "github_location": "Palo Alto, CA",
   "github_company": "Localhost Research",
   "github_bio": "Fellow at lclhostresearch | Bitcoin Researcher at Commonwealth Cyber Initiative | Speaker at Bitcoin4India",

@@ -58,8 +58,8 @@
   "delving_threads": 59.0,
   "ml_responses": 126.0,
   "delving_responses": 74.0,
-  "first_active": null,
-  "last_active": "2026-06-01T04:45:11.518000",
+  "first_active": "2022-04-08T19:29:14",
+  "last_active": null,
   "dev_type": "Builder",
   "expertise_domains": [
     "Infrastructure",
@@ -67,18 +67,18 @@
     "Privacy"
   ],
   "expertise_by_source": {
-    "code": {
-      "Infrastructure": 1.0
-    },
     "discussion": {
       "Mempool": 0.229,
       "Script": 0.429,
       "Privacy": 0.343
+    },
+    "code": {
+      "Infrastructure": 1.0
     }
   },
   "expertise_domain_scores": {
-    "Infrastructure": 0.5998,
     "Mempool": 0.0916,
+    "Infrastructure": 0.5998,
     "Script": 0.1715,
     "Privacy": 0.1371
   },
@@ -92,8 +92,8 @@
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": false,
-  "global_first_active": "2022-04-14T16:24:36",
-  "global_last_active": "2026-06-01T04:45:11.518000",
+  "global_first_active": "2022-04-08T19:29:14",
+  "global_last_active": "2025-07-31T11:10:00",
   "github_location": null,
   "github_company": null,
   "github_bio": null,

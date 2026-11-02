@@ -70,8 +70,8 @@
   "delving_threads": 2.0,
   "ml_responses": 0.0,
   "delving_responses": 1.0,
-  "first_active": "2025-10-27T17:29:31.287000",
-  "last_active": "2026-01-16T13:40:24.859000",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Reviewer",
   "expertise_domains": [
     "Privacy",
@@ -79,8 +79,8 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Wallet": 0.434,
-      "Privacy": 0.566
+      "Privacy": 0.566,
+      "Wallet": 0.434
     },
     "bips": {
       "Privacy": 1.0

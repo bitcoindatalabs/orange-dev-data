@@ -60,7 +60,7 @@
   "review_reciprocity": 29.666666666666668,
   "hybrid_score": 0.7895,
   "p2016_hybrid_score": 0.9054,
-  "modern_hybrid_score": 0.3556,
+  "modern_hybrid_score": 0.3555,
   "impact_score": 38.0,
   "p2016_impact_score": 42.0,
   "modern_impact_score": 19.0,
@@ -70,27 +70,27 @@
   "delving_threads": 1.0,
   "ml_responses": 91.0,
   "delving_responses": 6.0,
-  "first_active": null,
-  "last_active": null,
+  "first_active": "2020-08-29T05:14:50",
+  "last_active": "2025-06-11T03:38:17",
   "dev_type": "Protocol Designer",
   "expertise_domains": [
     "Consensus",
     "Infrastructure"
   ],
   "expertise_by_source": {
-    "code": {
-      "Infrastructure": 1.0
-    },
     "discussion": {
       "Consensus": 1.0
+    },
+    "code": {
+      "Infrastructure": 1.0
     },
     "bips": {
       "Consensus": 1.0
     }
   },
   "expertise_domain_scores": {
-    "Consensus": 0.7,
-    "Infrastructure": 0.3
+    "Infrastructure": 0.3,
+    "Consensus": 0.7
   },
   "p2016_posts": 142.0,
   "modern_posts": 29.0,

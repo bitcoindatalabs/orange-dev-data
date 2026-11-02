@@ -60,7 +60,7 @@
   "review_reciprocity": 2.0,
   "hybrid_score": 0.4582,
   "p2016_hybrid_score": 0.4655,
-  "modern_hybrid_score": 0.1549,
+  "modern_hybrid_score": 0.1552,
   "impact_score": 24.0,
   "p2016_impact_score": 24.0,
   "modern_impact_score": 9.0,
@@ -70,8 +70,8 @@
   "delving_threads": 0.0,
   "ml_responses": 3.0,
   "delving_responses": 0.0,
-  "first_active": null,
-  "last_active": null,
+  "first_active": "2024-05-27T21:04:50",
+  "last_active": "2025-09-07T18:13:17",
   "dev_type": "Reviewer",
   "expertise_domains": [
     "Infrastructure",
@@ -89,9 +89,9 @@
     }
   },
   "expertise_domain_scores": {
-    "Consensus": 0.0229,
-    "Infrastructure": 0.7143,
     "Mempool": 0.0429,
+    "Infrastructure": 0.7143,
+    "Consensus": 0.0229,
     "Wallet": 0.22
   },
   "p2016_posts": 6.0,

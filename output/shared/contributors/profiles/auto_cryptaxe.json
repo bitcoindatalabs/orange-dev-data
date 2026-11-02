@@ -70,8 +70,8 @@
   "delving_threads": 0.0,
   "ml_responses": 25.0,
   "delving_responses": 0.0,
-  "first_active": null,
-  "last_active": null,
+  "first_active": "2017-05-24T12:32:22",
+  "last_active": "2018-09-25T19:00:03",
   "dev_type": "Protocol Designer",
   "expertise_domains": [
     "Consensus",
@@ -79,23 +79,23 @@
     "Mempool"
   ],
   "expertise_by_source": {
+    "discussion": {
+      "Script": 0.261,
+      "Consensus": 0.261,
+      "L2": 0.478
+    },
     "code": {
       "Infrastructure": 0.667,
       "Mempool": 0.333
-    },
-    "discussion": {
-      "Consensus": 0.261,
-      "Script": 0.261,
-      "L2": 0.478
     },
     "bips": {
       "Consensus": 1.0
     }
   },
   "expertise_domain_scores": {
-    "Consensus": 0.5522,
-    "Infrastructure": 0.2001,
     "Mempool": 0.0999,
+    "Infrastructure": 0.2001,
+    "Consensus": 0.5522,
     "Script": 0.0522,
     "L2": 0.0956
   },

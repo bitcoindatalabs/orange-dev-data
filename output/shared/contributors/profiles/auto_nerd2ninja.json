@@ -58,8 +58,8 @@
   "delving_threads": 2.0,
   "ml_responses": 0.0,
   "delving_responses": 0.0,
-  "first_active": "2026-08-05T01:45:00.481000",
-  "last_active": "2026-08-25T23:21:08.676000",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Participant",
   "expertise_domains": [
     "Script",
@@ -67,8 +67,8 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Consensus": 0.329,
-      "Script": 0.671
+      "Script": 0.671,
+      "Consensus": 0.329
     }
   },
   "expertise_domain_scores": {
@@ -86,7 +86,7 @@
   "is_researcher": false,
   "is_bip_author": false,
   "global_first_active": "2023-08-17T16:32:38",
-  "global_last_active": "2026-08-25T23:21:08.676000",
+  "global_last_active": "2024-04-02T18:41:26",
   "github_location": null,
   "github_company": null,
   "github_bio": "I'm just here for the XP (experience points)",

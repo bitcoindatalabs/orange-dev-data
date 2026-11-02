@@ -61,8 +61,8 @@
   "delving_threads": 3.0,
   "ml_responses": 0.0,
   "delving_responses": 6.0,
-  "first_active": "2025-06-26T18:33:05.101000",
-  "last_active": "2026-05-15T10:50:40.124000",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Builder",
   "expertise_domains": [
     "Infrastructure",
@@ -70,14 +70,14 @@
     "Mining"
   ],
   "expertise_by_source": {
+    "discussion": {
+      "Mining": 0.338,
+      "Network": 0.662
+    },
     "code": {
       "Infrastructure": 0.917,
       "Wallet": 0.056,
       "Network": 0.028
-    },
-    "discussion": {
-      "Mining": 0.338,
-      "Network": 0.662
     }
   },
   "expertise_domain_scores": {

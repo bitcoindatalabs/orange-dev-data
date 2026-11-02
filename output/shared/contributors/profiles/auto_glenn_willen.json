@@ -75,8 +75,8 @@
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.765,
-    "Script": 0.071,
-    "Wallet": 0.164
+    "Wallet": 0.164,
+    "Script": 0.071
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,

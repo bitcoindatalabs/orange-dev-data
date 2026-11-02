@@ -58,8 +58,8 @@
   "delving_threads": 0.0,
   "ml_responses": 9.0,
   "delving_responses": 0.0,
-  "first_active": null,
-  "last_active": null,
+  "first_active": "2015-04-09T01:28:08",
+  "last_active": "2015-12-31T17:30:02",
   "dev_type": "Participant",
   "expertise_domains": [
     "Mempool"
@@ -82,7 +82,7 @@
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": false,
-  "global_first_active": "2015-12-19T03:46:16",
+  "global_first_active": "2015-04-09T01:28:08",
   "global_last_active": "2016-01-22T03:32:35",
   "github_location": "San Francisco",
   "github_company": "CEO @foxglove",

@@ -58,8 +58,8 @@
   "delving_threads": 0.0,
   "ml_responses": 33.0,
   "delving_responses": 0.0,
-  "first_active": null,
-  "last_active": null,
+  "first_active": "2013-05-21T09:26:18",
+  "last_active": "2019-08-20T02:15:24",
   "dev_type": "Participant",
   "expertise_domains": [
     "Consensus",
@@ -72,8 +72,8 @@
     }
   },
   "expertise_domain_scores": {
-    "Consensus": 0.548,
-    "Mining": 0.452
+    "Mining": 0.452,
+    "Consensus": 0.548
   },
   "p2016_posts": 27.0,
   "modern_posts": 0.0,
@@ -85,8 +85,8 @@
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": false,
-  "global_first_active": "2015-12-09T00:17:44",
-  "global_last_active": "2017-12-29T01:00:50",
+  "global_first_active": "2013-05-21T09:26:18",
+  "global_last_active": "2019-08-20T02:15:24",
   "github_location": "Boston, MA",
   "github_company": "Nebulous",
   "github_bio": "Helping to scale solar to 100% of global energy production",

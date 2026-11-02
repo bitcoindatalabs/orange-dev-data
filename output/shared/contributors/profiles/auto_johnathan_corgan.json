@@ -58,8 +58,8 @@
   "delving_threads": 1.0,
   "ml_responses": 10.0,
   "delving_responses": 0.0,
-  "first_active": null,
-  "last_active": "2025-08-07T02:11:03.975000",
+  "first_active": "2013-07-09T10:51:11",
+  "last_active": null,
   "dev_type": "Builder",
   "expertise_domains": [
     "Infrastructure",
@@ -67,12 +67,12 @@
     "Ecosystem"
   ],
   "expertise_by_source": {
-    "code": {
-      "Infrastructure": 1.0
-    },
     "discussion": {
       "Ecosystem": 0.318,
       "Network": 0.682
+    },
+    "code": {
+      "Infrastructure": 1.0
     }
   },
   "expertise_domain_scores": {
@@ -90,8 +90,8 @@
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": false,
-  "global_first_active": "2013-08-30T20:19:21",
-  "global_last_active": "2025-08-07T02:11:03.975000",
+  "global_first_active": "2013-07-09T10:51:11",
+  "global_last_active": "2020-09-06T15:40:48",
   "github_location": null,
   "github_company": "Corgan Labs",
   "github_bio": null,
@@ -99,7 +99,7 @@
   "github_blog": "https://keybase.io/jcorgan",
   "github_followers": 142.0,
   "github_profile_fetched_at": "2026-10-20T19:02:36Z",
-  "activity_status": "Active",
+  "activity_status": "Retired",
   "geo_country_iso2": null,
   "geo_country_iso3": null,
   "geo_country_name": null,

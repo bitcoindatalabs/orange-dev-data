@@ -58,8 +58,8 @@
   "delving_threads": 0.0,
   "ml_responses": 19.0,
   "delving_responses": 0.0,
-  "first_active": null,
-  "last_active": null,
+  "first_active": "2020-03-25T08:52:10",
+  "last_active": "2023-08-30T05:52:05",
   "dev_type": "Participant",
   "expertise_domains": [
     "L2",
@@ -69,8 +69,8 @@
   "expertise_by_source": {
     "discussion": {
       "Mempool": 0.077,
-      "Wallet": 0.423,
-      "L2": 0.5
+      "L2": 0.5,
+      "Wallet": 0.423
     }
   },
   "expertise_domain_scores": {
@@ -88,8 +88,8 @@
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": false,
-  "global_first_active": null,
-  "global_last_active": null,
+  "global_first_active": "2020-03-25T08:52:10",
+  "global_last_active": "2023-08-30T05:52:05",
   "github_location": "Woking, Surrey",
   "github_company": null,
   "github_bio": "Computational scientist turned crypto",

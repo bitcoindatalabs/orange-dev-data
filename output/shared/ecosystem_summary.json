@@ -2,17 +2,17 @@
   "generated_at": "2026-11-01",
   "groups": {
     "committers": 1290,
-    "reviewers": 5354,
-    "research": 1736,
+    "reviewers": 5356,
+    "research": 1737,
     "standards": 164,
-    "total_active": 6635,
-    "total_registry": 7351
+    "total_active": 6638,
+    "total_registry": 7354
   },
   "venn_4": {
     "0001": 9,
-    "0010": 1132,
+    "0010": 1133,
     "0011": 21,
-    "0100": 3896,
+    "0100": 3898,
     "0101": 9,
     "0110": 235,
     "0111": 43,
@@ -27,8 +27,8 @@
   },
   "venn_summary": {
     "code_only": 106,
-    "review_only": 3896,
-    "research_only": 1132,
+    "review_only": 3898,
+    "research_only": 1133,
     "standards_only": 9,
     "all_four": 79,
     "code_review": 877,
@@ -50,8 +50,8 @@
     "new_coders_90d": 31,
     "new_coders_30d": 5,
     "new_coders_7d": 0,
-    "new_discussants_90d": 65,
-    "new_discussants_7d": 21,
+    "new_discussants_90d": 66,
+    "new_discussants_7d": 22,
     "window_days": 90
   },
   "prs": {
@@ -62,9 +62,9 @@
     "merged_prev_7d": 41
   },
   "commits": {
-    "commits_30d": 428,
+    "commits_30d": 431,
     "commits_prev_30d": 407,
-    "commits_7d": 132,
+    "commits_7d": 135,
     "commits_prev_7d": 108
   },
   "bips": {
@@ -77,19 +77,19 @@
         "category": "quantum",
         "label": "Quantum",
         "count": 105,
-        "share": 21.2
+        "share": 21.1
       },
       {
         "category": "mining",
         "label": "Mining",
         "count": 56,
-        "share": 11.3
+        "share": 11.2
       },
       {
-        "category": "taproot",
-        "label": "Taproot",
-        "count": 32,
-        "share": 6.5
+        "category": "p2p-network",
+        "label": "P2P Network",
+        "count": 33,
+        "share": 6.6
       }
     ],
     "top_bips": [

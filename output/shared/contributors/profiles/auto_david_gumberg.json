@@ -51,7 +51,7 @@
   "review_reciprocity": 5.9361702127659575,
   "hybrid_score": 0.477,
   "p2016_hybrid_score": 0.4789,
-  "modern_hybrid_score": 0.4908,
+  "modern_hybrid_score": 0.4909,
   "impact_score": 25.0,
   "p2016_impact_score": 25.0,
   "modern_impact_score": 26.0,
@@ -61,8 +61,8 @@
   "delving_threads": 5.0,
   "ml_responses": 0.0,
   "delving_responses": 4.0,
-  "first_active": "2025-05-21T00:47:41.040000",
-  "last_active": "2026-07-15T00:04:42.293000",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Builder",
   "expertise_domains": [
     "Infrastructure",
@@ -70,22 +70,22 @@
     "Network"
   ],
   "expertise_by_source": {
+    "discussion": {
+      "Mempool": 0.571,
+      "Network": 0.429
+    },
     "code": {
       "Infrastructure": 0.695,
       "Wallet": 0.243,
       "Network": 0.03,
-      "Mempool": 0.01,
       "Script": 0.002,
+      "Mempool": 0.01,
       "Cryptography": 0.02
-    },
-    "discussion": {
-      "Mempool": 0.571,
-      "Network": 0.429
     }
   },
   "expertise_domain_scores": {
-    "Infrastructure": 0.417,
     "Mempool": 0.2344,
+    "Infrastructure": 0.417,
     "Wallet": 0.1458,
     "Network": 0.1896,
     "Cryptography": 0.012

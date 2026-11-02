@@ -45,7 +45,7 @@
   "tier1_reviews_count": 277.0,
   "tier2_reviews_count": 14.0,
   "p2016_reviews_count": 291.0,
-  "modern_reviews_count": 42.0,
+  "modern_reviews_count": 41.0,
   "first_review_date": "2019-04-18T14:26:57",
   "last_review_date": "2026-10-24T02:30:00",
   "prs_authored": 45.0,
@@ -56,7 +56,7 @@
   "review_reciprocity": 6.466666666666667,
   "hybrid_score": 0.6802,
   "p2016_hybrid_score": 0.7843,
-  "modern_hybrid_score": 0.5008,
+  "modern_hybrid_score": 0.5003,
   "impact_score": 34.0,
   "p2016_impact_score": 38.0,
   "modern_impact_score": 26.0,
@@ -66,8 +66,8 @@
   "delving_threads": 62.0,
   "ml_responses": 304.0,
   "delving_responses": 6.0,
-  "first_active": null,
-  "last_active": null,
+  "first_active": "2020-02-09T16:32:41",
+  "last_active": "2026-10-31T03:37:53",
   "dev_type": "Builder",
   "expertise_domains": [
     "Infrastructure",
@@ -75,40 +75,40 @@
     "Mempool"
   ],
   "expertise_by_source": {
-    "code": {
-      "Consensus": 0.053,
-      "Infrastructure": 0.451,
-      "Wallet": 0.426,
-      "Network": 0.067,
-      "Mempool": 0.004
-    },
     "discussion": {
       "Mempool": 0.45,
       "Script": 0.3,
       "L2": 0.25
+    },
+    "code": {
+      "Infrastructure": 0.451,
+      "Consensus": 0.053,
+      "Wallet": 0.426,
+      "Network": 0.067,
+      "Mempool": 0.004
     }
   },
   "expertise_domain_scores": {
-    "Consensus": 0.0318,
-    "Infrastructure": 0.2704,
     "Mempool": 0.1823,
-    "Script": 0.1199,
+    "Infrastructure": 0.2704,
+    "Consensus": 0.0318,
     "Wallet": 0.2554,
-    "L2": 0.0999,
-    "Network": 0.0402
+    "Script": 0.1199,
+    "Network": 0.0402,
+    "L2": 0.0999
   },
   "p2016_posts": 429.0,
-  "modern_posts": 235.0,
+  "modern_posts": 233.0,
   "p2016_ml_posts": 361.0,
   "p2016_delving_posts": 68.0,
-  "modern_ml_posts": 167.0,
+  "modern_ml_posts": 165.0,
   "modern_delving_posts": 68.0,
   "is_engineer": true,
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": false,
   "global_first_active": "2018-09-04T10:52:18",
-  "global_last_active": "2026-10-24T02:30:00",
+  "global_last_active": "2026-10-31T03:37:53",
   "github_location": null,
   "github_company": null,
   "github_bio": "A5A6 868D 7AA9 1DD0 0AC1 A67F 817F FA02 8EF6 1C94",

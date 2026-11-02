@@ -62,7 +62,7 @@
   "review_reciprocity": 3.625,
   "hybrid_score": 0.9104,
   "p2016_hybrid_score": 0.6774,
-  "modern_hybrid_score": 0.4421,
+  "modern_hybrid_score": 0.4412,
   "impact_score": 42.0,
   "p2016_impact_score": 33.0,
   "modern_impact_score": 23.0,
@@ -72,8 +72,8 @@
   "delving_threads": 44.0,
   "ml_responses": 153.0,
   "delving_responses": 41.0,
-  "first_active": null,
-  "last_active": null,
+  "first_active": "2014-05-21T15:25:02",
+  "last_active": "2025-11-19T00:25:27",
   "dev_type": "Protocol Designer",
   "expertise_domains": [
     "Infrastructure",
@@ -81,23 +81,23 @@
     "Mining"
   ],
   "expertise_by_source": {
+    "discussion": {
+      "Mempool": 0.471,
+      "Mining": 0.294,
+      "L2": 0.235
+    },
     "code": {
       "Infrastructure": 0.833,
       "Wallet": 0.167
-    },
-    "discussion": {
-      "Mining": 0.294,
-      "Mempool": 0.471,
-      "L2": 0.235
     },
     "bips": {
       "Infrastructure": 1.0
     }
   },
   "expertise_domain_scores": {
+    "Mempool": 0.0942,
     "Mining": 0.0588,
     "Infrastructure": 0.7499,
-    "Mempool": 0.0942,
     "Wallet": 0.0501,
     "L2": 0.047
   },
@@ -112,7 +112,7 @@
   "is_researcher": true,
   "is_bip_author": true,
   "global_first_active": "2014-04-27T00:27:21",
-  "global_last_active": "2025-06-10T18:49:19",
+  "global_last_active": "2025-11-19T00:25:27",
   "github_location": "Hilo, HI, USA",
   "github_company": null,
   "github_bio": "PGP: 19E929169F3D1E6443AD315D0A3F3DCAD0DE98BD",

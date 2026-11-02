@@ -48,7 +48,7 @@
   "review_reciprocity": null,
   "hybrid_score": 0.0909,
   "p2016_hybrid_score": 0.1168,
-  "modern_hybrid_score": 0.2748,
+  "modern_hybrid_score": 0.2753,
   "impact_score": 5.0,
   "p2016_impact_score": 7.0,
   "modern_impact_score": 15.0,
@@ -58,8 +58,8 @@
   "delving_threads": 23.0,
   "ml_responses": 30.0,
   "delving_responses": 22.0,
-  "first_active": null,
-  "last_active": "2026-10-25T13:15:46.827000",
+  "first_active": "2024-04-08T14:11:53",
+  "last_active": null,
   "dev_type": "Participant",
   "expertise_domains": [
     "Mining",
@@ -67,13 +67,13 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Mining": 0.591,
-      "Mempool": 0.409
+      "Mempool": 0.409,
+      "Mining": 0.591
     }
   },
   "expertise_domain_scores": {
-    "Mining": 0.591,
-    "Mempool": 0.409
+    "Mempool": 0.409,
+    "Mining": 0.591
   },
   "p2016_posts": 75.0,
   "modern_posts": 75.0,
@@ -86,7 +86,7 @@
   "is_researcher": true,
   "is_bip_author": false,
   "global_first_active": "2023-08-07T16:43:12",
-  "global_last_active": "2026-10-25T13:15:46.827000",
+  "global_last_active": "2024-10-25T08:36:17",
   "github_location": null,
   "github_company": null,
   "github_bio": null,

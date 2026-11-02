@@ -70,8 +70,8 @@
   "delving_threads": 0.0,
   "ml_responses": 3.0,
   "delving_responses": 0.0,
-  "first_active": null,
-  "last_active": null,
+  "first_active": "2022-05-23T20:31:23",
+  "last_active": "2022-10-23T02:00:07",
   "dev_type": "Protocol Designer",
   "expertise_domains": [
     "Network",
@@ -79,28 +79,28 @@
     "Privacy"
   ],
   "expertise_by_source": {
+    "discussion": {
+      "Privacy": 0.878,
+      "L2": 0.122
+    },
     "code": {
-      "Consensus": 0.065,
       "Infrastructure": 0.701,
+      "Consensus": 0.065,
       "Wallet": 0.157,
       "Network": 0.068,
       "Script": 0.009
-    },
-    "discussion": {
-      "L2": 0.122,
-      "Privacy": 0.878
     },
     "bips": {
       "Network": 1.0
     }
   },
   "expertise_domain_scores": {
-    "Consensus": 0.0195,
     "Infrastructure": 0.2103,
+    "Consensus": 0.0195,
     "Wallet": 0.0471,
-    "L2": 0.0244,
     "Privacy": 0.1756,
-    "Network": 0.5204
+    "Network": 0.5204,
+    "L2": 0.0244
   },
   "p2016_posts": 7.0,
   "modern_posts": 0.0,

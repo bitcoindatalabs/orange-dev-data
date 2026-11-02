@@ -61,8 +61,8 @@
   "delving_threads": 0.0,
   "ml_responses": 1.0,
   "delving_responses": 0.0,
-  "first_active": null,
-  "last_active": null,
+  "first_active": "2023-09-08T09:36:16",
+  "last_active": "2023-09-08T09:36:16",
   "dev_type": "Builder",
   "expertise_domains": [
     "Infrastructure",
@@ -70,23 +70,23 @@
     "Consensus"
   ],
   "expertise_by_source": {
-    "code": {
-      "Consensus": 0.03,
-      "Infrastructure": 0.764,
-      "Wallet": 0.197,
-      "Network": 0.006,
-      "Mempool": 0.003
-    },
     "discussion": {
       "Consensus": 0.33,
       "Ecosystem": 0.67
+    },
+    "code": {
+      "Infrastructure": 0.764,
+      "Consensus": 0.03,
+      "Wallet": 0.197,
+      "Network": 0.006,
+      "Mempool": 0.003
     }
   },
   "expertise_domain_scores": {
-    "Consensus": 0.15,
     "Infrastructure": 0.4584,
-    "Ecosystem": 0.268,
-    "Wallet": 0.1182
+    "Consensus": 0.15,
+    "Wallet": 0.1182,
+    "Ecosystem": 0.268
   },
   "p2016_posts": 1.0,
   "modern_posts": 0.0,
@@ -99,7 +99,7 @@
   "is_researcher": true,
   "is_bip_author": false,
   "global_first_active": "2020-03-13T14:22:48",
-  "global_last_active": "2023-07-19T20:43:26",
+  "global_last_active": "2023-09-08T09:36:16",
   "github_location": null,
   "github_company": "See the link below for my work",
   "github_bio": "Donations: bc1qd4fxq8y8c7qh76gfnvl7amuhag3z27uw0w9f8p",

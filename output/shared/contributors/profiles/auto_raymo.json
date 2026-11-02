@@ -58,8 +58,8 @@
   "delving_threads": 0.0,
   "ml_responses": 18.0,
   "delving_responses": 0.0,
-  "first_active": null,
-  "last_active": null,
+  "first_active": "2021-06-16T08:44:24",
+  "last_active": "2021-08-09T15:22:57",
   "dev_type": "Participant",
   "expertise_domains": [
     "Privacy",
@@ -69,14 +69,14 @@
   "expertise_by_source": {
     "discussion": {
       "Mining": 0.16,
-      "L2": 0.064,
-      "Privacy": 0.777
+      "Privacy": 0.777,
+      "L2": 0.064
     }
   },
   "expertise_domain_scores": {
     "Mining": 0.1598,
-    "L2": 0.0639,
-    "Privacy": 0.7762
+    "Privacy": 0.7762,
+    "L2": 0.0639
   },
   "p2016_posts": 19.0,
   "modern_posts": 0.0,
@@ -88,8 +88,8 @@
   "is_reviewer": false,
   "is_researcher": true,
   "is_bip_author": false,
-  "global_first_active": null,
-  "global_last_active": null,
+  "global_first_active": "2021-06-16T08:44:24",
+  "global_last_active": "2021-08-09T15:22:57",
   "github_location": null,
   "github_company": null,
   "github_bio": null,

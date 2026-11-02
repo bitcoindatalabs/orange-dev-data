@@ -58,8 +58,8 @@
   "delving_threads": 2.0,
   "ml_responses": 0.0,
   "delving_responses": 2.0,
-  "first_active": "2026-02-15T14:59:35.584000",
-  "last_active": "2026-05-12T14:35:09.283000",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Builder",
   "expertise_domains": [
     "Infrastructure",
@@ -67,19 +67,19 @@
     "Network"
   ],
   "expertise_by_source": {
+    "discussion": {
+      "Mempool": 0.671,
+      "Mining": 0.11,
+      "Network": 0.22
+    },
     "code": {
       "Infrastructure": 1.0
-    },
-    "discussion": {
-      "Mining": 0.11,
-      "Mempool": 0.671,
-      "Network": 0.22
     }
   },
   "expertise_domain_scores": {
+    "Mempool": 0.2683,
     "Mining": 0.044,
     "Infrastructure": 0.5998,
-    "Mempool": 0.2683,
     "Network": 0.088
   },
   "p2016_posts": 4.0,

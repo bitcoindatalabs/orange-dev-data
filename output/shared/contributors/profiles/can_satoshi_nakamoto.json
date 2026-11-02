@@ -74,19 +74,19 @@
   "delving_threads": 1.0,
   "ml_responses": 0.0,
   "delving_responses": 0.0,
-  "first_active": "2026-10-24T14:51:33.988000",
-  "last_active": "2026-10-24T14:51:33.988000",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Creator",
   "expertise_domains": [
     "Infrastructure",
     "Mining"
   ],
   "expertise_by_source": {
-    "code": {
-      "Infrastructure": 1.0
-    },
     "discussion": {
       "Mining": 1.0
+    },
+    "code": {
+      "Infrastructure": 1.0
     }
   },
   "expertise_domain_scores": {
@@ -104,7 +104,7 @@
   "is_researcher": false,
   "is_bip_author": false,
   "global_first_active": "2009-10-21T01:08:05",
-  "global_last_active": "2026-10-24T14:51:33.988000",
+  "global_last_active": "2010-12-15T22:43:51",
   "github_location": null,
   "github_company": null,
   "github_bio": null,
@@ -112,7 +112,7 @@
   "github_blog": null,
   "github_followers": null,
   "github_profile_fetched_at": null,
-  "activity_status": "Active",
+  "activity_status": "Retired",
   "geo_country_iso2": null,
   "geo_country_iso3": null,
   "geo_country_name": null,

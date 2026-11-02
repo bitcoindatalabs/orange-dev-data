@@ -60,7 +60,7 @@
   "review_reciprocity": 7.4,
   "hybrid_score": 0.6103,
   "p2016_hybrid_score": 0.6353,
-  "modern_hybrid_score": 0.4702,
+  "modern_hybrid_score": 0.4703,
   "impact_score": 31.0,
   "p2016_impact_score": 32.0,
   "modern_impact_score": 25.0,
@@ -70,8 +70,8 @@
   "delving_threads": 28.0,
   "ml_responses": 21.0,
   "delving_responses": 39.0,
-  "first_active": null,
-  "last_active": "2026-08-13T15:06:43.375000",
+  "first_active": "2020-04-22T03:55:42",
+  "last_active": null,
   "dev_type": "Protocol Designer",
   "expertise_domains": [
     "Infrastructure",
@@ -79,21 +79,21 @@
     "Wallet"
   ],
   "expertise_by_source": {
-    "code": {
-      "Infrastructure": 0.666,
-      "Wallet": 0.334
-    },
     "discussion": {
       "Mempool": 0.431,
       "L2": 0.569
+    },
+    "code": {
+      "Infrastructure": 0.666,
+      "Wallet": 0.334
     },
     "bips": {
       "Infrastructure": 1.0
     }
   },
   "expertise_domain_scores": {
-    "Infrastructure": 0.6998,
     "Mempool": 0.0862,
+    "Infrastructure": 0.6998,
     "Wallet": 0.1002,
     "L2": 0.1138
   },
@@ -107,8 +107,8 @@
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": true,
-  "global_first_active": "2020-07-03T07:05:15",
-  "global_last_active": "2026-08-13T15:06:43.375000",
+  "global_first_active": "2020-04-22T03:55:42",
+  "global_last_active": "2024-10-21T02:54:49",
   "github_location": null,
   "github_company": "@acinq",
   "github_bio": null,
@@ -116,7 +116,7 @@
   "github_blog": null,
   "github_followers": 0.0,
   "github_profile_fetched_at": "2026-10-20T19:06:02Z",
-  "activity_status": "Active",
+  "activity_status": "Retired",
   "geo_country_iso2": "FR",
   "geo_country_iso3": "FRA",
   "geo_country_name": "France",

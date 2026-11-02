@@ -61,8 +61,8 @@
   "delving_threads": 0.0,
   "ml_responses": 7.0,
   "delving_responses": 0.0,
-  "first_active": null,
-  "last_active": null,
+  "first_active": "2017-03-29T23:50:54",
+  "last_active": "2023-09-08T10:07:11",
   "dev_type": "Builder",
   "expertise_domains": [
     "Wallet",
@@ -70,22 +70,22 @@
     "Privacy"
   ],
   "expertise_by_source": {
-    "code": {
-      "Infrastructure": 0.125,
-      "Wallet": 0.5,
-      "Network": 0.375
-    },
     "discussion": {
       "Consensus": 0.274,
       "Ecosystem": 0.178,
       "Privacy": 0.548
+    },
+    "code": {
+      "Infrastructure": 0.125,
+      "Wallet": 0.5,
+      "Network": 0.375
     }
   },
   "expertise_domain_scores": {
-    "Consensus": 0.1096,
     "Infrastructure": 0.075,
-    "Ecosystem": 0.0712,
+    "Consensus": 0.1096,
     "Wallet": 0.3,
+    "Ecosystem": 0.0712,
     "Privacy": 0.2192,
     "Network": 0.225
   },
@@ -100,7 +100,7 @@
   "is_researcher": true,
   "is_bip_author": false,
   "global_first_active": "2015-07-15T04:26:33",
-  "global_last_active": "2021-02-10T12:18:57",
+  "global_last_active": "2023-09-08T10:07:11",
   "github_location": "Córdoba, Argentina",
   "github_company": null,
   "github_bio": null,

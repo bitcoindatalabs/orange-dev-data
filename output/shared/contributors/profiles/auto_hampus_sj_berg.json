@@ -58,8 +58,8 @@
   "delving_threads": 0.0,
   "ml_responses": 23.0,
   "delving_responses": 0.0,
-  "first_active": null,
-  "last_active": null,
+  "first_active": "2016-12-04T14:37:39",
+  "last_active": "2022-04-25T08:34:25",
   "dev_type": "Builder",
   "expertise_domains": [
     "Consensus",
@@ -67,19 +67,19 @@
     "Mining"
   ],
   "expertise_by_source": {
-    "code": {
-      "Consensus": 0.5,
-      "Infrastructure": 0.5
-    },
     "discussion": {
       "Mining": 0.259,
       "Consensus": 0.741
+    },
+    "code": {
+      "Infrastructure": 0.5,
+      "Consensus": 0.5
     }
   },
   "expertise_domain_scores": {
-    "Consensus": 0.5964,
     "Mining": 0.1036,
-    "Infrastructure": 0.3
+    "Infrastructure": 0.3,
+    "Consensus": 0.5964
   },
   "p2016_posts": 23.0,
   "modern_posts": 0.0,

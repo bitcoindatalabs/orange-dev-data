@@ -58,24 +58,24 @@
   "delving_threads": 0.0,
   "ml_responses": 0.0,
   "delving_responses": 0.0,
-  "first_active": null,
-  "last_active": null,
+  "first_active": "2016-03-25T12:27:30",
+  "last_active": "2016-03-25T12:27:30",
   "dev_type": "Builder",
   "expertise_domains": [
     "Infrastructure",
     "Consensus"
   ],
   "expertise_by_source": {
-    "code": {
-      "Infrastructure": 1.0
-    },
     "discussion": {
       "Consensus": 1.0
+    },
+    "code": {
+      "Infrastructure": 1.0
     }
   },
   "expertise_domain_scores": {
-    "Consensus": 0.4,
-    "Infrastructure": 0.6
+    "Infrastructure": 0.6,
+    "Consensus": 0.4
   },
   "p2016_posts": 1.0,
   "modern_posts": 0.0,
@@ -88,7 +88,7 @@
   "is_researcher": true,
   "is_bip_author": false,
   "global_first_active": "2015-10-09T08:21:40",
-  "global_last_active": "2015-10-09T08:21:40",
+  "global_last_active": "2016-03-25T12:27:30",
   "github_location": "Palm Coast, FL USA",
   "github_company": null,
   "github_bio": "Interested in DevOps and Kubernetes.",

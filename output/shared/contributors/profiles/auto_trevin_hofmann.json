@@ -58,8 +58,8 @@
   "delving_threads": 0.0,
   "ml_responses": 6.0,
   "delving_responses": 0.0,
-  "first_active": null,
-  "last_active": null,
+  "first_active": "2015-06-21T14:17:37",
+  "last_active": "2017-03-26T15:37:28",
   "dev_type": "Builder",
   "expertise_domains": [
     "Infrastructure",
@@ -67,19 +67,19 @@
     "Ecosystem"
   ],
   "expertise_by_source": {
-    "code": {
-      "Infrastructure": 1.0
-    },
     "discussion": {
       "Mining": 0.508,
       "Consensus": 0.246,
       "Ecosystem": 0.246
+    },
+    "code": {
+      "Infrastructure": 1.0
     }
   },
   "expertise_domain_scores": {
-    "Consensus": 0.0984,
     "Mining": 0.2032,
     "Infrastructure": 0.6,
+    "Consensus": 0.0984,
     "Ecosystem": 0.0984
   },
   "p2016_posts": 3.0,
@@ -93,7 +93,7 @@
   "is_researcher": true,
   "is_bip_author": false,
   "global_first_active": "2014-07-01T10:51:04",
-  "global_last_active": "2016-12-01T01:43:44",
+  "global_last_active": "2017-03-26T15:37:28",
   "github_location": "Wisconsin",
   "github_company": null,
   "github_bio": "Software Engineer",

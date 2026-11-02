@@ -48,7 +48,7 @@
   "review_reciprocity": 1.9166666666666667,
   "hybrid_score": 0.4933,
   "p2016_hybrid_score": 0.4615,
-  "modern_hybrid_score": 0.4217,
+  "modern_hybrid_score": 0.422,
   "impact_score": 26.0,
   "p2016_impact_score": 24.0,
   "modern_impact_score": 22.0,
@@ -58,8 +58,8 @@
   "delving_threads": 8.0,
   "ml_responses": 357.0,
   "delving_responses": 31.0,
-  "first_active": null,
-  "last_active": null,
+  "first_active": "2015-02-02T12:05:57",
+  "last_active": "2026-05-24T19:45:20",
   "dev_type": "Builder",
   "expertise_domains": [
     "Infrastructure",
@@ -67,12 +67,12 @@
     "Network"
   ],
   "expertise_by_source": {
-    "code": {
-      "Infrastructure": 1.0
-    },
     "discussion": {
       "Mining": 0.542,
       "Network": 0.458
+    },
+    "code": {
+      "Infrastructure": 1.0
     }
   },
   "expertise_domain_scores": {

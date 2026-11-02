@@ -58,8 +58,8 @@
   "delving_threads": 0.0,
   "ml_responses": 16.0,
   "delving_responses": 0.0,
-  "first_active": null,
-  "last_active": null,
+  "first_active": "2015-01-21T13:29:52",
+  "last_active": "2017-12-11T12:12:02",
   "dev_type": "Builder",
   "expertise_domains": [
     "Infrastructure",
@@ -67,17 +67,17 @@
     "Network"
   ],
   "expertise_by_source": {
+    "discussion": {
+      "Consensus": 1.0
+    },
     "code": {
       "Infrastructure": 0.923,
       "Network": 0.077
-    },
-    "discussion": {
-      "Consensus": 1.0
     }
   },
   "expertise_domain_scores": {
-    "Consensus": 0.4,
     "Infrastructure": 0.5538,
+    "Consensus": 0.4,
     "Network": 0.0462
   },
   "p2016_posts": 8.0,

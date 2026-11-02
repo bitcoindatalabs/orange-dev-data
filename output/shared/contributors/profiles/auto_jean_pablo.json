@@ -46,8 +46,8 @@
   "prs_authored": 12.0,
   "tier1_prs_authored": 7.0,
   "tier2_prs_authored": 5.0,
-  "avg_pr_ack_velocity_days": 12.76458912037037,
-  "avg_concept_lead_time_days": 5.2366319444444445,
+  "avg_pr_ack_velocity_days": 22.173768518518518,
+  "avg_concept_lead_time_days": 32.52355902777778,
   "review_reciprocity": 8.0,
   "hybrid_score": 0.3106,
   "p2016_hybrid_score": 0.3106,
@@ -61,8 +61,8 @@
   "delving_threads": 4.0,
   "ml_responses": 0.0,
   "delving_responses": 1.0,
-  "first_active": "2026-07-28T21:29:41.575000",
-  "last_active": null,
+  "first_active": null,
+  "last_active": "2026-08-06T08:51:55",
   "dev_type": "Builder",
   "expertise_domains": [
     "Wallet",
@@ -70,18 +70,18 @@
     "Cryptography"
   ],
   "expertise_by_source": {
-    "code": {
-      "Infrastructure": 0.455,
-      "Wallet": 0.545
-    },
     "discussion": {
       "Consensus": 0.388,
       "Cryptography": 0.612
+    },
+    "code": {
+      "Infrastructure": 0.455,
+      "Wallet": 0.545
     }
   },
   "expertise_domain_scores": {
-    "Consensus": 0.1552,
     "Infrastructure": 0.273,
+    "Consensus": 0.1552,
     "Wallet": 0.327,
     "Cryptography": 0.2448
   },
@@ -95,7 +95,7 @@
   "is_reviewer": true,
   "is_researcher": false,
   "is_bip_author": false,
-  "global_first_active": "2026-07-28T21:29:41.575000",
+  "global_first_active": "2026-08-03T23:45:59",
   "global_last_active": "2026-10-05T12:47:35",
   "github_location": "Portugal",
   "github_company": null,

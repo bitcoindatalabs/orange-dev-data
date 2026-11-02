@@ -60,7 +60,7 @@
   "review_reciprocity": 2.0,
   "hybrid_score": 0.4214,
   "p2016_hybrid_score": 0.4249,
-  "modern_hybrid_score": 0.4203,
+  "modern_hybrid_score": 0.4204,
   "impact_score": 22.0,
   "p2016_impact_score": 23.0,
   "modern_impact_score": 22.0,
@@ -70,8 +70,8 @@
   "delving_threads": 1.0,
   "ml_responses": 1.0,
   "delving_responses": 2.0,
-  "first_active": "2025-07-20T18:30:46.419000",
-  "last_active": null,
+  "first_active": null,
+  "last_active": "2026-05-26T16:28:51",
   "dev_type": "Participant",
   "expertise_domains": [
     "Infrastructure",
@@ -80,8 +80,8 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Wallet": 0.293,
-      "Cryptography": 0.707
+      "Cryptography": 0.707,
+      "Wallet": 0.293
     },
     "bips": {
       "Infrastructure": 1.0
@@ -103,7 +103,7 @@
   "is_researcher": true,
   "is_bip_author": true,
   "global_first_active": "2020-12-23T17:27:54",
-  "global_last_active": "2026-02-04T14:58:08",
+  "global_last_active": "2026-05-26T16:28:51",
   "github_location": "Bay Area, California",
   "github_company": null,
   "github_bio": null,

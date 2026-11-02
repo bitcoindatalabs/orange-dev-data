@@ -60,7 +60,7 @@
   "review_reciprocity": 1.0,
   "hybrid_score": 0.4707,
   "p2016_hybrid_score": 0.4981,
-  "modern_hybrid_score": 0.6804,
+  "modern_hybrid_score": 0.6803,
   "impact_score": 25.0,
   "p2016_impact_score": 26.0,
   "modern_impact_score": 34.0,
@@ -70,8 +70,8 @@
   "delving_threads": 2.0,
   "ml_responses": 6.0,
   "delving_responses": 4.0,
-  "first_active": null,
-  "last_active": "2026-07-04T03:27:34.915000",
+  "first_active": "2025-10-25T15:43:11",
+  "last_active": null,
   "dev_type": "Participant",
   "expertise_domains": [
     "Consensus",
@@ -87,8 +87,8 @@
     }
   },
   "expertise_domain_scores": {
-    "Consensus": 0.8677,
-    "Mempool": 0.1323
+    "Mempool": 0.1323,
+    "Consensus": 0.8677
   },
   "p2016_posts": 13.0,
   "modern_posts": 13.0,

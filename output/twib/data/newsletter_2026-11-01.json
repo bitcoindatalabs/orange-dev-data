@@ -4,11 +4,11 @@
   "stats": {
     "total_merged": 35,
     "subsystem_merged": {
-      "bitcoin-core/secp256k1": 2,
+      "bitcoin-core/secp256k1": 3,
       "bitcoin-core/gui": 1
     },
-    "total_reviews": 478,
-    "total_threads": 52,
+    "total_reviews": 519,
+    "total_threads": 54,
     "new_contributors": 0
   },
   "previous_stats": {
@@ -21,15 +21,15 @@
     "new_contributors": 2
   },
   "social_hook": {
-    "headline": "Accelerating Protocol Innovation & Privacy Enhancements",
+    "headline": "Protocol velocity across privacy & node robustness:",
     "bullets": [
-      "**Silent Payments (BIP 352):** Significant progress in testing robustness and active discussions to extend its privacy benefits to multiparty wallets.",
-      "**Future Protocol Development:** Enabled flexible testing of novel transaction types on testnets, accelerating research into scalability and programmability."
+      "Silent Payments (BIP 352) advances with key implementation and testing merges",
+      "Critical node data integrity checks merged for enhanced operational safety"
     ]
   },
   "tldr": [
-    "Continued focus on long-term protocol resilience and advanced on-chain capabilities:** Discussions around mitigating quantum-vulnerable UTXOs highlight a proactive approach to future security threats, while the BIP draft for Co-signer Spending Policies and the extension of Silent Payments to multiparty wallets indicate significant progress towards more robust and private on-chain contract designs. The allowance of non-standard scripts on testnets further supports experimentation for future protocol evolution.",
-    "Sustained investment in code quality, testing, and development infrastructure:** A substantial volume of merged PRs focused on fuzzing, comprehensive testing, CI improvements, and extensive refactoring demonstrates a continuous, high-priority effort to enhance the codebase's robustness, maintainability, and reliability."
+    "A notable technical shift towards enabling more flexible policy experimentation on testnets, exemplified by allowing non-standard scripts, is underway, alongside critical long-term protocol discussions concerning future security challenges like quantum vulnerability and advanced spending conditions such as co-signer policies.",
+    "There's a sustained and significant focus on enhancing the core codebase's robustness, maintainability, and developer tooling, evident through extensive refactoring, improved fuzzing infrastructure, and continuous integration enhancements."
   ],
   "meeting": {
     "date": "2026-10-29",
@@ -215,6 +215,19 @@
             "technical_summary": "The PR addresses specific arithmetic operations within the Bloom filter sizing logic that could lead to undefined behavior (e.g., integer overflow) under certain input conditions. It likely introduces bounds checks, uses safer arithmetic types, or refactors the calculation to guarantee well-defined results across all valid inputs, improving the robustness and predictability of Bloom filter construction and usage within the P2P layer.",
             "importance": 5,
             "review_count": 5
+          },
+          {
+            "number": 1983,
+            "repo": "bitcoin-core/secp256k1",
+            "title": "silentpayments: return 0 instead of `ARG_CHECK`ing for empty inputs/outputs",
+            "author": {
+              "username": "theStack",
+              "uuid": "can_sebastian_falbesoner"
+            },
+            "summary": "This PR refines the error handling within the `secp256k1` library for silent payments. It changes the behavior for empty inputs or outputs, allowing the function to gracefully return a failure code instead of triggering a strict argument check. This improves the robustness and user experience when interacting with silent payments by preventing unnecessary program termination for valid edge cases.",
+            "technical_summary": "This modification in the `secp256k1` library specifically targets the `silentpayments` implementation. Instead of using `ARG_CHECK` for empty inputs or outputs, which typically asserts conditions and can lead to program termination or strict error propagation, the function will now return `0`. This change implies a more lenient and robust handling of edge cases where empty inputs/outputs might be valid or expected, allowing the calling code to handle the non-operation gracefully. It avoids potential crashes or overly strict validation in scenarios where an empty set is not a critical error but rather a condition that results in no cryptographic operation.",
+            "importance": 3,
+            "review_count": 3
           }
         ]
       },
@@ -301,8 +314,8 @@
             },
             "summary": "This PR ensures that signal callbacks are properly destroyed when a connection is disconnected, preventing potential memory leaks and improving resource management. This contributes to a more stable and efficient node operation over time.",
             "technical_summary": "The `btcsignals` system facilitates inter-component communication. This PR addresses a scenario where, upon a component or connection disconnecting, associated signal callbacks might not have been properly unregistered or deallocated. By explicitly destroying these callbacks on disconnect, it prevents dangling pointers or accumulated memory usage, ensuring resources are correctly released and avoiding potential crashes or memory exhaustion.",
-            "importance": 10,
-            "review_count": 10
+            "importance": 11,
+            "review_count": 11
           },
           {
             "number": 36611,
@@ -660,7 +673,7 @@
               "username": "instagibbs",
               "uuid": "can_greg_sanders"
             },
-            "event_count": 22,
+            "event_count": 23,
             "summary": "This PR rearchitects how private transaction broadcasts are handled, isolating them as separate jobs from the main node's operation. This improves the reliability and efficiency of private transaction relay, particularly for wallet-initiated transactions.",
             "technical_summary": "The change decouples private transaction broadcast logic from the core `net_processing` thread. It likely introduces a dedicated asynchronous job queue or thread pool to manage these broadcasts, preventing potential blocking or resource contention with other P2P operations. This ensures that private transactions are relayed promptly and reliably without impacting overall node performance or responsiveness."
           },
@@ -719,8 +732,8 @@
       },
       "link": "https://delvingbitcoin.org/t/silent-payments-for-multiparty-wallets/2960/2",
       "message_count": 3,
-      "summary": "We're making strides to enable groups of people to use Silent Payments securely, bringing enhanced privacy to shared Bitcoin wallets and multi-party transactions. This work ensures that the benefits of private payments can be reliably extended to collaborative spending.",
-      "technical_summary": "The discussion centers on a new protocol to securely compose BIP-352 Silent Payments with multiparty signing schemes like FROST and MuSig2, addressing the initial lack of a security proof. Recent feedback clarified cryptographic notation regarding commitment aggregation (e.g., `c_i` vs `hat c_i = g * c_i`) and the proper application of accumulated parity, referencing BIP-327 and BIP-445. The architectural debate is on establishing a robust, shared interface that ensures cryptographic soundness when integrating diverse multiparty schemes, requiring careful construction of individual signer contributions and their aggregation."
+      "summary": "Making Bitcoin's privacy-enhancing Silent Payments work securely for shared wallets is a key focus, allowing multiple parties to approve transactions while maintaining strong privacy. This work aims to bring advanced privacy features to collaborative spending.",
+      "technical_summary": "The thread discusses a new protocol to enable secure multiparty Silent Payments, addressing BIP-352's initial hesitation regarding FROST/MuSig2 due to unproven security. A recent clarification corrected a notation slip, detailing that individual `c_i` values should be transformed as `\\hat c_i = g \\cdot c_i`, akin to accumulated parity in BIP-327/445. The community appreciates the security focus and the potential for a shared interface across various multiparty signing schemes, indicating progress towards a robust, unified solution."
     },
     {
       "source": "Delving",
@@ -748,15 +761,15 @@
     },
     {
       "source": "Delving",
-      "subject": "Where should wallets explain the differences between on-chain Bitcoin and Lightning?",
+      "subject": "Towards A K-of-N Lightning Network Node",
       "author": {
-        "username": "Anzus",
-        "uuid": "auto_anzus"
+        "username": "ZmnSCPxj jxPCSnmZ",
+        "uuid": "auto_zmnscpxj_jxpcsnmz"
       },
-      "link": "https://delvingbitcoin.org/t/where-should-wallets-explain-the-differences-between-on-chain-bitcoin-and-lightning/2922/2",
+      "link": "https://delvingbitcoin.org/t/towards-a-k-of-n-lightning-network-node/2395/8",
       "message_count": 2,
-      "summary": "Efforts are underway to simplify Bitcoin transactions for new users by clearly labeling payment types (on-chain vs. Lightning) at the confirmation stage, preventing common errors and improving user experience.",
-      "technical_summary": "A recurring usability issue has been identified where users fail to distinguish between on-chain Bitcoin and Lightning Network payments, leading to confusion. The proposed solution focuses on a UI enhancement: explicitly labeling the payment type on the transaction confirmation screen. This approach is supported by observations from support teams, indicating that most user confusion occurs at the point of confirmation, suggesting that proactive labeling at this critical stage is more effective than relying on users to understand the distinction beforehand."
+      "summary": "We're exploring how to build more secure, shared Lightning Network nodes using multisignature technology, offering enhanced self-custody and resilience for your funds. This could make managing Lightning payments safer and more flexible for users.",
+      "technical_summary": "The discussion focuses on designing a k-of-n multisignature self-custodial Lightning Network node, leveraging the Nested MuSig2 paper. The immediate question is whether to formalize this concept as an upstream bLIP, with potential numbers 266/267. Key technical concerns and architectural debates center on defining robust multi-signer coordination mechanisms and establishing reliable reestablishment rules for channels in such a distributed environment. This involves intricate details of how multiple parties securely manage and recover Lightning channel states."
     }
   ],
   "shoutouts": {
@@ -804,7 +817,7 @@
           "username": "maflcko",
           "uuid": "can_marcofalke"
         },
-        "count": 60
+        "count": 61
       },
       {
         "user": {
@@ -825,17 +838,21 @@
           "username": "hebasto",
           "uuid": "can_hennadii_stepanov"
         },
-        "count": 26
+        "count": 28
       },
       {
         "user": {
-          "username": "Sjors",
-          "uuid": "can_sjors_provoost"
+          "username": "fametrano",
+          "uuid": "auto_ferdinando_m_ametrano"
         },
-        "count": 23
+        "count": 24
       }
     ],
     "all_active": [
+      {
+        "username": "8144225309",
+        "uuid": "auto_8144225309"
+      },
       {
         "username": "achow101",
         "uuid": "can_ava_chow"
@@ -929,6 +946,14 @@
         "uuid": "auto_matias_furszyfer"
       },
       {
+        "username": "girmafitsum74-tech",
+        "uuid": "auto_girmafitsum74_tech"
+      },
+      {
+        "username": "Hamza1610",
+        "uuid": "auto_hamza_muhammad"
+      },
+      {
         "username": "hebasto",
         "uuid": "can_hennadii_stepanov"
       },
@@ -1007,6 +1032,10 @@
       {
         "username": "mercie-ux",
         "uuid": "auto_mercy_mbao"
+      },
+      {
+        "username": "MicSm",
+        "uuid": "auto_micsm"
       },
       {
         "username": "molnard",
@@ -1099,6 +1128,10 @@
       {
         "username": "Sjors",
         "uuid": "can_sjors_provoost"
+      },
+      {
+        "username": "Snan0M",
+        "uuid": "auto_snan0m"
       },
       {
         "username": "spacexm406-web",

@@ -70,8 +70,8 @@
   "delving_threads": 0.0,
   "ml_responses": 40.0,
   "delving_responses": 0.0,
-  "first_active": null,
-  "last_active": null,
+  "first_active": "2017-07-02T15:35:22",
+  "last_active": "2022-08-25T08:48:36",
   "dev_type": "Protocol Designer",
   "expertise_domains": [
     "Privacy",
@@ -79,12 +79,12 @@
     "Mempool"
   ],
   "expertise_by_source": {
-    "code": {
-      "Wallet": 1.0
-    },
     "discussion": {
       "Mempool": 0.7,
       "Privacy": 0.3
+    },
+    "code": {
+      "Wallet": 1.0
     },
     "bips": {
       "Privacy": 1.0
@@ -106,7 +106,7 @@
   "is_researcher": true,
   "is_bip_author": true,
   "global_first_active": "2015-02-18T14:34:46",
-  "global_last_active": "2020-12-28T17:48:31",
+  "global_last_active": "2022-08-25T08:48:36",
   "github_location": "Zimbabwe",
   "github_company": null,
   "github_bio": null,

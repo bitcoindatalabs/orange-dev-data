@@ -58,8 +58,8 @@
   "delving_threads": 0.0,
   "ml_responses": 109.0,
   "delving_responses": 0.0,
-  "first_active": null,
-  "last_active": null,
+  "first_active": "2014-03-29T03:05:17",
+  "last_active": "2015-09-02T14:21:48",
   "dev_type": "Builder",
   "expertise_domains": [
     "Infrastructure",
@@ -67,22 +67,22 @@
     "Mining"
   ],
   "expertise_by_source": {
-    "code": {
-      "Consensus": 0.1,
-      "Infrastructure": 0.5,
-      "Network": 0.2,
-      "Mempool": 0.2
-    },
     "discussion": {
       "Mining": 0.345,
       "Wallet": 0.655
+    },
+    "code": {
+      "Infrastructure": 0.5,
+      "Consensus": 0.1,
+      "Network": 0.2,
+      "Mempool": 0.2
     }
   },
   "expertise_domain_scores": {
-    "Consensus": 0.06,
+    "Mempool": 0.12,
     "Mining": 0.138,
     "Infrastructure": 0.3,
-    "Mempool": 0.12,
+    "Consensus": 0.06,
     "Wallet": 0.262,
     "Network": 0.12
   },
@@ -96,7 +96,7 @@
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": false,
-  "global_first_active": "2017-12-29T03:56:36",
+  "global_first_active": "2014-03-29T03:05:17",
   "global_last_active": "2026-02-20T07:56:41",
   "github_location": "New Hampshire, USA",
   "github_company": null,

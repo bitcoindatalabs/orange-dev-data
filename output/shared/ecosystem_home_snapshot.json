@@ -1,6 +1,6 @@
 {
   "generated_at": "2026-11-01",
-  "contributors_tracked": 7351,
+  "contributors_tracked": 7354,
   "window_reference": {
     "anchor_timestamp": "2026-11-01T23:59:59+00:00",
     "current_window_start": "2026-10-02T23:59:59+00:00",
@@ -9,12 +9,12 @@
   },
   "widgets": {
     "active_contributors_30d": {
-      "value": 145,
-      "previous_30d": 60,
-      "delta_30d": 85,
+      "value": 156,
+      "previous_30d": 67,
+      "delta_30d": 89,
       "window_days": 30,
       "definition": "Contributors with global_last_active in current 30-day window, compared to the previous 30-day window.",
-      "latest_activity_date": "2026-11-01"
+      "latest_activity_date": "2026-11-02"
     },
     "top_reviewers_30d": {
       "window_days": 30,
@@ -37,9 +37,9 @@
         {
           "uuid": "auto_ferdinando_m_ametrano",
           "display_name": "Ferdinando M. Ametrano",
-          "reviews_30d": 106,
+          "reviews_30d": 121,
           "previous_30d": 35,
-          "delta_30d": 71
+          "delta_30d": 86
         },
         {
           "uuid": "can_michael_ford",
@@ -51,9 +51,9 @@
         {
           "uuid": "can_lorinc_pap",
           "display_name": "Lorinc Pap",
-          "reviews_30d": 54,
+          "reviews_30d": 55,
           "previous_30d": 63,
-          "delta_30d": -9
+          "delta_30d": -8
         }
       ],
       "aliases_collapsed": 0
@@ -98,17 +98,17 @@
       "prs": 35
     },
     "research_activity_30d": {
-      "messages_30d": 139,
+      "messages_30d": 142,
       "previous_30d": 196,
-      "delta_30d": -57,
+      "delta_30d": -54,
       "momentum": "cooling",
       "definition": "Combined Delving Bitcoin and mailing list discussion volume in current 30 days versus previous 30 days."
     },
     "discussion_voices_30d": {
-      "value": 72,
+      "value": 73,
       "previous_30d": 60,
-      "delta_30d": 12,
-      "messages_30d": 139,
+      "delta_30d": 13,
+      "messages_30d": 142,
       "messages_previous_30d": 196
     },
     "topic_momentum_30d": {
@@ -118,9 +118,9 @@
         {
           "topic": "p2p-network",
           "label": "P2P Network",
-          "mentions_30d": 17,
+          "mentions_30d": 18,
           "previous_30d": 12,
-          "delta_30d": 5
+          "delta_30d": 6
         },
         {
           "topic": "mining",
@@ -153,12 +153,12 @@
       ]
     },
     "active_contributors_7d": {
-      "value": 78,
-      "previous_7d": 33,
-      "delta_7d": 45,
+      "value": 85,
+      "previous_7d": 32,
+      "delta_7d": 53,
       "window_days": 7,
       "definition": "Contributors with global_last_active in current 7-day window, compared to the previous 7-day window.",
-      "latest_activity_date": "2026-11-01"
+      "latest_activity_date": "2026-11-02"
     },
     "top_reviewers_7d": {
       "window_days": 7,
@@ -186,18 +186,18 @@
           "delta_7d": -1
         },
         {
-          "uuid": "can_sjors_provoost",
-          "display_name": "Sjors Provoost",
-          "reviews_7d": 16,
-          "previous_7d": 10,
-          "delta_7d": 6
+          "uuid": "auto_ferdinando_m_ametrano",
+          "display_name": "Ferdinando M. Ametrano",
+          "reviews_7d": 25,
+          "previous_7d": 65,
+          "delta_7d": -40
         },
         {
           "uuid": "can_hennadii_stepanov",
           "display_name": "Hennadii Stepanov",
-          "reviews_7d": 16,
+          "reviews_7d": 18,
           "previous_7d": 22,
-          "delta_7d": -6
+          "delta_7d": -4
         }
       ],
       "aliases_collapsed": 0
@@ -242,17 +242,17 @@
       "prs": 35
     },
     "research_activity_7d": {
-      "messages_7d": 68,
+      "messages_7d": 71,
       "previous_7d": 33,
-      "delta_7d": 35,
+      "delta_7d": 38,
       "momentum": "rising",
       "definition": "Combined Delving Bitcoin and mailing list discussion volume in current 7 days versus previous 7 days."
     },
     "discussion_voices_7d": {
-      "value": 40,
+      "value": 42,
       "previous_7d": 22,
-      "delta_7d": 18,
-      "messages_7d": 68,
+      "delta_7d": 20,
+      "messages_7d": 71,
       "messages_previous_7d": 33
     },
     "topic_momentum_7d": {
@@ -300,24 +300,29 @@
       "definition": "Random selection of top retired contributors by impact score to feature as ecosystem veterans.",
       "items": [
         {
-          "uuid": "auto_dhruv_mehta",
-          "display_name": "Dhruv Mehta",
-          "impact_score": 33.0
+          "uuid": "can_shaolin_fry",
+          "display_name": "Shaolin Fry",
+          "impact_score": 41.0
         },
         {
-          "uuid": "can_jorge_tim_n",
-          "display_name": "Jorge Tim\u00f3n",
-          "impact_score": 45.0
+          "uuid": "can_samuel_dobson",
+          "display_name": "Samuel Dobson",
+          "impact_score": 61.0
         },
         {
-          "uuid": "can_thomas_zander",
-          "display_name": "Thomas Zander",
-          "impact_score": 36.0
+          "uuid": "can_laszlo_hanyecz",
+          "display_name": "Laszlo Hanyecz",
+          "impact_score": 47.0
         },
         {
-          "uuid": "auto_ryan_havar",
-          "display_name": "Ryan Havar",
-          "impact_score": 31.0
+          "uuid": "can_chris_belcher",
+          "display_name": "Chris Belcher",
+          "impact_score": 38.0
+        },
+        {
+          "uuid": "auto_upal_chakraborty",
+          "display_name": "Upal Chakraborty",
+          "impact_score": 23.0
         }
       ]
     }

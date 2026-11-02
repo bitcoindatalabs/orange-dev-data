@@ -6,7 +6,7 @@
       "iso3": "USA",
       "flag": "🇺🇸",
       "macro_region": "North America",
-      "value": 559,
+      "value": 560,
       "active_devs": 397,
       "authored_commits": 4673
     },
@@ -17,7 +17,7 @@
       "flag": "🇩🇪",
       "macro_region": "Europe",
       "value": 110,
-      "active_devs": 85,
+      "active_devs": 84,
       "authored_commits": 1944
     },
     {
@@ -77,7 +77,7 @@
       "flag": "🇫🇷",
       "macro_region": "Europe",
       "value": 58,
-      "active_devs": 42,
+      "active_devs": 41,
       "authored_commits": 145
     },
     {
@@ -97,7 +97,7 @@
       "flag": "🇨🇭",
       "macro_region": "Europe",
       "value": 53,
-      "active_devs": 38,
+      "active_devs": 39,
       "authored_commits": 1182
     },
     {
@@ -159,7 +159,7 @@
       "flag": "🇺🇸",
       "macro_region": "North America",
       "value": 4673,
-      "contributors": 559,
+      "contributors": 560,
       "active_devs": 397
     },
     {
@@ -200,7 +200,7 @@
       "macro_region": "Europe",
       "value": 1944,
       "contributors": 110,
-      "active_devs": 85
+      "active_devs": 84
     },
     {
       "name": "Switzerland",
@@ -210,7 +210,7 @@
       "macro_region": "Europe",
       "value": 1182,
       "contributors": 53,
-      "active_devs": 38
+      "active_devs": 39
     },
     {
       "name": "UK",
@@ -228,7 +228,7 @@
       "iso3": "AUT",
       "flag": "🇦🇹",
       "macro_region": "Europe",
-      "value": 929,
+      "value": 932,
       "contributors": 23,
       "active_devs": 18
     },
@@ -300,7 +300,7 @@
       "macro_region": "Europe",
       "value": 145,
       "contributors": 58,
-      "active_devs": 42
+      "active_devs": 41
     }
   ],
   "other_small_countries": {
@@ -310,8 +310,8 @@
     "rule": "countries with fewer than 5 contributors are not listed individually"
   },
   "coverage": {
-    "devs_known": 1945,
-    "devs_total": 7902,
+    "devs_known": 1946,
+    "devs_total": 7905,
     "commit_weighted_known": 0.5474,
     "countries_total": 103,
     "taxonomy_version": "2026.10.1"

@@ -58,8 +58,8 @@
   "delving_threads": 2.0,
   "ml_responses": 0.0,
   "delving_responses": 0.0,
-  "first_active": "2026-10-26T19:29:15.254000",
-  "last_active": "2026-10-27T15:13:22.375000",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Participant",
   "expertise_domains": [
     "Network",
@@ -75,8 +75,8 @@
   },
   "expertise_domain_scores": {
     "Mempool": 0.194,
-    "L2": 0.403,
-    "Network": 0.403
+    "Network": 0.403,
+    "L2": 0.403
   },
   "p2016_posts": 2.0,
   "modern_posts": 2.0,
@@ -88,8 +88,8 @@
   "is_reviewer": false,
   "is_researcher": false,
   "is_bip_author": false,
-  "global_first_active": "2026-10-26T19:29:15.254000",
-  "global_last_active": "2026-10-27T15:13:22.375000",
+  "global_first_active": null,
+  "global_last_active": null,
   "github_location": null,
   "github_company": null,
   "github_bio": null,

@@ -58,8 +58,8 @@
   "delving_threads": 1.0,
   "ml_responses": 0.0,
   "delving_responses": 0.0,
-  "first_active": "2026-04-09T17:01:34.604000",
-  "last_active": "2026-04-09T17:01:34.604000",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Participant",
   "expertise_domains": [
     "Consensus"
@@ -83,7 +83,7 @@
   "is_researcher": false,
   "is_bip_author": false,
   "global_first_active": "2023-06-30T20:43:12",
-  "global_last_active": "2026-04-09T17:01:34.604000",
+  "global_last_active": "2023-07-07T17:51:06",
   "github_location": null,
   "github_company": null,
   "github_bio": "https://paynym.rs/+rabidrecognition20\r\n",

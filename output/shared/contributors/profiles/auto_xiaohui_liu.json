@@ -48,7 +48,7 @@
   "review_reciprocity": null,
   "hybrid_score": 0.0072,
   "p2016_hybrid_score": 0.0112,
-  "modern_hybrid_score": 0.034,
+  "modern_hybrid_score": 0.0341,
   "impact_score": 0.0,
   "p2016_impact_score": 1.0,
   "modern_impact_score": 2.0,
@@ -58,8 +58,8 @@
   "delving_threads": 0.0,
   "ml_responses": 1.0,
   "delving_responses": 0.0,
-  "first_active": null,
-  "last_active": null,
+  "first_active": "2024-11-15T15:54:08",
+  "last_active": "2024-11-15T15:54:08",
   "dev_type": "Participant",
   "expertise_domains": [
     "Script",
@@ -68,8 +68,8 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Consensus": 0.254,
       "Script": 0.493,
+      "Consensus": 0.254,
       "Cryptography": 0.254
     }
   },
@@ -88,8 +88,8 @@
   "is_reviewer": false,
   "is_researcher": true,
   "is_bip_author": false,
-  "global_first_active": null,
-  "global_last_active": null,
+  "global_first_active": "2024-11-15T15:54:08",
+  "global_last_active": "2024-11-15T15:54:08",
   "github_location": null,
   "github_company": null,
   "github_bio": null,

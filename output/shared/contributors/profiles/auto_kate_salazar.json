@@ -58,8 +58,8 @@
   "delving_threads": 0.0,
   "ml_responses": 7.0,
   "delving_responses": 0.0,
-  "first_active": null,
-  "last_active": null,
+  "first_active": "2021-10-16T16:34:32",
+  "last_active": "2022-06-29T05:44:11",
   "dev_type": "Builder",
   "expertise_domains": [
     "Infrastructure",
@@ -67,17 +67,17 @@
     "Consensus"
   ],
   "expertise_by_source": {
+    "discussion": {
+      "Script": 0.568,
+      "Consensus": 0.432
+    },
     "code": {
       "Infrastructure": 1.0
-    },
-    "discussion": {
-      "Consensus": 0.432,
-      "Script": 0.568
     }
   },
   "expertise_domain_scores": {
-    "Consensus": 0.1728,
     "Infrastructure": 0.6,
+    "Consensus": 0.1728,
     "Script": 0.2272
   },
   "p2016_posts": 7.0,

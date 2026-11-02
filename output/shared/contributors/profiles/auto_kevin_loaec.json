@@ -48,7 +48,7 @@
   "review_reciprocity": null,
   "hybrid_score": 0.033,
   "p2016_hybrid_score": 0.0376,
-  "modern_hybrid_score": 0.0463,
+  "modern_hybrid_score": 0.0464,
   "impact_score": 2.0,
   "p2016_impact_score": 2.0,
   "modern_impact_score": 3.0,
@@ -58,8 +58,8 @@
   "delving_threads": 3.0,
   "ml_responses": 0.0,
   "delving_responses": 4.0,
-  "first_active": null,
-  "last_active": "2025-07-21T09:28:45.184000",
+  "first_active": "2021-01-14T12:17:09",
+  "last_active": null,
   "dev_type": "Participant",
   "expertise_domains": [
     "Wallet",
@@ -72,8 +72,8 @@
     }
   },
   "expertise_domain_scores": {
-    "Script": 0.191,
-    "Wallet": 0.809
+    "Wallet": 0.809,
+    "Script": 0.191
   },
   "p2016_posts": 8.0,
   "modern_posts": 7.0,
@@ -85,7 +85,7 @@
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": false,
-  "global_first_active": "2026-07-21T11:40:28",
+  "global_first_active": "2021-01-14T12:17:09",
   "global_last_active": "2026-07-21T11:41:19",
   "github_location": null,
   "github_company": "Revault",
@@ -94,7 +94,7 @@
   "github_blog": null,
   "github_followers": 56.0,
   "github_profile_fetched_at": "2026-10-20T18:51:55Z",
-  "activity_status": "New",
+  "activity_status": "Active",
   "geo_country_iso2": null,
   "geo_country_iso3": null,
   "geo_country_name": null,

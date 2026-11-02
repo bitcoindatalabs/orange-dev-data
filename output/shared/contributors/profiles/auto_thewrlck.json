@@ -48,7 +48,7 @@
   "review_reciprocity": 3.0,
   "hybrid_score": 0.0594,
   "p2016_hybrid_score": 0.0619,
-  "modern_hybrid_score": 0.0756,
+  "modern_hybrid_score": 0.0757,
   "impact_score": 4.0,
   "p2016_impact_score": 4.0,
   "modern_impact_score": 4.0,
@@ -58,8 +58,8 @@
   "delving_threads": 0.0,
   "ml_responses": 1.0,
   "delving_responses": 0.0,
-  "first_active": null,
-  "last_active": null,
+  "first_active": "2025-10-27T11:35:17",
+  "last_active": "2025-10-27T11:35:17",
   "dev_type": "Participant",
   "expertise_domains": [
     "Consensus"

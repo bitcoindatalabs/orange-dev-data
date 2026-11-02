@@ -58,8 +58,8 @@
   "delving_threads": 0.0,
   "ml_responses": 1.0,
   "delving_responses": 0.0,
-  "first_active": null,
-  "last_active": null,
+  "first_active": "2015-12-17T11:01:30",
+  "last_active": "2017-06-11T08:44:17",
   "dev_type": "Participant",
   "expertise_domains": [
     "Consensus",
@@ -72,8 +72,8 @@
     }
   },
   "expertise_domain_scores": {
-    "Consensus": 0.778,
-    "Mining": 0.222
+    "Mining": 0.222,
+    "Consensus": 0.778
   },
   "p2016_posts": 2.0,
   "modern_posts": 0.0,
@@ -85,8 +85,8 @@
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": false,
-  "global_first_active": "2015-12-21T10:57:18",
-  "global_last_active": "2016-09-09T10:11:41",
+  "global_first_active": "2015-12-17T11:01:30",
+  "global_last_active": "2017-06-11T08:44:17",
   "github_location": "Leiden, Netherlands",
   "github_company": "MEVS",
   "github_bio": null,

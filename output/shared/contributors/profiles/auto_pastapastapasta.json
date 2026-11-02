@@ -68,8 +68,8 @@
   ],
   "expertise_by_source": {
     "code": {
-      "Consensus": 0.062,
       "Infrastructure": 0.676,
+      "Consensus": 0.062,
       "Wallet": 0.167,
       "Network": 0.052,
       "Script": 0.021,
@@ -77,10 +77,10 @@
     }
   },
   "expertise_domain_scores": {
-    "Consensus": 0.0621,
     "Infrastructure": 0.6767,
-    "Script": 0.021,
+    "Consensus": 0.0621,
     "Wallet": 0.1672,
+    "Script": 0.021,
     "Network": 0.0521,
     "Cryptography": 0.021
   },

@@ -58,8 +58,8 @@
   "delving_threads": 0.0,
   "ml_responses": 4.0,
   "delving_responses": 0.0,
-  "first_active": null,
-  "last_active": null,
+  "first_active": "2014-05-11T20:05:20",
+  "last_active": "2014-06-24T14:34:03",
   "dev_type": "Builder",
   "expertise_domains": [
     "Script",
@@ -67,18 +67,18 @@
     "Mempool"
   ],
   "expertise_by_source": {
-    "code": {
-      "Script": 1.0
-    },
     "discussion": {
       "Mempool": 0.141,
       "Ecosystem": 0.859
+    },
+    "code": {
+      "Script": 1.0
     }
   },
   "expertise_domain_scores": {
     "Mempool": 0.0564,
-    "Ecosystem": 0.3436,
-    "Script": 0.6
+    "Script": 0.6,
+    "Ecosystem": 0.3436
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,

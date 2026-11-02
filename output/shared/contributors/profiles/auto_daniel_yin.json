@@ -58,8 +58,8 @@
   "delving_threads": 0.0,
   "ml_responses": 1.0,
   "delving_responses": 0.0,
-  "first_active": null,
-  "last_active": null,
+  "first_active": "2017-08-22T13:18:13",
+  "last_active": "2017-08-22T13:18:13",
   "dev_type": "Builder",
   "expertise_domains": [
     "Cryptography",
@@ -67,17 +67,17 @@
     "Wallet"
   ],
   "expertise_by_source": {
+    "discussion": {
+      "Cryptography": 1.0
+    },
     "code": {
       "Wallet": 0.5,
       "Script": 0.5
-    },
-    "discussion": {
-      "Cryptography": 1.0
     }
   },
   "expertise_domain_scores": {
-    "Script": 0.3,
     "Wallet": 0.3,
+    "Script": 0.3,
     "Cryptography": 0.4
   },
   "p2016_posts": 1.0,
@@ -90,7 +90,7 @@
   "is_reviewer": true,
   "is_researcher": false,
   "is_bip_author": false,
-  "global_first_active": "2018-12-27T20:21:23",
+  "global_first_active": "2017-08-22T13:18:13",
   "global_last_active": "2019-04-18T17:46:43",
   "github_location": "oakland, ca",
   "github_company": "daniel.yin@gmail.com",

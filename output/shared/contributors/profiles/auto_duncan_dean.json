@@ -61,8 +61,8 @@
   "delving_threads": 1.0,
   "ml_responses": 0.0,
   "delving_responses": 0.0,
-  "first_active": "2026-05-11T12:04:49.452000",
-  "last_active": "2026-05-11T12:04:49.452000",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Builder",
   "expertise_domains": [
     "Infrastructure",
@@ -70,13 +70,13 @@
     "Mining"
   ],
   "expertise_by_source": {
-    "code": {
-      "Infrastructure": 1.0
-    },
     "discussion": {
       "Mining": 0.25,
       "Ecosystem": 0.25,
       "Network": 0.5
+    },
+    "code": {
+      "Infrastructure": 1.0
     }
   },
   "expertise_domain_scores": {
@@ -96,7 +96,7 @@
   "is_researcher": false,
   "is_bip_author": false,
   "global_first_active": "2020-06-25T15:10:03",
-  "global_last_active": "2026-05-11T12:04:49.452000",
+  "global_last_active": "2023-07-27T17:08:14",
   "github_location": "South Africa",
   "github_company": "@nexedworks",
   "github_bio": "Barking up trees at Second (https://second.tech)\r\n\r\nMostly on GitLab these days: https://gitlab.com/dunxen",
@@ -104,7 +104,7 @@
   "github_blog": "https://dunxen.dev",
   "github_followers": 144.0,
   "github_profile_fetched_at": "2026-10-20T19:01:09Z",
-  "activity_status": "Active",
+  "activity_status": "Retired",
   "geo_country_iso2": "ZA",
   "geo_country_iso3": "ZAF",
   "geo_country_name": "South Africa",

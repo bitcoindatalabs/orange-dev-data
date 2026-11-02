@@ -33,16 +33,16 @@
   "modern_bips_authored": 0.0,
   "first_bip_date": null,
   "last_bip_date": null,
-  "avg_review_latency_days": 105.3505786463116,
+  "avg_review_latency_days": 105.51576308672534,
   "reviews_count": 267.0,
   "avg_approval_latency_days": 74.1346617063492,
   "approvals_count": 232.0,
   "tier1_reviews_count": 264.0,
   "tier2_reviews_count": 3.0,
   "p2016_reviews_count": 267.0,
-  "modern_reviews_count": 239.0,
+  "modern_reviews_count": 238.0,
   "first_review_date": "2023-03-14T16:51:35",
-  "last_review_date": "2026-10-30T07:02:41",
+  "last_review_date": "2026-10-30T07:04:56",
   "prs_authored": 68.0,
   "tier1_prs_authored": 68.0,
   "tier2_prs_authored": 0.0,
@@ -61,8 +61,8 @@
   "delving_threads": 12.0,
   "ml_responses": 4.0,
   "delving_responses": 13.0,
-  "first_active": "2023-12-20T21:33:06.179000",
-  "last_active": null,
+  "first_active": null,
+  "last_active": "2026-05-17T03:50:00",
   "dev_type": "Builder",
   "expertise_domains": [
     "Infrastructure",
@@ -70,24 +70,24 @@
     "Mining"
   ],
   "expertise_by_source": {
+    "discussion": {
+      "Mempool": 0.61,
+      "Mining": 0.325,
+      "L2": 0.065
+    },
     "code": {
-      "Consensus": 0.041,
       "Infrastructure": 0.771,
+      "Consensus": 0.041,
       "Wallet": 0.066,
       "Network": 0.001,
       "Mempool": 0.121
-    },
-    "discussion": {
-      "Mining": 0.325,
-      "Mempool": 0.61,
-      "L2": 0.065
     }
   },
   "expertise_domain_scores": {
-    "Consensus": 0.0246,
+    "Mempool": 0.3166,
     "Mining": 0.13,
     "Infrastructure": 0.4626,
-    "Mempool": 0.3166,
+    "Consensus": 0.0246,
     "Wallet": 0.0396,
     "L2": 0.026
   },
@@ -102,7 +102,7 @@
   "is_researcher": true,
   "is_bip_author": false,
   "global_first_active": "2023-03-14T16:51:35",
-  "global_last_active": "2026-10-30T07:02:41",
+  "global_last_active": "2026-10-30T07:04:56",
   "github_location": "Remote",
   "github_company": null,
   "github_bio": "Bitcoin Core Contributor supported by @btrustteam @2140-dev\r\n\r\nE9F7 6FD7 F0B6 6653 A7D8  9399 0E39 08F3 6498 9888\r\n\r\nabubakarsadiqismail@proton.me\r\n",

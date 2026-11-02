@@ -58,8 +58,8 @@
   "delving_threads": 0.0,
   "ml_responses": 7.0,
   "delving_responses": 0.0,
-  "first_active": null,
-  "last_active": null,
+  "first_active": "2013-03-16T21:20:14",
+  "last_active": "2015-06-22T03:45:13",
   "dev_type": "Participant",
   "expertise_domains": [
     "Mining",
@@ -67,13 +67,13 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Mining": 0.667,
-      "Mempool": 0.333
+      "Mempool": 0.333,
+      "Mining": 0.667
     }
   },
   "expertise_domain_scores": {
-    "Mining": 0.667,
-    "Mempool": 0.333
+    "Mempool": 0.333,
+    "Mining": 0.667
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,
@@ -85,8 +85,8 @@
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": false,
-  "global_first_active": "2014-06-02T16:20:53",
-  "global_last_active": "2014-06-02T16:20:53",
+  "global_first_active": "2013-03-16T21:20:14",
+  "global_last_active": "2015-06-22T03:45:13",
   "github_location": "Edinburg, TX",
   "github_company": null,
   "github_bio": "Please investigate a resource based economy.",

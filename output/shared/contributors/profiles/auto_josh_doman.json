@@ -48,7 +48,7 @@
   "review_reciprocity": 1.0,
   "hybrid_score": 0.0966,
   "p2016_hybrid_score": 0.1121,
-  "modern_hybrid_score": 0.2261,
+  "modern_hybrid_score": 0.2263,
   "impact_score": 6.0,
   "p2016_impact_score": 7.0,
   "modern_impact_score": 13.0,
@@ -58,8 +58,8 @@
   "delving_threads": 0.0,
   "ml_responses": 7.0,
   "delving_responses": 0.0,
-  "first_active": null,
-  "last_active": null,
+  "first_active": "2025-05-05T20:27:44",
+  "last_active": "2026-05-28T11:38:12",
   "dev_type": "Builder",
   "expertise_domains": [
     "Consensus",
@@ -67,18 +67,18 @@
     "Script"
   ],
   "expertise_by_source": {
-    "code": {
-      "Consensus": 0.5,
-      "Infrastructure": 0.5
-    },
     "discussion": {
-      "Consensus": 0.366,
-      "Script": 0.634
+      "Script": 0.634,
+      "Consensus": 0.366
+    },
+    "code": {
+      "Infrastructure": 0.5,
+      "Consensus": 0.5
     }
   },
   "expertise_domain_scores": {
-    "Consensus": 0.4464,
     "Infrastructure": 0.3,
+    "Consensus": 0.4464,
     "Script": 0.2536
   },
   "p2016_posts": 11.0,
@@ -91,8 +91,8 @@
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": false,
-  "global_first_active": "2025-05-12T18:39:07",
-  "global_last_active": "2025-12-27T16:20:48",
+  "global_first_active": "2025-05-05T20:27:44",
+  "global_last_active": "2026-05-28T11:38:12",
   "github_location": null,
   "github_company": null,
   "github_bio": "Penn M&T '20",
