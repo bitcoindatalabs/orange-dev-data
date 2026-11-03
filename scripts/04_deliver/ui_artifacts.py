@@ -121,9 +121,13 @@ def deliver():
     maintainers = load_maintainers()
     records = []
     filtered_count = 0
+    # Profiles are public: only columns classified as publishable (inferred geography and
+    # other internal fields stay in data/enriched).
+    from scripts.utils.publish_policy import public_profile_columns
+    public_cols = public_profile_columns(df.columns)
     for _, row in df.iterrows():
         rec = {}
-        for col in df.columns:
+        for col in public_cols:
             rec[col] = clean_object(row[col])
 
         impact_score = rec.get('impact_score')
