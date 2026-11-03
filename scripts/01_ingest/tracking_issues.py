@@ -7,7 +7,11 @@ from datetime import datetime
 import os
 import json
 import re
+import sys
 from datetime import datetime
+
+sys.path.append(os.getcwd())
+from scripts.utils.identity import resolver
 
 METADATA_FILE = "metadata/projects.json"
 SOURCE_DIR = "data/sources/bitcoin-github-metadata/issues"
@@ -65,7 +69,7 @@ def main():
         return
         
     projects = []
-    
+
     for issue_id_str, meta in projects_meta.items():
         issue_id = int(issue_id_str)
         project_name = meta.get("project_name", f"Issue #{issue_id}")
@@ -89,6 +93,13 @@ def main():
         updated_at = issue_data.get('updated_at')
         html_url = issue_data.get('html_url', f"https://github.com/bitcoin/bitcoin/issues/{issue_id}")
         
+        # Champion = whoever opened the tracking issue (from GitHub data). A curated
+        # "champion_override" in projects.json wins, for cases like working groups.
+        opener = issue_data.get('user') or {}
+        opener_login = opener.get('login')
+        opener_name = resolver.display_name_for_github(opener_login)
+        champion = meta.get("champion_override") or opener_name
+
         tasks = parse_checklists(body)
         total_tasks = len(tasks)
         completed_tasks = sum(1 for t in tasks if t['is_completed'])
@@ -104,7 +115,8 @@ def main():
             "project_name": project_name,
             "description": meta.get("description", ""),
             "category": meta.get("category", "General"),
-            "champion": meta.get("champion"),
+            "champion": champion,
+            "champion_login": opener_login,
             "bip": meta.get("bip"),
             "title": title,
             "url": html_url,

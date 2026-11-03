@@ -174,8 +174,16 @@ def generate_snapshot():
                         'prs': r.get('total_prs_in_release') or r.get('total_prs', 0)
                     }
                     
-        # 2. If nothing shipped recently, highlight the upcoming release
-        upcoming = next((r for r in releases if r.get('status') == 'upcoming'), None)
+        # 2. If nothing shipped recently, highlight the *next* major release to ship: the lowest
+        #    upcoming X.0 (releases.json lists newest milestones first, e.g. 33.0 before 32.0 RC).
+        def _version_key(r):
+            try:
+                return tuple(int(p) for p in str(r.get('version', '')).split('.'))
+            except ValueError:
+                return (float('inf'),)
+        upcoming_all = [r for r in releases if r.get('status') == 'upcoming']
+        majors = [r for r in upcoming_all if str(r.get('version', '')).endswith('.0')]
+        upcoming = min(majors or upcoming_all, key=_version_key) if upcoming_all else None
         if upcoming:
             return {
                 'version': upcoming.get('version'),

@@ -33,9 +33,11 @@ class IdentityResolver:
     def _rebuild_index(self):
         """Rebuilds the quick-lookup hash map strictly from the master file."""
         self._uuid_map = {}
+        self._records = {}
         for record in self._identities:
             uuid = record["uuid"]
-            
+            self._records[uuid] = record
+
             # Map platforms
             platforms = record.get("platforms", {})
             if "github" in platforms and platforms["github"]:
@@ -159,5 +161,31 @@ class IdentityResolver:
 
         fallback_id = clean_email if clean_email else (clean_name if clean_name else "unknown")
         return self._mint_stateless_uuid(fallback_id)
+
+    # ---- Display names -------------------------------------------------------------
+    def get_record(self, uuid):
+        """The identity record for a uuid, or None for unknown / minted ids."""
+        return self._records.get(uuid) if uuid else None
+
+    @staticmethod
+    def _tidy_name(name):
+        # Auto-minted records sometimes carry a fully lowercased real name ("william madden").
+        # Capitalise multi-word all-lowercase names; leave handles and mixed case untouched.
+        if name and " " in name and name == name.lower():
+            return " ".join(w[:1].upper() + w[1:] for w in name.split())
+        return name
+
+    def display_name(self, uuid, fallback=None):
+        """Canonical display name for a uuid; `fallback` (e.g. the login) when unknown."""
+        record = self.get_record(uuid)
+        name = record.get("display_name") if record else None
+        return self._tidy_name(name) or fallback
+
+    def display_name_for_github(self, login):
+        """Canonical display name for a GitHub login, following known renames
+        (e.g. 'sedited' and 'TheCharlatan' resolve to the same person). Falls back to the login."""
+        if not login:
+            return login
+        return self.display_name(self.resolve_github(login), fallback=login)
 
 resolver = IdentityResolver()

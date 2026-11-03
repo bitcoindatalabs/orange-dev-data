@@ -178,14 +178,23 @@ def run_summarizer():
         df = df.sort_values(by='sort_time', ascending=False)
     
     twib_pr_numbers = set()
+    twib_pr_map = {}
     try:
         from scripts.utils.twib_data import get_weekly_activity
         root_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
         weekly = get_weekly_activity(root_dir, days_back=7)
         for cat, prs in weekly.get('categorized_merged_prs', {}).items():
-            for pr in prs: twib_pr_numbers.add(str(pr['pr_number']))
+            for pr in prs:
+                repo = pr.get('repository_name', 'bitcoin/bitcoin')
+                num = str(pr['pr_number'])
+                twib_pr_numbers.add(num)
+                twib_pr_map[(repo, num)] = pr.get('title', '')
         for cat, prs in weekly.get('categorized_hot_prs', {}).items():
-            for pr in prs: twib_pr_numbers.add(str(pr['pr_number']))
+            for pr in prs:
+                repo = pr.get('repository_name', 'bitcoin/bitcoin')
+                num = str(pr['pr_number'])
+                twib_pr_numbers.add(num)
+                twib_pr_map[(repo, num)] = pr.get('title', '')
     except Exception as e:
         print(f"Failed to load TWIB PRs: {e}")
 
@@ -226,6 +235,18 @@ def run_summarizer():
                     pr_batch_to_fetch[pr_num] = title
                     pr_destinations[pr_num] = 'twib'
 
+    # Ensure all TWIB PRs (including subsystem repos like secp256k1 or gui) are queued
+    for (repo, num), title in twib_pr_map.items():
+        if repo == 'bitcoin/bitcoin':
+            if num not in pr_cache and num not in twib_prs_cache and num not in pr_batch_to_fetch:
+                pr_batch_to_fetch[num] = title
+                pr_destinations[num] = 'twib'
+        else:
+            key = f"{repo}#{num}"
+            if key not in twib_prs_cache and key not in pr_batch_to_fetch:
+                pr_batch_to_fetch[key] = f"[{repo}] {title}"
+                pr_destinations[key] = 'twib'
+
     if not pr_batch_to_fetch:
         print("All PRs are already summarized!")
         return
@@ -234,7 +255,7 @@ def run_summarizer():
     
     # Prioritize TWIB PRs so they get summarized first before API limits hit
     items = list(pr_batch_to_fetch.items())
-    items.sort(key=lambda x: 0 if str(x[0]) in twib_pr_numbers else 1)
+    items.sort(key=lambda x: 0 if (str(x[0]) in twib_pr_numbers or "#" in str(x[0])) else 1)
     
     for i in range(0, len(items), 10):  # Chunk of 10 per the user's request for higher quality & safety
         chunk = dict(items[i:i+10])

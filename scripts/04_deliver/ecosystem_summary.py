@@ -153,8 +153,9 @@ def generate_ecosystem_summary():
                 pr_df = pr_df[pr_df['repository_name'] == 'bitcoin/bitcoin'].copy()
             pr_df_merged = pr_df[pr_df['merged_at'].notna()].copy()
             pr_df_merged['merged_at'] = pd.to_datetime(pr_df_merged['merged_at'], errors='coerce', utc=True)
-            pr_df_merged = pr_df_merged[pr_df_merged['merged_at'].notna()]
-            
+            # Every window ends at the weekly anchor; data after it belongs to next week's build
+            pr_df_merged = pr_df_merged[pr_df_merged['merged_at'].notna() & (pr_df_merged['merged_at'] <= now)]
+
             # Overall PRs
             total_prs_merged = len(pr_df_merged)
 
@@ -170,9 +171,11 @@ def generate_ecosystem_summary():
             prs_merged_prev_7d = int(((pr_df_merged['merged_at'] >= cutoff_14) & (pr_df_merged['merged_at'] < cutoff_7)).sum())
 
             # First-ever merged PR per author (for real-time new coder tracking)
-            first_prs = pr_df_merged.groupby('author')['merged_at'].min().reset_index()
+            from scripts.utils.bots import is_bot
+            first_prs = pr_df_merged[~pr_df_merged['author'].map(is_bot)].groupby('author')['merged_at'].min().reset_index()
             first_prs.columns = ['author', 'first_merged_at']
             new_coders_90d = int((first_prs['first_merged_at'] >= cutoff_90_ts).sum())
+            new_coders_30d = int((first_prs['first_merged_at'] >= cutoff_30).sum())
             new_coders_7d = int((first_prs['first_merged_at'] >= cutoff_7).sum())
     except Exception as e:
         print(f"  Warning: Could not compute PRs merged: {e}")
@@ -181,8 +184,10 @@ def generate_ecosystem_summary():
     commits_prev_30d = 0
     try:
         if os.path.exists(COMMITS_INPUT):
-            df_commits = pd.read_parquet(COMMITS_INPUT, columns=['date_utc'])
+            # commits_resolved has one row per (commit, code category); count each commit once
+            df_commits = pd.read_parquet(COMMITS_INPUT, columns=['hash', 'date_utc']).drop_duplicates('hash')
             df_commits['date_utc'] = pd.to_datetime(df_commits['date_utc'], utc=True)
+            df_commits = df_commits[df_commits['date_utc'] <= now]
             cutoff_30_ts = cutoff_30
             cutoff_60_ts = cutoff_60
             cutoff_7_ts = cutoff_7
@@ -282,6 +287,8 @@ def generate_ecosystem_summary():
         if os.path.exists(SOCIAL_THREADS_INPUT):
             df_threads = pd.read_parquet(SOCIAL_THREADS_INPUT, columns=['date', 'category', 'canonical_id'])
             df_threads['date'] = pd.to_datetime(df_threads['date'])
+            anchor_naive = pd.Timestamp(now).tz_localize(None) if pd.Timestamp(now).tzinfo else pd.Timestamp(now)
+            df_threads = df_threads[df_threads['date'] <= anchor_naive]
             cutoff_ts_naive = pd.Timestamp(cutoff_90).tz_localize(None) if pd.Timestamp(cutoff_90).tzinfo else pd.Timestamp(cutoff_90)
             cutoff_7_ts_naive = pd.Timestamp(now - timedelta(days=7)).tz_localize(None) if pd.Timestamp(now).tzinfo else pd.Timestamp(now - timedelta(days=7))
 
@@ -319,6 +326,7 @@ def generate_ecosystem_summary():
         "spotlight": spotlight_data,
         "onboarding": {
             "new_coders_90d": new_coders_90d,
+            "new_coders_30d": locals().get('new_coders_30d', 0),
             "new_coders_7d": locals().get('new_coders_7d', 0),
             "new_discussants_90d": new_discussants_90d,
             "new_discussants_7d": locals().get('new_discussants_7d', 0),

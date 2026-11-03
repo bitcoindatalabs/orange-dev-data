@@ -9,7 +9,11 @@ except Exception:
     pass
 
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..")))
-from scripts.utils.twib_data import get_weekly_activity
+from scripts.utils.twib_data import get_weekly_activity, CORE_REPO
+
+def pr_url(pr):
+    repo = pr.get('repo') or CORE_REPO
+    return f"https://github.com/{repo}/pull/{pr['number']}"
 
 def format_user(username):
     return f"[@{username}](https://github.com/{username})"
@@ -51,7 +55,7 @@ def build_markdown_from_json(data):
         lines.append("")
     else:
         for pr in all_merged_prs:
-            lines.append(f"#### [#{pr['number']}: {pr['title']}](https://github.com/bitcoin/bitcoin/pull/{pr['number']})")
+            lines.append(f"#### [#{pr['number']}: {pr['title']}]({pr_url(pr)})")
             
             activity_str = f"*(Activity: {pr.get('review_count', 0)} review events)*" if pr.get('review_count', 0) > 0 else ""
             lines.append(f"**Author:** {format_user(pr['author']['username']) if isinstance(pr['author'], dict) else format_user(pr['author'])} | **[{pr['category_name']}]** {activity_str}")
@@ -82,7 +86,7 @@ def build_markdown_from_json(data):
         lines.append("")
     else:
         for pr in all_hot_prs:
-            lines.append(f"#### [#{pr['number']}: {pr['title']}](https://github.com/bitcoin/bitcoin/pull/{pr['number']})")
+            lines.append(f"#### [#{pr['number']}: {pr['title']}]({pr_url(pr)})")
             
             activity_str = f"*(Activity: {pr.get('event_count', 0)} review events this week)*"
             lines.append(f"**Author:** {format_user(pr['author']['username']) if isinstance(pr['author'], dict) else format_user(pr['author'])} | **[{pr['category_name']}]** {activity_str}")
@@ -148,10 +152,29 @@ def build_markdown_from_json(data):
     return "\n".join(lines)
 
 def main():
+    import argparse
+    parser = argparse.ArgumentParser(description="Build TWIB newsletter artifacts")
+    parser.add_argument("--week-end", help="Sunday (YYYY-MM-DD) closing the week to build; default: most recent Sunday")
+    args = parser.parse_args()
+    if args.week_end:
+        os.environ["TWIB_WEEK_END"] = args.week_end
+
     root_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
     
     print("Loading weekly activity data...")
     weekly_data = get_weekly_activity(root_dir, days_back=7)
+
+    def summary_for(pr):
+        # Summary caches are keyed by PR number only and cover bitcoin/bitcoin; don't attach
+        # them to a gui/secp256k1 PR that happens to share the number.
+        repo = pr.get('repository_name', CORE_REPO)
+        pr_str = str(pr['pr_number'])
+        twib_prs = twib_cache.get("prs", {})
+        if repo != CORE_REPO:
+            return twib_prs.get(f"{repo}#{pr_str}", {})
+
+        pr_str = str(pr['pr_number'])
+        return pr_cache.get(pr_str, twib_cache.get("prs", {}).get(pr_str, {}))
     
     # Load caches
     cache_path = os.path.join(root_dir, "data", "cache", "twib_summaries.json")
@@ -241,7 +264,7 @@ def main():
     
     for pr in all_merged_prs:
         pr_str = str(pr['pr_number'])
-        summary_obj = pr_cache.get(pr_str, twib_cache.get("prs", {}).get(pr_str, {}))
+        summary_obj = summary_for(pr)
         
         # Determine the final category
         if isinstance(summary_obj, dict) and summary_obj.get("impact_category"):
@@ -282,7 +305,7 @@ def main():
     
     for pr in all_hot_prs:
         pr_str = str(pr['pr_number'])
-        summary_obj = pr_cache.get(pr_str, twib_cache.get("prs", {}).get(pr_str, {}))
+        summary_obj = summary_for(pr)
         
         if isinstance(summary_obj, dict) and summary_obj.get("impact_category"):
             cat = summary_obj["impact_category"]
@@ -310,20 +333,22 @@ def main():
     tldr_summary = twib_cache.get("tldr_summary", "")
     tldr_cleaned = [line.lstrip('*- \t') for line in tldr_summary.split('\n') if line.lstrip('*- \t')]
 
-    # Look up previous week's stats for Week-over-Week benchmarking
+    # Previous week's stats for Week-over-Week benchmarking. Recomputed (not read from the
+    # previous newsletter file) so both weeks use the same definitions and the same data.
     previous_stats = None
     try:
-        import glob
-        twib_data_dir = os.path.join(root_dir, "output", "twib", "data")
-        prev_files = sorted(glob.glob(os.path.join(twib_data_dir, "newsletter_*.json")))
-        for p_f in reversed(prev_files):
-            with open(p_f, "r", encoding="utf-8") as f:
-                p_data = json.load(f)
-                if p_data.get('end_date', '') <= weekly_data['start_date'] and p_data.get('stats'):
-                    previous_stats = p_data['stats']
-                    break
-    except Exception:
-        pass
+        prev_end = pd.Timestamp(weekly_data['end_date'], tz='UTC') - pd.Timedelta(days=7) \
+            + pd.Timedelta(hours=23, minutes=59, seconds=59)
+        prev = get_weekly_activity(root_dir, days_back=7, end_date=prev_end)
+        previous_stats = {
+            "total_merged": prev['total_merged'],
+            "subsystem_merged": prev['subsystem_merged'],
+            "total_reviews": prev['total_reviews'],
+            "total_threads": prev['total_threads'],
+            "new_contributors": len(prev['new_contributors'])
+        }
+    except Exception as e:
+        print(f"Warning: could not compute previous week's stats: {e}")
 
     social_hook = twib_cache.get("social_hook", {})
 
@@ -333,6 +358,7 @@ def main():
         "end_date": weekly_data['end_date'],
         "stats": {
             "total_merged": weekly_data['total_merged'],
+            "subsystem_merged": weekly_data['subsystem_merged'],
             "total_reviews": weekly_data['total_reviews'],
             "total_threads": weekly_data['total_threads'],
             "new_contributors": len(weekly_data['new_contributors'])
@@ -356,12 +382,13 @@ def main():
         cat_data = {"name": category, "prs": []}
         for pr in prs:
             pr_str = str(pr['pr_number'])
-            summary_obj = pr_cache.get(pr_str, twib_cache.get("prs", {}).get(pr_str, {}))
+            summary_obj = summary_for(pr)
             
             public_summary = summary_obj.get("public_summary", "") if isinstance(summary_obj, dict) else summary_obj
             technical_summary = summary_obj.get("technical_summary", "") if isinstance(summary_obj, dict) else ""
             cat_data["prs"].append({
                 "number": pr['pr_number'],
+                "repo": pr.get('repository_name', CORE_REPO),
                 "title": pr['title'],
                 "author": pr.get('author_obj') or pr.get('author'),
                 "summary": public_summary,
@@ -376,12 +403,13 @@ def main():
         cat_data = {"name": category, "prs": []}
         for pr in prs:
             pr_str = str(pr['pr_number'])
-            summary_obj = pr_cache.get(pr_str, twib_cache.get("prs", {}).get(pr_str, {}))
+            summary_obj = summary_for(pr)
             
             public_summary = summary_obj.get("public_summary", "") if isinstance(summary_obj, dict) else summary_obj
             technical_summary = summary_obj.get("technical_summary", "") if isinstance(summary_obj, dict) else ""
             cat_data["prs"].append({
                 "number": pr['pr_number'],
+                "repo": pr.get('repository_name', CORE_REPO),
                 "title": pr['title'],
                 "author": pr.get('author_obj') or pr.get('author'),
                 "event_count": pr['event_count'],
