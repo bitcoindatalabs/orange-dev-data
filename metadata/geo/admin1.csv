@@ -1,0 +1,107 @@
+country_iso2,admin1_code,admin1_name
+US,AL,Alabama
+US,AK,Alaska
+US,AZ,Arizona
+US,AR,Arkansas
+US,CA,California
+US,CO,Colorado
+US,CT,Connecticut
+US,DE,Delaware
+US,FL,Florida
+US,GA,Georgia
+US,HI,Hawaii
+US,ID,Idaho
+US,IL,Illinois
+US,IN,Indiana
+US,IA,Iowa
+US,KS,Kansas
+US,KY,Kentucky
+US,LA,Louisiana
+US,ME,Maine
+US,MD,Maryland
+US,MA,Massachusetts
+US,MI,Michigan
+US,MN,Minnesota
+US,MS,Mississippi
+US,MO,Missouri
+US,MT,Montana
+US,NE,Nebraska
+US,NV,Nevada
+US,NH,New Hampshire
+US,NJ,New Jersey
+US,NM,New Mexico
+US,NY,New York
+US,NC,North Carolina
+US,ND,North Dakota
+US,OH,Ohio
+US,OK,Oklahoma
+US,OR,Oregon
+US,PA,Pennsylvania
+US,RI,Rhode Island
+US,SC,South Carolina
+US,SD,South Dakota
+US,TN,Tennessee
+US,TX,Texas
+US,UT,Utah
+US,VT,Vermont
+US,VA,Virginia
+US,WA,Washington
+US,WV,West Virginia
+US,WI,Wisconsin
+US,WY,Wyoming
+US,DC,District of Columbia
+CA,ON,Ontario
+CA,QC,Quebec
+CA,BC,British Columbia
+CA,AB,Alberta
+CA,MB,Manitoba
+CA,SK,Saskatchewan
+CA,NS,Nova Scotia
+CA,NB,New Brunswick
+CA,NL,Newfoundland and Labrador
+CA,PE,Prince Edward Island
+AU,NSW,New South Wales
+AU,VIC,Victoria
+AU,QLD,Queensland
+AU,WA,Western Australia
+AU,SA,South Australia
+AU,TAS,Tasmania
+AU,ACT,Australian Capital Territory
+AU,NT,Northern Territory
+GB,ENG,England
+GB,SCT,Scotland
+GB,WLS,Wales
+GB,NIR,Northern Ireland
+DE,BY,Bavaria
+DE,BE,Berlin
+DE,HH,Hamburg
+DE,HE,Hesse
+DE,NW,North Rhine-Westphalia
+DE,BW,Baden-Wurttemberg
+DE,SN,Saxony
+IN,KA,Karnataka
+IN,MH,Maharashtra
+IN,DL,Delhi
+IN,TN,Tamil Nadu
+IN,TG,Telangana
+IN,UP,Uttar Pradesh
+IN,GJ,Gujarat
+IN,WB,West Bengal
+IN,OR,Odisha
+IN,MP,Madhya Pradesh
+IN,RJ,Rajasthan
+IN,KL,Kerala
+IN,HR,Haryana
+IN,PB,Punjab
+IN,BR,Bihar
+IN,AS,Assam
+BR,SP,Sao Paulo
+BR,RJ,Rio de Janeiro
+BR,MG,Minas Gerais
+BR,SC,Santa Catarina
+BR,RS,Rio Grande do Sul
+BR,PR,Parana
+BR,BA,Bahia
+BR,DF,Distrito Federal
+BR,CE,Ceara
+BR,PE,Pernambuco

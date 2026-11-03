@@ -480,6 +480,16 @@ def unify():
     }
     df_unified = df_unified[~df_unified['uuid'].isin(KNOWN_BOTS)]
 
+    # --- Phase 3 Geographic Attribution & Multi-Signal Triangulation ---
+    import importlib.util
+    _geo_spec = importlib.util.spec_from_file_location(
+        "resolve_geography",
+        os.path.join(os.path.dirname(os.path.abspath(__file__)), "resolve_geography.py"),
+    )
+    _geo_mod = importlib.util.module_from_spec(_geo_spec)
+    _geo_spec.loader.exec_module(_geo_mod)
+    df_unified = _geo_mod.enrich_unified_geography(df_unified, df_commits)
+
     os.makedirs(os.path.dirname(OUTPUT_PARQUET), exist_ok=True)
     df_unified.to_parquet(OUTPUT_PARQUET, index=False)
     print(f"Grand Join complete. {len(df_unified)} contributors unified in {OUTPUT_PARQUET}")

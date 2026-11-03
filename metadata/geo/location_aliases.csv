@@ -1,0 +1,871 @@
+token,target_iso2,token_type,admin1_code,pop_weight
+united states,US,country,,100
+united states of america,US,country,,100
+usa,US,country,,100
+u.s.a.,US,country,,100
+u.s.,US,country,,100
+merica,US,nickname,,80
+'murica,US,nickname,,80
+murica,US,nickname,,80
+midwest,US,nickname,,80
+santa fe,US,city,NM,85
+albuquerque,US,city,NM,88
+fort lauderdale,US,city,FL,86
+sulphur,US,city,LA,80
+lino lakes,US,city,MN,80
+galveston,US,city,TX,82
+shenandoah,US,city,VA,80
+tysons,US,city,VA,82
+park university,US,nickname,MO,80
+london,CA,city,ON,82
+markham,CA,city,ON,85
+thane,IN,city,MH,86
+aurangabad,IN,city,MH,85
+visakhapatnam,IN,city,,85
+kotagiri,IN,city,TN,80
+jodhpur,IN,city,RJ,85
+guntur,IN,city,,84
+krasnogorsk,RU,city,,84
+ulan-ude,RU,city,,84
+saint-petersburg,RU,city,,92
+svalbard,NO,city,,82
+longyearbyen,NO,city,,82
+nice,FR,city,,88
+bergamo,IT,city,,85
+sardegna,IT,admin1,,85
+ludwigsburg,DE,city,BW,84
+birkenhead,GB,city,ENG,84
+woking,GB,city,ENG,84
+surrey,GB,admin1,ENG,85
+darwin,AU,city,NT,85
+san luis potosi,MX,city,,85
+joao pessoa,BR,city,,85
+nagoya-shi,JP,city,,88
+hang zhou,CN,city,,88
+sz,CN,nickname,,82
+kedah,MY,admin1,,85
+sungai petani,MY,city,,82
+senai,MY,city,,82
+malaka,MY,city,,82
+papar,MY,city,,80
+luganskaya,UA,admin1,,84
+台灣省台北市,TW,city,,95
+台北市,TW,city,,95
+الرياض,SA,city,,92
+十日町市,JP,city,,85
+america,US,nickname,,70
+estados unidos,US,endonym,,100
+canada,CA,country,,100
+united kingdom,GB,country,,100
+uk,GB,country,,100
+u.k.,GB,country,,100
+great britain,GB,country,,100
+britain,GB,country,,100
+england,GB,admin1,ENG,95
+scotland,GB,admin1,SCT,95
+wales,GB,admin1,WLS,95
+northern ireland,GB,admin1,NIR,95
+ireland,IE,country,,100
+republic of ireland,IE,country,,100
+eire,IE,endonym,,100
+isle of man,IM,country,,100
+jersey,JE,country,,90
+guernsey,GG,country,,95
+germany,DE,country,,100
+deutschland,DE,endonym,,100
+bundesrepublik deutschland,DE,endonym,,100
+brd,DE,nickname,,80
+france,FR,country,,100
+netherlands,NL,country,,100
+the netherlands,NL,country,,100
+nederland,NL,endonym,,100
+holland,NL,nickname,,90
+belgium,BE,country,,100
+belgie,BE,endonym,,100
+belgique,BE,endonym,,100
+luxembourg,LU,country,,100
+switzerland,CH,country,,100
+schweiz,CH,endonym,,100
+suisse,CH,endonym,,100
+svizzera,CH,endonym,,100
+confoederatio helvetica,CH,endonym,,100
+austria,AT,country,,100
+osterreich,AT,endonym,,100
+oesterreich,AT,endonym,,100
+spain,ES,country,,100
+espana,ES,endonym,,100
+catalonia,ES,admin1,,90
+catalunya,ES,admin1,,90
+basque country,ES,admin1,,90
+pais vasco,ES,admin1,,90
+andalusia,ES,admin1,,90
+portugal,PT,country,,100
+italy,IT,country,,100
+italia,IT,endonym,,100
+malta,MT,country,,100
+greece,GR,country,,100
+hellas,GR,endonym,,100
+sweden,SE,country,,100
+sverige,SE,endonym,,100
+norway,NO,country,,100
+norge,NO,endonym,,100
+denmark,DK,country,,100
+danmark,DK,endonym,,100
+finland,FI,country,,100
+suomi,FI,endonym,,100
+iceland,IS,country,,100
+island,IS,endonym,,85
+estonia,EE,country,,100
+eesti,EE,endonym,,100
+latvia,LV,country,,100
+latvija,LV,endonym,,100
+lithuania,LT,country,,100
+lietuva,LT,endonym,,100
+poland,PL,country,,100
+polska,PL,endonym,,100
+czechia,CZ,country,,100
+czech republic,CZ,country,,100
+cesko,CZ,endonym,,100
+ceska republika,CZ,endonym,,100
+slovakia,SK,country,,100
+slovensko,SK,endonym,,100
+hungary,HU,country,,100
+magyarorszag,HU,endonym,,100
+romania,RO,country,,100
+bulgaria,BG,country,,100
+slovenia,SI,country,,100
+slovenija,SI,endonym,,100
+croatia,HR,country,,100
+hrvatska,HR,endonym,,100
+serbia,RS,country,,100
+srbija,RS,endonym,,100
+bosnia,BA,country,,100
+bosnia and herzegovina,BA,country,,100
+montenegro,ME,country,,100
+north macedonia,MK,country,,100
+macedonia,MK,country,,100
+albania,AL,country,,100
+ukraine,UA,country,,100
+ukraina,UA,endonym,,100
+russia,RU,country,,100
+russian federation,RU,country,,100
+belarus,BY,country,,100
+moldova,MD,country,,100
+turkey,TR,country,,100
+turkiye,TR,endonym,,100
+cyprus,CY,country,,100
+armenia,AM,country,,100
+azerbaijan,AZ,country,,100
+israel,IL,country,,100
+uae,AE,country,,100
+united arab emirates,AE,country,,100
+saudi arabia,SA,country,,100
+qatar,QA,country,,100
+bahrain,BH,country,,100
+kuwait,KW,country,,100
+oman,OM,country,,100
+jordan,JO,country,,100
+lebanon,LB,country,,100
+iran,IR,country,,100
+china,CN,country,,100
+p.r.china,CN,country,,100
+p.r. china,CN,country,,100
+prc,CN,country,,100
+peoples republic of china,CN,country,,100
+zhongguo,CN,endonym,,100
+hong kong,HK,country,,100
+hongkong,HK,country,,100
+hk,HK,country,,95
+macau,MO,country,,100
+macao,MO,country,,100
+taiwan,TW,country,,100
+republic of china,TW,country,,100
+roc,TW,country,,90
+japan,JP,country,,100
+nippon,JP,endonym,,100
+nihon,JP,endonym,,100
+south korea,KR,country,,100
+korea,KR,country,,95
+republic of korea,KR,country,,100
+rok,KR,country,,90
+india,IN,country,,100
+bharat,IN,endonym,,100
+pakistan,PK,country,,100
+bangladesh,BD,country,,100
+sri lanka,LK,country,,100
+nepal,NP,country,,100
+singapore,SG,country,,100
+malaysia,MY,country,,100
+thailand,TH,country,,100
+vietnam,VN,country,,100
+viet nam,VN,country,,100
+indonesia,ID,country,,100
+philippines,PH,country,,100
+the philippines,PH,country,,100
+cambodia,KH,country,,100
+myanmar,MM,country,,100
+kazakhstan,KZ,country,,100
+uzbekistan,UZ,country,,100
+kyrgyzstan,KG,country,,100
+mongolia,MN,country,,100
+australia,AU,country,,100
+the great southern land,AU,nickname,,95
+straya,AU,nickname,,95
+oz,AU,nickname,,85
+new zealand,NZ,country,,100
+aotearoa,NZ,endonym,,100
+brazil,BR,country,,100
+brasil,BR,endonym,,100
+argentina,AR,country,,100
+mexico,MX,country,,100
+chile,CL,country,,100
+colombia,CO,country,,100
+peru,PE,country,,100
+venezuela,VE,country,,100
+uruguay,UY,country,,100
+paraguay,PY,country,,100
+bolivia,BO,country,,100
+ecuador,EC,country,,100
+el salvador,SV,country,,100
+costa rica,CR,country,,100
+panama,PA,country,,100
+guatemala,GT,country,,100
+honduras,HN,country,,100
+nicaragua,NI,country,,100
+dominican republic,DO,country,,100
+cuba,CU,country,,100
+jamaica,JM,country,,100
+bahamas,BS,country,,100
+the bahamas,BS,country,,100
+barbados,BB,country,,100
+trinidad and tobago,TT,country,,100
+puerto rico,PR,country,,100
+british virgin islands,VG,country,,100
+bvi,VG,country,,95
+cayman islands,KY,country,,100
+kenya,KE,country,,100
+nigeria,NG,country,,100
+south africa,ZA,country,,100
+rsa,ZA,country,,90
+ghana,GH,country,,100
+ethiopia,ET,country,,100
+egypt,EG,country,,100
+morocco,MA,country,,100
+maroc,MA,endonym,,100
+tunisia,TN,country,,100
+tunisie,TN,endonym,,100
+algeria,DZ,country,,100
+algerie,DZ,endonym,,100
+senegal,SN,country,,100
+uganda,UG,country,,100
+tanzania,TZ,country,,100
+rwanda,RW,country,,100
+mauritius,MU,country,,100
+zimbabwe,ZW,country,,100
+zambia,ZM,country,,100
+cameroon,CM,country,,100
+cote d'ivoire,CI,country,,100
+ivory coast,CI,country,,100
+mauritania,MR,country,,100
+namibia,NA,country,,100
+botswana,BW,country,,100
+new york city,US,city,NY,95
+new york,US,city,NY,95
+nyc,US,nickname,NY,95
+manhattan,US,city,NY,90
+brooklyn,US,city,NY,90
+queens,US,city,NY,85
+buffalo,US,city,NY,85
+rochester,US,city,NY,85
+ithaca,US,city,NY,85
+san francisco,US,city,CA,95
+sf,US,nickname,CA,92
+sf bay area,US,nickname,CA,95
+san francisco bay area,US,nickname,CA,95
+bay area,US,nickname,CA,90
+by the bay,US,nickname,CA,80
+silicon valley,US,nickname,CA,95
+los angeles,US,city,CA,95
+san diego,US,city,CA,90
+san jose,US,city,CA,90
+oakland,US,city,CA,88
+berkeley,US,city,CA,88
+uc berkeley,US,nickname,CA,90
+palo alto,US,city,CA,90
+mountain view,US,city,CA,90
+menlo park,US,city,CA,90
+sunnyvale,US,city,CA,90
+cupertino,US,city,CA,90
+santa monica,US,city,CA,88
+irvine,US,city,CA,88
+newport beach,US,city,CA,88
+sacramento,US,city,CA,88
+santa cruz,US,city,CA,85
+santa barbara,US,city,CA,85
+socal,US,nickname,CA,90
+norcal,US,nickname,CA,90
+austin,US,city,TX,92
+atx,US,nickname,TX,92
+houston,US,city,TX,92
+dallas,US,city,TX,92
+fort worth,US,city,TX,88
+san antonio,US,city,TX,88
+seattle,US,city,WA,92
+redmond,US,city,WA,88
+bellevue,US,city,WA,88
+pacific northwest,US,nickname,WA,85
+pnw,US,nickname,WA,85
+chicago,US,city,IL,92
+greater chicago area,US,nickname,IL,92
+urbana,US,city,IL,85
+champaign,US,city,IL,85
+boston,US,city,MA,92
+greater boston,US,nickname,MA,92
+somerville,US,city,MA,85
+amherst,US,city,MA,85
+mit,US,nickname,MA,85
+washington dc,US,city,DC,95
+washington d.c.,US,city,DC,95
+"washington, d.c.",US,city,DC,95
+d.c.,US,nickname,DC,88
+atlanta,US,city,GA,92
+denver,US,city,CO,92
+boulder,US,city,CO,88
+parker,US,city,CO,80
+miami,US,city,FL,92
+tampa,US,city,FL,88
+orlando,US,city,FL,88
+fort myers,US,city,FL,85
+philadelphia,US,city,PA,92
+philly,US,nickname,PA,90
+pittsburgh,US,city,PA,90
+phoenix,US,city,AZ,90
+flagstaff,US,city,AZ,85
+tucson,US,city,AZ,85
+tempe,US,city,AZ,85
+asu,US,nickname,AZ,80
+portland,US,city,OR,88
+bend,US,city,OR,82
+las vegas,US,city,NV,90
+reno,US,city,NV,85
+salt lake city,US,city,UT,90
+slc,US,nickname,UT,88
+provo,US,city,UT,85
+ogden,US,city,UT,85
+raleigh,US,city,NC,88
+durham,US,city,NC,85
+charlotte,US,city,NC,88
+minneapolis,US,city,MN,88
+detroit,US,city,MI,88
+ann arbor,US,city,MI,88
+columbus,US,city,OH,88
+cleveland,US,city,OH,88
+cincinnati,US,city,OH,88
+nashville,US,city,TN,88
+indianapolis,US,city,IN,88
+baltimore,US,city,MD,88
+herndon,US,city,VA,85
+arlington,US,city,VA,85
+springfield,US,city,VA,80
+madison,US,city,WI,85
+milwaukee,US,city,WI,88
+new orleans,US,city,LA,88
+st. louis,US,city,MO,88
+st louis,US,city,MO,88
+kansas city,US,city,MO,88
+honolulu,US,city,HI,88
+hilo,US,city,HI,85
+decatur,US,city,AL,82
+toronto,CA,city,ON,92
+gta,CA,nickname,ON,88
+ottawa,CA,city,ON,90
+waterloo,CA,city,ON,88
+kitchener,CA,city,ON,88
+vancouver,CA,city,BC,92
+victoria,CA,city,BC,82
+montreal,CA,city,QC,92
+quebec city,CA,city,QC,88
+calgary,CA,city,AB,90
+edmonton,CA,city,AB,88
+winnipeg,CA,city,MB,88
+halifax,CA,city,NS,88
+london,GB,city,ENG,95
+manchester,GB,city,ENG,88
+birmingham,GB,city,ENG,85
+edinburgh,GB,city,SCT,90
+glasgow,GB,city,SCT,88
+oxford,GB,city,ENG,88
+bristol,GB,city,ENG,88
+brighton,GB,city,ENG,85
+nottingham,GB,city,ENG,85
+leeds,GB,city,ENG,85
+liverpool,GB,city,ENG,88
+sheffield,GB,city,ENG,85
+newcastle,GB,city,ENG,85
+cardiff,GB,city,WLS,88
+belfast,GB,city,NIR,88
+dublin,IE,city,,92
+cork,IE,city,,85
+galway,IE,city,,85
+berlin,DE,city,BE,95
+munich,DE,city,BY,92
+munchen,DE,city,BY,92
+muenchen,DE,city,BY,92
+hamburg,DE,city,HH,92
+frankfurt,DE,city,HE,92
+cologne,DE,city,NW,90
+koln,DE,city,NW,90
+koeln,DE,city,NW,90
+stuttgart,DE,city,BW,88
+dusseldorf,DE,city,NW,88
+duesseldorf,DE,city,NW,88
+leipzig,DE,city,SN,88
+dresden,DE,city,SN,88
+nuremberg,DE,city,BY,88
+nurnberg,DE,city,BY,88
+nuernberg,DE,city,BY,88
+karlsruhe,DE,city,BW,86
+bonn,DE,city,NW,86
+aachen,DE,city,NW,86
+darmstadt,DE,city,HE,86
+heidelberg,DE,city,BW,86
+freiburg,DE,city,BW,85
+osnabruck,DE,city,,85
+hannover,DE,city,,86
+bremen,DE,city,,86
+ulm,DE,city,BW,84
+mittweida,DE,city,SN,82
+paris,FR,city,,95
+lyon,FR,city,,90
+marseille,FR,city,,88
+toulouse,FR,city,,88
+bordeaux,FR,city,,88
+lille,FR,city,,86
+nantes,FR,city,,86
+strasbourg,FR,city,,86
+grenoble,FR,city,,86
+rennes,FR,city,,85
+montpellier,FR,city,,85
+verneuil-sur-vienne,FR,city,,82
+amsterdam,NL,city,,95
+rotterdam,NL,city,,90
+the hague,NL,city,,88
+den haag,NL,city,,88
+utrecht,NL,city,,88
+eindhoven,NL,city,,88
+groningen,NL,city,,86
+delft,NL,city,,86
+arnhem,NL,city,,85
+brussels,BE,city,,92
+bruxelles,BE,city,,92
+antwerp,BE,city,,88
+ghent,BE,city,,86
+gent,BE,city,,86
+leuven,BE,city,,86
+zurich,CH,city,,95
+zuerich,CH,city,,95
+geneva,CH,city,,92
+geneve,CH,city,,92
+lausanne,CH,city,,90
+bern,CH,city,,90
+basel,CH,city,,88
+zug,CH,city,,90
+crypto valley,CH,nickname,,88
+luzern,CH,city,,86
+lucerne,CH,city,,86
+lugano,CH,city,,86
+vienna,AT,city,,95
+wien,AT,city,,95
+graz,AT,city,,86
+linz,AT,city,,86
+salzburg,AT,city,,86
+innsbruck,AT,city,,86
+madrid,ES,city,,95
+barcelona,ES,city,,95
+bcn,ES,nickname,,92
+valencia,ES,city,,88
+seville,ES,city,,86
+sevilla,ES,city,,86
+bilbao,ES,city,,86
+malaga,ES,city,,86
+lisbon,PT,city,,95
+lisboa,PT,city,,95
+porto,PT,city,,90
+braga,PT,city,,85
+rome,IT,city,,95
+roma,IT,city,,95
+milan,IT,city,,92
+milano,IT,city,,92
+turin,IT,city,,90
+torino,IT,city,,90
+florence,IT,city,,88
+firenze,IT,city,,88
+bologna,IT,city,,88
+naples,IT,city,,88
+pisa,IT,city,,85
+padua,IT,city,,85
+padova,IT,city,,85
+trento,IT,city,,85
+lissone,IT,city,,82
+athens,GR,city,,92
+thessaloniki,GR,city,,86
+limassol,CY,city,,88
+nicosia,CY,city,,88
+stockholm,SE,city,,95
+gothenburg,SE,city,,88
+goteborg,SE,city,,88
+malmo,SE,city,,86
+uppsala,SE,city,,85
+lund,SE,city,,85
+halmstad,SE,city,,82
+enkoping,SE,city,,82
+vastmanland,SE,admin1,,85
+oslo,NO,city,,95
+bergen,NO,city,,86
+trondheim,NO,city,,86
+copenhagen,DK,city,,95
+kobenhavn,DK,city,,95
+aarhus,DK,city,,86
+horsens,DK,city,,82
+helsinki,FI,city,,95
+espoo,FI,city,,88
+tampere,FI,city,,86
+turku,FI,city,,85
+oulu,FI,city,,85
+reykjavik,IS,city,,92
+tallinn,EE,city,,92
+tartu,EE,city,,86
+riga,LV,city,,92
+vilnius,LT,city,,92
+kaunas,LT,city,,86
+warsaw,PL,city,,95
+warszawa,PL,city,,95
+krakow,PL,city,,90
+cracow,PL,city,,90
+wroclaw,PL,city,,88
+poznan,PL,city,,86
+gdansk,PL,city,,86
+prague,CZ,city,,95
+praha,CZ,city,,95
+brno,CZ,city,,88
+bratislava,SK,city,,92
+kosice,SK,city,,85
+budapest,HU,city,,95
+bucharest,RO,city,,95
+bucuresti,RO,city,,95
+cluj,RO,city,,88
+cluj-napoca,RO,city,,88
+timisoara,RO,city,,86
+iasi,RO,city,,85
+brasov,RO,city,,85
+sofia,BG,city,,92
+plovdiv,BG,city,,85
+ljubljana,SI,city,,92
+maribor,SI,city,,85
+zagreb,HR,city,,92
+split,HR,city,,85
+rijeka,HR,city,,84
+belgrade,RS,city,,92
+beograd,RS,city,,92
+novi sad,RS,city,,88
+sarajevo,BA,city,,90
+skopje,MK,city,,90
+tirana,AL,city,,90
+kyiv,UA,city,,95
+kiev,UA,city,,95
+lviv,UA,city,,88
+kharkiv,UA,city,,88
+odesa,UA,city,,86
+odessa,UA,city,,86
+dnipro,UA,city,,86
+kropyvnytskyi,UA,city,,84
+moscow,RU,city,,95
+moskva,RU,city,,95
+saint petersburg,RU,city,,92
+st. petersburg,RU,city,,92
+st petersburg,RU,city,,92
+novosibirsk,RU,city,,88
+minsk,BY,city,,92
+chisinau,MD,city,,90
+istanbul,TR,city,,95
+ankara,TR,city,,92
+izmir,TR,city,,88
+antalya,TR,city,,86
+tbilisi,GE,city,,92
+yerevan,AM,city,,92
+baku,AZ,city,,92
+tel aviv,IL,city,,95
+tel-aviv,IL,city,,95
+tlv,IL,nickname,,92
+jerusalem,IL,city,,92
+haifa,IL,city,,88
+herzliya,IL,city,,85
+dubai,AE,city,,95
+abu dhabi,AE,city,,92
+abu-dhabi,AE,city,,92
+riyadh,SA,city,,92
+jeddah,SA,city,,88
+doha,QA,city,,92
+amman,JO,city,,90
+beirut,LB,city,,90
+tehran,IR,city,,92
+beijing,CN,city,,95
+peking,CN,city,,92
+shanghai,CN,city,,95
+shenzhen,CN,city,,92
+guangzhou,CN,city,,92
+hangzhou,CN,city,,90
+chengdu,CN,city,,90
+wuhan,CN,city,,88
+nanjing,CN,city,,88
+xian,CN,city,,86
+xi'an,CN,city,,86
+suzhou,CN,city,,86
+taipei,TW,city,,95
+kaohsiung,TW,city,,88
+taichung,TW,city,,88
+hsinchu,TW,city,,86
+tokyo,JP,city,,95
+osaka,JP,city,,92
+kyoto,JP,city,,90
+yokohama,JP,city,,90
+nagoya,JP,city,,88
+fukuoka,JP,city,,88
+sapporo,JP,city,,88
+kobe,JP,city,,86
+seoul,KR,city,,95
+busan,KR,city,,90
+incheon,KR,city,,88
+daejeon,KR,city,,86
+bangalore,IN,city,KA,95
+bengaluru,IN,city,KA,95
+mumbai,IN,city,MH,95
+bombay,IN,city,MH,92
+pune,IN,city,MH,90
+delhi,IN,city,DL,95
+new delhi,IN,city,DL,95
+ncr,IN,nickname,DL,88
+noida,IN,city,UP,88
+gurgaon,IN,city,HR,88
+gurugram,IN,city,HR,88
+hyderabad,IN,city,TG,92
+chennai,IN,city,TN,92
+madras,IN,city,TN,90
+kolkata,IN,city,WB,92
+calcutta,IN,city,WB,90
+ahmedabad,IN,city,GJ,90
+vadodara,IN,city,GJ,85
+surat,IN,city,GJ,86
+jaipur,IN,city,RJ,88
+lucknow,IN,city,UP,88
+kanpur,IN,city,UP,86
+roorkee,IN,city,,85
+iit roorkee,IN,nickname,,88
+iit bombay,IN,nickname,MH,88
+iit delhi,IN,nickname,DL,88
+iit madras,IN,nickname,TN,88
+iit kharagpur,IN,nickname,WB,88
+iit kanpur,IN,nickname,UP,88
+iit bhu,IN,nickname,UP,88
+bits pilani,IN,nickname,RJ,88
+bhubaneswar,IN,city,OR,86
+kochi,IN,city,KL,86
+cochin,IN,city,KL,86
+thiruvananthapuram,IN,city,KL,85
+chandigarh,IN,city,PB,86
+indore,IN,city,MP,86
+bhopal,IN,city,MP,86
+gwalior,IN,city,MP,85
+bhagalpur,IN,city,BR,84
+patna,IN,city,BR,85
+guwahati,IN,city,AS,85
+karachi,PK,city,,92
+lahore,PK,city,,92
+islamabad,PK,city,,90
+dhaka,BD,city,,92
+colombo,LK,city,,90
+kathmandu,NP,city,,90
+kuala lumpur,MY,city,,95
+penang,MY,city,,86
+bangkok,TH,city,,95
+krung thep maha nakhon,TH,city,,95
+chiang mai,TH,city,,88
+phuket,TH,city,,86
+hanoi,VN,city,,92
+ho chi minh city,VN,city,,92
+ho chi minh,VN,city,,92
+saigon,VN,city,,90
+da nang,VN,city,,86
+jakarta,ID,city,,95
+bali,ID,city,,88
+bandung,ID,city,,88
+surabaya,ID,city,,88
+manila,PH,city,,95
+metro manila,PH,city,,95
+cebu,PH,city,,86
+sydney,AU,city,NSW,95
+melbourne,AU,city,VIC,95
+brisbane,AU,city,QLD,92
+perth,AU,city,WA,90
+adelaide,AU,city,SA,88
+canberra,AU,city,ACT,88
+gold coast,AU,city,QLD,86
+hobart,AU,city,TAS,85
+auckland,NZ,city,,92
+wellington,NZ,city,,90
+christchurch,NZ,city,,88
+sao paulo,BR,city,SP,95
+rio de janeiro,BR,city,RJ,95
+brasilia,BR,city,DF,92
+belo horizonte,BR,city,MG,90
+curitiba,BR,city,PR,88
+porto alegre,BR,city,RS,88
+florianopolis,BR,city,SC,88
+campinas,BR,city,SP,86
+recife,BR,city,PE,88
+salvador,BR,city,BA,86
+fortaleza,BR,city,CE,86
+buenos aires,AR,city,,95
+caba,AR,nickname,,88
+cordoba,AR,city,,86
+rosario,AR,city,,86
+mendoza,AR,city,,85
+mexico city,MX,city,,95
+ciudad de mexico,MX,city,,95
+cdmx,MX,nickname,,92
+guadalajara,MX,city,,90
+monterrey,MX,city,,90
+santiago,CL,city,,92
+valparaiso,CL,city,,86
+bogota,CO,city,,95
+medellin,CO,city,,90
+cali,CO,city,,88
+lima,PE,city,,95
+san isidro,PE,city,,82
+caracas,VE,city,,92
+montevideo,UY,city,,92
+asuncion,PY,city,,90
+la paz,BO,city,,90
+quito,EC,city,,90
+guayaquil,EC,city,,88
+san salvador,SV,city,,92
+el zonte,SV,city,,85
+bitcoin beach,SV,nickname,,88
+"san jose, costa rica",CR,city,,95
+panama city,PA,city,,90
+guatemala city,GT,city,,90
+nassau,BS,city,,90
+san juan,PR,city,,88
+nairobi,KE,city,,95
+mombasa,KE,city,,86
+lagos,NG,city,,95
+lagos state,NG,admin1,,95
+abuja,NG,city,,90
+port harcourt,NG,city,,86
+cape town,ZA,city,,95
+cpt,ZA,nickname,,88
+johannesburg,ZA,city,,95
+joburg,ZA,nickname,,90
+pretoria,ZA,city,,90
+durban,ZA,city,,88
+stellenbosch,ZA,city,,85
+accra,GH,city,,92
+kumasi,GH,city,,86
+addis ababa,ET,city,,95
+cairo,EG,city,,95
+alexandria,EG,city,,88
+casablanca,MA,city,,92
+rabat,MA,city,,88
+marrakech,MA,city,,88
+tunis,TN,city,,92
+algiers,DZ,city,,92
+dakar,SN,city,,92
+kampala,UG,city,,92
+dar es salaam,TZ,city,,92
+kigali,RW,city,,92
+harare,ZW,city,,90
+lusaka,ZM,city,,90
+douala,CM,city,,88
+yaounde,CM,city,,88
+abidjan,CI,city,,90
+europe,REGION:Europe,region_only,,50
+eu,REGION:Europe,region_only,,50
+european union,REGION:Europe,region_only,,50
+scandinavia,REGION:Europe,region_only,,50
+nordics,REGION:Europe,region_only,,50
+balkans,REGION:Europe,region_only,,50
+north america,REGION:North America,region_only,,50
+latin america,REGION:Latin America,region_only,,50
+latam,REGION:Latin America,region_only,,50
+south america,REGION:Latin America,region_only,,50
+central america,REGION:Latin America,region_only,,50
+caribbean,REGION:Latin America,region_only,,50
+asia,REGION:Asia Pacific,region_only,,50
+asia pacific,REGION:Asia Pacific,region_only,,50
+apac,REGION:Asia Pacific,region_only,,50
+southeast asia,REGION:Asia Pacific,region_only,,50
+se asia,REGION:Asia Pacific,region_only,,50
+east asia,REGION:Asia Pacific,region_only,,50
+middle east,REGION:Asia Pacific,region_only,,50
+mena,REGION:Asia Pacific,region_only,,50
+oceania,REGION:Asia Pacific,region_only,,50
+africa,REGION:Africa,region_only,,50
+east africa,REGION:Africa,region_only,,50
+west africa,REGION:Africa,region_only,,50
+sub-saharan africa,REGION:Africa,region_only,,50
+long island,US,nickname,NY,85
+staten island,US,city,NY,85
+jersey city,US,city,NJ,86
+new england,US,nickname,,80
+georgia tech,US,nickname,GA,80
+the dmv,US,nickname,DC,80
+podgorica,ME,city,,90
+almaty,KZ,city,,90
+astana,KZ,city,,88
+tashkent,UZ,city,,90
+havana,CU,city,,90
+santo domingo,DO,city,,90
+kinshasa,CD,city,,90
+lubumbashi,CD,city,,85
+brazzaville,CG,city,,88
+democratic republic of the congo,CD,country,,100
+drc,CD,nickname,,90
+republic of the congo,CG,country,,100
+dprk,KP,nickname,,90
+lao pdr,LA,country,,100
+burma,MM,country,,95
+omaha,US,city,NE,88
+bruges,BE,city,,88
+россия,RU,endonym,,100
+москва,RU,city,,95
+санкт-петербург,RU,city,,92
+україна,UA,endonym,,100
+украина,UA,endonym,,100
+київ,UA,city,,95
+киев,UA,city,,95
+беларусь,BY,endonym,,100
+минск,BY,city,,92
+казахстан,KZ,endonym,,100
+中国,CN,endonym,,100
+北京,CN,city,,95
+上海,CN,city,,95
+深圳,CN,city,,92
+杭州,CN,city,,90
+香港,HK,endonym,,100
+台灣,TW,endonym,,100
+台湾,TW,endonym,,100
+台北,TW,city,,92
+日本,JP,endonym,,100
+東京,JP,city,,95
+东京,JP,city,,95
+大阪,JP,city,,92
+대한민국,KR,endonym,,100
+한국,KR,endonym,,100
+서울,KR,city,,95
+ישראל,IL,endonym,,100
+תל אביב,IL,city,,92
+ایران,IR,endonym,,100
+تهران,IR,city,,92
+भारत,IN,endonym,,100
+ελλαδα,GR,endonym,,100
+αθηνα,GR,city,,92

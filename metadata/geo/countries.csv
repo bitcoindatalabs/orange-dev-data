@@ -1,0 +1,247 @@
+iso2,iso3,m49,display_name,m49_region,m49_subregion,macro_region,un_macro_region,sovereign_iso2,wb_income,flag
+US,USA,840,USA,Americas,Northern America,North America,North America,US,High,🇺🇸
+CA,CAN,124,Canada,Americas,Northern America,North America,North America,CA,High,🇨🇦
+BM,BMU,060,Bermuda,Americas,Northern America,North America,North America,GB,High,🇧🇲
+GB,GBR,826,UK,Europe,Northern Europe,Europe,Europe,GB,High,🇬🇧
+IE,IRL,372,Ireland,Europe,Northern Europe,Europe,Europe,IE,High,🇮🇪
+IM,IMN,833,Isle of Man,Europe,Northern Europe,Europe,Europe,GB,High,🇮🇲
+JE,JEY,832,Jersey,Europe,Northern Europe,Europe,Europe,GB,High,🇯🇪
+GG,GGY,831,Guernsey,Europe,Northern Europe,Europe,Europe,GB,High,🇬🇬
+IS,ISL,352,Iceland,Europe,Northern Europe,Europe,Europe,IS,High,🇮🇸
+NO,NOR,578,Norway,Europe,Northern Europe,Europe,Europe,NO,High,🇳🇴
+SE,SWE,752,Sweden,Europe,Northern Europe,Europe,Europe,SE,High,🇸🇪
+FI,FIN,246,Finland,Europe,Northern Europe,Europe,Europe,FI,High,🇫🇮
+DK,DNK,208,Denmark,Europe,Northern Europe,Europe,Europe,DK,High,🇩🇰
+EE,EST,233,Estonia,Europe,Northern Europe,Europe,Europe,EE,High,🇪🇪
+LV,LVA,428,Latvia,Europe,Northern Europe,Europe,Europe,LV,High,🇱🇻
+LT,LTU,440,Lithuania,Europe,Northern Europe,Europe,Europe,LT,High,🇱🇹
+DE,DEU,276,Germany,Europe,Western Europe,Europe,Europe,DE,High,🇩🇪
+FR,FRA,250,France,Europe,Western Europe,Europe,Europe,FR,High,🇫🇷
+NL,NLD,528,Netherlands,Europe,Western Europe,Europe,Europe,NL,High,🇳🇱
+BE,BEL,056,Belgium,Europe,Western Europe,Europe,Europe,BE,High,🇧🇪
+LU,LUX,442,Luxembourg,Europe,Western Europe,Europe,Europe,LU,High,🇱🇺
+CH,CHE,756,Switzerland,Europe,Western Europe,Europe,Europe,CH,High,🇨🇭
+AT,AUT,040,Austria,Europe,Western Europe,Europe,Europe,AT,High,🇦🇹
+LI,LIE,438,Liechtenstein,Europe,Western Europe,Europe,Europe,LI,High,🇱🇮
+MC,MCO,492,Monaco,Europe,Western Europe,Europe,Europe,MC,High,🇲🇨
+ES,ESP,724,Spain,Europe,Southern Europe,Europe,Europe,ES,High,🇪🇸
+PT,PRT,620,Portugal,Europe,Southern Europe,Europe,Europe,PT,High,🇵🇹
+IT,ITA,380,Italy,Europe,Southern Europe,Europe,Europe,IT,High,🇮🇹
+MT,MLT,470,Malta,Europe,Southern Europe,Europe,Europe,MT,High,🇲🇹
+GR,GRC,300,Greece,Europe,Southern Europe,Europe,Europe,GR,High,🇬🇷
+SI,SVN,705,Slovenia,Europe,Southern Europe,Europe,Europe,SI,High,🇸🇮
+HR,HRV,191,Croatia,Europe,Southern Europe,Europe,Europe,HR,High,🇭🇷
+RS,SRB,688,Serbia,Europe,Southern Europe,Europe,Europe,RS,Upper-Middle,🇷🇸
+BA,BIH,070,Bosnia and Herzegovina,Europe,Southern Europe,Europe,Europe,BA,Upper-Middle,🇧🇦
+ME,MNE,499,Montenegro,Europe,Southern Europe,Europe,Europe,ME,Upper-Middle,🇲🇪
+MK,MKD,807,North Macedonia,Europe,Southern Europe,Europe,Europe,MK,Upper-Middle,🇲🇰
+AL,ALB,008,Albania,Europe,Southern Europe,Europe,Europe,AL,Upper-Middle,🇦🇱
+AD,AND,020,Andorra,Europe,Southern Europe,Europe,Europe,AD,High,🇦🇩
+GI,GIB,292,Gibraltar,Europe,Southern Europe,Europe,Europe,GB,High,🇬🇮
+PL,POL,616,Poland,Europe,Eastern Europe,Europe,Europe,PL,High,🇵🇱
+CZ,CZE,203,Czechia,Europe,Eastern Europe,Europe,Europe,CZ,High,🇨🇿
+SK,SVK,703,Slovakia,Europe,Eastern Europe,Europe,Europe,SK,High,🇸🇰
+HU,HUN,348,Hungary,Europe,Eastern Europe,Europe,Europe,HU,High,🇭🇺
+RO,ROU,642,Romania,Europe,Eastern Europe,Europe,Europe,RO,High,🇷🇴
+BG,BGR,100,Bulgaria,Europe,Eastern Europe,Europe,Europe,BG,High,🇧🇬
+UA,UKR,804,Ukraine,Europe,Eastern Europe,Europe,Europe,UA,Upper-Middle,🇺🇦
+BY,BLR,112,Belarus,Europe,Eastern Europe,Europe,Europe,BY,Upper-Middle,🇧🇾
+MD,MDA,498,Moldova,Europe,Eastern Europe,Europe,Europe,MD,Upper-Middle,🇲🇩
+RU,RUS,643,Russia,Europe,Eastern Europe,Europe,Europe,RU,High,🇷🇺
+TR,TUR,792,Turkey,Asia,Western Asia,Europe,Asia,TR,Upper-Middle,🇹🇷
+CY,CYP,196,Cyprus,Asia,Western Asia,Europe,Asia,CY,High,🇨🇾
+GE,GEO,268,Georgia,Asia,Western Asia,Europe,Asia,GE,Upper-Middle,🇬🇪
+AM,ARM,051,Armenia,Asia,Western Asia,Europe,Asia,AM,Upper-Middle,🇦🇲
+AZ,AZE,031,Azerbaijan,Asia,Western Asia,Asia Pacific,Asia,AZ,Upper-Middle,🇦🇿
+IL,ISR,376,Israel,Asia,Western Asia,Asia Pacific,Asia,IL,High,🇮🇱
+AE,ARE,784,UAE,Asia,Western Asia,Asia Pacific,Asia,AE,High,🇦🇪
+SA,SAU,682,Saudi Arabia,Asia,Western Asia,Asia Pacific,Asia,SA,High,🇸🇦
+QA,QAT,634,Qatar,Asia,Western Asia,Asia Pacific,Asia,QA,High,🇶🇦
+BH,BHR,048,Bahrain,Asia,Western Asia,Asia Pacific,Asia,BH,High,🇧🇭
+KW,KWT,414,Kuwait,Asia,Western Asia,Asia Pacific,Asia,KW,High,🇰🇼
+OM,OMN,512,Oman,Asia,Western Asia,Asia Pacific,Asia,OM,High,🇴🇲
+JO,JOR,400,Jordan,Asia,Western Asia,Asia Pacific,Asia,JO,Lower-Middle,🇯🇴
+LB,LBN,422,Lebanon,Asia,Western Asia,Asia Pacific,Asia,LB,Lower-Middle,🇱🇧
+CN,CHN,156,China,Asia,Eastern Asia,Asia Pacific,Asia,CN,Upper-Middle,🇨🇳
+HK,HKG,344,Hong Kong,Asia,Eastern Asia,Asia Pacific,Asia,CN,High,🇭🇰
+MO,MAC,446,Macau,Asia,Eastern Asia,Asia Pacific,Asia,CN,High,🇲🇴
+TW,TWN,158,Taiwan,Asia,Eastern Asia,Asia Pacific,Asia,TW,High,🇹🇼
+JP,JPN,392,Japan,Asia,Eastern Asia,Asia Pacific,Asia,JP,High,🇯🇵
+KR,KOR,410,South Korea,Asia,Eastern Asia,Asia Pacific,Asia,KR,High,🇰🇷
+MN,MNG,496,Mongolia,Asia,Eastern Asia,Asia Pacific,Asia,MN,Upper-Middle,🇲🇳
+IN,IND,356,India,Asia,Southern Asia,Asia Pacific,Asia,IN,Lower-Middle,🇮🇳
+PK,PAK,586,Pakistan,Asia,Southern Asia,Asia Pacific,Asia,PK,Lower-Middle,🇵🇰
+BD,BGD,050,Bangladesh,Asia,Southern Asia,Asia Pacific,Asia,BD,Lower-Middle,🇧🇩
+LK,LKA,144,Sri Lanka,Asia,Southern Asia,Asia Pacific,Asia,LK,Lower-Middle,🇱🇰
+NP,NPL,524,Nepal,Asia,Southern Asia,Asia Pacific,Asia,NP,Lower-Middle,🇳🇵
+IR,IRN,364,Iran,Asia,Southern Asia,Asia Pacific,Asia,IR,Upper-Middle,🇮🇷
+SG,SGP,702,Singapore,Asia,South-Eastern Asia,Asia Pacific,Asia,SG,High,🇸🇬
+MY,MYS,458,Malaysia,Asia,South-Eastern Asia,Asia Pacific,Asia,MY,Upper-Middle,🇲🇾
+TH,THA,764,Thailand,Asia,South-Eastern Asia,Asia Pacific,Asia,TH,Upper-Middle,🇹🇭
+VN,VNM,704,Vietnam,Asia,South-Eastern Asia,Asia Pacific,Asia,VN,Lower-Middle,🇻🇳
+ID,IDN,360,Indonesia,Asia,South-Eastern Asia,Asia Pacific,Asia,ID,Upper-Middle,🇮🇩
+PH,PHL,608,Philippines,Asia,South-Eastern Asia,Asia Pacific,Asia,PH,Lower-Middle,🇵🇭
+KH,KHM,116,Cambodia,Asia,South-Eastern Asia,Asia Pacific,Asia,KH,Lower-Middle,🇰🇭
+MM,MMR,104,Myanmar,Asia,South-Eastern Asia,Asia Pacific,Asia,MM,Lower-Middle,🇲🇲
+KZ,KAZ,398,Kazakhstan,Asia,Central Asia,Asia Pacific,Asia,KZ,Upper-Middle,🇰🇿
+UZ,UZB,860,Uzbekistan,Asia,Central Asia,Asia Pacific,Asia,UZ,Lower-Middle,🇺🇿
+KG,KGZ,417,Kyrgyzstan,Asia,Central Asia,Asia Pacific,Asia,KG,Lower-Middle,🇰🇬
+AU,AUS,036,Australia,Oceania,Australia and New Zealand,Asia Pacific,Oceania,AU,High,🇦🇺
+NZ,NZL,554,New Zealand,Oceania,Australia and New Zealand,Asia Pacific,Oceania,NZ,High,🇳🇿
+BR,BRA,076,Brazil,Americas,South America,Latin America,Latin America & Caribbean,BR,Upper-Middle,🇧🇷
+AR,ARG,032,Argentina,Americas,South America,Latin America,Latin America & Caribbean,AR,Upper-Middle,🇦🇷
+MX,MEX,484,Mexico,Americas,Central America,Latin America,Latin America & Caribbean,MX,Upper-Middle,🇲🇽
+CL,CHL,152,Chile,Americas,South America,Latin America,Latin America & Caribbean,CL,High,🇨🇱
+CO,COL,170,Colombia,Americas,South America,Latin America,Latin America & Caribbean,CO,Upper-Middle,🇨🇴
+PE,PER,604,Peru,Americas,South America,Latin America,Latin America & Caribbean,PE,Upper-Middle,🇵🇪
+VE,VEN,862,Venezuela,Americas,South America,Latin America,Latin America & Caribbean,VE,Lower-Middle,🇻🇪
+UY,URY,858,Uruguay,Americas,South America,Latin America,Latin America & Caribbean,UY,High,🇺🇾
+PY,PRY,600,Paraguay,Americas,South America,Latin America,Latin America & Caribbean,PY,Upper-Middle,🇵🇾
+BO,BOL,068,Bolivia,Americas,South America,Latin America,Latin America & Caribbean,BO,Lower-Middle,🇧🇴
+EC,ECU,218,Ecuador,Americas,South America,Latin America,Latin America & Caribbean,EC,Upper-Middle,🇪🇨
+SV,SLV,222,El Salvador,Americas,Central America,Latin America,Latin America & Caribbean,SV,Upper-Middle,🇸🇻
+CR,CRI,188,Costa Rica,Americas,Central America,Latin America,Latin America & Caribbean,CR,Upper-Middle,🇨🇷
+PA,PAN,591,Panama,Americas,Central America,Latin America,Latin America & Caribbean,PA,High,🇵🇦
+GT,GTM,320,Guatemala,Americas,Central America,Latin America,Latin America & Caribbean,GT,Upper-Middle,🇬🇹
+HN,HND,340,Honduras,Americas,Central America,Latin America,Latin America & Caribbean,HN,Lower-Middle,🇭🇳
+NI,NIC,558,Nicaragua,Americas,Central America,Latin America,Latin America & Caribbean,NI,Lower-Middle,🇳🇮
+DO,DOM,214,Dominican Republic,Americas,Caribbean,Latin America,Latin America & Caribbean,DO,Upper-Middle,🇩🇴
+CU,CUB,192,Cuba,Americas,Caribbean,Latin America,Latin America & Caribbean,CU,Upper-Middle,🇨🇺
+JM,JAM,388,Jamaica,Americas,Caribbean,Latin America,Latin America & Caribbean,JM,Upper-Middle,🇯🇲
+BS,BHS,044,Bahamas,Americas,Caribbean,Latin America,Latin America & Caribbean,BS,High,🇧🇸
+BB,BRB,052,Barbados,Americas,Caribbean,Latin America,Latin America & Caribbean,BB,High,🇧🇧
+TT,TTO,780,Trinidad and Tobago,Americas,Caribbean,Latin America,Latin America & Caribbean,TT,High,🇹🇹
+PR,PRI,630,Puerto Rico,Americas,Caribbean,Latin America,Latin America & Caribbean,US,High,🇵🇷
+VG,VGB,092,British Virgin Islands,Americas,Caribbean,Latin America,Latin America & Caribbean,GB,High,🇻🇬
+KY,CYM,136,Cayman Islands,Americas,Caribbean,Latin America,Latin America & Caribbean,GB,High,🇰🇾
+KE,KEN,404,Kenya,Africa,Eastern Africa,Africa,Africa,KE,Lower-Middle,🇰🇪
+NG,NGA,566,Nigeria,Africa,Western Africa,Africa,Africa,NG,Lower-Middle,🇳🇬
+ZA,ZAF,710,South Africa,Africa,Southern Africa,Africa,Africa,ZA,Upper-Middle,🇿🇦
+GH,GHA,288,Ghana,Africa,Western Africa,Africa,Africa,GH,Lower-Middle,🇬🇭
+ET,ETH,231,Ethiopia,Africa,Eastern Africa,Africa,Africa,ET,Low,🇪🇹
+EG,EGY,818,Egypt,Africa,Northern Africa,Africa,Africa,EG,Lower-Middle,🇪🇬
+MA,MAR,504,Morocco,Africa,Northern Africa,Africa,Africa,MA,Lower-Middle,🇲🇦
+TN,TUN,788,Tunisia,Africa,Northern Africa,Africa,Africa,TN,Lower-Middle,🇹🇳
+DZ,DZA,012,Algeria,Africa,Northern Africa,Africa,Africa,DZ,Upper-Middle,🇩🇿
+SN,SEN,686,Senegal,Africa,Western Africa,Africa,Africa,SN,Lower-Middle,🇸🇳
+UG,UGA,800,Uganda,Africa,Eastern Africa,Africa,Africa,UG,Low,🇺🇬
+TZ,TZA,834,Tanzania,Africa,Eastern Africa,Africa,Africa,TZ,Lower-Middle,🇹🇿
+RW,RWA,646,Rwanda,Africa,Eastern Africa,Africa,Africa,RW,Low,🇷🇼
+MU,MUS,480,Mauritius,Africa,Eastern Africa,Africa,Africa,MU,Upper-Middle,🇲🇺
+ZW,ZWE,716,Zimbabwe,Africa,Eastern Africa,Africa,Africa,ZW,Lower-Middle,🇿🇼
+ZM,ZMB,894,Zambia,Africa,Eastern Africa,Africa,Africa,ZM,Lower-Middle,🇿🇲
+CM,CMR,120,Cameroon,Africa,Middle Africa,Africa,Africa,CM,Lower-Middle,🇨🇲
+CI,CIV,384,Cote d'Ivoire,Africa,Western Africa,Africa,Africa,CI,Lower-Middle,🇨🇮
+MR,MRT,478,Mauritania,Africa,Western Africa,Africa,Africa,MR,Lower-Middle,🇲🇷
+NA,NAM,516,Namibia,Africa,Southern Africa,Africa,Africa,NA,Upper-Middle,🇳🇦
+BW,BWA,072,Botswana,Africa,Southern Africa,Africa,Africa,BW,Upper-Middle,🇧🇼
+AF,AFG,004,Afghanistan,Asia,Southern Asia,Asia Pacific,Asia,AF,,🇦🇫
+AX,ALA,248,Åland Islands,Europe,Northern Europe,Europe,Europe,FI,,🇦🇽
+AS,ASM,016,American Samoa,Oceania,Polynesia,Asia Pacific,Oceania,US,,🇦🇸
+AO,AGO,024,Angola,Africa,Middle Africa,Africa,Africa,AO,,🇦🇴
+AI,AIA,660,Anguilla,Americas,Caribbean,Latin America,Latin America & Caribbean,GB,,🇦🇮
+AG,ATG,028,Antigua and Barbuda,Americas,Caribbean,Latin America,Latin America & Caribbean,AG,,🇦🇬
+AW,ABW,533,Aruba,Americas,Caribbean,Latin America,Latin America & Caribbean,NL,,🇦🇼
+BZ,BLZ,084,Belize,Americas,Central America,Latin America,Latin America & Caribbean,BZ,,🇧🇿
+BJ,BEN,204,Benin,Africa,Western Africa,Africa,Africa,BJ,,🇧🇯
+BT,BTN,064,Bhutan,Asia,Southern Asia,Asia Pacific,Asia,BT,,🇧🇹
+BQ,BES,535,Caribbean Netherlands,Americas,Caribbean,Latin America,Latin America & Caribbean,NL,,🇧🇶
+IO,IOT,086,British Indian Ocean Territory,Africa,Eastern Africa,Africa,Africa,GB,,🇮🇴
+BN,BRN,096,Brunei Darussalam,Asia,South-Eastern Asia,Asia Pacific,Asia,BN,,🇧🇳
+BF,BFA,854,Burkina Faso,Africa,Western Africa,Africa,Africa,BF,,🇧🇫
+BI,BDI,108,Burundi,Africa,Eastern Africa,Africa,Africa,BI,,🇧🇮
+CV,CPV,132,Cabo Verde,Africa,Western Africa,Africa,Africa,CV,,🇨🇻
+CF,CAF,140,Central African Republic,Africa,Middle Africa,Africa,Africa,CF,,🇨🇫
+TD,TCD,148,Chad,Africa,Middle Africa,Africa,Africa,TD,,🇹🇩
+CX,CXR,162,Christmas Island,Oceania,Australia and New Zealand,Asia Pacific,Oceania,AU,,🇨🇽
+CC,CCK,166,Cocos Islands,Oceania,Australia and New Zealand,Asia Pacific,Oceania,AU,,🇨🇨
+KM,COM,174,Comoros,Africa,Eastern Africa,Africa,Africa,KM,,🇰🇲
+CG,COG,178,Congo,Africa,Middle Africa,Africa,Africa,CG,,🇨🇬
+CD,COD,180,DR Congo,Africa,Middle Africa,Africa,Africa,CD,,🇨🇩
+CK,COK,184,Cook Islands,Oceania,Polynesia,Asia Pacific,Oceania,NZ,,🇨🇰
+CW,CUW,531,Curaçao,Americas,Caribbean,Latin America,Latin America & Caribbean,NL,,🇨🇼
+DJ,DJI,262,Djibouti,Africa,Eastern Africa,Africa,Africa,DJ,,🇩🇯
+DM,DMA,212,Dominica,Americas,Caribbean,Latin America,Latin America & Caribbean,DM,,🇩🇲
+GQ,GNQ,226,Equatorial Guinea,Africa,Middle Africa,Africa,Africa,GQ,,🇬🇶
+ER,ERI,232,Eritrea,Africa,Eastern Africa,Africa,Africa,ER,,🇪🇷
+SZ,SWZ,748,Eswatini,Africa,Southern Africa,Africa,Africa,SZ,,🇸🇿
+FK,FLK,238,Falkland Islands,Americas,South America,Latin America,Latin America & Caribbean,GB,,🇫🇰
+FO,FRO,234,Faroe Islands,Europe,Northern Europe,Europe,Europe,DK,,🇫🇴
+FJ,FJI,242,Fiji,Oceania,Melanesia,Asia Pacific,Oceania,FJ,,🇫🇯
+GF,GUF,254,French Guiana,Americas,South America,Latin America,Latin America & Caribbean,FR,,🇬🇫
+PF,PYF,258,French Polynesia,Oceania,Polynesia,Asia Pacific,Oceania,FR,,🇵🇫
+TF,ATF,260,French Southern Territories,Africa,Eastern Africa,Africa,Africa,FR,,🇹🇫
+GA,GAB,266,Gabon,Africa,Middle Africa,Africa,Africa,GA,,🇬🇦
+GM,GMB,270,Gambia,Africa,Western Africa,Africa,Africa,GM,,🇬🇲
+GL,GRL,304,Greenland,Americas,Northern America,North America,North America,DK,,🇬🇱
+GD,GRD,308,Grenada,Americas,Caribbean,Latin America,Latin America & Caribbean,GD,,🇬🇩
+GP,GLP,312,Guadeloupe,Americas,Caribbean,Latin America,Latin America & Caribbean,FR,,🇬🇵
+GU,GUM,316,Guam,Oceania,Micronesia,Asia Pacific,Oceania,US,,🇬🇺
+GN,GIN,324,Guinea,Africa,Western Africa,Africa,Africa,GN,,🇬🇳
+GW,GNB,624,Guinea-Bissau,Africa,Western Africa,Africa,Africa,GW,,🇬🇼
+GY,GUY,328,Guyana,Americas,South America,Latin America,Latin America & Caribbean,GY,,🇬🇾
+HT,HTI,332,Haiti,Americas,Caribbean,Latin America,Latin America & Caribbean,HT,,🇭🇹
+VA,VAT,336,Vatican City,Europe,Southern Europe,Europe,Europe,VA,,🇻🇦
+IQ,IRQ,368,Iraq,Asia,Western Asia,Asia Pacific,Asia,IQ,,🇮🇶
+KI,KIR,296,Kiribati,Oceania,Micronesia,Asia Pacific,Oceania,KI,,🇰🇮
+KP,PRK,408,North Korea,Asia,Eastern Asia,Asia Pacific,Asia,KP,,🇰🇵
+LA,LAO,418,Laos,Asia,South-Eastern Asia,Asia Pacific,Asia,LA,,🇱🇦
+LS,LSO,426,Lesotho,Africa,Southern Africa,Africa,Africa,LS,,🇱🇸
+LR,LBR,430,Liberia,Africa,Western Africa,Africa,Africa,LR,,🇱🇷
+LY,LBY,434,Libya,Africa,Northern Africa,Africa,Africa,LY,,🇱🇾
+MG,MDG,450,Madagascar,Africa,Eastern Africa,Africa,Africa,MG,,🇲🇬
+MW,MWI,454,Malawi,Africa,Eastern Africa,Africa,Africa,MW,,🇲🇼
+MV,MDV,462,Maldives,Asia,Southern Asia,Asia Pacific,Asia,MV,,🇲🇻
+ML,MLI,466,Mali,Africa,Western Africa,Africa,Africa,ML,,🇲🇱
+MH,MHL,584,Marshall Islands,Oceania,Micronesia,Asia Pacific,Oceania,MH,,🇲🇭
+MQ,MTQ,474,Martinique,Americas,Caribbean,Latin America,Latin America & Caribbean,FR,,🇲🇶
+YT,MYT,175,Mayotte,Africa,Eastern Africa,Africa,Africa,FR,,🇾🇹
+FM,FSM,583,Micronesia,Oceania,Micronesia,Asia Pacific,Oceania,FM,,🇫🇲
+MS,MSR,500,Montserrat,Americas,Caribbean,Latin America,Latin America & Caribbean,GB,,🇲🇸
+MZ,MOZ,508,Mozambique,Africa,Eastern Africa,Africa,Africa,MZ,,🇲🇿
+NR,NRU,520,Nauru,Oceania,Micronesia,Asia Pacific,Oceania,NR,,🇳🇷
+NC,NCL,540,New Caledonia,Oceania,Melanesia,Asia Pacific,Oceania,FR,,🇳🇨
+NE,NER,562,Niger,Africa,Western Africa,Africa,Africa,NE,,🇳🇪
+NU,NIU,570,Niue,Oceania,Polynesia,Asia Pacific,Oceania,NZ,,🇳🇺
+NF,NFK,574,Norfolk Island,Oceania,Australia and New Zealand,Asia Pacific,Oceania,AU,,🇳🇫
+MP,MNP,580,Northern Mariana Islands,Oceania,Micronesia,Asia Pacific,Oceania,US,,🇲🇵
+PW,PLW,585,Palau,Oceania,Micronesia,Asia Pacific,Oceania,PW,,🇵🇼
+PS,PSE,275,Palestine,Asia,Western Asia,Asia Pacific,Asia,PS,,🇵🇸
+PG,PNG,598,Papua New Guinea,Oceania,Melanesia,Asia Pacific,Oceania,PG,,🇵🇬
+PN,PCN,612,Pitcairn,Oceania,Polynesia,Asia Pacific,Oceania,GB,,🇵🇳
+RE,REU,638,Réunion,Africa,Eastern Africa,Africa,Africa,FR,,🇷🇪
+BL,BLM,652,Saint Barthélemy,Americas,Caribbean,Latin America,Latin America & Caribbean,FR,,🇧🇱
+SH,SHN,654,Saint Helena,Africa,Western Africa,Africa,Africa,GB,,🇸🇭
+KN,KNA,659,Saint Kitts and Nevis,Americas,Caribbean,Latin America,Latin America & Caribbean,KN,,🇰🇳
+LC,LCA,662,Saint Lucia,Americas,Caribbean,Latin America,Latin America & Caribbean,LC,,🇱🇨
+MF,MAF,663,Saint Martin,Americas,Caribbean,Latin America,Latin America & Caribbean,FR,,🇲🇫
+PM,SPM,666,Saint Pierre and Miquelon,Americas,Northern America,North America,North America,FR,,🇵🇲
+VC,VCT,670,Saint Vincent and the Grenadines,Americas,Caribbean,Latin America,Latin America & Caribbean,VC,,🇻🇨
+WS,WSM,882,Samoa,Oceania,Polynesia,Asia Pacific,Oceania,WS,,🇼🇸
+SM,SMR,674,San Marino,Europe,Southern Europe,Europe,Europe,SM,,🇸🇲
+ST,STP,678,Sao Tome and Principe,Africa,Middle Africa,Africa,Africa,ST,,🇸🇹
+SC,SYC,690,Seychelles,Africa,Eastern Africa,Africa,Africa,SC,,🇸🇨
+SL,SLE,694,Sierra Leone,Africa,Western Africa,Africa,Africa,SL,,🇸🇱
+SX,SXM,534,Sint Maarten,Americas,Caribbean,Latin America,Latin America & Caribbean,NL,,🇸🇽
+SB,SLB,090,Solomon Islands,Oceania,Melanesia,Asia Pacific,Oceania,SB,,🇸🇧
+SO,SOM,706,Somalia,Africa,Eastern Africa,Africa,Africa,SO,,🇸🇴
+GS,SGS,239,South Georgia and the South Sandwich Islands,Americas,South America,Latin America,Latin America & Caribbean,GB,,🇬🇸
+SS,SSD,728,South Sudan,Africa,Eastern Africa,Africa,Africa,SS,,🇸🇸
+SD,SDN,729,Sudan,Africa,Northern Africa,Africa,Africa,SD,,🇸🇩
+SR,SUR,740,Suriname,Americas,South America,Latin America,Latin America & Caribbean,SR,,🇸🇷
+SJ,SJM,744,Svalbard and Jan Mayen,Europe,Northern Europe,Europe,Europe,NO,,🇸🇯
+SY,SYR,760,Syria,Asia,Western Asia,Asia Pacific,Asia,SY,,🇸🇾
+TJ,TJK,762,Tajikistan,Asia,Central Asia,Asia Pacific,Asia,TJ,,🇹🇯
+TL,TLS,626,Timor-Leste,Asia,South-Eastern Asia,Asia Pacific,Asia,TL,,🇹🇱
+TG,TGO,768,Togo,Africa,Western Africa,Africa,Africa,TG,,🇹🇬
+TK,TKL,772,Tokelau,Oceania,Polynesia,Asia Pacific,Oceania,NZ,,🇹🇰
+TO,TON,776,Tonga,Oceania,Polynesia,Asia Pacific,Oceania,TO,,🇹🇴
+TM,TKM,795,Turkmenistan,Asia,Central Asia,Asia Pacific,Asia,TM,,🇹🇲
+TC,TCA,796,Turks and Caicos Islands,Americas,Caribbean,Latin America,Latin America & Caribbean,GB,,🇹🇨
+TV,TUV,798,Tuvalu,Oceania,Polynesia,Asia Pacific,Oceania,TV,,🇹🇻
+UM,UMI,581,U.S. Minor Outlying Islands,Oceania,Micronesia,Asia Pacific,Oceania,US,,🇺🇲
+VU,VUT,548,Vanuatu,Oceania,Melanesia,Asia Pacific,Oceania,VU,,🇻🇺
+VI,VIR,850,U.S. Virgin Islands,Americas,Caribbean,Latin America,Latin America & Caribbean,US,,🇻🇮
+WF,WLF,876,Wallis and Futuna,Oceania,Polynesia,Asia Pacific,Oceania,FR,,🇼🇫
+EH,ESH,732,Western Sahara,Africa,Northern Africa,Africa,Africa,EH,,🇪🇭
+YE,YEM,887,Yemen,Asia,Western Asia,Asia Pacific,Asia,YE,,🇾🇪

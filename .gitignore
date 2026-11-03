@@ -31,6 +31,7 @@ metadata/identities.json
 metadata/identities.json.bak
 metadata/identity_curated.json
 scripts/identity/
+metadata/geo/curated_geography.json
 data/sources/brink/
 data/sources/opensats/
 data/sources/bitcoinknots/
