@@ -371,6 +371,7 @@ def main():
     run("python3 scripts/04_deliver/registry.py", cwd=root_dir)
     run("python3 scripts/04_deliver/tracker_artifacts.py", cwd=root_dir)
     run("python3 scripts/04_deliver/maintainers.py", cwd=root_dir)
+    run("python3 scripts/calc_bus_factor.py", cwd=root_dir)  # was never scheduled, so stats_bus_factor.json went stale
     run("python3 scripts/04_deliver/ui_artifacts.py", cwd=root_dir)
     run("python3 scripts/04_deliver/ecosystem_summary.py", cwd=root_dir)
     run("python3 scripts/04_deliver/discussions_pulse.py", cwd=root_dir)

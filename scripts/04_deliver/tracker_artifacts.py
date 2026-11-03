@@ -844,7 +844,7 @@ class MetricGenerators:
                 history_map[cid][y] = stats
 
         # --- ENRICHMENT METRICS ---
-        total_project_commits = commits.shape[0]
+        total_project_commits = commits['hash'].nunique()  # same unit as row['total_commits']
         
         # Sort by total_commits for ranking
         df = df.sort_values('total_commits', ascending=False)
@@ -1092,7 +1092,7 @@ class MetricGenerators:
         
         # Aggregate by Year - COUNT AUTHORED COMMITS ONLY
         authored_commits = commits[commits['category'] != 'Merge']
-        stats = authored_commits.groupby(['year', 'author_type']).size().unstack(fill_value=0)
+        stats = authored_commits.groupby(['year', 'author_type'])['hash'].nunique().unstack(fill_value=0)
         
         # Normalize to %
         stats_pct = stats.div(stats.sum(axis=1), axis=0).round(4) * 100
@@ -1507,7 +1507,8 @@ class MetricGenerators:
     def generate_retention_metrics(commits):
         print("Generating Retention Metrics...")
         # A "Regular" is someone with 3+ commits in a single year
-        yearly_activity = commits.groupby(['year', 'canonical_id']).size().reset_index(name='commit_count')
+        # Count unique commits (rows are per commit *and* code category)
+        yearly_activity = commits.groupby(['year', 'canonical_id'])['hash'].nunique().reset_index(name='commit_count')
         regulars = yearly_activity[yearly_activity['commit_count'] >= 3]
         
         # Arrival Years for each person (First commit ever)

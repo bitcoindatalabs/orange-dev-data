@@ -219,15 +219,12 @@ def main():
     maintainers = MaintainerLookup.get_all_maintainers()
     maintainer_profiles = []
     
-    # Load authentic first-parent merge hashes to avoid counting side-branch subtree pulls
-    first_parent_hashes = set()
-    fp_path = "metadata/first_parent_merges.json"
-    if os.path.exists(fp_path):
-        with open(fp_path, "r") as f:
-            first_parent_hashes = set(json.load(f))
-            
-    # Merges count mapping (filter strictly to master first-parent merges)
-    maintainer_commits = commits[(commits['is_merge'] == True) & (commits['hash'].isin(first_parent_hashes))]
+    # Merges count mapping (filter strictly to master first-parent merges, so side-branch subtree
+    # pulls aren't counted). Uses the is_first_parent_merge flag computed on every ingest; the old
+    # metadata/first_parent_merges.json snapshot was not regenerated weekly and went stale.
+    # commits_resolved holds one row per (commit, category), so count each merge commit once.
+    maintainer_commits = commits[(commits['is_merge'] == True) & (commits['is_first_parent_merge'] == True)]
+    maintainer_commits = maintainer_commits.drop_duplicates(['repository_name', 'hash'])
     
     for m in maintainers:
         m_id = m.get("id")

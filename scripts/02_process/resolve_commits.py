@@ -257,7 +257,16 @@ def resolve_commits():
         raise FileNotFoundError(f"Missing {COMMITS_FILE}")
     
     commits = pd.read_parquet(COMMITS_FILE)
-    
+
+    # bitcoin-core/gui is a mirror of bitcoin/bitcoin: every gui commit hash also exists in
+    # bitcoin/bitcoin, so keeping both double-counts all history. Drop gui rows whose hash is
+    # already present in bitcoin/bitcoin (gui PR *metadata* is unaffected; it comes from the
+    # GitHub metadata ingest, not git history).
+    core_hashes = set(commits.loc[commits['repository_name'] == 'bitcoin/bitcoin', 'hash'])
+    gui_mirror = (commits['repository_name'] == 'bitcoin-core/gui') & commits['hash'].isin(core_hashes)
+    commits = commits[~gui_mirror].copy()
+    print(f"Dropped {int(gui_mirror.sum())} bitcoin-core/gui rows mirrored from bitcoin/bitcoin.")
+
     print("Filtering out branch sync merges...")
     # Load message subjects
     if os.path.exists(MESSAGES_FILE):

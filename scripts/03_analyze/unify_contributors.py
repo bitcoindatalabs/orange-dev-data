@@ -455,6 +455,9 @@ def unify():
     # Filter out known automation bots from the human developer dataset
     KNOWN_BOTS = {
         'auto_bitcoin_core_merge_script',
+        # merge-script's own merge commits resolve through its noreply email: build_identities.py
+        # skips bot noreply emails, and its login only appeared in passive (mentioned) events.
+        'auto_90386131_bitcoin_core_merge_script_users_noreply_github_com',
         'auto_github_actions_bot',
         'auto_drahtbot',
         'auto_dependabot',
