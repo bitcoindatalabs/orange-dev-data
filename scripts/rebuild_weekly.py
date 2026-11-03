@@ -17,16 +17,32 @@ except Exception:
 # non-cp1252 bytes (e.g. 27 of 136 bitcoin/bitcoin merges in Sep 2026).
 os.environ["PYTHONUTF8"] = "1"
 
+# Secrets live in one place on the automation host: python/automation/.env (outside this public
+# repo). A repo-local .env, if present, still wins so a one-off checkout can be run on its own.
+_REPO_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
+ENV_CANDIDATES = [
+    os.path.join(_REPO_ROOT, ".env"),
+    os.path.abspath(os.path.join(_REPO_ROOT, "..", "..", "python", "automation", ".env")),
+]
+
+
 def load_env():
-    """Load environment variables from .env file"""
-    env_path = os.path.join(os.path.dirname(__file__), "..", ".env")
-    if os.path.exists(env_path):
-        with open(env_path, "r") as f:
+    """Load KEY=VALUE pairs from the first .env found; never overrides variables already set."""
+    for env_path in ENV_CANDIDATES:
+        if not os.path.exists(env_path):
+            continue
+        with open(env_path, "r", encoding="utf-8") as f:
             for line in f:
-                if "=" in line and not line.startswith("#"):
-                    key, value = line.strip().split("=", 1)
-                    os.environ[key] = value
-        print("✅ Loaded .env file")
+                line = line.strip()
+                if not line or line.startswith("#") or "=" not in line:
+                    continue
+                if line.startswith("export "):
+                    line = line[len("export "):]
+                key, value = line.split("=", 1)
+                os.environ.setdefault(key.strip(), value.strip().strip("'\""))
+        print(f"✅ Loaded {env_path}")
+        return
+    print("⚠️  No .env found (looked in: " + ", ".join(ENV_CANDIDATES) + ")")
 
 def run(command, cwd=None):
     """Execute a system command and check for errors"""
