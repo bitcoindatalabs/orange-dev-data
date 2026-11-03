@@ -314,6 +314,9 @@ def main():
     run("python3 scripts/01_ingest/optech.py", cwd=root_dir)
     run("python3 scripts/01_ingest/irc_meetings.py", cwd=root_dir)
     run("python3 scripts/01_ingest/automated_sponsors.py", cwd=root_dir)
+    # GitHub profiles (location, company, display name, public email) for every active account:
+    # never-fetched and >90-day-old profiles, within a per-run API budget. Needs GITHUB_TOKEN.
+    run("python3 scripts/enrichment/fetch_github_profiles.py", cwd=root_dir)
     count_step("After Phase 1 — raw source files extracted", root_dir)
 
     # PHASE 2: Convergence (Raw -> Enriched)

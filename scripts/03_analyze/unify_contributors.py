@@ -40,6 +40,7 @@ def unify():
             'uuid': identity['uuid'],
             'display_name': identity['display_name'],
             'github_login_final': github_final(identity.get('platforms', {}).get('github')),
+            'github_id_final': identity.get('platforms', {}).get('github_id'),
             'delving_username_final': identity.get('platforms', {}).get('delving')
         })
     df_id = pd.DataFrame(base_rows)
@@ -322,12 +323,23 @@ def unify():
         print("Enriching with GitHub profile data (location, company, bio, twitter)...")
         with open(GITHUB_PROFILES_FILE, 'r', encoding='utf-8') as f:
             gh_prof_data = json.load(f)
-        # Keyed by numeric GitHub ID, each value has a 'login' field
+        # Keyed by numeric GitHub ID, each value has a 'login' field. Match on the id first: a
+        # renamed account (MarcoFalke -> maflcko) keeps its id but not its login.
+        gh_id_map = gh_prof_data.get('profiles', {})
         gh_login_map = {
-            p['login']: p
-            for p in gh_prof_data.get('profiles', {}).values()
+            p['login'].lower(): p
+            for p in gh_id_map.values()
             if p.get('login')
         }
+
+        def _profile(row):
+            gid = row.get('github_id_final')
+            if isinstance(gid, str) and gid in gh_id_map:
+                return gh_id_map[gid]
+            login = row.get('github_login_final')
+            return gh_login_map.get(login.lower()) if isinstance(login, str) else None
+
+        profiles = df_unified.apply(_profile, axis=1)
         PROFILE_FIELDS = [
             ('location',         'github_location'),
             ('company',          'github_company'),
@@ -335,18 +347,18 @@ def unify():
             ('twitter_username', 'github_twitter'),
             ('blog',             'github_blog'),
             ('followers',        'github_followers'),
+            ('fetched_at',       'github_profile_fetched_at'),
         ]
         for src_field, col_name in PROFILE_FIELDS:
-            df_unified[col_name] = df_unified['github_login_final'].apply(
-                lambda login, f=src_field: gh_login_map[login].get(f) if (login and login in gh_login_map) else None
-            )
+            df_unified[col_name] = profiles.apply(lambda p, f=src_field: p.get(f) if p else None)
         enriched_count = df_unified['github_location'].notna().sum()
         print(f"  Profile enrichment: {enriched_count} / {len(df_unified)} contributors with location data")
     else:
         print(f"Warning: {GITHUB_PROFILES_FILE} not found — skipping profile enrichment.")
         for _, col_name in [('location', 'github_location'), ('company', 'github_company'),
                             ('bio', 'github_bio'), ('twitter_username', 'github_twitter'),
-                            ('blog', 'github_blog'), ('followers', 'github_followers')]:
+                            ('blog', 'github_blog'), ('followers', 'github_followers'),
+                            ('fetched_at', 'github_profile_fetched_at')]:
             df_unified[col_name] = None
 
     # --- Manual Social Profile Overrides ---
