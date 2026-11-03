@@ -2,8 +2,9 @@
 geography.py — Enterprise Geographic Attribution & Normalization Engine.
 
 Single source of truth for contributor geographic classification across:
-- Phase 3 enrichment (`scripts/03_analyze/resolve_geography.py` & `unify_contributors.py`)
-- Phase 4 delivery (`scripts/04_deliver/generate_regional_evolution.py`, `tracker_artifacts.py`)
+- attribution and location history (`scripts/utils/geo/`, used by `unify_contributors.py`,
+  `resolve_geography.py`, `build_geo_history.py`)
+- Phase 4 delivery (`scripts/04_deliver/geo_artifacts.py`)
 - Ecosystem scaling (`orange-eco-data`, 50k+ contributors)
 
 Architecture:
@@ -605,7 +606,7 @@ def _resolve_text(cleaned: str) -> GeoResult:
         )
 
     # Single segment naming a country and a state of another country ("Georgia"): ambiguous,
-    # left for the timezone tie-break in resolve_geography.py.
+    # left for the timezone tie-break in scripts/utils/geo/attribution.py.
     types = {c[5] for c in resolved_cands}
     if "admin1" in types and types & {"country", "endonym"}:
         top = max(resolved_cands, key=lambda x: x[7])

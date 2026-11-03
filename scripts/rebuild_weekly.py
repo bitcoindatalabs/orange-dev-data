@@ -357,6 +357,8 @@ def main():
     run("python3 scripts/03_analyze/self_merges.py", cwd=root_dir)
     run("python3 scripts/02_process/merge_sponsors.py", cwd=root_dir)
     run("python3 scripts/03_analyze/unify_contributors.py", cwd=root_dir)
+    # Activity events + location per year (needs the geo_* columns written by unify_contributors)
+    run("python3 scripts/03_analyze/build_geo_history.py", cwd=root_dir)
     count_step("After unify_contributors — grand join complete", root_dir)
 
     print("\n--- PHASE 3.5: LLM Summarization & Cross-Referencing ---")
@@ -370,7 +372,7 @@ def main():
     # PHASE 4: Delivery (Enriched -> Output)
     print("\n--- PHASE 4: Artifact Generation ---")
     run("python3 scripts/03_analyze/releases.py", cwd=root_dir)
-    run("python3 scripts/04_deliver/generate_regional_evolution.py", cwd=root_dir)
+    run("python3 scripts/04_deliver/geo_artifacts.py", cwd=root_dir)  # every geographic artifact
     run("python3 scripts/04_deliver/registry.py", cwd=root_dir)
     run("python3 scripts/04_deliver/tracker_artifacts.py", cwd=root_dir)
     run("python3 scripts/04_deliver/maintainers.py", cwd=root_dir)

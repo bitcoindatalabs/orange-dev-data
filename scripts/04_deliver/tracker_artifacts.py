@@ -54,7 +54,6 @@ class Config:
         "trend_corporate": f"{OUTPUT_DIR}/stats_corporate.json",
         "meta_heatmap": f"{OUTPUT_DIR}/stats_heatmap.json",
         "meta_weekend": f"{OUTPUT_DIR}/stats_weekend.json",
-        "meta_geography": f"{OUTPUT_DIR}/stats_geography.json",
         "contributors_rich": f"{OUTPUT_DIR}/contributors_rich.json"
     }
 
@@ -1122,88 +1121,6 @@ class MetricGenerators:
         # PART 2 (Maintainer Independence) has been refactored and moved to scripts/04_deliver/maintainers.py
 
     @staticmethod
-    def generate_geography(commits):
-        print("Generating Geography...")
-        
-        # Load Enriched Data
-        if not os.path.exists(Config.UNIFIED_FILE):
-            print("  Skipping Geography (No unified contributor data)")
-            return
-
-        enriched_df = pd.read_parquet(Config.UNIFIED_FILE)
-        
-        # Countries come from the Phase 3 geo_* columns; delivery never parses raw location strings.
-        if 'geo_country_iso2' not in enriched_df.columns:
-            print("  Skipping Geography (contributors_unified has no geo_* columns; run unify_contributors.py)")
-            return
-
-        from scripts.utils.geography import TAXONOMY_VERSION, get_gazetteer
-        gaz = get_gazetteer()
-
-        # A country is published only with at least K_MIN contributors: a 2-person country with
-        # thousands of commits identifies the person. Smaller countries are summed into one row.
-        K_MIN = 5
-        valid = enriched_df[enriched_df['geo_country_iso2'].notna()].copy()
-        valid['is_active'] = valid['activity_status'].isin(['Active', 'New', 'Rising']) if 'activity_status' in valid.columns else False
-        grouped = (
-            valid.groupby('geo_country_iso2', as_index=False)
-            .agg(
-                value=('uuid', 'count'),
-                authored_commits=('authored_commits', 'sum'),
-                active_devs=('is_active', 'sum'),
-            )
-        )
-        small = grouped[grouped['value'] < K_MIN]
-        grouped = grouped[grouped['value'] >= K_MIN]
-
-        def _record(row, weight):
-            meta = gaz.countries_by_iso2.get(row.geo_country_iso2)
-            rec = {
-                "name": meta.display_name if meta else row.geo_country_iso2,
-                "iso2": row.geo_country_iso2,
-                "iso3": meta.iso3 if meta else None,
-                "flag": meta.flag if meta else None,
-                "macro_region": meta.macro_region if meta else None,
-            }
-            if weight == "headcount":
-                rec.update(value=int(row.value), active_devs=int(row.active_devs), authored_commits=int(row.authored_commits))
-            else:
-                rec.update(value=int(row.authored_commits), contributors=int(row.value), active_devs=int(row.active_devs))
-            return rec
-
-        records = [_record(r, "headcount") for r in
-                   grouped.sort_values(['value', 'authored_commits'], ascending=False).head(15).itertuples(index=False)]
-        # Also provide top 15 by authored commits for commit-weighted toggle/slides
-        by_commits = [_record(r, "commits") for r in
-                      grouped.sort_values(['authored_commits', 'value'], ascending=False).head(15).itertuples(index=False)]
-
-        total_devs = int(len(enriched_df))
-        known_devs = int(len(valid))
-        total_commits = int(enriched_df['authored_commits'].sum()) if 'authored_commits' in enriched_df.columns else 0
-        known_commits = int(valid['authored_commits'].sum()) if 'authored_commits' in valid.columns else 0
-
-        payload = {
-            "data": records,
-            "data_commit_weighted": by_commits,
-            "other_small_countries": {
-                "countries": int(len(small)),
-                "contributors": int(small['value'].sum()),
-                "authored_commits": int(small['authored_commits'].sum()),
-                "rule": f"countries with fewer than {K_MIN} contributors are not listed individually",
-            },
-            "coverage": {
-                "devs_known": known_devs,
-                "devs_total": total_devs,
-                "commit_weighted_known": round(known_commits / max(1, total_commits), 4),
-                "countries_total": int(len(grouped) + len(small)),
-                "taxonomy_version": TAXONOMY_VERSION,
-            },
-        }
-
-        with open(Config.FILES["meta_geography"], "w", encoding="utf-8") as f:
-            json.dump(payload, f, indent=2, ensure_ascii=False)
-
-    @staticmethod
     def generate_codebase_stats(commits):
         print("Generating Codebase Stats...")
 
@@ -1768,7 +1685,7 @@ def main():
     MetricGenerators.generate_social(social)
     
     MetricGenerators.generate_corporate_era(commits)
-    MetricGenerators.generate_geography(commits)
+    # stats_geography.json is built by scripts/04_deliver/geo_artifacts.py
     MetricGenerators.generate_codebase_stats(commits)
     MetricGenerators.generate_category_history(commits) # New
     MetricGenerators.generate_engagement_tiers(commits) # New - Pyramid Toggle Support
