@@ -14,6 +14,8 @@ from scripts.utils.identity import resolver
 ARCHIVE_REPO_URL = "https://github.com/jamesob/delving-bitcoin-archive"
 ARCHIVE_PATH = "data/sources/delving"
 OUTPUT_PARQUET = "data/raw/social_delving.parquet"
+# Bump to force a full re-parse when parsing logic changes (2 = explicit UTF-8 reads).
+PARSER_VERSION = 2
 IDENTITY_CURATED_PATH = "metadata/identity_curated.json"
 STATE_PATH = "data/state.json"
 
@@ -66,12 +68,17 @@ def process_archive():
 
     count = 0
     skipped_bots = 0
+    failed = []
     for root, dirs, files in os.walk(posts_root):
         for file in files:
             if file.endswith(".json"):
                 path = os.path.join(root, file)
+                if sys.platform == 'win32':
+                    abs_p = os.path.abspath(path)
+                    if not abs_p.startswith('\\\\?\\'):
+                        path = '\\\\?\\' + abs_p
                 try:
-                    with open(path, 'r') as f:
+                    with open(path, 'r', encoding='utf-8') as f:
                         post = json.load(f)
                     
                     post_id = post["id"]
@@ -117,8 +124,14 @@ def process_archive():
                         print(f"  Processed {count} posts...")
                         
                 except Exception as e:
-                    print(f"Error processing {path}: {e}")
-                    
+                    failed.append((path, e))
+
+    if failed:
+        for path, err in failed[:10]:
+            print(f"  ✗ {path}: {err}")
+        raise RuntimeError(
+            f"{len(failed)} Delving post file(s) failed to parse; refusing to write an incomplete dataset."
+        )
     if skipped_bots:
         print(f"  Skipped {skipped_bots} post(s) from bot/system accounts.")
     return all_records
@@ -132,6 +145,7 @@ def main():
     ).stdout.strip()
     state = load_state()
     if (state.get("delving", {}).get("latest_commit") == latest_commit
+            and state.get("delving", {}).get("parser_version") == PARSER_VERSION
             and os.path.exists(OUTPUT_PARQUET)):
         print(f"Delving archive is up to date at commit {latest_commit[:12]}. Skipping re-parse.")
         return
@@ -151,6 +165,7 @@ def main():
         # Persist state checkpoint
         state = load_state()
         state.setdefault("delving", {})["latest_commit"] = latest_commit
+        state["delving"]["parser_version"] = PARSER_VERSION
         state["delving"]["max_topic_id"] = max(
             (int(r["thread_id"].replace("topic_", ""))
              for r in records if (r.get("thread_id") or "").startswith("topic_")),

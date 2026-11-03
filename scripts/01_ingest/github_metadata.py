@@ -51,9 +51,10 @@ def process_metadata():
         
         state.setdefault("github_metadata_repos", {})[repo_name] = {"latest_commit": latest_commit}
         
+        failed = []
         for f in tqdm.tqdm(json_files):
             try:
-                with open(f, 'r') as jfile:
+                with open(f, 'r', encoding='utf-8') as jfile:
                     data = json.load(jfile)
                     pull = data.get('pull', {})
                     if not pull:
@@ -115,8 +116,15 @@ def process_metadata():
                             'event_type': ev.get('event', ev.get('state', 'commented'))
                         })
             except Exception as e:
-                print(f"Error processing {f}: {e}")
-            
+                failed.append((f, e))
+
+        if failed:
+            for path, err in failed[:10]:
+                print(f"  ✗ {path}: {err}")
+            raise RuntimeError(
+                f"{len(failed)} {repo_name} PR file(s) failed to parse; refusing to write an incomplete dataset."
+            )
+
         df_prs = pd.DataFrame(pr_data)
         df_reviews = pd.DataFrame(review_data)
     

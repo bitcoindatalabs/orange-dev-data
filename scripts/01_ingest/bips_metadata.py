@@ -12,6 +12,8 @@ METADATA_PATH = "data/sources/bips-github-metadata"
 OUTPUT_PR_PARQUET = "data/raw/bips_pr_metadata.parquet"
 OUTPUT_REVIEW_PARQUET = "data/raw/bips_review_events.parquet"
 STATE_PATH = "data/state.json"
+# Bump to force a full re-parse when parsing logic changes (2 = explicit UTF-8 reads).
+PARSER_VERSION = 2
 
 
 def load_state():
@@ -51,6 +53,7 @@ def process_metadata():
     ).stdout.strip()
     state = load_state()
     if (state.get("bips_metadata", {}).get("latest_commit") == latest_commit
+            and state.get("bips_metadata", {}).get("parser_version") == PARSER_VERSION
             and os.path.exists(OUTPUT_PR_PARQUET) and os.path.exists(OUTPUT_REVIEW_PARQUET)):
         print(f"BIPs metadata archive is up to date at commit {latest_commit[:12]}. Skipping re-parse.")
         return
@@ -67,9 +70,10 @@ def process_metadata():
     pr_data = []
     review_data = []
     
+    failed = []
     for f in tqdm.tqdm(json_files):
         try:
-            with open(f, 'r') as jfile:
+            with open(f, 'r', encoding='utf-8') as jfile:
                 data = json.load(jfile)
                 pull = data.get('pull', {})
                 if not pull:
@@ -127,8 +131,15 @@ def process_metadata():
                         'event_type': ev.get('event', ev.get('state', 'commented'))
                     })
         except Exception as e:
-            print(f"Error processing {f}: {e}")
-            
+            failed.append((f, e))
+
+    if failed:
+        for path, err in failed[:10]:
+            print(f"  ✗ {path}: {err}")
+        raise RuntimeError(
+            f"{len(failed)} BIP PR file(s) failed to parse; refusing to write an incomplete dataset."
+        )
+
     df_prs = pd.DataFrame(pr_data)
     df_reviews = pd.DataFrame(review_data)
     
@@ -143,6 +154,7 @@ def process_metadata():
     # Persist state checkpoint
     state = load_state()
     state.setdefault("bips_metadata", {})["latest_commit"] = latest_commit
+    state["bips_metadata"]["parser_version"] = PARSER_VERSION
     state["bips_metadata"]["total_prs"] = len(df_prs)
     state["bips_metadata"]["total_events"] = len(df_reviews)
     save_state(state)

@@ -12,6 +12,11 @@ try:
 except Exception:
     pass
 
+# Run every pipeline subprocess in Python UTF-8 mode. Without this, Windows defaults bare
+# open() calls to cp1252, and ingest scripts silently dropped PR/post JSON files containing
+# non-cp1252 bytes (e.g. 27 of 136 bitcoin/bitcoin merges in Sep 2026).
+os.environ["PYTHONUTF8"] = "1"
+
 def load_env():
     """Load environment variables from .env file"""
     env_path = os.path.join(os.path.dirname(__file__), "..", ".env")
@@ -296,10 +301,15 @@ def main():
     print("\n--- PHASE 1: Extraction (Raw Staging) ---")
     run("python3 scripts/01_ingest/core.py", cwd=root_dir)
     run("python3 scripts/01_ingest/bips.py", cwd=root_dir)
-    run("python3 scripts/01_ingest/bips_metadata.py", cwd=root_dir)  # BIPs GitHub PR + review events
-    run("python3 scripts/01_ingest/delving.py", cwd=root_dir)
+    # These three parse thousands of JSON files and refuse to write partial output on any
+    # parse error; abort the rebuild rather than enriching stale or incomplete data.
+    if not run("python3 scripts/01_ingest/bips_metadata.py", cwd=root_dir):  # BIPs GitHub PR + review events
+        sys.exit("❌ bips_metadata ingest failed; aborting rebuild.")
+    if not run("python3 scripts/01_ingest/delving.py", cwd=root_dir):
+        sys.exit("❌ Delving ingest failed; aborting rebuild.")
     run("python3 scripts/01_ingest/mailing_list.py", cwd=root_dir)
-    run("python3 scripts/01_ingest/github_metadata.py", cwd=root_dir)
+    if not run("python3 scripts/01_ingest/github_metadata.py", cwd=root_dir):
+        sys.exit("❌ GitHub PR metadata ingest failed; aborting rebuild.")
     run("python3 scripts/01_ingest/tracking_issues.py", cwd=root_dir)
     run("python3 scripts/01_ingest/optech.py", cwd=root_dir)
     run("python3 scripts/01_ingest/irc_meetings.py", cwd=root_dir)
