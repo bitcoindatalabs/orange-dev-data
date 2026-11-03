@@ -50,6 +50,7 @@ Schema of each profile entry (keyed by github_id string):
 import argparse
 import json
 import os
+import shutil
 import ssl
 import sys
 import time
@@ -316,9 +317,22 @@ class SnapshotLog:
                     f"{len(self.df):,}. Another copy of the profile history is newer; reconcile first."
                 )
         os.makedirs(os.path.dirname(self.path) or ".", exist_ok=True)
+        self._backup_previous()
         tmp = self.path + ".tmp"
         self.df.to_parquet(tmp, index=False)
         os.replace(tmp, self.path)
+
+    def _backup_previous(self, keep: int = 8) -> None:
+        """Keep a dated copy of the history before the first save of each day (last `keep` days)."""
+        if not os.path.exists(self.path):
+            return
+        backup_dir = os.path.join(os.path.dirname(self.path), "..", "backups", "profile_snapshots")
+        os.makedirs(backup_dir, exist_ok=True)
+        dest = os.path.join(backup_dir, f"github_profile_snapshots_{datetime.now(timezone.utc):%Y%m%d}.parquet")
+        if not os.path.exists(dest):
+            shutil.copy2(self.path, dest)
+        for old in sorted(f for f in os.listdir(backup_dir) if f.endswith(".parquet"))[:-keep]:
+            os.remove(os.path.join(backup_dir, old))
 
 
 # ── Summary ────────────────────────────────────────────────────────────────────
