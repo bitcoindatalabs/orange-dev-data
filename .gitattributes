@@ -1,0 +1,6 @@
+# Store text as LF in the repo whatever the OS that wrote it (the Windows automation host
+# writes CRLF; without this, every synced file shows as modified on Linux).
+* text=auto eol=lf
+*.parquet binary
+*.png binary
+*.pdf binary
