@@ -1,5 +1,90 @@
 [
   {
+    "date": "2026-11-05",
+    "url": "https://achow101.com/ircmeetings/2026/bitcoin-core-dev.2026-11-05_16_09.log.json",
+    "participant_count": 16,
+    "key_participants": [
+      "darosior",
+      "dzxzg",
+      "bitcoindev1337",
+      "sedited",
+      "jonatack",
+      "pinheadmz"
+    ],
+    "active_participants": [
+      "darosior",
+      "dzxzg",
+      "bitcoindev1337",
+      "sedited",
+      "jonatack",
+      "pinheadmz",
+      "nervana21",
+      "l0rinc_",
+      "b10c",
+      "eugenesiegel",
+      "abubakarsadiq",
+      "brunoerg",
+      "lightlike",
+      "stickies-v"
+    ],
+    "topics_discussed": [
+      "Benchmarking WG Update (l0rinc): l0rinc pushed #36778, which replaces the `loadtxoutset` RPC with a startup argument, aiming to narrow AssumeUTXO's scope and avoid corner cases when loading a UTXO set on an existing chainstate.",
+      "Kernel WG Update (sedited): sedited is seeking review for #35641, which adds a script evaluation tracer to the kernel. sedited also highlighted #36692, a tracking issue for making unit tests more declarative.",
+      "QA WG Update (brunoerg): No update was provided this week.",
+      "addr-relay WG update (stratospher): A new WG has been formed to address ongoing spam of existing addresses with fresh timestamps, which pins addresses in the new table. Discussions were held on mitigation strategies. The WG will also address longstanding Addrman issues, including service flags problems and address relay problems due to peers controlling address timestamps. lightlike provided links to bnoc.xyz/t/address-relay-under-stress/163 and bnoc.xyz/t/address-relay-under-stress-attack-characteristics-and-measuring-its-effects/164 for further details.",
+      "Disk error handling inconsistencies (bitcoindev1337): bitcoindev1337 noted that disk error handling is inconsistent, varying between being ignored in `process_messages` try/catch blocks and causing node shutdowns in RPC paths. This requires a unified plan rather than piecemeal fixes. #36101 (doc: Add an error handling strategy by purpleKarrot) and #35003 (validation: improve block data I/O error handling in P2P paths by furszy) were referenced as relevant discussions.",
+      "CVE-2026-117349 and CVE-2026-117350 followups (darosior): Patches for CVE-2026-117349 and CVE-2026-117350 were deployed last week, with binaries available within 48 hours. darosior initiated discussion on fundamental cleanups and improved testing. For CVE-2026-117349, the root cause is unbounded growth in p2p data structures, with a timer-based stopgap implemented. Proposed cleanups include: 1) changing the tx INVs token bucket manager to use a single, bounded queue; 2) moving parts of `SendMessages()` to early return on `fPauseSend`; and 3) minor cleanups for other announcements. For CVE-2026-117350, darosior is hardening tests and opened #36761 (RFC: switch from select() to poll() on all platforms) for longer-term cleanups."
+    ],
+    "decisions_made": [
+      "A new Addr-Relay Working Group has been formed, led by stratospher, to address address relay issues."
+    ],
+    "action_items": [
+      "sedited requested review for #35641 (kernel: Add script evaluation tracer).",
+      "bitcoindev1337 will review existing discussions on #36101 and #35003 regarding disk error handling.",
+      "darosior requested review commitment for potential refactorings related to CVE-2026-117349 cleanups. dzxzg, eugenesiegel, and jonatack offered to review.",
+      "stratospher invited interested developers to join the new Addr-Relay WG."
+    ],
+    "mentioned_prs": [
+      36778,
+      35641,
+      36692,
+      36101,
+      35003,
+      36761
+    ],
+    "card_topics": [
+      "AssumeUTXO: l0rinc advanced AssumeUTXO with #36778, replacing `loadtxoutset` RPC with a startup arg to narrow its scope and avoid chainstate corner cases.",
+      "Kernel WG: sedited seeks review for #35641 (script evaluation tracer) and highlighted #36692 for declarative unit test style.",
+      "Addr-Relay WG: A new WG, led by stratospher, formed to mitigate address spamming with fresh timestamps and address longstanding Addrman issues.",
+      "Disk Error Handling: bitcoindev1337 noted inconsistent disk error handling, proposing a unified plan, referencing #36101 and #35003 for discussion.",
+      "CVE Follow-ups: darosior discussed post-CVE-2026-117349/117350 cleanups, proposing refactorings for unbounded p2p data structures and hardening tests (#36761)."
+    ],
+    "spotlight_debate": "darosior proposed fundamental refactorings for CVE-2026-117349 (unbounded p2p data structures) and CVE-2026-117350 (select/poll), seeking review commitment for these architectural changes.",
+    "referenced_artifacts": [
+      {
+        "label": "bnoc.xyz",
+        "icon": "globe"
+      },
+      {
+        "label": "asmap-data",
+        "icon": "code-branch"
+      },
+      {
+        "label": "hcoop-meetbot",
+        "icon": "book"
+      }
+    ],
+    "narrative_summary": "l0rinc advanced AssumeUTXO development by pushing #36778, which replaces the `loadtxoutset` RPC with a startup argument, aiming to narrow its scope. sedited requested review for #35641, a kernel script evaluation tracer, and highlighted #36692 for declarative unit tests. A new Addr-Relay Working Group, led by stratospher, formed to address ongoing address spamming with fresh timestamps and longstanding Addrman issues, including service flags and peer-controlled timestamps.\n\nbitcoindev1337 raised concerns regarding inconsistent disk error handling across `process_messages` and RPC paths, advocating for a unified strategy over piecemeal fixes, referencing #36101 and #35003 for discussion. darosior provided an update on CVE-2026-117349 and CVE-2026-117350 patches, noting binaries were available within 48 hours of public mitigation PRs.\n\ndarosior initiated discussion on fundamental cleanups for the recent CVEs, specifically proposing refactorings for CVE-2026-117349 to bound p2p data structure growth and hardening tests for CVE-2026-117350, including a potential switch from `select()` to `poll()` via #36761. dzxzg, eugenesiegel, and jonatack offered to review these proposed architectural changes.",
+    "x_priority_takeaway": "Review needed for CVE cleanups and disk error handling strategy.",
+    "x_bullet_points": [
+      "AssumeUTXO narrowed",
+      "Addr-Relay WG formed",
+      "CVE cleanups proposed"
+    ],
+    "linkedin_context": "l0rinc advanced AssumeUTXO development by pushing #36778, which replaces the `loadtxoutset` RPC with a startup argument, aiming to narrow its scope. sedited requested review for #35641, a kernel script evaluation tracer, and highlighted #36692 for declarative unit tests. A new Addr-Relay Working Group, led by stratospher, formed to address ongoing address spamming with fresh timestamps and longstanding Addrman issues, including service flags and peer-controlled timestamps.\n\nbitcoindev1337 raised concerns regarding inconsistent disk error handling across `process_messages` and RPC paths, advocating for a unified strategy over piecemeal fixes, referencing #36101 and #35003 for discussion. darosior provided an update on CVE-2026-117349 and CVE-2026-117350 patches, noting binaries were available within 48 hours of public mitigation PRs.\n\ndarosior initiated discussion on fundamental cleanups for the recent CVEs, specifically proposing refactorings for CVE-2026-117349 to bound p2p data structure growth and hardening tests for CVE-2026-117350, including a potential switch from `select()` to `poll()` via #36761. dzxzg, eugenesiegel, and jonatack offered to review these proposed architectural changes.",
+    "_text_hash": "8b4d224b9495a648bd9f492717c51e74"
+  },
+  {
     "date": "2026-10-29",
     "url": "https://achow101.com/ircmeetings/2026/bitcoin-core-dev.2026-10-29_16_00.log.json",
     "participant_count": 14,
