@@ -1,8 +1,7 @@
 {
-  "display_name": "@RandyMcMillan",
+  "display_name": "RandyMcMillan",
   "github_login_final": "RandyMcMillan",
-  "github_id_final": "152159",
-  "delving_username_final": "randymcmillan",
+  "delving_username_final": null,
   "uuid": "auto_randymcmillan",
   "badges": null,
   "roles": null,
@@ -30,32 +29,32 @@
   "modern_bips_authored": 0.0,
   "first_bip_date": null,
   "last_bip_date": null,
-  "avg_review_latency_days": 1821.5446036542269,
-  "reviews_count": 194.0,
-  "avg_approval_latency_days": 1111.4406886574075,
-  "approvals_count": 104.0,
-  "tier1_reviews_count": 184.0,
-  "tier2_reviews_count": 10.0,
-  "p2016_reviews_count": 194.0,
-  "modern_reviews_count": 43.0,
-  "first_review_date": "2019-10-27T22:43:56",
-  "last_review_date": "2026-10-29T23:12:42",
-  "prs_authored": 71.0,
-  "tier1_prs_authored": 64.0,
+  "avg_review_latency_days": 39.239608796296295,
+  "reviews_count": 6.0,
+  "avg_approval_latency_days": 0.155,
+  "approvals_count": 1.0,
+  "tier1_reviews_count": 0.0,
+  "tier2_reviews_count": 6.0,
+  "p2016_reviews_count": 6.0,
+  "modern_reviews_count": 6.0,
+  "first_review_date": "2024-04-02T18:04:15",
+  "last_review_date": "2025-04-12T20:58:38",
+  "prs_authored": 7.0,
+  "tier1_prs_authored": 0.0,
   "tier2_prs_authored": 7.0,
-  "avg_pr_ack_velocity_days": 4.525427414021164,
-  "avg_concept_lead_time_days": 7.545547288359788,
-  "review_reciprocity": 2.732394366197183,
-  "hybrid_score": 0.3483,
-  "p2016_hybrid_score": 0.3394,
-  "modern_hybrid_score": 0.1578,
-  "impact_score": 19.0,
-  "p2016_impact_score": 18.0,
-  "modern_impact_score": 9.0,
-  "threads_started": 3.0,
+  "avg_pr_ack_velocity_days": 0.3877256944444445,
+  "avg_concept_lead_time_days": null,
+  "review_reciprocity": 0.8571428571428571,
+  "hybrid_score": 0.2369,
+  "p2016_hybrid_score": 0.228,
+  "modern_hybrid_score": 0.0848,
+  "impact_score": 13.0,
+  "p2016_impact_score": 13.0,
+  "modern_impact_score": 5.0,
+  "threads_started": 0.0,
   "replies_sent": 0.0,
   "ml_threads": 0.0,
-  "delving_threads": 3.0,
+  "delving_threads": 0.0,
   "ml_responses": 0.0,
   "delving_responses": 0.0,
   "first_active": null,
@@ -64,14 +63,9 @@
   "expertise_domains": [
     "Infrastructure",
     "Consensus",
-    "Mempool"
+    "Network"
   ],
   "expertise_by_source": {
-    "discussion": {
-      "Mempool": 0.246,
-      "Consensus": 0.508,
-      "Privacy": 0.246
-    },
     "code": {
       "Infrastructure": 0.972,
       "Consensus": 0.009,
@@ -80,51 +74,29 @@
     }
   },
   "expertise_domain_scores": {
-    "Mempool": 0.0985,
-    "Infrastructure": 0.5836,
-    "Consensus": 0.2087,
-    "Privacy": 0.0985
+    "Infrastructure": 0.973
   },
-  "p2016_posts": 3.0,
-  "modern_posts": 3.0,
+  "p2016_posts": 0.0,
+  "modern_posts": 0.0,
   "p2016_ml_posts": 0.0,
-  "p2016_delving_posts": 3.0,
+  "p2016_delving_posts": 0.0,
   "modern_ml_posts": 0.0,
-  "modern_delving_posts": 3.0,
+  "modern_delving_posts": 0.0,
   "is_engineer": true,
   "is_reviewer": true,
   "is_researcher": false,
   "is_bip_author": false,
   "global_first_active": "2011-06-07T18:38:35",
-  "global_last_active": "2026-10-29T23:12:42",
+  "global_last_active": "2025-04-12T20:58:38",
   "github_location": "₿:8333",
   "github_company": "@bitcoincore-dev ",
   "github_bio": "Operations Specialist @usnavy\r\n\r\nE616FA7221A1613E5B99206297966C06 BB06757B\r\n",
   "github_twitter": "RandyMcMillan",
   "github_blog": "https://www.randymcmillan.net",
   "github_followers": 518.0,
-  "github_profile_fetched_at": "2026-10-20T19:04:55Z",
-  "activity_status": "Rising",
-  "geo_country_iso2": null,
-  "geo_country_iso3": null,
-  "geo_country_name": null,
-  "geo_sovereign_iso2": null,
-  "geo_m49_subregion": null,
-  "geo_macro_region": "Undisclosed",
-  "geo_un_macro_region": "Undisclosed",
-  "geo_wb_income": null,
-  "geo_flag": null,
-  "geo_status": "non_geographic",
-  "geo_source": "none",
-  "geo_confidence": 0.0,
-  "geo_conflict": false,
-  "geo_tz_signature": null,
-  "geo_location_raw": "₿:8333",
-  "geo_as_of": null,
-  "geo_taxonomy_version": "2026.10.1",
+  "activity_status": "Active",
   "is_top_50": false,
   "github_url": "https://github.com/RandyMcMillan",
-  "delving_url": "https://delvingbitcoin.org/u/randymcmillan",
   "commit_history": {
     "2011": {
       "GUI": 2.0
@@ -150,31 +122,6 @@
       "Documentation": 1.0,
       "GUI": 2.0,
       "Node & RPC": 1.0
-    }
-  },
-  "first_message": {
-    "source": "delving",
-    "subject": "Re: Unspendable keys in descriptors",
-    "date": "2023-12-19",
-    "link": "https://delvingbitcoin.org/t/unspendable-keys-in-descriptors/304/17"
-  },
-  "last_message": {
-    "source": "delving",
-    "subject": "Re: Response to Pieter Wuille's StackExchange Answer Re: Nuking the Opreturn Filter",
-    "date": "2025-10-08",
-    "link": "https://delvingbitcoin.org/t/response-to-pieter-wuilles-stackexchange-answer-re-nuking-the-opreturn-filter/1991/12"
-  },
-  "social_history": {
-    "2023": {
-      "silent-payments": 2,
-      "taproot": 2,
-      "wallet-keys": 2
-    },
-    "2025": {
-      "mempool-fees": 1,
-      "mining": 1,
-      "nostr": 1,
-      "utxo-sync": 1
     }
   }
 }

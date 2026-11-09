@@ -2,7 +2,7 @@
   "headline": {
     "bus_factor": 8,
     "window": "trailing_12_months",
-    "period": "2025-11-01 to 2026-11-01",
+    "period": "2025-11-08 to 2026-11-08",
     "top_contributors": [
       "MarcoFalke",
       "fanquake",
@@ -74,7 +74,7 @@
       94,
       105,
       132,
-      154
+      153
     ]
   }
 }

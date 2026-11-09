@@ -1,71 +1,66 @@
 {
-  "generated_at": "2026-11-01",
+  "generated_at": "2026-11-08",
   "groups": {
-    "committers": 1290,
-    "reviewers": 5356,
-    "research": 1737,
-    "standards": 164,
-    "total_active": 6638,
-    "total_registry": 7354
+    "committers": 867,
+    "reviewers": 1403,
+    "research": 1763,
+    "standards": 163,
+    "total_active": 3348,
+    "total_registry": 4649
   },
   "venn_4": {
-    "0001": 9,
-    "0010": 1133,
-    "0011": 21,
-    "0100": 3898,
-    "0101": 9,
-    "0110": 235,
-    "0111": 43,
-    "1000": 106,
-    "1001": 1,
-    "1010": 11,
-    "1011": 1,
-    "1100": 877,
-    "1101": 1,
-    "1110": 214,
-    "1111": 79
+    "0001": 10,
+    "0010": 1306,
+    "0011": 24,
+    "0100": 979,
+    "0101": 8,
+    "0110": 114,
+    "0111": 40,
+    "1000": 479,
+    "1001": 3,
+    "1010": 115,
+    "1011": 8,
+    "1100": 103,
+    "1101": 3,
+    "1110": 89,
+    "1111": 67
   },
   "venn_summary": {
-    "code_only": 106,
-    "review_only": 3898,
-    "research_only": 1133,
-    "standards_only": 9,
-    "all_four": 79,
-    "code_review": 877,
-    "review_research": 235,
-    "research_standards": 21
+    "code_only": 479,
+    "review_only": 979,
+    "research_only": 1306,
+    "standards_only": 10,
+    "all_four": 67,
+    "code_review": 103,
+    "review_research": 114,
+    "research_standards": 24
   },
   "rd_focus": {},
   "hotspot": {
     "title": "Trending BIP Discussions",
     "value": "BIP 70"
   },
-  "spotlight": {
-    "name": "Kevin Ravensberg",
-    "uuid": "auto_kevin_ravensberg",
-    "github_login": "kravens",
-    "description": "First-time core contributor recently merged PR #36559 (test: zero-pad the port in feature_anchors' expected hex)."
-  },
+  "spotlight": null,
   "onboarding": {
-    "new_coders_90d": 31,
-    "new_coders_30d": 5,
+    "new_coders_90d": 0,
+    "new_coders_30d": 0,
     "new_coders_7d": 0,
-    "new_discussants_90d": 66,
-    "new_discussants_7d": 22,
+    "new_discussants_90d": 81,
+    "new_discussants_7d": 19,
     "window_days": 90
   },
   "prs": {
-    "total_merged": 17169,
-    "merged_30d": 138,
-    "merged_prev_30d": 148,
-    "merged_7d": 35,
-    "merged_prev_7d": 41
+    "total_merged": 0,
+    "merged_30d": 0,
+    "merged_prev_30d": 0,
+    "merged_7d": 0,
+    "merged_prev_7d": 0
   },
   "commits": {
-    "commits_30d": 431,
-    "commits_prev_30d": 407,
-    "commits_7d": 135,
-    "commits_prev_7d": 108
+    "commits_30d": 0,
+    "commits_prev_30d": 0,
+    "commits_7d": 0,
+    "commits_prev_7d": 0
   },
   "bips": {
     "total": 214,
@@ -77,19 +72,19 @@
         "category": "quantum",
         "label": "Quantum",
         "count": 105,
-        "share": 21.1
+        "share": 21.3
       },
       {
         "category": "mining",
         "label": "Mining",
-        "count": 56,
-        "share": 11.2
+        "count": 58,
+        "share": 11.8
       },
       {
         "category": "p2p-network",
         "label": "P2P Network",
-        "count": 33,
-        "share": 6.6
+        "count": 36,
+        "share": 7.3
       }
     ],
     "top_bips": [

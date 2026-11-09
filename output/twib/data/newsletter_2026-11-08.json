@@ -1,0 +1,256 @@
+{
+  "start_date": "2026-11-02",
+  "end_date": "2026-11-08",
+  "stats": {
+    "total_merged": 0,
+    "subsystem_merged": {},
+    "total_reviews": 1,
+    "total_threads": 28,
+    "new_contributors": 0
+  },
+  "previous_stats": {
+    "total_merged": 35,
+    "subsystem_merged": {
+      "bitcoin-core/secp256k1": 3,
+      "bitcoin-core/gui": 1
+    },
+    "total_reviews": 519,
+    "total_threads": 54,
+    "new_contributors": 0
+  },
+  "social_hook": {
+    "headline": "Protocol Innovations for Privacy, Scalability, and Network Decentralization:",
+    "bullets": [
+      "Advanced P2MR (BIP-360) discussions for enhanced transaction privacy and efficiency.",
+      "Explored K-of-N Lightning Network node architecture to boost security and fault tolerance.",
+      "Initiated TCP hole punching discussions to improve network decentralization for home nodes."
+    ]
+  },
+  "tldr": [
+    "Exploring architectural shifts for Lightning Network nodes to enhance fund security and availability through K-of-N multi-signature schemes.",
+    "Investigating TCP hole punching to significantly improve the connectivity and decentralization of Bitcoin full nodes behind home NATs."
+  ],
+  "meeting": {
+    "date": "2026-11-05",
+    "url": "https://achow101.com/ircmeetings/2026/bitcoin-core-dev.2026-11-05_16_09.log.json",
+    "participant_count": 16,
+    "key_participants": [
+      "darosior",
+      "dzxzg",
+      "bitcoindev1337",
+      "sedited",
+      "jonatack",
+      "pinheadmz"
+    ],
+    "active_participants": [
+      "darosior",
+      "dzxzg",
+      "bitcoindev1337",
+      "sedited",
+      "jonatack",
+      "pinheadmz",
+      "nervana21",
+      "l0rinc_",
+      "b10c",
+      "eugenesiegel",
+      "abubakarsadiq",
+      "brunoerg",
+      "lightlike",
+      "stickies-v"
+    ],
+    "topics_discussed": [
+      "Benchmarking WG Update (l0rinc): l0rinc pushed #36778, which replaces the `loadtxoutset` RPC with a startup argument, aiming to narrow AssumeUTXO's scope and avoid corner cases when loading a UTXO set on an existing chainstate.",
+      "Kernel WG Update (sedited): sedited is seeking review for #35641, which adds a script evaluation tracer to the kernel. sedited also highlighted #36692, a tracking issue for making unit tests more declarative.",
+      "QA WG Update (brunoerg): No update was provided this week.",
+      "addr-relay WG update (stratospher): A new WG has been formed to address ongoing spam of existing addresses with fresh timestamps, which pins addresses in the new table. Discussions were held on mitigation strategies. The WG will also address longstanding Addrman issues, including service flags problems and address relay problems due to peers controlling address timestamps. lightlike provided links to bnoc.xyz/t/address-relay-under-stress/163 and bnoc.xyz/t/address-relay-under-stress-attack-characteristics-and-measuring-its-effects/164 for further details.",
+      "Disk error handling inconsistencies (bitcoindev1337): bitcoindev1337 noted that disk error handling is inconsistent, varying between being ignored in `process_messages` try/catch blocks and causing node shutdowns in RPC paths. This requires a unified plan rather than piecemeal fixes. #36101 (doc: Add an error handling strategy by purpleKarrot) and #35003 (validation: improve block data I/O error handling in P2P paths by furszy) were referenced as relevant discussions.",
+      "CVE-2026-117349 and CVE-2026-117350 followups (darosior): Patches for CVE-2026-117349 and CVE-2026-117350 were deployed last week, with binaries available within 48 hours. darosior initiated discussion on fundamental cleanups and improved testing. For CVE-2026-117349, the root cause is unbounded growth in p2p data structures, with a timer-based stopgap implemented. Proposed cleanups include: 1) changing the tx INVs token bucket manager to use a single, bounded queue; 2) moving parts of `SendMessages()` to early return on `fPauseSend`; and 3) minor cleanups for other announcements. For CVE-2026-117350, darosior is hardening tests and opened #36761 (RFC: switch from select() to poll() on all platforms) for longer-term cleanups."
+    ],
+    "decisions_made": [
+      "A new Addr-Relay Working Group has been formed, led by stratospher, to address address relay issues."
+    ],
+    "action_items": [
+      "sedited requested review for #35641 (kernel: Add script evaluation tracer).",
+      "bitcoindev1337 will review existing discussions on #36101 and #35003 regarding disk error handling.",
+      "darosior requested review commitment for potential refactorings related to CVE-2026-117349 cleanups. dzxzg, eugenesiegel, and jonatack offered to review.",
+      "stratospher invited interested developers to join the new Addr-Relay WG."
+    ],
+    "mentioned_prs": [
+      36778,
+      35641,
+      36692,
+      36101,
+      35003,
+      36761
+    ],
+    "card_topics": [
+      "AssumeUTXO: l0rinc advanced AssumeUTXO with #36778, replacing `loadtxoutset` RPC with a startup arg to narrow its scope and avoid chainstate corner cases.",
+      "Kernel WG: sedited seeks review for #35641 (script evaluation tracer) and highlighted #36692 for declarative unit test style.",
+      "Addr-Relay WG: A new WG, led by stratospher, formed to mitigate address spamming with fresh timestamps and address longstanding Addrman issues.",
+      "Disk Error Handling: bitcoindev1337 noted inconsistent disk error handling, proposing a unified plan, referencing #36101 and #35003 for discussion.",
+      "CVE Follow-ups: darosior discussed post-CVE-2026-117349/117350 cleanups, proposing refactorings for unbounded p2p data structures and hardening tests (#36761)."
+    ],
+    "spotlight_debate": "darosior proposed fundamental refactorings for CVE-2026-117349 (unbounded p2p data structures) and CVE-2026-117350 (select/poll), seeking review commitment for these architectural changes.",
+    "referenced_artifacts": [
+      {
+        "label": "bnoc.xyz",
+        "icon": "globe"
+      },
+      {
+        "label": "asmap-data",
+        "icon": "code-branch"
+      },
+      {
+        "label": "hcoop-meetbot",
+        "icon": "book"
+      }
+    ],
+    "narrative_summary": "l0rinc advanced AssumeUTXO development by pushing #36778, which replaces the `loadtxoutset` RPC with a startup argument, aiming to narrow its scope. sedited requested review for #35641, a kernel script evaluation tracer, and highlighted #36692 for declarative unit tests. A new Addr-Relay Working Group, led by stratospher, formed to address ongoing address spamming with fresh timestamps and longstanding Addrman issues, including service flags and peer-controlled timestamps.\n\nbitcoindev1337 raised concerns regarding inconsistent disk error handling across `process_messages` and RPC paths, advocating for a unified strategy over piecemeal fixes, referencing #36101 and #35003 for discussion. darosior provided an update on CVE-2026-117349 and CVE-2026-117350 patches, noting binaries were available within 48 hours of public mitigation PRs.\n\ndarosior initiated discussion on fundamental cleanups for the recent CVEs, specifically proposing refactorings for CVE-2026-117349 to bound p2p data structure growth and hardening tests for CVE-2026-117350, including a potential switch from `select()` to `poll()` via #36761. dzxzg, eugenesiegel, and jonatack offered to review these proposed architectural changes.",
+    "x_priority_takeaway": "Review needed for CVE cleanups and disk error handling strategy.",
+    "x_bullet_points": [
+      "AssumeUTXO narrowed",
+      "Addr-Relay WG formed",
+      "CVE cleanups proposed"
+    ],
+    "linkedin_context": "l0rinc advanced AssumeUTXO development by pushing #36778, which replaces the `loadtxoutset` RPC with a startup argument, aiming to narrow its scope. sedited requested review for #35641, a kernel script evaluation tracer, and highlighted #36692 for declarative unit tests. A new Addr-Relay Working Group, led by stratospher, formed to address ongoing address spamming with fresh timestamps and longstanding Addrman issues, including service flags and peer-controlled timestamps.\n\nbitcoindev1337 raised concerns regarding inconsistent disk error handling across `process_messages` and RPC paths, advocating for a unified strategy over piecemeal fixes, referencing #36101 and #35003 for discussion. darosior provided an update on CVE-2026-117349 and CVE-2026-117350 patches, noting binaries were available within 48 hours of public mitigation PRs.\n\ndarosior initiated discussion on fundamental cleanups for the recent CVEs, specifically proposing refactorings for CVE-2026-117349 to bound p2p data structure growth and hardening tests for CVE-2026-117350, including a potential switch from `select()` to `poll()` via #36761. dzxzg, eugenesiegel, and jonatack offered to review these proposed architectural changes.",
+    "_text_hash": "8b4d224b9495a648bd9f492717c51e74"
+  },
+  "categories": {
+    "merged": [],
+    "hot": [
+      {
+        "name": "Maintenance & Tech Debt",
+        "prs": [
+          {
+            "number": 1566,
+            "repo": "bitcoin-core/secp256k1",
+            "title": "BIP458: Schnorr (Incremental) Half Aggregation",
+            "author": {
+              "username": "fjahr",
+              "uuid": "can_fabian_jahr"
+            },
+            "event_count": 1,
+            "summary": "",
+            "technical_summary": ""
+          },
+          {
+            "number": 1754,
+            "repo": "bitcoin-core/secp256k1",
+            "title": "BIP459: Add FullAgg (DahLIAS) module",
+            "author": {
+              "username": "fjahr",
+              "uuid": "can_fabian_jahr"
+            },
+            "event_count": 1,
+            "summary": "",
+            "technical_summary": ""
+          },
+          {
+            "number": 36648,
+            "repo": "bitcoin/bitcoin",
+            "title": "descriptor, rpc, wallet: do not echo key material in error messages",
+            "author": {
+              "username": "fametrano",
+              "uuid": "auto_ferdinando_m_ametrano"
+            },
+            "event_count": 1,
+            "summary": "",
+            "technical_summary": ""
+          }
+        ]
+      }
+    ]
+  },
+  "discussions": [
+    {
+      "source": "Delving",
+      "subject": "Public key recovery for EC leaves in P2MR (BIP-360)",
+      "author": {
+        "username": "Boris Nagaev",
+        "uuid": "can_boris_nagaev"
+      },
+      "link": "https://delvingbitcoin.org/t/public-key-recovery-for-ec-leaves-in-p2mr-bip-360/2603/35",
+      "message_count": 4,
+      "summary": "A proposal to optimize future Bitcoin transactions for efficiency and cost using public key recovery is being discussed, though its origin has been questioned.",
+      "technical_summary": "The discussion centers on a BIP-360 optimization for P2MR outputs, suggesting EC public key recovery for 'cheap' leaves alongside post-quantum leaves. Boris Nagaev is evaluating the cost model, referencing BIP342's accounting with a 50-unit charge per recovery, and comparing it to Schnorr verification. However, Pieter Wuille's comment that the original post is from an AI spam bot introduces significant doubt about the proposal's legitimacy. The architectural debate involves integrating new cryptographic primitives and their cost models into Bitcoin's script system. The immediate next step is to verify the proposal's authenticity before further technical analysis."
+    },
+    {
+      "source": "Delving",
+      "subject": "Towards A K-of-N Lightning Network Node",
+      "author": {
+        "username": "ZmnSCPxj jxPCSnmZ",
+        "uuid": "auto_zmnscpxj_jxpcsnmz"
+      },
+      "link": "https://delvingbitcoin.org/t/towards-a-k-of-n-lightning-network-node/2395/10",
+      "message_count": 3,
+      "summary": "We're exploring new ways to secure Lightning Network funds using shared control, making it safer and more resilient for users. This allows multiple parties to collectively manage a Lightning node, enhancing security against loss or compromise.",
+      "technical_summary": "The thread explores building a k-of-n multisig self-custodial Lightning node, leveraging Nested MuSig2 for enhanced fund security. A key technical debate now focuses on the storage costs of Lightning channel state updates, specifically how Core Lightning and lnd handle these differently. This impacts the operational overhead and scalability of a multisig node, requiring optimization of state management to minimize storage requirements for a robust k-of-n setup."
+    },
+    {
+      "source": "Delving",
+      "subject": "Forwardable Peerswap Incentives, And Closing Surreptitious Communications Tunnels",
+      "author": {
+        "username": "ZmnSCPxj jxPCSnmZ",
+        "uuid": "auto_zmnscpxj_jxpcsnmz"
+      },
+      "link": "https://delvingbitcoin.org/t/forwardable-peerswap-incentives-and-closing-surreptitious-communications-tunnels/2917/4",
+      "message_count": 2,
+      "summary": "Developers are refining a new Lightning Network protocol, Forwardable Peerswaps, to improve liquidity management. The current focus is on ensuring all protocol commitments are cryptographically secure and enforceable on-chain.",
+      "technical_summary": "The discussion centers on the precise definition of 'commit' within the Forwardable Peerswaps protocol's hash-exchange argument. It's argued that 'commit' must strictly imply an enforceable on-chain commitment, rather than just off-chain signed messages or an agreement to continue. This distinction is critical for the protocol's security and trustlessness, ensuring that all commitments are cryptographically binding. The protocol specification requires explicit clarification to define this commitment mechanism clearly and prevent any ambiguity."
+    },
+    {
+      "source": "Delving",
+      "subject": "TCP hole punching for Bitcoin nodes behind home NATs?",
+      "author": {
+        "username": "0xB10C",
+        "uuid": "can_0xb10c"
+      },
+      "link": "https://delvingbitcoin.org/t/tcp-hole-punching-for-bitcoin-nodes-behind-home-nats/2497/34",
+      "message_count": 2,
+      "summary": "We're exploring ways to help more home users run reachable Bitcoin nodes, boosting network decentralization and resilience. This involves carefully balancing ease of connectivity with robust security against potential network attacks.",
+      "technical_summary": "The discussion centers on increasing reachable nodes in residential ISPs, particularly through techniques like holepunching. Key questions include the specific problems solved by such features, how to implement them to raise attacker costs, and the security implications for home users given recent TCP stack and protocol vulnerabilities (e.g., CVE-2026-117350, CVS-2026-117349). The architectural debate weighs the benefits of enhanced decentralization against the risks of exposing home nodes to potential exploits, questioning if increased reachability is 'sensible' under current conditions."
+    },
+    {
+      "source": "Delving",
+      "subject": "Direct Messages (DMs)",
+      "author": {
+        "username": "ORANGEMART",
+        "uuid": "auto_orangemart"
+      },
+      "link": "https://delvingbitcoin.org/t/direct-messages-dms/3027/1",
+      "message_count": 2,
+      "summary": "We're working to empower artists by enabling direct Bitcoin payments from listeners. Our goal is to connect an artist with their fans on btcplaylist.com so listeners can easily 'zap' them for their music.",
+      "technical_summary": "The immediate technical task is to acquire the Nostr public key (`npub`) for artist @neonrooks to integrate Lightning zapping functionality on btcplaylist.com. This will allow listeners to send direct Bitcoin payments. The current challenge is a communication hurdle, as the developer is unable to find a direct messaging mechanism on the platform to request the `npub`, highlighting a potential need for improved key exchange protocols or platform-specific contact methods for Nostr identity integration."
+    }
+  ],
+  "shoutouts": {
+    "new_contributors": [],
+    "top_authors": [],
+    "top_reviewers": [
+      {
+        "user": {
+          "username": "fametrano",
+          "uuid": "auto_ferdinando_m_ametrano"
+        },
+        "count": 2
+      },
+      {
+        "user": {
+          "username": "fjahr",
+          "uuid": "can_fabian_jahr"
+        },
+        "count": 1
+      }
+    ],
+    "all_active": [
+      {
+        "username": "fametrano",
+        "uuid": "auto_ferdinando_m_ametrano"
+      },
+      {
+        "username": "fjahr",
+        "uuid": "can_fabian_jahr"
+      }
+    ]
+  }
+}

@@ -1,7 +1,6 @@
 {
   "display_name": "Carla Kirk-Cohen",
   "github_login_final": "carlaKC",
-  "github_id_final": "42311294",
   "delving_username_final": "carla",
   "uuid": "auto_carla_kirk_cohen",
   "badges": null,
@@ -58,7 +57,7 @@
   "delving_threads": 10.0,
   "ml_responses": 0.0,
   "delving_responses": 4.0,
-  "first_active": null,
+  "first_active": "2024-05-17T16:59:00.453000",
   "last_active": null,
   "dev_type": "Participant",
   "expertise_domains": [
@@ -69,14 +68,14 @@
   "expertise_by_source": {
     "discussion": {
       "Mempool": 0.105,
-      "Privacy": 0.209,
-      "L2": 0.686
+      "L2": 0.686,
+      "Privacy": 0.209
     }
   },
   "expertise_domain_scores": {
     "Mempool": 0.105,
-    "Privacy": 0.209,
-    "L2": 0.686
+    "L2": 0.686,
+    "Privacy": 0.209
   },
   "p2016_posts": 14.0,
   "modern_posts": 14.0,
@@ -88,7 +87,7 @@
   "is_reviewer": true,
   "is_researcher": false,
   "is_bip_author": false,
-  "global_first_active": "2024-05-23T13:12:47",
+  "global_first_active": "2024-05-17T16:59:00.453000",
   "global_last_active": "2024-05-24T17:10:40",
   "github_location": "New York City",
   "github_company": null,
@@ -96,25 +95,7 @@
   "github_twitter": "actuallyCarlaKC",
   "github_blog": null,
   "github_followers": 206.0,
-  "github_profile_fetched_at": "2026-10-20T18:52:04Z",
   "activity_status": "Active",
-  "geo_country_iso2": "US",
-  "geo_country_iso3": "USA",
-  "geo_country_name": "USA",
-  "geo_sovereign_iso2": "US",
-  "geo_m49_subregion": "Northern America",
-  "geo_macro_region": "North America",
-  "geo_un_macro_region": "North America",
-  "geo_wb_income": "High",
-  "geo_flag": "🇺🇸",
-  "geo_status": "resolved",
-  "geo_source": "github_location",
-  "geo_confidence": 0.85,
-  "geo_conflict": false,
-  "geo_tz_signature": null,
-  "geo_location_raw": "New York City",
-  "geo_as_of": "2026-10-20",
-  "geo_taxonomy_version": "2026.10.1",
   "is_top_50": false,
   "github_url": "https://github.com/carlaKC",
   "delving_url": "https://delvingbitcoin.org/u/carla",

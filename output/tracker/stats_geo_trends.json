@@ -1,0 +1,2116 @@
+{
+  "generated_at": "2026-11-08",
+  "taxonomy_version": "2026.10.1",
+  "years": [
+    "2009",
+    "2010",
+    "2011",
+    "2012",
+    "2013",
+    "2014",
+    "2015",
+    "2016",
+    "2017",
+    "2018",
+    "2019",
+    "2020",
+    "2021",
+    "2022",
+    "2023",
+    "2024",
+    "2025",
+    "2026"
+  ],
+  "partial_year": {
+    "year": "2026",
+    "through": "2026-11-08"
+  },
+  "definitions": {
+    "scope": "Core repositories: bitcoin/bitcoin, bitcoin-core/gui, bitcoin-core/secp256k1",
+    "active_dev": "contributor with at least one authored (non-merge) commit, opened PR or review (comment or review) in the year; bots excluded",
+    "location": "where the contributor was in that year: a profile or email observed that year, or the current location carried back when that year's commit timezone agrees or is unknown. A contradicting timezone gives the region only. See coverage.basis_share.",
+    "privacy": "countries are listed, and activity totals given, only for cells with at least 5 contributors; smaller cells show headcount only (totals null)"
+  },
+  "regions": {
+    "North America": {
+      "active_devs": [
+        0,
+        1,
+        19,
+        15,
+        32,
+        63,
+        64,
+        52,
+        62,
+        70,
+        67,
+        61,
+        51,
+        59,
+        57,
+        51,
+        66,
+        44
+      ],
+      "authored_commits": [
+        null,
+        null,
+        360,
+        426,
+        369,
+        565,
+        640,
+        658,
+        1289,
+        1054,
+        1298,
+        1072,
+        897,
+        670,
+        650,
+        815,
+        844,
+        478
+      ],
+      "reviews": [
+        null,
+        null,
+        822,
+        1944,
+        1869,
+        3302,
+        4468,
+        2538,
+        7130,
+        8555,
+        8031,
+        5805,
+        5012,
+        4781,
+        4369,
+        4650,
+        5514,
+        4352
+      ],
+      "prs_opened": [
+        null,
+        null,
+        208,
+        295,
+        262,
+        423,
+        498,
+        435,
+        754,
+        844,
+        781,
+        493,
+        453,
+        356,
+        347,
+        304,
+        382,
+        352
+      ]
+    },
+    "Europe": {
+      "active_devs": [
+        1,
+        2,
+        34,
+        26,
+        34,
+        55,
+        50,
+        56,
+        68,
+        80,
+        78,
+        80,
+        82,
+        70,
+        74,
+        70,
+        69,
+        72
+      ],
+      "authored_commits": [
+        null,
+        null,
+        491,
+        661,
+        574,
+        1135,
+        663,
+        830,
+        643,
+        650,
+        702,
+        1702,
+        1955,
+        1748,
+        1623,
+        1690,
+        1333,
+        1167
+      ],
+      "reviews": [
+        null,
+        null,
+        363,
+        2607,
+        2629,
+        5811,
+        5407,
+        7612,
+        7319,
+        7950,
+        7477,
+        14101,
+        12808,
+        11408,
+        10916,
+        11607,
+        10262,
+        10474
+      ],
+      "prs_opened": [
+        null,
+        null,
+        131,
+        516,
+        449,
+        869,
+        510,
+        733,
+        598,
+        641,
+        645,
+        1218,
+        1191,
+        1303,
+        1071,
+        1061,
+        928,
+        852
+      ]
+    },
+    "Asia Pacific": {
+      "active_devs": [
+        0,
+        0,
+        9,
+        4,
+        8,
+        17,
+        14,
+        19,
+        28,
+        34,
+        18,
+        25,
+        42,
+        24,
+        13,
+        18,
+        35,
+        27
+      ],
+      "authored_commits": [
+        null,
+        null,
+        13,
+        null,
+        20,
+        90,
+        49,
+        108,
+        179,
+        280,
+        202,
+        291,
+        500,
+        125,
+        99,
+        31,
+        99,
+        378
+      ],
+      "reviews": [
+        null,
+        null,
+        27,
+        null,
+        40,
+        263,
+        896,
+        1258,
+        1671,
+        2391,
+        1709,
+        1657,
+        2283,
+        710,
+        527,
+        377,
+        1188,
+        2217
+      ],
+      "prs_opened": [
+        null,
+        null,
+        13,
+        null,
+        19,
+        109,
+        34,
+        172,
+        177,
+        292,
+        174,
+        196,
+        266,
+        72,
+        44,
+        26,
+        105,
+        312
+      ]
+    },
+    "Latin America": {
+      "active_devs": [
+        0,
+        0,
+        1,
+        0,
+        4,
+        4,
+        4,
+        1,
+        3,
+        4,
+        5,
+        5,
+        8,
+        8,
+        6,
+        7,
+        9,
+        9
+      ],
+      "authored_commits": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        1,
+        2,
+        29,
+        242,
+        187,
+        114,
+        54,
+        108
+      ],
+      "reviews": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        1,
+        18,
+        263,
+        1195,
+        1202,
+        948,
+        554,
+        757
+      ],
+      "prs_opened": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        5,
+        6,
+        35,
+        160,
+        109,
+        85,
+        40,
+        92
+      ]
+    },
+    "Africa": {
+      "active_devs": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2,
+        1,
+        2,
+        3,
+        3,
+        4,
+        3,
+        3,
+        2,
+        2,
+        3,
+        4
+      ],
+      "authored_commits": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "reviews": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "prs_opened": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "Undisclosed": {
+      "active_devs": [
+        1,
+        4,
+        69,
+        49,
+        97,
+        163,
+        167,
+        153,
+        233,
+        221,
+        222,
+        234,
+        227,
+        218,
+        202,
+        206,
+        305,
+        275
+      ],
+      "authored_commits": [
+        null,
+        null,
+        80,
+        62,
+        63,
+        138,
+        189,
+        173,
+        155,
+        142,
+        267,
+        349,
+        130,
+        121,
+        83,
+        105,
+        291,
+        381
+      ],
+      "reviews": [
+        null,
+        null,
+        297,
+        293,
+        459,
+        998,
+        1324,
+        1104,
+        1426,
+        1067,
+        2655,
+        3110,
+        2686,
+        1695,
+        1346,
+        1469,
+        3177,
+        3323
+      ],
+      "prs_opened": [
+        null,
+        null,
+        93,
+        89,
+        90,
+        252,
+        252,
+        226,
+        290,
+        259,
+        374,
+        331,
+        282,
+        212,
+        156,
+        193,
+        398,
+        585
+      ]
+    }
+  },
+  "countries_by_year": {
+    "2009": {
+      "listed": [],
+      "other_small_countries": {
+        "countries": 1,
+        "active_devs": 1,
+        "authored_commits": null,
+        "reviews": null,
+        "prs_opened": null
+      }
+    },
+    "2010": {
+      "listed": [],
+      "other_small_countries": {
+        "countries": 3,
+        "active_devs": 3,
+        "authored_commits": null,
+        "reviews": null,
+        "prs_opened": null
+      }
+    },
+    "2011": {
+      "listed": [
+        {
+          "iso2": "US",
+          "name": "USA",
+          "flag": "🇺🇸",
+          "macro_region": "North America",
+          "active_devs": 15,
+          "authored_commits": 341,
+          "reviews": 815,
+          "prs_opened": 196
+        },
+        {
+          "iso2": "DE",
+          "name": "Germany",
+          "flag": "🇩🇪",
+          "macro_region": "Europe",
+          "active_devs": 5,
+          "authored_commits": 9,
+          "reviews": 4,
+          "prs_opened": 9
+        }
+      ],
+      "other_small_countries": {
+        "countries": 19,
+        "active_devs": 37,
+        "authored_commits": 417,
+        "reviews": 243,
+        "prs_opened": 88
+      }
+    },
+    "2012": {
+      "listed": [
+        {
+          "iso2": "US",
+          "name": "USA",
+          "flag": "🇺🇸",
+          "macro_region": "North America",
+          "active_devs": 11,
+          "authored_commits": 391,
+          "reviews": 1636,
+          "prs_opened": 261
+        },
+        {
+          "iso2": "DE",
+          "name": "Germany",
+          "flag": "🇩🇪",
+          "macro_region": "Europe",
+          "active_devs": 5,
+          "authored_commits": 222,
+          "reviews": 966,
+          "prs_opened": 237
+        }
+      ],
+      "other_small_countries": {
+        "countries": 11,
+        "active_devs": 23,
+        "authored_commits": 226,
+        "reviews": 998,
+        "prs_opened": 170
+      }
+    },
+    "2013": {
+      "listed": [
+        {
+          "iso2": "US",
+          "name": "USA",
+          "flag": "🇺🇸",
+          "macro_region": "North America",
+          "active_devs": 22,
+          "authored_commits": 308,
+          "reviews": 1355,
+          "prs_opened": 198
+        },
+        {
+          "iso2": "DE",
+          "name": "Germany",
+          "flag": "🇩🇪",
+          "macro_region": "Europe",
+          "active_devs": 6,
+          "authored_commits": 198,
+          "reviews": 772,
+          "prs_opened": 215
+        },
+        {
+          "iso2": "CA",
+          "name": "Canada",
+          "flag": "🇨🇦",
+          "macro_region": "North America",
+          "active_devs": 5,
+          "authored_commits": 19,
+          "reviews": 239,
+          "prs_opened": 22
+        }
+      ],
+      "other_small_countries": {
+        "countries": 22,
+        "active_devs": 34,
+        "authored_commits": 159,
+        "reviews": 1070,
+        "prs_opened": 146
+      }
+    },
+    "2014": {
+      "listed": [
+        {
+          "iso2": "US",
+          "name": "USA",
+          "flag": "🇺🇸",
+          "macro_region": "North America",
+          "active_devs": 53,
+          "authored_commits": 455,
+          "reviews": 2319,
+          "prs_opened": 339
+        },
+        {
+          "iso2": "DE",
+          "name": "Germany",
+          "flag": "🇩🇪",
+          "macro_region": "Europe",
+          "active_devs": 9,
+          "authored_commits": 174,
+          "reviews": 561,
+          "prs_opened": 172
+        },
+        {
+          "iso2": "CH",
+          "name": "Switzerland",
+          "flag": "🇨🇭",
+          "macro_region": "Europe",
+          "active_devs": 8,
+          "authored_commits": 56,
+          "reviews": 351,
+          "prs_opened": 53
+        },
+        {
+          "iso2": "CN",
+          "name": "China",
+          "flag": "🇨🇳",
+          "macro_region": "Asia Pacific",
+          "active_devs": 6,
+          "authored_commits": 9,
+          "reviews": 41,
+          "prs_opened": 21
+        },
+        {
+          "iso2": "GB",
+          "name": "UK",
+          "flag": "🇬🇧",
+          "macro_region": "Europe",
+          "active_devs": 6,
+          "authored_commits": 14,
+          "reviews": 73,
+          "prs_opened": 15
+        },
+        {
+          "iso2": "AU",
+          "name": "Australia",
+          "flag": "🇦🇺",
+          "macro_region": "Asia Pacific",
+          "active_devs": 5,
+          "authored_commits": 49,
+          "reviews": 129,
+          "prs_opened": 57
+        }
+      ],
+      "other_small_countries": {
+        "countries": 21,
+        "active_devs": 35,
+        "authored_commits": 474,
+        "reviews": 3274,
+        "prs_opened": 354
+      }
+    },
+    "2015": {
+      "listed": [
+        {
+          "iso2": "US",
+          "name": "USA",
+          "flag": "🇺🇸",
+          "macro_region": "North America",
+          "active_devs": 54,
+          "authored_commits": 535,
+          "reviews": 3744,
+          "prs_opened": 413
+        },
+        {
+          "iso2": "AU",
+          "name": "Australia",
+          "flag": "🇦🇺",
+          "macro_region": "Asia Pacific",
+          "active_devs": 8,
+          "authored_commits": 46,
+          "reviews": 775,
+          "prs_opened": 29
+        },
+        {
+          "iso2": "DE",
+          "name": "Germany",
+          "flag": "🇩🇪",
+          "macro_region": "Europe",
+          "active_devs": 8,
+          "authored_commits": 69,
+          "reviews": 308,
+          "prs_opened": 64
+        },
+        {
+          "iso2": "CH",
+          "name": "Switzerland",
+          "flag": "🇨🇭",
+          "macro_region": "Europe",
+          "active_devs": 6,
+          "authored_commits": 184,
+          "reviews": 1299,
+          "prs_opened": 116
+        },
+        {
+          "iso2": "CA",
+          "name": "Canada",
+          "flag": "🇨🇦",
+          "macro_region": "North America",
+          "active_devs": 5,
+          "authored_commits": 54,
+          "reviews": 442,
+          "prs_opened": 41
+        },
+        {
+          "iso2": "NL",
+          "name": "Netherlands",
+          "flag": "🇳🇱",
+          "macro_region": "Europe",
+          "active_devs": 5,
+          "authored_commits": 200,
+          "reviews": 1814,
+          "prs_opened": 116
+        }
+      ],
+      "other_small_countries": {
+        "countries": 24,
+        "active_devs": 38,
+        "authored_commits": 150,
+        "reviews": 1805,
+        "prs_opened": 204
+      }
+    },
+    "2016": {
+      "listed": [
+        {
+          "iso2": "US",
+          "name": "USA",
+          "flag": "🇺🇸",
+          "macro_region": "North America",
+          "active_devs": 43,
+          "authored_commits": 566,
+          "reviews": 2110,
+          "prs_opened": 333
+        },
+        {
+          "iso2": "AU",
+          "name": "Australia",
+          "flag": "🇦🇺",
+          "macro_region": "Asia Pacific",
+          "active_devs": 7,
+          "authored_commits": 61,
+          "reviews": 674,
+          "prs_opened": 58
+        },
+        {
+          "iso2": "CH",
+          "name": "Switzerland",
+          "flag": "🇨🇭",
+          "macro_region": "Europe",
+          "active_devs": 7,
+          "authored_commits": 116,
+          "reviews": 1124,
+          "prs_opened": 126
+        },
+        {
+          "iso2": "NL",
+          "name": "Netherlands",
+          "flag": "🇳🇱",
+          "macro_region": "Europe",
+          "active_devs": 7,
+          "authored_commits": 202,
+          "reviews": 2177,
+          "prs_opened": 133
+        },
+        {
+          "iso2": "DE",
+          "name": "Germany",
+          "flag": "🇩🇪",
+          "macro_region": "Europe",
+          "active_devs": 6,
+          "authored_commits": 11,
+          "reviews": 13,
+          "prs_opened": 7
+        },
+        {
+          "iso2": "GB",
+          "name": "UK",
+          "flag": "🇬🇧",
+          "macro_region": "Europe",
+          "active_devs": 5,
+          "authored_commits": 21,
+          "reviews": 78,
+          "prs_opened": 20
+        },
+        {
+          "iso2": "PT",
+          "name": "Portugal",
+          "flag": "🇵🇹",
+          "macro_region": "Europe",
+          "active_devs": 5,
+          "authored_commits": 13,
+          "reviews": 114,
+          "prs_opened": 17
+        }
+      ],
+      "other_small_countries": {
+        "countries": 25,
+        "active_devs": 38,
+        "authored_commits": 309,
+        "reviews": 3028,
+        "prs_opened": 381
+      }
+    },
+    "2017": {
+      "listed": [
+        {
+          "iso2": "US",
+          "name": "USA",
+          "flag": "🇺🇸",
+          "macro_region": "North America",
+          "active_devs": 50,
+          "authored_commits": 904,
+          "reviews": 5271,
+          "prs_opened": 507
+        },
+        {
+          "iso2": "CH",
+          "name": "Switzerland",
+          "flag": "🇨🇭",
+          "macro_region": "Europe",
+          "active_devs": 9,
+          "authored_commits": 127,
+          "reviews": 1164,
+          "prs_opened": 86
+        },
+        {
+          "iso2": "DE",
+          "name": "Germany",
+          "flag": "🇩🇪",
+          "macro_region": "Europe",
+          "active_devs": 9,
+          "authored_commits": 17,
+          "reviews": 72,
+          "prs_opened": 26
+        },
+        {
+          "iso2": "JP",
+          "name": "Japan",
+          "flag": "🇯🇵",
+          "macro_region": "Asia Pacific",
+          "active_devs": 8,
+          "authored_commits": 55,
+          "reviews": 565,
+          "prs_opened": 75
+        },
+        {
+          "iso2": "GB",
+          "name": "UK",
+          "flag": "🇬🇧",
+          "macro_region": "Europe",
+          "active_devs": 7,
+          "authored_commits": 1,
+          "reviews": 15,
+          "prs_opened": 4
+        },
+        {
+          "iso2": "NL",
+          "name": "Netherlands",
+          "flag": "🇳🇱",
+          "macro_region": "Europe",
+          "active_devs": 7,
+          "authored_commits": 150,
+          "reviews": 2204,
+          "prs_opened": 102
+        },
+        {
+          "iso2": "AU",
+          "name": "Australia",
+          "flag": "🇦🇺",
+          "macro_region": "Asia Pacific",
+          "active_devs": 6,
+          "authored_commits": 47,
+          "reviews": 709,
+          "prs_opened": 40
+        },
+        {
+          "iso2": "CN",
+          "name": "China",
+          "flag": "🇨🇳",
+          "macro_region": "Asia Pacific",
+          "active_devs": 5,
+          "authored_commits": 0,
+          "reviews": 1,
+          "prs_opened": 5
+        }
+      ],
+      "other_small_countries": {
+        "countries": 23,
+        "active_devs": 48,
+        "authored_commits": 197,
+        "reviews": 3611,
+        "prs_opened": 249
+      }
+    },
+    "2018": {
+      "listed": [
+        {
+          "iso2": "US",
+          "name": "USA",
+          "flag": "🇺🇸",
+          "macro_region": "North America",
+          "active_devs": 50,
+          "authored_commits": 491,
+          "reviews": 4499,
+          "prs_opened": 436
+        },
+        {
+          "iso2": "DE",
+          "name": "Germany",
+          "flag": "🇩🇪",
+          "macro_region": "Europe",
+          "active_devs": 15,
+          "authored_commits": 32,
+          "reviews": 112,
+          "prs_opened": 37
+        },
+        {
+          "iso2": "JP",
+          "name": "Japan",
+          "flag": "🇯🇵",
+          "macro_region": "Asia Pacific",
+          "active_devs": 8,
+          "authored_commits": 71,
+          "reviews": 532,
+          "prs_opened": 65
+        },
+        {
+          "iso2": "AU",
+          "name": "Australia",
+          "flag": "🇦🇺",
+          "macro_region": "Asia Pacific",
+          "active_devs": 6,
+          "authored_commits": 88,
+          "reviews": 883,
+          "prs_opened": 83
+        },
+        {
+          "iso2": "CA",
+          "name": "Canada",
+          "flag": "🇨🇦",
+          "macro_region": "North America",
+          "active_devs": 6,
+          "authored_commits": 19,
+          "reviews": 255,
+          "prs_opened": 24
+        },
+        {
+          "iso2": "CH",
+          "name": "Switzerland",
+          "flag": "🇨🇭",
+          "macro_region": "Europe",
+          "active_devs": 6,
+          "authored_commits": 60,
+          "reviews": 661,
+          "prs_opened": 53
+        },
+        {
+          "iso2": "CN",
+          "name": "China",
+          "flag": "🇨🇳",
+          "macro_region": "Asia Pacific",
+          "active_devs": 6,
+          "authored_commits": 1,
+          "reviews": 30,
+          "prs_opened": 13
+        },
+        {
+          "iso2": "FR",
+          "name": "France",
+          "flag": "🇫🇷",
+          "macro_region": "Europe",
+          "active_devs": 5,
+          "authored_commits": 10,
+          "reviews": 111,
+          "prs_opened": 9
+        },
+        {
+          "iso2": "IN",
+          "name": "India",
+          "flag": "🇮🇳",
+          "macro_region": "Asia Pacific",
+          "active_devs": 5,
+          "authored_commits": 0,
+          "reviews": 3,
+          "prs_opened": 4
+        }
+      ],
+      "other_small_countries": {
+        "countries": 33,
+        "active_devs": 58,
+        "authored_commits": 408,
+        "reviews": 5705,
+        "prs_opened": 427
+      }
+    },
+    "2019": {
+      "listed": [
+        {
+          "iso2": "US",
+          "name": "USA",
+          "flag": "🇺🇸",
+          "macro_region": "North America",
+          "active_devs": 44,
+          "authored_commits": 517,
+          "reviews": 3814,
+          "prs_opened": 332
+        },
+        {
+          "iso2": "DE",
+          "name": "Germany",
+          "flag": "🇩🇪",
+          "macro_region": "Europe",
+          "active_devs": 15,
+          "authored_commits": 58,
+          "reviews": 591,
+          "prs_opened": 65
+        },
+        {
+          "iso2": "CA",
+          "name": "Canada",
+          "flag": "🇨🇦",
+          "macro_region": "North America",
+          "active_devs": 9,
+          "authored_commits": 11,
+          "reviews": 89,
+          "prs_opened": 18
+        },
+        {
+          "iso2": "CH",
+          "name": "Switzerland",
+          "flag": "🇨🇭",
+          "macro_region": "Europe",
+          "active_devs": 9,
+          "authored_commits": 35,
+          "reviews": 488,
+          "prs_opened": 40
+        },
+        {
+          "iso2": "JP",
+          "name": "Japan",
+          "flag": "🇯🇵",
+          "macro_region": "Asia Pacific",
+          "active_devs": 5,
+          "authored_commits": 40,
+          "reviews": 361,
+          "prs_opened": 27
+        },
+        {
+          "iso2": "NL",
+          "name": "Netherlands",
+          "flag": "🇳🇱",
+          "macro_region": "Europe",
+          "active_devs": 5,
+          "authored_commits": 150,
+          "reviews": 2879,
+          "prs_opened": 108
+        }
+      ],
+      "other_small_countries": {
+        "countries": 34,
+        "active_devs": 57,
+        "authored_commits": 493,
+        "reviews": 4165,
+        "prs_opened": 491
+      }
+    },
+    "2020": {
+      "listed": [
+        {
+          "iso2": "US",
+          "name": "USA",
+          "flag": "🇺🇸",
+          "macro_region": "North America",
+          "active_devs": 40,
+          "authored_commits": 685,
+          "reviews": 4152,
+          "prs_opened": 329
+        },
+        {
+          "iso2": "DE",
+          "name": "Germany",
+          "flag": "🇩🇪",
+          "macro_region": "Europe",
+          "active_devs": 10,
+          "authored_commits": 99,
+          "reviews": 953,
+          "prs_opened": 80
+        },
+        {
+          "iso2": "CH",
+          "name": "Switzerland",
+          "flag": "🇨🇭",
+          "macro_region": "Europe",
+          "active_devs": 9,
+          "authored_commits": 30,
+          "reviews": 411,
+          "prs_opened": 31
+        },
+        {
+          "iso2": "AU",
+          "name": "Australia",
+          "flag": "🇦🇺",
+          "macro_region": "Asia Pacific",
+          "active_devs": 8,
+          "authored_commits": 229,
+          "reviews": 1021,
+          "prs_opened": 138
+        },
+        {
+          "iso2": "GB",
+          "name": "UK",
+          "flag": "🇬🇧",
+          "macro_region": "Europe",
+          "active_devs": 7,
+          "authored_commits": 150,
+          "reviews": 1135,
+          "prs_opened": 70
+        },
+        {
+          "iso2": "JP",
+          "name": "Japan",
+          "flag": "🇯🇵",
+          "macro_region": "Asia Pacific",
+          "active_devs": 6,
+          "authored_commits": 31,
+          "reviews": 317,
+          "prs_opened": 21
+        },
+        {
+          "iso2": "AT",
+          "name": "Austria",
+          "flag": "🇦🇹",
+          "macro_region": "Europe",
+          "active_devs": 5,
+          "authored_commits": 87,
+          "reviews": 403,
+          "prs_opened": 66
+        },
+        {
+          "iso2": "CA",
+          "name": "Canada",
+          "flag": "🇨🇦",
+          "macro_region": "North America",
+          "active_devs": 5,
+          "authored_commits": 8,
+          "reviews": 128,
+          "prs_opened": 9
+        },
+        {
+          "iso2": "FR",
+          "name": "France",
+          "flag": "🇫🇷",
+          "macro_region": "Europe",
+          "active_devs": 5,
+          "authored_commits": 1,
+          "reviews": 42,
+          "prs_opened": 2
+        },
+        {
+          "iso2": "IT",
+          "name": "Italy",
+          "flag": "🇮🇹",
+          "macro_region": "Europe",
+          "active_devs": 5,
+          "authored_commits": 2,
+          "reviews": 8,
+          "prs_opened": 2
+        },
+        {
+          "iso2": "NL",
+          "name": "Netherlands",
+          "flag": "🇳🇱",
+          "macro_region": "Europe",
+          "active_devs": 5,
+          "authored_commits": 78,
+          "reviews": 1929,
+          "prs_opened": 54
+        }
+      ],
+      "other_small_countries": {
+        "countries": 24,
+        "active_devs": 40,
+        "authored_commits": 940,
+        "reviews": 6984,
+        "prs_opened": 732
+      }
+    },
+    "2021": {
+      "listed": [
+        {
+          "iso2": "US",
+          "name": "USA",
+          "flag": "🇺🇸",
+          "macro_region": "North America",
+          "active_devs": 34,
+          "authored_commits": 599,
+          "reviews": 3255,
+          "prs_opened": 275
+        },
+        {
+          "iso2": "DE",
+          "name": "Germany",
+          "flag": "🇩🇪",
+          "macro_region": "Europe",
+          "active_devs": 12,
+          "authored_commits": 117,
+          "reviews": 569,
+          "prs_opened": 52
+        },
+        {
+          "iso2": "IN",
+          "name": "India",
+          "flag": "🇮🇳",
+          "macro_region": "Asia Pacific",
+          "active_devs": 12,
+          "authored_commits": 19,
+          "reviews": 88,
+          "prs_opened": 20
+        },
+        {
+          "iso2": "GB",
+          "name": "UK",
+          "flag": "🇬🇧",
+          "macro_region": "Europe",
+          "active_devs": 8,
+          "authored_commits": 125,
+          "reviews": 1028,
+          "prs_opened": 40
+        },
+        {
+          "iso2": "AU",
+          "name": "Australia",
+          "flag": "🇦🇺",
+          "macro_region": "Asia Pacific",
+          "active_devs": 7,
+          "authored_commits": 358,
+          "reviews": 1337,
+          "prs_opened": 182
+        },
+        {
+          "iso2": "CH",
+          "name": "Switzerland",
+          "flag": "🇨🇭",
+          "macro_region": "Europe",
+          "active_devs": 7,
+          "authored_commits": 17,
+          "reviews": 201,
+          "prs_opened": 11
+        },
+        {
+          "iso2": "FR",
+          "name": "France",
+          "flag": "🇫🇷",
+          "macro_region": "Europe",
+          "active_devs": 7,
+          "authored_commits": 9,
+          "reviews": 206,
+          "prs_opened": 9
+        },
+        {
+          "iso2": "BR",
+          "name": "Brazil",
+          "flag": "🇧🇷",
+          "macro_region": "Latin America",
+          "active_devs": 5,
+          "authored_commits": 11,
+          "reviews": 119,
+          "prs_opened": 20
+        },
+        {
+          "iso2": "CA",
+          "name": "Canada",
+          "flag": "🇨🇦",
+          "macro_region": "North America",
+          "active_devs": 5,
+          "authored_commits": 6,
+          "reviews": 58,
+          "prs_opened": 5
+        },
+        {
+          "iso2": "JP",
+          "name": "Japan",
+          "flag": "🇯🇵",
+          "macro_region": "Asia Pacific",
+          "active_devs": 5,
+          "authored_commits": 12,
+          "reviews": 62,
+          "prs_opened": 6
+        }
+      ],
+      "other_small_countries": {
+        "countries": 27,
+        "active_devs": 46,
+        "authored_commits": 1228,
+        "reviews": 8091,
+        "prs_opened": 860
+      }
+    },
+    "2022": {
+      "listed": [
+        {
+          "iso2": "US",
+          "name": "USA",
+          "flag": "🇺🇸",
+          "macro_region": "North America",
+          "active_devs": 44,
+          "authored_commits": 476,
+          "reviews": 3335,
+          "prs_opened": 251
+        },
+        {
+          "iso2": "DE",
+          "name": "Germany",
+          "flag": "🇩🇪",
+          "macro_region": "Europe",
+          "active_devs": 9,
+          "authored_commits": 93,
+          "reviews": 425,
+          "prs_opened": 43
+        },
+        {
+          "iso2": "CA",
+          "name": "Canada",
+          "flag": "🇨🇦",
+          "macro_region": "North America",
+          "active_devs": 6,
+          "authored_commits": 16,
+          "reviews": 164,
+          "prs_opened": 18
+        },
+        {
+          "iso2": "CH",
+          "name": "Switzerland",
+          "flag": "🇨🇭",
+          "macro_region": "Europe",
+          "active_devs": 6,
+          "authored_commits": 18,
+          "reviews": 213,
+          "prs_opened": 12
+        },
+        {
+          "iso2": "GB",
+          "name": "UK",
+          "flag": "🇬🇧",
+          "macro_region": "Europe",
+          "active_devs": 6,
+          "authored_commits": 82,
+          "reviews": 592,
+          "prs_opened": 51
+        }
+      ],
+      "other_small_countries": {
+        "countries": 34,
+        "active_devs": 62,
+        "authored_commits": 1099,
+        "reviews": 7457,
+        "prs_opened": 889
+      }
+    },
+    "2023": {
+      "listed": [
+        {
+          "iso2": "US",
+          "name": "USA",
+          "flag": "🇺🇸",
+          "macro_region": "North America",
+          "active_devs": 41,
+          "authored_commits": 424,
+          "reviews": 2836,
+          "prs_opened": 210
+        },
+        {
+          "iso2": "DE",
+          "name": "Germany",
+          "flag": "🇩🇪",
+          "macro_region": "Europe",
+          "active_devs": 8,
+          "authored_commits": 117,
+          "reviews": 806,
+          "prs_opened": 74
+        },
+        {
+          "iso2": "GB",
+          "name": "UK",
+          "flag": "🇬🇧",
+          "macro_region": "Europe",
+          "active_devs": 8,
+          "authored_commits": 80,
+          "reviews": 817,
+          "prs_opened": 45
+        },
+        {
+          "iso2": "CA",
+          "name": "Canada",
+          "flag": "🇨🇦",
+          "macro_region": "North America",
+          "active_devs": 7,
+          "authored_commits": 7,
+          "reviews": 154,
+          "prs_opened": 9
+        },
+        {
+          "iso2": "CH",
+          "name": "Switzerland",
+          "flag": "🇨🇭",
+          "macro_region": "Europe",
+          "active_devs": 6,
+          "authored_commits": 93,
+          "reviews": 720,
+          "prs_opened": 43
+        },
+        {
+          "iso2": "FR",
+          "name": "France",
+          "flag": "🇫🇷",
+          "macro_region": "Europe",
+          "active_devs": 6,
+          "authored_commits": 0,
+          "reviews": 191,
+          "prs_opened": 5
+        },
+        {
+          "iso2": "IN",
+          "name": "India",
+          "flag": "🇮🇳",
+          "macro_region": "Asia Pacific",
+          "active_devs": 6,
+          "authored_commits": 4,
+          "reviews": 56,
+          "prs_opened": 7
+        },
+        {
+          "iso2": "SE",
+          "name": "Sweden",
+          "flag": "🇸🇪",
+          "macro_region": "Europe",
+          "active_devs": 5,
+          "authored_commits": 429,
+          "reviews": 2330,
+          "prs_opened": 267
+        }
+      ],
+      "other_small_countries": {
+        "countries": 21,
+        "active_devs": 38,
+        "authored_commits": 539,
+        "reviews": 3775,
+        "prs_opened": 399
+      }
+    },
+    "2024": {
+      "listed": [
+        {
+          "iso2": "US",
+          "name": "USA",
+          "flag": "🇺🇸",
+          "macro_region": "North America",
+          "active_devs": 40,
+          "authored_commits": 496,
+          "reviews": 3004,
+          "prs_opened": 207
+        },
+        {
+          "iso2": "DE",
+          "name": "Germany",
+          "flag": "🇩🇪",
+          "macro_region": "Europe",
+          "active_devs": 9,
+          "authored_commits": 111,
+          "reviews": 688,
+          "prs_opened": 67
+        },
+        {
+          "iso2": "FR",
+          "name": "France",
+          "flag": "🇫🇷",
+          "macro_region": "Europe",
+          "active_devs": 6,
+          "authored_commits": 2,
+          "reviews": 123,
+          "prs_opened": 7
+        },
+        {
+          "iso2": "AU",
+          "name": "Australia",
+          "flag": "🇦🇺",
+          "macro_region": "Asia Pacific",
+          "active_devs": 5,
+          "authored_commits": 8,
+          "reviews": 251,
+          "prs_opened": 10
+        },
+        {
+          "iso2": "CH",
+          "name": "Switzerland",
+          "flag": "🇨🇭",
+          "macro_region": "Europe",
+          "active_devs": 5,
+          "authored_commits": 95,
+          "reviews": 740,
+          "prs_opened": 41
+        }
+      ],
+      "other_small_countries": {
+        "countries": 27,
+        "active_devs": 53,
+        "authored_commits": 966,
+        "reviews": 7099,
+        "prs_opened": 647
+      }
+    },
+    "2025": {
+      "listed": [
+        {
+          "iso2": "US",
+          "name": "USA",
+          "flag": "🇺🇸",
+          "macro_region": "North America",
+          "active_devs": 47,
+          "authored_commits": 520,
+          "reviews": 3104,
+          "prs_opened": 203
+        },
+        {
+          "iso2": "AU",
+          "name": "Australia",
+          "flag": "🇦🇺",
+          "macro_region": "Asia Pacific",
+          "active_devs": 8,
+          "authored_commits": 53,
+          "reviews": 670,
+          "prs_opened": 44
+        },
+        {
+          "iso2": "DE",
+          "name": "Germany",
+          "flag": "🇩🇪",
+          "macro_region": "Europe",
+          "active_devs": 8,
+          "authored_commits": 84,
+          "reviews": 826,
+          "prs_opened": 64
+        },
+        {
+          "iso2": "BR",
+          "name": "Brazil",
+          "flag": "🇧🇷",
+          "macro_region": "Latin America",
+          "active_devs": 7,
+          "authored_commits": 32,
+          "reviews": 271,
+          "prs_opened": 29
+        },
+        {
+          "iso2": "AT",
+          "name": "Austria",
+          "flag": "🇦🇹",
+          "macro_region": "Europe",
+          "active_devs": 6,
+          "authored_commits": 74,
+          "reviews": 265,
+          "prs_opened": 55
+        },
+        {
+          "iso2": "CA",
+          "name": "Canada",
+          "flag": "🇨🇦",
+          "macro_region": "North America",
+          "active_devs": 6,
+          "authored_commits": 11,
+          "reviews": 155,
+          "prs_opened": 9
+        },
+        {
+          "iso2": "NL",
+          "name": "Netherlands",
+          "flag": "🇳🇱",
+          "macro_region": "Europe",
+          "active_devs": 6,
+          "authored_commits": 128,
+          "reviews": 1502,
+          "prs_opened": 80
+        },
+        {
+          "iso2": "CH",
+          "name": "Switzerland",
+          "flag": "🇨🇭",
+          "macro_region": "Europe",
+          "active_devs": 5,
+          "authored_commits": 30,
+          "reviews": 664,
+          "prs_opened": 22
+        },
+        {
+          "iso2": "GB",
+          "name": "UK",
+          "flag": "🇬🇧",
+          "macro_region": "Europe",
+          "active_devs": 5,
+          "authored_commits": 27,
+          "reviews": 434,
+          "prs_opened": 19
+        },
+        {
+          "iso2": "IN",
+          "name": "India",
+          "flag": "🇮🇳",
+          "macro_region": "Asia Pacific",
+          "active_devs": 5,
+          "authored_commits": 0,
+          "reviews": 60,
+          "prs_opened": 4
+        },
+        {
+          "iso2": "IT",
+          "name": "Italy",
+          "flag": "🇮🇹",
+          "macro_region": "Europe",
+          "active_devs": 5,
+          "authored_commits": 11,
+          "reviews": 69,
+          "prs_opened": 11
+        }
+      ],
+      "other_small_countries": {
+        "countries": 27,
+        "active_devs": 44,
+        "authored_commits": 622,
+        "reviews": 3798,
+        "prs_opened": 421
+      }
+    },
+    "2026": {
+      "listed": [
+        {
+          "iso2": "US",
+          "name": "USA",
+          "flag": "🇺🇸",
+          "macro_region": "North America",
+          "active_devs": 35,
+          "authored_commits": 171,
+          "reviews": 1684,
+          "prs_opened": 162
+        },
+        {
+          "iso2": "DE",
+          "name": "Germany",
+          "flag": "🇩🇪",
+          "macro_region": "Europe",
+          "active_devs": 8,
+          "authored_commits": 73,
+          "reviews": 827,
+          "prs_opened": 58
+        },
+        {
+          "iso2": "IN",
+          "name": "India",
+          "flag": "🇮🇳",
+          "macro_region": "Asia Pacific",
+          "active_devs": 8,
+          "authored_commits": 3,
+          "reviews": 26,
+          "prs_opened": 13
+        },
+        {
+          "iso2": "NL",
+          "name": "Netherlands",
+          "flag": "🇳🇱",
+          "macro_region": "Europe",
+          "active_devs": 7,
+          "authored_commits": 79,
+          "reviews": 784,
+          "prs_opened": 55
+        },
+        {
+          "iso2": "BR",
+          "name": "Brazil",
+          "flag": "🇧🇷",
+          "macro_region": "Latin America",
+          "active_devs": 6,
+          "authored_commits": 84,
+          "reviews": 406,
+          "prs_opened": 61
+        },
+        {
+          "iso2": "IT",
+          "name": "Italy",
+          "flag": "🇮🇹",
+          "macro_region": "Europe",
+          "active_devs": 6,
+          "authored_commits": 9,
+          "reviews": 239,
+          "prs_opened": 62
+        },
+        {
+          "iso2": "ES",
+          "name": "Spain",
+          "flag": "🇪🇸",
+          "macro_region": "Europe",
+          "active_devs": 5,
+          "authored_commits": 45,
+          "reviews": 468,
+          "prs_opened": 35
+        }
+      ],
+      "other_small_countries": {
+        "countries": 31,
+        "active_devs": 53,
+        "authored_commits": 1107,
+        "reviews": 8260,
+        "prs_opened": 757
+      }
+    }
+  },
+  "decentralization_by_year": {
+    "headcount": {
+      "effective_countries": [
+        1.0,
+        3.0,
+        9.42,
+        7.72,
+        7.3,
+        4.76,
+        4.78,
+        6.44,
+        7.37,
+        8.75,
+        8.29,
+        9.82,
+        11.92,
+        7.76,
+        7.52,
+        7.29,
+        8.59,
+        10.14
+      ],
+      "nakamoto": [
+        1,
+        2,
+        5,
+        4,
+        4,
+        2,
+        3,
+        4,
+        4,
+        5,
+        4,
+        5,
+        6,
+        5,
+        4,
+        4,
+        6,
+        6
+      ]
+    },
+    "commit_weighted": {
+      "effective_countries": [
+        1.0,
+        1.11,
+        2.31,
+        3.04,
+        3.15,
+        3.83,
+        4.03,
+        4.02,
+        2.58,
+        4.74,
+        4.87,
+        5.72,
+        6.52,
+        6.35,
+        5.9,
+        5.93,
+        5.15,
+        7.67
+      ],
+      "nakamoto": [
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        1,
+        2,
+        2,
+        2,
+        3,
+        3,
+        2,
+        3,
+        2,
+        3
+      ]
+    }
+  },
+  "coverage": {
+    "active_devs": [
+      2,
+      7,
+      132,
+      94,
+      175,
+      302,
+      301,
+      282,
+      396,
+      412,
+      393,
+      409,
+      413,
+      382,
+      354,
+      354,
+      487,
+      431
+    ],
+    "devs_known_region": [
+      1,
+      3,
+      63,
+      45,
+      78,
+      139,
+      134,
+      129,
+      163,
+      191,
+      171,
+      175,
+      186,
+      164,
+      152,
+      148,
+      182,
+      156
+    ],
+    "devs_known_country": [
+      1,
+      3,
+      57,
+      39,
+      67,
+      122,
+      124,
+      118,
+      149,
+      165,
+      144,
+      145,
+      148,
+      133,
+      125,
+      118,
+      152,
+      128
+    ],
+    "commit_share_known_region": [
+      0.3,
+      0.1439,
+      0.9153,
+      0.9474,
+      0.9386,
+      0.9286,
+      0.8775,
+      0.9022,
+      0.9317,
+      0.9332,
+      0.892,
+      0.898,
+      0.963,
+      0.9584,
+      0.9691,
+      0.9624,
+      0.8891,
+      0.8484
+    ],
+    "review_share_known_region": [
+      0.0,
+      0.6667,
+      0.8032,
+      0.9403,
+      0.9082,
+      0.9039,
+      0.8906,
+      0.9118,
+      0.919,
+      0.9466,
+      0.8666,
+      0.8742,
+      0.8835,
+      0.9144,
+      0.9274,
+      0.9243,
+      0.847,
+      0.8429
+    ],
+    "basis_share": {
+      "current": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.3341
+      ],
+      "observed_profile": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "observed_email": [
+        0.0,
+        0.0,
+        0.0758,
+        0.0426,
+        0.0343,
+        0.0695,
+        0.0664,
+        0.0603,
+        0.0631,
+        0.0534,
+        0.0458,
+        0.0465,
+        0.0557,
+        0.0314,
+        0.0282,
+        0.0311,
+        0.0185,
+        0.0
+      ],
+      "carried_back_tz_consistent": [
+        0.0,
+        0.0,
+        0.053,
+        0.0532,
+        0.0686,
+        0.0695,
+        0.0631,
+        0.0674,
+        0.0404,
+        0.0631,
+        0.0789,
+        0.0856,
+        0.0872,
+        0.1021,
+        0.0932,
+        0.0847,
+        0.0698,
+        0.0
+      ],
+      "carried_back_unverified": [
+        0.5,
+        0.4286,
+        0.303,
+        0.3298,
+        0.2857,
+        0.2781,
+        0.2924,
+        0.305,
+        0.2854,
+        0.2985,
+        0.2723,
+        0.2567,
+        0.2591,
+        0.2618,
+        0.2853,
+        0.2684,
+        0.2505,
+        0.0
+      ],
+      "tz_only": [
+        0.0,
+        0.0,
+        0.0455,
+        0.0532,
+        0.0571,
+        0.043,
+        0.0233,
+        0.0248,
+        0.0227,
+        0.0485,
+        0.0382,
+        0.0391,
+        0.0484,
+        0.034,
+        0.0226,
+        0.0339,
+        0.0349,
+        0.0278
+      ],
+      "none": [
+        0.5,
+        0.5714,
+        0.5227,
+        0.5213,
+        0.5543,
+        0.5397,
+        0.5548,
+        0.5426,
+        0.5884,
+        0.5364,
+        0.5649,
+        0.5721,
+        0.5496,
+        0.5707,
+        0.5706,
+        0.5819,
+        0.6263,
+        0.6381
+      ]
+    }
+  }
+}

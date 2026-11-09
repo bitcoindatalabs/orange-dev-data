@@ -1,7 +1,6 @@
 {
   "display_name": "Michael Flaxman",
   "github_login_final": "mflaxman",
-  "github_id_final": "448644",
   "delving_username_final": null,
   "uuid": "auto_michael_flaxman",
   "badges": null,
@@ -30,7 +29,7 @@
   "modern_bips_authored": 0.0,
   "first_bip_date": null,
   "last_bip_date": null,
-  "avg_review_latency_days": 1645.665001929012,
+  "avg_review_latency_days": 6.68460262345679,
   "reviews_count": 1.0,
   "avg_approval_latency_days": null,
   "approvals_count": 0.0,
@@ -47,7 +46,7 @@
   "avg_concept_lead_time_days": null,
   "review_reciprocity": null,
   "hybrid_score": 0.0342,
-  "p2016_hybrid_score": 0.0398,
+  "p2016_hybrid_score": 0.0397,
   "modern_hybrid_score": 0.0,
   "impact_score": 2.0,
   "p2016_impact_score": 2.0,
@@ -58,7 +57,7 @@
   "delving_threads": 0.0,
   "ml_responses": 1.0,
   "delving_responses": 0.0,
-  "first_active": "2021-04-10T21:34:21",
+  "first_active": null,
   "last_active": "2021-07-20T14:44:19",
   "dev_type": "Participant",
   "expertise_domains": [
@@ -67,8 +66,8 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Privacy": 0.17,
-      "Wallet": 0.83
+      "Wallet": 0.83,
+      "Privacy": 0.17
     }
   },
   "expertise_domain_scores": {
@@ -85,7 +84,7 @@
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": false,
-  "global_first_active": "2021-04-10T21:34:21",
+  "global_first_active": "2021-04-11T14:10:51",
   "global_last_active": "2021-07-20T14:44:19",
   "github_location": "Austin, TX",
   "github_company": null,
@@ -93,25 +92,7 @@
   "github_twitter": null,
   "github_blog": "http://www.michaelflaxman.com/",
   "github_followers": 130.0,
-  "github_profile_fetched_at": "2026-10-20T18:49:56Z",
   "activity_status": "",
-  "geo_country_iso2": "US",
-  "geo_country_iso3": "USA",
-  "geo_country_name": "USA",
-  "geo_sovereign_iso2": "US",
-  "geo_m49_subregion": "Northern America",
-  "geo_macro_region": "North America",
-  "geo_un_macro_region": "North America",
-  "geo_wb_income": "High",
-  "geo_flag": "🇺🇸",
-  "geo_status": "resolved",
-  "geo_source": "github_location",
-  "geo_confidence": 0.9,
-  "geo_conflict": false,
-  "geo_tz_signature": null,
-  "geo_location_raw": "Austin, TX",
-  "geo_as_of": "2026-10-20",
-  "geo_taxonomy_version": "2026.10.1",
   "is_top_50": false,
   "github_url": "https://github.com/mflaxman",
   "first_message": {

@@ -1,8 +1,7 @@
 {
   "display_name": "rorp",
   "github_login_final": "rorp",
-  "github_id_final": "2314888",
-  "delving_username_final": null,
+  "delving_username_final": "rorp",
   "uuid": "auto_rorp",
   "badges": null,
   "roles": null,
@@ -52,13 +51,13 @@
   "impact_score": 1.0,
   "p2016_impact_score": 1.0,
   "modern_impact_score": 1.0,
-  "threads_started": 0.0,
+  "threads_started": 1.0,
   "replies_sent": 0.0,
   "ml_threads": 0.0,
-  "delving_threads": 0.0,
+  "delving_threads": 1.0,
   "ml_responses": 0.0,
   "delving_responses": 0.0,
-  "first_active": null,
+  "first_active": "2026-11-08T22:59:12.756000",
   "last_active": null,
   "dev_type": "Participant",
   "expertise_domains": [
@@ -68,17 +67,17 @@
   "expertise_domain_scores": {
     "Infrastructure": 1.0
   },
-  "p2016_posts": 0.0,
-  "modern_posts": 0.0,
+  "p2016_posts": 1.0,
+  "modern_posts": 1.0,
   "p2016_ml_posts": 0.0,
-  "p2016_delving_posts": 0.0,
+  "p2016_delving_posts": 1.0,
   "modern_ml_posts": 0.0,
-  "modern_delving_posts": 0.0,
+  "modern_delving_posts": 1.0,
   "is_engineer": false,
   "is_reviewer": true,
   "is_researcher": false,
   "is_bip_author": false,
-  "global_first_active": null,
+  "global_first_active": "2026-11-08T22:59:12.756000",
   "global_last_active": null,
   "github_location": null,
   "github_company": null,
@@ -86,25 +85,25 @@
   "github_twitter": null,
   "github_blog": null,
   "github_followers": 17.0,
-  "github_profile_fetched_at": "2026-10-20T19:05:14Z",
-  "activity_status": "Active",
-  "geo_country_iso2": null,
-  "geo_country_iso3": null,
-  "geo_country_name": null,
-  "geo_sovereign_iso2": null,
-  "geo_m49_subregion": null,
-  "geo_macro_region": "Undisclosed",
-  "geo_un_macro_region": "Undisclosed",
-  "geo_wb_income": null,
-  "geo_flag": null,
-  "geo_status": "empty",
-  "geo_source": "none",
-  "geo_confidence": 0.0,
-  "geo_conflict": false,
-  "geo_tz_signature": null,
-  "geo_location_raw": null,
-  "geo_as_of": null,
-  "geo_taxonomy_version": "2026.10.1",
+  "activity_status": "New",
   "is_top_50": false,
-  "github_url": "https://github.com/rorp"
+  "github_url": "https://github.com/rorp",
+  "delving_url": "https://delvingbitcoin.org/u/rorp",
+  "first_message": {
+    "source": "delving",
+    "subject": "Disclosure: Memory-exhaustion DoS in Eclair 0.14.0",
+    "date": "2026-11-08",
+    "link": "https://delvingbitcoin.org/t/disclosure-memory-exhaustion-dos-in-eclair-0-14-0/3057/1"
+  },
+  "last_message": {
+    "source": "delving",
+    "subject": "Disclosure: Memory-exhaustion DoS in Eclair 0.14.0",
+    "date": "2026-11-08",
+    "link": "https://delvingbitcoin.org/t/disclosure-memory-exhaustion-dos-in-eclair-0-14-0/3057/1"
+  },
+  "social_history": {
+    "2026": {
+      "security": 1
+    }
+  }
 }

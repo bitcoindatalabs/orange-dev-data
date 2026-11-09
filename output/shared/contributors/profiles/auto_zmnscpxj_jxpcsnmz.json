@@ -1,7 +1,6 @@
 {
   "display_name": "ZmnSCPxj jxPCSnmZ",
   "github_login_final": null,
-  "github_id_final": null,
   "delving_username_final": "zmnscpxj",
   "uuid": "auto_zmnscpxj_jxpcsnmz",
   "badges": null,
@@ -48,17 +47,17 @@
   "review_reciprocity": null,
   "hybrid_score": 0.0051,
   "p2016_hybrid_score": 0.0076,
-  "modern_hybrid_score": 0.0214,
+  "modern_hybrid_score": 0.0223,
   "impact_score": 0.0,
   "p2016_impact_score": 0.0,
   "modern_impact_score": 1.0,
   "threads_started": 69.0,
-  "replies_sent": 67.0,
+  "replies_sent": 70.0,
   "ml_threads": 0.0,
   "delving_threads": 69.0,
   "ml_responses": 0.0,
-  "delving_responses": 67.0,
-  "first_active": null,
+  "delving_responses": 70.0,
+  "first_active": "2023-11-08T14:45:57.141000",
   "last_active": null,
   "dev_type": "Participant",
   "expertise_domains": [
@@ -67,25 +66,25 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "L2": 0.791,
-      "Wallet": 0.209
+      "Wallet": 0.214,
+      "L2": 0.786
     }
   },
   "expertise_domain_scores": {
-    "Wallet": 0.209,
-    "L2": 0.791
+    "Wallet": 0.214,
+    "L2": 0.786
   },
-  "p2016_posts": 136.0,
-  "modern_posts": 136.0,
+  "p2016_posts": 139.0,
+  "modern_posts": 134.0,
   "p2016_ml_posts": 0.0,
-  "p2016_delving_posts": 136.0,
+  "p2016_delving_posts": 139.0,
   "modern_ml_posts": 0.0,
-  "modern_delving_posts": 136.0,
+  "modern_delving_posts": 134.0,
   "is_engineer": false,
   "is_reviewer": false,
   "is_researcher": true,
   "is_bip_author": false,
-  "global_first_active": null,
+  "global_first_active": "2023-11-08T14:45:57.141000",
   "global_last_active": null,
   "github_location": null,
   "github_company": null,
@@ -93,25 +92,7 @@
   "github_twitter": null,
   "github_blog": null,
   "github_followers": null,
-  "github_profile_fetched_at": null,
   "activity_status": "Active",
-  "geo_country_iso2": null,
-  "geo_country_iso3": null,
-  "geo_country_name": null,
-  "geo_sovereign_iso2": null,
-  "geo_m49_subregion": null,
-  "geo_macro_region": "Undisclosed",
-  "geo_un_macro_region": "Undisclosed",
-  "geo_wb_income": null,
-  "geo_flag": null,
-  "geo_status": "empty",
-  "geo_source": "none",
-  "geo_confidence": 0.0,
-  "geo_conflict": false,
-  "geo_tz_signature": null,
-  "geo_location_raw": null,
-  "geo_as_of": null,
-  "geo_taxonomy_version": "2026.10.1",
   "is_top_50": false,
   "delving_url": "https://delvingbitcoin.org/u/zmnscpxj",
   "first_message": {
@@ -122,9 +103,9 @@
   },
   "last_message": {
     "source": "delving",
-    "subject": "Re: What does \"post-quantum\" actually mean for a Bitcoin L2 when settlement still happens on a non-PQ L1?",
-    "date": "2026-10-26",
-    "link": "https://delvingbitcoin.org/t/what-does-post-quantum-actually-mean-for-a-bitcoin-l2-when-settlement-still-happens-on-a-non-pq-l1/2715/13"
+    "subject": "Re: Forwardable Peerswap Incentives, And Closing Surreptitious Communications Tunnels",
+    "date": "2026-11-03",
+    "link": "https://delvingbitcoin.org/t/forwardable-peerswap-incentives-and-closing-surreptitious-communications-tunnels/2917/5"
   },
   "social_history": {
     "2023": {
@@ -158,9 +139,9 @@
       "other": 51,
       "covenants": 5,
       "l2-bridges": 6,
-      "lightning": 22,
+      "lightning": 25,
       "mining": 8,
-      "multisig-threshold": 16,
+      "multisig-threshold": 18,
       "quantum": 6,
       "taproot": 6
     }

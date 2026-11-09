@@ -1,7 +1,6 @@
 {
   "display_name": "Armin",
   "github_login_final": null,
-  "github_id_final": null,
   "delving_username_final": "arminsdev",
   "uuid": "auto_armin",
   "badges": null,
@@ -52,37 +51,43 @@
   "impact_score": 0.0,
   "p2016_impact_score": 0.0,
   "modern_impact_score": 0.0,
-  "threads_started": 1.0,
+  "threads_started": 2.0,
   "replies_sent": 2.0,
   "ml_threads": 0.0,
-  "delving_threads": 1.0,
+  "delving_threads": 2.0,
   "ml_responses": 0.0,
   "delving_responses": 2.0,
-  "first_active": null,
+  "first_active": "2026-01-22T17:00:01.020000",
   "last_active": null,
   "dev_type": "Participant",
   "expertise_domains": [
-    "Privacy"
+    "Privacy",
+    "Mining",
+    "L2"
   ],
   "expertise_by_source": {
     "discussion": {
-      "Privacy": 1.0
+      "Mining": 0.217,
+      "L2": 0.117,
+      "Privacy": 0.667
     }
   },
   "expertise_domain_scores": {
-    "Privacy": 1.0
+    "Mining": 0.2168,
+    "L2": 0.1169,
+    "Privacy": 0.6663
   },
-  "p2016_posts": 3.0,
-  "modern_posts": 3.0,
+  "p2016_posts": 4.0,
+  "modern_posts": 4.0,
   "p2016_ml_posts": 0.0,
-  "p2016_delving_posts": 3.0,
+  "p2016_delving_posts": 4.0,
   "modern_ml_posts": 0.0,
-  "modern_delving_posts": 3.0,
+  "modern_delving_posts": 4.0,
   "is_engineer": false,
   "is_reviewer": false,
   "is_researcher": false,
   "is_bip_author": false,
-  "global_first_active": null,
+  "global_first_active": "2026-01-22T17:00:01.020000",
   "global_last_active": null,
   "github_location": null,
   "github_company": null,
@@ -90,25 +95,7 @@
   "github_twitter": null,
   "github_blog": null,
   "github_followers": null,
-  "github_profile_fetched_at": null,
   "activity_status": "",
-  "geo_country_iso2": null,
-  "geo_country_iso3": null,
-  "geo_country_name": null,
-  "geo_sovereign_iso2": null,
-  "geo_m49_subregion": null,
-  "geo_macro_region": "Undisclosed",
-  "geo_un_macro_region": "Undisclosed",
-  "geo_wb_income": null,
-  "geo_flag": null,
-  "geo_status": "empty",
-  "geo_source": "none",
-  "geo_confidence": 0.0,
-  "geo_conflict": false,
-  "geo_tz_signature": null,
-  "geo_location_raw": null,
-  "geo_as_of": null,
-  "geo_taxonomy_version": "2026.10.1",
   "is_top_50": false,
   "delving_url": "https://delvingbitcoin.org/u/arminsdev",
   "first_message": {
@@ -119,13 +106,21 @@
   },
   "last_message": {
     "source": "delving",
-    "subject": "Re: How wallet fingerprints damage Payjoin privacy",
-    "date": "2026-03-30",
-    "link": "https://delvingbitcoin.org/t/how-wallet-fingerprints-damage-payjoin-privacy/2354/6"
+    "subject": "Re: Shielded Bitcoin: Private Transfers on the Bitcoin L1",
+    "date": "2026-11-05",
+    "link": "https://delvingbitcoin.org/t/shielded-bitcoin-private-transfers-on-the-bitcoin-l1/2912/14"
   },
   "social_history": {
     "2026": {
-      "privacy": 3
+      "mining": 1,
+      "payment-protocol": 1,
+      "privacy": 3,
+      "script-opcodes": 1,
+      "sidechains-drivechain": 1,
+      "soft-fork-activation": 1,
+      "taproot": 1,
+      "vaults": 1,
+      "other": 1
     }
   }
 }

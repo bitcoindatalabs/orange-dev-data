@@ -1,7 +1,6 @@
 {
   "display_name": "John Carvalho",
   "github_login_final": null,
-  "github_id_final": null,
   "delving_username_final": "bitcoinerrorlog",
   "uuid": "auto_john_carvalho",
   "badges": {
@@ -58,19 +57,19 @@
   "avg_pr_ack_velocity_days": null,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": null,
-  "hybrid_score": 0.3884,
+  "hybrid_score": 0.3883,
   "p2016_hybrid_score": 0.0649,
-  "modern_hybrid_score": 0.0436,
+  "modern_hybrid_score": 0.0375,
   "impact_score": 21.0,
   "p2016_impact_score": 4.0,
-  "modern_impact_score": 3.0,
+  "modern_impact_score": 2.0,
   "threads_started": 2.0,
   "replies_sent": 17.0,
   "ml_threads": 1.0,
   "delving_threads": 1.0,
   "ml_responses": 17.0,
   "delving_responses": 0.0,
-  "first_active": "2022-05-02T03:37:29",
+  "first_active": null,
   "last_active": null,
   "dev_type": "Participant",
   "expertise_domains": [
@@ -79,13 +78,13 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Mempool": 0.774,
-      "Script": 0.226
+      "Script": 0.226,
+      "Mempool": 0.774
     }
   },
   "expertise_domain_scores": {
-    "Mempool": 0.774,
-    "Script": 0.226
+    "Script": 0.226,
+    "Mempool": 0.774
   },
   "p2016_posts": 19.0,
   "modern_posts": 2.0,
@@ -97,7 +96,7 @@
   "is_reviewer": false,
   "is_researcher": true,
   "is_bip_author": true,
-  "global_first_active": "2022-05-02T03:37:29",
+  "global_first_active": null,
   "global_last_active": null,
   "github_location": null,
   "github_company": null,
@@ -105,25 +104,7 @@
   "github_twitter": null,
   "github_blog": null,
   "github_followers": null,
-  "github_profile_fetched_at": null,
   "activity_status": "Active",
-  "geo_country_iso2": null,
-  "geo_country_iso3": null,
-  "geo_country_name": null,
-  "geo_sovereign_iso2": null,
-  "geo_m49_subregion": null,
-  "geo_macro_region": "Undisclosed",
-  "geo_un_macro_region": "Undisclosed",
-  "geo_wb_income": null,
-  "geo_flag": null,
-  "geo_status": "empty",
-  "geo_source": "none",
-  "geo_confidence": 0.0,
-  "geo_conflict": false,
-  "geo_tz_signature": null,
-  "geo_location_raw": null,
-  "geo_as_of": null,
-  "geo_taxonomy_version": "2026.10.1",
   "is_top_50": false,
   "delving_url": "https://delvingbitcoin.org/u/bitcoinerrorlog",
   "first_message": {

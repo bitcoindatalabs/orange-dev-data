@@ -1,7 +1,6 @@
 {
   "display_name": "Prayank",
   "github_login_final": "prayank",
-  "github_id_final": null,
   "delving_username_final": null,
   "uuid": "can_prayank",
   "badges": null,
@@ -33,11 +32,11 @@
   "avg_review_latency_days": null,
   "reviews_count": 0.0,
   "avg_approval_latency_days": null,
-  "approvals_count": 0.0,
+  "approvals_count": null,
   "tier1_reviews_count": 0.0,
   "tier2_reviews_count": 0.0,
-  "p2016_reviews_count": 0.0,
-  "modern_reviews_count": 0.0,
+  "p2016_reviews_count": null,
+  "modern_reviews_count": null,
   "first_review_date": null,
   "last_review_date": null,
   "prs_authored": 0.0,
@@ -46,8 +45,8 @@
   "avg_pr_ack_velocity_days": null,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": null,
-  "hybrid_score": 0.2161,
-  "p2016_hybrid_score": 0.2728,
+  "hybrid_score": 0.216,
+  "p2016_hybrid_score": 0.2726,
   "modern_hybrid_score": 0.0,
   "impact_score": 12.0,
   "p2016_impact_score": 15.0,
@@ -58,7 +57,7 @@
   "delving_threads": 0.0,
   "ml_responses": 25.0,
   "delving_responses": 0.0,
-  "first_active": "2020-05-24T16:44:27",
+  "first_active": null,
   "last_active": "2022-03-01T22:45:58",
   "dev_type": "Builder",
   "expertise_domains": [
@@ -68,8 +67,8 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Mempool": 0.5,
-      "Consensus": 0.5
+      "Consensus": 0.5,
+      "Mempool": 0.5
     },
     "code": {
       "Infrastructure": 0.722,
@@ -78,9 +77,9 @@
     }
   },
   "expertise_domain_scores": {
-    "Mempool": 0.2,
-    "Infrastructure": 0.4332,
     "Consensus": 0.3002,
+    "Infrastructure": 0.4332,
+    "Mempool": 0.2,
     "Wallet": 0.0666
   },
   "p2016_posts": 83.0,
@@ -101,25 +100,7 @@
   "github_twitter": null,
   "github_blog": null,
   "github_followers": null,
-  "github_profile_fetched_at": null,
   "activity_status": "Retired",
-  "geo_country_iso2": null,
-  "geo_country_iso3": null,
-  "geo_country_name": null,
-  "geo_sovereign_iso2": null,
-  "geo_m49_subregion": null,
-  "geo_macro_region": "Undisclosed",
-  "geo_un_macro_region": "Undisclosed",
-  "geo_wb_income": null,
-  "geo_flag": null,
-  "geo_status": "empty",
-  "geo_source": "none",
-  "geo_confidence": 0.0,
-  "geo_conflict": false,
-  "geo_tz_signature": null,
-  "geo_location_raw": null,
-  "geo_as_of": null,
-  "geo_taxonomy_version": "2026.10.1",
   "is_top_50": false,
   "github_url": "https://github.com/prayank",
   "commit_history": {

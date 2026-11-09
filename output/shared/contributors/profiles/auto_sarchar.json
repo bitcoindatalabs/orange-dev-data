@@ -1,7 +1,6 @@
 {
   "display_name": "sarchar",
   "github_login_final": "sarchar",
-  "github_id_final": "4928176",
   "delving_username_final": null,
   "uuid": "auto_sarchar",
   "badges": null,
@@ -40,42 +39,37 @@
   "modern_reviews_count": 0.0,
   "first_review_date": "2014-01-30T11:32:56",
   "last_review_date": "2014-01-30T11:51:17",
-  "prs_authored": 3.0,
-  "tier1_prs_authored": 2.0,
+  "prs_authored": 1.0,
+  "tier1_prs_authored": 0.0,
   "tier2_prs_authored": 1.0,
-  "avg_pr_ack_velocity_days": 19.044212962962963,
+  "avg_pr_ack_velocity_days": null,
   "avg_concept_lead_time_days": null,
-  "review_reciprocity": 0.3333333333333333,
-  "hybrid_score": 0.0996,
-  "p2016_hybrid_score": 0.033,
-  "modern_hybrid_score": 0.033,
-  "impact_score": 6.0,
-  "p2016_impact_score": 2.0,
-  "modern_impact_score": 2.0,
-  "threads_started": 1.0,
-  "replies_sent": 4.0,
-  "ml_threads": 1.0,
+  "review_reciprocity": 1.0,
+  "hybrid_score": 0.073,
+  "p2016_hybrid_score": 0.0146,
+  "modern_hybrid_score": 0.0146,
+  "impact_score": 4.0,
+  "p2016_impact_score": 1.0,
+  "modern_impact_score": 1.0,
+  "threads_started": 0.0,
+  "replies_sent": 0.0,
+  "ml_threads": 0.0,
   "delving_threads": 0.0,
-  "ml_responses": 4.0,
+  "ml_responses": 0.0,
   "delving_responses": 0.0,
-  "first_active": "2014-01-29T23:47:51",
-  "last_active": "2014-01-30T22:16:36",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Builder",
   "expertise_domains": [
-    "Infrastructure",
-    "Ecosystem"
+    "Infrastructure"
   ],
   "expertise_by_source": {
-    "discussion": {
-      "Ecosystem": 1.0
-    },
     "code": {
       "Infrastructure": 1.0
     }
   },
   "expertise_domain_scores": {
-    "Infrastructure": 0.6,
-    "Ecosystem": 0.4
+    "Infrastructure": 1.0
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,
@@ -85,57 +79,22 @@
   "modern_delving_posts": 0.0,
   "is_engineer": true,
   "is_reviewer": true,
-  "is_researcher": true,
+  "is_researcher": false,
   "is_bip_author": false,
   "global_first_active": "2013-10-20T23:14:26",
-  "global_last_active": "2014-01-30T22:16:36",
+  "global_last_active": "2014-01-30T11:51:17",
   "github_location": null,
   "github_company": null,
   "github_bio": null,
   "github_twitter": null,
   "github_blog": null,
   "github_followers": 33.0,
-  "github_profile_fetched_at": "2026-10-20T19:05:23Z",
   "activity_status": "Active",
-  "geo_country_iso2": null,
-  "geo_country_iso3": null,
-  "geo_country_name": null,
-  "geo_sovereign_iso2": null,
-  "geo_m49_subregion": null,
-  "geo_macro_region": "Undisclosed",
-  "geo_un_macro_region": "Undisclosed",
-  "geo_wb_income": null,
-  "geo_flag": null,
-  "geo_status": "empty",
-  "geo_source": "none",
-  "geo_confidence": 0.0,
-  "geo_conflict": false,
-  "geo_tz_signature": null,
-  "geo_location_raw": null,
-  "geo_as_of": null,
-  "geo_taxonomy_version": "2026.10.1",
   "is_top_50": false,
   "github_url": "https://github.com/sarchar",
   "commit_history": {
     "2013": {
       "Utilities": 1.0
-    }
-  },
-  "first_message": {
-    "source": "mailing_list",
-    "subject": "[Bitcoin-development] BIP70 message delivery reliability",
-    "date": "2014-01-29",
-    "link": "https://gnusha.org/pi/bitcoindev/52E9E787.8080304@borboggle.com"
-  },
-  "last_message": {
-    "source": "mailing_list",
-    "subject": "Re: [Bitcoin-development] BIP70: PaymentACK semantics",
-    "date": "2014-01-30",
-    "link": "https://gnusha.org/pi/bitcoindev/52EB23A4.9@borboggle.com"
-  },
-  "social_history": {
-    "2014": {
-      "payment-protocol": 5
     }
   }
 }

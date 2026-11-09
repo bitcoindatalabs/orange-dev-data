@@ -1,7 +1,6 @@
 {
   "display_name": "LearnBitcoin.com",
   "github_login_final": null,
-  "github_id_final": null,
   "delving_username_final": "learnbitcoin.com",
   "uuid": "auto_learnbitcoin_com",
   "badges": null,
@@ -52,33 +51,40 @@
   "impact_score": 0.0,
   "p2016_impact_score": 0.0,
   "modern_impact_score": 0.0,
-  "threads_started": 1.0,
+  "threads_started": 2.0,
   "replies_sent": 1.0,
   "ml_threads": 0.0,
-  "delving_threads": 1.0,
+  "delving_threads": 2.0,
   "ml_responses": 0.0,
   "delving_responses": 1.0,
-  "first_active": null,
+  "first_active": "2026-10-27T13:19:49.658000",
   "last_active": null,
   "dev_type": "Participant",
   "expertise_domains": [
-    "Infrastructure"
+    "Mining",
+    "Consensus"
   ],
-  "expertise_by_source": {},
-  "expertise_domain_scores": {
-    "Infrastructure": 1.0
+  "expertise_by_source": {
+    "discussion": {
+      "Mining": 0.667,
+      "Consensus": 0.333
+    }
   },
-  "p2016_posts": 2.0,
-  "modern_posts": 2.0,
+  "expertise_domain_scores": {
+    "Mining": 0.667,
+    "Consensus": 0.333
+  },
+  "p2016_posts": 3.0,
+  "modern_posts": 3.0,
   "p2016_ml_posts": 0.0,
-  "p2016_delving_posts": 2.0,
+  "p2016_delving_posts": 3.0,
   "modern_ml_posts": 0.0,
-  "modern_delving_posts": 2.0,
+  "modern_delving_posts": 3.0,
   "is_engineer": false,
   "is_reviewer": false,
   "is_researcher": false,
   "is_bip_author": false,
-  "global_first_active": null,
+  "global_first_active": "2026-10-27T13:19:49.658000",
   "global_last_active": null,
   "github_location": null,
   "github_company": null,
@@ -86,25 +92,7 @@
   "github_twitter": null,
   "github_blog": null,
   "github_followers": null,
-  "github_profile_fetched_at": null,
   "activity_status": "",
-  "geo_country_iso2": null,
-  "geo_country_iso3": null,
-  "geo_country_name": null,
-  "geo_sovereign_iso2": null,
-  "geo_m49_subregion": null,
-  "geo_macro_region": "Undisclosed",
-  "geo_un_macro_region": "Undisclosed",
-  "geo_wb_income": null,
-  "geo_flag": null,
-  "geo_status": "empty",
-  "geo_source": "none",
-  "geo_confidence": 0.0,
-  "geo_conflict": false,
-  "geo_tz_signature": null,
-  "geo_location_raw": null,
-  "geo_as_of": null,
-  "geo_taxonomy_version": "2026.10.1",
   "is_top_50": false,
   "delving_url": "https://delvingbitcoin.org/u/learnbitcoin.com",
   "first_message": {
@@ -115,13 +103,19 @@
   },
   "last_message": {
     "source": "delving",
-    "subject": "Re: We made the bitcoin-dev mailing list readable: 15 years, 24,699 messages",
-    "date": "2026-10-30",
-    "link": "https://delvingbitcoin.org/t/we-made-the-bitcoin-dev-mailing-list-readable-15-years-24-699-messages/2985/3"
+    "subject": "Re: Great Consensus Cleanup Revival",
+    "date": "2026-11-05",
+    "link": "https://delvingbitcoin.org/t/great-consensus-cleanup-revival/710/95"
   },
   "social_history": {
     "2026": {
-      "other": 2
+      "consensus-cleanup": 1,
+      "mining": 1,
+      "other": 2,
+      "script-opcodes": 1,
+      "security": 1,
+      "testing-devtools": 1,
+      "utxo-sync": 1
     }
   }
 }
