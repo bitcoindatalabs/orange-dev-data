@@ -124,7 +124,8 @@ def process_metadata():
             raise RuntimeError(
                 f"{len(failed)} {repo_name} PR file(s) failed to parse; refusing to write an incomplete dataset."
             )
-
+        if not pr_data:
+            sys.exit("❌ Error: No PRs parsed across repositories; aborting.")
         df_prs = pd.DataFrame(pr_data)
         df_reviews = pd.DataFrame(review_data)
     

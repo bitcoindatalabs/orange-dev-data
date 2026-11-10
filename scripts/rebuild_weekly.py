@@ -268,55 +268,54 @@ def main():
     # PHASE 0: Fresh Sync
     print("\n--- PHASE 0: Raw Data Sync ---")
 
-    # Health check: report which source repos are present vs missing
+    # Health check & fresh sync: clone if missing, pull if present
     sources = {
-        "bitcoin (Core git)":            ("data/sources/bitcoin",                 False),
-        "bips (BIPs git)":               ("data/sources/bips",                    False),
-        "delving (archive)":             ("data/sources/delving",                 False),
-        "bitcoin-github-metadata (PRs)": ("data/sources/bitcoin-github-metadata", False),
-        "bips-github-metadata (PRs)":    ("data/sources/bips-github-metadata",    False),
-        "secp256k1-github-metadata (PRs)":("data/sources/secp256k1-github-metadata", False),
-        "gui-github-metadata (PRs)":     ("data/sources/gui-github-metadata",     False),
-        "mailing_list/shard_0":          ("data/sources/mailing_list/shard_0",    True),   # bare repo
-        "secp256k1":                     ("data/sources/secp256k1",               False),
-        "gui":                           ("data/sources/gui",                     False),
-        "guix.sigs":                     ("data/sources/guix.sigs",               False),
-        "qa-assets":                     ("data/sources/qa-assets",               False),
-        "HWI":                           ("data/sources/HWI",                     False),
-        "opensats (Website)":            ("data/sources/opensats",                False),
-        "brink (Website)":               ("data/sources/brink",                   False),
+        "bitcoin (Core git)":              ("data/sources/bitcoin",                  "https://github.com/bitcoin/bitcoin.git",                                      "master", False),
+        "bips (BIPs git)":                 ("data/sources/bips",                     "https://github.com/bitcoin/bips.git",                                         "master", False),
+        "delving (archive)":               ("data/sources/delving",                  "https://github.com/jamesob/delving-bitcoin-archive.git",                      "master", False),
+        "bitcoin-github-metadata (PRs)":   ("data/sources/bitcoin-github-metadata",   "https://github.com/bitcoin-data/github-metadata-backup-bitcoin-bitcoin.git",    "master", False),
+        "bips-github-metadata (PRs)":      ("data/sources/bips-github-metadata",      "https://github.com/bitcoin-data/github-metadata-backup-bitcoin-bips.git",       "master", False),
+        "secp256k1-github-metadata (PRs)": ("data/sources/secp256k1-github-metadata", "https://github.com/bitcoin-data/github-metadata-backup-bitcoin-core-secp256k1.git",  "master", False),
+        "gui-github-metadata (PRs)":       ("data/sources/gui-github-metadata",      "https://github.com/bitcoin-data/github-metadata-backup-bitcoin-core-gui.git",  "master", False),
+        "mailing_list/shard_0":            ("data/sources/mailing_list/shard_0",     "https://gnusha.org/pi/bitcoindev/",                                          "master", True),
+        "secp256k1":                       ("data/sources/secp256k1",                "https://github.com/bitcoin-core/secp256k1.git",                               "master", False),
+        "gui":                             ("data/sources/gui",                      "https://github.com/bitcoin-core/gui.git",                                     "master", False),
+        "guix.sigs":                       ("data/sources/guix.sigs",                "https://github.com/bitcoin-core/guix.sigs.git",                               "main",   False),
+        "qa-assets":                       ("data/sources/qa-assets",                "https://github.com/bitcoin-core/qa-assets.git",                               "main",   False),
+        "HWI":                             ("data/sources/HWI",                      "https://github.com/bitcoin-core/HWI.git",                                     "master", False),
+        "opensats (Website)":              ("data/sources/opensats",                 "https://github.com/OpenSats/website.git",                                     "master", False),
+        "brink (Website)":                 ("data/sources/brink",                    "https://github.com/bitcoinbrink/website.git",                                 "master", False),
     }
-    print("  Source repo status:")
-    for label, (rel_path, is_bare) in sources.items():
+    print("  Source repo sync (clone if missing, pull if present):")
+    for label, (rel_path, remote_url, branch, is_bare) in sources.items():
         full = os.path.join(root_dir, rel_path)
+        os.makedirs(full, exist_ok=True)
         sentinel = os.path.join(full, "HEAD") if is_bare else os.path.join(full, ".git")
-        is_valid = os.path.exists(sentinel)
-        items    = len(os.listdir(full)) if os.path.isdir(full) else 0
-        status   = ("✅ bare repo" if is_bare else "✅ git repo") if is_valid else \
-                   ("⚠️  empty dir (will clone)" if items == 0 else "⚠️  no git sentinel")
-        print(f"    {label:<40} {status}")
+        if not os.path.exists(sentinel):
+            print(f"    {label:<40} ⚠️ missing — cloning from {remote_url}...")
+            if is_bare:
+                if not os.listdir(full):
+                    os.rmdir(full)
+                run(f"git clone --bare {remote_url} {rel_path}", cwd=root_dir)
+            else:
+                run(f"git -C {rel_path} init", cwd=root_dir)
+                run(f"git -C {rel_path} remote add origin {remote_url}", cwd=root_dir)
+                run(f"git -C {rel_path} fetch origin {branch}", cwd=root_dir)
+                run(f"git -C {rel_path} reset --hard FETCH_HEAD", cwd=root_dir)
+                run(f"git -C {rel_path} branch -u origin/{branch} {branch}", cwd=root_dir)
+        else:
+            if is_bare:
+                run(f"git -C {rel_path} fetch origin", cwd=root_dir)
+            else:
+                run(f"git -C {rel_path} pull origin {branch}", cwd=root_dir)
     print()
-
-    run("git -C data/sources/bitcoin pull origin master", cwd=root_dir)
-    run("git -C data/sources/bips pull origin master", cwd=root_dir)
-    run("git -C data/sources/bitcoin-github-metadata pull origin master", cwd=root_dir)
-    run("git -C data/sources/bips-github-metadata pull origin master", cwd=root_dir)
-    run("git -C data/sources/secp256k1-github-metadata pull origin master", cwd=root_dir)
-    run("git -C data/sources/gui-github-metadata pull origin master", cwd=root_dir)
-    run("git -C data/sources/delving pull origin master", cwd=root_dir)
-    run("git -C data/sources/mailing_list/shard_0 fetch origin", cwd=root_dir)
-    run("git -C data/sources/secp256k1 pull origin master", cwd=root_dir)
-    run("git -C data/sources/gui pull origin master", cwd=root_dir)
-    run("git -C data/sources/guix.sigs pull origin main", cwd=root_dir)
-    run("git -C data/sources/qa-assets pull origin main", cwd=root_dir)
-    run("git -C data/sources/HWI pull origin master", cwd=root_dir)
-    run("git -C data/sources/opensats pull origin master", cwd=root_dir)
-    run("git -C data/sources/brink pull origin master", cwd=root_dir)
 
     # PHASE 1: Extraction (Source -> Raw)
     print("\n--- PHASE 1: Extraction (Raw Staging) ---")
-    run("python3 scripts/01_ingest/core.py", cwd=root_dir)
-    run("python3 scripts/01_ingest/bips.py", cwd=root_dir)
+    if not run("python3 scripts/01_ingest/core.py", cwd=root_dir):
+        sys.exit("❌ core ingest failed; aborting rebuild.")
+    if not run("python3 scripts/01_ingest/bips.py", cwd=root_dir):
+        sys.exit("❌ bips ingest failed; aborting rebuild.")
     # These three parse thousands of JSON files and refuse to write partial output on any
     # parse error; abort the rebuild rather than enriching stale or incomplete data.
     if not run("python3 scripts/01_ingest/bips_metadata.py", cwd=root_dir):  # BIPs GitHub PR + review events

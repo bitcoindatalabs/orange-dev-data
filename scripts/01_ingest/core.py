@@ -468,13 +468,8 @@ def main():
         }
         
     if not all_commits:
-        print("Warning: No commits parsed across any repository.")
-        empty_cols = ['hash', 'repository_name', 'author_ts', 'author_name', 'author_email', 'committer_name',
-                      'committer_email', 'committer_ts', 'parents', 'date_utc', 'subject',
-                      'is_merge', 'file_path', 'additions', 'deletions', 'category', 'extensions_json']
-        df = pd.DataFrame(columns=empty_cols)
-    else:
-        df = pd.DataFrame(all_commits)
+        sys.exit("❌ Error: No commits parsed across any repository; aborting.")
+    df = pd.DataFrame(all_commits)
 
     # Save commits
     os.makedirs(os.path.dirname(OUTPUT_PATH), exist_ok=True)
