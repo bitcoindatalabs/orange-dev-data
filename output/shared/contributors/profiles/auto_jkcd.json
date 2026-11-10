@@ -1,5 +1,5 @@
 {
-  "display_name": "jkcd",
+  "display_name": "“jkcd”",
   "github_login_final": null,
   "delving_username_final": null,
   "uuid": "auto_jkcd",
@@ -83,12 +83,12 @@
   "is_bip_author": false,
   "global_first_active": "2020-04-24T18:27:09",
   "global_last_active": "2020-04-24T18:27:09",
-  "github_location": "United States",
+  "github_location": null,
   "github_company": null,
   "github_bio": null,
   "github_twitter": null,
   "github_blog": null,
-  "github_followers": 0.0,
+  "github_followers": null,
   "activity_status": "Active",
   "is_top_50": false,
   "commit_history": {

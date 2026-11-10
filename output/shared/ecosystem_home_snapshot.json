@@ -1,6 +1,6 @@
 {
   "generated_at": "2026-11-08",
-  "contributors_tracked": 4649,
+  "contributors_tracked": 7384,
   "window_reference": {
     "anchor_timestamp": "2026-11-08T23:59:59+00:00",
     "current_window_start": "2026-10-09T23:59:59+00:00",
@@ -9,51 +9,51 @@
   },
   "widgets": {
     "active_contributors_30d": {
-      "value": 65,
-      "previous_30d": 54,
-      "delta_30d": 11,
+      "value": 109,
+      "previous_30d": 67,
+      "delta_30d": 42,
       "window_days": 30,
       "definition": "Contributors with global_last_active in current 30-day window, compared to the previous 30-day window.",
-      "latest_activity_date": "2026-11-07"
+      "latest_activity_date": "2026-11-10"
     },
     "top_reviewers_30d": {
       "window_days": 30,
       "definition": "Top reviewers by unique PRs reviewed in current 30-day window (comments/reviews only), with previous 30-day comparison.",
       "items": [
         {
-          "uuid": "can_jon_atack",
-          "display_name": "Jon Atack",
-          "reviews_30d": 31,
-          "previous_30d": 19,
-          "delta_30d": 12
+          "uuid": "auto_reproducibility_matters",
+          "display_name": "Reproducibility Matters",
+          "reviews_30d": 149,
+          "previous_30d": 157,
+          "delta_30d": -8
         },
         {
-          "uuid": "can_mark_erhardt",
-          "display_name": "Mark Erhardt",
-          "reviews_30d": 24,
-          "previous_30d": 35,
-          "delta_30d": -11
+          "uuid": "can_marcofalke",
+          "display_name": "MarcoFalke",
+          "reviews_30d": 147,
+          "previous_30d": 100,
+          "delta_30d": 47
         },
         {
           "uuid": "auto_ferdinando_m_ametrano",
           "display_name": "Ferdinando M. Ametrano",
-          "reviews_30d": 18,
-          "previous_30d": 14,
-          "delta_30d": 4
+          "reviews_30d": 121,
+          "previous_30d": 48,
+          "delta_30d": 73
         },
         {
-          "uuid": "can_fabian_jahr",
-          "display_name": "Fabian Jahr",
-          "reviews_30d": 5,
-          "previous_30d": 2,
-          "delta_30d": 3
+          "uuid": "can_michael_ford",
+          "display_name": "Michael Ford",
+          "reviews_30d": 91,
+          "previous_30d": 63,
+          "delta_30d": 28
         },
         {
-          "uuid": "auto_macgyver13",
-          "display_name": "macgyver13",
-          "reviews_30d": 4,
-          "previous_30d": 4,
-          "delta_30d": 0
+          "uuid": "can_lorinc_pap",
+          "display_name": "Lorinc Pap",
+          "reviews_30d": 60,
+          "previous_30d": 62,
+          "delta_30d": -2
         }
       ],
       "aliases_collapsed": 0
@@ -67,9 +67,9 @@
           "title": "Schnorr Signatures for secp256k1",
           "primary_author": "Pieter Wuille",
           "primary_author_uuid": "can_pieter_wuille",
-          "mentions_30d": 13,
+          "mentions_30d": 14,
           "previous_30d": 0,
-          "delta_30d": 13
+          "delta_30d": 14
         },
         {
           "bip_id": "360",
@@ -84,7 +84,7 @@
           "bip_id": "352",
           "title": "Silent Payments",
           "primary_author": "josibake",
-          "primary_author_uuid": "auto_josibake",
+          "primary_author_uuid": null,
           "mentions_30d": 6,
           "previous_30d": 0,
           "delta_30d": 6
@@ -95,20 +95,20 @@
       "version": "31.2",
       "status": "shipped",
       "date": "Oct 28, 2026",
-      "prs": 35
+      "prs": 30
     },
     "research_activity_30d": {
-      "messages_30d": 169,
+      "messages_30d": 174,
       "previous_30d": 173,
-      "delta_30d": -4,
+      "delta_30d": 1,
       "momentum": "steady",
       "definition": "Combined Delving Bitcoin and mailing list discussion volume in current 30 days versus previous 30 days."
     },
     "discussion_voices_30d": {
-      "value": 90,
+      "value": 94,
       "previous_30d": 55,
-      "delta_30d": 35,
-      "messages_30d": 169,
+      "delta_30d": 39,
+      "messages_30d": 174,
       "messages_previous_30d": 173
     },
     "topic_momentum_30d": {
@@ -125,9 +125,9 @@
         {
           "topic": "taproot",
           "label": "Taproot",
-          "mentions_30d": 19,
+          "mentions_30d": 20,
           "previous_30d": 4,
-          "delta_30d": 15
+          "delta_30d": 16
         },
         {
           "topic": "mining",
@@ -139,9 +139,9 @@
         {
           "topic": "quantum",
           "label": "Quantum",
-          "mentions_30d": 16,
+          "mentions_30d": 17,
           "previous_30d": 45,
-          "delta_30d": -29
+          "delta_30d": -28
         },
         {
           "topic": "multisig-threshold",
@@ -153,51 +153,51 @@
       ]
     },
     "active_contributors_7d": {
-      "value": 18,
-      "previous_7d": 20,
-      "delta_7d": -2,
+      "value": 57,
+      "previous_7d": 26,
+      "delta_7d": 31,
       "window_days": 7,
       "definition": "Contributors with global_last_active in current 7-day window, compared to the previous 7-day window.",
-      "latest_activity_date": "2026-11-07"
+      "latest_activity_date": "2026-11-10"
     },
     "top_reviewers_7d": {
       "window_days": 7,
       "definition": "Top reviewers by unique PRs reviewed in current 7-day window (comments/reviews only), with previous 7-day comparison.",
       "items": [
         {
-          "uuid": "can_jon_atack",
-          "display_name": "Jon Atack",
-          "reviews_7d": 20,
-          "previous_7d": 4,
-          "delta_7d": 16
+          "uuid": "auto_reproducibility_matters",
+          "display_name": "Reproducibility Matters",
+          "reviews_7d": 72,
+          "previous_7d": 33,
+          "delta_7d": 39
         },
         {
-          "uuid": "can_mark_erhardt",
-          "display_name": "Mark Erhardt",
-          "reviews_7d": 19,
-          "previous_7d": 0,
-          "delta_7d": 19
+          "uuid": "can_marcofalke",
+          "display_name": "MarcoFalke",
+          "reviews_7d": 54,
+          "previous_7d": 44,
+          "delta_7d": 10
+        },
+        {
+          "uuid": "can_michael_ford",
+          "display_name": "Michael Ford",
+          "reviews_7d": 31,
+          "previous_7d": 26,
+          "delta_7d": 5
         },
         {
           "uuid": "auto_ferdinando_m_ametrano",
           "display_name": "Ferdinando M. Ametrano",
-          "reviews_7d": 7,
-          "previous_7d": 3,
-          "delta_7d": 4
-        },
-        {
-          "uuid": "auto_macgyver13",
-          "display_name": "macgyver13",
-          "reviews_7d": 4,
-          "previous_7d": 0,
+          "reviews_7d": 30,
+          "previous_7d": 26,
           "delta_7d": 4
         },
         {
           "uuid": "can_ava_chow",
           "display_name": "Ava Chow",
-          "reviews_7d": 4,
-          "previous_7d": 0,
-          "delta_7d": 4
+          "reviews_7d": 26,
+          "previous_7d": 1,
+          "delta_7d": 25
         }
       ],
       "aliases_collapsed": 0
@@ -211,9 +211,9 @@
           "title": "Schnorr Signatures for secp256k1",
           "primary_author": "Pieter Wuille",
           "primary_author_uuid": "can_pieter_wuille",
-          "mentions_7d": 7,
+          "mentions_7d": 8,
           "previous_7d": 4,
-          "delta_7d": 3
+          "delta_7d": 4
         },
         {
           "bip_id": "360",
@@ -242,17 +242,17 @@
       "prs": 700
     },
     "research_activity_7d": {
-      "messages_7d": 39,
+      "messages_7d": 44,
       "previous_7d": 71,
-      "delta_7d": -32,
+      "delta_7d": -27,
       "momentum": "cooling",
       "definition": "Combined Delving Bitcoin and mailing list discussion volume in current 7 days versus previous 7 days."
     },
     "discussion_voices_7d": {
-      "value": 35,
+      "value": 39,
       "previous_7d": 42,
-      "delta_7d": -7,
-      "messages_7d": 39,
+      "delta_7d": -3,
+      "messages_7d": 44,
       "messages_previous_7d": 71
     },
     "topic_momentum_7d": {
@@ -262,9 +262,9 @@
         {
           "topic": "taproot",
           "label": "Taproot",
-          "mentions_7d": 9,
+          "mentions_7d": 10,
           "previous_7d": 8,
-          "delta_7d": 1
+          "delta_7d": 2
         },
         {
           "topic": "security",
@@ -300,30 +300,35 @@
       "definition": "Random selection of top retired contributors by impact score to feature as ecosystem veterans.",
       "items": [
         {
-          "uuid": "auto_christopher_gilliard",
-          "display_name": "Christopher Gilliard",
-          "impact_score": 24.0
+          "uuid": "can_mike_hearn",
+          "display_name": "Mike Hearn",
+          "impact_score": 59.0
         },
         {
-          "uuid": "auto_ruben_de_vries",
-          "display_name": "Ruben de Vries",
-          "impact_score": 25.0
+          "uuid": "auto_thomas_kerin",
+          "display_name": "Thomas Kerin",
+          "impact_score": 41.0
+        },
+        {
+          "uuid": "auto_ryan_havar",
+          "display_name": "Ryan Havar",
+          "impact_score": 31.0
         },
         {
           "uuid": "auto_ryan_x_charles",
           "display_name": "Ryan X. Charles",
-          "impact_score": 23.0
+          "impact_score": 24.0
         },
         {
-          "uuid": "auto_cryptaxe",
-          "display_name": "Cryptaxe",
-          "impact_score": 34.0
+          "uuid": "can_drak",
+          "display_name": "Drak",
+          "impact_score": 64.0
         }
       ]
     }
   },
   "quality": {
-    "bots_excluded": 6,
+    "bots_excluded": 17,
     "bot_filter_tokens": [
       "bot",
       "automerge",

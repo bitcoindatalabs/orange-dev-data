@@ -2027,7 +2027,7 @@
     "project_name": "Erlay",
     "description": "Bandwidth-efficient transaction relay protocol (BIP330) that reduces node P2P bandwidth usage by up to 40% using set-reconciliation.",
     "category": "P2P & Networking",
-    "champion": "Sergi Delgado Segura",
+    "champion": "Sergi Delgado",
     "champion_login": "sr-gi",
     "bip": "BIP 330",
     "title": "Erlay Project Tracking",

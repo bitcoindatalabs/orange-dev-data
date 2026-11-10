@@ -41,7 +41,7 @@
   "modern_bips_authored": 0.0,
   "first_bip_date": "2011-10-29T22:35:45",
   "last_bip_date": "2011-10-29T22:35:45",
-  "avg_review_latency_days": 0.21533564814814815,
+  "avg_review_latency_days": 673.9852893518519,
   "reviews_count": 1.0,
   "avg_approval_latency_days": null,
   "approvals_count": 0.0,
@@ -57,7 +57,7 @@
   "avg_pr_ack_velocity_days": null,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": null,
-  "hybrid_score": 0.5367,
+  "hybrid_score": 0.5368,
   "p2016_hybrid_score": 0.0,
   "modern_hybrid_score": 0.0,
   "impact_score": 28.0,
@@ -69,7 +69,7 @@
   "delving_threads": 0.0,
   "ml_responses": 123.0,
   "delving_responses": 0.0,
-  "first_active": null,
+  "first_active": "2011-10-25T11:47:34",
   "last_active": "2015-05-08T12:51:51",
   "dev_type": "Participant",
   "expertise_domains": [
@@ -79,8 +79,8 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Ecosystem": 0.5,
-      "Wallet": 0.5
+      "Wallet": 0.5,
+      "Ecosystem": 0.5
     },
     "bips": {
       "Infrastructure": 1.0
@@ -88,8 +88,8 @@
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.7143,
-    "Ecosystem": 0.1429,
-    "Wallet": 0.1429
+    "Wallet": 0.1429,
+    "Ecosystem": 0.1429
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,
@@ -101,7 +101,7 @@
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": true,
-  "global_first_active": "2011-10-29T22:35:45",
+  "global_first_active": "2011-10-25T11:47:34",
   "global_last_active": "2015-05-08T12:51:51",
   "github_location": null,
   "github_company": null,

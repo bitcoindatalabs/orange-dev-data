@@ -45,7 +45,7 @@
   "avg_pr_ack_velocity_days": null,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": null,
-  "hybrid_score": 0.1306,
+  "hybrid_score": 0.1307,
   "p2016_hybrid_score": 0.0,
   "modern_hybrid_score": 0.0,
   "impact_score": 8.0,
@@ -57,7 +57,7 @@
   "delving_threads": 0.0,
   "ml_responses": 53.0,
   "delving_responses": 0.0,
-  "first_active": null,
+  "first_active": "2011-06-17T01:42:30",
   "last_active": "2011-12-04T04:24:08",
   "dev_type": "Builder",
   "expertise_domains": [
@@ -73,8 +73,8 @@
     }
   },
   "expertise_domain_scores": {
-    "Mining": 0.4,
-    "Infrastructure": 0.6
+    "Infrastructure": 0.6,
+    "Mining": 0.4
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,

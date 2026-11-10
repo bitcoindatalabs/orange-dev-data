@@ -1,5 +1,5 @@
 {
-  "display_name": "simon",
+  "display_name": "Simon",
   "github_login_final": null,
   "delving_username_final": null,
   "uuid": "auto_simon",
@@ -85,10 +85,10 @@
   "global_last_active": "2024-09-20T17:43:00",
   "github_location": null,
   "github_company": null,
-  "github_bio": "Writer, Artist, and Technologist",
+  "github_bio": null,
   "github_twitter": null,
-  "github_blog": "https://sceneswithsimon.com",
-  "github_followers": 384.0,
+  "github_blog": null,
+  "github_followers": null,
   "activity_status": "Active",
   "is_top_50": false,
   "commit_history": {

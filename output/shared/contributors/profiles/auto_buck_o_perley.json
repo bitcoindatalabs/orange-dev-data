@@ -29,7 +29,7 @@
   "modern_bips_authored": 0.0,
   "first_bip_date": null,
   "last_bip_date": null,
-  "avg_review_latency_days": 88.91969212962962,
+  "avg_review_latency_days": 629.8702777777778,
   "reviews_count": 3.0,
   "avg_approval_latency_days": 0.10040509259259259,
   "approvals_count": 1.0,
@@ -57,7 +57,7 @@
   "delving_threads": 0.0,
   "ml_responses": 0.0,
   "delving_responses": 0.0,
-  "first_active": null,
+  "first_active": "2022-04-20T12:13:19",
   "last_active": "2022-09-11T19:05:18",
   "dev_type": "Participant",
   "expertise_domains": [

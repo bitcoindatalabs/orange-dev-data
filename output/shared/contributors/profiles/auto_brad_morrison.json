@@ -57,7 +57,7 @@
   "delving_threads": 0.0,
   "ml_responses": 4.0,
   "delving_responses": 0.0,
-  "first_active": null,
+  "first_active": "2023-11-03T05:15:58",
   "last_active": "2024-01-04T07:50:51",
   "dev_type": "Participant",
   "expertise_domains": [
@@ -66,13 +66,13 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Ecosystem": 0.569,
-      "Mempool": 0.431
+      "Mempool": 0.431,
+      "Ecosystem": 0.569
     }
   },
   "expertise_domain_scores": {
-    "Ecosystem": 0.569,
-    "Mempool": 0.431
+    "Mempool": 0.431,
+    "Ecosystem": 0.569
   },
   "p2016_posts": 4.0,
   "modern_posts": 3.0,
@@ -84,7 +84,7 @@
   "is_reviewer": false,
   "is_researcher": true,
   "is_bip_author": false,
-  "global_first_active": null,
+  "global_first_active": "2023-11-03T05:15:58",
   "global_last_active": "2024-01-04T07:50:51",
   "github_location": null,
   "github_company": null,

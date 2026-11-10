@@ -29,7 +29,7 @@
   "modern_bips_authored": 0.0,
   "first_bip_date": null,
   "last_bip_date": null,
-  "avg_review_latency_days": 19.067761574074076,
+  "avg_review_latency_days": 2382.0264074074075,
   "reviews_count": 1.0,
   "avg_approval_latency_days": null,
   "approvals_count": 0.0,
@@ -57,7 +57,7 @@
   "delving_threads": 0.0,
   "ml_responses": 2.0,
   "delving_responses": 0.0,
-  "first_active": null,
+  "first_active": "2025-11-08T03:30:39",
   "last_active": "2025-11-11T01:43:09",
   "dev_type": "Participant",
   "expertise_domains": [
@@ -67,14 +67,14 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Script": 0.333,
       "Consensus": 0.333,
+      "Script": 0.333,
       "Wallet": 0.333
     }
   },
   "expertise_domain_scores": {
-    "Script": 0.3333,
     "Consensus": 0.3333,
+    "Script": 0.3333,
     "Wallet": 0.3333
   },
   "p2016_posts": 2.0,

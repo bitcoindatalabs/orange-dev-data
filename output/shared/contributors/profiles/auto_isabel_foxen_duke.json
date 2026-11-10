@@ -59,7 +59,7 @@
   "review_reciprocity": null,
   "hybrid_score": 0.3645,
   "p2016_hybrid_score": 0.3727,
-  "modern_hybrid_score": 0.4217,
+  "modern_hybrid_score": 0.4218,
   "impact_score": 20.0,
   "p2016_impact_score": 20.0,
   "modern_impact_score": 22.0,
@@ -69,7 +69,7 @@
   "delving_threads": 0.0,
   "ml_responses": 5.0,
   "delving_responses": 0.0,
-  "first_active": null,
+  "first_active": "2026-02-17T07:24:41",
   "last_active": "2026-05-23T08:48:02",
   "dev_type": "Participant",
   "expertise_domains": [

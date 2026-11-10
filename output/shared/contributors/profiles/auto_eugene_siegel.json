@@ -1,0 +1,180 @@
+{
+  "display_name": "Eugene Siegel",
+  "github_login_final": "Crypt-iQ",
+  "delving_username_final": "crypt-iq",
+  "uuid": "auto_eugene_siegel",
+  "badges": {
+    "ecosystem_contributor": true,
+    "tier2_commits": 2
+  },
+  "roles": null,
+  "total_commits": 41.0,
+  "authored_commits": 41.0,
+  "tier1_authored_commits": 39.0,
+  "tier2_authored_commits": 2.0,
+  "merge_commits": 0.0,
+  "tier1_merge_commits": 0.0,
+  "tier2_merge_commits": 0.0,
+  "self_merges": 0.0,
+  "total_additions": 1548.0,
+  "total_deletions": 419.0,
+  "first_core_commit": "2020-07-09T13:24:51+00:00",
+  "last_core_commit": "2026-09-29T11:24:15+00:00",
+  "first_ecosystem_commit": "2025-12-19T14:47:01+00:00",
+  "last_ecosystem_commit": "2026-05-08T06:29:57+00:00",
+  "first_commit": "2020-07-09T13:24:51",
+  "last_commit": "2026-09-29T11:24:15",
+  "p2016_authored_commits": 41.0,
+  "modern_authored_commits": 33.0,
+  "co_authored_commits": 4.0,
+  "bips_authored": 0.0,
+  "p2016_bips_authored": 0.0,
+  "modern_bips_authored": 0.0,
+  "first_bip_date": null,
+  "last_bip_date": null,
+  "avg_review_latency_days": 75.21885741253246,
+  "reviews_count": 108.0,
+  "avg_approval_latency_days": 53.54718295690551,
+  "approvals_count": 79.0,
+  "tier1_reviews_count": 107.0,
+  "tier2_reviews_count": 1.0,
+  "p2016_reviews_count": 108.0,
+  "modern_reviews_count": 64.0,
+  "first_review_date": "2019-01-02T21:25:30",
+  "last_review_date": "2026-11-09T16:53:31",
+  "prs_authored": 35.0,
+  "tier1_prs_authored": 33.0,
+  "tier2_prs_authored": 2.0,
+  "avg_pr_ack_velocity_days": 7.352580536265432,
+  "avg_concept_lead_time_days": 10.284097222222222,
+  "review_reciprocity": 3.085714285714286,
+  "hybrid_score": 0.3903,
+  "p2016_hybrid_score": 0.3903,
+  "modern_hybrid_score": 0.3626,
+  "impact_score": 21.0,
+  "p2016_impact_score": 21.0,
+  "modern_impact_score": 20.0,
+  "threads_started": 13.0,
+  "replies_sent": 5.0,
+  "ml_threads": 0.0,
+  "delving_threads": 13.0,
+  "ml_responses": 0.0,
+  "delving_responses": 5.0,
+  "first_active": null,
+  "last_active": null,
+  "dev_type": "Builder",
+  "expertise_domains": [
+    "Infrastructure",
+    "Network",
+    "Mempool"
+  ],
+  "expertise_by_source": {
+    "discussion": {
+      "Consensus": 0.235,
+      "Mempool": 0.353,
+      "Network": 0.412
+    },
+    "code": {
+      "Infrastructure": 0.835,
+      "Consensus": 0.03,
+      "Network": 0.134
+    }
+  },
+  "expertise_domain_scores": {
+    "Infrastructure": 0.5013,
+    "Consensus": 0.1121,
+    "Mempool": 0.1413,
+    "Network": 0.2453
+  },
+  "p2016_posts": 18.0,
+  "modern_posts": 18.0,
+  "p2016_ml_posts": 0.0,
+  "p2016_delving_posts": 18.0,
+  "modern_ml_posts": 0.0,
+  "modern_delving_posts": 18.0,
+  "is_engineer": true,
+  "is_reviewer": true,
+  "is_researcher": false,
+  "is_bip_author": false,
+  "global_first_active": "2019-01-02T21:25:30",
+  "global_last_active": "2026-11-09T16:53:31",
+  "github_location": null,
+  "github_company": null,
+  "github_bio": null,
+  "github_twitter": null,
+  "github_blog": null,
+  "github_followers": 81.0,
+  "activity_status": "Rising",
+  "is_top_50": false,
+  "github_url": "https://github.com/Crypt-iQ",
+  "delving_url": "https://delvingbitcoin.org/u/crypt-iq",
+  "commit_history": {
+    "2020": {
+      "Build & CI": 3.0,
+      "Documentation": 1.0,
+      "Utilities": 1.0
+    },
+    "2021": {
+      "P2P Network": 0.5,
+      "Tests": 0.5
+    },
+    "2022": {
+      "Consensus": 1.0,
+      "Tests": 1.0
+    },
+    "2025": {
+      "Consensus": 0.25,
+      "Documentation": 1.0,
+      "Node & RPC": 1.08,
+      "P2P Network": 2.0,
+      "Tests": 9.08,
+      "Utilities": 5.58
+    },
+    "2026": {
+      "Node & RPC": 1.5,
+      "P2P Network": 3.0,
+      "Tests": 8.5,
+      "Utilities": 1.0
+    }
+  },
+  "first_message": {
+    "source": "delving",
+    "subject": "Re: Ephemeral Anchors and MEVil",
+    "date": "2024-01-24",
+    "link": "https://delvingbitcoin.org/t/ephemeral-anchors-and-mevil/383/11"
+  },
+  "last_message": {
+    "source": "delving",
+    "subject": "Re: TCP hole punching for Bitcoin nodes behind home NATs?",
+    "date": "2026-05-14",
+    "link": "https://delvingbitcoin.org/t/tcp-hole-punching-for-bitcoin-nodes-behind-home-nats/2497/14"
+  },
+  "social_history": {
+    "2024": {
+      "hard-fork-block-size": 1,
+      "lightning": 2,
+      "mempool-fees": 5,
+      "mining": 2,
+      "p2p-network": 1,
+      "other": 3,
+      "spam-filtering": 1,
+      "taproot": 3
+    },
+    "2025": {
+      "hard-fork-block-size": 3,
+      "lightning": 3,
+      "mempool-fees": 3,
+      "mining": 2,
+      "p2p-network": 5,
+      "privacy": 3,
+      "other": 1,
+      "spam-filtering": 3,
+      "taproot": 3
+    },
+    "2026": {
+      "other": 3,
+      "mining": 1,
+      "p2p-network": 1
+    }
+  }
+}

@@ -57,7 +57,7 @@
   "delving_threads": 1.0,
   "ml_responses": 0.0,
   "delving_responses": 0.0,
-  "first_active": "2026-04-28T13:07:40.842000",
+  "first_active": null,
   "last_active": null,
   "dev_type": "Participant",
   "expertise_domains": [
@@ -66,13 +66,13 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Script": 0.67,
-      "Mempool": 0.33
+      "Mempool": 0.33,
+      "Script": 0.67
     }
   },
   "expertise_domain_scores": {
-    "Script": 0.67,
-    "Mempool": 0.33
+    "Mempool": 0.33,
+    "Script": 0.67
   },
   "p2016_posts": 1.0,
   "modern_posts": 1.0,

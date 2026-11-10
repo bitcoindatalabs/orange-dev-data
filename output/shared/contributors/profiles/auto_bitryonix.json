@@ -57,7 +57,7 @@
   "delving_threads": 8.0,
   "ml_responses": 0.0,
   "delving_responses": 0.0,
-  "first_active": "2026-02-08T22:27:40.276000",
+  "first_active": null,
   "last_active": null,
   "dev_type": "Participant",
   "expertise_domains": [
@@ -68,14 +68,14 @@
   "expertise_by_source": {
     "discussion": {
       "Mining": 0.25,
-      "Script": 0.5,
-      "Consensus": 0.25
+      "Consensus": 0.25,
+      "Script": 0.5
     }
   },
   "expertise_domain_scores": {
     "Mining": 0.25,
-    "Script": 0.5,
-    "Consensus": 0.25
+    "Consensus": 0.25,
+    "Script": 0.5
   },
   "p2016_posts": 8.0,
   "modern_posts": 8.0,
@@ -87,7 +87,7 @@
   "is_reviewer": false,
   "is_researcher": false,
   "is_bip_author": false,
-  "global_first_active": "2026-02-08T22:27:40.276000",
+  "global_first_active": null,
   "global_last_active": null,
   "github_location": null,
   "github_company": null,
@@ -100,9 +100,9 @@
   "delving_url": "https://delvingbitcoin.org/u/bitryonix",
   "first_message": {
     "source": "delving",
-    "subject": "Boomerang: Bitcoin Cold Storage with Built-In Coercion Resistance",
+    "subject": "Boomerang: Bitcoin Cold Storage with Built-In Duress Protection",
     "date": "2026-02-08",
-    "link": "https://delvingbitcoin.org/t/boomerang-bitcoin-cold-storage-with-built-in-coercion-resistance/2239/1"
+    "link": "https://delvingbitcoin.org/t/boomerang-bitcoin-cold-storage-with-built-in-duress-protection/2239/1"
   },
   "last_message": {
     "source": "delving",

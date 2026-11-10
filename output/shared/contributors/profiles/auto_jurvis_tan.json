@@ -41,25 +41,25 @@
   "modern_bips_authored": 1.0,
   "first_bip_date": "2026-02-04T14:58:08",
   "last_bip_date": "2026-02-04T14:58:08",
-  "avg_review_latency_days": null,
-  "reviews_count": 0.0,
+  "avg_review_latency_days": 4774.38994212963,
+  "reviews_count": 1.0,
   "avg_approval_latency_days": null,
   "approvals_count": 0.0,
   "tier1_reviews_count": 0.0,
-  "tier2_reviews_count": 0.0,
-  "p2016_reviews_count": 0.0,
-  "modern_reviews_count": 0.0,
-  "first_review_date": null,
-  "last_review_date": null,
+  "tier2_reviews_count": 1.0,
+  "p2016_reviews_count": 1.0,
+  "modern_reviews_count": 1.0,
+  "first_review_date": "2025-11-30T23:39:17",
+  "last_review_date": "2025-12-18T22:33:16",
   "prs_authored": 3.0,
   "tier1_prs_authored": 0.0,
   "tier2_prs_authored": 3.0,
-  "avg_pr_ack_velocity_days": 56.0395775462963,
+  "avg_pr_ack_velocity_days": null,
   "avg_concept_lead_time_days": null,
-  "review_reciprocity": 0.0,
-  "hybrid_score": 0.383,
-  "p2016_hybrid_score": 0.383,
-  "modern_hybrid_score": 0.383,
+  "review_reciprocity": 0.3333333333333333,
+  "hybrid_score": 0.3952,
+  "p2016_hybrid_score": 0.3952,
+  "modern_hybrid_score": 0.3952,
   "impact_score": 21.0,
   "p2016_impact_score": 21.0,
   "modern_impact_score": 21.0,
@@ -69,7 +69,7 @@
   "delving_threads": 2.0,
   "ml_responses": 0.0,
   "delving_responses": 1.0,
-  "first_active": "2025-07-15T00:38:33.001000",
+  "first_active": null,
   "last_active": null,
   "dev_type": "Participant",
   "expertise_domains": [
@@ -79,19 +79,19 @@
   ],
   "expertise_by_source": {
     "discussion": {
+      "L2": 0.25,
       "Script": 0.25,
-      "Wallet": 0.5,
-      "L2": 0.25
+      "Wallet": 0.5
     },
     "bips": {
       "Infrastructure": 1.0
     }
   },
   "expertise_domain_scores": {
-    "Script": 0.0714,
     "Infrastructure": 0.7143,
-    "Wallet": 0.1429,
-    "L2": 0.0714
+    "L2": 0.0714,
+    "Script": 0.0714,
+    "Wallet": 0.1429
   },
   "p2016_posts": 3.0,
   "modern_posts": 3.0,
@@ -103,7 +103,7 @@
   "is_reviewer": true,
   "is_researcher": false,
   "is_bip_author": true,
-  "global_first_active": "2025-07-15T00:38:33.001000",
+  "global_first_active": "2025-11-30T23:39:17",
   "global_last_active": "2026-02-04T14:58:08",
   "github_location": "Los Angeles, CA",
   "github_company": null,
@@ -111,7 +111,7 @@
   "github_twitter": "jurvistan",
   "github_blog": "https://jurv.is/",
   "github_followers": 102.0,
-  "activity_status": "Active",
+  "activity_status": "New",
   "is_top_50": false,
   "github_url": "https://github.com/jurvis",
   "delving_url": "https://delvingbitcoin.org/u/jurvis",
@@ -126,9 +126,9 @@
   ],
   "first_message": {
     "source": "delving",
-    "subject": "Chain Code Delegation: Access Control for Bitcoin Keys",
+    "subject": "Chain Code Delegation: Private Access Control for Bitcoin Keys",
     "date": "2025-07-15",
-    "link": "https://delvingbitcoin.org/t/chain-code-delegation-access-control-for-bitcoin-keys/1837/1"
+    "link": "https://delvingbitcoin.org/t/chain-code-delegation-private-access-control-for-bitcoin-keys/1837/1"
   },
   "last_message": {
     "source": "delving",

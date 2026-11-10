@@ -41,14 +41,14 @@
   "modern_bips_authored": 0.0,
   "first_bip_date": "2021-04-05T01:46:06",
   "last_bip_date": "2021-04-05T01:46:06",
-  "avg_review_latency_days": 21.623087705761318,
-  "reviews_count": 8.0,
-  "avg_approval_latency_days": 5.21623649691358,
-  "approvals_count": 5.0,
-  "tier1_reviews_count": 0.0,
+  "avg_review_latency_days": 950.4770680555556,
+  "reviews_count": 13.0,
+  "avg_approval_latency_days": 1565.5298116582492,
+  "approvals_count": 6.0,
+  "tier1_reviews_count": 5.0,
   "tier2_reviews_count": 8.0,
-  "p2016_reviews_count": 8.0,
-  "modern_reviews_count": 5.0,
+  "p2016_reviews_count": 13.0,
+  "modern_reviews_count": 6.0,
   "first_review_date": "2018-06-29T18:08:22",
   "last_review_date": "2025-01-24T15:05:12",
   "prs_authored": 0.0,
@@ -57,11 +57,11 @@
   "avg_pr_ack_velocity_days": null,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": null,
-  "hybrid_score": 0.4477,
-  "p2016_hybrid_score": 0.4581,
-  "modern_hybrid_score": 0.1364,
+  "hybrid_score": 0.4637,
+  "p2016_hybrid_score": 0.474,
+  "modern_hybrid_score": 0.142,
   "impact_score": 24.0,
-  "p2016_impact_score": 24.0,
+  "p2016_impact_score": 25.0,
   "modern_impact_score": 8.0,
   "threads_started": 1.0,
   "replies_sent": 6.0,
@@ -69,25 +69,25 @@
   "delving_threads": 0.0,
   "ml_responses": 6.0,
   "delving_responses": 0.0,
-  "first_active": null,
+  "first_active": "2018-06-28T15:42:09",
   "last_active": "2024-04-20T14:48:09",
-  "dev_type": "Participant",
+  "dev_type": "Reviewer",
   "expertise_domains": [
     "Wallet",
     "Ecosystem"
   ],
   "expertise_by_source": {
     "discussion": {
-      "Ecosystem": 0.5,
-      "Wallet": 0.5
+      "Wallet": 0.5,
+      "Ecosystem": 0.5
     },
     "bips": {
       "Wallet": 1.0
     }
   },
   "expertise_domain_scores": {
-    "Ecosystem": 0.1429,
-    "Wallet": 0.8571
+    "Wallet": 0.8571,
+    "Ecosystem": 0.1429
   },
   "p2016_posts": 7.0,
   "modern_posts": 3.0,
@@ -99,7 +99,7 @@
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": true,
-  "global_first_active": "2018-06-29T18:08:22",
+  "global_first_active": "2018-06-28T15:42:09",
   "global_last_active": "2025-01-24T15:05:12",
   "github_location": "🇦🇶",
   "github_company": null,

@@ -41,25 +41,25 @@
   "modern_bips_authored": 0.0,
   "first_bip_date": "2018-02-03T20:36:40",
   "last_bip_date": "2018-02-10T13:01:25",
-  "avg_review_latency_days": 144.4112800925926,
-  "reviews_count": 3.0,
+  "avg_review_latency_days": 1281.9125355489418,
+  "reviews_count": 4.0,
   "avg_approval_latency_days": null,
   "approvals_count": 0.0,
-  "tier1_reviews_count": 0.0,
+  "tier1_reviews_count": 1.0,
   "tier2_reviews_count": 3.0,
-  "p2016_reviews_count": 3.0,
-  "modern_reviews_count": 2.0,
+  "p2016_reviews_count": 4.0,
+  "modern_reviews_count": 3.0,
   "first_review_date": "2022-07-28T09:27:38",
   "last_review_date": "2025-05-26T21:31:15",
   "prs_authored": 7.0,
   "tier1_prs_authored": 0.0,
   "tier2_prs_authored": 7.0,
-  "avg_pr_ack_velocity_days": 213.19196180555556,
+  "avg_pr_ack_velocity_days": 284.11974537037037,
   "avg_concept_lead_time_days": null,
-  "review_reciprocity": 0.42857142857142855,
-  "hybrid_score": 0.7056,
-  "p2016_hybrid_score": 0.7604,
-  "modern_hybrid_score": 0.099,
+  "review_reciprocity": 0.5714285714285714,
+  "hybrid_score": 0.7102,
+  "p2016_hybrid_score": 0.7649,
+  "modern_hybrid_score": 0.1042,
   "impact_score": 35.0,
   "p2016_impact_score": 37.0,
   "modern_impact_score": 6.0,
@@ -69,7 +69,7 @@
   "delving_threads": 0.0,
   "ml_responses": 70.0,
   "delving_responses": 0.0,
-  "first_active": null,
+  "first_active": "2015-08-21T18:17:51",
   "last_active": "2025-06-10T14:04:14",
   "dev_type": "Participant",
   "expertise_domains": [
@@ -80,8 +80,8 @@
   "expertise_by_source": {
     "discussion": {
       "Mining": 0.171,
-      "Ecosystem": 0.157,
-      "L2": 0.671
+      "L2": 0.671,
+      "Ecosystem": 0.157
     },
     "bips": {
       "Consensus": 1.0
@@ -90,8 +90,8 @@
   "expertise_domain_scores": {
     "Mining": 0.0489,
     "Consensus": 0.7145,
-    "Ecosystem": 0.0449,
-    "L2": 0.1918
+    "L2": 0.1918,
+    "Ecosystem": 0.0449
   },
   "p2016_posts": 70.0,
   "modern_posts": 2.0,
@@ -103,7 +103,7 @@
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": true,
-  "global_first_active": "2018-02-03T20:36:40",
+  "global_first_active": "2015-08-21T18:17:51",
   "global_last_active": "2025-06-10T14:04:14",
   "github_location": "New Haven, CT",
   "github_company": "Independent",

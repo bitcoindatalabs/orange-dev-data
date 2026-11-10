@@ -57,7 +57,7 @@
   "delving_threads": 6.0,
   "ml_responses": 0.0,
   "delving_responses": 9.0,
-  "first_active": "2026-05-16T13:04:14.590000",
+  "first_active": null,
   "last_active": null,
   "dev_type": "Participant",
   "expertise_domains": [
@@ -66,13 +66,13 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Ecosystem": 0.218,
-      "Privacy": 0.782
+      "Privacy": 0.782,
+      "Ecosystem": 0.218
     }
   },
   "expertise_domain_scores": {
-    "Ecosystem": 0.218,
-    "Privacy": 0.782
+    "Privacy": 0.782,
+    "Ecosystem": 0.218
   },
   "p2016_posts": 15.0,
   "modern_posts": 15.0,
@@ -84,7 +84,7 @@
   "is_reviewer": false,
   "is_researcher": true,
   "is_bip_author": false,
-  "global_first_active": "2026-05-16T13:04:14.590000",
+  "global_first_active": null,
   "global_last_active": null,
   "github_location": null,
   "github_company": null,
@@ -92,7 +92,7 @@
   "github_twitter": null,
   "github_blog": null,
   "github_followers": null,
-  "activity_status": "New",
+  "activity_status": "Active",
   "is_top_50": false,
   "delving_url": "https://delvingbitcoin.org/u/kruw",
   "first_message": {

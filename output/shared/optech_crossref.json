@@ -1,18 +1,33 @@
 {
+  "36539": {
+    "optech_url": "https://bitcoinops.org/en/newsletters/2026/11/06/",
+    "date": "2026-11-06",
+    "snippet": "restores the PSBTv0 format for unsigned transactions\n  and fee bumps exported from the GUI. Bitcoin Core 32.1 exported these\n  [PSBTs][topic psbt] using version 2, preventing users from signing them with\n  tools that only support version 0. The separate external-signer workflow\n  configured with `-signer` (see [Newsletter #138][news138 signer]) continues\n  to use PSBTv2, so those users need an external signer that supports it,\n  such as HWI 2.1.0 or later."
+  },
+  "35714": {
+    "optech_url": "https://bitcoinops.org/en/newsletters/2026/11/06/",
+    "date": "2026-11-06",
+    "snippet": "fixes a bug where the node could update its block\n  index and UTXO database after failing to flush block or undo data to disk.\n  Although the failure signaled the node to shut down, the code handling these\n  writes could still update the databases before the node stopped. If these\n  updates succeeded, the databases could record a state for which the\n  supporting block or undo data had not yet been safely saved. This could leave\n  the node's local state inconsistent and complicate recovery. The code now\n  skips those database writes during the failing flush attempt. This\n  complements earlier flush ordering protections for optional indexes covered\n  in [Newsletter #414][news414 flush]."
+  },
+  "35492": {
+    "optech_url": "https://bitcoinops.org/en/newsletters/2026/11/06/",
+    "date": "2026-11-06",
+    "snippet": "fixes a bug where `bitcoin-wallet dump` (see\n  [Newsletter #130][news130 dump]) could report success after writing an\n  incomplete wallet export. Previously, the command checked if it could open\n  the destination file but did not detect subsequent write failures, such as\n  running out of disk space. Consequently, users could mistakenly believe that\n  the export was complete, only to discover missing data when trying to restore\n  the wallet. Now, the command verifies the writing, flushing, and closing of\n  the file. It reports failures and removes incomplete dump files."
+  },
   "36665": {
     "optech_url": "https://bitcoinops.org/en/newsletters/2026/10/30/",
     "date": "2026-10-30",
-    "snippet": "fixes a [memory-exhaustion vulnerability][core tcp\n  oom] that allowed a connected peer to crash nodes running on Windows, macOS,\n  or BSD. Although Bitcoin Core pauses reads from a peer when its receive queue\n  grows too large, its `select()` socket backend continued monitoring\n  exceptional conditions. A peer could send TCP urgent data to trigger further\n  reads and bypass the queue limit. Now, exceptional conditions are only\n  monitored when reads are enabled for that socket. Linux uses a different\n  socket backend and was unaffected."
+    "snippet": "fixes a [memory-exhaustion vulnerability][core tcp\n  oom] that allowed a connected peer to crash nodes running on Windows, macOS,\n  or BSD. Although Bitcoin Core pauses reads from a peer when its receive queue\n  grows too large, its `select()` socket backend continued monitoring\n  exceptional conditions. A peer could send TCP urgent data to trigger further\n  reads and bypass the queue limit. Now, exceptional conditions are only\n  monitored when reads are enabled for that socket. Linux uses a different\n  socket backend and was unaffected. {% assign timestamp=\"3:43\" %}"
   },
   "36667": {
     "optech_url": "https://bitcoinops.org/en/newsletters/2026/10/30/",
     "date": "2026-10-30",
-    "snippet": "adds a timeout that disconnects a peer if the node's\n  send buffer for that peer exceeds its limit for more than 20 minutes,\n  mitigating [unbounded memory growth][core paused send oom]. Bitcoin Core\n  continues to queue some transaction announcements even after this limit is\n  exceeded. Typically, a ping timeout would eventually disconnect a\n  slow-reading peer. However, peers claiming a protocol version predating\n  [BIP31][] could avoid this. This would allow a malicious peer to maintain an\n  open connection while queued announcements gradually accumulate. The new\n  timeout applies regardless of the peer's protocol version. Nodes using the\n  `-blocksonly` option were much less affected."
+    "snippet": "adds a timeout that disconnects a peer if the node's\n  send buffer for that peer exceeds its limit for more than 20 minutes,\n  mitigating [unbounded memory growth][core paused send oom]. Bitcoin Core\n  continues to queue some transaction announcements even after this limit is\n  exceeded. Typically, a ping timeout would eventually disconnect a\n  slow-reading peer. However, peers claiming a protocol version predating\n  [BIP31][] could avoid this. This would allow a malicious peer to maintain an\n  open connection while queued announcements gradually accumulate. The new\n  timeout applies regardless of the peer's protocol version. Nodes using the\n  `-blocksonly` option were much less affected. {% assign timestamp=\"14:37\" %}"
   },
   "36669": {
     "optech_url": "https://bitcoinops.org/en/newsletters/2026/10/30/",
     "date": "2026-10-30",
-    "snippet": "fixes an [undo-file overflow][core undo overflow]\n  that could corrupt data needed to disconnect blocks during a reorg. Since\n  undo data can exceed the size of its corresponding block data, an undo file\n  can exceed 4 GiB and wrap its 32-bit offset, thereby overwriting earlier\n  data. A subsequent reorg could stop the node, requiring reindexing with a\n  fixed version to recover. The fix increases the file offset size to 64 bits.\n  It also uses 64-bit file positioning calls on Windows, where exceeding 2 GiB\n  could stop the node even without a reorg. Exploitation requires mining\n  thousands of specially constructed blocks. For the corruption case, it also\n  requires precisely positioning those blocks within the targeted node's block\n  files, followed by a reorg. The disclosure deems this impractical. Nodes on\n  32-bit systems or FAT32 block storage are still affected."
+    "snippet": "fixes an [undo-file overflow][core undo overflow]\n  that could corrupt data needed to disconnect blocks during a reorg. Since\n  undo data can exceed the size of its corresponding block data, an undo file\n  can exceed 4 GiB and wrap its 32-bit offset, thereby overwriting earlier\n  data. A subsequent reorg could stop the node, requiring reindexing with a\n  fixed version to recover. The fix increases the file offset size to 64 bits.\n  It also uses 64-bit file positioning calls on Windows, where exceeding 2 GiB\n  could stop the node even without a reorg. Exploitation requires mining\n  thousands of specially constructed blocks. For the corruption case, it also\n  requires precisely positioning those blocks within the targeted node's block\n  files, followed by a reorg. The disclosure deems this impractical. Nodes on\n  32-bit systems or FAT32 block storage are still affected. {% assign timestamp=\"19:02\" %}"
   },
   "36277": {
     "optech_url": "https://bitcoinops.org/en/newsletters/2026/10/09/",

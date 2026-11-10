@@ -1,5 +1,5 @@
 {
-  "display_name": "github",
+  "display_name": "GitHub",
   "github_login_final": null,
   "delving_username_final": null,
   "uuid": "auto_github",
@@ -79,12 +79,12 @@
   "is_bip_author": false,
   "global_first_active": null,
   "global_last_active": null,
-  "github_location": "Germany",
+  "github_location": null,
   "github_company": null,
   "github_bio": null,
   "github_twitter": null,
   "github_blog": null,
-  "github_followers": 13.0,
+  "github_followers": null,
   "activity_status": "",
   "is_top_50": false
 }

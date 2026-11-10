@@ -57,7 +57,7 @@
   "delving_threads": 29.0,
   "ml_responses": 0.0,
   "delving_responses": 4.0,
-  "first_active": "2026-08-14T03:14:47.387000",
+  "first_active": null,
   "last_active": null,
   "dev_type": "Participant",
   "expertise_domains": [
@@ -87,7 +87,7 @@
   "is_reviewer": false,
   "is_researcher": false,
   "is_bip_author": false,
-  "global_first_active": "2026-08-14T03:14:47.387000",
+  "global_first_active": null,
   "global_last_active": null,
   "github_location": null,
   "github_company": null,
@@ -113,7 +113,7 @@
   "social_history": {
     "2026": {
       "covenants": 4,
-      "other": 36,
+      "other": 37,
       "lightning": 6,
       "mining": 10,
       "multisig-threshold": 6,

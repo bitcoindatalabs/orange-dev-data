@@ -57,7 +57,7 @@
   "delving_threads": 10.0,
   "ml_responses": 0.0,
   "delving_responses": 4.0,
-  "first_active": "2024-05-17T16:59:00.453000",
+  "first_active": null,
   "last_active": null,
   "dev_type": "Participant",
   "expertise_domains": [
@@ -67,14 +67,14 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Mempool": 0.105,
       "L2": 0.686,
+      "Mempool": 0.105,
       "Privacy": 0.209
     }
   },
   "expertise_domain_scores": {
-    "Mempool": 0.105,
     "L2": 0.686,
+    "Mempool": 0.105,
     "Privacy": 0.209
   },
   "p2016_posts": 14.0,
@@ -87,7 +87,7 @@
   "is_reviewer": true,
   "is_researcher": false,
   "is_bip_author": false,
-  "global_first_active": "2024-05-17T16:59:00.453000",
+  "global_first_active": "2024-05-23T13:12:47",
   "global_last_active": "2024-05-24T17:10:40",
   "github_location": "New York City",
   "github_company": null,

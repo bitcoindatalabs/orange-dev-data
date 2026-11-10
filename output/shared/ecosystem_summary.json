@@ -1,69 +1,74 @@
 {
   "generated_at": "2026-11-08",
   "groups": {
-    "committers": 867,
-    "reviewers": 1403,
-    "research": 1763,
-    "standards": 163,
-    "total_active": 3348,
-    "total_registry": 4649
+    "committers": 1296,
+    "reviewers": 5366,
+    "research": 1756,
+    "standards": 160,
+    "total_active": 6667,
+    "total_registry": 7384
   },
   "venn_4": {
-    "0001": 10,
-    "0010": 1306,
-    "0011": 24,
-    "0100": 979,
-    "0101": 8,
-    "0110": 114,
-    "0111": 40,
-    "1000": 479,
-    "1001": 3,
-    "1010": 115,
-    "1011": 8,
-    "1100": 103,
-    "1101": 3,
-    "1110": 89,
-    "1111": 67
+    "0001": 9,
+    "0010": 1150,
+    "0011": 21,
+    "0100": 3902,
+    "0101": 9,
+    "0110": 237,
+    "0111": 43,
+    "1000": 108,
+    "1001": 1,
+    "1010": 11,
+    "1011": 1,
+    "1100": 882,
+    "1101": 0,
+    "1110": 217,
+    "1111": 76
   },
   "venn_summary": {
-    "code_only": 479,
-    "review_only": 979,
-    "research_only": 1306,
-    "standards_only": 10,
-    "all_four": 67,
-    "code_review": 103,
-    "review_research": 114,
-    "research_standards": 24
+    "code_only": 108,
+    "review_only": 3902,
+    "research_only": 1150,
+    "standards_only": 9,
+    "all_four": 76,
+    "code_review": 882,
+    "review_research": 237,
+    "research_standards": 21
   },
   "rd_focus": {},
   "hotspot": {
     "title": "Trending BIP Discussions",
     "value": "BIP 70"
   },
-  "spotlight": null,
+  "spotlight": {
+    "name": "Aaron Leeb",
+    "uuid": "auto_aaron_leeb",
+    "github_login": "aaron-leeb",
+    "description": "First-time core contributor recently merged PR #36613 (test: add getblockfilter test coverage for header-only blocks)."
+  },
   "onboarding": {
-    "new_coders_90d": 0,
-    "new_coders_30d": 0,
-    "new_coders_7d": 0,
+    "new_coders_90d": 31,
+    "new_coders_30d": 7,
+    "new_coders_7d": 4,
     "new_discussants_90d": 81,
     "new_discussants_7d": 19,
     "window_days": 90
   },
   "prs": {
-    "total_merged": 0,
-    "merged_30d": 0,
-    "merged_prev_30d": 0,
-    "merged_7d": 0,
-    "merged_prev_7d": 0
+    "total_merged": 17242,
+    "merged_30d": 171,
+    "merged_prev_30d": 151,
+    "merged_7d": 73,
+    "merged_prev_7d": 35
   },
   "commits": {
-    "commits_30d": 0,
-    "commits_prev_30d": 0,
-    "commits_7d": 0,
-    "commits_prev_7d": 0
+    "commits_30d": 505,
+    "commits_prev_30d": 431,
+    "commits_7d": 123,
+    "commits_prev_7d": 145
   },
   "bips": {
-    "total": 214,
+    "total": 218,
     "active_recently": 100
   },
   "discussion_pulse": {
@@ -71,14 +76,14 @@
       {
         "category": "quantum",
         "label": "Quantum",
-        "count": 105,
-        "share": 21.3
+        "count": 106,
+        "share": 21.5
       },
       {
         "category": "mining",
         "label": "Mining",
         "count": 58,
-        "share": 11.8
+        "share": 11.7
       },
       {
         "category": "p2p-network",

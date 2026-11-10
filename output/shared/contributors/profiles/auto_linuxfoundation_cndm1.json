@@ -57,7 +57,7 @@
   "delving_threads": 0.0,
   "ml_responses": 2.0,
   "delving_responses": 0.0,
-  "first_active": null,
+  "first_active": "2022-06-16T00:43:33",
   "last_active": "2022-10-13T11:07:19",
   "dev_type": "Participant",
   "expertise_domains": [
@@ -66,13 +66,13 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Mempool": 0.746,
-      "L2": 0.254
+      "L2": 0.254,
+      "Mempool": 0.746
     }
   },
   "expertise_domain_scores": {
-    "Mempool": 0.746,
-    "L2": 0.254
+    "L2": 0.254,
+    "Mempool": 0.746
   },
   "p2016_posts": 2.0,
   "modern_posts": 0.0,
@@ -84,7 +84,7 @@
   "is_reviewer": false,
   "is_researcher": true,
   "is_bip_author": false,
-  "global_first_active": null,
+  "global_first_active": "2022-06-16T00:43:33",
   "global_last_active": "2022-10-13T11:07:19",
   "github_location": null,
   "github_company": null,

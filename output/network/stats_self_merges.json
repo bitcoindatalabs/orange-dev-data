@@ -1,6 +1,28 @@
 {
-  "generated_at": "2026-11-09T02:52:00.554257+00:00",
+  "generated_at": "2026-11-10T17:27:09.149601+00:00",
   "self_merges": [
+    {
+      "maintainer_id": "can_michael_ford",
+      "maintainer_name": "Michael Ford",
+      "repository": "bitcoin/bitcoin",
+      "pr_number": 36817,
+      "url": "https://github.com/bitcoin/bitcoin/pull/36817",
+      "title": "ipc: remove pre-v14 libmultiprocess compat definitions",
+      "merged_at": "2026-11-10T15:42:25+00:00",
+      "ack_count": 1,
+      "category": "Light Review"
+    },
+    {
+      "maintainer_id": "can_michael_ford",
+      "maintainer_name": "Michael Ford",
+      "repository": "bitcoin/bitcoin",
+      "pr_number": 36609,
+      "url": "https://github.com/bitcoin/bitcoin/pull/36609",
+      "title": "ci: update some lint infra",
+      "merged_at": "2026-11-05T16:09:50+00:00",
+      "ack_count": 1,
+      "category": "Light Review"
+    },
     {
       "maintainer_id": "can_michael_ford",
       "maintainer_name": "Michael Ford",

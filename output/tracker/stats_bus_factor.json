@@ -1,6 +1,6 @@
 {
   "headline": {
-    "bus_factor": 8,
+    "bus_factor": 7,
     "window": "trailing_12_months",
     "period": "2025-11-08 to 2026-11-08",
     "top_contributors": [
@@ -9,9 +9,8 @@
       "Hennadii Stepanov",
       "L\u0151rinc",
       "Ava Chow",
-      "Hodlinator",
       "Sjors Provoost",
-      "Andrew Toth"
+      "Hodlinator"
     ],
     "basis": "authored (non-merge) bitcoin/bitcoin commits"
   },
@@ -54,7 +53,7 @@
       7,
       8,
       8,
-      8
+      7
     ],
     "total_contributors": [
       2,
@@ -74,7 +73,7 @@
       94,
       105,
       132,
-      153
+      157
     ]
   }
 }

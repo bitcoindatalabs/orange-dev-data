@@ -1,6 +1,6 @@
 {
   "display_name": "William Yager",
-  "github_login_final": null,
+  "github_login_final": "wyager",
   "delving_username_final": null,
   "uuid": "auto_william_yager",
   "badges": null,
@@ -32,32 +32,32 @@
   "avg_review_latency_days": null,
   "reviews_count": 0.0,
   "avg_approval_latency_days": null,
-  "approvals_count": null,
+  "approvals_count": 0.0,
   "tier1_reviews_count": 0.0,
   "tier2_reviews_count": 0.0,
-  "p2016_reviews_count": null,
-  "modern_reviews_count": null,
+  "p2016_reviews_count": 0.0,
+  "modern_reviews_count": 0.0,
   "first_review_date": null,
   "last_review_date": null,
-  "prs_authored": 0.0,
-  "tier1_prs_authored": 0.0,
+  "prs_authored": 1.0,
+  "tier1_prs_authored": 1.0,
   "tier2_prs_authored": 0.0,
-  "avg_pr_ack_velocity_days": null,
+  "avg_pr_ack_velocity_days": 0.009375,
   "avg_concept_lead_time_days": null,
-  "review_reciprocity": null,
-  "hybrid_score": 0.0659,
-  "p2016_hybrid_score": 0.0,
-  "modern_hybrid_score": 0.0,
-  "impact_score": 4.0,
-  "p2016_impact_score": 0.0,
-  "modern_impact_score": 0.0,
+  "review_reciprocity": 0.0,
+  "hybrid_score": 0.0805,
+  "p2016_hybrid_score": 0.0146,
+  "modern_hybrid_score": 0.0146,
+  "impact_score": 5.0,
+  "p2016_impact_score": 1.0,
+  "modern_impact_score": 1.0,
   "threads_started": 1.0,
   "replies_sent": 20.0,
   "ml_threads": 1.0,
   "delving_threads": 0.0,
   "ml_responses": 20.0,
   "delving_responses": 0.0,
-  "first_active": null,
+  "first_active": "2014-02-21T00:50:01",
   "last_active": "2014-08-23T13:22:27",
   "dev_type": "Builder",
   "expertise_domains": [
@@ -67,8 +67,8 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Ecosystem": 0.346,
-      "Wallet": 0.654
+      "Wallet": 0.654,
+      "Ecosystem": 0.346
     },
     "code": {
       "Infrastructure": 1.0
@@ -76,8 +76,8 @@
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.6,
-    "Ecosystem": 0.1384,
-    "Wallet": 0.2616
+    "Wallet": 0.2616,
+    "Ecosystem": 0.1384
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,
@@ -86,7 +86,7 @@
   "modern_ml_posts": 0.0,
   "modern_delving_posts": 0.0,
   "is_engineer": true,
-  "is_reviewer": false,
+  "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": false,
   "global_first_active": "2013-05-08T23:02:48",
@@ -99,6 +99,7 @@
   "github_followers": 307.0,
   "activity_status": "Active",
   "is_top_50": false,
+  "github_url": "https://github.com/wyager",
   "commit_history": {
     "2013": {
       "Utilities": 1.0

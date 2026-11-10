@@ -69,7 +69,7 @@
   "delving_threads": 3.0,
   "ml_responses": 2.0,
   "delving_responses": 1.0,
-  "first_active": "2026-04-02T19:03:08.065000",
+  "first_active": null,
   "last_active": null,
   "dev_type": "Participant",
   "expertise_domains": [

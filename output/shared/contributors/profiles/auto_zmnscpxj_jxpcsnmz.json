@@ -57,7 +57,7 @@
   "delving_threads": 69.0,
   "ml_responses": 0.0,
   "delving_responses": 70.0,
-  "first_active": "2023-11-08T14:45:57.141000",
+  "first_active": null,
   "last_active": null,
   "dev_type": "Participant",
   "expertise_domains": [
@@ -66,25 +66,25 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Wallet": 0.214,
-      "L2": 0.786
+      "L2": 0.786,
+      "Wallet": 0.214
     }
   },
   "expertise_domain_scores": {
-    "Wallet": 0.214,
-    "L2": 0.786
+    "L2": 0.786,
+    "Wallet": 0.214
   },
   "p2016_posts": 139.0,
-  "modern_posts": 134.0,
+  "modern_posts": 133.0,
   "p2016_ml_posts": 0.0,
   "p2016_delving_posts": 139.0,
   "modern_ml_posts": 0.0,
-  "modern_delving_posts": 134.0,
+  "modern_delving_posts": 133.0,
   "is_engineer": false,
   "is_reviewer": false,
   "is_researcher": true,
   "is_bip_author": false,
-  "global_first_active": "2023-11-08T14:45:57.141000",
+  "global_first_active": null,
   "global_last_active": null,
   "github_location": null,
   "github_company": null,

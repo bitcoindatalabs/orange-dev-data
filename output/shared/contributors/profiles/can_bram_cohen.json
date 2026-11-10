@@ -57,7 +57,7 @@
   "delving_threads": 6.0,
   "ml_responses": 67.0,
   "delving_responses": 2.0,
-  "first_active": null,
+  "first_active": "2015-11-06T19:25:53",
   "last_active": null,
   "dev_type": "Participant",
   "expertise_domains": [
@@ -81,7 +81,7 @@
   "is_reviewer": false,
   "is_researcher": true,
   "is_bip_author": false,
-  "global_first_active": null,
+  "global_first_active": "2015-11-06T19:25:53",
   "global_last_active": null,
   "github_location": null,
   "github_company": null,

@@ -57,7 +57,7 @@
   "delving_threads": 17.0,
   "ml_responses": 0.0,
   "delving_responses": 11.0,
-  "first_active": "2026-02-22T11:57:49.789000",
+  "first_active": null,
   "last_active": null,
   "dev_type": "Participant",
   "expertise_domains": [
@@ -67,15 +67,15 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Ecosystem": 0.222,
       "Privacy": 0.426,
+      "Ecosystem": 0.222,
       "Network": 0.352
     }
   },
   "expertise_domain_scores": {
-    "Ecosystem": 0.222,
     "Network": 0.352,
-    "Privacy": 0.426
+    "Privacy": 0.426,
+    "Ecosystem": 0.222
   },
   "p2016_posts": 28.0,
   "modern_posts": 28.0,
@@ -87,7 +87,7 @@
   "is_reviewer": false,
   "is_researcher": true,
   "is_bip_author": false,
-  "global_first_active": "2026-02-22T11:57:49.789000",
+  "global_first_active": null,
   "global_last_active": null,
   "github_location": null,
   "github_company": null,
@@ -95,7 +95,7 @@
   "github_twitter": null,
   "github_blog": null,
   "github_followers": null,
-  "activity_status": "New",
+  "activity_status": "Active",
   "is_top_50": false,
   "delving_url": "https://delvingbitcoin.org/u/shrec",
   "first_message": {

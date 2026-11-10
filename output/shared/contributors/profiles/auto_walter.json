@@ -1,5 +1,5 @@
 {
-  "display_name": "walter",
+  "display_name": "Walter",
   "github_login_final": null,
   "delving_username_final": null,
   "uuid": "auto_walter",
@@ -88,7 +88,7 @@
   "github_bio": null,
   "github_twitter": null,
   "github_blog": null,
-  "github_followers": 0.0,
+  "github_followers": null,
   "activity_status": "Active",
   "is_top_50": false,
   "commit_history": {

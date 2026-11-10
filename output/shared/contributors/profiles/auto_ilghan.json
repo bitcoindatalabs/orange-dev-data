@@ -57,7 +57,7 @@
   "delving_threads": 1.0,
   "ml_responses": 0.0,
   "delving_responses": 6.0,
-  "first_active": "2025-10-11T11:42:34.724000",
+  "first_active": null,
   "last_active": null,
   "dev_type": "Participant",
   "expertise_domains": [
@@ -66,13 +66,13 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Script": 0.75,
-      "Consensus": 0.25
+      "Consensus": 0.25,
+      "Script": 0.75
     }
   },
   "expertise_domain_scores": {
-    "Script": 0.75,
-    "Consensus": 0.25
+    "Consensus": 0.25,
+    "Script": 0.75
   },
   "p2016_posts": 7.0,
   "modern_posts": 7.0,
@@ -84,7 +84,7 @@
   "is_reviewer": false,
   "is_researcher": true,
   "is_bip_author": false,
-  "global_first_active": "2025-10-11T11:42:34.724000",
+  "global_first_active": null,
   "global_last_active": null,
   "github_location": null,
   "github_company": null,

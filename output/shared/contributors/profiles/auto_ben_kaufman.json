@@ -1,7 +1,7 @@
 {
   "display_name": "ben-kaufman",
   "github_login_final": "ben-kaufman",
-  "delving_username_final": null,
+  "delving_username_final": "benk10",
   "uuid": "auto_ben_kaufman",
   "badges": {
     "ecosystem_contributor": true,
@@ -32,32 +32,32 @@
   "modern_bips_authored": 0.0,
   "first_bip_date": null,
   "last_bip_date": null,
-  "avg_review_latency_days": 1.135150462962963,
-  "reviews_count": 1.0,
-  "avg_approval_latency_days": 2.105289351851852,
-  "approvals_count": 1.0,
-  "tier1_reviews_count": 0.0,
-  "tier2_reviews_count": 1.0,
-  "p2016_reviews_count": 1.0,
-  "modern_reviews_count": 1.0,
-  "first_review_date": "2025-05-14T00:09:35",
+  "avg_review_latency_days": 2129.870167824074,
+  "reviews_count": 4.0,
+  "avg_approval_latency_days": 1723.1406729497355,
+  "approvals_count": 3.0,
+  "tier1_reviews_count": 2.0,
+  "tier2_reviews_count": 2.0,
+  "p2016_reviews_count": 4.0,
+  "modern_reviews_count": 2.0,
+  "first_review_date": "2021-08-23T21:30:51",
   "last_review_date": "2025-05-15T22:43:35",
-  "prs_authored": 2.0,
-  "tier1_prs_authored": 0.0,
+  "prs_authored": 5.0,
+  "tier1_prs_authored": 3.0,
   "tier2_prs_authored": 2.0,
-  "avg_pr_ack_velocity_days": 4.48869212962963,
-  "avg_concept_lead_time_days": null,
-  "review_reciprocity": 0.5,
-  "hybrid_score": 0.1959,
-  "p2016_hybrid_score": 0.1959,
-  "modern_hybrid_score": 0.0396,
-  "impact_score": 11.0,
-  "p2016_impact_score": 11.0,
-  "modern_impact_score": 2.0,
-  "threads_started": 0.0,
+  "avg_pr_ack_velocity_days": 0.3222145061728395,
+  "avg_concept_lead_time_days": 1.1939872685185184,
+  "review_reciprocity": 0.8,
+  "hybrid_score": 0.2289,
+  "p2016_hybrid_score": 0.2289,
+  "modern_hybrid_score": 0.0615,
+  "impact_score": 13.0,
+  "p2016_impact_score": 13.0,
+  "modern_impact_score": 4.0,
+  "threads_started": 3.0,
   "replies_sent": 0.0,
   "ml_threads": 0.0,
-  "delving_threads": 0.0,
+  "delving_threads": 3.0,
   "ml_responses": 0.0,
   "delving_responses": 0.0,
   "first_active": null,
@@ -65,24 +65,30 @@
   "dev_type": "Builder",
   "expertise_domains": [
     "Wallet",
+    "Script",
     "Infrastructure"
   ],
   "expertise_by_source": {
+    "discussion": {
+      "Script": 0.25,
+      "Wallet": 0.75
+    },
     "code": {
       "Infrastructure": 0.071,
       "Wallet": 0.929
     }
   },
   "expertise_domain_scores": {
-    "Infrastructure": 0.071,
-    "Wallet": 0.929
+    "Infrastructure": 0.0426,
+    "Script": 0.1,
+    "Wallet": 0.8574
   },
-  "p2016_posts": 0.0,
-  "modern_posts": 0.0,
+  "p2016_posts": 3.0,
+  "modern_posts": 3.0,
   "p2016_ml_posts": 0.0,
-  "p2016_delving_posts": 0.0,
+  "p2016_delving_posts": 3.0,
   "modern_ml_posts": 0.0,
-  "modern_delving_posts": 0.0,
+  "modern_delving_posts": 3.0,
   "is_engineer": true,
   "is_reviewer": true,
   "is_researcher": false,
@@ -98,12 +104,36 @@
   "activity_status": "Active",
   "is_top_50": false,
   "github_url": "https://github.com/ben-kaufman",
+  "delving_url": "https://delvingbitcoin.org/u/benk10",
   "commit_history": {
     "2020": {
       "Wallet": 13.0
     },
     "2021": {
       "Documentation": 1.0
+    }
+  },
+  "first_message": {
+    "source": "delving",
+    "subject": "Re: Avoiding xpub+derivation reuse across wallets, in a UX-friendly manner",
+    "date": "2025-05-04",
+    "link": "https://delvingbitcoin.org/t/avoiding-xpub-derivation-reuse-across-wallets-in-a-ux-friendly-manner/1644/4"
+  },
+  "last_message": {
+    "source": "delving",
+    "subject": "Re: QR-based signing flow payloads in Miniscript context",
+    "date": "2026-05-29",
+    "link": "https://delvingbitcoin.org/t/qr-based-signing-flow-payloads-in-miniscript-context/2464/5"
+  },
+  "social_history": {
+    "2025": {
+      "multisig-threshold": 2,
+      "privacy": 2,
+      "wallet-keys": 2
+    },
+    "2026": {
+      "mempool-fees": 1,
+      "script-opcodes": 1
     }
   }
 }
