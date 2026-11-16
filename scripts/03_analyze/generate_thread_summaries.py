@@ -18,6 +18,7 @@ CACHE_FILE = os.path.join(ROOT_DIR, "data", "cache", "thread_summaries_cache.jso
 env_path = os.path.join(ROOT_DIR, ".env")
 load_dotenv(env_path)
 TARGET_MODEL = os.environ.get('GEMINI_TARGET_MODEL', 'gemini-2.5-flash')
+FALLBACK_MODEL = os.environ.get('GEMINI_FALLBACK_MODEL', 'gemini-3.5-flash-lite')  # gemini-2.5-flash-lite returns 404 since 2026-11
 api_keys = []
 for k, v in sorted(os.environ.items()):
     if k.startswith("GEMINI_API_KEY") and v.strip():
@@ -117,13 +118,17 @@ def run_thread_summarizer():
         result = None
         while api_key_idx < len(api_keys) and not result:
             curr_key = api_keys[api_key_idx]
-            for m in [TARGET_MODEL, "gemini-2.5-flash-lite"]:
+            for m in [TARGET_MODEL, FALLBACK_MODEL]:
                 try:
                     result = generate_llm_summary(curr_key, context, model=m)
                     if result:
                         break
                 except urllib.error.HTTPError as e:
-                    if e.code in (429, 404, 503):
+                    if e.code in (404, 503):
+                        # model gone or overloaded: try the fallback model on the same key
+                        print(f"Key {api_key_idx + 1} ({m}) HTTP {e.code}. Trying next model...")
+                        continue
+                    if e.code == 429:
                         print(f"Key {api_key_idx + 1} ({m}) HTTP {e.code}. Rotating...")
                         break
                     else:

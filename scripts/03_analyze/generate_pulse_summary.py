@@ -21,6 +21,7 @@ env_path = os.path.join(ROOT_DIR, ".env")
 load_dotenv(env_path)
 
 TARGET_MODEL = os.environ.get('GEMINI_TARGET_MODEL', 'gemini-2.5-flash')
+FALLBACK_MODEL = os.environ.get('GEMINI_FALLBACK_MODEL', 'gemini-3.5-flash-lite')  # gemini-2.5-flash-lite returns 404 since 2026-11
 api_keys = []
 for k, v in sorted(os.environ.items()):
     if k.startswith("GEMINI_API_KEY") and v.strip():
@@ -134,7 +135,7 @@ Output format (JSON):
 """
 
     for key_index, current_key in enumerate(api_keys):
-        for model in [TARGET_MODEL, "gemini-2.5-flash-lite"]:
+        for model in [TARGET_MODEL, FALLBACK_MODEL]:
             url = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent?key={current_key}"
             payload = json.dumps({
                 "contents": [{"parts": [{"text": prompt}]}],

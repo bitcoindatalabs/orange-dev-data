@@ -16,8 +16,9 @@ from scripts.utils.twib_data import get_weekly_activity
 
 def _call_gemini(api_keys, prompt, is_json=False):
     target_model = os.environ.get('GEMINI_TARGET_MODEL', 'gemini-2.5-flash')
+    fallback_model = os.environ.get('GEMINI_FALLBACK_MODEL', 'gemini-3.5-flash-lite')
     for key_index, current_key in enumerate(api_keys):
-        for model in [target_model, "gemini-2.5-flash-lite"]:
+        for model in [target_model, fallback_model]:
             url = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent?key={current_key}"
             payload = json.dumps({
                 "contents": [{"parts": [{"text": prompt}]}],

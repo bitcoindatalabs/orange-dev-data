@@ -28,6 +28,7 @@ if not api_keys:
 
 # The BEST model available for the free tier constraints
 TARGET_MODEL = os.environ.get('GEMINI_TARGET_MODEL', 'gemini-2.5-flash')
+FALLBACK_MODEL = os.environ.get('GEMINI_FALLBACK_MODEL', 'gemini-3.5-flash-lite')  # gemini-2.5-flash-lite returns 404 since 2026-11
 
 def load_cache(path):
     if os.path.exists(path):
@@ -71,8 +72,8 @@ Do NOT wrap in markdown blocks, just raw JSON.
 """
 
     models_to_try = [TARGET_MODEL]
-    if "gemini-2.5-flash-lite" not in models_to_try:
-        models_to_try.append("gemini-2.5-flash-lite")
+    if FALLBACK_MODEL not in models_to_try:
+        models_to_try.append(FALLBACK_MODEL)
 
     for key_index, current_key in enumerate(api_keys):
         for model in models_to_try:
