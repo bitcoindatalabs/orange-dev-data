@@ -167,9 +167,9 @@ Top active threads across mailing lists and research forums.
 
 ### [Should wallets default to Taproot or SegWit receive addresses while some services still reject bc1p?](https://delvingbitcoin.org/t/should-wallets-default-to-taproot-or-segwit-receive-addresses-while-some-services-still-reject-bc1p/3056/2)
 **Source:** Delving | **Started By:** {'username': 'Anzus', 'uuid': 'auto_anzus'} | **Messages:** 8
-> We're exploring ways to make receiving Bitcoin simpler and more reliable for users, aiming to prevent common errors when withdrawing funds from exchanges or other sources.
+> The community is actively working to ensure more users can benefit from Taproot's improved privacy and lower transaction fees, addressing current adoption challenges.
 
-**Technical Details:** The discussion highlights a recurring user experience issue where users encounter difficulties when copying Bitcoin receive addresses for withdrawals, likely due to address format confusion or network compatibility challenges. This points to a need for improved address validation, clearer user interface guidance, or potentially standardized mechanisms for address verification across different platforms. Solutions could involve enhanced client-side checks within wallets or better communication protocols between wallets and exchanges to mitigate user errors before transactions are initiated.
+**Technical Details:** The core technical debate revolves around making Taproot (P2TR) addresses the default for improved privacy, efficiency, and lower transaction fees. This requires addressing inconsistent support across wallets and exchanges, which currently causes user withdrawal issues due to address type incompatibility. Developers are advocating for wider default adoption and highlighting the need for accurate, up-to-date ecosystem tracking, such as on `whentaproot.org`, to reflect current service support and guide further integration efforts.
 
 ### [Decentralized Coinbase Payout Protocols (DCPP): A Framework for Discussion](https://delvingbitcoin.org/t/decentralized-coinbase-payout-protocols-dcpp-a-framework-for-discussion/3060/1)
 **Source:** Delving | **Started By:** {'username': '7d5x9', 'uuid': 'auto_7d5x9'} | **Messages:** 8
@@ -179,9 +179,9 @@ Top active threads across mailing lists and research forums.
 
 ### [Towards A K-of-N Lightning Network Node](https://delvingbitcoin.org/t/towards-a-k-of-n-lightning-network-node/2395/13)
 **Source:** Delving | **Started By:** {'username': 'ZmnSCPxj jxPCSnmZ', 'uuid': 'auto_zmnscpxj_jxpcsnmz'} | **Messages:** 6
-> We're exploring new ways to secure Lightning Network funds using shared control, making it safer and more resilient for users. This allows multiple parties to collectively manage a Lightning node, enhancing security against loss or compromise.
+> Developers are exploring ways to make Lightning Network nodes more secure and self-custodial, allowing users to better protect their funds through advanced multisignature technology.
 
-**Technical Details:** The thread explores building a k-of-n multisig self-custodial Lightning node, leveraging Nested MuSig2 for enhanced fund security. A key technical debate now focuses on the storage costs of Lightning channel state updates, specifically how Core Lightning and lnd handle these differently. This impacts the operational overhead and scalability of a multisig node, requiring optimization of state management to minimize storage requirements for a robust k-of-n setup.
+**Technical Details:** The discussion revolves around architecting a K-of-N multisignature self-custodial wallet for Lightning Network nodes, potentially utilizing the recently released Nested MuSig2 paper to enhance security and decentralization. A critical next step involves locating JPosner's original suggestion and promised explanation, which is considered foundational for understanding the proposed implementation details and architectural approach to integrating advanced multisig within Lightning.
 
 ### [[BIP Draft] Co-signer Spending Policies](https://delvingbitcoin.org/t/bip-draft-co-signer-spending-policies/2955/8)
 **Source:** Delving | **Started By:** {'username': 'nonAnon', 'uuid': 'auto_nonanon'} | **Messages:** 5
@@ -191,6 +191,9 @@ Top active threads across mailing lists and research forums.
 
 ### [[bitcoindev] BIP Draft Post-Quantum Address Format (bc1z) using ML-DSA-65](https://gnusha.org/pi/bitcoindev/9463348c-b2ec-4c6f-b9ec-2e9e2fc7d105n@googlegroups.com)
 **Source:** Mailing List | **Started By:** {'username': 'Hans Stringuer', 'uuid': 'auto_hans_stringuer'} | **Messages:** 4
+> A new proposal for quantum-resistant Bitcoin addresses is being developed to future-proof the network against potential threats from quantum computers. This aims to ensure long-term security for all users.
+
+**Technical Details:** Hans Stringuer has submitted an updated draft BIP for a quantum-resistant address format, incorporating initial feedback. A core debate centers on the urgency of deployment, with Zeeshan Ali Khan advocating for implementation *before* a Cryptographically Relevant Quantum Computer (CRQC) emerges. Murch notes extensive prior research on Post-Quantum Cryptography (PQC) for Bitcoin, suggesting the new proposal should integrate with or acknowledge existing community efforts. The architectural challenge lies in designing a robust PQC address scheme that aligns with ongoing work and addresses the timing considerations for a secure transition.
 
 ## 🏆 Contributor Shoutouts
 ### ✍️ Top Authors

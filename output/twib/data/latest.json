@@ -462,8 +462,8 @@
       },
       "link": "https://delvingbitcoin.org/t/should-wallets-default-to-taproot-or-segwit-receive-addresses-while-some-services-still-reject-bc1p/3056/2",
       "message_count": 8,
-      "summary": "We're exploring ways to make receiving Bitcoin simpler and more reliable for users, aiming to prevent common errors when withdrawing funds from exchanges or other sources.",
-      "technical_summary": "The discussion highlights a recurring user experience issue where users encounter difficulties when copying Bitcoin receive addresses for withdrawals, likely due to address format confusion or network compatibility challenges. This points to a need for improved address validation, clearer user interface guidance, or potentially standardized mechanisms for address verification across different platforms. Solutions could involve enhanced client-side checks within wallets or better communication protocols between wallets and exchanges to mitigate user errors before transactions are initiated."
+      "summary": "The community is actively working to ensure more users can benefit from Taproot's improved privacy and lower transaction fees, addressing current adoption challenges.",
+      "technical_summary": "The core technical debate revolves around making Taproot (P2TR) addresses the default for improved privacy, efficiency, and lower transaction fees. This requires addressing inconsistent support across wallets and exchanges, which currently causes user withdrawal issues due to address type incompatibility. Developers are advocating for wider default adoption and highlighting the need for accurate, up-to-date ecosystem tracking, such as on `whentaproot.org`, to reflect current service support and guide further integration efforts."
     },
     {
       "source": "Delving",
@@ -486,8 +486,8 @@
       },
       "link": "https://delvingbitcoin.org/t/towards-a-k-of-n-lightning-network-node/2395/13",
       "message_count": 6,
-      "summary": "We're exploring new ways to secure Lightning Network funds using shared control, making it safer and more resilient for users. This allows multiple parties to collectively manage a Lightning node, enhancing security against loss or compromise.",
-      "technical_summary": "The thread explores building a k-of-n multisig self-custodial Lightning node, leveraging Nested MuSig2 for enhanced fund security. A key technical debate now focuses on the storage costs of Lightning channel state updates, specifically how Core Lightning and lnd handle these differently. This impacts the operational overhead and scalability of a multisig node, requiring optimization of state management to minimize storage requirements for a robust k-of-n setup."
+      "summary": "Developers are exploring ways to make Lightning Network nodes more secure and self-custodial, allowing users to better protect their funds through advanced multisignature technology.",
+      "technical_summary": "The discussion revolves around architecting a K-of-N multisignature self-custodial wallet for Lightning Network nodes, potentially utilizing the recently released Nested MuSig2 paper to enhance security and decentralization. A critical next step involves locating JPosner's original suggestion and promised explanation, which is considered foundational for understanding the proposed implementation details and architectural approach to integrating advanced multisig within Lightning."
     },
     {
       "source": "Delving",
@@ -510,8 +510,8 @@
       },
       "link": "https://gnusha.org/pi/bitcoindev/9463348c-b2ec-4c6f-b9ec-2e9e2fc7d105n@googlegroups.com",
       "message_count": 4,
-      "summary": "",
-      "technical_summary": ""
+      "summary": "A new proposal for quantum-resistant Bitcoin addresses is being developed to future-proof the network against potential threats from quantum computers. This aims to ensure long-term security for all users.",
+      "technical_summary": "Hans Stringuer has submitted an updated draft BIP for a quantum-resistant address format, incorporating initial feedback. A core debate centers on the urgency of deployment, with Zeeshan Ali Khan advocating for implementation *before* a Cryptographically Relevant Quantum Computer (CRQC) emerges. Murch notes extensive prior research on Post-Quantum Cryptography (PQC) for Bitcoin, suggesting the new proposal should integrate with or acknowledge existing community efforts. The architectural challenge lies in designing a robust PQC address scheme that aligns with ongoing work and addresses the timing considerations for a secure transition."
     }
   ],
   "shoutouts": {
