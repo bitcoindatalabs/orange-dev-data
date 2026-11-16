@@ -1,8 +1,8 @@
 {
   "headline": {
-    "bus_factor": 7,
+    "bus_factor": 8,
     "window": "trailing_12_months",
-    "period": "2025-11-08 to 2026-11-08",
+    "period": "2025-11-15 to 2026-11-15",
     "top_contributors": [
       "MarcoFalke",
       "fanquake",
@@ -10,7 +10,8 @@
       "L\u0151rinc",
       "Ava Chow",
       "Sjors Provoost",
-      "Hodlinator"
+      "Hodlinator",
+      "Andrew Toth"
     ],
     "basis": "authored (non-merge) bitcoin/bitcoin commits"
   },
@@ -53,7 +54,7 @@
       7,
       8,
       8,
-      7
+      8
     ],
     "total_contributors": [
       2,

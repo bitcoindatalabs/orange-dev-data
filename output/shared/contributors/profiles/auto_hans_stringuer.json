@@ -1,8 +1,8 @@
 {
-  "display_name": "Anonymous_6343",
+  "display_name": "Hans Stringuer",
   "github_login_final": null,
-  "delving_username_final": "willcl-ark",
-  "uuid": "auto_6343",
+  "delving_username_final": null,
+  "uuid": "auto_hans_stringuer",
   "badges": null,
   "roles": null,
   "total_commits": 0.0,
@@ -45,44 +45,41 @@
   "avg_pr_ack_velocity_days": null,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": null,
-  "hybrid_score": 0.0,
-  "p2016_hybrid_score": 0.0,
-  "modern_hybrid_score": 0.0,
-  "impact_score": 0.0,
-  "p2016_impact_score": 0.0,
-  "modern_impact_score": 0.0,
-  "threads_started": 5.0,
-  "replies_sent": 1.0,
-  "ml_threads": 0.0,
-  "delving_threads": 5.0,
-  "ml_responses": 0.0,
-  "delving_responses": 1.0,
+  "hybrid_score": 0.0228,
+  "p2016_hybrid_score": 0.0359,
+  "modern_hybrid_score": 0.1164,
+  "impact_score": 1.0,
+  "p2016_impact_score": 2.0,
+  "modern_impact_score": 7.0,
+  "threads_started": 1.0,
+  "replies_sent": 3.0,
+  "ml_threads": 1.0,
+  "delving_threads": 0.0,
+  "ml_responses": 3.0,
+  "delving_responses": 0.0,
   "first_active": null,
   "last_active": null,
   "dev_type": "Participant",
   "expertise_domains": [
-    "Mining",
-    "Network"
+    "Cryptography"
   ],
   "expertise_by_source": {
     "discussion": {
-      "Mining": 0.561,
-      "Network": 0.439
+      "Cryptography": 1.0
     }
   },
   "expertise_domain_scores": {
-    "Mining": 0.561,
-    "Network": 0.439
+    "Cryptography": 1.0
   },
-  "p2016_posts": 6.0,
-  "modern_posts": 6.0,
-  "p2016_ml_posts": 0.0,
-  "p2016_delving_posts": 6.0,
-  "modern_ml_posts": 0.0,
-  "modern_delving_posts": 6.0,
+  "p2016_posts": 4.0,
+  "modern_posts": 4.0,
+  "p2016_ml_posts": 4.0,
+  "p2016_delving_posts": 0.0,
+  "modern_ml_posts": 4.0,
+  "modern_delving_posts": 0.0,
   "is_engineer": false,
   "is_reviewer": false,
-  "is_researcher": false,
+  "is_researcher": true,
   "is_bip_author": false,
   "global_first_active": null,
   "global_last_active": null,
@@ -92,33 +89,23 @@
   "github_twitter": null,
   "github_blog": null,
   "github_followers": null,
-  "activity_status": "",
+  "activity_status": "Active",
   "is_top_50": false,
-  "delving_url": "https://delvingbitcoin.org/u/willcl-ark",
   "first_message": {
-    "source": "delving",
-    "subject": "Re: Bitcointap: an strace-like tool for bitcoin ebpf USDT tracepoints",
-    "date": "2025-05-15",
-    "link": "https://delvingbitcoin.org/t/bitcointap-an-strace-like-tool-for-bitcoin-ebpf-usdt-tracepoints/1694/2"
+    "source": "mailing_list",
+    "subject": "[bitcoindev] BIP Draft Post-Quantum Address Format (bc1z) using ML-DSA-65",
+    "date": "2026-11-12",
+    "link": "https://gnusha.org/pi/bitcoindev/9463348c-b2ec-4c6f-b9ec-2e9e2fc7d105n@googlegroups.com"
   },
   "last_message": {
-    "source": "delving",
-    "subject": "Re: TCP hole punching for Bitcoin nodes behind home NATs?",
-    "date": "2026-05-18",
-    "link": "https://delvingbitcoin.org/t/tcp-hole-punching-for-bitcoin-nodes-behind-home-nats/2497/17"
+    "source": "mailing_list",
+    "subject": "Re: [bitcoindev] BIP Draft Post-Quantum Address Format (bc1z) using ML-DSA-65",
+    "date": "2026-11-13",
+    "link": "https://gnusha.org/pi/bitcoindev/CADrHc-2AuauYHrrgS6aXmcmJWPcE1pegDHV9HdOoQac9+GCn+w@mail.gmail.com"
   },
   "social_history": {
-    "2025": {
-      "mining": 1
-    },
     "2026": {
-      "core-dev": 2,
-      "lightning": 1,
-      "mempool-fees": 2,
-      "mining": 3,
-      "p2p-network": 2,
-      "payment-protocol": 2,
-      "security": 3
+      "quantum": 4
     }
   }
 }

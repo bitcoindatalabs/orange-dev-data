@@ -2,16 +2,16 @@
   {
     "version": "33.0",
     "status": "upcoming",
-    "last_active_date": "Nov 10, 2026",
+    "last_active_date": "Nov 12, 2026",
     "summary": "Release notes and changes for Bitcoin Core 33.0.",
-    "release_summary": "Bitcoin Core version 33.0 delivers significant advancements focused on enhancing network robustness, improving wallet and RPC usability, and bolstering core stability. Node operators will benefit from a more decentralized and resilient peer-to-peer network, alongside more efficient transaction processing. Wallet developers and users gain improved RPC interfaces with richer transaction details and faster operations, while critical safeguards have been added to protect blockchain data integrity and prevent potential node issues. This release underscores a continued commitment to the security, performance, and maintainability of the Bitcoin network.",
-    "total_prs_in_release": 117,
+    "release_summary": "Bitcoin Core version 33.0 delivers significant advancements focused on enhancing network robustness, improving wallet functionality, and bolstering overall node stability. Node operators will benefit from a more resilient and decentralized peer-to-peer network, alongside critical fixes that prevent data corruption and improve performance, particularly on Windows. Wallet developers and users gain greater transparency into transaction replacement (RBF) and faster descriptor processing, while RPC interfaces become more consistent and reliable. This release underscores a continued commitment to a secure, efficient, and user-friendly Bitcoin ecosystem by strengthening its foundational network, enhancing wallet capabilities, and improving overall operational stability.",
+    "total_prs_in_release": 128,
     "highlights": [
-      "**For Node Runners:** The peer selection logic has been refined to promote more uniform sampling within buckets, enhancing network decentralization and resilience.",
-      "**Core Stability:** Critical safeguards have been implemented to prevent blockchain data corruption by immediately ceasing operations upon block-file flush failures and to ensure stable fee estimations by preventing divide-by-zero errors.",
-      "**For Wallet Developers:** Wallet RPCs now offer more detailed information on transaction replacement (RBF) status and introduce `snake_case` aliases for various options, improving usability and consistency.",
-      "**For Node Runners:** Transaction processing efficiency is improved through more granular orphan reconsideration, and Tor connections are made more secure with enhanced validation of onion service replies.",
-      "**Core Stability:** The robustness of batch RPC calls is significantly improved by parsing each element independently, and wallet backups are made safer by explicitly failing on incomplete write operations."
+      "**For Node Runners:** The peer-to-peer network sees improvements in decentralization through more uniform peer sampling and enhanced reliability with better handling of stalled connections and Tor onion service validation.",
+      "**Core Stability:** Critical fixes prevent blockchain data corruption by immediately ceasing operations on block-file flush failures and improve stability on Windows by using exclusive P2P listen sockets and fixing memory leaks.",
+      "**For Wallet Developers:** Wallet RPCs now provide more detailed information about transaction replacement (RBF) status, and descriptor parsing is significantly faster, improving performance for complex wallet setups.",
+      "**For Wallet Users:** Wallet backup integrity is enhanced by failing dump operations on incomplete writes, and the `sendall` RPC is made more robust by rejecting duplicate or unknown inputs.",
+      "**For Developers & Testers:** A new testnet-only option, `-acceptnonstdtxn=1`, allows for broader experimentation with non-standard scripts, facilitating innovation and testing."
     ],
     "prs": [
       {
@@ -255,6 +255,22 @@
         "technical_summary": "This PR identifies and resolves a memory leak occurring in the `subprocess` module specifically on Windows platforms. The leak likely stems from improper handling or release of resources allocated for command-line arguments or process handles when spawning child processes. The fix involves ensuring that all allocated memory and system handles are correctly deallocated after subprocess execution, preventing gradual memory consumption."
       },
       {
+        "pr": "#36488",
+        "description": "rpc: wallet: Schedule mixed-case confTarget option deprecation",
+        "author": "maflcko",
+        "author_uuid": "can_marcofalke",
+        "author_name": "MarcoFalke",
+        "merge_time_days": 34,
+        "review_count": 29,
+        "categories": [
+          "Core Infrastructure",
+          "Wallet & Keys"
+        ],
+        "impact_category": "Wallet & User Tools",
+        "public_summary": "This PR schedules the deprecation of mixed-case `confTarget` options within wallet RPCs. This change aims to standardize RPC parameter naming, improving consistency and ease of use for developers and users.",
+        "technical_summary": "The PR introduces a deprecation warning for RPC calls that use mixed-case variations of the `confTarget` parameter (e.g., `confTarget` vs `conftarget`). The underlying RPC logic will still accept these mixed-case inputs for a transitional period but will log a warning, guiding users to adopt the standardized, typically lowercase, naming convention. This is a step towards enforcing stricter API consistency and simplifying future RPC development and documentation for wallet interactions."
+      },
+      {
         "pr": "#35492",
         "description": "wallet: fail dump on incomplete writes",
         "author": "OSINTv96",
@@ -299,6 +315,21 @@
         "impact_category": "Maintenance & Tech Debt",
         "public_summary": "contrib: add deterministic fuzz coverage mode",
         "technical_summary": "Technical details pending."
+      },
+      {
+        "pr": "#36068",
+        "description": "fuzz: reuse one fuzzed wallet across inputs",
+        "author": "brunoerg",
+        "author_uuid": "can_bruno_garcia",
+        "author_name": "Bruno Garcia",
+        "merge_time_days": 79,
+        "review_count": 47,
+        "categories": [
+          "Ecosystem"
+        ],
+        "impact_category": "Maintenance & Tech Debt",
+        "public_summary": "This PR optimizes the fuzzer for wallet-related code by reusing a single fuzzed wallet instance across multiple test inputs. This significantly improves the efficiency and speed of wallet fuzz testing.",
+        "technical_summary": "The wallet fuzzer harness is modified to initialize a single `CWallet` object at the start of the fuzzing process. This instance is then reused for subsequent fuzzed inputs, avoiding the overhead of repeated wallet creation and destruction. This optimization allows for a greater number of fuzzing iterations within the same timeframe, enhancing test coverage."
       },
       {
         "pr": "#35041",
@@ -511,6 +542,21 @@
         "technical_summary": "The PR adds new unit tests or extends existing ones for the `ParseHDKeypath()` function. These tests likely cover a wider range of valid and invalid HD key path strings, including different prefix types (e.g., `m/`, `M/`), hardened vs. non-hardened derivations, and various index formats. The goal is to ensure the function robustly parses and validates all expected key path syntaxes and correctly rejects malformed inputs, preventing errors in HD wallet derivation."
       },
       {
+        "pr": "#36105",
+        "description": "bitcoin wrapper: Fix Windows exec so wrapper waits for child process",
+        "author": "ryanofsky",
+        "author_uuid": "can_russell_yanofsky",
+        "author_name": "Russell Yanofsky",
+        "merge_time_days": 76,
+        "review_count": 34,
+        "categories": [
+          "Ecosystem"
+        ],
+        "impact_category": "Wallet & User Tools",
+        "public_summary": "This PR fixes an issue on Windows where the `bitcoin` wrapper script would not correctly wait for the main Bitcoin Core process to finish. This ensures proper process management and prevents orphaned processes or unexpected behavior when launching the node.",
+        "technical_summary": "The fix addresses a specific behavior of `exec` or process launching on Windows within the `bitcoin` wrapper. It modifies the wrapper's logic to correctly handle child process termination, likely by using appropriate Windows API calls (e.g., `WaitForSingleObject`) to ensure the parent wrapper process waits for the Bitcoin Core child process to exit before terminating itself. This prevents resource leaks and ensures consistent application lifecycle management."
+      },
+      {
         "pr": "#36142",
         "description": "net: validate Tor onion service replies and cached keys",
         "author": "l0rinc",
@@ -547,7 +593,7 @@
         "author_uuid": "can_marcofalke",
         "author_name": "MarcoFalke",
         "merge_time_days": 111,
-        "review_count": 89,
+        "review_count": 91,
         "categories": [
           "Core Infrastructure"
         ],
@@ -587,8 +633,8 @@
       }
     ],
     "milestone_progress": {
-      "open_prs": 10,
-      "closed_prs": 20
+      "open_prs": 11,
+      "closed_prs": 22
     }
   },
   {
@@ -782,8 +828,8 @@
         "merge_time_days": 5,
         "review_count": 30,
         "categories": [
-          "Core Infrastructure",
-          "Consensus"
+          "Consensus",
+          "Core Infrastructure"
         ],
         "impact_category": "Strategic Initiatives",
         "public_summary": "This PR adds an accessor for the wtxid (witness transaction ID) within the Bitcoin Core kernel. This provides a standardized way for kernel components to retrieve this identifier, which is crucial for SegWit-enabled transactions.",
@@ -1757,7 +1803,7 @@
         "author_uuid": "can_hennadii_stepanov",
         "author_name": "Hennadii Stepanov",
         "merge_time_days": 16,
-        "review_count": 73,
+        "review_count": 79,
         "categories": [
           "Core Infrastructure"
         ],
@@ -3156,7 +3202,7 @@
         "author_uuid": "can_marcofalke",
         "author_name": "MarcoFalke",
         "merge_time_days": 203,
-        "review_count": 98,
+        "review_count": 107,
         "categories": [
           "Core Infrastructure"
         ],
@@ -3339,8 +3385,8 @@
         "merge_time_days": 415,
         "review_count": 185,
         "categories": [
-          "Ecosystem",
-          "Wallet & Keys"
+          "Wallet & Keys",
+          "Ecosystem"
         ],
         "impact_category": "Wallet & User Tools",
         "public_summary": "This PR introduces a new RPC command, `exportwatchonlywallet`, allowing users to create a read-only copy of their wallet for monitoring purposes. This enhances user privacy and security by enabling watch-only setups without exposing private keys.",
@@ -4770,8 +4816,8 @@
         "merge_time_days": 14,
         "review_count": 69,
         "categories": [
-          "Ecosystem",
-          "P2P Network"
+          "P2P Network",
+          "Ecosystem"
         ],
         "impact_category": "Network & Privacy",
         "public_summary": "This PR fixes an issue where valid, privately broadcast transactions were sometimes incorrectly marked as stale, preventing them from being properly relayed. It ensures that transactions intended for private recipients are handled correctly and reliably.",
@@ -4837,8 +4883,8 @@
         "merge_time_days": 5,
         "review_count": 50,
         "categories": [
-          "Ecosystem",
-          "P2P Network"
+          "P2P Network",
+          "Ecosystem"
         ],
         "impact_category": "Network & Privacy",
         "public_summary": "This PR enhances network connectivity by ensuring that explicitly overridden proxy settings are correctly utilized during reconnections between different peer protocol versions. It improves the node's ability to maintain a robust connection, especially for users behind proxies.",
@@ -4916,7 +4962,7 @@
     "last_active_date": "Apr 22, 2026",
     "summary": "Release notes and changes for Bitcoin Core 31.0.",
     "release_summary": "Bitcoin Core 31.0 introduces a foundational overhaul of its mempool, implementing the \"cluster mempool\" design to significantly enhance transaction selection, RBF validation, and overall network efficiency for node operators and miners. This release also prioritizes user privacy with new capabilities to broadcast transactions exclusively over anonymity networks like Tor or I2P. Furthermore, node performance is boosted through an increased default database cache, while wallet developers gain advanced features with integrated MuSig2 support and a new C-language kernel API for greater modularity and external integration.",
-    "total_prs_in_release": 603,
+    "total_prs_in_release": 604,
     "highlights": [
       "**For Node Runners & Miners:** The mempool has been entirely reimplemented with a \"cluster mempool\" design, significantly improving transaction selection, RBF validation, and block template construction by grouping related transactions.",
       "**For Users & Privacy Advocates:** A new `-privatebroadcast` option allows transactions to be broadcast exclusively over Tor or I2P, enhancing privacy by preventing IP address linkage and ensuring unlinkability between separate transactions.",
@@ -4947,7 +4993,7 @@
         "author_uuid": "can_martin_zumsande",
         "author_name": "Martin Zumsande",
         "merge_time_days": 223,
-        "review_count": 56,
+        "review_count": 69,
         "categories": [
           "P2P Network"
         ],
@@ -5075,6 +5121,21 @@
         "impact_category": "Wallet & User Tools",
         "public_summary": "This PR improves the documentation and understanding of how Bitcoin Core's wallet selects coins for transactions, specifically regarding filters that manage UTXO consolidation to protect user privacy. It helps users and developers better comprehend and utilize the privacy features of coin selection.",
         "technical_summary": "This PR updates internal comments, `doc/wallet-coin-selection.md`, or potentially RPC help strings to clarify the logic behind coin selection algorithms, especially those that aim to prevent 'cluster' merging (i.e., linking UTXOs from different addresses/sources). It explains how filters like `avoid_partial_spends` or `cluster_avoidance` interact with the branch-and-bound or other coin selection strategies to minimize address linking and improve UTXO privacy and fungibility. This enhancement makes the wallet's privacy-focused behavior more transparent."
+      },
+      {
+        "pr": "#32517",
+        "description": "rpc: add \"ischange: true\" to decoded tx outputs in wallet gettransaction response",
+        "author": "pinheadmz",
+        "author_uuid": "auto_matthew_zipkin",
+        "author_name": "Matthew Zipkin",
+        "merge_time_days": 179,
+        "review_count": 29,
+        "categories": [
+          "Core Infrastructure"
+        ],
+        "impact_category": "Wallet & User Tools",
+        "public_summary": "This PR improves the `gettransaction` RPC response by explicitly labeling change outputs from the wallet. This makes it easier for users and applications to understand their transaction details and manage UTXOs.",
+        "technical_summary": "This PR enhances the `gettransaction` RPC by adding an `\"ischange\": true` field to `decoded` transaction output objects that are identified as internal change addresses belonging to the wallet. The modification involves checking the output script against the wallet's internal address book to determine if it's a known change output. This provides clearer programmatic insight into the wallet's UTXO management strategy within RPC responses."
       },
       {
         "pr": "#34458",
@@ -5656,8 +5717,8 @@
         "merge_time_days": 12,
         "review_count": 17,
         "categories": [
-          "Mempool & Fees",
-          "Core Infrastructure"
+          "Core Infrastructure",
+          "Mempool & Fees"
         ],
         "impact_category": "Maintenance & Tech Debt",
         "public_summary": "This PR performs a minor code cleanup in the transaction graph component by removing an unnecessary move assignment operator. This refactoring improves code clarity and maintainability.",
@@ -5867,8 +5928,8 @@
         "merge_time_days": 5,
         "review_count": 32,
         "categories": [
-          "Mempool & Fees",
-          "Core Infrastructure"
+          "Core Infrastructure",
+          "Mempool & Fees"
         ],
         "impact_category": "Wallet & User Tools",
         "public_summary": "This PR provides new information through logs and RPC calls about how optimally transactions are structured within the mempool. This gives miners and users better insight into transaction selection, helping them make more informed decisions about fees and block inclusion.",
@@ -5903,6 +5964,21 @@
         "impact_category": "Maintenance & Tech Debt",
         "public_summary": "This significant update expands the test coverage for MuSig functionality within the wallet. It enhances the reliability and robustness of MuSig operations by verifying various scenarios.",
         "technical_summary": "This PR substantially increases the unit and functional test coverage for the Bitcoin Core wallet's MuSig implementation. It adds new test cases to validate different aspects of MuSig, including key generation, partial signing, aggregate signing, and verification processes under various configurations and edge cases. This comprehensive testing improves the overall confidence in the wallet's MuSig functionality, ensuring its correctness and resilience against potential bugs or misconfigurations during real-world usage."
+      },
+      {
+        "pr": "#33785",
+        "description": "util: Allow `Assert` (et al.) in contexts without __func__",
+        "author": "maflcko",
+        "author_uuid": "can_marcofalke",
+        "author_name": "MarcoFalke",
+        "merge_time_days": 5,
+        "review_count": 33,
+        "categories": [
+          "Core Infrastructure"
+        ],
+        "impact_category": "Maintenance & Tech Debt",
+        "public_summary": "This PR enhances Bitcoin Core's internal assertion utilities, allowing them to be used in a wider range of code contexts. This makes the `Assert` macro more flexible and robust for developers, improving code quality and debugging capabilities.",
+        "technical_summary": "The `Assert` family of macros typically relies on the `__func__` predefined identifier to include the current function's name in error messages. However, `__func__` might not be available or appropriate in certain C++ contexts, such as global scope, within certain lambda expressions, or when using specific compiler versions/flags. This PR modifies the assertion macros to gracefully handle these situations, potentially by providing a fallback (e.g., an empty string or a generic identifier) when `__func__` is unavailable. This ensures the assertions can be used consistently across the codebase without compilation issues, improving developer experience and internal code quality."
       },
       {
         "pr": "#32380",
@@ -6214,8 +6290,8 @@
         "merge_time_days": 703,
         "review_count": 554,
         "categories": [
-          "Ecosystem",
-          "P2P Network"
+          "P2P Network",
+          "Ecosystem"
         ],
         "impact_category": "Network & Privacy",
         "public_summary": "This PR significantly enhances user privacy by ensuring that your own transactions are broadcast only through anonymity networks like Tor or I2P. This makes it much harder to link your IP address to your transaction activity.",
@@ -6831,8 +6907,8 @@
         "merge_time_days": 14,
         "review_count": 46,
         "categories": [
-          "Ecosystem",
-          "P2P Network"
+          "P2P Network",
+          "Ecosystem"
         ],
         "impact_category": "Network & Privacy",
         "public_summary": "This PR refines the network logging for private transaction broadcasts, reducing unnecessary output during normal operation. It also adds warnings for debug logs, improving the clarity and efficiency of Bitcoin Core's network diagnostics.",
@@ -7554,8 +7630,8 @@
         "merge_time_days": 41,
         "review_count": 81,
         "categories": [
-          "Mempool & Fees",
-          "Consensus"
+          "Consensus",
+          "Mempool & Fees"
         ],
         "impact_category": "Strategic Initiatives",
         "public_summary": "This foundational PR introduces the 'Cluster mempool' feature, a significant architectural change to how Bitcoin Core manages unconfirmed transactions. It aims to improve transaction propagation, fee estimation, and overall mempool efficiency by grouping related transactions.",
@@ -7665,6 +7741,21 @@
         "impact_category": "Security & Consensus",
         "public_summary": "This PR corrects a subtle bug in how Bitcoin Core resolves ties when loading conflicting block chains from disk and adds comprehensive tests for this critical logic. This ensures the node always selects the correct chain under specific edge-case conditions, improving network robustness.",
         "technical_summary": "The fix addresses an issue in the chain selection logic (e.g., in `CChainState` or `CBlockIndex` comparisons) that could lead to an incorrect tie-breaking decision when two chains have the same work and are reloaded from `chainstate.dat`. New unit tests validate the corrected behavior across various tie-breaking scenarios, ensuring that `GetBlockProof` and `nSequenceId` are correctly used to determine the best chain."
+      },
+      {
+        "pr": "#33820",
+        "description": "kernel: trim Chain interface",
+        "author": "stickies-v",
+        "author_uuid": "auto_stickies_v",
+        "author_name": "stickies-v",
+        "merge_time_days": 3,
+        "review_count": 22,
+        "categories": [
+          "Consensus"
+        ],
+        "impact_category": "Strategic Initiatives",
+        "public_summary": "This PR simplifies the `Chain` interface within Bitcoin Core's kernel, making it more focused and easier for developers to interact with blockchain data. This improves the modularity and maintainability of core components.",
+        "technical_summary": "The `Chain` interface, a key abstraction within the `libbitcoin_kernel` for accessing blockchain data and functionality, has been 'trimmed.' This process typically involves removing methods that are redundant, overly specific, or can be derived from existing functions. The objective is to reduce the interface's API surface, enhancing its cohesiveness, simplifying its implementation, and furthering the modularity goals of the kernel project."
       },
       {
         "pr": "#33489",
@@ -10943,8 +11034,8 @@
         "merge_time_days": 213,
         "review_count": 37,
         "categories": [
-          "Mempool & Fees",
-          "Core Infrastructure"
+          "Core Infrastructure",
+          "Mempool & Fees"
         ],
         "impact_category": "Maintenance & Tech Debt",
         "public_summary": "This PR adds documentation to explain a specific edge case in Bitcoin Core's fee estimation algorithm. It helps users and developers understand situations where fee estimates might not behave as expected, improving transparency.",
@@ -11708,8 +11799,8 @@
         "merge_time_days": 8,
         "review_count": 26,
         "categories": [
-          "Ecosystem",
-          "Wallet & Keys"
+          "Wallet & Keys",
+          "Ecosystem"
         ],
         "impact_category": "Maintenance & Tech Debt",
         "public_summary": "This PR resolves bugs that were introduced during a previous backport operation into the 29.x development series. It ensures intended fixes are properly integrated without introducing new regressions, maintaining the integrity of the 29.x branch.",
@@ -13093,8 +13184,8 @@
         "merge_time_days": 1093,
         "review_count": 302,
         "categories": [
-          "Core Infrastructure",
           "Script & Covenants",
+          "Core Infrastructure",
           "Wallet & Keys"
         ],
         "impact_category": "Wallet & User Tools",
@@ -13411,8 +13502,8 @@
         "merge_time_days": 22,
         "review_count": 141,
         "categories": [
-          "Core Infrastructure",
-          "Consensus"
+          "Consensus",
+          "Core Infrastructure"
         ],
         "impact_category": "Wallet & User Tools",
         "public_summary": "This PR enhances the `getmininginfo` RPC command by adding the current mining difficulty target and details about the next block. This provides more comprehensive and useful information for miners and anyone monitoring the network's mining status.",
@@ -13968,8 +14059,8 @@
         "merge_time_days": 11,
         "review_count": 59,
         "categories": [
-          "Core Infrastructure",
-          "Script & Covenants"
+          "Script & Covenants",
+          "Core Infrastructure"
         ],
         "impact_category": "Maintenance & Tech Debt",
         "public_summary": "This PR significantly improves the documentation for the `asmap-tool`, providing clearer instructions and explanations for its commands. Better documentation helps users and network operators more effectively utilize this tool to improve P2P network privacy and resilience.",
@@ -14872,8 +14963,8 @@
         "merge_time_days": 1,
         "review_count": 38,
         "categories": [
-          "Mempool & Fees",
-          "Ecosystem"
+          "Ecosystem",
+          "Mempool & Fees"
         ],
         "impact_category": "Security & Consensus",
         "public_summary": "This PR corrects a critical bug in transaction validation by using the witness transaction ID (wtxid) instead of the traditional transaction ID (txid) when checking ephemeral spends. This ensures proper validation of transactions with segregated witness data.",
@@ -15149,8 +15240,8 @@
         "merge_time_days": 14,
         "review_count": 221,
         "categories": [
-          "Mempool & Fees",
-          "Ecosystem"
+          "Ecosystem",
+          "Mempool & Fees"
         ],
         "impact_category": "Network & Privacy",
         "public_summary": "This PR lowers the default minimum transaction fees for block inclusion, incremental relay, and minimum relay policies. This makes transactions cheaper to send and relay, improving transaction accessibility and network throughput during less congested times.",
@@ -15291,7 +15382,7 @@
         "author_uuid": "can_martin_zumsande",
         "author_name": "Martin Zumsande",
         "merge_time_days": 38,
-        "review_count": 50,
+        "review_count": 61,
         "categories": [
           "P2P Network"
         ],
@@ -15887,8 +15978,8 @@
         "merge_time_days": 6,
         "review_count": 52,
         "categories": [
-          "Core Infrastructure",
-          "Consensus"
+          "Consensus",
+          "Core Infrastructure"
         ],
         "impact_category": "Performance & Optimization",
         "public_summary": "This PR refactors block validation functions to use `std::span` instead of `std::vector` for passing block headers, improving performance and reducing memory allocations. This is a crucial optimization for efficient block processing.",
@@ -16248,8 +16339,8 @@
         "merge_time_days": 124,
         "review_count": 57,
         "categories": [
-          "Ecosystem",
-          "P2P Network"
+          "P2P Network",
+          "Ecosystem"
         ],
         "impact_category": "Maintenance & Tech Debt",
         "public_summary": "This PR fixes an issue with file descriptor accounting during the Bitcoin Core initialization process. This improvement ensures proper resource management, enhancing the node's stability and preventing potential resource exhaustion issues.",
@@ -16730,8 +16821,8 @@
         "review_count": 43,
         "categories": [
           "Core Infrastructure",
-          "Ecosystem",
-          "Wallet & Keys"
+          "Wallet & Keys",
+          "Ecosystem"
         ],
         "impact_category": "Performance & Optimization",
         "public_summary": "This PR optimizes the transaction signing process by eliminating redundant signature verifications. This change makes transaction signing more efficient and introduces benchmarks to help track and improve future performance.",
@@ -17453,8 +17544,8 @@
         "review_count": 91,
         "categories": [
           "Core Infrastructure",
-          "Ecosystem",
-          "Wallet & Keys"
+          "Wallet & Keys",
+          "Ecosystem"
         ],
         "impact_category": "Wallet & User Tools",
         "public_summary": "This PR improves how addresses are displayed when interacting with external signers, such as hardware wallets. It ensures that addresses are presented clearly and accurately to the user, enhancing security and user experience during transaction signing.",
@@ -18463,8 +18554,8 @@
         "merge_time_days": 569,
         "review_count": 125,
         "categories": [
-          "Ecosystem",
-          "P2P Network"
+          "P2P Network",
+          "Ecosystem"
         ],
         "impact_category": "Performance & Optimization",
         "public_summary": "This PR significantly improves network processing performance by reducing contention on the critical `cs_main` lock during block reading. This allows the node to process incoming blocks more efficiently without blocking other operations.",
@@ -19235,8 +19326,8 @@
         "merge_time_days": 6,
         "review_count": 14,
         "categories": [
-          "Core Infrastructure",
-          "Consensus"
+          "Consensus",
+          "Core Infrastructure"
         ],
         "impact_category": "Maintenance & Tech Debt",
         "public_summary": "This PR corrects misleading comments related to block index validation, improving the clarity and accuracy of the codebase. More precise comments help developers better interpret critical validation logic.",
@@ -20320,8 +20411,8 @@
         "merge_time_days": 4,
         "review_count": 54,
         "categories": [
-          "Mempool & Fees",
-          "Core Infrastructure"
+          "Core Infrastructure",
+          "Mempool & Fees"
         ],
         "impact_category": "Maintenance & Tech Debt",
         "public_summary": "This PR adds logging for the mempool loading process, providing better visibility into the startup phase of Bitcoin Core. This helps users and operators monitor node initialization and diagnose potential delays.",
@@ -21439,8 +21530,8 @@
         "merge_time_days": 357,
         "review_count": 232,
         "categories": [
-          "Ecosystem",
-          "Wallet & Keys"
+          "Wallet & Keys",
+          "Ecosystem"
         ],
         "impact_category": "Wallet & User Tools",
         "public_summary": "This PR introduces the capability to bump the feerate of unconfirmed ancestor transactions, allowing users to accelerate transactions stuck due to low fees. This feature significantly improves the user experience for getting important transactions confirmed more reliably in a dynamic fee environment.",
@@ -21815,8 +21906,8 @@
         "merge_time_days": 3,
         "review_count": 17,
         "categories": [
-          "Mempool & Fees",
-          "Core Infrastructure"
+          "Core Infrastructure",
+          "Mempool & Fees"
         ],
         "impact_category": "Maintenance & Tech Debt",
         "public_summary": "This PR introduces internal code refactorings to improve the modularity and structural organization of the Bitcoin Core codebase. These changes are foundational steps towards evaluating and potentially adopting a 'subpackage' architecture for better long-term maintainability.",
@@ -22148,8 +22239,8 @@
         "merge_time_days": 34,
         "review_count": 75,
         "categories": [
-          "Ecosystem",
-          "Consensus"
+          "Consensus",
+          "Ecosystem"
         ],
         "impact_category": "Security & Consensus",
         "public_summary": "This critical security fix addresses a bug where UTXOs could temporarily 'disappear' during transaction package validation, preventing unexpected behavior and ensuring mempool consistency. It fortifies the integrity of transaction processing and relay within the network.",
@@ -22375,8 +22466,8 @@
         "merge_time_days": 93,
         "review_count": 144,
         "categories": [
-          "Mempool & Fees",
-          "Ecosystem"
+          "Ecosystem",
+          "Mempool & Fees"
         ],
         "impact_category": "Wallet & User Tools",
         "public_summary": "This PR refines how the fee estimator receives updates, enhancing its accuracy and responsiveness to dynamic network conditions. It leads to more precise fee recommendations for users, improving transaction confirmation predictability.",
@@ -22481,8 +22572,8 @@
         "merge_time_days": 7,
         "review_count": 64,
         "categories": [
-          "Mempool & Fees",
-          "Ecosystem"
+          "Ecosystem",
+          "Mempool & Fees"
         ],
         "impact_category": "Security & Consensus",
         "public_summary": "This PR fixes a critical bug where virtual size limits for transaction packages were not properly enforced, preventing potential denial-of-service vectors. It significantly enhances the security and reliability of transaction processing within the mempool.",
@@ -22951,8 +23042,8 @@
         "merge_time_days": 47,
         "review_count": 44,
         "categories": [
-          "Mempool & Fees",
-          "Core Infrastructure"
+          "Core Infrastructure",
+          "Mempool & Fees"
         ],
         "impact_category": "Wallet & User Tools",
         "public_summary": "This PR introduces a new RPC command, `getprioritisedtransactions`, allowing users to inspect transactions with manual fee adjustments, and optimizes mempool internal data structures. This improves transparency and efficiency for fee management.",
@@ -24211,8 +24302,8 @@
         "merge_time_days": 6,
         "review_count": 17,
         "categories": [
-          "Mempool & Fees",
-          "Core Infrastructure"
+          "Core Infrastructure",
+          "Mempool & Fees"
         ],
         "impact_category": "Maintenance & Tech Debt",
         "public_summary": "refactor: Move `txmempool_entry.h` --> `kernel/mempool_entry.h`",
@@ -24319,8 +24410,8 @@
         "merge_time_days": 36,
         "review_count": 47,
         "categories": [
-          "Ecosystem",
-          "Consensus"
+          "Consensus",
+          "Ecosystem"
         ],
         "impact_category": "Wallet & User Tools",
         "public_summary": "This bugfix enhances the clarity of error messages returned when a transaction is rejected by the mempool, providing users and developers with more precise reasons for rejection. This improves debugging and user feedback for invalid transactions.",
@@ -24395,8 +24486,8 @@
         "merge_time_days": 74,
         "review_count": 50,
         "categories": [
-          "Mempool & Fees",
-          "Ecosystem"
+          "Ecosystem",
+          "Mempool & Fees"
         ],
         "impact_category": "Performance & Optimization",
         "public_summary": "This PR reduces the default memory pool size for nodes operating in `-blocksonly` mode. This conserves system resources for users who prioritize block syncing over transaction relay, making the mode more resource-efficient.",
@@ -24848,8 +24939,8 @@
         "merge_time_days": 386,
         "review_count": 169,
         "categories": [
-          "Core Infrastructure",
-          "Script & Covenants"
+          "Script & Covenants",
+          "Core Infrastructure"
         ],
         "impact_category": "Maintenance & Tech Debt",
         "public_summary": "This PR adds crucial support for signing transactions using Miniscript descriptors, simplifying the use of complex spending conditions. This enables users and wallets to more easily and securely manage funds locked with advanced Miniscript policies.",
@@ -25771,9 +25862,9 @@
         "merge_time_days": 425,
         "review_count": 92,
         "categories": [
-          "Mempool & Fees",
+          "Consensus",
           "Core Infrastructure",
-          "Consensus"
+          "Mempool & Fees"
         ],
         "impact_category": "Maintenance & Tech Debt",
         "public_summary": "This PR refactors the `CheckSequenceLocksAtTip()` function by extracting its calculation logic, improving code clarity and testability. This makes the codebase easier to understand and reduces potential for future bugs.",
@@ -26317,8 +26408,8 @@
         "review_count": 28,
         "categories": [
           "Core Infrastructure",
-          "Ecosystem",
-          "Wallet & Keys"
+          "Wallet & Keys",
+          "Ecosystem"
         ],
         "impact_category": "Maintenance & Tech Debt",
         "public_summary": "This PR fixes a critical bug preventing wallets from correctly signing `multi_a` and `rawtr` scripts when only the corresponding keys are present. This enhances the reliability and compatibility of Bitcoin Core's wallet functionality for advanced script types.",
@@ -26714,9 +26805,9 @@
         "merge_time_days": 4,
         "review_count": 42,
         "categories": [
-          "Mempool & Fees",
+          "Consensus",
           "Core Infrastructure",
-          "Consensus"
+          "Mempool & Fees"
         ],
         "impact_category": "Maintenance & Tech Debt",
         "public_summary": "refactor: move policy constants to policy",
@@ -27172,8 +27263,8 @@
         "merge_time_days": 1144,
         "review_count": 315,
         "categories": [
-          "Ecosystem",
-          "Consensus"
+          "Consensus",
+          "Ecosystem"
         ],
         "impact_category": "Maintenance & Tech Debt",
         "public_summary": "Improve runtime performance of --reindex",
@@ -27218,8 +27309,8 @@
         "merge_time_days": 268,
         "review_count": 162,
         "categories": [
-          "Ecosystem",
-          "P2P Network"
+          "P2P Network",
+          "Ecosystem"
         ],
         "impact_category": "Performance & Optimization",
         "public_summary": "This PR reduces resource usage for inbound block-relay-only connections, improving the efficiency and scalability of the Bitcoin Core node. It optimizes how the node handles peers primarily focused on receiving blocks.",
@@ -27266,8 +27357,8 @@
         "merge_time_days": 106,
         "review_count": 35,
         "categories": [
-          "Core Infrastructure",
-          "Consensus"
+          "Consensus",
+          "Core Infrastructure"
         ],
         "impact_category": "Maintenance & Tech Debt",
         "public_summary": "This PR removes an unused or redundant constant related to transaction locktime calculations, streamlining the codebase. This cleanup reduces technical debt by removing unnecessary definitions without altering any consensus rules or transaction validation behavior.",
@@ -27388,8 +27479,8 @@
         "merge_time_days": 135,
         "review_count": 51,
         "categories": [
-          "Core Infrastructure",
-          "Consensus"
+          "Consensus",
+          "Core Infrastructure"
         ],
         "impact_category": "Maintenance & Tech Debt",
         "public_summary": "This PR enhances code safety by ensuring that new soft fork deployment fields are always initialized. It prevents potential undefined behavior and improves software robustness.",
@@ -27496,8 +27587,8 @@
         "merge_time_days": 336,
         "review_count": 186,
         "categories": [
-          "Core Infrastructure",
           "Script & Covenants",
+          "Core Infrastructure",
           "Wallet & Keys"
         ],
         "impact_category": "Strategic Initiatives",
@@ -27513,8 +27604,8 @@
         "merge_time_days": 83,
         "review_count": 78,
         "categories": [
-          "Ecosystem",
-          "Consensus"
+          "Consensus",
+          "Ecosystem"
         ],
         "impact_category": "Maintenance & Tech Debt",
         "public_summary": "assumeutxo: snapshot initialization",
@@ -27545,8 +27636,8 @@
         "merge_time_days": 23,
         "review_count": 39,
         "categories": [
-          "Mempool & Fees",
-          "Core Infrastructure"
+          "Core Infrastructure",
+          "Mempool & Fees"
         ],
         "impact_category": "Maintenance & Tech Debt",
         "public_summary": "refactor: mempool: use CTxMemPool::Limits",
@@ -27591,9 +27682,9 @@
         "merge_time_days": 372,
         "review_count": 241,
         "categories": [
+          "Consensus",
           "Core Infrastructure",
-          "Ecosystem",
-          "Consensus"
+          "Ecosystem"
         ],
         "impact_category": "Maintenance & Tech Debt",
         "public_summary": "Improve Indices on pruned nodes via prune blockers",
@@ -28122,8 +28213,8 @@
         "merge_time_days": 170,
         "review_count": 116,
         "categories": [
-          "Core Infrastructure",
-          "Script & Covenants"
+          "Script & Covenants",
+          "Core Infrastructure"
         ],
         "impact_category": "Maintenance & Tech Debt",
         "public_summary": "Miniscript support in Output Descriptors",
@@ -28199,8 +28290,8 @@
         "merge_time_days": 147,
         "review_count": 18,
         "categories": [
-          "Core Infrastructure",
-          "Consensus"
+          "Consensus",
+          "Core Infrastructure"
         ],
         "impact_category": "Maintenance & Tech Debt",
         "public_summary": "doc: Clarify that CheckSequenceLocksAtTip is a validation function",
@@ -28396,8 +28487,8 @@
         "merge_time_days": 67,
         "review_count": 38,
         "categories": [
-          "Core Infrastructure",
-          "Consensus"
+          "Consensus",
+          "Core Infrastructure"
         ],
         "impact_category": "Maintenance & Tech Debt",
         "public_summary": "refactor: Replace m_params with chainman.GetParams()",
@@ -28502,9 +28593,9 @@
         "merge_time_days": 100,
         "review_count": 84,
         "categories": [
+          "Script & Covenants",
           "Core Infrastructure",
-          "Ecosystem",
-          "Script & Covenants"
+          "Ecosystem"
         ],
         "impact_category": "Maintenance & Tech Debt",
         "public_summary": "build: don't compress macOS DMG",
@@ -28699,8 +28790,8 @@
         "merge_time_days": 3,
         "review_count": 21,
         "categories": [
-          "Mempool & Fees",
-          "Core Infrastructure"
+          "Core Infrastructure",
+          "Mempool & Fees"
         ],
         "impact_category": "Maintenance & Tech Debt",
         "public_summary": "mempool clean up: replace update_* structs with lambdas",
@@ -28882,8 +28973,8 @@
         "merge_time_days": 236,
         "review_count": 64,
         "categories": [
-          "Mempool & Fees",
-          "Core Infrastructure"
+          "Core Infrastructure",
+          "Mempool & Fees"
         ],
         "impact_category": "Security & Consensus",
         "public_summary": "This PR fixes a critical bug in the `prioritisetransaction` RPC, preventing potential signed integer overflows. This ensures reliable and accurate transaction prioritization within the mempool.",
@@ -29126,8 +29217,8 @@
         "merge_time_days": 102,
         "review_count": 61,
         "categories": [
-          "Ecosystem",
-          "Consensus"
+          "Consensus",
+          "Ecosystem"
         ],
         "impact_category": "Maintenance & Tech Debt",
         "public_summary": "This PR resolves a critical data race issue that could lead to corrupt or inconsistent responses from Bitcoin Core's REST interface regarding the chain tip. It significantly improves the reliability and accuracy of chain tip information provided by the node, especially under concurrent access.",
@@ -29524,8 +29615,8 @@
         "merge_time_days": 336,
         "review_count": 46,
         "categories": [
-          "Core Infrastructure",
           "Script & Covenants",
+          "Core Infrastructure",
           "Wallet & Keys"
         ],
         "impact_category": "Maintenance & Tech Debt",
@@ -29648,8 +29739,8 @@
         "merge_time_days": 53,
         "review_count": 37,
         "categories": [
-          "Ecosystem",
-          "Consensus"
+          "Consensus",
+          "Ecosystem"
         ],
         "impact_category": "Maintenance & Tech Debt",
         "public_summary": "This PR improves memory management by giving `m_block_index` explicit ownership of `CBlockIndex` objects. This prevents memory leaks and enhances the reliability of the blockchain's in-memory index.",
@@ -29801,8 +29892,8 @@
         "merge_time_days": 325,
         "review_count": 157,
         "categories": [
-          "Core Infrastructure",
-          "Script & Covenants"
+          "Script & Covenants",
+          "Core Infrastructure"
         ],
         "impact_category": "Maintenance & Tech Debt",
         "public_summary": "script: add script to generate example bitcoin.conf",
@@ -29941,8 +30032,8 @@
         "merge_time_days": 73,
         "review_count": 57,
         "categories": [
-          "Ecosystem",
-          "Wallet & Keys"
+          "Wallet & Keys",
+          "Ecosystem"
         ],
         "impact_category": "Maintenance & Tech Debt",
         "public_summary": "wallet: Save wallet scan progress",
@@ -29972,9 +30063,9 @@
         "merge_time_days": 91,
         "review_count": 129,
         "categories": [
+          "Consensus",
           "Core Infrastructure",
-          "Ecosystem",
-          "Consensus"
+          "Ecosystem"
         ],
         "impact_category": "Maintenance & Tech Debt",
         "public_summary": "[kernel 2a/n] Split hashing/index `GetUTXOStats` codepaths, decouple from `coinstatsindex`",
@@ -30273,8 +30364,8 @@
         "merge_time_days": 5,
         "review_count": 34,
         "categories": [
-          "Core Infrastructure",
-          "Consensus"
+          "Consensus",
+          "Core Infrastructure"
         ],
         "impact_category": "Performance & Optimization",
         "public_summary": "This PR optimizes the script validation process for CHECKSIGADD operations. It improves the performance of transaction and block validation, especially for complex Taproot scripts.",
@@ -30459,8 +30550,8 @@
         "merge_time_days": 45,
         "review_count": 120,
         "categories": [
-          "Ecosystem",
-          "P2P Network"
+          "P2P Network",
+          "Ecosystem"
         ],
         "impact_category": "Network & Privacy",
         "public_summary": "This PR integrates full support for the CJDNS network protocol, enabling Bitcoin Core nodes to connect and operate over the encrypted IPv6 CJDNS network. This enhances network diversity and offers an alternative, more private connection method for Bitcoin nodes.",
@@ -30936,8 +31027,8 @@
         "merge_time_days": 23,
         "review_count": 37,
         "categories": [
-          "Core Infrastructure",
-          "Consensus"
+          "Consensus",
+          "Core Infrastructure"
         ],
         "impact_category": "Maintenance & Tech Debt",
         "public_summary": "This PR moves the `amount.h` header file, which defines the `CAmount` type, into the `consensus` directory. This clarifies that `CAmount` is a fundamental consensus-critical data type, improving architectural clarity and reinforcing the strict boundaries of consensus code.",
@@ -31141,8 +31232,8 @@
         "merge_time_days": 363,
         "review_count": 200,
         "categories": [
-          "Core Infrastructure",
-          "Consensus"
+          "Consensus",
+          "Core Infrastructure"
         ],
         "impact_category": "Maintenance & Tech Debt",
         "public_summary": "This PR introduces a new RPC command or internal mechanism to report the deployment status of soft forks. This provides users and developers with clearer, programmatic information on the activation progress of network upgrades.",
@@ -31326,8 +31417,8 @@
         "merge_time_days": 67,
         "review_count": 67,
         "categories": [
-          "Ecosystem",
-          "P2P Network"
+          "P2P Network",
+          "Ecosystem"
         ],
         "impact_category": "Network & Privacy",
         "public_summary": "This PR fixes a bug in the address manager that previously caused incorrect bucketing of new addresses during unserialization. This ensures that the address manager's internal data structures are correctly populated, improving peer discovery and overall network health.",
@@ -31405,8 +31496,8 @@
         "merge_time_days": 508,
         "review_count": 44,
         "categories": [
-          "Core Infrastructure",
-          "Consensus"
+          "Consensus",
+          "Core Infrastructure"
         ],
         "impact_category": "Maintenance & Tech Debt",
         "public_summary": "This PR adds clarifying documentation to the `IsFinalTx` function, explaining its interaction with `nSequence` and `OP_CLTV`. This enhances developer understanding of transaction finality rules, improving code readability and maintainability.",
@@ -31421,8 +31512,8 @@
         "merge_time_days": 74,
         "review_count": 263,
         "categories": [
-          "Ecosystem",
-          "P2P Network"
+          "P2P Network",
+          "Ecosystem"
         ],
         "impact_category": "Strategic Initiatives",
         "public_summary": "This PR integrates native support for I2P (Invisible Internet Project) into Bitcoin Core, allowing nodes to communicate over this anonymous network. This provides enhanced privacy options for users seeking greater anonymity when running their Bitcoin node.",
@@ -31498,9 +31589,9 @@
         "merge_time_days": 2,
         "review_count": 21,
         "categories": [
-          "Script & Covenants",
           "Consensus",
-          "P2P Network"
+          "P2P Network",
+          "Script & Covenants"
         ],
         "impact_category": "Network & Privacy",
         "public_summary": "This PR adds hardcoded I2P seed nodes to Bitcoin Core. This improves initial connectivity and resilience for users connecting via the privacy-enhancing I2P network.",
@@ -31730,8 +31821,8 @@
         "merge_time_days": 6,
         "review_count": 43,
         "categories": [
-          "Ecosystem",
-          "P2P Network"
+          "P2P Network",
+          "Ecosystem"
         ],
         "impact_category": "Maintenance & Tech Debt",
         "public_summary": "This PR fixes a subtle race condition that could occur during node startup, making Bitcoin Core more stable and reliable when it first launches. This ensures a smoother and more consistent initialization process for all users.",
@@ -32145,8 +32236,8 @@
         "merge_time_days": 12,
         "review_count": 17,
         "categories": [
-          "Core Infrastructure",
-          "Consensus"
+          "Consensus",
+          "Core Infrastructure"
         ],
         "impact_category": "Maintenance & Tech Debt",
         "public_summary": "This PR corrects comments related to the `VerifyTaprootCommitment` function. It improves code clarity and accuracy for developers working with Taproot verification logic.",
@@ -32178,8 +32269,8 @@
         "review_count": 29,
         "categories": [
           "Core Infrastructure",
-          "Ecosystem",
-          "P2P Network"
+          "P2P Network",
+          "Ecosystem"
         ],
         "impact_category": "Network & Privacy",
         "public_summary": "This PR includes important fixes for how peer addresses are relayed across the network and managed via RPC, improving the efficiency and accuracy of peer discovery. This enhances network connectivity and helps nodes find and maintain a robust set of connections.",
@@ -32224,10 +32315,10 @@
         "merge_time_days": 9,
         "review_count": 109,
         "categories": [
-          "Core Infrastructure",
           "Consensus",
-          "Script & Covenants",
-          "Wallet & Keys"
+          "Core Infrastructure",
+          "Wallet & Keys",
+          "Script & Covenants"
         ],
         "impact_category": "Strategic Initiatives",
         "public_summary": "This PR introduces fundamental support for Taproot (P2TR) script descriptors, enabling users to generate and manage Taproot addresses directly within Bitcoin Core. It's a crucial step towards broader Taproot adoption and simplified wallet management for this new address type.",
@@ -32350,9 +32441,9 @@
         "merge_time_days": 42,
         "review_count": 82,
         "categories": [
-          "Script & Covenants",
           "Consensus",
-          "P2P Network"
+          "P2P Network",
+          "Script & Covenants"
         ],
         "impact_category": "Maintenance & Tech Debt",
         "public_summary": "This PR enforces the use of port 0 for all I2P addresses within Bitcoin Core, standardizing I2P address representation. This simplifies internal network logic and ensures consistent handling of I2P peers.",
@@ -32398,10 +32489,10 @@
         "merge_time_days": 144,
         "review_count": 255,
         "categories": [
-          "Mempool & Fees",
-          "Core Infrastructure",
           "Consensus",
-          "P2P Network"
+          "Core Infrastructure",
+          "P2P Network",
+          "Mempool & Fees"
         ],
         "impact_category": "Wallet & User Tools",
         "public_summary": "This PR enhances the `testmempoolaccept` RPC to allow testing of transaction packages, where multiple dependent transactions can be submitted together. This is vital for developers and users to simulate and validate complex transaction scenarios, like those involving child-pays-for-parent (CPFP) or coinjoins, before broadcasting them.",
@@ -32553,8 +32644,8 @@
         "merge_time_days": 3,
         "review_count": 17,
         "categories": [
-          "Core Infrastructure",
-          "Consensus"
+          "Consensus",
+          "Core Infrastructure"
         ],
         "impact_category": "Performance & Optimization",
         "public_summary": "This PR optimizes the `VerifyTaprootCommitment` function by reducing temporary memory allocations. This refinement makes the Taproot verification process more efficient, contributing to overall node performance.",
@@ -32707,9 +32798,9 @@
         "merge_time_days": 33,
         "review_count": 73,
         "categories": [
-          "Mempool & Fees",
+          "P2P Network",
           "Ecosystem",
-          "P2P Network"
+          "Mempool & Fees"
         ],
         "impact_category": "Network & Privacy",
         "public_summary": "This PR includes two minor fixes to how nodes broadcast information, improving the reliability and efficiency of transaction and block propagation across the network. These changes contribute to smoother and more consistent network operation.",
@@ -32754,10 +32845,10 @@
         "merge_time_days": 17,
         "review_count": 51,
         "categories": [
-          "Core Infrastructure",
           "Consensus",
-          "Script & Covenants",
-          "Wallet & Keys"
+          "Core Infrastructure",
+          "Wallet & Keys",
+          "Script & Covenants"
         ],
         "impact_category": "Wallet & User Tools",
         "public_summary": "This PR adds crucial support for inferring `tr()` descriptors, which are used to represent Taproot outputs, making it easier for wallets to correctly identify and manage funds sent to Taproot addresses. This is a significant step towards improved Taproot integration and usability within Bitcoin Core.",
@@ -32909,8 +33000,8 @@
         "merge_time_days": 55,
         "review_count": 137,
         "categories": [
-          "Core Infrastructure",
           "Consensus",
+          "Core Infrastructure",
           "P2P Network"
         ],
         "impact_category": "Maintenance & Tech Debt",
@@ -32971,8 +33062,8 @@
         "merge_time_days": 1,
         "review_count": 10,
         "categories": [
-          "Core Infrastructure",
-          "Consensus"
+          "Consensus",
+          "Core Infrastructure"
         ],
         "impact_category": "Maintenance & Tech Debt",
         "public_summary": "As a follow-up to the Taproot upgrade, this PR refactors internal signature computation functions to explicitly declare them as constant. This clarifies their behavior, assuring developers that they do not modify the object they operate on.",
@@ -33003,8 +33094,8 @@
         "merge_time_days": 7,
         "review_count": 37,
         "categories": [
-          "Ecosystem",
-          "P2P Network"
+          "P2P Network",
+          "Ecosystem"
         ],
         "impact_category": "Maintenance & Tech Debt",
         "public_summary": "This PR refines the `CBloomFilter` implementation by removing redundant internal flags and clarifying a past security fix. This improves code clarity, simplifies maintenance, and ensures the bloom filter operates as expected, especially in the context of the related CVE.",
@@ -33034,8 +33125,8 @@
         "merge_time_days": 16,
         "review_count": 46,
         "categories": [
-          "Core Infrastructure",
-          "Consensus"
+          "Consensus",
+          "Core Infrastructure"
         ],
         "impact_category": "Wallet & User Tools",
         "public_summary": "This PR enhances the `gettxoutsetinfo` RPC command by adding an option to specify the hashing algorithm used for the UTXO set hash. This offers more flexibility for verifying the UTXO set state.",
@@ -33312,8 +33403,8 @@
         "merge_time_days": 68,
         "review_count": 23,
         "categories": [
-          "Ecosystem",
-          "P2P Network"
+          "P2P Network",
+          "Ecosystem"
         ],
         "impact_category": "Network & Privacy",
         "public_summary": "This PR improves the robustness of the peer-to-peer handshake by treating unexpected messages received during the handshake phase as 'unknown messages.' This prevents premature disconnections for minor protocol deviations, allowing for more graceful handling of non-standard client behavior.",
@@ -33345,8 +33436,8 @@
         "review_count": 101,
         "categories": [
           "Core Infrastructure",
-          "Ecosystem",
-          "P2P Network"
+          "P2P Network",
+          "Ecosystem"
         ],
         "impact_category": "Maintenance & Tech Debt",
         "public_summary": "This PR introduces new tests for the peer connection eviction logic within Bitcoin Core. These tests verify the node's behavior in managing peer connections, ensuring it correctly handles scenarios where connections need to be dropped to maintain network health and stability.",
@@ -33455,8 +33546,8 @@
         "merge_time_days": 78,
         "review_count": 225,
         "categories": [
-          "Ecosystem",
-          "P2P Network"
+          "P2P Network",
+          "Ecosystem"
         ],
         "impact_category": "Network & Privacy",
         "public_summary": "This PR introduces caching for `GETADDR` responses to peers, significantly mitigating the risk of network topology leaks. By providing cached data rather than fresh `addrman` entries, it makes it harder for malicious actors to map the network structure.",
@@ -33684,8 +33775,8 @@
         "merge_time_days": 45,
         "review_count": 122,
         "categories": [
-          "Ecosystem",
-          "P2P Network"
+          "P2P Network",
+          "Ecosystem"
         ],
         "impact_category": "Network & Privacy",
         "public_summary": "This PR improves network efficiency and security by restricting responses to `getdata` requests. A node will now only serve data for transactions or blocks it has recently announced to a peer.",
@@ -33761,8 +33852,8 @@
         "merge_time_days": 14,
         "review_count": 75,
         "categories": [
-          "Ecosystem",
-          "P2P Network"
+          "P2P Network",
+          "Ecosystem"
         ],
         "impact_category": "Network & Privacy",
         "public_summary": "This PR prevents a Bitcoin Core node from prematurely responding to `GETDATA` requests for transactions that are queued for announcement but not yet broadcasted. This avoids unnecessary network traffic and prevents early disclosure of transactions.",
@@ -33977,8 +34068,8 @@
         "merge_time_days": 72,
         "review_count": 62,
         "categories": [
-          "Ecosystem",
-          "P2P Network"
+          "P2P Network",
+          "Ecosystem"
         ],
         "impact_category": "Performance & Optimization",
         "public_summary": "This PR optimizes the peer-to-peer (P2P) layer by preventing transactions that are already known from being added to the `recentRejects` list. This reduces unnecessary data storage and processing, making the node more efficient.",
@@ -34008,8 +34099,8 @@
         "merge_time_days": 58,
         "review_count": 19,
         "categories": [
-          "Core Infrastructure",
           "Consensus",
+          "Core Infrastructure",
           "P2P Network"
         ],
         "impact_category": "Maintenance & Tech Debt",
@@ -34071,8 +34162,8 @@
         "review_count": 89,
         "categories": [
           "Core Infrastructure",
-          "Ecosystem",
-          "P2P Network"
+          "P2P Network",
+          "Ecosystem"
         ],
         "impact_category": "Maintenance & Tech Debt",
         "public_summary": "This PR introduces new unit tests to thoroughly verify the logic used for evicting underperforming or misbehaving nodes from a peer connection. This enhances the reliability and robustness of Bitcoin Core's peer management.",
@@ -34195,8 +34286,8 @@
         "review_count": 204,
         "categories": [
           "Core Infrastructure",
-          "Ecosystem",
-          "P2P Network"
+          "P2P Network",
+          "Ecosystem"
         ],
         "impact_category": "Maintenance & Tech Debt",
         "public_summary": "This PR enhances Bitcoin Core's functional tests to include scenarios with specific types of network connections. It allows testing of outbound and block-relay-only connections, improving the robustness and coverage of the test suite.",
@@ -34319,8 +34410,8 @@
         "merge_time_days": 248,
         "review_count": 59,
         "categories": [
-          "Ecosystem",
-          "P2P Network"
+          "P2P Network",
+          "Ecosystem"
         ],
         "impact_category": "Performance & Optimization",
         "public_summary": "This PR modifies Bitcoin Core to delay querying DNS seeds until after other peer discovery methods have been attempted. This optimizes initial peer connections by prioritizing existing or more direct sources, potentially speeding up initial network bootstrap.",
@@ -34596,9 +34687,9 @@
         "merge_time_days": 173,
         "review_count": 198,
         "categories": [
-          "Mempool & Fees",
+          "P2P Network",
           "Ecosystem",
-          "P2P Network"
+          "Mempool & Fees"
         ],
         "impact_category": "Network & Privacy",
         "public_summary": "This PR updates the transaction relay mechanism to use 'wtxid' for transactions containing witness data. This improves network efficiency and security by ensuring the full transaction content is accounted for during relay, especially for SegWit transactions.",
@@ -34767,8 +34858,8 @@
         "merge_time_days": 5,
         "review_count": 67,
         "categories": [
-          "Ecosystem",
-          "P2P Network"
+          "P2P Network",
+          "Ecosystem"
         ],
         "impact_category": "Maintenance & Tech Debt",
         "public_summary": "This PR removes the `-banscore` configuration option, simplifying Bitcoin Core's network configuration. This streamlines the user interface for network settings and reduces potential confusion around a parameter that is no longer directly user-configurable.",
@@ -34783,8 +34874,8 @@
         "merge_time_days": 89,
         "review_count": 162,
         "categories": [
-          "Ecosystem",
-          "P2P Network"
+          "P2P Network",
+          "Ecosystem"
         ],
         "impact_category": "Network & Privacy",
         "public_summary": "This PR significantly improves wallet privacy by enabling the node's mempool to track transactions submitted by the local wallet separately from those received from peers. This prevents locally generated transactions from being easily linked to the originating node through standard mempool queries.",
@@ -34845,8 +34936,8 @@
         "merge_time_days": 17,
         "review_count": 26,
         "categories": [
-          "Core Infrastructure",
-          "Consensus"
+          "Consensus",
+          "Core Infrastructure"
         ],
         "impact_category": "Maintenance & Tech Debt",
         "public_summary": "This is a code refactoring that reorganizes internal consensus-critical script validation logic. It moves specific code for single-signature checking to a more appropriate, specialized function, improving the modularity and maintainability of the consensus engine.",
@@ -35112,8 +35203,8 @@
         "merge_time_days": 14,
         "review_count": 33,
         "categories": [
-          "Ecosystem",
-          "P2P Network"
+          "P2P Network",
+          "Ecosystem"
         ],
         "impact_category": "Wallet & User Tools",
         "public_summary": "This PR introduces a new configuration option, `-networkactive`, allowing users to control whether the node actively participates in the P2P network. This provides greater flexibility for users who want to run a node with network activity disabled, for example, during testing or specific operational setups.",
@@ -35195,8 +35286,8 @@
         "merge_time_days": 100,
         "review_count": 63,
         "categories": [
-          "Ecosystem",
-          "P2P Network"
+          "P2P Network",
+          "Ecosystem"
         ],
         "impact_category": "Performance & Optimization",
         "public_summary": "This PR backports the wtxid relay mechanism to version 0.20, optimizing the way nodes communicate and request transactions. By using witness transaction IDs, it enhances network bandwidth efficiency, particularly for SegWit transactions.",
@@ -35211,9 +35302,9 @@
         "merge_time_days": 8,
         "review_count": 84,
         "categories": [
-          "Mempool & Fees",
           "Consensus",
-          "P2P Network"
+          "P2P Network",
+          "Mempool & Fees"
         ],
         "impact_category": "Security & Consensus",
         "public_summary": "This PR enhances the peer-to-peer transaction relay policy by adding transaction IDs (txids) with non-standard inputs to a reject filter. This helps prevent nodes from repeatedly requesting or processing transactions that are unlikely to be confirmed and might indicate malicious or wasteful peer behavior.",
@@ -35377,8 +35468,8 @@
         "merge_time_days": 65,
         "review_count": 64,
         "categories": [
-          "Mempool & Fees",
-          "P2P Network"
+          "P2P Network",
+          "Mempool & Fees"
         ],
         "impact_category": "Network & Privacy",
         "public_summary": "This PR refines the fee filter mechanism to calculate the absolute fee for transactions rather than relying on a stored fee rate. This provides a more accurate and consistent approach for peers to filter transactions based on their actual economic value.",
@@ -35455,8 +35546,8 @@
         "merge_time_days": 43,
         "review_count": 50,
         "categories": [
-          "Ecosystem",
-          "P2P Network"
+          "P2P Network",
+          "Ecosystem"
         ],
         "impact_category": "Network & Privacy",
         "public_summary": "This PR improves transaction propagation by ensuring that Bitcoin Core nodes continue to relay valid transactions even if they've expired from the `mapRelay` cache. This enhances network reliability and reach for transactions by preventing premature cessation of relay.",
@@ -35471,8 +35562,8 @@
         "merge_time_days": 9,
         "review_count": 46,
         "categories": [
-          "Core Infrastructure",
-          "Consensus"
+          "Consensus",
+          "Core Infrastructure"
         ],
         "impact_category": "Maintenance & Tech Debt",
         "public_summary": "This PR refactors the codebase by systematically replacing C-style `const char*` strings with `std::string` objects. This modernization improves string handling safety, flexibility, and reduces potential memory management errors.",
@@ -35563,8 +35654,8 @@
         "merge_time_days": 158,
         "review_count": 279,
         "categories": [
-          "Ecosystem",
-          "P2P Network"
+          "P2P Network",
+          "Ecosystem"
         ],
         "impact_category": "Strategic Initiatives",
         "public_summary": "This PR introduces the concept of `asmap` into the peer-to-peer (P2P) layer, allowing the `addrman` to group IP addresses by their Autonomous System (AS). This significantly improves the diversity and geographic distribution of connected peers, making the network more robust against certain attacks.",
@@ -35595,8 +35686,8 @@
         "merge_time_days": 14,
         "review_count": 89,
         "categories": [
-          "Core Infrastructure",
-          "Consensus"
+          "Consensus",
+          "Core Infrastructure"
         ],
         "impact_category": "Security & Consensus",
         "public_summary": "This PR adds a crucial overflow check when summing transaction outputs. This prevents potential vulnerabilities where large transaction values could wrap around, ensuring the integrity and security of transactions.",
@@ -35840,8 +35931,8 @@
         "merge_time_days": 16,
         "review_count": 32,
         "categories": [
-          "Core Infrastructure",
-          "Consensus"
+          "Consensus",
+          "Core Infrastructure"
         ],
         "impact_category": "Security & Consensus",
         "public_summary": "This PR clarifies a core consensus rule regarding duplicate transaction inputs and removes a redundant check. It ensures the codebase accurately reflects the necessary validation logic for Bitcoin's security.",
@@ -35872,8 +35963,8 @@
         "merge_time_days": 48,
         "review_count": 51,
         "categories": [
-          "Core Infrastructure",
-          "Consensus"
+          "Consensus",
+          "Core Infrastructure"
         ],
         "impact_category": "Strategic Initiatives",
         "public_summary": "This PR refactors the script validation logic by abstracting script execution out of the `VerifyWitnessProgram()` function. This improves code organization and modularity, making the script interpreter more flexible and easier to maintain.",
@@ -35888,8 +35979,8 @@
         "merge_time_days": 18,
         "review_count": 48,
         "categories": [
-          "Ecosystem",
-          "P2P Network"
+          "P2P Network",
+          "Ecosystem"
         ],
         "impact_category": "Performance & Optimization",
         "public_summary": "This PR optimizes memory usage in the peer-to-peer component by avoiding unnecessary memory allocations for known addresses. This makes Bitcoin Core more efficient, especially for nodes with many peer connections.",
@@ -36159,8 +36250,8 @@
         "merge_time_days": 38,
         "review_count": 55,
         "categories": [
-          "Core Infrastructure",
-          "Consensus"
+          "Consensus",
+          "Core Infrastructure"
         ],
         "impact_category": "Maintenance & Tech Debt",
         "public_summary": "This PR removes an error-prone `CScript` constructor that was only used in conjunction with `FindAndDelete`. By eliminating this problematic constructor, the change improves code safety and reduces the likelihood of subtle bugs related to script manipulation.",
@@ -36221,8 +36312,8 @@
         "merge_time_days": 86,
         "review_count": 176,
         "categories": [
-          "Core Infrastructure",
-          "Consensus"
+          "Consensus",
+          "Core Infrastructure"
         ],
         "impact_category": "Maintenance & Tech Debt",
         "public_summary": "This PR effectively retires old BIP9 soft fork deployments by 'burying' them, meaning their state transitions are no longer actively evaluated. This cleans up the codebase and removes historical soft fork logic that is no longer relevant for consensus.",
@@ -36331,8 +36422,8 @@
         "merge_time_days": 1,
         "review_count": 24,
         "categories": [
-          "Ecosystem",
-          "P2P Network"
+          "P2P Network",
+          "Ecosystem"
         ],
         "impact_category": "Maintenance & Tech Debt",
         "public_summary": "This PR improves logging for network-related errors, specifically by routing exceptions in `ProcessMessages` to the `net` category. This makes it easier for users and developers to diagnose and troubleshoot network connectivity and message processing issues.",
@@ -36398,8 +36489,8 @@
         "merge_time_days": 0,
         "review_count": 10,
         "categories": [
-          "Ecosystem",
-          "P2P Network"
+          "P2P Network",
+          "Ecosystem"
         ],
         "impact_category": "Network & Privacy",
         "public_summary": "Fixes a bug in the Tor integration that ensures the Tor event loop is correctly shut down. This improves the stability and reliability of Tor connections, especially during application exit.",
@@ -36664,8 +36755,8 @@
         "review_count": 21,
         "categories": [
           "Core Infrastructure",
-          "Ecosystem",
-          "P2P Network"
+          "P2P Network",
+          "Ecosystem"
         ],
         "impact_category": "Maintenance & Tech Debt",
         "public_summary": "This PR reverts a previous change that introduced randomization to `GetData` requests for the 0.18 release. This restores the prior behavior to maintain expected network privacy and performance characteristics.",
@@ -36816,8 +36907,8 @@
         "merge_time_days": 9,
         "review_count": 37,
         "categories": [
-          "Ecosystem",
-          "P2P Network"
+          "P2P Network",
+          "Ecosystem"
         ],
         "impact_category": "Performance & Optimization",
         "public_summary": "This PR improves the responsiveness and resource management of the Bitcoin Core node by allowing the complex process of handling orphaned blocks to be interrupted. This prevents the node from getting stuck in long computations during shutdown or reorgs, leading to a smoother user experience.",
@@ -37274,8 +37365,8 @@
         "merge_time_days": 0,
         "review_count": 14,
         "categories": [
-          "Ecosystem",
-          "Consensus"
+          "Consensus",
+          "Ecosystem"
         ],
         "impact_category": "Security & Consensus",
         "public_summary": "This critical bug fix resolves a crash that could occur in Bitcoin Core when processing transactions containing duplicate inputs. This significantly improves the robustness and stability of the node, preventing unexpected shutdowns and ensuring more reliable transaction handling.",
@@ -37377,8 +37468,8 @@
         "merge_time_days": 0,
         "review_count": 26,
         "categories": [
-          "Ecosystem",
-          "Consensus"
+          "Consensus",
+          "Ecosystem"
         ],
         "impact_category": "Security & Consensus",
         "public_summary": "This PR fixes a critical crash bug in Bitcoin Core version 0.16 that could occur when processing transactions with duplicate inputs. This improves the stability and robustness of the client, preventing unexpected service interruptions.",
@@ -38649,8 +38740,8 @@
         "merge_time_days": 1,
         "review_count": 10,
         "categories": [
-          "Ecosystem",
-          "P2P Network"
+          "P2P Network",
+          "Ecosystem"
         ],
         "impact_category": "Maintenance & Tech Debt",
         "public_summary": "This PR resolves an issue where Bitcoin Core could freeze during shutdown when configured with eight or more manually specified network connections. It improves the stability and reliability of the node's graceful exit process.",
@@ -39051,9 +39142,9 @@
         "merge_time_days": 5,
         "review_count": 17,
         "categories": [
-          "Mempool & Fees",
+          "P2P Network",
           "Ecosystem",
-          "P2P Network"
+          "Mempool & Fees"
         ],
         "impact_category": "Performance & Optimization",
         "public_summary": "This PR introduces a mechanism for nodes to inform peers if they don't accept free transactions by sending a fee filter. This helps optimize network resource usage by avoiding unnecessary transaction relay.",
@@ -39329,8 +39420,8 @@
         "merge_time_days": 0,
         "review_count": 16,
         "categories": [
-          "Mempool & Fees",
-          "P2P Network"
+          "P2P Network",
+          "Mempool & Fees"
         ],
         "impact_category": "Performance & Optimization",
         "public_summary": "This PR, a refinement of #9313, ensures nodes that don't accept free transactions always communicate their minimum fee requirements. This improves network efficiency by preventing the relay of transactions that would be rejected.",
@@ -39442,8 +39533,8 @@
         "merge_time_days": 2,
         "review_count": 15,
         "categories": [
-          "Core Infrastructure",
-          "Consensus"
+          "Consensus",
+          "Core Infrastructure"
         ],
         "impact_category": "Maintenance & Tech Debt",
         "public_summary": "This PR backports an important improvement for Initial Block Download (IBD) to version 0.13, enabling the use of chainwork for progress tracking instead of just block height. This provides a more accurate and robust measure of synchronization progress for new nodes joining the network.",
@@ -39458,8 +39549,8 @@
         "merge_time_days": 0,
         "review_count": 29,
         "categories": [
-          "Ecosystem",
-          "P2P Network"
+          "P2P Network",
+          "Ecosystem"
         ],
         "impact_category": "Network & Privacy",
         "public_summary": "This PR corrects an internal calculation related to the number of network sockets Bitcoin Core uses. It ensures the client maintains optimal network resource utilization and connection stability.",
@@ -39474,8 +39565,8 @@
         "merge_time_days": 2,
         "review_count": 42,
         "categories": [
-          "Core Infrastructure",
-          "Consensus"
+          "Consensus",
+          "Core Infrastructure"
         ],
         "impact_category": "Security & Consensus",
         "public_summary": "This PR significantly improves the Initial Block Download (IBD) process by prioritizing chainwork over block height and eliminating reliance on header timestamps for validation. This makes IBD more robust against potential timestamp manipulation and more accurate in identifying the heaviest chain.",
@@ -39880,8 +39971,8 @@
         "merge_time_days": 26,
         "review_count": 68,
         "categories": [
-          "Ecosystem",
-          "P2P Network"
+          "P2P Network",
+          "Ecosystem"
         ],
         "impact_category": "Network & Privacy",
         "public_summary": "This PR introduces several performance and privacy improvements to how Bitcoin Core handles inventory messages and the mempool. These changes enhance network efficiency and reduce the amount of information revealed to peers.",
@@ -39941,8 +40032,8 @@
         "merge_time_days": 15,
         "review_count": 22,
         "categories": [
-          "Mempool & Fees",
-          "P2P Network"
+          "P2P Network",
+          "Mempool & Fees"
         ],
         "impact_category": "Maintenance & Tech Debt",
         "public_summary": "This PR re-removes unnecessary `ERROR` logging for routine mempool transaction rejections, reducing log spam and making critical errors easier to identify. This significantly improves log readability for node operators and developers.",
@@ -40138,8 +40229,8 @@
         "merge_time_days": 82,
         "review_count": 24,
         "categories": [
-          "Ecosystem",
-          "P2P Network"
+          "P2P Network",
+          "Ecosystem"
         ],
         "impact_category": "Network & Privacy",
         "public_summary": "This PR refines Bitcoin Core's Tor integration by ensuring password authentication is only attempted if explicitly configured via `-torpassword`. This improves security by reducing unnecessary credential exposure and providing clearer authentication control.",
@@ -40215,8 +40306,8 @@
         "merge_time_days": 62,
         "review_count": 51,
         "categories": [
-          "Ecosystem",
-          "P2P Network"
+          "P2P Network",
+          "Ecosystem"
         ],
         "impact_category": "Maintenance & Tech Debt",
         "public_summary": "This PR fixes a critical de-serialization bug that could corrupt the node's address manager (AddrMan), which stores known peer addresses. Ensuring AddrMan integrity is vital for a node's ability to connect and participate in the network reliably.",
@@ -40442,8 +40533,8 @@
         "merge_time_days": 10,
         "review_count": 31,
         "categories": [
-          "Mempool & Fees",
-          "P2P Network"
+          "P2P Network",
+          "Mempool & Fees"
         ],
         "impact_category": "Performance & Optimization",
         "public_summary": "This PR optimizes transaction retrieval from peers by preventing the mempool from being queried for `GETDATA` requests concerning transactions accepted after the last mempool request. This improves network efficiency and prevents unnecessary processing.",
@@ -40458,8 +40549,8 @@
         "merge_time_days": 37,
         "review_count": 79,
         "categories": [
-          "Ecosystem",
-          "P2P Network"
+          "P2P Network",
+          "Ecosystem"
         ],
         "impact_category": "Security & Consensus",
         "public_summary": "This PR adds a `maxtimeadjustment` command-line option to control the maximum allowed time difference from peers. This improves security by preventing nodes from adopting significantly inaccurate times reported by malicious or misconfigured peers.",
@@ -40489,8 +40580,8 @@
         "merge_time_days": 47,
         "review_count": 24,
         "categories": [
-          "Ecosystem",
-          "P2P Network"
+          "P2P Network",
+          "Ecosystem"
         ],
         "impact_category": "Network & Privacy",
         "public_summary": "This PR adds support for IPv6 Link-Local Addresses within Bitcoin Core, broadening its network compatibility and reach. It enables nodes to connect and communicate using these addresses in specific local network configurations.",
@@ -40505,8 +40596,8 @@
         "merge_time_days": 7,
         "review_count": 18,
         "categories": [
-          "Ecosystem",
-          "P2P Network"
+          "P2P Network",
+          "Ecosystem"
         ],
         "impact_category": "Maintenance & Tech Debt",
         "public_summary": "This PR fixes a memory leak present within the TorController component of Bitcoin Core. Resolving this leak improves the long-term stability and resource efficiency of nodes using Tor for network connectivity.",
@@ -40581,8 +40672,8 @@
         "merge_time_days": 35,
         "review_count": 162,
         "categories": [
-          "Ecosystem",
-          "P2P Network"
+          "P2P Network",
+          "Ecosystem"
         ],
         "impact_category": "Strategic Initiatives",
         "public_summary": "This PR implements 'Compact Blocks' (BIP 152), a new block propagation protocol that significantly reduces the data transmitted for new blocks. This improves network efficiency and speeds up block relay, which is crucial for scalability.",
@@ -40687,9 +40778,9 @@
         "merge_time_days": 47,
         "review_count": 36,
         "categories": [
-          "Mempool & Fees",
+          "Consensus",
           "Ecosystem",
-          "Consensus"
+          "Mempool & Fees"
         ],
         "impact_category": "Security & Consensus",
         "public_summary": "This PR backports the crucial BIP9 versionbits softfork mechanism along with BIP68, BIP112, and BIP113. It enables the activation of important new transaction features like relative lock-times and `CHECKLOCKTIMEVERIFY`.",
@@ -40826,8 +40917,8 @@
         "merge_time_days": 3,
         "review_count": 12,
         "categories": [
-          "Ecosystem",
-          "P2P Network"
+          "P2P Network",
+          "Ecosystem"
         ],
         "impact_category": "Network & Privacy",
         "public_summary": "This PR improves Bitcoin Core's ability to detect network partitions by utilizing timestamps from the best known header chain. This helps nodes more effectively identify and recover from network splits.",
@@ -40902,8 +40993,8 @@
         "merge_time_days": 30,
         "review_count": 56,
         "categories": [
-          "Ecosystem",
-          "P2P Network"
+          "P2P Network",
+          "Ecosystem"
         ],
         "impact_category": "Wallet & User Tools",
         "public_summary": "This PR introduces new RPC commands, `setban` and `listbanned`, giving advanced users direct control over peer banning. These commands help in managing network connections and mitigating problematic peers.",
@@ -41053,8 +41144,8 @@
         "merge_time_days": 236,
         "review_count": 63,
         "categories": [
-          "Ecosystem",
-          "P2P Network"
+          "P2P Network",
+          "Ecosystem"
         ],
         "impact_category": "Wallet & User Tools",
         "public_summary": "This PR introduces a new `-whiteconnections=<n>` option, giving users precise control over the number of whitelisted peer connections. This feature is valuable for specific network configurations and testing environments.",
@@ -41159,8 +41250,8 @@
         "merge_time_days": 69,
         "review_count": 82,
         "categories": [
-          "Mempool & Fees",
-          "Consensus"
+          "Consensus",
+          "Mempool & Fees"
         ],
         "impact_category": "Security & Consensus",
         "public_summary": "This PR implements BIP-113, which changes how transaction lock-times are evaluated for transactions within the mempool. It ensures transactions using relative time locks are only considered valid if their lock-time is met based on the median time past of the mempool's ancestors, not just the current block.",
@@ -41577,8 +41668,8 @@
         "merge_time_days": 34,
         "review_count": 50,
         "categories": [
-          "Ecosystem",
-          "P2P Network"
+          "P2P Network",
+          "Ecosystem"
         ],
         "impact_category": "Network & Privacy",
         "public_summary": "This PR significantly enhances user privacy by implementing stream isolation for all network connections made over Tor. It ensures different activities use separate Tor circuits, making it much harder to link user actions and deanonymize their node.",
@@ -41668,8 +41759,8 @@
         "merge_time_days": 3,
         "review_count": 20,
         "categories": [
-          "Core Infrastructure",
-          "Consensus"
+          "Consensus",
+          "Core Infrastructure"
         ],
         "impact_category": "Security & Consensus",
         "public_summary": "This PR updates the Bitcoin Core build configuration to detect and explicitly reject LibreSSL. This ensures that the software is only built with supported and thoroughly tested cryptographic backends, preventing potential compatibility or security issues from using an unsupported library.",
@@ -41699,8 +41790,8 @@
         "merge_time_days": 20,
         "review_count": 14,
         "categories": [
-          "Ecosystem",
-          "P2P Network"
+          "P2P Network",
+          "Ecosystem"
         ],
         "impact_category": "Performance & Optimization",
         "public_summary": "This PR improves the accuracy of how Bitcoin Core identifies common blocks between different chains. This leads to more efficient and reliable blockchain synchronization.",
@@ -41852,8 +41943,8 @@
         "merge_time_days": 7,
         "review_count": 22,
         "categories": [
-          "Ecosystem",
-          "P2P Network"
+          "P2P Network",
+          "Ecosystem"
         ],
         "impact_category": "Security & Consensus",
         "public_summary": "This PR significantly improves network security and robustness by performing more thorough validation of block headers received from peers. It prevents nodes from accepting invalid chain tips, enhancing overall network integrity.",

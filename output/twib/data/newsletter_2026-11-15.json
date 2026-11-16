@@ -1,0 +1,944 @@
+{
+  "start_date": "2026-11-09",
+  "end_date": "2026-11-15",
+  "stats": {
+    "total_merged": 19,
+    "subsystem_merged": {},
+    "total_reviews": 525,
+    "total_threads": 23,
+    "new_contributors": 0
+  },
+  "previous_stats": {
+    "total_merged": 73,
+    "subsystem_merged": {
+      "bitcoin-core/secp256k1": 2
+    },
+    "total_reviews": 694,
+    "total_threads": 33,
+    "new_contributors": 4
+  },
+  "social_hook": {
+    "headline": "Key Progress in Network Privacy and Future Protocol Design:",
+    "bullets": [
+      "Strengthened network privacy by preventing deanonymization attempts via address propagation from privacy-network peers.",
+      "Advanced discussions on a Post-Quantum Address Format (bc1z) BIP draft, a crucial step in future-proofing Bitcoin's cryptographic security.",
+      "Initiated framework discussions for Decentralized Coinbase Payout Protocols (DCPP) to bolster mining decentralization and censorship resistance."
+    ]
+  },
+  "tldr": [
+    "Significant discussions are underway regarding the long-term cryptographic security of Bitcoin, specifically exploring a new Post-Quantum Address Format (bc1z) using ML-DSA-65 to future-proof against quantum computing threats.",
+    "The community is actively debating the practical adoption and user experience implications of recent protocol upgrades, particularly whether wallets should default to Taproot (bc1p) or SegWit (bc1q) receive addresses given varying service support."
+  ],
+  "meeting": {
+    "date": "2026-11-12",
+    "url": "https://achow101.com/ircmeetings/2026/bitcoin-core-dev.2026-11-12_16_00.log.json",
+    "participant_count": 27,
+    "key_participants": [
+      "abubakarsadiq",
+      "andrewtoth",
+      "sedited",
+      "johnny9dev",
+      "sr_gi",
+      "brunoerg"
+    ],
+    "active_participants": [
+      "abubakarsadiq",
+      "andrewtoth",
+      "sedited",
+      "johnny9dev",
+      "sr_gi",
+      "brunoerg",
+      "yancy",
+      "stratospher",
+      "Murch[m]"
+    ],
+    "topics_discussed": [
+      "Fuzzing WG Update: No update reported by eugenesiegel.",
+      "addr-relay WG Update: stratospher reported no update, ongoing work on addr-relay protections, write-ups expected soon.",
+      "Kernel WG Update: sedited noted purpleKarrot posted RFC issue #36842 on encapsulation of vocabulary types, encouraging comments.",
+      "Benchmarking WG Update: l0rinc was absent. andrewtoth reported sedited's branch achieved chainstate reindex in ~20 minutes, others under an hour. This leverages sipa's negative UTXO set suggestion, enabling parallel block connecting and binding validation performance to CPU cores without assumevalid.",
+      "QA WG Update: brunoerg ran mutation testing on src/validation.cpp, identifying over 300 surviving mutants on mutanthub.space, indicating test gaps.",
+      "QML GUI WG Update: johnny9dev reported jarolrod's QA with \"clankers\" found 300 findings against gui-qml, delaying the PR to bitcoin/bitcoin but confirming feature completeness. Project Loupe engagement is planned.",
+      "re-activate Erlay WG and Signal chat (or alternative): sr_gi requested re-activation of the Erlay WG and its Signal group for discussions.",
+      "Erlay WG Update: sr_gi rebased the Erlay PR on master and is addressing coredev points. A proposal was made to use BIP-434 for the Erlay handshake, replacing custom negotiation, aligning with BIP-330 draft status."
+    ],
+    "decisions_made": [
+      "Erlay WG to be moved from archive to active status, with sr_gi as the primary contact for updates."
+    ],
+    "action_items": [
+      "Developers are encouraged to comment on Kernel WG RFC issue #36842.",
+      "brunoerg requests PR descriptions include links to mutants from mutanthub.space and/or git diffs of mutants for QA.",
+      "sr_gi will re-activate the Erlay WG on GitHub and its Signal group; interested parties should contact sr_gi to join the chat.",
+      "sr_gi will create a todo list and provide regular reports on Erlay updates."
+    ],
+    "mentioned_prs": [
+      36842
+    ],
+    "card_topics": [
+      "Kernel WG: purpleKarrot's RFC issue #36842 on vocabulary type encapsulation posted; sedited encourages developer comments.",
+      "Benchmarking WG: sedited's branch achieved 20-minute chainstate reindex, utilizing sipa's negative UTXO set for parallel block connecting.",
+      "QA WG: brunoerg's mutation testing found 300+ surviving mutants in `src/validation.cpp` on mutanthub.space, indicating test coverage gaps.",
+      "QML GUI WG: jarolrod's \"clankers\" identified 300 findings, delaying the PR to bitcoin/bitcoin but confirming feature completeness.",
+      "Erlay WG: sr_gi re-activated the WG, rebased the PR, and proposed using BIP-434 for handshake negotiation, aligning with BIP-330."
+    ],
+    "spotlight_debate": "Erlay Handshake: sr_gi proposed replacing Erlay's custom handshake with BIP-434, aligning with BIP-330 draft status for improved negotiation.",
+    "referenced_artifacts": [
+      {
+        "label": "Issue #36842",
+        "icon": "flag"
+      },
+      {
+        "label": "mutanthub.space",
+        "icon": "globe"
+      },
+      {
+        "label": "Delving Bitcoin",
+        "icon": "globe"
+      },
+      {
+        "label": "BIP-434",
+        "icon": "file-code"
+      },
+      {
+        "label": "BIP-330",
+        "icon": "file-code"
+      }
+    ],
+    "narrative_summary": "Benchmarking efforts by sedited demonstrated a chainstate reindex in approximately 20 minutes, leveraging an architecture inspired by sipa's negative UTXO set suggestion. This approach enables parallel block connecting, binding validation performance to CPU cores without `assumevalid`. The Kernel WG saw purpleKarrot post RFC issue #36842 on vocabulary type encapsulation; sedited encourages developer review.\n\nThe QML GUI WG received 300 findings from jarolrod's exhaustive QA with 'clankers', delaying the PR to bitcoin/bitcoin but confirming feature completeness. Project Loupe engagement is planned. brunoerg's mutation testing on `src/validation.cpp` identified over 300 surviving mutants, now on mutanthub.space, highlighting areas requiring additional test coverage.\n\nsr_gi initiated the re-activation of the Erlay WG and its Signal chat for discussions. The Erlay PR has been rebased on master, with sr_gi addressing coredev points. A technical proposal was made to adopt BIP-434 for the Erlay handshake, replacing custom negotiation to align with BIP-330 draft status.",
+    "x_priority_takeaway": "Review Kernel WG encapsulation RFC #36842.",
+    "x_bullet_points": [
+      "20-min chainstate reindex achieved.",
+      "300+ mutants in validation.cpp.",
+      "Erlay handshake to use BIP-434."
+    ],
+    "linkedin_context": "Benchmarking efforts by sedited demonstrated a chainstate reindex in approximately 20 minutes, leveraging an architecture inspired by sipa's negative UTXO set suggestion. This approach enables parallel block connecting, binding validation performance to CPU cores without `assumevalid`. The Kernel WG saw purpleKarrot post RFC issue #36842 on vocabulary type encapsulation; sedited encourages developer review.\n\nThe QML GUI WG received 300 findings from jarolrod's exhaustive QA with 'clankers', delaying the PR to bitcoin/bitcoin but confirming feature completeness. Project Loupe engagement is planned. brunoerg's mutation testing on `src/validation.cpp` identified over 300 surviving mutants, now on mutanthub.space, highlighting areas requiring additional test coverage.\n\nsr_gi initiated the re-activation of the Erlay WG and its Signal chat for discussions. The Erlay PR has been rebased on master, with sr_gi addressing coredev points. A technical proposal was made to adopt BIP-434 for the Erlay handshake, replacing custom negotiation to align with BIP-330 draft status.",
+    "_text_hash": "6d97a44aaf4692b99b6409a40681b19a"
+  },
+  "categories": {
+    "merged": [
+      {
+        "name": "Network & Privacy",
+        "prs": [
+          {
+            "number": 36757,
+            "repo": "bitcoin/bitcoin",
+            "title": "net: ignore privacy network peer's view of our address",
+            "author": {
+              "username": "stratospher",
+              "uuid": "auto_stratospher"
+            },
+            "summary": "This PR enhances privacy by preventing Bitcoin Core from considering address advertisements from peers on privacy networks (like Tor/I2P) as reliable indicators of our own external IP address. This reduces the risk of leaking our real IP address when operating over privacy-preserving transports.",
+            "technical_summary": "The change modifies the address management logic within the networking subsystem. Specifically, when a peer connected via a privacy network (e.g., a Tor or I2P connection) advertises an address that it believes is \"our\" external address, this PR ensures that such advertisements are ignored for the purpose of updating our own perceived external IP. This prevents privacy-preserving connections from inadvertently revealing or confirming our clearnet IP address to other nodes.",
+            "importance": 10,
+            "review_count": 10
+          }
+        ]
+      },
+      {
+        "name": "Wallet & User Tools",
+        "prs": [
+          {
+            "number": 36105,
+            "repo": "bitcoin/bitcoin",
+            "title": "bitcoin wrapper: Fix Windows exec so wrapper waits for child process",
+            "author": {
+              "username": "ryanofsky",
+              "uuid": "can_russell_yanofsky"
+            },
+            "summary": "This PR fixes an issue on Windows where the `bitcoin` wrapper script would not correctly wait for the main Bitcoin Core process to finish. This ensures proper process management and prevents orphaned processes or unexpected behavior when launching the node.",
+            "technical_summary": "The fix addresses a specific behavior of `exec` or process launching on Windows within the `bitcoin` wrapper. It modifies the wrapper's logic to correctly handle child process termination, likely by using appropriate Windows API calls (e.g., `WaitForSingleObject`) to ensure the parent wrapper process waits for the Bitcoin Core child process to exit before terminating itself. This prevents resource leaks and ensures consistent application lifecycle management.",
+            "importance": 17,
+            "review_count": 17
+          },
+          {
+            "number": 36488,
+            "repo": "bitcoin/bitcoin",
+            "title": "rpc: wallet: Schedule mixed-case confTarget option deprecation",
+            "author": {
+              "username": "maflcko",
+              "uuid": "can_marcofalke"
+            },
+            "summary": "This PR schedules the deprecation of mixed-case `confTarget` options within wallet RPCs. This change aims to standardize RPC parameter naming, improving consistency and ease of use for developers and users.",
+            "technical_summary": "The PR introduces a deprecation warning for RPC calls that use mixed-case variations of the `confTarget` parameter (e.g., `confTarget` vs `conftarget`). The underlying RPC logic will still accept these mixed-case inputs for a transitional period but will log a warning, guiding users to adopt the standardized, typically lowercase, naming convention. This is a step towards enforcing stricter API consistency and simplifying future RPC development and documentation for wallet interactions.",
+            "importance": 7,
+            "review_count": 7
+          },
+          {
+            "number": 36785,
+            "repo": "bitcoin/bitcoin",
+            "title": "rpc: wallet: Add snake_case aliases for listunspent options",
+            "author": {
+              "username": "maflcko",
+              "uuid": "can_marcofalke"
+            },
+            "summary": "This PR enhances the `listunspent` RPC command by introducing `snake_case` aliases for its options, providing more flexible and idiomatic parameter naming for users. This improves the usability and consistency of the RPC interface.",
+            "technical_summary": "The change involves modifying the RPC argument parsing logic for the `listunspent` command. It adds alternative `snake_case` names (e.g., `min_depth` instead of `minDepth`) to the existing `camelCase` options. The RPC server's parameter validation and mapping layer is updated to recognize both naming conventions, allowing users to interchangeably use either format when calling the RPC without altering the underlying C++ function signatures or data structures.",
+            "importance": 4,
+            "review_count": 4
+          }
+        ]
+      },
+      {
+        "name": "Maintenance & Tech Debt",
+        "prs": [
+          {
+            "number": 36068,
+            "repo": "bitcoin/bitcoin",
+            "title": "fuzz: reuse one fuzzed wallet across inputs",
+            "author": {
+              "username": "brunoerg",
+              "uuid": "can_bruno_garcia"
+            },
+            "summary": "This PR optimizes the fuzzer for wallet-related code by reusing a single fuzzed wallet instance across multiple test inputs. This significantly improves the efficiency and speed of wallet fuzz testing.",
+            "technical_summary": "The wallet fuzzer harness is modified to initialize a single `CWallet` object at the start of the fuzzing process. This instance is then reused for subsequent fuzzed inputs, avoiding the overhead of repeated wallet creation and destruction. This optimization allows for a greater number of fuzzing iterations within the same timeframe, enhancing test coverage.",
+            "importance": 15,
+            "review_count": 15
+          },
+          {
+            "number": 36642,
+            "repo": "bitcoin/bitcoin",
+            "title": "rpc: parse each batch element into its own request",
+            "author": {
+              "username": "fametrano",
+              "uuid": "auto_ferdinando_m_ametrano"
+            },
+            "summary": "This PR refactors the RPC batch processing mechanism to parse each element as an independent request. This improves the robustness and consistency of batch RPC calls, especially in handling individual request failures.",
+            "technical_summary": "The modification alters the RPC server's batch request handler. Instead of processing the entire batch as a single unit, each JSON object within the batch array is now individually parsed into its own `JSONRPCRequest` object. This allows for more granular error reporting and processing, ensuring that errors in one batch element do not necessarily prevent the processing of others, and aligns the internal representation of batch elements with single RPC calls.",
+            "importance": 12,
+            "review_count": 12
+          },
+          {
+            "number": 36224,
+            "repo": "bitcoin/bitcoin",
+            "title": "test: Add test coverage for `PartiallySignedTransaction::Merge()`",
+            "author": {
+              "username": "nebula-21",
+              "uuid": "auto_rogersala21"
+            },
+            "summary": "This PR adds new test coverage for the `PartiallySignedTransaction::Merge()` function, which is crucial for combining PSBTs. This ensures the merging logic works correctly and reliably, improving the robustness of PSBT handling.",
+            "technical_summary": "The PR introduces a new set of unit tests specifically targeting the `Merge()` method of the `PartiallySignedTransaction` class. These tests cover various scenarios, including merging PSBTs with different inputs, outputs, and witness data, to verify that the combined PSBT is valid and correctly represents the merged transaction. This enhances the confidence in the correctness of PSBT operations.",
+            "importance": 9,
+            "review_count": 9
+          },
+          {
+            "number": 36791,
+            "repo": "bitcoin/bitcoin",
+            "title": "test: fix waitTipChanged timeout on slow hosts and use monotonic clock in interface_ipc_mining",
+            "author": {
+              "username": "ViniciusCestarii",
+              "uuid": "auto_vinicius_cestari"
+            },
+            "summary": "This PR fixes a flaky test that could time out on slower systems and improves the reliability of mining-related interface tests. It ensures tests pass consistently across different hardware environments by using a monotonic clock for timing.",
+            "technical_summary": "The PR addresses test flakiness by adjusting the `waitTipChanged` timeout to be more forgiving on resource-constrained CI runners or development machines. Additionally, it modifies the `interface_ipc_mining` test to use `std::chrono::steady_clock` (a monotonic clock) for measuring durations. This prevents issues where system clock adjustments could interfere with test timing, leading to false failures.",
+            "importance": 7,
+            "review_count": 7
+          },
+          {
+            "number": 36815,
+            "repo": "bitcoin/bitcoin",
+            "title": "doc: Fix Doxygen attribution of file-level comments",
+            "author": {
+              "username": "hebasto",
+              "uuid": "can_hennadii_stepanov"
+            },
+            "summary": "This PR corrects how Doxygen attributes file-level comments in the documentation. This ensures that the generated documentation accurately reflects the intended authorship and context for each file.",
+            "technical_summary": "The Doxygen comments within the codebase are adjusted to conform to the tool's specific syntax for file-level attribution. This involves verifying and correcting Doxygen commands such as `@file` and `@author` at the top of source files. The fix ensures that the generated API documentation correctly associates file-level descriptions and metadata with their respective files.",
+            "importance": 7,
+            "review_count": 7
+          },
+          {
+            "number": 36805,
+            "repo": "bitcoin/bitcoin",
+            "title": "Enclose all header content in include guards",
+            "author": {
+              "username": "hebasto",
+              "uuid": "can_hennadii_stepanov"
+            },
+            "summary": "This PR ensures that all header files in the Bitcoin Core codebase are properly enclosed in include guards. This prevents multiple inclusions of the same header, which can lead to compilation errors and increased build times.",
+            "technical_summary": "A systematic review of all header files (`.h` or `.hpp`) was conducted to verify the presence and correct implementation of include guards (e.g., `#ifndef`, `#define`, `#endif`). Missing guards were added to ensure that each header's content is processed only once per compilation unit. This practice is crucial for build robustness, preventing redefinition errors and optimizing compilation efficiency.",
+            "importance": 6,
+            "review_count": 6
+          },
+          {
+            "number": 36074,
+            "repo": "bitcoin/bitcoin",
+            "title": "scripted-diff: [fuzz] Add util/check.h includes for assertions",
+            "author": {
+              "username": "maflcko",
+              "uuid": "can_marcofalke"
+            },
+            "summary": "This PR, applied via a scripted diff, updates fuzzing targets to include `util/check.h` for assertions. This ensures consistent and robust error checking within the fuzzing framework, improving the reliability of tests.",
+            "technical_summary": "The change is a mass update, likely applied programmatically, to various fuzzing test files. It involves adding `#include <util/check.h>` to these files, which provides access to assertion macros like `CHECK_NONFATAL` or `CHECK_FATAL`. This standardizes the assertion mechanism used within the fuzzing harnesses, ensuring that critical conditions are properly validated and reported during fuzzing runs, aiding in the discovery of bugs.",
+            "importance": 6,
+            "review_count": 6
+          },
+          {
+            "number": 36810,
+            "repo": "bitcoin/bitcoin",
+            "title": "test: construct `miner_tests` transactions declaratively",
+            "author": {
+              "username": "yuvicc",
+              "uuid": "auto_i_am_yuvi"
+            },
+            "summary": "This PR refactors the `miner_tests` suite to construct transactions using a more declarative style. This improves the readability and maintainability of the test code.",
+            "technical_summary": "The transaction construction logic within `miner_tests` is updated from an imperative, step-by-step approach to a more declarative one. This likely involves introducing helper functions or a builder pattern that allows test cases to define transaction properties concisely. The change reduces boilerplate, makes the intent of test transactions clearer, and simplifies future modifications to the test suite.",
+            "importance": 6,
+            "review_count": 6
+          },
+          {
+            "number": 36807,
+            "repo": "bitcoin/bitcoin",
+            "title": "refactor: Move `NodeId` declaration into `net_types.h` and fix includes in related modules",
+            "author": {
+              "username": "hebasto",
+              "uuid": "can_hennadii_stepanov"
+            },
+            "summary": "This PR refactors the declaration of `NodeId` to a more appropriate location, improving code organization and maintainability. It helps streamline dependencies within the networking codebase.",
+            "technical_summary": "The `NodeId` type, previously declared in a less specific header, is moved to `net_types.h`. This change centralizes network-related type definitions, reducing circular dependencies and improving module encapsulation. It also involves updating include paths in all files that reference `NodeId` to reflect its new location, ensuring consistent and correct compilation.",
+            "importance": 5,
+            "review_count": 5
+          },
+          {
+            "number": 36574,
+            "repo": "bitcoin/bitcoin",
+            "title": "ci: Reword stale readme",
+            "author": {
+              "username": "maflcko",
+              "uuid": "can_marcofalke"
+            },
+            "summary": "This PR updates and rewords a stale README file related to continuous integration, improving the accuracy and clarity of documentation for developers. This helps maintain up-to-date project information.",
+            "technical_summary": "The change involves editing the content of a specific README file within the CI directory. It updates outdated instructions, clarifies existing procedures, and ensures the documentation accurately reflects the current state of the CI system. This is a pure documentation update to improve developer experience.",
+            "importance": 5,
+            "review_count": 5
+          },
+          {
+            "number": 36408,
+            "repo": "bitcoin/bitcoin",
+            "title": "test: allow 3 bytes of fee overestimate in assert_fee_amount",
+            "author": {
+              "username": "fametrano",
+              "uuid": "auto_ferdinando_m_ametrano"
+            },
+            "summary": "This PR adjusts a test assertion to allow for a small, 3-byte overestimate in transaction fee calculations. This makes the test more robust against minor, acceptable variations in fee estimation without compromising accuracy.",
+            "technical_summary": "The `assert_fee_amount` utility function, used in various tests, is modified to include a small tolerance for fee overestimation. This accounts for potential off-by-one or minor rounding differences that can occur in fee calculation logic, especially when dealing with different transaction sizes or script types. The change prevents brittle tests from failing due to negligible, non-critical fee discrepancies.",
+            "importance": 5,
+            "review_count": 5
+          },
+          {
+            "number": 36556,
+            "repo": "bitcoin/bitcoin",
+            "title": "depends: fix non-atomic reads in capnp debug assertions",
+            "author": {
+              "username": "xyzconstant",
+              "uuid": "auto_xyzconstant"
+            },
+            "summary": "This PR addresses a potential issue in the `depends` system's `capnp` library where debug assertions could involve non-atomic reads. Fixing this ensures correctness and prevents undefined behavior in specific debug scenarios.",
+            "technical_summary": "The `capnp` dependency, used within the `depends` build system, contained debug assertions that might perform non-atomic reads on shared memory, potentially leading to race conditions or incorrect state in multi-threaded debug environments. This change modifies the relevant code paths to ensure that these reads are performed atomically, guaranteeing data consistency and preventing subtle bugs during development and debugging.",
+            "importance": 5,
+            "review_count": 5
+          },
+          {
+            "number": 36824,
+            "repo": "bitcoin/bitcoin",
+            "title": "ci: Switch to self-hosted CDash",
+            "author": {
+              "username": "willcl-ark",
+              "uuid": "auto_will_clark"
+            },
+            "summary": "This PR updates the Continuous Integration (CI) system to use a self-hosted instance of CDash for reporting test results. This provides more control and potentially better integration with Bitcoin Core's development infrastructure.",
+            "technical_summary": "The CI configuration scripts are modified to direct test result uploads to a newly established self-hosted CDash server. This involves updating target URLs and potentially API keys or authentication mechanisms. The transition ensures that build and test data remain within the project's control, offering enhanced privacy and customization options for reporting.",
+            "importance": 4,
+            "review_count": 4
+          },
+          {
+            "number": 36798,
+            "repo": "bitcoin/bitcoin",
+            "title": "test: spend an existing output in `TestBasicMining` double spend case",
+            "author": {
+              "username": "yuvicc",
+              "uuid": "auto_i_am_yuvi"
+            },
+            "summary": "This PR improves the `TestBasicMining` suite by making the double-spend test case more realistic. It now spends an existing output, which better simulates real-world double-spend attempts.",
+            "technical_summary": "The `TestBasicMining` double-spend scenario is enhanced to create a more authentic test environment. Instead of using a synthetic or non-existent output, the test now first mines a block to create a spendable UTXO. Subsequently, two conflicting transactions are constructed, both attempting to spend this specific, existing output, thereby more accurately simulating a real-world double-spend attempt on the network.",
+            "importance": 4,
+            "review_count": 4
+          },
+          {
+            "number": 36817,
+            "repo": "bitcoin/bitcoin",
+            "title": "ipc: remove pre-v14 libmultiprocess compat definitions",
+            "author": {
+              "username": "fanquake",
+              "uuid": "can_michael_ford"
+            },
+            "summary": "This PR removes outdated compatibility definitions related to `libmultiprocess` for versions older than v14. This cleans up the codebase by removing legacy code that is no longer needed.",
+            "technical_summary": "The `ipc` (Inter-Process Communication) component previously included code paths and definitions to maintain compatibility with `libmultiprocess` versions prior to v14. As the minimum supported dependency versions have advanced, these compatibility layers are now obsolete. This PR identifies and removes these unused code segments, reducing the overall codebase size and simplifying future maintenance.",
+            "importance": 3,
+            "review_count": 3
+          }
+        ]
+      }
+    ],
+    "hot": [
+      {
+        "name": "Network & Privacy",
+        "prs": [
+          {
+            "number": 35026,
+            "repo": "bitcoin/bitcoin",
+            "title": "mempool: recalculate stale BIP68 lockpoints in removeForReorg",
+            "author": {
+              "username": "javierpmateos",
+              "uuid": "auto_javier_mateos"
+            },
+            "event_count": 11,
+            "summary": "This PR improves mempool reliability by correctly recalculating BIP68 lockpoints for transactions that rely on their mempool parents during a chain reorganization. This ensures that validly locked transactions are not dropped from the mempool prematurely during reorgs, maintaining consistent transaction relay policy.",
+            "technical_summary": "The fix targets the `removeForReorg` function, specifically addressing scenarios where transactions with BIP68 (CSV) relative locktimes depending on other unconfirmed mempool transactions might become incorrectly stale after a reorg. It ensures that when transactions are re-added to the mempool, their lockpoints are re-evaluated considering not just the current blockchain tip but also any parent transactions simultaneously present in the mempool. This prevents valid transactions from being unnecessarily invalidated or dropped, thus improving the robustness and consistency of mempool state across the network during chain reorganizations. The update ensures correct application of transaction relay rules under dynamic chain conditions."
+          },
+          {
+            "number": 36187,
+            "repo": "bitcoin/bitcoin",
+            "title": "http: Restore requirement of IPv4 bind success",
+            "author": {
+              "username": "hodlinator",
+              "uuid": "can_hodlinator"
+            },
+            "event_count": 11,
+            "summary": "This PR restores the requirement for Bitcoin Core's HTTP server to successfully bind to an IPv4 address. This ensures the server operates as expected and prevents it from starting in a degraded state if IPv4 binding fails.",
+            "technical_summary": "Previously, the HTTP server might have started even if IPv4 binding failed, as long as IPv6 binding succeeded. This PR modifies the HTTP server initialization logic to explicitly require successful binding to at least one IPv4 address if configured. It ensures that if IPv4 is enabled, its binding must succeed for the server to be considered fully operational, preventing silent failures or unexpected behavior in mixed network environments."
+          }
+        ]
+      },
+      {
+        "name": "Maintenance & Tech Debt",
+        "prs": [
+          {
+            "number": 36147,
+            "repo": "bitcoin/bitcoin",
+            "title": "ci: add [free|open|net]BSD ci test jobs",
+            "author": {
+              "username": "willcl-ark",
+              "uuid": "auto_will_clark"
+            },
+            "event_count": 11,
+            "summary": "This PR expands Bitcoin Core's continuous integration (CI) system to include test jobs for FreeBSD, OpenBSD, and NetBSD. This improves the project's cross-platform compatibility and ensures the software functions correctly on these operating systems.",
+            "technical_summary": "The PR integrates new GitHub Actions workflows to build and run tests on various BSD distributions. It involves setting up appropriate build environments, dependencies, and test execution commands specific to FreeBSD, OpenBSD, and NetBSD. This addition helps catch platform-specific regressions and ensures the codebase remains portable across a wider range of Unix-like systems."
+          },
+          {
+            "number": 36451,
+            "repo": "bitcoin/bitcoin",
+            "title": "refactor: Use NotNull for CreateNewBlock and pimpls",
+            "author": {
+              "username": "maflcko",
+              "uuid": "can_marcofalke"
+            },
+            "event_count": 10,
+            "summary": "This PR refactors internal code to use `NotNull` types, improving code safety and readability. It helps prevent null pointer dereferences at compile time, making the block creation logic more robust.",
+            "technical_summary": "This refactoring introduces `NotNull` wrappers for pointers within `CreateNewBlock` and other PIMPL (Pointer to IMPLementation) classes. By enforcing non-nullability at the type level, it shifts potential runtime errors to compile-time checks. This improves type safety and clarifies ownership semantics, reducing the risk of unexpected behavior in critical code paths."
+          },
+          {
+            "number": 36049,
+            "repo": "bitcoin/bitcoin",
+            "title": "streams: handle buffered write failures outside the destructor",
+            "author": {
+              "username": "l0rinc",
+              "uuid": "can_lorinc_pap"
+            },
+            "event_count": 9,
+            "summary": "This PR improves the robustness of Bitcoin Core's stream handling by ensuring buffered write failures are managed explicitly, rather than silently ignored in destructors. This prevents potential data loss or unexpected behavior by allowing errors to be properly reported and handled.",
+            "technical_summary": "The change refactors stream classes to move buffered write flushing and error handling out of object destructors. Destructors are generally not suitable for throwing exceptions or handling complex error conditions. By moving this logic to explicit `Flush()` calls or similar mechanisms, the PR ensures that write failures can be properly propagated and addressed by the caller, leading to more predictable and reliable I/O operations within the application."
+          }
+        ]
+      }
+    ]
+  },
+  "discussions": [
+    {
+      "source": "Delving",
+      "subject": "Should wallets default to Taproot or SegWit receive addresses while some services still reject bc1p?",
+      "author": {
+        "username": "Anzus",
+        "uuid": "auto_anzus"
+      },
+      "link": "https://delvingbitcoin.org/t/should-wallets-default-to-taproot-or-segwit-receive-addresses-while-some-services-still-reject-bc1p/3056/2",
+      "message_count": 8,
+      "summary": "We're exploring ways to make receiving Bitcoin simpler and more reliable for users, aiming to prevent common errors when withdrawing funds from exchanges or other sources.",
+      "technical_summary": "The discussion highlights a recurring user experience issue where users encounter difficulties when copying Bitcoin receive addresses for withdrawals, likely due to address format confusion or network compatibility challenges. This points to a need for improved address validation, clearer user interface guidance, or potentially standardized mechanisms for address verification across different platforms. Solutions could involve enhanced client-side checks within wallets or better communication protocols between wallets and exchanges to mitigate user errors before transactions are initiated."
+    },
+    {
+      "source": "Delving",
+      "subject": "Decentralized Coinbase Payout Protocols (DCPP): A Framework for Discussion",
+      "author": {
+        "username": "7d5x9",
+        "uuid": "auto_7d5x9"
+      },
+      "link": "https://delvingbitcoin.org/t/decentralized-coinbase-payout-protocols-dcpp-a-framework-for-discussion/3060/1",
+      "message_count": 8,
+      "summary": "Developers are discussing critical limits within mining protocols to ensure the security and reliability of new open-source mining technologies. The goal is to make mining operations more robust and efficient for everyone.",
+      "technical_summary": "The discussion centers on understanding the rationale behind an apparent 'limit of 16' within mining protocols, and its implications for sharechains and payout sets. A key architectural debate has emerged regarding the safety of allowing the 'slot count' to depend on 'claimed firmware support.' The concern is that such a dependency could introduce vulnerabilities or instability, necessitating a re-evaluation of how these critical parameters are determined and validated within the open mining stack."
+    },
+    {
+      "source": "Delving",
+      "subject": "Towards A K-of-N Lightning Network Node",
+      "author": {
+        "username": "ZmnSCPxj jxPCSnmZ",
+        "uuid": "auto_zmnscpxj_jxpcsnmz"
+      },
+      "link": "https://delvingbitcoin.org/t/towards-a-k-of-n-lightning-network-node/2395/13",
+      "message_count": 6,
+      "summary": "We're exploring new ways to secure Lightning Network funds using shared control, making it safer and more resilient for users. This allows multiple parties to collectively manage a Lightning node, enhancing security against loss or compromise.",
+      "technical_summary": "The thread explores building a k-of-n multisig self-custodial Lightning node, leveraging Nested MuSig2 for enhanced fund security. A key technical debate now focuses on the storage costs of Lightning channel state updates, specifically how Core Lightning and lnd handle these differently. This impacts the operational overhead and scalability of a multisig node, requiring optimization of state management to minimize storage requirements for a robust k-of-n setup."
+    },
+    {
+      "source": "Delving",
+      "subject": "[BIP Draft] Co-signer Spending Policies",
+      "author": {
+        "username": "nonAnon",
+        "uuid": "auto_nonanon"
+      },
+      "link": "https://delvingbitcoin.org/t/bip-draft-co-signer-spending-policies/2955/8",
+      "message_count": 5,
+      "summary": "Efforts are underway to make multi-signature transactions smarter and more reliable by standardizing how co-signers enforce rules. This will enable more advanced Bitcoin transactions that automatically follow predefined conditions, enhancing security and predictability.",
+      "technical_summary": "The discussion focuses on standardizing co-signer policies to enable covenant-like behavior, where co-signers sign only when a specific predicate holds. A critical feedback point highlights that the current `statement-v0` draft signs event ID, outcome, and timestamp, but fails to specify if the outcome is final or mutable. This omission could lead to co-signers acting on a preliminary or subsequently invalidated outcome. The policy standardization must therefore explicitly address outcome finality to ensure co-signers operate on definitive data, preventing potential transaction invalidations."
+    },
+    {
+      "source": "Mailing List",
+      "subject": "[bitcoindev] BIP Draft Post-Quantum Address Format (bc1z) using ML-DSA-65",
+      "author": {
+        "username": "Hans Stringuer",
+        "uuid": "auto_hans_stringuer"
+      },
+      "link": "https://gnusha.org/pi/bitcoindev/9463348c-b2ec-4c6f-b9ec-2e9e2fc7d105n@googlegroups.com",
+      "message_count": 4,
+      "summary": "",
+      "technical_summary": ""
+    }
+  ],
+  "shoutouts": {
+    "new_contributors": [],
+    "top_authors": [
+      {
+        "user": {
+          "username": "maflcko",
+          "uuid": "can_marcofalke"
+        },
+        "count": 4
+      },
+      {
+        "user": {
+          "username": "hebasto",
+          "uuid": "can_hennadii_stepanov"
+        },
+        "count": 3
+      },
+      {
+        "user": {
+          "username": "fametrano",
+          "uuid": "auto_ferdinando_m_ametrano"
+        },
+        "count": 2
+      },
+      {
+        "user": {
+          "username": "yuvicc",
+          "uuid": "auto_i_am_yuvi"
+        },
+        "count": 2
+      },
+      {
+        "user": {
+          "username": "fanquake",
+          "uuid": "can_michael_ford"
+        },
+        "count": 1
+      }
+    ],
+    "top_reviewers": [
+      {
+        "user": {
+          "username": "maflcko",
+          "uuid": "can_marcofalke"
+        },
+        "count": 57
+      },
+      {
+        "user": {
+          "username": "fanquake",
+          "uuid": "can_michael_ford"
+        },
+        "count": 37
+      },
+      {
+        "user": {
+          "username": "hebasto",
+          "uuid": "can_hennadii_stepanov"
+        },
+        "count": 32
+      },
+      {
+        "user": {
+          "username": "l0rinc",
+          "uuid": "can_lorinc_pap"
+        },
+        "count": 24
+      },
+      {
+        "user": {
+          "username": "sedited",
+          "uuid": "auto_reproducibility_matters"
+        },
+        "count": 21
+      }
+    ],
+    "all_active": [
+      {
+        "username": "0xB10C",
+        "uuid": "can_0xb10c"
+      },
+      {
+        "username": "achow101",
+        "uuid": "can_ava_chow"
+      },
+      {
+        "username": "adezo24h1",
+        "uuid": "auto_adezo24h1"
+      },
+      {
+        "username": "ajtowns",
+        "uuid": "can_anthony_towns"
+      },
+      {
+        "username": "alexanderwiederin",
+        "uuid": "auto_alexander_wiederin"
+      },
+      {
+        "username": "alwaysprince05",
+        "uuid": "auto_prince_kumar_maurya"
+      },
+      {
+        "username": "andrewtoth",
+        "uuid": "can_andrew_toth"
+      },
+      {
+        "username": "bartoli",
+        "uuid": "auto_olivier_barthelemy"
+      },
+      {
+        "username": "Bicaru20",
+        "uuid": "auto_bicaru20"
+      },
+      {
+        "username": "brunoerg",
+        "uuid": "can_bruno_garcia"
+      },
+      {
+        "username": "conduition",
+        "uuid": "auto_conduition"
+      },
+      {
+        "username": "Conradgabe",
+        "uuid": "auto_isuekebho_gabriel"
+      },
+      {
+        "username": "craigraw",
+        "uuid": "auto_craig_raw"
+      },
+      {
+        "username": "Crypt-iQ",
+        "uuid": "auto_eugene_siegel"
+      },
+      {
+        "username": "cyb3ralbert",
+        "uuid": "auto_cyb3ralbert"
+      },
+      {
+        "username": "danielabrozzoni",
+        "uuid": "auto_daniela_brozzoni"
+      },
+      {
+        "username": "darosior",
+        "uuid": "can_antoine_poinsot"
+      },
+      {
+        "username": "davidgumberg",
+        "uuid": "auto_david_gumberg"
+      },
+      {
+        "username": "enirox001",
+        "uuid": "auto_enoch_azariah"
+      },
+      {
+        "username": "enochaz",
+        "uuid": "auto_enoch_azariah"
+      },
+      {
+        "username": "Eunovo",
+        "uuid": "auto_oghenovo_usiwoma"
+      },
+      {
+        "username": "fametrano",
+        "uuid": "auto_ferdinando_m_ametrano"
+      },
+      {
+        "username": "fanquake",
+        "uuid": "can_michael_ford"
+      },
+      {
+        "username": "fjahr",
+        "uuid": "can_fabian_jahr"
+      },
+      {
+        "username": "frankomosh",
+        "uuid": "auto_frankomosh"
+      },
+      {
+        "username": "furszy",
+        "uuid": "auto_matias_furszyfer"
+      },
+      {
+        "username": "GeorgeTsagk",
+        "uuid": "auto_george_tsagkarelis"
+      },
+      {
+        "username": "Hamza1610",
+        "uuid": "auto_hamza_muhammad"
+      },
+      {
+        "username": "hebasto",
+        "uuid": "can_hennadii_stepanov"
+      },
+      {
+        "username": "hodlinator",
+        "uuid": "can_hodlinator"
+      },
+      {
+        "username": "HowHsu",
+        "uuid": "auto_hao_xu"
+      },
+      {
+        "username": "Husteem",
+        "uuid": "auto_naim_hussain"
+      },
+      {
+        "username": "instagibbs",
+        "uuid": "can_greg_sanders"
+      },
+      {
+        "username": "ismaelsadeeq",
+        "uuid": "can_abubakar_sadiq_ismail"
+      },
+      {
+        "username": "janb84",
+        "uuid": "auto_jan_b"
+      },
+      {
+        "username": "javierpmateos",
+        "uuid": "auto_javier_mateos"
+      },
+      {
+        "username": "jeanpablojp",
+        "uuid": "auto_jean_pablo"
+      },
+      {
+        "username": "johnnyasantoss",
+        "uuid": "auto_johnny_santos"
+      },
+      {
+        "username": "jonatack",
+        "uuid": "can_jon_atack"
+      },
+      {
+        "username": "jpk68",
+        "uuid": "auto_jpk68"
+      },
+      {
+        "username": "jrakibi",
+        "uuid": "auto_jrakibi"
+      },
+      {
+        "username": "kevkevinpal",
+        "uuid": "auto_kevkevinpal"
+      },
+      {
+        "username": "KY-U",
+        "uuid": "auto_ky_u"
+      },
+      {
+        "username": "l0rinc",
+        "uuid": "can_lorinc_pap"
+      },
+      {
+        "username": "lanewreachoutinc-boop",
+        "uuid": "auto_lanewreachoutinc_boop"
+      },
+      {
+        "username": "m3dwards",
+        "uuid": "auto_max_edwards"
+      },
+      {
+        "username": "maflcko",
+        "uuid": "can_marcofalke"
+      },
+      {
+        "username": "mercie-ux",
+        "uuid": "auto_mercy_mbao"
+      },
+      {
+        "username": "musaHaruna",
+        "uuid": "auto_musa_haruna"
+      },
+      {
+        "username": "mzumsande",
+        "uuid": "can_martin_zumsande"
+      },
+      {
+        "username": "Naomi-Gift",
+        "uuid": "auto_nay_nay"
+      },
+      {
+        "username": "nebula-21",
+        "uuid": "auto_rogersala21"
+      },
+      {
+        "username": "nervana21",
+        "uuid": "auto_nervana21"
+      },
+      {
+        "username": "optout21",
+        "uuid": "auto_optout21"
+      },
+      {
+        "username": "pablomartin4btc",
+        "uuid": "auto_pablo_martin"
+      },
+      {
+        "username": "pinheadmz",
+        "uuid": "auto_matthew_zipkin"
+      },
+      {
+        "username": "polespinasa",
+        "uuid": "auto_pol_espinasa"
+      },
+      {
+        "username": "Portles",
+        "uuid": "auto_portles"
+      },
+      {
+        "username": "Pranav-error",
+        "uuid": "auto_r_sai_pranav"
+      },
+      {
+        "username": "pseudoramdom",
+        "uuid": "auto_pseudoramdom"
+      },
+      {
+        "username": "psychemist",
+        "uuid": "auto_chukwu_dike"
+      },
+      {
+        "username": "purpleKarrot",
+        "uuid": "auto_daniel_pfeifer"
+      },
+      {
+        "username": "pythcoiner",
+        "uuid": "auto_pythcoiner"
+      },
+      {
+        "username": "rustaceanrob",
+        "uuid": "auto_robert_netzke"
+      },
+      {
+        "username": "ryanofsky",
+        "uuid": "can_russell_yanofsky"
+      },
+      {
+        "username": "sedited",
+        "uuid": "auto_reproducibility_matters"
+      },
+      {
+        "username": "seduless",
+        "uuid": "auto_seduless"
+      },
+      {
+        "username": "shuv-amp",
+        "uuid": "auto_shuvam_pandey"
+      },
+      {
+        "username": "sipa",
+        "uuid": "can_pieter_wuille"
+      },
+      {
+        "username": "Sjors",
+        "uuid": "can_sjors_provoost"
+      },
+      {
+        "username": "Snan0M",
+        "uuid": "auto_snan0m"
+      },
+      {
+        "username": "sr-gi",
+        "uuid": "auto_sergi_delgado_segura"
+      },
+      {
+        "username": "stratospher",
+        "uuid": "auto_stratospher"
+      },
+      {
+        "username": "stringintech",
+        "uuid": "auto_stringintech"
+      },
+      {
+        "username": "theStack",
+        "uuid": "can_sebastian_falbesoner"
+      },
+      {
+        "username": "ValeraFinebits",
+        "uuid": "auto_valerafinebits"
+      },
+      {
+        "username": "vasild",
+        "uuid": "can_vasil_dimov"
+      },
+      {
+        "username": "ViniciusCestarii",
+        "uuid": "auto_vinicius_cestari"
+      },
+      {
+        "username": "w0xlt",
+        "uuid": "auto_w0xlt"
+      },
+      {
+        "username": "willcl-ark",
+        "uuid": "auto_will_clark"
+      },
+      {
+        "username": "winterrdog",
+        "uuid": "auto_deacon_st_george"
+      },
+      {
+        "username": "xanimo",
+        "uuid": "auto_xanimo"
+      },
+      {
+        "username": "xyzconstant",
+        "uuid": "auto_xyzconstant"
+      },
+      {
+        "username": "Yudis-bit",
+        "uuid": "auto_yudistira_putra"
+      },
+      {
+        "username": "yuvicc",
+        "uuid": "auto_i_am_yuvi"
+      },
+      {
+        "username": "Zeegaths",
+        "uuid": "auto_mary_wangui"
+      },
+      {
+        "username": "Zippo76",
+        "uuid": "auto_zippo76"
+      }
+    ]
+  }
+}

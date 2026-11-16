@@ -38,11 +38,11 @@
   "p2016_authored_commits": 209.0,
   "modern_authored_commits": 135.0,
   "co_authored_commits": 0.0,
-  "bips_authored": 0.0,
-  "p2016_bips_authored": 0.0,
+  "bips_authored": 1.0,
+  "p2016_bips_authored": 1.0,
   "modern_bips_authored": 0.0,
-  "first_bip_date": null,
-  "last_bip_date": null,
+  "first_bip_date": "2018-09-09T22:26:13",
+  "last_bip_date": "2018-09-09T22:26:13",
   "avg_review_latency_days": 1692.4676829901023,
   "reviews_count": 24.0,
   "avg_approval_latency_days": 677.3725115740741,
@@ -60,10 +60,10 @@
   "avg_concept_lead_time_days": 2.2808101851851856,
   "review_reciprocity": 1.8461538461538463,
   "hybrid_score": 0.7929,
-  "p2016_hybrid_score": 0.4481,
-  "modern_hybrid_score": 0.4475,
+  "p2016_hybrid_score": 0.798,
+  "modern_hybrid_score": 0.4473,
   "impact_score": 38.0,
-  "p2016_impact_score": 24.0,
+  "p2016_impact_score": 38.0,
   "modern_impact_score": 24.0,
   "threads_started": 1.0,
   "replies_sent": 1.0,
@@ -71,24 +71,27 @@
   "delving_threads": 0.0,
   "ml_responses": 1.0,
   "delving_responses": 0.0,
-  "first_active": "2026-04-20T02:22:10",
-  "last_active": "2026-04-21T04:16:04",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Protocol Designer",
   "expertise_domains": [
     "Infrastructure",
     "Wallet"
   ],
   "expertise_by_source": {
+    "code": {
+      "Infrastructure": 1.0
+    },
     "discussion": {
       "Wallet": 1.0
     },
-    "code": {
+    "bips": {
       "Infrastructure": 1.0
     }
   },
   "expertise_domain_scores": {
-    "Infrastructure": 0.6,
-    "Wallet": 0.4
+    "Infrastructure": 0.8,
+    "Wallet": 0.2
   },
   "p2016_posts": 2.0,
   "modern_posts": 2.0,
@@ -100,7 +103,7 @@
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": true,
-  "global_first_active": "2020-08-29T14:41:20",
+  "global_first_active": "2018-09-09T22:26:13",
   "global_last_active": "2026-10-23T06:09:46",
   "github_location": "Remote",
   "github_company": null,
@@ -108,7 +111,7 @@
   "github_twitter": null,
   "github_blog": "https://keybase.io/guggero",
   "github_followers": 453.0,
-  "activity_status": "Rising",
+  "activity_status": "Active",
   "is_top_50": false,
   "github_url": "https://github.com/guggero",
   "commit_history": {
@@ -135,6 +138,15 @@
       "Build & CI": 53.0
     }
   },
+  "bip_list": [
+    {
+      "number": 322,
+      "title": "Generic Signed Message Format",
+      "status": "Complete",
+      "theme": "Other",
+      "link": "https://github.com/bitcoin/bips/blob/master/bip-0322.mediawiki"
+    }
+  ],
   "first_message": {
     "source": "mailing_list",
     "subject": "[bitcoindev] BIP-322: Add type prefix, change PoF serialization,\n PSBT-based signing",

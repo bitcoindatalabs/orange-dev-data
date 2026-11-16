@@ -57,9 +57,9 @@
   "avg_pr_ack_velocity_days": 11.303676697530863,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": 1.7777777777777777,
-  "hybrid_score": 0.5821,
-  "p2016_hybrid_score": 0.6209,
-  "modern_hybrid_score": 0.0898,
+  "hybrid_score": 0.582,
+  "p2016_hybrid_score": 0.6207,
+  "modern_hybrid_score": 0.0897,
   "impact_score": 29.0,
   "p2016_impact_score": 31.0,
   "modern_impact_score": 5.0,
@@ -69,8 +69,8 @@
   "delving_threads": 22.0,
   "ml_responses": 41.0,
   "delving_responses": 12.0,
-  "first_active": "2018-11-08T02:11:30",
-  "last_active": null,
+  "first_active": null,
+  "last_active": "2024-09-09T10:54:41.079000",
   "dev_type": "Protocol Designer",
   "expertise_domains": [
     "Infrastructure",
@@ -78,12 +78,12 @@
     "Wallet"
   ],
   "expertise_by_source": {
-    "discussion": {
-      "Script": 0.711,
-      "Wallet": 0.289
-    },
     "code": {
       "Infrastructure": 1.0
+    },
+    "discussion": {
+      "Wallet": 0.289,
+      "Script": 0.711
     },
     "bips": {
       "Infrastructure": 1.0
@@ -91,21 +91,21 @@
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.8,
-    "Script": 0.1422,
-    "Wallet": 0.0578
+    "Wallet": 0.0578,
+    "Script": 0.1422
   },
   "p2016_posts": 79.0,
-  "modern_posts": 31.0,
+  "modern_posts": 29.0,
   "p2016_ml_posts": 45.0,
   "p2016_delving_posts": 34.0,
   "modern_ml_posts": 0.0,
-  "modern_delving_posts": 31.0,
+  "modern_delving_posts": 29.0,
   "is_engineer": true,
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": true,
-  "global_first_active": "2018-11-08T02:11:30",
-  "global_last_active": "2024-04-12T17:27:44",
+  "global_first_active": "2019-07-24T12:19:28",
+  "global_last_active": "2024-09-09T10:54:41.079000",
   "github_location": null,
   "github_company": null,
   "github_bio": null,

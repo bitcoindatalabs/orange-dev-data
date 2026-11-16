@@ -45,9 +45,9 @@
   "avg_pr_ack_velocity_days": 13.781597222222222,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": 0.0,
-  "hybrid_score": 0.174,
-  "p2016_hybrid_score": 0.1688,
-  "modern_hybrid_score": 0.0786,
+  "hybrid_score": 0.1739,
+  "p2016_hybrid_score": 0.1687,
+  "modern_hybrid_score": 0.0785,
   "impact_score": 10.0,
   "p2016_impact_score": 10.0,
   "modern_impact_score": 5.0,
@@ -57,8 +57,8 @@
   "delving_threads": 0.0,
   "ml_responses": 63.0,
   "delving_responses": 0.0,
-  "first_active": "2015-07-23T21:57:12",
-  "last_active": "2025-06-10T18:13:14",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Builder",
   "expertise_domains": [
     "Infrastructure",
@@ -66,12 +66,12 @@
     "Mining"
   ],
   "expertise_by_source": {
+    "code": {
+      "Infrastructure": 1.0
+    },
     "discussion": {
       "Mining": 0.31,
       "Consensus": 0.69
-    },
-    "code": {
-      "Infrastructure": 1.0
     }
   },
   "expertise_domain_scores": {
@@ -89,8 +89,8 @@
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": false,
-  "global_first_active": "2015-07-23T21:57:12",
-  "global_last_active": "2025-06-10T18:13:14",
+  "global_first_active": "2021-04-01T11:17:12",
+  "global_last_active": "2022-04-20T10:41:29",
   "github_location": null,
   "github_company": null,
   "github_bio": "https://www.courtlistener.com/docket/67498051/united-states-v-scotese/ and I'm out on a bond seeking work.",

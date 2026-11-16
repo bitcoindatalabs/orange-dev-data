@@ -46,7 +46,7 @@
   "avg_concept_lead_time_days": null,
   "review_reciprocity": 0.5,
   "hybrid_score": 0.1081,
-  "p2016_hybrid_score": 0.1107,
+  "p2016_hybrid_score": 0.1106,
   "modern_hybrid_score": 0.025,
   "impact_score": 6.0,
   "p2016_impact_score": 6.0,
@@ -57,19 +57,19 @@
   "delving_threads": 0.0,
   "ml_responses": 1.0,
   "delving_responses": 0.0,
-  "first_active": "2019-11-08T07:42:13",
-  "last_active": "2019-11-08T07:42:13",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Builder",
   "expertise_domains": [
     "Infrastructure",
     "Consensus"
   ],
   "expertise_by_source": {
-    "discussion": {
-      "Consensus": 1.0
-    },
     "code": {
       "Infrastructure": 1.0
+    },
+    "discussion": {
+      "Consensus": 1.0
     }
   },
   "expertise_domain_scores": {

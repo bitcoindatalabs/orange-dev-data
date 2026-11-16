@@ -71,8 +71,8 @@
   "expertise_by_source": {
     "code": {
       "Infrastructure": 0.99,
-      "Consensus": 0.002,
-      "Network": 0.009
+      "Network": 0.009,
+      "Consensus": 0.002
     }
   },
   "expertise_domain_scores": {

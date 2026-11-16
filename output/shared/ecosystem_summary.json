@@ -1,38 +1,38 @@
 {
-  "generated_at": "2026-11-08",
+  "generated_at": "2026-11-15",
   "groups": {
     "committers": 1296,
-    "reviewers": 5366,
-    "research": 1756,
-    "standards": 160,
-    "total_active": 6667,
-    "total_registry": 7384
+    "reviewers": 5375,
+    "research": 1758,
+    "standards": 165,
+    "total_active": 6677,
+    "total_registry": 7393
   },
   "venn_4": {
     "0001": 9,
-    "0010": 1150,
+    "0010": 1152,
     "0011": 21,
-    "0100": 3902,
+    "0100": 3911,
     "0101": 9,
-    "0110": 237,
+    "0110": 236,
     "0111": 43,
-    "1000": 108,
+    "1000": 107,
     "1001": 1,
     "1010": 11,
     "1011": 1,
-    "1100": 882,
-    "1101": 0,
-    "1110": 217,
-    "1111": 76
+    "1100": 881,
+    "1101": 1,
+    "1110": 214,
+    "1111": 80
   },
   "venn_summary": {
-    "code_only": 108,
-    "review_only": 3902,
-    "research_only": 1150,
+    "code_only": 107,
+    "review_only": 3911,
+    "research_only": 1152,
     "standards_only": 9,
-    "all_four": 76,
-    "code_review": 882,
-    "review_research": 237,
+    "all_four": 80,
+    "code_review": 881,
+    "review_research": 236,
     "research_standards": 21
   },
   "rd_focus": {},
@@ -47,25 +47,25 @@
     "description": "First-time core contributor recently merged PR #36613 (test: add getblockfilter test coverage for header-only blocks)."
   },
   "onboarding": {
-    "new_coders_90d": 31,
-    "new_coders_30d": 7,
-    "new_coders_7d": 4,
-    "new_discussants_90d": 81,
-    "new_discussants_7d": 19,
+    "new_coders_90d": 29,
+    "new_coders_30d": 6,
+    "new_coders_7d": 0,
+    "new_discussants_90d": 80,
+    "new_discussants_7d": 4,
     "window_days": 90
   },
   "prs": {
-    "total_merged": 17242,
-    "merged_30d": 171,
-    "merged_prev_30d": 151,
-    "merged_7d": 73,
-    "merged_prev_7d": 35
+    "total_merged": 17262,
+    "merged_30d": 168,
+    "merged_prev_30d": 131,
+    "merged_7d": 19,
+    "merged_prev_7d": 73
   },
   "commits": {
-    "commits_30d": 505,
+    "commits_30d": 453,
     "commits_prev_30d": 431,
-    "commits_7d": 123,
-    "commits_prev_7d": 145
+    "commits_7d": 32,
+    "commits_prev_7d": 125
   },
   "bips": {
     "total": 218,
@@ -76,20 +76,20 @@
       {
         "category": "quantum",
         "label": "Quantum",
-        "count": 106,
-        "share": 21.5
+        "count": 107,
+        "share": 21.7
       },
       {
         "category": "mining",
         "label": "Mining",
-        "count": 58,
-        "share": 11.7
+        "count": 44,
+        "share": 8.9
       },
       {
-        "category": "p2p-network",
-        "label": "P2P Network",
-        "count": 36,
-        "share": 7.3
+        "category": "taproot",
+        "label": "Taproot",
+        "count": 43,
+        "share": 8.7
       }
     ],
     "top_bips": [

@@ -1,18 +1,23 @@
 {
+  "36142": {
+    "optech_url": "https://bitcoinops.org/en/newsletters/2026/11/13/",
+    "date": "2026-11-13",
+    "snippet": "fixes command injection through the [Tor][topic\n  anonymity networks] control endpoint. An attacker controlling or\n  impersonating that endpoint could return a malicious onion service private\n  key. Bitcoin Core would then save and reuse the key, allowing the attacker to\n  inject additional Tor control commands or arguments. Bitcoin Core now\n  validates keys before saving or reusing them and checks returned onion\n  service IDs. If an existing cached key fails validation, the onion service\n  will be unavailable. Deleting the cached key and restarting will generate a\n  new onion address."
+  },
   "36539": {
     "optech_url": "https://bitcoinops.org/en/newsletters/2026/11/06/",
     "date": "2026-11-06",
-    "snippet": "restores the PSBTv0 format for unsigned transactions\n  and fee bumps exported from the GUI. Bitcoin Core 32.1 exported these\n  [PSBTs][topic psbt] using version 2, preventing users from signing them with\n  tools that only support version 0. The separate external-signer workflow\n  configured with `-signer` (see [Newsletter #138][news138 signer]) continues\n  to use PSBTv2, so those users need an external signer that supports it,\n  such as HWI 2.1.0 or later."
+    "snippet": "restores the PSBTv0 format for unsigned transactions\n  and fee bumps exported from the GUI. Bitcoin Core 32.1 exported these\n  [PSBTs][topic psbt] using version 2, preventing users from signing them with\n  tools that only support version 0. The separate external-signer workflow\n  configured with `-signer` (see [Newsletter #138][news138 signer]) continues\n  to use PSBTv2, so those users need an external signer that supports it,\n  such as HWI 2.1.0 or later. {% assign timestamp=\"1:29:24\" %}"
   },
   "35714": {
     "optech_url": "https://bitcoinops.org/en/newsletters/2026/11/06/",
     "date": "2026-11-06",
-    "snippet": "fixes a bug where the node could update its block\n  index and UTXO database after failing to flush block or undo data to disk.\n  Although the failure signaled the node to shut down, the code handling these\n  writes could still update the databases before the node stopped. If these\n  updates succeeded, the databases could record a state for which the\n  supporting block or undo data had not yet been safely saved. This could leave\n  the node's local state inconsistent and complicate recovery. The code now\n  skips those database writes during the failing flush attempt. This\n  complements earlier flush ordering protections for optional indexes covered\n  in [Newsletter #414][news414 flush]."
+    "snippet": "fixes a bug where the node could update its block\n  index and UTXO database after failing to flush block or undo data to disk.\n  Although the failure signaled the node to shut down, the code handling these\n  writes could still update the databases before the node stopped. If these\n  updates succeeded, the databases could record a state for which the\n  supporting block or undo data had not yet been safely saved. This could leave\n  the node's local state inconsistent and complicate recovery. The code now\n  skips those database writes during the failing flush attempt. This\n  complements earlier flush ordering protections for optional indexes covered\n  in [Newsletter #414][news414 flush]. {% assign timestamp=\"1:31:44\" %}"
   },
   "35492": {
     "optech_url": "https://bitcoinops.org/en/newsletters/2026/11/06/",
     "date": "2026-11-06",
-    "snippet": "fixes a bug where `bitcoin-wallet dump` (see\n  [Newsletter #130][news130 dump]) could report success after writing an\n  incomplete wallet export. Previously, the command checked if it could open\n  the destination file but did not detect subsequent write failures, such as\n  running out of disk space. Consequently, users could mistakenly believe that\n  the export was complete, only to discover missing data when trying to restore\n  the wallet. Now, the command verifies the writing, flushing, and closing of\n  the file. It reports failures and removes incomplete dump files."
+    "snippet": "fixes a bug where `bitcoin-wallet dump` (see\n  [Newsletter #130][news130 dump]) could report success after writing an\n  incomplete wallet export. Previously, the command checked if it could open\n  the destination file but did not detect subsequent write failures, such as\n  running out of disk space. Consequently, users could mistakenly believe that\n  the export was complete, only to discover missing data when trying to restore\n  the wallet. Now, the command verifies the writing, flushing, and closing of\n  the file. It reports failures and removes incomplete dump files. {% assign timestamp=\"1:34:35\" %}"
   },
   "36665": {
     "optech_url": "https://bitcoinops.org/en/newsletters/2026/10/30/",

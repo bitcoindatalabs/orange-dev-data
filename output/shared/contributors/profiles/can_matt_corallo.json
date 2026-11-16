@@ -69,8 +69,8 @@
   "delving_threads": 19.0,
   "ml_responses": 430.0,
   "delving_responses": 23.0,
-  "first_active": "2011-06-26T20:20:23",
-  "last_active": "2026-10-23T19:30:48",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Protocol Designer",
   "expertise_domains": [
     "Infrastructure",
@@ -78,17 +78,17 @@
     "Mining"
   ],
   "expertise_by_source": {
-    "discussion": {
-      "Mining": 0.533,
-      "Consensus": 0.467
-    },
     "code": {
       "Infrastructure": 0.684,
       "Wallet": 0.048,
-      "Consensus": 0.104,
       "Network": 0.138,
-      "Script": 0.002,
-      "Mempool": 0.026
+      "Consensus": 0.104,
+      "Mempool": 0.026,
+      "Script": 0.002
+    },
+    "discussion": {
+      "Mining": 0.533,
+      "Consensus": 0.467
     },
     "bips": {
       "Infrastructure": 0.75,
@@ -98,24 +98,24 @@
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.5799,
-    "Mining": 0.1065,
-    "Consensus": 0.187,
     "L2": 0.0625,
     "Wallet": 0.0144,
+    "Mining": 0.1065,
+    "Consensus": 0.187,
     "Network": 0.0414
   },
   "p2016_posts": 311.0,
-  "modern_posts": 117.0,
+  "modern_posts": 116.0,
   "p2016_ml_posts": 269.0,
   "p2016_delving_posts": 42.0,
   "modern_ml_posts": 75.0,
-  "modern_delving_posts": 42.0,
+  "modern_delving_posts": 41.0,
   "is_engineer": true,
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": true,
   "global_first_active": "2011-03-05T14:32:32",
-  "global_last_active": "2026-10-23T19:30:48",
+  "global_last_active": "2026-09-03T16:10:03",
   "github_location": null,
   "github_company": null,
   "github_bio": "Many repos moved, see https://git.bitcoin.ninja.",

@@ -1,5 +1,90 @@
 [
   {
+    "date": "2026-11-12",
+    "url": "https://achow101.com/ircmeetings/2026/bitcoin-core-dev.2026-11-12_16_00.log.json",
+    "participant_count": 27,
+    "key_participants": [
+      "abubakarsadiq",
+      "andrewtoth",
+      "sedited",
+      "johnny9dev",
+      "sr_gi",
+      "brunoerg"
+    ],
+    "active_participants": [
+      "abubakarsadiq",
+      "andrewtoth",
+      "sedited",
+      "johnny9dev",
+      "sr_gi",
+      "brunoerg",
+      "yancy",
+      "stratospher",
+      "Murch[m]"
+    ],
+    "topics_discussed": [
+      "Fuzzing WG Update: No update reported by eugenesiegel.",
+      "addr-relay WG Update: stratospher reported no update, ongoing work on addr-relay protections, write-ups expected soon.",
+      "Kernel WG Update: sedited noted purpleKarrot posted RFC issue #36842 on encapsulation of vocabulary types, encouraging comments.",
+      "Benchmarking WG Update: l0rinc was absent. andrewtoth reported sedited's branch achieved chainstate reindex in ~20 minutes, others under an hour. This leverages sipa's negative UTXO set suggestion, enabling parallel block connecting and binding validation performance to CPU cores without assumevalid.",
+      "QA WG Update: brunoerg ran mutation testing on src/validation.cpp, identifying over 300 surviving mutants on mutanthub.space, indicating test gaps.",
+      "QML GUI WG Update: johnny9dev reported jarolrod's QA with \"clankers\" found 300 findings against gui-qml, delaying the PR to bitcoin/bitcoin but confirming feature completeness. Project Loupe engagement is planned.",
+      "re-activate Erlay WG and Signal chat (or alternative): sr_gi requested re-activation of the Erlay WG and its Signal group for discussions.",
+      "Erlay WG Update: sr_gi rebased the Erlay PR on master and is addressing coredev points. A proposal was made to use BIP-434 for the Erlay handshake, replacing custom negotiation, aligning with BIP-330 draft status."
+    ],
+    "decisions_made": [
+      "Erlay WG to be moved from archive to active status, with sr_gi as the primary contact for updates."
+    ],
+    "action_items": [
+      "Developers are encouraged to comment on Kernel WG RFC issue #36842.",
+      "brunoerg requests PR descriptions include links to mutants from mutanthub.space and/or git diffs of mutants for QA.",
+      "sr_gi will re-activate the Erlay WG on GitHub and its Signal group; interested parties should contact sr_gi to join the chat.",
+      "sr_gi will create a todo list and provide regular reports on Erlay updates."
+    ],
+    "mentioned_prs": [
+      36842
+    ],
+    "card_topics": [
+      "Kernel WG: purpleKarrot's RFC issue #36842 on vocabulary type encapsulation posted; sedited encourages developer comments.",
+      "Benchmarking WG: sedited's branch achieved 20-minute chainstate reindex, utilizing sipa's negative UTXO set for parallel block connecting.",
+      "QA WG: brunoerg's mutation testing found 300+ surviving mutants in `src/validation.cpp` on mutanthub.space, indicating test coverage gaps.",
+      "QML GUI WG: jarolrod's \"clankers\" identified 300 findings, delaying the PR to bitcoin/bitcoin but confirming feature completeness.",
+      "Erlay WG: sr_gi re-activated the WG, rebased the PR, and proposed using BIP-434 for handshake negotiation, aligning with BIP-330."
+    ],
+    "spotlight_debate": "Erlay Handshake: sr_gi proposed replacing Erlay's custom handshake with BIP-434, aligning with BIP-330 draft status for improved negotiation.",
+    "referenced_artifacts": [
+      {
+        "label": "Issue #36842",
+        "icon": "flag"
+      },
+      {
+        "label": "mutanthub.space",
+        "icon": "globe"
+      },
+      {
+        "label": "Delving Bitcoin",
+        "icon": "globe"
+      },
+      {
+        "label": "BIP-434",
+        "icon": "file-code"
+      },
+      {
+        "label": "BIP-330",
+        "icon": "file-code"
+      }
+    ],
+    "narrative_summary": "Benchmarking efforts by sedited demonstrated a chainstate reindex in approximately 20 minutes, leveraging an architecture inspired by sipa's negative UTXO set suggestion. This approach enables parallel block connecting, binding validation performance to CPU cores without `assumevalid`. The Kernel WG saw purpleKarrot post RFC issue #36842 on vocabulary type encapsulation; sedited encourages developer review.\n\nThe QML GUI WG received 300 findings from jarolrod's exhaustive QA with 'clankers', delaying the PR to bitcoin/bitcoin but confirming feature completeness. Project Loupe engagement is planned. brunoerg's mutation testing on `src/validation.cpp` identified over 300 surviving mutants, now on mutanthub.space, highlighting areas requiring additional test coverage.\n\nsr_gi initiated the re-activation of the Erlay WG and its Signal chat for discussions. The Erlay PR has been rebased on master, with sr_gi addressing coredev points. A technical proposal was made to adopt BIP-434 for the Erlay handshake, replacing custom negotiation to align with BIP-330 draft status.",
+    "x_priority_takeaway": "Review Kernel WG encapsulation RFC #36842.",
+    "x_bullet_points": [
+      "20-min chainstate reindex achieved.",
+      "300+ mutants in validation.cpp.",
+      "Erlay handshake to use BIP-434."
+    ],
+    "linkedin_context": "Benchmarking efforts by sedited demonstrated a chainstate reindex in approximately 20 minutes, leveraging an architecture inspired by sipa's negative UTXO set suggestion. This approach enables parallel block connecting, binding validation performance to CPU cores without `assumevalid`. The Kernel WG saw purpleKarrot post RFC issue #36842 on vocabulary type encapsulation; sedited encourages developer review.\n\nThe QML GUI WG received 300 findings from jarolrod's exhaustive QA with 'clankers', delaying the PR to bitcoin/bitcoin but confirming feature completeness. Project Loupe engagement is planned. brunoerg's mutation testing on `src/validation.cpp` identified over 300 surviving mutants, now on mutanthub.space, highlighting areas requiring additional test coverage.\n\nsr_gi initiated the re-activation of the Erlay WG and its Signal chat for discussions. The Erlay PR has been rebased on master, with sr_gi addressing coredev points. A technical proposal was made to adopt BIP-434 for the Erlay handshake, replacing custom negotiation to align with BIP-330 draft status.",
+    "_text_hash": "6d97a44aaf4692b99b6409a40681b19a"
+  },
+  {
     "date": "2026-11-05",
     "url": "https://achow101.com/ircmeetings/2026/bitcoin-core-dev.2026-11-05_16_09.log.json",
     "participant_count": 16,

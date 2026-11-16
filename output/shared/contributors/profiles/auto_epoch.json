@@ -57,8 +57,8 @@
   "delving_threads": 3.0,
   "ml_responses": 0.0,
   "delving_responses": 0.0,
-  "first_active": null,
-  "last_active": null,
+  "first_active": "2026-10-20T22:29:59.774000",
+  "last_active": "2026-11-02T20:30:37.768000",
   "dev_type": "Participant",
   "expertise_domains": [
     "Script"
@@ -81,8 +81,8 @@
   "is_reviewer": false,
   "is_researcher": false,
   "is_bip_author": false,
-  "global_first_active": null,
-  "global_last_active": null,
+  "global_first_active": "2026-10-20T22:29:59.774000",
+  "global_last_active": "2026-11-02T20:30:37.768000",
   "github_location": null,
   "github_company": null,
   "github_bio": null,

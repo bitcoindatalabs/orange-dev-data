@@ -57,8 +57,8 @@
   "avg_pr_ack_velocity_days": 36.03384910300926,
   "avg_concept_lead_time_days": 50.93259645061729,
   "review_reciprocity": 1.7222222222222223,
-  "hybrid_score": 0.9764,
-  "p2016_hybrid_score": 1.0667,
+  "hybrid_score": 0.9763,
+  "p2016_hybrid_score": 1.0662,
   "modern_hybrid_score": 1.0978,
   "impact_score": 44.0,
   "p2016_impact_score": 47.0,
@@ -69,8 +69,8 @@
   "delving_threads": 4.0,
   "ml_responses": 74.0,
   "delving_responses": 9.0,
-  "first_active": "2014-06-03T06:51:45",
-  "last_active": "2026-05-05T14:17:23",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Protocol Designer",
   "expertise_domains": [
     "Consensus",
@@ -78,14 +78,14 @@
     "Cryptography"
   ],
   "expertise_by_source": {
-    "discussion": {
-      "Consensus": 0.211,
-      "Script": 0.351,
-      "Cryptography": 0.439
-    },
     "code": {
       "Infrastructure": 0.769,
       "Network": 0.231
+    },
+    "discussion": {
+      "Cryptography": 0.439,
+      "Script": 0.351,
+      "Consensus": 0.211
     },
     "bips": {
       "Consensus": 1.0
@@ -93,10 +93,10 @@
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.2307,
-    "Consensus": 0.5421,
+    "Cryptography": 0.0878,
     "Script": 0.0702,
-    "Network": 0.0693,
-    "Cryptography": 0.0878
+    "Consensus": 0.5421,
+    "Network": 0.0693
   },
   "p2016_posts": 96.0,
   "modern_posts": 70.0,
@@ -108,7 +108,7 @@
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": true,
-  "global_first_active": "2014-06-03T06:51:45",
+  "global_first_active": "2015-09-30T17:42:18",
   "global_last_active": "2026-06-15T02:07:11",
   "github_location": null,
   "github_company": "@cloudflare",

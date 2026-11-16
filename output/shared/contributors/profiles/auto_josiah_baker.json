@@ -38,11 +38,11 @@
   "p2016_authored_commits": 105.0,
   "modern_authored_commits": 34.0,
   "co_authored_commits": 6.0,
-  "bips_authored": 0.0,
-  "p2016_bips_authored": 0.0,
-  "modern_bips_authored": 0.0,
-  "first_bip_date": null,
-  "last_bip_date": null,
+  "bips_authored": 2.0,
+  "p2016_bips_authored": 2.0,
+  "modern_bips_authored": 2.0,
+  "first_bip_date": "2024-01-15T05:05:08",
+  "last_bip_date": "2024-10-19T10:28:39",
   "avg_review_latency_days": 1022.4284326750025,
   "reviews_count": 185.0,
   "avg_approval_latency_days": 292.47251781010533,
@@ -59,41 +59,44 @@
   "avg_pr_ack_velocity_days": 9.714867084826762,
   "avg_concept_lead_time_days": 24.53325367647059,
   "review_reciprocity": 4.404761904761905,
-  "hybrid_score": 0.8182,
-  "p2016_hybrid_score": 0.4718,
-  "modern_hybrid_score": 0.4055,
-  "impact_score": 39.0,
-  "p2016_impact_score": 25.0,
-  "modern_impact_score": 22.0,
+  "hybrid_score": 1.0229,
+  "p2016_hybrid_score": 1.0265,
+  "modern_hybrid_score": 0.9602,
+  "impact_score": 46.0,
+  "p2016_impact_score": 46.0,
+  "modern_impact_score": 44.0,
   "threads_started": 2.0,
   "replies_sent": 2.0,
   "ml_threads": 2.0,
   "delving_threads": 0.0,
   "ml_responses": 2.0,
   "delving_responses": 0.0,
-  "first_active": "2023-04-21T04:36:08",
-  "last_active": "2023-08-06T09:20:06",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Protocol Designer",
   "expertise_domains": [
-    "Infrastructure",
     "Privacy",
+    "Infrastructure",
     "Wallet"
   ],
   "expertise_by_source": {
-    "discussion": {
-      "Privacy": 1.0
-    },
     "code": {
       "Infrastructure": 0.89,
       "Wallet": 0.09,
-      "Consensus": 0.01,
-      "Network": 0.01
+      "Network": 0.01,
+      "Consensus": 0.01
+    },
+    "discussion": {
+      "Privacy": 1.0
+    },
+    "bips": {
+      "Privacy": 1.0
     }
   },
   "expertise_domain_scores": {
-    "Infrastructure": 0.534,
-    "Wallet": 0.054,
-    "Privacy": 0.4
+    "Infrastructure": 0.267,
+    "Wallet": 0.027,
+    "Privacy": 0.7
   },
   "p2016_posts": 4.0,
   "modern_posts": 0.0,
@@ -113,7 +116,7 @@
   "github_twitter": "josibake",
   "github_blog": "josibake.io",
   "github_followers": 362.0,
-  "activity_status": "Rising",
+  "activity_status": "Active",
   "is_top_50": false,
   "github_url": "https://github.com/josibake",
   "commit_history": {
@@ -157,6 +160,22 @@
       "Utilities": 1.5
     }
   },
+  "bip_list": [
+    {
+      "number": 352,
+      "title": "Silent Payments",
+      "status": "Complete",
+      "theme": "Privacy",
+      "link": "https://github.com/bitcoin/bips/blob/master/bip-0352.mediawiki"
+    },
+    {
+      "number": 375,
+      "title": "Sending Silent Payments with PSBTs",
+      "status": "Draft",
+      "theme": "Privacy",
+      "link": "https://github.com/bitcoin/bips/blob/master/bip-0375.mediawiki"
+    }
+  ],
   "first_message": {
     "source": "mailing_list",
     "subject": "Re: [bitcoin-dev] Seeking concept ACKs for transaction terminology\n\tBIP",

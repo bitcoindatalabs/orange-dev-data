@@ -45,7 +45,7 @@
   "avg_pr_ack_velocity_days": 0.009375,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": 0.0,
-  "hybrid_score": 0.0805,
+  "hybrid_score": 0.0804,
   "p2016_hybrid_score": 0.0146,
   "modern_hybrid_score": 0.0146,
   "impact_score": 5.0,
@@ -57,8 +57,8 @@
   "delving_threads": 0.0,
   "ml_responses": 20.0,
   "delving_responses": 0.0,
-  "first_active": "2014-02-21T00:50:01",
-  "last_active": "2014-08-23T13:22:27",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Builder",
   "expertise_domains": [
     "Infrastructure",
@@ -66,12 +66,12 @@
     "Ecosystem"
   ],
   "expertise_by_source": {
+    "code": {
+      "Infrastructure": 1.0
+    },
     "discussion": {
       "Wallet": 0.654,
       "Ecosystem": 0.346
-    },
-    "code": {
-      "Infrastructure": 1.0
     }
   },
   "expertise_domain_scores": {
@@ -90,7 +90,7 @@
   "is_researcher": true,
   "is_bip_author": false,
   "global_first_active": "2013-05-08T23:02:48",
-  "global_last_active": "2014-08-23T13:22:27",
+  "global_last_active": "2013-05-08T23:02:48",
   "github_location": null,
   "github_company": null,
   "github_bio": "I do hardware (circuitry, embedded systems, FPGAs, fabrication), security (reversing, cryptography), and CS (type theory, automata theory, formal verification)",

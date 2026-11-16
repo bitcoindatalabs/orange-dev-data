@@ -57,8 +57,8 @@
   "delving_threads": 0.0,
   "ml_responses": 4.0,
   "delving_responses": 0.0,
-  "first_active": "2018-08-07T01:35:58",
-  "last_active": "2021-01-17T23:59:05",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Builder",
   "expertise_domains": [
     "Infrastructure",
@@ -66,18 +66,18 @@
     "Wallet"
   ],
   "expertise_by_source": {
-    "discussion": {
-      "Consensus": 0.62,
-      "Wallet": 0.38
-    },
     "code": {
       "Infrastructure": 1.0
+    },
+    "discussion": {
+      "Wallet": 0.38,
+      "Consensus": 0.62
     }
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.6,
-    "Consensus": 0.248,
-    "Wallet": 0.152
+    "Wallet": 0.152,
+    "Consensus": 0.248
   },
   "p2016_posts": 5.0,
   "modern_posts": 0.0,
@@ -90,7 +90,7 @@
   "is_researcher": true,
   "is_bip_author": false,
   "global_first_active": "2017-06-24T13:40:17",
-  "global_last_active": "2021-01-17T23:59:05",
+  "global_last_active": "2017-06-24T13:40:17",
   "github_location": "japan",
   "github_company": null,
   "github_bio": null,

@@ -46,8 +46,8 @@
   "avg_concept_lead_time_days": null,
   "review_reciprocity": 1.0,
   "hybrid_score": 0.0398,
-  "p2016_hybrid_score": 0.0434,
-  "modern_hybrid_score": 0.065,
+  "p2016_hybrid_score": 0.0433,
+  "modern_hybrid_score": 0.0648,
   "impact_score": 2.0,
   "p2016_impact_score": 3.0,
   "modern_impact_score": 4.0,
@@ -57,8 +57,8 @@
   "delving_threads": 2.0,
   "ml_responses": 4.0,
   "delving_responses": 7.0,
-  "first_active": null,
-  "last_active": null,
+  "first_active": "2026-09-03T16:05:23.313000",
+  "last_active": "2026-09-26T07:36:35.202000",
   "dev_type": "Participant",
   "expertise_domains": [
     "Cryptography",
@@ -66,13 +66,13 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Consensus": 0.29,
-      "Cryptography": 0.71
+      "Cryptography": 0.71,
+      "Consensus": 0.29
     }
   },
   "expertise_domain_scores": {
-    "Consensus": 0.29,
-    "Cryptography": 0.71
+    "Cryptography": 0.71,
+    "Consensus": 0.29
   },
   "p2016_posts": 14.0,
   "modern_posts": 14.0,
@@ -84,7 +84,7 @@
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": false,
-  "global_first_active": "2026-09-24T01:39:17",
+  "global_first_active": "2026-09-03T16:05:23.313000",
   "global_last_active": "2026-11-09T09:08:13",
   "github_location": null,
   "github_company": null,

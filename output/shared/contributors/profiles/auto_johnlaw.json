@@ -47,7 +47,7 @@
   "review_reciprocity": null,
   "hybrid_score": 0.0051,
   "p2016_hybrid_score": 0.0076,
-  "modern_hybrid_score": 0.0223,
+  "modern_hybrid_score": 0.0222,
   "impact_score": 0.0,
   "p2016_impact_score": 0.0,
   "modern_impact_score": 1.0,
@@ -57,8 +57,8 @@
   "delving_threads": 5.0,
   "ml_responses": 0.0,
   "delving_responses": 21.0,
-  "first_active": null,
-  "last_active": null,
+  "first_active": "2024-10-31T22:45:07.504000",
+  "last_active": "2026-09-26T16:09:26.245000",
   "dev_type": "Participant",
   "expertise_domains": [
     "L2",
@@ -68,14 +68,14 @@
   "expertise_by_source": {
     "discussion": {
       "L2": 0.608,
-      "Mempool": 0.176,
-      "Wallet": 0.216
+      "Wallet": 0.216,
+      "Mempool": 0.176
     }
   },
   "expertise_domain_scores": {
     "L2": 0.608,
-    "Mempool": 0.176,
-    "Wallet": 0.216
+    "Wallet": 0.216,
+    "Mempool": 0.176
   },
   "p2016_posts": 26.0,
   "modern_posts": 26.0,
@@ -87,8 +87,8 @@
   "is_reviewer": false,
   "is_researcher": true,
   "is_bip_author": false,
-  "global_first_active": null,
-  "global_last_active": null,
+  "global_first_active": "2024-10-31T22:45:07.504000",
+  "global_last_active": "2026-09-26T16:09:26.245000",
   "github_location": null,
   "github_company": null,
   "github_bio": null,

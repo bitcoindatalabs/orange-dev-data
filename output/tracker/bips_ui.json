@@ -18,7 +18,7 @@
     "maturity_score": 0.55,
     "social_mention_count": 277,
     "revision_count": 59,
-    "code_mention_count": 130,
+    "code_mention_count": 134,
     "authors": "Pieter Wuille"
   },
   {
@@ -192,7 +192,7 @@
     "status": "Complete",
     "theme": "Privacy",
     "maturity_score": 0.18,
-    "social_mention_count": 69,
+    "social_mention_count": 70,
     "revision_count": 36,
     "code_mention_count": 32,
     "authors": "josibake, Ruben Somsen, Sebastian Falbesoner"
@@ -568,7 +568,7 @@
     "maturity_score": 0.08,
     "social_mention_count": 6,
     "revision_count": 34,
-    "code_mention_count": 12,
+    "code_mention_count": 16,
     "authors": "Ava Chow"
   },
   {
@@ -594,15 +594,15 @@
     "authors": "Gavin Andresen"
   },
   {
-    "bip_id": "374",
-    "title": "Discrete Log Equality Proofs",
+    "bip_id": "375",
+    "title": "Sending Silent Payments with PSBTs",
     "status": "Draft",
-    "theme": "Other",
+    "theme": "Privacy",
     "maturity_score": 0.07,
     "social_mention_count": 0,
-    "revision_count": 37,
+    "revision_count": 34,
     "code_mention_count": 0,
-    "authors": "Andrew Toth, Ruben Somsen, Sebastian Falbesoner"
+    "authors": "Andrew Toth, Ava Chow, josibake"
   },
   {
     "bip_id": "69",
@@ -638,15 +638,26 @@
     "authors": "Eric Lombrozo, Pieter Wuille"
   },
   {
-    "bip_id": "143",
-    "title": "Transaction Signature Verification for Version 0 Witness Program",
-    "status": "Deployed",
-    "theme": "Consensus & Soft Forks",
+    "bip_id": "129",
+    "title": "Bitcoin Secure Multisig Setup (BSMS)",
+    "status": "Complete",
+    "theme": "Wallet & Keys",
+    "maturity_score": 0.07,
+    "social_mention_count": 0,
+    "revision_count": 36,
+    "code_mention_count": 0,
+    "authors": "Hugo Nguyen, Peter Gray, Marko Bencun, Aaron Chen, Rodolfo Novak"
+  },
+  {
+    "bip_id": "374",
+    "title": "Discrete Log Equality Proofs",
+    "status": "Draft",
+    "theme": "Other",
     "maturity_score": 0.07,
     "social_mention_count": 0,
     "revision_count": 37,
-    "code_mention_count": 12,
-    "authors": "Johnson Lau, Pieter Wuille"
+    "code_mention_count": 0,
+    "authors": "Andrew Toth, Ruben Somsen, Sebastian Falbesoner"
   },
   {
     "bip_id": "388",
@@ -660,17 +671,6 @@
     "authors": "Salvatore Ingala"
   },
   {
-    "bip_id": "129",
-    "title": "Bitcoin Secure Multisig Setup (BSMS)",
-    "status": "Complete",
-    "theme": "Wallet & Keys",
-    "maturity_score": 0.07,
-    "social_mention_count": 0,
-    "revision_count": 36,
-    "code_mention_count": 0,
-    "authors": "Hugo Nguyen, Peter Gray, Marko Bencun, Aaron Chen, Rodolfo Novak"
-  },
-  {
     "bip_id": "152",
     "title": "Compact Block Relay",
     "status": "Deployed",
@@ -682,15 +682,15 @@
     "authors": "Matt Corallo"
   },
   {
-    "bip_id": "149",
-    "title": "Segregated Witness (second deployment)",
-    "status": "Closed",
+    "bip_id": "143",
+    "title": "Transaction Signature Verification for Version 0 Witness Program",
+    "status": "Deployed",
     "theme": "Consensus & Soft Forks",
     "maturity_score": 0.07,
-    "social_mention_count": 30,
-    "revision_count": 13,
-    "code_mention_count": 0,
-    "authors": "Shaolin Fry"
+    "social_mention_count": 0,
+    "revision_count": 37,
+    "code_mention_count": 12,
+    "authors": "Johnson Lau, Pieter Wuille"
   },
   {
     "bip_id": "155",
@@ -704,15 +704,15 @@
     "authors": "Wladimir J. van der Laan"
   },
   {
-    "bip_id": "137",
-    "title": "Signatures of Messages using Private Keys",
-    "status": "Deployed",
-    "theme": "Other",
-    "maturity_score": 0.06,
-    "social_mention_count": 0,
-    "revision_count": 31,
+    "bip_id": "149",
+    "title": "Segregated Witness (second deployment)",
+    "status": "Closed",
+    "theme": "Consensus & Soft Forks",
+    "maturity_score": 0.07,
+    "social_mention_count": 30,
+    "revision_count": 13,
     "code_mention_count": 0,
-    "authors": "Christopher Gilliard"
+    "authors": "Shaolin Fry"
   },
   {
     "bip_id": "46",
@@ -781,17 +781,6 @@
     "authors": "Alan Reiner"
   },
   {
-    "bip_id": "375",
-    "title": "Sending Silent Payments with PSBTs",
-    "status": "Draft",
-    "theme": "Privacy",
-    "maturity_score": 0.06,
-    "social_mention_count": 0,
-    "revision_count": 32,
-    "code_mention_count": 0,
-    "authors": "Andrew Toth, Ava Chow, josibake"
-  },
-  {
     "bip_id": "380",
     "title": "Output Script Descriptors General Operation",
     "status": "Deployed",
@@ -801,6 +790,17 @@
     "revision_count": 28,
     "code_mention_count": 6,
     "authors": "Pieter Wuille, Ava Chow"
+  },
+  {
+    "bip_id": "137",
+    "title": "Signatures of Messages using Private Keys",
+    "status": "Deployed",
+    "theme": "Other",
+    "maturity_score": 0.06,
+    "social_mention_count": 0,
+    "revision_count": 31,
+    "code_mention_count": 0,
+    "authors": "Christopher Gilliard"
   },
   {
     "bip_id": "14",

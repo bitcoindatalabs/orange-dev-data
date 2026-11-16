@@ -47,18 +47,18 @@
   "review_reciprocity": null,
   "hybrid_score": 0.0051,
   "p2016_hybrid_score": 0.0076,
-  "modern_hybrid_score": 0.0223,
+  "modern_hybrid_score": 0.0222,
   "impact_score": 0.0,
   "p2016_impact_score": 0.0,
   "modern_impact_score": 1.0,
   "threads_started": 69.0,
-  "replies_sent": 70.0,
+  "replies_sent": 72.0,
   "ml_threads": 0.0,
   "delving_threads": 69.0,
   "ml_responses": 0.0,
-  "delving_responses": 70.0,
-  "first_active": null,
-  "last_active": null,
+  "delving_responses": 72.0,
+  "first_active": "2023-11-08T14:45:57.141000",
+  "last_active": "2026-11-13T16:50:42.168000",
   "dev_type": "Participant",
   "expertise_domains": [
     "L2",
@@ -66,26 +66,26 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "L2": 0.786,
-      "Wallet": 0.214
+      "L2": 0.773,
+      "Wallet": 0.227
     }
   },
   "expertise_domain_scores": {
-    "L2": 0.786,
-    "Wallet": 0.214
+    "L2": 0.773,
+    "Wallet": 0.227
   },
-  "p2016_posts": 139.0,
-  "modern_posts": 133.0,
+  "p2016_posts": 141.0,
+  "modern_posts": 135.0,
   "p2016_ml_posts": 0.0,
-  "p2016_delving_posts": 139.0,
+  "p2016_delving_posts": 141.0,
   "modern_ml_posts": 0.0,
-  "modern_delving_posts": 133.0,
+  "modern_delving_posts": 135.0,
   "is_engineer": false,
   "is_reviewer": false,
   "is_researcher": true,
   "is_bip_author": false,
-  "global_first_active": null,
-  "global_last_active": null,
+  "global_first_active": "2023-11-08T14:45:57.141000",
+  "global_last_active": "2026-11-13T16:50:42.168000",
   "github_location": null,
   "github_company": null,
   "github_bio": null,
@@ -103,9 +103,9 @@
   },
   "last_message": {
     "source": "delving",
-    "subject": "Re: Forwardable Peerswap Incentives, And Closing Surreptitious Communications Tunnels",
-    "date": "2026-11-03",
-    "link": "https://delvingbitcoin.org/t/forwardable-peerswap-incentives-and-closing-surreptitious-communications-tunnels/2917/5"
+    "subject": "Re: Towards A K-of-N Lightning Network Node",
+    "date": "2026-11-13",
+    "link": "https://delvingbitcoin.org/t/towards-a-k-of-n-lightning-network-node/2395/17"
   },
   "social_history": {
     "2023": {
@@ -139,9 +139,9 @@
       "other": 51,
       "covenants": 5,
       "l2-bridges": 6,
-      "lightning": 25,
+      "lightning": 27,
       "mining": 8,
-      "multisig-threshold": 18,
+      "multisig-threshold": 20,
       "quantum": 6,
       "taproot": 6
     }

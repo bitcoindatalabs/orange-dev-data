@@ -45,7 +45,7 @@
   "avg_pr_ack_velocity_days": 0.22973765432098767,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": 1.2,
-  "hybrid_score": 0.1679,
+  "hybrid_score": 0.1678,
   "p2016_hybrid_score": 0.0452,
   "modern_hybrid_score": 0.0452,
   "impact_score": 10.0,
@@ -57,19 +57,19 @@
   "delving_threads": 0.0,
   "ml_responses": 2.0,
   "delving_responses": 0.0,
-  "first_active": "2015-01-21T16:57:22",
-  "last_active": "2015-09-01T10:59:24",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Builder",
   "expertise_domains": [
     "Infrastructure",
     "Mempool"
   ],
   "expertise_by_source": {
-    "discussion": {
-      "Mempool": 1.0
-    },
     "code": {
       "Infrastructure": 1.0
+    },
+    "discussion": {
+      "Mempool": 1.0
     }
   },
   "expertise_domain_scores": {

@@ -59,17 +59,17 @@
   "review_reciprocity": null,
   "hybrid_score": 0.5654,
   "p2016_hybrid_score": 0.5711,
-  "modern_hybrid_score": 0.6115,
+  "modern_hybrid_score": 0.6113,
   "impact_score": 29.0,
   "p2016_impact_score": 29.0,
   "modern_impact_score": 31.0,
-  "threads_started": 14.0,
+  "threads_started": 15.0,
   "replies_sent": 15.0,
-  "ml_threads": 3.0,
+  "ml_threads": 4.0,
   "delving_threads": 11.0,
   "ml_responses": 2.0,
   "delving_responses": 13.0,
-  "first_active": null,
+  "first_active": "2025-07-10T04:18:41.418000",
   "last_active": null,
   "dev_type": "Participant",
   "expertise_domains": [
@@ -79,30 +79,30 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Mining": 0.222,
-      "Script": 0.356,
-      "Wallet": 0.422
+      "Wallet": 0.426,
+      "Mining": 0.213,
+      "Script": 0.362
     },
     "bips": {
       "Wallet": 1.0
     }
   },
   "expertise_domain_scores": {
-    "Mining": 0.0634,
-    "Script": 0.1017,
-    "Wallet": 0.8349
+    "Wallet": 0.8358,
+    "Mining": 0.0608,
+    "Script": 0.1034
   },
-  "p2016_posts": 29.0,
-  "modern_posts": 29.0,
-  "p2016_ml_posts": 5.0,
+  "p2016_posts": 30.0,
+  "modern_posts": 30.0,
+  "p2016_ml_posts": 6.0,
   "p2016_delving_posts": 24.0,
-  "modern_ml_posts": 5.0,
+  "modern_ml_posts": 6.0,
   "modern_delving_posts": 24.0,
   "is_engineer": false,
   "is_reviewer": false,
   "is_researcher": true,
   "is_bip_author": true,
-  "global_first_active": "2025-08-22T04:59:20",
+  "global_first_active": "2025-07-10T04:18:41.418000",
   "global_last_active": "2026-10-24T10:11:13",
   "github_location": null,
   "github_company": null,
@@ -136,10 +136,10 @@
     "link": "https://delvingbitcoin.org/t/exploring-extended-relative-timelocks/1818/1"
   },
   "last_message": {
-    "source": "delving",
-    "subject": "Re: A simple backup scheme for wallet accounts",
-    "date": "2026-10-01",
-    "link": "https://delvingbitcoin.org/t/a-simple-backup-scheme-for-wallet-accounts/1607/38"
+    "source": "mailing_list",
+    "subject": "[bitcoindev] [BIP Draft] Signing message encoding",
+    "date": "2026-11-12",
+    "link": "https://gnusha.org/pi/bitcoindev/52cfe0e671891ce094d49c85b284a1e990e23f1f.camel@pythcoiner.dev"
   },
   "social_history": {
     "2025": {
@@ -158,8 +158,8 @@
       "mining": 2,
       "multisig-threshold": 3,
       "other": 7,
-      "script-opcodes": 3,
-      "wallet-keys": 4
+      "script-opcodes": 4,
+      "wallet-keys": 5
     }
   }
 }

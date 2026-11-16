@@ -51,44 +51,44 @@
   "impact_score": 0.0,
   "p2016_impact_score": 0.0,
   "modern_impact_score": 0.0,
-  "threads_started": 29.0,
+  "threads_started": 31.0,
   "replies_sent": 4.0,
   "ml_threads": 0.0,
-  "delving_threads": 29.0,
+  "delving_threads": 31.0,
   "ml_responses": 0.0,
   "delving_responses": 4.0,
-  "first_active": null,
-  "last_active": null,
+  "first_active": "2026-08-14T03:14:47.387000",
+  "last_active": "2026-11-13T06:03:11.320000",
   "dev_type": "Participant",
   "expertise_domains": [
     "Wallet",
-    "Script",
-    "Mining"
+    "Consensus",
+    "Script"
   ],
   "expertise_by_source": {
     "discussion": {
-      "Mining": 0.294,
+      "Wallet": 0.353,
       "Script": 0.324,
-      "Wallet": 0.382
+      "Consensus": 0.324
     }
   },
   "expertise_domain_scores": {
-    "Mining": 0.294,
-    "Script": 0.324,
-    "Wallet": 0.382
+    "Wallet": 0.3526,
+    "Script": 0.3237,
+    "Consensus": 0.3237
   },
-  "p2016_posts": 33.0,
-  "modern_posts": 33.0,
+  "p2016_posts": 35.0,
+  "modern_posts": 35.0,
   "p2016_ml_posts": 0.0,
-  "p2016_delving_posts": 33.0,
+  "p2016_delving_posts": 35.0,
   "modern_ml_posts": 0.0,
-  "modern_delving_posts": 33.0,
+  "modern_delving_posts": 35.0,
   "is_engineer": false,
   "is_reviewer": false,
   "is_researcher": false,
   "is_bip_author": false,
-  "global_first_active": null,
-  "global_last_active": null,
+  "global_first_active": "2026-08-14T03:14:47.387000",
+  "global_last_active": "2026-11-13T06:03:11.320000",
   "github_location": null,
   "github_company": null,
   "github_bio": null,
@@ -106,19 +106,19 @@
   },
   "last_message": {
     "source": "delving",
-    "subject": "Should wallets default to Taproot or SegWit receive addresses while some services still reject bc1p?",
-    "date": "2026-11-08",
-    "link": "https://delvingbitcoin.org/t/should-wallets-default-to-taproot-or-segwit-receive-addresses-while-some-services-still-reject-bc1p/3056/1"
+    "subject": "Re: Should wallets default to Taproot or SegWit receive addresses while some services still reject bc1p?",
+    "date": "2026-11-13",
+    "link": "https://delvingbitcoin.org/t/should-wallets-default-to-taproot-or-segwit-receive-addresses-while-some-services-still-reject-bc1p/3056/9"
   },
   "social_history": {
     "2026": {
-      "covenants": 4,
-      "other": 37,
+      "other": 39,
       "lightning": 6,
       "mining": 10,
       "multisig-threshold": 6,
+      "payment-protocol": 6,
       "quantum": 7,
-      "taproot": 12,
+      "taproot": 14,
       "vaults": 14,
       "wallet-keys": 15
     }

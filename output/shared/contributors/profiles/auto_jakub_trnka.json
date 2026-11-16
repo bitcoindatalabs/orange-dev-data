@@ -46,7 +46,7 @@
   "avg_concept_lead_time_days": 0.052222222222222225,
   "review_reciprocity": 0.0,
   "hybrid_score": 0.1061,
-  "p2016_hybrid_score": 0.1223,
+  "p2016_hybrid_score": 0.1222,
   "modern_hybrid_score": 0.0728,
   "impact_score": 6.0,
   "p2016_impact_score": 7.0,
@@ -57,8 +57,8 @@
   "delving_threads": 0.0,
   "ml_responses": 1.0,
   "delving_responses": 0.0,
-  "first_active": "2018-07-12T19:27:31",
-  "last_active": "2018-07-12T19:27:31",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Builder",
   "expertise_domains": [
     "Infrastructure",
@@ -66,12 +66,12 @@
     "Network"
   ],
   "expertise_by_source": {
+    "code": {
+      "Infrastructure": 1.0
+    },
     "discussion": {
       "Mining": 0.67,
       "Network": 0.33
-    },
-    "code": {
-      "Infrastructure": 1.0
     }
   },
   "expertise_domain_scores": {
@@ -89,7 +89,7 @@
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": false,
-  "global_first_active": "2018-07-12T19:27:31",
+  "global_first_active": "2026-09-14T12:11:01",
   "global_last_active": "2026-09-14T12:11:01",
   "github_location": null,
   "github_company": "Braiins",
@@ -97,7 +97,7 @@
   "github_twitter": null,
   "github_blog": null,
   "github_followers": 21.0,
-  "activity_status": "Active",
+  "activity_status": "New",
   "is_top_50": false,
   "github_url": "https://github.com/jakubtrnka",
   "commit_history": {

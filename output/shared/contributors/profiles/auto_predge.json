@@ -57,25 +57,22 @@
   "delving_threads": 1.0,
   "ml_responses": 0.0,
   "delving_responses": 0.0,
-  "first_active": null,
-  "last_active": null,
+  "first_active": "2026-10-22T21:01:05.571000",
+  "last_active": "2026-10-22T21:01:05.571000",
   "dev_type": "Participant",
   "expertise_domains": [
     "Consensus",
-    "Script",
-    "Cryptography"
+    "Script"
   ],
   "expertise_by_source": {
     "discussion": {
-      "Consensus": 0.5,
-      "Script": 0.25,
-      "Cryptography": 0.25
+      "Script": 0.5,
+      "Consensus": 0.5
     }
   },
   "expertise_domain_scores": {
-    "Consensus": 0.5,
-    "Script": 0.25,
-    "Cryptography": 0.25
+    "Script": 0.5,
+    "Consensus": 0.5
   },
   "p2016_posts": 1.0,
   "modern_posts": 1.0,
@@ -87,8 +84,8 @@
   "is_reviewer": false,
   "is_researcher": false,
   "is_bip_author": false,
-  "global_first_active": null,
-  "global_last_active": null,
+  "global_first_active": "2026-10-22T21:01:05.571000",
+  "global_last_active": "2026-10-22T21:01:05.571000",
   "github_location": null,
   "github_company": null,
   "github_bio": null,
@@ -114,7 +111,8 @@
     "2026": {
       "covenants": 1,
       "signatures-sighash": 1,
-      "taproot": 1
+      "taproot": 1,
+      "vaults": 1
     }
   }
 }

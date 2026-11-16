@@ -57,9 +57,9 @@
   "avg_pr_ack_velocity_days": 16.65670762108262,
   "avg_concept_lead_time_days": 15.150736882716052,
   "review_reciprocity": 3.1176470588235294,
-  "hybrid_score": 0.8106,
-  "p2016_hybrid_score": 0.576,
-  "modern_hybrid_score": 0.1652,
+  "hybrid_score": 0.8104,
+  "p2016_hybrid_score": 0.5758,
+  "modern_hybrid_score": 0.1648,
   "impact_score": 39.0,
   "p2016_impact_score": 29.0,
   "modern_impact_score": 9.0,
@@ -69,8 +69,8 @@
   "delving_threads": 0.0,
   "ml_responses": 130.0,
   "delving_responses": 0.0,
-  "first_active": "2014-04-07T09:45:33",
-  "last_active": "2026-05-04T11:26:00",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Protocol Designer",
   "expertise_domains": [
     "Consensus",
@@ -78,15 +78,15 @@
     "Mining"
   ],
   "expertise_by_source": {
-    "discussion": {
-      "Mining": 0.469,
-      "Consensus": 0.531
-    },
     "code": {
       "Infrastructure": 0.825,
       "Wallet": 0.079,
       "Consensus": 0.079,
       "Mempool": 0.017
+    },
+    "discussion": {
+      "Mining": 0.469,
+      "Consensus": 0.531
     },
     "bips": {
       "Consensus": 1.0
@@ -94,9 +94,9 @@
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.2475,
+    "Wallet": 0.0237,
     "Mining": 0.0938,
-    "Consensus": 0.6299,
-    "Wallet": 0.0237
+    "Consensus": 0.6299
   },
   "p2016_posts": 27.0,
   "modern_posts": 3.0,
@@ -109,14 +109,14 @@
   "is_researcher": true,
   "is_bip_author": true,
   "global_first_active": "2014-02-12T23:43:08",
-  "global_last_active": "2026-05-04T11:26:00",
+  "global_last_active": "2020-07-21T09:32:34",
   "github_location": "California, US",
   "github_company": null,
   "github_bio": "Let's fix money.",
   "github_twitter": null,
   "github_blog": null,
   "github_followers": 39.0,
-  "activity_status": "Active",
+  "activity_status": "Retired",
   "is_top_50": false,
   "github_url": "https://github.com/dgenr8",
   "commit_history": {

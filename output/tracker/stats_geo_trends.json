@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09",
+  "generated_at": "2026-11-15",
   "taxonomy_version": "2026.10.1",
   "years": [
     "2009",
@@ -23,7 +23,7 @@
   ],
   "partial_year": {
     "year": "2026",
-    "through": "2026-11-09"
+    "through": "2026-11-15"
   },
   "definitions": {
     "scope": "Core repositories: bitcoin/bitcoin, bitcoin-core/gui, bitcoin-core/secp256k1",
@@ -51,7 +51,7 @@
         82,
         64,
         88,
-        70
+        72
       ],
       "authored_commits": [
         null,
@@ -71,7 +71,7 @@
         658,
         815,
         846,
-        492
+        495
       ],
       "reviews": [
         null,
@@ -91,7 +91,7 @@
         4461,
         4677,
         5547,
-        4612
+        4677
       ],
       "prs_opened": [
         null,
@@ -111,7 +111,7 @@
         363,
         313,
         394,
-        403
+        419
       ]
     },
     "Europe": {
@@ -133,7 +133,7 @@
         96,
         79,
         102,
-        103
+        104
       ],
       "authored_commits": [
         null,
@@ -153,7 +153,7 @@
         1629,
         1691,
         1336,
-        1290
+        1305
       ],
       "reviews": [
         null,
@@ -172,8 +172,8 @@
         11478,
         10964,
         11631,
-        10781,
-        11274
+        10784,
+        11471
       ],
       "prs_opened": [
         null,
@@ -193,7 +193,7 @@
         1090,
         1066,
         956,
-        939
+        958
       ]
     },
     "Asia Pacific": {
@@ -215,7 +215,7 @@
         22,
         37,
         64,
-        56
+        59
       ],
       "authored_commits": [
         null,
@@ -235,7 +235,7 @@
         100,
         33,
         106,
-        420
+        422
       ],
       "reviews": [
         null,
@@ -255,7 +255,7 @@
         553,
         387,
         1235,
-        2374
+        2429
       ],
       "prs_opened": [
         null,
@@ -275,7 +275,7 @@
         49,
         37,
         136,
-        378
+        385
       ]
     },
     "Latin America": {
@@ -317,7 +317,7 @@
         187,
         122,
         54,
-        116
+        123
       ],
       "reviews": [
         null,
@@ -337,7 +337,7 @@
         1207,
         1102,
         569,
-        829
+        860
       ],
       "prs_opened": [
         null,
@@ -357,7 +357,7 @@
         110,
         108,
         47,
-        106
+        112
       ]
     },
     "Africa": {
@@ -419,7 +419,7 @@
         null,
         null,
         93,
-        68
+        74
       ],
       "prs_opened": [
         null,
@@ -439,7 +439,7 @@
         null,
         null,
         12,
-        21
+        23
       ]
     },
     "Undisclosed": {
@@ -481,7 +481,7 @@
         68,
         94,
         279,
-        356
+        357
       ],
       "reviews": [
         null,
@@ -501,7 +501,7 @@
         1414,
         1471,
         2998,
-        3137
+        3215
       ],
       "prs_opened": [
         null,
@@ -521,7 +521,7 @@
         226,
         248,
         483,
-        585
+        591
       ]
     }
   },
@@ -2019,7 +2019,7 @@
           "macro_region": "Europe",
           "active_devs": 11,
           "authored_commits": 27,
-          "reviews": 467,
+          "reviews": 468,
           "prs_opened": 20
         },
         {
@@ -2049,7 +2049,7 @@
           "macro_region": "Europe",
           "active_devs": 8,
           "authored_commits": 30,
-          "reviews": 668,
+          "reviews": 669,
           "prs_opened": 23
         },
         {
@@ -2069,7 +2069,7 @@
           "macro_region": "Europe",
           "active_devs": 8,
           "authored_commits": 131,
-          "reviews": 1858,
+          "reviews": 1859,
           "prs_opened": 85
         },
         {
@@ -2138,20 +2138,20 @@
           "name": "USA",
           "flag": "🇺🇸",
           "macro_region": "North America",
-          "active_devs": 59,
-          "authored_commits": 185,
-          "reviews": 1867,
-          "prs_opened": 208
+          "active_devs": 61,
+          "authored_commits": 188,
+          "reviews": 1901,
+          "prs_opened": 217
         },
         {
           "iso2": "IN",
           "name": "India",
           "flag": "🇮🇳",
           "macro_region": "Asia Pacific",
-          "active_devs": 19,
+          "active_devs": 21,
           "authored_commits": 6,
-          "reviews": 45,
-          "prs_opened": 34
+          "reviews": 55,
+          "prs_opened": 38
         },
         {
           "iso2": "BR",
@@ -2159,19 +2159,19 @@
           "flag": "🇧🇷",
           "macro_region": "Latin America",
           "active_devs": 13,
-          "authored_commits": 90,
-          "reviews": 449,
-          "prs_opened": 68
+          "authored_commits": 97,
+          "reviews": 468,
+          "prs_opened": 74
         },
         {
           "iso2": "DE",
           "name": "Germany",
           "flag": "🇩🇪",
           "macro_region": "Europe",
-          "active_devs": 11,
+          "active_devs": 12,
           "authored_commits": 73,
-          "reviews": 859,
-          "prs_opened": 61
+          "reviews": 870,
+          "prs_opened": 65
         },
         {
           "iso2": "ES",
@@ -2179,8 +2179,8 @@
           "flag": "🇪🇸",
           "macro_region": "Europe",
           "active_devs": 10,
-          "authored_commits": 51,
-          "reviews": 523,
+          "authored_commits": 54,
+          "reviews": 532,
           "prs_opened": 50
         },
         {
@@ -2190,8 +2190,8 @@
           "macro_region": "Europe",
           "active_devs": 9,
           "authored_commits": 92,
-          "reviews": 1042,
-          "prs_opened": 62
+          "reviews": 1062,
+          "prs_opened": 64
         },
         {
           "iso2": "CH",
@@ -2200,8 +2200,8 @@
           "macro_region": "Europe",
           "active_devs": 7,
           "authored_commits": 26,
-          "reviews": 1759,
-          "prs_opened": 32
+          "reviews": 1778,
+          "prs_opened": 34
         },
         {
           "iso2": "GB",
@@ -2210,8 +2210,8 @@
           "macro_region": "Europe",
           "active_devs": 7,
           "authored_commits": 41,
-          "reviews": 497,
-          "prs_opened": 26
+          "reviews": 501,
+          "prs_opened": 27
         },
         {
           "iso2": "IT",
@@ -2219,8 +2219,8 @@
           "flag": "🇮🇹",
           "macro_region": "Europe",
           "active_devs": 7,
-          "authored_commits": 15,
-          "reviews": 267,
+          "authored_commits": 17,
+          "reviews": 282,
           "prs_opened": 64
         },
         {
@@ -2240,7 +2240,7 @@
           "macro_region": "Europe",
           "active_devs": 5,
           "authored_commits": 74,
-          "reviews": 346,
+          "reviews": 347,
           "prs_opened": 67
         },
         {
@@ -2255,11 +2255,11 @@
         }
       ],
       "other_small_countries": {
-        "countries": 42,
-        "active_devs": 74,
-        "authored_commits": 1081,
-        "reviews": 6153,
-        "prs_opened": 730
+        "countries": 43,
+        "active_devs": 75,
+        "authored_commits": 1090,
+        "reviews": 6271,
+        "prs_opened": 740
       }
     }
   },
@@ -2283,7 +2283,7 @@
         7.17,
         8.84,
         11.23,
-        11.42
+        11.2
       ],
       "nakamoto": [
         1,
@@ -2325,7 +2325,7 @@
         5.91,
         6.03,
         5.23,
-        7.93
+        7.97
       ],
       "nakamoto": [
         1,
@@ -2368,7 +2368,7 @@
       531,
       533,
       723,
-      606
+      612
     ],
     "devs_known_region": [
       1,
@@ -2388,7 +2388,7 @@
       213,
       203,
       279,
-      260
+      266
     ],
     "devs_known_country": [
       1,
@@ -2408,7 +2408,7 @@
       186,
       175,
       249,
-      232
+      238
     ],
     "commit_share_known_region": [
       0.3,
@@ -2428,7 +2428,7 @@
       0.9746,
       0.9663,
       0.8937,
-      0.867
+      0.868
     ],
     "review_share_known_region": [
       0.0,
@@ -2447,8 +2447,8 @@
       0.9144,
       0.9247,
       0.9251,
-      0.8587,
-      0.8593
+      0.8588,
+      0.8585
     ],
     "basis_share": {
       "current": [
@@ -2469,7 +2469,7 @@
         0.0,
         0.0,
         0.0,
-        0.4109
+        0.4167
       ],
       "observed_profile": [
         0.0,
@@ -2569,7 +2569,7 @@
         0.0151,
         0.0206,
         0.0221,
-        0.0182
+        0.018
       ],
       "none": [
         0.5,
@@ -2589,7 +2589,7 @@
         0.5989,
         0.6191,
         0.6141,
-        0.571
+        0.5654
       ]
     }
   }

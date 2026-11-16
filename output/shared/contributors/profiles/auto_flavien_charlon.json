@@ -45,7 +45,7 @@
   "avg_pr_ack_velocity_days": 17.912858796296295,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": 2.0,
-  "hybrid_score": 0.1381,
+  "hybrid_score": 0.138,
   "p2016_hybrid_score": 0.0146,
   "modern_hybrid_score": 0.0146,
   "impact_score": 8.0,
@@ -57,8 +57,8 @@
   "delving_threads": 0.0,
   "ml_responses": 13.0,
   "delving_responses": 0.0,
-  "first_active": "2014-04-06T15:59:34",
-  "last_active": "2014-11-28T05:45:19",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Builder",
   "expertise_domains": [
     "Script",
@@ -66,21 +66,21 @@
     "Ecosystem"
   ],
   "expertise_by_source": {
-    "discussion": {
-      "Consensus": 0.136,
-      "Script": 0.432,
-      "Ecosystem": 0.432
-    },
     "code": {
       "Infrastructure": 0.5,
       "Script": 0.5
+    },
+    "discussion": {
+      "Ecosystem": 0.432,
+      "Script": 0.432,
+      "Consensus": 0.136
     }
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.3,
-    "Consensus": 0.0544,
+    "Ecosystem": 0.1728,
     "Script": 0.4728,
-    "Ecosystem": 0.1728
+    "Consensus": 0.0544
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,
@@ -92,7 +92,7 @@
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": false,
-  "global_first_active": "2014-04-06T15:59:34",
+  "global_first_active": "2014-11-12T17:38:39",
   "global_last_active": "2015-02-03T12:12:53",
   "github_location": "Dublin, Ireland",
   "github_company": "Toast",

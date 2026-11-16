@@ -45,7 +45,7 @@
   "avg_pr_ack_velocity_days": 3.410277777777778,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": 1.5,
-  "hybrid_score": 0.0869,
+  "hybrid_score": 0.0868,
   "p2016_hybrid_score": 0.05,
   "modern_hybrid_score": 0.0396,
   "impact_score": 5.0,
@@ -57,8 +57,8 @@
   "delving_threads": 0.0,
   "ml_responses": 1.0,
   "delving_responses": 0.0,
-  "first_active": "2015-08-17T13:41:31",
-  "last_active": "2015-11-17T18:06:44",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Participant",
   "expertise_domains": [
     "Infrastructure"

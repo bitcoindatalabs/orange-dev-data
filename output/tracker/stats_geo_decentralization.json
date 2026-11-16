@@ -1,10 +1,10 @@
 {
   "taxonomy_version": "2026.10.1",
   "coverage": {
-    "devs_known_country": 1966,
-    "devs_known_region": 1999,
-    "devs_total": 7935,
-    "commit_weighted_known_country": 0.7273,
+    "devs_known_country": 1973,
+    "devs_known_region": 2006,
+    "devs_total": 7947,
+    "commit_weighted_known_country": 0.7274,
     "commit_weighted_known_region": 0.8771
   },
   "all_time": {
@@ -12,79 +12,79 @@
       "countries_represented": 103,
       "effective_countries_1_over_hhi": 9.85,
       "hhi": 0.1015,
-      "nakamoto_coefficient": 7,
+      "nakamoto_coefficient": 6,
       "top_countries": [
         {
           "country": "USA",
-          "share_pct": 29.2,
-          "raw_total": 574
+          "share_pct": 29.19,
+          "raw_total": 576
         },
         {
           "country": "Germany",
-          "share_pct": 5.49,
-          "raw_total": 108
+          "share_pct": 5.52,
+          "raw_total": 109
         },
         {
           "country": "India",
-          "share_pct": 4.53,
-          "raw_total": 89
+          "share_pct": 4.61,
+          "raw_total": 91
         },
         {
           "country": "UK",
-          "share_pct": 4.17,
+          "share_pct": 4.16,
           "raw_total": 82
         },
         {
           "country": "Canada",
-          "share_pct": 3.36,
+          "share_pct": 3.35,
           "raw_total": 66
         },
         {
           "country": "Brazil",
-          "share_pct": 3.2,
+          "share_pct": 3.19,
           "raw_total": 63
         },
         {
           "country": "Australia",
-          "share_pct": 3.2,
+          "share_pct": 3.19,
           "raw_total": 63
         },
         {
           "country": "France",
-          "share_pct": 2.95,
+          "share_pct": 2.94,
           "raw_total": 58
         },
         {
           "country": "Netherlands",
-          "share_pct": 2.9,
+          "share_pct": 2.89,
           "raw_total": 57
         },
         {
           "country": "Switzerland",
-          "share_pct": 2.7,
+          "share_pct": 2.69,
           "raw_total": 53
         }
       ]
     },
     "commit_weighted": {
       "countries_represented": 63,
-      "effective_countries_1_over_hhi": 6.24,
-      "hhi": 0.1602,
+      "effective_countries_1_over_hhi": 6.25,
+      "hhi": 0.1601,
       "nakamoto_coefficient": 3,
       "top_countries": [
         {
           "country": "USA",
-          "share_pct": 33.01,
-          "raw_total": 9716
+          "share_pct": 33.0,
+          "raw_total": 9719
         },
         {
           "country": "Sweden",
-          "share_pct": 13.45,
-          "raw_total": 3959
+          "share_pct": 13.46,
+          "raw_total": 3964
         },
         {
           "country": "Netherlands",
-          "share_pct": 9.74,
+          "share_pct": 9.73,
           "raw_total": 2866
         },
         {
@@ -95,7 +95,7 @@
         {
           "country": "Ukraine",
           "share_pct": 8.2,
-          "raw_total": 2413
+          "raw_total": 2415
         },
         {
           "country": "Germany",
@@ -114,7 +114,7 @@
         },
         {
           "country": "Austria",
-          "share_pct": 3.18,
+          "share_pct": 3.17,
           "raw_total": 935
         },
         {
@@ -128,92 +128,92 @@
   "active_modern": {
     "headcount": {
       "countries_represented": 96,
-      "effective_countries_1_over_hhi": 10.64,
-      "hhi": 0.094,
+      "effective_countries_1_over_hhi": 10.65,
+      "hhi": 0.0939,
       "nakamoto_coefficient": 7,
       "top_countries": [
         {
           "country": "USA",
-          "share_pct": 27.64,
-          "raw_total": 409
+          "share_pct": 27.6,
+          "raw_total": 411
         },
         {
           "country": "India",
-          "share_pct": 5.74,
-          "raw_total": 85
+          "share_pct": 5.84,
+          "raw_total": 87
         },
         {
           "country": "Germany",
-          "share_pct": 5.54,
-          "raw_total": 82
+          "share_pct": 5.64,
+          "raw_total": 84
         },
         {
           "country": "UK",
-          "share_pct": 3.85,
+          "share_pct": 3.83,
           "raw_total": 57
         },
         {
           "country": "Brazil",
-          "share_pct": 3.45,
+          "share_pct": 3.43,
           "raw_total": 51
         },
         {
           "country": "Canada",
-          "share_pct": 3.18,
+          "share_pct": 3.16,
           "raw_total": 47
         },
         {
           "country": "Australia",
-          "share_pct": 3.18,
+          "share_pct": 3.16,
           "raw_total": 47
         },
         {
-          "country": "Netherlands",
-          "share_pct": 2.84,
+          "country": "France",
+          "share_pct": 2.82,
           "raw_total": 42
         },
         {
-          "country": "France",
-          "share_pct": 2.77,
-          "raw_total": 41
+          "country": "Netherlands",
+          "share_pct": 2.82,
+          "raw_total": 42
         },
         {
-          "country": "Switzerland",
-          "share_pct": 2.64,
-          "raw_total": 39
+          "country": "China",
+          "share_pct": 2.55,
+          "raw_total": 38
         }
       ]
     },
     "commit_weighted": {
       "countries_represented": 37,
-      "effective_countries_1_over_hhi": 7.86,
-      "hhi": 0.1273,
+      "effective_countries_1_over_hhi": 7.87,
+      "hhi": 0.127,
       "nakamoto_coefficient": 3,
       "top_countries": [
         {
           "country": "USA",
-          "share_pct": 21.86,
-          "raw_total": 1535
+          "share_pct": 21.85,
+          "raw_total": 1536
         },
         {
           "country": "Sweden",
-          "share_pct": 16.39,
-          "raw_total": 1151
+          "share_pct": 16.43,
+          "raw_total": 1155
         },
         {
           "country": "Australia",
-          "share_pct": 13.74,
-          "raw_total": 965
+          "share_pct": 13.64,
+          "raw_total": 959
         },
         {
           "country": "Ukraine",
-          "share_pct": 13.19,
+          "share_pct": 13.17,
           "raw_total": 926
         },
         {
           "country": "Netherlands",
-          "share_pct": 8.5,
-          "raw_total": 597
+          "share_pct": 8.48,
+          "raw_total": 596
         },
         {
           "country": "Germany",
@@ -222,22 +222,22 @@
         },
         {
           "country": "Austria",
-          "share_pct": 4.97,
+          "share_pct": 4.96,
           "raw_total": 349
         },
         {
           "country": "Switzerland",
-          "share_pct": 4.77,
-          "raw_total": 335
+          "share_pct": 4.74,
+          "raw_total": 333
         },
         {
           "country": "Brazil",
-          "share_pct": 2.68,
-          "raw_total": 188
+          "share_pct": 2.77,
+          "raw_total": 195
         },
         {
           "country": "UK",
-          "share_pct": 2.11,
+          "share_pct": 2.1,
           "raw_total": 148
         }
       ]

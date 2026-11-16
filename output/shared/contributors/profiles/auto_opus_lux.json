@@ -47,7 +47,7 @@
   "review_reciprocity": 0.5,
   "hybrid_score": 0.0482,
   "p2016_hybrid_score": 0.0532,
-  "modern_hybrid_score": 0.0848,
+  "modern_hybrid_score": 0.0847,
   "impact_score": 3.0,
   "p2016_impact_score": 3.0,
   "modern_impact_score": 5.0,
@@ -57,8 +57,8 @@
   "delving_threads": 5.0,
   "ml_responses": 1.0,
   "delving_responses": 4.0,
-  "first_active": null,
-  "last_active": "2026-06-08T18:01:12",
+  "first_active": "2026-05-22T01:04:56.742000",
+  "last_active": null,
   "dev_type": "Participant",
   "expertise_domains": [
     "Cryptography",
@@ -66,13 +66,13 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Consensus": 0.216,
-      "Cryptography": 0.784
+      "Cryptography": 0.784,
+      "Consensus": 0.216
     }
   },
   "expertise_domain_scores": {
-    "Consensus": 0.216,
-    "Cryptography": 0.784
+    "Cryptography": 0.784,
+    "Consensus": 0.216
   },
   "p2016_posts": 11.0,
   "modern_posts": 11.0,
@@ -84,7 +84,7 @@
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": false,
-  "global_first_active": "2026-06-08T22:37:57",
+  "global_first_active": "2026-05-22T01:04:56.742000",
   "global_last_active": "2026-06-08T22:37:57",
   "github_location": "Cyberspace",
   "github_company": "opus lux",

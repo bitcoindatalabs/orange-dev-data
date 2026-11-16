@@ -57,20 +57,20 @@
   "avg_pr_ack_velocity_days": 8.443659722222222,
   "avg_concept_lead_time_days": 55.268850308641966,
   "review_reciprocity": 1.8823529411764706,
-  "hybrid_score": 1.0846,
+  "hybrid_score": 1.0845,
   "p2016_hybrid_score": 1.0911,
-  "modern_hybrid_score": 0.7011,
+  "modern_hybrid_score": 0.7008,
   "impact_score": 48.0,
   "p2016_impact_score": 48.0,
   "modern_impact_score": 34.0,
-  "threads_started": 20.0,
+  "threads_started": 21.0,
   "replies_sent": 33.0,
   "ml_threads": 2.0,
-  "delving_threads": 18.0,
+  "delving_threads": 19.0,
   "ml_responses": 3.0,
   "delving_responses": 30.0,
-  "first_active": "2019-01-29T16:03:04",
-  "last_active": null,
+  "first_active": null,
+  "last_active": "2026-11-12T10:34:19.100000",
   "dev_type": "Protocol Designer",
   "expertise_domains": [
     "Consensus",
@@ -78,14 +78,14 @@
     "Script"
   ],
   "expertise_by_source": {
-    "discussion": {
-      "Consensus": 0.261,
-      "Script": 0.739
-    },
     "code": {
       "Infrastructure": 0.75,
       "Wallet": 0.125,
       "Consensus": 0.125
+    },
+    "discussion": {
+      "Script": 0.745,
+      "Consensus": 0.255
     },
     "bips": {
       "Infrastructure": 0.25,
@@ -94,22 +94,22 @@
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.35,
-    "Consensus": 0.4647,
-    "Script": 0.1478,
-    "Wallet": 0.0375
+    "Wallet": 0.0375,
+    "Script": 0.149,
+    "Consensus": 0.4635
   },
-  "p2016_posts": 53.0,
-  "modern_posts": 33.0,
+  "p2016_posts": 54.0,
+  "modern_posts": 32.0,
   "p2016_ml_posts": 5.0,
-  "p2016_delving_posts": 48.0,
+  "p2016_delving_posts": 49.0,
   "modern_ml_posts": 1.0,
-  "modern_delving_posts": 32.0,
+  "modern_delving_posts": 31.0,
   "is_engineer": true,
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": true,
   "global_first_active": "2014-02-17T14:24:35",
-  "global_last_active": "2026-11-05T17:10:34",
+  "global_last_active": "2026-11-12T10:34:19.100000",
   "github_location": "Portugal",
   "github_company": "second.tech",
   "github_bio": "\"We publish our code so that our fellow Cypherpunks may practice and play with it. Our code is free for all to use, worldwide.\"\r\n- A Cypherpunk's Manifesto",
@@ -172,9 +172,9 @@
   },
   "last_message": {
     "source": "delving",
-    "subject": "Re: JIT fees with TXHASH: comparing options for sponsorring and stacking",
-    "date": "2026-02-25",
-    "link": "https://delvingbitcoin.org/t/jit-fees-with-txhash-comparing-options-for-sponsorring-and-stacking/1760/3"
+    "subject": "Re: Decentralized Coinbase Payout Protocols (DCPP): A Framework for Discussion",
+    "date": "2026-11-12",
+    "link": "https://delvingbitcoin.org/t/decentralized-coinbase-payout-protocols-dcpp-a-framework-for-discussion/3060/4"
   },
   "social_history": {
     "2019": {
@@ -205,7 +205,9 @@
       "testing-devtools": 11
     },
     "2026": {
-      "mempool-fees": 1
+      "covenants": 1,
+      "mempool-fees": 2,
+      "other": 2
     }
   }
 }

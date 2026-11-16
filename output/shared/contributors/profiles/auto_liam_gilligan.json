@@ -51,26 +51,26 @@
   "modern_reviews_count": 1.0,
   "first_review_date": "2026-08-04T17:07:49",
   "last_review_date": "2026-08-18T21:43:26",
-  "prs_authored": 3.0,
+  "prs_authored": 4.0,
   "tier1_prs_authored": 0.0,
-  "tier2_prs_authored": 3.0,
+  "tier2_prs_authored": 4.0,
   "avg_pr_ack_velocity_days": null,
   "avg_concept_lead_time_days": null,
-  "review_reciprocity": 0.3333333333333333,
-  "hybrid_score": 0.4017,
-  "p2016_hybrid_score": 0.4054,
-  "modern_hybrid_score": 0.427,
-  "impact_score": 21.0,
+  "review_reciprocity": 0.25,
+  "hybrid_score": 0.4065,
+  "p2016_hybrid_score": 0.4102,
+  "modern_hybrid_score": 0.4317,
+  "impact_score": 22.0,
   "p2016_impact_score": 22.0,
   "modern_impact_score": 23.0,
-  "threads_started": 1.0,
-  "replies_sent": 2.0,
-  "ml_threads": 1.0,
+  "threads_started": 2.0,
+  "replies_sent": 3.0,
+  "ml_threads": 2.0,
   "delving_threads": 0.0,
-  "ml_responses": 2.0,
+  "ml_responses": 3.0,
   "delving_responses": 0.0,
-  "first_active": "2026-07-28T10:01:34",
-  "last_active": "2026-09-17T18:23:13",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Participant",
   "expertise_domains": [
     "Infrastructure",
@@ -79,8 +79,8 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Cryptography": 0.674,
-      "Network": 0.326
+      "Cryptography": 0.66,
+      "Network": 0.34
     },
     "bips": {
       "Infrastructure": 1.0
@@ -88,21 +88,21 @@
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.7143,
-    "Network": 0.0931,
-    "Cryptography": 0.1926
+    "Cryptography": 0.1886,
+    "Network": 0.0971
   },
-  "p2016_posts": 3.0,
-  "modern_posts": 3.0,
-  "p2016_ml_posts": 3.0,
+  "p2016_posts": 5.0,
+  "modern_posts": 5.0,
+  "p2016_ml_posts": 5.0,
   "p2016_delving_posts": 0.0,
-  "modern_ml_posts": 3.0,
+  "modern_ml_posts": 5.0,
   "modern_delving_posts": 0.0,
   "is_engineer": false,
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": true,
   "global_first_active": "2026-07-28T09:42:22",
-  "global_last_active": "2026-09-17T18:23:13",
+  "global_last_active": "2026-08-18T21:43:26",
   "github_location": null,
   "github_company": null,
   "github_bio": null,
@@ -129,15 +129,15 @@
   },
   "last_message": {
     "source": "mailing_list",
-    "subject": "[bitcoindev] [BIP Proposal] Transport Feature Negotiation",
-    "date": "2026-09-17",
-    "link": "https://gnusha.org/pi/bitcoindev/29174459-1523-4cf8-a20f-5ce1abc302c3n@googlegroups.com"
+    "subject": "[bitcoindev] BIP Proposal: ML-KEM Key Establishment",
+    "date": "2026-11-13",
+    "link": "https://gnusha.org/pi/bitcoindev/12a1a76d-0e27-4035-9fe8-a47524729c47n@googlegroups.com"
   },
   "social_history": {
     "2026": {
-      "other": 2,
-      "p2p-network": 1,
-      "quantum": 1
+      "other": 3,
+      "p2p-network": 2,
+      "quantum": 2
     }
   }
 }

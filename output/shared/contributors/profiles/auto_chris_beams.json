@@ -45,7 +45,7 @@
   "avg_pr_ack_velocity_days": 1.4384953703703702,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": 0.0,
-  "hybrid_score": 0.111,
+  "hybrid_score": 0.1109,
   "p2016_hybrid_score": 0.033,
   "modern_hybrid_score": 0.033,
   "impact_score": 6.0,
@@ -57,19 +57,19 @@
   "delving_threads": 0.0,
   "ml_responses": 7.0,
   "delving_responses": 0.0,
-  "first_active": "2014-03-29T04:08:47",
-  "last_active": "2014-06-09T10:34:18",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Builder",
   "expertise_domains": [
     "Infrastructure",
     "Wallet"
   ],
   "expertise_by_source": {
-    "discussion": {
-      "Wallet": 1.0
-    },
     "code": {
       "Infrastructure": 1.0
+    },
+    "discussion": {
+      "Wallet": 1.0
     }
   },
   "expertise_domain_scores": {
@@ -87,7 +87,7 @@
   "is_researcher": true,
   "is_bip_author": false,
   "global_first_active": "2014-03-22T13:42:16",
-  "global_last_active": "2014-06-09T10:34:18",
+  "global_last_active": "2014-03-31T06:14:59",
   "github_location": null,
   "github_company": null,
   "github_bio": null,

@@ -51,44 +51,41 @@
   "impact_score": 0.0,
   "p2016_impact_score": 0.0,
   "modern_impact_score": 0.0,
-  "threads_started": 3.0,
+  "threads_started": 8.0,
   "replies_sent": 2.0,
   "ml_threads": 0.0,
-  "delving_threads": 3.0,
+  "delving_threads": 8.0,
   "ml_responses": 0.0,
   "delving_responses": 2.0,
-  "first_active": null,
-  "last_active": null,
+  "first_active": "2026-10-10T04:40:58.869000",
+  "last_active": "2026-11-10T17:34:47.333000",
   "dev_type": "Participant",
   "expertise_domains": [
     "Consensus",
-    "Script",
-    "Cryptography"
+    "Script"
   ],
   "expertise_by_source": {
     "discussion": {
-      "Consensus": 0.5,
-      "Script": 0.25,
-      "Cryptography": 0.25
+      "Script": 0.5,
+      "Consensus": 0.5
     }
   },
   "expertise_domain_scores": {
-    "Consensus": 0.5,
-    "Script": 0.25,
-    "Cryptography": 0.25
+    "Script": 0.5,
+    "Consensus": 0.5
   },
-  "p2016_posts": 5.0,
-  "modern_posts": 5.0,
+  "p2016_posts": 10.0,
+  "modern_posts": 10.0,
   "p2016_ml_posts": 0.0,
-  "p2016_delving_posts": 5.0,
+  "p2016_delving_posts": 10.0,
   "modern_ml_posts": 0.0,
-  "modern_delving_posts": 5.0,
+  "modern_delving_posts": 10.0,
   "is_engineer": false,
   "is_reviewer": false,
   "is_researcher": false,
   "is_bip_author": false,
-  "global_first_active": null,
-  "global_last_active": null,
+  "global_first_active": "2026-10-10T04:40:58.869000",
+  "global_last_active": "2026-11-10T17:34:47.333000",
   "github_location": null,
   "github_company": null,
   "github_bio": null,
@@ -107,14 +104,15 @@
   "last_message": {
     "source": "delving",
     "subject": "Re: [BIP Draft] Co-signer Spending Policies",
-    "date": "2026-11-08",
-    "link": "https://delvingbitcoin.org/t/bip-draft-co-signer-spending-policies/2955/7"
+    "date": "2026-11-10",
+    "link": "https://delvingbitcoin.org/t/bip-draft-co-signer-spending-policies/2955/12"
   },
   "social_history": {
     "2026": {
-      "covenants": 5,
-      "signatures-sighash": 5,
-      "taproot": 5
+      "covenants": 10,
+      "signatures-sighash": 10,
+      "taproot": 10,
+      "vaults": 10
     }
   }
 }

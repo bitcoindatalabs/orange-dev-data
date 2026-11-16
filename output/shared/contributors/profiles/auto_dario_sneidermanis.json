@@ -46,7 +46,7 @@
   "avg_concept_lead_time_days": null,
   "review_reciprocity": 1.5,
   "hybrid_score": 0.1168,
-  "p2016_hybrid_score": 0.1303,
+  "p2016_hybrid_score": 0.1302,
   "modern_hybrid_score": 0.025,
   "impact_score": 7.0,
   "p2016_impact_score": 8.0,
@@ -57,25 +57,25 @@
   "delving_threads": 0.0,
   "ml_responses": 6.0,
   "delving_responses": 0.0,
-  "first_active": "2015-06-20T21:11:49",
-  "last_active": "2022-10-21T16:13:41",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Builder",
   "expertise_domains": [
     "Mempool",
     "Cryptography"
   ],
   "expertise_by_source": {
-    "discussion": {
-      "Mempool": 0.877,
-      "Cryptography": 0.123
-    },
     "code": {
       "Mempool": 1.0
+    },
+    "discussion": {
+      "Cryptography": 0.123,
+      "Mempool": 0.877
     }
   },
   "expertise_domain_scores": {
-    "Mempool": 0.9508,
-    "Cryptography": 0.0492
+    "Cryptography": 0.0492,
+    "Mempool": 0.9508
   },
   "p2016_posts": 6.0,
   "modern_posts": 0.0,
@@ -87,7 +87,7 @@
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": false,
-  "global_first_active": "2015-06-20T21:11:49",
+  "global_first_active": "2017-09-07T01:16:22",
   "global_last_active": "2022-11-07T16:41:58",
   "github_location": null,
   "github_company": "@muun ",

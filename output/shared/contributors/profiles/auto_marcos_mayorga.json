@@ -46,7 +46,7 @@
   "avg_concept_lead_time_days": 0.5254861111111111,
   "review_reciprocity": 0.0,
   "hybrid_score": 0.0823,
-  "p2016_hybrid_score": 0.0951,
+  "p2016_hybrid_score": 0.095,
   "modern_hybrid_score": 0.025,
   "impact_score": 5.0,
   "p2016_impact_score": 6.0,
@@ -57,19 +57,19 @@
   "delving_threads": 0.0,
   "ml_responses": 8.0,
   "delving_responses": 0.0,
-  "first_active": "2017-03-17T15:53:55",
-  "last_active": "2022-11-08T10:31:15",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Builder",
   "expertise_domains": [
     "Consensus",
     "Mining"
   ],
   "expertise_by_source": {
-    "discussion": {
-      "Mining": 1.0
-    },
     "code": {
       "Consensus": 1.0
+    },
+    "discussion": {
+      "Mining": 1.0
     }
   },
   "expertise_domain_scores": {
@@ -86,8 +86,8 @@
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": false,
-  "global_first_active": "2017-03-17T15:53:55",
-  "global_last_active": "2022-11-08T10:31:15",
+  "global_first_active": "2017-05-01T23:41:21",
+  "global_last_active": "2017-05-01T23:41:21",
   "github_location": "England",
   "github_company": "mm-studios",
   "github_bio": "Linux&C++&blockchain",

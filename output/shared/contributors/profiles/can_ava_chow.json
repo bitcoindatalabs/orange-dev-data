@@ -49,25 +49,25 @@
   "modern_bips_authored": 6.0,
   "first_bip_date": "2017-07-12T14:11:09",
   "last_bip_date": "2024-10-19T10:28:39",
-  "avg_review_latency_days": 331.4935239130435,
-  "reviews_count": 2696.0,
+  "avg_review_latency_days": 331.256729569899,
+  "reviews_count": 2700.0,
   "avg_approval_latency_days": 230.13412661465478,
   "approvals_count": 2034.0,
-  "tier1_reviews_count": 2541.0,
+  "tier1_reviews_count": 2545.0,
   "tier2_reviews_count": 156.0,
-  "p2016_reviews_count": 2696.0,
-  "modern_reviews_count": 1333.0,
+  "p2016_reviews_count": 2700.0,
+  "modern_reviews_count": 1336.0,
   "first_review_date": "2016-01-22T02:42:34",
-  "last_review_date": "2026-11-07T02:13:15",
+  "last_review_date": "2026-11-14T21:08:55",
   "prs_authored": 582.0,
   "tier1_prs_authored": 525.0,
   "tier2_prs_authored": 59.0,
   "avg_pr_ack_velocity_days": 17.381085963376993,
   "avg_concept_lead_time_days": 37.43084943639292,
-  "review_reciprocity": 4.632302405498282,
-  "hybrid_score": 3.476,
+  "review_reciprocity": 4.639175257731959,
+  "hybrid_score": 3.4757,
   "p2016_hybrid_score": 2.6054,
-  "modern_hybrid_score": 2.0375,
+  "modern_hybrid_score": 2.0376,
   "impact_score": 88.0,
   "p2016_impact_score": 79.0,
   "modern_impact_score": 71.0,
@@ -77,8 +77,8 @@
   "delving_threads": 1.0,
   "ml_responses": 105.0,
   "delving_responses": 1.0,
-  "first_active": "2015-05-07T06:15:57",
-  "last_active": "2026-04-21T13:17:58",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Protocol Designer",
   "expertise_domains": [
     "Wallet",
@@ -86,31 +86,31 @@
     "Infrastructure"
   ],
   "expertise_by_source": {
-    "discussion": {
-      "Wallet": 0.765,
-      "Ecosystem": 0.235
-    },
     "code": {
       "Infrastructure": 0.378,
       "Wallet": 0.577,
       "Consensus": 0.008,
-      "Script": 0.036,
-      "Mempool": 0.001
+      "Mempool": 0.001,
+      "Script": 0.036
+    },
+    "discussion": {
+      "Wallet": 0.765,
+      "Ecosystem": 0.235
     },
     "bips": {
       "Infrastructure": 0.278,
-      "Script": 0.5,
       "Consensus": 0.167,
-      "Privacy": 0.056
+      "Privacy": 0.056,
+      "Script": 0.5
     }
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.2523,
-    "Consensus": 0.0859,
-    "Script": 0.2607,
     "Wallet": 0.3259,
+    "Ecosystem": 0.047,
+    "Script": 0.2607,
     "Privacy": 0.028,
-    "Ecosystem": 0.047
+    "Consensus": 0.0859
   },
   "p2016_posts": 130.0,
   "modern_posts": 39.0,
@@ -123,7 +123,7 @@
   "is_researcher": true,
   "is_bip_author": true,
   "global_first_active": "2011-07-13T02:18:21",
-  "global_last_active": "2026-11-07T02:13:15",
+  "global_last_active": "2026-11-14T21:08:55",
   "github_location": null,
   "github_company": null,
   "github_bio": null,

@@ -36,8 +36,8 @@
   "p2016_authored_commits": 168.0,
   "modern_authored_commits": 0.0,
   "co_authored_commits": 4.0,
-  "bips_authored": 4.0,
-  "p2016_bips_authored": 4.0,
+  "bips_authored": 7.0,
+  "p2016_bips_authored": 7.0,
   "modern_bips_authored": 0.0,
   "first_bip_date": "2017-03-26T17:19:22",
   "last_bip_date": "2019-03-19T20:27:47",
@@ -57,11 +57,11 @@
   "avg_pr_ack_velocity_days": 14.145331719334012,
   "avg_concept_lead_time_days": 17.75903049045139,
   "review_reciprocity": 2.508771929824561,
-  "hybrid_score": 1.4117,
-  "p2016_hybrid_score": 1.4746,
-  "modern_hybrid_score": 0.1904,
-  "impact_score": 57.0,
-  "p2016_impact_score": 59.0,
+  "hybrid_score": 1.649,
+  "p2016_hybrid_score": 1.7117,
+  "modern_hybrid_score": 0.1903,
+  "impact_score": 63.0,
+  "p2016_impact_score": 64.0,
   "modern_impact_score": 11.0,
   "threads_started": 17.0,
   "replies_sent": 44.0,
@@ -69,8 +69,8 @@
   "delving_threads": 0.0,
   "ml_responses": 44.0,
   "delving_responses": 0.0,
-  "first_active": "2017-03-04T09:18:50",
-  "last_active": "2024-01-18T20:33:25",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Protocol Designer",
   "expertise_domains": [
     "Infrastructure",
@@ -78,26 +78,27 @@
     "Wallet"
   ],
   "expertise_by_source": {
-    "discussion": {
-      "Consensus": 1.0
-    },
     "code": {
       "Infrastructure": 0.56,
       "Wallet": 0.301,
-      "Consensus": 0.073,
       "Network": 0.006,
-      "Script": 0.012,
-      "Mempool": 0.048
+      "Consensus": 0.073,
+      "Mempool": 0.048,
+      "Script": 0.012
+    },
+    "discussion": {
+      "Consensus": 1.0
     },
     "bips": {
-      "Infrastructure": 1.0
+      "Infrastructure": 0.571,
+      "Consensus": 0.429
     }
   },
   "expertise_domain_scores": {
-    "Infrastructure": 0.668,
-    "Consensus": 0.2219,
+    "Infrastructure": 0.4535,
+    "Wallet": 0.0903,
     "Mempool": 0.0144,
-    "Wallet": 0.0903
+    "Consensus": 0.4364
   },
   "p2016_posts": 61.0,
   "modern_posts": 1.0,
@@ -189,6 +190,27 @@
     }
   },
   "bip_list": [
+    {
+      "number": 98,
+      "title": "Fast Merkle Trees",
+      "status": "Draft",
+      "theme": "Consensus & Soft Forks",
+      "link": "https://github.com/bitcoin/bips/blob/master/bip-0098.mediawiki"
+    },
+    {
+      "number": 116,
+      "title": "MERKLEBRANCHVERIFY",
+      "status": "Draft",
+      "theme": "Consensus & Soft Forks",
+      "link": "https://github.com/bitcoin/bips/blob/master/bip-0116.mediawiki"
+    },
+    {
+      "number": 117,
+      "title": "Tail Call Execution Semantics",
+      "status": "Draft",
+      "theme": "Consensus & Soft Forks",
+      "link": "https://github.com/bitcoin/bips/blob/master/bip-0117.mediawiki"
+    },
     {
       "number": 154,
       "title": "Rate Limiting via peer specified challenges",

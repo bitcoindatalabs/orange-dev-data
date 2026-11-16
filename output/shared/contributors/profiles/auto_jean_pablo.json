@@ -43,25 +43,25 @@
   "modern_bips_authored": 1.0,
   "first_bip_date": "2026-08-14T15:06:46",
   "last_bip_date": "2026-08-14T15:06:46",
-  "avg_review_latency_days": 236.91342330367476,
-  "reviews_count": 96.0,
-  "avg_approval_latency_days": 46.15689277873234,
-  "approvals_count": 89.0,
-  "tier1_reviews_count": 93.0,
+  "avg_review_latency_days": 235.17152400947458,
+  "reviews_count": 97.0,
+  "avg_approval_latency_days": 45.810479733560086,
+  "approvals_count": 90.0,
+  "tier1_reviews_count": 94.0,
   "tier2_reviews_count": 3.0,
-  "p2016_reviews_count": 96.0,
-  "modern_reviews_count": 96.0,
+  "p2016_reviews_count": 97.0,
+  "modern_reviews_count": 97.0,
   "first_review_date": "2026-08-03T23:45:59",
-  "last_review_date": "2026-09-14T13:53:19",
+  "last_review_date": "2026-11-14T18:48:29",
   "prs_authored": 12.0,
   "tier1_prs_authored": 7.0,
   "tier2_prs_authored": 5.0,
   "avg_pr_ack_velocity_days": 22.173768518518518,
   "avg_concept_lead_time_days": 32.52355902777778,
-  "review_reciprocity": 8.0,
-  "hybrid_score": 0.6606,
-  "p2016_hybrid_score": 0.6606,
-  "modern_hybrid_score": 0.6606,
+  "review_reciprocity": 8.083333333333334,
+  "hybrid_score": 0.6609,
+  "p2016_hybrid_score": 0.6609,
+  "modern_hybrid_score": 0.6609,
   "impact_score": 33.0,
   "p2016_impact_score": 33.0,
   "modern_impact_score": 33.0,
@@ -71,8 +71,8 @@
   "delving_threads": 4.0,
   "ml_responses": 0.0,
   "delving_responses": 1.0,
-  "first_active": null,
-  "last_active": "2026-08-06T08:51:55",
+  "first_active": "2026-07-28T21:29:41.575000",
+  "last_active": null,
   "dev_type": "Builder",
   "expertise_domains": [
     "Script",
@@ -80,13 +80,13 @@
     "Infrastructure"
   ],
   "expertise_by_source": {
-    "discussion": {
-      "Consensus": 0.388,
-      "Cryptography": 0.612
-    },
     "code": {
       "Infrastructure": 0.455,
       "Wallet": 0.545
+    },
+    "discussion": {
+      "Cryptography": 0.612,
+      "Consensus": 0.388
     },
     "bips": {
       "Script": 1.0
@@ -94,10 +94,10 @@
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.1365,
-    "Consensus": 0.0776,
-    "Script": 0.5,
+    "Cryptography": 0.1224,
     "Wallet": 0.1635,
-    "Cryptography": 0.1224
+    "Script": 0.5,
+    "Consensus": 0.0776
   },
   "p2016_posts": 6.0,
   "modern_posts": 6.0,
@@ -109,8 +109,8 @@
   "is_reviewer": true,
   "is_researcher": false,
   "is_bip_author": true,
-  "global_first_active": "2026-08-03T23:45:59",
-  "global_last_active": "2026-10-05T12:47:35",
+  "global_first_active": "2026-07-28T21:29:41.575000",
+  "global_last_active": "2026-11-14T18:48:29",
   "github_location": "Portugal",
   "github_company": null,
   "github_bio": "👨🏻‍💻 Build · Break · Learn · Repeat\r\n🤖 AI · ⛓️ Blockchain · ₿ Bitcoin ❤️",
