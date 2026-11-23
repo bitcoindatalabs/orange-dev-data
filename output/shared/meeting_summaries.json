@@ -1,5 +1,61 @@
 [
   {
+    "date": "2026-11-19",
+    "url": "https://achow101.com/ircmeetings/2026/bitcoin-core-dev.2026-11-19_16_00.log.json",
+    "participant_count": 15,
+    "key_participants": [
+      "fjahr",
+      "johnny9dev",
+      "sedited",
+      "b10c",
+      "brunoerg"
+    ],
+    "active_participants": [
+      "fjahr",
+      "johnny9dev",
+      "sedited",
+      "b10c",
+      "brunoerg"
+    ],
+    "topics_discussed": [
+      "Fuzzing WG: No update reported by eugenesiegel and marcofleon.",
+      "Kernel WG: sedited noted several open pull requests, including #36692, focused on improving tests.",
+      "QML GUI WG: johnny9dev reported 248 of 329 issues resolved, with 7 pre-PR fixes. Cleanup and deslop are in progress. Desktop notifications are the final feature before staging.",
+      "QA WG: No update reported by brunoerg.",
+      "Address Relay: b10c investigated address-refresh spam expiration over the weekend, identifying potential fixes."
+    ],
+    "decisions_made": [],
+    "action_items": [],
+    "mentioned_prs": [
+      36692
+    ],
+    "card_topics": [
+      "Kernel WG: sedited highlighted open PRs, including #36692, aimed at improving Bitcoin Core kernel tests.",
+      "QML GUI WG: johnny9dev resolved 248 of 329 reported issues; desktop notifications are the final feature before staging.",
+      "Address Relay: b10c investigated address-refresh spam expiration, identifying potential fixes for the relay mechanism."
+    ],
+    "spotlight_debate": "",
+    "referenced_artifacts": [
+      {
+        "label": "PR #36692",
+        "icon": "git-pull-request"
+      },
+      {
+        "label": "QML GUI Issues: 329",
+        "icon": "bug"
+      }
+    ],
+    "narrative_summary": "The engineering sync on 2026-11-19 included updates on core development areas. sedited reported on the Kernel Working Group, noting several open pull requests, specifically PR #36692, which are focused on enhancing existing tests for the kernel. No updates were provided by the Fuzzing or QA Working Groups.\n\njohnny9dev provided a detailed update for the QML GUI Working Group, indicating significant progress on issue resolution. Of 329 reported issues, 248 have been resolved and tested, with an additional 7 fixed in pre-PR stages. Cleanup and deslop efforts are underway, and the implementation of desktop notifications remains the final feature before the GUI is ready for staging.\n\nRegarding network operations, b10c reported on investigations into address relay behavior. Analysis focused on address-refresh spam expiring over the past weekend, leading to the identification of potential fixes for the address relay mechanism. Further details on these proposed solutions are expected soon.",
+    "x_priority_takeaway": "QML GUI staging preparation ongoing.",
+    "x_bullet_points": [
+      "QML GUI: 248 issues resolved.",
+      "Kernel: PR #36692 for tests.",
+      "Address relay: Spam fixes explored."
+    ],
+    "linkedin_context": "The engineering sync on 2026-11-19 included updates on core development areas. sedited reported on the Kernel Working Group, noting several open pull requests, specifically PR #36692, which are focused on enhancing existing tests for the kernel. No updates were provided by the Fuzzing or QA Working Groups.\n\njohnny9dev provided a detailed update for the QML GUI Working Group, indicating significant progress on issue resolution. Of 329 reported issues, 248 have been resolved and tested, with an additional 7 fixed in pre-PR stages. Cleanup and deslop efforts are underway, and the implementation of desktop notifications remains the final feature before the GUI is ready for staging.\n\nRegarding network operations, b10c reported on investigations into address relay behavior. Analysis focused on address-refresh spam expiring over the past weekend, leading to the identification of potential fixes for the address relay mechanism. Further details on these proposed solutions are expected soon.",
+    "_text_hash": "5379b2abc26d6ad45716ad9028ad5ddd"
+  },
+  {
     "date": "2026-11-12",
     "url": "https://achow101.com/ircmeetings/2026/bitcoin-core-dev.2026-11-12_16_00.log.json",
     "participant_count": 27,

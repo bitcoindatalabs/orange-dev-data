@@ -57,7 +57,7 @@
   "avg_pr_ack_velocity_days": 5.173729166666666,
   "avg_concept_lead_time_days": 38.53821180555556,
   "review_reciprocity": 1.5714285714285714,
-  "hybrid_score": 1.1795,
+  "hybrid_score": 1.1794,
   "p2016_hybrid_score": 0.0905,
   "modern_hybrid_score": 0.0542,
   "impact_score": 51.0,
@@ -69,8 +69,8 @@
   "delving_threads": 0.0,
   "ml_responses": 65.0,
   "delving_responses": 0.0,
-  "first_active": null,
-  "last_active": null,
+  "first_active": "2011-07-17T06:53:05",
+  "last_active": "2022-07-04T02:53:48",
   "dev_type": "Protocol Designer",
   "expertise_domains": [
     "Infrastructure",
@@ -78,23 +78,23 @@
     "Script"
   ],
   "expertise_by_source": {
+    "discussion": {
+      "Script": 0.588,
+      "Ecosystem": 0.412
+    },
     "code": {
       "Infrastructure": 1.0
     },
-    "discussion": {
-      "Ecosystem": 0.412,
-      "Script": 0.588
-    },
     "bips": {
-      "Infrastructure": 0.6,
-      "Network": 0.4
+      "Network": 0.4,
+      "Infrastructure": 0.6
     }
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.6,
-    "Ecosystem": 0.0824,
+    "Network": 0.2,
     "Script": 0.1176,
-    "Network": 0.2
+    "Ecosystem": 0.0824
   },
   "p2016_posts": 6.0,
   "modern_posts": 0.0,
@@ -107,7 +107,7 @@
   "is_researcher": true,
   "is_bip_author": true,
   "global_first_active": "2011-03-08T14:27:56",
-  "global_last_active": "2015-02-03T09:46:43",
+  "global_last_active": "2022-07-04T02:53:48",
   "github_location": null,
   "github_company": null,
   "github_bio": null,

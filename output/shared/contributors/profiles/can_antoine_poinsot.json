@@ -43,36 +43,36 @@
   "modern_bips_authored": 4.0,
   "first_bip_date": "2024-04-10T08:37:34",
   "last_bip_date": "2026-03-17T15:01:23",
-  "avg_review_latency_days": 404.2218097805389,
-  "reviews_count": 405.0,
-  "avg_approval_latency_days": 118.25432438639037,
-  "approvals_count": 281.0,
-  "tier1_reviews_count": 370.0,
+  "avg_review_latency_days": 397.656781880648,
+  "reviews_count": 412.0,
+  "avg_approval_latency_days": 116.41838333695023,
+  "approvals_count": 286.0,
+  "tier1_reviews_count": 377.0,
   "tier2_reviews_count": 35.0,
-  "p2016_reviews_count": 405.0,
-  "modern_reviews_count": 217.0,
+  "p2016_reviews_count": 412.0,
+  "modern_reviews_count": 223.0,
   "first_review_date": "2019-02-27T10:46:16",
-  "last_review_date": "2026-11-13T19:54:35",
+  "last_review_date": "2026-11-19T22:18:31",
   "prs_authored": 146.0,
   "tier1_prs_authored": 128.0,
   "tier2_prs_authored": 18.0,
   "avg_pr_ack_velocity_days": 13.155576272175537,
   "avg_concept_lead_time_days": 16.688333122895624,
-  "review_reciprocity": 2.7739726027397262,
-  "hybrid_score": 1.5324,
-  "p2016_hybrid_score": 1.6548,
-  "modern_hybrid_score": 1.6701,
+  "review_reciprocity": 2.8219178082191783,
+  "hybrid_score": 1.5339,
+  "p2016_hybrid_score": 1.6572,
+  "modern_hybrid_score": 1.6708,
   "impact_score": 60.0,
   "p2016_impact_score": 63.0,
   "modern_impact_score": 63.0,
-  "threads_started": 111.0,
-  "replies_sent": 171.0,
+  "threads_started": 112.0,
+  "replies_sent": 172.0,
   "ml_threads": 29.0,
-  "delving_threads": 82.0,
-  "ml_responses": 104.0,
+  "delving_threads": 83.0,
+  "ml_responses": 105.0,
   "delving_responses": 67.0,
-  "first_active": null,
-  "last_active": "2026-11-11T16:51:29.808000",
+  "first_active": "2020-04-24T10:00:16",
+  "last_active": "2026-11-19T11:29:20",
   "dev_type": "Protocol Designer",
   "expertise_domains": [
     "Consensus",
@@ -80,41 +80,41 @@
     "Script"
   ],
   "expertise_by_source": {
+    "discussion": {
+      "Consensus": 0.423,
+      "Mining": 0.577
+    },
     "code": {
       "Infrastructure": 0.749,
-      "Wallet": 0.03,
-      "Network": 0.017,
       "Consensus": 0.037,
-      "Mempool": 0.024,
-      "Script": 0.145
-    },
-    "discussion": {
-      "Mining": 0.577,
-      "Consensus": 0.423
+      "Network": 0.017,
+      "Wallet": 0.03,
+      "Script": 0.145,
+      "Mempool": 0.024
     },
     "bips": {
-      "Consensus": 0.75,
-      "Script": 0.25
+      "Script": 0.25,
+      "Consensus": 0.75
     }
   },
   "expertise_domain_scores": {
-    "Infrastructure": 0.2246,
+    "Consensus": 0.4704,
     "Mining": 0.1153,
-    "Script": 0.1684,
-    "Consensus": 0.4704
+    "Infrastructure": 0.2246,
+    "Script": 0.1684
   },
-  "p2016_posts": 282.0,
-  "modern_posts": 243.0,
-  "p2016_ml_posts": 133.0,
-  "p2016_delving_posts": 149.0,
-  "modern_ml_posts": 96.0,
-  "modern_delving_posts": 147.0,
+  "p2016_posts": 284.0,
+  "modern_posts": 245.0,
+  "p2016_ml_posts": 134.0,
+  "p2016_delving_posts": 150.0,
+  "modern_ml_posts": 97.0,
+  "modern_delving_posts": 148.0,
   "is_engineer": true,
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": true,
   "global_first_active": "2019-02-27T10:46:16",
-  "global_last_active": "2026-11-13T19:54:35",
+  "global_last_active": "2026-11-19T22:18:31",
   "github_location": null,
   "github_company": "@chaincodelabs",
   "github_bio": "590B 7292 695A FFA5 B672  CBB2 E13F C145 CD3F 4304 <darosior@protonmail.com>",
@@ -214,7 +214,7 @@
     {
       "number": 379,
       "title": "Miniscript",
-      "status": "Draft",
+      "status": "Deployed",
       "theme": "Script & Smart Contracts",
       "link": "https://github.com/bitcoin/bips/blob/master/bip-0379.mediawiki"
     },
@@ -240,10 +240,10 @@
     "link": "https://gnusha.org/pi/bitcoindev/Dc8XgZU3_W8pUwgCBfL4uo9wLWlZOWBG9Q8iBUTcq9V4DRzItDzlEB5nNq8a6U64k2wVD4gPWrsYmnv3I2DEB7pXydGToN32UHUnrL5faa0=@protonmail.com"
   },
   "last_message": {
-    "source": "delving",
-    "subject": "Re: Should wallets default to Taproot or SegWit receive addresses while some services still reject bc1p?",
-    "date": "2026-11-11",
-    "link": "https://delvingbitcoin.org/t/should-wallets-default-to-taproot-or-segwit-receive-addresses-while-some-services-still-reject-bc1p/3056/7"
+    "source": "mailing_list",
+    "subject": "Re: [bitcoindev] [BIP Proposal] Stale Tip Relay",
+    "date": "2026-11-19",
+    "link": "https://gnusha.org/pi/bitcoindev/oBD8E4x4wLHU_TcMdLuADKLL48HcUAhyf7NCDOufueOMfRuJnF1bDnmCzUxqkscA41b1dVgC8lVH3nsueIYVVjTiDnobz0M3e345qHttx4w=@protonmail.com"
   },
   "social_history": {
     "2020": {
@@ -251,55 +251,53 @@
       "other": 2
     },
     "2021": {
-      "covenants": 1,
-      "other": 12,
+      "other": 13,
       "mempool-fees": 7,
       "mining": 3,
       "script-opcodes": 1,
       "security": 1
     },
     "2022": {
-      "covenants": 11,
-      "other": 10,
+      "other": 19,
       "mempool-fees": 5,
       "mining": 2,
-      "script-opcodes": 1
+      "script-opcodes": 1,
+      "soft-fork-activation": 2
     },
     "2023": {
-      "covenants": 3,
-      "other": 18,
+      "other": 21,
       "script-opcodes": 4
     },
     "2024": {
       "other": 29,
       "consensus-cleanup": 33,
-      "covenants": 1,
       "mempool-fees": 5,
       "mining": 26,
       "script-opcodes": 26,
       "security": 31,
+      "soft-fork-activation": 17,
       "testing-devtools": 24,
       "utxo-sync": 21
     },
     "2025": {
-      "other": 100,
+      "other": 114,
       "consensus-cleanup": 31,
-      "covenants": 25,
       "mempool-fees": 17,
       "mining": 38,
       "script-opcodes": 33,
       "security": 23,
+      "soft-fork-activation": 24,
       "testing-devtools": 27,
       "utxo-sync": 18
     },
     "2026": {
-      "other": 84,
+      "other": 86,
       "consensus-cleanup": 28,
-      "covenants": 5,
       "mempool-fees": 20,
-      "mining": 23,
+      "mining": 24,
       "script-opcodes": 12,
       "security": 9,
+      "soft-fork-activation": 10,
       "testing-devtools": 26,
       "utxo-sync": 24
     }

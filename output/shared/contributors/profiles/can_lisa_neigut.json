@@ -65,8 +65,8 @@
   "delving_threads": 2.0,
   "ml_responses": 1.0,
   "delving_responses": 1.0,
-  "first_active": null,
-  "last_active": "2025-08-15T16:12:24.488000",
+  "first_active": "2021-10-25T21:56:21",
+  "last_active": null,
   "dev_type": "Builder",
   "expertise_domains": [
     "Infrastructure",
@@ -74,20 +74,20 @@
     "Script"
   ],
   "expertise_by_source": {
+    "discussion": {
+      "Script": 0.3,
+      "Mempool": 0.3,
+      "Cryptography": 0.4
+    },
     "code": {
       "Infrastructure": 1.0
-    },
-    "discussion": {
-      "Cryptography": 0.4,
-      "Mempool": 0.3,
-      "Script": 0.3
     }
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.6,
-    "Cryptography": 0.16,
+    "Script": 0.12,
     "Mempool": 0.12,
-    "Script": 0.12
+    "Cryptography": 0.16
   },
   "p2016_posts": 6.0,
   "modern_posts": 3.0,

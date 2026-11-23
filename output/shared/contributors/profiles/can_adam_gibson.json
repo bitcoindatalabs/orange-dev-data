@@ -57,8 +57,8 @@
   "delving_threads": 37.0,
   "ml_responses": 105.0,
   "delving_responses": 59.0,
-  "first_active": null,
-  "last_active": "2026-11-14T01:12:38.373000",
+  "first_active": "2015-02-15T15:40:24",
+  "last_active": null,
   "dev_type": "Participant",
   "expertise_domains": [
     "Privacy",
@@ -66,13 +66,13 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Privacy": 0.542,
-      "Consensus": 0.458
+      "Consensus": 0.458,
+      "Privacy": 0.542
     }
   },
   "expertise_domain_scores": {
-    "Privacy": 0.542,
-    "Consensus": 0.458
+    "Consensus": 0.458,
+    "Privacy": 0.542
   },
   "p2016_posts": 210.0,
   "modern_posts": 164.0,
@@ -84,8 +84,8 @@
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": false,
-  "global_first_active": "2020-05-18T08:54:27",
-  "global_last_active": "2026-11-14T01:12:38.373000",
+  "global_first_active": "2015-02-15T15:40:24",
+  "global_last_active": "2026-08-11T23:29:43",
   "github_location": null,
   "github_company": "None",
   "github_bio": "none",
@@ -156,9 +156,9 @@
       "utxo-sync": 13
     },
     "2026": {
-      "other": 124,
+      "other": 126,
       "bitvm": 13,
-      "mempool-fees": 18,
+      "mempool-fees": 19,
       "multisig-threshold": 11,
       "privacy": 21,
       "quantum": 21,

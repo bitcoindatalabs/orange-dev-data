@@ -47,7 +47,7 @@
   "review_reciprocity": 9.2,
   "hybrid_score": 0.1977,
   "p2016_hybrid_score": 0.2076,
-  "modern_hybrid_score": 0.2617,
+  "modern_hybrid_score": 0.2615,
   "impact_score": 11.0,
   "p2016_impact_score": 12.0,
   "modern_impact_score": 15.0,
@@ -57,24 +57,24 @@
   "delving_threads": 1.0,
   "ml_responses": 7.0,
   "delving_responses": 2.0,
-  "first_active": null,
-  "last_active": "2026-11-10T17:51:22.686000",
+  "first_active": "2024-04-30T07:48:09",
+  "last_active": null,
   "dev_type": "Builder",
   "expertise_domains": [
     "Infrastructure",
     "Consensus"
   ],
   "expertise_by_source": {
-    "code": {
-      "Infrastructure": 1.0
-    },
     "discussion": {
       "Consensus": 1.0
+    },
+    "code": {
+      "Infrastructure": 1.0
     }
   },
   "expertise_domain_scores": {
-    "Infrastructure": 0.6,
-    "Consensus": 0.4
+    "Consensus": 0.4,
+    "Infrastructure": 0.6
   },
   "p2016_posts": 10.0,
   "modern_posts": 10.0,
@@ -87,7 +87,7 @@
   "is_researcher": true,
   "is_bip_author": false,
   "global_first_active": "2024-01-23T01:12:03",
-  "global_last_active": "2026-11-10T17:51:22.686000",
+  "global_last_active": "2026-09-27T21:15:31",
   "github_location": "Brasília, DF, Brazil",
   "github_company": "University of Brasília",
   "github_bio": "Assoc. Professor at the Univ. of Brasília. Bitcoin, Functional Programming, Embedded Systems.\r\n\r\nPGP 2113 A2F4 1043 17C6 30DF  8A58 8E31 D077 EAEC F0B2",

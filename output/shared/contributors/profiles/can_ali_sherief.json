@@ -48,9 +48,9 @@
   "avg_pr_ack_velocity_days": 4.981145833333334,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": 3.0,
-  "hybrid_score": 0.2069,
-  "p2016_hybrid_score": 0.2489,
-  "modern_hybrid_score": 0.1438,
+  "hybrid_score": 0.2068,
+  "p2016_hybrid_score": 0.2488,
+  "modern_hybrid_score": 0.1437,
   "impact_score": 12.0,
   "p2016_impact_score": 14.0,
   "modern_impact_score": 8.0,
@@ -60,25 +60,25 @@
   "delving_threads": 3.0,
   "ml_responses": 32.0,
   "delving_responses": 0.0,
-  "first_active": null,
-  "last_active": "2026-11-15T21:08:12.748000",
+  "first_active": "2021-07-12T18:33:16",
+  "last_active": null,
   "dev_type": "Builder",
   "expertise_domains": [
     "Wallet",
     "Consensus"
   ],
   "expertise_by_source": {
+    "discussion": {
+      "Consensus": 0.429,
+      "Wallet": 0.571
+    },
     "code": {
       "Wallet": 1.0
-    },
-    "discussion": {
-      "Wallet": 0.571,
-      "Consensus": 0.429
     }
   },
   "expertise_domain_scores": {
-    "Wallet": 0.8284,
-    "Consensus": 0.1716
+    "Consensus": 0.1716,
+    "Wallet": 0.8284
   },
   "p2016_posts": 58.0,
   "modern_posts": 18.0,
@@ -91,7 +91,7 @@
   "is_researcher": true,
   "is_bip_author": false,
   "global_first_active": "2021-01-04T01:30:29",
-  "global_last_active": "2026-11-15T21:08:12.748000",
+  "global_last_active": "2022-12-14T16:36:32",
   "github_location": "Addis Ababa, Ethiopia",
   "github_company": null,
   "github_bio": null,

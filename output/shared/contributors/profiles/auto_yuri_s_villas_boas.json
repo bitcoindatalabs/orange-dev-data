@@ -59,7 +59,7 @@
   "review_reciprocity": 0.3333333333333333,
   "hybrid_score": 0.4142,
   "p2016_hybrid_score": 0.4277,
-  "modern_hybrid_score": 0.531,
+  "modern_hybrid_score": 0.5306,
   "impact_score": 22.0,
   "p2016_impact_score": 23.0,
   "modern_impact_score": 27.0,
@@ -69,8 +69,8 @@
   "delving_threads": 0.0,
   "ml_responses": 13.0,
   "delving_responses": 0.0,
-  "first_active": null,
-  "last_active": null,
+  "first_active": "2023-05-02T03:31:19",
+  "last_active": "2024-01-05T12:22:44",
   "dev_type": "Participant",
   "expertise_domains": [
     "Privacy",
@@ -79,18 +79,18 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Cryptography": 0.597,
+      "Mining": 0.143,
       "Wallet": 0.26,
-      "Mining": 0.143
+      "Cryptography": 0.597
     },
     "bips": {
       "Privacy": 1.0
     }
   },
   "expertise_domain_scores": {
-    "Cryptography": 0.1706,
-    "Wallet": 0.0743,
     "Mining": 0.0409,
+    "Wallet": 0.0743,
+    "Cryptography": 0.1706,
     "Privacy": 0.7143
   },
   "p2016_posts": 17.0,
@@ -103,7 +103,7 @@
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": true,
-  "global_first_active": "2026-03-23T16:35:09",
+  "global_first_active": "2023-05-02T03:31:19",
   "global_last_active": "2026-05-20T14:51:22",
   "github_location": null,
   "github_company": null,
@@ -111,7 +111,7 @@
   "github_twitter": "yurivillasboas",
   "github_blog": "github.com/Yuri-SVB/SUPPORT",
   "github_followers": 31.0,
-  "activity_status": "New",
+  "activity_status": "Active",
   "is_top_50": false,
   "github_url": "https://github.com/Yuri-SVB",
   "bip_list": [

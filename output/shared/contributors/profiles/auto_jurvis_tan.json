@@ -69,8 +69,8 @@
   "delving_threads": 2.0,
   "ml_responses": 0.0,
   "delving_responses": 1.0,
-  "first_active": "2025-07-15T00:38:33.001000",
-  "last_active": "2025-10-15T03:40:34.123000",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Participant",
   "expertise_domains": [
     "Infrastructure",
@@ -79,8 +79,8 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "L2": 0.25,
       "Wallet": 0.5,
+      "L2": 0.25,
       "Script": 0.25
     },
     "bips": {
@@ -89,8 +89,8 @@
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.7143,
-    "L2": 0.0714,
     "Wallet": 0.1429,
+    "L2": 0.0714,
     "Script": 0.0714
   },
   "p2016_posts": 3.0,
@@ -103,7 +103,7 @@
   "is_reviewer": true,
   "is_researcher": false,
   "is_bip_author": true,
-  "global_first_active": "2025-07-15T00:38:33.001000",
+  "global_first_active": "2025-11-30T23:39:17",
   "global_last_active": "2026-02-04T14:58:08",
   "github_location": "Los Angeles, CA",
   "github_company": null,
@@ -111,7 +111,7 @@
   "github_twitter": "jurvistan",
   "github_blog": "https://jurv.is/",
   "github_followers": 102.0,
-  "activity_status": "Active",
+  "activity_status": "New",
   "is_top_50": false,
   "github_url": "https://github.com/jurvis",
   "delving_url": "https://delvingbitcoin.org/u/jurvis",

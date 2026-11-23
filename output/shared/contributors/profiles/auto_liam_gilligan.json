@@ -57,20 +57,20 @@
   "avg_pr_ack_velocity_days": null,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": 0.25,
-  "hybrid_score": 0.4065,
-  "p2016_hybrid_score": 0.4102,
-  "modern_hybrid_score": 0.4317,
+  "hybrid_score": 0.4109,
+  "p2016_hybrid_score": 0.4167,
+  "modern_hybrid_score": 0.4499,
   "impact_score": 22.0,
   "p2016_impact_score": 22.0,
-  "modern_impact_score": 23.0,
+  "modern_impact_score": 24.0,
   "threads_started": 2.0,
   "replies_sent": 3.0,
   "ml_threads": 2.0,
   "delving_threads": 0.0,
   "ml_responses": 3.0,
   "delving_responses": 0.0,
-  "first_active": null,
-  "last_active": null,
+  "first_active": "2026-07-28T10:01:34",
+  "last_active": "2026-11-13T11:57:22",
   "dev_type": "Participant",
   "expertise_domains": [
     "Infrastructure",
@@ -79,8 +79,8 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Cryptography": 0.66,
-      "Network": 0.34
+      "Network": 0.34,
+      "Cryptography": 0.66
     },
     "bips": {
       "Infrastructure": 1.0
@@ -88,8 +88,8 @@
   },
   "expertise_domain_scores": {
     "Infrastructure": 0.7143,
-    "Cryptography": 0.1886,
-    "Network": 0.0971
+    "Network": 0.0971,
+    "Cryptography": 0.1886
   },
   "p2016_posts": 5.0,
   "modern_posts": 5.0,
@@ -102,7 +102,7 @@
   "is_researcher": true,
   "is_bip_author": true,
   "global_first_active": "2026-07-28T09:42:22",
-  "global_last_active": "2026-08-18T21:43:26",
+  "global_last_active": "2026-11-13T11:57:22",
   "github_location": null,
   "github_company": null,
   "github_bio": null,

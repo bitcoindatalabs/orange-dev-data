@@ -1,8 +1,13 @@
 {
+  "36757": {
+    "optech_url": "https://bitcoinops.org/en/newsletters/2026/11/20/",
+    "date": "2026-11-20",
+    "snippet": "fixes a privacy leak in address discovery over [Tor\n  and I2P][topic anonymity networks]. Previously, when a node connected\n  outbound to a malicious Tor or I2P peer, that peer could claim to see the\n  node at an arbitrary routable IP address in its `version` message. Bitcoin\n  Core could then advertise that address back to the peer, along with its own\n  clearnet listening port. A distinctive port could then help correlate the\n  connection with a clearnet node that was observed using the same port (see\n  [Newsletter #52][news52 port] for an earlier Tor listening-port fix). Bitcoin\n  Core now ignores the address that Tor and I2P peers report seeing the\n  node at."
+  },
   "36142": {
     "optech_url": "https://bitcoinops.org/en/newsletters/2026/11/13/",
     "date": "2026-11-13",
-    "snippet": "fixes command injection through the [Tor][topic\n  anonymity networks] control endpoint. An attacker controlling or\n  impersonating that endpoint could return a malicious onion service private\n  key. Bitcoin Core would then save and reuse the key, allowing the attacker to\n  inject additional Tor control commands or arguments. Bitcoin Core now\n  validates keys before saving or reusing them and checks returned onion\n  service IDs. If an existing cached key fails validation, the onion service\n  will be unavailable. Deleting the cached key and restarting will generate a\n  new onion address."
+    "snippet": "fixes command injection through the [Tor][topic\n  anonymity networks] control endpoint. An attacker controlling or\n  impersonating that endpoint could return a malicious onion service private\n  key. Bitcoin Core would then save and reuse the key, allowing the attacker to\n  inject additional Tor control commands or arguments. Bitcoin Core now\n  validates keys before saving or reusing them and checks returned onion\n  service IDs. If an existing cached key fails validation, the onion service\n  will be unavailable. Deleting the cached key and restarting will generate a\n  new onion address. {% assign timestamp=\"1:10:21\" %}"
   },
   "36539": {
     "optech_url": "https://bitcoinops.org/en/newsletters/2026/11/06/",

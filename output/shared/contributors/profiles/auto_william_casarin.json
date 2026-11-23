@@ -49,7 +49,7 @@
   "avg_concept_lead_time_days": 4.010090277777778,
   "review_reciprocity": 9.571428571428571,
   "hybrid_score": 0.3882,
-  "p2016_hybrid_score": 0.4048,
+  "p2016_hybrid_score": 0.4047,
   "modern_hybrid_score": 0.1265,
   "impact_score": 21.0,
   "p2016_impact_score": 22.0,
@@ -60,8 +60,8 @@
   "delving_threads": 3.0,
   "ml_responses": 11.0,
   "delving_responses": 1.0,
-  "first_active": null,
-  "last_active": "2025-05-15T20:23:27.303000",
+  "first_active": "2017-11-17T13:07:04",
+  "last_active": null,
   "dev_type": "Builder",
   "expertise_domains": [
     "Wallet",
@@ -69,23 +69,23 @@
     "Mining"
   ],
   "expertise_by_source": {
+    "discussion": {
+      "Mining": 0.244,
+      "Wallet": 0.512,
+      "L2": 0.244
+    },
     "code": {
       "Infrastructure": 0.423,
-      "Wallet": 0.5,
-      "Consensus": 0.077
-    },
-    "discussion": {
-      "L2": 0.244,
-      "Wallet": 0.512,
-      "Mining": 0.244
+      "Consensus": 0.077,
+      "Wallet": 0.5
     }
   },
   "expertise_domain_scores": {
-    "Infrastructure": 0.2538,
-    "L2": 0.0976,
-    "Wallet": 0.5048,
+    "Consensus": 0.0462,
     "Mining": 0.0976,
-    "Consensus": 0.0462
+    "Infrastructure": 0.2538,
+    "Wallet": 0.5048,
+    "L2": 0.0976
   },
   "p2016_posts": 16.0,
   "modern_posts": 4.0,
@@ -98,7 +98,7 @@
   "is_researcher": true,
   "is_bip_author": false,
   "global_first_active": "2017-10-24T17:32:57",
-  "global_last_active": "2025-05-15T20:23:27.303000",
+  "global_last_active": "2025-05-09T08:21:49",
   "github_location": "Vancouver",
   "github_company": null,
   "github_bio": null,

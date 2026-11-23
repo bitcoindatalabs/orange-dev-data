@@ -47,18 +47,18 @@
   "review_reciprocity": 4.0,
   "hybrid_score": 0.088,
   "p2016_hybrid_score": 0.1077,
-  "modern_hybrid_score": 0.0995,
+  "modern_hybrid_score": 0.0916,
   "impact_score": 5.0,
   "p2016_impact_score": 6.0,
-  "modern_impact_score": 6.0,
+  "modern_impact_score": 5.0,
   "threads_started": 15.0,
   "replies_sent": 46.0,
   "ml_threads": 2.0,
   "delving_threads": 13.0,
   "ml_responses": 22.0,
   "delving_responses": 24.0,
-  "first_active": null,
-  "last_active": "2025-12-10T14:15:51.084000",
+  "first_active": "2018-05-21T03:35:28",
+  "last_active": null,
   "dev_type": "Participant",
   "expertise_domains": [
     "Consensus",
@@ -66,13 +66,13 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "L2": 0.484,
-      "Consensus": 0.516
+      "Consensus": 0.516,
+      "L2": 0.484
     }
   },
   "expertise_domain_scores": {
-    "L2": 0.484,
-    "Consensus": 0.516
+    "Consensus": 0.516,
+    "L2": 0.484
   },
   "p2016_posts": 61.0,
   "modern_posts": 39.0,
@@ -84,8 +84,8 @@
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": false,
-  "global_first_active": "2024-01-04T12:36:27",
-  "global_last_active": "2025-12-10T14:15:51.084000",
+  "global_first_active": "2018-05-21T03:35:28",
+  "global_last_active": "2025-06-03T07:24:01",
   "github_location": null,
   "github_company": "@NYDIG",
   "github_bio": null,

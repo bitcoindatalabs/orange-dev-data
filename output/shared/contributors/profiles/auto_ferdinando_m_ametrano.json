@@ -8,24 +8,24 @@
     "tier2_commits": 14
   },
   "roles": null,
-  "total_commits": 34.0,
-  "authored_commits": 34.0,
-  "tier1_authored_commits": 20.0,
+  "total_commits": 36.0,
+  "authored_commits": 36.0,
+  "tier1_authored_commits": 22.0,
   "tier2_authored_commits": 14.0,
   "merge_commits": 0.0,
   "tier1_merge_commits": 0.0,
   "tier2_merge_commits": 0.0,
   "self_merges": 0.0,
-  "total_additions": 444.0,
-  "total_deletions": 198.0,
+  "total_additions": 459.0,
+  "total_deletions": 200.0,
   "first_core_commit": "2017-09-05T23:19:33+00:00",
-  "last_core_commit": "2026-11-13T11:17:44+00:00",
+  "last_core_commit": "2026-11-15T07:50:55+00:00",
   "first_ecosystem_commit": "2020-07-02T17:31:14+00:00",
   "last_ecosystem_commit": "2026-08-20T17:29:36+00:00",
   "first_commit": "2017-09-05T23:19:33",
-  "last_commit": "2026-11-13T11:17:44",
-  "p2016_authored_commits": 34.0,
-  "modern_authored_commits": 17.0,
+  "last_commit": "2026-11-15T07:50:55",
+  "p2016_authored_commits": 36.0,
+  "modern_authored_commits": 19.0,
   "co_authored_commits": 0.0,
   "bips_authored": 0.0,
   "p2016_bips_authored": 0.0,
@@ -48,9 +48,9 @@
   "avg_pr_ack_velocity_days": 13.268999927662037,
   "avg_concept_lead_time_days": 7.2865625,
   "review_reciprocity": 1.7317073170731707,
-  "hybrid_score": 0.4093,
-  "p2016_hybrid_score": 0.399,
-  "modern_hybrid_score": 0.3576,
+  "hybrid_score": 0.411,
+  "p2016_hybrid_score": 0.4007,
+  "modern_hybrid_score": 0.3606,
   "impact_score": 22.0,
   "p2016_impact_score": 21.0,
   "modern_impact_score": 19.0,
@@ -60,8 +60,8 @@
   "delving_threads": 1.0,
   "ml_responses": 6.0,
   "delving_responses": 0.0,
-  "first_active": null,
-  "last_active": "2026-10-27T17:39:56.421000",
+  "first_active": "2014-10-28T15:17:58",
+  "last_active": null,
   "dev_type": "Builder",
   "expertise_domains": [
     "Wallet",
@@ -69,23 +69,23 @@
     "Mining"
   ],
   "expertise_by_source": {
-    "code": {
-      "Infrastructure": 0.473,
-      "Wallet": 0.452,
-      "Consensus": 0.043,
-      "Mempool": 0.032
-    },
     "discussion": {
-      "Wallet": 0.66,
-      "Mining": 0.34
+      "Mining": 0.34,
+      "Wallet": 0.66
+    },
+    "code": {
+      "Infrastructure": 0.49,
+      "Consensus": 0.042,
+      "Wallet": 0.438,
+      "Mempool": 0.031
     }
   },
   "expertise_domain_scores": {
-    "Infrastructure": 0.2838,
-    "Wallet": 0.5352,
-    "Mining": 0.136,
-    "Mempool": 0.0192,
-    "Consensus": 0.0258
+    "Consensus": 0.0252,
+    "Mining": 0.1359,
+    "Infrastructure": 0.2938,
+    "Wallet": 0.5265,
+    "Mempool": 0.0186
   },
   "p2016_posts": 3.0,
   "modern_posts": 1.0,
@@ -97,8 +97,8 @@
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": false,
-  "global_first_active": "2017-09-05T23:19:33",
-  "global_last_active": "2026-11-13T11:17:44",
+  "global_first_active": "2014-10-28T15:17:58",
+  "global_last_active": "2026-11-15T07:50:55",
   "github_location": "Milan and everywhere",
   "github_company": "@btclib-org @dginst @checksig-custody @quantlib",
   "github_bio": "Bitcoin & Blockchain Technology @dginst @btclib-org; @quantlib founder; CheckSig cofounder and CEO; adjunct professor at ESSEC",
@@ -131,7 +131,7 @@
       "Consensus": 1.0,
       "Mempool": 1.0,
       "Tests": 6.5,
-      "Utilities": 2.5,
+      "Utilities": 3.5,
       "Wallet": 1.0
     }
   },

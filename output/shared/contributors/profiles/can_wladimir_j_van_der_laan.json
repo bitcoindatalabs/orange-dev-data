@@ -56,7 +56,7 @@
   "tier1_reviews_count": 8445.0,
   "tier2_reviews_count": 103.0,
   "p2016_reviews_count": 6135.0,
-  "modern_reviews_count": 301.0,
+  "modern_reviews_count": 300.0,
   "first_review_date": "2011-05-15T07:28:31",
   "last_review_date": "2026-09-07T14:20:22",
   "prs_authored": 976.0,
@@ -65,8 +65,8 @@
   "avg_pr_ack_velocity_days": 4.99075489872303,
   "avg_concept_lead_time_days": 16.062394162848417,
   "review_reciprocity": 8.74077868852459,
-  "hybrid_score": 2.5256,
-  "p2016_hybrid_score": 1.2045,
+  "hybrid_score": 2.5254,
+  "p2016_hybrid_score": 1.2043,
   "modern_hybrid_score": 0.5258,
   "impact_score": 78.0,
   "p2016_impact_score": 51.0,
@@ -77,8 +77,8 @@
   "delving_threads": 1.0,
   "ml_responses": 294.0,
   "delving_responses": 0.0,
-  "first_active": null,
-  "last_active": "2024-03-21T08:50:48.006000",
+  "first_active": "2011-12-04T09:31:01",
+  "last_active": null,
   "dev_type": "Protocol Designer",
   "expertise_domains": [
     "Infrastructure",
@@ -86,17 +86,17 @@
     "Network"
   ],
   "expertise_by_source": {
-    "code": {
-      "Infrastructure": 0.931,
-      "Wallet": 0.016,
-      "Network": 0.033,
-      "Consensus": 0.015,
-      "Mempool": 0.002,
-      "Cryptography": 0.001,
-      "Script": 0.002
-    },
     "discussion": {
       "Ecosystem": 1.0
+    },
+    "code": {
+      "Infrastructure": 0.931,
+      "Cryptography": 0.001,
+      "Consensus": 0.015,
+      "Network": 0.033,
+      "Wallet": 0.016,
+      "Script": 0.002,
+      "Mempool": 0.002
     },
     "bips": {
       "Infrastructure": 1.0

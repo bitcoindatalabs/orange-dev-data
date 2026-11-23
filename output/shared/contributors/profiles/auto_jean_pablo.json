@@ -43,36 +43,36 @@
   "modern_bips_authored": 1.0,
   "first_bip_date": "2026-08-14T15:06:46",
   "last_bip_date": "2026-08-14T15:06:46",
-  "avg_review_latency_days": 235.17152400947458,
-  "reviews_count": 97.0,
-  "avg_approval_latency_days": 45.810479733560086,
-  "approvals_count": 90.0,
-  "tier1_reviews_count": 94.0,
+  "avg_review_latency_days": 226.94960785322357,
+  "reviews_count": 100.0,
+  "avg_approval_latency_days": 46.06247573896011,
+  "approvals_count": 94.0,
+  "tier1_reviews_count": 97.0,
   "tier2_reviews_count": 3.0,
-  "p2016_reviews_count": 97.0,
-  "modern_reviews_count": 97.0,
+  "p2016_reviews_count": 100.0,
+  "modern_reviews_count": 100.0,
   "first_review_date": "2026-08-03T23:45:59",
-  "last_review_date": "2026-11-14T18:48:29",
+  "last_review_date": "2026-11-20T23:09:09",
   "prs_authored": 12.0,
   "tier1_prs_authored": 7.0,
   "tier2_prs_authored": 5.0,
   "avg_pr_ack_velocity_days": 22.173768518518518,
   "avg_concept_lead_time_days": 32.52355902777778,
-  "review_reciprocity": 8.083333333333334,
-  "hybrid_score": 0.6609,
-  "p2016_hybrid_score": 0.6609,
-  "modern_hybrid_score": 0.6609,
+  "review_reciprocity": 8.333333333333334,
+  "hybrid_score": 0.6619,
+  "p2016_hybrid_score": 0.6619,
+  "modern_hybrid_score": 0.6619,
   "impact_score": 33.0,
   "p2016_impact_score": 33.0,
   "modern_impact_score": 33.0,
-  "threads_started": 5.0,
+  "threads_started": 6.0,
   "replies_sent": 1.0,
-  "ml_threads": 1.0,
+  "ml_threads": 2.0,
   "delving_threads": 4.0,
   "ml_responses": 0.0,
   "delving_responses": 1.0,
-  "first_active": "2026-07-28T21:29:41.575000",
-  "last_active": null,
+  "first_active": null,
+  "last_active": "2026-11-22T17:43:35",
   "dev_type": "Builder",
   "expertise_domains": [
     "Script",
@@ -80,37 +80,37 @@
     "Infrastructure"
   ],
   "expertise_by_source": {
+    "discussion": {
+      "Consensus": 0.378,
+      "Cryptography": 0.622
+    },
     "code": {
       "Infrastructure": 0.455,
       "Wallet": 0.545
-    },
-    "discussion": {
-      "Cryptography": 0.612,
-      "Consensus": 0.388
     },
     "bips": {
       "Script": 1.0
     }
   },
   "expertise_domain_scores": {
+    "Consensus": 0.0756,
     "Infrastructure": 0.1365,
-    "Cryptography": 0.1224,
     "Wallet": 0.1635,
     "Script": 0.5,
-    "Consensus": 0.0776
+    "Cryptography": 0.1244
   },
-  "p2016_posts": 6.0,
-  "modern_posts": 6.0,
-  "p2016_ml_posts": 1.0,
+  "p2016_posts": 7.0,
+  "modern_posts": 7.0,
+  "p2016_ml_posts": 2.0,
   "p2016_delving_posts": 5.0,
-  "modern_ml_posts": 1.0,
+  "modern_ml_posts": 2.0,
   "modern_delving_posts": 5.0,
   "is_engineer": true,
   "is_reviewer": true,
   "is_researcher": false,
   "is_bip_author": true,
-  "global_first_active": "2026-07-28T21:29:41.575000",
-  "global_last_active": "2026-11-14T18:48:29",
+  "global_first_active": "2026-08-03T23:45:59",
+  "global_last_active": "2026-11-22T17:43:35",
   "github_location": "Portugal",
   "github_company": null,
   "github_bio": "👨🏻‍💻 Build · Break · Learn · Repeat\r\n🤖 AI · ⛓️ Blockchain · ₿ Bitcoin ❤️",
@@ -144,9 +144,9 @@
   },
   "last_message": {
     "source": "mailing_list",
-    "subject": "[bitcoindev] [BIP Proposal] rawtr() Output Script Descriptors",
-    "date": "2026-08-06",
-    "link": "https://gnusha.org/pi/bitcoindev/DD9687EA-368C-482F-91B6-C5E2E230830C@hotmail.com"
+    "subject": "[bitcoindev] [BIP Proposal] Witness Transaction Inclusion Proofs",
+    "date": "2026-11-22",
+    "link": "https://gnusha.org/pi/bitcoindev/C899B11E-4971-4AAF-8BA3-81EBAFBF7739@jeanpablo.jp"
   },
   "social_history": {
     "2026": {
@@ -156,7 +156,7 @@
       "privacy": 1,
       "quantum": 5,
       "scaling": 1,
-      "other": 3,
+      "other": 4,
       "taproot": 3,
       "testing-devtools": 3
     }

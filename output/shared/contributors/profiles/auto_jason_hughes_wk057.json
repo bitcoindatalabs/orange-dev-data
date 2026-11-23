@@ -47,7 +47,7 @@
   "review_reciprocity": null,
   "hybrid_score": 0.0973,
   "p2016_hybrid_score": 0.0927,
-  "modern_hybrid_score": 0.1229,
+  "modern_hybrid_score": 0.1227,
   "impact_score": 6.0,
   "p2016_impact_score": 5.0,
   "modern_impact_score": 7.0,
@@ -57,8 +57,8 @@
   "delving_threads": 0.0,
   "ml_responses": 2.0,
   "delving_responses": 0.0,
-  "first_active": null,
-  "last_active": null,
+  "first_active": "2025-04-28T11:20:14",
+  "last_active": "2025-04-29T19:10:28",
   "dev_type": "Reviewer",
   "expertise_domains": [
     "Mempool",
@@ -68,14 +68,14 @@
   "expertise_by_source": {
     "discussion": {
       "Mining": 0.14,
-      "Mempool": 0.57,
-      "Script": 0.29
+      "Script": 0.29,
+      "Mempool": 0.57
     }
   },
   "expertise_domain_scores": {
     "Mining": 0.14,
-    "Mempool": 0.57,
-    "Script": 0.29
+    "Script": 0.29,
+    "Mempool": 0.57
   },
   "p2016_posts": 2.0,
   "modern_posts": 2.0,

@@ -43,36 +43,36 @@
   "modern_bips_authored": 1.0,
   "first_bip_date": "2025-02-20T16:18:08",
   "last_bip_date": "2025-02-20T16:18:08",
-  "avg_review_latency_days": 1602.1512980673374,
-  "reviews_count": 757.0,
-  "avg_approval_latency_days": 1122.3351961466428,
-  "approvals_count": 298.0,
-  "tier1_reviews_count": 217.0,
-  "tier2_reviews_count": 540.0,
-  "p2016_reviews_count": 757.0,
-  "modern_reviews_count": 630.0,
+  "avg_review_latency_days": 1599.3626065138303,
+  "reviews_count": 763.0,
+  "avg_approval_latency_days": 1114.1480327982767,
+  "approvals_count": 302.0,
+  "tier1_reviews_count": 219.0,
+  "tier2_reviews_count": 544.0,
+  "p2016_reviews_count": 763.0,
+  "modern_reviews_count": 636.0,
   "first_review_date": "2016-01-03T22:44:22",
-  "last_review_date": "2026-11-14T01:51:52",
-  "prs_authored": 70.0,
+  "last_review_date": "2026-11-20T00:35:21",
+  "prs_authored": 71.0,
   "tier1_prs_authored": 32.0,
-  "tier2_prs_authored": 38.0,
-  "avg_pr_ack_velocity_days": 43.723863490226336,
+  "tier2_prs_authored": 39.0,
+  "avg_pr_ack_velocity_days": 42.56210523023023,
   "avg_concept_lead_time_days": 52.41742202729045,
-  "review_reciprocity": 10.814285714285715,
-  "hybrid_score": 1.006,
-  "p2016_hybrid_score": 1.1262,
-  "modern_hybrid_score": 1.178,
+  "review_reciprocity": 10.746478873239436,
+  "hybrid_score": 1.0069,
+  "p2016_hybrid_score": 1.129,
+  "modern_hybrid_score": 1.1783,
   "impact_score": 45.0,
   "p2016_impact_score": 49.0,
   "modern_impact_score": 51.0,
   "threads_started": 29.0,
-  "replies_sent": 107.0,
+  "replies_sent": 108.0,
   "ml_threads": 8.0,
   "delving_threads": 21.0,
-  "ml_responses": 67.0,
+  "ml_responses": 68.0,
   "delving_responses": 40.0,
-  "first_active": null,
-  "last_active": null,
+  "first_active": "2016-09-21T07:58:25",
+  "last_active": "2026-11-18T15:18:51",
   "dev_type": "Protocol Designer",
   "expertise_domains": [
     "Infrastructure",
@@ -80,39 +80,39 @@
     "Mempool"
   ],
   "expertise_by_source": {
+    "discussion": {
+      "Mining": 0.314,
+      "Ecosystem": 0.343,
+      "Mempool": 0.343
+    },
     "code": {
       "Infrastructure": 0.653,
       "Wallet": 0.303,
       "Mempool": 0.044
-    },
-    "discussion": {
-      "Mining": 0.324,
-      "Ecosystem": 0.324,
-      "Mempool": 0.353
     },
     "bips": {
       "Infrastructure": 1.0
     }
   },
   "expertise_domain_scores": {
-    "Infrastructure": 0.6958,
+    "Mining": 0.0628,
+    "Infrastructure": 0.6959,
     "Wallet": 0.0909,
-    "Mining": 0.0648,
-    "Ecosystem": 0.0648,
-    "Mempool": 0.0838
+    "Ecosystem": 0.0686,
+    "Mempool": 0.0818
   },
-  "p2016_posts": 136.0,
-  "modern_posts": 128.0,
-  "p2016_ml_posts": 75.0,
+  "p2016_posts": 137.0,
+  "modern_posts": 129.0,
+  "p2016_ml_posts": 76.0,
   "p2016_delving_posts": 61.0,
-  "modern_ml_posts": 67.0,
+  "modern_ml_posts": 68.0,
   "modern_delving_posts": 61.0,
   "is_engineer": true,
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": true,
   "global_first_active": "2015-12-08T09:23:05",
-  "global_last_active": "2026-11-14T01:51:52",
+  "global_last_active": "2026-11-20T00:35:21",
   "github_location": "By the Bay",
   "github_company": null,
   "github_bio": null,
@@ -179,9 +179,9 @@
   },
   "last_message": {
     "source": "mailing_list",
-    "subject": "Re: [bitcoindev] BIP Draft Post-Quantum Address Format (bc1z) using ML-DSA-65",
-    "date": "2026-11-13",
-    "link": "https://gnusha.org/pi/bitcoindev/274e5242-4654-4f7c-b56f-609a3f2ee132@murch.one"
+    "subject": "Re: [bitcoindev] RFC: Two years of BIP Editing, time for some new faces?",
+    "date": "2026-11-18",
+    "link": "https://gnusha.org/pi/bitcoindev/62bb6c9b-d3a4-4b5e-97e7-60a2c8c91a2a@murch.one"
   },
   "social_history": {
     "2016": {
@@ -227,7 +227,7 @@
       "utxo-sync": 4
     },
     "2026": {
-      "bip-process": 10,
+      "bip-process": 11,
       "other": 65,
       "hard-fork-block-size": 10,
       "mempool-fees": 8,

@@ -5,27 +5,27 @@
   "uuid": "auto_ben_carman",
   "badges": {
     "ecosystem_contributor": true,
-    "tier2_commits": 113
+    "tier2_commits": 117
   },
   "roles": null,
-  "total_commits": 136.0,
-  "authored_commits": 136.0,
+  "total_commits": 140.0,
+  "authored_commits": 140.0,
   "tier1_authored_commits": 23.0,
-  "tier2_authored_commits": 113.0,
+  "tier2_authored_commits": 117.0,
   "merge_commits": 0.0,
   "tier1_merge_commits": 0.0,
   "tier2_merge_commits": 0.0,
   "self_merges": 0.0,
-  "total_additions": 3780.0,
+  "total_additions": 3878.0,
   "total_deletions": 102.0,
   "first_core_commit": "2018-12-28T11:21:16+00:00",
   "last_core_commit": "2026-11-05T11:19:34+00:00",
   "first_ecosystem_commit": "2021-08-13T14:43:33+00:00",
-  "last_ecosystem_commit": "2026-10-27T13:58:32+00:00",
+  "last_ecosystem_commit": "2026-11-18T18:06:50+00:00",
   "first_commit": "2018-12-28T11:21:16",
   "last_commit": "2026-11-05T11:19:34",
-  "p2016_authored_commits": 136.0,
-  "modern_authored_commits": 65.0,
+  "p2016_authored_commits": 140.0,
+  "modern_authored_commits": 69.0,
   "co_authored_commits": 2.0,
   "bips_authored": 0.0,
   "p2016_bips_authored": 0.0,
@@ -48,9 +48,9 @@
   "avg_pr_ack_velocity_days": 9.230946280332056,
   "avg_concept_lead_time_days": 14.369694308278866,
   "review_reciprocity": 3.0454545454545454,
-  "hybrid_score": 0.4799,
+  "hybrid_score": 0.4798,
   "p2016_hybrid_score": 0.4884,
-  "modern_hybrid_score": 0.4217,
+  "modern_hybrid_score": 0.4215,
   "impact_score": 25.0,
   "p2016_impact_score": 25.0,
   "modern_impact_score": 22.0,
@@ -60,8 +60,8 @@
   "delving_threads": 3.0,
   "ml_responses": 3.0,
   "delving_responses": 1.0,
-  "first_active": null,
-  "last_active": "2024-10-17T23:37:44.518000",
+  "first_active": "2021-06-28T05:55:30",
+  "last_active": null,
   "dev_type": "Builder",
   "expertise_domains": [
     "Infrastructure",
@@ -69,20 +69,20 @@
     "Consensus"
   ],
   "expertise_by_source": {
+    "discussion": {
+      "Consensus": 0.381,
+      "Script": 0.619
+    },
     "code": {
       "Infrastructure": 0.978,
       "Wallet": 0.022
-    },
-    "discussion": {
-      "Script": 0.628,
-      "Consensus": 0.372
     }
   },
   "expertise_domain_scores": {
+    "Consensus": 0.1524,
     "Infrastructure": 0.5868,
     "Wallet": 0.0132,
-    "Script": 0.2512,
-    "Consensus": 0.1488
+    "Script": 0.2476
   },
   "p2016_posts": 8.0,
   "modern_posts": 5.0,
@@ -170,12 +170,12 @@
       "other": 2
     },
     "2024": {
-      "consensus-cleanup": 1,
+      "other": 7,
       "covenants": 3,
       "lightning": 1,
-      "other": 7,
       "script-opcodes": 3,
       "signatures-sighash": 1,
+      "soft-fork-activation": 2,
       "taproot": 3
     }
   }

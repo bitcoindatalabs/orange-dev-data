@@ -58,7 +58,7 @@
   "avg_concept_lead_time_days": 0.10553819444444446,
   "review_reciprocity": 1.65,
   "hybrid_score": 0.6502,
-  "p2016_hybrid_score": 0.6879,
+  "p2016_hybrid_score": 0.6878,
   "modern_hybrid_score": 0.0865,
   "impact_score": 32.0,
   "p2016_impact_score": 34.0,
@@ -69,8 +69,8 @@
   "delving_threads": 0.0,
   "ml_responses": 43.0,
   "delving_responses": 0.0,
-  "first_active": null,
-  "last_active": null,
+  "first_active": "2015-08-31T20:16:31",
+  "last_active": "2021-06-28T06:28:13",
   "dev_type": "Protocol Designer",
   "expertise_domains": [
     "Consensus",
@@ -78,21 +78,21 @@
     "Mining"
   ],
   "expertise_by_source": {
+    "discussion": {
+      "Consensus": 0.685,
+      "Mining": 0.315
+    },
     "code": {
       "Infrastructure": 1.0
-    },
-    "discussion": {
-      "Mining": 0.315,
-      "Consensus": 0.685
     },
     "bips": {
       "Consensus": 1.0
     }
   },
   "expertise_domain_scores": {
-    "Infrastructure": 0.3,
+    "Consensus": 0.637,
     "Mining": 0.063,
-    "Consensus": 0.637
+    "Infrastructure": 0.3
   },
   "p2016_posts": 44.0,
   "modern_posts": 0.0,
@@ -104,8 +104,8 @@
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": true,
-  "global_first_active": "2015-11-13T10:35:13",
-  "global_last_active": "2020-05-18T19:22:33",
+  "global_first_active": "2015-08-31T20:16:31",
+  "global_last_active": "2021-06-28T06:28:13",
   "github_location": null,
   "github_company": null,
   "github_bio": null,

@@ -60,8 +60,8 @@
   "delving_threads": 3.0,
   "ml_responses": 0.0,
   "delving_responses": 5.0,
-  "first_active": "2026-04-13T17:13:42.816000",
-  "last_active": "2026-10-01T18:50:37.535000",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Participant",
   "expertise_domains": [
     "L2",
@@ -69,13 +69,13 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "L2": 0.776,
-      "Consensus": 0.224
+      "Consensus": 0.224,
+      "L2": 0.776
     }
   },
   "expertise_domain_scores": {
-    "L2": 0.776,
-    "Consensus": 0.224
+    "Consensus": 0.224,
+    "L2": 0.776
   },
   "p2016_posts": 8.0,
   "modern_posts": 8.0,

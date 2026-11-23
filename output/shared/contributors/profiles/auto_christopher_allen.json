@@ -45,9 +45,9 @@
   "avg_pr_ack_velocity_days": null,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": null,
-  "hybrid_score": 0.1334,
-  "p2016_hybrid_score": 0.1764,
-  "modern_hybrid_score": 0.0512,
+  "hybrid_score": 0.1333,
+  "p2016_hybrid_score": 0.1763,
+  "modern_hybrid_score": 0.051,
   "impact_score": 8.0,
   "p2016_impact_score": 10.0,
   "modern_impact_score": 3.0,
@@ -57,8 +57,8 @@
   "delving_threads": 0.0,
   "ml_responses": 41.0,
   "delving_responses": 0.0,
-  "first_active": null,
-  "last_active": null,
+  "first_active": "2018-08-14T13:34:13",
+  "last_active": "2026-03-27T14:04:55",
   "dev_type": "Participant",
   "expertise_domains": [
     "Wallet",
@@ -66,13 +66,13 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Wallet": 0.659,
-      "Consensus": 0.341
+      "Consensus": 0.341,
+      "Wallet": 0.659
     }
   },
   "expertise_domain_scores": {
-    "Wallet": 0.659,
-    "Consensus": 0.341
+    "Consensus": 0.341,
+    "Wallet": 0.659
   },
   "p2016_posts": 48.0,
   "modern_posts": 6.0,
@@ -85,7 +85,7 @@
   "is_researcher": true,
   "is_bip_author": false,
   "global_first_active": "2017-07-14T07:46:28",
-  "global_last_active": "2023-08-03T21:17:32",
+  "global_last_active": "2026-03-27T14:04:55",
   "github_location": "SF Bay Area, CA",
   "github_company": "Life With Alacrity",
   "github_bio": "Blockchain & Decentralized Identity Architect — Internet Cryptography Pioneer — Co-author IETF TLS & W3C DID Standards — Collaborative Tools & Patterns",

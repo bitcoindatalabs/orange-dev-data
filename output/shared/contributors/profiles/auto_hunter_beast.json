@@ -57,8 +57,8 @@
   "avg_pr_ack_velocity_days": null,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": 10.5,
-  "hybrid_score": 0.5338,
-  "p2016_hybrid_score": 0.5785,
+  "hybrid_score": 0.5337,
+  "p2016_hybrid_score": 0.5784,
   "modern_hybrid_score": 0.808,
   "impact_score": 27.0,
   "p2016_impact_score": 29.0,
@@ -69,8 +69,8 @@
   "delving_threads": 15.0,
   "ml_responses": 17.0,
   "delving_responses": 3.0,
-  "first_active": "2024-03-15T19:14:56.566000",
-  "last_active": "2026-07-13T08:12:14.680000",
+  "first_active": null,
+  "last_active": null,
   "dev_type": "Reviewer",
   "expertise_domains": [
     "Consensus",
@@ -79,18 +79,18 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Cryptography": 0.685,
+      "Consensus": 0.233,
       "Script": 0.082,
-      "Consensus": 0.233
+      "Cryptography": 0.685
     },
     "bips": {
       "Consensus": 1.0
     }
   },
   "expertise_domain_scores": {
-    "Cryptography": 0.1957,
+    "Consensus": 0.7809,
     "Script": 0.0234,
-    "Consensus": 0.7809
+    "Cryptography": 0.1957
   },
   "p2016_posts": 39.0,
   "modern_posts": 39.0,

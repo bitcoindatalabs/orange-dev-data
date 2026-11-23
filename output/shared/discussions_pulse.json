@@ -1,6 +1,62 @@
 {
-  "generated_at": "2026-11-15",
+  "generated_at": "2026-11-22",
   "meeting_summaries": [
+    {
+      "date": "2026-11-19",
+      "url": "https://achow101.com/ircmeetings/2026/bitcoin-core-dev.2026-11-19_16_00.log.json",
+      "participant_count": 15,
+      "key_participants": [
+        "fjahr",
+        "johnny9dev",
+        "sedited",
+        "b10c",
+        "brunoerg"
+      ],
+      "active_participants": [
+        "fjahr",
+        "johnny9dev",
+        "sedited",
+        "b10c",
+        "brunoerg"
+      ],
+      "topics_discussed": [
+        "Fuzzing WG: No update reported by eugenesiegel and marcofleon.",
+        "Kernel WG: sedited noted several open pull requests, including #36692, focused on improving tests.",
+        "QML GUI WG: johnny9dev reported 248 of 329 issues resolved, with 7 pre-PR fixes. Cleanup and deslop are in progress. Desktop notifications are the final feature before staging.",
+        "QA WG: No update reported by brunoerg.",
+        "Address Relay: b10c investigated address-refresh spam expiration over the weekend, identifying potential fixes."
+      ],
+      "decisions_made": [],
+      "action_items": [],
+      "mentioned_prs": [
+        36692
+      ],
+      "card_topics": [
+        "Kernel WG: sedited highlighted open PRs, including #36692, aimed at improving Bitcoin Core kernel tests.",
+        "QML GUI WG: johnny9dev resolved 248 of 329 reported issues; desktop notifications are the final feature before staging.",
+        "Address Relay: b10c investigated address-refresh spam expiration, identifying potential fixes for the relay mechanism."
+      ],
+      "spotlight_debate": "",
+      "referenced_artifacts": [
+        {
+          "label": "PR #36692",
+          "icon": "git-pull-request"
+        },
+        {
+          "label": "QML GUI Issues: 329",
+          "icon": "bug"
+        }
+      ],
+      "narrative_summary": "The engineering sync on 2026-11-19 included updates on core development areas. sedited reported on the Kernel Working Group, noting several open pull requests, specifically PR #36692, which are focused on enhancing existing tests for the kernel. No updates were provided by the Fuzzing or QA Working Groups.\n\njohnny9dev provided a detailed update for the QML GUI Working Group, indicating significant progress on issue resolution. Of 329 reported issues, 248 have been resolved and tested, with an additional 7 fixed in pre-PR stages. Cleanup and deslop efforts are underway, and the implementation of desktop notifications remains the final feature before the GUI is ready for staging.\n\nRegarding network operations, b10c reported on investigations into address relay behavior. Analysis focused on address-refresh spam expiring over the past weekend, leading to the identification of potential fixes for the address relay mechanism. Further details on these proposed solutions are expected soon.",
+      "x_priority_takeaway": "QML GUI staging preparation ongoing.",
+      "x_bullet_points": [
+        "QML GUI: 248 issues resolved.",
+        "Kernel: PR #36692 for tests.",
+        "Address relay: Spam fixes explored."
+      ],
+      "linkedin_context": "The engineering sync on 2026-11-19 included updates on core development areas. sedited reported on the Kernel Working Group, noting several open pull requests, specifically PR #36692, which are focused on enhancing existing tests for the kernel. No updates were provided by the Fuzzing or QA Working Groups.\n\njohnny9dev provided a detailed update for the QML GUI Working Group, indicating significant progress on issue resolution. Of 329 reported issues, 248 have been resolved and tested, with an additional 7 fixed in pre-PR stages. Cleanup and deslop efforts are underway, and the implementation of desktop notifications remains the final feature before the GUI is ready for staging.\n\nRegarding network operations, b10c reported on investigations into address relay behavior. Analysis focused on address-refresh spam expiring over the past weekend, leading to the identification of potential fixes for the address relay mechanism. Further details on these proposed solutions are expected soon.",
+      "_text_hash": "5379b2abc26d6ad45716ad9028ad5ddd"
+    },
     {
       "date": "2026-11-12",
       "url": "https://achow101.com/ircmeetings/2026/bitcoin-core-dev.2026-11-12_16_00.log.json",
@@ -236,569 +292,493 @@
       ],
       "linkedin_context": "The Bitcoin Core project completed a rapid release addressing a TCP OOM vulnerability, moving from initial report on 2026-10-23 to release on 2026-10-28. stickies-v noted this quick turnaround and suggested improvements for future release processes.\n\nThe QML GUI WG, led by johnny9dev, merged integration test fixtures and is progressing on multi-wallet management and threading, preparing for the staging branch. brunoerg from the QA WG published mutation testing results for `src/node/blockstorage.cpp` on mutanthub.space.\n\nyancy inquired about Bitcoin Core's merge policy; stickies-v confirmed no explicit, documented policy exists due to the difficulty of defining non-gameable criteria. stickies-v proposed streamlining release note review to occur only within initial PRs, rather than during the final release process.",
       "_text_hash": "7bd15fa6e34553333a76db32bfd2cb63"
-    },
-    {
-      "date": "2026-10-22",
-      "url": "https://achow101.com/ircmeetings/2026/bitcoin-core-dev.2026-10-22_16_00.log.json",
-      "participant_count": 19,
-      "key_participants": [
-        "instagibbs",
-        "stickies-v",
-        "darosior",
-        "johnny9dev",
-        "andrewtoth_",
-        "eugenesiegel"
-      ],
-      "active_participants": [
-        "instagibbs",
-        "stickies-v",
-        "darosior",
-        "johnny9dev",
-        "andrewtoth_",
-        "eugenesiegel",
-        "achow101",
-        "Murch[m]",
-        "fanquake",
-        "yancy",
-        "brunoerg",
-        "hebasto",
-        "marcofleon",
-        "cfields"
-      ],
-      "topics_discussed": [
-        "Fuzzing WG Update (eugenesiegel, marcofleon): eugenesiegel is working on getting bedrock into shape for fuzzamoto, which found minor database consistency issues (e.g., a node having power loss during -reindex prevents startup). stickies-v suggested not to over-engineer fixes for loud failures, while darosior recommended opening an issue for potential underlying bugs.",
-        "QML GUI WG Update (johnny9dev): The team is addressing feedback from last week, with a PR to clarify storage choices during onboarding. Priority is getting the staging branch ready. johnny9dev is exploring pruned wallet setup, including txindex and compact block filters for pruned rescans and block retrieval. Murch raised the possibility of merging the new GUI into v33, but hebasto and stickies-v deemed it premature until the staging branch is available, which johnny9dev expects by late November/early December.",
-        "Windows Code Signer (achow101): achow101 highlighted that he is currently the sole Windows code signer, creating a single point of failure. He requested volunteers who are committed to building all releases and release candidates shortly after tagging to contact him.",
-        "Reimplement private broadcast as node state-less jobs + package relay support (#36608) (instagibbs): instagibbs presented PR #36608, a node state-less private broadcast variant with 1p1c package relay support, proposed for v33. The PR involves ~4.6k net LOC in logic, entirely outside consensus-critical code. instagibbs sought high-level spec discussions, project buy-in for v33, feedback on including a standalone tool variant, and advice on splitting the PR (e.g., one PR for the swap, one for package relay). andrewtoth_ questioned the feasibility of a 17k line PR for v33 and whether previous concerns were addressed. darosior supported the structural fix to node state leaks for privacy guarantees, suggesting the standalone tool could be integrated into bitcoin-util and the swap should be a single PR, with package relay as a follow-up. stickies-v agreed with darosior on the PR splitting.",
-        "General Updates (fanquake): fanquake announced that Bitcoin Core v32.0 has been tagged. Updates to the security policy have been merged (bitcoincore.org PR #1281), and a PR to enroll Core in the Anthropic OSS scanner (anthropics/oss-scanner PR #1018) is open."
-      ],
-      "decisions_made": [],
-      "action_items": [
-        "eugenesiegel: Open an issue for the minor database consistency issues found during fuzzing.",
-        "achow101: Interested developers to contact him regarding becoming an additional Windows code signer.",
-        "instagibbs: Continue offline discussions regarding the design and implementation of PR #36608.",
-        "cfields: Review PR #36608 and discuss potential overlap with multi-process p2p work with instagibbs out-of-band.",
-        "Developers: Review instagibbs's PR #36608."
-      ],
-      "mentioned_prs": [
-        36608
-      ],
-      "card_topics": [
-        "Fuzzing WG: eugenesiegel is preparing bedrock for fuzzamoto, identifying minor database consistency issues.",
-        "QML GUI WG: johnny9dev is progressing the staging branch, exploring pruned wallet setup and rescans.",
-        "Windows Code Signing: achow101 seeks additional signers to mitigate single point of failure for releases.",
-        "Private Broadcast Rework: instagibbs proposed #36608, a node state-less private broadcast with package relay, for v33.",
-        "Release & Security: fanquake announced v32.0 tag, security policy updates, and Anthropic OSS scanner enrollment."
-      ],
-      "spotlight_debate": "Private Broadcast Rework: instagibbs proposed #36608 for state-less private broadcast; andrewtoth_ questioned the large PR size for v33 and specific risks addressed beyond v32 fixes.",
-      "referenced_artifacts": [
-        {
-          "label": "PR #36608",
-          "icon": "git-pull-request"
-        },
-        {
-          "label": "Bitcoin Core v32.0",
-          "icon": "tag"
-        },
-        {
-          "label": "Fuzzamoto",
-          "icon": "robot"
-        },
-        {
-          "label": "QML GUI Staging",
-          "icon": "code-branch"
-        },
-        {
-          "label": "Anthropic OSS Scanner",
-          "icon": "shield-alt"
-        }
-      ],
-      "narrative_summary": "Bitcoin Core v32.0 has been tagged, as announced by fanquake. Updates to the security policy have been merged (bitcoincore.org PR #1281), and a PR to enroll Core in the Anthropic OSS scanner (anthropics/oss-scanner PR #1018) is open. achow101 requested volunteers to become additional Windows code signers to address the current single point of failure, requiring commitment to building all releases and release candidates.\n\nThe Fuzzing WG, led by eugenesiegel, is preparing bedrock for fuzzamoto, which has identified minor database consistency issues. The QML GUI WG, led by johnny9dev, is prioritizing readiness of the staging branch and exploring pruned wallet setup, including txindex and compact block filters for rescans.\n\ninstagibbs proposed a significant architectural change in PR #36608 to reimplement private broadcast as node state-less jobs with package relay support, targeting v33. The proposal, involving ~4.6k net LOC in logic, aims to structurally address node state leaks for improved privacy. andrewtoth_ raised concerns regarding the PR's size for v33 and requested further quantification of the specific risks addressed, while darosior advocated for structural fixes to privacy guarantees.",
-      "x_priority_takeaway": "Review #36608: Private Broadcast Rework.",
-      "x_bullet_points": [
-        "v32.0 tagged",
-        "New GUI staging",
-        "Code signer needed"
-      ],
-      "linkedin_context": "Bitcoin Core v32.0 has been tagged, as announced by fanquake. Updates to the security policy have been merged (bitcoincore.org PR #1281), and a PR to enroll Core in the Anthropic OSS scanner (anthropics/oss-scanner PR #1018) is open. achow101 requested volunteers to become additional Windows code signers to address the current single point of failure, requiring commitment to building all releases and release candidates.\n\nThe Fuzzing WG, led by eugenesiegel, is preparing bedrock for fuzzamoto, which has identified minor database consistency issues. The QML GUI WG, led by johnny9dev, is prioritizing readiness of the staging branch and exploring pruned wallet setup, including txindex and compact block filters for rescans.\n\ninstagibbs proposed a significant architectural change in PR #36608 to reimplement private broadcast as node state-less jobs with package relay support, targeting v33. The proposal, involving ~4.6k net LOC in logic, aims to structurally address node state leaks for improved privacy. andrewtoth_ raised concerns regarding the PR's size for v33 and requested further quantification of the specific risks addressed, while darosior advocated for structural fixes to privacy guarantees.",
-      "_text_hash": "d2f909a282067507d1ea472dbd1b1f43"
     }
   ],
   "windows": {
     "7d": {
       "window_days": 7,
-      "total_messages": 58,
-      "total_threads": 24,
-      "unique_voices": 27,
+      "total_messages": 32,
+      "total_threads": 28,
+      "unique_voices": 23,
       "themes": [
-        {
-          "category": "taproot",
-          "label": "Taproot",
-          "msgs": 15,
-          "threads": 2,
-          "voices": 6,
-          "share": 27.8,
-          "trend": "rising"
-        },
         {
           "category": "quantum",
           "label": "Quantum Resistance",
-          "msgs": 10,
-          "threads": 6,
+          "msgs": 7,
+          "threads": 7,
           "voices": 5,
-          "share": 18.5,
+          "share": 24.1,
           "trend": "rising"
         },
         {
-          "category": "covenants",
-          "label": "Covenants & Vaults",
-          "msgs": 8,
-          "threads": 1,
-          "voices": 4,
-          "share": 14.8,
-          "trend": "rising"
-        },
-        {
-          "category": "multisig-threshold",
-          "label": "Multisig",
-          "msgs": 6,
-          "threads": 1,
+          "category": "consensus-cleanup",
+          "label": "Consensus Cleanup",
+          "msgs": 3,
+          "threads": 2,
           "voices": 3,
-          "share": 11.1,
-          "trend": "rising"
-        },
-        {
-          "category": "security",
-          "label": "Security",
-          "msgs": 5,
-          "threads": 3,
-          "voices": 4,
-          "share": 9.3,
-          "trend": "steady"
+          "share": 10.3,
+          "trend": "new"
         },
         {
           "category": "bitvm",
           "label": "BitVM",
           "msgs": 3,
           "threads": 1,
-          "voices": 3,
-          "share": 5.6,
-          "trend": "new"
-        },
-        {
-          "category": "silent-payments",
-          "label": "Silent Payments",
-          "msgs": 2,
-          "threads": 2,
-          "voices": 1,
-          "share": 3.7,
-          "trend": "new"
-        },
-        {
-          "category": "p2p-network",
-          "label": "P2P Network",
-          "msgs": 2,
-          "threads": 1,
-          "voices": 1,
-          "share": 3.7,
-          "trend": "fading"
-        },
-        {
-          "category": "consensus-cleanup",
-          "label": "Consensus Cleanup",
-          "msgs": 1,
-          "threads": 1,
-          "voices": 1,
-          "share": 1.9,
-          "trend": "new"
+          "voices": 2,
+          "share": 10.3,
+          "trend": "rising"
         },
         {
           "category": "mining",
           "label": "Mining Protocol",
+          "msgs": 3,
+          "threads": 3,
+          "voices": 3,
+          "share": 10.3,
+          "trend": "steady"
+        },
+        {
+          "category": "core-dev",
+          "label": "Core Dev",
+          "msgs": 2,
+          "threads": 2,
+          "voices": 1,
+          "share": 6.9,
+          "trend": "rising"
+        },
+        {
+          "category": "wallet-keys",
+          "label": "Wallet & Keys",
+          "msgs": 2,
+          "threads": 2,
+          "voices": 2,
+          "share": 6.9,
+          "trend": "new"
+        },
+        {
+          "category": "multisig-threshold",
+          "label": "Multisig",
+          "msgs": 2,
+          "threads": 2,
+          "voices": 2,
+          "share": 6.9,
+          "trend": "fading"
+        },
+        {
+          "category": "hard-fork-block-size",
+          "label": "Block Size Debate",
+          "msgs": 2,
+          "threads": 1,
+          "voices": 2,
+          "share": 6.9,
+          "trend": "new"
+        },
+        {
+          "category": "bip-process",
+          "label": "BIP Process",
           "msgs": 1,
           "threads": 1,
           "voices": 1,
-          "share": 1.9,
+          "share": 3.4,
+          "trend": "new"
+        },
+        {
+          "category": "covenants",
+          "label": "Covenants & Vaults",
+          "msgs": 1,
+          "threads": 1,
+          "voices": 1,
+          "share": 3.4,
           "trend": "fading"
         }
       ],
       "hot_threads": [
         {
-          "thread_id": "topic_3060",
-          "subject": "Decentralized Coinbase Payout Protocols (DCPP): A Framework for Discussion",
-          "category": "covenants",
-          "label": "Covenants & Vaults",
-          "reply_count": 4,
-          "unique_authors": 4,
-          "score": 16,
-          "last_post": "2026-11-14",
-          "source": "delving",
-          "link": "https://delvingbitcoin.org/t/decentralized-coinbase-payout-protocols-dcpp-a-framework-for-discussion/3060/8",
-          "snippet": "The mining-focused FOSS ecosystem finds itself in the midst of a renaissance. Besides the efforts behind Sv2, DATUM, and \u201cthe open\u2026",
-          "insight": "The core technical question is whether critical mining parameters, specifically slot counts, can safely rely on claimed firmware support without introducing unacceptable risks.",
-          "summary": "Developers are discussing critical limits within mining protocols to ensure the security and reliability of new open-source mining technologies. The goal is to make mining operations more robust and efficient for everyone.",
-          "technical_summary": "The discussion centers on understanding the rationale behind an apparent 'limit of 16' within mining protocols, and its implications for sharechains and payout sets. A key architectural debate has emerged regarding the safety of allowing the 'slot count' to depend on 'claimed firmware support.' The concern is that such a dependency could introduce vulnerabilities or instability, necessitating a re-evaluation of how these critical parameters are determined and validated within the open mining stack.",
-          "author": "7d5x9",
-          "author_uuid": "auto_7d5x9",
-          "is_original_author": true
-        },
-        {
-          "thread_id": "topic_3056",
-          "subject": "Should wallets default to Taproot or SegWit receive addresses while some services still reject bc1p?",
-          "category": "taproot",
-          "label": "Taproot",
-          "reply_count": 2,
-          "unique_authors": 5,
-          "score": 10,
-          "last_post": "2026-11-13",
-          "source": "delving",
-          "link": "https://delvingbitcoin.org/t/should-wallets-default-to-taproot-or-segwit-receive-addresses-while-some-services-still-reject-bc1p/3056/9",
-          "snippet": "I work in BD and support at Gem Wallet rather than as a developer, so this comes from the support side.\nA recurring case: a user copies\u2026",
-          "insight": "The core technical question is how to enhance user experience and address validation to prevent common errors when users copy Bitcoin receive addresses for withdrawals.",
-          "summary": "We're exploring ways to make receiving Bitcoin simpler and more reliable for users, aiming to prevent common errors when withdrawing funds from exchanges or other sources.",
-          "technical_summary": "The discussion highlights a recurring user experience issue where users encounter difficulties when copying Bitcoin receive addresses for withdrawals, likely due to address format confusion or network compatibility challenges. This points to a need for improved address validation, clearer user interface guidance, or potentially standardized mechanisms for address verification across different platforms. Solutions could involve enhanced client-side checks within wallets or better communication protocols between wallets and exchanges to mitigate user errors before transactions are initiated.",
-          "author": "Anzus",
-          "author_uuid": "auto_anzus",
-          "is_original_author": true
-        },
-        {
-          "thread_id": "<9463348c-b2ec-4c6f-b9ec-2e9e2fc7d105n@googlegroups.com>",
-          "subject": "BIP Draft Post-Quantum Address Format (bc1z) using ML-DSA-65",
-          "category": "quantum",
-          "label": "Quantum Resistance",
-          "reply_count": 3,
-          "unique_authors": 3,
-          "score": 9,
-          "last_post": "2026-11-13",
-          "source": "mailing_list",
-          "link": "https://gnusha.org/pi/bitcoindev/370af76f-6bcf-435d-bf88-fd4170d18537@murch.one",
-          "snippet": "Dear Bitcoin Development Community,  I'm sharing a draft BIP for a quantum-resistant address format for Bitcoin,  developed as part of\u2026",
-          "insight": "The debate shifts toward leveraging BIP-459 key recovery to further optimize Cross-Input Signature Aggregation (CISA) space savings.",
-          "summary": "Developers are discussing a new signature aggregation method (BIP-459) that could significantly lower Bitcoin transaction fees and reduce block space usage.\nBy allowing parts of a cryptographic key to be recovered automatically, this technique optimizes transaction efficiency without compromising security.",
-          "technical_summary": "Boris Nagaev highlighted that utilizing BIP-459 full aggregation for P2MR or P2TRH allows for the recovery of an elliptic curve (EC) key in Cross-Input Signature Aggregation (CISA). This optimization aims to reduce witness data size by eliminating the need to explicitly publish every public key on-chain. The technical debate centers on the security implications of this key recovery shortcut and how it integrates with taproot-based constructs. Further work is needed to mathematically verify the recovery scheme's robustness and define the standard transaction parser rules for CISA.",
-          "author": "Hans Stringuer",
-          "author_uuid": "auto_hans_stringuer",
-          "is_original_author": true
-        },
-        {
-          "thread_id": "topic_2395",
-          "subject": "Towards A K-of-N Lightning Network Node",
-          "category": "multisig-threshold",
-          "label": "Multisig",
-          "reply_count": 2,
-          "unique_authors": 3,
-          "score": 6,
-          "last_post": "2026-11-13",
-          "source": "delving",
-          "link": "https://delvingbitcoin.org/t/towards-a-k-of-n-lightning-network-node/2395/18",
-          "snippet": "Subject: Towards A K-of-N Lightning Network Node\nZ. jxPCSnmZ\nIntroduction\nWith the Nested MuSig2 Paper\nrecently released, we want to\u2026",
-          "insight": "The discussion has shifted from the high-level concept of k-of-n Lightning nodes to the practical implications of channel state storage costs on their operational feasibility.",
-          "summary": "We're exploring new ways to secure Lightning Network funds using shared control, making it safer and more resilient for users. This allows multiple parties to collectively manage a Lightning node, enhancing security against loss or compromise.",
-          "technical_summary": "The thread explores building a k-of-n multisig self-custodial Lightning node, leveraging Nested MuSig2 for enhanced fund security. A key technical debate now focuses on the storage costs of Lightning channel state updates, specifically how Core Lightning and lnd handle these differently. This impacts the operational overhead and scalability of a multisig node, requiring optimization of state management to minimize storage requirements for a robust k-of-n setup.",
-          "author": "ZmnSCPxj jxPCSnmZ",
-          "author_uuid": "auto_zmnscpxj_jxpcsnmz",
-          "is_original_author": true
-        },
-        {
-          "thread_id": "topic_3072",
-          "subject": "Disclosure: DoS vulnerability fixed in Core Lightning v26.06.8",
-          "category": "security",
-          "label": "Security",
+          "thread_id": "topic_3070",
+          "subject": "A STARK proof of Bitcoin's UTXO set at block 972,500, with circuits proven in Lean",
+          "category": "bitvm",
+          "label": "BitVM",
           "reply_count": 1,
           "unique_authors": 2,
           "score": 2,
-          "last_post": "2026-11-15",
+          "last_post": "2026-11-19",
           "source": "delving",
-          "link": "https://delvingbitcoin.org/t/disclosure-dos-vulnerability-fixed-in-core-lightning-v26-06-8/3072/3",
-          "snippet": "A denial-of-service vulnerability in Core Lightning\u2019s channel opening flow was fixed in Core Lightning v26.06.8.\nUsers should upgrade to\u2026",
-          "insight": "The discussion clarifies a low-cost DoS variant exploiting channel error handling, allowing disruption without a full node crash, underscoring the need for robust state management.",
-          "summary": "Core Lightning users must upgrade to v26.06.8 to protect their nodes from a denial-of-service vulnerability, ensuring stable and reliable Lightning channel operations.",
-          "technical_summary": "A denial-of-service vulnerability (LNF-2026-0004) in Core Lightning's channel opening flow has been fixed in v26.06.8, necessitating user upgrades. Nishant Bansal's update details a specific variant of a 'closed-channel bug' where an attacker could send an error on the first channel, causing detrimental channel state changes without incurring cost or inducing a crash-loop. This 'free' attack vector highlights a subtle resource exhaustion or state manipulation vulnerability distinct from the primary crash-looping DoS. Users must upgrade to Core Lightning v26.06.8 to mitigate both the primary DoS and this low-cost channel disruption variant.",
-          "author": "Nishant Bansal",
-          "author_uuid": "auto_nishant_bansal",
-          "is_original_author": true
-        },
-        {
-          "thread_id": "<370af76f-6bcf-435d-bf88-fd4170d18537@murch.one>",
-          "subject": "BIP Draft Post-Quantum Address Format (bc1z) using ML-DSA-65",
-          "category": "quantum",
-          "label": "Quantum Resistance",
-          "reply_count": 1,
-          "unique_authors": 1,
-          "score": 1,
-          "last_post": "2026-11-13",
-          "source": "mailing_list",
-          "link": "https://gnusha.org/pi/bitcoindev/CADrHc-2AuauYHrrgS6aXmcmJWPcE1pegDHV9HdOoQac9+GCn+w@mail.gmail.com",
-          "snippet": "Hey Much,    Thanks for the feedback. I see now that I need to do more research, especially on the ongoing discussions. There are too\u2026",
-          "insight": "The debate shifts toward leveraging BIP-459 key recovery to further optimize Cross-Input Signature Aggregation (CISA) space savings.",
-          "summary": "Developers are discussing a new signature aggregation method (BIP-459) that could significantly lower Bitcoin transaction fees and reduce block space usage.\nBy allowing parts of a cryptographic key to be recovered automatically, this technique optimizes transaction efficiency without compromising security.",
-          "technical_summary": "Boris Nagaev highlighted that utilizing BIP-459 full aggregation for P2MR or P2TRH allows for the recovery of an elliptic curve (EC) key in Cross-Input Signature Aggregation (CISA). This optimization aims to reduce witness data size by eliminating the need to explicitly publish every public key on-chain. The technical debate centers on the security implications of this key recovery shortcut and how it integrates with taproot-based constructs. Further work is needed to mathematically verify the recovery scheme's robustness and define the standard transaction parser rules for CISA.",
-          "author": "Hans Stringuer",
-          "author_uuid": "auto_hans_stringuer",
-          "is_original_author": false
-        },
-        {
-          "thread_id": "<3rRzUIQUWDcT-ASQXvovARX12jzE0UWy0RQ8fk7M_z3bW_k2LWPPEvRhoD6sEe3GW3fjCdtzLOZN34TCsB2CI6iRcdjer9Y8QiNwUh2QepI=@protonmail.com>",
-          "subject": "[BIP Proposal] Stale Tip Relay",
-          "category": "other",
-          "label": "Other",
-          "reply_count": 1,
-          "unique_authors": 1,
-          "score": 1,
-          "last_post": "2026-11-09",
-          "source": "mailing_list",
-          "link": "https://gnusha.org/pi/bitcoindev/avHvtxnvoNwbczC8@erisian.com.au",
-          "snippet": "On Thu, Nov 05, 2026 at 11:19:58PM +0000, 'Antoine Poinsot' via Bitcoin Development Mailing List wrote: > I'd like to suggest an\u2026",
-          "insight": "The core technical question revolves around the optimal chunking and Merkle tree design for securely and efficiently sharing the UTXO set over the P2P network.",
-          "summary": "Developers are discussing a new way for Bitcoin nodes to share the UTXO set directly, making it faster and more secure for new nodes to sync without relying on third parties. This proposal aims to significantly speed up initial blockchain synchronization for new nodes by allowing them to securely download the UTXO set directly from peers, enhancing decentralization and reducing reliance on external sources.",
-          "technical_summary": "A BIP proposes a P2P mechanism for UTXO set sharing to facilitate AssumeUTXO, eliminating reliance on third-party dumps. The current discussion centers on the 'Chunk Merkle Tree' design, specifically how the serialized UTXO set (header + body) is split into fixed 3,900-byte chunks for verifiable transmission. Key technical considerations involve optimizing this chunking strategy, ensuring efficient Merkle tree construction, and integrating the new data structures and protocol messages into the existing P2P network. The debate is on the precise architectural details for secure and performant UTXO set distribution, balancing verification overhead with transmission efficiency.",
-          "author": "Anthony Towns",
-          "author_uuid": "can_anthony_towns",
-          "is_original_author": false
-        },
-        {
-          "thread_id": "<29174459-1523-4cf8-a20f-5ce1abc302c3n@googlegroups.com>",
-          "subject": "Re: [BIP Proposal] Transport Feature Negotiation",
-          "category": "other",
-          "label": "Other",
-          "reply_count": 1,
-          "unique_authors": 1,
-          "score": 1,
-          "last_post": "2026-11-13",
-          "source": "mailing_list",
-          "link": "https://gnusha.org/pi/bitcoindev/1b45f614-6251-4c79-8297-f880edc07c8bn@googlegroups.com",
-          "snippet": "Hi everyone,  TL;DR (using Terms and Defs below): In order to support encryption upgrades  and the addition of authentication to P2P, I\u2026",
-          "insight": "The core technical question is how to establish a flexible mechanism for negotiating and adopting new P2P transport features like encryption and authentication.",
-          "summary": "We're discussing a proposal to significantly enhance the security and privacy of Bitcoin's peer-to-peer network communication by enabling future encryption upgrades and adding authentication. This aims to make network interactions more robust and private for all users.",
-          "technical_summary": "An initial proposal has been made to specify a new \"Transport Feature Negotiation protocol\" for the Bitcoin P2P layer. This protocol would serve as the mechanism to introduce and manage future encryption upgrades and the addition of authentication, allowing nodes to dynamically agree on advanced transport features. The architectural debate will center on the design and implementation specifics of this negotiation protocol to ensure seamless integration and backward compatibility while enhancing network security.",
-          "author": "Liam Gilligan",
-          "author_uuid": "auto_liam_gilligan",
-          "is_original_author": true
-        },
-        {
-          "thread_id": "topic_2105",
-          "subject": "Gossip Observer: New project to monitor the Lightning P2P network",
-          "category": "p2p-network",
-          "label": "P2P Network",
-          "reply_count": 1,
-          "unique_authors": 1,
-          "score": 1,
-          "last_post": "2026-11-09",
-          "source": "delving",
-          "link": "https://delvingbitcoin.org/t/gossip-observer-new-project-to-monitor-the-lightning-p2p-network/2105/25",
-          "snippet": "For the past few months (since plebfi miami), I\u2019ve been working on a project to monitor the Lightning gossip network by collecting\u2026",
-          "insight": null,
-          "summary": null,
-          "technical_summary": null,
-          "author": "Jonathan Harvey-Buschel",
-          "author_uuid": "auto_jonathan_harvey_buschel",
-          "is_original_author": true
-        },
-        {
-          "thread_id": "<CAAa3hFN+z1KGRkU_8JLmQ_1cXMZEYHO-0370Q_REv_MB2ci9Og@mail.gmail.com>",
-          "subject": "BIP Draft Post-Quantum Address Format (bc1z) using ML-DSA-65",
-          "category": "quantum",
-          "label": "Quantum Resistance",
-          "reply_count": 1,
-          "unique_authors": 1,
-          "score": 1,
-          "last_post": "2026-11-13",
-          "source": "mailing_list",
-          "link": "https://gnusha.org/pi/bitcoindev/23d3f227-fb57-4ad3-8dab-438d2bd6e651n@googlegroups.com",
-          "snippet": "Hi Zeeshan, all,  Thank you, both points are right, and they are now part of a substantially revised draft (v0.2): \u2026",
-          "insight": "The debate shifts toward leveraging BIP-459 key recovery to further optimize Cross-Input Signature Aggregation (CISA) space savings.",
-          "summary": "Developers are discussing a new signature aggregation method (BIP-459) that could significantly lower Bitcoin transaction fees and reduce block space usage.\nBy allowing parts of a cryptographic key to be recovered automatically, this technique optimizes transaction efficiency without compromising security.",
-          "technical_summary": "Boris Nagaev highlighted that utilizing BIP-459 full aggregation for P2MR or P2TRH allows for the recovery of an elliptic curve (EC) key in Cross-Input Signature Aggregation (CISA). This optimization aims to reduce witness data size by eliminating the need to explicitly publish every public key on-chain. The technical debate centers on the security implications of this key recovery shortcut and how it integrates with taproot-based constructs. Further work is needed to mathematically verify the recovery scheme's robustness and define the standard transaction parser rules for CISA.",
-          "author": "Hans Stringuer",
-          "author_uuid": "auto_hans_stringuer",
-          "is_original_author": false
-        },
-        {
-          "thread_id": "<avHvtxnvoNwbczC8@erisian.com.au>",
-          "subject": "[BIP Proposal] Stale Tip Relay",
-          "category": "other",
-          "label": "Other",
-          "reply_count": 1,
-          "unique_authors": 1,
-          "score": 1,
-          "last_post": "2026-11-11",
-          "source": "mailing_list",
-          "link": "https://gnusha.org/pi/bitcoindev/ktZb1ZnKZJb1qh4uGvGybRoeiMA8nD-BfozO92FtGWs3ELzPPM8QMcwL8qZJVRF9kk0jDdubLPUlxhj2YHk1Ndu2A5uMVGC8swfHAuE-IrQ=@protonmail.com",
-          "snippet": "On Monday, November 9th, 2026 at 11:23 AM, Anthony Towns <aj@erisian.com.au> wrote:  > On Thu, Nov 05, 2026 at 11:19:58PM +0000,\u2026",
-          "insight": "The core technical question revolves around the optimal chunking and Merkle tree design for securely and efficiently sharing the UTXO set over the P2P network.",
-          "summary": "Developers are discussing a new way for Bitcoin nodes to share the UTXO set directly, making it faster and more secure for new nodes to sync without relying on third parties. This proposal aims to significantly speed up initial blockchain synchronization for new nodes by allowing them to securely download the UTXO set directly from peers, enhancing decentralization and reducing reliance on external sources.",
-          "technical_summary": "A BIP proposes a P2P mechanism for UTXO set sharing to facilitate AssumeUTXO, eliminating reliance on third-party dumps. The current discussion centers on the 'Chunk Merkle Tree' design, specifically how the serialized UTXO set (header + body) is split into fixed 3,900-byte chunks for verifiable transmission. Key technical considerations involve optimizing this chunking strategy, ensuring efficient Merkle tree construction, and integrating the new data structures and protocol messages into the existing P2P network. The debate is on the precise architectural details for secure and performant UTXO set distribution, balancing verification overhead with transmission efficiency.",
-          "author": "'Antoine Poinsot' via Bitcoin Development Mailing List",
-          "author_uuid": "can_antoine_poinsot",
-          "is_original_author": false
-        },
-        {
-          "thread_id": "<CADrHc-2AuauYHrrgS6aXmcmJWPcE1pegDHV9HdOoQac9+GCn+w@mail.gmail.com>",
-          "subject": "BIP Draft Post-Quantum Address Format (bc1z) using ML-DSA-65",
-          "category": "quantum",
-          "label": "Quantum Resistance",
-          "reply_count": 1,
-          "unique_authors": 1,
-          "score": 1,
-          "last_post": "2026-11-13",
-          "source": "mailing_list",
-          "link": "https://gnusha.org/pi/bitcoindev/274e5242-4654-4f7c-b56f-609a3f2ee132@murch.one",
-          "snippet": "Hey Hans,  Thanks for taking it with humor. In the past couple years, we had at least five PQ-output type proposals  chucked over the\u2026",
-          "insight": "The debate shifts toward leveraging BIP-459 key recovery to further optimize Cross-Input Signature Aggregation (CISA) space savings.",
-          "summary": "Developers are discussing a new signature aggregation method (BIP-459) that could significantly lower Bitcoin transaction fees and reduce block space usage.\nBy allowing parts of a cryptographic key to be recovered automatically, this technique optimizes transaction efficiency without compromising security.",
-          "technical_summary": "Boris Nagaev highlighted that utilizing BIP-459 full aggregation for P2MR or P2TRH allows for the recovery of an elliptic curve (EC) key in Cross-Input Signature Aggregation (CISA). This optimization aims to reduce witness data size by eliminating the need to explicitly publish every public key on-chain. The technical debate centers on the security implications of this key recovery shortcut and how it integrates with taproot-based constructs. Further work is needed to mathematically verify the recovery scheme's robustness and define the standard transaction parser rules for CISA.",
-          "author": "Murch",
-          "author_uuid": "can_mark_erhardt",
-          "is_original_author": false
-        },
-        {
-          "thread_id": "topic_3057",
-          "subject": "Disclosure: Memory-exhaustion DoS in Eclair 0.14.0",
-          "category": "security",
-          "label": "Security",
-          "reply_count": 0,
-          "unique_authors": 1,
-          "score": 0,
-          "last_post": "2026-11-08",
-          "source": "delving",
-          "link": "https://delvingbitcoin.org/t/disclosure-memory-exhaustion-dos-in-eclair-0-14-0/3057/1",
-          "snippet": "Memory-exhaustion DoS via start_batch in Eclair 0.14.0\nAffected: Eclair 0.14.0\nFixed in: Eclair 0.14.1 ([e4e1a19](Reject `start_batch`\u2026",
-          "insight": "The core technical issue was an unconstrained resource allocation vulnerability in Eclair's batch processing, now resolved by input validation.",
-          "summary": "A critical security update for Eclair users prevents a potential attack that could disrupt your Lightning node's operation. Upgrading ensures your node remains stable and responsive.",
-          "technical_summary": "Eclair version 0.14.0 was vulnerable to a memory-exhaustion Denial-of-Service (DoS) attack. This vulnerability originated from insufficient input validation within the `start_batch` function, allowing an attacker to trigger excessive memory allocation. The fix, implemented in Eclair 0.14.1 (commit `e4e1a19`), addresses this by rejecting `start_batch` calls where the batch size is less than or equal to one, thereby preventing the resource exhaustion. All users running 0.14.0 must upgrade to 0.14.1 immediately to mitigate this risk.",
-          "author": "rorp",
-          "author_uuid": "auto_rorp",
+          "link": "https://delvingbitcoin.org/t/a-stark-proof-of-bitcoins-utxo-set-at-block-972-500-with-circuits-proven-in-lean/3070/6",
+          "snippet": "Hi everyone.\nI\u2019ve been working on a side project to see how far a STARK prover can go on Bitcoin consensus. Here is what I have so\u2026",
+          "insight": "The discussion has pivoted from the general feasibility of STARK-proving Bitcoin to optimizing the specific data structures used for state hashing to overcome I/O bottlenecks and improve prover efficiency.",
+          "summary": "Developers are exploring innovative cryptographic proofs (STARKs) to make verifying Bitcoin's entire history faster and more efficient, aiming to enhance accessibility and scalability for all users.",
+          "technical_summary": "A STARK prover for Bitcoin consensus is under development, demonstrating the ability to prove Bitcoin's state. However, a significant performance bottleneck has been identified: 70.7 seconds of a 72-second proof generation are spent reading a 9.4 GB snapshot from disk to recompute its hash. The current debate focuses on optimizing this by re-evaluating the necessary structure of this hash, with suggestions to explore alternatives like a Merkle tree ordered by `txid/vout` or an MMR to drastically reduce I/O and computation overhead.",
+          "author": "Henri",
+          "author_uuid": "auto_henri",
           "is_original_author": true
         },
         {
           "thread_id": "topic_2985",
           "subject": "We made the bitcoin-dev mailing list readable: 15 years, 24,699 messages",
-          "category": "other",
-          "label": "Other",
-          "reply_count": 0,
-          "unique_authors": 1,
-          "score": 0,
-          "last_post": "2026-11-09",
+          "category": "hard-fork-block-size",
+          "label": "Block Size Debate",
+          "reply_count": 1,
+          "unique_authors": 2,
+          "score": 2,
+          "last_post": "2026-11-20",
           "source": "delving",
-          "link": "https://delvingbitcoin.org/t/we-made-the-bitcoin-dev-mailing-list-readable-15-years-24-699-messages/2985/4",
+          "link": "https://delvingbitcoin.org/t/we-made-the-bitcoin-dev-mailing-list-readable-15-years-24-699-messages/2985/6",
           "snippet": "We have put up a readable mirror of the bitcoin-dev archive, refreshed daily.\nWhat it adds over public-inbox: one page per thread with\u2026",
-          "insight": "The core shift is the significant enhancement in accessibility and structured navigability for historical bitcoin-dev mailing list discussions.",
-          "summary": "A new, user-friendly archive of the bitcoin-dev mailing list is now available, making it much easier to browse and understand the historical discussions that shape Bitcoin's development. It offers a more organized and readable way to explore past technical debates and proposals.",
-          "technical_summary": "A new web-based mirror for the bitcoin-dev mailing list archive has been launched, providing enhanced readability and navigation compared to existing public-inbox solutions. It features daily refreshes, single-page thread views with folded quotes, and stable permalinks by Message-ID, along with three distinct indexes. Architecturally, the content is organized by year and month, accessible via a 'Years' navigation entry that lists all years since 2011 with thread counts, facilitating structured historical browsing.",
+          "insight": "Ensuring permanent, independent archival of developer discussions is critical to prevent the loss of Bitcoin's historical technical record.",
+          "summary": "Developers have created a reliable, readable mirror of the bitcoin-dev mailing list archive. This ensures the history and discussions of Bitcoin development remain permanently accessible to everyone.",
+          "technical_summary": "The discussion highlights the fragility of relying on single hosting providers, as demonstrated by the Linux Foundation temporarily taking down its mailing list archive. The newly introduced mirror provides distinct advantages over public-inbox by featuring single-page threads with folded quotes, stable permalinks tied directly to Message-IDs, and three dedicated indexes. This setup guarantees long-term archival resilience against dead links and disappearing repositories. Going forward, developers must ensure continuous syncing and redundancy to maintain these archives independently.",
           "author": "LearnBitcoin.com",
           "author_uuid": "auto_learnbitcoin_com",
           "is_original_author": true
         },
         {
-          "thread_id": "topic_2955",
-          "subject": "[BIP Draft] Co-signer Spending Policies",
+          "thread_id": "<00eb7789-999b-4087-a0fa-5623fcf9fd5b@murch.one>",
+          "subject": "RFC: Two years of BIP Editing, time for some new faces?",
+          "category": "bip-process",
+          "label": "BIP Process",
+          "reply_count": 1,
+          "unique_authors": 1,
+          "score": 1,
+          "last_post": "2026-11-18",
+          "source": "mailing_list",
+          "link": "https://gnusha.org/pi/bitcoindev/62bb6c9b-d3a4-4b5e-97e7-60a2c8c91a2a@murch.one",
+          "snippet": "Hey everyone,  I would like to resurface the discussion whether we should make  additions to the BIP Editor team. I\u2019m afraid that in the\u2026",
+          "insight": "The core technical question is whether the current BIP Editor team is adequately staffed to maintain the desired pace of Bitcoin Improvement Proposal review and publication.",
+          "summary": "To ensure new Bitcoin improvements are reviewed and published efficiently, the community is discussing adding more editors to the BIP team, benefiting everyone by speeding up proposal processing.",
+          "technical_summary": "Murch has initiated a discussion regarding the current capacity constraints of the BIP Editor team, noting a recent inability to keep pace with incoming Bitcoin Improvement Proposals (BIPs). The core proposal is to expand the team to alleviate bottlenecks in the review and publication process, which necessitates defining selection criteria and a formal onboarding process for new editors.",
+          "author": "Murch",
+          "author_uuid": "can_mark_erhardt",
+          "is_original_author": false
+        },
+        {
+          "thread_id": "<12a1a76d-0e27-4035-9fe8-a47524729c47n@googlegroups.com>",
+          "subject": "Re: BIP Proposal: ML-KEM Key Establishment",
+          "category": "quantum",
+          "label": "Quantum Resistance",
+          "reply_count": 1,
+          "unique_authors": 1,
+          "score": 1,
+          "last_post": "2026-11-16",
+          "source": "mailing_list",
+          "link": "https://gnusha.org/pi/bitcoindev/9386e438-b305-46cd-b64f-5337be9f5961n@googlegroups.com",
+          "snippet": "Hi everyone,  Based on discussions started by Laolu about post-quantum key establishment  in the P2P protocol [1], I earlier proposed a\u2026",
+          "insight": "The core technical question has shifted from an internal BIP proposal to evaluating the convergence potential with a 'very similar' Hybrid Key Encapsulation (HKE) design from the Elements project.",
+          "summary": "Bitcoin Core developers are actively working to future-proof the network's communication against potential quantum computer attacks, ensuring secure and private connections for all nodes.",
+          "technical_summary": "The discussion on post-quantum key establishment in the P2P protocol, initially proposed via a BIP for transport layer negotiation, has gained new context. A 'very similar' Hybrid Key Encapsulation (HKE) design has been proposed for the Elements project, indicating potential for shared architectural approaches. The technical debate now includes evaluating the commonalities and differences between these proposals to ensure a robust, interoperable, and quantum-resistant solution for Bitcoin Core's P2P communication.",
+          "author": "Liam Gilligan",
+          "author_uuid": "auto_liam_gilligan",
+          "is_original_author": true
+        },
+        {
+          "thread_id": "<6e4b738d-95ce-49ed-bbc6-afb1b64f7bb2n@googlegroups.com>",
+          "subject": "Quantum Landmines and Vulnerable Coin Auctions",
+          "category": "quantum",
+          "label": "Quantum Resistance",
+          "reply_count": 1,
+          "unique_authors": 1,
+          "score": 1,
+          "last_post": "2026-11-18",
+          "source": "mailing_list",
+          "link": "https://gnusha.org/pi/bitcoindev/3Si-X9YGMmYLUCsKqrf8g84uAsg2xdkZMDpHXcLgqC1_KTnCw1J8kylgHw8PyGNjMkT4tpxSfKwnVNxX8QbnzuSzFDkdGGe96a7q_GTLnWg=@proton.me",
+          "snippet": "It's a neat idea conceptually (your superposition joke elicited a hearty chuckle!), but I fear your stated goal of \"make it impossible\u2026",
+          "insight": "The core technical question is whether quantum-safety mechanisms should intentionally obscure the quantum-resistant status of coins, balancing privacy against network transparency and auditability.",
+          "summary": "A novel idea to protect Bitcoin from future quantum attacks is being discussed, but a core concern is whether intentionally obscuring which coins are quantum-safe would undermine transparency and the ability to assess overall network security.",
+          "technical_summary": "A proposal for quantum-resistant Bitcoin outputs aims to make it impossible to determine the quantum-safety status of individual coins, potentially using a 'superposition'-like mechanism to obscure this information. The architectural debate centers on whether this obfuscation, intended perhaps for privacy or to prevent targeted attacks, is fundamentally at odds with the network's need for transparency and auditable security metrics. A key technical argument against the proposal is that intentionally hindering the ability to reason about the quantum-safe coin supply could impede collective risk assessment and future migration strategies. The proponent needs to clarify the exact mechanism and provide a strong justification for the obfuscation, or explore alternative designs that achieve quantum resistance while maintaining better transparency regarding the network's overall quantum readiness. The discussion highlights a tension between potential privacy/obfuscation benefits and the desire for clear, auditable security properties within the Bitcoin protocol.",
+          "author": "'conduition' via Bitcoin Development Mailing List",
+          "author_uuid": "auto_conduition",
+          "is_original_author": false
+        },
+        {
+          "thread_id": "<avqnZeBFkF5hQNuU@erisian.com.au>",
+          "subject": "[BIP Proposal] Stale Tip Relay",
+          "category": "other",
+          "label": "Other",
+          "reply_count": 1,
+          "unique_authors": 1,
+          "score": 1,
+          "last_post": "2026-11-19",
+          "source": "mailing_list",
+          "link": "https://gnusha.org/pi/bitcoindev/oBD8E4x4wLHU_TcMdLuADKLL48HcUAhyf7NCDOufueOMfRuJnF1bDnmCzUxqkscA41b1dVgC8lVH3nsueIYVVjTiDnobz0M3e345qHttx4w=@protonmail.com",
+          "snippet": "On Monday, November 16th, 2026 at 2:18 AM, Anthony Towns <aj@erisian.com.au> wrote:  > Hmm, Claude argues that I unfairly misinterpreted\u2026",
+          "insight": "The core technical question revolves around how to ensure unambiguous communication of complex technical proposals to prevent misinterpretations and streamline development.",
+          "summary": "Developers are discussing the importance of clear communication in technical proposals to avoid misunderstandings. Ensuring everyone is on the same page helps accelerate progress on Bitcoin's core development.",
+          "technical_summary": "The current discussion reflects on challenges in accurately conveying complex technical arguments within development proposals. Participants note instances where previous drafts or arguments were misinterpreted, highlighting the need for precise language and unambiguous articulation of architectural implications. The ongoing dialogue implicitly emphasizes refining communication strategies to ensure all contributors share a common understanding of proposed changes and their potential impact on the Bitcoin Core codebase, thereby streamlining review processes and reducing potential for misaligned development efforts.",
+          "author": "'Antoine Poinsot' via Bitcoin Development Mailing List",
+          "author_uuid": "can_antoine_poinsot",
+          "is_original_author": false
+        },
+        {
+          "thread_id": "<40a9f73d-481f-47e6-a64b-acfb2c7f4fa8n@googlegroups.com>",
+          "subject": "Quantum Landmines and Vulnerable Coin Auctions",
+          "category": "quantum",
+          "label": "Quantum Resistance",
+          "reply_count": 1,
+          "unique_authors": 1,
+          "score": 1,
+          "last_post": "2026-11-17",
+          "source": "mailing_list",
+          "link": "https://gnusha.org/pi/bitcoindev/eOU8hptEwRmWqXhtvW0jh5hf3jDya8G-Uw2t2SPPWS8FLDuCx4K56XczgyVhUzj3_fAUG2hrhnAFz7pLiQJhRURHr93f_-AyPWHzoGVI95I=@proton.me",
+          "snippet": "I've had fun discussing these rough ideas regarding post-quantum migration  to a few people in the last week. Rather than describing\u2026",
+          "insight": "The discussion is shifting towards the feasibility and requirements of proactive user-driven quantum-safe output creation versus a more generalized protocol-level migration.",
+          "summary": "Developers are actively discussing strategies to future-proof Bitcoin against quantum computing threats, exploring how users can proactively secure their funds before such risks emerge.",
+          "technical_summary": "The ongoing discussion centers on post-quantum migration strategies, specifically exploring soft-fork based approaches. A key proposal involves users proactively creating 'trivial quantum-safe outputs' before a theoretical 'q-day,' embedding a proof-of-knowledge. This necessitates users being online and aware to take these actions pre-emptively. The debate revolves around the feasibility and requirements of such proactive user-driven migration versus more generalized protocol-level changes, and the architectural implications of integrating new cryptographic primitives via soft fork.",
+          "author": "Cory Fields",
+          "author_uuid": "can_cory_fields",
+          "is_original_author": true
+        },
+        {
+          "thread_id": "<ktZb1ZnKZJb1qh4uGvGybRoeiMA8nD-BfozO92FtGWs3ELzPPM8QMcwL8qZJVRF9kk0jDdubLPUlxhj2YHk1Ndu2A5uMVGC8swfHAuE-IrQ=@protonmail.com>",
+          "subject": "[BIP Proposal] Stale Tip Relay",
+          "category": "other",
+          "label": "Other",
+          "reply_count": 1,
+          "unique_authors": 1,
+          "score": 1,
+          "last_post": "2026-11-16",
+          "source": "mailing_list",
+          "link": "https://gnusha.org/pi/bitcoindev/avqnZeBFkF5hQNuU@erisian.com.au",
+          "snippet": "On Wed, Nov 11, 2026 at 10:04:55PM +0000, 'Antoine Poinsot' via Bitcoin Development Mailing List wrote: > On Monday, November 9th, 2026\u2026",
+          "insight": "The core technical question or shift being discussed in this thread is not discernible from the provided truncated snippet.",
+          "summary": "Bitcoin Core developers are engaged in ongoing discussions on the mailing list, refining ideas to enhance the network's capabilities and user experience.",
+          "technical_summary": "The provided context indicates a continuation of a discussion thread on the Bitcoin Development Mailing List between Anthony Towns and Antoine Poinsot, referencing earlier exchanges from November 2026. While the participants and the communication channel are clear, the specific technical arguments, architectural debates, or concrete actions being discussed are not detailed in the truncated input. It appears to be a follow-up to previous points raised by both developers.",
+          "author": "Anthony Towns",
+          "author_uuid": "can_anthony_towns",
+          "is_original_author": false
+        },
+        {
+          "thread_id": "topic_3060",
+          "subject": "Decentralized Coinbase Payout Protocols (DCPP): A Framework for Discussion",
+          "category": "covenants",
+          "label": "Covenants & Vaults",
+          "reply_count": 1,
+          "unique_authors": 1,
+          "score": 1,
+          "last_post": "2026-11-20",
+          "source": "delving",
+          "link": "https://delvingbitcoin.org/t/decentralized-coinbase-payout-protocols-dcpp-a-framework-for-discussion/3060/9",
+          "snippet": "The mining-focused FOSS ecosystem finds itself in the midst of a renaissance. Besides the efforts behind Sv2, DATUM, and \u201cthe open\u2026",
+          "insight": "Developers are re-evaluating firmware-dependent slot limits and exploring scalable, blockchain-agnostic alternatives to optimize the next generation of decentralized mining pools.",
+          "summary": "Bitcoin miners and developers are experiencing a major renaissance, building open-source tools and exploring new protocols to make mining pools more efficient, scalable, and decentralized. Recent discussions focus on optimizing protocol safety margins and exploring alternative architectures like Lithos Protocol to improve overall pool operations.",
+          "technical_summary": "The discussion revolves around architectural constraints in mining protocols, specifically questioning the historical limits on slot counts and safety margins tied to firmware support. Developers are debating whether slot counts can safely rely on claimed firmware capabilities or if a hardcoded upper limit\u2014such as 16\u2014provides a necessary safety buffer. Additionally, participants are evaluating the integration of blockchain-agnostic frameworks like Lithos Protocol to enhance scalability and decentralization in sharechain payout structures. Moving forward, the ecosystem must establish rigorous safety thresholds for slot configurations while vetting alternative scaling solutions for open mining stacks.",
+          "author": "7d5x9",
+          "author_uuid": "auto_7d5x9",
+          "is_original_author": true
+        },
+        {
+          "thread_id": "<3Si-X9YGMmYLUCsKqrf8g84uAsg2xdkZMDpHXcLgqC1_KTnCw1J8kylgHw8PyGNjMkT4tpxSfKwnVNxX8QbnzuSzFDkdGGe96a7q_GTLnWg=@proton.me>",
+          "subject": "Quantum Landmines and Vulnerable Coin Auctions",
+          "category": "quantum",
+          "label": "Quantum Resistance",
+          "reply_count": 1,
+          "unique_authors": 1,
+          "score": 1,
+          "last_post": "2026-11-20",
+          "source": "mailing_list",
+          "link": "https://gnusha.org/pi/bitcoindev/ffd99327-f633-4e2e-bc54-cc1389ffebccn@googlegroups.com",
+          "snippet": "Attempting to use the Google Groups web interface to respond inline,  hopefully this goes ok...    On Wednesday, November 18, 2026 at\u2026",
+          "insight": "The core technical question revolves around an as-yet-unspecified 'neat idea' in its initial conceptual phase.",
+          "summary": "Bitcoin Core developers are beginning to explore a new, conceptually interesting idea. The specific benefits and details are yet to be outlined as the discussion is in its earliest stages.",
+          "technical_summary": "The current thread, featuring initial input from 'conduition' and a response from Cory Fields, indicates the very early conceptualization of an unspecified 'neat idea'. No technical specifics, architectural considerations, or concrete action items have been presented, suggesting the discussion is pre-proposal. Further context is needed to identify the technical problem being addressed or the proposed solution's details.",
+          "author": "Cory Fields",
+          "author_uuid": "can_cory_fields",
+          "is_original_author": false
+        },
+        {
+          "thread_id": "<eOU8hptEwRmWqXhtvW0jh5hf3jDya8G-Uw2t2SPPWS8FLDuCx4K56XczgyVhUzj3_fAUG2hrhnAFz7pLiQJhRURHr93f_-AyPWHzoGVI95I=@proton.me>",
+          "subject": "Quantum Landmines and Vulnerable Coin Auctions",
+          "category": "quantum",
+          "label": "Quantum Resistance",
+          "reply_count": 1,
+          "unique_authors": 1,
+          "score": 1,
+          "last_post": "2026-11-17",
+          "source": "mailing_list",
+          "link": "https://gnusha.org/pi/bitcoindev/6e4b738d-95ce-49ed-bbc6-afb1b64f7bb2n@googlegroups.com",
+          "snippet": "Hi Conduition, thanks for taking a look.  Yes, the landmine would be purposeful bait.  The reason it's interesting is because it makes\u2026",
+          "insight": "The core technical question is whether intentionally obfuscating the quantum-safety status of coins provides a strategic security advantage against future quantum threats.",
+          "summary": "Developers are exploring strategies to make it harder for potential attackers to assess Bitcoin's vulnerability to future quantum computers, enhancing its long-term security.",
+          "technical_summary": "The discussion centers on a proposed 'landmine' mechanism, described as 'purposeful bait,' designed to intentionally obscure the precise count of quantum-safe coins. This design choice aims to make it 'impossible to reason about' the exact quantum-safety status of funds, potentially as a strategic defense against quantum adversaries. The architectural debate likely weighs the security benefits of such obfuscation against its analytical complexities. Future work involves evaluating its practical effectiveness and integration into quantum-resistant schemes.",
+          "author": "Cory Fields",
+          "author_uuid": "can_cory_fields",
+          "is_original_author": false
+        },
+        {
+          "thread_id": "topic_2852",
+          "subject": "PSBT/MuSig2 coordination over Nostr relays: transport invariants for nonce safety under at-least-once delivery",
+          "category": "multisig-threshold",
+          "label": "Multisig",
+          "reply_count": 0,
+          "unique_authors": 1,
+          "score": 0,
+          "last_post": "2026-11-21",
+          "source": "delving",
+          "link": "https://delvingbitcoin.org/t/psbt-musig2-coordination-over-nostr-relays-transport-invariants-for-nonce-safety-under-at-least-once-delivery/2852/9",
+          "snippet": "Most multi-party custody arrangements (2-of-3 multisig, MuSig2 Taproot aggregates, covenant-free time-locked vaults) still move their\u2026",
+          "insight": "The core technical question is how to decentralize the coordination layer for multi-party Bitcoin transactions.",
+          "summary": "We're exploring how to make shared Bitcoin custody even more robust and private. Currently, many advanced setups still rely on a central coordinator, and we're looking for ways to improve this for greater decentralization.",
+          "technical_summary": "The discussion highlights the architectural reliance of most multi-party custody solutions, including 2-of-3 multisig, MuSig2 Taproot aggregates, and covenant-free time-locked vaults, on a centralized coordinator for PSBT exchange and signing round orchestration. This setup, while functional, introduces a potential single point of failure or privacy concern. The implicit technical debate is whether to continue optimizing these coordinator-centric flows or to develop more robust, peer-to-peer communication protocols for PSBTs, thereby enhancing decentralization and censorship resistance for collaborative transactions.",
+          "author": "Rafael Turon",
+          "author_uuid": "auto_rafael_turon",
+          "is_original_author": true
+        },
+        {
+          "thread_id": "topic_2110",
+          "subject": "Propagation Delay and Mining Centralization: Modeling Stale Rates",
+          "category": "mining",
+          "label": "Mining Protocol",
+          "reply_count": 0,
+          "unique_authors": 1,
+          "score": 0,
+          "last_post": "2026-11-17",
+          "source": "delving",
+          "link": "https://delvingbitcoin.org/t/propagation-delay-and-mining-centralization-modeling-stale-rates/2110/10",
+          "snippet": "A few months ago i posted a detailed analysis of Selfish Mining. \u201cSelfish\u201d Mining is a strategy\nwhereby a sufficiently large minority\u2026",
+          "insight": "The core technical question remains the practical implications and potential countermeasures for selfish mining strategies to uphold network integrity.",
+          "summary": "Our ongoing research into mining strategies, like 'Selfish Mining,' helps us proactively strengthen Bitcoin's security and ensure fair, decentralized operation for everyone.",
+          "technical_summary": "A detailed analysis of 'Selfish Mining' was previously published, describing how a sufficiently large minority miner could maximize revenue by strategically withholding and publishing blocks to gain a competitive edge. This strategy leverages block propagation dynamics to potentially disrupt network fairness and miner incentives. While no new technical arguments or architectural debates have surfaced in this reporting period, the initial analysis underscores the continuous need to evaluate network resilience against such game-theoretic attacks. Ongoing vigilance and potential protocol enhancements are key to mitigating these theoretical risks and preserving decentralization.",
+          "author": "Antoine Poinsot",
+          "author_uuid": "can_antoine_poinsot",
+          "is_original_author": true
+        },
+        {
+          "thread_id": "topic_2899",
+          "subject": "Bounds on chain length with BIP-54 timewarp fixes",
+          "category": "consensus-cleanup",
+          "label": "Consensus Cleanup",
+          "reply_count": 0,
+          "unique_authors": 1,
+          "score": 0,
+          "last_post": "2026-11-22",
+          "source": "delving",
+          "link": "https://delvingbitcoin.org/t/bounds-on-chain-length-with-bip-54-timewarp-fixes/2899/31",
+          "snippet": "1. Timewarp fix rules\nBIP-54 proposes (among other things) two rules to curb undesirable tricks that can be played with block header\u2026",
+          "insight": "The core technical question is how to effectively implement new consensus rules via BIP-54 to prevent block header timestamp manipulation and secure difficulty adjustments.",
+          "summary": "Developers are discussing a proposal (BIP-54) to strengthen Bitcoin's timestamping rules. This aims to prevent manipulation of block times, ensuring the network's difficulty adjustments remain fair and predictable for long-term security.",
+          "technical_summary": "The discussion revolves around BIP-54, which introduces new rules to address 'timewarp' vulnerabilities by curbing undesirable tricks with block header timestamps. Specifically, the proposal targets timestamp manipulation, particularly concerning the first block of a retarget period, to ensure accurate difficulty adjustments. The architectural debate centers on how to best integrate these new timestamp validation rules into the consensus protocol to enhance network security without introducing undue complexity. The immediate task is to evaluate the specifics of these proposed rules and their implications for block validation and difficulty calculation.",
+          "author": "Pieter Wuille",
+          "author_uuid": "can_pieter_wuille",
+          "is_original_author": true
+        },
+        {
+          "thread_id": "topic_3079",
+          "subject": "Toward Efficient Post-Quantum Bitcoin Bridges",
+          "category": "quantum",
+          "label": "Quantum Resistance",
+          "reply_count": 0,
+          "unique_authors": 1,
+          "score": 0,
+          "last_post": "2026-11-16",
+          "source": "delving",
+          "link": "https://delvingbitcoin.org/t/toward-efficient-post-quantum-bitcoin-bridges/3079/1",
+          "snippet": "We have written up a garbled-circuit verifier for hash-based STARK proofs, as a post-quantum alternative to garbling a Groth16 verifier\u2026",
+          "insight": "The core technical question is the feasibility and cost-effectiveness of using hash-based STARK proof verification via garbled circuits as a post-quantum secure alternative for Bitcoin bridges.",
+          "summary": "A new post-quantum secure method for verifying complex proofs on Bitcoin is being explored, making cross-chain interactions like those in BitVM3 safer and more resilient against future quantum attacks.",
+          "technical_summary": "A garbled-circuit verifier for hash-based STARK proofs has been developed and its on-chain costs measured. This approach serves as a post-quantum secure alternative to the current practice of garbling Groth16 verifiers, particularly relevant for BitVM3-style bridges. The core architectural shift is from elliptic curve cryptography-dependent proofs to hash-based constructions, aiming for quantum resistance. Initial measurements provide a baseline for evaluating its feasibility and efficiency compared to existing methods, setting the stage for further analysis and potential integration.",
+          "author": "Stephen Duan",
+          "author_uuid": "auto_stephen_duan",
+          "is_original_author": true
+        },
+        {
+          "thread_id": "topic_304",
+          "subject": "Unspendable keys in descriptors",
           "category": "taproot",
           "label": "Taproot",
           "reply_count": 0,
           "unique_authors": 1,
           "score": 0,
-          "last_post": "2026-11-10",
+          "last_post": "2026-11-18",
           "source": "delving",
-          "link": "https://delvingbitcoin.org/t/bip-draft-co-signer-spending-policies/2955/12",
-          "snippet": "I\u2019d like feedback on a draft that standardizes the policy a co-signer enforces, not the co-signer itself.\nA co-signer that signs only\u2026",
-          "insight": "The discussion now focuses on ensuring co-signer policies explicitly account for the finality of an outcome, not just its current state, to prevent acting on mutable data.",
-          "summary": "Efforts are underway to make multi-signature transactions smarter and more reliable by standardizing how co-signers enforce rules. This will enable more advanced Bitcoin transactions that automatically follow predefined conditions, enhancing security and predictability.",
-          "technical_summary": "The discussion focuses on standardizing co-signer policies to enable covenant-like behavior, where co-signers sign only when a specific predicate holds. A critical feedback point highlights that the current `statement-v0` draft signs event ID, outcome, and timestamp, but fails to specify if the outcome is final or mutable. This omission could lead to co-signers acting on a preliminary or subsequently invalidated outcome. The policy standardization must therefore explicitly address outcome finality to ensure co-signers operate on definitive data, preventing potential transaction invalidations.",
-          "author": "nonAnon",
-          "author_uuid": "auto_nonanon",
-          "is_original_author": true
-        },
-        {
-          "thread_id": "<52cfe0e671891ce094d49c85b284a1e990e23f1f.camel@pythcoiner.dev>",
-          "subject": "[BIP Draft] Signing message encoding",
-          "category": "script-opcodes",
-          "label": "Script & Opcodes",
-          "reply_count": 0,
-          "unique_authors": 1,
-          "score": 0,
-          "last_post": "2026-11-12",
-          "source": "mailing_list",
-          "link": "https://gnusha.org/pi/bitcoindev/52cfe0e671891ce094d49c85b284a1e990e23f1f.camel@pythcoiner.dev",
-          "snippet": "Hi all,  A few months ago I started a thread on delvingbitcoin about the payloads a wallet and an air-gapped signing device exchange\u2026",
-          "insight": null,
-          "summary": null,
-          "technical_summary": null,
-          "author": "'pyth' via Bitcoin Development Mailing List",
-          "author_uuid": "auto_pyth",
+          "link": "https://delvingbitcoin.org/t/unspendable-keys-in-descriptors/304/35",
+          "snippet": "With miniscript on taproot in core, and support coming soon in hardware signers, we will start seeing wallets exploring the new\u2026",
+          "insight": "The core technical shift is from Miniscript-on-Taproot availability to its practical integration and exploration of new wallet use cases.",
+          "summary": "Miniscript is now available for Taproot scripts in Bitcoin Core, paving the way for more sophisticated and secure wallet features. This will unlock new ways to manage your bitcoins with greater flexibility and privacy.",
+          "technical_summary": "With Miniscript integrated for Taproot in Bitcoin Core and imminent support from hardware signers, the discussion centers on practical wallet implementation. Developers are now poised to explore and build out complex spending conditions and advanced smart contracts, leveraging Miniscript's expressive power and auditability within Taproot's improved privacy and efficiency. The immediate architectural challenge involves integrating these new scripting capabilities into wallet software and identifying novel use cases for this powerful combination.",
+          "author": "salvatoshi",
+          "author_uuid": "auto_salvatoshi",
           "is_original_author": true
         }
       ],
       "top_bips": [
         {
+          "bip_id": "54",
+          "title": "Consensus Cleanup",
+          "mentions": 4
+        },
+        {
+          "bip_id": "129",
+          "title": "Bitcoin Secure Multisig Setup (BSMS)",
+          "mentions": 1
+        },
+        {
+          "bip_id": "327",
+          "title": "MuSig2 for BIP340-compatible Multi-Signatures",
+          "mentions": 1
+        },
+        {
           "bip_id": "340",
           "title": "Schnorr Signatures for secp256k1",
-          "mentions": 7
+          "mentions": 1
+        },
+        {
+          "bip_id": "85",
+          "title": "Deterministic Entropy From BIP32 Keychains",
+          "mentions": 1
         },
         {
           "bip_id": "341",
           "title": "Taproot: SegWit version 1 spending rules",
-          "mentions": 2
-        },
-        {
-          "bip_id": "352",
-          "title": "Silent Payments",
-          "mentions": 1
-        },
-        {
-          "bip_id": "54",
-          "title": "Consensus Cleanup",
           "mentions": 1
         }
       ],
       "top_voices": [
         {
-          "name": "nonAnon",
-          "uuid": "auto_nonanon",
-          "posts": 7
+          "name": "conduition",
+          "uuid": "auto_conduition",
+          "posts": 2
         },
         {
-          "name": "Murch",
-          "uuid": "can_mark_erhardt",
-          "posts": 4
+          "name": "Antoine Riard",
+          "uuid": "can_antoine_riard",
+          "posts": 2
         },
         {
-          "name": "Hans Stringuer",
-          "uuid": "auto_hans_stringuer",
-          "posts": 4
+          "name": "Cory Fields",
+          "uuid": "can_cory_fields",
+          "posts": 2
         },
         {
-          "name": "Antoine Poinsot",
-          "uuid": "can_antoine_poinsot",
-          "posts": 3
+          "name": "fanquake",
+          "uuid": "can_michael_ford",
+          "posts": 2
         },
         {
-          "name": "Anthony Towns",
-          "uuid": "can_anthony_towns",
-          "posts": 3
+          "name": "onedigitmoney",
+          "uuid": "auto_onedigitmoney",
+          "posts": 2
         },
         {
           "name": "LearnBitcoin.com",
           "uuid": "auto_learnbitcoin_com",
-          "posts": 3
+          "posts": 2
         },
         {
-          "name": "7d5x9",
-          "uuid": "auto_7d5x9",
-          "posts": 3
+          "name": "Henri",
+          "uuid": "auto_henri",
+          "posts": 2
         },
         {
-          "name": "Dave Lund",
-          "uuid": "auto_dave_lund",
+          "name": "Antoine Poinsot",
+          "uuid": "can_antoine_poinsot",
           "posts": 2
         }
       ],
       "source_pct": {
-        "delving": 72.4,
-        "mailing_list": 27.6
+        "delving": 56.2,
+        "mailing_list": 43.8
       },
       "source_counts": {
-        "delving": 42,
-        "mailing_list": 16
+        "delving": 18,
+        "mailing_list": 14
       },
       "mailing_list_stale": false,
       "mailing_list_days_since": null
@@ -806,52 +786,43 @@
     "30d": {
       "window_days": 30,
       "total_messages": 207,
-      "total_threads": 103,
-      "unique_voices": 100,
+      "total_threads": 114,
+      "unique_voices": 105,
       "themes": [
         {
           "category": "taproot",
           "label": "Taproot",
           "msgs": 32,
           "threads": 9,
-          "voices": 18,
-          "share": 17.1,
-          "trend": "rising"
+          "voices": 17,
+          "share": 16.6,
+          "trend": "fading"
         },
         {
           "category": "quantum",
           "label": "Quantum Resistance",
-          "msgs": 23,
-          "threads": 13,
-          "voices": 16,
-          "share": 12.3,
-          "trend": "rising"
-        },
-        {
-          "category": "p2p-network",
-          "label": "P2P Network",
-          "msgs": 18,
-          "threads": 3,
-          "voices": 5,
-          "share": 9.6,
-          "trend": "fading"
-        },
-        {
-          "category": "multisig-threshold",
-          "label": "Multisig",
-          "msgs": 16,
-          "threads": 3,
-          "voices": 7,
-          "share": 8.6,
+          "msgs": 27,
+          "threads": 16,
+          "voices": 18,
+          "share": 14.0,
           "trend": "rising"
         },
         {
           "category": "mining",
           "label": "Mining Protocol",
-          "msgs": 16,
-          "threads": 12,
-          "voices": 15,
-          "share": 8.6,
+          "msgs": 19,
+          "threads": 14,
+          "voices": 17,
+          "share": 9.8,
+          "trend": "steady"
+        },
+        {
+          "category": "multisig-threshold",
+          "label": "Multisig",
+          "msgs": 18,
+          "threads": 5,
+          "voices": 9,
+          "share": 9.3,
           "trend": "fading"
         },
         {
@@ -859,82 +830,72 @@
           "label": "Security",
           "msgs": 14,
           "threads": 8,
-          "voices": 10,
-          "share": 7.5,
-          "trend": "steady"
+          "voices": 11,
+          "share": 7.3,
+          "trend": "fading"
         },
         {
           "category": "covenants",
           "label": "Covenants & Vaults",
-          "msgs": 12,
-          "threads": 4,
-          "voices": 8,
-          "share": 6.4,
-          "trend": "rising"
+          "msgs": 11,
+          "threads": 3,
+          "voices": 7,
+          "share": 5.7,
+          "trend": "fading"
         },
         {
           "category": "lightning",
           "label": "Lightning / L2",
-          "msgs": 12,
+          "msgs": 9,
           "threads": 5,
-          "voices": 9,
-          "share": 6.4,
+          "voices": 8,
+          "share": 4.7,
           "trend": "fading"
         },
         {
           "category": "core-dev",
           "label": "Core Dev",
-          "msgs": 6,
-          "threads": 5,
+          "msgs": 8,
+          "threads": 7,
           "voices": 2,
-          "share": 3.2,
-          "trend": "fading"
+          "share": 4.1,
+          "trend": "rising"
         },
         {
-          "category": "testing-devtools",
-          "label": "Dev Tooling",
-          "msgs": 6,
+          "category": "bitvm",
+          "label": "BitVM",
+          "msgs": 7,
+          "threads": 2,
+          "voices": 4,
+          "share": 3.6,
+          "trend": "rising"
+        },
+        {
+          "category": "p2p-network",
+          "label": "P2P Network",
+          "msgs": 7,
           "threads": 3,
-          "voices": 6,
-          "share": 3.2,
+          "voices": 5,
+          "share": 3.6,
           "trend": "fading"
         }
       ],
       "hot_threads": [
         {
-          "thread_id": "topic_2497",
-          "subject": "TCP hole punching for Bitcoin nodes behind home NATs?",
-          "category": "p2p-network",
-          "label": "P2P Network",
-          "reply_count": 10,
-          "unique_authors": 2,
-          "score": 20,
-          "last_post": "2026-11-03",
-          "source": "delving",
-          "link": "https://delvingbitcoin.org/t/tcp-hole-punching-for-bitcoin-nodes-behind-home-nats/2497/35",
-          "snippet": "While @willcl-ark and I were discussing\nDid the number of reachable nodes in residential ISPs increase since Bitcoin Core v30.0? -\u2026",
-          "insight": "The core technical question has shifted from merely increasing node reachability to critically evaluating its security implications for home users in light of recent protocol and TCP stack vulnerabilities.",
-          "summary": "We're exploring ways to help more home users run reachable Bitcoin nodes, boosting network decentralization and resilience. This involves carefully balancing ease of connectivity with robust security against potential network attacks.",
-          "technical_summary": "The discussion centers on increasing reachable nodes in residential ISPs, particularly through techniques like holepunching. Key questions include the specific problems solved by such features, how to implement them to raise attacker costs, and the security implications for home users given recent TCP stack and protocol vulnerabilities (e.g., CVE-2026-117350, CVS-2026-117349). The architectural debate weighs the benefits of enhanced decentralization against the risks of exposing home nodes to potential exploits, questioning if increased reachability is 'sensible' under current conditions.",
-          "author": "0xB10C",
-          "author_uuid": "can_0xb10c",
-          "is_original_author": true
-        },
-        {
           "thread_id": "topic_3060",
           "subject": "Decentralized Coinbase Payout Protocols (DCPP): A Framework for Discussion",
           "category": "covenants",
           "label": "Covenants & Vaults",
-          "reply_count": 4,
-          "unique_authors": 4,
-          "score": 16,
-          "last_post": "2026-11-14",
+          "reply_count": 5,
+          "unique_authors": 5,
+          "score": 25,
+          "last_post": "2026-11-20",
           "source": "delving",
-          "link": "https://delvingbitcoin.org/t/decentralized-coinbase-payout-protocols-dcpp-a-framework-for-discussion/3060/8",
+          "link": "https://delvingbitcoin.org/t/decentralized-coinbase-payout-protocols-dcpp-a-framework-for-discussion/3060/9",
           "snippet": "The mining-focused FOSS ecosystem finds itself in the midst of a renaissance. Besides the efforts behind Sv2, DATUM, and \u201cthe open\u2026",
-          "insight": "The core technical question is whether critical mining parameters, specifically slot counts, can safely rely on claimed firmware support without introducing unacceptable risks.",
-          "summary": "Developers are discussing critical limits within mining protocols to ensure the security and reliability of new open-source mining technologies. The goal is to make mining operations more robust and efficient for everyone.",
-          "technical_summary": "The discussion centers on understanding the rationale behind an apparent 'limit of 16' within mining protocols, and its implications for sharechains and payout sets. A key architectural debate has emerged regarding the safety of allowing the 'slot count' to depend on 'claimed firmware support.' The concern is that such a dependency could introduce vulnerabilities or instability, necessitating a re-evaluation of how these critical parameters are determined and validated within the open mining stack.",
+          "insight": "Developers are re-evaluating firmware-dependent slot limits and exploring scalable, blockchain-agnostic alternatives to optimize the next generation of decentralized mining pools.",
+          "summary": "Bitcoin miners and developers are experiencing a major renaissance, building open-source tools and exploring new protocols to make mining pools more efficient, scalable, and decentralized. Recent discussions focus on optimizing protocol safety margins and exploring alternative architectures like Lithos Protocol to improve overall pool operations.",
+          "technical_summary": "The discussion revolves around architectural constraints in mining protocols, specifically questioning the historical limits on slot counts and safety margins tied to firmware support. Developers are debating whether slot counts can safely rely on claimed firmware capabilities or if a hardcoded upper limit\u2014such as 16\u2014provides a necessary safety buffer. Additionally, participants are evaluating the integration of blockchain-agnostic frameworks like Lithos Protocol to enhance scalability and decentralization in sharechain payout structures. Moving forward, the ecosystem must establish rigorous safety thresholds for slot configurations while vetting alternative scaling solutions for open mining stacks.",
           "author": "7d5x9",
           "author_uuid": "auto_7d5x9",
           "is_original_author": true
@@ -951,9 +912,9 @@
           "source": "delving",
           "link": "https://delvingbitcoin.org/t/towards-a-k-of-n-lightning-network-node/2395/18",
           "snippet": "Subject: Towards A K-of-N Lightning Network Node\nZ. jxPCSnmZ\nIntroduction\nWith the Nested MuSig2 Paper\nrecently released, we want to\u2026",
-          "insight": "The discussion has shifted from the high-level concept of k-of-n Lightning nodes to the practical implications of channel state storage costs on their operational feasibility.",
-          "summary": "We're exploring new ways to secure Lightning Network funds using shared control, making it safer and more resilient for users. This allows multiple parties to collectively manage a Lightning node, enhancing security against loss or compromise.",
-          "technical_summary": "The thread explores building a k-of-n multisig self-custodial Lightning node, leveraging Nested MuSig2 for enhanced fund security. A key technical debate now focuses on the storage costs of Lightning channel state updates, specifically how Core Lightning and lnd handle these differently. This impacts the operational overhead and scalability of a multisig node, requiring optimization of state management to minimize storage requirements for a robust k-of-n setup.",
+          "insight": "The immediate technical focus is on locating JPosner's foundational proposal to understand the practical implementation of K-of-N multisig within Lightning Network nodes.",
+          "summary": "Developers are exploring ways to make Lightning Network nodes more secure and self-custodial, allowing users to better protect their funds through advanced multisignature technology.",
+          "technical_summary": "The discussion revolves around architecting a K-of-N multisignature self-custodial wallet for Lightning Network nodes, potentially utilizing the recently released Nested MuSig2 paper to enhance security and decentralization. A critical next step involves locating JPosner's original suggestion and promised explanation, which is considered foundational for understanding the proposed implementation details and architectural approach to integrating advanced multisig within Lightning.",
           "author": "ZmnSCPxj jxPCSnmZ",
           "author_uuid": "auto_zmnscpxj_jxpcsnmz",
           "is_original_author": true
@@ -989,9 +950,9 @@
           "source": "delving",
           "link": "https://delvingbitcoin.org/t/should-wallets-default-to-taproot-or-segwit-receive-addresses-while-some-services-still-reject-bc1p/3056/9",
           "snippet": "I work in BD and support at Gem Wallet rather than as a developer, so this comes from the support side.\nA recurring case: a user copies\u2026",
-          "insight": "The core technical question is how to enhance user experience and address validation to prevent common errors when users copy Bitcoin receive addresses for withdrawals.",
-          "summary": "We're exploring ways to make receiving Bitcoin simpler and more reliable for users, aiming to prevent common errors when withdrawing funds from exchanges or other sources.",
-          "technical_summary": "The discussion highlights a recurring user experience issue where users encounter difficulties when copying Bitcoin receive addresses for withdrawals, likely due to address format confusion or network compatibility challenges. This points to a need for improved address validation, clearer user interface guidance, or potentially standardized mechanisms for address verification across different platforms. Solutions could involve enhanced client-side checks within wallets or better communication protocols between wallets and exchanges to mitigate user errors before transactions are initiated.",
+          "insight": "The core technical question is how to overcome ecosystem fragmentation and accelerate the default adoption of Taproot addresses to realize their full benefits.",
+          "summary": "The community is actively working to ensure more users can benefit from Taproot's improved privacy and lower transaction fees, addressing current adoption challenges.",
+          "technical_summary": "The core technical debate revolves around making Taproot (P2TR) addresses the default for improved privacy, efficiency, and lower transaction fees. This requires addressing inconsistent support across wallets and exchanges, which currently causes user withdrawal issues due to address type incompatibility. Developers are advocating for wider default adoption and highlighting the need for accurate, up-to-date ecosystem tracking, such as on `whentaproot.org`, to reflect current service support and guide further integration efforts.",
           "author": "Anzus",
           "author_uuid": "auto_anzus",
           "is_original_author": true
@@ -1008,9 +969,9 @@
           "source": "mailing_list",
           "link": "https://gnusha.org/pi/bitcoindev/370af76f-6bcf-435d-bf88-fd4170d18537@murch.one",
           "snippet": "Dear Bitcoin Development Community,  I'm sharing a draft BIP for a quantum-resistant address format for Bitcoin,  developed as part of\u2026",
-          "insight": "The debate shifts toward leveraging BIP-459 key recovery to further optimize Cross-Input Signature Aggregation (CISA) space savings.",
-          "summary": "Developers are discussing a new signature aggregation method (BIP-459) that could significantly lower Bitcoin transaction fees and reduce block space usage.\nBy allowing parts of a cryptographic key to be recovered automatically, this technique optimizes transaction efficiency without compromising security.",
-          "technical_summary": "Boris Nagaev highlighted that utilizing BIP-459 full aggregation for P2MR or P2TRH allows for the recovery of an elliptic curve (EC) key in Cross-Input Signature Aggregation (CISA). This optimization aims to reduce witness data size by eliminating the need to explicitly publish every public key on-chain. The technical debate centers on the security implications of this key recovery shortcut and how it integrates with taproot-based constructs. Further work is needed to mathematically verify the recovery scheme's robustness and define the standard transaction parser rules for CISA.",
+          "insight": "The core technical question is how new quantum-resistant address format proposals should integrate with the Bitcoin community's existing, multi-year PQC research and development efforts.",
+          "summary": "Bitcoin developers are actively exploring new address formats to safeguard funds against potential future threats from quantum computers. This proactive work aims to ensure Bitcoin's long-term security and resilience.",
+          "technical_summary": "Hans Stringuer has introduced an updated draft BIP for a quantum-resistant address format, building on the `safe-btc` project. The community is debating the urgency, with Zeeshan Ali Khan advocating for pre-CRQC implementation. Murch highlights that extensive Post-Quantum Cryptography (PQC) research for Bitcoin has been underway for years, suggesting the new proposal needs to be contextualized within existing efforts. The architectural challenge lies in integrating novel address formats with established PQC development paths.",
           "author": "Hans Stringuer",
           "author_uuid": "auto_hans_stringuer",
           "is_original_author": true
@@ -1035,13 +996,51 @@
           "is_original_author": true
         },
         {
+          "thread_id": "topic_2960",
+          "subject": "Silent Payments for Multiparty Wallets",
+          "category": "multisig-threshold",
+          "label": "Multisig",
+          "reply_count": 2,
+          "unique_authors": 3,
+          "score": 6,
+          "last_post": "2026-10-29",
+          "source": "delving",
+          "link": "https://delvingbitcoin.org/t/silent-payments-for-multiparty-wallets/2960/4",
+          "snippet": "Abstract. BIP-352 does not recommend FROST- / MuSig2-based inputs \u201cdue to lack of a security proof\u201d. This post describes a protocol that\u2026",
+          "insight": "The core technical question revolves around ensuring cryptographic rigor in composing multiparty signing schemes with Silent Payments, specifically clarifying notation for individual signer contributions and their secure aggregation.",
+          "summary": "Developers are refining how to securely combine private 'Silent Payments' with multi-signature wallets, making it safer and easier for groups to manage funds while maintaining privacy. This work aims to bring enhanced privacy features to shared Bitcoin wallets.",
+          "technical_summary": "The discussion focuses on a new protocol to address BIP-352's lack of a security proof for composing Silent Payments with multiparty signing schemes like FROST and MuSig2. A notation slip was clarified, emphasizing that `c_i` should be `hat c_i = g \\cdot c_i` to correctly apply accumulated parity to each signer's secret, analogous to BIP-327 and BIP-445. The proposed protocol is lauded for its security analysis and its ability to provide a shared interface across different multiparty signing architectures, enabling secure and private transactions for multisig setups.",
+          "author": "Oleks",
+          "author_uuid": "auto_olkurbatov",
+          "is_original_author": true
+        },
+        {
+          "thread_id": "topic_2985",
+          "subject": "We made the bitcoin-dev mailing list readable: 15 years, 24,699 messages",
+          "category": "hard-fork-block-size",
+          "label": "Block Size Debate",
+          "reply_count": 2,
+          "unique_authors": 3,
+          "score": 6,
+          "last_post": "2026-11-20",
+          "source": "delving",
+          "link": "https://delvingbitcoin.org/t/we-made-the-bitcoin-dev-mailing-list-readable-15-years-24-699-messages/2985/6",
+          "snippet": "We have put up a readable mirror of the bitcoin-dev archive, refreshed daily.\nWhat it adds over public-inbox: one page per thread with\u2026",
+          "insight": "Ensuring permanent, independent archival of developer discussions is critical to prevent the loss of Bitcoin's historical technical record.",
+          "summary": "Developers have created a reliable, readable mirror of the bitcoin-dev mailing list archive. This ensures the history and discussions of Bitcoin development remain permanently accessible to everyone.",
+          "technical_summary": "The discussion highlights the fragility of relying on single hosting providers, as demonstrated by the Linux Foundation temporarily taking down its mailing list archive. The newly introduced mirror provides distinct advantages over public-inbox by featuring single-page threads with folded quotes, stable permalinks tied directly to Message-IDs, and three dedicated indexes. This setup guarantees long-term archival resilience against dead links and disappearing repositories. Going forward, developers must ensure continuous syncing and redundancy to maintain these archives independently.",
+          "author": "LearnBitcoin.com",
+          "author_uuid": "auto_learnbitcoin_com",
+          "is_original_author": true
+        },
+        {
           "thread_id": "topic_2955",
           "subject": "[BIP Draft] Co-signer Spending Policies",
           "category": "taproot",
           "label": "Taproot",
           "reply_count": 2,
-          "unique_authors": 3,
-          "score": 6,
+          "unique_authors": 2,
+          "score": 4,
           "last_post": "2026-11-10",
           "source": "delving",
           "link": "https://delvingbitcoin.org/t/bip-draft-co-signer-spending-policies/2955/12",
@@ -1054,80 +1053,61 @@
           "is_original_author": true
         },
         {
-          "thread_id": "topic_2960",
-          "subject": "Silent Payments for Multiparty Wallets",
-          "category": "multisig-threshold",
-          "label": "Multisig",
-          "reply_count": 2,
-          "unique_authors": 3,
-          "score": 6,
-          "last_post": "2026-10-29",
-          "source": "delving",
-          "link": "https://delvingbitcoin.org/t/silent-payments-for-multiparty-wallets/2960/4",
-          "snippet": "Abstract. BIP-352 does not recommend FROST- / MuSig2-based inputs \u201cdue to lack of a security proof\u201d. This post describes a protocol that\u2026",
-          "insight": "The current focus is on refining the cryptographic notation and architectural approach for securely composing Silent Payments with multiparty signing schemes.",
-          "summary": "We're making progress on enabling groups to securely use Bitcoin's advanced privacy feature, Silent Payments. This allows multiple participants to send and receive funds privately and efficiently.",
-          "technical_summary": "The discussion centers on a proposed protocol to securely integrate BIP-352 Silent Payments with multiparty signing schemes like FROST and MuSig2, addressing the initial lack of a security proof. A key technical clarification involved correcting a notation slip for individual signer commitments, aligning it with practices in BIP-327 and BIP-445. The architectural benefit is a shared interface supporting various multiparty signing protocols, including nested ones, for Silent Payments. This work is vital for solidifying the cryptographic security and practical implementation of multiparty Silent Payments.",
-          "author": "Oleks",
-          "author_uuid": "auto_olkurbatov",
-          "is_original_author": true
-        },
-        {
-          "thread_id": "<CALeFGL04_h6212x9D0u7-uJSyDDAyie-cohBazYS3Yo9P36NVA@mail.gmail.com>",
-          "subject": "btc-verified October Update: Connecting Map to Territory",
-          "category": "other",
-          "label": "Other",
-          "reply_count": 1,
-          "unique_authors": 2,
-          "score": 2,
-          "last_post": "2026-10-23",
-          "source": "mailing_list",
-          "link": "https://gnusha.org/pi/bitcoindev/8bfb3bbc-0682-49c8-b461-676aa619688e@mattcorallo.com",
-          "snippet": "Originally published on my site <https://proofofkeags.com/research/2026-10-19-connecting-map-to-territory.html>. Replicating here\u2026",
-          "insight": "The core technical question is whether formal equivalence proofs can reliably ensure consistent behavior across diverse Bitcoin script engine implementations.",
-          "summary": "We're making progress on formally proving that all Bitcoin software interprets transactions identically, which is crucial for preventing errors and enhancing the network's security and reliability. This ensures the 'map' (specifications) perfectly matches the 'territory' (code).",
-          "technical_summary": "The thread, originating from a discussion on connecting formal models ('map') to code implementations ('territory'), now highlights active work on formal equivalence proofs for Bitcoin script engines. Matt Corallo reports that resources are being allocated to use 'agents' (likely automated formal verification tools) to mathematically demonstrate that different script execution environments yield identical results. This effort is critical for guaranteeing consensus consistency across the network and mitigating potential consensus-split vulnerabilities by formally verifying implementation correctness against specifications or other implementations.",
-          "author": "Keagan McClelland",
-          "author_uuid": "can_keagan_mcclelland",
-          "is_original_author": true
-        },
-        {
-          "thread_id": "<CAAa3hFN+z1KGRkU_8JLmQ_1cXMZEYHO-0370Q_REv_MB2ci9Og@mail.gmail.com>",
-          "subject": "BIP Draft Post-Quantum Address Format (bc1z) using ML-DSA-65",
+          "thread_id": "<40a9f73d-481f-47e6-a64b-acfb2c7f4fa8n@googlegroups.com>",
+          "subject": "Quantum Landmines and Vulnerable Coin Auctions",
           "category": "quantum",
           "label": "Quantum Resistance",
           "reply_count": 1,
-          "unique_authors": 1,
-          "score": 1,
-          "last_post": "2026-11-13",
+          "unique_authors": 2,
+          "score": 2,
+          "last_post": "2026-11-17",
           "source": "mailing_list",
-          "link": "https://gnusha.org/pi/bitcoindev/23d3f227-fb57-4ad3-8dab-438d2bd6e651n@googlegroups.com",
-          "snippet": "Hi Zeeshan, all,  Thank you, both points are right, and they are now part of a substantially revised draft (v0.2): \u2026",
-          "insight": "The debate shifts toward leveraging BIP-459 key recovery to further optimize Cross-Input Signature Aggregation (CISA) space savings.",
-          "summary": "Developers are discussing a new signature aggregation method (BIP-459) that could significantly lower Bitcoin transaction fees and reduce block space usage.\nBy allowing parts of a cryptographic key to be recovered automatically, this technique optimizes transaction efficiency without compromising security.",
-          "technical_summary": "Boris Nagaev highlighted that utilizing BIP-459 full aggregation for P2MR or P2TRH allows for the recovery of an elliptic curve (EC) key in Cross-Input Signature Aggregation (CISA). This optimization aims to reduce witness data size by eliminating the need to explicitly publish every public key on-chain. The technical debate centers on the security implications of this key recovery shortcut and how it integrates with taproot-based constructs. Further work is needed to mathematically verify the recovery scheme's robustness and define the standard transaction parser rules for CISA.",
-          "author": "Hans Stringuer",
-          "author_uuid": "auto_hans_stringuer",
-          "is_original_author": false
+          "link": "https://gnusha.org/pi/bitcoindev/eOU8hptEwRmWqXhtvW0jh5hf3jDya8G-Uw2t2SPPWS8FLDuCx4K56XczgyVhUzj3_fAUG2hrhnAFz7pLiQJhRURHr93f_-AyPWHzoGVI95I=@proton.me",
+          "snippet": "I've had fun discussing these rough ideas regarding post-quantum migration  to a few people in the last week. Rather than describing\u2026",
+          "insight": "The discussion is shifting towards the feasibility and requirements of proactive user-driven quantum-safe output creation versus a more generalized protocol-level migration.",
+          "summary": "Developers are actively discussing strategies to future-proof Bitcoin against quantum computing threats, exploring how users can proactively secure their funds before such risks emerge.",
+          "technical_summary": "The ongoing discussion centers on post-quantum migration strategies, specifically exploring soft-fork based approaches. A key proposal involves users proactively creating 'trivial quantum-safe outputs' before a theoretical 'q-day,' embedding a proof-of-knowledge. This necessitates users being online and aware to take these actions pre-emptively. The debate revolves around the feasibility and requirements of such proactive user-driven migration versus more generalized protocol-level changes, and the architectural implications of integrating new cryptographic primitives via soft fork.",
+          "author": "Cory Fields",
+          "author_uuid": "can_cory_fields",
+          "is_original_author": true
         },
         {
-          "thread_id": "<d92f1615-368b-4406-b326-a1799c72a555n@googlegroups.com>",
+          "thread_id": "<12a1a76d-0e27-4035-9fe8-a47524729c47n@googlegroups.com>",
+          "subject": "Re: BIP Proposal: ML-KEM Key Establishment",
+          "category": "quantum",
+          "label": "Quantum Resistance",
+          "reply_count": 1,
+          "unique_authors": 2,
+          "score": 2,
+          "last_post": "2026-11-16",
+          "source": "mailing_list",
+          "link": "https://gnusha.org/pi/bitcoindev/9386e438-b305-46cd-b64f-5337be9f5961n@googlegroups.com",
+          "snippet": "Hi everyone,  Based on discussions started by Laolu about post-quantum key establishment  in the P2P protocol [1], I earlier proposed a\u2026",
+          "insight": "The core technical question has shifted from an internal BIP proposal to evaluating the convergence potential with a 'very similar' Hybrid Key Encapsulation (HKE) design from the Elements project.",
+          "summary": "Bitcoin Core developers are actively working to future-proof the network's communication against potential quantum computer attacks, ensuring secure and private connections for all nodes.",
+          "technical_summary": "The discussion on post-quantum key establishment in the P2P protocol, initially proposed via a BIP for transport layer negotiation, has gained new context. A 'very similar' Hybrid Key Encapsulation (HKE) design has been proposed for the Elements project, indicating potential for shared architectural approaches. The technical debate now includes evaluating the commonalities and differences between these proposals to ensure a robust, interoperable, and quantum-resistant solution for Bitcoin Core's P2P communication.",
+          "author": "Liam Gilligan",
+          "author_uuid": "auto_liam_gilligan",
+          "is_original_author": true
+        },
+        {
+          "thread_id": "<avqnZeBFkF5hQNuU@erisian.com.au>",
           "subject": "[BIP Proposal] Stale Tip Relay",
           "category": "other",
           "label": "Other",
           "reply_count": 1,
           "unique_authors": 1,
           "score": 1,
-          "last_post": "2026-11-05",
+          "last_post": "2026-11-19",
           "source": "mailing_list",
-          "link": "https://gnusha.org/pi/bitcoindev/3rRzUIQUWDcT-ASQXvovARX12jzE0UWy0RQ8fk7M_z3bW_k2LWPPEvRhoD6sEe3GW3fjCdtzLOZN34TCsB2CI6iRcdjer9Y8QiNwUh2QepI=@protonmail.com",
-          "snippet": "Hello list,  This proposal introduces `staletip`, an opt-in P2P message for relaying  recent stale tips between peers. Building on AJ\u2026",
-          "insight": "The core technical question is whether the `staletip` proposal should adopt an incremental approach, starting with relaying only stale headers to gain most benefits with less initial complexity.",
-          "summary": "Developers are discussing a new way for Bitcoin nodes to share information about blocks that didn't make it into the main chain. This helps the network react faster to chain changes, improving overall stability and security.",
-          "technical_summary": "A proposal for a new `staletip` P2P message aims to improve the relay of recent stale tips between Bitcoin nodes. Antoine Poinsot suggests an incremental approach, advocating for an initial implementation that relays only stale headers. This strategy is argued to provide most of the intended benefits with reduced complexity. The discussion now centers on whether to adopt this phased architectural approach, starting with headers before potentially expanding to full stale tip relay.",
-          "author": "Ram",
-          "author_uuid": "auto_ram",
-          "is_original_author": true
+          "link": "https://gnusha.org/pi/bitcoindev/oBD8E4x4wLHU_TcMdLuADKLL48HcUAhyf7NCDOufueOMfRuJnF1bDnmCzUxqkscA41b1dVgC8lVH3nsueIYVVjTiDnobz0M3e345qHttx4w=@protonmail.com",
+          "snippet": "On Monday, November 16th, 2026 at 2:18 AM, Anthony Towns <aj@erisian.com.au> wrote:  > Hmm, Claude argues that I unfairly misinterpreted\u2026",
+          "insight": "The core technical question revolves around how to ensure unambiguous communication of complex technical proposals to prevent misinterpretations and streamline development.",
+          "summary": "Developers are discussing the importance of clear communication in technical proposals to avoid misunderstandings. Ensuring everyone is on the same page helps accelerate progress on Bitcoin's core development.",
+          "technical_summary": "The current discussion reflects on challenges in accurately conveying complex technical arguments within development proposals. Participants note instances where previous drafts or arguments were misinterpreted, highlighting the need for precise language and unambiguous articulation of architectural implications. The ongoing dialogue implicitly emphasizes refining communication strategies to ensure all contributors share a common understanding of proposed changes and their potential impact on the Bitcoin Core codebase, thereby streamlining review processes and reducing potential for misaligned development efforts.",
+          "author": "'Antoine Poinsot' via Bitcoin Development Mailing List",
+          "author_uuid": "can_antoine_poinsot",
+          "is_original_author": false
         },
         {
           "thread_id": "<avHvtxnvoNwbczC8@erisian.com.au>",
@@ -1141,53 +1121,34 @@
           "source": "mailing_list",
           "link": "https://gnusha.org/pi/bitcoindev/ktZb1ZnKZJb1qh4uGvGybRoeiMA8nD-BfozO92FtGWs3ELzPPM8QMcwL8qZJVRF9kk0jDdubLPUlxhj2YHk1Ndu2A5uMVGC8swfHAuE-IrQ=@protonmail.com",
           "snippet": "On Monday, November 9th, 2026 at 11:23 AM, Anthony Towns <aj@erisian.com.au> wrote:  > On Thu, Nov 05, 2026 at 11:19:58PM +0000,\u2026",
-          "insight": "The core technical question revolves around the optimal chunking and Merkle tree design for securely and efficiently sharing the UTXO set over the P2P network.",
-          "summary": "Developers are discussing a new way for Bitcoin nodes to share the UTXO set directly, making it faster and more secure for new nodes to sync without relying on third parties. This proposal aims to significantly speed up initial blockchain synchronization for new nodes by allowing them to securely download the UTXO set directly from peers, enhancing decentralization and reducing reliance on external sources.",
-          "technical_summary": "A BIP proposes a P2P mechanism for UTXO set sharing to facilitate AssumeUTXO, eliminating reliance on third-party dumps. The current discussion centers on the 'Chunk Merkle Tree' design, specifically how the serialized UTXO set (header + body) is split into fixed 3,900-byte chunks for verifiable transmission. Key technical considerations involve optimizing this chunking strategy, ensuring efficient Merkle tree construction, and integrating the new data structures and protocol messages into the existing P2P network. The debate is on the precise architectural details for secure and performant UTXO set distribution, balancing verification overhead with transmission efficiency.",
+          "insight": "The central technical question is how to introduce new protocol capabilities while maintaining Bitcoin's security, decentralization, and long-term scalability.",
+          "summary": "Developers are exploring new methods to enhance Bitcoin transaction efficiency and privacy, aiming to reduce costs and improve user experience for future applications.",
+          "technical_summary": "The discussion centers on a potential soft fork proposal to introduce a new script primitive, aiming to enable more complex yet compact transaction constructions. Architectural debates include the trade-offs between opcode flexibility and potential for denial-of-service vectors, as well as the impact on UTXO set growth and validation costs. Next steps involve a detailed security analysis and a formal BIP draft outlining the proposed changes and their activation mechanism.",
           "author": "'Antoine Poinsot' via Bitcoin Development Mailing List",
           "author_uuid": "can_antoine_poinsot",
           "is_original_author": false
         },
         {
-          "thread_id": "<4463542b-5553-4b3c-8c7f-3ce7edb7bb1fn@googlegroups.com>",
-          "subject": "Re: Lichen: L2s In CHannels ENforced on bitcoin",
-          "category": "bitvm",
-          "label": "BitVM",
+          "thread_id": "<00eb7789-999b-4087-a0fa-5623fcf9fd5b@murch.one>",
+          "subject": "RFC: Two years of BIP Editing, time for some new faces?",
+          "category": "bip-process",
+          "label": "BIP Process",
           "reply_count": 1,
           "unique_authors": 1,
           "score": 1,
-          "last_post": "2026-11-01",
+          "last_post": "2026-11-18",
           "source": "mailing_list",
-          "link": "https://gnusha.org/pi/bitcoindev/eed59d04-8620-4b04-b97e-48d2432e74fbn@googlegroups.com",
-          "snippet": "I wanted to update on this a bit since it's changed significantly in the  last few weeks:  By using a tweak [1] it's possible to apply\u2026",
-          "insight": "The core technical shift is the proposed adoption of BABE over BitVMX for on-chain dispute resolution, enabled by a new tweak to drastically reduce costs.",
-          "summary": "Developers are making progress on more efficient ways to resolve disputes for advanced Bitcoin applications, aiming to significantly lower costs and complexity if an on-chain resolution becomes necessary.",
-          "technical_summary": "The architectural debate for off-chain dispute resolution has shifted, with a new proposal to utilize BABE instead of BitVMX for on-chain settlement. This change, enabled by a specific 'tweak', is expected to drastically reduce the on-chain resource consumption and cost of disputes. The next steps involve detailing the implementation of this tweak and integrating BABE into the dispute resolution framework, requiring a re-evaluation of existing protocol designs.",
-          "author": "waxwing/ AdamISZ",
-          "author_uuid": "can_adam_gibson",
+          "link": "https://gnusha.org/pi/bitcoindev/62bb6c9b-d3a4-4b5e-97e7-60a2c8c91a2a@murch.one",
+          "snippet": "Hey everyone,  I would like to resurface the discussion whether we should make  additions to the BIP Editor team. I\u2019m afraid that in the\u2026",
+          "insight": "The core technical question is whether the current BIP Editor team is adequately staffed to maintain the desired pace of Bitcoin Improvement Proposal review and publication.",
+          "summary": "To ensure new Bitcoin improvements are reviewed and published efficiently, the community is discussing adding more editors to the BIP team, benefiting everyone by speeding up proposal processing.",
+          "technical_summary": "Murch has initiated a discussion regarding the current capacity constraints of the BIP Editor team, noting a recent inability to keep pace with incoming Bitcoin Improvement Proposals (BIPs). The core proposal is to expand the team to alleviate bottlenecks in the review and publication process, which necessitates defining selection criteria and a formal onboarding process for new editors.",
+          "author": "Murch",
+          "author_uuid": "can_mark_erhardt",
           "is_original_author": false
         },
         {
-          "thread_id": "<CAFYm+Pe8_a568_=GtHhHMVZUF8j8JSS_eYJEaTSbJnOn-dkCHw@mail.gmail.com>",
-          "subject": "Re: BIP draft: Co-signer Spending Policies (v2.1)",
-          "category": "other",
-          "label": "Other",
-          "reply_count": 1,
-          "unique_authors": 1,
-          "score": 1,
-          "last_post": "2026-11-08",
-          "source": "mailing_list",
-          "link": "https://gnusha.org/pi/bitcoindev/CAFYm+PeOHzp7A8_pcCFQ0tG95Rt_Zd7v4t3c50DAMkzxa91Czw@mail.gmail.com",
-          "snippet": "Hi bitcoin,  I'd like feedback on a draft that standardizes the policy a co-signer enforces, not the co-signer itself.  A co-signer that\u2026",
-          "insight": "The core technical question revolves around standardizing co-signer policies to enable predicate-based conditional signing, thereby facilitating covenant emulation.",
-          "summary": "A new proposal aims to standardize how co-signers enforce spending rules, making multi-signature setups more secure and flexible. This could enable advanced features like conditional spending, similar to covenants.",
-          "technical_summary": "A new BIP draft proposes standardizing the policies enforced by co-signers, rather than the co-signer entities themselves. This architecture leverages co-signers that sign only when a specific predicate holds, a known method for emulating covenant-like behavior on Bitcoin. Draft v2.1 has been published, and the community is invited to review and discuss its technical specifications and implications for advanced multi-signature schemes on Delving Bitcoin. The goal is to define a common framework for these conditional signing policies and gather feedback on its implementation details.",
-          "author": "Luke Carriere",
-          "author_uuid": "auto_luke_carriere",
-          "is_original_author": true
-        },
-        {
-          "thread_id": "<CADrHc-2AuauYHrrgS6aXmcmJWPcE1pegDHV9HdOoQac9+GCn+w@mail.gmail.com>",
+          "thread_id": "<370af76f-6bcf-435d-bf88-fd4170d18537@murch.one>",
           "subject": "BIP Draft Post-Quantum Address Format (bc1z) using ML-DSA-65",
           "category": "quantum",
           "label": "Quantum Resistance",
@@ -1196,14 +1157,33 @@
           "score": 1,
           "last_post": "2026-11-13",
           "source": "mailing_list",
-          "link": "https://gnusha.org/pi/bitcoindev/274e5242-4654-4f7c-b56f-609a3f2ee132@murch.one",
-          "snippet": "Hey Hans,  Thanks for taking it with humor. In the past couple years, we had at least five PQ-output type proposals  chucked over the\u2026",
-          "insight": "The debate shifts toward leveraging BIP-459 key recovery to further optimize Cross-Input Signature Aggregation (CISA) space savings.",
-          "summary": "Developers are discussing a new signature aggregation method (BIP-459) that could significantly lower Bitcoin transaction fees and reduce block space usage.\nBy allowing parts of a cryptographic key to be recovered automatically, this technique optimizes transaction efficiency without compromising security.",
-          "technical_summary": "Boris Nagaev highlighted that utilizing BIP-459 full aggregation for P2MR or P2TRH allows for the recovery of an elliptic curve (EC) key in Cross-Input Signature Aggregation (CISA). This optimization aims to reduce witness data size by eliminating the need to explicitly publish every public key on-chain. The technical debate centers on the security implications of this key recovery shortcut and how it integrates with taproot-based constructs. Further work is needed to mathematically verify the recovery scheme's robustness and define the standard transaction parser rules for CISA.",
-          "author": "Murch",
-          "author_uuid": "can_mark_erhardt",
+          "link": "https://gnusha.org/pi/bitcoindev/CADrHc-2AuauYHrrgS6aXmcmJWPcE1pegDHV9HdOoQac9+GCn+w@mail.gmail.com",
+          "snippet": "Hey Much,    Thanks for the feedback. I see now that I need to do more research, especially on the ongoing discussions. There are too\u2026",
+          "insight": "The current focus is on comprehensive developer research and understanding of existing technical discussions before advancing specific proposals.",
+          "summary": "A developer is actively researching community feedback and ongoing discussions to ensure well-informed decisions are made, contributing to robust and secure Bitcoin Core improvements.",
+          "technical_summary": "A developer is undertaking further research into various ongoing technical discussions and feedback received, indicating a need for deeper understanding of multiple architectural points before proceeding. The immediate next step involves comprehensive investigation into existing debates and proposals to ensure all perspectives are thoroughly considered. This process aims to fully grasp the nuances of complex areas, ensuring a solid foundation for future development decisions and contributions.",
+          "author": "Hans Stringuer",
+          "author_uuid": "auto_hans_stringuer",
           "is_original_author": false
+        },
+        {
+          "thread_id": "<29174459-1523-4cf8-a20f-5ce1abc302c3n@googlegroups.com>",
+          "subject": "Re: [BIP Proposal] Transport Feature Negotiation",
+          "category": "other",
+          "label": "Other",
+          "reply_count": 1,
+          "unique_authors": 1,
+          "score": 1,
+          "last_post": "2026-11-13",
+          "source": "mailing_list",
+          "link": "https://gnusha.org/pi/bitcoindev/1b45f614-6251-4c79-8297-f880edc07c8bn@googlegroups.com",
+          "snippet": "Hi everyone,  TL;DR (using Terms and Defs below): In order to support encryption upgrades  and the addition of authentication to P2P, I\u2026",
+          "insight": "The Transport Feature Negotiation proposal has advanced to a draft BIP, presenting concrete design decisions for review.",
+          "summary": "Developers are working on a new protocol to enable encryption and authentication for peer-to-peer communication, significantly enhancing Bitcoin's network security and privacy.\nThis initiative aims to make all network connections more robust and private for users.",
+          "technical_summary": "A proposal for a Transport Feature Negotiation protocol is underway, designed to facilitate future encryption upgrades and the addition of authentication to Bitcoin's P2P network. Liam Gilligan has now formalized this into a draft BIP, submitting a pull request that includes specific design decisions addressing previously open questions. The technical community is invited to review these concrete architectural choices to move forward with enhancing network security and privacy.",
+          "author": "Liam Gilligan",
+          "author_uuid": "auto_liam_gilligan",
+          "is_original_author": true
         }
       ],
       "top_bips": [
@@ -1213,37 +1193,32 @@
           "mentions": 18
         },
         {
-          "bip_id": "360",
-          "title": "Pay-to-Merkle-Root (P2MR)",
-          "mentions": 8
+          "bip_id": "54",
+          "title": "Consensus Cleanup",
+          "mentions": 9
         },
         {
           "bip_id": "352",
           "title": "Silent Payments",
-          "mentions": 6
+          "mentions": 7
         },
         {
-          "bip_id": "54",
-          "title": "Consensus Cleanup",
+          "bip_id": "360",
+          "title": "Pay-to-Merkle-Root (P2MR)",
+          "mentions": 7
+        },
+        {
+          "bip_id": "39",
+          "title": "Mnemonic code for generating deterministic keys",
           "mentions": 6
         },
         {
           "bip_id": "342",
           "title": "Validation of Taproot Scripts",
           "mentions": 6
-        },
-        {
-          "bip_id": "32",
-          "title": "Hierarchical Deterministic Wallets",
-          "mentions": 5
         }
       ],
       "top_voices": [
-        {
-          "name": "Anthony Towns",
-          "uuid": "can_anthony_towns",
-          "posts": 11
-        },
         {
           "name": "nonAnon",
           "uuid": "auto_nonanon",
@@ -1252,129 +1227,116 @@
         {
           "name": "ZmnSCPxj jxPCSnmZ",
           "uuid": "auto_zmnscpxj_jxpcsnmz",
-          "posts": 9
+          "posts": 8
         },
         {
-          "name": "0xB10C",
-          "uuid": "can_0xb10c",
+          "name": "Anthony Towns",
+          "uuid": "can_anthony_towns",
+          "posts": 8
+        },
+        {
+          "name": "LearnBitcoin.com",
+          "uuid": "auto_learnbitcoin_com",
           "posts": 8
         },
         {
           "name": "Antoine Poinsot",
           "uuid": "can_antoine_poinsot",
-          "posts": 7
-        },
-        {
-          "name": "Anzus",
-          "uuid": "auto_anzus",
-          "posts": 6
-        },
-        {
-          "name": "LearnBitcoin.com",
-          "uuid": "auto_learnbitcoin_com",
-          "posts": 6
+          "posts": 8
         },
         {
           "name": "fanquake",
           "uuid": "can_michael_ford",
+          "posts": 7
+        },
+        {
+          "name": "Murch",
+          "uuid": "can_mark_erhardt",
+          "posts": 5
+        },
+        {
+          "name": "Dave Lund",
+          "uuid": "auto_dave_lund",
           "posts": 5
         }
       ],
       "source_pct": {
-        "delving": 83.6,
-        "mailing_list": 16.4
+        "delving": 78.7,
+        "mailing_list": 21.3
       },
       "source_counts": {
-        "delving": 173,
-        "mailing_list": 34
+        "delving": 163,
+        "mailing_list": 44
       },
       "mailing_list_stale": false,
       "mailing_list_days_since": null,
       "pulse_editorial": {
-        "summary": "Attention has notably shifted away from quantum resistance discussions over the past month, while conversations surrounding Taproot have seen a significant increase in engagement.",
+        "summary": "Developer attention has organically shifted toward Taproot and general security considerations over the past 30 days, while discussions around quantum resistance have faded from their 90-day baseline. Meanwhile, practical scaling and key management proposals continue to drive deep technical debates across Delving Bitcoin and the mailing lists.",
         "insights": [
-          "The most pronounced shift in recent discussions shows a considerable decrease in attention on quantum resistance topics, dropping 9.5 percentage points from the 90-day baseline. In parallel, Taproot-related conversations have organically risen, gaining 8.4 percentage points, indicating a natural re-focus on current protocol capabilities and their broader adoption.",
-          "A concrete proposal that has seen active discussion is the 'BIP Draft Post-Quantum Address Format (bc1z) using ML-DSA-65,' shared on the mailing list. This draft outlines a quantum-resistant address format, with contributors debating its specification and the timing of its pursuit relative to the existence of a formal CRQC standard.",
-          "An open question that continues to be explored is whether wallets should default to Taproot (`bc1p`) receive addresses, particularly as some services still do not support them. This discussion highlights the ongoing challenge of balancing the push for new feature adoption with ensuring seamless user experience across the ecosystem."
+          "Taproot discussions saw the largest surge, rising 7.6 percentage points to 16.6% of overall focus, driven by practical wallet defaults and protocol optimizations like BIP-360, even as quantum-safe address format drafts using ML-DSA-65 (bc1z) are actively evaluated.",
+          "Developers are spending more time discussing multisig and node architecture\u2014specifically leveraging the Nested MuSig2 paper to explore K-of-N Lightning Network nodes and secure Silent Payments for multiparty wallets.",
+          "An open question remains regarding wallet adoption policy: whether client software should default to Taproot addresses (bc1p) immediately, or wait until third-party services and exchanges universally resolve lingering compatibility issues."
         ]
       }
     },
     "90d": {
       "window_days": 90,
-      "total_messages": 532,
-      "total_threads": 189,
-      "unique_voices": 172,
+      "total_messages": 520,
+      "total_threads": 193,
+      "unique_voices": 173,
       "themes": [
         {
           "category": "quantum",
           "label": "Quantum Resistance",
-          "msgs": 108,
-          "threads": 26,
+          "msgs": 96,
+          "threads": 27,
           "voices": 36,
-          "share": 21.8,
+          "share": 19.6,
           "trend": "fading"
         },
         {
           "category": "mining",
           "label": "Mining Protocol",
-          "msgs": 44,
-          "threads": 16,
-          "voices": 29,
-          "share": 8.9,
+          "msgs": 46,
+          "threads": 18,
+          "voices": 31,
+          "share": 9.4,
           "trend": "steady"
         },
         {
           "category": "taproot",
           "label": "Taproot",
-          "msgs": 43,
+          "msgs": 44,
           "threads": 13,
           "voices": 23,
-          "share": 8.7,
+          "share": 9.0,
           "trend": "rising"
         },
         {
           "category": "p2p-network",
           "label": "P2P Network",
-          "msgs": 38,
+          "msgs": 37,
           "threads": 6,
           "voices": 11,
-          "share": 7.7,
-          "trend": "steady"
+          "share": 7.5,
+          "trend": "fading"
         },
         {
           "category": "consensus-cleanup",
           "label": "Consensus Cleanup",
-          "msgs": 33,
-          "threads": 4,
-          "voices": 5,
-          "share": 6.7,
+          "msgs": 36,
+          "threads": 5,
+          "voices": 6,
+          "share": 7.3,
           "trend": "fading"
         },
         {
           "category": "multisig-threshold",
           "label": "Multisig",
-          "msgs": 30,
+          "msgs": 31,
           "threads": 7,
-          "voices": 12,
-          "share": 6.1,
-          "trend": "rising"
-        },
-        {
-          "category": "wallet-keys",
-          "label": "Wallet & Keys",
-          "msgs": 25,
-          "threads": 7,
-          "voices": 15,
-          "share": 5.1,
-          "trend": "fading"
-        },
-        {
-          "category": "lightning",
-          "label": "Lightning / L2",
-          "msgs": 24,
-          "threads": 8,
-          "voices": 15,
-          "share": 4.8,
+          "voices": 14,
+          "share": 6.3,
           "trend": "rising"
         },
         {
@@ -1382,9 +1344,27 @@
           "label": "Covenants & Vaults",
           "msgs": 23,
           "threads": 8,
-          "voices": 17,
-          "share": 4.6,
-          "trend": "rising"
+          "voices": 18,
+          "share": 4.7,
+          "trend": "steady"
+        },
+        {
+          "category": "lightning",
+          "label": "Lightning / L2",
+          "msgs": 22,
+          "threads": 8,
+          "voices": 14,
+          "share": 4.5,
+          "trend": "steady"
+        },
+        {
+          "category": "wallet-keys",
+          "label": "Wallet & Keys",
+          "msgs": 22,
+          "threads": 7,
+          "voices": 15,
+          "share": 4.5,
+          "trend": "fading"
         },
         {
           "category": "utxo-sync",
@@ -1392,7 +1372,7 @@
           "msgs": 21,
           "threads": 5,
           "voices": 10,
-          "share": 4.2,
+          "share": 4.3,
           "trend": "fading"
         }
       ],
@@ -1402,9 +1382,9 @@
           "subject": "PQC output type discussion",
           "category": "quantum",
           "label": "Quantum Resistance",
-          "reply_count": 21,
+          "reply_count": 16,
           "unique_authors": 11,
-          "score": 231,
+          "score": 176,
           "last_post": "2026-11-03",
           "source": "delving",
           "link": "https://delvingbitcoin.org/t/pqc-output-type-discussion/2749/42",
@@ -1462,9 +1442,9 @@
           "reply_count": 16,
           "unique_authors": 3,
           "score": 48,
-          "last_post": "2026-11-03",
+          "last_post": "2026-11-22",
           "source": "delving",
-          "link": "https://delvingbitcoin.org/t/bounds-on-chain-length-with-bip-54-timewarp-fixes/2899/30",
+          "link": "https://delvingbitcoin.org/t/bounds-on-chain-length-with-bip-54-timewarp-fixes/2899/31",
           "snippet": "1. Timewarp fix rules\nBIP-54 proposes (among other things) two rules to curb undesirable tricks that can be played with block header\u2026",
           "insight": "The core technical question is how to effectively implement new consensus rules via BIP-54 to prevent block header timestamp manipulation and secure difficulty adjustments.",
           "summary": "Developers are discussing a proposal (BIP-54) to strengthen Bitcoin's timestamping rules. This aims to prevent manipulation of block times, ensuring the network's difficulty adjustments remain fair and predictable for long-term security.",
@@ -1485,9 +1465,9 @@
           "source": "delving",
           "link": "https://delvingbitcoin.org/t/tcp-hole-punching-for-bitcoin-nodes-behind-home-nats/2497/35",
           "snippet": "While @willcl-ark and I were discussing\nDid the number of reachable nodes in residential ISPs increase since Bitcoin Core v30.0? -\u2026",
-          "insight": "The core technical question has shifted from merely increasing node reachability to critically evaluating its security implications for home users in light of recent protocol and TCP stack vulnerabilities.",
-          "summary": "We're exploring ways to help more home users run reachable Bitcoin nodes, boosting network decentralization and resilience. This involves carefully balancing ease of connectivity with robust security against potential network attacks.",
-          "technical_summary": "The discussion centers on increasing reachable nodes in residential ISPs, particularly through techniques like holepunching. Key questions include the specific problems solved by such features, how to implement them to raise attacker costs, and the security implications for home users given recent TCP stack and protocol vulnerabilities (e.g., CVE-2026-117350, CVS-2026-117349). The architectural debate weighs the benefits of enhanced decentralization against the risks of exposing home nodes to potential exploits, questioning if increased reachability is 'sensible' under current conditions.",
+          "insight": "The discussion has pivoted from observing residential node growth to critically assessing the security implications and optimal configurations for home users given recent vulnerabilities.",
+          "summary": "We're exploring how to make running a Bitcoin node at home even safer and more reliable for everyone. This ensures the entire Bitcoin network remains robust and secure as more people participate.",
+          "technical_summary": "The thread started by noting an increase in reachable Bitcoin Core nodes on residential ISPs since v30.0. Anthony Towns then introduced a crucial security dimension, questioning the 'sensibility' of home node configurations in light of recent vulnerabilities, specifically CVE-2026-117350 (Bitcoin TCP stack), CVS-2026-117349 (Bitcoin protocol), and CVE-2026-98432 (Linux TCP). The core architectural debate now centers on whether current defaults or recommendations adequately protect these increasingly exposed home users. This implies a need to re-evaluate best practices or implement specific mitigations to enhance the security posture of residential nodes.",
           "author": "0xB10C",
           "author_uuid": "can_0xb10c",
           "is_original_author": true
@@ -1504,9 +1484,9 @@
           "source": "delving",
           "link": "https://delvingbitcoin.org/t/what-does-post-quantum-actually-mean-for-a-bitcoin-l2-when-settlement-still-happens-on-a-non-pq-l1/2715/13",
           "snippet": "I\u2019m working on a Post-Quantum State-Channel payment method on Bitcoin, and building it raised a question I think matters beyond my\u2026",
-          "insight": "The core technical question is how to design quantum-resistant Layer 2 peg-in/out mechanisms to secure funds, even if the underlying Layer 1 remains quantum-vulnerable.",
-          "summary": "Developers are actively discussing how to build future-proof payment channels on Bitcoin that can resist quantum computer attacks. This ensures your off-chain funds remain secure, even as technology advances.",
-          "technical_summary": "The debate focuses on the viability of Post-Quantum (PQ) Layer 2 solutions, such as state channels, settling on Bitcoin's currently quantum-vulnerable Layer 1. Consensus suggests this approach is valuable, but critically, the peg-in and peg-out mechanisms must be designed with PQ resistance. The unilateral exit option, exemplified by Lightning Network, is identified as a key 'bridge' component that requires PQ security to prevent fund compromise if the L1's cryptographic primitives are eventually broken.",
+          "insight": "The core technical question is how to ensure the on-chain 'last recourse' mechanism of Bitcoin state channels remains quantum-secure, even if off-chain components are already protected.",
+          "summary": "Developers are working to future-proof Bitcoin's fast off-chain payment channels against potential threats from quantum computers. This ensures your instant transactions remain secure and reliable for the long term.",
+          "technical_summary": "The discussion revolves around achieving post-quantum security for Bitcoin state channels, using Lightning Network as an illustrative example. The primary technical challenge identified is securing the 'unilateral exit' or 'last recourse' mechanism, which involves an on-chain transaction. While off-chain components can be made post-quantum, the interaction with the main blockchain during a forced channel closure requires robust quantum-resistant solutions to prevent potential exploits or economic incentives from compromising funds.",
           "author": "Hal_03",
           "author_uuid": "auto_hal_03",
           "is_original_author": true
@@ -1561,9 +1541,9 @@
           "source": "mailing_list",
           "link": "https://gnusha.org/pi/bitcoindev/370af76f-6bcf-435d-bf88-fd4170d18537@murch.one",
           "snippet": "Dear Bitcoin Development Community,  I'm sharing a draft BIP for a quantum-resistant address format for Bitcoin,  developed as part of\u2026",
-          "insight": "The debate shifts toward leveraging BIP-459 key recovery to further optimize Cross-Input Signature Aggregation (CISA) space savings.",
-          "summary": "Developers are discussing a new signature aggregation method (BIP-459) that could significantly lower Bitcoin transaction fees and reduce block space usage.\nBy allowing parts of a cryptographic key to be recovered automatically, this technique optimizes transaction efficiency without compromising security.",
-          "technical_summary": "Boris Nagaev highlighted that utilizing BIP-459 full aggregation for P2MR or P2TRH allows for the recovery of an elliptic curve (EC) key in Cross-Input Signature Aggregation (CISA). This optimization aims to reduce witness data size by eliminating the need to explicitly publish every public key on-chain. The technical debate centers on the security implications of this key recovery shortcut and how it integrates with taproot-based constructs. Further work is needed to mathematically verify the recovery scheme's robustness and define the standard transaction parser rules for CISA.",
+          "insight": "The core technical question is how new quantum-resistant address format proposals should integrate with the Bitcoin community's existing, multi-year PQC research and development efforts.",
+          "summary": "Bitcoin developers are actively exploring new address formats to safeguard funds against potential future threats from quantum computers. This proactive work aims to ensure Bitcoin's long-term security and resilience.",
+          "technical_summary": "Hans Stringuer has introduced an updated draft BIP for a quantum-resistant address format, building on the `safe-btc` project. The community is debating the urgency, with Zeeshan Ali Khan advocating for pre-CRQC implementation. Murch highlights that extensive Post-Quantum Cryptography (PQC) research for Bitcoin has been underway for years, suggesting the new proposal needs to be contextualized within existing efforts. The architectural challenge lies in integrating novel address formats with established PQC development paths.",
           "author": "Hans Stringuer",
           "author_uuid": "auto_hans_stringuer",
           "is_original_author": true
@@ -1588,44 +1568,6 @@
           "is_original_author": true
         },
         {
-          "thread_id": "<td8wPWxRVg0rQIdP41uibTvWuIoCvGYpvfX022TaDurf-qu1TMm1TmWogw-JTs4C7Mt-97cvJCBW66z4g-Vc2fsSoo-Qxfm8Lcnd384Uink=@wuille.net>",
-          "subject": "Giving teeth to expected EC disabling: P2XX(-T)(-ML)",
-          "category": "other",
-          "label": "Other",
-          "reply_count": 2,
-          "unique_authors": 2,
-          "score": 4,
-          "last_post": "2026-08-18",
-          "source": "mailing_list",
-          "link": "https://gnusha.org/pi/bitcoindev/FhcVTVM6flM4OpPCZpaGbC3msQG9kG48uvyz6T4qdNv8iAq-clhoMmNmRWSSWs78hug3KZSsKG3Mi2lZIzo5PFY-WvbvxdA0Ssj-G2HCz2o=@proton.me",
-          "snippet": "FWIW: there is a very long thread about this here: https://groups.google.com/g/bitcoindev/c/d7o74e-teNo/m/lLKjufQZAgAJ  On Tue, Aug 18,\u2026",
-          "insight": "The core technical question is shifting from general ZKP system design to the specific selection of cryptographic curve and point parameters.",
-          "summary": "Developers are discussing fundamental cryptographic choices to enhance Bitcoin's capabilities and security. This involves selecting specific cryptographic curves and points crucial for future protocol improvements or advanced features.",
-          "technical_summary": "The discussion, previously concerning general Zero-Knowledge Proof (ZKP) systems, is now narrowing to the concrete cryptographic parameters needed. Specifically, the focus is on agreeing upon the use of a '192-bit curve' and a 'NUMS (Nothing-Up-My-Sleeve) point' for specific applications. This involves ensuring robust cryptographic primitive selection rather than broader architectural debate on ZKPs themselves.",
-          "author": "Erik Aronesty",
-          "author_uuid": "can_erik_aronesty",
-          "is_original_author": false
-        },
-        {
-          "thread_id": "<FhcVTVM6flM4OpPCZpaGbC3msQG9kG48uvyz6T4qdNv8iAq-clhoMmNmRWSSWs78hug3KZSsKG3Mi2lZIzo5PFY-WvbvxdA0Ssj-G2HCz2o=@proton.me>",
-          "subject": "Giving teeth to expected EC disabling: P2XX(-T)(-ML)",
-          "category": "quantum",
-          "label": "Quantum Resistance",
-          "reply_count": 2,
-          "unique_authors": 2,
-          "score": 4,
-          "last_post": "2026-08-19",
-          "source": "mailing_list",
-          "link": "https://gnusha.org/pi/bitcoindev/Bx0LA0afwRjPIcEol98t7ztodzX7mIBeA1kGLV-rAicu4IuGBkME3A-UzBC5KJOawIciVn1CW3bCILlyVpMJU_MAgqV5OBjSFQiZrX60fb4=@wuille.net",
-          "snippet": "Hi conduition,  > Given the polynomial efficiency of Shor, and the massive time/money  investment needed to build quantum computers, we\u2026",
-          "insight": "The core discussion centers on defining a reliable social 'canary' mechanism to responsibly trigger future consensus-critical upgrades, like quantum resistance, in response to long-term threats.",
-          "summary": "To safeguard Bitcoin's future, developers are discussing the long-term threat of quantum computing and exploring how the community can coordinate necessary upgrades to maintain robust security.",
-          "technical_summary": "Discussions revolve around the viability and timeline of quantum computers leveraging Shor's algorithm to compromise Bitcoin's cryptography, with skepticism expressed regarding near-term threats requiring massive investment. Concurrently, a key focus is on designing a 'canary' mechanism: a social signaling tool distinct from typical block-based signaling, intended to effectively push and coordinate community consensus for future protocol activations. This involves architectural considerations for establishing a reliable and trust-minimized method to activate quantum-resistant upgrades or other critical changes, preemptively preparing for long-term security challenges without triggering premature or unnecessary forks.",
-          "author": "waxwing/ AdamISZ",
-          "author_uuid": "can_adam_gibson",
-          "is_original_author": false
-        },
-        {
           "thread_id": "<-w8D4WbD7zY2bfYQIES40iBZQWbZx6ab-S6EW8tWsMEFaHO9NEOLUkte_MZZgNQDd0pljCM2wD1Ccnk3BfjwLPgCiVz-NfTwjHJ4aZHUqUw=@proton.me>",
           "subject": "Re: SHRINCS: an efficient hash-based signature scheme\n for Bitcoin (first draft)",
           "category": "signatures-sighash",
@@ -1642,6 +1584,63 @@
           "technical_summary": "The SHRINCS Working Group has published a first draft BIP for a semi-stateful hash-based signature scheme. Antoine Riard has initiated a discussion on the signature's mode of accounting, specifically questioning its integration with stateless off-chain protocols like Lightning. The core technical challenge is to define how SHRINCS's semi-stateful properties can be reconciled with the stateless requirements of these second-stage transactions, requiring a clear specification of state management or accounting mechanisms for such use cases.",
           "author": "'conduition' via Bitcoin Development Mailing List",
           "author_uuid": "auto_conduition",
+          "is_original_author": true
+        },
+        {
+          "thread_id": "<40a9f73d-481f-47e6-a64b-acfb2c7f4fa8n@googlegroups.com>",
+          "subject": "Quantum Landmines and Vulnerable Coin Auctions",
+          "category": "quantum",
+          "label": "Quantum Resistance",
+          "reply_count": 1,
+          "unique_authors": 2,
+          "score": 2,
+          "last_post": "2026-11-17",
+          "source": "mailing_list",
+          "link": "https://gnusha.org/pi/bitcoindev/eOU8hptEwRmWqXhtvW0jh5hf3jDya8G-Uw2t2SPPWS8FLDuCx4K56XczgyVhUzj3_fAUG2hrhnAFz7pLiQJhRURHr93f_-AyPWHzoGVI95I=@proton.me",
+          "snippet": "I've had fun discussing these rough ideas regarding post-quantum migration  to a few people in the last week. Rather than describing\u2026",
+          "insight": "The discussion is shifting towards the feasibility and requirements of proactive user-driven quantum-safe output creation versus a more generalized protocol-level migration.",
+          "summary": "Developers are actively discussing strategies to future-proof Bitcoin against quantum computing threats, exploring how users can proactively secure their funds before such risks emerge.",
+          "technical_summary": "The ongoing discussion centers on post-quantum migration strategies, specifically exploring soft-fork based approaches. A key proposal involves users proactively creating 'trivial quantum-safe outputs' before a theoretical 'q-day,' embedding a proof-of-knowledge. This necessitates users being online and aware to take these actions pre-emptively. The debate revolves around the feasibility and requirements of such proactive user-driven migration versus more generalized protocol-level changes, and the architectural implications of integrating new cryptographic primitives via soft fork.",
+          "author": "Cory Fields",
+          "author_uuid": "can_cory_fields",
+          "is_original_author": true
+        },
+        {
+          "thread_id": "<12a1a76d-0e27-4035-9fe8-a47524729c47n@googlegroups.com>",
+          "subject": "Re: BIP Proposal: ML-KEM Key Establishment",
+          "category": "quantum",
+          "label": "Quantum Resistance",
+          "reply_count": 1,
+          "unique_authors": 2,
+          "score": 2,
+          "last_post": "2026-11-16",
+          "source": "mailing_list",
+          "link": "https://gnusha.org/pi/bitcoindev/9386e438-b305-46cd-b64f-5337be9f5961n@googlegroups.com",
+          "snippet": "Hi everyone,  Based on discussions started by Laolu about post-quantum key establishment  in the P2P protocol [1], I earlier proposed a\u2026",
+          "insight": "The core technical question has shifted from an internal BIP proposal to evaluating the convergence potential with a 'very similar' Hybrid Key Encapsulation (HKE) design from the Elements project.",
+          "summary": "Bitcoin Core developers are actively working to future-proof the network's communication against potential quantum computer attacks, ensuring secure and private connections for all nodes.",
+          "technical_summary": "The discussion on post-quantum key establishment in the P2P protocol, initially proposed via a BIP for transport layer negotiation, has gained new context. A 'very similar' Hybrid Key Encapsulation (HKE) design has been proposed for the Elements project, indicating potential for shared architectural approaches. The technical debate now includes evaluating the commonalities and differences between these proposals to ensure a robust, interoperable, and quantum-resistant solution for Bitcoin Core's P2P communication.",
+          "author": "Liam Gilligan",
+          "author_uuid": "auto_liam_gilligan",
+          "is_original_author": true
+        },
+        {
+          "thread_id": "<4bbb1017-8080-4916-8f85-082d2ebf5eacn@googlegroups.com>",
+          "subject": "=?UTF-8?Q?Re=3A_=5Bbitcoindev=5D_=5Bbitcoin=2Ddev=5D_Draft_BIP_for_discuss?=\n\t=?UTF-8?Q?ion=3A_Time=2DShifted_Proof_of_Work_=28TSPOW=29_=E2=80=94_an_informational?=\n\t=?UTF-8?Q?_consensus=2Ddesign_proposal?=",
+          "category": "mining",
+          "label": "Mining Protocol",
+          "reply_count": 1,
+          "unique_authors": 2,
+          "score": 2,
+          "last_post": "2026-08-28",
+          "source": "mailing_list",
+          "link": "https://gnusha.org/pi/bitcoindev/CACgYNOKLNCP4_CkWUU5H0cDCcwqbKY++KxP33gjKJKOd861BFQ@mail.gmail.com",
+          "snippet": "Hi all,  I am sharing a draft BIP for feedback before submitting it to the bips repository. It is classified as Informational: it\u2026",
+          "insight": "The core technical question revolves around whether the proposed consensus design pattern, potentially involving block header changes, can be implemented without a hard fork.",
+          "summary": "A new informational BIP is under review, documenting a consensus design pattern and its security implications. The discussion centers on whether adopting such a pattern would necessitate a disruptive hard fork or could be achieved through compatible, non-breaking changes.",
+          "technical_summary": "An informational BIP detailing a consensus design pattern and its security analysis is under review. The technical debate immediately questions if implementing this pattern would necessitate a hard fork, particularly given potential \"changes the block header.\" Saint Wenhao argues it could be a \"no-fork\" if the changes are compatible, highlighting the critical technical distinction between consensus-breaking modifications and those that can be adopted without disrupting network compatibility.",
+          "author": "Jack Liao",
+          "author_uuid": "auto_jack_liao",
           "is_original_author": true
         },
         {
@@ -1664,41 +1663,22 @@
           "is_original_author": true
         },
         {
-          "thread_id": "<CALZpt+HRNFdtWUpg4v2aj9CRMamS7eG9Nem3mdxJq4sZEtOL6w@mail.gmail.com>",
-          "subject": "post-quantum: solution ideas to \"tripwire\"game-theory\n issues + a certificate-based rescue protocol",
-          "category": "quantum",
-          "label": "Quantum Resistance",
+          "thread_id": "<CALeFGL04_h6212x9D0u7-uJSyDDAyie-cohBazYS3Yo9P36NVA@mail.gmail.com>",
+          "subject": "btc-verified October Update: Connecting Map to Territory",
+          "category": "other",
+          "label": "Other",
           "reply_count": 1,
           "unique_authors": 2,
           "score": 2,
-          "last_post": "2026-08-20",
+          "last_post": "2026-10-23",
           "source": "mailing_list",
-          "link": "https://gnusha.org/pi/bitcoindev/UW5dOJNFjgt67sz-2sRUPeMJi0XL6_wSm7zKCmSoj_8IzkQavc-Vo9vwiR7Tbaz7bvP2YrH8b-1JGm-9jNQXQM8dqsw1f1Sl75SHIOt9cOc=@proton.me",
-          "snippet": "Hello,  In this post, I'm detailing (a) what could be a solution for the game-theory difficulties of the \"tripwire\" NUMS point and (b) a\u2026",
-          "insight": "The discussion is pinpointing a strategy to integrate the *spent* status of a NUMS point, committed in a coinbase output, as a game-theoretically robust 'tripwire' signal.",
-          "summary": "Developers are exploring innovative ways to strengthen Bitcoin's security by refining 'tripwire' mechanisms. This ensures crucial safety features are robust against economic incentives, making the network more resilient.",
-          "technical_summary": "The core technical debate revolves around mitigating game-theoretic vulnerabilities associated with a 'tripwire' NUMS point, a pre-defined value intended to trigger a specific protocol behavior. Antoine proposed solutions, and 'conduition' is evaluating one that involves monitoring the *spent* status of a hardcoded NUMS point. This NUMS point would be committed within a dedicated coinbase output, serving as a robust 'proof of work' signal to align incentives and prevent manipulation of the tripwire mechanism.",
-          "author": "Antoine Riard",
-          "author_uuid": "can_antoine_riard",
-          "is_original_author": true
-        },
-        {
-          "thread_id": "<aq9ADn7GscMHWc19@erisian.com.au>",
-          "subject": "[BIP Proposal] BIP324 One-Byte Message Type ID Alias Assignment",
-          "category": "p2p-network",
-          "label": "P2P Network",
-          "reply_count": 1,
-          "unique_authors": 2,
-          "score": 2,
-          "last_post": "2026-09-20",
-          "source": "mailing_list",
-          "link": "https://gnusha.org/pi/bitcoindev/aq-Za9yiCcwQKhPu@petertodd.org",
-          "snippet": "Hello world,  I'd like to propose adding a `set324alias` p2p message for dynamic assignment of BIP324 one-byte message type IDs for P2P\u2026",
-          "insight": "The core technical question is whether to adopt dynamic P2P message type ID assignment for BIP324, balancing flexibility against potential complexity and security considerations.",
-          "summary": "A new proposal aims to make Bitcoin's peer-to-peer communication more flexible and efficient by allowing message types to be assigned dynamically. This could streamline future network upgrades and improve overall network adaptability.",
-          "technical_summary": "Anthony Towns proposes a `set324alias` P2P message to enable dynamic assignment of one-byte message type IDs within BIP324 encrypted transport. This would shift from the current static ID allocation, aiming for greater flexibility in P2P message evolution. The discussion, initiated by Peter Todd's reply, likely revolves around the architectural implications, potential security concerns, and the complexity of managing dynamic IDs versus the benefits of easier future protocol extensions.",
-          "author": "Anthony Towns",
-          "author_uuid": "can_anthony_towns",
+          "link": "https://gnusha.org/pi/bitcoindev/8bfb3bbc-0682-49c8-b461-676aa619688e@mattcorallo.com",
+          "snippet": "Originally published on my site <https://proofofkeags.com/research/2026-10-19-connecting-map-to-territory.html>. Replicating here\u2026",
+          "insight": "The core technical question is whether formal equivalence proofs can reliably ensure consistent behavior across diverse Bitcoin script engine implementations.",
+          "summary": "We're making progress on formally proving that all Bitcoin software interprets transactions identically, which is crucial for preventing errors and enhancing the network's security and reliability. This ensures the 'map' (specifications) perfectly matches the 'territory' (code).",
+          "technical_summary": "The thread, originating from a discussion on connecting formal models ('map') to code implementations ('territory'), now highlights active work on formal equivalence proofs for Bitcoin script engines. Matt Corallo reports that resources are being allocated to use 'agents' (likely automated formal verification tools) to mathematically demonstrate that different script execution environments yield identical results. This effort is critical for guaranteeing consensus consistency across the network and mitigating potential consensus-split vulnerabilities by formally verifying implementation correctness against specifications or other implementations.",
+          "author": "Keagan McClelland",
+          "author_uuid": "can_keagan_mcclelland",
           "is_original_author": true
         }
       ],
@@ -1706,17 +1686,17 @@
         {
           "bip_id": "360",
           "title": "Pay-to-Merkle-Root (P2MR)",
-          "mentions": 67
+          "mentions": 54
         },
         {
           "bip_id": "54",
           "title": "Consensus Cleanup",
-          "mentions": 35
+          "mentions": 39
         },
         {
           "bip_id": "340",
           "title": "Schnorr Signatures for secp256k1",
-          "mentions": 19
+          "mentions": 20
         },
         {
           "bip_id": "361",
@@ -1738,17 +1718,7 @@
         {
           "name": "Anzus",
           "uuid": "auto_anzus",
-          "posts": 30
-        },
-        {
-          "name": "Pieter Wuille",
-          "uuid": "can_pieter_wuille",
-          "posts": 30
-        },
-        {
-          "name": "conduition",
-          "uuid": "auto_conduition",
-          "posts": 27
+          "posts": 25
         },
         {
           "name": "Anthony Towns",
@@ -1756,24 +1726,34 @@
           "posts": 25
         },
         {
+          "name": "conduition",
+          "uuid": "auto_conduition",
+          "posts": 23
+        },
+        {
           "name": "ZmnSCPxj jxPCSnmZ",
           "uuid": "auto_zmnscpxj_jxpcsnmz",
           "posts": 23
         },
         {
+          "name": "Pieter Wuille",
+          "uuid": "can_pieter_wuille",
+          "posts": 22
+        },
+        {
           "name": "Adam Gibson",
           "uuid": "can_adam_gibson",
-          "posts": 20
+          "posts": 18
         },
         {
           "name": "Zawy",
           "uuid": "can_zawy",
-          "posts": 17
+          "posts": 18
         },
         {
           "name": "Duncan0k",
           "uuid": "auto_duncan0k",
-          "posts": 14
+          "posts": 15
         }
       ],
       "source_pct": {
@@ -1781,8 +1761,8 @@
         "mailing_list": 18.8
       },
       "source_counts": {
-        "delving": 432,
-        "mailing_list": 100
+        "delving": 422,
+        "mailing_list": 98
       },
       "mailing_list_stale": false,
       "mailing_list_days_since": null

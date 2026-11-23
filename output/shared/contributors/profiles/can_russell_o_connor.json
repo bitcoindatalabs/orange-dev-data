@@ -30,7 +30,7 @@
   "first_commit": "2019-02-21T04:15:22",
   "last_commit": "2024-09-25T15:05:23",
   "p2016_authored_commits": 54.0,
-  "modern_authored_commits": 3.0,
+  "modern_authored_commits": 1.0,
   "co_authored_commits": 1.0,
   "bips_authored": 0.0,
   "p2016_bips_authored": 0.0,
@@ -44,7 +44,7 @@
   "tier1_reviews_count": 43.0,
   "tier2_reviews_count": 7.0,
   "p2016_reviews_count": 50.0,
-  "modern_reviews_count": 9.0,
+  "modern_reviews_count": 8.0,
   "first_review_date": "2017-08-26T16:10:45",
   "last_review_date": "2026-09-10T16:59:21",
   "prs_authored": 41.0,
@@ -53,20 +53,20 @@
   "avg_pr_ack_velocity_days": 4.078164457070707,
   "avg_concept_lead_time_days": 12.787504340277778,
   "review_reciprocity": 1.2195121951219512,
-  "hybrid_score": 0.5856,
-  "p2016_hybrid_score": 0.7135,
-  "modern_hybrid_score": 0.4685,
+  "hybrid_score": 0.5855,
+  "p2016_hybrid_score": 0.7131,
+  "modern_hybrid_score": 0.4665,
   "impact_score": 30.0,
   "p2016_impact_score": 35.0,
-  "modern_impact_score": 25.0,
+  "modern_impact_score": 24.0,
   "threads_started": 22.0,
   "replies_sent": 218.0,
   "ml_threads": 15.0,
   "delving_threads": 7.0,
   "ml_responses": 216.0,
   "delving_responses": 2.0,
-  "first_active": null,
-  "last_active": null,
+  "first_active": "2011-12-29T00:55:03",
+  "last_active": "2025-12-15T10:31:49",
   "dev_type": "Builder",
   "expertise_domains": [
     "Infrastructure",
@@ -74,19 +74,19 @@
     "Consensus"
   ],
   "expertise_by_source": {
+    "discussion": {
+      "Consensus": 0.31,
+      "Script": 0.69
+    },
     "code": {
       "Infrastructure": 0.975,
       "Script": 0.025
-    },
-    "discussion": {
-      "Script": 0.69,
-      "Consensus": 0.31
     }
   },
   "expertise_domain_scores": {
+    "Consensus": 0.124,
     "Infrastructure": 0.585,
-    "Script": 0.291,
-    "Consensus": 0.124
+    "Script": 0.291
   },
   "p2016_posts": 235.0,
   "modern_posts": 23.0,
@@ -98,7 +98,7 @@
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": false,
-  "global_first_active": "2017-08-26T16:10:45",
+  "global_first_active": "2011-12-29T00:55:03",
   "global_last_active": "2026-09-10T16:59:21",
   "github_location": null,
   "github_company": null,

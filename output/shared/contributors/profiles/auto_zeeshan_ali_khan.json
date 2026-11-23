@@ -47,7 +47,7 @@
   "review_reciprocity": null,
   "hybrid_score": 0.0398,
   "p2016_hybrid_score": 0.0479,
-  "modern_hybrid_score": 0.0967,
+  "modern_hybrid_score": 0.0965,
   "impact_score": 2.0,
   "p2016_impact_score": 3.0,
   "modern_impact_score": 6.0,
@@ -57,8 +57,8 @@
   "delving_threads": 0.0,
   "ml_responses": 1.0,
   "delving_responses": 0.0,
-  "first_active": null,
-  "last_active": null,
+  "first_active": "2026-10-19T12:29:08",
+  "last_active": "2026-11-13T09:49:49",
   "dev_type": "Participant",
   "expertise_domains": [
     "Cryptography",
@@ -66,13 +66,13 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Cryptography": 0.8,
-      "Mempool": 0.2
+      "Mempool": 0.2,
+      "Cryptography": 0.8
     }
   },
   "expertise_domain_scores": {
-    "Cryptography": 0.8,
-    "Mempool": 0.2
+    "Mempool": 0.2,
+    "Cryptography": 0.8
   },
   "p2016_posts": 2.0,
   "modern_posts": 2.0,
@@ -84,8 +84,8 @@
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": false,
-  "global_first_active": "2026-10-19T20:12:14",
-  "global_last_active": "2026-10-19T20:12:14",
+  "global_first_active": "2026-10-19T12:29:08",
+  "global_last_active": "2026-11-13T09:49:49",
   "github_location": "Berlin",
   "github_company": null,
   "github_bio": "Free Software dev, Ecomodernist, into flying & Rust, and love cats.",

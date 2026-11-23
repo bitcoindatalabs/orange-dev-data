@@ -30,7 +30,7 @@
   "first_commit": "2011-11-09T07:40:36",
   "last_commit": "2026-09-25T22:03:43",
   "p2016_authored_commits": 380.0,
-  "modern_authored_commits": 152.0,
+  "modern_authored_commits": 148.0,
   "co_authored_commits": 71.0,
   "bips_authored": 0.0,
   "p2016_bips_authored": 0.0,
@@ -76,9 +76,9 @@
   "expertise_by_source": {
     "code": {
       "Infrastructure": 0.574,
-      "Wallet": 0.401,
-      "Network": 0.018,
       "Consensus": 0.002,
+      "Network": 0.018,
+      "Wallet": 0.401,
       "Script": 0.005
     }
   },

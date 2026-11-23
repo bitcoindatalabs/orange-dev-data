@@ -57,7 +57,7 @@
   "avg_pr_ack_velocity_days": null,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": null,
-  "hybrid_score": 0.4838,
+  "hybrid_score": 0.4837,
   "p2016_hybrid_score": 0.0,
   "modern_hybrid_score": 0.0,
   "impact_score": 25.0,
@@ -69,19 +69,19 @@
   "delving_threads": 0.0,
   "ml_responses": 35.0,
   "delving_responses": 0.0,
-  "first_active": null,
-  "last_active": null,
+  "first_active": "2011-07-08T01:36:23",
+  "last_active": "2012-10-21T13:48:15",
   "dev_type": "Protocol Designer",
   "expertise_domains": [
     "Infrastructure",
     "Script"
   ],
   "expertise_by_source": {
-    "code": {
-      "Infrastructure": 1.0
-    },
     "discussion": {
       "Script": 1.0
+    },
+    "code": {
+      "Infrastructure": 1.0
     },
     "bips": {
       "Infrastructure": 1.0
@@ -101,7 +101,7 @@
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": true,
-  "global_first_active": "2012-01-06T12:04:23",
+  "global_first_active": "2011-07-08T01:36:23",
   "global_last_active": "2013-10-20T23:55:26",
   "github_location": "British Virgin Islands",
   "github_company": "@coilhq",

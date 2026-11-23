@@ -57,7 +57,7 @@
   "avg_pr_ack_velocity_days": 0.026296296296296297,
   "avg_concept_lead_time_days": null,
   "review_reciprocity": 1.0,
-  "hybrid_score": 0.4726,
+  "hybrid_score": 0.4725,
   "p2016_hybrid_score": 0.375,
   "modern_hybrid_score": 0.025,
   "impact_score": 25.0,
@@ -69,8 +69,8 @@
   "delving_threads": 0.0,
   "ml_responses": 9.0,
   "delving_responses": 0.0,
-  "first_active": null,
-  "last_active": null,
+  "first_active": "2014-03-06T16:38:40",
+  "last_active": "2015-06-12T14:42:46",
   "dev_type": "Protocol Designer",
   "expertise_domains": [
     "Script",
@@ -78,12 +78,12 @@
     "Wallet"
   ],
   "expertise_by_source": {
-    "code": {
-      "Infrastructure": 1.0
-    },
     "discussion": {
       "Wallet": 0.746,
       "Script": 0.254
+    },
+    "code": {
+      "Infrastructure": 1.0
     },
     "bips": {
       "Script": 1.0
@@ -104,7 +104,7 @@
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": true,
-  "global_first_active": "2014-03-07T16:55:00",
+  "global_first_active": "2014-03-06T16:38:40",
   "global_last_active": "2016-01-12T18:06:32",
   "github_location": null,
   "github_company": null,

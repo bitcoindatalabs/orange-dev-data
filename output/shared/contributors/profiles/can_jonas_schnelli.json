@@ -63,8 +63,8 @@
   "avg_pr_ack_velocity_days": 13.971309079055322,
   "avg_concept_lead_time_days": 37.47512433087384,
   "review_reciprocity": 5.259615384615385,
-  "hybrid_score": 2.731,
-  "p2016_hybrid_score": 1.8136,
+  "hybrid_score": 2.7309,
+  "p2016_hybrid_score": 1.8133,
   "modern_hybrid_score": 0.2512,
   "impact_score": 81.0,
   "p2016_impact_score": 66.0,
@@ -75,8 +75,8 @@
   "delving_threads": 0.0,
   "ml_responses": 99.0,
   "delving_responses": 0.0,
-  "first_active": null,
-  "last_active": null,
+  "first_active": "2013-10-08T05:31:06",
+  "last_active": "2026-05-07T00:25:09",
   "dev_type": "Protocol Designer",
   "expertise_domains": [
     "Infrastructure",
@@ -84,22 +84,22 @@
     "Wallet"
   ],
   "expertise_by_source": {
-    "code": {
-      "Infrastructure": 0.763,
-      "Wallet": 0.17,
-      "Network": 0.041,
-      "Consensus": 0.018,
-      "Mempool": 0.003,
-      "Cryptography": 0.003,
-      "Script": 0.001
-    },
     "discussion": {
       "Wallet": 0.3,
       "Network": 0.7
     },
+    "code": {
+      "Infrastructure": 0.763,
+      "Cryptography": 0.003,
+      "Consensus": 0.018,
+      "Network": 0.041,
+      "Wallet": 0.17,
+      "Script": 0.001,
+      "Mempool": 0.003
+    },
     "bips": {
-      "Infrastructure": 0.8,
-      "Network": 0.2
+      "Network": 0.2,
+      "Infrastructure": 0.8
     }
   },
   "expertise_domain_scores": {
@@ -118,7 +118,7 @@
   "is_researcher": true,
   "is_bip_author": true,
   "global_first_active": "2011-01-06T13:59:02",
-  "global_last_active": "2025-07-11T11:18:07",
+  "global_last_active": "2026-05-07T00:25:09",
   "github_location": "World",
   "github_company": "Bitcoin Core",
   "github_bio": "Former Bitcoin Core Developer & Maintainer (2013-2021)",

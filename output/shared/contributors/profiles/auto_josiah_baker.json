@@ -71,8 +71,8 @@
   "delving_threads": 0.0,
   "ml_responses": 2.0,
   "delving_responses": 0.0,
-  "first_active": null,
-  "last_active": null,
+  "first_active": "2023-04-21T04:36:08",
+  "last_active": "2023-08-06T09:20:06",
   "dev_type": "Protocol Designer",
   "expertise_domains": [
     "Privacy",
@@ -80,14 +80,14 @@
     "Wallet"
   ],
   "expertise_by_source": {
-    "code": {
-      "Infrastructure": 0.89,
-      "Wallet": 0.09,
-      "Network": 0.01,
-      "Consensus": 0.01
-    },
     "discussion": {
       "Privacy": 1.0
+    },
+    "code": {
+      "Infrastructure": 0.89,
+      "Consensus": 0.01,
+      "Network": 0.01,
+      "Wallet": 0.09
     },
     "bips": {
       "Privacy": 1.0

@@ -57,8 +57,8 @@
   "delving_threads": 0.0,
   "ml_responses": 1.0,
   "delving_responses": 0.0,
-  "first_active": null,
-  "last_active": null,
+  "first_active": "2014-04-24T18:32:15",
+  "last_active": "2015-03-04T23:06:15",
   "dev_type": "Participant",
   "expertise_domains": [
     "Mining",
@@ -66,13 +66,13 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "L2": 0.282,
-      "Mining": 0.718
+      "Mining": 0.718,
+      "L2": 0.282
     }
   },
   "expertise_domain_scores": {
-    "L2": 0.282,
-    "Mining": 0.718
+    "Mining": 0.718,
+    "L2": 0.282
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,
@@ -84,8 +84,8 @@
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": false,
-  "global_first_active": null,
-  "global_last_active": null,
+  "global_first_active": "2014-04-24T18:32:15",
+  "global_last_active": "2015-03-04T23:06:15",
   "github_location": "Austin, Texas, United States",
   "github_company": null,
   "github_bio": "AGI agent orchestrator.",

@@ -57,8 +57,8 @@
   "delving_threads": 0.0,
   "ml_responses": 15.0,
   "delving_responses": 0.0,
-  "first_active": null,
-  "last_active": null,
+  "first_active": "2015-05-07T06:55:49",
+  "last_active": "2016-03-09T17:24:15",
   "dev_type": "Participant",
   "expertise_domains": [
     "Consensus",
@@ -66,13 +66,13 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Mining": 0.395,
-      "Consensus": 0.605
+      "Consensus": 0.605,
+      "Mining": 0.395
     }
   },
   "expertise_domain_scores": {
-    "Mining": 0.395,
-    "Consensus": 0.605
+    "Consensus": 0.605,
+    "Mining": 0.395
   },
   "p2016_posts": 3.0,
   "modern_posts": 0.0,
@@ -84,8 +84,8 @@
   "is_reviewer": false,
   "is_researcher": true,
   "is_bip_author": false,
-  "global_first_active": null,
-  "global_last_active": null,
+  "global_first_active": "2015-05-07T06:55:49",
+  "global_last_active": "2016-03-09T17:24:15",
   "github_location": null,
   "github_company": null,
   "github_bio": null,

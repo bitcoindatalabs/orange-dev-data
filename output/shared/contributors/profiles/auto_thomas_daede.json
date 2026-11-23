@@ -46,7 +46,7 @@
   "avg_concept_lead_time_days": null,
   "review_reciprocity": 1.0,
   "hybrid_score": 0.1038,
-  "p2016_hybrid_score": 0.0265,
+  "p2016_hybrid_score": 0.0264,
   "modern_hybrid_score": 0.0146,
   "impact_score": 6.0,
   "p2016_impact_score": 2.0,
@@ -57,8 +57,8 @@
   "delving_threads": 0.0,
   "ml_responses": 4.0,
   "delving_responses": 0.0,
-  "first_active": null,
-  "last_active": null,
+  "first_active": "2016-08-09T20:09:50",
+  "last_active": "2017-04-09T20:45:24",
   "dev_type": "Builder",
   "expertise_domains": [
     "Infrastructure",
@@ -66,18 +66,18 @@
     "Mining"
   ],
   "expertise_by_source": {
+    "discussion": {
+      "Consensus": 0.5,
+      "Mining": 0.5
+    },
     "code": {
       "Infrastructure": 1.0
-    },
-    "discussion": {
-      "Mining": 0.5,
-      "Consensus": 0.5
     }
   },
   "expertise_domain_scores": {
-    "Infrastructure": 0.6,
+    "Consensus": 0.2,
     "Mining": 0.2,
-    "Consensus": 0.2
+    "Infrastructure": 0.6
   },
   "p2016_posts": 4.0,
   "modern_posts": 0.0,
@@ -90,7 +90,7 @@
   "is_researcher": true,
   "is_bip_author": false,
   "global_first_active": "2015-05-20T04:14:19",
-  "global_last_active": "2015-07-14T15:29:03",
+  "global_last_active": "2017-04-09T20:45:24",
   "github_location": null,
   "github_company": null,
   "github_bio": null,

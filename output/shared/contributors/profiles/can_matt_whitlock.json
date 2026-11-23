@@ -36,7 +36,7 @@
   "tier1_reviews_count": 12.0,
   "tier2_reviews_count": 0.0,
   "p2016_reviews_count": 12.0,
-  "modern_reviews_count": 7.0,
+  "modern_reviews_count": 6.0,
   "first_review_date": "2017-12-29T03:56:36",
   "last_review_date": "2026-02-20T07:56:41",
   "prs_authored": 10.0,
@@ -45,9 +45,9 @@
   "avg_pr_ack_velocity_days": 28.357586805555556,
   "avg_concept_lead_time_days": 37.649475308641975,
   "review_reciprocity": 1.2,
-  "hybrid_score": 0.3864,
+  "hybrid_score": 0.3863,
   "p2016_hybrid_score": 0.2076,
-  "modern_hybrid_score": 0.1559,
+  "modern_hybrid_score": 0.153,
   "impact_score": 21.0,
   "p2016_impact_score": 12.0,
   "modern_impact_score": 9.0,
@@ -57,8 +57,8 @@
   "delving_threads": 0.0,
   "ml_responses": 109.0,
   "delving_responses": 0.0,
-  "first_active": null,
-  "last_active": null,
+  "first_active": "2014-03-29T03:05:17",
+  "last_active": "2015-09-02T14:21:48",
   "dev_type": "Builder",
   "expertise_domains": [
     "Infrastructure",
@@ -66,24 +66,24 @@
     "Mining"
   ],
   "expertise_by_source": {
+    "discussion": {
+      "Mining": 0.345,
+      "Wallet": 0.655
+    },
     "code": {
       "Infrastructure": 0.5,
-      "Network": 0.2,
       "Consensus": 0.1,
+      "Network": 0.2,
       "Mempool": 0.2
-    },
-    "discussion": {
-      "Wallet": 0.655,
-      "Mining": 0.345
     }
   },
   "expertise_domain_scores": {
+    "Consensus": 0.06,
+    "Mining": 0.138,
     "Infrastructure": 0.3,
     "Wallet": 0.262,
-    "Mining": 0.138,
-    "Mempool": 0.12,
-    "Consensus": 0.06,
-    "Network": 0.12
+    "Network": 0.12,
+    "Mempool": 0.12
   },
   "p2016_posts": 0.0,
   "modern_posts": 0.0,
@@ -95,7 +95,7 @@
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": false,
-  "global_first_active": "2017-12-29T03:56:36",
+  "global_first_active": "2014-03-29T03:05:17",
   "global_last_active": "2026-02-20T07:56:41",
   "github_location": "New Hampshire, USA",
   "github_company": null,

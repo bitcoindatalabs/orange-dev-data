@@ -53,19 +53,19 @@
   "avg_pr_ack_velocity_days": 6.189934640522876,
   "avg_concept_lead_time_days": 12.159468981481481,
   "review_reciprocity": 6.326086956521739,
-  "hybrid_score": 0.6799,
+  "hybrid_score": 0.6798,
   "p2016_hybrid_score": 0.7844,
   "modern_hybrid_score": 0.5,
   "impact_score": 33.0,
   "p2016_impact_score": 38.0,
   "modern_impact_score": 26.0,
-  "threads_started": 119.0,
+  "threads_started": 121.0,
   "replies_sent": 310.0,
   "ml_threads": 57.0,
-  "delving_threads": 62.0,
+  "delving_threads": 64.0,
   "ml_responses": 304.0,
   "delving_responses": 6.0,
-  "first_active": null,
+  "first_active": "2020-02-09T16:32:41",
   "last_active": null,
   "dev_type": "Builder",
   "expertise_domains": [
@@ -74,34 +74,34 @@
     "Mempool"
   ],
   "expertise_by_source": {
+    "discussion": {
+      "L2": 0.256,
+      "Script": 0.308,
+      "Mempool": 0.436
+    },
     "code": {
       "Infrastructure": 0.451,
-      "Wallet": 0.426,
-      "Network": 0.067,
       "Consensus": 0.053,
+      "Network": 0.067,
+      "Wallet": 0.426,
       "Mempool": 0.004
-    },
-    "discussion": {
-      "L2": 0.25,
-      "Mempool": 0.45,
-      "Script": 0.3
     }
   },
   "expertise_domain_scores": {
-    "Infrastructure": 0.2704,
-    "L2": 0.0999,
-    "Wallet": 0.2554,
-    "Mempool": 0.1823,
-    "Script": 0.1199,
     "Consensus": 0.0318,
-    "Network": 0.0402
+    "Infrastructure": 0.2704,
+    "Wallet": 0.2554,
+    "L2": 0.1023,
+    "Network": 0.0402,
+    "Script": 0.1231,
+    "Mempool": 0.1767
   },
-  "p2016_posts": 429.0,
+  "p2016_posts": 431.0,
   "modern_posts": 224.0,
   "p2016_ml_posts": 361.0,
-  "p2016_delving_posts": 68.0,
-  "modern_ml_posts": 156.0,
-  "modern_delving_posts": 68.0,
+  "p2016_delving_posts": 70.0,
+  "modern_ml_posts": 154.0,
+  "modern_delving_posts": 70.0,
   "is_engineer": true,
   "is_reviewer": true,
   "is_researcher": true,
@@ -156,10 +156,10 @@
     "link": "https://gnusha.org/pi/bitcoindev/CALZpt+HRuxNxKsdwtyMD=+hE-Tq+8Wt9mLVP0vj9Z+yENg_UJg@mail.gmail.com"
   },
   "last_message": {
-    "source": "mailing_list",
-    "subject": "[bitcoindev] BIP54: On fixing time-warp and the (unsoundness) of the\n forward block idea",
-    "date": "2026-10-31",
-    "link": "https://gnusha.org/pi/bitcoindev/CALZpt+EL_JwYP7iFFWCeVihVV5in7aBOVSc9WcEP6A+DYUALzQ@mail.gmail.com"
+    "source": "delving",
+    "subject": "Open Question on a hypothetical minor \"slow-sliding MTP\" attack introduced by BIP 54",
+    "date": "2026-11-21",
+    "link": "https://delvingbitcoin.org/t/open-question-on-a-hypothetical-minor-slow-sliding-mtp-attack-introduced-by-bip-54/3101/1"
   },
   "social_history": {
     "2020": {
@@ -203,7 +203,7 @@
       "taproot": 14
     },
     "2024": {
-      "other": 66,
+      "other": 67,
       "consensus-cleanup": 14,
       "covenants": 16,
       "lightning": 19,
@@ -225,14 +225,14 @@
       "taproot": 9
     },
     "2026": {
-      "other": 52,
-      "consensus-cleanup": 11,
+      "other": 55,
+      "consensus-cleanup": 13,
       "covenants": 2,
       "lightning": 6,
-      "mempool-fees": 6,
-      "mining": 8,
-      "script-opcodes": 2,
-      "security": 2,
+      "mempool-fees": 7,
+      "mining": 9,
+      "script-opcodes": 3,
+      "security": 3,
       "taproot": 6
     }
   }

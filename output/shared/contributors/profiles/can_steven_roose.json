@@ -58,8 +58,8 @@
   "avg_concept_lead_time_days": 55.268850308641966,
   "review_reciprocity": 1.8823529411764706,
   "hybrid_score": 1.0845,
-  "p2016_hybrid_score": 1.0911,
-  "modern_hybrid_score": 0.7008,
+  "p2016_hybrid_score": 1.091,
+  "modern_hybrid_score": 0.7007,
   "impact_score": 48.0,
   "p2016_impact_score": 48.0,
   "modern_impact_score": 34.0,
@@ -69,8 +69,8 @@
   "delving_threads": 19.0,
   "ml_responses": 3.0,
   "delving_responses": 30.0,
-  "first_active": null,
-  "last_active": "2026-11-12T10:34:19.100000",
+  "first_active": "2019-01-29T16:03:04",
+  "last_active": null,
   "dev_type": "Protocol Designer",
   "expertise_domains": [
     "Consensus",
@@ -78,14 +78,14 @@
     "Script"
   ],
   "expertise_by_source": {
+    "discussion": {
+      "Consensus": 0.255,
+      "Script": 0.745
+    },
     "code": {
       "Infrastructure": 0.75,
-      "Wallet": 0.125,
-      "Consensus": 0.125
-    },
-    "discussion": {
-      "Script": 0.745,
-      "Consensus": 0.255
+      "Consensus": 0.125,
+      "Wallet": 0.125
     },
     "bips": {
       "Infrastructure": 0.25,
@@ -93,10 +93,10 @@
     }
   },
   "expertise_domain_scores": {
+    "Consensus": 0.4635,
     "Infrastructure": 0.35,
     "Wallet": 0.0375,
-    "Script": 0.149,
-    "Consensus": 0.4635
+    "Script": 0.149
   },
   "p2016_posts": 54.0,
   "modern_posts": 32.0,
@@ -109,7 +109,7 @@
   "is_researcher": true,
   "is_bip_author": true,
   "global_first_active": "2014-02-17T14:24:35",
-  "global_last_active": "2026-11-12T10:34:19.100000",
+  "global_last_active": "2026-11-05T17:10:34",
   "github_location": "Portugal",
   "github_company": "second.tech",
   "github_bio": "\"We publish our code so that our fellow Cypherpunks may practice and play with it. Our code is free for all to use, worldwide.\"\r\n- A Cypherpunk's Manifesto",

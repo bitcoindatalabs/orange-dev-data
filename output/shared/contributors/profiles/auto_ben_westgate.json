@@ -47,7 +47,7 @@
   "review_reciprocity": 1.3333333333333333,
   "hybrid_score": 0.226,
   "p2016_hybrid_score": 0.2366,
-  "modern_hybrid_score": 0.2922,
+  "modern_hybrid_score": 0.2917,
   "impact_score": 13.0,
   "p2016_impact_score": 13.0,
   "modern_impact_score": 16.0,
@@ -57,8 +57,8 @@
   "delving_threads": 0.0,
   "ml_responses": 2.0,
   "delving_responses": 0.0,
-  "first_active": null,
-  "last_active": null,
+  "first_active": "2025-08-31T17:25:47",
+  "last_active": "2025-09-02T19:44:07",
   "dev_type": "Builder",
   "expertise_domains": [
     "Infrastructure",
@@ -66,12 +66,12 @@
     "Ecosystem"
   ],
   "expertise_by_source": {
-    "code": {
-      "Infrastructure": 1.0
-    },
     "discussion": {
       "Wallet": 0.86,
       "Ecosystem": 0.14
+    },
+    "code": {
+      "Infrastructure": 1.0
     }
   },
   "expertise_domain_scores": {

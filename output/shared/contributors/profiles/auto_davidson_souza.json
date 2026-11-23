@@ -46,7 +46,7 @@
   "avg_concept_lead_time_days": null,
   "review_reciprocity": null,
   "hybrid_score": 0.0865,
-  "p2016_hybrid_score": 0.0971,
+  "p2016_hybrid_score": 0.097,
   "modern_hybrid_score": 0.058,
   "impact_score": 5.0,
   "p2016_impact_score": 6.0,
@@ -57,8 +57,8 @@
   "delving_threads": 0.0,
   "ml_responses": 2.0,
   "delving_responses": 0.0,
-  "first_active": null,
-  "last_active": null,
+  "first_active": "2023-07-31T12:47:26",
+  "last_active": "2023-08-03T15:34:04",
   "dev_type": "Participant",
   "expertise_domains": [
     "Mining"

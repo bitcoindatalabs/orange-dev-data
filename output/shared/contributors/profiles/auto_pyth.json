@@ -59,7 +59,7 @@
   "review_reciprocity": null,
   "hybrid_score": 0.5654,
   "p2016_hybrid_score": 0.5711,
-  "modern_hybrid_score": 0.6113,
+  "modern_hybrid_score": 0.611,
   "impact_score": 29.0,
   "p2016_impact_score": 29.0,
   "modern_impact_score": 31.0,
@@ -69,8 +69,8 @@
   "delving_threads": 11.0,
   "ml_responses": 2.0,
   "delving_responses": 13.0,
-  "first_active": "2025-07-10T04:18:41.418000",
-  "last_active": null,
+  "first_active": null,
+  "last_active": "2026-11-12T02:50:06",
   "dev_type": "Participant",
   "expertise_domains": [
     "Wallet",
@@ -79,8 +79,8 @@
   ],
   "expertise_by_source": {
     "discussion": {
-      "Wallet": 0.426,
       "Mining": 0.213,
+      "Wallet": 0.426,
       "Script": 0.362
     },
     "bips": {
@@ -88,8 +88,8 @@
     }
   },
   "expertise_domain_scores": {
-    "Wallet": 0.8358,
     "Mining": 0.0608,
+    "Wallet": 0.8358,
     "Script": 0.1034
   },
   "p2016_posts": 30.0,
@@ -102,8 +102,8 @@
   "is_reviewer": false,
   "is_researcher": true,
   "is_bip_author": true,
-  "global_first_active": "2025-07-10T04:18:41.418000",
-  "global_last_active": "2026-10-24T10:11:13",
+  "global_first_active": "2025-08-22T04:59:20",
+  "global_last_active": "2026-11-12T02:50:06",
   "github_location": null,
   "github_company": null,
   "github_bio": null,

@@ -59,9 +59,9 @@
   "avg_pr_ack_velocity_days": 0.5503285751028807,
   "avg_concept_lead_time_days": 0.613275462962963,
   "review_reciprocity": 3.625,
-  "hybrid_score": 0.91,
+  "hybrid_score": 0.9099,
   "p2016_hybrid_score": 0.6774,
-  "modern_hybrid_score": 0.4456,
+  "modern_hybrid_score": 0.4455,
   "impact_score": 42.0,
   "p2016_impact_score": 33.0,
   "modern_impact_score": 23.0,
@@ -71,8 +71,8 @@
   "delving_threads": 44.0,
   "ml_responses": 153.0,
   "delving_responses": 41.0,
-  "first_active": null,
-  "last_active": null,
+  "first_active": "2014-05-21T15:25:02",
+  "last_active": "2025-11-19T00:25:27",
   "dev_type": "Protocol Designer",
   "expertise_domains": [
     "Infrastructure",
@@ -80,38 +80,38 @@
     "Mining"
   ],
   "expertise_by_source": {
+    "discussion": {
+      "Mining": 0.294,
+      "L2": 0.235,
+      "Mempool": 0.471
+    },
     "code": {
       "Infrastructure": 0.833,
       "Wallet": 0.167
-    },
-    "discussion": {
-      "L2": 0.235,
-      "Mining": 0.294,
-      "Mempool": 0.471
     },
     "bips": {
       "Infrastructure": 1.0
     }
   },
   "expertise_domain_scores": {
-    "Infrastructure": 0.7499,
-    "L2": 0.047,
-    "Wallet": 0.0501,
     "Mining": 0.0588,
+    "Infrastructure": 0.7499,
+    "Wallet": 0.0501,
+    "L2": 0.047,
     "Mempool": 0.0942
   },
   "p2016_posts": 236.0,
-  "modern_posts": 113.0,
+  "modern_posts": 112.0,
   "p2016_ml_posts": 151.0,
   "p2016_delving_posts": 85.0,
   "modern_ml_posts": 31.0,
-  "modern_delving_posts": 82.0,
+  "modern_delving_posts": 81.0,
   "is_engineer": true,
   "is_reviewer": true,
   "is_researcher": true,
   "is_bip_author": true,
   "global_first_active": "2014-04-27T00:27:21",
-  "global_last_active": "2025-06-10T18:49:19",
+  "global_last_active": "2025-11-19T00:25:27",
   "github_location": "Hilo, HI, USA",
   "github_company": null,
   "github_bio": "PGP: 19E929169F3D1E6443AD315D0A3F3DCAD0DE98BD",
@@ -245,7 +245,7 @@
       "mining": 28,
       "script-opcodes": 19,
       "security": 16,
-      "soft-fork-activation": 11,
+      "soft-fork-activation": 18,
       "taproot": 11
     },
     "2025": {
@@ -256,7 +256,7 @@
       "mining": 10,
       "script-opcodes": 4,
       "security": 6,
-      "soft-fork-activation": 6,
+      "soft-fork-activation": 7,
       "taproot": 3
     }
   }
