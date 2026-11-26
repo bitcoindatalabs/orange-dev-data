@@ -1,5 +1,104 @@
 [
   {
+    "date": "2026-11-26",
+    "url": "https://achow101.com/ircmeetings/2026/bitcoin-core-dev.2026-11-26_16_00.log.json",
+    "participant_count": 19,
+    "key_participants": [
+      "fanquake",
+      "fjahr",
+      "sedited",
+      "brunoerg",
+      "jonatack",
+      "abubakarsadiq"
+    ],
+    "active_participants": [
+      "fanquake",
+      "fjahr",
+      "sedited",
+      "brunoerg",
+      "jonatack",
+      "abubakarsadiq",
+      "sipa",
+      "maxedw"
+    ],
+    "topics_discussed": [
+      "Kernel WG Update & Formal Verification (sedited): Test improvements still being worked on (PR 36692). sedited is designing a new validation engine. Also, sedited has been using clankers to write TLA+ specifications for code review and writing, which uncovered bugs. Shared Antithesis blog post on verifying formal models.",
+      "QA WG Update (brunoerg): `bcore-mutation-rag` (historical-bug-based mutation testing using LLMs, RAG, embedding) is being developed. `bcore-mutation-plan` (automating mutation testing for PRs) is being worked on with viniciuscestarii. Ephyra (agentic property-based testing) is being tried on the codebase, finding interesting bugs, with initial use for cluster mempool and TxGraph.",
+      "BIP Editors Discussion (fanquake): 2 new BIP editors have been proposed (Edil & Daniela). Discussion is open on the `bitcoindev` mailing list.",
+      "BIP 54 Implementation (fanquake): Increased activity in PR 35793 (Implement BIP 54 (Consensus Cleanup) without mainnet activation by darosior). Code appears stable, with nits/changes punted to followups. Call for review and testing on Testnet 5.",
+      "Mainnet Seeds (fanquake): PR 36818 (seeds: drop 21.ninja as a makeseeds source by 0xB10C) pointed out a potential single current source of mainnet seeds. If Virtu doesn't return, a new seed will be needed for v33 and backported to release branches. willcl-ark was mentioned as running infra; call for other volunteers.",
+      "Anthropics OSS Scanner (fanquake): Bitcoin Core is enrolled in Anthropics oss-scanner. An initial report has been received, detailing 10 medium and 23 low-severity findings (mixture of new and known issues). Developers are working through the report, which is considered high quality."
+    ],
+    "decisions_made": [],
+    "action_items": [
+      "Review/weigh in on BIP editor proposals (Edil & Daniela) on the `bitcoindev` mailing list.",
+      "Review/test PR 35793 (BIP 54 implementation) on Testnet 5.",
+      "Volunteer to run a mainnet seed in PR 36818 if running infra.",
+      "Work through Anthropics OSS scanner report findings."
+    ],
+    "mentioned_prs": [
+      36692,
+      35793,
+      36818
+    ],
+    "card_topics": [
+      "Kernel WG & Formal Verification: sedited working on test improvements (PR 36692), designing new validation engine, and using clankers for TLA+ specs.",
+      "QA WG & Mutation Testing: brunoerg developing `bcore-mutation-rag` (LLM-based historical bug testing) and `bcore-mutation-plan` (PR automation with viniciuscestarii).",
+      "BIP Editors: Discussion on `bitcoindev` mailing list for 2 new proposed editors, Edil & Daniela, with calls for community input on the thread.",
+      "BIP 54 Implementation: PR 35793 (darosior) for Consensus Cleanup is stable; review and Testnet 5 testing encouraged to validate rules.",
+      "Mainnet Seeds: PR 36818 (0xB10C) highlights single seed source; new seed needed for v33 if Virtu doesn't return, volunteers requested.",
+      "Security Audit: Anthropics OSS scanner provided a report with 10 medium, 23 low findings, currently being addressed by developers."
+    ],
+    "spotlight_debate": "BIP 54 Implementation: PR 35793 (darosior) for Consensus Cleanup is stable; review and Testnet 5 testing encouraged to validate rules.",
+    "referenced_artifacts": [
+      {
+        "label": "bcore-mutation-rag",
+        "icon": "code"
+      },
+      {
+        "label": "bcore-mutation-plan",
+        "icon": "code"
+      },
+      {
+        "label": "Ephyra",
+        "icon": "code"
+      },
+      {
+        "label": "TLA+",
+        "icon": "code"
+      },
+      {
+        "label": "bitcoindev",
+        "icon": "envelope"
+      },
+      {
+        "label": "Testnet 5",
+        "icon": "network-wired"
+      },
+      {
+        "label": "v33",
+        "icon": "tag"
+      },
+      {
+        "label": "Anthropics OSS Scanner",
+        "icon": "shield-alt"
+      },
+      {
+        "label": "Antithesis Blog",
+        "icon": "blog"
+      }
+    ],
+    "narrative_summary": "Bitcoin Core engineering sync noted ongoing test improvements, with PR 36692 by sedited. The BIP 54 (Consensus Cleanup) implementation in PR 35793 by darosior is stable, with calls for developer review and Testnet 5 testing. PR 36818 by 0xB10C highlighted a potential single mainnet seed source, prompting a request for new seed volunteers for v33 and backports.\n\nQA tooling saw brunoerg detail `bcore-mutation-rag`, a historical-bug-based mutation testing tool using LLMs, and `bcore-mutation-plan` with viniciuscestarii for PR automation. Ephyra property-based testing found bugs. sedited reported using clankers to generate TLA+ specifications for code review, uncovering issues, and shared an Antithesis blog on formal model verification.\n\nDiscussion opened on the `bitcoindev` mailing list regarding two proposed new BIP editors, Edil and Daniela. Bitcoin Core is enrolled in the Anthropics OSS scanner, which delivered a report detailing 10 medium and 23 low-severity findings, currently being addressed. Reports were noted as high quality, including both known and new issues.",
+    "x_priority_takeaway": "Review BIP 54 PR 35793 and volunteer for mainnet seeds.",
+    "x_bullet_points": [
+      "BIP 54 review needed",
+      "New seed volunteers",
+      "Mutation testing advances"
+    ],
+    "linkedin_context": "Bitcoin Core engineering sync noted ongoing test improvements, with PR 36692 by sedited. The BIP 54 (Consensus Cleanup) implementation in PR 35793 by darosior is stable, with calls for developer review and Testnet 5 testing. PR 36818 by 0xB10C highlighted a potential single mainnet seed source, prompting a request for new seed volunteers for v33 and backports.\n\nQA tooling saw brunoerg detail `bcore-mutation-rag`, a historical-bug-based mutation testing tool using LLMs, and `bcore-mutation-plan` with viniciuscestarii for PR automation. Ephyra property-based testing found bugs. sedited reported using clankers to generate TLA+ specifications for code review, uncovering issues, and shared an Antithesis blog on formal model verification.\n\nDiscussion opened on the `bitcoindev` mailing list regarding two proposed new BIP editors, Edil and Daniela. Bitcoin Core is enrolled in the Anthropics OSS scanner, which delivered a report detailing 10 medium and 23 low-severity findings, currently being addressed. Reports were noted as high quality, including both known and new issues.",
+    "_text_hash": "7ba7218d33b3af1fd9e54bb765cc6238"
+  },
+  {
     "date": "2026-11-19",
     "url": "https://achow101.com/ircmeetings/2026/bitcoin-core-dev.2026-11-19_16_00.log.json",
     "participant_count": 15,
